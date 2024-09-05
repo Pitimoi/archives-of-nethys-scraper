@@ -1,71 +1,117 @@
 {
  "ac": 39,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  32,
+  32,
+  32
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 7,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Soul Siphon",
-  "Displacement",
+  "Bent Light",
   "Devour Soul",
   "Essence Drain"
  ],
  "creature_family": "Daemon",
- "creature_family_markdown": "[Daemon](/MonsterFamilies.aspx?ID=26)",
+ "creature_family_markdown": "[Daemon](/MonsterFamilies.aspx?ID=386)",
  "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 27,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 240,
  "hp_raw": "240",
- "id": "creature-91",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2894",
  "image": [
-  "/Images/Monsters/Daemon_Astradaemon.png"
+  "/Images/Monsters/Astradaemon.webp"
  ],
  "immunity": [
   "death  effects",
-  "negative"
+  "void"
  ],
- "immunity_markdown": "[death](/Traits.aspx?ID=40) effects, [negative](/Traits.aspx?ID=118)\r\n",
+ "immunity_markdown": "[death](/Traits.aspx?ID=571) effects, [void](/Traits.aspx?ID=510)",
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Common",
   "Daemonic",
-  "telepathy 100 feet"
+  "<%UMR%79%%>telepathy<%END> 100 feet"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Daemonic](/Languages.aspx?ID=31); telepathy 100 feet",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Daemonic](/Languages.aspx?ID=31); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet",
+ "legacy_id": "creature-91",
  "level": 16,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Astradaemon (Void Daemon)](/Monsters.aspx?ID=91)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese unnerving, almost reptilian daemons represent death by direct assault against a soul or life-force—the same numbing death they bring with their fell touch. Rarely seen on the Material Plane, astradaemons spend most of their time hunting the pathways between the living world and the afterlife. There, they capture migrating souls, snatching them from their rightful rewards or punishments and dragging them to Abaddon as tribute to their undying masters. These horrifying predators of the dead can also be found stalking the banks of the River of Souls in the Astral Plane, where they constantly hunt for new victims. Psychopomps have a particular hatred of astradaemons as a result, and clashes between them and these eerie hunters of the recently departed are indeed the stuff of legend.\n\n Not all astradaemons limit their hunt to souls. The most notorious of their kind serve the Horsemen themselves as assassins.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 35\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 33\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 30\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Daemon_Astradaemon.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Astradaemon](/Monsters.aspx?ID=91)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=213\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 73</row>\n\n**Perception** +28; darkvision, lifesense 30 feet, [true seeing](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Daemonic](/Languages.aspx?ID=31); telepathy 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +28, [Intimidation](/Skills.aspx?ID=7) +33, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +28, [Survival](/Skills.aspx?ID=16) +26\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +6\r\n\r\n**Con** +7\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +7\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 39 \r\n\r\n**Fort** +27 \r\n\r\n**Ref** +30 \r\n\r\n**Will** +26 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 240\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [negative](/Traits.aspx?ID=118)\n\n**Weaknesses**\r\ngood 15\r\n\r\n**Soul Siphon** ([aura](/Traits.aspx?ID=206), [divine](/Traits.aspx?ID=48), [force](/Traits.aspx?ID=75), [necromancy](/Traits.aspx?ID=117)) 30 feet. An astradaemon draws power from the souls of the recently slain. If a Small or larger living creature dies within its aura, the astradaemon gains 5 temporary Hit Points and a +1 status bonus to attack and damage rolls for 1 round, unless the creature was slain by an astradaemon’s Devour Soul ability. Incorporeal undead and living spirits traveling outside the body take 1d8 force damage each round within the daemon’s aura from the spiritual pressure as the astradaemon pulls in fragments of their soul.<br /> **Displacement** ([divine](/Traits.aspx?ID=48), [illusion](/Traits.aspx?ID=92), [visual](/Traits.aspx?ID=163)) An astradaemon bends light, appearing shifted from its true position, though still in the same space. Creatures targeting the astradaemon must attempt a DC 11 flat check, as if the astradaemon were hidden, even though it remains observed. Effects such as the Blind-Fight feat and halfling’s keen eyes that apply on the flat check against hidden creatures also apply against a displaced astradaemon.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 60 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +32 ([Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+9 piercing plus 1d6 evil, essence drain, and [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +32 ([Agile](/Traits.aspx?ID=170), [Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+9 slashing plus 1d6 evil and Essence Drain\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +32 ([Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+9 bludgeoning plus 1d6 evil and Essence Drain\r\n\r\n**Divine Innate Spells** DC 37\r\n- **1st**\r\n[Detect Alignment](/Spells.aspx?ID=65) (at will; good only)\r\n- **4th**\r\n[Dimension Door](/Spells.aspx?ID=69) (at will)\r\n- **5th**\r\n[Dimension Door](/Spells.aspx?ID=69)\r\n- **7th**\r\n[Plane Shift](/Spells.aspx?ID=222) (x2)\r\n- **8th**\r\n[Discern Location](/Spells.aspx?ID=75), [Finger of Death](/Spells.aspx?ID=116)\r\n- **Constant (6th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Devour Soul** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Incapacitation](/Traits.aspx?ID=93), [Necromancy](/Traits.aspx?ID=117)) **Requirements** The astradaemon hasn’t used an action with the attack trait yet this turn. **Effect** The astradaemon draws out and consumes the soul of a living creature it has grabbed. The creature must succeed at a DC 35 Fortitude save or instantly die. If it dies, the astradaemon gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls for 1 minute, or for 1 day if the victim was 15th level or higher. A victim slain in this way can be returned to life normally. A creature that survives is temporarily immune for 1 minute.\r\n\r\n**Essence Drain**  ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118)) When an astradaemon hits with its claw, jaws, or tail, it drains the target’s spiritual and vital essences. The target takes 2d10 negative energy damage and the astradaemon regains an equal number of Hit Points. The target must succeed at a DC 37 Fortitude save or become [doomed 1](/Conditions.aspx?ID=9) and [drained 1](/Conditions.aspx?ID=10). If the target was already drained or doomed, it instead increases both conditions’ value by 1, to a maximum of 4.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-26\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Astradaemon (Void Daemon)](/Monsters.aspx?ID=2894)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese unnerving daemons represent death by direct assault against a soul or life-force. Rarely seen in the mortal [Universe](/Planes.aspx?ID=26), astradaemons spend most of their time hunting the pathways between the living world and the afterlife. There, they capture migrating souls, snatching them from their rightful rewards or punishments and dragging them to [Abaddon](/Planes.aspx?ID=37) as tribute to their undying masters. These horrifying predators of the dead can also be found stalking the banks of the River of Souls in the [Astral Plane](/Equipment.aspx?ID=2832), where they constantly hunt for new victims.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 35\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 33\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 30\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Astradaemon.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Astradaemon](/Monsters.aspx?ID=2894)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=568\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 75\n\n**Perception** +28; [darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 30 feet, [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Daemonic](/Languages.aspx?ID=31); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +32, [Intimidation](/Skills.aspx?ID=7) +33, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +28, [Survival](/Skills.aspx?ID=16) +26\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +6\r\n\r\n**Con** +7\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +7\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 39 \r\n\r\n**Fort** +27 \r\n\r\n**Ref** +30 \r\n\r\n**Will** +26 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=571) effects, [void](/Traits.aspx?ID=510)\n\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 15\r\n\r\n**Soul Siphon** ([aura](/Traits.aspx?ID=542), [divine](/Traits.aspx?ID=579), [force](/Traits.aspx?ID=610)) 30 feet. An astradaemon draws power from the souls of the recently slain. If a Small or larger living creature dies within their aura, the astradaemon gains 5 temporary Hit Points and a +1 status bonus to attack and damage rolls for 1 round, unless the creature was slain by an astradaemon's Devour Soul ability. [Incorporeal](/Traits.aspx?ID=632) [undead](/Traits.aspx?ID=722) and living spirits that are traveling outside a body take 1d8 spirit damage each round within the daemon's aura as the astradaemon pulls in fragments of their soul.<br />**Bent Light** ([divine](/Traits.aspx?ID=579), [illusion](/Traits.aspx?ID=629), [visual](/Traits.aspx?ID=727)) An astradaemon appears shifted from their true position, though still in the same space. Creatures targeting the astradaemon must succeed at a DC 11 flat check to do so, as if the astradaemon were [hidden](/Conditions.aspx?ID=79), even though the astradaemon remains [observed](/Conditions.aspx?ID=84). Abilities that apply to the flat check against hidden creatures also apply against bent light.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 60 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +32 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 3d6+8 piercing plus essence drain and [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +32 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d6+8 slashing plus essence drain\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +32 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 3d10+8 bludgeoning plus essence drain\r\n\r\n**Divine Innate Spells** DC 37\r\n- **4th**\r\n[Translocate](/Spells.aspx?ID=1724) (at will)\r\n- **7th**\r\n[Interplanar Teleport](/Spells.aspx?ID=1576) (×2), [Translocate](/Spells.aspx?ID=1724)\r\n- **8th**\r\n[Execute](/Spells.aspx?ID=1519), [Pinpoint](/Spells.aspx?ID=1633)\r\n- **Constant (6th)**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n\r\n**Devour Soul** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Incapacitation](/Traits.aspx?ID=93)) **Requirements** The astradaemon hasn't used an action with the [attack](/Traits.aspx?ID=540) trait yet this turn; **Effect** The astradaemon draws out and consumes the soul of a living creature they have [grabbed](/Conditions.aspx?ID=77). The creature must succeed at a DC 35 Fortitude save or instantly die. If it dies, the astradaemon gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls for 1 minute, or for 1 day if the victim was 15th level or higher. A victim slain in this way can be returned to life normally. A creature that survives is temporarily immune for 1 minute.\r\n\r\n**Essence Drain**  ([Divine](/Traits.aspx?ID=48), [Void](/Traits.aspx?ID=510)) When an astradaemon hits with their claw, jaws, or tail, they drain the target's spiritual and vital essences. The target takes 2d10 void damage and the astradaemon regains an equal number of Hit Points. The target must succeed at a DC 37 Fortitude save or become [doomed 1](/Conditions.aspx?ID=67) and [drained 1](/Conditions.aspx?ID=68). If the target was already drained or doomed, it instead increases both conditions' value by 1, to a maximum of 4.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-386\" />",
  "name": "Astradaemon",
  "npc": false,
  "perception": 28,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 75",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 30,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=213\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 73</row>\r\n\r\n**Creature Family** [Daemon](/MonsterFamilies.aspx?ID=26)\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n\r\n**AC** 39\r\n\r\n**Fort** +27\r\n\r\n**Ref** +30\r\n\r\n**Will** +26\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese unnerving, almost reptilian daemons represent death by direct assault against a soul or life-force—the same numbing death they bring with their …\r\n</summary>",
- "sense": "darkvision, lifesense 30 feet,  true seeing ",
- "sense_markdown": "darkvision, lifesense 30 feet, [true seeing](/Spells.aspx?ID=344)",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=568\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 75\r\n\r\n**Creature Family** [Daemon](/MonsterFamilies.aspx?ID=386)\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n\r\n**AC** 39\r\n\r\n**Fort** +27\r\n\r\n**Ref** +30\r\n\r\n**Will** +26\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese unnerving daemons represent death by direct assault against a soul or life-force. Rarely seen in the mortal  Universe , astradaemons spend most …\r\n</summary>",
+ "sense": " darkvision ,  lifesense  30 feet,   truesight  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 30 feet, [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Large"
  ],
- "skill": [
-  "Acrobatics +28",
-  "Intimidation +33",
-  "Religion +26",
-  "Stealth +28",
-  "Survival +26"
+ "size_id": [
+  4
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +28, [Intimidation](/Skills.aspx?ID=7) +33, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +28, [Survival](/Skills.aspx?ID=16) +26",
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Religion",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +32, [Intimidation](/Skills.aspx?ID=7) +33, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +28, [Survival](/Skills.aspx?ID=16) +26",
+ "skill_mod": {
+  "acrobatics": 28,
+  "athletics": 32,
+  "intimidation": 33,
+  "religion": 26,
+  "stealth": 28,
+  "survival": 26
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 73"
+  "Monster Core pg. 75"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 73</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 75",
  "speed": {
   "fly": 60,
   "land": 60,
@@ -74,45 +120,79 @@
  "speed_markdown": "60 feet, fly 60 feet",
  "speed_raw": "60 feet, fly 60 feet",
  "spell": [
-  "Discern Location",
-  "Finger of Death",
-  "Plane Shift",
-  "Dimension Door",
-  "Detect Alignment",
-  "True Seeing"
+  "Execute",
+  "Pinpoint",
+  "Interplanar Teleport",
+  "Translocate",
+  "Truesight"
  ],
- "spell_markdown": "[Detect Alignment](/Spells.aspx?ID=65), [Dimension Door](/Spells.aspx?ID=69), [Discern Location](/Spells.aspx?ID=75), [Finger of Death](/Spells.aspx?ID=116), [Plane Shift](/Spells.aspx?ID=222), [True Seeing](/Spells.aspx?ID=344)",
+ "spell_markdown": "[Execute](/Spells.aspx?ID=1519), [Interplanar Teleport](/Spells.aspx?ID=1576), [Pinpoint](/Spells.aspx?ID=1633), [Translocate](/Spells.aspx?ID=1724), [Truesight](/Spells.aspx?ID=1727)",
+ "spell_dc": [
+  37
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "28",
- "strength": 5,
+ "strike_damage_average": [
+  15,
+  18,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 8,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "These unnerving, almost reptilian daemons represent death by direct assault against a soul or life-force—the same numbing death they bring with their …",
- "summary_markdown": "These unnerving, almost reptilian daemons represent death by direct assault against a soul or life-force—the same numbing death they bring with their …",
- "text": " Astradaemon (Void Daemon) These unnerving, almost reptilian daemons represent death by direct assault against a soul or life-force—the same numbing death they bring with their fell touch. Rarely seen on the Material Plane, astradaemons spend most of their time hunting the pathways between the living world and the afterlife. There, they capture migrating souls, snatching them from their rightful rewards or punishments and dragging them to Abaddon as tribute to their undying masters. These horrifying predators of the dead can also be found stalking the banks of the River of Souls in the Astral Plane, where they constantly hunt for new victims. Psychopomps have a particular hatred of astradaemons as a result, and clashes between them and these eerie hunters of the recently departed are indeed the stuff of legend. Not all astradaemons limit their hunt to souls. The most notorious of their kind serve the Horsemen themselves as assassins. Recall Knowledge - Fiend (Religion): DC 35 Unspecific Lore : DC 33 Specific Lore : DC 30 Astradaemon Source Bestiary pg. 73 Perception +28; darkvision, lifesense 30 feet, true seeing Languages Common, Daemonic; telepathy 100 feet Skills Acrobatics +28, Intimidation +33, Religion +26, Stealth +28, Survival +26 Str +5 Dex +6 Con +7 Int +2 Wis +4 Cha +7 --- AC 39 Fort +27 Ref +30 Will +26 +1 status to all saves vs. magic HP 240 Immunities death effects, negative Weaknesses good 15 Soul Siphon (aura, divine, force, necromancy) 30 feet. An astradaemon draws power from the souls of the recently slain. If a Small or larger living creature dies within its aura, the astradaemon gains 5 temporary Hit Points and a +1 status bonus to attack and damage rolls for 1 round, unless the creature was slain by an astradaemon’s Devour Soul ability. Incorporeal undead and living spirits traveling outside the body take 1d8 force damage each round within the daemon’s aura from the spiritual pressure as the astradaemon pulls in fragments of their soul. Displacement (divine, illusion, visual) An astradaemon bends light, appearing shifted from its true position, though still in the same space. Creatures targeting the astradaemon must attempt a DC 11 flat check, as if the astradaemon were hidden, even though it remains observed. Effects such as the Blind-Fight feat and halfling’s keen eyes that apply on the flat check against hidden creatures also apply against a displaced astradaemon. --- Speed 60 feet, fly 60 feet Melee Single Action jaws +32 (Evil, Magical, reach 10 feet), Damage 3d8+9 piercing plus 1d6 evil, essence drain, and Grab Melee Single Action claw +32 (Agile, Evil, Magical, reach 10 feet), Damage 3d6+9 slashing plus 1d6 evil and Essence Drain Melee Single Action tail +32 (Evil, Magical, reach 15 feet), Damage 3d10+9 bludgeoning plus 1d6 evil and Essence Drain Divine Innate Spells DC 37 - 1st Detect Alignment (at will; good only) - 4th Dimension Door (at will) - 5th Dimension Door - 7th Plane Shift (x2) - 8th Discern Location, Finger of Death - Constant (6th) True Seeing Devour Soul Single Action (Divine, Incapacitation, Necromancy) Requirements The astradaemon hasn’t used an action with the attack trait yet this turn. Effect The astradaemon draws out and consumes the soul of a living creature it has grabbed. The creature must succeed at a DC 35 Fortitude save or instantly die. If it dies, the astradaemon gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls for 1 minute, or for 1 day if the victim was 15th level or higher. A victim slain in this way can be returned to life normally. A creature that survives is temporarily immune for 1 minute. Essence Drain (Divine, Necromancy, Negative) When an astradaemon hits with its claw, jaws, or tail, it drains the target’s spiritual and vital essences. The target takes 2d10 negative energy damage and the astradaemon regains an equal number of Hit Points. The target must succeed at a DC 37 Fortitude save or become doomed 1 and drained 1. If the target was already drained or doomed, it instead increases both conditions’ value by 1, to a maximum of 4. ",
+ "summary": "These unnerving daemons represent death by direct assault against a soul or life-force. Rarely seen in the mortal  Universe , astradaemons spend most …",
+ "summary_markdown": "These unnerving daemons represent death by direct assault against a soul or life-force. Rarely seen in the mortal  Universe , astradaemons spend most …",
+ "text": " Astradaemon (Void Daemon) These unnerving daemons represent death by direct assault against a soul or life-force. Rarely seen in the mortal Universe, astradaemons spend most of their time hunting the pathways between the living world and the afterlife. There, they capture migrating souls, snatching them from their rightful rewards or punishments and dragging them to Abaddon as tribute to their undying masters. These horrifying predators of the dead can also be found stalking the banks of the River of Souls in the Astral Plane, where they constantly hunt for new victims. Recall Knowledge - Fiend (Religion): DC 35 Unspecific Lore : DC 33 Specific Lore : DC 30 Astradaemon Source Monster Core pg. 75 Perception +28; darkvision, lifesense 30 feet, truesight Languages Common, Daemonic; telepathy 100 feet Skills Acrobatics +28, Athletics +32, Intimidation +33, Religion +26, Stealth +28, Survival +26 Str +8 Dex +6 Con +7 Int +2 Wis +4 Cha +7 --- AC 39 Fort +27 Ref +30 Will +26 +1 status to all saves vs. magic HP 240 Immunities death effects, void Weaknesses holy 15 Soul Siphon (aura, divine, force) 30 feet. An astradaemon draws power from the souls of the recently slain. If a Small or larger living creature dies within their aura, the astradaemon gains 5 temporary Hit Points and a +1 status bonus to attack and damage rolls for 1 round, unless the creature was slain by an astradaemon's Devour Soul ability. Incorporeal undead and living spirits that are traveling outside a body take 1d8 spirit damage each round within the daemon's aura as the astradaemon pulls in fragments of their soul. Bent Light (divine, illusion, visual) An astradaemon appears shifted from their true position, though still in the same space. Creatures targeting the astradaemon must succeed at a DC 11 flat check to do so, as if the astradaemon were hidden, even though the astradaemon remains observed. Abilities that apply to the flat check against hidden creatures also apply against bent light. --- Speed 60 feet, fly 60 feet Melee Single Action jaws +32 (Magical, reach 10 feet, Unholy), Damage 3d6+8 piercing plus essence drain and Grab Melee Single Action claw +32 (Agile, Magical, reach 10 feet, Unholy), Damage 2d6+8 slashing plus essence drain Melee Single Action tail +32 (Magical, reach 15 feet, Unholy), Damage 3d10+8 bludgeoning plus essence drain Divine Innate Spells DC 37 - 4th Translocate (at will) - 7th Interplanar Teleport (×2), Translocate - 8th Execute, Pinpoint - Constant (6th) Truesight Devour Soul Single Action (Divine, Incapacitation) Requirements The astradaemon hasn't used an action with the attack trait yet this turn; Effect The astradaemon draws out and consumes the soul of a living creature they have grabbed. The creature must succeed at a DC 35 Fortitude save or instantly die. If it dies, the astradaemon gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls for 1 minute, or for 1 day if the victim was 15th level or higher. A victim slain in this way can be returned to life normally. A creature that survives is temporarily immune for 1 minute. Essence Drain (Divine, Void) When an astradaemon hits with their claw, jaws, or tail, they drain the target's spiritual and vital essences. The target takes 2d10 void damage and the astradaemon regains an equal number of Hit Points. The target must succeed at a DC 37 Fortitude save or become doomed 1 and drained 1. If the target was already drained or doomed, it instead increases both conditions' value by 1, to a maximum of 4. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Daemon",
   "Fiend",
-  "NE",
+  "Unholy",
   "Large"
  ],
- "trait_markdown": "[Daemon](/Traits.aspx?ID=213), [Fiend](/Traits.aspx?ID=70)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Daemon](/Traits.aspx?ID=568), [Fiend](/Traits.aspx?ID=600), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Daemon",
-  "Fiend"
+  "Fiend",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=91",
+ "url": "/Monsters.aspx?ID=2894",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {
-  "good": 15
+  "holy": 15
  },
- "weakness_markdown": "good 15",
- "weakness_raw": "good 15",
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 15",
+ "weakness_raw": " holy  15",
  "will_save": 26,
- "wisdom": 4
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

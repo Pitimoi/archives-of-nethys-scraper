@@ -1,72 +1,126 @@
 {
  "ac": 35,
- "alignment": "CG",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  27,
+  27
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 8,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Nature Empathy",
   "Tied to the Land",
-  "Nymph’s Beauty",
+  "Nymph's Beauty",
   "Change Shape",
   "Focus Beauty",
   "Inspiration",
   "Tree Meld"
  ],
  "creature_family": "Nymph",
- "creature_family_markdown": "[Nymph](/MonsterFamilies.aspx?ID=77)",
+ "creature_family_markdown": "[Nymph](/MonsterFamilies.aspx?ID=449)",
  "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Wood"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 24,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 220,
  "hp_raw": "220",
- "id": "creature-314",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3114",
+ "image": [
+  "/Images/Monsters/Dryad_Queen.webp"
+ ],
  "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Common",
   "Elven",
-  "Sylvan",
-  "<%SPELLS%294%%><i>speak with plants</i><%END>"
+  "Fey",
+  "Muan"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Fey](/Languages.aspx?ID=119), [Muan](/Languages.aspx?ID=108)",
+ "legacy_id": "creature-314",
  "level": 13,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Dryad Queen (Hamadryad)](/Monsters.aspx?ID=314)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nHamadryads rule over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Hamadryads often have strange relationships with powerful and deadly fey, working together in a dualistic way despite their differences, with the hamadryad representing nature’s wonders and the other fey representing nature’s wrath.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 33\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 33\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 31\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 28\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Dryad Queen](/Monsters.aspx?ID=314)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=230\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 249</row>\n\n**Perception** +25; low-light vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +25, [Athletics](/Skills.aspx?ID=3) +19, [Crafting](/Skills.aspx?ID=4) +23, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +30, [Intimidation](/Skills.aspx?ID=7) +27, [Nature](/Skills.aspx?ID=10) +24, [Performance](/Skills.aspx?ID=12) +28, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +24\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +6\r\n\r\n**Con** +6\r\n\r\n**Int** +4\r\n\r\n**Wis** +4\r\n\r\n**Cha** +8\r\n</row>\r\n\r\n**Nature Empathy** The dryad can use Diplomacy to Make an Impression on and make very simple Requests of animals and plants.<br /> **Tied to the Land**\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 35 \r\n\r\n**Fort** +24 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +24 \n\n</row>\r\n\r\n**HP** 220\n\n**Weaknesses**\r\ncold iron 10, fire 10\r\n\r\n**Nymph’s Beauty** ([aura](/Traits.aspx?ID=206), [emotion](/Traits.aspx?ID=60), [enchantment](/Traits.aspx?ID=61), [incapacitation](/Traits.aspx?ID=93), [mental](/Traits.aspx?ID=106), [primal](/Traits.aspx?ID=134), [visual](/Traits.aspx?ID=163)) DC 30. On a failed save, the target is immobilized in awe for 1 minute.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbranch +27 ([Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+8 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nleaves +27 ([Conjuration](/Traits.aspx?ID=33), [Plant](/Traits.aspx?ID=125), [Primal](/Traits.aspx?ID=134), [range increment 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d8+6 slashing\r\n\r\n**Primal Prepared Spells** DC 35, attack +25\r\n- **Cantrips (7th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Guidance](/Spells.aspx?ID=142), [Light](/Spells.aspx?ID=171), [Ray of Frost](/Spells.aspx?ID=245), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Fleet Step](/Spells.aspx?ID=122), [Gust of Wind](/Spells.aspx?ID=143), [Negate Aroma](/Spells.aspx?ID=206)\r\n- **2nd**\r\n[Animal Messenger](/Spells.aspx?ID=11), [Faerie Fire](/Spells.aspx?ID=107), [Remove Fear](/Spells.aspx?ID=252)\r\n- **3rd**\r\n[Earthbind](/Spells.aspx?ID=94), [Haste](/Spells.aspx?ID=147), [Wall of Thorns](/Spells.aspx?ID=366)\r\n- **4th**\r\n[Fly](/Spells.aspx?ID=125), [Resist Energy](/Spells.aspx?ID=256), [Stoneskin](/Spells.aspx?ID=312)\r\n- **5th**\r\n[Cone of Cold](/Spells.aspx?ID=47), [Death Ward](/Spells.aspx?ID=64), [Heal](/Spells.aspx?ID=148)\r\n- **6th**\r\n[Baleful Polymorph](/Spells.aspx?ID=17), [Chain Lightning](/Spells.aspx?ID=33), [Tangling Creepers](/Spells.aspx?ID=331)\r\n- **7th**\r\n[Regenerate](/Spells.aspx?ID=248), [Summon Plant or Fungus](/Spells.aspx?ID=325)\r\n\r\n**Primal Innate Spells** DC 35, attack +25\r\n- **Cantrips (5th)**\r\n[Tanglefoot](/Spells.aspx?ID=330)\r\n- **2nd**\r\n[Shape Wood](/Spells.aspx?ID=277) (at will), [Tree Shape](/Spells.aspx?ID=342) (at will)\r\n- **3rd**\r\n[Entangle](/Spells.aspx?ID=103) (at will), [Sleep](/Spells.aspx?ID=288) (at will)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (at will), [Suggestion](/Spells.aspx?ID=315) (at will)\r\n- **5th**\r\n[Tree Stride](/Spells.aspx?ID=343) (x3)\r\n- **8th**\r\n[Impaling Briars](/Spells.aspx?ID=475)\r\n- **Constant (4th)**\r\n[Speak with Plants](/Spells.aspx?ID=294)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134), [Transmutation](/Traits.aspx?ID=157)) \r\n\r\n**Focus Beauty** <actions string=\"Single Action\" /> ([Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134), [Visual](/Traits.aspx?ID=163)) On a failed save, if the target was already affected by the dryad queen’s beauty, the target suffers the effects of a failed save against _[charm](/Spells.aspx?ID=34)_.\r\n\r\n**Inspiration** <actions string=\"Three Actions\" /> ([Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134)) \r\n\r\n**Tree Meld** <actions string=\"Two Actions\" /> ([Primal](/Traits.aspx?ID=134), [Transmutation](/Traits.aspx?ID=157)) The hamadryad touches a tree within her domain of enough volume to contain her and merges into it for as long as she wishes. She can Cast a Spell while inside as long as the spell doesn’t require a line of effect outside the tree. She can hear, but not see, what’s going on outside the tree. She can enter or exit her extradimensional domain from any tree in her domain. She can Dismiss this effect.<br /> Significant physical damage dealt to the tree expels the hamadryad from the tree and deals 3d6 damage to her. _[Passwall](/Spells.aspx?ID=216)_ expels the hamadryad without dealing damage.<br /> If a dryad uses this ability on her bonded tree, she instead enters an extradimensional living space within the tree; Tree Meld gains the [extradimensional](/Traits.aspx?ID=67) trait. A hamadryad can bring up to eight other creatures with her when entering her home within her bonded tree. The hamadryad can still be expelled from this space as above.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-77\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Dryad Queen](/Monsters.aspx?ID=3114)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlso called a hamadryad, a dryad queen rules over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Dryad queens often have strange relationships with powerful and deadly fey, working together in a dualistic way despite their differences, with the queen representing nature's wonders and the other fey representing nature's wrath.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 33\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 33\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 31\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 28\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dryad_Queen.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Dryad Queen](/Monsters.aspx?ID=3114)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=764\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=668\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 247\n\n**Perception** +25; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Fey](/Languages.aspx?ID=119), [Muan](/Languages.aspx?ID=108)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +25, [Athletics](/Skills.aspx?ID=3) +19, [Crafting](/Skills.aspx?ID=4) +23, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +30, [Intimidation](/Skills.aspx?ID=7) +27, [Nature](/Skills.aspx?ID=10) +24, [Performance](/Skills.aspx?ID=12) +28, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +24\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +6\r\n\r\n**Con** +6\r\n\r\n**Int** +4\r\n\r\n**Wis** +4\r\n\r\n**Cha** +8\r\n</row>\r\n\r\n**Nature Empathy** The dryad queen can ask questions of, receive answers from, and use the [Diplomacy](/Skills.aspx?ID=39) skill with [animals](/Traits.aspx?ID=531) and [plants](/Traits.aspx?ID=668).<br />**Tied to the Land** The dryad queen is tied to a forest or other woodland.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 35 \r\n\r\n**Fort** +24 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +24 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 10, [fire](/Traits.aspx?ID=604) 10\r\n\r\n**Nymph's Beauty** ([aura](/Traits.aspx?ID=542), [emotion](/Traits.aspx?ID=590), [incapacitation](/Traits.aspx?ID=631), [mental](/Traits.aspx?ID=647), [primal](/Traits.aspx?ID=676), [visual](/Traits.aspx?ID=727)) DC 30. On a failed save, the target is [immobilized](/Conditions.aspx?ID=81) in awe for 1 minute.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbranch +27 ([Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+8 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nleaves +27 ([Plant](/Traits.aspx?ID=125), [Primal](/Traits.aspx?ID=134), [range increment 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d8+6 slashing\r\n\r\n**Primal Prepared Spells** DC 35, attack +25\r\n- **Cantrips (7th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Frostbite](/Spells.aspx?ID=1539), [Guidance](/Spells.aspx?ID=142), [Light](/Spells.aspx?ID=171), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Fleet Step](/Spells.aspx?ID=122), [Gust of Wind](/Spells.aspx?ID=143), [Pest Form](/Spells.aspx?ID=217)\r\n- **2nd**\r\n[Animal Messenger](/Spells.aspx?ID=11), [Remove Fear](/Spells.aspx?ID=252), [Revealing Light](/Spells.aspx?ID=1653)\r\n- **3rd**\r\n[Earthbind](/Spells.aspx?ID=94), [Haste](/Spells.aspx?ID=147), [Wall of Thorns](/Spells.aspx?ID=366)\r\n- **4th**\r\n[Fly](/Spells.aspx?ID=125), [Mountain Resilience](/Spells.aspx?ID=1610), [Resist Energy](/Spells.aspx?ID=256)\r\n- **5th**\r\n[Banishment](/Spells.aspx?ID=19), [Heal](/Spells.aspx?ID=148), [Howling Blizzard](/Spells.aspx?ID=1559)\r\n- **6th**\r\n[Chain Lightning](/Spells.aspx?ID=33), [Cursed Metamorphosis](/Spells.aspx?ID=1479), [Tangling Creepers](/Spells.aspx?ID=331)\r\n- **7th**\r\n[Regenerate](/Spells.aspx?ID=248), [Summon Plant or Fungus](/Spells.aspx?ID=325)\r\n\r\n**Primal Innate Spells** DC 35, attack +25\r\n- **Cantrips (5th)**\r\n[Tangle Vine](/Spells.aspx?ID=1713)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (at will), [Entangling Flora](/Spells.aspx?ID=1515) (at will), [Shape Wood](/Spells.aspx?ID=277) (at will), [Suggestion](/Spells.aspx?ID=315) (at will)\r\n- **5th**\r\n[Nature's Pathway](/Spells.aspx?ID=1613) (×3), [One with Plants](/Spells.aspx?ID=1618) (at will)\r\n- **8th**\r\n[Impaling Briars](/Spells.aspx?ID=475)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Primal](/Traits.aspx?ID=134)) \r\n\r\n**Focus Beauty** <actions string=\"Single Action\" /> ([Emotion](/Traits.aspx?ID=60), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134), [Visual](/Traits.aspx?ID=163)) On a failed save, if the target was already affected by the dryad queen's beauty, the target can't use [hostile actions](/Rules.aspx?ID=300) against the dryad queen for 1 hour.\r\n\r\n**Inspiration** <actions string=\"Three Actions\" /> ([Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134)) \r\n\r\n**Tree Meld** <actions string=\"Two Actions\" /> ([Primal](/Traits.aspx?ID=134)) A [_one with plants_](/Spells.aspx?ID=1618) spell cast by a dryad queen has an unlimited duration. In addition, if the dryad merges with a tree in her domain, she can choose to instead enter an extradimensional living space within the tree, and can bring up to eight adjacent, willing creatures with her; the spell gains the [extradimensional](/Traits.aspx?ID=596) trait. The dryad queen can still be expelled from this space.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-449\" />",
  "name": "Dryad Queen",
  "npc": false,
  "perception": 25,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 247",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 26,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=230\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 249</row>\r\n\r\n**Creature Family** [Nymph](/MonsterFamilies.aspx?ID=77)\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 35\r\n\r\n**Fort** +24\r\n\r\n**Ref** +26\r\n\r\n**Will** +24\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHamadryads rule over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Hamadryads often have …\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=764\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=668\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 247\r\n\r\n**Creature Family** [Nymph](/MonsterFamilies.aspx?ID=449)\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 35\r\n\r\n**Fort** +24\r\n\r\n**Ref** +26\r\n\r\n**Will** +24\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlso called a hamadryad, a dryad queen rules over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +25",
-  "Athletics +19",
-  "Crafting +23",
-  "Deception +30",
-  "Diplomacy +30",
-  "Intimidation +27",
-  "Nature +24",
-  "Performance +28",
-  "Stealth +25",
-  "Survival +24"
+  "Acrobatics",
+  "Athletics",
+  "Crafting",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Nature",
+  "Performance",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +25, [Athletics](/Skills.aspx?ID=3) +19, [Crafting](/Skills.aspx?ID=4) +23, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +30, [Intimidation](/Skills.aspx?ID=7) +27, [Nature](/Skills.aspx?ID=10) +24, [Performance](/Skills.aspx?ID=12) +28, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +24",
+ "skill_mod": {
+  "acrobatics": 25,
+  "athletics": 19,
+  "crafting": 23,
+  "deception": 30,
+  "diplomacy": 30,
+  "intimidation": 27,
+  "nature": 24,
+  "performance": 28,
+  "stealth": 25,
+  "survival": 24
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 249"
+  "Monster Core pg. 247"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 249</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 247",
  "speed": {
   "land": 30,
   "max": 30
@@ -76,67 +130,110 @@
  "spell": [
   "Regenerate",
   "Summon Plant or Fungus",
-  "Baleful Polymorph",
   "Chain Lightning",
+  "Cursed Metamorphosis",
   "Tangling Creepers",
-  "Cone of Cold",
-  "Death Ward",
+  "Banishment",
   "Heal",
+  "Howling Blizzard",
   "Fly",
+  "Mountain Resilience",
   "Resist Energy",
-  "Stoneskin",
   "Earthbind",
   "Haste",
   "Wall of Thorns",
   "Animal Messenger",
-  "Faerie Fire",
   "Remove Fear",
+  "Revealing Light",
   "Fleet Step",
   "Gust of Wind",
-  "Negate Aroma",
+  "Pest Form",
   "Detect Magic",
+  "Frostbite",
   "Guidance",
   "Light",
-  "Ray of Frost",
   "Stabilize",
   "Impaling Briars",
-  "Tree Stride",
+  "Nature's Pathway",
+  "One with Plants",
   "Charm",
-  "Suggestion",
-  "Entangle",
-  "Sleep",
+  "Entangling Flora",
   "Shape Wood",
-  "Tree Shape",
-  "Tanglefoot",
-  "Speak with Plants"
+  "Suggestion",
+  "Tangle Vine"
  ],
- "spell_markdown": "[Animal Messenger](/Spells.aspx?ID=11), [Baleful Polymorph](/Spells.aspx?ID=17), [Chain Lightning](/Spells.aspx?ID=33), [Charm](/Spells.aspx?ID=34), [Cone of Cold](/Spells.aspx?ID=47), [Death Ward](/Spells.aspx?ID=64), [Detect Magic](/Spells.aspx?ID=66), [Earthbind](/Spells.aspx?ID=94), [Entangle](/Spells.aspx?ID=103), [Faerie Fire](/Spells.aspx?ID=107), [Fleet Step](/Spells.aspx?ID=122), [Fly](/Spells.aspx?ID=125), [Guidance](/Spells.aspx?ID=142), [Gust of Wind](/Spells.aspx?ID=143), [Haste](/Spells.aspx?ID=147), [Heal](/Spells.aspx?ID=148), [Impaling Briars](/Spells.aspx?ID=475), [Light](/Spells.aspx?ID=171), [Negate Aroma](/Spells.aspx?ID=206), [Ray of Frost](/Spells.aspx?ID=245), [Regenerate](/Spells.aspx?ID=248), [Remove Fear](/Spells.aspx?ID=252), [Resist Energy](/Spells.aspx?ID=256), [Shape Wood](/Spells.aspx?ID=277), [Sleep](/Spells.aspx?ID=288), [Speak with Plants](/Spells.aspx?ID=294), [Stabilize](/Spells.aspx?ID=307), [Stoneskin](/Spells.aspx?ID=312), [Suggestion](/Spells.aspx?ID=315), [Summon Plant or Fungus](/Spells.aspx?ID=325), [Tanglefoot](/Spells.aspx?ID=330), [Tangling Creepers](/Spells.aspx?ID=331), [Tree Shape](/Spells.aspx?ID=342), [Tree Stride](/Spells.aspx?ID=343), [Wall of Thorns](/Spells.aspx?ID=366)",
+ "spell_markdown": "[Animal Messenger](/Spells.aspx?ID=11), [Banishment](/Spells.aspx?ID=19), [Chain Lightning](/Spells.aspx?ID=33), [Charm](/Spells.aspx?ID=34), [Cursed Metamorphosis](/Spells.aspx?ID=1479), [Detect Magic](/Spells.aspx?ID=66), [Earthbind](/Spells.aspx?ID=94), [Entangling Flora](/Spells.aspx?ID=1515), [Fleet Step](/Spells.aspx?ID=122), [Fly](/Spells.aspx?ID=125), [Frostbite](/Spells.aspx?ID=1539), [Guidance](/Spells.aspx?ID=142), [Gust of Wind](/Spells.aspx?ID=143), [Haste](/Spells.aspx?ID=147), [Heal](/Spells.aspx?ID=148), [Howling Blizzard](/Spells.aspx?ID=1559), [Impaling Briars](/Spells.aspx?ID=475), [Light](/Spells.aspx?ID=171), [Mountain Resilience](/Spells.aspx?ID=1610), [Nature's Pathway](/Spells.aspx?ID=1613), [One with Plants](/Spells.aspx?ID=1618), [Pest Form](/Spells.aspx?ID=217), [Regenerate](/Spells.aspx?ID=248), [Remove Fear](/Spells.aspx?ID=252), [Resist Energy](/Spells.aspx?ID=256), [Revealing Light](/Spells.aspx?ID=1653), [Shape Wood](/Spells.aspx?ID=277), [Stabilize](/Spells.aspx?ID=307), [Suggestion](/Spells.aspx?ID=315), [Summon Plant or Fungus](/Spells.aspx?ID=325), [Tangle Vine](/Spells.aspx?ID=1713), [Tangling Creepers](/Spells.aspx?ID=331), [Wall of Thorns](/Spells.aspx?ID=366)",
+ "spell_attack_bonus": [
+  25,
+  25
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  35,
+  35
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "25",
+ "strike_damage_average": [
+  19,
+  27
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Hamadryads rule over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Hamadryads often have …",
- "summary_markdown": "Hamadryads rule over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Hamadryads often have …",
- "text": " Dryad Queen (Hamadryad) Hamadryads rule over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Hamadryads often have strange relationships with powerful and deadly fey, working together in a dualistic way despite their differences, with the hamadryad representing nature’s wonders and the other fey representing nature’s wrath. Recall Knowledge - Fey (Nature): DC 33 Recall Knowledge - Plant (Nature): DC 33 Unspecific Lore : DC 31 Specific Lore : DC 28 Dryad Queen Source Bestiary pg. 249 Perception +25; low-light vision Languages Common, Elven, Sylvan; speak with plants Skills Acrobatics +25, Athletics +19, Crafting +23, Deception +30, Diplomacy +30, Intimidation +27, Nature +24, Performance +28, Stealth +25, Survival +24 Str +2 Dex +6 Con +6 Int +4 Wis +4 Cha +8 Nature Empathy The dryad can use Diplomacy to Make an Impression on and make very simple Requests of animals and plants. Tied to the Land --- AC 35 Fort +24 Ref +26 Will +24 HP 220 Weaknesses cold iron 10, fire 10 Nymph’s Beauty (aura, emotion, enchantment, incapacitation, mental, primal, visual) DC 30. On a failed save, the target is immobilized in awe for 1 minute. --- Speed 30 feet Melee Single Action branch +27 (Finesse, Magical), Damage 3d12+8 bludgeoning Ranged Single Action leaves +27 (Conjuration, Plant, Primal, range increment 60 feet), Damage 3d8+6 slashing Primal Prepared Spells DC 35, attack +25 - Cantrips (7th) Detect Magic, Guidance, Light, Ray of Frost, Stabilize - 1st Fleet Step, Gust of Wind, Negate Aroma - 2nd Animal Messenger, Faerie Fire, Remove Fear - 3rd Earthbind, Haste, Wall of Thorns - 4th Fly, Resist Energy, Stoneskin - 5th Cone of Cold, Death Ward, Heal - 6th Baleful Polymorph, Chain Lightning, Tangling Creepers - 7th Regenerate, Summon Plant or Fungus Primal Innate Spells DC 35, attack +25 - Cantrips (5th) Tanglefoot - 2nd Shape Wood (at will), Tree Shape (at will) - 3rd Entangle (at will), Sleep (at will) - 4th Charm (at will), Suggestion (at will) - 5th Tree Stride (x3) - 8th Impaling Briars - Constant (4th) Speak with Plants Change Shape Single Action (Polymorph, Primal, Transmutation) Focus Beauty Single Action (Emotion, Enchantment, Incapacitation, Mental, Primal, Visual) On a failed save, if the target was already affected by the dryad queen’s beauty, the target suffers the effects of a failed save against charm . Inspiration Three Actions (Emotion, Enchantment, Mental, Primal) Tree Meld Two Actions (Primal, Transmutation) The hamadryad touches a tree within her domain of enough volume to contain her and merges into it for as long as she wishes. She can Cast a Spell while inside as long as the spell doesn’t require a line of effect outside the tree. She can hear, but not see, what’s going on outside the tree. She can enter or exit her extradimensional domain from any tree in her domain. She can Dismiss this effect. Significant physical damage dealt to the tree expels the hamadryad from the tree and deals 3d6 damage to her. Passwall expels the hamadryad without dealing damage. If a dryad uses this ability on her bonded tree, she instead enters an extradimensional living space within the tree; Tree Meld gains the extradimensional trait. A hamadryad can bring up to eight other creatures with her when entering her home within her bonded tree. The hamadryad can still be expelled from this space as above. ",
+ "summary": "Also called a hamadryad, a dryad queen rules over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads …",
+ "summary_markdown": "Also called a hamadryad, a dryad queen rules over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads …",
+ "text": " Dryad Queen Also called a hamadryad, a dryad queen rules over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Dryad queens often have strange relationships with powerful and deadly fey, working together in a dualistic way despite their differences, with the queen representing nature's wonders and the other fey representing nature's wrath. Recall Knowledge - Fey (Nature): DC 33 Recall Knowledge - Plant (Nature): DC 33 Unspecific Lore : DC 31 Specific Lore : DC 28 Dryad Queen Source Monster Core pg. 247 Perception +25; low-light vision Languages Common, Elven, Fey, Muan Skills Acrobatics +25, Athletics +19, Crafting +23, Deception +30, Diplomacy +30, Intimidation +27, Nature +24, Performance +28, Stealth +25, Survival +24 Str +2 Dex +6 Con +6 Int +4 Wis +4 Cha +8 Nature Empathy The dryad queen can ask questions of, receive answers from, and use the Diplomacy skill with animals and plants. Tied to the Land The dryad queen is tied to a forest or other woodland. --- AC 35 Fort +24 Ref +26 Will +24 HP 220 Weaknesses cold iron 10, fire 10 Nymph's Beauty (aura, emotion, incapacitation, mental, primal, visual) DC 30. On a failed save, the target is immobilized in awe for 1 minute. --- Speed 30 feet Melee Single Action branch +27 (Finesse, Magical), Damage 3d12+8 bludgeoning Ranged Single Action leaves +27 (Plant, Primal, range increment 60 feet), Damage 3d8+6 slashing Primal Prepared Spells DC 35, attack +25 - Cantrips (7th) Detect Magic, Frostbite, Guidance, Light, Stabilize - 1st Fleet Step, Gust of Wind, Pest Form - 2nd Animal Messenger, Remove Fear, Revealing Light - 3rd Earthbind, Haste, Wall of Thorns - 4th Fly, Mountain Resilience, Resist Energy - 5th Banishment, Heal, Howling Blizzard - 6th Chain Lightning, Cursed Metamorphosis, Tangling Creepers - 7th Regenerate, Summon Plant or Fungus Primal Innate Spells DC 35, attack +25 - Cantrips (5th) Tangle Vine - 4th Charm (at will), Entangling Flora (at will), Shape Wood (at will), Suggestion (at will) - 5th Nature's Pathway (×3), One with Plants (at will) - 8th Impaling Briars Change Shape Single Action (Primal) Focus Beauty Single Action (Emotion, Incapacitation, Mental, Primal, Visual) On a failed save, if the target was already affected by the dryad queen's beauty, the target can't use hostile actions against the dryad queen for 1 hour. Inspiration Three Actions (Emotion, Mental, Primal) Tree Meld Two Actions (Primal) A one with plants spell cast by a dryad queen has an unlimited duration. In addition, if the dryad merges with a tree in her domain, she can choose to instead enter an extradimensional living space within the tree, and can bring up to eight adjacent, willing creatures with her; the spell gains the extradimensional trait. The dryad queen can still be expelled from this space. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Fey",
   "Nymph",
   "Plant",
   "Uncommon",
-  "CG",
+  "Wood",
   "Medium"
  ],
- "trait_markdown": "[Fey](/Traits.aspx?ID=69), [Nymph](/Traits.aspx?ID=230), [Plant](/Traits.aspx?ID=125), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity",
+  "Elemental"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Nymph](/Traits.aspx?ID=764), [Plant](/Traits.aspx?ID=668), [Uncommon](/Traits.aspx?ID=721), [Wood](/Traits.aspx?ID=508)",
  "trait_raw": [
   "Fey",
   "Nymph",
   "Plant",
-  "Uncommon"
+  "Uncommon",
+  "Wood"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=314",
+ "url": "/Monsters.aspx?ID=3114",
  "vision": "Low-light vision",
  "weakest_save": [
   "fort",
@@ -147,8 +244,12 @@
   "cold_iron": 10,
   "fire": 10
  },
- "weakness_markdown": "cold iron 10, fire 10",
- "weakness_raw": "cold iron 10, fire 10",
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 10, [fire](/Traits.aspx?ID=604) 10",
+ "weakness_raw": " cold iron  10,  fire  10",
  "will_save": 24,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

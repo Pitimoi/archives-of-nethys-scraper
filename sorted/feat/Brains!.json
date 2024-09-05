@@ -1,9 +1,9 @@
 {
  "actions": "Free Action",
+ "actions_number": 0,
  "archetype": [
   "Zombie"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,23 +12,30 @@
  "feat_markdown": "Brains!",
  "id": "feat-3561",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Brains!](/Feats.aspx?ID=3561) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 61</row>\n\n**Archetype** [Zombie](/Archetypes.aspx?ID=182)\n\n**Prerequisites**\r\n[Feast](/Feats.aspx?ID=3559)\n\n**Trigger**\r\nYou Feast upon a [humanoid's](/Traits.aspx?ID=91) brain. The humanoid can't be [mindless](/Traits.aspx?ID=108) (or, if you're Feasting on a corpse, can't have been mindless while alive).\n\n</column>\r\n\r\n---\r\n\r\nYou consume the brains of your foe, causing synapses long rotten to fire and enabling you to shake off your mental torpor. You gain a +1 status bonus on skill checks to [Recall Knowledge](/Actions.aspx?ID=26) for 1 hour. If the humanoid had a higher modifier to the skill check you're using to Recall Knowledge than you do, the status bonus increases to +2.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Brains!](/Feats.aspx?ID=3561) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 61\n\n**Archetype** [Zombie](/Archetypes.aspx?ID=182)\n\n**Prerequisites**\r\n[Feast](/Feats.aspx?ID=3559)\n\n**Trigger**\r\nYou Feast upon a [humanoid's](/Traits.aspx?ID=91) brain. The humanoid can't be [mindless](/Traits.aspx?ID=108) (or, if you're Feasting on a corpse, can't have been mindless while alive).\n\n</column>\r\n\r\n---\r\n\r\nYou consume the brains of your foe, causing synapses long rotten to fire and enabling you to shake off your mental torpor. You gain a +1 status bonus on skill checks to [Recall Knowledge](/Actions.aspx?ID=26) for 1 hour. If the humanoid had a higher modifier to the skill check you're using to Recall Knowledge than you do, the status bonus increases to +2.",
  "name": "Brains!",
  "pfs": "Standard",
  "prerequisite": "Feast",
  "prerequisite_markdown": "[Feast](/Feats.aspx?ID=3559)",
+ "primary_source": "Book of the Dead",
+ "primary_source_raw": "Book of the Dead pg. 61",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-04-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 61</row>\n\n**Prerequisites**\r\n[Feast](/Feats.aspx?ID=3559)\n\n**Trigger**\r\nYou Feast upon a [humanoid's](/Traits.aspx?ID=91) brain. The humanoid can't be [mindless](/Traits.aspx?ID=108) (or, if you're Feasting on a corpse, can't have been mindless while alive).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou consume the brains of your foe, causing synapses long rotten to fire and enabling you to shake off your mental torpor.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 61\n\n**Prerequisites**\r\n[Feast](/Feats.aspx?ID=3559)\n\n**Trigger**\r\nYou Feast upon a [humanoid's](/Traits.aspx?ID=91) brain. The humanoid can't be [mindless](/Traits.aspx?ID=108) (or, if you're Feasting on a corpse, can't have been mindless while alive).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou consume the brains of your foe, causing synapses long rotten to fire and enabling you to shake off your mental torpor.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Book of the Dead"
  ],
  "source_raw": [
   "Book of the Dead pg. 61"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Book of the Dead](/Sources.aspx?ID=118) pg. 61</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Book of the Dead](/Sources.aspx?ID=118) pg. 61",
  "speed": {},
  "summary": "You consume the brains of your foe, causing synapses long rotten to fire and enabling you to shake off your mental torpor.",
  "summary_markdown": "You consume the brains of your foe, causing synapses long rotten to fire and enabling you to shake off your mental torpor.",

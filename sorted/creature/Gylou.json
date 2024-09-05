@@ -1,81 +1,127 @@
 {
  "ac": 36,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  30,
+  30
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 8,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Reflexive Grab",
   "Change Shape",
-  "Indispensable Savvy",
-  "Tentacle Encage"
+  "Encage in Tentacles",
+  "Indispensable Savvy"
  ],
  "creature_family": "Devil",
- "creature_family_markdown": "[Devil](/MonsterFamilies.aspx?ID=30)",
- "dexterity": 7,
+ "creature_family_markdown": "[Devil](/MonsterFamilies.aspx?ID=389)",
+ "dexterity": 8,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 22,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 240,
  "hp_raw": "240",
- "id": "creature-610",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2910",
  "image": [
-  "/Images/Monsters/Devil_Gylou.png"
+  "/Images/Monsters/Gylou.webp"
  ],
  "immunity": [
   "fire"
  ],
- "immunity_markdown": "fire",
+ "immunity_markdown": "[fire](/Traits.aspx?ID=604)",
  "intelligence": 5,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
  "language": [
-  "Celestial",
   "Common",
+  "Diabolic",
   "Draconic",
-  "Infernal",
-  "<%UMR%37%%>telepathy 100 feet<%END>"
+  "Empyrean",
+  "<%UMR%79%%>telepathy<%END> 100 feet"
  ],
- "language_markdown": "[Celestial](/Languages.aspx?ID=16), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Infernal](/Languages.aspx?ID=19); [telepathy 100 feet](/MonsterAbilities.aspx?ID=37)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet",
+ "legacy_id": "creature-610",
  "level": 14,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Gylou (Handmaiden Devil)](/Monsters.aspx?ID=610)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThough gylous are deeply entrenched in the expansive and complex machinations of [Hell](/Planes.aspx?ID=18), they are highly skilled agents capable of nuanced diplomacy, masterful deception, physical finesse, and nearly any other tasks they set their minds to. This versatility has led to gylous becoming widespread throughout all layers of Hell, enabling them to filter key information to their masters regarding other devils' plots and schemes. Their allegiance is no secret, but their skills are so great that powerful devils employ one or more gylous regardless. While most gylous have a feminine form (combined with their role, this is the source of their common moniker of “handmaiden”), some have other gender presentations, and nearly all gylous take on carefully cultivated illusions to best suit the roles they fill. More often than not, gylous arise when lesser devils who have demonstrated exceptional utility and invaluable skills are uplifted into a new form, though on rare occasions they are shaped from the souls of evil mortals who showed unparalleled savvy within bureaucratic enterprises.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Devil_Gylou.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Gylou](/Monsters.aspx?ID=610)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=44\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 75 <sup>2.0</sup></row>\n\n**Perception** +28; [greater darkvision](/MonsterAbilities.aspx?ID=12), [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Celestial](/Languages.aspx?ID=16), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Infernal](/Languages.aspx?ID=19); [telepathy 100 feet](/MonsterAbilities.aspx?ID=37)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +27, [Athletics](/Skills.aspx?ID=3) +28, [Arcana](/Skills.aspx?ID=2) +25, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +28, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +27\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +7\r\n\r\n**Con** +4\r\n\r\n**Int** +5\r\n\r\n**Wis** +6\r\n\r\n**Cha** +8\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +28 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 240\n\n**Immunities**\r\nfire\r\n\r\n**Resistances**\r\nphysical 10 (except [silver](/Equipment.aspx?ID=277))\r\n\r\n**Weaknesses**\r\ngood 10\r\n\r\n**Reflexive Grab** <actions string=\"Reaction\" /> **Trigger** A creature leaves a square within the gylou's reach using a [move](/Traits.aspx?ID=114) action or attempts a melee Strike against the gylou; **Effect** The gylou lashes out with a tentacle, attempting to Grapple the triggering creature. If the triggering Strike was with a melee weapon, the attacking creature can [Release](/Actions.aspx?ID=83) the weapon to cause the gylou to automatically fail the [Athletics](/Skills.aspx?ID=3) check.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, climb 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +30 ([Agile](/Traits.aspx?ID=170), [Evil](/Traits.aspx?ID=64), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+12 slashing plus 1d6 evil\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +30 ([Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+12 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Divine Innate Spells** DC 36, attack +28\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (×3), [Dimension Door](/Spells.aspx?ID=69) (at will), [Enthrall](/Spells.aspx?ID=104) (at will)\r\n- **5th**\r\n[Black Tentacles](/Spells.aspx?ID=23), [Dimension Door](/Spells.aspx?ID=69), [Illusory Object](/Spells.aspx?ID=160) (at will)\r\n- **7th**\r\n[Dispel Magic](/Spells.aspx?ID=78), [Dominate](/Spells.aspx?ID=87)\r\n- **Constant (7th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Rituals** DC 36\r\n\r\n- **1st**\r\n[Infernal Pact](/Rituals.aspx?ID=23)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)) The gylou adopts the appearance of any Small or Medium [humanoid](/Traits.aspx?ID=91). This doesn't change their Speed or the attack and damage modifiers of their Strikes, but it might change the damage type their Strikes deal (typically to bludgeoning).\r\n\r\n**Indispensable Savvy** <actions string=\"Reaction\" />  **Frequency** once per day; **Trigger** The gylou attempts a skill check but hasn't rolled yet; **Effect** The gylou demonstrates a preternatural ability for the task at hand. They use their [Deception](/Skills.aspx?ID=5) modifier for the triggering check and for all skill checks using the same skill thereafter until the next time the gylou uses this ability or until 24 hours have passed, whichever happens first.\r\n\r\n**Tentacle Encage** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) **Requirements** The gylou has a Medium or smaller creature [grabbed](/Conditions.aspx?ID=20); **Effect** The gylou transfers the grabbed creature into their lower body's net of encaging tentacles, freeing their limbs and tentacles to make Strikes. This has the same effects as [Swallow Whole](/MonsterAbilities.aspx?ID=35) (Medium, 2d12+12 bludgeoning, Rupture 30), except the encaged creature is not at risk of suffocation, and the gylou can bring the encaged creature with them when they cast [_dimension door_](/Spells.aspx?ID=69). A gylou can have only one creature encaged at a time.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-30\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Gylou (Handmaiden Devil)](/Monsters.aspx?ID=2910)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThough gylous are deeply entrenched in the expansive and complex machinations of [Hell](/Planes.aspx?ID=42), they are highly skilled agents capable of nuanced diplomacy, masterful deception, physical finesse, and nearly any other tasks they set their minds to. This versatility has led to gylous becoming widespread throughout all layers of Hell, enabling them to filter key information to their masters regarding other devils' plots and schemes. Their allegiance is no secret, but their skills are so great that powerful devils employ one or more gylous regardless. While most gylous have a feminine form (combined with their role, this is the source of their common moniker of “handmaiden”), some have other gender presentations, and nearly all gylous take on carefully cultivated illusions to best suit the roles they fill. More often than not, gylous arise when lesser devils who have demonstrated exceptional utility and invaluable skills are uplifted into a new form, though on rare occasions they are shaped from the souls of evil mortals who showed unparalleled savvy within bureaucratic enterprises.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Gylou.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Gylou](/Monsters.aspx?ID=2910)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=575\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 91\n\n**Perception** +28; [greater darkvision](/MonsterAbilities.aspx?ID=59), [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +28, [Arcana](/Skills.aspx?ID=2) +25, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +28, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +28\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +8\r\n\r\n**Con** +4\r\n\r\n**Int** +5\r\n\r\n**Wis** +6\r\n\r\n**Cha** +8\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +28 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=604)\r\n\r\n**Resistances**\r\nphysical 10 (except [silver](/Equipment.aspx?ID=379)), [poison](/Traits.aspx?ID=669) 10\r\n\r\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 10\r\n\r\n**Reflexive Grab** <actions string=\"Reaction\" /> **Trigger** A creature leaves a square within the gylou's reach using a [move](/Traits.aspx?ID=658) action or attempts a melee Strike against the gylou; **Effect** The gylou lashes out with a tentacle, attempting to [Grapple](/Actions.aspx?ID=2376) the triggering creature. If the triggering Strike was with a melee weapon, the attacking creature can Release the weapon to cause the gylou to automatically fail the [Athletics](/Skills.aspx?ID=36) check.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, climb 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +30 ([Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 3d12+12 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +30 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 3d8+12 slashing\r\n\r\n**Rituals** DC 36\r\n\r\n- **1st**\r\n[Diabolic Pact](/Rituals.aspx?ID=143)\r\n\r\n**Divine Innate Spells** DC 36, attack +28\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (×3), [Translocate](/Spells.aspx?ID=1724) (at will), [Enthrall](/Spells.aspx?ID=104) (at will)\r\n- **5th**\r\n[Illusory Object](/Spells.aspx?ID=160) (at will), [Slither](/Spells.aspx?ID=1676), [Translocate](/Spells.aspx?ID=1724)\r\n- **7th**\r\n[Dispel Magic](/Spells.aspx?ID=78), [Dominate](/Spells.aspx?ID=87)\r\n- **Constant (7th)**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n\r\n**Change Shape** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127)) The gylou adopts the appearance of any Small or Medium [humanoid](/Traits.aspx?ID=628). This doesn't change their Speed or the attack and damage modifiers of their Strikes, but it might change the damage type their Strikes deal (typically to bludgeoning).\r\n\r\n**Encage in Tentacles** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) **Requirements** The gylou has a Medium or smaller creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90); **Effect** The gylou transfers the grabbed creature into their lower body's net of encaging tentacles, freeing their limbs and tentacles to make Strikes. This has the same effects as [Swallow Whole](/MonsterAbilities.aspx?ID=77) (Medium, 2d12+12 bludgeoning, Rupture 30; page 360), except the encaged creature is not at risk of [suffocation](/Rules.aspx?ID=468), and the gylou can bring the encaged creature with them when they cast [_translocate_](/Spells.aspx?ID=1724). A gylou can have only one creature encaged at a time.\r\n\r\n**Indispensable Savvy** <actions string=\"Reaction\" />  **Frequency** once per day; **Trigger** The gylou attempts a skill check but hasn't rolled yet; **Effect** The gylou demonstrates a preternatural ability for the task at hand. They use their [Deception](/Skills.aspx?ID=38) modifier for the triggering check and for all skill checks using the same skill thereafter until the next time the gylou uses this ability or until 24 hours have passed, whichever happens first.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-389\" />",
  "name": "Gylou",
  "npc": false,
  "perception": 28,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 91",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 25,
- "release_date": "2020-05-27",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 10,
   "physical": 10,
   "piercing": 10,
+  "poison": 10,
   "slashing": 10
  },
- "resistance_markdown": "physical 10 (except [silver](/Equipment.aspx?ID=277))",
- "resistance_raw": "physical 10 (except  silver )",
- "search_markdown": "<traits>\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=44\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 75 <sup>2.0</sup></row>\r\n\r\n**Creature Family** [Devil](/MonsterFamilies.aspx?ID=30)\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n\r\n**AC** 36\r\n\r\n**Fort** +22\r\n\r\n**Ref** +25\r\n\r\n**Will** +28\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThough gylous are deeply entrenched in the expansive and complex machinations of  Hell , they are highly skilled agents capable of nuanced diplomacy, …\r\n</summary>",
- "sense": " greater darkvision ,   true seeing  ",
- "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=12), [_true seeing_](/Spells.aspx?ID=344)",
+ "resistance_markdown": "physical 10 (except [silver](/Equipment.aspx?ID=379)), [poison](/Traits.aspx?ID=669) 10",
+ "resistance_raw": "physical 10 (except  silver ),  poison  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=575\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 91\r\n\r\n**Creature Family** [Devil](/MonsterFamilies.aspx?ID=389)\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n\r\n**AC** 36\r\n\r\n**Fort** +22\r\n\r\n**Ref** +25\r\n\r\n**Will** +28\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThough gylous are deeply entrenched in the expansive and complex machinations of  Hell , they are highly skilled agents capable of nuanced diplomacy, …\r\n</summary>",
+ "sense": " greater darkvision ,   truesight  ",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=59), [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Medium"
  ],
- "skill": [
-  "Acrobatics +27",
-  "Athletics +28",
-  "Arcana +25",
-  "Deception +30",
-  "Diplomacy +28",
-  "Religion +26",
-  "Stealth +27"
+ "size_id": [
+  3
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +27, [Athletics](/Skills.aspx?ID=3) +28, [Arcana](/Skills.aspx?ID=2) +25, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +28, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +27",
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Arcana",
+  "Deception",
+  "Diplomacy",
+  "Religion",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +28, [Arcana](/Skills.aspx?ID=2) +25, [Deception](/Skills.aspx?ID=5) +30, [Diplomacy](/Skills.aspx?ID=6) +28, [Religion](/Skills.aspx?ID=13) +26, [Stealth](/Skills.aspx?ID=15) +28",
+ "skill_mod": {
+  "acrobatics": 28,
+  "arcana": 25,
+  "athletics": 28,
+  "deception": 30,
+  "diplomacy": 28,
+  "religion": 26,
+  "stealth": 28
+ },
  "source": [
-  "Bestiary 2"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 2 pg. 75"
+  "Monster Core pg. 91"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 75 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 91",
  "speed": {
   "climb": 35,
   "land": 35,
@@ -86,45 +132,90 @@
  "spell": [
   "Dispel Magic",
   "Dominate",
-  "Black Tentacles",
-  "Dimension Door",
   "Illusory Object",
+  "Slither",
+  "Translocate",
   "Charm",
   "Enthrall",
-  "True Seeing"
+  "Truesight"
  ],
- "spell_markdown": "[Black Tentacles](/Spells.aspx?ID=23), [Charm](/Spells.aspx?ID=34), [Dimension Door](/Spells.aspx?ID=69), [Dispel Magic](/Spells.aspx?ID=78), [Dominate](/Spells.aspx?ID=87), [Enthrall](/Spells.aspx?ID=104), [Illusory Object](/Spells.aspx?ID=160), [True Seeing](/Spells.aspx?ID=344)",
- "stealth": "27",
+ "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Dispel Magic](/Spells.aspx?ID=78), [Dominate](/Spells.aspx?ID=87), [Enthrall](/Spells.aspx?ID=104), [Illusory Object](/Spells.aspx?ID=160), [Slither](/Spells.aspx?ID=1676), [Translocate](/Spells.aspx?ID=1724), [Truesight](/Spells.aspx?ID=1727)",
+ "spell_attack_bonus": [
+  28
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  36
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "28",
+ "strike_damage_average": [
+  25,
+  31
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 4,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "will"
  ],
  "summary": "Though gylous are deeply entrenched in the expansive and complex machinations of  Hell , they are highly skilled agents capable of nuanced diplomacy, …",
  "summary_markdown": "Though gylous are deeply entrenched in the expansive and complex machinations of  Hell , they are highly skilled agents capable of nuanced diplomacy, …",
- "text": " Gylou (Handmaiden Devil) Though gylous are deeply entrenched in the expansive and complex machinations of Hell, they are highly skilled agents capable of nuanced diplomacy, masterful deception, physical finesse, and nearly any other tasks they set their minds to. This versatility has led to gylous becoming widespread throughout all layers of Hell, enabling them to filter key information to their masters regarding other devils' plots and schemes. Their allegiance is no secret, but their skills are so great that powerful devils employ one or more gylous regardless. While most gylous have a feminine form (combined with their role, this is the source of their common moniker of “handmaiden”), some have other gender presentations, and nearly all gylous take on carefully cultivated illusions to best suit the roles they fill. More often than not, gylous arise when lesser devils who have demonstrated exceptional utility and invaluable skills are uplifted into a new form, though on rare occasions they are shaped from the souls of evil mortals who showed unparalleled savvy within bureaucratic enterprises. Recall Knowledge - Fiend (Religion): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Gylou Source Bestiary 2 pg. 75 2.0 Perception +28; greater darkvision, true seeing Languages Celestial, Common, Draconic, Infernal; telepathy 100 feet Skills Acrobatics +27, Athletics +28, Arcana +25, Deception +30, Diplomacy +28, Religion +26, Stealth +27 Str +4 Dex +7 Con +4 Int +5 Wis +6 Cha +8 --- AC 36 Fort +22 Ref +25 Will +28 +1 status to all saves vs. magic HP 240 Immunities fire Resistances physical 10 (except silver) Weaknesses good 10 Reflexive Grab Reaction Trigger A creature leaves a square within the gylou's reach using a move action or attempts a melee Strike against the gylou; Effect The gylou lashes out with a tentacle, attempting to Grapple the triggering creature. If the triggering Strike was with a melee weapon, the attacking creature can Release the weapon to cause the gylou to automatically fail the Athletics check. --- Speed 35 feet, climb 35 feet Melee Single Action claw +30 (Agile, Evil, Finesse, Magical), Damage 3d8+12 slashing plus 1d6 evil Melee Single Action tentacle +30 (Evil, Magical, reach 10 feet), Damage 3d12+12 bludgeoning plus Grab Divine Innate Spells DC 36, attack +28 - 4th Charm (×3), Dimension Door (at will), Enthrall (at will) - 5th Black Tentacles, Dimension Door, Illusory Object (at will) - 7th Dispel Magic, Dominate - Constant (7th) True Seeing Rituals DC 36 - 1st Infernal Pact Change Shape Single Action (Concentrate, Divine, Polymorph, Transmutation) The gylou adopts the appearance of any Small or Medium humanoid. This doesn't change their Speed or the attack and damage modifiers of their Strikes, but it might change the damage type their Strikes deal (typically to bludgeoning). Indispensable Savvy Reaction Frequency once per day; Trigger The gylou attempts a skill check but hasn't rolled yet; Effect The gylou demonstrates a preternatural ability for the task at hand. They use their Deception modifier for the triggering check and for all skill checks using the same skill thereafter until the next time the gylou uses this ability or until 24 hours have passed, whichever happens first. Tentacle Encage Single Action (Attack) Requirements The gylou has a Medium or smaller creature grabbed; Effect The gylou transfers the grabbed creature into their lower body's net of encaging tentacles, freeing their limbs and tentacles to make Strikes. This has the same effects as Swallow Whole (Medium, 2d12+12 bludgeoning, Rupture 30), except the encaged creature is not at risk of suffocation, and the gylou can bring the encaged creature with them when they cast dimension door . A gylou can have only one creature encaged at a time. ",
+ "text": " Gylou (Handmaiden Devil) Though gylous are deeply entrenched in the expansive and complex machinations of Hell, they are highly skilled agents capable of nuanced diplomacy, masterful deception, physical finesse, and nearly any other tasks they set their minds to. This versatility has led to gylous becoming widespread throughout all layers of Hell, enabling them to filter key information to their masters regarding other devils' plots and schemes. Their allegiance is no secret, but their skills are so great that powerful devils employ one or more gylous regardless. While most gylous have a feminine form (combined with their role, this is the source of their common moniker of “handmaiden”), some have other gender presentations, and nearly all gylous take on carefully cultivated illusions to best suit the roles they fill. More often than not, gylous arise when lesser devils who have demonstrated exceptional utility and invaluable skills are uplifted into a new form, though on rare occasions they are shaped from the souls of evil mortals who showed unparalleled savvy within bureaucratic enterprises. Recall Knowledge - Fiend (Religion): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Gylou Source Monster Core pg. 91 Perception +28; greater darkvision, truesight Languages Common, Diabolic, Draconic, Empyrean; telepathy 100 feet Skills Acrobatics +28, Athletics +28, Arcana +25, Deception +30, Diplomacy +28, Religion +26, Stealth +28 Str +4 Dex +8 Con +4 Int +5 Wis +6 Cha +8 --- AC 36 Fort +22 Ref +25 Will +28 +1 status to all saves vs. magic HP 240 Immunities fire Resistances physical 10 (except silver), poison 10 Weaknesses holy 10 Reflexive Grab Reaction Trigger A creature leaves a square within the gylou's reach using a move action or attempts a melee Strike against the gylou; Effect The gylou lashes out with a tentacle, attempting to Grapple the triggering creature. If the triggering Strike was with a melee weapon, the attacking creature can Release the weapon to cause the gylou to automatically fail the Athletics check. --- Speed 35 feet, climb 35 feet Melee Single Action tentacle +30 (Finesse, Magical, reach 10 feet, Unholy), Damage 3d12+12 bludgeoning plus Grab Melee Single Action claw +30 (Agile, Finesse, Magical, Unholy), Damage 3d8+12 slashing Rituals DC 36 - 1st Diabolic Pact Divine Innate Spells DC 36, attack +28 - 4th Charm (×3), Translocate (at will), Enthrall (at will) - 5th Illusory Object (at will), Slither, Translocate - 7th Dispel Magic, Dominate - Constant (7th) Truesight Change Shape Single Action (Concentrate, Divine, Polymorph) The gylou adopts the appearance of any Small or Medium humanoid. This doesn't change their Speed or the attack and damage modifiers of their Strikes, but it might change the damage type their Strikes deal (typically to bludgeoning). Encage in Tentacles Single Action (Attack) Requirements The gylou has a Medium or smaller creature grabbed or restrained; Effect The gylou transfers the grabbed creature into their lower body's net of encaging tentacles, freeing their limbs and tentacles to make Strikes. This has the same effects as Swallow Whole (Medium, 2d12+12 bludgeoning, Rupture 30; page 360), except the encaged creature is not at risk of suffocation, and the gylou can bring the encaged creature with them when they cast translocate . A gylou can have only one creature encaged at a time. Indispensable Savvy Reaction Frequency once per day; Trigger The gylou attempts a skill check but hasn't rolled yet; Effect The gylou demonstrates a preternatural ability for the task at hand. They use their Deception modifier for the triggering check and for all skill checks using the same skill thereafter until the next time the gylou uses this ability or until 24 hours have passed, whichever happens first. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Devil",
   "Fiend",
-  "LE",
+  "Unholy",
   "Medium"
  ],
- "trait_markdown": "[Devil](/Traits.aspx?ID=44), [Fiend](/Traits.aspx?ID=70)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Devil](/Traits.aspx?ID=575), [Fiend](/Traits.aspx?ID=600), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Devil",
-  "Fiend"
+  "Fiend",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=610",
+ "url": "/Monsters.aspx?ID=2910",
  "vision": "Greater darkvision",
  "weakest_save": [
   "fort",
   "fortitude"
  ],
  "weakness": {
-  "good": 10
+  "holy": 10
  },
- "weakness_markdown": "good 10",
- "weakness_raw": "good 10",
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 10",
+ "weakness_raw": " holy  10",
  "will_save": 28,
- "wisdom": 6
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

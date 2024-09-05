@@ -1,7 +1,10 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Purifying Spell"
@@ -9,23 +12,30 @@
  "feat_markdown": "Purifying Spell",
  "id": "feat-2979",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Purifying Spell](/Feats.aspx?ID=2979) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 200 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[wave order](/DruidicOrders.aspx?ID=7)\n\n</column>\r\n\r\n---\r\n\r\nYou purify the water within a creature's body to cleanse them of illness. If the next action you use is to cast [_heal_](/Spells.aspx?ID=148) targeting a single living creature, you can attempt to [counteract](/Rules.aspx?ID=371) a [disease](/Traits.aspx?ID=46) or [poison](/Traits.aspx?ID=126) affecting the target, in addition to the other benefits of _heal_. If you do, _heal_ gains the [water](/Traits.aspx?ID=165) trait. ",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Purifying Spell](/Feats.aspx?ID=2979) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 200 <sup>1.1</sup>\n\n**Prerequisites**\r\n[wave order](/DruidicOrders.aspx?ID=7)\n\n</column>\r\n\r\n---\r\n\r\nYou purify the water within a creature's body to cleanse them of illness. If the next action you use is to cast [_heal_](/Spells.aspx?ID=148) targeting a single living creature, you can attempt to [counteract](/Rules.aspx?ID=371) a [disease](/Traits.aspx?ID=46) or [poison](/Traits.aspx?ID=126) affecting the target, in addition to the other benefits of _heal_. If you do, _heal_ gains the [water](/Traits.aspx?ID=165) trait. ",
  "name": "Purifying Spell",
  "pfs": "Standard",
  "prerequisite": "wave order",
  "prerequisite_markdown": "[wave order](/DruidicOrders.aspx?ID=7)",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 200",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 200 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[wave order](/DruidicOrders.aspx?ID=7)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou purify the water within a creature's body to cleanse them of illness.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 200 <sup>1.1</sup>\n\n**Prerequisites**\r\n[wave order](/DruidicOrders.aspx?ID=7)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou purify the water within a creature's body to cleanse them of illness.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 200"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 200 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 200 <sup>1.1</sup>",
  "speed": {},
  "summary": "You purify the water within a creature's body to cleanse them of illness.",
  "summary_markdown": "You purify the water within a creature's body to cleanse them of illness.",
@@ -34,7 +44,14 @@
   "Concentrate",
   "Druid",
   "Metamagic",
-  "Water"
+  "Water",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class",
+  "Elemental",
+  "Planar",
+  "Monster"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=52), [Metamagic](/Traits.aspx?ID=107), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -8,37 +7,52 @@
  "id": "equipment-813",
  "item_category": "Held Items",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Limited\"\r\n>\r\n[Deafening Music Box](/Equipment.aspx?ID=813)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 75</row>\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nSymbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the box's top at an angle, though it feels surprisingly light. The box has a large button on its side, and it must be set down on a flat surface in order to activate it; while it's activated, the rumbling and churning gears inside the box make it impossible to carry without dropping it.\n\n<document level=\"2\" id=\"action-628\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Limited\"\r\n>\r\n[Deafening Music Box](/Equipment.aspx?ID=813)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 75\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nSymbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the box's top at an angle, though it feels surprisingly light. The box has a large button on its side, and it must be set down on a flat surface in order to activate it; while it's activated, the rumbling and churning gears inside the box make it impossible to carry without dropping it.\n\n**Activate** <actions string=\"Single Action\" /> Interact;     **Effect** You press the button on the side of the music box, causing it to erupt with a cacophonous and discordant melody for 1 minute while it plays its entire melody, and it can't be shut off prematurely. The music is so loud that any creature within 60 feet must succeed at a DC 24 Fortitude save or become [deafened](/Conditions.aspx?ID=8) for as long as they remain within 60 feet of the music box, and for 1 minute thereafter. On a critical success, a creature need not make any more saves and is temporarily immune to the _deafening music box_ for the next 24 hours; on a success, the creature must attempt a new save each round it remains within 60 feet of the music box.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Deafening Music Box",
  "pfs": "Limited",
  "price": 50000,
  "price_raw": "500 gp",
+ "primary_source": "Pathfinder #158: Sixty Feet Under",
+ "primary_source_raw": "Pathfinder #158: Sixty Feet Under pg. 75",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-08-26",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 75</row>\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSymbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 75\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSymbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #158: Sixty Feet Under"
  ],
  "source_raw": [
   "Pathfinder #158: Sixty Feet Under pg. 75"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 75</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 75",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Agents of Edgewatch",
  "stage_markdown": "",
  "summary": "Symbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the …",
  "summary_markdown": "Symbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the …",
- "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Limited\" > Deafening Music Box May contain spoilers from Agents of Edgewatch Source Pathfinder #158: Sixty Feet Under pg. 75 Price 500 gp Usage held in 2 hands Bulk 1 --- Symbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the box's top at an angle, though it feels surprisingly light. The box has a large button on its side, and it must be set down on a flat surface in order to activate it; while it's activated, the rumbling and churning gears inside the box make it impossible to carry without dropping it.\n",
+ "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Limited\" > Deafening Music Box May contain spoilers from Agents of Edgewatch Source Pathfinder #158: Sixty Feet Under pg. 75 Price 500 gp Usage held in 2 hands Bulk 1 --- Symbols of musical notes decorate this gold-framed wooden cube measuring just under 1 foot by 1 foot. A funnel-shaped trumpet protrudes from the box's top at an angle, though it feels surprisingly light. The box has a large button on its side, and it must be set down on a flat surface in order to activate it; while it's activated, the rumbling and churning gears inside the box make it impossible to carry without dropping it. Activate Single Action Interact; Effect You press the button on the side of the music box, causing it to erupt with a cacophonous and discordant melody for 1 minute while it plays its entire melody, and it can't be shut off prematurely. The music is so loud that any creature within 60 feet must succeed at a DC 24 Fortitude save or become deafened for as long as they remain within 60 feet of the music box, and for 1 minute thereafter. On a critical success, a creature need not make any more saves and is temporarily immune to the deafening music box for the next 24 hours; on a success, the creature must attempt a new save each round it remains within 60 feet of the music box.\n",
  "trait": [
   "Auditory",
   "Evocation",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Sense",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Evocation](/Traits.aspx?ID=65), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

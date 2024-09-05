@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,28 @@
  "frequency": "once per day",
  "id": "feat-1267",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Caterwaul](/Feats.aspx?ID=1267) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 11 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nAn ally within 30 feet would be reduced to 0 HP but not immediately killed.\n\n</column>\r\n\r\n---\r\n\r\nYou give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness. Your ally isn't knocked out and remains at 1 Hit Point. Your ally's [wounded](/Conditions.aspx?ID=42) condition still increases by 1 as though they had been [dying](/Conditions.aspx?ID=11) and recovered.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Caterwaul](/Feats.aspx?ID=1267) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 11 <sup>2.0</sup>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nAn ally within 30 feet would be reduced to 0 HP but not immediately killed.\n\n</column>\r\n\r\n---\r\n\r\nYou give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness. Your ally isn't knocked out and remains at 1 Hit Point. Your ally's [wounded](/Conditions.aspx?ID=42) condition still increases by 1 as though they had been [dying](/Conditions.aspx?ID=11) and recovered.",
  "name": "Caterwaul",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 11",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 11 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nAn ally within 30 feet would be reduced to 0 HP but not immediately killed.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 11 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nAn ally within 30 feet would be reduced to 0 HP but not immediately killed.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 11"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 11 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 11 <sup>2.0</sup>",
  "speed": {},
  "summary": "You give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness.",
  "summary_markdown": "You give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness.",
@@ -35,6 +42,12 @@
   "Concentrate",
   "Emotion",
   "Mental"
+ ],
+ "trait_group": [
+  "Sense",
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Catfolk](/Traits.aspx?ID=211), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [

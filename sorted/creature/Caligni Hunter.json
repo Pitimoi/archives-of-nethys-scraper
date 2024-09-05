@@ -1,0 +1,180 @@
+{
+ "ac": 21,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  13
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Final Fate",
+  "Double Slice",
+  "Encircling Command",
+  "Sneak Attack"
+ ],
+ "creature_family": "Caligni",
+ "creature_family_markdown": "[Caligni](/MonsterFamilies.aspx?ID=375)",
+ "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 60,
+ "hp_raw": "60 (final fate)",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2864",
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "darkening poison (6 doses)",
+  "Leather Armor",
+  "Shortsword (2)"
+ ],
+ "language": [
+  "Caligni",
+  "Sakvroth"
+ ],
+ "language_markdown": "[Caligni](/Languages.aspx?ID=28), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-66",
+ "legacy_name": "Caligni Stalker",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Caligni Hunter](/Monsters.aspx?ID=2864)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlthough caligni hunters are often pressed into leading their skulker kin, most hunters prefer to wander the Darklands or raid the surface free from those responsibilities. Their preferred assaults are usually done by solo caligni hunters or in small groups of two or three.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Caligni Hunter](/Monsters.aspx?ID=2864)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Caligni\" url=\"/Traits.aspx?ID=745\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 49\n\n**Perception** +10; [greater darkvision](/MonsterAbilities.aspx?ID=59), [light blindness](/MonsterAbilities.aspx?ID=68)\r\n\r\n**Languages**\r\n[Caligni](/Languages.aspx?ID=28), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +8, [Stealth](/Skills.aspx?ID=15) +13, [Thievery](/Skills.aspx?ID=17) +11, [Survival](/Skills.aspx?ID=16) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[darkening poison](/Weapons.aspx?ID=112) (6 doses), [Leather Armor](/Armor.aspx?ID=4), [Shortsword](/Weapons.aspx?ID=43) (2)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\r\n(final fate)\n\n</row>\n\n**Final Fate** ([occult](/Traits.aspx?ID=662), [spirit](/Traits.aspx?ID=737)) When the hunter dies, their soul leaves their body in an explosion of spiritual energy. All creatures in a 20-foot burst take 5d6 spirit damage (DC 19 [basic](/Rules.aspx?ID=329) Will save). The hunter's possessions are left in a pile where they died.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshortsword +13 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d6+7 piercing plus darkening poison\r\n\r\n**Occult Innate Spells** DC 19\r\n- **Cantrips (2nd)**\r\n[Figment](/Spells.aspx?ID=1528)\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59) (at will), [See the Unseen](/Spells.aspx?ID=1663) (at will)\r\n\r\n**Double Slice** <actions string=\"Two Actions\" />  The caligni hunter makes two Strikes against the same target, one with each of their shortswords. The hunter combines the damage of any attacks that hit and applies precision damage, resistances, and weaknesses only once. Both attacks count toward the hunter's multiple attack penalty, but the penalty increases only after both attacks.\r\n\r\n**Encircling Command** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16)) Each [caligni skulker](/Monsters.aspx?ID=2863) within 30 feet of the hunter can Step. Each skulker can benefit from Encircling Command only once per round.\r\n\r\n**Sneak Attack**   The caligni hunter deals 1d6 extra precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-375\" />",
+ "name": "Caligni Hunter",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 49",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 13,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Caligni\" url=\"/Traits.aspx?ID=745\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 49\r\n\r\n**Creature Family** [Caligni](/MonsterFamilies.aspx?ID=375)\r\n\r\n<row gap=\"medium\">\r\n**HP** 60 (final fate)\r\n\r\n**AC** 21\r\n\r\n**Fort** +10\r\n\r\n**Ref** +13\r\n\r\n**Will** +8\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlthough caligni hunters are often pressed into leading their skulker kin, most hunters prefer to wander the Darklands or raid the surface free from …\r\n</summary>",
+ "sense": " greater darkvision ,  light blindness ",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=59), [light blindness](/MonsterAbilities.aspx?ID=68)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth",
+  "Thievery",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +8, [Stealth](/Skills.aspx?ID=15) +13, [Thievery](/Skills.aspx?ID=17) +11, [Survival](/Skills.aspx?ID=16) +12",
+ "skill_mod": {
+  "acrobatics": 13,
+  "athletics": 8,
+  "stealth": 13,
+  "survival": 12,
+  "thievery": 11
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 49"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 49",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Darkness",
+  "See the Unseen",
+  "Figment"
+ ],
+ "spell_markdown": "[Darkness](/Spells.aspx?ID=59), [Figment](/Spells.aspx?ID=1528), [See the Unseen](/Spells.aspx?ID=1663)",
+ "spell_dc": [
+  19
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "stealth": "13",
+ "strike_damage_average": [
+  10
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Although caligni hunters are often pressed into leading their skulker kin, most hunters prefer to wander the Darklands or raid the surface free from …",
+ "summary_markdown": "Although caligni hunters are often pressed into leading their skulker kin, most hunters prefer to wander the Darklands or raid the surface free from …",
+ "text": " Caligni Hunter Although caligni hunters are often pressed into leading their skulker kin, most hunters prefer to wander the Darklands or raid the surface free from those responsibilities. Their preferred assaults are usually done by solo caligni hunters or in small groups of two or three. Recall Knowledge - Humanoid (Society): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Caligni Hunter Source Monster Core pg. 49 Perception +10; greater darkvision, light blindness Languages Caligni, Sakvroth Skills Acrobatics +13, Athletics +8, Stealth +13, Thievery +11, Survival +12 Str +2 Dex +5 Con +2 Int -1 Wis +2 Cha +1 Items darkening poison (6 doses), Leather Armor, Shortsword (2) --- AC 21 Fort +10 Ref +13 Will +8 HP 60 (final fate) Final Fate (occult, spirit) When the hunter dies, their soul leaves their body in an explosion of spiritual energy. All creatures in a 20-foot burst take 5d6 spirit damage (DC 19 basic Will save). The hunter's possessions are left in a pile where they died. --- Speed 25 feet Melee Single Action shortsword +13 (Agile, Finesse, versatile S), Damage 1d6+7 piercing plus darkening poison Occult Innate Spells DC 19 - Cantrips (2nd) Figment - 2nd Darkness (at will), See the Unseen (at will) Double Slice Two Actions The caligni hunter makes two Strikes against the same target, one with each of their shortswords. The hunter combines the damage of any attacks that hit and applies precision damage, resistances, and weaknesses only once. Both attacks count toward the hunter's multiple attack penalty, but the penalty increases only after both attacks. Encircling Command Single Action (Auditory) Each caligni skulker within 30 feet of the hunter can Step. Each skulker can benefit from Encircling Command only once per round. Sneak Attack The caligni hunter deals 1d6 extra precision damage to off-guard creatures. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Caligni",
+  "Humanoid",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Caligni](/Traits.aspx?ID=745), [Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Caligni",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2864",
+ "vision": "Greater darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 8,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

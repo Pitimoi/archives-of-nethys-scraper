@@ -1,55 +1,65 @@
 {
  "actions": "Free Action",
+ "actions_number": 0,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
+ "heighten_group": [
+  "6th rank"
+ ],
  "heighten_level": [
   6
  ],
- "id": "spell-476",
+ "id": "spell-1854",
+ "legacy_id": "spell-476",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 6\" pfs=\"Standard\">[Primal Summons](/Spells.aspx?ID=476)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 400 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Free Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou enhance a summoned creature with the power of the elements. If your next action is to cast either [_summon animal_](/Spells.aspx?ID=316) or [_summon plant or fungus_](/Spells.aspx?ID=325), choose air, earth, fire, or water, and the creature you summon gains the corresponding abilities. \n<ul><li>**Air** The creature gains a fly Speed of 60 feet. </li><li>**Earth** The creature gains a burrow Speed of 20 feet, reduces its land Speed by 10 feet (minimum 5 feet), and gains resistance 5 to physical damage. </li><li>**Fire** The creature's attacks deal 1d6 extra fire damage, and it gains resistance 10 to fire and weakness 5 to cold and water. </li><li>**Water** The creature gains a swim Speed of 60 feet, can spend 1 action after a melee attack to attempt a Shove (ignoring multiple attack penalty), and gains resistance 5 to fire.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 6\" pfs=\"Standard\">\r\n[Primal Summons](/Spells.aspx?ID=1854)\r\n<actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou enhance a summoned creature with the power of the elements. If your next action is to cast either [_summon animal_](/Spells.aspx?ID=316) or [_summon plant or fungus_](/Spells.aspx?ID=325), choose air, earth, fire, metal, water, or wood; the creature you summon gains the corresponding abilities.\n\n- **Air** The creature gains a fly Speed of 60 feet.\r\n- **Earth** The creature gains a burrow Speed of 20 feet, reduces its land Speed by 10 feet (minimum 5 feet), and gains resistance 5 to physical damage.\r\n- **Fire** The creature's Strikes deal 1d6 extra fire damage, and it gains resistance 10 to fire and weakness 5 to cold and water.\r\n- **Metal** The creature's Strikes deal 1d6 extra electricity damage, and it gains resistance 5 to electricity.\r\n- **Water** The creature gains a swim Speed of 60 feet, can spend 1 action after a melee attack to attempt a [Shove](/Actions.aspx?ID=38) (ignoring multiple attack penalty), and gains resistance 5 to fire.\r\n- **Wood** The creature gains a climb Speed of 30 feet and resistance 2 to bludgeoning and piercing damage.",
  "name": "Primal Summons",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 381",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 400 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Free Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance a summoned creature with the power of the elements.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance a summoned creature with the power of the elements.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 400"
+  "Player Core pg. 381"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 400 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 381",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You enhance a summoned creature with the power of the elements.",
  "summary_markdown": "You enhance a summoned creature with the power of the elements.",
- "text": " Primal Summons Source Core Rulebook pg. 400 4.0 Cast Free Action verbal --- You enhance a summoned creature with the power of the elements. If your next action is to cast either summon animal or summon plant or fungus , choose air, earth, fire, or water, and the creature you summon gains the corresponding abilities. Air The creature gains a fly Speed of 60 feet. Earth The creature gains a burrow Speed of 20 feet, reduces its land Speed by 10 feet (minimum 5 feet), and gains resistance 5 to physical damage. Fire The creature's attacks deal 1d6 extra fire damage, and it gains resistance 10 to fire and weakness 5 to cold and water. Water The creature gains a swim Speed of 60 feet, can spend 1 action after a melee attack to attempt a Shove (ignoring multiple attack penalty), and gains resistance 5 to fire.",
+ "text": "\nPrimal Summons Free Action Source Player Core pg. 381 --- You enhance a summoned creature with the power of the elements. If your next action is to cast either summon animal or summon plant or fungus , choose air, earth, fire, metal, water, or wood; the creature you summon gains the corresponding abilities. - Air The creature gains a fly Speed of 60 feet. - Earth The creature gains a burrow Speed of 20 feet, reduces its land Speed by 10 feet (minimum 5 feet), and gains resistance 5 to physical damage. - Fire The creature's Strikes deal 1d6 extra fire damage, and it gains resistance 10 to fire and weakness 5 to cold and water. - Metal The creature's Strikes deal 1d6 extra electricity damage, and it gains resistance 5 to electricity. - Water The creature gains a swim Speed of 60 feet, can spend 1 action after a melee attack to attempt a Shove (ignoring multiple attack penalty), and gains resistance 5 to fire. - Wood The creature gains a climb Speed of 30 feet and resistance 2 to bludgeoning and piercing damage.",
  "tradition_markdown": "",
  "trait": [
-  "Conjuration",
+  "Concentrate",
   "Druid",
+  "Focus",
   "Uncommon"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Druid](/Traits.aspx?ID=52), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=583), [Focus](/Traits.aspx?ID=511), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
-  "Conjuration",
+  "Concentrate",
   "Druid",
+  "Focus",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=476",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1854",
  "weakness": {}
 }

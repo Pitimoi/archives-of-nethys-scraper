@@ -1,0 +1,168 @@
+{
+ "ac": 37,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  30,
+  30,
+  30
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Motion Sense",
+  "Dreadful Resonance",
+  "Enthralling Call",
+  "Entropic Cry",
+  "Fast Swallow",
+  "Inexorable",
+  "Swallow Whole",
+  "Thrash",
+  "Trample"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 30,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 295,
+ "hp_raw": "295",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3303",
+ "image": [
+  "/Images/Monsters/Rumindrol.webp"
+ ],
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 15,
+ "markdown": "<title level=\"1\" pfs=\"\">[Rumindrol](/Monsters.aspx?ID=3303)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that reverberate far and wide through the tunnel systems surrounding its lair, a rumindrol feasts on the giant subterranean worms drawn to its call—as well as [shulns](/Monsters.aspx?ID=3191) and other creatures that feed in the worms' wake—by building up sickening subsonic vibrations within its targets until they are unable to move.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 39\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 37\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 34\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Rumindrol.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 15\">[Rumindrol](/Monsters.aspx?ID=3303)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 176\n\n**Perception** +28; motion sense 120 feet, no vision\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +30, [Deception](/Skills.aspx?ID=38) +27, [Survival](/Skills.aspx?ID=49) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +6\r\n\r\n**Con** +7\r\n\r\n**Int** -1\r\n\r\n**Wis** +5\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Motion Sense** A rumindrol can sense nearby motion through vibration and air movement.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 37 \r\n\r\n**Fort** +30 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +23 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 295\n\n</row>\n\n**Resistances**\r\n[poison](/Traits.aspx?ID=669) 15, [sonic](/Traits.aspx?ID=697) 15\r\n\r\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=555) 10\r\n\r\n**Dreadful Resonance** ([auditory](/Traits.aspx?ID=541), [aura](/Traits.aspx?ID=542), [incapacitation](/Traits.aspx?ID=631)) 60 feet. Each creature that enters or starts its turn in the emanation must succeed at a DC 36 Fortitude save or become [enfeebled 1](/Conditions.aspx?ID=71) (enfeebled 2 on a critical failure) and take 3d8 sonic damage.<br />**Enthralling Call** ([auditory](/Traits.aspx?ID=541), [aura](/Traits.aspx?ID=542), [emotion](/Traits.aspx?ID=590), [mental](/Traits.aspx?ID=647)) 1 mile. Each non-rumindrol creature that enters or starts its turn within the emanation must succeed at a DC 26 Will save or become [fascinated](/Conditions.aspx?ID=72). The creature then becomes temporarily immune to this effect for 1 day (1 hour on a critical failure). Any creature fascinated in this way will attempt to find the source of the rumindrol's cry, mindlessly wandering towards it.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, burrow 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +30 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+15 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nleg +30 ([Agile](/Traits.aspx?ID=170), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+15 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nfocused resonance +30 ([range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d10+15 sonic\n\n**Entropic Cry** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Incapacitation](/Traits.aspx?ID=93)) The rumindrol focuses its sonic emanations on a creature it's aware of within the area of its enthralling call aura. The target must attempt a DC 31 Fortitude save.<br /> **Critical Success** The creature becomes temporarily immune to Entropic Cry for 1 hour.<br /> **Success** The target is [sickened 1](/Conditions.aspx?ID=91).<br /> **Failure** The target is sickened 2.<br /> **Critical Failure** The target is sickened 2, [enfeebled 1](/Conditions.aspx?ID=71), and [stupefied 1](/Conditions.aspx?ID=94).\r\n\r\n**Fast Swallow** <actions string=\"Reaction\" />  **Trigger** The rumindrol [Grabs](/MonsterAbilities.aspx?ID=45) a creature; **Effect** The rumindrol uses Swallow Whole.\r\n\r\n**Inexorable**   The rumindrol recovers from the [paralyzed](/Conditions.aspx?ID=85), [slowed](/Conditions.aspx?ID=92), and [stunned](/Conditions.aspx?ID=93) conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Huge, 3d10+9 bludgeoning, Rupture 30\r\n\r\n**Thrash** <actions string=\"Two Actions\" /> ([Attack](/Traits.aspx?ID=15)) The rumindrol attempts individual Strikes against each creature in its reach. It can attempt up to one jaws Strike and any number of leg Strikes. Each attack counts toward the rumindrol's multiple attack penalty, but the penalty doesn't increase until after it makes all the attacks.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Three Actions\" />  Huge or smaller, leg, DC 36\r\n\r\n</column>",
+ "name": "Rumindrol",
+ "npc": false,
+ "perception": 28,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 176",
+ "primary_source_category": "Rulebooks",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 26,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "poison": 15,
+  "sonic": 15
+ },
+ "resistance_markdown": "[poison](/Traits.aspx?ID=669) 15, [sonic](/Traits.aspx?ID=697) 15",
+ "resistance_raw": " poison  15,  sonic  15",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 176\n\n<row gap=\"medium\">\r\n**HP** 295\r\n\r\n**AC** 37\r\n\r\n**Fort** +30\r\n\r\n**Ref** +26\r\n\r\n**Will** +23\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that …\r\n</summary>",
+ "sense": "motion sense 120 feet, no vision",
+ "sense_markdown": "motion sense 120 feet, no vision",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Deception",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +30, [Deception](/Skills.aspx?ID=38) +27, [Survival](/Skills.aspx?ID=49) +25",
+ "skill_mod": {
+  "athletics": 30,
+  "deception": 27,
+  "survival": 25
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 176"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 176",
+ "speed": {
+  "burrow": 60,
+  "land": 20,
+  "max": 60
+ },
+ "speed_markdown": "20 feet, burrow 60 feet",
+ "speed_raw": "20 feet, burrow 60 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  28,
+  31,
+  34
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 9,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "The elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that …",
+ "summary_markdown": "The elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that …",
+ "text": " Rumindrol The elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that reverberate far and wide through the tunnel systems surrounding its lair, a rumindrol feasts on the giant subterranean worms drawn to its call—as well as shulns and other creatures that feed in the worms' wake—by building up sickening subsonic vibrations within its targets until they are unable to move. Recall Knowledge - Beast (Arcana, Nature): DC 39 Unspecific Lore : DC 37 Specific Lore : DC 34 Rumindrol Source Howl of the Wild pg. 176 Perception +28; motion sense 120 feet, no vision Languages Skills Athletics +30, Deception +27, Survival +25 Str +9 Dex +6 Con +7 Int -1 Wis +5 Cha -1 Motion Sense A rumindrol can sense nearby motion through vibration and air movement. --- AC 37 Fort +30 Ref +26 Will +23 HP 295 Resistances poison 15, sonic 15 Weaknesses cold 10 Dreadful Resonance (auditory, aura, incapacitation) 60 feet. Each creature that enters or starts its turn in the emanation must succeed at a DC 36 Fortitude save or become enfeebled 1 (enfeebled 2 on a critical failure) and take 3d8 sonic damage. Enthralling Call (auditory, aura, emotion, mental) 1 mile. Each non-rumindrol creature that enters or starts its turn within the emanation must succeed at a DC 26 Will save or become fascinated. The creature then becomes temporarily immune to this effect for 1 day (1 hour on a critical failure). Any creature fascinated in this way will attempt to find the source of the rumindrol's cry, mindlessly wandering towards it. --- Speed 20 feet, burrow 60 feet Melee Single Action jaws +30 (reach 15 feet), Damage 3d12+15 piercing plus Improved Grab Melee Single Action leg +30 (Agile, reach 15 feet), Damage 3d8+15 slashing Ranged Single Action focused resonance +30 (range increment 120 feet), Damage 3d10+15 sonic Entropic Cry Single Action (Auditory, Incapacitation) The rumindrol focuses its sonic emanations on a creature it's aware of within the area of its enthralling call aura. The target must attempt a DC 31 Fortitude save. Critical Success The creature becomes temporarily immune to Entropic Cry for 1 hour. Success The target is sickened 1. Failure The target is sickened 2. Critical Failure The target is sickened 2, enfeebled 1, and stupefied 1. Fast Swallow Reaction Trigger The rumindrol Grabs a creature; Effect The rumindrol uses Swallow Whole. Inexorable The rumindrol recovers from the paralyzed, slowed, and stunned conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain. Swallow Whole Single Action (Attack) Huge, 3d10+9 bludgeoning, Rupture 30 Thrash Two Actions (Attack) The rumindrol attempts individual Strikes against each creature in its reach. It can attempt up to one jaws Strike and any number of leg Strikes. Each attack counts toward the rumindrol's multiple attack penalty, but the penalty doesn't increase until after it makes all the attacks. Trample Three Actions Huge or smaller, leg, DC 36 ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Rare",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Rare](/Traits.aspx?ID=683)",
+ "trait_raw": [
+  "Beast",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3303",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "cold": 10
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=555) 10",
+ "weakness_raw": " cold  10",
+ "will_save": 23,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,62 +1,67 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-266",
+ "id": "spell-1660",
+ "legacy_id": "spell-266",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Sanctuary](/Spells.aspx?ID=266)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 366 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou ward a creature with protective energy that deters enemy attacks. Creatures attempting to attack the target must attempt a Will save each time. If the target uses a hostile action, the spell ends.\r\n\r\n**Critical Success** _Sanctuary_ ends.<br />\r\n**Success** The creature can attempt its attack and any other attacks against the target this turn.<br />\r\n**Failure** The creature can't attack the target and wastes the action. It can't attempt further attacks against the target this turn.<br />\r\n**Critical Failure** The creature wastes the action and can't attempt to attack the target for the rest of _sanctuary_'s duration.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Sanctuary](/Spells.aspx?ID=1660)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 355\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou ward a creature with protective energy that deters attacks. Creatures attempting to attack the target must attempt a Will save each time. If the target uses a [hostile action](/Rules.aspx?ID=300), the spell ends.\r\n\r\n**Critical Success** _Sanctuary_ ends.<br />\r\n**Success** The creature can attempt its attack and any other attacks against the target this turn.<br />\r\n**Failure** The creature can't attack the target and wastes the action. It can't attempt further attacks against the target this turn.<br />\r\n**Critical Failure** The creature wastes the action and can't attempt to attack the target for the rest of sanctuary's duration.",
  "name": "Sanctuary",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 355",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 366 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nProtect a creature from being attacked.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 355\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nProtect a creature from being attacked.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 366"
+  "Player Core pg. 355"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 366 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 355",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Protect a creature from being attacked.",
  "summary_markdown": "Protect a creature from being attacked.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Sanctuary Source Core Rulebook pg. 366 4.0 Traditions Divine, Occult Cast Two Actions somatic, verbal Range touch Target 1 creature Duration 1 minute --- You ward a creature with protective energy that deters enemy attacks. Creatures attempting to attack the target must attempt a Will save each time. If the target uses a hostile action, the spell ends. Critical Success Sanctuary ends. Success The creature can attempt its attack and any other attacks against the target this turn. Failure The creature can't attack the target and wastes the action. It can't attempt further attacks against the target this turn. Critical Failure The creature wastes the action and can't attempt to attack the target for the rest of sanctuary 's duration.",
+ "text": "\nSanctuary Two Actions Source Player Core pg. 355 Traditions Divine, Occult Range touch Target 1 creature Duration 1 minute --- You ward a creature with protective energy that deters attacks. Creatures attempting to attack the target must attempt a Will save each time. If the target uses a hostile action, the spell ends. Critical Success Sanctuary ends. Success The creature can attempt its attack and any other attacks against the target this turn. Failure The creature can't attack the target and wastes the action. It can't attempt further attacks against the target this turn. Critical Failure The creature wastes the action and can't attempt to attack the target for the rest of sanctuary's duration.",
  "tradition": [
   "Divine",
   "Occult"
  ],
  "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=266",
+ "url": "/Spells.aspx?ID=1660",
  "weakness": {}
 }

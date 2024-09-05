@@ -1,13 +1,12 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain": [
   "Decay"
  ],
@@ -15,6 +14,18 @@
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -30,44 +41,58 @@
  ],
  "id": "spell-598",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Withering Grasp](/Spells.aspx?ID=598)</title>\n\n<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 113 <sup>2.0</sup></row>\r\n\r\n_[**PFS Note**](/pathfinder-society) The Targets entry for withering grasp should be “1 creature or unattended object”, not “1 creature or object.” When used on an unattended object, the object takes persistent damage on your next turn._\n\n**Domain**\r\n[Decay](/Domains.aspx?ID=42)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour touch rots organic material and decays objects. Make a melee spell attack roll. Your touch deals 1d12 negative damage plus 1d4 [persistent negative damage](/Conditions.aspx?ID=29). If a creature uses an item to block _withering grasp_, such as with the [Shield Block](/Feats.aspx?ID=839) reaction, the item is automatically affected, but the creature does not take damage (even if there is damage left over after the shield’s Hardness). Unlike normal negative damage, the negative damage from _withering grasp_ damages objects, constructs, and the like by eroding them away.\r\n\r\n**Critical Success** Your touch deals double damage (both initial and persistent). If you target an object, lower its Hardness by 4 for 1 minute.<br />\r\n**Success** Your touch deals full damage. If you target an object, lower its Hardness by 2 for 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12 and the persistent damage increases by 1. If you target an object, lower its Hardness by an additional 1 point on both a success and a critical success.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Withering Grasp](/Spells.aspx?ID=598)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 113 <sup>2.0</sup>\r\n\r\n_[**PFS Note**](/pathfinder-society) The Targets entry for withering grasp should be “1 creature or unattended object”, not “1 creature or object.” When used on an unattended object, the object takes persistent damage on your next turn._\n\n**Domain**\r\n[Decay](/Domains.aspx?ID=42)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour touch rots organic material and decays objects. Make a melee spell attack roll. Your touch deals 1d12 negative damage plus 1d4 [persistent negative damage](/Conditions.aspx?ID=29). If a creature uses an item to block _withering grasp_, such as with the [Shield Block](/Feats.aspx?ID=839) reaction, the item is automatically affected, but the creature does not take damage (even if there is damage left over after the shield’s Hardness). Unlike normal negative damage, the negative damage from _withering grasp_ damages objects, constructs, and the like by eroding them away.\r\n\r\n**Critical Success** Your touch deals double damage (both initial and persistent). If you target an object, lower its Hardness by 4 for 1 minute.<br />\r\n**Success** Your touch deals full damage. If you target an object, lower its Hardness by 2 for 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12 and the persistent damage increases by 1. If you target an object, lower its Hardness by an additional 1 point on both a success and a critical success.",
  "name": "Withering Grasp",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 113",
+ "primary_source_category": "Lost Omens",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 113 <sup>2.0</sup></row>\n\n**Domain**\r\n[Decay](/Domains.aspx?ID=42)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour touch rots organic material and decays objects.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 113 <sup>2.0</sup>\n\n**Domain**\r\n[Decay](/Domains.aspx?ID=42)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour touch rots organic material and decays objects.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 113"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 113 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 113 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "Your touch rots organic material and decays objects.",
  "summary_markdown": "Your touch rots organic material and decays objects.",
  "target": "1 creature or object",
  "target_markdown": "1 creature or object",
- "text": " Withering Grasp Source Gods &amp; Magic pg. 113 2.0 PFS Note The Targets entry for withering grasp should be “1 creature or unattended object”, not “1 creature or object.” When used on an unattended object, the object takes persistent damage on your next turn. Domain Decay Cast Two Actions somatic, verbal Range touch Target 1 creature or object --- Your touch rots organic material and decays objects. Make a melee spell attack roll. Your touch deals 1d12 negative damage plus 1d4 persistent negative damage. If a creature uses an item to block withering grasp , such as with the Shield Block reaction, the item is automatically affected, but the creature does not take damage (even if there is damage left over after the shield’s Hardness). Unlike normal negative damage, the negative damage from withering grasp damages objects, constructs, and the like by eroding them away. Critical Success Your touch deals double damage (both initial and persistent). If you target an object, lower its Hardness by 4 for 1 minute. Success Your touch deals full damage. If you target an object, lower its Hardness by 2 for 1 minute. --- Heightened (+1) The damage increases by 1d12 and the persistent damage increases by 1. If you target an object, lower its Hardness by an additional 1 point on both a success and a critical success.",
+ "text": "\nWithering Grasp Two Actions Source Gods &amp; Magic pg. 113 2.0 PFS Note The Targets entry for withering grasp should be “1 creature or unattended object”, not “1 creature or object.” When used on an unattended object, the object takes persistent damage on your next turn. Domain Decay Cast somatic, verbal Range touch Target 1 creature or object --- Your touch rots organic material and decays objects. Make a melee spell attack roll. Your touch deals 1d12 negative damage plus 1d4 persistent negative damage. If a creature uses an item to block withering grasp , such as with the Shield Block reaction, the item is automatically affected, but the creature does not take damage (even if there is damage left over after the shield’s Hardness). Unlike normal negative damage, the negative damage from withering grasp damages objects, constructs, and the like by eroding them away. Critical Success Your touch deals double damage (both initial and persistent). If you target an object, lower its Hardness by 4 for 1 minute. Success Your touch deals full damage. If you target an object, lower its Hardness by 2 for 1 minute. --- Heightened (+1) The damage increases by 1d12 and the persistent damage increases by 1. If you target an object, lower its Hardness by an additional 1 point on both a success and a critical success.",
  "tradition_markdown": "",
  "trait": [
   "Necromancy",
-  "Negative"
+  "Negative",
+  "Focus",
+  "Void"
  ],
- "trait_markdown": "[Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118)",
+ "trait_group": [
+  "School",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Necromancy",
-  "Negative"
+  "Negative",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=598",
  "weakness": {}
 }

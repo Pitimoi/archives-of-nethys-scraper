@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,28 @@
  "frequency": "once per day",
  "id": "feat-2487",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Impose Order (Aphorite)](/Feats.aspx?ID=2487) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Aphorite\" url=\"/Traits.aspx?ID=335\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 77 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would critically fail a skill check or suffer an effect with the [misfortune](/Traits.aspx?ID=110) trait.\n\n</column>\r\n\r\n---\r\n\r\nYou shift the underlying fabric of reality to impose a baseline of order. If the trigger was a skill check, you instead receive a result of 10 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers). If the trigger was an effect with the misfortune trait, the misfortune and fortune effects cancel each other out as normal, negating the triggering misfortune effect.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Impose Order (Aphorite)](/Feats.aspx?ID=2487) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Aphorite\" url=\"/Traits.aspx?ID=335\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 77 <sup>2.0</sup>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would critically fail a skill check or suffer an effect with the [misfortune](/Traits.aspx?ID=110) trait.\n\n</column>\r\n\r\n---\r\n\r\nYou shift the underlying fabric of reality to impose a baseline of order. If the trigger was a skill check, you instead receive a result of 10 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers). If the trigger was an effect with the misfortune trait, the misfortune and fortune effects cancel each other out as normal, negating the triggering misfortune effect.",
  "name": "Impose Order (Aphorite)",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 77",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Aphorite\" url=\"/Traits.aspx?ID=335\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 77 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would critically fail a skill check or suffer an effect with the [misfortune](/Traits.aspx?ID=110) trait.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou shift the underlying fabric of reality to impose a baseline of order.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Aphorite\" url=\"/Traits.aspx?ID=335\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 77 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would critically fail a skill check or suffer an effect with the [misfortune](/Traits.aspx?ID=110) trait.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou shift the underlying fabric of reality to impose a baseline of order.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 77"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 77 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 77 <sup>2.0</sup>",
  "speed": {},
  "summary": "You shift the underlying fabric of reality to impose a baseline of order.",
  "summary_markdown": "You shift the underlying fabric of reality to impose a baseline of order.",
@@ -32,6 +39,9 @@
  "trait": [
   "Aphorite",
   "Fortune"
+ ],
+ "trait_group": [
+  "Ancestry"
  ],
  "trait_markdown": "[Aphorite](/Traits.aspx?ID=335), [Fortune](/Traits.aspx?ID=76)",
  "trait_raw": [

@@ -2,7 +2,6 @@
  "archetype": [
   "Demolitionist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -11,27 +10,37 @@
  "feat_markdown": "Demolition Charge",
  "id": "feat-1594",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Demolition Charge](/Feats.aspx?ID=1594) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 106 <sup>2.0</sup></row>\n\n**Archetype** [Demolitionist](/Archetypes.aspx?ID=118) (Level 4)\n\n</column>\r\n\r\n---\r\n\r\nYou can rig your bombs to inanimate objects in order to cause destruction to the surrounding area. As an activity that takes 1 minute, you attach between one and four bombs to an inanimate object within your reach, such as a chest, door, wall, or column. This creates a hazard in one square occupied by or adjacent to the inanimate object, and the hazard's [Stealth](/Skills.aspx?ID=15) DC to detect it and [Thievery](/Skills.aspx?ID=17) DC to disable it are equal to your class DC. The hazard has the following reaction, which you can also trigger as a single action so long as you are within 30 feet of the hazard. The hazard retains its potency until it's triggered, until the inanimate object moves from its space, or until you make your next daily preparations, whichever comes first.\n\n<document level=\"2\" id=\"action-563\" />",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Demolition Charge](/Feats.aspx?ID=1594) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 106 <sup>2.0</sup>\n\n**Archetype** [Demolitionist](/Archetypes.aspx?ID=118) (Level 4)\n\n</column>\r\n\r\n---\r\n\r\nYou can rig your bombs to inanimate objects in order to cause destruction to the surrounding area. As an activity that takes 1 minute, you attach between one and four bombs to an inanimate object within your reach, such as a chest, door, wall, or column. This creates a hazard in one square occupied by or adjacent to the inanimate object, and the hazard's [Stealth](/Skills.aspx?ID=15) DC to detect it and [Thievery](/Skills.aspx?ID=17) DC to disable it are equal to your class DC. The hazard has the following reaction, which you can also trigger as a single action so long as you are within 30 feet of the hazard. The hazard retains its potency until it's triggered, until the inanimate object moves from its space, or until you make your next daily preparations, whichever comes first.\n\n**Activate** <actions string=\"Reaction\" /> Fire in the Hole;   **Trigger** A creature moves into the hazard's space;  **Effect** The hazard explodes, dealing the bombs' damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, similarly combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, Calculated Splash and similar effects don't apply.",
  "name": "Demolition Charge",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 106",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 106 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can rig your bombs to inanimate objects in order to cause destruction to the surrounding area.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 106 <sup>2.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can rig your bombs to inanimate objects in order to cause destruction to the surrounding area.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 106"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 106 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 106 <sup>2.0</sup>",
  "speed": {},
  "summary": "You can rig your bombs to inanimate objects in order to cause destruction to the surrounding area.",
  "summary_markdown": "You can rig your bombs to inanimate objects in order to cause destruction to the surrounding area.",
- "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Demolition Charge Source Advanced Player's Guide pg. 106 2.0 Archetype Demolitionist (Level 4) --- You can rig your bombs to inanimate objects in order to cause destruction to the surrounding area. As an activity that takes 1 minute, you attach between one and four bombs to an inanimate object within your reach, such as a chest, door, wall, or column. This creates a hazard in one square occupied by or adjacent to the inanimate object, and the hazard's Stealth DC to detect it and Thievery DC to disable it are equal to your class DC. The hazard has the following reaction, which you can also trigger as a single action so long as you are within 30 feet of the hazard. The hazard retains its potency until it's triggered, until the inanimate object moves from its space, or until you make your next daily preparations, whichever comes first.\n",
+ "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Demolition Charge Source Advanced Player's Guide pg. 106 2.0 Archetype Demolitionist (Level 4) --- You can rig your bombs to inanimate objects in order to cause destruction to the surrounding area. As an activity that takes 1 minute, you attach between one and four bombs to an inanimate object within your reach, such as a chest, door, wall, or column. This creates a hazard in one square occupied by or adjacent to the inanimate object, and the hazard's Stealth DC to detect it and Thievery DC to disable it are equal to your class DC. The hazard has the following reaction, which you can also trigger as a single action so long as you are within 30 feet of the hazard. The hazard retains its potency until it's triggered, until the inanimate object moves from its space, or until you make your next daily preparations, whichever comes first. Activate Reaction Fire in the Hole; Trigger A creature moves into the hazard's space; Effect The hazard explodes, dealing the bombs' damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, similarly combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, Calculated Splash and similar effects don't apply.",
  "trait": [
   "Alchemist"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Alchemist](/Traits.aspx?ID=7)",
  "trait_raw": [

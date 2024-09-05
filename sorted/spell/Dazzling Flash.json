@@ -1,70 +1,89 @@
 {
  "actions": "Two Actions",
- "area": "15-foot cone",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "material",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  15
  ],
- "deity_markdown": "",
+ "area_raw": "15-foot cone",
+ "area_type": [
+  "cone"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain": [
   "Sun"
  ],
- "domain_markdown": "[Sun](/Domains.aspx?ID=29)",
+ "domain_markdown": "[Sun](/Domains.aspx?ID=92)",
  "exclude_from_search": false,
  "heighten": [
   "3rd"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank"
  ],
  "heighten_level": [
   1,
   3
  ],
- "id": "spell-412",
+ "id": "spell-1836",
+ "legacy_id": "spell-412",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Dazzling Flash](/Spells.aspx?ID=412)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>\n\n**Domain**\r\n[Sun](/Domains.aspx?ID=29)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is [dazzled](/Conditions.aspx?ID=7) for 1 round.<br />\r\n**Failure** The creature is [blinded](/Conditions.aspx?ID=1) for 1 round and dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the blinded condition.<br />\r\n**Critical Failure** The creature is blinded for 1 round and dazzled for 1 hour.\n\n---\r\n**Heightened (3rd)** The area increases to a 30-foot cone.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Dazzling Flash](/Spells.aspx?ID=1836)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 379\n\n**Domain**\r\n[Sun](/Domains.aspx?ID=92)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is [dazzled](/Conditions.aspx?ID=7) for 1 round.<br />\r\n**Failure** The creature is [blinded](/Conditions.aspx?ID=1) for 1 round and dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the blinded condition.<br />\r\n**Critical Failure** The creature is blinded for 1 round and dazzled for 1 hour.\n\n---\r\n**Heightened (3rd)** The area increases to a 30-foot cone.",
  "name": "Dazzling Flash",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 379",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>\n\n**Domain**\r\n[Sun](/Domains.aspx?ID=29)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou raise your religious symbol and create a blinding flash of light.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 379\n\n**Domain**\r\n[Sun](/Domains.aspx?ID=92)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou raise your religious symbol and create a blinding flash of light.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 391"
+  "Player Core pg. 379"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 379",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You raise your religious symbol and create a blinding flash of light.",
  "summary_markdown": "You raise your religious symbol and create a blinding flash of light.",
- "text": " Dazzling Flash Source Core Rulebook pg. 391 4.0 Domain Sun Cast Two Actions material, verbal Area 15-foot cone Saving Throw Fortitude --- You raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. Failure The creature is blinded for 1 round and dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the blinded condition. Critical Failure The creature is blinded for 1 round and dazzled for 1 hour. --- Heightened (3rd) The area increases to a 30-foot cone.",
+ "text": "\nDazzling Flash Two Actions Source Player Core pg. 379 Domain Sun Area 15-foot cone Defense Fortitude --- You raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. Failure The creature is blinded for 1 round and dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the blinded condition. Critical Failure The creature is blinded for 1 round and dazzled for 1 hour. --- Heightened (3rd) The area increases to a 30-foot cone.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Evocation",
+  "Concentrate",
+  "Focus",
   "Light",
+  "Manipulate",
   "Uncommon",
   "Visual"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Evocation](/Traits.aspx?ID=65), [Light](/Traits.aspx?ID=100), [Uncommon](/Traits.aspx?ID=159), [Visual](/Traits.aspx?ID=163)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Sense"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Light](/Traits.aspx?ID=100), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Visual](/Traits.aspx?ID=163)",
  "trait_raw": [
   "Cleric",
-  "Evocation",
+  "Concentrate",
+  "Focus",
   "Light",
+  "Manipulate",
   "Uncommon",
   "Visual"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=412",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1836",
  "weakness": {}
 }

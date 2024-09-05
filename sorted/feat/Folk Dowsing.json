@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,27 +7,34 @@
  "feat_markdown": "Folk Dowsing",
  "id": "feat-3774",
  "level": 3,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Folk Dowsing](/Feats.aspx?ID=3774) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 78</row>\n\n**Prerequisites**\r\nTrained in [Survival](/Skills.aspx?ID=16)\n\n</column>\r\n\r\n---\r\n\r\nYou can find what you're looking for using a dowsing rod or pendulum. If you [Search](/Actions.aspx?ID=519) while wielding a dowsing rod or pendulum, in addition to the normal checks for Searching, the GM rolls a [secret](/Traits.aspx?ID=142) [Survival](/Skills.aspx?ID=16) check for you to detect the largest source of water, oil, or another natural non-bodily fluid in the area. Even if the liquid is concealed from you—for example, if it stems from an underground spring or is piped through a wall—this technique points you in the right direction. The GM determines the DC, which is usually the [trained simple DC](/Rules.aspx?ID=553) with a [hard or very hard adjustment](/Rules.aspx?ID=555) if the source of water is small.\n\n If you're an expert in Survival, the GM also makes a Survival check for you to detect sizable deposits of metal, minerals, and nearby graves. The DC is usually the expert simple DC, with DC adjustments for smaller deposits.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Folk Dowsing](/Feats.aspx?ID=3774) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 78\n\n**Prerequisites**\r\nTrained in [Survival](/Skills.aspx?ID=16)\n\n</column>\r\n\r\n---\r\n\r\nYou can find what you're looking for using a dowsing rod or pendulum. If you [Search](/Actions.aspx?ID=519) while wielding a dowsing rod or pendulum, in addition to the normal checks for Searching, the GM rolls a [secret](/Traits.aspx?ID=142) [Survival](/Skills.aspx?ID=16) check for you to detect the largest source of water, oil, or another natural non-bodily fluid in the area. Even if the liquid is concealed from you—for example, if it stems from an underground spring or is piped through a wall—this technique points you in the right direction. The GM determines the DC, which is usually the [trained simple DC](/Rules.aspx?ID=553) with a [hard or very hard adjustment](/Rules.aspx?ID=555) if the source of water is small.\n\n If you're an expert in Survival, the GM also makes a Survival check for you to detect sizable deposits of metal, minerals, and nearby graves. The DC is usually the expert simple DC, with DC adjustments for smaller deposits.",
  "name": "Folk Dowsing",
  "pfs": "Standard",
  "prerequisite": "Trained in Survival",
  "prerequisite_markdown": "Trained in [Survival](/Skills.aspx?ID=16)",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 78",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-07-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 78</row>\n\n**Prerequisites**\r\nTrained in [Survival](/Skills.aspx?ID=16)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can find what you're looking for using a dowsing rod or pendulum.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 78\n\n**Prerequisites**\r\nTrained in [Survival](/Skills.aspx?ID=16)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can find what you're looking for using a dowsing rod or pendulum.\r\n</summary>",
  "skill": [
   "Survival",
   "Survival"
  ],
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 78"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 78</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 78",
  "speed": {},
  "summary": "You can find what you're looking for using a dowsing rod or pendulum.",
  "summary_markdown": "You can find what you're looking for using a dowsing rod or pendulum.",
@@ -37,6 +43,9 @@
   "General",
   "Skill",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Rarity"
  ],
  "trait_markdown": "[General](/Traits.aspx?ID=78), [Skill](/Traits.aspx?ID=144), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,10 +1,10 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline": [
   "Undead"
  ],
  "bloodline_markdown": "[Undead](/Bloodlines.aspx?ID=10)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
@@ -16,13 +16,24 @@
   "Touch of the Sun",
   "Urgathoa"
  ],
- "deity_markdown": "[Osiris](/Deities.aspx?ID=56), [Qi Zhong](/Deities.aspx?ID=182), [Touch of the Sun](/Deities.aspx?ID=233), [Urgathoa](/Deities.aspx?ID=19)",
+ "deity_markdown": "[Osiris](/Deities.aspx?ID=56), [Qi Zhong](/Deities.aspx?ID=314), [Touch of the Sun](/Deities.aspx?ID=233), [Urgathoa](/Deities.aspx?ID=295)",
  "domain_markdown": "",
  "duration": 28800,
  "duration_raw": "8 hours",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   2,
@@ -37,29 +48,36 @@
  ],
  "id": "spell-108",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[False Life](/Spells.aspx?ID=108)</title>\n\n<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\r\n\r\n**Deities**\r\n[Osiris](/Deities.aspx?ID=56), [Qi Zhong](/Deities.aspx?ID=182), [Touch of the Sun](/Deities.aspx?ID=233), [Urgathoa](/Deities.aspx?ID=19)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 8 hours\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a reservoir of vitality from necromantic energy, gaining a number of temporary Hit Points equal to 6 plus your spellcasting ability modifier.\n\n---\r\n**Heightened (+1)** The temporary Hit Points increase by 3.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[False Life](/Spells.aspx?ID=108)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\r\n\r\n**Deities**\r\n[Osiris](/Deities.aspx?ID=56), [Qi Zhong](/Deities.aspx?ID=314), [Touch of the Sun](/Deities.aspx?ID=233), [Urgathoa](/Deities.aspx?ID=295)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 8 hours\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a reservoir of vitality from necromantic energy, gaining 10 temporary Hit Points.\n\n---\r\n**Heightened (+1)** The temporary Hit Points increase by 3.",
  "name": "False Life",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 337",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1523",
+ "remaster_name": "False Vitality",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\r\n\r\n**Deities**\r\n[Osiris](/Deities.aspx?ID=56), [Qi Zhong](/Deities.aspx?ID=182), [Touch of the Sun](/Deities.aspx?ID=233), [Urgathoa](/Deities.aspx?ID=19)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 8 hours\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGain temporary HP.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\r\n\r\n**Deities**\r\n[Osiris](/Deities.aspx?ID=56), [Qi Zhong](/Deities.aspx?ID=314), [Touch of the Sun](/Deities.aspx?ID=233), [Urgathoa](/Deities.aspx?ID=295)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 8 hours\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGain temporary HP.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 337"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Gain temporary HP.",
  "summary_markdown": "Gain temporary HP.",
- "text": " False Life Source Core Rulebook pg. 337 4.0 Traditions Arcane, Occult Bloodline Undead Deities Osiris, Qi Zhong, Touch of the Sun, Urgathoa Cast Two Actions somatic, verbal Duration 8 hours --- You create a reservoir of vitality from necromantic energy, gaining a number of temporary Hit Points equal to 6 plus your spellcasting ability modifier. --- Heightened (+1) The temporary Hit Points increase by 3.",
+ "text": "\nFalse Life Two Actions Source Core Rulebook pg. 337 4.0 Traditions Arcane, Occult Bloodline Undead Deities Osiris, Qi Zhong, Touch of the Sun, Urgathoa Cast somatic, verbal Duration 8 hours --- You create a reservoir of vitality from necromantic energy, gaining 10 temporary Hit Points. --- Heightened (+1) The temporary Hit Points increase by 3.",
  "tradition": [
   "Arcane",
   "Occult"
@@ -67,6 +85,9 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Necromancy"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Necromancy](/Traits.aspx?ID=117)",
  "trait_raw": [

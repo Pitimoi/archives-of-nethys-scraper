@@ -1,0 +1,73 @@
+{
+ "ac": 16,
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 13  Thievery  to harmlessly trigger the trap by nudging the pressure plate, DC 20 Thievery to stabilize the pressure plate so it doesn't trigger, or DC 20  Athletics  to  Escape  from the cage or  Force Open  the cage once it falls",
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "hardness": 5,
+ "hardness_raw": "5 Cage Hardness",
+ "hazard_type": "Trap",
+ "hp": 24,
+ "hp_raw": "24 (BT 12)",
+ "id": "hazard-421",
+ "immunity": [
+  "critical hits",
+  "object immunities",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, object immunities, precision damage",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Hazard 1\" pfs=\"\">[Rusted Cage Trap](/Hazards.aspx?ID=421)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 38\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA rusty cage embedded in the ceiling drops down with a clang to try to entrap a creature that steps onto the pressure plate in the middle of the room.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 17\r\n\r\n**Disable**\r\nDC 13 [Thievery](/Skills.aspx?ID=17) to harmlessly trigger the trap by nudging the pressure plate, DC 20 Thievery to stabilize the pressure plate so it doesn't trigger, or DC 20 [Athletics](/Skills.aspx?ID=3) to [Escape](/Actions.aspx?ID=79) from the cage or [Force Open](/Actions.aspx?ID=34) the cage once it falls\n\n<column gap=\"tiny\">\r\n\r\n**AC** 16, **Fort** +10, **Ref** +4\r\n\r\n**Cage Hardness**\r\n5\r\n\r\n**HP**\r\n24 (BT 12)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Slam Down** <actions string=\"Reaction\" /> **Trigger** A creature walks under the cage and steps on the pressure plate; **Effect** The cage drops from the ceiling to trap the triggering creature, who must attempt a DC 17 Reflex save.\r\n\r\n**Critical Success** The creature avoids the trap, and returns to the space it just left rather than entering the trap's space.<br />\r\n**Success** As Critical Success, but the falling trap delivers a glancing blow and 1d6+3 bludgeoning damage to the creature as it stumbles back.<br />\r\n**Failure** The falling trap lands on the triggering creature. A Medium or smaller creature becomes trapped inside the cage (Escape DC 20). A Large or larger creature takes 2d6+5 bludgeoning damage and is knocked [prone](/Conditions.aspx?ID=31) as the cage bounces off the creature's body, becoming destroyed in the process.<br />\r\n**Critical Failure** As Failure, but a Medium or smaller creature is also struck by the cage, knocked prone, and then takes 2d6+5 bludgeoning damage and is immobilized by the cage as it lands on a limb.\n\n---\r\n**Reset**\r\nThe mechanism to manually reset this trap is located in area **D15**.",
+ "name": "Rusted Cage Trap",
+ "primary_source": "Rusthenge",
+ "primary_source_raw": "Rusthenge pg. 38",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Rusthenge",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 4,
+ "release_date": "2023-10-18",
+ "reset": "The mechanism to manually reset this trap is located in area <b>D15</b>.",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 38\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA rusty cage embedded in the ceiling drops down with a clang to try to entrap a creature that steps onto the pressure plate in the middle of the room.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Rusthenge"
+ ],
+ "source_raw": [
+  "Rusthenge pg. 38"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Rusthenge"
+ ],
+ "source_markdown": "[Rusthenge](/Sources.aspx?ID=215) pg. 38",
+ "speed": {},
+ "spoilers": "Rusthenge",
+ "stealth": "DC 17",
+ "summary": "A rusty cage embedded in the ceiling drops down with a clang to try to entrap a creature that steps onto the pressure plate in the middle of the room.",
+ "summary_markdown": "A rusty cage embedded in the ceiling drops down with a clang to try to entrap a creature that steps onto the pressure plate in the middle of the room.",
+ "text": " Rusted Cage Trap Source Rusthenge pg. 38 Complexity Simple A rusty cage embedded in the ceiling drops down with a clang to try to entrap a creature that steps onto the pressure plate in the middle of the room. --- Stealth DC 17 Disable DC 13 Thievery to harmlessly trigger the trap by nudging the pressure plate, DC 20 Thievery to stabilize the pressure plate so it doesn't trigger, or DC 20 Athletics to Escape from the cage or Force Open the cage once it falls AC 16, Fort +10, Ref +4 Cage Hardness 5 HP 24 (BT 12) Immunities critical hits, object immunities, precision damage Slam Down Reaction Trigger A creature walks under the cage and steps on the pressure plate; Effect The cage drops from the ceiling to trap the triggering creature, who must attempt a DC 17 Reflex save. Critical Success The creature avoids the trap, and returns to the space it just left rather than entering the trap's space. Success As Critical Success, but the falling trap delivers a glancing blow and 1d6+3 bludgeoning damage to the creature as it stumbles back. Failure The falling trap lands on the triggering creature. A Medium or smaller creature becomes trapped inside the cage (Escape DC 20). A Large or larger creature takes 2d6+5 bludgeoning damage and is knocked prone as the cage bounces off the creature's body, becoming destroyed in the process. Critical Failure As Failure, but a Medium or smaller creature is also struck by the cage, knocked prone, and then takes 2d6+5 bludgeoning damage and is immobilized by the cage as it lands on a limb. --- Reset The mechanism to manually reset this trap is located in area D15 .",
+ "trait": [
+  "Mechanical",
+  "Trap",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard",
+  "Rarity"
+ ],
+ "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Mechanical",
+  "Trap",
+  "Uncommon"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=421",
+ "weakness": {}
+}

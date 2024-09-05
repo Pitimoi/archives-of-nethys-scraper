@@ -1,51 +1,97 @@
 {
  "ac": 15,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "CG",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 4,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 20,
  "hp_raw": "20",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
  "id": "creature-2472",
  "intelligence": 4,
+ "intelligence_scale": "High",
+ "intelligence_scale_number": 4,
+ "item": [
+  "Dagger",
+  "spellbook"
+ ],
  "language": [
   "Common",
   "Draconic"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)",
  "level": 0,
- "markdown": "<title level=\"1\" pfs=\"\">[Eunice](/NPCs.aspx?ID=2472)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Eunice](/NPCs.aspx?ID=2472)</title>\r\n\r\n<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 12</row>\n\n**Perception** +7\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +7, [Farming Lore](/Skills.aspx?ID=8) +5, [Occultism](/Skills.aspx?ID=11) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** +4\r\n\r\n**Wis** -1\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), spellbook\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 20\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4 piercing\r\n\r\n**Arcane Prepared Spells** DC 16, attack +9\r\n- **Cantrips (1st)**\r\n[Light](/Spells.aspx?ID=171), [Mage Hand](/Spells.aspx?ID=177), [Prestidigitation](/Spells.aspx?ID=229), [Telekinetic Projectile](/Spells.aspx?ID=334)\r\n- **1st**\r\n[Magic Missile](/Spells.aspx?ID=180)\n\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Eunice](/NPCs.aspx?ID=2472)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Eunice](/NPCs.aspx?ID=2472)</title>\r\n\r\n<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 12\n\n**Perception** +7\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +7, [Farming Lore](/Skills.aspx?ID=8) +5, [Occultism](/Skills.aspx?ID=11) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** +4\r\n\r\n**Wis** -1\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), spellbook\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4 piercing\r\n\r\n**Arcane Prepared Spells** DC 16, attack +9\r\n- **Cantrips (1st)**\r\n[Light](/Spells.aspx?ID=171), [Mage Hand](/Spells.aspx?ID=177), [Prestidigitation](/Spells.aspx?ID=229), [Telekinetic Projectile](/Spells.aspx?ID=334)\r\n- **1st**\r\n[Magic Missile](/Spells.aspx?ID=180)\n\n</column>",
  "name": "Eunice",
  "npc": true,
  "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #157: Devil at the Dreaming Palace",
+ "primary_source_raw": "Pathfinder #157: Devil at the Dreaming Palace pg. 12",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 12</row>\n\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 15\r\n\r\n**Fort** +4\r\n\r\n**Ref** +8\r\n\r\n**Will** +10\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 12\n\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 15\r\n\r\n**Fort** +4\r\n\r\n**Ref** +8\r\n\r\n**Will** +10\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Arcana +7",
-  "Farming Lore +5",
-  "Occultism +6"
+  "Arcana",
+  "Farming Lore",
+  "Occultism"
  ],
  "skill_markdown": "[Arcana](/Skills.aspx?ID=2) +7, [Farming Lore](/Skills.aspx?ID=8) +5, [Occultism](/Skills.aspx?ID=11) +6",
+ "skill_mod": {
+  "arcana": 7,
+  "occultism": 6
+ },
  "source": [
   "Pathfinder #157: Devil at the Dreaming Palace"
  ],
  "source_raw": [
   "Pathfinder #157: Devil at the Dreaming Palace pg. 12"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 12</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 12",
  "speed": {
   "land": 25,
   "max": 25
@@ -60,18 +106,55 @@
   "Telekinetic Projectile"
  ],
  "spell_markdown": "[Light](/Spells.aspx?ID=171), [Mage Hand](/Spells.aspx?ID=177), [Magic Missile](/Spells.aspx?ID=180), [Prestidigitation](/Spells.aspx?ID=229), [Telekinetic Projectile](/Spells.aspx?ID=334)",
+ "spell_attack_bonus": [
+  9
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  16
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  2
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "will"
  ],
- "summary": "",
- "summary_markdown": "",
  "text": " Eunice Recall Knowledge - Humanoid (Society): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Eunice Source Pathfinder #157: Devil at the Dreaming Palace pg. 12 Perception +7 Languages Common, Draconic Skills Arcana +7, Farming Lore +5, Occultism +6 Str +0 Dex +4 Con +0 Int +4 Wis -1 Cha -1 Items Dagger, spellbook --- AC 15 Fort +4 Ref +8 Will +10 HP 20 --- Speed 25 feet Melee Single Action dagger +8 (Agile, Finesse, thrown 10 feet, versatile S), Damage 1d4 piercing Arcane Prepared Spells DC 16, attack +9 - Cantrips (1st) Light, Mage Hand, Prestidigitation, Telekinetic Projectile - 1st Magic Missile\n",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
   "Human",
   "Humanoid",
   "CG",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -86,5 +169,9 @@
  ],
  "weakness": {},
  "will_save": 10,
- "wisdom": -1
+ "will_save_scale": "Extreme",
+ "will_save_scale_number": 5,
+ "wisdom": -1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

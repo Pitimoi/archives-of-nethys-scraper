@@ -1,17 +1,28 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,33 +38,40 @@
  ],
  "id": "spell-245",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Ray of Frost](/Spells.aspx?ID=245)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 362 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou blast an icy ray. Make a spell attack roll. The ray deals cold damage equal to 1d4 + your spellcasting ability modifier.\r\n\r\n**Critical Success** The target takes double damage and takes a –10-foot status penalty to its Speeds for 1 round.<br />\r\n**Success** The target takes normal damage.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Ray of Frost](/Spells.aspx?ID=245)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 362 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.\r\n\r\n**Critical Success** The target takes double damage and takes a –10-foot status penalty to its Speeds for 1 round.<br />\r\n**Success** The target takes normal damage.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.",
  "name": "Ray of Frost",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 362",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1539",
+ "remaster_name": "Frostbite",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 362 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDamage a creature with cold.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 362 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDamage a creature with cold.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 362"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 362 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 362 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Cantrip",
  "summary": "Damage a creature with cold.",
  "summary_markdown": "Damage a creature with cold.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Ray of Frost Source Core Rulebook pg. 362 4.0 Traditions Arcane, Primal Cast Two Actions somatic, verbal Range 120 feet Target 1 creature --- You blast an icy ray. Make a spell attack roll. The ray deals cold damage equal to 1d4 + your spellcasting ability modifier. Critical Success The target takes double damage and takes a –10-foot status penalty to its Speeds for 1 round. Success The target takes normal damage. --- Heightened (+1) The damage increases by 1d4.",
+ "text": "\nRay of Frost Two Actions Source Core Rulebook pg. 362 4.0 Traditions Arcane, Primal Cast somatic, verbal Range 120 feet Target 1 creature --- You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage. Critical Success The target takes double damage and takes a –10-foot status penalty to its Speeds for 1 round. Success The target takes normal damage. --- Heightened (+1) The damage increases by 1d4.",
  "tradition": [
   "Arcane",
   "Primal"
@@ -65,6 +83,11 @@
   "Cold",
   "Evocation"
  ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "School"
+ ],
  "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cantrip](/Traits.aspx?ID=22), [Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65)",
  "trait_raw": [
   "Attack",
@@ -72,7 +95,7 @@
   "Cold",
   "Evocation"
  ],
- "type": "Cantrip",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=245",
  "weakness": {}
 }

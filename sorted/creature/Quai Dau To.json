@@ -1,0 +1,167 @@
+{
+ "ac": 32,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  27,
+  27,
+  27
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 8,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Mist Vision",
+  "Frightful Sight",
+  "Reflective Scales",
+  "Drain Water",
+  "Inflate",
+  "Mist Breath",
+  "Spout Water"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 26,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 300,
+ "hp_raw": "300",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3158",
+ "image": [
+  "/Images/Monsters/Quai_Dau_To.webp"
+ ],
+ "immunity": [
+  "blinded",
+  "dazzled"
+ ],
+ "immunity_markdown": "[blinded](/Conditions.aspx?ID=59), [dazzled](/Conditions.aspx?ID=65)",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 13,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Quai Dau To](/Monsters.aspx?ID=3158)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis big-headed beast is covered in glittering scales; its eyes are like large copper pots, and its mouth is full of sharp teeth. Despite its fish-like appearance, a quai dau to spends most of its time on land hunting along riversides or lakes. It uses its trunk to drain the nearby water before using it with deadly skill. A quai dau to can expel the water with a force strong enough to knock a knight off a horse, or gently enough to surround themself in a veil of mist.\n\n A quai dau to is extremely sensitive to sound. If they hear too much ruckus near their hunting grounds, they violently attack. Their silent movement allows them to sneak up on such distracted prey despite their massive size. Researchers have discovered, after much study, that quai dau tos don't have ears in the traditional sense. They have an organ in the upper part of their skulls that inflates to hold the water they use in their attacks. This organ is extremely sensitive to vibrations in the air and is used as a pseudo ear.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Quai_Dau_To.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Quai Dau To](/Monsters.aspx?ID=3158)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 284\n\n**Perception** +25; [darkvision](/MonsterAbilities.aspx?ID=59), mist vision, [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 120 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +27, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +24\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +8\r\n\r\n**Int** -3\r\n\r\n**Wis** +5\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Mist Vision** The quai dau to ignores the [concealed](/Conditions.aspx?ID=62) condition from mist and fog.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +26 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +21 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 300\n\n</row>\r\n\r\n**Immunities**\r\n[blinded](/Conditions.aspx?ID=59), [dazzled](/Conditions.aspx?ID=65)\n\n**Weaknesses**\r\n[sonic](/Traits.aspx?ID=697) 15\r\n\r\n**Frightful Sight** ([aura](/Traits.aspx?ID=542), [emotion](/Traits.aspx?ID=590), [fear](/Traits.aspx?ID=598), [mental](/Traits.aspx?ID=647), [visual](/Traits.aspx?ID=727)) 60 feet. This aura functions as a DC 32 [frightful presence](/MonsterAbilities.aspx?ID=64) aura, but a creature doesn't attempt its save until it sees the quai dau to.<br />**Reflective Scales** <actions string=\"Reaction\" /> **Trigger** A creature within 30 feet casts a spell with the [light](/Traits.aspx?ID=640) trait or uses an ability with the light trait; **Effect** The quai dau to adjusts its position to reflect the light off their scales in a blinding display. All creatures in a 30-foot emanation must succeed at a DC 33 Fortitude saving throw or become [blinded](/Conditions.aspx?ID=59) for 1 round.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, swim 30 feet; Inflate\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws  +27 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+14 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail  +27 ([reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+14 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot  +27 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 3d8+14 bludgeoning\n\n**Drain Water** <actions string=\"Single Action\" /> ([Manipulate](/Traits.aspx?ID=104)) **Requirements** The quai dau to is within 10 feet of a body of water that's at least 10 feet deep and their water sac is empty; **Effect** The quai dau to sucks water through their trunk to fill their water sac, lowering the level in the body of water by 10 feet. All creatures in the water within a 30-foot emanation are [off-guard](/Conditions.aspx?ID=58) until the start of the quai dau to's next turn.\r\n\r\n**Inflate** <actions string=\"Single Action\" />  The quai dau to inflates their body. They become Gargantuan, gain a fly Speed of 30 feet until the end of their next turn, and then [Fly](/Actions.aspx?ID=2312). They deflate if they fall [unconscious](/Conditions.aspx?ID=95) or Dismiss this effect.\r\n\r\n**Mist Breath** <actions string=\"Single Action\" /> ([Primal](/Traits.aspx?ID=134), [Water](/Traits.aspx?ID=165)) **Requirements** The quai dau to's water sac is full; **Effect** The quai dau to empties their water sac to breathe out mist in a 10-foot emanation. All creatures within the mist become [concealed](/Conditions.aspx?ID=62), and all creatures outside the mist become concealed to creatures within it. The mist dissipates after 1 round.\r\n\r\n**Spout Water** <actions string=\"Two Actions\" /> ([Primal](/Traits.aspx?ID=134), [Water](/Traits.aspx?ID=165)) **Requirements** The quai dau to's water sac is full; **Effect** The quai dau to empties its water sac to blast water from its trunk, dealing 9d10 bludgeoning damage to all creatures in a 90-foot line, with a DC 33 [basic](/Rules.aspx?ID=329) Reflex save. A creature that fails is [pushed](/Rules.aspx?ID=451) 10 feet (or 20 feet on a critical failure).\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Impossible Flight</title>\r\n\r\nDespite the laws of the natural world, this large headed creature can fly. The quai dau to achieves this incredible feat by inflating itself, allowing it to seemingly swim through the air like water. While inflated in this way, the quai dau to somewhat resembles a pufferfish.\r\n</aside>",
+ "name": "Quai Dau To",
+ "npc": false,
+ "perception": 25,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 284",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 19,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 284\n\n<row gap=\"medium\">\r\n**HP** 300\r\n\r\n**AC** 32\r\n\r\n**Fort** +26\r\n\r\n**Ref** +19\r\n\r\n**Will** +21\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis big-headed beast is covered in glittering scales; its eyes are like large copper pots, and its mouth is full of sharp teeth. Despite its …\r\n</summary>",
+ "sense": " darkvision , mist vision,  scent  ( imprecise ) 120 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), mist vision, [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 120 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +27, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +24",
+ "skill_mod": {
+  "athletics": 27,
+  "stealth": 25,
+  "survival": 24
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 284"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 284",
+ "speed": {
+  "land": 40,
+  "max": 40,
+  "swim": 30
+ },
+ "speed_markdown": "40 feet, swim 30 feet; Inflate",
+ "speed_raw": "40 feet, swim 30 feet; Inflate",
+ "spell_markdown": "",
+ "stealth": "25",
+ "strike_damage_average": [
+  27,
+  27,
+  33
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "This big-headed beast is covered in glittering scales; its eyes are like large copper pots, and its mouth is full of sharp teeth. Despite its …",
+ "summary_markdown": "This big-headed beast is covered in glittering scales; its eyes are like large copper pots, and its mouth is full of sharp teeth. Despite its …",
+ "text": " Quai Dau To This big-headed beast is covered in glittering scales; its eyes are like large copper pots, and its mouth is full of sharp teeth. Despite its fish-like appearance, a quai dau to spends most of its time on land hunting along riversides or lakes. It uses its trunk to drain the nearby water before using it with deadly skill. A quai dau to can expel the water with a force strong enough to knock a knight off a horse, or gently enough to surround themself in a veil of mist. A quai dau to is extremely sensitive to sound. If they hear too much ruckus near their hunting grounds, they violently attack. Their silent movement allows them to sneak up on such distracted prey despite their massive size. Researchers have discovered, after much study, that quai dau tos don't have ears in the traditional sense. They have an organ in the upper part of their skulls that inflates to hold the water they use in their attacks. This organ is extremely sensitive to vibrations in the air and is used as a pseudo ear. Recall Knowledge - Beast (Arcana, Nature): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Quai Dau To Source Monster Core pg. 284 Perception +25; darkvision, mist vision, scent (imprecise) 120 feet Languages Skills Athletics +27, Stealth +25, Survival +24 Str +8 Dex +4 Con +8 Int -3 Wis +5 Cha -1 Mist Vision The quai dau to ignores the concealed condition from mist and fog. --- AC 32 Fort +26 Ref +19 Will +21 HP 300 Immunities blinded, dazzled Weaknesses sonic 15 Frightful Sight (aura, emotion, fear, mental, visual) 60 feet. This aura functions as a DC 32 frightful presence aura, but a creature doesn't attempt its save until it sees the quai dau to. Reflective Scales Reaction Trigger A creature within 30 feet casts a spell with the light trait or uses an ability with the light trait; Effect The quai dau to adjusts its position to reflect the light off their scales in a blinding display. All creatures in a 30-foot emanation must succeed at a DC 33 Fortitude saving throw or become blinded for 1 round. --- Speed 40 feet, swim 30 feet; Inflate Melee Single Action jaws +27 (reach 10 feet), Damage 3d12+14 piercing Melee Single Action tail +27 (reach 20 feet), Damage 3d8+14 bludgeoning Melee Single Action foot +27 (Agile), Damage 3d8+14 bludgeoning Drain Water Single Action (Manipulate) Requirements The quai dau to is within 10 feet of a body of water that's at least 10 feet deep and their water sac is empty; Effect The quai dau to sucks water through their trunk to fill their water sac, lowering the level in the body of water by 10 feet. All creatures in the water within a 30-foot emanation are off-guard until the start of the quai dau to's next turn. Inflate Single Action The quai dau to inflates their body. They become Gargantuan, gain a fly Speed of 30 feet until the end of their next turn, and then Fly. They deflate if they fall unconscious or Dismiss this effect. Mist Breath Single Action (Primal, Water) Requirements The quai dau to's water sac is full; Effect The quai dau to empties their water sac to breathe out mist in a 10-foot emanation. All creatures within the mist become concealed, and all creatures outside the mist become concealed to creatures within it. The mist dissipates after 1 round. Spout Water Two Actions (Primal, Water) Requirements The quai dau to's water sac is full; Effect The quai dau to empties its water sac to blast water from its trunk, dealing 9d10 bludgeoning damage to all creatures in a 90-foot line, with a DC 33 basic Reflex save. A creature that fails is pushed 10 feet (or 20 feet on a critical failure). Impossible Flight Despite the laws of the natural world, this large headed creature can fly. The quai dau to achieves this incredible feat by inflating itself, allowing it to seemingly swim through the air like water. While inflated in this way, the quai dau to somewhat resembles a pufferfish. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3158",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "sonic": 15
+ },
+ "weakness_markdown": "[sonic](/Traits.aspx?ID=697) 15",
+ "weakness_raw": " sonic  15",
+ "will_save": 21,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

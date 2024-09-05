@@ -1,27 +1,47 @@
 {
  "ac": 41,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  34,
+  34,
+  34
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 7,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Curse of Frost",
-  "Attack of Opportunity",
-  "Breath Weapon",
   "Constrict",
-  "Ice Linnorm Venom"
+  "Ice Linnorm Venom",
+  "Icemire Breath"
  ],
  "creature_family": "Linnorm",
- "creature_family_markdown": "[Linnorm](/MonsterFamilies.aspx?ID=69)",
+ "creature_family_markdown": "[Linnorm](/MonsterFamilies.aspx?ID=439)",
  "dexterity": 5,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 32,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 330,
  "hp_raw": "330",
- "id": "creature-285",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3084",
  "image": [
-  "/Images/Monsters/Linnorm_IceLinnorm.png"
+  "/Images/Monsters/Ice_Linnorm.webp"
  ],
  "immunity": [
   "cold",
@@ -29,79 +49,132 @@
   "paralyzed",
   "sleep"
  ],
- "immunity_markdown": "cold, curse, paralyzed, sleep",
+ "immunity_markdown": "[cold](/Traits.aspx?ID=555), [curse](/Traits.aspx?ID=566), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
  "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Aklo",
   "Draconic",
-  "Sylvan"
+  "Fey"
  ],
- "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Sylvan](/Languages.aspx?ID=10)",
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Fey](/Languages.aspx?ID=119)",
+ "legacy_id": "creature-285",
  "level": 17,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Ice Linnorm](/Monsters.aspx?ID=285)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest of icebergs.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2)): DC 38\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 36\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 33\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Linnorm_IceLinnorm.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 17\">[Ice Linnorm](/Monsters.aspx?ID=285)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 225</row>\n\n**Perception** +29; darkvision, scent (imprecise) 60 feet, [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +32\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +5\r\n\r\n**Con** +7\r\n\r\n**Int** -3\r\n\r\n**Wis** +6\r\n\r\n**Cha** +7\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 41 \r\n\r\n**Fort** +32 \r\n\r\n**Ref** +28 \r\n\r\n**Will** +27 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 330\r\n\r\n, regeneration 10 (deactivated by [cold iron](/Equipment.aspx?ID=375))\r\n\r\n**Immunities**\r\ncold, curse, paralyzed, sleep\n\n**Weaknesses**\r\ncold iron 15, fire 10\r\n\r\n**Curse of Frost** ([cold](/Traits.aspx?ID=27), [curse](/Traits.aspx?ID=38), [primal](/Traits.aspx?ID=134)) When a creature slays an ice linnorm, it must succeed at a DC 40 Will save or permanently gain weakness to cold 15.<br /> **Attack of Opportunity** <actions string=\"Reaction\" /> Tail only.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, fly 100 feet, swim 40 feet; [_freedom of movement_](/Spells.aspx?ID=128)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +34 ([reach 25 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+17 piercing plus ice linnorm venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +34 ([reach 20 feet](/Traits.aspx?ID=192), [Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+17 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +34 ([reach 25 feet](/Traits.aspx?ID=192), [Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d6+17 bludgeoning plus Improved Grab\r\n\r\n**Primal Innate Spells** DC 38\r\n- **Constant (7th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n- **Constant (8th)**\r\n[Freedom of Movement](/Spells.aspx?ID=128)\r\n\r\n**Breath Weapon** <actions string=\"Two Actions\" /> ([Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65), [Primal](/Traits.aspx?ID=134)) The ice linnorm spews out a blast of freezing, viscous ooze in a 60-foot cone that deals 15d6 cold damage to creatures within the area (DC 38 basic Reflex save). The freezing ooze clings to those struck and hardens into thick sheets of ice. A creature that fails the saving throw is [immobilized](/Conditions.aspx?ID=24) by the ice until it succeeds at a check to Escape or it or an ally Forces Open the ice (DC 34 for either case). At the start of its turn, a creature still immobilized by the ice takes 4d6 cold damage. Another creature can free a frozen target by dealing a total of 20 fire damage to the frozen target. Left unattended, the ice crumbles away in 1 minute on its own. Creatures with the fire trait can’t be frozen in place by this breath weapon. Flying creatures fall if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feet per round. An ice linnorm can’t use Breath Weapon again for 1d4 rounds.\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  2d6+18 bludgeoning, DC 38\r\n\r\n**Ice Linnorm Venom**  ([Cold](/Traits.aspx?ID=27), [Injury](/Traits.aspx?ID=97), [Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 38 Fortitude; **Maximum Duration** 10 rounds; **Stage 1** 5d6 cold damage and [drained 1](/Conditions.aspx?ID=10); **Stage 2** 7d6 cold damage and [drained 2](/Conditions.aspx?ID=10).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-69\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Ice Linnorm](/Monsters.aspx?ID=3084)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest of icebergs.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 38\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 36\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 33\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Ice_Linnorm.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 17\">[Ice Linnorm](/Monsters.aspx?ID=3084)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=555\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 221\n\n**Perception** +29; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Fey](/Languages.aspx?ID=119)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +32\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +5\r\n\r\n**Con** +7\r\n\r\n**Int** -3\r\n\r\n**Wis** +6\r\n\r\n**Cha** +7\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 41 \r\n\r\n**Fort** +32 \r\n\r\n**Ref** +28 \r\n\r\n**Will** +27 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 330\r\n\r\n, regeneration 10 (deactivated by [cold iron](/Equipment.aspx?ID=2916)\n\n</row>\r\n\r\n**Immunities**\r\n[cold](/Traits.aspx?ID=555), [curse](/Traits.aspx?ID=566), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\n\n**Weaknesses**\r\ncold iron 15, [fire](/Traits.aspx?ID=604) 10\r\n\r\n**Curse of Frost** ([cold](/Traits.aspx?ID=555), [curse](/Traits.aspx?ID=566), [primal](/Traits.aspx?ID=676)) When a creature slays the ice linnorm, it must succeed at a DC 40 Will save or gain weakness to cold 15 with an unlimited duration.<br />[Reactive Strike](/MonsterAbilities.aspx?ID=48) [reaction] Tail only.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, fly 100 feet, swim 40 feet; [_unfettered movement_](/Spells.aspx?ID=1732)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +34 ([reach 25 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+17 piercing plus ice linnorm venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +34 ([reach 20 feet](/Traits.aspx?ID=192), [Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+17 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +34 ([reach 25 feet](/Traits.aspx?ID=192), [Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d6+17 bludgeoning plus [Improved Grab](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Primal Innate Spells** DC 38\r\n- **7th**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n- **Constant (8th)**\r\n[Unfettered Movement](/Spells.aspx?ID=1732)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=57)** <actions string=\"Single Action\" />  2d6+18 bludgeoning, DC 38\r\n\r\n**Ice Linnorm Venom**  ([Cold](/Traits.aspx?ID=27), [Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 38 Fortitude; **Maximum Duration** 10 rounds; **Stage 1** 5d6 cold damage and [drained 1](/Conditions.aspx?ID=68) (1 round); **Stage 2** 7d6 cold damage and drained 2 (1 round)\r\n\r\n**Icemire Breath** <actions string=\"Two Actions\" /> ([Cold](/Traits.aspx?ID=27), [Primal](/Traits.aspx?ID=134)) The ice linnorm spews out a blast of freezing, viscous ooze in a 60-foot cone that deals 15d6 cold damage to creatures within the area (DC 38 [basic](/Rules.aspx?ID=329) Reflex save). The freezing ooze clings to those struck and hardens into thick sheets of ice. A creature that fails the saving throw is [immobilized](/Conditions.aspx?ID=81) by the ice until it succeeds at a check to [Escape](/Actions.aspx?ID=2296) or it or an ally [Forces Open](/Actions.aspx?ID=2375) the ice (DC 34 for either case). At the start of its turn, a creature still immobilized by the ice takes 4d6 cold damage. Another creature can free a frozen target by dealing a total of 20 fire damage to the frozen target. Left unattended, the ice crumbles away in 1 minute on its own. Creatures with the [fire](/Traits.aspx?ID=604) trait can't be frozen in place by Icemire Breath. Flying creatures [fall](/Rules.aspx?ID=402) if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feet per round. The linnorm can't use Icemire Breath again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-439\" />",
  "name": "Ice Linnorm",
  "npc": false,
  "perception": 29,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 221",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 28,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 225</row>\r\n\r\n**Creature Family** [Linnorm](/MonsterFamilies.aspx?ID=69)\r\n\r\n<row gap=\"medium\">\r\n**HP** 330\r\n\r\n**AC** 41\r\n\r\n**Fort** +32\r\n\r\n**Ref** +28\r\n\r\n**Will** +27\r\n\r\n**Perception** +29\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest …\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 60 feet,   true seeing  ",
- "sense_markdown": "darkvision, scent (imprecise) 60 feet, [_true seeing_](/Spells.aspx?ID=344)",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=555\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 221\r\n\r\n**Creature Family** [Linnorm](/MonsterFamilies.aspx?ID=439)\r\n\r\n<row gap=\"medium\">\r\n**HP** 330\r\n\r\n**AC** 41\r\n\r\n**Fort** +32\r\n\r\n**Ref** +28\r\n\r\n**Will** +27\r\n\r\n**Perception** +29\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet,   truesight  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Gargantuan"
  ],
+ "size_id": [
+  6
+ ],
  "skill": [
-  "Acrobatics +28",
-  "Athletics +32"
+  "Acrobatics",
+  "Athletics"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +28, [Athletics](/Skills.aspx?ID=3) +32",
+ "skill_mod": {
+  "acrobatics": 28,
+  "athletics": 32
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 225"
+  "Monster Core pg. 221"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 225</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 221",
  "speed": {
   "fly": 100,
   "land": 35,
   "max": 100,
   "swim": 40
  },
- "speed_markdown": "35 feet, fly 100 feet, swim 40 feet; [_freedom of movement_](/Spells.aspx?ID=128)",
- "speed_raw": "35 feet, fly 100 feet, swim 40 feet;   freedom of movement  ",
+ "speed_markdown": "35 feet, fly 100 feet, swim 40 feet; [_unfettered movement_](/Spells.aspx?ID=1732)",
+ "speed_raw": "35 feet, fly 100 feet, swim 40 feet;   unfettered movement  ",
  "spell": [
-  "Freedom of Movement",
-  "True Seeing"
+  "Unfettered Movement",
+  "Truesight"
  ],
- "spell_markdown": "[Freedom of Movement](/Spells.aspx?ID=128), [True Seeing](/Spells.aspx?ID=344)",
+ "spell_markdown": "[Truesight](/Spells.aspx?ID=1727), [Unfettered Movement](/Spells.aspx?ID=1732)",
+ "spell_dc": [
+  38
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  27,
+  30,
+  36
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "The ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest …",
  "summary_markdown": "The ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest …",
- "text": " Ice Linnorm The ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest of icebergs. Recall Knowledge - Dragon (Arcana): DC 38 Unspecific Lore : DC 36 Specific Lore : DC 33 Ice Linnorm Source Bestiary pg. 225 Perception +29; darkvision, scent (imprecise) 60 feet, true seeing Languages Aklo, Draconic, Sylvan Skills Acrobatics +28, Athletics +32 Str +9 Dex +5 Con +7 Int -3 Wis +6 Cha +7 --- AC 41 Fort +32 Ref +28 Will +27 +1 status to all saves vs. magic HP 330 , regeneration 10 (deactivated by cold iron) Immunities cold, curse, paralyzed, sleep Weaknesses cold iron 15, fire 10 Curse of Frost (cold, curse, primal) When a creature slays an ice linnorm, it must succeed at a DC 40 Will save or permanently gain weakness to cold 15. Attack of Opportunity Reaction Tail only. --- Speed 35 feet, fly 100 feet, swim 40 feet; freedom of movement Melee Single Action jaws +34 (reach 25 feet, Magical), Damage 3d12+17 piercing plus ice linnorm venom Melee Single Action claw +34 (reach 20 feet, Agile, Magical), Damage 3d8+17 slashing Melee Single Action tail +34 (reach 25 feet, Agile, Magical), Damage 3d6+17 bludgeoning plus Improved Grab Primal Innate Spells DC 38 - Constant (7th) True Seeing - Constant (8th) Freedom of Movement Breath Weapon Two Actions (Cold, Evocation, Primal) The ice linnorm spews out a blast of freezing, viscous ooze in a 60-foot cone that deals 15d6 cold damage to creatures within the area (DC 38 basic Reflex save). The freezing ooze clings to those struck and hardens into thick sheets of ice. A creature that fails the saving throw is immobilized by the ice until it succeeds at a check to Escape or it or an ally Forces Open the ice (DC 34 for either case). At the start of its turn, a creature still immobilized by the ice takes 4d6 cold damage. Another creature can free a frozen target by dealing a total of 20 fire damage to the frozen target. Left unattended, the ice crumbles away in 1 minute on its own. Creatures with the fire trait can’t be frozen in place by this breath weapon. Flying creatures fall if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feet per round. An ice linnorm can’t use Breath Weapon again for 1d4 rounds. Constrict Single Action 2d6+18 bludgeoning, DC 38 Ice Linnorm Venom (Cold, Injury, Poison) Saving Throw DC 38 Fortitude; Maximum Duration 10 rounds; Stage 1 5d6 cold damage and drained 1; Stage 2 7d6 cold damage and drained 2. ",
+ "text": " Ice Linnorm The ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain peaks, or within glittering caverns carved from the hearts of the mightiest of icebergs. Recall Knowledge - Dragon (Arcana): DC 38 Unspecific Lore : DC 36 Specific Lore : DC 33 Ice Linnorm Source Monster Core pg. 221 Perception +29; darkvision, scent (imprecise) 60 feet, truesight Languages Aklo, Draconic, Fey Skills Acrobatics +28, Athletics +32 Str +9 Dex +5 Con +7 Int -3 Wis +6 Cha +7 --- AC 41 Fort +32 Ref +28 Will +27 +1 status to all saves vs. magic HP 330 , regeneration 10 (deactivated by cold iron Immunities cold, curse, paralyzed, sleep Weaknesses cold iron 15, fire 10 Curse of Frost (cold, curse, primal) When a creature slays the ice linnorm, it must succeed at a DC 40 Will save or gain weakness to cold 15 with an unlimited duration. Reactive Strike [reaction] Tail only. --- Speed 35 feet, fly 100 feet, swim 40 feet; unfettered movement Melee Single Action jaws +34 (reach 25 feet, Magical), Damage 3d12+17 piercing plus ice linnorm venom Melee Single Action claw +34 (reach 20 feet, Agile, Magical), Damage 3d8+17 slashing Melee Single Action tail +34 (reach 25 feet, Agile, Magical), Damage 3d6+17 bludgeoning plus Improved Grab Primal Innate Spells DC 38 - 7th Truesight - Constant (8th) Unfettered Movement Constrict Single Action 2d6+18 bludgeoning, DC 38 Ice Linnorm Venom (Cold, Poison) Saving Throw DC 38 Fortitude; Maximum Duration 10 rounds; Stage 1 5d6 cold damage and drained 1 (1 round); Stage 2 7d6 cold damage and drained 2 (1 round) Icemire Breath Two Actions (Cold, Primal) The ice linnorm spews out a blast of freezing, viscous ooze in a 60-foot cone that deals 15d6 cold damage to creatures within the area (DC 38 basic Reflex save). The freezing ooze clings to those struck and hardens into thick sheets of ice. A creature that fails the saving throw is immobilized by the ice until it succeeds at a check to Escape or it or an ally Forces Open the ice (DC 34 for either case). At the start of its turn, a creature still immobilized by the ice takes 4d6 cold damage. Another creature can free a frozen target by dealing a total of 20 fire damage to the frozen target. Left unattended, the ice crumbles away in 1 minute on its own. Creatures with the fire trait can't be frozen in place by Icemire Breath. Flying creatures fall if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feet per round. The linnorm can't use Icemire Breath again for 1d4 rounds. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Cold",
   "Dragon",
   "Uncommon",
-  "CE",
   "Gargantuan"
  ],
- "trait_markdown": "[Cold](/Traits.aspx?ID=27), [Dragon](/Traits.aspx?ID=50), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cold](/Traits.aspx?ID=555), [Dragon](/Traits.aspx?ID=581), [Uncommon](/Traits.aspx?ID=721)",
  "trait_raw": [
   "Cold",
   "Dragon",
   "Uncommon"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=285",
+ "url": "/Monsters.aspx?ID=3084",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
@@ -110,8 +183,12 @@
   "cold_iron": 15,
   "fire": 10
  },
- "weakness_markdown": "cold iron 15, fire 10",
- "weakness_raw": "cold iron 15, fire 10",
+ "weakness_markdown": "cold iron 15, [fire](/Traits.aspx?ID=604) 10",
+ "weakness_raw": "cold iron 15,  fire  10",
  "will_save": 27,
- "wisdom": 6
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

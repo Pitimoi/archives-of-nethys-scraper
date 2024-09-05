@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,38 +8,50 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Miter of Communion](/Equipment.aspx?ID=570)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 123 <sup>2.0</sup></row>\n\n**Price** 800 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it was made. The miter brings you spiritually closer to your deity’s servitors, granting you a +2 item bonus to [Religion](/Skills.aspx?ID=13) checks.\n\n<document level=\"2\" id=\"action-357\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Miter of Communion](/Equipment.aspx?ID=570)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 123 <sup>2.0</sup>\n\n**Price** 800 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it was made. The miter brings you spiritually closer to your deity’s servitors, granting you a +2 item bonus to [Religion](/Skills.aspx?ID=13) checks.\n\n**Activate** <actions string=\"\" /> 1 minute (command);  **Frequency** once per week;   **Effect** You chant for a minute about a task at hand for the coming week to cast a 4th-level [_read omens_](/Spells.aspx?ID=247) spell that grants you cryptic but useful advice.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Miter of Communion",
  "pfs": "Standard",
  "price": 80000,
  "price_raw": "800 gp",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 123",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 123 <sup>2.0</sup></row>\r\n\r\n**Price** 800 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 123 <sup>2.0</sup>\r\n\r\n**Price** 800 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it …\r\n</summary>",
  "skill": [
   "Religion"
  ],
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 123"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 123 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 123 <sup>2.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it …",
  "summary_markdown": "This ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it …",
- "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Miter of Communion Source Gods &amp; Magic pg. 123 2.0 Price 800 gp Usage worn headwear Bulk L --- This ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it was made. The miter brings you spiritually closer to your deity’s servitors, granting you a +2 item bonus to Religion checks.\n",
+ "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Miter of Communion Source Gods &amp; Magic pg. 123 2.0 Price 800 gp Usage worn headwear Bulk L --- This ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it was made. The miter brings you spiritually closer to your deity’s servitors, granting you a +2 item bonus to Religion checks. Activate 1 minute (command); Frequency once per week; Effect You chant for a minute about a task at hand for the coming week to cast a 4th-level read omens spell that grants you cryptic but useful advice.\n",
  "trait": [
   "Divination",
   "Invested",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

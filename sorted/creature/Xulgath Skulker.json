@@ -1,63 +1,109 @@
 {
- "ac": 19,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  9,
+  10,
+  10,
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Stench",
-  "Stench Suppression",
   "Hidden Movement",
+  "Mask Stench",
   "Sneak Attack"
  ],
  "creature_family": "Xulgath",
- "creature_family_markdown": "[Xulgath](/MonsterFamilies.aspx?ID=102)",
+ "creature_family_markdown": "[Xulgath](/MonsterFamilies.aspx?ID=486)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 28,
  "hp_raw": "28",
- "id": "creature-419",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3245",
  "image": [
-  "/Images/Monsters/Xulgath_XulgathSkulker.png"
+  "/Images/Monsters/Xulgath_Skulker.webp"
  ],
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Dagger (4)"
+ ],
  "language": [
   "Draconic",
-  "Undercommon"
+  "Sakvroth"
  ],
- "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)",
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-419",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Xulgath Skulker](/Monsters.aspx?ID=419)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nXulgath warrens are patrolled—some might say “haunted”—by the community’s skulkers. These xulgaths specialize in stealth, striking swiftly from the shadows and otherwise ambushing foes.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Xulgath_XulgathSkulker.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Xulgath Skulker](/Monsters.aspx?ID=419)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 337</row>\n\n**Perception** +7; darkvision\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Stealth](/Skills.aspx?ID=15) +8, [Thievery](/Skills.aspx?ID=17) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3) (4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 28\n\n**Stench** ([aura](/Traits.aspx?ID=206), [olfactory](/Traits.aspx?ID=246)) 30 feet. A creature that enters the area must attempt a DC 16 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths’ stenches for 1 minute.<br /> **Stench Suppression** <actions string=\"Free Action\" /> A xulgath skulker can suppress its stench aura as a free action to better hide its presence. The skulker can resume its stench aura as a free action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +9,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d4+3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\n\n**Hidden Movement**   If a xulgath skulker starts its turn undetected by a creature or merely hidden from it, that creature is [flat-footed](/Conditions.aspx?ID=16) against the skulker’s attacks until the end of the skulker’s turn.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   A xulgath skulker deals an additional 1d6 precision damage to flat-footed creatures. \r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-102\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Xulgath Skulker](/Monsters.aspx?ID=3245)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nXulgath warrens are patrolled—some might say “haunted”—by the community's skulkers. These xulgaths specialize in stealth, striking swiftly from the shadows and otherwise ambushing foes.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Xulgath_Skulker.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Xulgath Skulker](/Monsters.aspx?ID=3245)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=781\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 353\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Stealth](/Skills.aspx?ID=15) +8, [Thievery](/Skills.aspx?ID=17) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3) (4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\n\n</row>\n\n**[Stench](/MonsterAbilities.aspx?ID=76)** ([aura](/Traits.aspx?ID=542), [olfactory](/Traits.aspx?ID=664)) 30 feet, DC 16\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +9,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d4+3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\n\n**Hidden Movement**   If a xulgath skulker starts their turn [undetected](/Conditions.aspx?ID=96) by a creature or merely [hidden](/Conditions.aspx?ID=79) from it, that creature is [off-guard](/Conditions.aspx?ID=58) against the skulker's attacks until the end of the skulker's turn.\r\n\r\n**Mask Stench** <actions string=\"Free Action\" />  The stalker masks their stench with curated herbs, suppressing their stench aura. The skulker can resume their stench aura as a free action.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   A xulgath skulker deals an additional 1d6 precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-486\" />",
  "name": "Xulgath Skulker",
  "npc": false,
  "perception": 7,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 353",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 10,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 337</row>\r\n\r\n**Creature Family** [Xulgath](/MonsterFamilies.aspx?ID=102)\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\r\n\r\n**AC** 19\r\n\r\n**Fort** +8\r\n\r\n**Ref** +10\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nXulgath warrens are patrolled—some might say “haunted”—by the community’s skulkers. These xulgaths specialize in stealth, striking swiftly from the …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=781\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 353\r\n\r\n**Creature Family** [Xulgath](/MonsterFamilies.aspx?ID=486)\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\r\n\r\n**AC** 17\r\n\r\n**Fort** +8\r\n\r\n**Ref** +10\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nXulgath warrens are patrolled—some might say “haunted”—by the community's skulkers. These xulgaths specialize in stealth, striking swiftly from the …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Stealth +8",
-  "Thievery +8"
+  "Acrobatics",
+  "Stealth",
+  "Thievery"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Stealth](/Skills.aspx?ID=15) +8, [Thievery](/Skills.aspx?ID=17) +8",
+ "skill_mod": {
+  "acrobatics": 8,
+  "stealth": 8,
+  "thievery": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 337"
+  "Monster Core pg. 353"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 337</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 353",
  "speed": {
   "land": 25,
   "max": 25
@@ -66,32 +112,54 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "stealth": "8",
+ "strike_damage_average": [
+  5,
+  5,
+  5,
+  6
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Xulgath warrens are patrolled—some might say “haunted”—by the community’s skulkers. These xulgaths specialize in stealth, striking swiftly from the …",
- "summary_markdown": "Xulgath warrens are patrolled—some might say “haunted”—by the community’s skulkers. These xulgaths specialize in stealth, striking swiftly from the …",
- "text": " Xulgath Skulker Xulgath warrens are patrolled—some might say “haunted”—by the community’s skulkers. These xulgaths specialize in stealth, striking swiftly from the shadows and otherwise ambushing foes. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Xulgath Skulker Source Bestiary pg. 337 Perception +7; darkvision Languages Draconic, Undercommon Skills Acrobatics +8, Stealth +8, Thievery +8 Str +3 Dex +4 Con +2 Int -1 Wis +1 Cha +0 Items Dagger (4) --- AC 19 Fort +8 Ref +10 Will +5 HP 28 Stench (aura, olfactory) 30 feet. A creature that enters the area must attempt a DC 16 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths’ stenches for 1 minute. Stench Suppression Free Action A xulgath skulker can suppress its stench aura as a free action to better hide its presence. The skulker can resume its stench aura as a free action. --- Speed 25 feet Melee Single Action dagger +10 (Agile, Finesse, versatile S), Damage 1d4+3 piercing Melee Single Action jaws +9, Damage 1d6+3 piercing Melee Single Action claw +10 (Agile, Finesse), Damage 1d4+3 slashing Ranged Single Action dagger +10 (Agile, thrown 10 feet, versatile S), Damage 1d4+3 piercing Hidden Movement If a xulgath skulker starts its turn undetected by a creature or merely hidden from it, that creature is flat-footed against the skulker’s attacks until the end of the skulker’s turn. Sneak Attack A xulgath skulker deals an additional 1d6 precision damage to flat-footed creatures. ",
+ "summary": "Xulgath warrens are patrolled—some might say “haunted”—by the community's skulkers. These xulgaths specialize in stealth, striking swiftly from the …",
+ "summary_markdown": "Xulgath warrens are patrolled—some might say “haunted”—by the community's skulkers. These xulgaths specialize in stealth, striking swiftly from the …",
+ "text": " Xulgath Skulker Xulgath warrens are patrolled—some might say “haunted”—by the community's skulkers. These xulgaths specialize in stealth, striking swiftly from the shadows and otherwise ambushing foes. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Xulgath Skulker Source Monster Core pg. 353 Perception +7; darkvision Languages Draconic, Sakvroth Skills Acrobatics +8, Stealth +8, Thievery +8 Str +3 Dex +4 Con +2 Int -1 Wis +1 Cha +0 Items Dagger (4) --- AC 17 Fort +8 Ref +10 Will +5 HP 28 Stench (aura, olfactory) 30 feet, DC 16 --- Speed 25 feet Melee Single Action dagger +10 (Agile, Finesse, versatile S), Damage 1d4+3 piercing Melee Single Action jaws +9, Damage 1d6+3 piercing Melee Single Action claw +10 (Agile, Finesse), Damage 1d4+3 slashing Ranged Single Action dagger +10 (Agile, thrown 10 feet, versatile S), Damage 1d4+3 piercing Hidden Movement If a xulgath skulker starts their turn undetected by a creature or merely hidden from it, that creature is off-guard against the skulker's attacks until the end of the skulker's turn. Mask Stench Free Action The stalker masks their stench with curated herbs, suppressing their stench aura. The skulker can resume their stench aura as a free action. Sneak Attack A xulgath skulker deals an additional 1d6 precision damage to off-guard creatures. ",
+ "tradition_markdown": "",
  "trait": [
   "Humanoid",
   "Xulgath",
-  "CE",
   "Medium"
  ],
- "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Xulgath](/Traits.aspx?ID=244)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628), [Xulgath](/Traits.aspx?ID=781)",
  "trait_raw": [
   "Humanoid",
   "Xulgath"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=419",
+ "url": "/Monsters.aspx?ID=3245",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 5,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

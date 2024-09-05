@@ -1,14 +1,15 @@
 {
  "actions": "Two Actions",
- "area": "30-foot emanation",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  30
  ],
- "deity_markdown": "",
+ "area_raw": "30-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain_markdown": "",
  "duration": 3600,
  "duration_raw": "1 hour",
@@ -16,52 +17,66 @@
  "heighten": [
   "6th"
  ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 6th rank"
+ ],
  "heighten_level": [
   4,
   6
  ],
- "id": "spell-68",
+ "id": "spell-1487",
+ "legacy_id": "spell-68",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Detect Scrying](/Spells.aspx?ID=68)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Detection\" url=\"/Traits.aspx?ID=43\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 328 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nBy tapping into trace divinatory auras, you detect the presence of [scrying](/Traits.aspx?ID=141) effects in the area. If _detect scrying_ is higher level than a scrying effect, you gain a glimpse of the scrying creature and learn its approximate distance and direction.\n\n---\r\n**Heightened (6th)** The duration is until the next time you make your daily preparations.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">\r\n[Detect Scrying](/Spells.aspx?ID=1487)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Detection\" url=\"/Traits.aspx?ID=43\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 324\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nBy reading trace auras, you detect the presence of [scrying](/Traits.aspx?ID=141) effects in the area. If _detect scrying_ is higher rank than a scrying effect, you gain a glimpse of the scrying creature and learn its approximate distance and direction.\n\n---\r\n**Heightened (6th)** The duration is until your next daily preparations.",
  "name": "Detect Scrying",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 324",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Detection\" url=\"/Traits.aspx?ID=43\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 328 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFind out if scrying effects are in the area.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Detection\" url=\"/Traits.aspx?ID=43\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 324\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFind out whether scrying effects are in the area.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 328"
+  "Player Core pg. 324"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 328 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 324",
  "speed": {},
- "summary": "Find out if scrying effects are in the area.",
- "summary_markdown": "Find out if scrying effects are in the area.",
- "text": " Detect Scrying Source Core Rulebook pg. 328 4.0 Traditions Arcane, Occult Cast Two Actions somatic, verbal Area 30-foot emanation Duration 1 hour --- By tapping into trace divinatory auras, you detect the presence of scrying effects in the area. If detect scrying is higher level than a scrying effect, you gain a glimpse of the scrying creature and learn its approximate distance and direction. --- Heightened (6th) The duration is until the next time you make your daily preparations.",
+ "spell_type": "Spell",
+ "summary": "Find out whether scrying effects are in the area.",
+ "summary_markdown": "Find out whether scrying effects are in the area.",
+ "text": "\nDetect Scrying Two Actions Source Player Core pg. 324 Traditions Arcane, Occult Area 30-foot emanation Duration 1 hour --- By reading trace auras, you detect the presence of scrying effects in the area. If detect scrying is higher rank than a scrying effect, you gain a glimpse of the scrying creature and learn its approximate distance and direction. --- Heightened (6th) The duration is until your next daily preparations.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Detection",
-  "Divination",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Detection](/Traits.aspx?ID=43), [Divination](/Traits.aspx?ID=47), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Detection](/Traits.aspx?ID=43), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
+  "Concentrate",
   "Detection",
-  "Divination",
+  "Manipulate",
   "Uncommon"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=68",
+ "url": "/Spells.aspx?ID=1487",
  "weakness": {}
 }

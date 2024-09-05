@@ -1,10 +1,28 @@
 {
  "ac": 29,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  22,
+  22,
+  23
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Attack of Opportunity",
   "Shield Block",
@@ -14,47 +32,84 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 180,
  "hp_raw": "180",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-1695",
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chain Shirt",
+  "religious symbol of Walkena",
+  "+1 striking returning spear",
+  "lesser sturdy shield (Hardness 10, HP 80, BT 40)"
+ ],
  "language": [
   "Common",
   "Mzunu"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Mzunu](/Languages.aspx?ID=79)",
  "level": 10,
- "markdown": "<title level=\"1\" pfs=\"\">[Jackal Guard](/NPCs.aspx?ID=1695)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 29\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 27\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 24\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Jackal Guard](/NPCs.aspx?ID=1695)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 9</row>\n\n**Perception** +19\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Mzunu](/Languages.aspx?ID=79)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +23, [Religion](/Skills.aspx?ID=13) +18, [Society](/Skills.aspx?ID=14) +17, [Stealth](/Skills.aspx?ID=15) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Chain Shirt](/Armor.aspx?ID=6), [religious symbol](/Equipment.aspx?ID=41) of [Walkena](/Deities.aspx?ID=159), _+1 [striking](/Equipment.aspx?ID=280) [returning](/Equipment.aspx?ID=301) [spear](/Weapons.aspx?ID=10)_, [lesser sturdy shield](/Equipment.aspx?ID=327) (Hardness 10, HP 80, BT 40)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 29 (31 with shield raised)\r\n\r\n**Fort** +21 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n**HP** 180\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_spear_ +23 ([magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+13 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d4+13 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_spear_ +22 ([Magical](/Traits.aspx?ID=103), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 2d8+13 piercing\n\n**Impaling Strike** <actions string=\"Two Actions\" />  **Frequency** once per round; **Effect** The Jackal Guard lunges forward with their spear and delivers a piercing blow. The Jackal Guard Steps and then makes a melee spear Strike. On a hit, the target also takes 1d6 [persistent bleed damage](/Conditions.aspx?ID=29).\r\n\r\n**Knocking Sweep** <actions string=\"Two Actions\" />  **Frequency** once per round; **Effect** The Jackal Guard swings their weapon with a sweeping spin. They attempt separate [Athletics](/Skills.aspx?ID=3) checks to [Trip](/Actions.aspx?ID=40) any number of creatures within their reach. Each attempt counts toward the Jackal Guard's multiple attack penalty, but the multiple attack penalty doesn't increase until after they make all the attacks.\r\n\r\n**Spear Vault** <actions string=\"Two Actions\" />  **Frequency** once per round; **Effect** The Jackal Guard uses their spear to jump over or around a creature and create an opening. The Jackal Guard Strides up to half their Speed. This movement doesn't trigger reactions. During this movement, they can move through the space of one creature, and when the Jackal Guard moves through a creature's space in this way, that creature becomes [flat-footed](/Conditions.aspx?ID=16) until the end of the Jackal Guard's turn. If the Jackal Guard ends their movement within melee reach of at least one enemy, they can make a melee Strike against that enemy.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Jackal Guard](/NPCs.aspx?ID=1695)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 29\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 27\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 24\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Jackal Guard](/NPCs.aspx?ID=1695)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 9\n\n**Perception** +19\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Mzunu](/Languages.aspx?ID=79)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +23, [Religion](/Skills.aspx?ID=13) +18, [Society](/Skills.aspx?ID=14) +17, [Stealth](/Skills.aspx?ID=15) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Chain Shirt](/Armor.aspx?ID=6), [religious symbol](/Equipment.aspx?ID=41) of [Walkena](/Deities.aspx?ID=159), _+1 [striking](/Equipment.aspx?ID=280) [returning](/Equipment.aspx?ID=301) [spear](/Weapons.aspx?ID=10)_, [lesser sturdy shield](/Equipment.aspx?ID=327) (Hardness 10, HP 80, BT 40)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 29 (31 with shield raised)\r\n\r\n**Fort** +21 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 180\n\n</row>\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_spear_ +23 ([magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+13 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d4+13 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_spear_ +22 ([Magical](/Traits.aspx?ID=103), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 2d8+13 piercing\n\n**Impaling Strike** <actions string=\"Two Actions\" />  **Frequency** once per round; **Effect** The Jackal Guard lunges forward with their spear and delivers a piercing blow. The Jackal Guard Steps and then makes a melee spear Strike. On a hit, the target also takes 1d6 [persistent bleed damage](/Conditions.aspx?ID=29).\r\n\r\n**Knocking Sweep** <actions string=\"Two Actions\" />  **Frequency** once per round; **Effect** The Jackal Guard swings their weapon with a sweeping spin. They attempt separate [Athletics](/Skills.aspx?ID=3) checks to [Trip](/Actions.aspx?ID=40) any number of creatures within their reach. Each attempt counts toward the Jackal Guard's multiple attack penalty, but the multiple attack penalty doesn't increase until after they make all the attacks.\r\n\r\n**Spear Vault** <actions string=\"Two Actions\" />  **Frequency** once per round; **Effect** The Jackal Guard uses their spear to jump over or around a creature and create an opening. The Jackal Guard Strides up to half their Speed. This movement doesn't trigger reactions. During this movement, they can move through the space of one creature, and when the Jackal Guard moves through a creature's space in this way, that creature becomes [flat-footed](/Conditions.aspx?ID=16) until the end of the Jackal Guard's turn. If the Jackal Guard ends their movement within melee reach of at least one enemy, they can make a melee Strike against that enemy.\r\n\r\n</column>",
  "name": "Jackal Guard",
  "npc": true,
  "perception": 19,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #172: Secrets of the Temple City",
+ "primary_source_raw": "Pathfinder #172: Secrets of the Temple City pg. 9",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 18,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 9</row>\n\n<row gap=\"medium\">\r\n**HP** 180\r\n\r\n**AC** 29\r\n\r\n**Fort** +21\r\n\r\n**Ref** +18\r\n\r\n**Will** +18\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 9\n\n<row gap=\"medium\">\r\n**HP** 180\r\n\r\n**AC** 29\r\n\r\n**Fort** +21\r\n\r\n**Ref** +18\r\n\r\n**Will** +18\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +20",
-  "Athletics +23",
-  "Religion +18",
-  "Society +17",
-  "Stealth +18"
+  "Acrobatics",
+  "Athletics",
+  "Religion",
+  "Society",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +23, [Religion](/Skills.aspx?ID=13) +18, [Society](/Skills.aspx?ID=14) +17, [Stealth](/Skills.aspx?ID=15) +18",
+ "skill_mod": {
+  "acrobatics": 20,
+  "athletics": 23,
+  "religion": 18,
+  "society": 17,
+  "stealth": 18
+ },
  "source": [
   "Pathfinder #172: Secrets of the Temple City"
  ],
  "source_raw": [
   "Pathfinder #172: Secrets of the Temple City pg. 9"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Strength of Thousands",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 9</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 9",
  "speed": {
   "land": 30,
   "max": 30
@@ -64,18 +119,41 @@
  "spell_markdown": "",
  "spoilers": "Strength of Thousands",
  "stealth": "18",
+ "strike_damage_average": [
+  15,
+  22,
+  22
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "text": " Jackal Guard Recall Knowledge - Humanoid (Society): DC 29 Unspecific Lore : DC 27 Specific Lore : DC 24 Jackal Guard Source Pathfinder #172: Secrets of the Temple City pg. 9 Perception +19 Languages Common, Mzunu Skills Acrobatics +20, Athletics +23, Religion +18, Society +17, Stealth +18 Str +5 Dex +4 Con +3 Int +1 Wis +2 Cha -1 Items Chain Shirt, religious symbol of Walkena, +1 striking returning spear , lesser sturdy shield (Hardness 10, HP 80, BT 40) --- AC 29 (31 with shield raised) Fort +21 Ref +18 Will +18 HP 180 Attack of Opportunity Reaction Shield Block Reaction --- Speed 30 feet Melee Single Action spear +23 (magical), Damage 2d8+13 piercing Melee Single Action fist +22 (Agile, Finesse, Nonlethal, Unarmed), Damage 1d4+13 bludgeoning plus Grab Ranged Single Action spear +22 (Magical, thrown 20 feet), Damage 2d8+13 piercing Impaling Strike Two Actions Frequency once per round; Effect The Jackal Guard lunges forward with their spear and delivers a piercing blow. The Jackal Guard Steps and then makes a melee spear Strike. On a hit, the target also takes 1d6 persistent bleed damage. Knocking Sweep Two Actions Frequency once per round; Effect The Jackal Guard swings their weapon with a sweeping spin. They attempt separate Athletics checks to Trip any number of creatures within their reach. Each attempt counts toward the Jackal Guard's multiple attack penalty, but the multiple attack penalty doesn't increase until after they make all the attacks. Spear Vault Two Actions Frequency once per round; Effect The Jackal Guard uses their spear to jump over or around a creature and create an opening. The Jackal Guard Strides up to half their Speed. This movement doesn't trigger reactions. During this movement, they can move through the space of one creature, and when the Jackal Guard moves through a creature's space in this way, that creature becomes flat-footed until the end of the Jackal Guard's turn. If the Jackal Guard ends their movement within melee reach of at least one enemy, they can make a melee Strike against that enemy. ",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "Uncommon",
   "LE",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -92,5 +170,9 @@
  ],
  "weakness": {},
  "will_save": 18,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

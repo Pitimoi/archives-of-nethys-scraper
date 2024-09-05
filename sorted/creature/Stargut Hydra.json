@@ -1,0 +1,156 @@
+{
+ "ac": 27,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  21
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Skymetal Metamorphosis",
+  "Head Regrowth",
+  "Hydra Regeneration",
+  "Reactive Heads",
+  "Reactive Strike",
+  "Vomit Meteorites"
+ ],
+ "creature_family": "Hydra",
+ "creature_family_markdown": "[Hydra](/MonsterFamilies.aspx?ID=499)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 21,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 150,
+ "hp_raw": "150 ((body), hydra regeneration  HP  22 (head), head regrowth)",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3293",
+ "image": [
+  "/Images/Monsters/Stargut_Hydra.webp"
+ ],
+ "immunity": [
+  "area damage"
+ ],
+ "immunity_markdown": "area damage",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"\">[Stargut Hydra](/Monsters.aspx?ID=3293)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile naturally carnivorous, the adaptable nature of hydras has led to an interesting divergence in the species and its preferred diet. The hydra population of Numeria, where organic prey is scarce, has developed the ability to digest stones and metal alloys. Those that strike upon a vein of skymetal for a meal can be forever changed by its properties, leading to a wide range of potential variations. As skymetal is a cornerstone of Numerian society, stargut hydras are treated in much the same way farmers view a swarm of corn weevils. The Black Sovereign Kevoth Kul offers a substantial standing bounty for the deaths of these creatures, in addition to purchasing whatever ore can be retrieved from their stomachs before it is digested.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Stargut_Hydra.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Stargut Hydra](/Monsters.aspx?ID=3293)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 164\n\n**Perception** +19; [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +20, [Stealth](/Skills.aspx?ID=48) +18, [Survival](/Skills.aspx?ID=49) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** -3\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Skymetal Metamorphosis** (see sidebar)\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27  [all-around vision](/MonsterAbilities.aspx?ID=49)\r\n\r\n**Fort** +21 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\r\n((body), hydra regeneration<br />**HP** 22 (head), head regrowth)\n\n</row>\r\n\r\n**Immunities**\r\narea damage\n\n**Weaknesses**\r\nslashing 10\r\n\r\n**Head Regrowth** A stargut hydra ordinarily has five heads. A creature can attempt to sever one of the hydra's heads by specifically targeting it and dealing damage equal to the head's Hit Points. A head that is not completely severed returns to full Hit Points at the end of any creature's turn.<br /> A hydra can regrow a severed head using hydra regeneration. A creature can prevent this regrowth by dealing acid or fire damage to the stump, cauterizing it. Single-target [acid](/Traits.aspx?ID=524) or [fire](/Traits.aspx?ID=604) effects need to be targeted at a specific stump, but effects that deal [splash](/Traits.aspx?ID=699) damage or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or fire damage. If the attack that severs a head deals any acid or fire damage, the stump is cauterized instantly. If all five heads are cauterized, the hydra dies.<br />**Hydra Regeneration** The stargut hydra has [regeneration](/MonsterAbilities.aspx?ID=72) equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a DC 29 Fortitude save after it regains Hit Points from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.<br />**Reactive Heads** A stargut hydra gains an extra reaction per round for each of its heads beyond the first, which it can use only to make Reactive Strikes. It can't use more than 1 reaction on the same triggering action, even if a creature leaves several squares within its reach, and the hydra must use a different head for each Reactive Strike it makes. Whenever one of the hydra's heads is severed, the hydra loses 1 of its extra reactions per round.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, burrow 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaw +21 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+8 piercing\n\n**Vomit Meteorites** <actions string=\"Two Actions\" />  The stargut hydra lurches its entire body, spewing forth chunks of meteorite in a 30-foot cone that deal 5d6 bludgeoning damage to all creatures in the area ([basic](/Rules.aspx?ID=329) Reflex DC 25). The area becomes [difficult terrain](/Rules.aspx?ID=453) for 1 minute, though a creature can use an Interact action to clear one square of the rubble. The stargut hydra can't Vomit Meteorites for 1d4 rounds.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons//\">Skymetal Metamorphosis</title>\r\n\r\nEach stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties. If you give a stargut hydra more than one metamorphosis, you should consider increasing its level and changing its statistics.\n\n **Adamantine** The stargut hydra's Strikes bypass Hardness and are treated as [adamantine](/Equipment.aspx?ID=372). The stargut hydra gains resistance 10 to physical damage (except adamantine).\n\n **Abysium** ([aura](/Traits.aspx?ID=542), [poison](/Traits.aspx?ID=669)) The stargut hydra emits an aura of nauseating radiation from the abysium in its body. Any creature that begins its turn within 30 feet of the stargut hydra is [sickened 1](/Conditions.aspx?ID=91).\n\n **Djezet** ([magical](/Traits.aspx?ID=644)) The stargut hydra gains a +2 status bonus to saves against magic.\n\n **Inubrix** The stargut hydra's Strikes ignore resistance to damage from metal armor's [armor specialization effects](/Rules.aspx?ID=2179) and do not trigger the [Shield Block](/MonsterAbilities.aspx?ID=75) reaction or reactions from [armor property](/Equipment.aspx?Category=23&amp;Subcategory=26) runes.\n\n **Noqual** The stargut hydra's Strikes and abilities gain a +2 status bonus to damage against creatures with the ability to Cast a Spell.\n\n **Orichalcum** When the stargut hydra has only two heads remaining, it is [quickened](/Conditions.aspx?ID=89). It can use the extra action only to Stride or Strike.\n\n **Siccatite** After the stargut hydra takes fire damage, it becomes superheated, gaining immunity to fire and weakness 10 to cold. While superheated, cold damage can be used to cauterize a stump. After the stargut hydra takes cold damage, it becomes chilled, gaining immunity to cold and weakness 10 to fire.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-499\" />",
+ "name": "Stargut Hydra",
+ "npc": false,
+ "perception": 19,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 164",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 18,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 164\r\n\r\n**Creature Family** [Hydra](/MonsterFamilies.aspx?ID=499)\r\n\r\n<row gap=\"medium\">\r\n**HP** 150 ((body), hydra regeneration  HP  22 (head), head regrowth)\r\n\r\n**AC** 27\r\n\r\n**Fort** +21\r\n\r\n**Ref** +18\r\n\r\n**Will** +14\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile naturally carnivorous, the adaptable nature of hydras has led to an interesting divergence in the species and its preferred diet. The hydra …\r\n</summary>",
+ "sense": " scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +20, [Stealth](/Skills.aspx?ID=48) +18, [Survival](/Skills.aspx?ID=49) +18",
+ "skill_mod": {
+  "athletics": 20,
+  "stealth": 18,
+  "survival": 18
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 164"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 164",
+ "speed": {
+  "burrow": 25,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet, burrow 25 feet",
+ "speed_raw": "25 feet, burrow 25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  17
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "While naturally carnivorous, the adaptable nature of hydras has led to an interesting divergence in the species and its preferred diet. The hydra …",
+ "summary_markdown": "While naturally carnivorous, the adaptable nature of hydras has led to an interesting divergence in the species and its preferred diet. The hydra …",
+ "text": " Stargut Hydra While naturally carnivorous, the adaptable nature of hydras has led to an interesting divergence in the species and its preferred diet. The hydra population of Numeria, where organic prey is scarce, has developed the ability to digest stones and metal alloys. Those that strike upon a vein of skymetal for a meal can be forever changed by its properties, leading to a wide range of potential variations. As skymetal is a cornerstone of Numerian society, stargut hydras are treated in much the same way farmers view a swarm of corn weevils. The Black Sovereign Kevoth Kul offers a substantial standing bounty for the deaths of these creatures, in addition to purchasing whatever ore can be retrieved from their stomachs before it is digested. Recall Knowledge - Beast (Arcana, Nature): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Stargut Hydra Source Howl of the Wild pg. 164 Perception +19; scent (imprecise) 60 feet Languages Skills Athletics +20, Stealth +18, Survival +18 Str +5 Dex +3 Con +6 Int -3 Wis +3 Cha -1 Skymetal Metamorphosis (see sidebar) --- AC 27 all-around vision Fort +21 Ref +18 Will +14 HP 150 ((body), hydra regeneration HP 22 (head), head regrowth) Immunities area damage Weaknesses slashing 10 Head Regrowth A stargut hydra ordinarily has five heads. A creature can attempt to sever one of the hydra's heads by specifically targeting it and dealing damage equal to the head's Hit Points. A head that is not completely severed returns to full Hit Points at the end of any creature's turn. A hydra can regrow a severed head using hydra regeneration. A creature can prevent this regrowth by dealing acid or fire damage to the stump, cauterizing it. Single-target acid or fire effects need to be targeted at a specific stump, but effects that deal splash damage or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or fire damage. If the attack that severs a head deals any acid or fire damage, the stump is cauterized instantly. If all five heads are cauterized, the hydra dies. Hydra Regeneration The stargut hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a DC 29 Fortitude save after it regains Hit Points from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies. Reactive Heads A stargut hydra gains an extra reaction per round for each of its heads beyond the first, which it can use only to make Reactive Strikes. It can't use more than 1 reaction on the same triggering action, even if a creature leaves several squares within its reach, and the hydra must use a different head for each Reactive Strike it makes. Whenever one of the hydra's heads is severed, the hydra loses 1 of its extra reactions per round. Reactive Strike Reaction --- Speed 25 feet, burrow 25 feet Melee Single Action jaw +21 (reach 15 feet), Damage 2d8+8 piercing Vomit Meteorites Two Actions The stargut hydra lurches its entire body, spewing forth chunks of meteorite in a 30-foot cone that deal 5d6 bludgeoning damage to all creatures in the area (basic Reflex DC 25). The area becomes difficult terrain for 1 minute, though a creature can use an Interact action to clear one square of the rubble. The stargut hydra can't Vomit Meteorites for 1d4 rounds. Skymetal Metamorphosis Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties. If you give a stargut hydra more than one metamorphosis, you should consider increasing its level and changing its statistics. Adamantine The stargut hydra's Strikes bypass Hardness and are treated as adamantine. The stargut hydra gains resistance 10 to physical damage (except adamantine). Abysium (aura, poison) The stargut hydra emits an aura of nauseating radiation from the abysium in its body. Any creature that begins its turn within 30 feet of the stargut hydra is sickened 1. Djezet (magical) The stargut hydra gains a +2 status bonus to saves against magic. Inubrix The stargut hydra's Strikes ignore resistance to damage from metal armor's armor specialization effects and do not trigger the Shield Block reaction or reactions from armor property runes. Noqual The stargut hydra's Strikes and abilities gain a +2 status bonus to damage against creatures with the ability to Cast a Spell. Orichalcum When the stargut hydra has only two heads remaining, it is quickened. It can use the extra action only to Stride or Strike. Siccatite After the stargut hydra takes fire damage, it becomes superheated, gaining immunity to fire and weakness 10 to cold. While superheated, cold damage can be used to cauterize a stump. After the stargut hydra takes cold damage, it becomes chilled, gaining immunity to cold and weakness 10 to fire. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3293",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "slashing": 10
+ },
+ "weakness_markdown": "slashing 10",
+ "weakness_raw": "slashing 10",
+ "will_save": 14,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

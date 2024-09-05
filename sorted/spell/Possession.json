@@ -1,16 +1,12 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Fumeiyoshi"
  ],
- "deity_markdown": "[Fumeiyoshi](/Deities.aspx?ID=175)",
+ "deity_markdown": "[Fumeiyoshi](/Deities.aspx?ID=305)",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
@@ -18,61 +14,75 @@
  "heighten": [
   "9th"
  ],
+ "heighten_group": [
+  "7th rank",
+  "Heightened 9th rank"
+ ],
  "heighten_level": [
   7,
   9
  ],
- "id": "spell-225",
+ "id": "spell-1638",
+ "legacy_id": "spell-225",
  "level": 7,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">[Possession](/Spells.aspx?ID=225)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Possession\" url=\"/Traits.aspx?ID=129\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 358 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Fumeiyoshi](/Deities.aspx?ID=175)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send your mind and soul into the target's body, attempting to take control. The target must attempt a Will save. You can choose to use the effects of a degree of success more favorable to the target if you prefer.\n\n While you're possessing a target, your own body is unconscious and can't wake up normally. You can sense everything the possessed target does. You can Dismiss this spell. If the possessed body dies, the spell ends and you must succeed at a Fortitude save against your spell DC or be paralyzed for 1 hour, or 24 hours on a critical failure. If the spell ends during an encounter, you act just before the possessed creature's initiative count.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** You possess the target but can't control it. You ride along in the body while the spell lasts.<br />\r\n**Failure** You possess the target and take partial control of it. You no longer have a separate turn; instead, you might control the target. At the start of each of the target's turns, it attempts another Will save. If it fails, it's controlled by you on that turn; if it succeeds, it chooses its own actions; and if it critically succeeds, it forces you out and the spell ends.<br />\r\n**Critical Failure** You possess the target fully, and it can only watch as you manipulate it like a puppet. The target is controlled by you.\n\n---\r\n**Heightened (9th)** The duration is 10 minutes, and you can physically enter the creature's body, protecting your physical body while the spell lasts.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">\r\n[Possession](/Spells.aspx?ID=1638)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Possession\" url=\"/Traits.aspx?ID=129\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 350\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Fumeiyoshi](/Deities.aspx?ID=305)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send your mind and soul into the target's body, attempting to take control. The target must attempt a Will save. If you want to exert less control over the target, you can choose to use the effects of any degree of success more favorable to the target.\n\n While you're possessing a target, your own body is [unconscious](/Conditions.aspx?ID=38) and can't wake up normally. You can sense everything the possessed target does. You can Dismiss this spell. If the possessed body dies, the spell ends and you must succeed at a Fortitude save against your spell DC or be paralyzed for 1 hour, or 24 hours on a critical failure. If the spell ends during an encounter, you act just before the possessed creature's initiative.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** You possess the target but can't control it. You ride along in the body while the spell lasts.<br />\r\n**Failure** You possess the target and take partial control of it. You no longer have a separate turn; instead, you might control the target. At the start of each of the target's turns, it attempts another Will save. If it fails, it's [controlled](/Conditions.aspx?ID=6) by you on that turn; if it succeeds, it chooses its own actions; and if it critically succeeds, it forces you out and the spell ends.<br />\r\n**Critical Failure** You possess the target fully, and it can only watch as you manipulate it like a puppet. The target is controlled by you.\n\n---\r\n**Heightened (9th)** The duration is 10 minutes, and you can physically enter the creature's body, protecting your physical body while the spell lasts.",
  "name": "Possession",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 350",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Possession\" url=\"/Traits.aspx?ID=129\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 358 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Fumeiyoshi](/Deities.aspx?ID=175)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSend your mind and soul into another creature’s body.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Possession\" url=\"/Traits.aspx?ID=129\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 350\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Fumeiyoshi](/Deities.aspx?ID=305)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSend your mind and soul into another creature's body.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 358"
+  "Player Core pg. 350"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 358 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 350",
  "speed": {},
- "summary": "Send your mind and soul into another creature’s body.",
- "summary_markdown": "Send your mind and soul into another creature’s body.",
+ "spell_type": "Spell",
+ "summary": "Send your mind and soul into another creature's body.",
+ "summary_markdown": "Send your mind and soul into another creature's body.",
  "target": "1 living creature",
  "target_markdown": "1 living creature",
- "text": " Possession Source Core Rulebook pg. 358 4.0 Tradition Occult Deity Fumeiyoshi Cast Two Actions somatic, verbal Range 30 feet Target 1 living creature Saving Throw Will Duration 1 minute --- You send your mind and soul into the target's body, attempting to take control. The target must attempt a Will save. You can choose to use the effects of a degree of success more favorable to the target if you prefer. While you're possessing a target, your own body is unconscious and can't wake up normally. You can sense everything the possessed target does. You can Dismiss this spell. If the possessed body dies, the spell ends and you must succeed at a Fortitude save against your spell DC or be paralyzed for 1 hour, or 24 hours on a critical failure. If the spell ends during an encounter, you act just before the possessed creature's initiative count. Critical Success The target is unaffected. Success You possess the target but can't control it. You ride along in the body while the spell lasts. Failure You possess the target and take partial control of it. You no longer have a separate turn; instead, you might control the target. At the start of each of the target's turns, it attempts another Will save. If it fails, it's controlled by you on that turn; if it succeeds, it chooses its own actions; and if it critically succeeds, it forces you out and the spell ends. Critical Failure You possess the target fully, and it can only watch as you manipulate it like a puppet. The target is controlled by you. --- Heightened (9th) The duration is 10 minutes, and you can physically enter the creature's body, protecting your physical body while the spell lasts.",
+ "text": "\nPossession Two Actions Source Player Core pg. 350 Tradition Occult Deity Fumeiyoshi Range 30 feet Target 1 living creature Defense Will Duration 1 minute --- You send your mind and soul into the target's body, attempting to take control. The target must attempt a Will save. If you want to exert less control over the target, you can choose to use the effects of any degree of success more favorable to the target. While you're possessing a target, your own body is unconscious and can't wake up normally. You can sense everything the possessed target does. You can Dismiss this spell. If the possessed body dies, the spell ends and you must succeed at a Fortitude save against your spell DC or be paralyzed for 1 hour, or 24 hours on a critical failure. If the spell ends during an encounter, you act just before the possessed creature's initiative. Critical Success The target is unaffected. Success You possess the target but can't control it. You ride along in the body while the spell lasts. Failure You possess the target and take partial control of it. You no longer have a separate turn; instead, you might control the target. At the start of each of the target's turns, it attempts another Will save. If it fails, it's controlled by you on that turn; if it succeeds, it chooses its own actions; and if it critically succeeds, it forces you out and the spell ends. Critical Failure You possess the target fully, and it can only watch as you manipulate it like a puppet. The target is controlled by you. --- Heightened (9th) The duration is 10 minutes, and you can physically enter the creature's body, protecting your physical body while the spell lasts.",
  "tradition": [
   "Occult"
  ],
  "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental",
-  "Necromancy",
   "Possession",
   "Uncommon"
  ],
- "trait_markdown": "[Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Necromancy](/Traits.aspx?ID=117), [Possession](/Traits.aspx?ID=129), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Possession](/Traits.aspx?ID=129), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental",
-  "Necromancy",
   "Possession",
   "Uncommon"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=225",
+ "url": "/Spells.aspx?ID=1638",
  "weakness": {}
 }

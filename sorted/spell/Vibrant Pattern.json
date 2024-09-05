@@ -1,13 +1,15 @@
 {
  "actions": "Two Actions",
- "area": "10-foot burst",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "material",
-  "somatic"
+ "actions_number": 4,
+ "area": [
+  10
  ],
+ "area_raw": "10-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "deity": [
   "Yelayne"
  ],
@@ -16,38 +18,47 @@
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "6th rank"
+ ],
  "heighten_level": [
   6
  ],
- "id": "spell-357",
+ "id": "spell-1741",
+ "legacy_id": "spell-357",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">[Vibrant Pattern](/Spells.aspx?ID=357)</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 381 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Yelayne](/Deities.aspx?ID=268)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a pattern of lights that pulses with intensity. Creatures are dazzled while inside the pattern.\n\n In addition, a creature must attempt a Will saving throw if it's inside the pattern when you cast it, enters the pattern, ends its turn within the pattern, or uses a Seek or Interact action on the pattern. A creature currently blinded by the pattern doesn't need to attempt new saving throws.\r\n\r\n**Success** The creature is unaffected.<br />\r\n**Failure** The creature is blinded by the pattern. If it exits the pattern, it can attempt a new save to recover from the blinded condition at the end of each of its turns, to a maximum duration of 1 minute.<br />\r\n**Critical Failure** The creature is blinded for 1 minute.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">\r\n[Vibrant Pattern](/Spells.aspx?ID=1741)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 366\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Yelayne](/Deities.aspx?ID=268)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a pattern of lights that pulses with intensity. Creatures are [dazzled](/Conditions.aspx?ID=7) while inside the pattern. In addition, a creature must attempt a Will saving throw if it's inside the pattern when you cast it, enters the pattern, ends its turn within the pattern, or uses a Seek or Interact action on the pattern. A creature currently [blinded](/Conditions.aspx?ID=1) by the pattern doesn't need to attempt new saving throws.\r\n\r\n**Success** The creature is unaffected.<br />\r\n**Failure** The creature is blinded by the pattern. If it exits the pattern, it can attempt a new save to recover from the blinded condition at the end of each of its turns, to a maximum duration of 1 minute.<br />\r\n**Critical Failure** The creature is blinded for 1 minute.",
  "name": "Vibrant Pattern",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 366",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 381 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Yelayne](/Deities.aspx?ID=268)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake a pattern of lights that dazzles and blinds.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 366\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Yelayne](/Deities.aspx?ID=268)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake a pattern of lights that dazzles and blinds creatures who enter the area.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 381"
+  "Player Core pg. 366"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 381 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 366",
  "speed": {},
- "summary": "Make a pattern of lights that dazzles and blinds.",
- "summary_markdown": "Make a pattern of lights that dazzles and blinds.",
- "text": " Vibrant Pattern Source Core Rulebook pg. 381 4.0 Traditions Arcane, Occult Deity Yelayne Cast Two Actions material, somatic Range 120 feet Area 10-foot burst Saving Throw Will Duration sustained up to 1 minute --- You create a pattern of lights that pulses with intensity. Creatures are dazzled while inside the pattern. In addition, a creature must attempt a Will saving throw if it's inside the pattern when you cast it, enters the pattern, ends its turn within the pattern, or uses a Seek or Interact action on the pattern. A creature currently blinded by the pattern doesn't need to attempt new saving throws. Success The creature is unaffected. Failure The creature is blinded by the pattern. If it exits the pattern, it can attempt a new save to recover from the blinded condition at the end of each of its turns, to a maximum duration of 1 minute. Critical Failure The creature is blinded for 1 minute.",
+ "spell_type": "Spell",
+ "summary": "Make a pattern of lights that dazzles and blinds creatures who enter the area.",
+ "summary_markdown": "Make a pattern of lights that dazzles and blinds creatures who enter the area.",
+ "text": "\nVibrant Pattern Two Actions Source Player Core pg. 366 Traditions Arcane, Occult Deity Yelayne Range 120 feet Area 10-foot burst Defense Will Duration sustained up to 1 minute --- You create a pattern of lights that pulses with intensity. Creatures are dazzled while inside the pattern. In addition, a creature must attempt a Will saving throw if it's inside the pattern when you cast it, enters the pattern, ends its turn within the pattern, or uses a Seek or Interact action on the pattern. A creature currently blinded by the pattern doesn't need to attempt new saving throws. Success The creature is unaffected. Failure The creature is blinded by the pattern. If it exits the pattern, it can attempt a new save to recover from the blinded condition at the end of each of its turns, to a maximum duration of 1 minute. Critical Failure The creature is blinded for 1 minute.",
  "tradition": [
   "Arcane",
   "Occult"
@@ -56,15 +67,24 @@
  "trait": [
   "Illusion",
   "Incapacitation",
+  "Manipulate",
+  "Subtle",
   "Visual"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Incapacitation](/Traits.aspx?ID=93), [Visual](/Traits.aspx?ID=163)",
+ "trait_group": [
+  "School",
+  "Monster",
+  "Sense"
+ ],
+ "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104), [Subtle](/Traits.aspx?ID=522), [Visual](/Traits.aspx?ID=163)",
  "trait_raw": [
   "Illusion",
   "Incapacitation",
+  "Manipulate",
+  "Subtle",
   "Visual"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=357",
+ "url": "/Spells.aspx?ID=1741",
  "weakness": {}
 }

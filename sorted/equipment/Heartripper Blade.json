@@ -3,7 +3,6 @@
   "Dagger"
  ],
  "base_item_markdown": "[Dagger](/Weapons.aspx?ID=3)",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -12,36 +11,50 @@
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Limited\"\r\n>\r\n[Heartripper Blade](/Equipment.aspx?ID=1730)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Crown of the Kobold King</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 115</row>\n\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis wicked-looking curved weapon is a _+1 [striking](/Equipment.aspx?ID=280) [dagger](/Weapons.aspx?ID=3)_ that draws power from defeating foes, either to bolster itself or its wielder. A _heartripper blade_ is well suited for use in any ritual that involves divination, and incorporating it into any ritual with the [divination](/Traits.aspx?ID=47) trait grants the wielder a +1 item bonus on any check made to resolve the effects of the ritual's casting.\n\n<document level=\"2\" id=\"action-1321\" />\n\n<document level=\"2\" id=\"action-1322\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Limited\"\r\n>\r\n[Heartripper Blade](/Equipment.aspx?ID=1730)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Crown of the Kobold King</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 115\n\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis wicked-looking curved weapon is a _+1 [striking](/Equipment.aspx?ID=280) [dagger](/Weapons.aspx?ID=3)_ that draws power from defeating foes, either to bolster itself or its wielder. A _heartripper blade_ is well suited for use in any ritual that involves divination, and incorporating it into any ritual with the [divination](/Traits.aspx?ID=47) trait grants the wielder a +1 item bonus on any check made to resolve the effects of the ritual's casting.\n\n**Activate** <actions string=\"Reaction\" /> command;  **Frequency** once per day; **Trigger** You reduce a foe to 0 Hit Points with a Strike from the _heartripper blade_;  **Effect** The _heartripper blade_ draws power from the devastating strike, causing its blade to erupt in black flames. For 1 minute, Strikes with the _heartripper blade_ inflict an additional 1d6 negative damage to living creatures.\n\n**Activate** <actions string=\"Reaction\" /> command;  **Frequency** once per day; **Trigger** You reduce a foe to 0 Hit Points with a Strike from the _heartripper blade_;  **Effect** The _heartripper blade_ draws life from the victim's body and siphons it into you. Choose one of the following effects: restore 2d8 Hit Points; reduce the value of your [clumsy](/Conditions.aspx?ID=3), [enfeebled](/Conditions.aspx?ID=13), or [stupefied](/Conditions.aspx?ID=37) conditions by 1; or reduce the stage of one toxin or [disease](/Traits.aspx?ID=46) you're suffering by one stage (this can't reduce the stage below stage 1 or cure the affliction).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Heartripper Blade",
  "pfs": "Limited",
  "price": 16000,
  "price_raw": "160 gp",
+ "primary_source": "Crown of the Kobold King",
+ "primary_source_raw": "Crown of the Kobold King pg. 115",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Crown of the Kobold King",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2022-10-26",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 115</row>\r\n\r\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis wicked-looking curved weapon is a  +1  striking   dagger   that draws power from defeating foes, either to bolster itself or its wielder. A  …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 115\r\n\r\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis wicked-looking curved weapon is a  +1  striking   dagger   that draws power from defeating foes, either to bolster itself or its wielder. A  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Crown of the Kobold King"
  ],
  "source_raw": [
   "Crown of the Kobold King pg. 115"
  ],
- "source_category": "Adventures",
- "source_group": "Crown of the Kobold King",
- "source_markdown": "<row gap=\"tiny\">[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 115</row>",
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Crown of the Kobold King"
+ ],
+ "source_markdown": "[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 115",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Crown of the Kobold King",
  "stage_markdown": "",
  "summary": "This wicked-looking curved weapon is a  +1  striking   dagger   that draws power from defeating foes, either to bolster itself or its wielder. A  …",
  "summary_markdown": "This wicked-looking curved weapon is a  +1  striking   dagger   that draws power from defeating foes, either to bolster itself or its wielder. A  …",
- "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Limited\" > Heartripper Blade May contain spoilers from Crown of the Kobold King Source Crown of the Kobold King pg. 115 Price 160 gp Usage held in 1 hand Bulk L Base Weapon Dagger --- This wicked-looking curved weapon is a +1 striking dagger that draws power from defeating foes, either to bolster itself or its wielder. A heartripper blade is well suited for use in any ritual that involves divination, and incorporating it into any ritual with the divination trait grants the wielder a +1 item bonus on any check made to resolve the effects of the ritual's casting.\n",
+ "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Limited\" > Heartripper Blade May contain spoilers from Crown of the Kobold King Source Crown of the Kobold King pg. 115 Price 160 gp Usage held in 1 hand Bulk L Base Weapon Dagger --- This wicked-looking curved weapon is a +1 striking dagger that draws power from defeating foes, either to bolster itself or its wielder. A heartripper blade is well suited for use in any ritual that involves divination, and incorporating it into any ritual with the divination trait grants the wielder a +1 item bonus on any check made to resolve the effects of the ritual's casting. Activate Reaction command; Frequency once per day; Trigger You reduce a foe to 0 Hit Points with a Strike from the heartripper blade ; Effect The heartripper blade draws power from the devastating strike, causing its blade to erupt in black flames. For 1 minute, Strikes with the heartripper blade inflict an additional 1d6 negative damage to living creatures. Activate Reaction command; Frequency once per day; Trigger You reduce a foe to 0 Hit Points with a Strike from the heartripper blade ; Effect The heartripper blade draws life from the victim's body and siphons it into you. Choose one of the following effects: restore 2d8 Hit Points; reduce the value of your clumsy, enfeebled, or stupefied conditions by 1; or reduce the stage of one toxin or disease you're suffering by one stage (this can't reduce the stage below stage 1 or cure the affliction).\n",
  "trait": [
   "Magical",
   "Necromancy",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

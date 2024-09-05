@@ -1,10 +1,24 @@
 {
  "ac": 18,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Iron Mind",
   "Light Blindness",
@@ -13,15 +27,26 @@
  "creature_family": "Duergar",
  "creature_family_markdown": "[Duergar](/MonsterFamilies.aspx?ID=38)",
  "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 30,
  "hp_raw": "30",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-170",
  "image": [
   "/Images/Monsters/Duergar_DuergarTaskmaster.png"
  ],
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chain Mail"
+ ],
  "language": [
   "Common",
   "Dwarven",
@@ -29,38 +54,61 @@
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Duergar Taskmaster](/Monsters.aspx?ID=170)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDuergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through coercion and displays of force. Often referred to as duergar taskmasters, these leaders often issue commands to duergar subordinates and slaves in the same breath, treating the two almost as if they were interchangeable. As a result, duergar taskmasters are loathed by both slave and slaver alike.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Duergar_DuergarTaskmaster.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Duergar Taskmaster](/Monsters.aspx?ID=170)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 139</row>\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Deception](/Skills.aspx?ID=5) +7, [Intimidation](/Skills.aspx?ID=7) +7, [Occultism](/Skills.aspx?ID=11) +5, [Religion](/Skills.aspx?ID=13) +6, [Survival](/Skills.aspx?ID=16) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +0\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n[Chain Mail](/Armor.aspx?ID=9)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +4 \r\n\r\n**Will** +8 \r\n\r\n+2 status to all saves vs. magic, iron mind\r\n</row>\r\n\r\n**HP** 30\n\n**Iron Mind** Duergar taskmasters automatically disbelieve all illusions of 1st level or lower.<br /> **Light Blindness**\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmaul +8 ([Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d12+2 bludgeoning\r\n\r\n**Divine Prepared Spells** DC 18\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Shield](/Spells.aspx?ID=280)\r\n- **1st**\r\n[Fear](/Spells.aspx?ID=110), [Harm](/Spells.aspx?ID=146), [Magic Weapon](/Spells.aspx?ID=182)\r\n\r\n**Occult Innate Spells** DC 18\r\n- **2nd**\r\n[Enlarge](/Spells.aspx?ID=102) (self only), [Invisibility](/Spells.aspx?ID=164) (self only)\r\n\r\n**Take Them Down!** <actions string=\"Single Action\" />  The duergar taskmaster smashes their maul into the ground and invokes [Droskar's](/Deities.aspx?ID=28) name to rally their allies to action. All allied duergars of equal or lower level that are within 20 feet of the duergar taskmaster gain a +1 status bonus to attack rolls and damage rolls until the end of the duergar taskmaster's next turn.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-38\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Duergar Taskmaster](/Monsters.aspx?ID=170)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDuergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through coercion and displays of force. Often referred to as duergar taskmasters, these leaders often issue commands to duergar subordinates and slaves in the same breath, treating the two almost as if they were interchangeable. As a result, duergar taskmasters are loathed by both slave and slaver alike.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Duergar_DuergarTaskmaster.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Duergar Taskmaster](/Monsters.aspx?ID=170)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 139\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Deception](/Skills.aspx?ID=5) +7, [Intimidation](/Skills.aspx?ID=7) +7, [Occultism](/Skills.aspx?ID=11) +5, [Religion](/Skills.aspx?ID=13) +6, [Survival](/Skills.aspx?ID=16) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +0\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n[Chain Mail](/Armor.aspx?ID=9)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +4 \r\n\r\n**Will** +8 \r\n\r\n+2 status to all saves vs. magic, iron mind\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\n\n**Iron Mind** Duergar taskmasters automatically disbelieve all illusions of 1st level or lower.<br /> **Light Blindness**\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmaul +8 ([Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d12+2 bludgeoning\r\n\r\n**Divine Prepared Spells** DC 18\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Shield](/Spells.aspx?ID=280)\r\n- **1st**\r\n[Fear](/Spells.aspx?ID=110), [Harm](/Spells.aspx?ID=146), [Magic Weapon](/Spells.aspx?ID=182)\r\n\r\n**Occult Innate Spells** DC 18\r\n- **2nd**\r\n[Enlarge](/Spells.aspx?ID=102) (self only), [Invisibility](/Spells.aspx?ID=164) (self only)\r\n\r\n**Take Them Down!** <actions string=\"Single Action\" />  The duergar taskmaster smashes their maul into the ground and invokes [Droskar's](/Deities.aspx?ID=28) name to rally their allies to action. All allied duergars of equal or lower level that are within 20 feet of the duergar taskmaster gain a +1 status bonus to attack rolls and damage rolls until the end of the duergar taskmaster's next turn.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-38\" />",
  "name": "Duergar Taskmaster",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Bestiary",
+ "primary_source_raw": "Bestiary pg. 139",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 4,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "creature-3063",
+ "remaster_name": "Hryngar Taskmaster",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 139</row>\r\n\r\n**Creature Family** [Duergar](/MonsterFamilies.aspx?ID=38)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +4\r\n\r\n**Will** +8\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDuergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 139\r\n\r\n**Creature Family** [Duergar](/MonsterFamilies.aspx?ID=38)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +4\r\n\r\n**Will** +8\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDuergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through …\r\n</summary>",
  "sense": "darkvision",
  "sense_markdown": "darkvision",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +7",
-  "Deception +7",
-  "Intimidation +7",
-  "Occultism +5",
-  "Religion +6",
-  "Survival +6"
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Occultism",
+  "Religion",
+  "Survival"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +7, [Deception](/Skills.aspx?ID=5) +7, [Intimidation](/Skills.aspx?ID=7) +7, [Occultism](/Skills.aspx?ID=11) +5, [Religion](/Skills.aspx?ID=13) +6, [Survival](/Skills.aspx?ID=16) +6",
+ "skill_mod": {
+  "athletics": 7,
+  "deception": 7,
+  "intimidation": 7,
+  "occultism": 5,
+  "religion": 6,
+  "survival": 6
+ },
  "source": [
   "Bestiary"
  ],
  "source_raw": [
   "Bestiary pg. 139"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 139</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary](/Sources.aspx?ID=2) pg. 139",
  "speed": {
   "land": 20,
   "max": 20
@@ -77,7 +125,28 @@
   "Invisibility"
  ],
  "spell_markdown": "[Detect Magic](/Spells.aspx?ID=66), [Enlarge](/Spells.aspx?ID=102), [Fear](/Spells.aspx?ID=110), [Harm](/Spells.aspx?ID=146), [Invisibility](/Spells.aspx?ID=164), [Magic Weapon](/Spells.aspx?ID=182), [Shield](/Spells.aspx?ID=280)",
+ "spell_dc": [
+  18,
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  8
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "fort",
   "fortitude",
@@ -86,12 +155,24 @@
  "summary": "Duergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through …",
  "summary_markdown": "Duergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through …",
  "text": " Duergar Taskmaster Duergar priests of the taskmaster god Droskar often assume leadership roles within their communities, advancing the goals of their deity through coercion and displays of force. Often referred to as duergar taskmasters, these leaders often issue commands to duergar subordinates and slaves in the same breath, treating the two almost as if they were interchangeable. As a result, duergar taskmasters are loathed by both slave and slaver alike. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Duergar Taskmaster Source Bestiary pg. 139 Perception +8; darkvision Languages Common, Dwarven, Undercommon Skills Athletics +7, Deception +7, Intimidation +7, Occultism +5, Religion +6, Survival +6 Str +2 Dex +0 Con +2 Int +0 Wis +2 Cha +3 Items Chain Mail --- AC 18 Fort +8 Ref +4 Will +8 +2 status to all saves vs. magic, iron mind HP 30 Iron Mind Duergar taskmasters automatically disbelieve all illusions of 1st level or lower. Light Blindness --- Speed 20 feet Melee Single Action maul +8 (Shove), Damage 1d12+2 bludgeoning Divine Prepared Spells DC 18 - Cantrips (1st) Detect Magic, Shield - 1st Fear, Harm, Magic Weapon Occult Innate Spells DC 18 - 2nd Enlarge (self only), Invisibility (self only) Take Them Down! Single Action The duergar taskmaster smashes their maul into the ground and invokes Droskar's name to rally their allies to action. All allied duergars of equal or lower level that are within 20 feet of the duergar taskmaster gain a +1 status bonus to attack rolls and damage rolls until the end of the duergar taskmaster's next turn. ",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Duergar",
   "Dwarf",
   "Humanoid",
   "LE",
-  "Medium"
+  "Medium",
+  "Hryngar"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Creature Type"
  ],
  "trait_markdown": "[Duergar](/Traits.aspx?ID=53), [Dwarf](/Traits.aspx?ID=54), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -108,5 +189,9 @@
  ],
  "weakness": {},
  "will_save": 8,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

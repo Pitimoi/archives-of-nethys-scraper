@@ -1,7 +1,6 @@
 {
  "access": "Member of the Pathfinder Society.",
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -10,23 +9,30 @@
  "id": "equipment-871",
  "item_category": "Adventuring Gear",
  "level": 0,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 0\"\r\n    pfs=\"Standard\"\r\n>\r\n[Grappling Arrow](/Equipment.aspx?ID=871)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 115</row>\n\n**Price** 2 sp\r\n\r\n<row gap=\"medium\">\n\n**Hands** 1\n\n**Bulk** L\r\n</row>\n\n**Access** Member of the Pathfinder Society.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis small [grappling hook](/Equipment.aspx?ID=23) is designed to be tied to a rope and fired from a bow. When fired, it has half the normal range increment for the weapon.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 0\"\r\n    pfs=\"Standard\"\r\n>\r\n[Grappling Arrow](/Equipment.aspx?ID=871)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 115\n\n**Price** 2 sp\r\n\r\n<row gap=\"medium\">\n\n**Hands** 1\n\n**Bulk** L\r\n</row>\n\n**Access** Member of the Pathfinder Society.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis small [grappling hook](/Equipment.aspx?ID=23) is designed to be tied to a rope and fired from a bow. When fired, it has half the normal range increment for the weapon.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Grappling Arrow",
  "pfs": "Standard",
  "price": 20,
  "price_raw": "2 sp",
+ "primary_source": "PFS Guide",
+ "primary_source_raw": "PFS Guide pg. 115",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-10-14",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 115</row>\r\n\r\n**Price** 2 sp\r\n\r\n<row gap=\"medium\">\r\n**Hands** 1\r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis small  grappling hook  is designed to be tied to a rope and fired from a bow. When fired, it has half the normal range increment for the weapon.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 115\r\n\r\n**Price** 2 sp\r\n\r\n<row gap=\"medium\">\r\n**Hands** 1\r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis small  grappling hook  is designed to be tied to a rope and fired from a bow. When fired, it has half the normal range increment for the weapon.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "PFS Guide"
  ],
  "source_raw": [
   "PFS Guide pg. 115"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[PFS Guide](/Sources.aspx?ID=50) pg. 115</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[PFS Guide](/Sources.aspx?ID=50) pg. 115",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -35,6 +41,9 @@
  "text": "<title level=\"1\" right=\"Item 0\" pfs=\"Standard\" > Grappling Arrow Source PFS Guide pg. 115 Price 2 sp Hands 1 Bulk L Access Member of the Pathfinder Society. --- This small grappling hook is designed to be tied to a rope and fired from a bow. When fired, it has half the normal range increment for the weapon.\n",
  "trait": [
   "Uncommon"
+ ],
+ "trait_group": [
+  "Rarity"
  ],
  "trait_markdown": "[Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

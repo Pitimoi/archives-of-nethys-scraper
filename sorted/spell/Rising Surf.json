@@ -1,16 +1,22 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   1,
@@ -19,50 +25,65 @@
   7,
   9
  ],
- "id": "spell-1056",
+ "id": "spell-1310",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Rising Surf](/Spells.aspx?ID=1056)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a wave of water that you ride, banking around obstacles and surfing to higher ground. You move up to 35 feet, raising yourself up to 5 feet above the ground. (You can avoid many types of difficult terrain in this way.) You must end your movement on an unoccupied space where you have solid footing. This movement isn't a Stride, but you measure the distance in a similar way, and it still triggers reactions caused by movement. You can't transport anyone else with you.\n\n---\r\n**Heightened (+2)** Increase the distance you move by 5 feet and the maximum height traveled above the ground by 5 feet.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Rising Surf](/Spells.aspx?ID=1310)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 61, [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup>\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a wave of water that you ride, banking around obstacles and surfing to higher ground. You move up to 35 feet, raising yourself up to 5 feet above the ground. (You can avoid many types of [difficult terrain](/Rules.aspx?ID=453) in this way.) You must end your movement on an unoccupied space where you have solid footing. This movement isn't a Stride, but you measure the distance in a similar way, and it still triggers reactions caused by movement. You can't transport anyone else with you.\n\n---\r\n**Heightened (+2)** Increase the distance you move by 5 feet and the maximum height traveled above the ground by 5 feet.",
  "name": "Rising Surf",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 61",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2021-09-01",
+ "rarity_id": 2,
+ "release_date": "2023-08-02",
  "resistance": {},
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou create a wave of water that you ride, banking around obstacles and surfing to higher ground.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 61, [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou create a wave of water that you ride, banking around obstacles and surfing to higher ground.\r\n</summary>",
+ "skill_mod": {},
  "source": [
+  "Rage of Elements",
   "Secrets of Magic"
  ],
  "source_raw": [
+  "Rage of Elements pg. 61",
   "Secrets of Magic pg. 201"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 61, [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You create a wave of water that you ride, banking around obstacles and surfing to higher ground.",
  "summary_markdown": "You create a wave of water that you ride, banking around obstacles and surfing to higher ground.",
- "text": " Rising Surf Source Secrets of Magic pg. 201 1.1 Cast Single Action somatic Range 30 feet --- You create a wave of water that you ride, banking around obstacles and surfing to higher ground. You move up to 35 feet, raising yourself up to 5 feet above the ground. (You can avoid many types of difficult terrain in this way.) You must end your movement on an unoccupied space where you have solid footing. This movement isn't a Stride, but you measure the distance in a similar way, and it still triggers reactions caused by movement. You can't transport anyone else with you. --- Heightened (+2) Increase the distance you move by 5 feet and the maximum height traveled above the ground by 5 feet.",
+ "text": "\nRising Surf Single Action Source Rage of Elements pg. 61, Secrets of Magic pg. 201 1.1 Range 30 feet --- You create a wave of water that you ride, banking around obstacles and surfing to higher ground. You move up to 35 feet, raising yourself up to 5 feet above the ground. (You can avoid many types of difficult terrain in this way.) You must end your movement on an unoccupied space where you have solid footing. This movement isn't a Stride, but you measure the distance in a similar way, and it still triggers reactions caused by movement. You can't transport anyone else with you. --- Heightened (+2) Increase the distance you move by 5 feet and the maximum height traveled above the ground by 5 feet.",
  "tradition_markdown": "",
  "trait": [
-  "Conjuration",
   "Druid",
+  "Focus",
+  "Manipulate",
   "Move",
   "Uncommon",
   "Water"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Druid](/Traits.aspx?ID=52), [Move](/Traits.aspx?ID=114), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Druid](/Traits.aspx?ID=52), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Move](/Traits.aspx?ID=114), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [
-  "Conjuration",
   "Druid",
+  "Focus",
+  "Manipulate",
   "Move",
   "Uncommon",
   "Water"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=1056",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1310",
  "weakness": {}
 }

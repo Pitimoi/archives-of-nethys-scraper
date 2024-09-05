@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Wisdom",
   "Charisma"
  ],
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "anathema": "Sleep in the same place twice in a row, wear seasonal decorations out of season",
  "category": "deity",
  "cleric_spell": [
   "Pass Without Trace",
@@ -12,9 +12,10 @@
   "Blink"
  ],
  "deity": [
-  "Ng"
+  "Ng",
+  "The Deliberate Journey"
  ],
- "deity_markdown": "[Ng](/Deities.aspx?ID=98)",
+ "deity_markdown": "[The Deliberate Journey](/Deities.aspx?ID=250)",
  "deity_category": "Eldest",
  "deity_category_markdown": "[Eldest\r\n](/DeityCategories.aspx?ID=7)",
  "deity_category_order": "2Eldest\r\n",
@@ -38,6 +39,7 @@
   "Travel"
  ],
  "domain_primary_markdown": "[Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Secrecy](/Domains.aspx?ID=28), [Travel](/Domains.aspx?ID=30)",
+ "edict": "Travel, hide your identity and your motives",
  "exclude_from_search": false,
  "favored_weapon": [
   "Gauntlet"
@@ -47,29 +49,47 @@
   "N"
  ],
  "id": "deity-98",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Ng (The Hooded)](/Deities.aspx?ID=98)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\n\nRumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and wanderers keeps his visage perpetually shrouded. He is a serious and stern figure draped in silvery robes that swish around his legs as he walks lonely and distant paths. No carefree wanderer, Ng is a patron of those who travel long distances with purpose, and he sometimes shields them from banditry, treacherous weather, and getting lost. Ng keeps many secrets, even from his followers, and none know what his evidently aimless travels might portend. Ng rules over the seasons as they turn one into another, but he rules far more numerous seasons than the four familiar to Golarion, such as the Season of Carnivorous Light and the Season of Solemn Deliquescence.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Eldest\r\n](/DeityCategories.aspx?ID=7)\r\n\r\n**Edicts** Travel, hide your identity and your motives\r\n\r\n**Anathema** Sleep in the same place twice in a row, wear seasonal decorations out of season\r\n\r\n**Area of Concern**\r\nchanging seasons, secrets, and wanderers\r\n\r\n**Follower Alignments**\r\nN\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nWisdom or Charisma\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Gauntlet](/Weapons.aspx?ID=4)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Secrecy](/Domains.aspx?ID=28), [Travel](/Domains.aspx?ID=30)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Pass Without Trace](/Spells.aspx?ID=215)\n\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164)\n\n- **4th**\r\n[Blink](/Spells.aspx?ID=27)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Ng (The Hooded)](/Deities.aspx?ID=98)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup>\n\nRumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and wanderers keeps his visage perpetually shrouded. He is a serious and stern figure draped in silvery robes that swish around his legs as he walks lonely and distant paths. No carefree wanderer, Ng is a patron of those who travel long distances with purpose, and he sometimes shields them from banditry, treacherous weather, and getting lost. Ng keeps many secrets, even from his followers, and none know what his evidently aimless travels might portend. Ng rules over the seasons as they turn one into another, but he rules far more numerous seasons than the four familiar to Golarion, such as the Season of Carnivorous Light and the Season of Solemn Deliquescence.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Eldest\r\n](/DeityCategories.aspx?ID=7)\r\n\r\n**Edicts** Travel, hide your identity and your motives\r\n\r\n**Anathema** Sleep in the same place twice in a row, wear seasonal decorations out of season\r\n\r\n**Area of Concern**\r\nchanging seasons, secrets, and wanderers\r\n\r\n**Follower Alignments**\r\nN\r\n\r\n**Pantheons**\r\n[The Deliberate Journey](/Deities.aspx?ID=250)\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nWisdom or Charisma\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** none\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Gauntlet](/Weapons.aspx?ID=4)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Secrecy](/Domains.aspx?ID=28), [Travel](/Domains.aspx?ID=30)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Pass Without Trace](/Spells.aspx?ID=215)\n\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164)\n\n- **4th**\r\n[Blink](/Spells.aspx?ID=27)\n\n</column>",
  "name": "Ng (The Hooded)",
+ "pantheon": [
+  "The Deliberate Journey"
+ ],
+ "pantheon_markdown": "[The Deliberate Journey](/Deities.aspx?ID=250)",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 126",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Gauntlet](/Weapons.aspx?ID=4)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Secrecy](/Domains.aspx?ID=28), [Travel](/Domains.aspx?ID=30)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and …\r\n</summary>",
+ "sanctification_raw": "none",
+ "search_markdown": "<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup>\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Gauntlet](/Weapons.aspx?ID=4)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Secrecy](/Domains.aspx?ID=28), [Travel](/Domains.aspx?ID=30)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and …\r\n</summary>",
  "skill": [
   "Survival"
  ],
  "skill_markdown": "[Survival](/Skills.aspx?ID=16)",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 126"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup>",
  "speed": {},
+ "spell": [
+  "Pass Without Trace",
+  "Invisibility",
+  "Blink"
+ ],
+ "spell_markdown": "[Blink](/Spells.aspx?ID=27), [Invisibility](/Spells.aspx?ID=164), [Pass Without Trace](/Spells.aspx?ID=215)",
  "summary": "Rumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and …",
  "summary_markdown": "Rumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and …",
- "text": " Ng (The Hooded) Source Gods &amp; Magic pg. 126 2.0 Rumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and wanderers keeps his visage perpetually shrouded. He is a serious and stern figure draped in silvery robes that swish around his legs as he walks lonely and distant paths. No carefree wanderer, Ng is a patron of those who travel long distances with purpose, and he sometimes shields them from banditry, treacherous weather, and getting lost. Ng keeps many secrets, even from his followers, and none know what his evidently aimless travels might portend. Ng rules over the seasons as they turn one into another, but he rules far more numerous seasons than the four familiar to Golarion, such as the Season of Carnivorous Light and the Season of Solemn Deliquescence. Category [Eldest ](/DeityCategories.aspx?ID=7) Edicts Travel, hide your identity and your motives Anathema Sleep in the same place twice in a row, wear seasonal decorations out of season Area of Concern changing seasons, secrets, and wanderers Follower Alignments N Devotee Benefits Divine Ability Wisdom or Charisma Divine Font Harm or Heal Divine Skill Survival Favored Weapon Gauntlet Domains Knowledge, Magic, Secrecy, Travel Alternate Domains Cleric Spells - 1st Pass Without Trace - 2nd Invisibility - 4th Blink\n",
+ "text": " Ng (The Hooded) Source Gods &amp; Magic pg. 126 2.0 Rumors say that to glance upon the hooded face of Ng is to either see truth or face oblivion itself, but the Eldest of changing seasons, secrets, and wanderers keeps his visage perpetually shrouded. He is a serious and stern figure draped in silvery robes that swish around his legs as he walks lonely and distant paths. No carefree wanderer, Ng is a patron of those who travel long distances with purpose, and he sometimes shields them from banditry, treacherous weather, and getting lost. Ng keeps many secrets, even from his followers, and none know what his evidently aimless travels might portend. Ng rules over the seasons as they turn one into another, but he rules far more numerous seasons than the four familiar to Golarion, such as the Season of Carnivorous Light and the Season of Solemn Deliquescence. Category [Eldest ](/DeityCategories.aspx?ID=7) Edicts Travel, hide your identity and your motives Anathema Sleep in the same place twice in a row, wear seasonal decorations out of season Area of Concern changing seasons, secrets, and wanderers Follower Alignments N Pantheons The Deliberate Journey Devotee Benefits Divine Attribute Wisdom or Charisma Divine Font Harm or Heal Divine Sanctification none Divine Skill Survival Favored Weapon Gauntlet Domains Knowledge, Magic, Secrecy, Travel Alternate Domains Cleric Spells - 1st Pass Without Trace - 2nd Invisibility - 4th Blink\n",
  "trait": [
   "N"
  ],

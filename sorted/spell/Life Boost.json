@@ -1,68 +1,107 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 24,
  "duration_raw": "4 rounds",
  "exclude_from_search": false,
- "heighten_level": [
-  1
+ "heighten": [
+  "+1"
  ],
- "id": "spell-799",
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1879",
+ "legacy_id": "spell-799",
  "level": 1,
  "lesson": [
   "Lesson of Life"
  ],
- "lesson_markdown": "[Lesson of Life](/Lessons.aspx?ID=3)",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Life Boost](/Spells.aspx?ID=799)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 238 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of Life](/Lessons.aspx?ID=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 4 rounds\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou temporarily bolster the target's vitality. The target gains fast healing equal to double the spell's level.",
- "mystery_markdown": "",
+ "lesson_markdown": "[Lesson of Life](/Lessons.aspx?ID=18)",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Life Boost](/Spells.aspx?ID=1879)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of Life](/Lessons.aspx?ID=18)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 4 rounds\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nLife force from your patron floods into the target, ensuring they can continue doing your patron's will for just a little longer. The target gains [fast healing](/MonsterAbilities.aspx?ID=15) 2.\n\n---\r\n**Heightened (+1)** The fast healing increases by 2.",
  "name": "Life Boost",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 385",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 238 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of Life](/Lessons.aspx?ID=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 4 rounds\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou temporarily bolster the target's vitality.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of Life](/Lessons.aspx?ID=18)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 4 rounds\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLife force from your patron floods into the target, ensuring they can continue doing your patron's will for just a little longer.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 238"
+  "Player Core pg. 385"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 238 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 385",
  "speed": {},
- "summary": "You temporarily bolster the target's vitality.",
- "summary_markdown": "You temporarily bolster the target's vitality.",
+ "spell_type": "Focus",
+ "summary": "Life force from your patron floods into the target, ensuring they can continue doing your patron's will for just a little longer.",
+ "summary_markdown": "Life force from your patron floods into the target, ensuring they can continue doing your patron's will for just a little longer.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Life Boost Source Advanced Player's Guide pg. 238 2.0 Lesson Lesson of Life Cast Single Action somatic Range 30 feet Target 1 creature Duration 4 rounds --- You temporarily bolster the target's vitality. The target gains fast healing equal to double the spell's level.",
+ "text": "\nLife Boost Single Action Source Player Core pg. 385 Lesson Lesson of Life Range 30 feet Target 1 creature Duration 4 rounds --- Life force from your patron floods into the target, ensuring they can continue doing your patron's will for just a little longer. The target gains fast healing 2. --- Heightened (+1) The fast healing increases by 2.",
  "tradition_markdown": "",
  "trait": [
+  "Focus",
   "Healing",
   "Hex",
-  "Necromancy",
+  "Manipulate",
   "Uncommon",
-  "Witch"
+  "Vitality",
+  "Witch",
+  "Positive"
  ],
- "trait_markdown": "[Healing](/Traits.aspx?ID=89), [Hex](/Traits.aspx?ID=324), [Necromancy](/Traits.aspx?ID=117), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Class-Specific",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type",
+  "Class"
+ ],
+ "trait_markdown": "[Focus](/Traits.aspx?ID=511), [Healing](/Traits.aspx?ID=89), [Hex](/Traits.aspx?ID=324), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Vitality](/Traits.aspx?ID=509), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
+  "Focus",
   "Healing",
   "Hex",
-  "Necromancy",
+  "Manipulate",
   "Uncommon",
+  "Vitality",
   "Witch"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=799",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1879",
  "weakness": {}
 }

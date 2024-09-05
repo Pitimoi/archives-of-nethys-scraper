@@ -1,40 +1,51 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-885",
  "item_category": "Runes",
  "item_subcategory": "Weapon Property Runes",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cunning](/Equipment.aspx?ID=885)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 123</row>\n\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** etched on a slashing or piercing weapon\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses.\n\n<document level=\"2\" id=\"action-661\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cunning](/Equipment.aspx?ID=885)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 123\n\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** etched on a slashing or piercing weapon\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses.\n\n**Activate** <actions string=\"Free Action\" /> envision;  **Frequency** once per minute;  **Requirements** On your previous action this turn, you used this weapon to hit and damage a creature that has blood or other vital fluids; **Effect** You learn the secrets the weapon gleaned from the creature's blood. Attempt to [Recall Knowledge](/Actions.aspx?ID=26) about the target of the required attack, gaining an item bonus to the Recall Knowledge skill check equal to the weapon's item bonus to attack rolls from its potency rune. If the required attack was a critical hit, you also gain a +2 circumstance bonus to this check.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Cunning",
  "pfs": "Standard",
  "price": 14000,
  "price_raw": "140 gp",
+ "primary_source": "PFS Guide",
+ "primary_source_raw": "PFS Guide pg. 123",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-10-14",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 123</row>\r\n\r\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** etched on a slashing or piercing weapon\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 123\r\n\r\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** etched on a slashing or piercing weapon\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "PFS Guide"
  ],
  "source_raw": [
   "PFS Guide pg. 123"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[PFS Guide](/Sources.aspx?ID=50) pg. 123</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[PFS Guide](/Sources.aspx?ID=50) pg. 123",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses. ",
  "summary_markdown": "The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses. ",
- "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Standard\" > Cunning Source PFS Guide pg. 123 Price 140 gp Usage etched on a slashing or piercing weapon --- The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses.\n",
+ "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Standard\" > Cunning Source PFS Guide pg. 123 Price 140 gp Usage etched on a slashing or piercing weapon --- The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses. Activate Free Action envision; Frequency once per minute; Requirements On your previous action this turn, you used this weapon to hit and damage a creature that has blood or other vital fluids; Effect You learn the secrets the weapon gleaned from the creature's blood. Attempt to Recall Knowledge about the target of the required attack, gaining an item bonus to the Recall Knowledge skill check equal to the weapon's item bonus to attack rolls from its potency rune. If the required attack was a critical hit, you also gain a +2 circumstance bonus to this check.\n",
  "trait": [
   "Divination",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,0 +1,160 @@
+{
+ "ac": 30,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Smoke Vision",
+  "Ashen Smoke",
+  "Troop Defenses",
+  "Form Up",
+  "Incinerating Grasp",
+  "Seething Flash",
+  "Troop Movement"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 20,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 165,
+ "hp_raw": "165 (16 squares)",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2639",
+ "image": [
+  "/Images/Monsters/Sootsoldiers.png"
+ ],
+ "immunity": [
+  "bleed",
+  "fire",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [fire](/Traits.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Pyric"
+ ],
+ "language_markdown": "[Pyric](/Languages.aspx?ID=110)",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Sootsoldiers](/Monsters.aspx?ID=2639)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nPowerful deities and warlords strive for dominance over the [Plane of Fire](/Planes.aspx?ID=6) and the rest of the Inner Sphere in order to prove fire's supremacy. Armies of flaming soldiers go to war against each other on battlefields of smoke and smoldering char, all unable to bring their full power to bear. [Ymeri](/Deities.aspx?ID=108), the vicious and victorious Queen of the Inferno, commands legions of sootsoldiers: elementals capable of battling the armies of her foes and, even when destroyed, rising from the ashes of the Eternal Furnace, scorched and triumphant.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 27\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 25\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 22\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sootsoldiers.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Sootsoldiers](/Monsters.aspx?ID=2639)</title>\r\n\r\n<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 133\n\n**Perception** +20; [darkvision](/MonsterAbilities.aspx?ID=12), smoke vision\r\n\r\n**Languages**\r\n[Pyric](/Languages.aspx?ID=110)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +21, [Nature](/Skills.aspx?ID=10) +18, [Plane of Fire Lore](/Skills.aspx?ID=8) +18, [Warfare Lore](/Skills.aspx?ID=8) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +5\r\n\r\n**Con** +6\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Smoke Vision** Sootsoldiers ignore the [concealed](/Conditions.aspx?ID=4) condition from smoke.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 165\r\n(16 squares)\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [fire](/Traits.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\narea damage 12, [cold](/Traits.aspx?ID=27) 12, [splash](/Traits.aspx?ID=150) damage 7\r\n\r\n**Ashen Smoke** When the sootsoldiers are reduced by an HP Threshold or are reduced to 0 HP, the destroyed soldiers crumble to a cloud of ash-laden smoke in 20-foot burst centered on the sootsoldiers. All creatures within the cloud are [concealed](/Conditions.aspx?ID=4), and all creatures outside it are concealed to those inside. The smoke lasts for 1 minute or until dispersed by a strong wind.<br />**[Troop Defenses](/MonsterAbilities.aspx?ID=44)** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet; troop movement\n\n**[Form Up](/MonsterAbilities.aspx?ID=43)** <actions string=\"Single Action\" />  \r\n\r\n**Incinerating Grasp** <actions string=\"Single Action to Three Actions\" />  **Frequency** once per round; **Effect** The sootsoldiers reach to constrain each enemy within 5 feet in their fiery clutches (DC 26 [basic](/Rules.aspx?ID=329) Reflex save). The damage and additional effects depend on the number of actions.<br /> <actions string=\"Single Action\" /> 2d8 fire damage<br /><actions string=\"Two Actions\" /> 3d8+7 fire damage plus [grabbed](/Conditions.aspx?ID=20)<br /> <actions string=\"Three Actions\" /> 4d8+7 fire damage plus grabbed\r\n\r\n**Seething Flash** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72), [Primal](/Traits.aspx?ID=134)) The sootsoldiers reignite and rush across the battlefield, Forming Up and Striding twice. At the end of this movement, a wave of flame and heat pours off the sootsoldiers, dealing 4d8 fire damage to other creatures in a 10-foot emanation, with a DC 29 [basic](/Rules.aspx?ID=329) Reflex save. A creature that critically fails its save is also knocked [prone](/Conditions.aspx?ID=31).\r\n\r\n**Troop Movement**   Whenever the sootsoldiers Stride, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed. This works just like a Gargantuan creature moving; for instance, if any of the sootsoldiers' squares enters difficult terrain, the extra movement cost applies to the whole troop\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">The Radiant Host</title>\r\n\r\nSootsoldiers who serve the other Lord of Fire, the Lambent King [Atreia](/Deities.aspx?ID=101), are covered in glowing embers instead of black char. In place of ashen smoke's normal effects, any creature in the area must attempt a DC 29 Reflex save. On a failure, for 1 minute that creature is [dazzled](/Conditions.aspx?ID=7) and its invisibility is negated.\r\n</aside>",
+ "name": "Sootsoldiers",
+ "npc": false,
+ "perception": 20,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 133",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 21,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 133\n\n<row gap=\"medium\">\r\n**HP** 165 (16 squares)\r\n\r\n**AC** 30\r\n\r\n**Fort** +20\r\n\r\n**Ref** +21\r\n\r\n**Will** +18\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPowerful deities and warlords strive for dominance over the  Plane of Fire  and the rest of the Inner Sphere in order to prove fire's supremacy. …\r\n</summary>",
+ "sense": " darkvision , smoke vision",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), smoke vision",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Nature",
+  "Plane of Fire Lore",
+  "Warfare Lore"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +21, [Nature](/Skills.aspx?ID=10) +18, [Plane of Fire Lore](/Skills.aspx?ID=8) +18, [Warfare Lore](/Skills.aspx?ID=8) +18",
+ "skill_mod": {
+  "acrobatics": 21,
+  "athletics": 21,
+  "nature": 18
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 133"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 133",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet; troop movement",
+ "speed_raw": "40 feet; troop movement",
+ "spell_markdown": "",
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Powerful deities and warlords strive for dominance over the  Plane of Fire  and the rest of the Inner Sphere in order to prove fire's supremacy. …",
+ "summary_markdown": "Powerful deities and warlords strive for dominance over the  Plane of Fire  and the rest of the Inner Sphere in order to prove fire's supremacy. …",
+ "text": " Sootsoldiers Powerful deities and warlords strive for dominance over the Plane of Fire and the rest of the Inner Sphere in order to prove fire's supremacy. Armies of flaming soldiers go to war against each other on battlefields of smoke and smoldering char, all unable to bring their full power to bear. Ymeri, the vicious and victorious Queen of the Inferno, commands legions of sootsoldiers: elementals capable of battling the armies of her foes and, even when destroyed, rising from the ashes of the Eternal Furnace, scorched and triumphant. Recall Knowledge - Elemental (Arcana, Nature): DC 27 Unspecific Lore : DC 25 Specific Lore : DC 22 Sootsoldiers Source Rage of Elements pg. 133 Perception +20; darkvision, smoke vision Languages Pyric Skills Acrobatics +21, Athletics +21, Nature +18, Plane of Fire Lore +18, Warfare Lore +18 Str +7 Dex +5 Con +6 Int +2 Wis +4 Cha +0 Smoke Vision Sootsoldiers ignore the concealed condition from smoke. --- AC 30 Fort +20 Ref +21 Will +18 HP 165 (16 squares) Immunities bleed, fire, paralyzed, poison, sleep Weaknesses area damage 12, cold 12, splash damage 7 Ashen Smoke When the sootsoldiers are reduced by an HP Threshold or are reduced to 0 HP, the destroyed soldiers crumble to a cloud of ash-laden smoke in 20-foot burst centered on the sootsoldiers. All creatures within the cloud are concealed, and all creatures outside it are concealed to those inside. The smoke lasts for 1 minute or until dispersed by a strong wind. Troop Defenses --- Speed 40 feet; troop movement Form Up Single Action Incinerating Grasp Single Action to Three Actions Frequency once per round; Effect The sootsoldiers reach to constrain each enemy within 5 feet in their fiery clutches (DC 26 basic Reflex save). The damage and additional effects depend on the number of actions. Single Action 2d8 fire damage Two Actions 3d8+7 fire damage plus grabbed Three Actions 4d8+7 fire damage plus grabbed Seething Flash Two Actions (Fire, Primal) The sootsoldiers reignite and rush across the battlefield, Forming Up and Striding twice. At the end of this movement, a wave of flame and heat pours off the sootsoldiers, dealing 4d8 fire damage to other creatures in a 10-foot emanation, with a DC 29 basic Reflex save. A creature that critically fails its save is also knocked prone. Troop Movement Whenever the sootsoldiers Stride, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed. This works just like a Gargantuan creature moving; for instance, if any of the sootsoldiers' squares enters difficult terrain, the extra movement cost applies to the whole troop The Radiant Host Sootsoldiers who serve the other Lord of Fire, the Lambent King Atreia, are covered in glowing embers instead of black char. In place of ashen smoke's normal effects, any creature in the area must attempt a DC 29 Reflex save. On a failure, for 1 minute that creature is dazzled and its invisibility is negated. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Fire",
+  "Troop",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Fire](/Traits.aspx?ID=72), [Troop](/Traits.aspx?ID=367)",
+ "trait_raw": [
+  "Elemental",
+  "Fire",
+  "Troop"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2639",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "area": 12,
+  "cold": 12
+ },
+ "weakness_markdown": "area damage 12, [cold](/Traits.aspx?ID=27) 12, [splash](/Traits.aspx?ID=150) damage 7",
+ "weakness_raw": "area damage 12,  cold  12,  splash  damage 7",
+ "will_save": 18,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

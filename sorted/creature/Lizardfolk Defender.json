@@ -1,61 +1,110 @@
 {
  "ac": 16,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  7,
+  8,
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Attack of Opportunity",
-  "Shield Block",
   "Deep Breath",
+  "Reactive Strike",
+  "Shield Block",
   "Terrain Advantage"
  ],
  "creature_family": "Lizardfolk",
- "creature_family_markdown": "[Lizardfolk](/MonsterFamilies.aspx?ID=71)",
+ "creature_family_markdown": "[Lizardfolk](/MonsterFamilies.aspx?ID=441)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 21,
  "hp_raw": "21",
- "id": "creature-291",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3090",
  "image": [
-  "/Images/Monsters/Lizardfolk_LizardfolkDefender.png"
+  "/Images/Monsters/Lizardfolk_Defender.webp"
  ],
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Flail",
+  "Javelin (3)",
+  "Wooden Shield (Hardness 3, HP 12, BT 6)"
+ ],
  "language": [
+  "Common",
   "Draconic",
   "Iruxi"
  ],
- "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)",
+ "legacy_id": "creature-291",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Lizardfolk Defender](/Monsters.aspx?ID=291)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, soldier in time of war. They eagerly rise to the defense of their kin but do not revel in battle. An iruxi defender would rather turn back intruders and allow them to flee with the knowledge they were beaten, in hopes that such word prevents further invasions, but they are not naive. The iruxi understand the need for revenge, and when they allow a foe to escape, they do not forget.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lizardfolk_LizardfolkDefender.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Lizardfolk Defender](/Monsters.aspx?ID=291)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 230</row>\n\n**Perception** +7\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Athletics](/Skills.aspx?ID=3) +6, [Survival](/Skills.aspx?ID=16) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Flail](/Weapons.aspx?ID=19), [wooden shield](/Shields.aspx?ID=2) (Hardness 3, HP 12, BT 6), [Javelin](/Weapons.aspx?ID=71) (3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 (18 with shield raised)\r\n\r\n**Fort** +8 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 21\n\n**Attack of Opportunity** <actions string=\"Reaction\" /><br /> **Shield Block** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nflail +8 ([Disarm](/Traits.aspx?ID=175), [Sweep](/Traits.aspx?ID=194), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d6+3 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +8 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+3 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\njavelin +7 ([thrown 30 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 piercing\n\n**Deep Breath**   A lizardfolk defender can hold their breath for 175 rounds (17-1/2 minutes).\r\n\r\n**Terrain Advantage**   Non-lizardfolk creatures in difficult terrain and non-lizardfolk creatures that are in water and lack a swim Speed are [flat-footed](/Conditions.aspx?ID=16) to the lizardfolk defender.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-71\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Lizardfolk Defender](/NPCs.aspx?ID=3090)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, a soldier in times of war. They eagerly rise to the defense of their kin but do not revel in battle. An iruxi defender would rather turn back intruders and allow them to flee with the knowledge they were beaten, in hopes that such word prevents further invasions, but they are not naive. Iruxis understand the need for revenge, and when they allow a foe to escape, they do not forget.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lizardfolk_Defender.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Lizardfolk Defender](/NPCs.aspx?ID=3090)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=760\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 226\n\n**Perception** +7\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Athletics](/Skills.aspx?ID=3) +6, [Survival](/Skills.aspx?ID=16) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Deep Breath** A lizardfolk defender can [hold their breath](/Rules.aspx?ID=468) for 15 minutes.\r\n\r\n**Items**\r\n[Flail](/Weapons.aspx?ID=19), [Javelin](/Weapons.aspx?ID=71) (3), [Wooden Shield](/Shields.aspx?ID=2) (Hardness 3, HP 12, BT 6)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 (18 with shield raised)\r\n\r\n**Fort** +8 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 21\n\n</row>\n\n**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=75)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nflail +8 ([Disarm](/Traits.aspx?ID=175), [Sweep](/Traits.aspx?ID=194), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d6+3 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +8 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+3 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\njavelin +7 ([thrown 30 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 piercing\n\n**Terrain Advantage**   Non-[lizardfolk](/Traits.aspx?ID=760) creatures that are in [difficult terrain](/Rules.aspx?ID=453) or are in water and lack a swim Speed are [off-guard](/Conditions.aspx?ID=58) to the lizardfolk defender.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-441\" />",
  "name": "Lizardfolk Defender",
- "npc": false,
+ "npc": true,
  "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 226",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 230</row>\r\n\r\n**Creature Family** [Lizardfolk](/MonsterFamilies.aspx?ID=71)\r\n\r\n<row gap=\"medium\">\r\n**HP** 21\r\n\r\n**AC** 16\r\n\r\n**Fort** +8\r\n\r\n**Ref** +7\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, soldier in time of …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=760\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 226\r\n\r\n**Creature Family** [Lizardfolk](/MonsterFamilies.aspx?ID=441)\r\n\r\n<row gap=\"medium\">\r\n**HP** 21\r\n\r\n**AC** 16\r\n\r\n**Fort** +8\r\n\r\n**Ref** +7\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, a soldier in times of …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +5",
-  "Athletics +6",
-  "Survival +5"
+  "Acrobatics",
+  "Athletics",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +5, [Athletics](/Skills.aspx?ID=3) +6, [Survival](/Skills.aspx?ID=16) +5",
+ "skill_mod": {
+  "acrobatics": 5,
+  "athletics": 6,
+  "survival": 5
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 230"
+  "Monster Core pg. 226"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 230</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 226",
  "speed": {
   "land": 25,
   "max": 25,
@@ -64,31 +113,55 @@
  "speed_markdown": "25 feet, swim 15 feet",
  "speed_raw": "25 feet, swim 15 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  5,
+  6,
+  6,
+  6
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "The lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, soldier in time of …",
- "summary_markdown": "The lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, soldier in time of …",
- "text": " Lizardfolk Defender The lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, soldier in time of war. They eagerly rise to the defense of their kin but do not revel in battle. An iruxi defender would rather turn back intruders and allow them to flee with the knowledge they were beaten, in hopes that such word prevents further invasions, but they are not naive. The iruxi understand the need for revenge, and when they allow a foe to escape, they do not forget. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Lizardfolk Defender Source Bestiary pg. 230 Perception +7 Languages Draconic, Iruxi Skills Acrobatics +5, Athletics +6, Survival +5 Str +3 Dex +2 Con +3 Int -1 Wis +2 Cha +0 Items Flail, wooden shield (Hardness 3, HP 12, BT 6), Javelin (3) --- AC 16 (18 with shield raised) Fort +8 Ref +7 Will +5 HP 21 Attack of Opportunity Reaction Shield Block Reaction --- Speed 25 feet, swim 15 feet Melee Single Action flail +8 (Disarm, Sweep, Trip), Damage 1d6+3 bludgeoning Melee Single Action jaws +8, Damage 1d6+3 piercing Melee Single Action tail +8 (Agile), Damage 1d4+3 bludgeoning Ranged Single Action javelin +7 (thrown 30 feet), Damage 1d6+3 piercing Deep Breath A lizardfolk defender can hold their breath for 175 rounds (17-1/2 minutes). Terrain Advantage Non-lizardfolk creatures in difficult terrain and non-lizardfolk creatures that are in water and lack a swim Speed are flat-footed to the lizardfolk defender. ",
+ "summary": "A lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, a soldier in times of …",
+ "summary_markdown": "A lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, a soldier in times of …",
+ "text": " Lizardfolk Defender A lizardfolk defender serves as a protector of the young, guardian of the settlement, and when no other options are available, a soldier in times of war. They eagerly rise to the defense of their kin but do not revel in battle. An iruxi defender would rather turn back intruders and allow them to flee with the knowledge they were beaten, in hopes that such word prevents further invasions, but they are not naive. Iruxis understand the need for revenge, and when they allow a foe to escape, they do not forget. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Lizardfolk Defender Source Monster Core pg. 226 Perception +7 Languages Common, Draconic, Iruxi Skills Acrobatics +5, Athletics +6, Survival +5 Str +3 Dex +2 Con +3 Int -1 Wis +2 Cha +0 Deep Breath A lizardfolk defender can hold their breath for 15 minutes. Items Flail, Javelin (3), Wooden Shield (Hardness 3, HP 12, BT 6) --- AC 16 (18 with shield raised) Fort +8 Ref +7 Will +5 HP 21 Reactive Strike Reaction Shield Block Reaction --- Speed 25 feet, swim 15 feet Melee Single Action flail +8 (Disarm, Sweep, Trip), Damage 1d6+3 bludgeoning Melee Single Action jaws +8, Damage 1d6+3 piercing Melee Single Action tail +8 (Agile), Damage 1d4+3 bludgeoning Ranged Single Action javelin +7 (thrown 30 feet), Damage 1d6+3 piercing Terrain Advantage Non-lizardfolk creatures that are in difficult terrain or are in water and lack a swim Speed are off-guard to the lizardfolk defender. ",
+ "tradition_markdown": "",
  "trait": [
   "Humanoid",
   "Lizardfolk",
-  "N",
   "Medium"
  ],
- "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Lizardfolk](/Traits.aspx?ID=226)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628), [Lizardfolk](/Traits.aspx?ID=760)",
  "trait_raw": [
   "Humanoid",
   "Lizardfolk"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=291",
+ "url": "/NPCs.aspx?ID=3090",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 5,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

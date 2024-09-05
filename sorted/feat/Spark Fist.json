@@ -1,8 +1,11 @@
 {
  "access": "You are from Dongun Hold or Alkenstar.",
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Spark Fist"
@@ -11,27 +14,34 @@
  "frequency": "once per minute",
  "id": "feat-3286",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spark Fist](/Feats.aspx?ID=3286) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 200</row>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\nExpert in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\n\n</column>\r\n\r\n---\r\n\r\nYou dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent. The resulting pops of flame harm both you and your enemy. Until the end of your next turn, your fist loses the [nonlethal](/Traits.aspx?ID=188) trait and deals an additional 1 fire damage on a successful Strike. Each time you succeed on a fist Strike, you take 1 fire damage. If your fist would deal more than one weapon damage die, the fire damage dealt on a successful Strike, to both you and your opponent, is equal to the number of weapon damage dice.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spark Fist](/Feats.aspx?ID=3286) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 200\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\nExpert in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\n\n</column>\r\n\r\n---\r\n\r\nYou dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent. The resulting pops of flame harm both you and your enemy. Until the end of your next turn, your fist loses the [nonlethal](/Traits.aspx?ID=188) trait and deals an additional 1 fire damage on a successful Strike. Each time you succeed on a fist Strike, you take 1 fire damage. If your fist would deal more than one weapon damage die, the fire damage dealt on a successful Strike, to both you and your opponent, is equal to the number of weapon damage dice.",
  "name": "Spark Fist",
  "pfs": "Standard",
  "prerequisite": "Expert in Crafting",
  "prerequisite_markdown": "Expert in [Crafting](/Skills.aspx?ID=4)",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 200",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 200</row>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\nExpert in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 200\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\nExpert in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent.\r\n</summary>",
  "skill": [
   "Crafting",
   "Crafting"
  ],
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 200"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 200</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 200",
  "speed": {},
  "summary": "You dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent.",
  "summary_markdown": "You dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent.",
@@ -41,6 +51,15 @@
   "Fire",
   "Manipulate",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
  ],
  "trait_markdown": "[Dwarf](/Traits.aspx?ID=54), [Fire](/Traits.aspx?ID=72), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

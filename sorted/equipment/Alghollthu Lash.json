@@ -3,7 +3,6 @@
   "Whip"
  ],
  "base_item_markdown": "[Whip](/Weapons.aspx?ID=48)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -12,34 +11,45 @@
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 7,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Alghollthu Lash](/Equipment.aspx?ID=1881)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 35 <sup>1.1</sup></row>\n\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Whip](/Weapons.aspx?ID=48)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis fleshy _+1 [striking](/Equipment.aspx?ID=280) [whip](/Weapons.aspx?ID=48)_ is obviously crafted from the tentacle of some fearsome beast, likely an [alghollthu](/MonsterFamilies.aspx?ID=1), and constantly drips slime.\n\n<document level=\"2\" id=\"action-1575\" />\n\n**Craft Requirements** The initial raw materials must include a tentacle from an alghollthu.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Alghollthu Lash](/Equipment.aspx?ID=1881)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 35 <sup>1.1</sup>\n\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Whip](/Weapons.aspx?ID=48)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis fleshy _+1 [striking](/Equipment.aspx?ID=280) [whip](/Weapons.aspx?ID=48)_ is obviously crafted from the tentacle of some fearsome beast, likely an [alghollthu](/MonsterFamilies.aspx?ID=1), and constantly drips slime.\n\n**Activate** <actions string=\"Single Action\" /> command,;  **Frequency** once per day;   **Effect** The next creature you successfully Strike with this weapon is exposed to _alghollthu slime_.\n\n **Alghollthu Slime** ([curse](/Traits.aspx?ID=38), [occult](/Traits.aspx?ID=120)) **Saving Throw** DC 25 Fortitude; **Stage 1** no ill effect (1 round); **Stage 2** the victim's skin softens, making the creature [drained 1](/Conditions.aspx?ID=10) (1 round); **Stage 3** the victim's skin transforms into a clear, slimy membrane, making it drained 2 until the curse ends; every hour this membrane remains dry, the creature's drained condition increases by 1 (permanent). A [_remove disease_](/Spells.aspx?ID=251) spell can [counteract](/Rules.aspx?ID=371) this curse, but immunity to [disease](/Traits.aspx?ID=46) offers no protection against it.\n\n**Craft Requirements** The initial raw materials must include a tentacle from an alghollthu.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Alghollthu Lash",
  "pfs": "Standard",
  "price": 35000,
  "price_raw": "350 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 35",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 35 <sup>1.1</sup></row>\r\n\r\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis fleshy  +1  striking   whip   is obviously crafted from the tentacle of some fearsome beast, likely an  alghollthu , and constantly drips slime. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 35 <sup>1.1</sup>\r\n\r\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Whip](/Weapons.aspx?ID=48)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis fleshy  +1  striking   whip   is obviously crafted from the tentacle of some fearsome beast, likely an  alghollthu , and constantly drips slime. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 35"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 35 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 35 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This fleshy  +1  striking   whip   is obviously crafted from the tentacle of some fearsome beast, likely an  alghollthu , and constantly drips slime. ",
  "summary_markdown": "This fleshy  +1  striking   whip   is obviously crafted from the tentacle of some fearsome beast, likely an  alghollthu , and constantly drips slime. ",
- "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Standard\" > Alghollthu Lash Source Treasure Vault pg. 35 1.1 Price 350 gp Usage held in 1 hand Bulk 1 Base Weapon Whip --- This fleshy +1 striking whip is obviously crafted from the tentacle of some fearsome beast, likely an alghollthu, and constantly drips slime. Craft Requirements The initial raw materials must include a tentacle from an alghollthu.\n",
+ "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Standard\" > Alghollthu Lash Source Treasure Vault pg. 35 1.1 Price 350 gp Usage held in 1 hand Bulk 1 Base Weapon Whip --- This fleshy +1 striking whip is obviously crafted from the tentacle of some fearsome beast, likely an alghollthu, and constantly drips slime. Activate Single Action command,; Frequency once per day; Effect The next creature you successfully Strike with this weapon is exposed to alghollthu slime . Alghollthu Slime (curse, occult) Saving Throw DC 25 Fortitude; Stage 1 no ill effect (1 round); Stage 2 the victim's skin softens, making the creature drained 1 (1 round); Stage 3 the victim's skin transforms into a clear, slimy membrane, making it drained 2 until the curse ends; every hour this membrane remains dry, the creature's drained condition increases by 1 (permanent). A remove disease spell can counteract this curse, but immunity to disease offers no protection against it. Craft Requirements The initial raw materials must include a tentacle from an alghollthu.\n",
  "trait": [
   "Magical",
   "Transmutation",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

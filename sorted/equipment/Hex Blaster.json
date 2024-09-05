@@ -3,7 +3,6 @@
   "Arquebus"
  ],
  "base_item_markdown": "[Arquebus](/Weapons.aspx?ID=195)",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -12,32 +11,42 @@
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 11,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Limited\"\r\n>\r\n[Hex Blaster](/Equipment.aspx?ID=1597)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Outlaws of Alkenstar</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #180: The Smoking Gun](/Sources.aspx?ID=125) pg. 73</row>\n\n**Price** 1,400 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Arquebus](/Weapons.aspx?ID=195)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis _+2 [striking](/Equipment.aspx?ID=280) [fearsome](/Equipment.aspx?ID=731) [arquebus](/Weapons.aspx?ID=195)_ is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast sometimes sounds like the cackling of a diabolical witch.\n\n<document level=\"2\" id=\"action-1217\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Limited\"\r\n>\r\n[Hex Blaster](/Equipment.aspx?ID=1597)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Outlaws of Alkenstar</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #180: The Smoking Gun](/Sources.aspx?ID=125) pg. 73\n\n**Price** 1,400 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Arquebus](/Weapons.aspx?ID=195)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis _+2 [striking](/Equipment.aspx?ID=280) [fearsome](/Equipment.aspx?ID=731) [arquebus](/Weapons.aspx?ID=195)_ is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast sometimes sounds like the cackling of a diabolical witch.\n\n**Activate** <actions string=\"Single Action\" /> command;  **Frequency** once per day;   **Effect** You afflict a creature you can see with a hex of _impending doom_. The hex lasts for 1 minute. As long as the creature is hexed, when you hit it with a round from the hex blaster, the creature must attempt a DC 28 Will save at the end of your turn; the creature attempts a single Will save regardless of the number of times you hit it.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is [frightened 1](/Conditions.aspx?ID=19). It also takes 1d6 [persistent mental damage](/Conditions.aspx?ID=29).<br />\r\n**Failure** The creature is frightened 2. It also takes 2d6 persistent mental damage.<br />\r\n**Critical Failure** The creature is frightened 2 and [slowed 1](/Conditions.aspx?ID=35) for 1 minute. It also takes 4d6 persistent mental damage and is cursed with a hex of _impending doom_. If the target falls [unconscious](/Conditions.aspx?ID=38) from damage dealt by this Strike or the persistent mental damage, it remains unconscious for 1 day or until this curse is removed. After 1 day, if the creature is still unconscious, it must succeed at a DC 28 Fortitude save or die; this effect has the [death](/Traits.aspx?ID=40) and [incapacitation](/Traits.aspx?ID=93) traits.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Hex Blaster",
  "pfs": "Limited",
  "price": 140000,
  "price_raw": "1,400 gp",
+ "primary_source": "Pathfinder #180: The Smoking Gun",
+ "primary_source_raw": "Pathfinder #180: The Smoking Gun pg. 73",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Outlaws of Alkenstar",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2022-06-29",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #180: The Smoking Gun](/Sources.aspx?ID=125) pg. 73</row>\r\n\r\n**Price** 1,400 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  +2  striking   fearsome   arquebus   is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #180: The Smoking Gun](/Sources.aspx?ID=125) pg. 73\r\n\r\n**Price** 1,400 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Arquebus](/Weapons.aspx?ID=195)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  +2  striking   fearsome   arquebus   is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #180: The Smoking Gun"
  ],
  "source_raw": [
   "Pathfinder #180: The Smoking Gun pg. 73"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Outlaws of Alkenstar",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #180: The Smoking Gun](/Sources.aspx?ID=125) pg. 73</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Outlaws of Alkenstar"
+ ],
+ "source_markdown": "[Pathfinder #180: The Smoking Gun](/Sources.aspx?ID=125) pg. 73",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Outlaws of Alkenstar",
  "stage_markdown": "",
  "summary": "This  +2  striking   fearsome   arquebus   is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast …",
  "summary_markdown": "This  +2  striking   fearsome   arquebus   is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast …",
- "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Limited\" > Hex Blaster May contain spoilers from Outlaws of Alkenstar Source Pathfinder #180: The Smoking Gun pg. 73 Price 1,400 gp Usage held in 2 hands Bulk 2 Base Weapon Arquebus --- This +2 striking fearsome arquebus is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast sometimes sounds like the cackling of a diabolical witch.\n",
+ "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Limited\" > Hex Blaster May contain spoilers from Outlaws of Alkenstar Source Pathfinder #180: The Smoking Gun pg. 73 Price 1,400 gp Usage held in 2 hands Bulk 2 Base Weapon Arquebus --- This +2 striking fearsome arquebus is composed of warped and twisted wood engraved with eerie runes. When the weapon fires, the blast sometimes sounds like the cackling of a diabolical witch. Activate Single Action command; Frequency once per day; Effect You afflict a creature you can see with a hex of impending doom . The hex lasts for 1 minute. As long as the creature is hexed, when you hit it with a round from the hex blaster, the creature must attempt a DC 28 Will save at the end of your turn; the creature attempts a single Will save regardless of the number of times you hit it. Critical Success The creature is unaffected. Success The creature is frightened 1. It also takes 1d6 persistent mental damage. Failure The creature is frightened 2. It also takes 2d6 persistent mental damage. Critical Failure The creature is frightened 2 and slowed 1 for 1 minute. It also takes 4d6 persistent mental damage and is cursed with a hex of impending doom . If the target falls unconscious from damage dealt by this Strike or the persistent mental damage, it remains unconscious for 1 day or until this curse is removed. After 1 day, if the creature is still unconscious, it must succeed at a DC 28 Fortitude save or die; this effect has the death and incapacitation traits.\n",
  "trait": [
   "Curse",
   "Emotion",
@@ -47,6 +56,11 @@
   "Mental",
   "Occult",
   "Unique"
+ ],
+ "trait_group": [
+  "School",
+  "Tradition",
+  "Rarity"
  ],
  "trait_markdown": "[Curse](/Traits.aspx?ID=38), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Magical](/Traits.aspx?ID=103), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [

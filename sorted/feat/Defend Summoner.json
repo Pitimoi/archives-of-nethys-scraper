@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Defend Summoner",
  "id": "feat-2901",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Defend Summoner](/Feats.aspx?ID=2901) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYour eidolon blocks attacks against you. After your eidolon uses this action, you gain a +2 circumstance bonus to AC until the beginning of your next turn. This bonus applies only while you're within your eidolon's reach (in most cases, this means your eidolon is adjacent to you or in your space).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Defend Summoner](/Feats.aspx?ID=2901) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n</column>\r\n\r\n---\r\n\r\nYour eidolon blocks attacks against you. After your eidolon uses this action, you gain a +2 circumstance bonus to AC until the beginning of your next turn. This bonus applies only while you're within your eidolon's reach (in most cases, this means your eidolon is adjacent to you or in your space).",
  "name": "Defend Summoner",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 69",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour eidolon blocks attacks against you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour eidolon blocks attacks against you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 69"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>",
  "speed": {},
  "summary": "Your eidolon blocks attacks against you.",
  "summary_markdown": "Your eidolon blocks attacks against you.",
@@ -32,6 +39,10 @@
   "Eidolon",
   "Evolution",
   "Summoner"
+ ],
+ "trait_group": [
+  "Class-Specific",
+  "Class"
  ],
  "trait_markdown": "[Eidolon](/Traits.aspx?ID=386), [Evolution](/Traits.aspx?ID=394), [Summoner](/Traits.aspx?ID=392)",
  "trait_raw": [

@@ -1,70 +1,80 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
- "duration_raw": "sustained up to 1 minute",
+ "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-802",
+ "id": "spell-1890",
+ "legacy_id": "spell-802",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Nudge Fate](/Spells.aspx?ID=802)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Patron Theme**\r\n[Fate](/Patrons.aspx?ID=3)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou read slightly into the future and give fate a tiny push to achieve the result you desire. Once during the duration, when the target fails an attack roll, skill check, or saving throw and a +1 status bonus would turn a critical failure into a failure, or failure into a success, you grant the target a +1 status bonus to the check retroactively, changing the outcome appropriately. The spell then ends, and the target is temporarily immune for 1 minute.\n\n If you cast _nudge fate_ while a previous casting of this hex is still in effect, the previous effect ends.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Nudge Fate](/Spells.aspx?ID=1890)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 387\n\n**Patron Theme**\r\n[Spinner of Threads](/Patrons.aspx?ID=16)\r\n\r\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe barest spin of your patron's spool is enough to alter fate. When the target fails an attack roll, skill check, or saving throw and a +1 status bonus would turn a critical failure into a failure, or failure into a success, you grant the target a +1 status bonus to the check retroactively, changing the outcome appropriately. The spell then ends.\n\n If you cast _nudge fate_ while a previous casting of this hex is still in effect, the previous effect ends.",
  "name": "Nudge Fate",
  "patron_theme": [
-  "Fate"
+  "Spinner of Threads"
  ],
- "patron_theme_markdown": "[Fate](/Patrons.aspx?ID=3)",
+ "patron_theme_markdown": "[Spinner of Threads](/Patrons.aspx?ID=16)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 387",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Patron Theme**\r\n[Fate](/Patrons.aspx?ID=3)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou read slightly into the future and give fate a tiny push to achieve the result you desire.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 387\n\n**Patron Theme**\r\n[Spinner of Threads](/Patrons.aspx?ID=16)\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe barest spin of your patron's spool is enough to alter fate.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 239"
+  "Player Core pg. 387"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 387",
  "speed": {},
- "summary": "You read slightly into the future and give fate a tiny push to achieve the result you desire.",
- "summary_markdown": "You read slightly into the future and give fate a tiny push to achieve the result you desire.",
+ "spell_type": "Cantrip",
+ "summary": "The barest spin of your patron's spool is enough to alter fate.",
+ "summary_markdown": "The barest spin of your patron's spool is enough to alter fate.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Nudge Fate Source Advanced Player's Guide pg. 239 2.0 Patron Theme Fate Cast Single Action verbal Range 30 feet Target 1 creature Saving Throw Will Duration sustained up to 1 minute --- You read slightly into the future and give fate a tiny push to achieve the result you desire. Once during the duration, when the target fails an attack roll, skill check, or saving throw and a +1 status bonus would turn a critical failure into a failure, or failure into a success, you grant the target a +1 status bonus to the check retroactively, changing the outcome appropriately. The spell then ends, and the target is temporarily immune for 1 minute. If you cast nudge fate while a previous casting of this hex is still in effect, the previous effect ends.",
+ "text": "\nNudge Fate Single Action Source Player Core pg. 387 Patron Theme Spinner of Threads Range 30 feet Target 1 creature Defense Will Duration 1 minute --- The barest spin of your patron's spool is enough to alter fate. When the target fails an attack roll, skill check, or saving throw and a +1 status bonus would turn a critical failure into a failure, or failure into a success, you grant the target a +1 status bonus to the check retroactively, changing the outcome appropriately. The spell then ends. If you cast nudge fate while a previous casting of this hex is still in effect, the previous effect ends.",
  "tradition_markdown": "",
  "trait": [
   "Cantrip",
-  "Divination",
+  "Concentrate",
   "Hex",
   "Uncommon",
   "Witch"
  ],
- "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Divination](/Traits.aspx?ID=47), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
   "Cantrip",
-  "Divination",
+  "Concentrate",
   "Hex",
   "Uncommon",
   "Witch"
  ],
- "type": "Cantrip",
- "url": "/Spells.aspx?ID=802",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1890",
  "weakness": {}
 }

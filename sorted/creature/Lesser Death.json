@@ -1,74 +1,124 @@
 {
  "ac": 39,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  32
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 6,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Death’s Grace",
   "Status Sight",
   "Aura of Misfortune",
-  "Negative Healing",
+  "Death's Grace",
   "Lurking Death",
   "Infuse Weapon"
  ],
  "creature_family": "Grim Reaper",
  "creature_family_markdown": "[Grim Reaper](/MonsterFamilies.aspx?ID=104)",
  "dexterity": 9,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 30,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 255,
- "hp_raw": "255 ( negative healing )",
- "id": "creature-251",
+ "hp_raw": "255 (death's grace,  void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3037",
+ "image": [
+  "/Images/Monsters/Lesser_Death.webp"
+ ],
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
   "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, paralyzed, poison, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Scythe"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-251",
  "level": 16,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Lesser Death](/Monsters.aspx?ID=251)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nNo one is quite sure what lesser deaths are, though some claim that they are avatars of the grim reaper. Unlike that strange hunter, however, lesser deaths hunt in packs on rare occasions. More often than not, they manifest from cursed magic items. Other times, they are just the enactors of death, hunting in the same way the grim reaper does— silently, with neither remorse nor quarter. Rarely, multiple lesser deaths work together to cull a large population, their scythes cutting through crowds and leaving entire cities devoid of life, inspiring (hopefully) false rumors of multiple grim reapers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 40\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 38\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 35\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Lesser Death](/Monsters.aspx?ID=251)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 197</row>\n\n**Perception** +32; darkvision, [_see invisibility_](/Spells.aspx?ID=271), status sight, [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +28, [Deception](/Skills.aspx?ID=5) +30, [Intimidation](/Skills.aspx?ID=7) +32, [Religion](/Skills.aspx?ID=13) +30, [Society](/Skills.aspx?ID=14) +26, [Stealth](/Skills.aspx?ID=15) +35\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +9\r\n\r\n**Con** +6\r\n\r\n**Int** +4\r\n\r\n**Wis** +6\r\n\r\n**Cha** +6\r\n</row>\r\n\r\n**Death’s Grace** The lesser death can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the lesser death still never counts as a living creature.<br /> **Status Sight** The lesser death automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see.\r\n\r\n**Items**\r\n[Scythe](/Weapons.aspx?ID=39)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 39 \r\n\r\n**Fort** +30 \r\n\r\n**Ref** +33 \r\n\r\n**Will** +32 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 255\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyzed, poison, unconscious\n\n**Aura of Misfortune** ([aura](/Traits.aspx?ID=206), [divination](/Traits.aspx?ID=47), [divine](/Traits.aspx?ID=48), [misfortune](/Traits.aspx?ID=110)) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result.<br /> **Negative Healing** The lesser death can choose whether or not it takes positive damage.<br /> **Lurking Death** <actions string=\"Reaction\" /> ([teleportation](/Traits.aspx?ID=156)); **Trigger** A creature within 60 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait. **Effect** The lesser death teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the lesser death disrupts the triggering action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_keen scythe_ +32 ([Agile](/Traits.aspx?ID=170), [deadly 2d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 3d10+14 slashing plus 1d12 negative\r\n\r\n**Divine Innate Spells** DC 38\r\n- **Constant (2nd)**\r\n[See Invisibility](/Spells.aspx?ID=271)\r\n- **Constant (3rd)**\r\n[Haste](/Spells.aspx?ID=147)\r\n- **Constant (6th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Infuse Weapon**  ([Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65)) Any scythe gains the [agile](/Traits.aspx?ID=170) trait, can’t be disarmed, and becomes a _[+2 greater striking](/Equipment.aspx?ID=280) [keen](/Equipment.aspx?ID=300) scythe_ while the lesser death wields it.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-104\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Lesser Death](/Monsters.aspx?ID=3037)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nNo one is quite sure what lesser deaths are, though some claim that they are avatars of the Grim Reaper. Unlike that strange hunter, however, lesser deaths hunt in packs on rare occasions. More often than not, they manifest from cursed magic items. Other times, they are just the enactors of death, hunting in the same way the Grim Reaper does—silently, with no remorse or quarter. Rarely, multiple lesser deaths work together to cull a large population, their scythes cutting through crowds and leaving entire cities devoid of life, inspiring (hopefully) false rumors of multiple Grim Reapers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 40\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 38\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 35\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lesser_Death.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Lesser Death](/Monsters.aspx?ID=3037)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 185\n\n**Perception** +32; [darkvision](/MonsterAbilities.aspx?ID=59), [_see the unseen_](/Spells.aspx?ID=1663), status sight, [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +28, [Deception](/Skills.aspx?ID=5) +30, [Intimidation](/Skills.aspx?ID=7) +32, [Religion](/Skills.aspx?ID=13) +30, [Society](/Skills.aspx?ID=14) +26, [Stealth](/Skills.aspx?ID=15) +35\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +9\r\n\r\n**Con** +6\r\n\r\n**Int** +4\r\n\r\n**Wis** +6\r\n\r\n**Cha** +6\r\n</row>\r\n\r\n**Status Sight** a lesser death automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see.\r\n\r\n**Items**\r\n[Scythe](/Weapons.aspx?ID=39)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 39 \r\n\r\n**Fort** +30 \r\n\r\n**Ref** +33 \r\n\r\n**Will** +32 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 255\r\n(death's grace, [void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\n\n**Aura of Misfortune** ([aura](/Traits.aspx?ID=542), [divine](/Traits.aspx?ID=579), [misfortune](/Traits.aspx?ID=654)) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result.<br />**Death's Grace** A lesser death can choose whether or not it counts as [undead](/Traits.aspx?ID=722) for effects that affect undead differently. Even if it does not count as undead, the lesser death still never counts as a living creature.<br />Void Healing A lesser death can choose whether or not it takes vitality damage.<br />**Lurking Death** <actions string=\"Reaction\" /> ([divine](/Traits.aspx?ID=579), [teleportation](/Traits.aspx?ID=710)) **Trigger** A creature within 60 feet makes a ranged attack or uses an action that has the [concentrate](/Traits.aspx?ID=561), [manipulate](/Traits.aspx?ID=645), or [move](/Traits.aspx?ID=658) trait; **Effect** The lesser death teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the lesser death disrupts the triggering action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nkeen scythe +32 ([Agile](/Traits.aspx?ID=170), [deadly 2d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 3d10+14 slashing plus 1d12 void\r\n\r\n**Divine Innate Spells** DC 38\r\n- **2nd**\r\n[See the Unseen](/Spells.aspx?ID=1663)\r\n- **Constant (6th)**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n\r\n**Infuse Weapon**  ([Divine](/Traits.aspx?ID=48)) Any scythe gains the [agile](/Traits.aspx?ID=526) trait, can't be disarmed, and becomes a _+2 [greater striking](/Equipment.aspx?ID=2829) [keen](/Equipment.aspx?ID=2843) scythe_ while the lesser death wields it.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-104\" />",
  "name": "Lesser Death",
  "npc": false,
  "perception": 32,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 185",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "reflex_save": 33,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Extreme",
+ "reflex_save_scale_number": 5,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 197</row>\r\n\r\n**Creature Family** [Grim Reaper](/MonsterFamilies.aspx?ID=104)\r\n\r\n<row gap=\"medium\">\r\n**HP** 255 ( negative healing )\r\n\r\n**AC** 39\r\n\r\n**Fort** +30\r\n\r\n**Ref** +33\r\n\r\n**Will** +32\r\n\r\n**Perception** +32\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nNo one is quite sure what lesser deaths are, though some claim that they are avatars of the grim reaper. Unlike that strange hunter, however, lesser …\r\n</summary>",
- "sense": "darkvision,   see invisibility  , status sight,   true seeing  ",
- "sense_markdown": "darkvision, [_see invisibility_](/Spells.aspx?ID=271), status sight, [_true seeing_](/Spells.aspx?ID=344)",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 185\r\n\r\n**Creature Family** [Grim Reaper](/MonsterFamilies.aspx?ID=104)\r\n\r\n<row gap=\"medium\">\r\n**HP** 255 (death's grace,  void healing )\r\n\r\n**AC** 39\r\n\r\n**Fort** +30\r\n\r\n**Ref** +33\r\n\r\n**Will** +32\r\n\r\n**Perception** +32\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nNo one is quite sure what lesser deaths are, though some claim that they are avatars of the Grim Reaper. Unlike that strange hunter, however, lesser …\r\n</summary>",
+ "sense": " darkvision ,   see the unseen  , status sight,   truesight  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [_see the unseen_](/Spells.aspx?ID=1663), status sight, [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +33",
-  "Athletics +28",
-  "Deception +30",
-  "Intimidation +32",
-  "Religion +30",
-  "Society +26",
-  "Stealth +35"
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Religion",
+  "Society",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +28, [Deception](/Skills.aspx?ID=5) +30, [Intimidation](/Skills.aspx?ID=7) +32, [Religion](/Skills.aspx?ID=13) +30, [Society](/Skills.aspx?ID=14) +26, [Stealth](/Skills.aspx?ID=15) +35",
+ "skill_mod": {
+  "acrobatics": 33,
+  "athletics": 28,
+  "deception": 30,
+  "intimidation": 32,
+  "religion": 30,
+  "society": 26,
+  "stealth": 35
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 197"
+  "Monster Core pg. 185"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 197</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 185",
  "speed": {
   "fly": 40,
   "land": 50,
@@ -77,33 +127,61 @@
  "speed_markdown": "50 feet, fly 40 feet",
  "speed_raw": "50 feet, fly 40 feet",
  "spell": [
-  "True Seeing",
-  "Haste",
-  "See Invisibility"
+  "Truesight",
+  "See the Unseen"
  ],
- "spell_markdown": "[Haste](/Spells.aspx?ID=147), [See Invisibility](/Spells.aspx?ID=271), [True Seeing](/Spells.aspx?ID=344)",
+ "spell_markdown": "[See the Unseen](/Spells.aspx?ID=1663), [Truesight](/Spells.aspx?ID=1727)",
+ "spell_dc": [
+  38
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "35",
+ "strike_damage_average": [
+  37
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "No one is quite sure what lesser deaths are, though some claim that they are avatars of the grim reaper. Unlike that strange hunter, however, lesser …",
- "summary_markdown": "No one is quite sure what lesser deaths are, though some claim that they are avatars of the grim reaper. Unlike that strange hunter, however, lesser …",
- "text": " Lesser Death No one is quite sure what lesser deaths are, though some claim that they are avatars of the grim reaper. Unlike that strange hunter, however, lesser deaths hunt in packs on rare occasions. More often than not, they manifest from cursed magic items. Other times, they are just the enactors of death, hunting in the same way the grim reaper does— silently, with neither remorse nor quarter. Rarely, multiple lesser deaths work together to cull a large population, their scythes cutting through crowds and leaving entire cities devoid of life, inspiring (hopefully) false rumors of multiple grim reapers. Recall Knowledge - Undead (Religion): DC 40 Unspecific Lore : DC 38 Specific Lore : DC 35 Lesser Death Source Bestiary pg. 197 Perception +32; darkvision, see invisibility , status sight, true seeing Languages Common, Necril Skills Acrobatics +33, Athletics +28, Deception +30, Intimidation +32, Religion +30, Society +26, Stealth +35 Str +6 Dex +9 Con +6 Int +4 Wis +6 Cha +6 Death’s Grace The lesser death can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the lesser death still never counts as a living creature. Status Sight The lesser death automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see. Items Scythe --- AC 39 Fort +30 Ref +33 Will +32 +1 status to all saves vs. magic HP 255 (negative healing) Immunities death effects, disease, paralyzed, poison, unconscious Aura of Misfortune (aura, divination, divine, misfortune) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result. Negative Healing The lesser death can choose whether or not it takes positive damage. Lurking Death Reaction (teleportation); Trigger A creature within 60 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait. Effect The lesser death teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the lesser death disrupts the triggering action. --- Speed 50 feet, fly 40 feet Melee Single Action keen scythe +32 (Agile, deadly 2d10, Magical, reach 10 feet, Trip), Damage 3d10+14 slashing plus 1d12 negative Divine Innate Spells DC 38 - Constant (2nd) See Invisibility - Constant (3rd) Haste - Constant (6th) True Seeing Infuse Weapon (Divine, Evocation) Any scythe gains the agile trait, can’t be disarmed, and becomes a +2 greater striking keen scythe while the lesser death wields it. ",
+ "summary": "No one is quite sure what lesser deaths are, though some claim that they are avatars of the Grim Reaper. Unlike that strange hunter, however, lesser …",
+ "summary_markdown": "No one is quite sure what lesser deaths are, though some claim that they are avatars of the Grim Reaper. Unlike that strange hunter, however, lesser …",
+ "text": " Lesser Death No one is quite sure what lesser deaths are, though some claim that they are avatars of the Grim Reaper. Unlike that strange hunter, however, lesser deaths hunt in packs on rare occasions. More often than not, they manifest from cursed magic items. Other times, they are just the enactors of death, hunting in the same way the Grim Reaper does—silently, with no remorse or quarter. Rarely, multiple lesser deaths work together to cull a large population, their scythes cutting through crowds and leaving entire cities devoid of life, inspiring (hopefully) false rumors of multiple Grim Reapers. Recall Knowledge - Undead (Religion): DC 40 Unspecific Lore : DC 38 Specific Lore : DC 35 Lesser Death Source Monster Core pg. 185 Perception +32; darkvision, see the unseen , status sight, truesight Languages Common, Necril Skills Acrobatics +33, Athletics +28, Deception +30, Intimidation +32, Religion +30, Society +26, Stealth +35 Str +6 Dex +9 Con +6 Int +4 Wis +6 Cha +6 Status Sight a lesser death automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see. Items Scythe --- AC 39 Fort +30 Ref +33 Will +32 +1 status to all saves vs. magic HP 255 (death's grace, void healing) Immunities bleed, death effects, disease, paralyzed, poison, unconscious Aura of Misfortune (aura, divine, misfortune) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result. Death's Grace A lesser death can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the lesser death still never counts as a living creature. Void Healing A lesser death can choose whether or not it takes vitality damage. Lurking Death Reaction (divine, teleportation) Trigger A creature within 60 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait; Effect The lesser death teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the lesser death disrupts the triggering action. --- Speed 50 feet, fly 40 feet Melee Single Action keen scythe +32 (Agile, deadly 2d10, Magical, reach 10 feet, Trip), Damage 3d10+14 slashing plus 1d12 void Divine Innate Spells DC 38 - 2nd See the Unseen - Constant (6th) Truesight Infuse Weapon (Divine) Any scythe gains the agile trait, can't be disarmed, and becomes a +2 greater striking keen scythe while the lesser death wields it. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Rare",
   "Undead",
-  "NE",
+  "Unholy",
   "Medium"
  ],
- "trait_markdown": "[Rare](/Traits.aspx?ID=137), [Undead](/Traits.aspx?ID=160)",
+ "trait_group": [
+  "Rarity",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Rare](/Traits.aspx?ID=683), [Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Rare",
-  "Undead"
+  "Undead",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=251",
+ "url": "/Monsters.aspx?ID=3037",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -111,5 +189,9 @@
  ],
  "weakness": {},
  "will_save": 32,
- "wisdom": 6
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

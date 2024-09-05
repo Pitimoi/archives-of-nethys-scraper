@@ -1,0 +1,179 @@
+{
+ "ac": 34,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  27,
+  27
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Steam Vision",
+  "Freeze and Shatter",
+  "Sweltering Heat",
+  "Evaporate",
+  "Scalding Breath"
+ ],
+ "creature_family": "Elemental, Water",
+ "creature_family_markdown": "[Elemental, Water](/MonsterFamilies.aspx?ID=45)",
+ "dexterity": 7,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Fire",
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 255,
+ "hp_raw": "255",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2661",
+ "image": [
+  "/Images/Monsters/ElementalWater_BoilingSpring.png"
+ ],
+ "immunity": [
+  "bleed",
+  "fire",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [fire](/Traits.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Thalassic"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113)",
+ "level": 13,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Boiling Spring](/Monsters.aspx?ID=2661)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOften mistaken for [air elementals](/MonsterFamilies.aspx?ID=41) due to their hazy, almost-imperceptible forms, a boiling spring is a humanoid water elemental made of scalding steam and bubbling water. When summoned to the [Universe](/Planes.aspx?ID=1), a boiling spring raises the ambient temperature around them, making the surrounding climate humid and muggy. They seem to enjoy the discomfort they cause, though some regard it as merely a fun prank while others truly revel in the misery and look for ways to cause more.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/ElementalWater_BoilingSpring.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Boiling Spring](/Monsters.aspx?ID=2661)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 181\n\n**Perception** +23; [darkvision](/MonsterAbilities.aspx?ID=12), steam vision\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +26, [Stealth](/Skills.aspx?ID=15) +26\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +7\r\n\r\n**Con** +7\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Steam Vision** The boiling spring ignores the [concealed](/Conditions.aspx?ID=4) condition from mist and steam.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 34 \r\n\r\n**Fort** +23 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +20 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 255\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [fire](/Traits.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=27) 15\r\n\r\n**Freeze and Shatter** If the boiling spring is destroyed with cold damage, their body freezes over and explodes, sending out a wave of frigid air and ice shards that deal 4d6 piercing damage plus 4d6 cold damage to creatures in a 20-foot emanation (DC 36 [basic](/Rules.aspx?ID=329) Reflex save).<br />**Sweltering Heat** ([aura](/Traits.aspx?ID=206), [fire](/Traits.aspx?ID=72)) 25 feet. The boiling spring radiates heat, raising the air temperature around them. A creature that starts its turn in the emanation must succeed at a DC 33 Fortitude save or become [fatigued](/Conditions.aspx?ID=15) while it remains in the area; creatures immune to [environmental heat effects](/Rules.aspx?ID=642) or with any fire resistance are immune.<br />**Evaporate** <actions string=\"Reaction\" /> **Trigger** An effect would deal fire damage to the boiling spring, even if they would ignore the damage; **Effect** The boiling spring evaporates into the air. Until the beginning of the boiling spring's next turn, they can't be attacked or targeted. They still occupy their space, and their auras still function as normal.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 30 feet, swim 80 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nblistering fist +27 ([Fire](/Traits.aspx?ID=72)),\r\n**Damage** 3d8+13 fire\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nheat wave +27 ([Fire](/Traits.aspx?ID=72), [range increment 50 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d12 fire\n\n**Scalding Breath** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72), [Primal](/Traits.aspx?ID=134)) The boiling spring breathes out a cloud of steam in a 30-foot cone that deals 14d6 fire damage to each creature in the area (DC 33 [basic](/Rules.aspx?ID=329) Reflex save). The boiling spring can't use Scalding Breath again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-45\" />",
+ "name": "Boiling Spring",
+ "npc": false,
+ "perception": 23,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 181",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 26,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 181\r\n\r\n**Creature Family** [Elemental, Water](/MonsterFamilies.aspx?ID=45)\r\n\r\n<row gap=\"medium\">\r\n**HP** 255\r\n\r\n**AC** 34\r\n\r\n**Fort** +23\r\n\r\n**Ref** +26\r\n\r\n**Will** +20\r\n\r\n**Perception** +23\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOften mistaken for  air elementals  due to their hazy, almost-imperceptible forms, a boiling spring is a humanoid water elemental made of scalding …\r\n</summary>",
+ "sense": " darkvision , steam vision",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), steam vision",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +26, [Stealth](/Skills.aspx?ID=15) +26",
+ "skill_mod": {
+  "athletics": 26,
+  "stealth": 26
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 181"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 181",
+ "speed": {
+  "fly": 30,
+  "max": 80,
+  "swim": 80
+ },
+ "speed_markdown": "fly 30 feet, swim 80 feet",
+ "speed_raw": "fly 30 feet, swim 80 feet",
+ "spell_markdown": "",
+ "stealth": "26",
+ "strike_damage_average": [
+  19,
+  26
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 7,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Often mistaken for  air elementals  due to their hazy, almost-imperceptible forms, a boiling spring is a humanoid water elemental made of scalding …",
+ "summary_markdown": "Often mistaken for  air elementals  due to their hazy, almost-imperceptible forms, a boiling spring is a humanoid water elemental made of scalding …",
+ "text": " Boiling Spring Often mistaken for air elementals due to their hazy, almost-imperceptible forms, a boiling spring is a humanoid water elemental made of scalding steam and bubbling water. When summoned to the Universe, a boiling spring raises the ambient temperature around them, making the surrounding climate humid and muggy. They seem to enjoy the discomfort they cause, though some regard it as merely a fun prank while others truly revel in the misery and look for ways to cause more. Recall Knowledge - Elemental (Arcana, Nature): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Boiling Spring Source Rage of Elements pg. 181 Perception +23; darkvision, steam vision Languages Thalassic Skills Athletics +26, Stealth +26 Str +7 Dex +7 Con +7 Int +2 Wis +4 Cha +2 Steam Vision The boiling spring ignores the concealed condition from mist and steam. --- AC 34 Fort +23 Ref +26 Will +20 HP 255 Immunities bleed, fire, paralyzed, poison, sleep Weaknesses cold 15 Freeze and Shatter If the boiling spring is destroyed with cold damage, their body freezes over and explodes, sending out a wave of frigid air and ice shards that deal 4d6 piercing damage plus 4d6 cold damage to creatures in a 20-foot emanation (DC 36 basic Reflex save). Sweltering Heat (aura, fire) 25 feet. The boiling spring radiates heat, raising the air temperature around them. A creature that starts its turn in the emanation must succeed at a DC 33 Fortitude save or become fatigued while it remains in the area; creatures immune to environmental heat effects or with any fire resistance are immune. Evaporate Reaction Trigger An effect would deal fire damage to the boiling spring, even if they would ignore the damage; Effect The boiling spring evaporates into the air. Until the beginning of the boiling spring's next turn, they can't be attacked or targeted. They still occupy their space, and their auras still function as normal. --- Speed fly 30 feet, swim 80 feet Melee Single Action blistering fist +27 (Fire), Damage 3d8+13 fire Ranged Single Action heat wave +27 (Fire, range increment 50 feet), Damage 3d12 fire Scalding Breath Two Actions (Fire, Primal) The boiling spring breathes out a cloud of steam in a 30-foot cone that deals 14d6 fire damage to each creature in the area (DC 33 basic Reflex save). The boiling spring can't use Scalding Breath again for 1d4 rounds. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Aquatic",
+  "Elemental",
+  "Fire",
+  "Water",
+  "Large"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Elemental](/Traits.aspx?ID=57), [Fire](/Traits.aspx?ID=72), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Aquatic",
+  "Elemental",
+  "Fire",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2661",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "cold": 15
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=27) 15",
+ "weakness_raw": " cold  15",
+ "will_save": 20,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

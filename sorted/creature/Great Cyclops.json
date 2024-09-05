@@ -1,65 +1,112 @@
 {
  "ac": 32,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  23,
+  25,
+  25,
+  25
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Catch Rock",
   "Ferocity",
   "Flash of Brutality",
   "Powerful Charge",
   "Throw Rock"
  ],
  "creature_family": "Cyclops",
- "creature_family_markdown": "[Cyclops](/MonsterFamilies.aspx?ID=25)",
+ "creature_family_markdown": "[Cyclops](/MonsterFamilies.aspx?ID=385)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 25,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 235,
  "hp_raw": "235",
- "id": "creature-87",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2890",
  "image": [
-  "/Images/Monsters/Cyclops_GreatCyclops.png"
+  "/Images/Monsters/Great_Cyclops.webp"
  ],
  "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Greatclub",
+  "Hide Armor"
+ ],
  "language": [
   "Common",
   "Cyclops",
   "Jotun"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Cyclops](/Languages.aspx?ID=30), [Jotun](/Languages.aspx?ID=8)",
+ "legacy_id": "creature-87",
  "level": 12,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Great Cyclops](/Monsters.aspx?ID=87)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGigantic, dim-witted loners, the great cyclopes embody their lesser kin writ large. They are both stronger and more violent, but their uncontrolled vision into possible futures has driven them beyond reason. They see every moment as a potential storm of uncontrollable fury, and out of a desperate desire for peace, quiet, and an end to their hunger, they lash out at all who come near. Wise creatures avoid great cyclopes at all cost.\n\n Debate has long raged over the origins of these massive, destructive giants. They are so large that it had long been assumed they were used as beasts of burden by their lesser kin, but they are now free to hunt and kill without restraint. Other scholars believe the great cyclops is the ultimate fate of the entire cyclops species. Whatever foolish decision or wayward curse caused the end of their civilization is still playing out, occasionally causing a cyclops to withdraw from its own kind, lose all semblance of intellect, and mutate into a lumbering, feral colossus. It is fortunate indeed that the great cyclops prefers to dwell far from humanoid settlements, because its immeasurable bloodlust inspires it to destroy virtually anything that moves, from dinosaurs and other monsters to the occasional explorer or soon-to-be-lost caravan.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Cyclops_GreatCyclops.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[Great Cyclops](/Monsters.aspx?ID=87)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Mutant\" url=\"/Traits.aspx?ID=229\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 69</row>\n\n**Perception** +22; low-light vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Cyclops](/Languages.aspx?ID=30), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +25, [any one Lore](/Skills.aspx?ID=8) +18, [Survival](/Skills.aspx?ID=16) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +1\r\n\r\n**Con** +6\r\n\r\n**Int** -2\r\n\r\n**Wis** +4\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Hide Armor](/Armor.aspx?ID=7)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +25 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n**HP** 235\n\n**[Catch Rock](/MonsterAbilities.aspx?ID=7)** <actions string=\"Reaction\" /> <br />**[Ferocity](/MonsterAbilities.aspx?ID=16)** <actions string=\"Reaction\" /> <br />**Flash of Brutality** <actions string=\"Free Action\" /> ([divination](/Traits.aspx?ID=47), [fortune](/Traits.aspx?ID=76), [occult](/Traits.aspx?ID=120)) **Frequency** once per day, and recharges when the great cyclops uses Ferocity; **Trigger** The great cyclops succeeds at an attack roll. **Effect** The attack becomes a critical success.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ngreatclub +25 ([Backswing](/Traits.aspx?ID=173), [reach 15 feet](/Traits.aspx?ID=192), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 3d10+13 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorn +25 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+13 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +25 ([Agile](/Traits.aspx?ID=170), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d4+13 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +23 ([Brutal](/Traits.aspx?ID=249), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 4d6+7 bludgeoning\n\n**Powerful Charge** <actions string=\"Two Actions\" />  The great cyclops Strides twice and makes a horn Strike. If it moved at least 20 feet away from its starting position, the Strike’s damage is increased to 3d10+20.\r\n\r\n**[Throw Rock](/MonsterAbilities.aspx?ID=38)** <actions string=\"Single Action\" />  \r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-25\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Great Cyclops](/Monsters.aspx?ID=2890)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGigantic loners, the great cyclopes are their lesser kin writ large. They're stronger and more violent, but their uncontrolled vision of possible futures has driven them beyond reason. They see every moment as a potential storm of uncontrollable fury and, out of a desperate desire for peace, quiet, and an end to their hunger, lash out at any who come near. Wise creatures avoid great cyclopes at all cost. It's fortunate for humanoids that great cyclopes prefer to dwell far from settlements.\n\n Debate has long raged over the origins of these massive, destructive giants. They are so large that it had long been assumed they were used as beasts of burden by their lesser kin, now free to hunt and kill without restraint. Other scholars believe the great cyclops is the ultimate fate of the entire cyclops species. Whatever foolish decision or wayward curse caused the end of their civilization is still playing out, occasionally causing a cyclops to withdraw from their own kind, lose all semblance of intellect, and mutate into a lumbering, feral colossus.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Great_Cyclops.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[Great Cyclops](/Monsters.aspx?ID=2890)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Mutant\" url=\"/Traits.aspx?ID=763\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 71\n\n**Perception** +22; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Cyclops](/Languages.aspx?ID=30), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +25, [any one Lore](/Skills.aspx?ID=8) +18, [Survival](/Skills.aspx?ID=16) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +1\r\n\r\n**Con** +6\r\n\r\n**Int** -2\r\n\r\n**Wis** +4\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Greatclub](/Weapons.aspx?ID=22), [Hide Armor](/Armor.aspx?ID=7)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +25 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 235\n\n</row>\n\n**[Ferocity](/MonsterAbilities.aspx?ID=63)** <actions string=\"Reaction\" /> <br />**Flash of Brutality** <actions string=\"Free Action\" /> ([fortune](/Traits.aspx?ID=612), [occult](/Traits.aspx?ID=662)) **Frequency** once per day, and recharges when the great cyclops uses Ferocity; **Trigger** The great cyclops succeeds at an attack roll; **Effect** The attack becomes a critical success.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ngreatclub +25 ([Backswing](/Traits.aspx?ID=173), [reach 15 feet](/Traits.aspx?ID=192), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 3d10+13 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorn +25 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+13 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +25 ([Agile](/Traits.aspx?ID=170), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d4+13 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +23 ([Brutal](/Traits.aspx?ID=249), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 4d6+7 bludgeoning\n\n**Powerful Charge** <actions string=\"Two Actions\" />  The great cyclops Strides twice and makes a horn Strike. If they moved at least 20 feet away from their starting position, the Strike's damage is increased to 3d10+20.\r\n\r\n**[Throw Rock](/MonsterAbilities.aspx?ID=80)** <actions string=\"Single Action\" />  \r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Cyclops Seers</title>\r\n\r\nGreat cyclopes are traditionally violent creatures, but some retain fragments of the old ways that lull them into periods of calm. During such times, they can be incredible sources of information, but one must take care to be well away from the great cyclops's lair before its bestial rage wakens once more.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-385\" />",
  "name": "Great Cyclops",
  "npc": false,
  "perception": 22,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 71",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 19,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Mutant\" url=\"/Traits.aspx?ID=229\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 69</row>\r\n\r\n**Creature Family** [Cyclops](/MonsterFamilies.aspx?ID=25)\r\n\r\n<row gap=\"medium\">\r\n**HP** 235\r\n\r\n**AC** 32\r\n\r\n**Fort** +25\r\n\r\n**Ref** +19\r\n\r\n**Will** +22\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGigantic, dim-witted loners, the great cyclopes embody their lesser kin writ large. They are both stronger and more violent, but their uncontrolled …\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Mutant\" url=\"/Traits.aspx?ID=763\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 71\r\n\r\n**Creature Family** [Cyclops](/MonsterFamilies.aspx?ID=385)\r\n\r\n<row gap=\"medium\">\r\n**HP** 235\r\n\r\n**AC** 32\r\n\r\n**Fort** +25\r\n\r\n**Ref** +19\r\n\r\n**Will** +22\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGigantic loners, the great cyclopes are their lesser kin writ large. They're stronger and more violent, but their uncontrolled vision of possible …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Athletics +25",
-  "any one Lore +18",
-  "Survival +22"
+  "Athletics",
+  "any one Lore",
+  "Survival"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +25, [any one Lore](/Skills.aspx?ID=8) +18, [Survival](/Skills.aspx?ID=16) +22",
+ "skill_mod": {
+  "athletics": 25,
+  "survival": 22
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 69"
+  "Monster Core pg. 71"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 69</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 71",
  "speed": {
   "land": 40,
   "max": 40
@@ -67,23 +114,44 @@
  "speed_markdown": "40 feet",
  "speed_raw": "40 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  20,
+  21,
+  24,
+  29
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Gigantic, dim-witted loners, the great cyclopes embody their lesser kin writ large. They are both stronger and more violent, but their uncontrolled …",
- "summary_markdown": "Gigantic, dim-witted loners, the great cyclopes embody their lesser kin writ large. They are both stronger and more violent, but their uncontrolled …",
- "text": " Great Cyclops Gigantic, dim-witted loners, the great cyclopes embody their lesser kin writ large. They are both stronger and more violent, but their uncontrolled vision into possible futures has driven them beyond reason. They see every moment as a potential storm of uncontrollable fury, and out of a desperate desire for peace, quiet, and an end to their hunger, they lash out at all who come near. Wise creatures avoid great cyclopes at all cost. Debate has long raged over the origins of these massive, destructive giants. They are so large that it had long been assumed they were used as beasts of burden by their lesser kin, but they are now free to hunt and kill without restraint. Other scholars believe the great cyclops is the ultimate fate of the entire cyclops species. Whatever foolish decision or wayward curse caused the end of their civilization is still playing out, occasionally causing a cyclops to withdraw from its own kind, lose all semblance of intellect, and mutate into a lumbering, feral colossus. It is fortunate indeed that the great cyclops prefers to dwell far from humanoid settlements, because its immeasurable bloodlust inspires it to destroy virtually anything that moves, from dinosaurs and other monsters to the occasional explorer or soon-to-be-lost caravan. Recall Knowledge - Humanoid (Society): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Great Cyclops Source Bestiary pg. 69 Perception +22; low-light vision Languages Common, Cyclops, Jotun Skills Athletics +25, any one Lore +18, Survival +22 Str +7 Dex +1 Con +6 Int -2 Wis +4 Cha -1 Items Hide Armor --- AC 32 Fort +25 Ref +19 Will +22 HP 235 Catch Rock Reaction Ferocity Reaction Flash of Brutality Free Action (divination, fortune, occult) Frequency once per day, and recharges when the great cyclops uses Ferocity; Trigger The great cyclops succeeds at an attack roll. Effect The attack becomes a critical success. --- Speed 40 feet Melee Single Action greatclub +25 (Backswing, reach 15 feet, Shove), Damage 3d10+13 bludgeoning Melee Single Action horn +25 (reach 15 feet), Damage 2d10+13 piercing Melee Single Action fist +25 (Agile, reach 15 feet), Damage 3d4+13 bludgeoning Ranged Single Action rock +23 (Brutal, range increment 120 feet), Damage 4d6+7 bludgeoning Powerful Charge Two Actions The great cyclops Strides twice and makes a horn Strike. If it moved at least 20 feet away from its starting position, the Strike’s damage is increased to 3d10+20. Throw Rock Single Action ",
+ "summary": "Gigantic loners, the great cyclopes are their lesser kin writ large. They're stronger and more violent, but their uncontrolled vision of possible …",
+ "summary_markdown": "Gigantic loners, the great cyclopes are their lesser kin writ large. They're stronger and more violent, but their uncontrolled vision of possible …",
+ "text": " Great Cyclops Gigantic loners, the great cyclopes are their lesser kin writ large. They're stronger and more violent, but their uncontrolled vision of possible futures has driven them beyond reason. They see every moment as a potential storm of uncontrollable fury and, out of a desperate desire for peace, quiet, and an end to their hunger, lash out at any who come near. Wise creatures avoid great cyclopes at all cost. It's fortunate for humanoids that great cyclopes prefer to dwell far from settlements. Debate has long raged over the origins of these massive, destructive giants. They are so large that it had long been assumed they were used as beasts of burden by their lesser kin, now free to hunt and kill without restraint. Other scholars believe the great cyclops is the ultimate fate of the entire cyclops species. Whatever foolish decision or wayward curse caused the end of their civilization is still playing out, occasionally causing a cyclops to withdraw from their own kind, lose all semblance of intellect, and mutate into a lumbering, feral colossus. Recall Knowledge - Humanoid (Society): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Great Cyclops Source Monster Core pg. 71 Perception +22; low-light vision Languages Common, Cyclops, Jotun Skills Athletics +25, any one Lore +18, Survival +22 Str +7 Dex +1 Con +6 Int -2 Wis +4 Cha -1 Items Greatclub, Hide Armor --- AC 32 Fort +25 Ref +19 Will +22 HP 235 Ferocity Reaction Flash of Brutality Free Action (fortune, occult) Frequency once per day, and recharges when the great cyclops uses Ferocity; Trigger The great cyclops succeeds at an attack roll; Effect The attack becomes a critical success. --- Speed 40 feet Melee Single Action greatclub +25 (Backswing, reach 15 feet, Shove), Damage 3d10+13 bludgeoning Melee Single Action horn +25 (reach 15 feet), Damage 2d10+13 piercing Melee Single Action fist +25 (Agile, reach 15 feet), Damage 3d4+13 bludgeoning Ranged Single Action rock +23 (Brutal, range increment 120 feet), Damage 4d6+7 bludgeoning Powerful Charge Two Actions The great cyclops Strides twice and makes a horn Strike. If they moved at least 20 feet away from their starting position, the Strike's damage is increased to 3d10+20. Throw Rock Single Action Cyclops Seers Great cyclopes are traditionally violent creatures, but some retain fragments of the old ways that lull them into periods of calm. During such times, they can be incredible sources of information, but one must take care to be well away from the great cyclops's lair before its bestial rage wakens once more. ",
+ "tradition_markdown": "",
  "trait": [
   "Giant",
   "Humanoid",
   "Mutant",
   "Uncommon",
-  "CE",
   "Huge"
  ],
- "trait_markdown": "[Giant](/Traits.aspx?ID=79), [Humanoid](/Traits.aspx?ID=91), [Mutant](/Traits.aspx?ID=229), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Giant](/Traits.aspx?ID=616), [Humanoid](/Traits.aspx?ID=628), [Mutant](/Traits.aspx?ID=763), [Uncommon](/Traits.aspx?ID=721)",
  "trait_raw": [
   "Giant",
   "Humanoid",
@@ -91,7 +159,7 @@
   "Uncommon"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=87",
+ "url": "/Monsters.aspx?ID=2890",
  "vision": "Low-light vision",
  "weakest_save": [
   "ref",
@@ -99,5 +167,9 @@
  ],
  "weakness": {},
  "will_save": 22,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

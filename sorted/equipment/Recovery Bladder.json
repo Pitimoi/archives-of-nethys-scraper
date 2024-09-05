@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L 8 if inflated",
  "category": "equipment",
@@ -9,23 +9,30 @@
  "id": "equipment-1264",
  "item_category": "Adventuring Gear",
  "level": 3,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Recovery Bladder](/Equipment.aspx?ID=1264)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 19</row>\n\n**Price** 10 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L 8 if inflated\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nTattletail developed this tether-covered bladder to help divers in Anuli's Crater Lake recover heavy salvage or escape dangerous underwater beasts. Pulling the ripcord causes a small, pressurized air tank to instantly inflate the bladder to the size of a rowboat, forcing up to 16 Bulk of attached items or creatures to jet to the surface of the water at a rate of 60 feet per round. Pulling the ripcord, or removing or affixing something to one of the many tethers on the recovery bladder, takes an Interact action. A recovery bladder can only be used once, as the quick inflation permanently stretches the bladder, and only a few tinkerers have the skills and equipment to refill a pressurized air tank.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Recovery Bladder](/Equipment.aspx?ID=1264)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 19\n\n**Price** 10 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L 8 if inflated\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nTattletail developed this tether-covered bladder to help divers in Anuli's Crater Lake recover heavy salvage or escape dangerous underwater beasts. Pulling the ripcord causes a small, pressurized air tank to instantly inflate the bladder to the size of a rowboat, forcing up to 16 Bulk of attached items or creatures to jet to the surface of the water at a rate of 60 feet per round. Pulling the ripcord, or removing or affixing something to one of the many tethers on the recovery bladder, takes an Interact action. A recovery bladder can only be used once, as the quick inflation permanently stretches the bladder, and only a few tinkerers have the skills and equipment to refill a pressurized air tank.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Recovery Bladder",
  "pfs": "Standard",
  "price": 1000,
  "price_raw": "10 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 19",
+ "primary_source_category": "Lost Omens",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 19</row>\r\n\r\n**Price** 10 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L 8 if inflated\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTattletail developed this tether-covered bladder to help divers in Anuli's Crater Lake recover heavy salvage or escape dangerous underwater beasts. …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 19\r\n\r\n**Price** 10 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L 8 if inflated\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTattletail developed this tether-covered bladder to help divers in Anuli's Crater Lake recover heavy salvage or escape dangerous underwater beasts. …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 19"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 19</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 19",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -35,6 +42,10 @@
  "trait": [
   "Consumable",
   "Rare"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

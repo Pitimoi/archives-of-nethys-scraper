@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -12,27 +12,40 @@
  "item_category": "Alchemical Items",
  "item_subcategory": "Alchemical Poisons",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Nightmare Salt](/Equipment.aspx?ID=2009)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 70 <sup>1.1</sup>, [Pathfinder #149: Against the Scarlet Triad](/Sources.aspx?ID=14) pg. 79</row>\n\n**Price** 14,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis potent poison consists of crystals whose flavor and appearance mimics edible salt but whose effects are deadly; victims experience periods of waking nightmares that overload the senses and eventually result in death through a combination of shock and exhaustion.\n\n**Saving Throw** DC 43 Fortitude; **Onset** 1 hour; **Maximum Duration** 5 days; **Stage 1** [frightened 2](/Conditions.aspx?ID=19) once every 1d4 hours, plus [fatigued](/Conditions.aspx?ID=15) (1 day); **Stage 2** [confused](/Conditions.aspx?ID=5) for 1 minute once every 1d4 hours, plus frightened 3 and fatigued (1 day); **Stage 3** frightened 3, plus confused for 1d4 minutes, once every hour, plus fatigued (1 day); **Stage 4** death\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Nightmare Salt](/Equipment.aspx?ID=2009)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 70 <sup>1.1</sup>, [Pathfinder #149: Against the Scarlet Triad](/Sources.aspx?ID=14) pg. 79\n\n**Price** 14,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis potent poison consists of crystals whose flavor and appearance mimics edible salt but whose effects are deadly; victims experience periods of waking nightmares that overload the senses and eventually result in death through a combination of shock and exhaustion.\n\n**Saving Throw** DC 43 Fortitude; **Onset** 1 hour; **Maximum Duration** 5 days; **Stage 1** [frightened 2](/Conditions.aspx?ID=19) once every 1d4 hours, plus [fatigued](/Conditions.aspx?ID=15) (1 day); **Stage 2** [confused](/Conditions.aspx?ID=5) for 1 minute once every 1d4 hours, plus frightened 3 and fatigued (1 day); **Stage 3** frightened 3, plus confused for 1d4 minutes, once every hour, plus fatigued (1 day); **Stage 4** death\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Nightmare Salt",
  "onset": 3600,
  "onset_raw": "1 hour",
  "pfs": "Standard",
  "price": 1400000,
  "price_raw": "14,000 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 70",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2023-02-22",
  "resistance": {},
  "saving_throw": "DC 43 Fortitude",
  "saving_throw_markdown": "DC 43 Fortitude",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Treasure Vault](/Sources.aspx?ID=191) pg. 70 <sup>1.1</sup>, [Pathfinder #149: Against the Scarlet Triad](/Sources.aspx?ID=14) pg. 79</row>\r\n\r\n**Price** 14,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis potent poison consists of crystals whose flavor and appearance mimics edible salt but whose effects are deadly; victims experience periods of …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 70 <sup>1.1</sup>, [Pathfinder #149: Against the Scarlet Triad](/Sources.aspx?ID=14) pg. 79\r\n\r\n**Price** 14,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis potent poison consists of crystals whose flavor and appearance mimics edible salt but whose effects are deadly; victims experience periods of …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Treasure Vault"
+  "Treasure Vault",
+  "Pathfinder #149: Against the Scarlet Triad"
  ],
  "source_raw": [
-  "Treasure Vault pg. 70"
+  "Treasure Vault pg. 70",
+  "Pathfinder #149: Against the Scarlet Triad pg. 79"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 70 <sup>1.1</sup>, [Pathfinder #149: Against the Scarlet Triad](/Sources.aspx?ID=14) pg. 79</row>",
+ "source_category": [
+  "Rulebooks",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Age of Ashes"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 70 <sup>1.1</sup>, [Pathfinder #149: Against the Scarlet Triad](/Sources.aspx?ID=14) pg. 79",
  "speed": {},
  "spell_markdown": "",
  "stage": [
@@ -51,6 +64,13 @@
   "Ingested",
   "Poison",
   "Rare"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon",
+  "Poison",
+  "Rarity"
  ],
  "trait_markdown": "[Alchemical](/Traits.aspx?ID=6), [Consumable](/Traits.aspx?ID=36), [Ingested](/Traits.aspx?ID=95), [Poison](/Traits.aspx?ID=126), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

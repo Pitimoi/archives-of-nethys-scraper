@@ -1,0 +1,147 @@
+{
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  10,
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Frill Block",
+  "Defensive Posture"
+ ],
+ "creature_family": "Dinosaur",
+ "creature_family_markdown": "[Dinosaur](/MonsterFamilies.aspx?ID=391)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 30,
+ "hp_raw": "30",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3261",
+ "image": [
+  "/Images/Monsters/Dinosaur_Protoceratops.webp"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 2,
+ "markdown": "<title level=\"1\" pfs=\"\">[Protoceratops](/Monsters.aspx?ID=3261)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThough it lacks the distinctive horns of its larger relative the [triceratops](/Monsters.aspx?ID=2921), the protoceratops is more than capable of holding its own in combat, using its tail to knock enemies to the ground and its sturdy frill to turn away blows.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dinosaur_Protoceratops.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Protoceratops](/Monsters.aspx?ID=3261)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 136\n\n**Perception** +9; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\n\n**Frill Block** <actions string=\"Reaction\" /> **Requirements** The protoceratops is in its Defensive Posture; **Trigger** An adjacent ally would take damage from a physical attack; **Effect** The protoceratops partially blocks the blow with its frill, reducing the damage by 5.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhead +10,\r\n**Damage** 1d8+4 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +10 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d6+4 bludgeoning plus [Knockdown](/MonsterAbilities.aspx?ID=46)\n\n**Defensive Posture** <actions string=\"Single Action\" />  The protoceratops tucks in its head and presents its sturdy frill, granting a +1 circumstance bonus to AC adjacent allies. The protoceratops remains in its Defensive Posture until the start of its next turn, but only grants the bonus while allies remain adjacent.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-391\" />",
+ "name": "Protoceratops",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 136",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 8,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 136\r\n\r\n**Creature Family** [Dinosaur](/MonsterFamilies.aspx?ID=391)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +11\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThough it lacks the distinctive horns of its larger relative the  triceratops , the protoceratops is more than capable of holding its own in combat, …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +8",
+ "skill_mod": {
+  "athletics": 8
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 136"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 136",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  7,
+  8
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Though it lacks the distinctive horns of its larger relative the  triceratops , the protoceratops is more than capable of holding its own in combat, …",
+ "summary_markdown": "Though it lacks the distinctive horns of its larger relative the  triceratops , the protoceratops is more than capable of holding its own in combat, …",
+ "text": " Protoceratops Though it lacks the distinctive horns of its larger relative the triceratops, the protoceratops is more than capable of holding its own in combat, using its tail to knock enemies to the ground and its sturdy frill to turn away blows. Recall Knowledge - Animal (Nature): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Protoceratops Source Howl of the Wild pg. 136 Perception +9; low-light vision, scent (imprecise) 30 feet Languages Skills Athletics +8 Str +4 Dex +2 Con +3 Int -4 Wis +2 Cha +1 --- AC 17 Fort +11 Ref +8 Will +6 HP 30 Frill Block Reaction Requirements The protoceratops is in its Defensive Posture; Trigger An adjacent ally would take damage from a physical attack; Effect The protoceratops partially blocks the blow with its frill, reducing the damage by 5. --- Speed 25 feet Melee Single Action head +10, Damage 1d8+4 bludgeoning Melee Single Action tail +10 (Agile), Damage 1d6+4 bludgeoning plus Knockdown Defensive Posture Single Action The protoceratops tucks in its head and presents its sturdy frill, granting a +1 circumstance bonus to AC adjacent allies. The protoceratops remains in its Defensive Posture until the start of its next turn, but only grants the bonus while allies remain adjacent. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Dinosaur",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Dinosaur](/Traits.aspx?ID=576)",
+ "trait_raw": [
+  "Animal",
+  "Dinosaur"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3261",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 6,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

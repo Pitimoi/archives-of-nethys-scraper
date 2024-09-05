@@ -1,9 +1,9 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Scrollmaster"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,25 +12,32 @@
  "feat_markdown": "Ward Mind",
  "id": "feat-2240",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ward Mind](/Feats.aspx?ID=2240) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 45</row>\n\n**Archetype** [Scrollmaster](/Archetypes.aspx?ID=31)\n\n**Prerequisites**\r\n[Scrollmaster Dedication](/Feats.aspx?ID=1130)\n\n**Trigger**\r\nYour turn ends.\r\n\r\n**Requirements**\r\nYou're currently affected by a [mental](/Traits.aspx?ID=106) effect that you gained by failing, but not critically failing, a saving throw.\r\n\r\n</column>\r\n\r\n---\r\n\r\nTo protect the knowledge within your mind from intrusion or erasure, you ward yourself against a mental attack, temporarily delaying its effects. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Ward Mind or [Cognitive Loophole](/Feats.aspx?ID=593) only once, even if you have both feats.\n\n**Special** You can use this reaction even if the mental effect prevents you from using reactions.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ward Mind](/Feats.aspx?ID=2240) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 45\n\n**Archetype** [Scrollmaster](/Archetypes.aspx?ID=31)\n\n**Prerequisites**\r\n[Scrollmaster Dedication](/Feats.aspx?ID=1130)\n\n**Trigger**\r\nYour turn ends.\r\n\r\n**Requirements**\r\nYou're currently affected by a [mental](/Traits.aspx?ID=106) effect that you gained by failing, but not critically failing, a saving throw.\r\n\r\n</column>\r\n\r\n---\r\n\r\nTo protect the knowledge within your mind from intrusion or erasure, you ward yourself against a mental attack, temporarily delaying its effects. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Ward Mind or [Cognitive Loophole](/Feats.aspx?ID=593) only once, even if you have both feats.\n\n**Special** You can use this reaction even if the mental effect prevents you from using reactions.",
  "name": "Ward Mind",
  "pfs": "Standard",
  "prerequisite": "Scrollmaster Dedication",
  "prerequisite_markdown": "[Scrollmaster Dedication](/Feats.aspx?ID=1130)",
+ "primary_source": "PFS Guide",
+ "primary_source_raw": "PFS Guide pg. 45",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-10-14",
  "requirement": "You're currently affected by a  mental  effect that you gained by failing, but not critically failing, a saving throw.",
  "requirement_markdown": "You're currently affected by a [mental](/Traits.aspx?ID=106) effect that you gained by failing, but not critically failing, a saving throw.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 45</row>\n\n**Prerequisites**\r\n[Scrollmaster Dedication](/Feats.aspx?ID=1130)\n\n**Trigger**\r\nYour turn ends.\r\n\r\n**Requirements**\r\nYou're currently affected by a [mental](/Traits.aspx?ID=106) effect that you gained by failing, but not critically failing, a saving throw.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTo protect the knowledge within your mind from intrusion or erasure, you ward yourself against a mental attack.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 45\n\n**Prerequisites**\r\n[Scrollmaster Dedication](/Feats.aspx?ID=1130)\n\n**Trigger**\r\nYour turn ends.\r\n\r\n**Requirements**\r\nYou're currently affected by a [mental](/Traits.aspx?ID=106) effect that you gained by failing, but not critically failing, a saving throw.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTo protect the knowledge within your mind from intrusion or erasure, you ward yourself against a mental attack.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "PFS Guide"
  ],
  "source_raw": [
   "PFS Guide pg. 45"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[PFS Guide](/Sources.aspx?ID=50) pg. 45</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[PFS Guide](/Sources.aspx?ID=50) pg. 45",
  "speed": {},
  "summary": "To protect the knowledge within your mind from intrusion or erasure, you ward yourself against a mental attack.",
  "summary_markdown": "To protect the knowledge within your mind from intrusion or erasure, you ward yourself against a mental attack.",

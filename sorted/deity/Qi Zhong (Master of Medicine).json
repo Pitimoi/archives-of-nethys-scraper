@@ -1,20 +1,17 @@
 {
- "ability": [
+ "attribute": [
   "Intelligence",
   "Wisdom"
  ],
- "alignment": "NG",
- "breadcrumbs_spa": [],
+ "anathema": "deal lethal damage to another living creature (unless as part of a necessary medical treatment)",
  "category": "deity",
  "cleric_spell": [
   "Soothe",
-  "False Life",
-  "Resilient Sphere"
+  "False Vitality"
  ],
  "deity": [
   "Qi Zhong"
  ],
- "deity_markdown": "[Qi Zhong](/Deities.aspx?ID=182)",
  "deity_category": "Tian Gods",
  "deity_category_markdown": "[Tian Gods](/DeityCategories.aspx?ID=16)",
  "deity_category_order": "2Tian Gods",
@@ -23,62 +20,80 @@
  ],
  "divine_font_markdown": "[Heal](/Spells.aspx?ID=148)",
  "domain": [
+  "Air",
+  "Earth",
+  "Fire",
   "Healing",
   "Knowledge",
   "Magic",
-  "Protection"
+  "Nature",
+  "Protection",
+  "Water"
  ],
- "domain_markdown": "[Healing](/Domains.aspx?ID=15), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Protection](/Domains.aspx?ID=27)",
- "domain_alternate_markdown": "",
+ "domain_markdown": "[Air](/Domains.aspx?ID=65), [Earth](/Domains.aspx?ID=73), [Fire](/Domains.aspx?ID=76), [Healing](/Domains.aspx?ID=78), [Knowledge](/Domains.aspx?ID=80), [Magic](/Domains.aspx?ID=82), [Nature](/Domains.aspx?ID=85), [Protection](/Domains.aspx?ID=90), [Water](/Domains.aspx?ID=98)",
+ "domain_alternate": [
+  "Air",
+  "Earth",
+  "Fire",
+  "Nature",
+  "Water"
+ ],
+ "domain_alternate_markdown": "[Air](/Domains.aspx?ID=65), [Earth](/Domains.aspx?ID=73), [Fire](/Domains.aspx?ID=76), [Nature](/Domains.aspx?ID=85), [Water](/Domains.aspx?ID=98)",
  "domain_primary": [
   "Healing",
   "Knowledge",
   "Magic",
   "Protection"
  ],
- "domain_primary_markdown": "[Healing](/Domains.aspx?ID=15), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Protection](/Domains.aspx?ID=27)",
+ "domain_primary_markdown": "[Healing](/Domains.aspx?ID=78), [Knowledge](/Domains.aspx?ID=80), [Magic](/Domains.aspx?ID=82), [Protection](/Domains.aspx?ID=90)",
+ "edict": " teach knowledge to others, relieve suffering despite personal difficulty, heal sickness and injury",
  "exclude_from_search": false,
  "favored_weapon": [
-  "heavy mace"
+  "Mace"
  ],
- "favored_weapon_markdown": "[heavy mace](/Weapons.aspx?ID=7)",
- "follower_alignment": [
-  "LG",
-  "NG",
-  "N",
-  "CG"
- ],
- "id": "deity-182",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Qi Zhong (Master of Medicine)](/Deities.aspx?ID=182)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"NG\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Tian Gods](/DeityCategories.aspx?ID=16)\r\n\r\n**Edicts** Teach knowledge to others, relieve suffering despite personal difficulty, heal sickness and injuries\r\n\r\n**Anathema** Deal lethal damage to another living creature (unless as part of a necessary medical treatment).\n\n**Follower Alignments**\r\nLG, NG, N, CG\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Wisdom\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Medicine](/Skills.aspx?ID=9)\r\n\r\n**Favored Weapon** [heavy mace](/Weapons.aspx?ID=7)\r\n\r\n**Domains** [Healing](/Domains.aspx?ID=15), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Protection](/Domains.aspx?ID=27)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Soothe](/Spells.aspx?ID=291)\n\n- **2nd**\r\n[False Life](/Spells.aspx?ID=108)\n\n- **4th**\r\n[Resilient Sphere](/Spells.aspx?ID=255)\n\n</column>",
+ "favored_weapon_markdown": "[Mace](/Weapons.aspx?ID=362)",
+ "id": "deity-314",
+ "legacy_id": "deity-182",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Qi Zhong (Master of Medicine)](/Deities.aspx?ID=314)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n\r\n</traits>\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 39\n\nLong ago, in a distant past not found in any current history books, a traveling medic walked the winding paths between settlements with their apprentice, treating the ailments, aches, and pains of those they came across. Despite being implored to stay, the pair would never impose themselves for longer than a night. They were always gone before the first light of the next morning, even if numerous armed guards stood in their way. While scholars can debate whether this folklore had a particular moral to instill, the story accentuates the hope medicine can bring to those in need of it, and thus its importance in society and civilization. Unbeknownst to mortals, the apprentice in said story is the very same individual they worship as the Master of Medicine today. Qi Zhong documented his life and choices in his memoir, The Eight Hundred Years of Qi Zhong. What parts of the book that survived today serve as the god's sacred text, advising his worshippers on healing techniques and living philosophies.\n\n Qi Zhong's teachings focus on understanding one's place among the flow of the elements. He espouses resolution, absolution, patience, and taking life slowly but not lazily. A pacifist by nature, his writings also contain insights into psychology, governing, and rulership. Thus, many academics and rulers also worship the god, along with elemental casters, healers, and medicine growers and makers.\n\n Regular folk also seek out the god's crane-filled temples when they have difficulty curing their ailments. It is believed that if one were to offer five-colored grains to these birds, Qi Zhong will send one of his priests on a pilgrimage to the petitioner with the exact cure they needed. In northern Tian Xia, such as the regions of Chu Ye, Kwanlai, and Wanshou, some settlements keep the custom of making a major offering to Qi Zhong every 12 years of one's life, as well as celebrating the Festival of Longevity, where communities will host a feast to honor those who are older than 96.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Tian Gods](/DeityCategories.aspx?ID=16)\r\n\r\n**Edicts**  teach knowledge to others, relieve suffering despite personal difficulty, heal sickness and injury\r\n\r\n**Anathema** deal lethal damage to another living creature (unless as part of a necessary medical treatment)\r\n\r\n**Area of Concern**\r\ncycles, elements, health, medicine\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Wisdom\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose holy\r\n\r\n**Divine Skill** [Medicine](/Skills.aspx?ID=42)\r\n\r\n**Favored Weapon** [Mace](/Weapons.aspx?ID=362)\r\n\r\n**Domains** [Healing](/Domains.aspx?ID=78), [Knowledge](/Domains.aspx?ID=80), [Magic](/Domains.aspx?ID=82), [Protection](/Domains.aspx?ID=90)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** [Air](/Domains.aspx?ID=65), [Earth](/Domains.aspx?ID=73), [Fire](/Domains.aspx?ID=76), [Nature](/Domains.aspx?ID=85), [Water](/Domains.aspx?ID=98)\r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Soothe](/Spells.aspx?ID=1678)\n\n- **2nd**\r\n[False Vitality](/Spells.aspx?ID=1523)\n\n</column>",
  "name": "Qi Zhong (Master of Medicine)",
  "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 39",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
- "release_date": "2020-01-29",
+ "rarity_id": 1,
+ "release_date": "2024-04-24",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Medicine](/Skills.aspx?ID=9)\r\n\r\n**Favored Weapon** [heavy mace](/Weapons.aspx?ID=7)\r\n\r\n**Domains** [Healing](/Domains.aspx?ID=15), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19), [Protection](/Domains.aspx?ID=27)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "holy"
+ ],
+ "sanctification_raw": "can choose holy",
+ "search_markdown": "<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 39\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Medicine](/Skills.aspx?ID=42)\r\n\r\n**Favored Weapon** [Mace](/Weapons.aspx?ID=362)\r\n\r\n**Domains** [Air](/Domains.aspx?ID=65), [Earth](/Domains.aspx?ID=73), [Fire](/Domains.aspx?ID=76), [Healing](/Domains.aspx?ID=78), [Knowledge](/Domains.aspx?ID=80), [Magic](/Domains.aspx?ID=82), [Nature](/Domains.aspx?ID=85), [Protection](/Domains.aspx?ID=90), [Water](/Domains.aspx?ID=98)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLong ago, in a distant past not found in any current history books, a traveling medic walked the winding paths between settlements with their …\r\n</summary>",
  "skill": [
   "Medicine"
  ],
- "skill_markdown": "[Medicine](/Skills.aspx?ID=9)",
+ "skill_markdown": "[Medicine](/Skills.aspx?ID=42)",
+ "skill_mod": {},
  "source": [
-  "Gods & Magic"
+  "Tian Xia World Guide"
  ],
  "source_raw": [
-  "Gods & Magic pg. 132"
+  "Tian Xia World Guide pg. 39"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 39",
  "speed": {},
- "summary": " Nethys Note: no description has been provided of this deity ",
- "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Qi Zhong (Master of Medicine) Source Gods &amp; Magic pg. 132 2.0 Nethys Note: no description has been provided of this deity Category Tian Gods Edicts Teach knowledge to others, relieve suffering despite personal difficulty, heal sickness and injuries Anathema Deal lethal damage to another living creature (unless as part of a necessary medical treatment). Follower Alignments LG, NG, N, CG Devotee Benefits Divine Ability Intelligence or Wisdom Divine Font Heal Divine Skill Medicine Favored Weapon heavy mace Domains Healing, Knowledge, Magic, Protection Alternate Domains Cleric Spells - 1st Soothe - 2nd False Life - 4th Resilient Sphere\n",
- "trait": [
-  "NG"
+ "spell": [
+  "Soothe",
+  "False Vitality"
  ],
- "trait_raw": [
-  "NG"
- ],
+ "spell_markdown": "[False Vitality](/Spells.aspx?ID=1523), [Soothe](/Spells.aspx?ID=1678)",
+ "summary": "Long ago, in a distant past not found in any current history books, a traveling medic walked the winding paths between settlements with their …",
+ "summary_markdown": "Long ago, in a distant past not found in any current history books, a traveling medic walked the winding paths between settlements with their …",
+ "text": " Qi Zhong (Master of Medicine) Source Tian Xia World Guide pg. 39 Long ago, in a distant past not found in any current history books, a traveling medic walked the winding paths between settlements with their apprentice, treating the ailments, aches, and pains of those they came across. Despite being implored to stay, the pair would never impose themselves for longer than a night. They were always gone before the first light of the next morning, even if numerous armed guards stood in their way. While scholars can debate whether this folklore had a particular moral to instill, the story accentuates the hope medicine can bring to those in need of it, and thus its importance in society and civilization. Unbeknownst to mortals, the apprentice in said story is the very same individual they worship as the Master of Medicine today. Qi Zhong documented his life and choices in his memoir, The Eight Hundred Years of Qi Zhong. What parts of the book that survived today serve as the god's sacred text, advising his worshippers on healing techniques and living philosophies. Qi Zhong's teachings focus on understanding one's place among the flow of the elements. He espouses resolution, absolution, patience, and taking life slowly but not lazily. A pacifist by nature, his writings also contain insights into psychology, governing, and rulership. Thus, many academics and rulers also worship the god, along with elemental casters, healers, and medicine growers and makers. Regular folk also seek out the god's crane-filled temples when they have difficulty curing their ailments. It is believed that if one were to offer five-colored grains to these birds, Qi Zhong will send one of his priests on a pilgrimage to the petitioner with the exact cure they needed. In northern Tian Xia, such as the regions of Chu Ye, Kwanlai, and Wanshou, some settlements keep the custom of making a major offering to Qi Zhong every 12 years of one's life, as well as celebrating the Festival of Longevity, where communities will host a feast to honor those who are older than 96. Category Tian Gods Edicts teach knowledge to others, relieve suffering despite personal difficulty, heal sickness and injury Anathema deal lethal damage to another living creature (unless as part of a necessary medical treatment) Area of Concern cycles, elements, health, medicine Devotee Benefits Divine Attribute Intelligence or Wisdom Divine Font Heal Divine Sanctification can choose holy Divine Skill Medicine Favored Weapon Mace Domains Healing, Knowledge, Magic, Protection Alternate Domains Air, Earth, Fire, Nature, Water Cleric Spells - 1st Soothe - 2nd False Vitality\n",
  "type": "Deity",
- "url": "/Deities.aspx?ID=182",
+ "url": "/Deities.aspx?ID=314",
  "weakness": {}
 }

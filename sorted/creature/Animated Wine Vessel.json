@@ -1,0 +1,166 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  11
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Construct Armor",
+  "Spit Wine",
+  "Swallow Whole",
+  "Wine-Soaked"
+ ],
+ "creature_family": "Animated Handcraft",
+ "creature_family_markdown": "[Animated Handcraft](/MonsterFamilies.aspx?ID=354)",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hardness": 4,
+ "hardness_raw": "4",
+ "hp": 45,
+ "hp_raw": "45",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2764",
+ "immunity": [
+  "bleed",
+  "death effects",
+  "disease",
+  "doomed",
+  "drained",
+  "fatigued",
+  "healing",
+  "mental",
+  "nonlethal attacks",
+  "paralyzed",
+  "poison",
+  "sickened",
+  "spirit",
+  "unconscious",
+  "vitality",
+  "void"
+ ],
+ "immunity_markdown": "bleed, death effects, disease, doomed, drained, fatigued, healing, mental, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, void",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Animated Wine Vessel](/Monsters.aspx?ID=2764)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA beautiful wine vessel presents a mark of status among drinkers, to say nothing of an animated one that pours the wine on its own. Although normally harmless servants, these vessels will just as quickly follow instructions to swallow intruders and drown them in strong wine.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Animated Wine Vessel](/Monsters.aspx?ID=2764)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 279\n\n**Perception** +9; darkvision\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +0\r\n\r\n**Con** +4\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 (17 when broken); construct armor\r\n\r\n**Fort** +11 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n**Hardness**\r\n4\r\n</row>\r\n\r\n**Immunities**\r\nbleed, death effects, disease, doomed, drained, fatigued, healing, mental, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, void\n\n**Construct Armor** Like normal objects, an animated wine vessel has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an animated kite is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 17.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +11 ([Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+4 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**Spit Wine** <actions string=\"Two Actions\" /> ([Water](/Traits.aspx?ID=165)) The wine vessel opens its mouth and blows a stream of wine in a 15-foot line, dealing 2d8 bludgeoning damage (DC 19 basic Reflex save).\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=35)** <actions string=\"Single Action\" />  k) Medium, 2d8+4 bludgeoning plus wine-soaked, Rupture 10\r\n\r\n**Wine-Soaked**   When a creature ends its turn Swallowed Whole by the animated wine vessel, it must succeed at a DC 19 Fortitude save or become [sickened](/Conditions.aspx?ID=91) 1.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-354\" />",
+ "name": "Animated Wine Vessel",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 279",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 7,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 279\r\n\r\n**Creature Family** [Animated Handcraft](/MonsterFamilies.aspx?ID=354)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +11\r\n\r\n**Ref** +7\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA beautiful wine vessel presents a mark of status among drinkers, to say nothing of an animated one that pours the wine on its own. Although normally …\r\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "darkvision",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +17",
+ "skill_mod": {
+  "athletics": 17
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 279"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 279",
+ "speed": {
+  "land": 15,
+  "max": 15
+ },
+ "speed_markdown": "15 feet",
+ "speed_raw": "15 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  13
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
+ "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "A beautiful wine vessel presents a mark of status among drinkers, to say nothing of an animated one that pours the wine on its own. Although normally …",
+ "summary_markdown": "A beautiful wine vessel presents a mark of status among drinkers, to say nothing of an animated one that pours the wine on its own. Although normally …",
+ "text": " Animated Wine Vessel A beautiful wine vessel presents a mark of status among drinkers, to say nothing of an animated one that pours the wine on its own. Although normally harmless servants, these vessels will just as quickly follow instructions to swallow intruders and drown them in strong wine. Recall Knowledge - Construct (Arcana, Crafting): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Animated Wine Vessel Source Tian Xia World Guide pg. 279 Perception +9; darkvision Languages Skills Athletics +17 Str +4 Dex +0 Con +4 Int -5 Wis +0 Cha -5 --- AC 19 (17 when broken); construct armor Fort +11 Ref +7 Will +7 HP 45 Hardness 4 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, mental, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, void Construct Armor Like normal objects, an animated wine vessel has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an animated kite is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 17. --- Speed 15 feet Melee Single Action jaws +11 (Magical), Damage 2d8+4 bludgeoning plus Grab Spit Wine Two Actions (Water) The wine vessel opens its mouth and blows a stream of wine in a 15-foot line, dealing 2d8 bludgeoning damage (DC 19 basic Reflex save). Swallow Whole Single Action k) Medium, 2d8+4 bludgeoning plus wine-soaked, Rupture 10 Wine-Soaked When a creature ends its turn Swallowed Whole by the animated wine vessel, it must succeed at a DC 19 Fortitude save or become sickened 1. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Construct",
+  "Mindless",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Construct](/Traits.aspx?ID=35), [Mindless](/Traits.aspx?ID=108)",
+ "trait_raw": [
+  "Construct",
+  "Mindless"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2764",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 7,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

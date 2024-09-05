@@ -3,7 +3,6 @@
   "Fortress Plate"
  ],
  "base_item_markdown": "[Fortress Plate](/Armor.aspx?ID=21)",
- "breadcrumbs_spa": [],
  "bulk": 5,
  "bulk_raw": "5",
  "category": "equipment",
@@ -12,34 +11,45 @@
  "item_category": "Armor",
  "item_subcategory": "Specific Magic Armor",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Black Hole Armor](/Equipment.aspx?ID=1842)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 14 <sup>1.1</sup></row>\n\n**Price** 8,500 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 5\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Fortress Plate](/Armor.aspx?ID=21)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe joints of this black _+2 [greater resilient](/Equipment.aspx?ID=279) [fortification](/Equipment.aspx?ID=285) [fortress plate](/Armor.aspx?ID=21)_ look like swirling vortices of silver. Non-magical ammunition and thrown weapons aimed at you are destroyed after they hit you and deal damage or miss you. You also have resistance 10 to physical damage from ranged attacks.\n\n When an enemy's ranged attack misses you or hits you and deals no damage, the armor absorbs the projectile. When it has absorbed six projectiles, the armor glows at the joints.\n\n<document level=\"2\" id=\"action-1535\" />\n\n<document level=\"2\" id=\"action-1536\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Black Hole Armor](/Equipment.aspx?ID=1842)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 14 <sup>1.1</sup>\n\n**Price** 8,500 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 5\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Fortress Plate](/Armor.aspx?ID=21)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe joints of this black _+2 [greater resilient](/Equipment.aspx?ID=279) [fortification](/Equipment.aspx?ID=285) [fortress plate](/Armor.aspx?ID=21)_ look like swirling vortices of silver. Non-magical ammunition and thrown weapons aimed at you are destroyed after they hit you and deal damage or miss you. You also have resistance 10 to physical damage from ranged attacks.\n\n When an enemy's ranged attack misses you or hits you and deals no damage, the armor absorbs the projectile. When it has absorbed six projectiles, the armor glows at the joints.\n\n**Activate** <actions string=\"Reaction\" /> Interact;  **Frequency** once per minute; **Trigger** A ranged weapon Strike targets a creature within 20 feet of you and the attacker hasn't yet rolled its attack;  **Effect** The triggering Strike targets you instead of its intended target.\n\n**Activate** <actions string=\"Single Action\" /> Interact;    **Requirements** The _black hole armor_ has absorbed six or more projectiles; **Effect** All the projectiles absorbed by the armor appear out of thin air, as though transported there, falling in a 10-foot burst within 120 feet of you. Each creature in the burst takes 10d8 piercing damage with a DC 35 Reflex save. The absorbed projectiles are all expended, and the armor's joints stop glowing.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Black Hole Armor",
  "pfs": "Standard",
  "price": 850000,
  "price_raw": "8,500 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 14",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 14 <sup>1.1</sup></row>\r\n\r\n**Price** 8,500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 5\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe joints of this black  +2  greater resilient   fortification   fortress plate   look like swirling vortices of silver. Non-magical ammunition and …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 14 <sup>1.1</sup>\r\n\r\n**Price** 8,500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 5\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Fortress Plate](/Armor.aspx?ID=21)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe joints of this black  +2  greater resilient   fortification   fortress plate   look like swirling vortices of silver. Non-magical ammunition and …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 14"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 14 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 14 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "The joints of this black  +2  greater resilient   fortification   fortress plate   look like swirling vortices of silver. Non-magical ammunition and …",
  "summary_markdown": "The joints of this black  +2  greater resilient   fortification   fortress plate   look like swirling vortices of silver. Non-magical ammunition and …",
- "text": "<title level=\"1\" right=\"Item 16\" pfs=\"Standard\" > Black Hole Armor Source Treasure Vault pg. 14 1.1 Price 8,500 gp Usage worn armor Bulk 5 Base Armor Fortress Plate --- The joints of this black +2 greater resilient fortification fortress plate look like swirling vortices of silver. Non-magical ammunition and thrown weapons aimed at you are destroyed after they hit you and deal damage or miss you. You also have resistance 10 to physical damage from ranged attacks. When an enemy's ranged attack misses you or hits you and deals no damage, the armor absorbs the projectile. When it has absorbed six projectiles, the armor glows at the joints.\n",
+ "text": "<title level=\"1\" right=\"Item 16\" pfs=\"Standard\" > Black Hole Armor Source Treasure Vault pg. 14 1.1 Price 8,500 gp Usage worn armor Bulk 5 Base Armor Fortress Plate --- The joints of this black +2 greater resilient fortification fortress plate look like swirling vortices of silver. Non-magical ammunition and thrown weapons aimed at you are destroyed after they hit you and deal damage or miss you. You also have resistance 10 to physical damage from ranged attacks. When an enemy's ranged attack misses you or hits you and deals no damage, the armor absorbs the projectile. When it has absorbed six projectiles, the armor glows at the joints. Activate Reaction Interact; Frequency once per minute; Trigger A ranged weapon Strike targets a creature within 20 feet of you and the attacker hasn't yet rolled its attack; Effect The triggering Strike targets you instead of its intended target. Activate Single Action Interact; Requirements The black hole armor has absorbed six or more projectiles; Effect All the projectiles absorbed by the armor appear out of thin air, as though transported there, falling in a 10-foot burst within 120 feet of you. Each creature in the burst takes 10d8 piercing damage with a DC 35 Reflex save. The absorbed projectiles are all expended, and the armor's joints stop glowing.\n",
  "trait": [
   "Abjuration",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

@@ -3,7 +3,6 @@
   "Hide Armor"
  ],
  "base_item_markdown": "[Hide Armor](/Armor.aspx?ID=7)",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -12,34 +11,46 @@
  "item_category": "Armor",
  "item_subcategory": "Specific Magic Armor",
  "level": 7,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wolfjaw Armor](/Equipment.aspx?ID=1856)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 19 <sup>1.1</sup></row>\n\n**Price** 355 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Hide Armor](/Armor.aspx?ID=7)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\n[Barbarians](/Classes.aspx?ID=2), [druids](/Classes.aspx?ID=6) and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest predators to stalk the forests and taiga of the northern reaches, the fearsome winter wolf. This _+1 [hide armor](/Armor.aspx?ID=7)_ is assembled from the hide and fur of a trio of [winter wolves](/Monsters.aspx?ID=403), and it conveys on the wearer both an attack akin to the winter wolves' deadly jaws and the ability to channel the frigid cold of the winter wolf's Breath Weapon.\n\n<document level=\"2\" id=\"action-1553\" />\n\n<document level=\"2\" id=\"action-1554\" />\n\n**Craft Requirements** The initial raw materials must include the hides of at least three winter wolves\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wolfjaw Armor](/Equipment.aspx?ID=1856)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 19 <sup>1.1</sup>\n\n**Price** 355 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Hide Armor](/Armor.aspx?ID=7)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\n[Barbarians](/Classes.aspx?ID=2), [druids](/Classes.aspx?ID=6) and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest predators to stalk the forests and taiga of the northern reaches, the fearsome winter wolf. This _+1 [hide armor](/Armor.aspx?ID=7)_ is assembled from the hide and fur of a trio of [winter wolves](/Monsters.aspx?ID=403), and it conveys on the wearer both an attack akin to the winter wolves' deadly jaws and the ability to channel the frigid cold of the winter wolf's Breath Weapon.\n\n**Activate** <actions string=\"Two Actions\" /> Interact (cold);  **Frequency** once per day;   **Effect** You breathe a cloud of frost in a 15-foot cone that deals 5d8 cold damage (DC 23 [basic](/Rules.aspx?ID=329) Reflex save).\n\n**Activate** <actions string=\"Single Action\" /> Interact;  **Frequency** once per hour;   **Effect** You gain a jaws unarmed attack that you make using your hands. This attack deals 1d8 piercing damage plus 1 cold damage, is in the [brawling](/WeaponGroups.aspx?ID=4) group, and has the [trip](/Traits.aspx?ID=196) and [unarmed](/Traits.aspx?ID=199) traits.\n\n**Craft Requirements** The initial raw materials must include the hides of at least three winter wolves\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Wolfjaw Armor",
  "pfs": "Standard",
  "price": 35500,
  "price_raw": "355 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 19",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 19 <sup>1.1</sup></row>\r\n\r\n**Price** 355 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Barbarians ,  druids  and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 19 <sup>1.1</sup>\r\n\r\n**Price** 355 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Hide Armor](/Armor.aspx?ID=7)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Barbarians ,  druids  and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 19"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 19 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 19 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": " Barbarians ,  druids  and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest …",
  "summary_markdown": " Barbarians ,  druids  and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest …",
- "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Standard\" > Wolfjaw Armor Source Treasure Vault pg. 19 1.1 Price 355 gp Usage worn armor Bulk 2 Base Armor Hide Armor --- Barbarians, druids and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest predators to stalk the forests and taiga of the northern reaches, the fearsome winter wolf. This +1 hide armor is assembled from the hide and fur of a trio of winter wolves, and it conveys on the wearer both an attack akin to the winter wolves' deadly jaws and the ability to channel the frigid cold of the winter wolf's Breath Weapon. Craft Requirements The initial raw materials must include the hides of at least three winter wolves\n",
+ "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Standard\" > Wolfjaw Armor Source Treasure Vault pg. 19 1.1 Price 355 gp Usage worn armor Bulk 2 Base Armor Hide Armor --- Barbarians, druids and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest predators to stalk the forests and taiga of the northern reaches, the fearsome winter wolf. This +1 hide armor is assembled from the hide and fur of a trio of winter wolves, and it conveys on the wearer both an attack akin to the winter wolves' deadly jaws and the ability to channel the frigid cold of the winter wolf's Breath Weapon. Activate Two Actions Interact (cold); Frequency once per day; Effect You breathe a cloud of frost in a 15-foot cone that deals 5d8 cold damage (DC 23 basic Reflex save). Activate Single Action Interact; Frequency once per hour; Effect You gain a jaws unarmed attack that you make using your hands. This attack deals 1d8 piercing damage plus 1 cold damage, is in the brawling group, and has the trip and unarmed traits. Craft Requirements The initial raw materials must include the hides of at least three winter wolves\n",
  "trait": [
   "Evocation",
   "Invested",
   "Primal"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Tradition"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Invested](/Traits.aspx?ID=98), [Primal](/Traits.aspx?ID=134)",
  "trait_raw": [

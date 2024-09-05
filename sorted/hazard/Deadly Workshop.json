@@ -1,0 +1,75 @@
+{
+ "ac": 21,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "Thievery  DC 20 (expert) on the control panel on the raised platform deactivates the trap.",
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "hardness": 14,
+ "hardness_raw": "14",
+ "hazard_type": "Trap",
+ "hp": 50,
+ "hp_raw": "50 (BT 25) to destroy the chains and disable the trap",
+ "id": "hazard-385",
+ "immunity": [
+  "critical hits",
+  "object immunities",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, object immunities, precision damage",
+ "level": 5,
+ "markdown": "<title level=\"1\" right=\"Hazard 5\" pfs=\"\">[Deadly Workshop](/Hazards.aspx?ID=385)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [The Enmity Cycle](/Sources.aspx?ID=200) pg. 26\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nSwinging bladed chains whip through the entire workshop.\r\n\r\n---\r\n\r\n**Stealth**\r\n+16 (expert) to notice the blades embedded in the chains and the complex system of pulleys connecting them\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 20 (expert) on the control panel on the raised platform deactivates the trap.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 21, **Fort** +12, **Ref** +14\r\n\r\n**Hardness**\r\n14\r\n\r\n**HP**\r\n50 (BT 25) to destroy the chains and disable the trap\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Swinging Blades** <actions string=\"Reaction\" /> ([attack](/Traits.aspx?ID=15)); **Trigger** Two or more creatures enter the workshop or end their turn in the workshop; **Effect** The trap makes a slashing blade Strike against the triggering creatures, then rolls initiative.\n\n---\r\n**Routine**\r\n(1 action) The trap swings one slashing blade against every creature in the workshop as 1 action. The entire workshop is treated as difficult terrain because of the sheer number of slashing chains. This trap doesn't take a multiple attack penalty.<br /> **Melee** slashing blade +15, **Damage** 2d8+7 slashing\r\n\r\n---\r\n**Reset**\r\nThe trap deactivates and resets after 1 minute.",
+ "name": "Deadly Workshop",
+ "primary_source": "The Enmity Cycle",
+ "primary_source_raw": "The Enmity Cycle pg. 26",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "The Enmity Cycle",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 14,
+ "release_date": "2023-05-24",
+ "reset": "The trap deactivates and resets after 1 minute.",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [The Enmity Cycle](/Sources.aspx?ID=200) pg. 26\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSwinging bladed chains whip through the entire workshop.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "The Enmity Cycle"
+ ],
+ "source_raw": [
+  "The Enmity Cycle pg. 26"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "The Enmity Cycle"
+ ],
+ "source_markdown": "[The Enmity Cycle](/Sources.aspx?ID=200) pg. 26",
+ "speed": {},
+ "spoilers": "The Enmity Cycle",
+ "stealth": "+16 (expert) to notice the blades embedded in the chains and the complex system of pulleys connecting them",
+ "summary": "Swinging bladed chains whip through the entire workshop.",
+ "summary_markdown": "Swinging bladed chains whip through the entire workshop.",
+ "text": " Deadly Workshop Source The Enmity Cycle pg. 26 Complexity Complex Swinging bladed chains whip through the entire workshop. --- Stealth +16 (expert) to notice the blades embedded in the chains and the complex system of pulleys connecting them Disable Thievery DC 20 (expert) on the control panel on the raised platform deactivates the trap. AC 21, Fort +12, Ref +14 Hardness 14 HP 50 (BT 25) to destroy the chains and disable the trap Immunities critical hits, object immunities, precision damage Swinging Blades Reaction (attack); Trigger Two or more creatures enter the workshop or end their turn in the workshop; Effect The trap makes a slashing blade Strike against the triggering creatures, then rolls initiative. --- Routine (1 action) The trap swings one slashing blade against every creature in the workshop as 1 action. The entire workshop is treated as difficult terrain because of the sheer number of slashing chains. This trap doesn't take a multiple attack penalty. Melee slashing blade +15, Damage 2d8+7 slashing --- Reset The trap deactivates and resets after 1 minute.",
+ "trait": [
+  "Complex",
+  "Mechanical",
+  "Trap",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Equipment",
+  "Rarity"
+ ],
+ "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Complex",
+  "Mechanical",
+  "Trap",
+  "Uncommon"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=385",
+ "weakness": {}
+}

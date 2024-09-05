@@ -1,13 +1,12 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain": [
   "Cold"
  ],
@@ -15,6 +14,18 @@
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -30,46 +41,58 @@
  ],
  "id": "spell-596",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Winter Bolt](/Spells.aspx?ID=596)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 112 <sup>2.0</sup></row>\n\n**Domain**\r\n[Cold](/Domains.aspx?ID=41)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou fling a hollow icicle filled with winter’s wrath. Make a spell attack against a target within range. The bolt deals 1d8 piercing damage and lodges in the target. At the end of the target’s next turn, the bolt shatters, releasing a whirl of snow and ice that deals 1d12 cold damage to the target and all adjacent creatures. The bolt can be removed with an Interact action, which causes it to melt harmlessly without detonating.\r\n\r\n**Critical Success** The initial bolt deals full damage and is especially well anchored, taking 2 Interact actions to remove. The bolt’s explosion deals double damage.<br />\r\n**Success** The bolt and its explosion deal full damage.\n\n---\r\n**Heightened (+1)** The initial damage increases by 1d8 and the secondary damage increases by 1d12.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Winter Bolt](/Spells.aspx?ID=596)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 112 <sup>2.0</sup>\n\n**Domain**\r\n[Cold](/Domains.aspx?ID=41)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou fling a hollow icicle filled with winter’s wrath. Make a spell attack against a target within range. The bolt deals 1d8 piercing damage and lodges in the target. At the end of the target’s next turn, the bolt shatters, releasing a whirl of snow and ice that deals 1d12 cold damage to the target and all adjacent creatures. The bolt can be removed with an Interact action, which causes it to melt harmlessly without detonating.\r\n\r\n**Critical Success** The initial bolt deals full damage and is especially well anchored, taking 2 Interact actions to remove. The bolt’s explosion deals double damage.<br />\r\n**Success** The bolt and its explosion deal full damage.\n\n---\r\n**Heightened (+1)** The initial damage increases by 1d8 and the secondary damage increases by 1d12.",
  "name": "Winter Bolt",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 112",
+ "primary_source_category": "Lost Omens",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 112 <sup>2.0</sup></row>\n\n**Domain**\r\n[Cold](/Domains.aspx?ID=41)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou fling a hollow icicle filled with winter’s wrath.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 112 <sup>2.0</sup>\n\n**Domain**\r\n[Cold](/Domains.aspx?ID=41)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou fling a hollow icicle filled with winter’s wrath.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 112"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 112 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 112 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You fling a hollow icicle filled with winter’s wrath.",
  "summary_markdown": "You fling a hollow icicle filled with winter’s wrath.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Winter Bolt Source Gods &amp; Magic pg. 112 2.0 Domain Cold Cast Two Actions somatic, verbal Range 60 feet Target 1 creature --- You fling a hollow icicle filled with winter’s wrath. Make a spell attack against a target within range. The bolt deals 1d8 piercing damage and lodges in the target. At the end of the target’s next turn, the bolt shatters, releasing a whirl of snow and ice that deals 1d12 cold damage to the target and all adjacent creatures. The bolt can be removed with an Interact action, which causes it to melt harmlessly without detonating. Critical Success The initial bolt deals full damage and is especially well anchored, taking 2 Interact actions to remove. The bolt’s explosion deals double damage. Success The bolt and its explosion deal full damage. --- Heightened (+1) The initial damage increases by 1d8 and the secondary damage increases by 1d12.",
+ "text": "\nWinter Bolt Two Actions Source Gods &amp; Magic pg. 112 2.0 Domain Cold Cast somatic, verbal Range 60 feet Target 1 creature --- You fling a hollow icicle filled with winter’s wrath. Make a spell attack against a target within range. The bolt deals 1d8 piercing damage and lodges in the target. At the end of the target’s next turn, the bolt shatters, releasing a whirl of snow and ice that deals 1d12 cold damage to the target and all adjacent creatures. The bolt can be removed with an Interact action, which causes it to melt harmlessly without detonating. Critical Success The initial bolt deals full damage and is especially well anchored, taking 2 Interact actions to remove. The bolt’s explosion deals double damage. Success The bolt and its explosion deal full damage. --- Heightened (+1) The initial damage increases by 1d8 and the secondary damage increases by 1d12.",
  "tradition_markdown": "",
  "trait": [
   "Attack",
   "Cold",
-  "Evocation"
+  "Evocation",
+  "Focus"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65)",
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "School"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Attack",
   "Cold",
-  "Evocation"
+  "Evocation",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=596",
  "weakness": {}
 }

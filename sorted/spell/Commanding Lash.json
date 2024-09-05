@@ -1,71 +1,83 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Tyranny"
  ],
- "domain_markdown": "[Tyranny](/Domains.aspx?ID=33)",
- "duration_raw": "until the end of your target's next turn",
+ "domain_markdown": "[Tyranny](/Domains.aspx?ID=96)",
+ "duration_raw": "until the end of the target's next turn",
  "exclude_from_search": false,
+ "heighten_group": [
+  "4th rank"
+ ],
  "heighten_level": [
   4
  ],
- "id": "spell-408",
+ "id": "spell-1845",
+ "legacy_id": "spell-408",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Commanding Lash](/Spells.aspx?ID=408)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 390 <sup>4.0</sup></row>\n\n**Domain**\r\n[Tyranny](/Domains.aspx?ID=33)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n**Requirements** Your most recent action dealt damage to a target\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\n\n**Target** A creature you dealt damage to on your most recent action.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** until the end of your target's next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nWith the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell [_command_](/Spells.aspx?ID=45).",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Commanding Lash](/Spells.aspx?ID=1845)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 380\n\n**Domain**\r\n[Tyranny](/Domains.aspx?ID=96)\n\n<row gap=\"medium\">\n\n \n\n**Requirements** Your most recent action dealt damage to a target\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\n\n**Target** a creature you dealt damage to on your most recent action\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nWith the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell command. If the target is [frightened](/Conditions.aspx?ID=19), [stupefied](/Conditions.aspx?ID=37), or taking [persistent damage](/Conditions.aspx?ID=29), it takes a –2 circumstance penalty to the save. Regardless of the result, the target is then temporarily immune for 1 hour.",
  "name": "Commanding Lash",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 380",
+ "primary_source_category": "Rulebooks",
  "range": 100,
  "range_raw": "100 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "requirement": "Your most recent action dealt damage to a target",
  "requirement_markdown": "Your most recent action dealt damage to a target",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 390 <sup>4.0</sup></row>\n\n**Domain**\r\n[Tyranny](/Domains.aspx?ID=33)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n**Requirements** Your most recent action dealt damage to a target\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\r\n\r\n \r\n\r\n**Target** A creature you dealt damage to on your most recent action.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** until the end of your target's next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWith the threat of more pain, you compel a creature you’ve recently harmed.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 380\n\n**Domain**\r\n[Tyranny](/Domains.aspx?ID=96)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n**Requirements** Your most recent action dealt damage to a target\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\r\n\r\n \r\n\r\n**Target** a creature you dealt damage to on your most recent action\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWith the threat of more pain, you compel a creature you've recently harmed.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 390"
+  "Player Core pg. 380"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 390 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 380",
  "speed": {},
- "summary": "With the threat of more pain, you compel a creature you’ve recently harmed.",
- "summary_markdown": "With the threat of more pain, you compel a creature you’ve recently harmed.",
- "target": "A creature you dealt damage to on your most recent action.",
- "target_markdown": "A creature you dealt damage to on your most recent action.",
- "text": " Commanding Lash Source Core Rulebook pg. 390 4.0 Domain Tyranny Cast Single Action verbal Requirements Your most recent action dealt damage to a target Range 100 feet Target A creature you dealt damage to on your most recent action. Saving Throw Will Duration until the end of your target's next turn --- With the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell command .",
+ "spell_type": "Focus",
+ "summary": "With the threat of more pain, you compel a creature you've recently harmed.",
+ "summary_markdown": "With the threat of more pain, you compel a creature you've recently harmed.",
+ "target": "a creature you dealt damage to on your most recent action",
+ "target_markdown": "a creature you dealt damage to on your most recent action",
+ "text": "\nCommanding Lash Single Action Source Player Core pg. 380 Domain Tyranny Requirements Your most recent action dealt damage to a target Range 100 feet Target a creature you dealt damage to on your most recent action Defense Will Duration until the end of the target's next turn --- With the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell command. If the target is frightened, stupefied, or taking persistent damage, it takes a –2 circumstance penalty to the save. Regardless of the result, the target is then temporarily immune for 1 hour.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Enchantment",
-  "Incapacitation",
+  "Concentrate",
+  "Focus",
+  "Linguistic",
+  "Manipulate",
   "Mental",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Linguistic](/Traits.aspx?ID=101), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
-  "Enchantment",
-  "Incapacitation",
+  "Concentrate",
+  "Focus",
+  "Linguistic",
+  "Manipulate",
   "Mental",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=408",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1845",
  "weakness": {}
 }

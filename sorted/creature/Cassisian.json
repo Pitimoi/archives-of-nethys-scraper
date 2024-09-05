@@ -1,116 +1,189 @@
 {
- "ac": 18,
- "alignment": "NG",
- "breadcrumbs_spa": [],
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  6
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
+  "Repository of Lore",
   "Transfer Protection",
   "Change Shape",
-  "Eye Beams",
-  "Repository of Lore"
+  "Eye Beams"
  ],
  "creature_family": "Angel",
- "creature_family_markdown": "[Angel](/MonsterFamilies.aspx?ID=3)",
+ "creature_family_markdown": "[Angel](/MonsterFamilies.aspx?ID=359)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 20,
  "hp_raw": "20",
- "id": "creature-13",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2814",
  "image": [
-  "/Images/Monsters/Angel_Cassisian.png"
+  "/Images/Monsters/Cassisian.webp"
  ],
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Celestial",
   "Common",
+  "Diabolic",
   "Draconic",
-  "Infernal"
+  "Empyrean"
  ],
- "language_markdown": "[Celestial](/Languages.aspx?ID=16), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Infernal](/Languages.aspx?ID=19)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115)",
+ "legacy_id": "creature-13",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Cassisian (Archive Angel)](/Monsters.aspx?ID=13)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their limited intellect, cassisians have a knack for precise recollection, particularly with scripture. Most cassisians are formed from the souls of trustworthy mortals, but some arise from fragments of greater angels destroyed in service to the celestial realms.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Angel_Cassisian.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Cassisian](/Monsters.aspx?ID=13)</title>\r\n\r\n<traits>\r\n<trait label=\"NG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Angel\" url=\"/Traits.aspx?ID=8\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=23\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 16</row>\n\n**Perception** +6; darkvision\r\n\r\n**Languages**\r\n[Celestial](/Languages.aspx?ID=16), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Infernal](/Languages.aspx?ID=19)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Diplomacy](/Skills.aspx?ID=6) +6, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -1\r\n\r\n**Dex** +1\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 +1 status vs. evil creatures\r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +4 \r\n\r\n+1 status to all saves vs. evil creatures\r\n</row>\r\n\r\n**HP** 20\n\n**Resistances**\r\n[cold](/Traits.aspx?ID=27) 3, [fire](/Traits.aspx?ID=72) 3\n\n**Weaknesses**\r\nevil 3\r\n\r\n**Transfer Protection** A non-evil creature can wear a willing cassisian as a helmet. While it does, the cassisian can take no actions, but the cassisian extends its +1 status bonus to AC and saves against evil creatures to its wearer. At any time, the cassisian can detach itself from its wearer as an action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** Fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nheadbutt +6 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Good](/Traits.aspx?ID=83), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d6-1 bludgeoning plus 1d4 good\r\n\r\n**Divine Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Know Direction](/Spells.aspx?ID=169), [Light](/Spells.aspx?ID=171)\r\n- **1st**\r\n[Detect Alignment](/Spells.aspx?ID=65) (at will, evil only), [Heal](/Spells.aspx?ID=148)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)) A cassisian can take the appearance of a dove, a winged humanoid, a dog, or a fish. Normally, this doesn’t change its Speed or the attack and damage bonuses for its Strikes, but it might change the damage type Strikes deal (typically to bludgeoning). Any further changes for specific forms are noted below. \n<ul><li>**Dog** size Small; scent (imprecise) 30 feet, Speed 40 feet; **Melee** jaws +7, Damage 1d6+2 piercing plus [Knockdown](/MonsterAbilities.aspx?ID=20)</li><li>**Fish** swim Speed 30 feet</li></ul>\r\n\r\n**Eye Beams** <actions string=\"Two Actions\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65)) The cassisian releases beams of heat or cold from its eyes, dealing 2d6 cold or fire damage (DC 17 basic Reflex save) to all creatures in a 15-foot line. It can’t use Eye Beams again for 1d4 rounds.\r\n\r\n**Repository of Lore**   While the cassisian isn’t particularly intelligent, it has perfect memory and can remember everything it sees or hears. This allows it to attempt [Lore](/Skills.aspx?ID=8) checks on any topic, provided (at the GM’s discretion) the cassisian has encountered the topic in question before. The cassisian’s limited intellect often prevents it from acting upon its knowledge, making it a better resource than agent in matters of information use.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-3\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Cassisian (Archive Angel)](/Monsters.aspx?ID=2814)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their limited intellect, cassisians have a knack for precise recollection, particularly with scripture. Most cassisians are formed from the souls of trustworthy mortals, but some arise from fragments of greater angels destroyed in service to the celestial realms.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Cassisian.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Cassisian](/Monsters.aspx?ID=2814)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Angel\" url=\"/Traits.aspx?ID=530\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 14\n\n**Perception** +6; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Diplomacy](/Skills.aspx?ID=6) +6, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -1\r\n\r\n**Dex** +1\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\r\n\r\n**Repository of Lore** While the cassisian isn't particularly intelligent, they have perfect memory and can remember everything they see or hear. This allows them to attempt [Lore](/Skills.aspx?ID=41) checks on any topic with a +10 modifier, provided (at the GM's discretion) they've encountered the topic in question before. The cassisian's limited intellect often prevents them from acting upon their knowledge, making them a better resource than agent in using information.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 , +1 status vs. [unholy](/Traits.aspx?ID=521) creatures\r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +4 \r\n\r\n+1 status to all saves vs. unholy creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n**Resistances**\r\n[cold](/Traits.aspx?ID=555) 3, [fire](/Traits.aspx?ID=604) 3\r\n\r\n**Weaknesses**\r\nunholy 3\r\n\r\n**Transfer Protection** ([holy](/Traits.aspx?ID=517)) A creature can wear a willing cassisian as a helmet. While it does, the cassisian can't act, but the cassisian extends their +1 status bonus to AC and saves against [unholy](/Traits.aspx?ID=521) creatures to their wearer. At any time, the cassisian can detach themself from their wearer as a single action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nheadbutt +6 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103), [reach 0 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d6–1 bludgeoning\r\n\r\n**Divine Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Know the Way](/Spells.aspx?ID=1582), [Light](/Spells.aspx?ID=171)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127)) A cassisian can take the appearance of a dove, a winged humanoid, a dog, or a fish. Normally, this doesn't change their Speed or the attack and damage bonuses for their Strikes, but it might change the damage type Strikes deal (typically to bludgeoning). Any further changes for specific forms are noted below. \n<ul><li>**Dog** size Small scent (imprecise) 30 feet, Speed 40 feet; Skills Athletics +6; Melee jaws +7, Damage 1d6+2 piercing plus [Knockdown](/MonsterAbilities.aspx?ID=46)</li><li>**Fish** swim Speed 30 feet</li></ul>\r\n\r\n**Eye Beams** <actions string=\"Two Actions\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Cold](/Traits.aspx?ID=27)) The cassisian releases beams of heat or\r\ncold from their eyes, dealing 2d6 cold or fire damage (DC 17 basic Reflex save)\r\nto all creatures in a 15-foot line. They can’t use Eye Beams again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-359\" />",
  "name": "Cassisian",
  "npc": false,
  "perception": 6,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 14",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 6,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
   "cold": 3,
   "fire": 3
  },
- "resistance_markdown": "[cold](/Traits.aspx?ID=27) 3, [fire](/Traits.aspx?ID=72) 3\r\n",
- "resistance_raw": " cold  3,  fire  3\r\n",
- "search_markdown": "<traits>\r\n<trait label=\"Angel\" url=\"/Traits.aspx?ID=8\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=23\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 16</row>\r\n\r\n**Creature Family** [Angel](/MonsterFamilies.aspx?ID=3)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 18\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +4\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "resistance_markdown": "[cold](/Traits.aspx?ID=555) 3, [fire](/Traits.aspx?ID=604) 3",
+ "resistance_raw": " cold  3,  fire  3",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Angel\" url=\"/Traits.aspx?ID=530\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 14\r\n\r\n**Creature Family** [Angel](/MonsterFamilies.aspx?ID=359)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +4\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +6",
-  "Diplomacy +6",
-  "Religion +6",
-  "Stealth +6"
+  "Acrobatics",
+  "Diplomacy",
+  "Religion",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Diplomacy](/Skills.aspx?ID=6) +6, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "acrobatics": 6,
+  "diplomacy": 6,
+  "religion": 6,
+  "stealth": 6
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 16"
+  "Monster Core pg. 14"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 16</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 14",
  "speed": {
-  "land": 40,
+  "fly": 40,
   "max": 40
  },
- "speed_markdown": "Fly 40 feet",
- "speed_raw": "Fly 40 feet",
+ "speed_markdown": "fly 40 feet",
+ "speed_raw": "fly 40 feet",
  "spell": [
   "Read Omens",
-  "Detect Alignment",
   "Heal",
-  "Know Direction",
+  "Know the Way",
   "Light"
  ],
- "spell_markdown": "[Detect Alignment](/Spells.aspx?ID=65), [Heal](/Spells.aspx?ID=148), [Know Direction](/Spells.aspx?ID=169), [Light](/Spells.aspx?ID=171), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_markdown": "[Heal](/Spells.aspx?ID=148), [Know the Way](/Spells.aspx?ID=1582), [Light](/Spells.aspx?ID=171), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_dc": [
+  16
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
  "stealth": "6",
+ "strike_damage_average": [
+  3
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "The weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their …",
  "summary_markdown": "The weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their …",
- "text": " Cassisian (Archive Angel) The weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their limited intellect, cassisians have a knack for precise recollection, particularly with scripture. Most cassisians are formed from the souls of trustworthy mortals, but some arise from fragments of greater angels destroyed in service to the celestial realms. Recall Knowledge - Celestial (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Cassisian Source Bestiary pg. 16 Perception +6; darkvision Languages Celestial, Common, Draconic, Infernal Skills Acrobatics +6, Diplomacy +6, Religion +6, Stealth +6 Str -1 Dex +1 Con +2 Int -1 Wis +1 Cha +1 --- AC 18 +1 status vs. evil creatures Fort +7 Ref +6 Will +4 +1 status to all saves vs. evil creatures HP 20 Resistances cold 3, fire 3 Weaknesses evil 3 Transfer Protection A non-evil creature can wear a willing cassisian as a helmet. While it does, the cassisian can take no actions, but the cassisian extends its +1 status bonus to AC and saves against evil creatures to its wearer. At any time, the cassisian can detach itself from its wearer as an action. --- Speed Fly 40 feet Melee Single Action headbutt +6 (Agile, Finesse, Good, Magical), Damage 1d6-1 bludgeoning plus 1d4 good Divine Innate Spells DC 16 - Cantrips (1st) Know Direction, Light - 1st Detect Alignment (at will, evil only), Heal - 4th Read Omens Change Shape Single Action (Concentrate, Divine, Polymorph, Transmutation) A cassisian can take the appearance of a dove, a winged humanoid, a dog, or a fish. Normally, this doesn’t change its Speed or the attack and damage bonuses for its Strikes, but it might change the damage type Strikes deal (typically to bludgeoning). Any further changes for specific forms are noted below. Dog size Small; scent (imprecise) 30 feet, Speed 40 feet; Melee jaws +7, Damage 1d6+2 piercing plus Knockdown Fish swim Speed 30 feet Eye Beams Two Actions (Concentrate, Divine, Evocation) The cassisian releases beams of heat or cold from its eyes, dealing 2d6 cold or fire damage (DC 17 basic Reflex save) to all creatures in a 15-foot line. It can’t use Eye Beams again for 1d4 rounds. Repository of Lore While the cassisian isn’t particularly intelligent, it has perfect memory and can remember everything it sees or hears. This allows it to attempt Lore checks on any topic, provided (at the GM’s discretion) the cassisian has encountered the topic in question before. The cassisian’s limited intellect often prevents it from acting upon its knowledge, making it a better resource than agent in matters of information use. ",
+ "text": " Cassisian (Archive Angel) The weakest of angels, cassisians usually serve as lackey messengers for more powerful angels or as spiritual guides for mortals. Despite their limited intellect, cassisians have a knack for precise recollection, particularly with scripture. Most cassisians are formed from the souls of trustworthy mortals, but some arise from fragments of greater angels destroyed in service to the celestial realms. Recall Knowledge - Celestial (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Cassisian Source Monster Core pg. 14 Perception +6; darkvision Languages Common, Diabolic, Draconic, Empyrean Skills Acrobatics +6, Diplomacy +6, Religion +6, Stealth +6 Str -1 Dex +1 Con +2 Int -1 Wis +1 Cha +1 Repository of Lore While the cassisian isn't particularly intelligent, they have perfect memory and can remember everything they see or hear. This allows them to attempt Lore checks on any topic with a +10 modifier, provided (at the GM's discretion) they've encountered the topic in question before. The cassisian's limited intellect often prevents them from acting upon their knowledge, making them a better resource than agent in using information. --- AC 16 , +1 status vs. unholy creatures Fort +7 Ref +6 Will +4 +1 status to all saves vs. unholy creatures HP 20 Resistances cold 3, fire 3 Weaknesses unholy 3 Transfer Protection (holy) A creature can wear a willing cassisian as a helmet. While it does, the cassisian can't act, but the cassisian extends their +1 status bonus to AC and saves against unholy creatures to their wearer. At any time, the cassisian can detach themself from their wearer as a single action. --- Speed fly 40 feet Melee Single Action headbutt +6 (Agile, Finesse, Holy, Magical, reach 0 feet), Damage 1d6–1 bludgeoning Divine Innate Spells DC 16 - Cantrips (1st) Know the Way, Light - 1st Heal - 4th Read Omens Change Shape Single Action (Concentrate, Divine, Polymorph) A cassisian can take the appearance of a dove, a winged humanoid, a dog, or a fish. Normally, this doesn't change their Speed or the attack and damage bonuses for their Strikes, but it might change the damage type Strikes deal (typically to bludgeoning). Any further changes for specific forms are noted below. Dog size Small scent (imprecise) 30 feet, Speed 40 feet; Skills Athletics +6; Melee jaws +7, Damage 1d6+2 piercing plus Knockdown Fish swim Speed 30 feet Eye Beams Two Actions (Concentrate, Divine, Cold) The cassisian releases beams of heat or cold from their eyes, dealing 2d6 cold or fire damage (DC 17 basic Reflex save) to all creatures in a 15-foot line. They can’t use Eye Beams again for 1d4 rounds. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Angel",
   "Celestial",
-  "NG",
+  "Holy",
   "Tiny"
  ],
- "trait_markdown": "[Angel](/Traits.aspx?ID=8), [Celestial](/Traits.aspx?ID=23)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Angel](/Traits.aspx?ID=530), [Celestial](/Traits.aspx?ID=551), [Holy](/Traits.aspx?ID=517)",
  "trait_raw": [
   "Angel",
-  "Celestial"
+  "Celestial",
+  "Holy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=13",
+ "url": "/Monsters.aspx?ID=2814",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {
-  "evil": 3
+  "unholy": 3
  },
- "weakness_markdown": "evil 3",
- "weakness_raw": "evil 3",
+ "weakness_markdown": "unholy 3",
+ "weakness_raw": "unholy 3",
  "will_save": 4,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

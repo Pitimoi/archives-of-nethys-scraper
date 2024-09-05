@@ -1,19 +1,27 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Pain"
  ],
- "domain_markdown": "[Pain](/Domains.aspx?ID=24)",
+ "domain_markdown": "[Pain](/Domains.aspx?ID=87)",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,54 +35,66 @@
   9,
   10
  ],
- "id": "spell-449",
+ "id": "spell-1826",
+ "legacy_id": "spell-449",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Savor the Sting](/Spells.aspx?ID=449)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>\n\n**Domain**\r\n[Pain](/Domains.aspx?ID=24)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and 1d4 persistent mental damage; the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage and no persistent damage.<br />\r\n**Failure** The target takes full initial and persistent damage.<br />\r\n**Critical Failure** The target takes double initial and persistent damage.\n\n---\r\n**Heightened (+1)** The initial damage increases by 1d4 and the persistent damage increases by 1d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Savor the Sting](/Spells.aspx?ID=1826)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 378\n\n**Domain**\r\n[Pain](/Domains.aspx?ID=87)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and 1d4 [persistent mental damage](/Conditions.aspx?ID=29); the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage and no persistent damage.<br />\r\n**Failure** The target takes full initial and persistent damage.<br />\r\n**Critical Failure** The target takes double initial and persistent damage.\n\n---\r\n**Heightened (+1)** The initial damage increases by 1d4 and the persistent damage increases by 1d4.",
  "name": "Savor the Sting",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 378",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>\n\n**Domain**\r\n[Pain](/Domains.aspx?ID=24)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou inflict pain upon the target and revel in their anguish.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 378\n\n**Domain**\r\n[Pain](/Domains.aspx?ID=87)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou inflict pain upon the target and revel in their anguish.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 396"
+  "Player Core pg. 378"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 378",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You inflict pain upon the target and revel in their anguish.",
  "summary_markdown": "You inflict pain upon the target and revel in their anguish.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Savor the Sting Source Core Rulebook pg. 396 4.0 Domain Pain Cast Single Action somatic Range touch Target 1 creature Saving Throw Will --- You inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and 1d4 persistent mental damage; the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target. Critical Success The target is unaffected. Success The target takes half damage and no persistent damage. Failure The target takes full initial and persistent damage. Critical Failure The target takes double initial and persistent damage. --- Heightened (+1) The initial damage increases by 1d4 and the persistent damage increases by 1d4.",
+ "text": "\nSavor the Sting Single Action Source Player Core pg. 378 Domain Pain Range touch Target 1 creature Defense Will --- You inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and 1d4 persistent mental damage; the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target. Critical Success The target is unaffected. Success The target takes half damage and no persistent damage. Failure The target takes full initial and persistent damage. Critical Failure The target takes double initial and persistent damage. --- Heightened (+1) The initial damage increases by 1d4 and the persistent damage increases by 1d4.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Enchantment",
+  "Focus",
+  "Manipulate",
   "Mental",
   "Nonlethal",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Nonlethal](/Traits.aspx?ID=188), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Weapon",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Nonlethal](/Traits.aspx?ID=188), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
-  "Enchantment",
+  "Focus",
+  "Manipulate",
   "Mental",
   "Nonlethal",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=449",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1826",
  "weakness": {}
 }

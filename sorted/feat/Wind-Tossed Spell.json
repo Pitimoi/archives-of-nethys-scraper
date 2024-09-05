@@ -1,52 +1,68 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Elementalist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
+ "element": [
+  "Air"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Wind-Tossed Spell"
  ],
  "feat_markdown": "Wind-Tossed Spell",
- "id": "feat-2993",
+ "id": "feat-4352",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wind-Tossed Spell](/Feats.aspx?ID=2993) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=98)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n</column>\r\n\r\n---\r\n\r\nYou enhance your spell with elemental air, using the wind to find your target and carry your magic around cover. If the next action you use is to Cast a Spell that requires a spell attack roll, you ignore the target's [concealed](/Conditions.aspx?ID=4) condition and any cover they have from you. The spell gains the [air](/Traits.aspx?ID=5) trait.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wind-Tossed Spell](/Feats.aspx?ID=4352) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=207)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340); air is in your elemental philosophy\n\n</column>\r\n\r\n---\r\n\r\nYou enhance your spell with elemental air, using the wind to find your target and carry your magic around cover. If the next action you use is to Cast a Spell that requires a spell attack roll, you ignore the target's [concealed](/Conditions.aspx?ID=4) condition and any [cover](/Rules.aspx?ID=459) they have from you. The spell gains the [air](/Traits.aspx?ID=5) trait.",
  "name": "Wind-Tossed Spell",
  "pfs": "Standard",
- "prerequisite": "Elementalist Dedication",
- "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=2986)",
+ "prerequisite": "Elementalist Dedication; air is in your elemental philosophy",
+ "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=4340); air is in your elemental philosophy",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 59",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2021-09-01",
+ "rarity_id": 1,
+ "release_date": "2023-08-02",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance your spell with elemental air, using the wind to find your target and carry your magic around cover.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340); air is in your elemental philosophy\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance your spell with elemental air, using the wind to find your target and carry your magic around cover.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Secrets of Magic"
+  "Rage of Elements"
  ],
  "source_raw": [
-  "Secrets of Magic pg. 207"
+  "Rage of Elements pg. 59"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 59",
  "speed": {},
  "summary": "You enhance your spell with elemental air, using the wind to find your target and carry your magic around cover.",
  "summary_markdown": "You enhance your spell with elemental air, using the wind to find your target and carry your magic around cover.",
- "text": "<title level=\"1\" right=\"Feat 14\" pfs=\"Standard\" > Wind-Tossed Spell Single Action Source Secrets of Magic pg. 207 1.1 Archetype Elementalist Prerequisites Elementalist Dedication --- You enhance your spell with elemental air, using the wind to find your target and carry your magic around cover. If the next action you use is to Cast a Spell that requires a spell attack roll, you ignore the target's concealed condition and any cover they have from you. The spell gains the air trait.",
+ "text": "<title level=\"1\" right=\"Feat 14\" pfs=\"Standard\" > Wind-Tossed Spell Single Action Source Rage of Elements pg. 59 Archetype Elementalist Prerequisites Elementalist Dedication; air is in your elemental philosophy --- You enhance your spell with elemental air, using the wind to find your target and carry your magic around cover. If the next action you use is to Cast a Spell that requires a spell attack roll, you ignore the target's concealed condition and any cover they have from you. The spell gains the air trait.",
  "trait": [
   "Air",
   "Archetype",
   "Concentrate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Air](/Traits.aspx?ID=5), [Archetype](/Traits.aspx?ID=12), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Air](/Traits.aspx?ID=5), [Archetype](/Traits.aspx?ID=12), [Concentrate](/Traits.aspx?ID=32), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Air",
   "Archetype",
   "Concentrate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=2993",
+ "url": "/Feats.aspx?ID=4352",
  "weakness": {}
 }

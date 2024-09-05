@@ -3,7 +3,6 @@
   "Steel Shield"
  ],
  "base_item_markdown": "[Steel Shield](/Shields.aspx?ID=3)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -12,34 +11,45 @@
  "item_category": "Shields",
  "item_subcategory": "Specific Shields",
  "level": 19,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 19\"\r\n    pfs=\"Standard\"\r\n>\r\n[Kraken's Guard](/Equipment.aspx?ID=1292)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 38</row>\n\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Steel Shield](/Shields.aspx?ID=3)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis [steel shield](/Shields.aspx?ID=3) (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight appendages that curl around each other, resembling the swirling tentacles of a giant [kraken](/Monsters.aspx?ID=275). Two ferocious eyes sit in its center, gleaming with an inner light.\n\n<document level=\"2\" id=\"action-1022\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 19\"\r\n    pfs=\"Standard\"\r\n>\r\n[Kraken's Guard](/Equipment.aspx?ID=1292)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 38\n\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Steel Shield](/Shields.aspx?ID=3)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis [steel shield](/Shields.aspx?ID=3) (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight appendages that curl around each other, resembling the swirling tentacles of a giant [kraken](/Monsters.aspx?ID=275). Two ferocious eyes sit in its center, gleaming with an inner light.\n\n**Activate** <actions string=\"Two Actions\" /> Raise a Shield;  **Frequency** once per hour;   **Effect** You unleash the kraken's wrath. You Raise the Shield. The shield's appendages briefly extend to impossible length as they wriggle and lash out at your foes, dealing 10d10 bludgeoning damage to all enemies in a 30-foot cone (DC 41 [basic](/Rules.aspx?ID=329) Reflex save). The shield remains animated for 1 minute, during which you can use it to [Grapple](/Actions.aspx?ID=35) a creature within 10 feet of you without needing a free hand. When you use the shield to Grapple, you gain a +3 item bonus to your [Athletics](/Skills.aspx?ID=3) check.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Kraken's Guard",
  "pfs": "Standard",
  "price": 4000000,
  "price_raw": "40,000 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 38",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 38</row>\r\n\r\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  steel shield  (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 38\r\n\r\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Steel Shield](/Shields.aspx?ID=3)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  steel shield  (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 38"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 38</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 38",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This  steel shield  (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight …",
  "summary_markdown": "This  steel shield  (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight …",
- "text": "<title level=\"1\" right=\"Item 19\" pfs=\"Standard\" > Kraken's Guard Source Grand Bazaar pg. 38 Price 40,000 gp Usage held in 1 hand Bulk 1 Base Shield Steel Shield --- This steel shield (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight appendages that curl around each other, resembling the swirling tentacles of a giant kraken. Two ferocious eyes sit in its center, gleaming with an inner light.\n",
+ "text": "<title level=\"1\" right=\"Item 19\" pfs=\"Standard\" > Kraken's Guard Source Grand Bazaar pg. 38 Price 40,000 gp Usage held in 1 hand Bulk 1 Base Shield Steel Shield --- This steel shield (Hardness 16, HP 96, BT 48) is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight appendages that curl around each other, resembling the swirling tentacles of a giant kraken. Two ferocious eyes sit in its center, gleaming with an inner light. Activate Two Actions Raise a Shield; Frequency once per hour; Effect You unleash the kraken's wrath. You Raise the Shield. The shield's appendages briefly extend to impossible length as they wriggle and lash out at your foes, dealing 10d10 bludgeoning damage to all enemies in a 30-foot cone (DC 41 basic Reflex save). The shield remains animated for 1 minute, during which you can use it to Grapple a creature within 10 feet of you without needing a free hand. When you use the shield to Grapple, you gain a +3 item bonus to your Athletics check.\n",
  "trait": [
   "Conjuration",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

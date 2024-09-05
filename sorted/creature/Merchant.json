@@ -1,56 +1,102 @@
 {
  "ac": 13,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  4,
+  4
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": -1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Appraising Eye"
  ],
  "creature_family": "Tradespeople",
  "creature_family_markdown": "[Tradespeople](/MonsterFamilies.aspx?ID=197)",
  "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 1,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
  "hp": 7,
  "hp_raw": "7",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-956",
  "intelligence": 2,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "item": [
+  "Crossbow (10 bolts)",
+  "Padded Armor"
+ ],
  "language": [
   "Common"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1)",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"Limited\">[Merchant](/NPCs.aspx?ID=956)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSmall settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. Merchants can be found anywhere: vendors hustling in the public square, shopkeepers running small storefronts, traveling salespeople in carriages or caravans, or wealthy tycoons running entire organizations devoted to commerce. For encounters involving negotiation or mercantile skill, a merchant is a 4th—level challenge. A merchant might have an additional [Lore](/Skills.aspx?ID=8) skill about a specific category of item (such as jewelry or magic weapons), with a total skill bonus 2 higher than Mercantile Lore.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Merchant](/NPCs.aspx?ID=956)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 244</row>\n\n**Perception** +6\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Deception](/Skills.aspx?ID=5) +10, [Diplomacy](/Skills.aspx?ID=6) +12, [Mercantile Lore](/Skills.aspx?ID=8) +10, [Performance](/Skills.aspx?ID=12) +8, [Society](/Skills.aspx?ID=14) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +0\r\n\r\n**Con** -1\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Appraising Eye** The merchant can use [Mercantile Lore](/MonsterFamilies.aspx?ID=125) to [Recall Knowledge](/Actions.aspx?ID=26) about items, including determining their value. They can also attempt to [Identify Magic](/Actions.aspx?ID=24) using Mercantile Lore and can do so without first knowing whether the item is magical.\r\n\r\n**Items**\r\n[Crossbow](/Weapons.aspx?ID=67) (10 bolts), [Padded Armor](/Armor.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 13 \r\n\r\n**Fort** +1 \r\n\r\n**Ref** +2 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 7\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +4 ([Agile](/Traits.aspx?ID=170), [Nonlethal](/Traits.aspx?ID=188), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d4+2 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncrossbow +4 ([range increment 120 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d8 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-197\" />",
+ "markdown": "<title level=\"1\" pfs=\"Limited\">[Merchant](/NPCs.aspx?ID=956)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSmall settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. Merchants can be found anywhere: vendors hustling in the public square, shopkeepers running small storefronts, traveling salespeople in carriages or caravans, or wealthy tycoons running entire organizations devoted to commerce. For encounters involving negotiation or mercantile skill, a merchant is a 4th—level challenge. A merchant might have an additional [Lore](/Skills.aspx?ID=8) skill about a specific category of item (such as jewelry or magic weapons), with a total skill bonus 2 higher than Mercantile Lore.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Merchant](/NPCs.aspx?ID=956)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 244\n\n**Perception** +6\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Deception](/Skills.aspx?ID=5) +10, [Diplomacy](/Skills.aspx?ID=6) +12, [Mercantile Lore](/Skills.aspx?ID=8) +10, [Performance](/Skills.aspx?ID=12) +8, [Society](/Skills.aspx?ID=14) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +0\r\n\r\n**Con** -1\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Appraising Eye** The merchant can use [Mercantile Lore](/MonsterFamilies.aspx?ID=125) to [Recall Knowledge](/Actions.aspx?ID=26) about items, including determining their value. They can also attempt to [Identify Magic](/Actions.aspx?ID=24) using Mercantile Lore and can do so without first knowing whether the item is magical.\r\n\r\n**Items**\r\n[Crossbow](/Weapons.aspx?ID=67) (10 bolts), [Padded Armor](/Armor.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 13 \r\n\r\n**Fort** +1 \r\n\r\n**Ref** +2 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 7\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +4 ([Agile](/Traits.aspx?ID=170), [Nonlethal](/Traits.aspx?ID=188), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d4+2 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncrossbow +4 ([range increment 120 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d8 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-197\" />",
  "name": "Merchant",
  "npc": true,
  "perception": 6,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Limited",
+ "primary_source": "Gamemastery Guide",
+ "primary_source_raw": "Gamemastery Guide pg. 244",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 2,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2020-02-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 244</row>\r\n\r\n**Creature Family** [Tradespeople](/MonsterFamilies.aspx?ID=197)\r\n\r\n<row gap=\"medium\">\r\n**HP** 7\r\n\r\n**AC** 13\r\n\r\n**Fort** +1\r\n\r\n**Ref** +2\r\n\r\n**Will** +10\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSmall settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 244\r\n\r\n**Creature Family** [Tradespeople](/MonsterFamilies.aspx?ID=197)\r\n\r\n<row gap=\"medium\">\r\n**HP** 7\r\n\r\n**AC** 13\r\n\r\n**Fort** +1\r\n\r\n**Ref** +2\r\n\r\n**Will** +10\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSmall settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Deception +10",
-  "Diplomacy +12",
-  "Mercantile Lore +10",
-  "Performance +8",
-  "Society +8"
+  "Deception",
+  "Diplomacy",
+  "Mercantile Lore",
+  "Performance",
+  "Society"
  ],
  "skill_markdown": "[Deception](/Skills.aspx?ID=5) +10, [Diplomacy](/Skills.aspx?ID=6) +12, [Mercantile Lore](/Skills.aspx?ID=8) +10, [Performance](/Skills.aspx?ID=12) +8, [Society](/Skills.aspx?ID=14) +8",
+ "skill_mod": {
+  "deception": 10,
+  "diplomacy": 12,
+  "performance": 8,
+  "society": 8
+ },
  "source": [
   "Gamemastery Guide"
  ],
  "source_raw": [
   "Gamemastery Guide pg. 244"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Gamemastery Guide](/Sources.aspx?ID=22) pg. 244</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Gamemastery Guide](/Sources.aspx?ID=22) pg. 244",
  "speed": {
   "land": 25,
   "max": 25
@@ -58,18 +104,37 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  4
+ ],
+ "strike_damage_scale": [
+  "Extreme"
+ ],
+ "strike_damage_scale_number": [
+  5
+ ],
  "strength": 2,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "will"
  ],
  "summary": "Small settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. …",
  "summary_markdown": "Small settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. …",
  "text": " Merchant Small settlements can typically support one or two generalist merchants, and larger cities house multiple specialists—experts in one type of product. Merchants can be found anywhere: vendors hustling in the public square, shopkeepers running small storefronts, traveling salespeople in carriages or caravans, or wealthy tycoons running entire organizations devoted to commerce. For encounters involving negotiation or mercantile skill, a merchant is a 4th—level challenge. A merchant might have an additional Lore skill about a specific category of item (such as jewelry or magic weapons), with a total skill bonus 2 higher than Mercantile Lore. Recall Knowledge - Humanoid (Society): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Merchant Source Gamemastery Guide pg. 244 Perception +6 Languages Common Skills Deception +10, Diplomacy +12, Mercantile Lore +10, Performance +8, Society +8 Str +2 Dex +0 Con -1 Int +2 Wis +2 Cha +4 Appraising Eye The merchant can use Mercantile Lore to Recall Knowledge about items, including determining their value. They can also attempt to Identify Magic using Mercantile Lore and can do so without first knowing whether the item is magical. Items Crossbow (10 bolts), Padded Armor --- AC 13 Fort +1 Ref +2 Will +10 HP 7 --- Speed 25 feet Melee Single Action fist +4 (Agile, Nonlethal, Unarmed), Damage 1d4+2 bludgeoning Ranged Single Action crossbow +4 (range increment 120 feet, reload 1), Damage 1d8 piercing\n",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -84,5 +149,9 @@
  ],
  "weakness": {},
  "will_save": 10,
- "wisdom": 2
+ "will_save_scale": "Extreme",
+ "will_save_scale_number": 5,
+ "wisdom": 2,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

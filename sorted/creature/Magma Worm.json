@@ -1,0 +1,181 @@
+{
+ "ac": 40,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  34,
+  36,
+  36
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 9,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Fire Healing",
+  "Inexorable",
+  "Slough Skin",
+  "Fast Swallow",
+  "Fire Breath",
+  "Magma Worm Venom",
+  "Rock Tunneler",
+  "Swallow Whole",
+  "Thrash"
+ ],
+ "creature_family": "Cave Worm",
+ "creature_family_markdown": "[Cave Worm](/MonsterFamilies.aspx?ID=378)",
+ "dexterity": -1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 36,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
+ "hp": 410,
+ "hp_raw": "410",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2873",
+ "image": [
+  "/Images/Monsters/Magma_Worm.webp"
+ ],
+ "immunity": [
+  "fire"
+ ],
+ "immunity_markdown": "[fire](/Traits.aspx?ID=604)",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "legacy_id": "creature-75",
+ "legacy_name": "Crimson Worm",
+ "level": 18,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Magma Worm](/Monsters.aspx?ID=2873)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAmong the most dangerous of their kind are the fiery magma worms. In addition to being even larger than benthic worms, the magma worm has a penchant for burrowing through volcanic regions that, over the generations, have infused it with a supernatural link to the Elemental [Plane of Fire](/Planes.aspx?ID=31). The fiery heart of an active volcano is an attractive lair for a magma worm, as are the sprawling fields of molten rock found in the deepest reaches of the Darklands. Legends of ancient dwarven societies and colonists of the Elemental Planes populating moats of lava with magma worms likely have some basis in truth, although the methods used to keep these “moat worms” contained—and prevented from chewing their way through fortress foundations—must have been significant.\n\n Magma worms sometimes frequent areas on the surface where volcanism creates hot springs or other geothermal features, but even then they prefer to spend most of their time burrowing through the ground in their never-ending search for sustenance. Surface lands claimed by magma worms are notable for the mound-shaped burrows these creatures leave behind as they dig.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 43\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 41\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 38\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Magma_Worm.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[Magma Worm](/Monsters.aspx?ID=2873)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 57\n\n**Perception** +25; [darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +38\r\n\r\n<row gap=\"medium\">\r\n**Str** +10\r\n\r\n**Dex** -1\r\n\r\n**Con** +9\r\n\r\n**Int** -3\r\n\r\n**Wis** -1\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 40 \r\n\r\n**Fort** +36 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +27 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 410\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=604)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=555) 15\r\n\r\n**Fire Healing** As long as a magma worm is in contact with a fire or body of magma at least as large as itself, it gains [fast healing](/MonsterAbilities.aspx?ID=62) 20. When struck by a magical [fire](/Traits.aspx?ID=604) effect from anything other than itself, a magma worm regains Hit Points equal to half the fire damage the effect would otherwise deal.<br />**Inexorable** The cave worm recovers from the [paralyzed](/Conditions.aspx?ID=85), [slowed](/Conditions.aspx?ID=92), and [stunned](/Conditions.aspx?ID=93) conditions at the end of its turn. It's also immune to penalties to its Speeds and the [immobilized](/Conditions.aspx?ID=81) condition, and it ignores [difficult terrain](/Rules.aspx?ID=453) and greater difficult terrain.<br />**Slough Skin** <actions string=\"Reaction\" /> **Frequency** once per day; **Trigger** The cave worm would be affected by a condition or adverse effect (such as [_cursed metamorphosis_](/Spells.aspx?ID=1479)); **Effect** The cave worm negates the triggering condition or effect by sloughing an outer layer of its skin. Effects from [artifacts](/Traits.aspx?ID=537), deities, or a similarly powerful source can't be avoided in this way.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, burrow 40 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +36 ([deadly 3d10](/Traits.aspx?ID=174), [Fire](/Traits.aspx?ID=72), [reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+18 piercing plus 2d6 fire and [Improved Grab](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstinger +36 ([Agile](/Traits.aspx?ID=170), [Fire](/Traits.aspx?ID=72), [Poison](/Traits.aspx?ID=126), [reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+18 piercing plus 2d6 fire and magma worm venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbody +34 ([Fire](/Traits.aspx?ID=72), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+16 bludgeoning plus 2d6 fire\n\n**Fast Swallow** <actions string=\"Reaction\" />  **Trigger** The worm Grabs a creature; **Effect** The worm uses [Swallow Whole](/MonsterAbilities.aspx?ID=77).\r\n\r\n**Fire Breath** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72), [Primal](/Traits.aspx?ID=134)) The magma worm breathes a blast of flame in a 60-foot cone that deals 18d6 fire damage to all creatures in the area (DC 41 [basic](/Rules.aspx?ID=329) Reflex save). It can't use Fire Breath again for 1d4 rounds.\r\n\r\n**Magma Worm Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 41 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison damage and [drained 1](/Conditions.aspx?ID=68) (1 round); **Stage 2** 2d6 poison damage and drained 1 (1 round); **Stage 3** 2d6 poison damage and drained 2 (1 round)\r\n\r\n**Rock Tunneler**   A cave worm can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Huge, 3d10+10 bludgeoning plus 2d6 fire, Rupture 36\r\n\r\n**Thrash** <actions string=\"Two Actions\" />  The worm attempts one Strike against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-378\" />",
+ "name": "Magma Worm",
+ "npc": false,
+ "perception": 25,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 57",
+ "primary_source_category": "Rulebooks",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 25,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 57\r\n\r\n**Creature Family** [Cave Worm](/MonsterFamilies.aspx?ID=378)\r\n\r\n<row gap=\"medium\">\r\n**HP** 410\r\n\r\n**AC** 40\r\n\r\n**Fort** +36\r\n\r\n**Ref** +25\r\n\r\n**Will** +27\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAmong the most dangerous of their kind are the fiery magma worms. In addition to being even larger than benthic worms, the magma worm has a penchant …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  ( imprecise ) 100 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +38",
+ "skill_mod": {
+  "athletics": 38
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 57"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 57",
+ "speed": {
+  "burrow": 40,
+  "land": 40,
+  "max": 40,
+  "swim": 20
+ },
+ "speed_markdown": "40 feet, burrow 40 feet, swim 20 feet",
+ "speed_raw": "40 feet, burrow 40 feet, swim 20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  34,
+  38,
+  41
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 10,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Among the most dangerous of their kind are the fiery magma worms. In addition to being even larger than benthic worms, the magma worm has a penchant …",
+ "summary_markdown": "Among the most dangerous of their kind are the fiery magma worms. In addition to being even larger than benthic worms, the magma worm has a penchant …",
+ "text": " Magma Worm Among the most dangerous of their kind are the fiery magma worms. In addition to being even larger than benthic worms, the magma worm has a penchant for burrowing through volcanic regions that, over the generations, have infused it with a supernatural link to the Elemental Plane of Fire. The fiery heart of an active volcano is an attractive lair for a magma worm, as are the sprawling fields of molten rock found in the deepest reaches of the Darklands. Legends of ancient dwarven societies and colonists of the Elemental Planes populating moats of lava with magma worms likely have some basis in truth, although the methods used to keep these “moat worms” contained—and prevented from chewing their way through fortress foundations—must have been significant. Magma worms sometimes frequent areas on the surface where volcanism creates hot springs or other geothermal features, but even then they prefer to spend most of their time burrowing through the ground in their never-ending search for sustenance. Surface lands claimed by magma worms are notable for the mound-shaped burrows these creatures leave behind as they dig. Recall Knowledge - Beast (Arcana, Nature): DC 43 Unspecific Lore : DC 41 Specific Lore : DC 38 Magma Worm Source Monster Core pg. 57 Perception +25; darkvision, tremorsense (imprecise) 100 feet Languages Skills Athletics +38 Str +10 Dex -1 Con +9 Int -3 Wis -1 Cha -1 --- AC 40 Fort +36 Ref +25 Will +27 HP 410 Immunities fire Weaknesses cold 15 Fire Healing As long as a magma worm is in contact with a fire or body of magma at least as large as itself, it gains fast healing 20. When struck by a magical fire effect from anything other than itself, a magma worm regains Hit Points equal to half the fire damage the effect would otherwise deal. Inexorable The cave worm recovers from the paralyzed, slowed, and stunned conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain. Slough Skin Reaction Frequency once per day; Trigger The cave worm would be affected by a condition or adverse effect (such as cursed metamorphosis ); Effect The cave worm negates the triggering condition or effect by sloughing an outer layer of its skin. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way. --- Speed 40 feet, burrow 40 feet, swim 20 feet Melee Single Action jaws +36 (deadly 3d10, Fire, reach 20 feet), Damage 3d10+18 piercing plus 2d6 fire and Improved Grab Melee Single Action stinger +36 (Agile, Fire, Poison, reach 20 feet), Damage 2d12+18 piercing plus 2d6 fire and magma worm venom Melee Single Action body +34 (Fire, reach 15 feet), Damage 2d10+16 bludgeoning plus 2d6 fire Fast Swallow Reaction Trigger The worm Grabs a creature; Effect The worm uses Swallow Whole. Fire Breath Two Actions (Fire, Primal) The magma worm breathes a blast of flame in a 60-foot cone that deals 18d6 fire damage to all creatures in the area (DC 41 basic Reflex save). It can't use Fire Breath again for 1d4 rounds. Magma Worm Venom (Poison) Saving Throw DC 41 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage and drained 1 (1 round); Stage 2 2d6 poison damage and drained 1 (1 round); Stage 3 2d6 poison damage and drained 2 (1 round) Rock Tunneler A cave worm can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does. Swallow Whole Single Action (Attack) Huge, 3d10+10 bludgeoning plus 2d6 fire, Rupture 36 Thrash Two Actions The worm attempts one Strike against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Fire",
+  "Rare",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Fire](/Traits.aspx?ID=604), [Rare](/Traits.aspx?ID=683)",
+ "trait_raw": [
+  "Beast",
+  "Fire",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2873",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "cold": 15
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=555) 15",
+ "weakness_raw": " cold  15",
+ "will_save": 27,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": -1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

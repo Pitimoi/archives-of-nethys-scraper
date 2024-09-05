@@ -1,0 +1,61 @@
+{
+ "ac": 22,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "DC 21  Diplomacy  to calm Goh enough that the haunt dissipates, DC 23  Religion  to exorcise the haunt, or DC 25  Intimidation  to “scare the shame” out of Goh",
+ "exclude_from_search": false,
+ "fortitude_save": 9,
+ "hp": 54,
+ "hp_raw": "54",
+ "id": "hazard-426",
+ "immunity": [
+  "critical hits",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, precision damage",
+ "level": 5,
+ "markdown": "<title level=\"1\" right=\"Hazard 5\" pfs=\"\">[Goh' Shame](/Hazards.aspx?ID=426)</title>\r\n\r\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #197: Let the Leaves Fall](/Sources.aspx?ID=222) pg. 20\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nA strange shadowy figure churns in the waters at Goh’s feet.\r\n\r\n---\r\n\r\n**Stealth**\r\n+13 (expert)\r\n\r\n**Disable**\r\nDC 21 [Diplomacy](/Skills.aspx?ID=39) to calm Goh enough that the haunt dissipates, DC 23 [Religion](/Skills.aspx?ID=46) to exorcise the haunt, or DC 25 [Intimidation](/Skills.aspx?ID=40) to “scare the shame” out of Goh\n\n<column gap=\"tiny\">\r\n\r\n**AC** 22, **Fort** +9, **Ref** +15\n\n**HP**\r\n54\r\n\r\n**Immunities**\r\ncritical hits, precision damage\r\n\r\n**Weaknesses**\r\npositive 5\r\n\r\n**Resistances**\r\nfire 5\r\n\r\n</column>\r\n\r\n**Grasping Hands** <actions string=\"Reaction\" /> **Trigger** Goh steps into the Ceiba River; **Effect** A shadowy figure that looks like a swimming child appears to grab ahold of Goh's ankles and begins to pull him deeper into the water; Goh becomes [grabbed](/Conditions.aspx?ID=77). The haunt then rolls initiative.\n\n---\r\n**Routine**\r\n(2 actions; [emotion](/Traits.aspx?ID=590), [enchantment](/Traits.aspx?ID=61),[fear](/Traits.aspx?ID=598) [incapacitation](/Traits.aspx?ID=631), [mental](/Traits.aspx?ID=647), [occult](/Traits.aspx?ID=662)) The haunt uses its first action to grapple with Goh and attempts to pull him underwater. Goh has a Fortitude DC of 19. In order to pull Goh underwater, the haunt must critically succeed at its grapple check against him with a result of 29 or higher to successfully [restrain](/Conditions.aspx?ID=90) Goh. Goh is overwhelmed by terror and makes no attempt to escape, so it falls to the PCs to get him free from the haunt. If Goh is restrained and pulled underwater, the haunt must continue to grapple him in following rounds. If the haunt manages to critically succeed at grappling Goh while he's restrained, the man dies from a combination of fright and drowning, at which point the haunt immediately ends. If Goh is pulled free and taken out of the water, the haunt loses one action and no longer attempts to grapple him. The haunt uses its second action to manifest the image of a frightening watery drowned ghost, causing one creature it targets within 30 feet to attempt a DC 22 Will save (the haunt always targets a creature who attempted to free Goh from its grip if possible).\r\n\r\n---\r\n**Reset**\r\nThe haunt ends if Goh dies and doesn’t reset. If Goh is dragged out of the water, the haunt ends at the end of its next turn but resets immediately the next time Goh enters the river.\n\n**Critical Success** The creature is unaffected.<br />\n**Success** The creature is [frightened](/Conditions.aspx?ID=76) 1.<br />\n**Failure** The creature is frightened 2 and [fleeing](/Conditions.aspx?ID=74) for as long as it remains frightened.<br />\n**Critical Failure** The creature is frightened 3 and fleeing as long as it remains frightened, or for 1 minute, whichever comes second.\n\n**Melee** <actions string=\"Single Action\" /> grapple +15 **Damage** grapple",
+ "name": "Goh' Shame",
+ "primary_source": "Pathfinder #197: Let the Leaves Fall",
+ "primary_source_raw": "Pathfinder #197: Let the Leaves Fall pg. 20",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "release_date": "2023-11-29",
+ "reset": "The haunt ends if Goh dies and doesn’t reset. If Goh is dragged out of the water, the haunt ends at the end of its next turn but resets immediately the next time Goh enters the river.<%CRITICAL.EFFECTS#1376%%><br /><br /><b>Melee</b> <%ACTION.TYPES#2%%> grapple +15 <b>Damage</b> grapple",
+ "resistance": {
+  "fire": 5
+ },
+ "resistance_markdown": "fire 5",
+ "resistance_raw": "fire 5",
+ "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #197: Let the Leaves Fall](/Sources.aspx?ID=222) pg. 20\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA strange shadowy figure churns in the waters at Goh’s feet.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #197: Let the Leaves Fall"
+ ],
+ "source_raw": [
+  "Pathfinder #197: Let the Leaves Fall pg. 20"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Pathfinder #197: Let the Leaves Fall](/Sources.aspx?ID=222) pg. 20",
+ "speed": {},
+ "stealth": "+13 (expert)",
+ "summary": "A strange shadowy figure churns in the waters at Goh’s feet.",
+ "summary_markdown": "A strange shadowy figure churns in the waters at Goh’s feet.",
+ "text": " Goh' Shame Source Pathfinder #197: Let the Leaves Fall pg. 20 Complexity Complex A strange shadowy figure churns in the waters at Goh’s feet. --- Stealth +13 (expert) Disable DC 21 Diplomacy to calm Goh enough that the haunt dissipates, DC 23 Religion to exorcise the haunt, or DC 25 Intimidation to “scare the shame” out of Goh AC 22, Fort +9, Ref +15 HP 54 Immunities critical hits, precision damage Weaknesses positive 5 Resistances fire 5 Grasping Hands Reaction Trigger Goh steps into the Ceiba River; Effect A shadowy figure that looks like a swimming child appears to grab ahold of Goh's ankles and begins to pull him deeper into the water; Goh becomes grabbed. The haunt then rolls initiative. --- Routine (2 actions; emotion, enchantment,fear incapacitation, mental, occult) The haunt uses its first action to grapple with Goh and attempts to pull him underwater. Goh has a Fortitude DC of 19. In order to pull Goh underwater, the haunt must critically succeed at its grapple check against him with a result of 29 or higher to successfully restrain Goh. Goh is overwhelmed by terror and makes no attempt to escape, so it falls to the PCs to get him free from the haunt. If Goh is restrained and pulled underwater, the haunt must continue to grapple him in following rounds. If the haunt manages to critically succeed at grappling Goh while he's restrained, the man dies from a combination of fright and drowning, at which point the haunt immediately ends. If Goh is pulled free and taken out of the water, the haunt loses one action and no longer attempts to grapple him. The haunt uses its second action to manifest the image of a frightening watery drowned ghost, causing one creature it targets within 30 feet to attempt a DC 22 Will save (the haunt always targets a creature who attempted to free Goh from its grip if possible). --- Reset The haunt ends if Goh dies and doesn’t reset. If Goh is dragged out of the water, the haunt ends at the end of its next turn but resets immediately the next time Goh enters the river. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2 and fleeing for as long as it remains frightened. Critical Failure The creature is frightened 3 and fleeing as long as it remains frightened, or for 1 minute, whichever comes second. Melee Single Action grapple +15 Damage grapple",
+ "trait_markdown": "",
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=426",
+ "weakness": {
+  "positive": 5
+ },
+ "weakness_markdown": "positive 5",
+ "weakness_raw": "positive 5"
+}

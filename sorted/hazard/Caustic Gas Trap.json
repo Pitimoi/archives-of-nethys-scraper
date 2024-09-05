@@ -1,0 +1,65 @@
+{
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 28  Crafting  (master) to neutralize the acid or DC 30  Thievery  (master) to disable the pressure plates",
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "hazard_type": "Trap",
+ "id": "hazard-412",
+ "level": 9,
+ "markdown": "<title level=\"1\" right=\"Hazard 9\" pfs=\"\">[Caustic Gas Trap](/Hazards.aspx?ID=412)</title>\r\n\r\n<traits>\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 37\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nPressure plates in the hall trigger the release of caustic gas.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 30 (master)\r\n\r\n**Disable**\r\nDC 28 [Crafting](/Skills.aspx?ID=4) (master) to neutralize the acid or DC 30 [Thievery](/Skills.aspx?ID=17) (master) to disable the pressure plates\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Collapse** <actions string=\"Reaction\" /> **Trigger** A creature in contact with the ground travels down this hall; **Effect** Caustic gas fills the hall, dealing 4d10+26 acid damage to all creatures in area D5 (DC 32 [basic](/Rules.aspx?ID=329) Reflex save).\n\n---\r\n**Reset**\r\nA 10-minute Interact activity and a new supply of caustic gas.",
+ "name": "Caustic Gas Trap",
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 37",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-09-23",
+ "reset": "A 10-minute Interact activity and a new supply of caustic gas.",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 37\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPressure plates in the hall trigger the release of caustic gas.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 37"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 37",
+ "speed": {},
+ "stealth": "DC 30 (master)",
+ "summary": "Pressure plates in the hall trigger the release of caustic gas.",
+ "summary_markdown": "Pressure plates in the hall trigger the release of caustic gas.",
+ "text": " Caustic Gas Trap Source Pathfinder #195: Heavy is the Crown pg. 37 Complexity Simple Pressure plates in the hall trigger the release of caustic gas. --- Stealth DC 30 (master) Disable DC 28 Crafting (master) to neutralize the acid or DC 30 Thievery (master) to disable the pressure plates Collapse Reaction Trigger A creature in contact with the ground travels down this hall; Effect Caustic gas fills the hall, dealing 4d10+26 acid damage to all creatures in area D5 (DC 32 basic Reflex save). --- Reset A 10-minute Interact activity and a new supply of caustic gas.",
+ "trait": [
+  "Fire",
+  "Mechanical",
+  "Trap"
+ ],
+ "trait_group": [
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Equipment",
+  "Hazard"
+ ],
+ "trait_markdown": "[Fire](/Traits.aspx?ID=72), [Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
+ "trait_raw": [
+  "Fire",
+  "Mechanical",
+  "Trap"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=412",
+ "weakness": {}
+}

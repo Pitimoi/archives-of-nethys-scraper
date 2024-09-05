@@ -1,38 +1,62 @@
 {
  "ac": 21,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "category": "creature",
  "charisma": -4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Scorpion Venom",
   "Swarming Stings"
  ],
  "creature_family": "Scorpion",
- "creature_family_markdown": "[Scorpion](/MonsterFamilies.aspx?ID=87)",
+ "creature_family_markdown": "[Scorpion](/MonsterFamilies.aspx?ID=466)",
  "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 10,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 55,
  "hp_raw": "55",
- "id": "creature-357",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3176",
  "immunity": [
+  "grapple",
   "precision",
+  "prone",
+  "restrained",
   "swarm mind"
  ],
- "immunity_markdown": "precision, swarm mind",
+ "immunity_markdown": "[grapple](/Conditions.aspx?ID=77), precision, [prone](/Conditions.aspx?ID=88), [restrained](/Conditions.aspx?ID=90), [swarm mind](/MonsterAbilities.aspx?ID=78)",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-357",
  "level": 4,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Scorpion Swarm](/Monsters.aspx?ID=357)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down their prey before devouring everything short of the victim’s bones.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Scorpion Swarm](/Monsters.aspx?ID=357)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 285</row>\n\n**Perception** +11; darkvision\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n**HP** 55\n\n**Immunities**\r\nprecision, swarm mind\r\n\r\n**Resistances**\r\nbludgeoning 3, piercing 7, slashing 7\r\n\r\n**Weaknesses**\r\narea damage 5, splash damage 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\n\n**Scorpion Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 18 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison damage (1 round); **Stage 2** 1d6 poison damage and [enfeebled 1](/Conditions.aspx?ID=13) (1 round)\r\n\r\n**Swarming Stings** <actions string=\"Single Action\" />  Each enemy in the swarm’s space takes 2d8 piercing damage (DC 21 basic Reflex save) and is exposed to scorpion venom.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-87\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Scorpion Swarm](/Monsters.aspx?ID=3176)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down their prey before devouring everything short of the victim's bones.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Scorpion Swarm](/Monsters.aspx?ID=3176)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 298\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 55\n\n</row>\r\n\r\n**Immunities**\r\n[grapple](/Conditions.aspx?ID=77), precision, [prone](/Conditions.aspx?ID=88), [restrained](/Conditions.aspx?ID=90), [swarm mind](/MonsterAbilities.aspx?ID=78)\r\n\r\n**Resistances**\r\nbludgeoning 3, piercing 7, slashing 7\r\n\r\n**Weaknesses**\r\narea damage 5, [splash](/Traits.aspx?ID=699) damage 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\n\n**Scorpion Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 18 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison damage (1 round); **Stage 2** 1d6 poison damage and [enfeebled 1](/Conditions.aspx?ID=71) (1 round)\r\n\r\n**Swarming Stings** <actions string=\"Single Action\" />  Each enemy in the swarm's space takes 2d8 piercing damage (DC 21 [basic](/Rules.aspx?ID=329) Reflex save) and is exposed to scorpion venom.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-466\" />",
  "name": "Scorpion Swarm",
  "npc": false,
  "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 298",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 3,
   "piercing": 7,
@@ -40,26 +64,36 @@
  },
  "resistance_markdown": "bludgeoning 3, piercing 7, slashing 7",
  "resistance_raw": "bludgeoning 3, piercing 7, slashing 7",
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 285</row>\r\n\r\n**Creature Family** [Scorpion](/MonsterFamilies.aspx?ID=87)\r\n\r\n<row gap=\"medium\">\r\n**HP** 55\r\n\r\n**AC** 21\r\n\r\n**Fort** +10\r\n\r\n**Ref** +13\r\n\r\n**Will** +8\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 298\r\n\r\n**Creature Family** [Scorpion](/MonsterFamilies.aspx?ID=466)\r\n\r\n<row gap=\"medium\">\r\n**HP** 55\r\n\r\n**AC** 21\r\n\r\n**Fort** +10\r\n\r\n**Ref** +13\r\n\r\n**Will** +8\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +11",
-  "Athletics +6",
-  "Stealth +11"
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +11",
+ "skill_mod": {
+  "acrobatics": 11,
+  "athletics": 6,
+  "stealth": 11
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 285"
+  "Monster Core pg. 298"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 285</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 298",
  "speed": {
   "land": 25,
   "max": 25
@@ -69,36 +103,45 @@
  "spell_markdown": "",
  "stealth": "11",
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "While a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down …",
  "summary_markdown": "While a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down …",
- "text": " Scorpion Swarm While a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down their prey before devouring everything short of the victim’s bones. Recall Knowledge - Animal (Nature): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Scorpion Swarm Source Bestiary pg. 285 Perception +11; darkvision Languages Skills Acrobatics +11, Athletics +6, Stealth +11 Str +0 Dex +5 Con +2 Int -5 Wis +0 Cha -4 --- AC 21 Fort +10 Ref +13 Will +8 HP 55 Immunities precision, swarm mind Resistances bludgeoning 3, piercing 7, slashing 7 Weaknesses area damage 5, splash damage 5 --- Speed 25 feet Scorpion Venom (Poison) Saving Throw DC 18 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage (1 round); Stage 2 1d6 poison damage and enfeebled 1 (1 round) Swarming Stings Single Action Each enemy in the swarm’s space takes 2d8 piercing damage (DC 21 basic Reflex save) and is exposed to scorpion venom. ",
+ "text": " Scorpion Swarm While a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down their prey before devouring everything short of the victim's bones. Recall Knowledge - Animal (Nature): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Scorpion Swarm Source Monster Core pg. 298 Perception +11; darkvision Languages Skills Acrobatics +11, Athletics +6, Stealth +11 Str +0 Dex +5 Con +2 Int -5 Wis +0 Cha -4 --- AC 21 Fort +10 Ref +13 Will +8 HP 55 Immunities grapple, precision, prone, restrained, swarm mind Resistances bludgeoning 3, piercing 7, slashing 7 Weaknesses area damage 5, splash damage 5 --- Speed 25 feet Scorpion Venom (Poison) Saving Throw DC 18 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage (1 round); Stage 2 1d6 poison damage and enfeebled 1 (1 round) Swarming Stings Single Action Each enemy in the swarm's space takes 2d8 piercing damage (DC 21 basic Reflex save) and is exposed to scorpion venom. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Swarm",
-  "N",
   "Large"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Swarm](/Traits.aspx?ID=239)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Swarm](/Traits.aspx?ID=707)",
  "trait_raw": [
   "Animal",
   "Swarm"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=357",
+ "url": "/Monsters.aspx?ID=3176",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {
-  "area": 5,
-  "splash": 5
+  "area": 5
  },
- "weakness_markdown": "area damage 5, splash damage 5",
- "weakness_raw": "area damage 5, splash damage 5",
+ "weakness_markdown": "area damage 5, [splash](/Traits.aspx?ID=699) damage 5",
+ "weakness_raw": "area damage 5,  splash  damage 5",
  "will_save": 8,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

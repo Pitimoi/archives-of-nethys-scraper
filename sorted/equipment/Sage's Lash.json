@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -9,38 +8,49 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 18,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Sage's Lash](/Equipment.aspx?ID=1072)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 189 <sup>1.1</sup></row>\n\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn belt\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of four multicolored, perfectly spherical beads: jade, turquoise, quartz, and amethyst. While wearing the lash, you gain a +3 item bonus to [Religion](/Skills.aspx?ID=13). When you invest the belt, you either increase your Wisdom score by 2 or to 18, whichever would give you a higher score.\n\n<document level=\"2\" id=\"action-862\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Sage's Lash](/Equipment.aspx?ID=1072)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 189 <sup>1.1</sup>\n\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn belt\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of four multicolored, perfectly spherical beads: jade, turquoise, quartz, and amethyst. While wearing the lash, you gain a +3 item bonus to [Religion](/Skills.aspx?ID=13). When you invest the belt, you either increase your Wisdom score by 2 or to 18, whichever would give you a higher score.\n\n**Activate** <actions string=\"Two Actions\" /> command, Interact;     **Effect** You touch one of the jewels affixed to the sage's lash and speak a command word. Depending on the jewel, a different effect is produced that affects you and all living creatures in a 30-foot emanation. After the effect occurs, all four jewels disappear from the lash, reappearing at the next dawn. \n\n<ul><li>**Jade** ([healing](/Traits.aspx?ID=89), [positive](/Traits.aspx?ID=128)) Speak “purity” to produce a wave of green light that ends any [sickened](/Conditions.aspx?ID=34) condition and any [ongoing poison damage](/Conditions.aspx?ID=29) affecting creatures in the emanation.</li><li>**Turquoise** Speak “clarity” to grant all affected a +2 status bonus to their next Will save for 1 minute.</li><li>**Quartz** ([healing](/Traits.aspx?ID=89), [positive](/Traits.aspx?ID=128)) Speak “lenity” to have each creature regain 30 Hit Points.</li><li>**Amethyst** ([divination](/Traits.aspx?ID=47), [light](/Traits.aspx?ID=100), [revelation](/Traits.aspx?ID=138)) Speak “verity” to emit a magical trail of light from the lash that reveals the location of each creature in the emanation. For 1 round, if they would be [invisible](/Conditions.aspx?ID=26), they become [concealed](/Conditions.aspx?ID=4) instead, and if they would be [undetected](/Conditions.aspx?ID=39) or [unnoticed](/Conditions.aspx?ID=41) by a creature, they're [hidden](/Conditions.aspx?ID=22) instead. A creature can attempt a DC 43 [Stealth](/Skills.aspx?ID=15) check to avoid the lash's detection.</li></ul>\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Sage's Lash",
  "pfs": "Standard",
  "price": 2400000,
  "price_raw": "24,000 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 189",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 189 <sup>1.1</sup></row>\r\n\r\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn belt\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 189 <sup>1.1</sup>\r\n\r\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn belt\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of …\r\n</summary>",
  "skill": [
   "Religion"
  ],
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 189"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 189 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 189 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "The thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of …",
  "summary_markdown": "The thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of …",
- "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Sage's Lash Source Secrets of Magic pg. 189 1.1 Price 24,000 gp Usage worn belt Bulk 1 --- The thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of four multicolored, perfectly spherical beads: jade, turquoise, quartz, and amethyst. While wearing the lash, you gain a +3 item bonus to Religion. When you invest the belt, you either increase your Wisdom score by 2 or to 18, whichever would give you a higher score.\n",
+ "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Sage's Lash Source Secrets of Magic pg. 189 1.1 Price 24,000 gp Usage worn belt Bulk 1 --- The thin, glittering strands of rope that comprise this thick belt appear to be spun gold. Strung along the front of the belt are a collection of four multicolored, perfectly spherical beads: jade, turquoise, quartz, and amethyst. While wearing the lash, you gain a +3 item bonus to Religion. When you invest the belt, you either increase your Wisdom score by 2 or to 18, whichever would give you a higher score. Activate Two Actions command, Interact; Effect You touch one of the jewels affixed to the sage's lash and speak a command word. Depending on the jewel, a different effect is produced that affects you and all living creatures in a 30-foot emanation. After the effect occurs, all four jewels disappear from the lash, reappearing at the next dawn. Jade (healing, positive) Speak “purity” to produce a wave of green light that ends any sickened condition and any ongoing poison damage affecting creatures in the emanation. Turquoise Speak “clarity” to grant all affected a +2 status bonus to their next Will save for 1 minute. Quartz (healing, positive) Speak “lenity” to have each creature regain 30 Hit Points. Amethyst (divination, light, revelation) Speak “verity” to emit a magical trail of light from the lash that reveals the location of each creature in the emanation. For 1 round, if they would be invisible, they become concealed instead, and if they would be undetected or unnoticed by a creature, they're hidden instead. A creature can attempt a DC 43 Stealth check to avoid the lash's detection. ",
  "trait": [
   "Apex",
   "Invested",
   "Magical",
   "Necromancy"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117)",
  "trait_raw": [

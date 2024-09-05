@@ -1,67 +1,71 @@
 {
  "actions": "Three Actions",
+ "actions_number": 6,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "material",
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "varies",
  "exclude_from_search": false,
+ "heighten_group": [
+  "10th rank"
+ ],
  "heighten_level": [
   10
  ],
- "id": "spell-106",
+ "id": "spell-1520",
+ "legacy_id": "spell-106",
  "level": 10,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 10\" pfs=\"Standard\">[Fabricated Truth](/Spells.aspx?ID=106)</title>\n\n<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 336 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\n\n**Target** up to 5 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nChoose a single statement you want the targets to believe. The fact could be narrow, such as “a dragon is circling overhead and wants to kill me”; wide-reaching, such as “all humanoids are disguised abominations”; or conceptual, such as “if I don't live a kinder life, I'll be punished in the afterlife.” The targets' experiences color how they react to this “truth” and how their behavior changes. If the statement changes what they perceive, they treat the change as a sudden revelation.\n\n The effect of the spell depends on the targets' Will saves. If a target is already subject to _fabricated truth_, your spell tries to counteract it. If the counteract check fails, the outcome of the target's saving throw can't be worse than a success.\r\n\r\n**Critical Success** The target doesn't believe the statement, and it knows you tried to trick it.<br />\r\n**Success** The target doesn't believe the statement or realize you tried to trick it.<br />\r\n**Failure** The target believes the statement for a duration of 1 week.<br />\r\n**Critical Failure** The target believes the statement with unlimited duration.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 10\" pfs=\"Standard\">\r\n[Fabricated Truth](/Spells.aspx?ID=1520)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 330\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\n\n**Target** up to 5 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nChoose a single statement you want the targets to believe. The fact could be narrow, such as “a dragon is circling overhead and wants to kill me”; wide-reaching, such as “all humanoids are disguised abominations”; or conceptual, such as “if I don't live a kinder life, I'll be punished in the afterlife.” The targets' experiences color how they react to this “truth” and how their behavior changes. If the statement changes what they perceive, they treat the change as a sudden revelation.\n\n The effect of the spell depends on the targets' Will saves. If a target is already affected by _fabricated truth_, your spell tries to [counteract](/Rules.aspx?ID=371) it. If the counteract check fails, the outcome of the target's saving throw can't be worse than a success.\r\n\r\n**Critical Success** The target doesn't believe the statement, and it knows you tried to trick it.<br />\r\n**Success** The target doesn't believe the statement or realize you tried to trick it.<br />\r\n**Failure** The target believes the statement for 1 week.<br />\r\n**Critical Failure** The target believes the statement with unlimited duration.",
  "name": "Fabricated Truth",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 330",
+ "primary_source_category": "Rulebooks",
  "range": 100,
  "range_raw": "100 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 336 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\r\n\r\n \r\n\r\n**Target** up to 5 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake creatures believe something is fact.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 330\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 100 feet\r\n\r\n \r\n\r\n**Target** up to 5 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake creatures believe something is factual.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 336"
+  "Player Core pg. 330"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 336 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 330",
  "speed": {},
- "summary": "Make creatures believe something is fact.",
- "summary_markdown": "Make creatures believe something is fact.",
+ "spell_type": "Spell",
+ "summary": "Make creatures believe something is factual.",
+ "summary_markdown": "Make creatures believe something is factual.",
  "target": "up to 5 creatures",
  "target_markdown": "up to 5 creatures",
- "text": " Fabricated Truth Source Core Rulebook pg. 336 4.0 Tradition Occult Cast Three Actions material, somatic, verbal Range 100 feet Target up to 5 creatures Saving Throw Will Duration varies --- Choose a single statement you want the targets to believe. The fact could be narrow, such as “a dragon is circling overhead and wants to kill me”; wide-reaching, such as “all humanoids are disguised abominations”; or conceptual, such as “if I don't live a kinder life, I'll be punished in the afterlife.” The targets' experiences color how they react to this “truth” and how their behavior changes. If the statement changes what they perceive, they treat the change as a sudden revelation. The effect of the spell depends on the targets' Will saves. If a target is already subject to fabricated truth , your spell tries to counteract it. If the counteract check fails, the outcome of the target's saving throw can't be worse than a success. Critical Success The target doesn't believe the statement, and it knows you tried to trick it. Success The target doesn't believe the statement or realize you tried to trick it. Failure The target believes the statement for a duration of 1 week. Critical Failure The target believes the statement with unlimited duration.",
+ "text": "\nFabricated Truth Three Actions Source Player Core pg. 330 Tradition Occult Range 100 feet Target up to 5 creatures Defense Will Duration varies --- Choose a single statement you want the targets to believe. The fact could be narrow, such as “a dragon is circling overhead and wants to kill me”; wide-reaching, such as “all humanoids are disguised abominations”; or conceptual, such as “if I don't live a kinder life, I'll be punished in the afterlife.” The targets' experiences color how they react to this “truth” and how their behavior changes. If the statement changes what they perceive, they treat the change as a sudden revelation. The effect of the spell depends on the targets' Will saves. If a target is already affected by fabricated truth , your spell tries to counteract it. If the counteract check fails, the outcome of the target's saving throw can't be worse than a success. Critical Success The target doesn't believe the statement, and it knows you tried to trick it. Success The target doesn't believe the statement or realize you tried to trick it. Failure The target believes the statement for 1 week. Critical Failure The target believes the statement with unlimited duration.",
  "tradition": [
   "Occult"
  ],
  "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Enchantment",
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
-  "Enchantment",
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=106",
+ "url": "/Spells.aspx?ID=1520",
  "weakness": {}
 }

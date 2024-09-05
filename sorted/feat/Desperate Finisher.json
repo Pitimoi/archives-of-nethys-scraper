@@ -1,45 +1,56 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Desperate Finisher"
  ],
  "feat_markdown": "Desperate Finisher",
- "id": "feat-414",
+ "id": "feat-4840",
+ "legacy_id": "feat-414",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Desperate Finisher](/Feats.aspx?ID=414) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup></row>\n\n**Trigger**\r\nYou complete the last action on your turn, and your turn has not ended yet.\r\n\r\n**Requirements**\r\nYou meet the requirements to use an action with the press trait.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou throw everything into one last press. Use a single action that you know with the press trait as part of Desperate Finisher. You forgo the ability to use reactions until the start of your next turn.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Desperate Finisher](/Feats.aspx?ID=4840) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n<trait label=\"Press\" url=\"/Traits.aspx?ID=133\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 149\n\n**Trigger**\r\nYou complete the last action on your turn, and your turn has not ended yet\n\n</column>\r\n\r\n---\r\n\r\nYou throw everything you have into one last, reckless press. Use a single action that you know with the press trait. You forgo the ability to use reactions until the start of your next turn. This press uses your multiple attack penalty, as normal.",
  "name": "Desperate Finisher",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 149",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
- "requirement": "You meet the requirements to use an action with the press trait.",
- "requirement_markdown": "You meet the requirements to use an action with the press trait.",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup></row>\n\n**Trigger**\r\nYou complete the last action on your turn, and your turn has not ended yet.\r\n\r\n**Requirements**\r\nYou meet the requirements to use an action with the press trait.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou throw everything into one last press.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n<trait label=\"Press\" url=\"/Traits.aspx?ID=133\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 149\n\n**Trigger**\r\nYou complete the last action on your turn, and your turn has not ended yet\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou throw everything you have into one last, reckless press.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 152"
+  "Player Core pg. 149"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 149",
  "speed": {},
- "summary": "You throw everything into one last press.",
- "summary_markdown": "You throw everything into one last press.",
- "text": "<title level=\"1\" right=\"Feat 14\" pfs=\"Standard\" > Desperate Finisher Reaction Source Core Rulebook pg. 152 4.0 Trigger You complete the last action on your turn, and your turn has not ended yet. Requirements You meet the requirements to use an action with the press trait. --- You throw everything into one last press. Use a single action that you know with the press trait as part of Desperate Finisher. You forgo the ability to use reactions until the start of your next turn.",
+ "summary": "You throw everything you have into one last, reckless press.",
+ "summary_markdown": "You throw everything you have into one last, reckless press.",
+ "text": "<title level=\"1\" right=\"Feat 14\" pfs=\"Standard\" > Desperate Finisher Reaction Source Player Core pg. 149 Trigger You complete the last action on your turn, and your turn has not ended yet --- You throw everything you have into one last, reckless press. Use a single action that you know with the press trait. You forgo the ability to use reactions until the start of your next turn. This press uses your multiple attack penalty, as normal.",
  "trait": [
-  "Fighter"
+  "Fighter",
+  "Press"
  ],
- "trait_markdown": "[Fighter](/Traits.aspx?ID=71)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Fighter](/Traits.aspx?ID=601), [Press](/Traits.aspx?ID=133)",
  "trait_raw": [
-  "Fighter"
+  "Fighter",
+  "Press"
  ],
- "trigger": "You complete the last action on your turn, and your turn has not ended yet.",
- "trigger_markdown": "You complete the last action on your turn, and your turn has not ended yet.",
+ "trigger": "You complete the last action on your turn, and your turn has not ended yet",
+ "trigger_markdown": "You complete the last action on your turn, and your turn has not ended yet",
  "type": "Feat",
- "url": "/Feats.aspx?ID=414",
+ "url": "/Feats.aspx?ID=4840",
  "weakness": {}
 }

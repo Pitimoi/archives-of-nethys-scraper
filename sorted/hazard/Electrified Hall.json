@@ -1,0 +1,64 @@
+{
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 30  Thievery  (master) to scratch out the runes, or   dispel magic   (5th level;  counteract  DC 28) to counteract the runes",
+ "exclude_from_search": false,
+ "hazard_type": "Trap",
+ "id": "hazard-408",
+ "level": 9,
+ "markdown": "<title level=\"1\" right=\"Hazard 9\" pfs=\"\">[Electrified Hall](/Hazards.aspx?ID=408)</title>\r\n\r\n<traits>\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 29\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nRunes hidden in the door's carvings blast lightning down the hall.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 33 (expert)\r\n\r\n**Disable**\r\nDC 30 [Thievery](/Skills.aspx?ID=17) (master) to scratch out the runes, or [_dispel magic_](/Spells.aspx?ID=78) (5th level; [counteract](/Rules.aspx?ID=371) DC 28) to counteract the runes\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Synaptic Jolt** <actions string=\"Reaction\" /> ([arcane](/Traits.aspx?ID=11), [electricity](/Traits.aspx?ID=56), [evocation](/Traits.aspx?ID=65), [nonlethal](/Traits.aspx?ID=188)) **Trigger** A creature damages the door, fails to [Force Open](/Actions.aspx?ID=34) the door, or fails a check to realign the stonework keys; **Effect** Electricity fills the hallway and affects all creatures inside it, who must attempt a DC 28 Reflex save.\r\n\r\n**Critical Success** No effect.<br />\r\n**Success** The trap deals 1d12+5 electricity damage.<br />\r\n**Failure** The trap deals 2d12+10 electricity damage, and the creature becomes [clumsy 1](/Conditions.aspx?ID=3) and [stupefied 1](/Conditions.aspx?ID=37) for 1 hour.<br />\r\n**Critical Failure** The trap deals 4d12+20 electricity damage, and the creature becomes clumsy 2 and stupefied 2 for 1 hour.\n\n---\r\n**Reset**\r\nautomatic",
+ "name": "Electrified Hall",
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 29",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-09-23",
+ "reset": "automatic",
+ "resistance": {},
+ "school": "evocation",
+ "search_markdown": "<traits>\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 29\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRunes hidden in the door's carvings blast lightning down the hall.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 29"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 29",
+ "speed": {},
+ "stealth": "DC 33 (expert)",
+ "summary": "Runes hidden in the door's carvings blast lightning down the hall.",
+ "summary_markdown": "Runes hidden in the door's carvings blast lightning down the hall.",
+ "text": " Electrified Hall Source Pathfinder #195: Heavy is the Crown pg. 29 Complexity Simple Runes hidden in the door's carvings blast lightning down the hall. --- Stealth DC 33 (expert) Disable DC 30 Thievery (master) to scratch out the runes, or dispel magic (5th level; counteract DC 28) to counteract the runes Synaptic Jolt Reaction (arcane, electricity, evocation, nonlethal) Trigger A creature damages the door, fails to Force Open the door, or fails a check to realign the stonework keys; Effect Electricity fills the hallway and affects all creatures inside it, who must attempt a DC 28 Reflex save. Critical Success No effect. Success The trap deals 1d12+5 electricity damage. Failure The trap deals 2d12+10 electricity damage, and the creature becomes clumsy 1 and stupefied 1 for 1 hour. Critical Failure The trap deals 4d12+20 electricity damage, and the creature becomes clumsy 2 and stupefied 2 for 1 hour. --- Reset automatic",
+ "trait": [
+  "Electricity",
+  "Evocation",
+  "Magical",
+  "Trap"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "School",
+  "Equipment",
+  "Hazard"
+ ],
+ "trait_markdown": "[Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65), [Magical](/Traits.aspx?ID=103), [Trap](/Traits.aspx?ID=158)",
+ "trait_raw": [
+  "Electricity",
+  "Evocation",
+  "Magical",
+  "Trap"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=408",
+ "weakness": {}
+}

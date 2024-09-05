@@ -1,58 +1,108 @@
 {
- "ac": 20,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac": 18,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  8,
+  11,
+  11,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Stench",
   "Weakening Strike"
  ],
  "creature_family": "Xulgath",
- "creature_family_markdown": "[Xulgath](/MonsterFamilies.aspx?ID=102)",
+ "creature_family_markdown": "[Xulgath](/MonsterFamilies.aspx?ID=486)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 9,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 44,
  "hp_raw": "44",
- "id": "creature-420",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3246",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Breastplate",
+  "Greataxe",
+  "Javelin (4)"
+ ],
  "language": [
   "Draconic",
-  "Undercommon"
+  "Sakvroth"
  ],
- "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)",
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-420",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Xulgath Leader](/Monsters.aspx?ID=420)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nXulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath tribes are led by powerful demon cultists or other monsters who seek to use the xulgaths as servants or slaves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Xulgath Leader](/Monsters.aspx?ID=420)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 337</row>\n\n**Perception** +9; darkvision\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Breastplate](/Armor.aspx?ID=10), [Javelin](/Weapons.aspx?ID=71) (4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n**HP** 44\n\n**Stench** ([aura](/Traits.aspx?ID=206), [olfactory](/Traits.aspx?ID=246)) 30 feet. A creature that enters the area must attempt a DC 19 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths’ stenches for 1 minute.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ngreataxe +11 ([Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 1d10+6 slashing plus Weakening Strike\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +11,\r\n**Damage** 1d6+6 piercing plus Weakening Strike\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +11 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+6 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\njavelin +8 ([thrown 30 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+4 piercing\n\n**Weakening Strike** <actions string=\"Single Action\" />  The target must succeed at a DC 20 Fortitude save or become [enfeebled 1](/Skills.aspx?ID=13) (or [enfeebled 2](/Skills.aspx?ID=13) on a critical hit) for 1 round.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-102\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Xulgath Leader](/Monsters.aspx?ID=3246)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nXulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath clutches are led by powerful demon cultists or other monsters who seek to use the xulgaths as servants or sacrifices.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Xulgath Leader](/Monsters.aspx?ID=3246)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=781\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 353\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Breastplate](/Armor.aspx?ID=10), [Greataxe](/Weapons.aspx?ID=21), [Javelin](/Weapons.aspx?ID=71) (4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 44\n\n</row>\n\n**[Stench](/MonsterAbilities.aspx?ID=76)** ([aura](/Traits.aspx?ID=542), [olfactory](/Traits.aspx?ID=664)) 30 feet, DC 19\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ngreataxe +11 ([Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 1d10+6 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +11,\r\n**Damage** 1d6+6 piercing plus weakening strike\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +11 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+6 slashing plus weakening strike\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\njavelin +8 ([thrown 30 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+4 piercing\n\n**Weakening Strike**   A creature hit by a xulgath leader's jaws or claw Strike is [enfeebled 1](/Conditions.aspx?ID=71) (or enfeebled 2 on a critical hit) for 1 round.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-486\" />",
  "name": "Xulgath Leader",
  "npc": false,
  "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 353",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 6,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 337</row>\r\n\r\n**Creature Family** [Xulgath](/MonsterFamilies.aspx?ID=102)\r\n\r\n<row gap=\"medium\">\r\n**HP** 44\r\n\r\n**AC** 20\r\n\r\n**Fort** +9\r\n\r\n**Ref** +6\r\n\r\n**Will** +9\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nXulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath tribes …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=781\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 353\r\n\r\n**Creature Family** [Xulgath](/MonsterFamilies.aspx?ID=486)\r\n\r\n<row gap=\"medium\">\r\n**HP** 44\r\n\r\n**AC** 18\r\n\r\n**Fort** +9\r\n\r\n**Ref** +6\r\n\r\n**Will** +9\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nXulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +11",
-  "Intimidation +6",
-  "Stealth +6"
+  "Athletics",
+  "Intimidation",
+  "Stealth"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "athletics": 11,
+  "intimidation": 6,
+  "stealth": 6
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 337"
+  "Monster Core pg. 353"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 337</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 353",
  "speed": {
   "land": 25,
   "max": 25
@@ -61,28 +111,48 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "stealth": "6",
+ "strike_damage_average": [
+  7,
+  8,
+  9,
+  11
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude",
   "will"
  ],
- "summary": "Xulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath tribes …",
- "summary_markdown": "Xulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath tribes …",
- "text": " Xulgath Leader Xulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath tribes are led by powerful demon cultists or other monsters who seek to use the xulgaths as servants or slaves. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Xulgath Leader Source Bestiary pg. 337 Perception +9; darkvision Languages Draconic, Undercommon Skills Athletics +11, Intimidation +6, Stealth +6 Str +4 Dex +1 Con +2 Int -1 Wis +2 Cha +1 Items Breastplate, Javelin (4) --- AC 20 Fort +9 Ref +6 Will +9 HP 44 Stench (aura, olfactory) 30 feet. A creature that enters the area must attempt a DC 19 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths’ stenches for 1 minute. --- Speed 25 feet Melee Single Action greataxe +11 (Sweep), Damage 1d10+6 slashing plus Weakening Strike Melee Single Action jaws +11, Damage 1d6+6 piercing plus Weakening Strike Melee Single Action claw +11 (Agile), Damage 1d4+6 slashing Ranged Single Action javelin +8 (thrown 30 feet), Damage 1d6+4 piercing Weakening Strike Single Action The target must succeed at a DC 20 Fortitude save or become enfeebled 1 (or enfeebled 2 on a critical hit) for 1 round. ",
+ "summary": "Xulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath …",
+ "summary_markdown": "Xulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath …",
+ "text": " Xulgath Leader Xulgath leaders are usually the strongest, most violent members of a community—although in some cases, particularly in larger groups, xulgath clutches are led by powerful demon cultists or other monsters who seek to use the xulgaths as servants or sacrifices. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Xulgath Leader Source Monster Core pg. 353 Perception +9; darkvision Languages Draconic, Sakvroth Skills Athletics +11, Intimidation +6, Stealth +6 Str +4 Dex +1 Con +2 Int -1 Wis +2 Cha +1 Items Breastplate, Greataxe, Javelin (4) --- AC 18 Fort +9 Ref +6 Will +9 HP 44 Stench (aura, olfactory) 30 feet, DC 19 --- Speed 25 feet Melee Single Action greataxe +11 (Sweep), Damage 1d10+6 slashing Melee Single Action jaws +11, Damage 1d6+6 piercing plus weakening strike Melee Single Action claw +11 (Agile), Damage 1d4+6 slashing plus weakening strike Ranged Single Action javelin +8 (thrown 30 feet), Damage 1d6+4 piercing Weakening Strike A creature hit by a xulgath leader's jaws or claw Strike is enfeebled 1 (or enfeebled 2 on a critical hit) for 1 round. ",
+ "tradition_markdown": "",
  "trait": [
   "Humanoid",
   "Xulgath",
-  "CE",
   "Medium"
  ],
- "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Xulgath](/Traits.aspx?ID=244)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628), [Xulgath](/Traits.aspx?ID=781)",
  "trait_raw": [
   "Humanoid",
   "Xulgath"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=420",
+ "url": "/Monsters.aspx?ID=3246",
  "vision": "Darkvision",
  "weakest_save": [
   "ref",
@@ -90,5 +160,9 @@
  ],
  "weakness": {},
  "will_save": 9,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

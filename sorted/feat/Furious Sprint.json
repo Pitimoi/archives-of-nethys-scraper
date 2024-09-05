@@ -1,6 +1,6 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Furious Sprint",
  "id": "feat-158",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Furious Sprint](/Feats.aspx?ID=158) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou rush forward. Stride up to five times your Speed in a straight line. You can increase the number of actions this activity takes to 3 to Stride up to eight times your Speed in a straight line instead.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Furious Sprint](/Feats.aspx?ID=158) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou rush forward. Stride up to five times your Speed in a straight line. You can increase the number of actions this activity takes to 3 to Stride up to eight times your Speed in a straight line instead.",
  "name": "Furious Sprint",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 91",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou rush forward.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou rush forward.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 91"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup>",
  "speed": {},
  "summary": "You rush forward.",
  "summary_markdown": "You rush forward.",
@@ -31,6 +38,10 @@
  "trait": [
   "Barbarian",
   "Rage"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Barbarian](/Traits.aspx?ID=18), [Rage](/Traits.aspx?ID=135)",
  "trait_raw": [

@@ -1,64 +1,110 @@
 {
  "ac": 27,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  20,
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Catch Rock",
-  "Hook Shake",
-  "Throw Rock",
+  "Drowning Hook",
   "Twist the Hook"
  ],
  "creature_family": "Giant",
- "creature_family_markdown": "[Giant](/MonsterFamilies.aspx?ID=53)",
+ "creature_family_markdown": "[Giant](/MonsterFamilies.aspx?ID=420)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 150,
  "hp_raw": "150",
- "id": "creature-679",
- "image": [
-  "/Images/Monsters/Giant_MarshGiant.png"
- ],
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3011",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking gaff"
+ ],
  "language": [
   "Aklo",
   "Common",
-  "Jotun"
+  "Jotun",
+  "Thalassic"
  ],
- "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)",
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Thalassic](/Languages.aspx?ID=113)",
+ "legacy_id": "creature-679",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Marsh Giant](/Monsters.aspx?ID=679)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants are hideous in appearance indeed, with fishlike mouths, slimy gray-green skin, and dark, beady eyes. They prefer to eat the flesh of those they slay in battle, but many are also cannibals. It is perhaps this vicious behavior that keeps the creatures in check, for if a fellow marsh giant becomes too dangerous and powerful, it runs the risk of being ambushed and consumed by its clan.\n\n Marsh giants are insular and mysterious, dedicating much of their lives to zealous worship of sea-dwelling deities or stranger entities. While there is no central religion followed by all marsh giants, many are known to venerate the demon lord [Dagon](/Deities.aspx?ID=75), while others worship even more powerful monstrosities from the Elder Mythos, such as distant, dreaming Cthulhu.\n\n Only rarely do more than a dozen marsh giants settle together in a location, but when they do it is often for a religious purpose. Whatever call from the deep draws them together also tugs at nearby creatures such as boggards or skum, who look upon marsh giants in fear and reverence. The grim, terrifying chants and screams coming from such an encampment are a sure sign of terror to come for any other residents of the area.\n\n Barely topping 11 feet tall and 1,000 pounds, marsh giants are small for giants but make up for their relatively diminutive stature with their zealotry.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Giant_MarshGiant.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Marsh Giant](/Monsters.aspx?ID=679)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 125 <sup>2.0</sup></row>\n\n**Perception** +16; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +15, [Religion](/Skills.aspx?ID=13) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=280) [gaff](/Weapons.aspx?ID=121)_, [sack with 5 rocks](/Equipment.aspx?ID=45)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +17 \n\n</row>\r\n\r\n**HP** 150\n\n**[Catch Rock](/MonsterAbilities.aspx?ID=7)** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ngaff +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d6+14 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +20 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+14 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +20 ([Brutal](/Traits.aspx?ID=249), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d6+14 bludgeoning\r\n\r\n**Occult Innate Spells** DC 23\r\n- **2nd**\r\n[Augury](/Spells.aspx?ID=15), [Obscuring Mist](/Spells.aspx?ID=210)\r\n- **5th**\r\n[Mariner's Curse](/Spells.aspx?ID=184)\r\n\r\n**Hook Shake** <actions string=\"Single Action\" />  **Requirements** A creature adjacent to the marsh giant is [prone](/Conditions.aspx?ID=31) in water at least 1 foot deep; **Effect** The marsh giant uses its gaff to shake the creature back and forth and hold it underwater. The giant attempts an [Athletics](/Skills.aspx?ID=3) check against the target's Fortitude DC. <br />**Critical Success** The target takes 6d6+14 piercing damage and loses 5 rounds' worth of air if they were [holding their breath](/Rules.aspx?ID=468). <br />**Success** The target takes 3d6+14 piercing damage and loses 3 rounds' worth of air if they were holding their breath. <br />**Failure** The target is unaffected. <br />**Critical Failure** As failure, but the giant drops its gaff as well.\r\n\r\n**[Throw Rock](/MonsterAbilities.aspx?ID=38)** <actions string=\"Single Action\" />  \r\n\r\n**Twist the Hook** <actions string=\"Two Actions\" />  The marsh giant makes a melee Strike with its gaff. If it hits, it twists and yanks the gaff to create an awful wound, dealing 3d6 [persistent bleed damage](/Conditions.aspx?ID=29) to the creature.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Gaffs</title>\r\n\r\nMany marsh giants fight with oversized [gaffs](/Weapons.aspx?ID=121)—lengths of wood with a single metal spike affixed to the tip. Used often by fisherfolk to land fish, marsh giants use their gaffs as weapons. A gaff sized for a Medium creature is a common martial weapon in the club group. It deals 1d6 bludgeoning damage and has 1 Bulk. It requires one hand to use and has the [trip](/Traits.aspx?ID=196) and [versatile P](/Traits.aspx?ID=200) weapon traits. Gaffs are readily available in fishing or coastal settlements for 1 gp.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-53\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Marsh Giant](/Monsters.aspx?ID=3011)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants appear hideous to most airbreathers, with fishlike mouths, slimy gray-green skin, and dark, beady eyes. They prefer to eat the flesh of those they slay in battle, including other marsh giants, and guzzle stagnant water from cauldrons or directly from their swampy homes.<br /> Marsh giant clans are insular, with each clan dedicating itself to zealous worship of a sea-dwelling deity, demon lord, or stranger entity. Whatever forces call to the marsh giants sometimes ensnare boggards and ogres as well, gathering in grim worship. Rather than favor these humanoid hangers-on, marsh giants lavish attention on favored pets: [krooths](/Monsters.aspx?ID=276), [giant octopuses](/Monsters.aspx?ID=315), or primeval creatures like [dinosaurs](/MonsterFamilies.aspx?ID=391) and the crocodilian [deinosuchuses](/Monsters.aspx?ID=2888).\n\n Barely topping 11 feet tall and 1,000 pounds, marsh giants are small for giants but make up for their stature with their zealotry.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Marsh Giant](/Monsters.aspx?ID=3011)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 164\n\n**Perception** +16; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +15, [Nature](/Skills.aspx?ID=10) +15, [Religion](/Skills.aspx?ID=13) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [gaff](/Weapons.aspx?ID=169)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +17 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_gaff_ +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d6+14 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +20 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+14 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspit +20 ([Primal](/Traits.aspx?ID=134), [range 60 feet](/Traits.aspx?ID=248), [Water](/Traits.aspx?ID=165)),\r\n**Damage** 5d6 bludgeoning\r\n\r\n**Occult Innate Spells** DC 23\r\n- **2nd**\r\n[Augury](/Spells.aspx?ID=15), [Mist](/Spells.aspx?ID=1606)\r\n- **5th**\r\n[Mariner's Curse](/Spells.aspx?ID=184)\r\n\r\n**Drowning Hook** <actions string=\"Single Action\" /> ([Primal](/Traits.aspx?ID=134), [Water](/Traits.aspx?ID=165)) **Requirements** A creature is [prone](/Conditions.aspx?ID=88) within the marsh giant's reach; **Effect** The marsh giant uses its gaff to push the creature down as water bubbles up below it. The target becomes submerged in water until they are no longer prone and must [hold their breath](/Rules.aspx?ID=468) if they cannot breathe water. They take 4d6 bludgeoning damage (DC 23 [basic](/Rules.aspx?ID=329) Fortitude save) and lose 3 rounds worth of air if they fail the save.\r\n\r\n**Twist the Hook** <actions string=\"Two Actions\" />  The marsh giant makes a melee Strike with its gaff. If it hits, it twists and yanks the gaff to knock the target [prone](/Conditions.aspx?ID=88) and create an awful wound, dealing 2d6 [persistent bleed damage](/Conditions.aspx?ID=29) to the creature.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Gaffs</title>\r\n\r\nMany marsh giants fight with an oversized gaff—a length of wood with a metal hook affixed to the tip. The giants use them to drown prey as humanoid fishers use them to land fish. A gaff is a common martial weapon in the club group. It deals 1d6 bludgeoning damage and has 1 Bulk. It requires one hand to use and has the trip and versatile P weapon traits. Gaffs are readily available anywhere fishers live, costing 1 gp.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-420\" />",
  "name": "Marsh Giant",
  "npc": false,
  "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 164",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
- "release_date": "2020-05-27",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 125 <sup>2.0</sup></row>\r\n\r\n**Creature Family** [Giant](/MonsterFamilies.aspx?ID=53)\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\r\n\r\n**AC** 27\r\n\r\n**Fort** +18\r\n\r\n**Ref** +13\r\n\r\n**Will** +17\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants are hideous in appearance indeed, with fishlike mouths, slimy …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 164\r\n\r\n**Creature Family** [Giant](/MonsterFamilies.aspx?ID=420)\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\r\n\r\n**AC** 27\r\n\r\n**Fort** +18\r\n\r\n**Ref** +13\r\n\r\n**Will** +17\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants appear hideous to most airbreathers, with fishlike mouths, slimy …\r\n</summary>",
  "sense": " low-light vision ",
- "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Large"
  ],
- "skill": [
-  "Athletics +18",
-  "Intimidation +15",
-  "Religion +17"
+ "size_id": [
+  4
  ],
- "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +15, [Religion](/Skills.aspx?ID=13) +17",
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Nature",
+  "Religion"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +15, [Nature](/Skills.aspx?ID=10) +15, [Religion](/Skills.aspx?ID=13) +17",
+ "skill_mod": {
+  "athletics": 18,
+  "intimidation": 15,
+  "nature": 15,
+  "religion": 17
+ },
  "source": [
-  "Bestiary 2"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 2 pg. 125"
+  "Monster Core pg. 164"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 125 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 164",
  "speed": {
   "land": 35,
   "max": 35,
@@ -69,32 +115,67 @@
  "spell": [
   "Mariner's Curse",
   "Augury",
-  "Obscuring Mist"
+  "Mist"
  ],
- "spell_markdown": "[Augury](/Spells.aspx?ID=15), [Mariner's Curse](/Spells.aspx?ID=184), [Obscuring Mist](/Spells.aspx?ID=210)",
+ "spell_markdown": "[Augury](/Spells.aspx?ID=15), [Mariner's Curse](/Spells.aspx?ID=184), [Mist](/Spells.aspx?ID=1606)",
+ "spell_dc": [
+  23
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  17,
+  21,
+  21
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Dwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants are hideous in appearance indeed, with fishlike mouths, slimy …",
- "summary_markdown": "Dwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants are hideous in appearance indeed, with fishlike mouths, slimy …",
- "text": " Marsh Giant Dwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants are hideous in appearance indeed, with fishlike mouths, slimy gray-green skin, and dark, beady eyes. They prefer to eat the flesh of those they slay in battle, but many are also cannibals. It is perhaps this vicious behavior that keeps the creatures in check, for if a fellow marsh giant becomes too dangerous and powerful, it runs the risk of being ambushed and consumed by its clan. Marsh giants are insular and mysterious, dedicating much of their lives to zealous worship of sea-dwelling deities or stranger entities. While there is no central religion followed by all marsh giants, many are known to venerate the demon lord Dagon, while others worship even more powerful monstrosities from the Elder Mythos, such as distant, dreaming Cthulhu. Only rarely do more than a dozen marsh giants settle together in a location, but when they do it is often for a religious purpose. Whatever call from the deep draws them together also tugs at nearby creatures such as boggards or skum, who look upon marsh giants in fear and reverence. The grim, terrifying chants and screams coming from such an encampment are a sure sign of terror to come for any other residents of the area. Barely topping 11 feet tall and 1,000 pounds, marsh giants are small for giants but make up for their relatively diminutive stature with their zealotry. Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Marsh Giant Source Bestiary 2 pg. 125 2.0 Perception +16; low-light vision Languages Aklo, Common, Jotun Skills Athletics +18, Intimidation +15, Religion +17 Str +6 Dex +3 Con +4 Int +0 Wis +3 Cha +1 Items +1 striking gaff , sack with 5 rocks --- AC 27 Fort +18 Ref +13 Will +17 HP 150 Catch Rock Reaction --- Speed 35 feet, swim 20 feet Melee Single Action gaff +20 (Magical, reach 10 feet, Trip, versatile P), Damage 2d6+14 bludgeoning Melee Single Action fist +20 (Agile, reach 10 feet), Damage 2d6+14 bludgeoning Ranged Single Action rock +20 (Brutal, range increment 120 feet), Damage 2d6+14 bludgeoning Occult Innate Spells DC 23 - 2nd Augury, Obscuring Mist - 5th Mariner's Curse Hook Shake Single Action Requirements A creature adjacent to the marsh giant is prone in water at least 1 foot deep; Effect The marsh giant uses its gaff to shake the creature back and forth and hold it underwater. The giant attempts an Athletics check against the target's Fortitude DC. Critical Success The target takes 6d6+14 piercing damage and loses 5 rounds' worth of air if they were holding their breath. Success The target takes 3d6+14 piercing damage and loses 3 rounds' worth of air if they were holding their breath. Failure The target is unaffected. Critical Failure As failure, but the giant drops its gaff as well. Throw Rock Single Action Twist the Hook Two Actions The marsh giant makes a melee Strike with its gaff. If it hits, it twists and yanks the gaff to create an awful wound, dealing 3d6 persistent bleed damage to the creature. Gaffs Many marsh giants fight with oversized gaffs—lengths of wood with a single metal spike affixed to the tip. Used often by fisherfolk to land fish, marsh giants use their gaffs as weapons. A gaff sized for a Medium creature is a common martial weapon in the club group. It deals 1d6 bludgeoning damage and has 1 Bulk. It requires one hand to use and has the trip and versatile P weapon traits. Gaffs are readily available in fishing or coastal settlements for 1 gp. ",
+ "summary": "Dwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants appear hideous to most airbreathers, with fishlike mouths, slimy …",
+ "summary_markdown": "Dwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants appear hideous to most airbreathers, with fishlike mouths, slimy …",
+ "text": " Marsh Giant Dwellers of brackish coastal salt marshes and fetid bogs and swamps, marsh giants appear hideous to most airbreathers, with fishlike mouths, slimy gray-green skin, and dark, beady eyes. They prefer to eat the flesh of those they slay in battle, including other marsh giants, and guzzle stagnant water from cauldrons or directly from their swampy homes. Marsh giant clans are insular, with each clan dedicating itself to zealous worship of a sea-dwelling deity, demon lord, or stranger entity. Whatever forces call to the marsh giants sometimes ensnare boggards and ogres as well, gathering in grim worship. Rather than favor these humanoid hangers-on, marsh giants lavish attention on favored pets: krooths, giant octopuses, or primeval creatures like dinosaurs and the crocodilian deinosuchuses. Barely topping 11 feet tall and 1,000 pounds, marsh giants are small for giants but make up for their stature with their zealotry. Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Marsh Giant Source Monster Core pg. 164 Perception +16; low-light vision Languages Aklo, Common, Jotun, Thalassic Skills Athletics +18, Intimidation +15, Nature +15, Religion +17 Str +6 Dex +3 Con +4 Int +0 Wis +3 Cha +1 Items +1 striking gaff --- AC 27 Fort +18 Ref +13 Will +17 HP 150 --- Speed 35 feet, swim 20 feet Melee Single Action gaff +20 (Magical, reach 10 feet, Trip, versatile P), Damage 2d6+14 bludgeoning Melee Single Action fist +20 (Agile, reach 10 feet), Damage 2d6+14 bludgeoning Ranged Single Action spit +20 (Primal, range 60 feet, Water), Damage 5d6 bludgeoning Occult Innate Spells DC 23 - 2nd Augury, Mist - 5th Mariner's Curse Drowning Hook Single Action (Primal, Water) Requirements A creature is prone within the marsh giant's reach; Effect The marsh giant uses its gaff to push the creature down as water bubbles up below it. The target becomes submerged in water until they are no longer prone and must hold their breath if they cannot breathe water. They take 4d6 bludgeoning damage (DC 23 basic Fortitude save) and lose 3 rounds worth of air if they fail the save. Twist the Hook Two Actions The marsh giant makes a melee Strike with its gaff. If it hits, it twists and yanks the gaff to knock the target prone and create an awful wound, dealing 2d6 persistent bleed damage to the creature. Gaffs Many marsh giants fight with an oversized gaff—a length of wood with a metal hook affixed to the tip. The giants use them to drown prey as humanoid fishers use them to land fish. A gaff is a common martial weapon in the club group. It deals 1d6 bludgeoning damage and has 1 Bulk. It requires one hand to use and has the trip and versatile P weapon traits. Gaffs are readily available anywhere fishers live, costing 1 gp. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Amphibious",
   "Giant",
   "Humanoid",
-  "CE",
+  "Water",
   "Large"
  ],
- "trait_markdown": "[Amphibious](/Traits.aspx?ID=207), [Giant](/Traits.aspx?ID=79), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Giant](/Traits.aspx?ID=616), [Humanoid](/Traits.aspx?ID=628), [Water](/Traits.aspx?ID=732)",
  "trait_raw": [
   "Amphibious",
   "Giant",
-  "Humanoid"
+  "Humanoid",
+  "Water"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=679",
+ "url": "/Monsters.aspx?ID=3011",
  "vision": "Low-light vision",
  "weakest_save": [
   "ref",
@@ -102,5 +183,9 @@
  ],
  "weakness": {},
  "will_save": 17,
- "wisdom": 3
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

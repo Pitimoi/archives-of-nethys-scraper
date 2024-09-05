@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -9,34 +8,45 @@
  "item_category": "Weapons",
  "item_subcategory": "Beast Guns",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Drake Rifle](/Equipment.aspx?ID=1166)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 154</row>\n\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _drake rifle_ is a firearm made from the saliva glands of a [drake](/MonsterFamilies.aspx?ID=36). The firearm launches small bursts of empowered spittle instead of typical rounds of ammunition. A drake rifle is a _+1 weapon_. It's a distinct type of martial firearm that deals 1d10 damage with a range increment of 150 feet and [reload 1](/Traits.aspx?ID=254). It deals acid, cold, electricity, fire, or poison damage, depending on the drake from which it was made. On a critical hit, the spittle clings to the target and they take [persistent damage](/Conditions.aspx?ID=29) of the same type as the weapon equal to 1d4 + the number of weapon damage dice. A drake rifle does not add critical specialization effects.\n\n<document level=\"2\" id=\"action-955\" />\n\n**Craft Requirements** The initial raw materials must include the saliva glands of a ritually hunted drake with a breath weapon that deals the appropriate damage type for the _drake rifle_.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Drake Rifle](/Equipment.aspx?ID=1166)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 154\n\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _drake rifle_ is a firearm made from the saliva glands of a [drake](/MonsterFamilies.aspx?ID=36). The firearm launches small bursts of empowered spittle instead of typical rounds of ammunition. A drake rifle is a _+1 weapon_. It's a distinct type of martial firearm that deals 1d10 damage with a range increment of 150 feet and [reload 1](/Traits.aspx?ID=254). It deals acid, cold, electricity, fire, or poison damage, depending on the drake from which it was made. On a critical hit, the spittle clings to the target and they take [persistent damage](/Conditions.aspx?ID=29) of the same type as the weapon equal to 1d4 + the number of weapon damage dice. A drake rifle does not add critical specialization effects.\n\n**Activate** <actions string=\"Three Actions\" /> Interact ([evocation](/Traits.aspx?ID=65), [magical](/Traits.aspx?ID=103)) **Frequency** once per day;   **Effect** You fire a large, specialized burst designed to hamper your foes. Make a ranged Strike with the drake rifle. As long as the Strike isn't a critical failure, the drake rifle deals 1 splash damage per weapon damage die to the target and creatures within 5 feet of the target. This splash damage is of the same type as its normal damage.\n\n On a hit, the drake rifle provides one of the following additional effects based on its damage type: \n\n<ul><li>**Acid** Clinging acid makes it painful and sickening to move. The target becomes [sickened 1](/Conditions.aspx?ID=34).</li><li>**Cold** Frozen spittle clings to the target. The target takes a –10-foot status penalty to their Speeds for 1 minute.</li><li>**Electricity** Small bursts of electricity continue to spark and jolt the target. The target becomes [dazzled](/Conditions.aspx?ID=7) and [flat-footed](/Conditions.aspx?ID=16) for 1d4 rounds.</li><li>**Fire** A massive explosion knocks the target back. The target is [pushed 10 feet away from you](/Rules.aspx?ID=451), and if it's on the ground, it falls [prone](/Conditions.aspx?ID=31).</li><li>**Poison** Noxious vapors fill the target's lungs. The target becomes [enfeebled 1](/Conditions.aspx?ID=13) and [clumsy 1](/Conditions.aspx?ID=3) for 1 minute.</li></ul>\n\n**Craft Requirements** The initial raw materials must include the saliva glands of a ritually hunted drake with a breath weapon that deals the appropriate damage type for the _drake rifle_.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Drake Rifle",
  "pfs": "Standard",
  "price": 10000,
  "price_raw": "100 gp",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 154",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 154</row>\r\n\r\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  drake rifle  is a firearm made from the saliva glands of a  drake . The firearm launches small bursts of empowered spittle instead of typical …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 154\r\n\r\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  drake rifle  is a firearm made from the saliva glands of a  drake . The firearm launches small bursts of empowered spittle instead of typical …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 154"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 154</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 154",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A  drake rifle  is a firearm made from the saliva glands of a  drake . The firearm launches small bursts of empowered spittle instead of typical …",
  "summary_markdown": "A  drake rifle  is a firearm made from the saliva glands of a  drake . The firearm launches small bursts of empowered spittle instead of typical …",
- "text": "<title level=\"1\" right=\"Item 4\" pfs=\"Standard\" > Drake Rifle Source Guns &amp; Gears pg. 154 Price 100 gp Usage held in 2 hands Bulk 2 --- A drake rifle is a firearm made from the saliva glands of a drake. The firearm launches small bursts of empowered spittle instead of typical rounds of ammunition. A drake rifle is a +1 weapon . It's a distinct type of martial firearm that deals 1d10 damage with a range increment of 150 feet and reload 1. It deals acid, cold, electricity, fire, or poison damage, depending on the drake from which it was made. On a critical hit, the spittle clings to the target and they take persistent damage of the same type as the weapon equal to 1d4 + the number of weapon damage dice. A drake rifle does not add critical specialization effects. Craft Requirements The initial raw materials must include the saliva glands of a ritually hunted drake with a breath weapon that deals the appropriate damage type for the drake rifle .\n",
+ "text": "<title level=\"1\" right=\"Item 4\" pfs=\"Standard\" > Drake Rifle Source Guns &amp; Gears pg. 154 Price 100 gp Usage held in 2 hands Bulk 2 --- A drake rifle is a firearm made from the saliva glands of a drake. The firearm launches small bursts of empowered spittle instead of typical rounds of ammunition. A drake rifle is a +1 weapon . It's a distinct type of martial firearm that deals 1d10 damage with a range increment of 150 feet and reload 1. It deals acid, cold, electricity, fire, or poison damage, depending on the drake from which it was made. On a critical hit, the spittle clings to the target and they take persistent damage of the same type as the weapon equal to 1d4 + the number of weapon damage dice. A drake rifle does not add critical specialization effects. Activate Three Actions Interact (evocation, magical) Frequency once per day; Effect You fire a large, specialized burst designed to hamper your foes. Make a ranged Strike with the drake rifle. As long as the Strike isn't a critical failure, the drake rifle deals 1 splash damage per weapon damage die to the target and creatures within 5 feet of the target. This splash damage is of the same type as its normal damage. On a hit, the drake rifle provides one of the following additional effects based on its damage type: Acid Clinging acid makes it painful and sickening to move. The target becomes sickened 1. Cold Frozen spittle clings to the target. The target takes a –10-foot status penalty to their Speeds for 1 minute. Electricity Small bursts of electricity continue to spark and jolt the target. The target becomes dazzled and flat-footed for 1d4 rounds. Fire A massive explosion knocks the target back. The target is pushed 10 feet away from you, and if it's on the ground, it falls prone. Poison Noxious vapors fill the target's lungs. The target becomes enfeebled 1 and clumsy 1 for 1 minute. Craft Requirements The initial raw materials must include the saliva glands of a ritually hunted drake with a breath weapon that deals the appropriate damage type for the drake rifle .\n",
  "trait": [
   "Evocation",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

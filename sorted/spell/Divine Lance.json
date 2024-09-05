@@ -1,17 +1,24 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -25,35 +32,42 @@
   9,
   10
  ],
- "id": "spell-84",
+ "id": "spell-1498",
+ "legacy_id": "spell-84",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Divine Lance](/Spells.aspx?ID=84)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 331 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou unleash a beam of divine energy. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or if your deity is true neutral. Make a ranged spell attack roll against the target's AC. On a hit, the target takes damage of the chosen alignment type equal to 1d4 + your spellcasting ability modifier (double damage on a critical hit). The spell gains the trait of the alignment you chose.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Divine Lance](/Spells.aspx?ID=1498)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\n\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou unleash a beam of divine energy. Make a ranged spell attack against the target's AC. On a hit, the target takes 2d4 spirit damage (double damage on a critical hit).\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.",
  "name": "Divine Lance",
- "patron_theme_markdown": "",
  "pfs": "Standard",
- "range": 30,
- "range_raw": "30 feet",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 325",
+ "primary_source_category": "Rulebooks",
+ "range": 60,
+ "range_raw": "60 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 331 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThrow divine energy that damages based on your deity's alignment.\r\n</summary>",
+ "saving_throw": "AC",
+ "saving_throw_markdown": "AC",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\r\n\r\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThrow divine energy that deals spirit damage.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 331"
+  "Player Core pg. 325"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 331 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 325",
  "speed": {},
- "summary": "Throw divine energy that damages based on your deity's alignment.",
- "summary_markdown": "Throw divine energy that damages based on your deity's alignment.",
+ "spell_type": "Cantrip",
+ "summary": "Throw divine energy that deals spirit damage.",
+ "summary_markdown": "Throw divine energy that deals spirit damage.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Divine Lance Source Core Rulebook pg. 331 4.0 Tradition Divine Cast Two Actions somatic, verbal Range 30 feet Target 1 creature --- You unleash a beam of divine energy. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or if your deity is true neutral. Make a ranged spell attack roll against the target's AC. On a hit, the target takes damage of the chosen alignment type equal to 1d4 + your spellcasting ability modifier (double damage on a critical hit). The spell gains the trait of the alignment you chose. --- Heightened (+1) The damage increases by 1d4.",
+ "text": "\nDivine Lance Two Actions Source Player Core pg. 325 Tradition Divine Range 60 feet Target 1 creature Defense AC --- You unleash a beam of divine energy. Make a ranged spell attack against the target's AC. On a hit, the target takes 2d4 spirit damage (double damage on a critical hit). --- Heightened (+1) The damage increases by 1d4.",
  "tradition": [
   "Divine"
  ],
@@ -61,15 +75,24 @@
  "trait": [
   "Attack",
   "Cantrip",
-  "Evocation"
+  "Concentrate",
+  "Manipulate",
+  "Sanctified",
+  "Spirit"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cantrip](/Traits.aspx?ID=22), [Evocation](/Traits.aspx?ID=65)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Sanctified](/Traits.aspx?ID=519), [Spirit](/Traits.aspx?ID=149)",
  "trait_raw": [
   "Attack",
   "Cantrip",
-  "Evocation"
+  "Concentrate",
+  "Manipulate",
+  "Sanctified",
+  "Spirit"
  ],
- "type": "Cantrip",
- "url": "/Spells.aspx?ID=84",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1498",
  "weakness": {}
 }

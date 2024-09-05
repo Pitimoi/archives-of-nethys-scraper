@@ -1,13 +1,24 @@
 {
  "actions": "Single Action or Two Actions",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -21,52 +32,66 @@
   9,
   10
  ],
- "id": "spell-771",
+ "id": "spell-1864",
+ "legacy_id": "spell-771",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Heal Companion](/Spells.aspx?ID=771)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action or Two Actions\" /></row>\r\n<row></row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch or 30 feet\n\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou harness positive energy to heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.<br /> <actions string=\"Single Action\" /> (somatic) The spell has a range of touch.<br /> <actions string=\"Two Actions\" /> (somatic, verbal) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.\n\n---\r\n**Heightened (+1)** The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Heal Companion](/Spells.aspx?ID=1864)\r\n<actions string=\"Single Action or Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=682\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 383\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch or 30 feet\n\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.\n\n <actions string=\"Single Action\" /> (manipulate) The spell has a range of touch.<br /> <actions string=\"Two Actions\" /> ([concentrate](/Traits.aspx?ID=32), [manipulate](/Traits.aspx?ID=104)) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.\n\n---\r\n**Heightened (+1)** The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8.",
  "name": "Heal Companion",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 383",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "touch or 30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action or Two Actions\" /></row>\r\n<row></row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch or 30 feet\r\n\r\n \r\n\r\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou harness positive energy to heal your animal companion's wounds.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=682\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 383\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch or 30 feet\r\n\r\n \r\n\r\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou heal your animal companion's wounds.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 234"
+  "Player Core pg. 383"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 383",
  "speed": {},
- "summary": "You harness positive energy to heal your animal companion's wounds.",
- "summary_markdown": "You harness positive energy to heal your animal companion's wounds.",
+ "spell_type": "Focus",
+ "summary": "You heal your animal companion's wounds.",
+ "summary_markdown": "You heal your animal companion's wounds.",
  "target": "your animal companion",
  "target_markdown": "your animal companion",
- "text": " Heal Companion Source Advanced Player's Guide pg. 234 2.0 Cast Single Action or Two Actions Range touch or 30 feet Target your animal companion --- You harness positive energy to heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters. Single Action (somatic) The spell has a range of touch. Two Actions (somatic, verbal) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target. --- Heightened (+1) The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8.",
+ "text": "\nHeal Companion Single Action or Two Actions Source Player Core pg. 383 Range touch or 30 feet Target your animal companion --- You heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters. Single Action (manipulate) The spell has a range of touch. Two Actions (concentrate, manipulate) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target. --- Heightened (+1) The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8.",
  "tradition_markdown": "",
  "trait": [
+  "Focus",
   "Healing",
-  "Necromancy",
-  "Positive",
   "Ranger",
-  "Uncommon"
+  "Uncommon",
+  "Vitality",
+  "Positive"
  ],
- "trait_markdown": "[Healing](/Traits.aspx?ID=89), [Necromancy](/Traits.aspx?ID=117), [Positive](/Traits.aspx?ID=128), [Ranger](/Traits.aspx?ID=136), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Focus](/Traits.aspx?ID=511), [Healing](/Traits.aspx?ID=89), [Ranger](/Traits.aspx?ID=682), [Uncommon](/Traits.aspx?ID=159), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
+  "Focus",
   "Healing",
-  "Necromancy",
-  "Positive",
   "Ranger",
-  "Uncommon"
+  "Uncommon",
+  "Vitality"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=771",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1864",
+ "warden_spell_tier": "Initiate",
  "weakness": {}
 }

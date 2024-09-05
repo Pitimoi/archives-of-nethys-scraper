@@ -1,10 +1,24 @@
 {
  "ac": 31,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  24,
+  24
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Smoke Vision",
   "Explosion",
@@ -13,13 +27,22 @@
   "Inferno Leap"
  ],
  "creature_family": "Elemental, Fire",
- "creature_family_markdown": "[Elemental, Fire](/MonsterFamilies.aspx?ID=43)",
+ "creature_family_markdown": "[Elemental, Fire](/MonsterFamilies.aspx?ID=410)",
  "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 210,
  "hp_raw": "210 (explosion)",
- "id": "creature-191",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2984",
  "immunity": [
   "bleed",
   "fire",
@@ -27,40 +50,59 @@
   "poison",
   "sleep"
  ],
- "immunity_markdown": "bleed, fire, paralyzed, poison, sleep",
+ "immunity_markdown": "bleed, [fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Ignan"
+  "Pyric"
  ],
- "language_markdown": "[Ignan](/Languages.aspx?ID=18)",
+ "language_markdown": "[Pyric](/Languages.aspx?ID=110)",
+ "legacy_id": "creature-191",
  "level": 11,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Elemental Inferno](/Monsters.aspx?ID=191)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWalking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Elemental Inferno](/Monsters.aspx?ID=191)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 149</row>\n\n**Perception** +20; darkvision, smoke vision\r\n\r\n**Languages**\r\n[Ignan](/Languages.aspx?ID=18)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +6\r\n\r\n**Con** +5\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Smoke Vision** The elemental inferno ignores the concealed condition from smoke.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +19 \n\n</row>\r\n\r\n**HP** 210\r\n(explosion)\n\n**Immunities**\r\nbleed, fire, paralyzed, poison, sleep\n\n**Weaknesses**\r\ncold 15\r\n\r\n**Explosion** ([fire](/Traits.aspx?ID=72)) When the elemental inferno dies, it explodes, dealing 7d6 fire damage to each creature in a 10-foot emanation (DC 30 basic Reflex save).<br /> **Intense Heat** ([aura](/Traits.aspx?ID=206), [fire](/Traits.aspx?ID=72)) 10 feet, 7d6 fire, DC 28 basic Reflex.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 70 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntendril +24 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+12 fire plus 3d8 persistent fire\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nfire mote +24 ([range increment 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d10+6 fire\n\n**Blue Flames**   When the elemental inferno scores a critical hit, its body surges with blue flames, increasing the damage of its intense heat and Inferno Leap by 3d6 until the start of its next turn.\r\n\r\n**Inferno Leap** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72)) The elemental inferno jumps horizontally and vertically with a maximum height and distance each equal to its Speed. Its intense heat is suppressed until the end of the jump. At any point during the jump, flames explode from the elemental in a 30-foot emanation, dealing 12d6 fire damage to each creature within the area (DC 30 basic Reflex save). The elemental inferno can’t Inferno Leap again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-43\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Elemental Inferno](/Monsters.aspx?ID=2984)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWalking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos. More tactical than many elementals, the infernos will set entire cities ablaze to confuse enemies.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Elemental Inferno](/Monsters.aspx?ID=2984)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 145\n\n**Perception** +20; darkvision, smoke vision\r\n\r\n**Languages**\r\n[Pyric](/Languages.aspx?ID=110)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +6\r\n\r\n**Con** +5\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Smoke Vision** The elemental inferno ignores the [concealed](/Conditions.aspx?ID=62) condition from smoke.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +19 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 210\r\n(explosion)\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=555) 15, [water](/Traits.aspx?ID=732) 10\r\n\r\n**Explosion** ([fire](/Traits.aspx?ID=604)) When the elemental inferno dies, it explodes, dealing 7d6 fire damage to each creature in a 10-foot emanation (DC 30 [basic](/Rules.aspx?ID=329) Reflex save).<br />**[Intense Heat](/MonsterAbilities.aspx?ID=53)** ([aura](/Traits.aspx?ID=542), [fire](/Traits.aspx?ID=604)) 10 feet, 7d6 fire, DC 28 [basic](/Rules.aspx?ID=329) Reflex\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 70 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntendril +24 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+12 fire plus 3d8 [persistent fire](/Conditions.aspx?ID=29)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nfire mote +24 ([range increment 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d10+6 fire\n\n**Blue Flames**   When the elemental inferno scores a critical hit, its body surges with blue flames, increasing the damage of its intense heat and Inferno Leap by 3d6 until the start of its next turn.\r\n\r\n**Inferno Leap** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72)) The elemental inferno jumps horizontally and vertically with a maximum height and distance each equal to its Speed. Its intense heat is suppressed until the end of the jump. Instead, at any point during the jump, flames explode from the elemental in a 30-foot emanation, dealing 12d6 fire damage to each creature within the area (DC 30 [basic](/Rules.aspx?ID=329) Reflex save). The elemental inferno can't Inferno Leap again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-410\" />",
  "name": "Elemental Inferno",
  "npc": false,
  "perception": 20,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 145",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 23,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 149</row>\r\n\r\n**Creature Family** [Elemental, Fire](/MonsterFamilies.aspx?ID=43)\r\n\r\n<row gap=\"medium\">\r\n**HP** 210 (explosion)\r\n\r\n**AC** 31\r\n\r\n**Fort** +21\r\n\r\n**Ref** +23\r\n\r\n**Will** +19\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWalking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 145\r\n\r\n**Creature Family** [Elemental, Fire](/MonsterFamilies.aspx?ID=410)\r\n\r\n<row gap=\"medium\">\r\n**HP** 210 (explosion)\r\n\r\n**AC** 31\r\n\r\n**Fort** +21\r\n\r\n**Ref** +23\r\n\r\n**Will** +19\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWalking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos. More tactical than many …\r\n</summary>",
  "sense": "darkvision, smoke vision",
  "sense_markdown": "darkvision, smoke vision",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Acrobatics +21"
+  "Acrobatics"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +21",
+ "skill_mod": {
+  "acrobatics": 21
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 149"
+  "Monster Core pg. 145"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 149</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 145",
  "speed": {
   "land": 70,
   "max": 70
@@ -68,27 +110,48 @@
  "speed_markdown": "70 feet",
  "speed_raw": "70 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  17,
+  36
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Extreme"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  5
+ ],
  "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos.",
- "summary_markdown": "Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos.",
- "text": " Elemental Inferno Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos. Recall Knowledge - Elemental (Arcana, Nature): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Elemental Inferno Source Bestiary pg. 149 Perception +20; darkvision, smoke vision Languages Ignan Skills Acrobatics +21 Str +6 Dex +6 Con +5 Int +0 Wis +3 Cha +0 Smoke Vision The elemental inferno ignores the concealed condition from smoke. --- AC 31 Fort +21 Ref +23 Will +19 HP 210 (explosion) Immunities bleed, fire, paralyzed, poison, sleep Weaknesses cold 15 Explosion (fire) When the elemental inferno dies, it explodes, dealing 7d6 fire damage to each creature in a 10-foot emanation (DC 30 basic Reflex save). Intense Heat (aura, fire) 10 feet, 7d6 fire, DC 28 basic Reflex. --- Speed 70 feet Melee Single Action tendril +24 (reach 15 feet), Damage 2d10+12 fire plus 3d8 persistent fire Ranged Single Action fire mote +24 (range increment 60 feet), Damage 2d10+6 fire Blue Flames When the elemental inferno scores a critical hit, its body surges with blue flames, increasing the damage of its intense heat and Inferno Leap by 3d6 until the start of its next turn. Inferno Leap Two Actions (Fire) The elemental inferno jumps horizontally and vertically with a maximum height and distance each equal to its Speed. Its intense heat is suppressed until the end of the jump. At any point during the jump, flames explode from the elemental in a 30-foot emanation, dealing 12d6 fire damage to each creature within the area (DC 30 basic Reflex save). The elemental inferno can’t Inferno Leap again for 1d4 rounds. ",
+ "summary": "Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos. More tactical than many …",
+ "summary_markdown": "Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos. More tactical than many …",
+ "text": " Elemental Inferno Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos. More tactical than many elementals, the infernos will set entire cities ablaze to confuse enemies. Recall Knowledge - Elemental (Arcana, Nature): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Elemental Inferno Source Monster Core pg. 145 Perception +20; darkvision, smoke vision Languages Pyric Skills Acrobatics +21 Str +6 Dex +6 Con +5 Int +0 Wis +3 Cha +0 Smoke Vision The elemental inferno ignores the concealed condition from smoke. --- AC 31 Fort +21 Ref +23 Will +19 HP 210 (explosion) Immunities bleed, fire, paralyzed, poison, sleep Weaknesses cold 15, water 10 Explosion (fire) When the elemental inferno dies, it explodes, dealing 7d6 fire damage to each creature in a 10-foot emanation (DC 30 basic Reflex save). Intense Heat (aura, fire) 10 feet, 7d6 fire, DC 28 basic Reflex --- Speed 70 feet Melee Single Action tendril +24 (reach 15 feet), Damage 2d10+12 fire plus 3d8 persistent fire Ranged Single Action fire mote +24 (range increment 60 feet), Damage 2d10+6 fire Blue Flames When the elemental inferno scores a critical hit, its body surges with blue flames, increasing the damage of its intense heat and Inferno Leap by 3d6 until the start of its next turn. Inferno Leap Two Actions (Fire) The elemental inferno jumps horizontally and vertically with a maximum height and distance each equal to its Speed. Its intense heat is suppressed until the end of the jump. Instead, at any point during the jump, flames explode from the elemental in a 30-foot emanation, dealing 12d6 fire damage to each creature within the area (DC 30 basic Reflex save). The elemental inferno can't Inferno Leap again for 1d4 rounds. ",
+ "tradition_markdown": "",
  "trait": [
   "Elemental",
   "Fire",
-  "N",
   "Huge"
  ],
- "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Fire](/Traits.aspx?ID=72)",
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=587), [Fire](/Traits.aspx?ID=604)",
  "trait_raw": [
   "Elemental",
   "Fire"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=191",
+ "url": "/Monsters.aspx?ID=2984",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
@@ -96,8 +159,12 @@
  "weakness": {
   "cold": 15
  },
- "weakness_markdown": "cold 15",
- "weakness_raw": "cold 15",
+ "weakness_markdown": "[cold](/Traits.aspx?ID=555) 15, [water](/Traits.aspx?ID=732) 10",
+ "weakness_raw": " cold  15,  water  10",
  "will_save": 19,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

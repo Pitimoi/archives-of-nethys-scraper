@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -10,24 +10,32 @@
  "item_category": "Consumables",
  "item_subcategory": "Oils",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Antimagic Oil](/Equipment.aspx?ID=172)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup></row>\n\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis oil contains energy that repels nearly all types of magic. When you apply this oil to armor, the creature wearing the armor becomes immune to all spells, effects of magic items (the wearer’s and those of others), and effects with the magical trait for 1 minute. The oil affects neither the magic of the armor nor the fundamental runes of weapons attacking the wearer. Magical effects from a source of 20th level or higher, such as a deity, still function on the armor’s wearer.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Antimagic Oil](/Equipment.aspx?ID=172)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup>\n\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis oil contains energy that repels nearly all types of magic. When you apply this oil to armor, the creature wearing the armor becomes immune to all spells, effects of magic items (the wearer’s and those of others), and effects with the magical trait for 1 minute. The oil affects neither the magic of the armor nor the fundamental runes of weapons attacking the wearer. Magical effects from a source of 20th level or higher, such as a deity, still function on the armor’s wearer.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Antimagic Oil",
  "pfs": "Standard",
  "price": 1300000,
  "price_raw": "13,000 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 561",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2019-08-01",
+ "remaster_id": "equipment-2930",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup></row>\r\n\r\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis oil contains energy that repels nearly all types of magic. When you apply this oil to armor, the creature wearing the armor becomes immune to …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup>\r\n\r\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis oil contains energy that repels nearly all types of magic. When you apply this oil to armor, the creature wearing the armor becomes immune to …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 561"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -39,6 +47,11 @@
   "Consumable",
   "Magical",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Consumable](/Traits.aspx?ID=36), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

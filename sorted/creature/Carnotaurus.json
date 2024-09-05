@@ -1,0 +1,150 @@
+{
+ "ac": 24,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  18,
+  18
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Headbutt",
+  "Powerful Charge",
+  "Vicious Mauling"
+ ],
+ "creature_family": "Dinosaur",
+ "creature_family_markdown": "[Dinosaur](/MonsterFamilies.aspx?ID=391)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 17,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 145,
+ "hp_raw": "145",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3263",
+ "image": [
+  "/Images/Monsters/Dinosaur_Carnotarus.webp"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Carnotaurus](/Monsters.aspx?ID=3263)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis 2,000-pound predator lives up to its name by ramming its prey with its distinctive horns lowered, knocking them prone, and viciously tearing into fallen victims before they can regain their footing. Do not let its size fool you; this massive dinosaur is deceptively quick when charging a potential meal. Aggressive and highly territorial, a carnotaurus will not hesitate to hunt down and slay any creature unlucky enough to cross its path.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dinosaur_Carnotarus.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Carnotaurus](/Monsters.aspx?ID=3263)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 137\n\n**Perception** +15; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +18, [Survival](/Skills.aspx?ID=49) +14\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 145\n\n</row>\n\n**Headbutt** <actions string=\"Reaction\" /> **Trigger** A creature ends a [move](/Traits.aspx?ID=658) action within reach of the carnotaurus's horn Strike; **Effect** The carnotaurus makes a horn Strike against the triggering creature.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +18 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+9 piercing plus vicious mauling\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorn +18 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d12+9 piercing\n\n**Powerful Charge** <actions string=\"Two Actions\" />  The carnotaurus lowers its horns and surges toward a foe. It Strides twice, then makes a horn Strike. If it moved at least 20 feet from its starting position, the Strike's damage is increased to 2d12+9 and knocks the target [prone](/Conditions.aspx?ID=88) if successful.\r\n\r\n**Vicious Mauling**   The carnotaurus's jaws Strike deals an additional 1d8 [persistent bleed damage](/Conditions.aspx?ID=29) to [prone](/Conditions.aspx?ID=88) targets.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-391\" />",
+ "name": "Carnotaurus",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 137",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 137\r\n\r\n**Creature Family** [Dinosaur](/MonsterFamilies.aspx?ID=391)\r\n\r\n<row gap=\"medium\">\r\n**HP** 145\r\n\r\n**AC** 24\r\n\r\n**Fort** +17\r\n\r\n**Ref** +15\r\n\r\n**Will** +13\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis 2,000-pound predator lives up to its name by ramming its prey with its distinctive horns lowered, knocking them prone, and viciously tearing …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +18, [Survival](/Skills.aspx?ID=49) +14",
+ "skill_mod": {
+  "athletics": 18,
+  "survival": 14
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 137"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 137",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  15,
+  20
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 7,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "This 2,000-pound predator lives up to its name by ramming its prey with its distinctive horns lowered, knocking them prone, and viciously tearing …",
+ "summary_markdown": "This 2,000-pound predator lives up to its name by ramming its prey with its distinctive horns lowered, knocking them prone, and viciously tearing …",
+ "text": " Carnotaurus This 2,000-pound predator lives up to its name by ramming its prey with its distinctive horns lowered, knocking them prone, and viciously tearing into fallen victims before they can regain their footing. Do not let its size fool you; this massive dinosaur is deceptively quick when charging a potential meal. Aggressive and highly territorial, a carnotaurus will not hesitate to hunt down and slay any creature unlucky enough to cross its path. Recall Knowledge - Animal (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Carnotaurus Source Howl of the Wild pg. 137 Perception +15; low-light vision, scent (imprecise) 30 feet Languages Skills Athletics +18, Survival +14 Str +7 Dex +2 Con +4 Int -4 Wis +2 Cha +0 --- AC 24 Fort +17 Ref +15 Will +13 HP 145 Headbutt Reaction Trigger A creature ends a move action within reach of the carnotaurus's horn Strike; Effect The carnotaurus makes a horn Strike against the triggering creature. --- Speed 30 feet Melee Single Action jaws +18 (reach 15 feet), Damage 2d10+9 piercing plus vicious mauling Melee Single Action horn +18 (reach 15 feet), Damage 1d12+9 piercing Powerful Charge Two Actions The carnotaurus lowers its horns and surges toward a foe. It Strides twice, then makes a horn Strike. If it moved at least 20 feet from its starting position, the Strike's damage is increased to 2d12+9 and knocks the target prone if successful. Vicious Mauling The carnotaurus's jaws Strike deals an additional 1d8 persistent bleed damage to prone targets. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Dinosaur",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Dinosaur](/Traits.aspx?ID=576)",
+ "trait_raw": [
+  "Animal",
+  "Dinosaur"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3263",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 13,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

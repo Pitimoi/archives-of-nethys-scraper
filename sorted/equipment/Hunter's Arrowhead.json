@@ -1,44 +1,67 @@
 {
+ "actions": "Reaction",
+ "actions_number": 1,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
- "exclude_from_search": false,
- "id": "equipment-2343",
+ "exclude_from_search": true,
+ "frequency": "once per day",
+ "id": "equipment-483",
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Hunter's Arrowhead](/Equipment.aspx?ID=2343)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 153 <sup>1.1</sup>, [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 77</row>\n\n**Price** 80 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _hunter's arrowhead_ is meant to be worn as a charm, such as a pendant, or carried in a pocket or quiver. The arrowhead is etched with images sacred to the elven god [Ketephys](/Deities.aspx?ID=110). While you wear or carry the arrowhead, it infuses you with great skill at hunting, and you gain a +1 item bonus to [Survival](/Skills.aspx?ID=16) checks and attack rolls against any creature you've currently designated as your prey with [Hunt Prey](/Actions.aspx?ID=10). A _hunter's arrowhead_ is also a [religious symbol](/Equipment.aspx?ID=41) of Ketephys.\n\n<document level=\"2\" id=\"action-1898\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Limited\"\r\n>\r\n[Hunter's Arrowhead](/Equipment.aspx?ID=483)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Age of Ashes</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 77, [Treasure Vault](/Sources.aspx?ID=191) pg. 153 <sup>1.1</sup>\n\n**Price** 80 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Reaction\" /><row>command</row></row>\r\n\r\n**Frequency** once per day\r\n\r\n**Trigger** You would miss with an attack made with a bow.\r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis arrowhead-shaped charm is not meant to be affixed to an arrow, but instead to be carried in a pocket or inside of a quiver. A _hunter’s arrowhead_ is etched with images sacred to the elven god Ketephys. If you carry one on your person, you are infused with great skill at hunting, and gain a +1 item bonus to Survival skill checks and attack rolls against any creature you’ve currently designated as your prey for the [Hunt Prey](/Actions.aspx?ID=10) ranger ability (note that the bonus to attack rolls is an item bonus, and therefore not cumulative with an item bonus from a magic weapon). A _hunter's arrowhead_ is also a religious symbol of Ketephys.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Hunter's Arrowhead",
- "pfs": "Standard",
+ "pfs": "Limited",
  "price": 8000,
  "price_raw": "80 gp",
+ "primary_source": "Pathfinder #145: Hellknight Hill",
+ "primary_source_raw": "Pathfinder #145: Hellknight Hill pg. 77",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Age of Ashes",
  "rarity": "rare",
- "release_date": "2023-02-22",
+ "rarity_id": 3,
+ "release_date": "2019-08-01",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Treasure Vault](/Sources.aspx?ID=191) pg. 153 <sup>1.1</sup>, [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 77</row>\r\n\r\n**Price** 80 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  hunter's arrowhead  is meant to be worn as a charm, such as a pendant, or carried in a pocket or quiver. The arrowhead is etched with images …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 77, [Treasure Vault](/Sources.aspx?ID=191) pg. 153 <sup>1.1</sup>\r\n\r\n**Price** 80 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Reaction\" /><row>command</row></row>\r\n\r\n**Frequency** once per day\r\n\r\n**Trigger** You would miss with an attack made with a bow.\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis arrowhead-shaped charm is not meant to be affixed to an arrow, but instead to be carried in a pocket or inside of a quiver. A  hunter’s …\r\n</summary>",
  "skill": [
   "Survival"
  ],
+ "skill_mod": {},
  "source": [
+  "Pathfinder #145: Hellknight Hill",
   "Treasure Vault"
  ],
  "source_raw": [
+  "Pathfinder #145: Hellknight Hill pg. 77",
   "Treasure Vault pg. 153"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 153 <sup>1.1</sup>, [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 77</row>",
+ "source_category": [
+  "Adventure Paths",
+  "Rulebooks"
+ ],
+ "source_group": [
+  "Age of Ashes"
+ ],
+ "source_markdown": "[Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 77, [Treasure Vault](/Sources.aspx?ID=191) pg. 153 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
+ "spoilers": "Age of Ashes",
  "stage_markdown": "",
- "summary": "A  hunter's arrowhead  is meant to be worn as a charm, such as a pendant, or carried in a pocket or quiver. The arrowhead is etched with images …",
- "summary_markdown": "A  hunter's arrowhead  is meant to be worn as a charm, such as a pendant, or carried in a pocket or quiver. The arrowhead is etched with images …",
- "text": "<title level=\"1\" right=\"Item 4\" pfs=\"Standard\" > Hunter's Arrowhead Source Treasure Vault pg. 153 1.1 , Pathfinder #145: Hellknight Hill pg. 77 Price 80 gp Usage worn --- A hunter's arrowhead is meant to be worn as a charm, such as a pendant, or carried in a pocket or quiver. The arrowhead is etched with images sacred to the elven god Ketephys. While you wear or carry the arrowhead, it infuses you with great skill at hunting, and you gain a +1 item bonus to Survival checks and attack rolls against any creature you've currently designated as your prey with Hunt Prey. A hunter's arrowhead is also a religious symbol of Ketephys.\n",
+ "summary": "This arrowhead-shaped charm is not meant to be affixed to an arrow, but instead to be carried in a pocket or inside of a quiver. A  hunter’s …",
+ "summary_markdown": "This arrowhead-shaped charm is not meant to be affixed to an arrow, but instead to be carried in a pocket or inside of a quiver. A  hunter’s …",
+ "text": "<title level=\"1\" right=\"Item 4\" pfs=\"Limited\" > Hunter's Arrowhead May contain spoilers from Age of Ashes Source Pathfinder #145: Hellknight Hill pg. 77, Treasure Vault pg. 153 1.1 Price 80 gp Usage worn Activate Reaction command Frequency once per day Trigger You would miss with an attack made with a bow. --- This arrowhead-shaped charm is not meant to be affixed to an arrow, but instead to be carried in a pocket or inside of a quiver. A hunter’s arrowhead is etched with images sacred to the elven god Ketephys. If you carry one on your person, you are infused with great skill at hunting, and gain a +1 item bonus to Survival skill checks and attack rolls against any creature you’ve currently designated as your prey for the Hunt Prey ranger ability (note that the bonus to attack rolls is an item bonus, and therefore not cumulative with an item bonus from a magic weapon). A hunter's arrowhead is also a religious symbol of Ketephys.\n",
  "trait": [
   "Enchantment",
   "Invested",
   "Magical",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [
@@ -47,8 +70,10 @@
   "Magical",
   "Rare"
  ],
+ "trigger": "You would miss with an attack made with a bow.",
+ "trigger_markdown": "You would miss with an attack made with a bow.",
  "type": "Item",
- "url": "/Equipment.aspx?ID=2343",
+ "url": "/Equipment.aspx?ID=483",
  "usage": "worn",
  "usage_markdown": "worn",
  "weakness": {}

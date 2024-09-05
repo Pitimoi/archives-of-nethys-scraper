@@ -1,49 +1,62 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Courageous Onslaught"
  ],
  "feat_markdown": "Courageous Onslaught",
- "id": "feat-1658",
+ "id": "feat-4628",
+ "legacy_id": "feat-1658",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Courageous Onslaught](/Feats.aspx?ID=1658) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 115 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Courageous Advance](/Feats.aspx?ID=1638); [Courageous Assault](/Feats.aspx?ID=1649)\n\n</column>\r\n\r\n---\r\n\r\nYou use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the [_inspire courage_](/Spells.aspx?ID=386) composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride and then make a melee Strike.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Courageous Onslaught](/Feats.aspx?ID=4628) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 106\n\n**Prerequisites**\r\n[Courageous Advance](/Feats.aspx?ID=4589); [Courageous Assault](/Feats.aspx?ID=4611)\n\n</column>\r\n\r\n---\r\n\r\nYou use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the [_courageous anthem_](/Spells.aspx?ID=1763) [composition](/Traits.aspx?ID=559) cantrip, one ally of your choice who gains a status bonus from the spell can immediately use their reaction to [Stride](/Actions.aspx?ID=2305) and then make a melee [Strike](/Actions.aspx?ID=2306).",
  "name": "Courageous Onslaught",
  "pfs": "Standard",
  "prerequisite": "Courageous Advance; Courageous Assault",
- "prerequisite_markdown": "[Courageous Advance](/Feats.aspx?ID=1638); [Courageous Assault](/Feats.aspx?ID=1649)",
+ "prerequisite_markdown": "[Courageous Advance](/Feats.aspx?ID=4589); [Courageous Assault](/Feats.aspx?ID=4611)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 106",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 115 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Courageous Advance](/Feats.aspx?ID=1638); [Courageous Assault](/Feats.aspx?ID=1649)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou use your performance to orchestrate an onslaught against your enemies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 106\n\n**Prerequisites**\r\n[Courageous Advance](/Feats.aspx?ID=4589); [Courageous Assault](/Feats.aspx?ID=4611)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou use your performance to orchestrate an onslaught against your enemies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 115"
+  "Player Core pg. 106"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 115 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 106",
  "speed": {},
  "summary": "You use your performance to orchestrate an onslaught against your enemies.",
  "summary_markdown": "You use your performance to orchestrate an onslaught against your enemies.",
- "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Courageous Onslaught Single Action Source Advanced Player's Guide pg. 115 2.0 Prerequisites Courageous Advance; Courageous Assault --- You use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride and then make a melee Strike.",
+ "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Courageous Onslaught Single Action Source Player Core pg. 106 Prerequisites Courageous Advance; Courageous Assault --- You use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the courageous anthem composition cantrip, one ally of your choice who gains a status bonus from the spell can immediately use their reaction to Stride and then make a melee Strike.",
  "trait": [
   "Auditory",
   "Bard",
   "Concentrate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Bard](/Traits.aspx?ID=19), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Sense",
+  "Class"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Bard](/Traits.aspx?ID=546), [Concentrate](/Traits.aspx?ID=32), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Auditory",
   "Bard",
   "Concentrate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1658",
+ "url": "/Feats.aspx?ID=4628",
  "weakness": {}
 }

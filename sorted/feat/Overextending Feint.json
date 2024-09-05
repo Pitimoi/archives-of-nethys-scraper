@@ -1,46 +1,56 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Overextending Feint"
  ],
  "feat_markdown": "Overextending Feint",
- "id": "feat-1780",
+ "id": "feat-4917",
+ "legacy_id": "feat-1780",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Overextending Feint](/Feats.aspx?ID=1780) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 134 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nTrained in [Deception](/Skills.aspx?ID=5)\n\n</column>\r\n\r\n---\r\n\r\nWhen you trick a foe, instead of catching them off guard, you goad them into overextending their next attack. On a successful [Feint](/Actions.aspx?ID=48), you can use the following success and critical success effects instead of any other effects that would occur when you Feint. You can choose a different effect each time you Feint against a given foe.\n\n**Critical Success** The target takes a –2 circumstance penalty to all attack rolls against you before the end of its next turn.<br />\r\n**Success** The target takes a –2 circumstance penalty to its next attack roll against you before the end of its next turn.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Overextending Feint](/Feats.aspx?ID=4917) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 169\n\n**Prerequisites**\r\nTrained in [Deception](/Skills.aspx?ID=5)\n\n</column>\r\n\r\n---\r\n\r\nYou goad a foe into overextending. On a successful Feint, you can use the following success and critical success effects instead of any other effects that would occur when you Feint.\n\n**Critical Success** The target takes a –2 circumstance penalty to all attack rolls against you before the end of its next turn.<br />\r\n**Success** The target takes a –2 circumstance penalty to its next attack roll against you before the end of its next turn.",
  "name": "Overextending Feint",
  "pfs": "Standard",
  "prerequisite": "Trained in Deception",
  "prerequisite_markdown": "Trained in [Deception](/Skills.aspx?ID=5)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 169",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 134 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nTrained in [Deception](/Skills.aspx?ID=5)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you trick a foe, instead of catching them off guard, you goad them into overextending their next attack.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 169\n\n**Prerequisites**\r\nTrained in [Deception](/Skills.aspx?ID=5)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou goad a foe into overextending.\r\n</summary>",
  "skill": [
   "Deception",
   "Deception"
  ],
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 134"
+  "Player Core pg. 169"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 134 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 169",
  "speed": {},
- "summary": "When you trick a foe, instead of catching them off guard, you goad them into overextending their next attack.",
- "summary_markdown": "When you trick a foe, instead of catching them off guard, you goad them into overextending their next attack.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Overextending Feint Source Advanced Player's Guide pg. 134 2.0 Prerequisites Trained in Deception --- When you trick a foe, instead of catching them off guard, you goad them into overextending their next attack. On a successful Feint, you can use the following success and critical success effects instead of any other effects that would occur when you Feint. You can choose a different effect each time you Feint against a given foe. Critical Success The target takes a –2 circumstance penalty to all attack rolls against you before the end of its next turn. Success The target takes a –2 circumstance penalty to its next attack roll against you before the end of its next turn.",
+ "summary": "You goad a foe into overextending.",
+ "summary_markdown": "You goad a foe into overextending.",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Overextending Feint Source Player Core pg. 169 Prerequisites Trained in Deception --- You goad a foe into overextending. On a successful Feint, you can use the following success and critical success effects instead of any other effects that would occur when you Feint. Critical Success The target takes a –2 circumstance penalty to all attack rolls against you before the end of its next turn. Success The target takes a –2 circumstance penalty to its next attack roll against you before the end of its next turn.",
  "trait": [
   "Rogue"
  ],
- "trait_markdown": "[Rogue](/Traits.aspx?ID=139)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Rogue](/Traits.aspx?ID=687)",
  "trait_raw": [
   "Rogue"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1780",
+ "url": "/Feats.aspx?ID=4917",
  "weakness": {}
 }

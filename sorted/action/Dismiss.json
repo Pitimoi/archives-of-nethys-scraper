@@ -1,27 +1,35 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
  "exclude_from_search": false,
- "id": "action-74",
- "markdown": "<title level=\"1\" right=\"Action\">[Dismiss](/Actions.aspx?ID=74) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 305 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item.",
+ "id": "action-2311",
+ "legacy_id": "action-74",
+ "markdown": "<title level=\"1\" right=\"Action\">[Dismiss](/Actions.aspx?ID=2311) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n</column>\r\n\r\n---\r\n\r\nYou end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
  "name": "Dismiss",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 419",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 305 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 305"
+  "Player Core pg. 419"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 305 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 419",
  "speed": {},
- "summary": "You end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might …",
- "summary_markdown": "You end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might …",
- "text": " Dismiss Single Action Source Core Rulebook pg. 305 4.0 --- You end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item.",
+ "summary": "You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
+ "summary_markdown": "You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
+ "text": " Dismiss Single Action Source Player Core pg. 419 --- You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
  "trait": [
   "Concentrate"
  ],
@@ -30,6 +38,6 @@
   "Concentrate"
  ],
  "type": "Action",
- "url": "/Actions.aspx?ID=74",
+ "url": "/Actions.aspx?ID=2311",
  "weakness": {}
 }

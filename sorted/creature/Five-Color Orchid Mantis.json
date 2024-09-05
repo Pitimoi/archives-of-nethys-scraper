@@ -1,0 +1,155 @@
+{
+ "ac": 27,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  21,
+  21
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Floral Camouflage",
+  "Elemental Expulsion",
+  "Color Shift",
+  "Harvesting Limbs",
+  "Sudden Strike"
+ ],
+ "creature_family": "Orchid Mantis",
+ "creature_family_markdown": "[Orchid Mantis](/MonsterFamilies.aspx?ID=356)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 19,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 137,
+ "hp_raw": "137",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2779",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Five-Color Orchid Mantis](/Monsters.aspx?ID=2779)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOrchid mantises naturally live short lives that don't offer a great deal of time to gather spiritual energy. However, a mantis in a rich enough environment can extend their life span and grow to understand the elements. These creatures become five-color orchid mantises and, despite their violent attitudes, are thought to be especially sacred to Qi Zhong. As such, these dangerous mantises are often avoided or placated while gathering herbs rather than driven off.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Five-Color Orchid Mantis](/Monsters.aspx?ID=2779)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 293\n\n**Perception** +18; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +19, [Athletics](/Skills.aspx?ID=3) +19, [Stealth](/Skills.aspx?ID=15) +21, [Survival](/Skills.aspx?ID=16) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** -3\r\n\r\n**Wis** +3\r\n\r\n**Cha** -4\r\n</row>\r\n\r\n**Floral Camouflage** When Hiding, the five-color orchid mantis is [concealed](/Conditions.aspx?ID=62) by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +19 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 137\n\n</row>\n\n**Elemental Expulsion** <actions string=\"Reaction\" /> **Requirements** The mantis has an elemental trait from Color Shift **Trigger** It's damaged by a weapon Strike; **Effect** Elemental energy pushes back against the blow, giving the attacker a –2 status penalty to attack rolls until the beginning of its next turn. If the weapon contains material that matches the mantis's trait (such as earth for a thrown rock or fire for a lit torch), the mantis gains resistance 10 to all damage from this Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, climb 25 feet, fly 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmandibles +21 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 3d10+7 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nleg +21 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 3d8+7 piercing\n\n**Color Shift** <actions string=\"Single Action\" />  **Frequency** once per round; **Effect** The mantis attunes itself to one of five elements, changing color accordingly (yellow for earth, red for fire, white for metal, black for water, or green for wood). It gains that trait and a +2 status bonus to saving throws against effects with that trait until the beginning of its next turn. If the mantis uses Color Shift on its next turn, it must choose a different color.\r\n\r\n**Harvesting Limbs** <actions string=\"Two Actions\" />  The mantis makes two leg attacks. If both attacks hit, the mantis gains 10 temporary Hit Points, and the target must succeed at a DC 27 Fortitude saving throw or become [drained](/Conditions.aspx?ID=68) 1 (drained 2 on a critical failure). The drained condition ends when the mantis is reduced to 0 Hit Points.\r\n\r\n**Sudden Strike**   On the first round of combat, creatures that haven't acted are [off-guard](/Conditions.aspx?ID=58) to the mantis.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-356\" />",
+ "name": "Five-Color Orchid Mantis",
+ "npc": false,
+ "perception": 18,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 293",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 21,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 293\r\n\r\n**Creature Family** [Orchid Mantis](/MonsterFamilies.aspx?ID=356)\r\n\r\n<row gap=\"medium\">\r\n**HP** 137\r\n\r\n**AC** 27\r\n\r\n**Fort** +19\r\n\r\n**Ref** +21\r\n\r\n**Will** +16\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOrchid mantises naturally live short lives that don't offer a great deal of time to gather spiritual energy. However, a mantis in a rich enough …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +19, [Athletics](/Skills.aspx?ID=3) +19, [Stealth](/Skills.aspx?ID=15) +21, [Survival](/Skills.aspx?ID=16) +18",
+ "skill_mod": {
+  "acrobatics": 19,
+  "athletics": 19,
+  "stealth": 21,
+  "survival": 18
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 293"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 293",
+ "speed": {
+  "climb": 25,
+  "fly": 25,
+  "land": 50,
+  "max": 50
+ },
+ "speed_markdown": "50 feet, climb 25 feet, fly 25 feet",
+ "speed_raw": "50 feet, climb 25 feet, fly 25 feet",
+ "spell_markdown": "",
+ "stealth": "21",
+ "strike_damage_average": [
+  20,
+  23
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Orchid mantises naturally live short lives that don't offer a great deal of time to gather spiritual energy. However, a mantis in a rich enough …",
+ "summary_markdown": "Orchid mantises naturally live short lives that don't offer a great deal of time to gather spiritual energy. However, a mantis in a rich enough …",
+ "text": " Five-Color Orchid Mantis Orchid mantises naturally live short lives that don't offer a great deal of time to gather spiritual energy. However, a mantis in a rich enough environment can extend their life span and grow to understand the elements. These creatures become five-color orchid mantises and, despite their violent attitudes, are thought to be especially sacred to Qi Zhong. As such, these dangerous mantises are often avoided or placated while gathering herbs rather than driven off. Recall Knowledge - Beast (Arcana, Nature): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Five-Color Orchid Mantis Source Tian Xia World Guide pg. 293 Perception +18; darkvision Languages Skills Acrobatics +19, Athletics +19, Stealth +21, Survival +18 Str +4 Dex +6 Con +4 Int -3 Wis +3 Cha -4 Floral Camouflage When Hiding, the five-color orchid mantis is concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed. --- AC 27 Fort +19 Ref +21 Will +16 HP 137 Elemental Expulsion Reaction Requirements The mantis has an elemental trait from Color Shift Trigger It's damaged by a weapon Strike; Effect Elemental energy pushes back against the blow, giving the attacker a –2 status penalty to attack rolls until the beginning of its next turn. If the weapon contains material that matches the mantis's trait (such as earth for a thrown rock or fire for a lit torch), the mantis gains resistance 10 to all damage from this Strike. --- Speed 50 feet, climb 25 feet, fly 25 feet Melee Single Action mandibles +21 (Finesse), Damage 3d10+7 piercing Melee Single Action leg +21 (Agile, Finesse), Damage 3d8+7 piercing Color Shift Single Action Frequency once per round; Effect The mantis attunes itself to one of five elements, changing color accordingly (yellow for earth, red for fire, white for metal, black for water, or green for wood). It gains that trait and a +2 status bonus to saving throws against effects with that trait until the beginning of its next turn. If the mantis uses Color Shift on its next turn, it must choose a different color. Harvesting Limbs Two Actions The mantis makes two leg attacks. If both attacks hit, the mantis gains 10 temporary Hit Points, and the target must succeed at a DC 27 Fortitude saving throw or become drained 1 (drained 2 on a critical failure). The drained condition ends when the mantis is reduced to 0 Hit Points. Sudden Strike On the first round of combat, creatures that haven't acted are off-guard to the mantis. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Uncommon",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=20), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Beast",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2779",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 16,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

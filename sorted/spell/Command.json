@@ -1,58 +1,62 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "until the end of the target's next turn",
  "exclude_from_search": false,
  "heighten": [
   "5th"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank"
+ ],
  "heighten_level": [
   1,
   5
  ],
- "id": "spell-45",
+ "id": "spell-1470",
+ "legacy_id": "spell-45",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Command](/Spells.aspx?ID=45)</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 325 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Patron Themes**\r\n[Fervor](/Patrons.aspx?ID=4), [Pacts](/Patrons.aspx?ID=11)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the fleeing condition), release what it's holding, drop prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.\r\n\r\n**Success** The creature is unaffected.<br />\r\n**Failure** For the first action on its next turn, the creature must use a single action to do as you command.<br />\r\n**Critical Failure** The target must use all its actions on its next turn to obey your command.\n\n---\r\n**Heightened (5th)** You can target up to 10 creatures.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Command](/Spells.aspx?ID=1470)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 321\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Patron Theme**\r\n[Faith's Flamekeeper](/Patrons.aspx?ID=12)\r\n\r\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the [fleeing](/Conditions.aspx?ID=17) condition), release what it's holding, drop [prone](/Conditions.aspx?ID=31), or stand in place. It can't [Delay](/Actions.aspx?ID=77) or take any reactions until it has obeyed your command. The effects depend on the target's Will save.\r\n\r\n**Success** The creature is unaffected.<br />\r\n**Failure** The creature must spend the first action on its next turn to obey your command.<br />\r\n**Critical Failure** The target must use all its actions on its next turn to obey your command.\n\n---\r\n**Heightened (5th)** You can target up to 10 creatures.",
  "name": "Command",
  "patron_theme": [
-  "Fervor",
-  "Pacts"
+  "Faith's Flamekeeper"
  ],
- "patron_theme_markdown": "[Fervor](/Patrons.aspx?ID=4), [Pacts](/Patrons.aspx?ID=11)",
+ "patron_theme_markdown": "[Faith's Flamekeeper](/Patrons.aspx?ID=12)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 321",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 325 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Patron Themes**\r\n[Fervor](/Patrons.aspx?ID=4), [Pacts](/Patrons.aspx?ID=11)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBid a creature to approach, run, release something, lie prone, or stand up.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 321\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Patron Theme**\r\n[Faith's Flamekeeper](/Patrons.aspx?ID=12)\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBid a creature approach, run, drop something, lie prone, or stand up.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 325"
+  "Player Core pg. 321"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 325 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 321",
  "speed": {},
- "summary": "Bid a creature to approach, run, release something, lie prone, or stand up.",
- "summary_markdown": "Bid a creature to approach, run, release something, lie prone, or stand up.",
+ "spell_type": "Spell",
+ "summary": "Bid a creature approach, run, drop something, lie prone, or stand up.",
+ "summary_markdown": "Bid a creature approach, run, drop something, lie prone, or stand up.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Command Source Core Rulebook pg. 325 4.0 Traditions Arcane, Divine, Occult Patron Themes Fervor, Pacts Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Saving Throw Will Duration until the end of the target's next turn --- You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the fleeing condition), release what it's holding, drop prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save. Success The creature is unaffected. Failure For the first action on its next turn, the creature must use a single action to do as you command. Critical Failure The target must use all its actions on its next turn to obey your command. --- Heightened (5th) You can target up to 10 creatures.",
+ "text": "\nCommand Two Actions Source Player Core pg. 321 Traditions Arcane, Divine, Occult Patron Theme Faith's Flamekeeper Range 30 feet Target 1 creature Defense Will Duration until the end of the target's next turn --- You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the fleeing condition), release what it's holding, drop prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save. Success The creature is unaffected. Failure The creature must spend the first action on its next turn to obey your command. Critical Failure The target must use all its actions on its next turn to obey your command. --- Heightened (5th) You can target up to 10 creatures.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -61,18 +65,23 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Auditory",
-  "Enchantment",
+  "Concentrate",
   "Linguistic",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Enchantment](/Traits.aspx?ID=61), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106)",
+ "trait_group": [
+  "Sense"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Linguistic](/Traits.aspx?ID=101), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
   "Auditory",
-  "Enchantment",
+  "Concentrate",
   "Linguistic",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=45",
+ "url": "/Spells.aspx?ID=1470",
  "weakness": {}
 }

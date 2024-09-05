@@ -1,10 +1,26 @@
 {
  "ac": 42,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  33,
+  35
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 8,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Flawless Hearing",
   "Roll",
@@ -13,13 +29,19 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 35,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 255,
  "hp_raw": "255",
- "id": "creature-550",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2826",
  "image": [
-  "/Images/Monsters/Aolaz.png"
+  "/Images/Monsters/Aolaz.webp"
  ],
  "immunity": [
   "bleed",
@@ -29,84 +51,135 @@
   "drained",
   "fatigued",
   "healing",
-  "necromancy",
   "nonlethal  attacks",
   "paralyzed",
   "poison",
   "sickened",
   "sonic",
-  "unconscious"
+  "spirit",
+  "unconscious",
+  "vitality",
+  "void"
  ],
- "immunity_markdown": "bleed, [death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [fatigued](/Conditions.aspx?ID=15), [healing](/Traits.aspx?ID=89), [necromancy](/Traits.aspx?ID=117), [nonlethal](/Traits.aspx?ID=188) attacks, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sickened](/Conditions.aspx?ID=34), sonic, [unconscious](/Conditions.aspx?ID=38)",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [doomed](/Conditions.aspx?ID=67), [drained](/Conditions.aspx?ID=68), [fatigued](/Conditions.aspx?ID=73), [healing](/Traits.aspx?ID=623), [nonlethal](/Traits.aspx?ID=661) attacks, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sickened](/Conditions.aspx?ID=91), [sonic](/Traits.aspx?ID=697), [spirit](/Traits.aspx?ID=737), [unconscious](/Conditions.aspx?ID=95), [vitality](/Traits.aspx?ID=509), [void](/Traits.aspx?ID=510)",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-550",
  "level": 18,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Aolaz](/Monsters.aspx?ID=550)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost secret, and they are so rare that scholars have little opportunity to study active specimens. The best-known aolazes are museum pieces or battlefield relics destroyed or deactivated centuries ago, though fragmented records suggest that many more were made and might remain, yet to be unearthed.\n\nMost aolazes are built in the shape of great land-bound beasts, such as elephants, rhinoceroses, or dinosaurs. Regardless of the specific creature an aolaz has been constructed to resemble, it is not bound to walk the earth like its inspirations are—it's imbued with the magical ability to pursue across water and even through the air. Few can escape an aolaz's wrath once it is earned.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 43\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 41\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 38\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Aolaz.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[Aolaz](/Monsters.aspx?ID=550)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 21 <sup>2.0</sup></row>\n\n**Perception** +33; [low-light vision](/MonsterAbilities.aspx?ID=23), flawless hearing\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +35\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +4\r\n\r\n**Con** +8\r\n\r\n**Int** -4\r\n\r\n**Wis** +6\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**Flawless Hearing** An aolaz has an incredible sense of hearing. It can hear any sound made within 1,000 feet as though it were only 5 feet away from the source of the sound, and any sound within 1 mile as though it were only 30 feet away from the source of the sound. An aolaz's hearing is a [precise sense](/Rules.aspx?ID=411).\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 42 \r\n\r\n**Fort** +35 \r\n\r\n**Ref** +27 \r\n\r\n**Will** +31 \n\n</row>\r\n\r\n**HP** 255\n\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [fatigued](/Conditions.aspx?ID=15), [healing](/Traits.aspx?ID=89), [necromancy](/Traits.aspx?ID=117), [nonlethal](/Traits.aspx?ID=188) attacks, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sickened](/Conditions.aspx?ID=34), sonic, [unconscious](/Conditions.aspx?ID=38)\r\n\r\n**Resistances**\r\nphysical 15 (except [adamantine](/Equipment.aspx?ID=271))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, [_air walk_](/Spells.aspx?ID=6), [_water walk_](/Spells.aspx?ID=371)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntrunk +35 ([Magical](/Traits.aspx?ID=103), [reach 20 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 5d10+17 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +33 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 5d8+15 bludgeoning\r\n\r\n**Arcane Innate Spells** DC 40\r\n- **Constant (9th)**\r\n[Air Walk](/Spells.aspx?ID=6), [Water Walk](/Spells.aspx?ID=371)\r\n\r\n**Roll** <actions string=\"Single Action\" />  The aolaz tucks its head down and rolls up into an armored sphere. While Rolling, an aolaz has AC 44, Fort +37, Ref +29, Will +33, and Speed 100 feet, but it can't use its trunk Strikes or its Ultrasonic Blast. It can make foot Strikes while rolling, but only as part of a [Trample](/MonsterAbilities.aspx?ID=39). The aolaz can use this action again to unroll and resume its standing form.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=39)** <actions string=\"Two Actions\" />  Huge or smaller, foot, DC 40\r\n\r\n**Ultrasonic Blast** <actions string=\"Single Action\" /> ([Arcane](/Traits.aspx?ID=11), [Evocation](/Traits.aspx?ID=65), [Sonic](/Traits.aspx?ID=147)) The aolaz releases a tremendous blast of sonic energy from its trunk in a 150-foot line, dealing 12d10 sonic damage. The frequency of this sound is such that it is completely imperceptible to [humanoids](/Traits.aspx?ID=91), but the damage it wreaks is all too evident. Each creature in the area must attempt a DC 40 Fortitude save. The aolaz can't use Ultrasonic Blast again for 1d4 rounds. <br />**Critical Success** The creature is unaffected. <br />**Success** The creature takes half damage and is [stunned 1](/Conditions.aspx?ID=36). <br />**Failure** The creature takes full damage and is stunned 2. <br />**Critical Failure** The creature takes double damage and is stunned 3.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Jistkan Behemoths</title>\r\n\r\nThousands of years ago, the Jistka Imperium mastered the art of construct creation, and the aolaz represents the height of its craft. The Jistkans used primal magic to imbue their constructs with spirits of nature. However, when Jistkan creators turned to the outer planes, and to fiends in particular, as a source to power even greater constructs, they unknowingly orchestrated their own doom.\r\n</aside>",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Aolaz](/Monsters.aspx?ID=2826)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost secret, and they are so rare that scholars have little opportunity to study active specimens. The best-known aolazes are museum pieces or battlefield relics destroyed or deactivated centuries ago, though fragmented records suggest that many more were made and might remain, yet to be unearthed.\n\n Most aolazes are built in the shape of great land-bound beasts, such as [elephants](/MonsterFamilies.aspx?ID=413), [rhinoceroses](/MonsterFamilies.aspx?ID=464), or [dinosaurs](/MonsterFamilies.aspx?ID=391). Regardless of the specific creature an aolaz has been constructed to resemble, it is not bound to walk the earth like its inspirations are—it's imbued with the magical ability to pursue across water and even through the air. Few can escape an aolaz's wrath once it is earned.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Crafting](/Skills.aspx?ID=37)): DC 43\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 41\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 38\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Aolaz.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[Aolaz](/Monsters.aspx?ID=2826)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=563\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 22\n\n**Perception** +33; [low-light vision](/MonsterAbilities.aspx?ID=69), flawless hearing\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +35\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +4\r\n\r\n**Con** +8\r\n\r\n**Int** -4\r\n\r\n**Wis** +6\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**Flawless Hearing** An aolaz has an incredible sense of hearing. It can hear any sound made within 1,000 feet as though it were only 5 feet away from the source of the sound, and any sound within 1 mile as though it were only 30 feet away from the source of the sound. An aolaz's hearing is a [precise](/Rules.aspx?ID=411) sense.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 42 \r\n\r\n**Fort** +35 \r\n\r\n**Ref** +27 \r\n\r\n**Will** +31 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 255\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [doomed](/Conditions.aspx?ID=67), [drained](/Conditions.aspx?ID=68), [fatigued](/Conditions.aspx?ID=73), [healing](/Traits.aspx?ID=623), [nonlethal](/Traits.aspx?ID=661) attacks, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sickened](/Conditions.aspx?ID=91), [sonic](/Traits.aspx?ID=697), [spirit](/Traits.aspx?ID=737), [unconscious](/Conditions.aspx?ID=95), [vitality](/Traits.aspx?ID=509), [void](/Traits.aspx?ID=510)\r\n\r\n**Resistances**\r\nphysical 15 (except [adamantine](/Equipment.aspx?ID=374))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, [_fly_](/Spells.aspx?ID=1534), [_water walk_](/Spells.aspx?ID=1756)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntrunk +35 ([Magical](/Traits.aspx?ID=103), [reach 20 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 5d10+17 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +33 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 5d8+15 bludgeoning\r\n\r\n**Arcane Innate Spells** DC 40\r\n- **Constant (9th)**\r\n[Fly](/Spells.aspx?ID=125), [Water Walk](/Spells.aspx?ID=371)\r\n\r\n**Roll** <actions string=\"Single Action\" />  The aolaz tucks its head down and rolls up into an armored sphere. While Rolling, an aolaz has AC 44, Fort +37, Ref +29, Will +33, and Speed 100 feet, but it can't use its trunk Strikes or its Ultrasonic Blast. It can make foot Strikes while rolling, but only as part of a Trample. The aolaz can use this action again to unroll and resume its standing form.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Two Actions\" />  Huge or smaller, foot, DC 40\r\n\r\n**Ultrasonic Blast** <actions string=\"Single Action\" /> ([Arcane](/Traits.aspx?ID=11), [Sonic](/Traits.aspx?ID=147)) The aolaz releases a tremendous blast of sonic energy from its trunk in a 150-foot line, dealing 12d10 sonic damage. The frequency of this sound is such that it is completely imperceptible to humanoids, but the damage it wreaks is all too evident. Each creature in the area must attempt a DC 40 Fortitude save. The aolaz can't use Ultrasonic Blast again for 1d4 rounds.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature takes half damage and is [stunned 1](/Conditions.aspx?ID=93).<br /> **Failure** The creature takes full damage and is stunned 2.<br /> **Critical Failure** The creature takes double damage and is stunned 3.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Jistkan Behemoths</title>\r\n\r\nThousands of years ago, the Jistka Imperium mastered the art of construct creation, and the aolaz represents the height of its craft. The Jistkans used primal magic to imbue their constructs with spirits of nature. However, when Jistkan creators turned to the outer planes, and to [fiends](/Traits.aspx?ID=600) in particular, as a source to power even greater constructs, they unknowingly orchestrated their own doom.\r\n</aside>",
  "name": "Aolaz",
  "npc": false,
  "perception": 33,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 22",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "reflex_save": 27,
- "release_date": "2020-05-27",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 15,
   "physical": 15,
   "piercing": 15,
   "slashing": 15
  },
- "resistance_markdown": "physical 15 (except [adamantine](/Equipment.aspx?ID=271))",
+ "resistance_markdown": "physical 15 (except [adamantine](/Equipment.aspx?ID=374))",
  "resistance_raw": "physical 15 (except  adamantine )",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 21 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n**HP** 255\r\n\r\n**AC** 42\r\n\r\n**Fort** +35\r\n\r\n**Ref** +27\r\n\r\n**Will** +31\r\n\r\n**Perception** +33\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=563\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 22\n\n<row gap=\"medium\">\r\n**HP** 255\r\n\r\n**AC** 42\r\n\r\n**Fort** +35\r\n\r\n**Ref** +27\r\n\r\n**Will** +31\r\n\r\n**Perception** +33\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost …\r\n</summary>",
  "sense": " low-light vision , flawless hearing",
- "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23), flawless hearing",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), flawless hearing",
  "size": [
   "Gargantuan"
  ],
+ "size_id": [
+  6
+ ],
  "skill": [
-  "Athletics +35"
+  "Athletics"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +35",
+ "skill_mod": {
+  "athletics": 35
+ },
  "source": [
-  "Bestiary 2"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 2 pg. 21"
+  "Monster Core pg. 22"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 21 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 22",
  "speed": {
   "land": 50,
   "max": 50
  },
- "speed_markdown": "50 feet, [_air walk_](/Spells.aspx?ID=6), [_water walk_](/Spells.aspx?ID=371)",
- "speed_raw": "50 feet,   air walk  ,   water walk  ",
+ "speed_markdown": "50 feet, [_fly_](/Spells.aspx?ID=1534), [_water walk_](/Spells.aspx?ID=1756)",
+ "speed_raw": "50 feet,   fly  ,   water walk  ",
  "spell": [
-  "Air Walk",
+  "Fly",
   "Water Walk"
  ],
- "spell_markdown": "[Air Walk](/Spells.aspx?ID=6), [Water Walk](/Spells.aspx?ID=371)",
+ "spell_markdown": "[Fly](/Spells.aspx?ID=125), [Water Walk](/Spells.aspx?ID=371)",
+ "spell_dc": [
+  40
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  37,
+  44
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "Aolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost …",
  "summary_markdown": "Aolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost …",
- "text": " Aolaz Aolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost secret, and they are so rare that scholars have little opportunity to study active specimens. The best-known aolazes are museum pieces or battlefield relics destroyed or deactivated centuries ago, though fragmented records suggest that many more were made and might remain, yet to be unearthed. Most aolazes are built in the shape of great land-bound beasts, such as elephants, rhinoceroses, or dinosaurs. Regardless of the specific creature an aolaz has been constructed to resemble, it is not bound to walk the earth like its inspirations are—it's imbued with the magical ability to pursue across water and even through the air. Few can escape an aolaz's wrath once it is earned. Recall Knowledge - Construct (Arcana, Crafting): DC 43 Unspecific Lore : DC 41 Specific Lore : DC 38 Aolaz Source Bestiary 2 pg. 21 2.0 Perception +33; low-light vision, flawless hearing Languages Skills Athletics +35 Str +9 Dex +4 Con +8 Int -4 Wis +6 Cha +3 Flawless Hearing An aolaz has an incredible sense of hearing. It can hear any sound made within 1,000 feet as though it were only 5 feet away from the source of the sound, and any sound within 1 mile as though it were only 30 feet away from the source of the sound. An aolaz's hearing is a precise sense. --- AC 42 Fort +35 Ref +27 Will +31 HP 255 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, necromancy, nonlethal attacks, paralyzed, poison, sickened, sonic, unconscious Resistances physical 15 (except adamantine) --- Speed 50 feet, air walk , water walk Melee Single Action trunk +35 (Magical, reach 20 feet, Sweep, Trip), Damage 5d10+17 bludgeoning plus Grab Melee Single Action foot +33 (Magical, reach 10 feet), Damage 5d8+15 bludgeoning Arcane Innate Spells DC 40 - Constant (9th) Air Walk, Water Walk Roll Single Action The aolaz tucks its head down and rolls up into an armored sphere. While Rolling, an aolaz has AC 44, Fort +37, Ref +29, Will +33, and Speed 100 feet, but it can't use its trunk Strikes or its Ultrasonic Blast. It can make foot Strikes while rolling, but only as part of a Trample. The aolaz can use this action again to unroll and resume its standing form. Trample Two Actions Huge or smaller, foot, DC 40 Ultrasonic Blast Single Action (Arcane, Evocation, Sonic) The aolaz releases a tremendous blast of sonic energy from its trunk in a 150-foot line, dealing 12d10 sonic damage. The frequency of this sound is such that it is completely imperceptible to humanoids, but the damage it wreaks is all too evident. Each creature in the area must attempt a DC 40 Fortitude save. The aolaz can't use Ultrasonic Blast again for 1d4 rounds. Critical Success The creature is unaffected. Success The creature takes half damage and is stunned 1. Failure The creature takes full damage and is stunned 2. Critical Failure The creature takes double damage and is stunned 3. Jistkan Behemoths Thousands of years ago, the Jistka Imperium mastered the art of construct creation, and the aolaz represents the height of its craft. The Jistkans used primal magic to imbue their constructs with spirits of nature. However, when Jistkan creators turned to the outer planes, and to fiends in particular, as a source to power even greater constructs, they unknowingly orchestrated their own doom. ",
+ "text": " Aolaz Aolazes are great beasts carved from stone and metal and magically imbued with the essence of life. The exact means of their creation is a long-lost secret, and they are so rare that scholars have little opportunity to study active specimens. The best-known aolazes are museum pieces or battlefield relics destroyed or deactivated centuries ago, though fragmented records suggest that many more were made and might remain, yet to be unearthed. Most aolazes are built in the shape of great land-bound beasts, such as elephants, rhinoceroses, or dinosaurs. Regardless of the specific creature an aolaz has been constructed to resemble, it is not bound to walk the earth like its inspirations are—it's imbued with the magical ability to pursue across water and even through the air. Few can escape an aolaz's wrath once it is earned. Recall Knowledge - Construct (Arcana, Crafting): DC 43 Unspecific Lore : DC 41 Specific Lore : DC 38 Aolaz Source Monster Core pg. 22 Perception +33; low-light vision, flawless hearing Languages Skills Athletics +35 Str +9 Dex +4 Con +8 Int -4 Wis +6 Cha +3 Flawless Hearing An aolaz has an incredible sense of hearing. It can hear any sound made within 1,000 feet as though it were only 5 feet away from the source of the sound, and any sound within 1 mile as though it were only 30 feet away from the source of the sound. An aolaz's hearing is a precise sense. --- AC 42 Fort +35 Ref +27 Will +31 HP 255 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, sonic, spirit, unconscious, vitality, void Resistances physical 15 (except adamantine) --- Speed 50 feet, fly , water walk Melee Single Action trunk +35 (Magical, reach 20 feet, Sweep, Trip), Damage 5d10+17 bludgeoning plus Grab Melee Single Action foot +33 (Magical, reach 10 feet), Damage 5d8+15 bludgeoning Arcane Innate Spells DC 40 - Constant (9th) Fly, Water Walk Roll Single Action The aolaz tucks its head down and rolls up into an armored sphere. While Rolling, an aolaz has AC 44, Fort +37, Ref +29, Will +33, and Speed 100 feet, but it can't use its trunk Strikes or its Ultrasonic Blast. It can make foot Strikes while rolling, but only as part of a Trample. The aolaz can use this action again to unroll and resume its standing form. Trample Two Actions Huge or smaller, foot, DC 40 Ultrasonic Blast Single Action (Arcane, Sonic) The aolaz releases a tremendous blast of sonic energy from its trunk in a 150-foot line, dealing 12d10 sonic damage. The frequency of this sound is such that it is completely imperceptible to humanoids, but the damage it wreaks is all too evident. Each creature in the area must attempt a DC 40 Fortitude save. The aolaz can't use Ultrasonic Blast again for 1d4 rounds. Critical Success The creature is unaffected. Success The creature takes half damage and is stunned 1. Failure The creature takes full damage and is stunned 2. Critical Failure The creature takes double damage and is stunned 3. Jistkan Behemoths Thousands of years ago, the Jistka Imperium mastered the art of construct creation, and the aolaz represents the height of its craft. The Jistkans used primal magic to imbue their constructs with spirits of nature. However, when Jistkan creators turned to the outer planes, and to fiends in particular, as a source to power even greater constructs, they unknowingly orchestrated their own doom. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
   "Construct",
   "Rare",
-  "N",
   "Gargantuan"
  ],
- "trait_markdown": "[Construct](/Traits.aspx?ID=35), [Rare](/Traits.aspx?ID=137)",
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Construct](/Traits.aspx?ID=563), [Rare](/Traits.aspx?ID=683)",
  "trait_raw": [
   "Construct",
   "Rare"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=550",
+ "url": "/Monsters.aspx?ID=2826",
  "vision": "Low-light vision",
  "weakest_save": [
   "ref",
@@ -114,5 +187,9 @@
  ],
  "weakness": {},
  "will_save": 31,
- "wisdom": 6
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

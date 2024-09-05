@@ -1,0 +1,208 @@
+{
+ "ac": 31,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  23,
+  23,
+  23,
+  24
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Disquieting Display",
+  "Gongorinan Venom",
+  "Painful Limbs",
+  "Reject Tools"
+ ],
+ "creature_family": "Qlippoth",
+ "creature_family_markdown": "[Qlippoth](/MonsterFamilies.aspx?ID=460)",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 24,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 205,
+ "hp_raw": "205",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3155",
+ "image": [
+  "/Images/Monsters/Gongorinan.webp"
+ ],
+ "immunity": [
+  "controlled",
+  "fear"
+ ],
+ "immunity_markdown": "[controlled](/Conditions.aspx?ID=64), [fear](/Traits.aspx?ID=598)",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking club"
+ ],
+ "language": [
+  "Chthonian",
+  "<%UMR%79%%>telepathy<%END> 100 feet"
+ ],
+ "language_markdown": "[Chthonian](/Languages.aspx?ID=114); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet",
+ "level": 11,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Gongorinan (Brood Qlippoth)](/Monsters.aspx?ID=3155)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile most qlippoths focus on wiping mortals from existence, gongorinans follow the divergent plan of trapping mortals in forms incapable of understanding their actions and performing any sin meriting condemnation to the [Outer Rifts](/Planes.aspx?ID=45). What may seem as a mercy to some is a matter of dire necessity to the gongorinans, who see killing sinful mortals as tantamount to helping their foes.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 30\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 28\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 25\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Gongorinan.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Gongorinan](/Monsters.aspx?ID=3155)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=767\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 281\n\n**Perception** +20; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Chthonian](/Languages.aspx?ID=114); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +23, [Athletics](/Skills.aspx?ID=3) +23, [Intimidation](/Skills.aspx?ID=7) +21, [Stealth](/Skills.aspx?ID=15) +21\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +6\r\n\r\n**Con** +7\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [club](/Weapons.aspx?ID=357)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +24 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +20 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 205\n\n</row>\r\n\r\n**Immunities**\r\n[controlled](/Conditions.aspx?ID=64), [fear](/Traits.aspx?ID=598)\r\n\r\n**Resistances**\r\n[mental](/Traits.aspx?ID=647) 10, physical 10 (except [cold iron](/Equipment.aspx?ID=375))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, climb 40 feet, fly 40 feet; [_unfettered movement_](/Spells.aspx?ID=1732)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclub +24,\r\n**Damage** 2d6+9 bludgeoning plus reject tools\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\npincer +23 ([Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d10+9 slashing plus 2d6 mental and [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +23 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d6+9 bludgeoning plus 2d6 mental\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstinger +23 ([Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d6+9 piercing plus gongorinan venom\r\n\r\n**Occult Innate Spells** DC 30\r\n- **3rd**\r\n[One with Stone](/Spells.aspx?ID=1619) (at will)\r\n- **6th**\r\n[Cursed Metamorphosis](/Spells.aspx?ID=1479), [Petrify](/Spells.aspx?ID=1628)\r\n- **Constant (4th)**\r\n[Unfettered Movement](/Spells.aspx?ID=1732)\r\n\r\n**Disquieting Display** <actions string=\"Two Actions\" /> ([Concentrate](/Traits.aspx?ID=32), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120), [Visual](/Traits.aspx?ID=163)) The gongorinan opens its maw to reveal the forms hidden there, making observers question their own bodies. Creatures in a 30-foot emanation must attempt a DC 30 Will save, after which they are temporarily immune to further Disquieting Displays for 1 minute.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [clumsy 1](/Conditions.aspx?ID=61) for 1 round.<br /> **Failure** The creature is clumsy 2 and [slowed 1](/Conditions.aspx?ID=92) for 1 round.<br /> **Critical Failure** As failure, but for 1 minute.\r\n\r\n**Gongorinan Venom**  ([Poison](/Traits.aspx?ID=126), [Polymorph](/Traits.aspx?ID=127)) **Saving Throw** Fortitude DC 30; **Stage 1** [stupefied 1](/Conditions.aspx?ID=94) and cosmetic signs appear of turning into an animal, fungus, or plant (1 round); **Stage 2** stupefied 2 and [clumsy 2](/Conditions.aspx?ID=61) (1 round); **Stage 3** stupefied 4 and clumsy 4 (1 round); **Stage 4** [paralyzed](/Conditions.aspx?ID=85) as changes completely overtake the body (1 round); **Stage 5** the victim permanently transforms into an animal, fungus, or plant in mind and body as a permanent curse, and the affliction ends\r\n\r\n**Painful Limbs** <actions string=\"Two Actions\" />  The gongorinan makes up to four Strikes against different targets, each using a different limb. All four Strikes count toward its multiple attack penalty, but the penalty doesn't increase until after the gongorinan has made all the attacks.\r\n\r\n**Reject Tools**  ([Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120)) A creature hit by the gongorinan's club must succeed at a DC 30 Will save or [Release](/Actions.aspx?ID=2300) any manufactured items it's holding.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-460\" />",
+ "name": "Gongorinan",
+ "npc": false,
+ "perception": 20,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 281",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 21,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {
+  "bludgeoning": 10,
+  "mental": 10,
+  "physical": 10,
+  "piercing": 10,
+  "slashing": 10
+ },
+ "resistance_markdown": "[mental](/Traits.aspx?ID=647) 10, physical 10 (except [cold iron](/Equipment.aspx?ID=375))",
+ "resistance_raw": " mental  10, physical 10 (except  cold iron )",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=767\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 281\r\n\r\n**Creature Family** [Qlippoth](/MonsterFamilies.aspx?ID=460)\r\n\r\n<row gap=\"medium\">\r\n**HP** 205\r\n\r\n**AC** 31\r\n\r\n**Fort** +24\r\n\r\n**Ref** +21\r\n\r\n**Will** +20\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile most qlippoths focus on wiping mortals from existence, gongorinans follow the divergent plan of trapping mortals in forms incapable of …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +23, [Athletics](/Skills.aspx?ID=3) +23, [Intimidation](/Skills.aspx?ID=7) +21, [Stealth](/Skills.aspx?ID=15) +21",
+ "skill_mod": {
+  "acrobatics": 23,
+  "athletics": 23,
+  "intimidation": 21,
+  "stealth": 21
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 281"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 281",
+ "speed": {
+  "climb": 40,
+  "fly": 40,
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet, climb 40 feet, fly 40 feet; [_unfettered movement_](/Spells.aspx?ID=1732)",
+ "speed_raw": "40 feet, climb 40 feet, fly 40 feet;   unfettered movement  ",
+ "spell": [
+  "Cursed Metamorphosis",
+  "Petrify",
+  "One with Stone",
+  "Unfettered Movement"
+ ],
+ "spell_markdown": "[Cursed Metamorphosis](/Spells.aspx?ID=1479), [One with Stone](/Spells.aspx?ID=1619), [Petrify](/Spells.aspx?ID=1628), [Unfettered Movement](/Spells.aspx?ID=1732)",
+ "spell_dc": [
+  30
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "21",
+ "strike_damage_average": [
+  16,
+  16,
+  23,
+  27
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "While most qlippoths focus on wiping mortals from existence, gongorinans follow the divergent plan of trapping mortals in forms incapable of …",
+ "summary_markdown": "While most qlippoths focus on wiping mortals from existence, gongorinans follow the divergent plan of trapping mortals in forms incapable of …",
+ "text": " Gongorinan (Brood Qlippoth) While most qlippoths focus on wiping mortals from existence, gongorinans follow the divergent plan of trapping mortals in forms incapable of understanding their actions and performing any sin meriting condemnation to the Outer Rifts. What may seem as a mercy to some is a matter of dire necessity to the gongorinans, who see killing sinful mortals as tantamount to helping their foes. Recall Knowledge - Fiend (Religion): DC 30 Unspecific Lore : DC 28 Specific Lore : DC 25 Gongorinan Source Monster Core pg. 281 Perception +20; darkvision Languages Chthonian; telepathy 100 feet Skills Acrobatics +23, Athletics +23, Intimidation +21, Stealth +21 Str +6 Dex +6 Con +7 Int +1 Wis +3 Cha +4 Items +1 striking club --- AC 31 Fort +24 Ref +21 Will +20 HP 205 Immunities controlled, fear Resistances mental 10, physical 10 (except cold iron) --- Speed 40 feet, climb 40 feet, fly 40 feet; unfettered movement Melee Single Action club +24, Damage 2d6+9 bludgeoning plus reject tools Melee Single Action pincer +23 (Magical, Unholy), Damage 2d10+9 slashing plus 2d6 mental and Grab Melee Single Action tentacle +23 (Agile, Magical, reach 10 feet, Unholy), Damage 2d6+9 bludgeoning plus 2d6 mental Melee Single Action stinger +23 (Magical, Unholy), Damage 2d6+9 piercing plus gongorinan venom Occult Innate Spells DC 30 - 3rd One with Stone (at will) - 6th Cursed Metamorphosis, Petrify - Constant (4th) Unfettered Movement Disquieting Display Two Actions (Concentrate, Mental, Occult, Visual) The gongorinan opens its maw to reveal the forms hidden there, making observers question their own bodies. Creatures in a 30-foot emanation must attempt a DC 30 Will save, after which they are temporarily immune to further Disquieting Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is clumsy 1 for 1 round. Failure The creature is clumsy 2 and slowed 1 for 1 round. Critical Failure As failure, but for 1 minute. Gongorinan Venom (Poison, Polymorph) Saving Throw Fortitude DC 30; Stage 1 stupefied 1 and cosmetic signs appear of turning into an animal, fungus, or plant (1 round); Stage 2 stupefied 2 and clumsy 2 (1 round); Stage 3 stupefied 4 and clumsy 4 (1 round); Stage 4 paralyzed as changes completely overtake the body (1 round); Stage 5 the victim permanently transforms into an animal, fungus, or plant in mind and body as a permanent curse, and the affliction ends Painful Limbs Two Actions The gongorinan makes up to four Strikes against different targets, each using a different limb. All four Strikes count toward its multiple attack penalty, but the penalty doesn't increase until after the gongorinan has made all the attacks. Reject Tools (Mental, Occult) A creature hit by the gongorinan's club must succeed at a DC 30 Will save or Release any manufactured items it's holding. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Fiend",
+  "Qlippoth",
+  "Uncommon",
+  "Unholy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fiend](/Traits.aspx?ID=600), [Qlippoth](/Traits.aspx?ID=767), [Uncommon](/Traits.aspx?ID=721), [Unholy](/Traits.aspx?ID=521)",
+ "trait_raw": [
+  "Fiend",
+  "Qlippoth",
+  "Uncommon",
+  "Unholy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3155",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 20,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,38 +1,62 @@
 {
  "ac": 14,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "category": "creature",
  "charisma": -3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Swarming Bites",
-  "Filth Fever"
+  "Putrid Plague",
+  "Swarming Bites"
  ],
  "creature_family": "Rat",
- "creature_family_markdown": "[Rat](/MonsterFamilies.aspx?ID=86)",
+ "creature_family_markdown": "[Rat](/MonsterFamilies.aspx?ID=462)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 2,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
  "hp": 14,
  "hp_raw": "14",
- "id": "creature-347",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3163",
  "immunity": [
+  "grabbed",
   "precision",
+  "prone",
+  "restrained",
   "swarm mind"
  ],
- "immunity_markdown": "precision, swarm mind",
+ "immunity_markdown": "[grabbed](/Conditions.aspx?ID=77), precision, [prone](/Conditions.aspx?ID=88), [restrained](/Conditions.aspx?ID=90), [swarm mind](/MonsterAbilities.aspx?ID=78)",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-347",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Rat Swarm](/Monsters.aspx?ID=347)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA swarm of rats can cause total chaos within a household or business. Contracting filth fever is all the easier when dozens of these agitated or hungry vermin gather to bite victims en masse, making rat-hunting a viable career in many parts of the world as desperate townspeople seek relief from the disease’s spread.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Rat Swarm](/Monsters.aspx?ID=347)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 276</row>\n\n**Perception** +5; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +4, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +3\r\n\r\n**Con** +1\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** -3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +2 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n**HP** 14\n\n**Immunities**\r\nprecision, swarm mind\r\n\r\n**Resistances**\r\nphysical 6 (except bludgeoning)\r\n\r\n**Weaknesses**\r\narea damage 3, splash damage 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 10 feet\n\n**Swarming Bites** <actions string=\"Single Action\" />  Each enemy in the swarm’s space takes 1d6 piercing damage and must attempt a DC 17 basic Reflex save. A creature that fails its save is exposed to filth fever.\r\n\r\n**Filth Fever**  ([Disease](/Traits.aspx?ID=46)) The [sickened](/Conditions.aspx?ID=34) and [unconscious](/Conditions.aspx?ID=38) conditions from filth fever don’t improve on their own until the disease is cured. **Saving Throw** DC 14 Fortitude; **Stage 1** carrier with no ill effect (1d4 hours), **Stage 2** [sickened 1](/Conditions.aspx?ID=34) (1 day), **Stage 3** [sickened 1](/Conditions.aspx?ID=34) and [slowed 1](/Conditions.aspx?ID=35) (1 day), **Stage 4** [unconscious](/Conditions.aspx?ID=38) (1 day), **Stage 5** dead\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-86\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Rat Swarm](/Monsters.aspx?ID=3163)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA swarm of rats can cause total chaos within a household or business. Contracting putrid plague is all the easier when dozens of these agitated or hungry vermin gather to bite victims en masse, making rat-hunting a viable career in many parts of the world as desperate townspeople seek relief from the disease's spread.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Rat Swarm](/Monsters.aspx?ID=3163)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 288\n\n**Perception** +5; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +4, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +3\r\n\r\n**Con** +1\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** -3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +2 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\n\n</row>\r\n\r\n**Immunities**\r\n[grabbed](/Conditions.aspx?ID=77), precision, [prone](/Conditions.aspx?ID=88), [restrained](/Conditions.aspx?ID=90), [swarm mind](/MonsterAbilities.aspx?ID=78)\r\n\r\n**Resistances**\r\nphysical 6 (except bludgeoning)\r\n\r\n**Weaknesses**\r\narea damage 3, [splash](/Traits.aspx?ID=699) damage 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 10 feet\n\n**Putrid Plague**  ([Disease](/Traits.aspx?ID=46)) The [sickened](/Conditions.aspx?ID=91) and [unconscious](/Conditions.aspx?ID=95) conditions from putrid plague can't end or be reduced until the disease is cured; **Saving Throw** DC 14 Fortitude; **Stage 1** carrier with no ill effect (1d4 hours), **Stage 2** [sickened 1](/Conditions.aspx?ID=91) (1 day), **Stage 3** sickened 1 and [slowed 1](/Conditions.aspx?ID=92) (1 day), **Stage 4** [unconscious](/Conditions.aspx?ID=95) (1 day), **Stage 5** dead\r\n\r\n**Swarming Bites** <actions string=\"Single Action\" />  Each enemy in the swarm's space takes 1d6 piercing damage and must attempt a DC 17 [basic](/Rules.aspx?ID=329) Reflex save. A creature that fails its save is exposed to putrid plague.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Rats and Disease</title>\r\n\r\nRats have a reputation of being vicious, aggressive animals that attack food stores in great numbers and spread disease. While rats are immune to the most severe effects of their own putrid plague, the disease makes them unpredictable and aggressive. Some populations of rats carry even more deadly diseases, such as [bubonic plague](/Diseases.aspx?ID=6).\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-462\" />",
  "name": "Rat Swarm",
  "npc": false,
  "perception": 5,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 288",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "physical": 6,
   "piercing": 6,
@@ -40,26 +64,36 @@
  },
  "resistance_markdown": "physical 6 (except bludgeoning)",
  "resistance_raw": "physical 6 (except bludgeoning)",
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 276</row>\r\n\r\n**Creature Family** [Rat](/MonsterFamilies.aspx?ID=86)\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\r\n\r\n**AC** 14\r\n\r\n**Fort** +2\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA swarm of rats can cause total chaos within a household or business. Contracting filth fever is all the easier when dozens of these agitated or …\r\n</summary>",
- "sense": "low-light vision, scent (imprecise) 30 feet",
- "sense_markdown": "low-light vision, scent (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 288\r\n\r\n**Creature Family** [Rat](/MonsterFamilies.aspx?ID=462)\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\r\n\r\n**AC** 14\r\n\r\n**Fort** +2\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA swarm of rats can cause total chaos within a household or business. Contracting putrid plague is all the easier when dozens of these agitated or …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 30 feet",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Athletics +4",
-  "Stealth +6"
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +4, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "acrobatics": 8,
+  "athletics": 4,
+  "stealth": 6
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 276"
+  "Monster Core pg. 288"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 276</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 288",
  "speed": {
   "climb": 10,
   "land": 30,
@@ -70,37 +104,46 @@
  "spell_markdown": "",
  "stealth": "6",
  "strength": -2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "A swarm of rats can cause total chaos within a household or business. Contracting filth fever is all the easier when dozens of these agitated or …",
- "summary_markdown": "A swarm of rats can cause total chaos within a household or business. Contracting filth fever is all the easier when dozens of these agitated or …",
- "text": " Rat Swarm A swarm of rats can cause total chaos within a household or business. Contracting filth fever is all the easier when dozens of these agitated or hungry vermin gather to bite victims en masse, making rat-hunting a viable career in many parts of the world as desperate townspeople seek relief from the disease’s spread. Recall Knowledge - Animal (Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Rat Swarm Source Bestiary pg. 276 Perception +5; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +8, Athletics +4, Stealth +6 Str -2 Dex +3 Con +1 Int -4 Wis +1 Cha -3 --- AC 14 Fort +2 Ref +7 Will +4 HP 14 Immunities precision, swarm mind Resistances physical 6 (except bludgeoning) Weaknesses area damage 3, splash damage 3 --- Speed 30 feet, climb 10 feet Swarming Bites Single Action Each enemy in the swarm’s space takes 1d6 piercing damage and must attempt a DC 17 basic Reflex save. A creature that fails its save is exposed to filth fever. Filth Fever (Disease) The sickened and unconscious conditions from filth fever don’t improve on their own until the disease is cured. Saving Throw DC 14 Fortitude; Stage 1 carrier with no ill effect (1d4 hours), Stage 2 sickened 1 (1 day), Stage 3 sickened 1 and slowed 1 (1 day), Stage 4 unconscious (1 day), Stage 5 dead ",
+ "summary": "A swarm of rats can cause total chaos within a household or business. Contracting putrid plague is all the easier when dozens of these agitated or …",
+ "summary_markdown": "A swarm of rats can cause total chaos within a household or business. Contracting putrid plague is all the easier when dozens of these agitated or …",
+ "text": " Rat Swarm A swarm of rats can cause total chaos within a household or business. Contracting putrid plague is all the easier when dozens of these agitated or hungry vermin gather to bite victims en masse, making rat-hunting a viable career in many parts of the world as desperate townspeople seek relief from the disease's spread. Recall Knowledge - Animal (Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Rat Swarm Source Monster Core pg. 288 Perception +5; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +8, Athletics +4, Stealth +6 Str -2 Dex +3 Con +1 Int -4 Wis +1 Cha -3 --- AC 14 Fort +2 Ref +7 Will +4 HP 14 Immunities grabbed, precision, prone, restrained, swarm mind Resistances physical 6 (except bludgeoning) Weaknesses area damage 3, splash damage 3 --- Speed 30 feet, climb 10 feet Putrid Plague (Disease) The sickened and unconscious conditions from putrid plague can't end or be reduced until the disease is cured; Saving Throw DC 14 Fortitude; Stage 1 carrier with no ill effect (1d4 hours), Stage 2 sickened 1 (1 day), Stage 3 sickened 1 and slowed 1 (1 day), Stage 4 unconscious (1 day), Stage 5 dead Swarming Bites Single Action Each enemy in the swarm's space takes 1d6 piercing damage and must attempt a DC 17 basic Reflex save. A creature that fails its save is exposed to putrid plague. Rats and Disease Rats have a reputation of being vicious, aggressive animals that attack food stores in great numbers and spread disease. While rats are immune to the most severe effects of their own putrid plague, the disease makes them unpredictable and aggressive. Some populations of rats carry even more deadly diseases, such as bubonic plague. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Swarm",
-  "N",
   "Large"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Swarm](/Traits.aspx?ID=239)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Swarm](/Traits.aspx?ID=707)",
  "trait_raw": [
   "Animal",
   "Swarm"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=347",
+ "url": "/Monsters.aspx?ID=3163",
  "vision": "Low-light vision",
  "weakest_save": [
   "fort",
   "fortitude"
  ],
  "weakness": {
-  "area": 3,
-  "splash": 3
+  "area": 3
  },
- "weakness_markdown": "area damage 3, splash damage 3",
- "weakness_raw": "area damage 3, splash damage 3",
+ "weakness_markdown": "area damage 3, [splash](/Traits.aspx?ID=699) damage 3",
+ "weakness_raw": "area damage 3,  splash  damage 3",
  "will_save": 4,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

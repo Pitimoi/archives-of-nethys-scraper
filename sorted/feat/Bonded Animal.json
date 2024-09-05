@@ -1,38 +1,45 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Bonded Animal"
  ],
  "feat_markdown": "Bonded Animal",
- "id": "feat-762",
+ "id": "feat-5127",
+ "legacy_id": "feat-762",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Bonded Animal](/Feats.aspx?ID=762) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 259 <sup>4.0</sup></row>\n\n**Prerequisites**\r\nExpert in [Nature](/Skills.aspx?ID=10)\n\n</column>\r\n\r\n---\r\n\r\nYou forge strong connections with animals. You can spend 7 days of downtime regularly interacting with a normal animal (not a companion or other special animal) that is friendly or helpful to you. After this duration, attempt a DC 20 [Nature](/Domains.aspx?ID=22) check. If successful, you bond with the animal. The animal is permanently [helpful](/Conditions.aspx?ID=21) to you, unless you do something egregious to break your bond. A helpful animal is easier to direct, as described under [Command an Animal](/Actions.aspx?ID=58).\n\n Bonding with a new animal ends any previous bond you had. You can't have both a bonded animal and an animal companion (though you can have both a bonded animal and a familiar).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Bonded Animal](/Feats.aspx?ID=5127) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 253\n\n**Prerequisites**\r\nExpert in [Nature](/Skills.aspx?ID=10)\n\n</column>\r\n\r\n---\r\n\r\nYou forge strong connections with animals. You can spend 7 days of downtime regularly interacting with a normal animal (not a companion or other special animal) that is friendly or helpful to you. After this duration, attempt a Nature check against the animal’s Will DC. If successful, you bond with the animal. The animal is permanently bonded to you until you form a bond with a different animal or do something egregious to break your bond.\n\nA helpful animal is easier to direct, as described on page 242. If your bonded animal is level –1, it gains the minion trait (page 301), allowing you to command it more efficiently. The maximum level of creature that can be your minion increases to 3 if you’re a master in Nature and to 11 if you’re legendary.\n\n**Special** You can’t have both a bonded animal and an animal companion (though you can have both a bonded animal and a pet or familiar).\n\n<title level=\"2\">Bonded Animal leads to...</title>\r\n[Ferocious Beasts](/Feats.aspx?ID=4527)",
  "name": "Bonded Animal",
  "pfs": "Standard",
  "prerequisite": "Expert in Nature",
  "prerequisite_markdown": "Expert in [Nature](/Skills.aspx?ID=10)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 253",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 259 <sup>4.0</sup></row>\n\n**Prerequisites**\r\nExpert in [Nature](/Skills.aspx?ID=10)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn animal becomes permanently helpful to you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 253\n\n**Prerequisites**\r\nExpert in [Nature](/Skills.aspx?ID=10)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn animal becomes permanently easier to command\r\n</summary>",
  "skill": [
   "Nature",
   "Nature"
  ],
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 259"
+  "Player Core pg. 253"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 259 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 253",
  "speed": {},
- "summary": "An animal becomes permanently helpful to you.",
- "summary_markdown": "An animal becomes permanently helpful to you.",
- "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Bonded Animal Source Core Rulebook pg. 259 4.0 Prerequisites Expert in Nature --- You forge strong connections with animals. You can spend 7 days of downtime regularly interacting with a normal animal (not a companion or other special animal) that is friendly or helpful to you. After this duration, attempt a DC 20 Nature check. If successful, you bond with the animal. The animal is permanently helpful to you, unless you do something egregious to break your bond. A helpful animal is easier to direct, as described under Command an Animal. Bonding with a new animal ends any previous bond you had. You can't have both a bonded animal and an animal companion (though you can have both a bonded animal and a familiar).",
+ "summary": "An animal becomes permanently easier to command",
+ "summary_markdown": "An animal becomes permanently easier to command",
+ "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Bonded Animal Source Player Core pg. 253 Prerequisites Expert in Nature --- You forge strong connections with animals. You can spend 7 days of downtime regularly interacting with a normal animal (not a companion or other special animal) that is friendly or helpful to you. After this duration, attempt a Nature check against the animal’s Will DC. If successful, you bond with the animal. The animal is permanently bonded to you until you form a bond with a different animal or do something egregious to break your bond. A helpful animal is easier to direct, as described on page 242. If your bonded animal is level –1, it gains the minion trait (page 301), allowing you to command it more efficiently. The maximum level of creature that can be your minion increases to 3 if you’re a master in Nature and to 11 if you’re legendary. Special You can’t have both a bonded animal and an animal companion (though you can have both a bonded animal and a pet or familiar). Bonded Animal leads to... Ferocious Beasts",
  "trait": [
   "Downtime",
   "General",
@@ -45,6 +52,6 @@
   "Skill"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=762",
+ "url": "/Feats.aspx?ID=5127",
  "weakness": {}
 }

@@ -1,31 +1,38 @@
 {
- "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions": "Reaction",
+ "actions_number": 1,
  "category": "action",
  "exclude_from_search": true,
- "frequency": "once per minute",
- "id": "action-2036",
- "markdown": "**Activate** <actions string=\"Free Action\" /> ;  **Frequency** once per minute;   **Effect** You regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that would decrease this Hit Point loss). If this loss kills your pledged follower, you also gain temporary Hit Points equal to your level. The pledged follower is temporarily immune to this activation for 24 hours.",
+ "id": "action-2765",
+ "markdown": "**Activate—Lightning Rod** <actions string=\"Reaction\" /> ;   **Trigger** You take electricity damage;  **Effect** You gain [resistance](/Rules.aspx?ID=2318) 5 to the triggering damage, and the _fulmination fang_ crackles with the absorbed energy. You can [Interact](/Actions.aspx?ID=2297) to change between the gun sword’s current usage (melee to ranged, or ranged to melee). The next melee [Strike](/Actions.aspx?ID=2306) you make with the fulmination fang within the next minute deals an additional 1d6 electricity damage. After a minute, the absorbed energy dissipates.",
  "name": "",
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 104",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2023-04-26",
+ "rarity_id": 1,
+ "release_date": "2024-05-29",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #190: The Choosing](/Sources.aspx?ID=198) pg. 81</row>\r\n\r\n**Frequency**\r\nonce per minute\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that …\r\n</summary>",
+ "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 104\n\n**Trigger**\r\nYou take electricity damage\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain  resistance  5 to the triggering damage, and the  fulmination fang  crackles with the absorbed energy. You can  Interact  to change between …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Pathfinder #190: The Choosing"
+  "Howl of the Wild"
  ],
  "source_raw": [
-  "Pathfinder #190: The Choosing pg. 81"
+  "Howl of the Wild pg. 104"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Stolen Fate",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #190: The Choosing](/Sources.aspx?ID=198) pg. 81</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 104",
  "speed": {},
- "summary": "You regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that …",
- "summary_markdown": "You regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that …",
- "text": " Activate Free Action ; Frequency once per minute; Effect You regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that would decrease this Hit Point loss). If this loss kills your pledged follower, you also gain temporary Hit Points equal to your level. The pledged follower is temporarily immune to this activation for 24 hours.",
+ "summary": "You gain  resistance  5 to the triggering damage, and the  fulmination fang  crackles with the absorbed energy. You can  Interact  to change between …",
+ "summary_markdown": "You gain  resistance  5 to the triggering damage, and the  fulmination fang  crackles with the absorbed energy. You can  Interact  to change between …",
+ "text": " Activate—Lightning Rod Reaction ; Trigger You take electricity damage; Effect You gain resistance 5 to the triggering damage, and the fulmination fang crackles with the absorbed energy. You can Interact to change between the gun sword’s current usage (melee to ranged, or ranged to melee). The next melee Strike you make with the fulmination fang within the next minute deals an additional 1d6 electricity damage. After a minute, the absorbed energy dissipates.",
  "trait_markdown": "",
+ "trigger": "You take electricity damage",
+ "trigger_markdown": "You take electricity damage",
  "type": "Action",
- "url": "/Actions.aspx?ID=2036",
+ "url": "/Actions.aspx?ID=2765",
  "weakness": {}
 }

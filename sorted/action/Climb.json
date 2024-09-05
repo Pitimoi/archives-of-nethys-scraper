@@ -1,29 +1,45 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
- "exclude_from_search": true,
- "id": "action-138",
- "markdown": "**Activate** <actions string=\"Single Action\" />Climb;    **Requirements** You are trained in Athletics;  ",
+ "exclude_from_search": false,
+ "id": "action-2374",
+ "legacy_id": "action-33",
+ "markdown": "<title level=\"1\" right=\"Action\">[Climb](/Actions.aspx?ID=2374) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n**Requirements** You have two hands free.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an [incline](/Rules.aspx?ID=457). You're [off-guard](/Conditions.aspx?ID=58) while climbing unless you have a climb Speed. The GM determines the DC based on the nature of the incline and environmental circumstances; you might get an automatic critical success on an incline that's trivial to climb. If your land Speed is 40 feet or higher, increase the maximum distance by 5 feet for every 20 feet of Speed above 20 feet.\r\n\r\n**Critical Success** You move along the incline, increasing the maximum distance by 5 feet.<br />\r\n**Success** You move along the incline.<br />\r\n**Critical Failure** You fall. If you began the climb on stable ground, you fall and land [prone](/Conditions.aspx?ID=31).\r\n\r\n<title level=\"2\">Sample Climb Tasks</title>\n\n**Untrained** ladder, steep slope, low-branched tree<br />\r\n**Trained** rigging, rope, typical tree<br />\r\n**Expert** wall with small handholds and footholds<br />\r\n**Master** ceiling with handholds and footholds, rock wall<br />\r\n**Legendary** smooth surface",
  "name": "Climb",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 234",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
- "requirement": "You are trained in Athletics",
- "requirement_markdown": "You are trained in Athletics",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You have two hands free.",
+ "requirement_markdown": "You have two hands free.",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 568 <sup>4.0</sup></row>\n\n**Requirement**\r\nYou are trained in Athletics\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n**Requirement**\r\nYou have two hands free.\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an  incline . You're  off-guard  while climbing unless you …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 568"
+  "Player Core pg. 234"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 568 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 234",
  "speed": {},
- "text": " Activate Single ActionClimb; Requirements You are trained in Athletics; ",
- "trait_markdown": "",
+ "summary": "You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an  incline . You're  off-guard  while climbing unless you …",
+ "summary_markdown": "You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an  incline . You're  off-guard  while climbing unless you …",
+ "text": " Climb Single Action Source Player Core pg. 234 Requirements You have two hands free. --- You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an incline. You're off-guard while climbing unless you have a climb Speed. The GM determines the DC based on the nature of the incline and environmental circumstances; you might get an automatic critical success on an incline that's trivial to climb. If your land Speed is 40 feet or higher, increase the maximum distance by 5 feet for every 20 feet of Speed above 20 feet. Critical Success You move along the incline, increasing the maximum distance by 5 feet. Success You move along the incline. Critical Failure You fall. If you began the climb on stable ground, you fall and land prone. Sample Climb Tasks Untrained ladder, steep slope, low-branched tree Trained rigging, rope, typical tree Expert wall with small handholds and footholds Master ceiling with handholds and footholds, rock wall Legendary smooth surface",
+ "trait": [
+  "Move"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
  "type": "Action",
- "url": "/Actions.aspx?ID=138",
+ "url": "/Actions.aspx?ID=2374",
  "weakness": {}
 }

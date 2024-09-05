@@ -1,19 +1,27 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 600,
  "duration_raw": "10 minutes",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -26,42 +34,54 @@
  ],
  "id": "spell-1168",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Limited\">[Euphoric Renewal](/Spells.aspx?ID=1168)</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 142</row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the [dying](/Conditions.aspx?ID=11) condition and then regain consciousness while under the effect of _euphoric renewal_, you gain three benefits. \n<ul><li>You're [quickened](/Conditions.aspx?ID=32) on your next turn. You can use the extra action only to Stand.</li><li>You gain a +1 circumstance bonus to saves for 1 minute.</li><li>You gain 8 temporary Hit Points that last for 1 minute.</li></ul>\n\n---\r\n**Heightened (+1)** The number of temporary HP increases by 2.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Limited\">\r\n[Euphoric Renewal](/Spells.aspx?ID=1168)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 142\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the [dying](/Conditions.aspx?ID=11) condition and then regain consciousness while under the effect of _euphoric renewal_, you gain three benefits. \n<ul><li>You're [quickened](/Conditions.aspx?ID=32) on your next turn. You can use the extra action only to Stand.</li><li>You gain a +1 circumstance bonus to saves for 1 minute.</li><li>You gain 8 temporary Hit Points that last for 1 minute.</li></ul>\n\n---\r\n**Heightened (+1)** The number of temporary HP increases by 2.",
  "name": "Euphoric Renewal",
- "patron_theme_markdown": "",
  "pfs": "Limited",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 142",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2022-07-27",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 142</row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou view death not as an ending but a beginning, and you delight in dancing on its edge.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 142\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou view death not as an ending but a beginning, and you delight in dancing on its edge.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 142"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 142</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 142",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You view death not as an ending but a beginning, and you delight in dancing on its edge.",
  "summary_markdown": "You view death not as an ending but a beginning, and you delight in dancing on its edge.",
- "text": " Euphoric Renewal Source Dark Archive pg. 142 Cast Two Actions somatic, verbal Duration 10 minutes --- You view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the dying condition and then regain consciousness while under the effect of euphoric renewal , you gain three benefits. You're quickened on your next turn. You can use the extra action only to Stand. You gain a +1 circumstance bonus to saves for 1 minute. You gain 8 temporary Hit Points that last for 1 minute. --- Heightened (+1) The number of temporary HP increases by 2.",
+ "text": "\nEuphoric Renewal Two Actions Source Dark Archive pg. 142 Cast somatic, verbal Duration 10 minutes --- You view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the dying condition and then regain consciousness while under the effect of euphoric renewal , you gain three benefits. You're quickened on your next turn. You can use the extra action only to Stand. You gain a +1 circumstance bonus to saves for 1 minute. You gain 8 temporary Hit Points that last for 1 minute. --- Heightened (+1) The number of temporary HP increases by 2.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
   "Necromancy",
-  "Rare"
+  "Rare",
+  "Focus"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Necromancy](/Traits.aspx?ID=117), [Rare](/Traits.aspx?ID=137)",
+ "trait_group": [
+  "Class",
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Necromancy](/Traits.aspx?ID=117), [Rare](/Traits.aspx?ID=137), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Cleric",
   "Necromancy",
-  "Rare"
+  "Rare",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=1168",
  "weakness": {}
 }

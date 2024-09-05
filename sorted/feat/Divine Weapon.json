@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,37 +8,48 @@
  ],
  "feat_markdown": "Divine Weapon",
  "frequency": "once per turn",
- "id": "feat-282",
+ "id": "feat-4663",
+ "legacy_id": "feat-282",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Divine Weapon](/Feats.aspx?ID=282) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>\n\n**Frequency**\r\nonce per turn\n\n**Trigger**\r\nYou finish Casting a Spell using one of your divine spell slots on your turn.\n\n</column>\r\n\r\n---\r\n\r\nYou siphon residual spell energy into a weapon you’re wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity’s alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Divine Weapon](/Feats.aspx?ID=4663) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 117\n\n**Frequency**\r\nonce per turn\n\n**Trigger**\r\nYou finish Casting a Spell using one of your divine spell slots on your turn\n\n</column>\r\n\r\n---\r\n\r\nYou siphon residual spell energy into a weapon you’re wielding. Until the end of your turn, the weapon deals an additional 1d4 spirit damage. If you are holy or unholy, Strikes with the weapon also gain that trait, and the additional damage increases to 2d4 against creatures of the opposing trait.",
  "name": "Divine Weapon",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 117",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>\r\n\r\n**Frequency**\r\nonce per turn\n\n**Trigger**\r\nYou finish Casting a Spell using one of your divine spell slots on your turn.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou siphon residual spell energy into a weapon you’re wielding.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 117\r\n\r\n**Frequency**\r\nonce per turn\n\n**Trigger**\r\nYou finish Casting a Spell using one of your divine spell slots on your turn\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou siphon residual spell energy into a weapon you’re wielding.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 123"
+  "Player Core pg. 117"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 117",
  "speed": {},
  "summary": "You siphon residual spell energy into a weapon you’re wielding.",
  "summary_markdown": "You siphon residual spell energy into a weapon you’re wielding.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Divine Weapon Free Action Source Core Rulebook pg. 123 4.0 Frequency once per turn Trigger You finish Casting a Spell using one of your divine spell slots on your turn. --- You siphon residual spell energy into a weapon you’re wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity’s alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Divine Weapon Free Action Source Player Core pg. 117 Frequency once per turn Trigger You finish Casting a Spell using one of your divine spell slots on your turn --- You siphon residual spell energy into a weapon you’re wielding. Until the end of your turn, the weapon deals an additional 1d4 spirit damage. If you are holy or unholy, Strikes with the weapon also gain that trait, and the additional damage increases to 2d4 against creatures of the opposing trait.",
  "trait": [
   "Cleric"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554)",
  "trait_raw": [
   "Cleric"
  ],
- "trigger": "You finish Casting a Spell using one of your divine spell slots on your turn.",
- "trigger_markdown": "You finish Casting a Spell using one of your divine spell slots on your turn.",
+ "trigger": "You finish Casting a Spell using one of your divine spell slots on your turn",
+ "trigger_markdown": "You finish Casting a Spell using one of your divine spell slots on your turn",
  "type": "Feat",
- "url": "/Feats.aspx?ID=282",
+ "url": "/Feats.aspx?ID=4663",
  "weakness": {}
 }

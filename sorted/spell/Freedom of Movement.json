@@ -1,52 +1,61 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline": [
   "Elemental"
  ],
  "bloodline_markdown": "[Elemental](/Bloodlines.aspx?ID=6)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 600,
  "duration_raw": "10 minutes",
  "exclude_from_search": false,
+ "heighten_group": [
+  "4th rank"
+ ],
  "heighten_level": [
   4
  ],
  "id": "spell-128",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Freedom of Movement](/Spells.aspx?ID=128)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 340 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Elemental](/Bloodlines.aspx?ID=6)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them immobilized, grabbed, or restrained, they automatically succeed unless the effect is magical and of a higher level than the _freedom of movement_ spell.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">\r\n[Freedom of Movement](/Spells.aspx?ID=128)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 340 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Elemental](/Bloodlines.aspx?ID=6)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them immobilized, grabbed, or restrained, they automatically succeed unless the effect is magical and of a higher level than the _freedom of movement_ spell.",
  "name": "Freedom of Movement",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 340",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1732",
+ "remaster_name": "Unfettered Movement",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 340 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Elemental](/Bloodlines.aspx?ID=6)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA creature overcomes hindrances to its movement.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 340 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Elemental](/Bloodlines.aspx?ID=6)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA creature overcomes hindrances to its movement.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 340"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 340 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 340 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "A creature overcomes hindrances to its movement.",
  "summary_markdown": "A creature overcomes hindrances to its movement.",
  "target": "1 creature touched",
  "target_markdown": "1 creature touched",
- "text": " Freedom of Movement Source Core Rulebook pg. 340 4.0 Traditions Arcane, Divine, Primal Bloodline Elemental Cast Two Actions somatic, verbal Range touch Target 1 creature touched Duration 10 minutes --- You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them immobilized, grabbed, or restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.",
+ "text": "\nFreedom of Movement Two Actions Source Core Rulebook pg. 340 4.0 Traditions Arcane, Divine, Primal Bloodline Elemental Cast somatic, verbal Range touch Target 1 creature touched Duration 10 minutes --- You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them immobilized, grabbed, or restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -55,6 +64,9 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Abjuration"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
  "trait_raw": [

@@ -1,22 +1,28 @@
 {
  "actions": "Two Actions",
- "area": "20-foot burst",
- "bloodline": [
-  "Angelic",
-  "Demonic"
+ "actions_number": 4,
+ "area": [
+  20
  ],
- "bloodline_markdown": "[Angelic](/Bloodlines.aspx?ID=2), [Demonic](/Bloodlines.aspx?ID=3)",
- "breadcrumbs_spa": [],
+ "area_raw": "20-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -27,47 +33,61 @@
   9,
   10
  ],
- "id": "spell-86",
+ "id": "spell-1499",
+ "legacy_id": "spell-86",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Divine Wrath](/Spells.aspx?ID=86)</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 332 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n**Bloodlines**\r\n[Angelic](/Bloodlines.aspx?ID=2), [Demonic](/Bloodlines.aspx?ID=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 20-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can channel the fury of your deity against foes of opposed alignment. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or your deity is true neutral. This spell gains the trait of the alignment you chose. You deal 4d10 damage of the alignment you chose; each creature in the area must attempt a Fortitude save. Creatures that match the alignment you chose are unaffected. Those that neither match nor oppose it treat the result of their saving throw as one degree better.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature takes half damage.<br />\r\n**Failure** The creature takes full damage and is [sickened 1](/Conditions.aspx?ID=34).<br />\r\n**Critical Failure** The creature takes full damage and is sickened 2; while it is sickened, it is also [slowed 1](/Conditions.aspx?ID=35).\n\n---\r\n**Heightened (+1)** The damage increases by 1d10.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">\r\n[Divine Wrath](/Spells.aspx?ID=1499)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 326\n\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 20-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou channel the fury of divinity against your foes. You deal 4d10 spirit damage to enemies in the area, depending on their Fortitude save.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature takes half damage.<br />\r\n**Failure** The creature takes full damage and is [sickened](/Conditions.aspx?ID=91) 1.<br />\r\n**Critical Failure** The creature takes full damage and is sickened 2; while it's sickened, it's also [slowed](/Conditions.aspx?ID=92) 1.\n\n---\r\n**Heightened (+1)** The damage increases by 1d10.",
  "name": "Divine Wrath",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 326",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 332 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n**Bloodlines**\r\n[Angelic](/Bloodlines.aspx?ID=2), [Demonic](/Bloodlines.aspx?ID=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 20-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDamage and hinder creatures of alignments opposed by your deity.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 326\r\n\r\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 20-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDamage and hinder creatures opposing your deity's will.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 332"
+  "Player Core pg. 326"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 332 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 326",
  "speed": {},
- "summary": "Damage and hinder creatures of alignments opposed by your deity.",
- "summary_markdown": "Damage and hinder creatures of alignments opposed by your deity.",
- "text": " Divine Wrath Source Core Rulebook pg. 332 4.0 Tradition Divine Bloodlines Angelic, Demonic Cast Two Actions somatic, verbal Range 120 feet Area 20-foot burst Saving Throw Fortitude --- You can channel the fury of your deity against foes of opposed alignment. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or your deity is true neutral. This spell gains the trait of the alignment you chose. You deal 4d10 damage of the alignment you chose; each creature in the area must attempt a Fortitude save. Creatures that match the alignment you chose are unaffected. Those that neither match nor oppose it treat the result of their saving throw as one degree better. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is sickened 1. Critical Failure The creature takes full damage and is sickened 2; while it is sickened, it is also slowed 1. --- Heightened (+1) The damage increases by 1d10.",
+ "spell_type": "Spell",
+ "summary": "Damage and hinder creatures opposing your deity's will.",
+ "summary_markdown": "Damage and hinder creatures opposing your deity's will.",
+ "text": "\nDivine Wrath Two Actions Source Player Core pg. 326 Tradition Divine Range 120 feet Area 20-foot burst Defense Fortitude --- You channel the fury of divinity against your foes. You deal 4d10 spirit damage to enemies in the area, depending on their Fortitude save. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is sickened 1. Critical Failure The creature takes full damage and is sickened 2; while it's sickened, it's also slowed 1. --- Heightened (+1) The damage increases by 1d10.",
  "tradition": [
   "Divine"
  ],
  "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
-  "Evocation"
+  "Concentrate",
+  "Manipulate",
+  "Sanctified",
+  "Spirit"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Sanctified](/Traits.aspx?ID=519), [Spirit](/Traits.aspx?ID=149)",
  "trait_raw": [
-  "Evocation"
+  "Concentrate",
+  "Manipulate",
+  "Sanctified",
+  "Spirit"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=86",
+ "url": "/Spells.aspx?ID=1499",
  "weakness": {}
 }

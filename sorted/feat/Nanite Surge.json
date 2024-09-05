@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,28 @@
  "frequency": "once per hour",
  "id": "feat-2463",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Nanite Surge](/Feats.aspx?ID=2463) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Android\" url=\"/Traits.aspx?ID=334\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 72 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou attempt a skill check requiring three actions or fewer.\n\n</column>\r\n\r\n---\r\n\r\nYou stimulate your nanites, forcing your body to temporarily increase its efficiency. You gain a +2 status bonus to the triggering skill check. In addition, your circuitry glows, lighting a 10-foot emanation with dim light for 1 round.\n\n<title level=\"2\">Nanite Surge leads to...</title>\r\n[Consistent Surge](/Feats.aspx?ID=2474), [Offensive Subroutine](/Feats.aspx?ID=2472), [Protective Subroutine](/Feats.aspx?ID=2470)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Nanite Surge](/Feats.aspx?ID=2463) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Android\" url=\"/Traits.aspx?ID=334\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 72 <sup>2.0</sup>\n\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou attempt a skill check requiring three actions or fewer.\n\n</column>\r\n\r\n---\r\n\r\nYou stimulate your nanites, forcing your body to temporarily increase its efficiency. You gain a +2 status bonus to the triggering skill check. In addition, your circuitry glows, lighting a 10-foot emanation with dim light for 1 round.\n\n<title level=\"2\">Nanite Surge leads to...</title>\r\n[Consistent Surge](/Feats.aspx?ID=2474), [Offensive Subroutine](/Feats.aspx?ID=2472), [Protective Subroutine](/Feats.aspx?ID=2470)",
  "name": "Nanite Surge",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 72",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Android\" url=\"/Traits.aspx?ID=334\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 72 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou attempt a skill check requiring three actions or fewer.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou stimulate your nanites, forcing your body to temporarily increase its efficiency.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Android\" url=\"/Traits.aspx?ID=334\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 72 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou attempt a skill check requiring three actions or fewer.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou stimulate your nanites, forcing your body to temporarily increase its efficiency.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 72"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 72 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 72 <sup>2.0</sup>",
  "speed": {},
  "summary": "You stimulate your nanites, forcing your body to temporarily increase its efficiency.",
  "summary_markdown": "You stimulate your nanites, forcing your body to temporarily increase its efficiency.",
@@ -32,6 +39,9 @@
  "trait": [
   "Android",
   "Concentrate"
+ ],
+ "trait_group": [
+  "Ancestry"
  ],
  "trait_markdown": "[Android](/Traits.aspx?ID=334), [Concentrate](/Traits.aspx?ID=32)",
  "trait_raw": [

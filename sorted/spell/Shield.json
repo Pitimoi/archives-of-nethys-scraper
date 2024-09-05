@@ -1,23 +1,23 @@
 {
  "actions": "Single Action",
- "bloodline": [
-  "Draconic"
- ],
- "bloodline_markdown": "[Draconic](/Bloodlines.aspx?ID=5)",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "until the start of your next turn",
+ "element": [
+  "Universal"
+ ],
  "exclude_from_search": false,
  "heighten": [
-  "3rd",
-  "5th",
-  "7th",
-  "9th"
+  "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   1,
@@ -26,34 +26,36 @@
   7,
   9
  ],
- "id": "spell-280",
+ "id": "spell-1671",
+ "legacy_id": "spell-280",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Shield](/Spells.aspx?ID=280)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 368 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodline**\r\n[Draconic](/Bloodlines.aspx?ID=5)\n\n**Mystery**\r\n[Battle](/Mysteries.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.\n\n While the spell is in effect, you can use the [Shield Block](/Feats.aspx?ID=839) reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the [_magic missile_](/Spells.aspx?ID=180) spell.\n\n Heightening the spell increases the shield's Hardness.\n\n---\r\n**Heightened (3rd)** The shield has Hardness 10.\r\n\r\n**Heightened (5th)** The shield has Hardness 15.\r\n\r\n**Heightened (7th)** The shield has Hardness 20.\r\n\r\n**Heightened (9th)** The shield has Hardness 25.",
- "mystery": [
-  "Battle"
- ],
- "mystery_markdown": "[Battle](/Mysteries.aspx?ID=2)",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Shield](/Spells.aspx?ID=1671)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 356\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou raise a magical shield of force. This counts as using the [Raise a Shield](/Actions.aspx?ID=98) action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.\n\n While the spell is in effect, you can use the [Shield Block](/Feats.aspx?ID=839) reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.\n\n---\r\n**Heightened (+2)** The shield's Hardness increases by 5.",
  "name": "Shield",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 356",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 368 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodline**\r\n[Draconic](/Bloodlines.aspx?ID=5)\n\n**Mystery**\r\n[Battle](/Mysteries.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the start of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA shield of magical force blocks attacks and magic missiles.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 356\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA shield of magical force blocks attacks and spells.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 368"
+  "Player Core pg. 356"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 368 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 356",
  "speed": {},
- "summary": "A shield of magical force blocks attacks and magic missiles.",
- "summary_markdown": "A shield of magical force blocks attacks and magic missiles.",
- "text": " Shield Source Core Rulebook pg. 368 4.0 Traditions Arcane, Divine, Occult Spell Lists Elemental Bloodline Draconic Mystery Battle Cast Single Action verbal Duration until the start of your next turn --- You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use. While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the magic missile spell. Heightening the spell increases the shield's Hardness. --- Heightened (3rd) The shield has Hardness 10. Heightened (5th) The shield has Hardness 15. Heightened (7th) The shield has Hardness 20. Heightened (9th) The shield has Hardness 25.",
+ "spell_type": "Cantrip",
+ "summary": "A shield of magical force blocks attacks and spells.",
+ "summary_markdown": "A shield of magical force blocks attacks and spells.",
+ "text": "\nShield Single Action Source Player Core pg. 356 Traditions Arcane, Divine, Occult Spell Lists Elemental Duration until the start of your next turn --- You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use. While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. --- Heightened (+2) The shield's Hardness increases by 5.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -62,17 +64,20 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Elemental](/SpellLists.aspx?Tradition=5)",
  "trait": [
-  "Abjuration",
   "Cantrip",
+  "Concentrate",
   "Force"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Cantrip](/Traits.aspx?ID=22), [Force](/Traits.aspx?ID=75)",
+ "trait_group": [
+  "Energy"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Force](/Traits.aspx?ID=75)",
  "trait_raw": [
-  "Abjuration",
   "Cantrip",
+  "Concentrate",
   "Force"
  ],
- "type": "Cantrip",
- "url": "/Spells.aspx?ID=280",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1671",
  "weakness": {}
 }

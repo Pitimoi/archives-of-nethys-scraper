@@ -1,0 +1,148 @@
+{
+ "ac": 21,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  13,
+  13
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Flexible Dodge",
+  "Wheels Up",
+  "Rollout Trample",
+  "Unfurl"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 78,
+ "hp_raw": "78",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3292",
+ "image": [
+  "/Images/Monsters/Hooplamander.webp"
+ ],
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hoopmander](/Monsters.aspx?ID=3292)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMany a traveler has heard a loud rumble from behind and turned to see a strange wheel bearing down upon them. Even if they can dodge it, they still might not be safe, for once the wheel stops, it unfurls into a hooplamander. Though whispered of in the remote expanses of Arcadia and feared along the grassy plains of the Mwangi Expanse, many in urban areas believe the seemingly ridiculous hooplamanders to be nothing more than tall tales. As the flattened remains of many caravans can attest, however, these apex predators are very real.\n\n Hooplamanders resemble large salamanders. They're born with retractable rear legs and an incredibly strong, flexible spine. Their sharp foreclaws feature sharp hooks that can rend flesh or stabilize it when it enters its wheel-shaped form. As they develop, hooplamanders learn how to leap and roll, hooking their tails beneath their mouths and stabilizing them with their foreclaws to form a crude wheel that they use their tail muscles to propel forward. Their backs are ridged with a tread-like pattern that gives significant traction and maneuvering power. Hooplamanders are particularly deadly when they use their hooked claws to inflict bleeding wounds before entering their “wheels up” form to dash around the battlefield, trampling foes and waiting for their prey to bleed out.\n\n Hooplamanders can be found wherever the ground is flat and open. Their coloring matches where they hunt, with those in grassy plains sporting brown-green skin and those in snowy regions bearing a white hide. Some naturalists believe the creatures started out as salamanders that hatched within the acidic trail of the fabled ouroboros. Others believe that nature, in its infinite variety, doesn't need magic to create such creatures—only an environment flat enough to reward their cunning adaptation.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hooplamander.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Hoopmander](/Monsters.aspx?ID=3292)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 161\n\n**Perception** +12; [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +13, [Athletics](/Skills.aspx?ID=36) +12, [Stealth](/Skills.aspx?ID=48) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +5\r\n\r\n**Con** +3\r\n\r\n**Int** -2\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 78\n\n</row>\n\n**Flexible Dodge** <actions string=\"Reaction\" /> **Requirements** The hooplamander is Unfurled; **Trigger** The hooplamander is targeted by a Strike; **Effect** The hooplamander gains a +2 circumstance bonus to AC against the triggering attack and enters its Wheels Up stance.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet (40 feet in Wheels Up)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhookclaw +13 ([Agile](/Traits.aspx?ID=170), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+5 slashing plus 3d6 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nridged tail +13 ([Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d6+5 bludgeoning\n\n**Wheels Up** <actions string=\"Single Action\" /> ([Stance](/Traits.aspx?ID=152)) **Requirements** The hooplamander is Unfurled; **Effect** The hooplamander [Leaps](/Actions.aspx?ID=2298) and then rolls into its wheeled form. Any creature within 5 feet must succeed at a DC 22 Reflex save or be [off-guard](/Conditions.aspx?ID=58) for one round. While it's Wheels Up, the hooplamander can't make Strikes and its Speed increases to 40 feet.\r\n\r\n**Rollout Trample** <actions string=\"Three Actions\" />  **Requirements** The hooplamander is Wheels Up; **Effect** As [Trample](/MonsterAbilities.aspx?ID=81) (Large or smaller, ridged tail, DC 22), except targets that critically fail their Reflex save are [stunned 1](/Conditions.aspx?ID=93), and the hooplamander Unfurls at the end of its movement.\r\n\r\n**Unfurl** <actions string=\"Single Action\" />  **Requirements** The hooplamander is Wheels Up; **Effect** The hooplamander releases its tail, [Leaping](/Actions.aspx?ID=2298) up to 20 feet as it exists its wheeled shape and unfurls to land on its four legs.\r\n\r\n</column>",
+ "name": "Hoopmander",
+ "npc": false,
+ "perception": 12,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 161",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 161\n\n<row gap=\"medium\">\r\n**HP** 78\r\n\r\n**AC** 21\r\n\r\n**Fort** +12\r\n\r\n**Ref** +15\r\n\r\n**Will** +9\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMany a traveler has heard a loud rumble from behind and turned to see a strange wheel bearing down upon them. Even if they can dodge it, they still …\r\n</summary>",
+ "sense": " scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +13, [Athletics](/Skills.aspx?ID=36) +12, [Stealth](/Skills.aspx?ID=48) +10",
+ "skill_mod": {
+  "acrobatics": 13,
+  "athletics": 12,
+  "stealth": 10
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 161"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 161",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "25 feet (40 feet in Wheels Up)",
+ "speed_raw": "25 feet (40 feet in Wheels Up)",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  12,
+  18
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Many a traveler has heard a loud rumble from behind and turned to see a strange wheel bearing down upon them. Even if they can dodge it, they still …",
+ "summary_markdown": "Many a traveler has heard a loud rumble from behind and turned to see a strange wheel bearing down upon them. Even if they can dodge it, they still …",
+ "text": " Hoopmander Many a traveler has heard a loud rumble from behind and turned to see a strange wheel bearing down upon them. Even if they can dodge it, they still might not be safe, for once the wheel stops, it unfurls into a hooplamander. Though whispered of in the remote expanses of Arcadia and feared along the grassy plains of the Mwangi Expanse, many in urban areas believe the seemingly ridiculous hooplamanders to be nothing more than tall tales. As the flattened remains of many caravans can attest, however, these apex predators are very real. Hooplamanders resemble large salamanders. They're born with retractable rear legs and an incredibly strong, flexible spine. Their sharp foreclaws feature sharp hooks that can rend flesh or stabilize it when it enters its wheel-shaped form. As they develop, hooplamanders learn how to leap and roll, hooking their tails beneath their mouths and stabilizing them with their foreclaws to form a crude wheel that they use their tail muscles to propel forward. Their backs are ridged with a tread-like pattern that gives significant traction and maneuvering power. Hooplamanders are particularly deadly when they use their hooked claws to inflict bleeding wounds before entering their “wheels up” form to dash around the battlefield, trampling foes and waiting for their prey to bleed out. Hooplamanders can be found wherever the ground is flat and open. Their coloring matches where they hunt, with those in grassy plains sporting brown-green skin and those in snowy regions bearing a white hide. Some naturalists believe the creatures started out as salamanders that hatched within the acidic trail of the fabled ouroboros. Others believe that nature, in its infinite variety, doesn't need magic to create such creatures—only an environment flat enough to reward their cunning adaptation. Recall Knowledge - Beast (Arcana, Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Hoopmander Source Howl of the Wild pg. 161 Perception +12; scent (imprecise) 30 feet Languages Skills Acrobatics +13, Athletics +12, Stealth +10 Str +5 Dex +5 Con +3 Int -2 Wis +0 Cha +2 --- AC 21 Fort +12 Ref +15 Will +9 HP 78 Flexible Dodge Reaction Requirements The hooplamander is Unfurled; Trigger The hooplamander is targeted by a Strike; Effect The hooplamander gains a +2 circumstance bonus to AC against the triggering attack and enters its Wheels Up stance. --- Speed 25 feet (40 feet in Wheels Up) Melee Single Action hookclaw +13 (Agile, versatile P), Damage 1d4+5 slashing plus 3d6 persistent bleed Melee Single Action ridged tail +13 (Sweep), Damage 2d6+5 bludgeoning Wheels Up Single Action (Stance) Requirements The hooplamander is Unfurled; Effect The hooplamander Leaps and then rolls into its wheeled form. Any creature within 5 feet must succeed at a DC 22 Reflex save or be off-guard for one round. While it's Wheels Up, the hooplamander can't make Strikes and its Speed increases to 40 feet. Rollout Trample Three Actions Requirements The hooplamander is Wheels Up; Effect As Trample (Large or smaller, ridged tail, DC 22), except targets that critically fail their Reflex save are stunned 1, and the hooplamander Unfurls at the end of its movement. Unfurl Single Action Requirements The hooplamander is Wheels Up; Effect The hooplamander releases its tail, Leaping up to 20 feet as it exists its wheeled shape and unfurls to land on its four legs. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3292",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 9,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

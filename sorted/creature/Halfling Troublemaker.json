@@ -1,0 +1,156 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  9,
+  9
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Graffiti Egg",
+  "Keen Eyes",
+  "Sneak Attack"
+ ],
+ "creature_family": "Halfling",
+ "creature_family_markdown": "[Halfling](/MonsterFamilies.aspx?ID=426)",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 4,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 18,
+ "hp_raw": "18",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3045",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Filcher's Fork",
+  "Leather Armor"
+ ],
+ "language": [
+  "Common",
+  "Halfling"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Halfling](/Languages.aspx?ID=7)",
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Halfling Troublemaker](/Monsters.aspx?ID=3045)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA halfling's bravado can sometimes lead them into trouble. These tricksters often roam in groups trying to one-up each other's last prank. While troublemakers rarely intend to kill, occasionally their pranks get out of hand.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Halfling Troublemaker](/Monsters.aspx?ID=3045)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 192\n\n**Perception** +10\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Halfling](/Languages.aspx?ID=7)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +3, [Deception](/Skills.aspx?ID=5) +5, [Stealth](/Skills.aspx?ID=15) +7, [Thievery](/Skills.aspx?ID=17) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n[Filcher's Fork](/Weapons.aspx?ID=51), [Leather Armor](/Armor.aspx?ID=4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfilcher's fork +9 ([Agile](/Traits.aspx?ID=170), [Backstabber](/Traits.aspx?ID=172), [deadly d6](/Traits.aspx?ID=174), [Finesse](/Traits.aspx?ID=179), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d4+1 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nfilcher's fork +9 ([Agile](/Traits.aspx?ID=170), [Backstabber](/Traits.aspx?ID=172), [deadly d6](/Traits.aspx?ID=174), [Finesse](/Traits.aspx?ID=179), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d4+1 piercing\n\n**Graffiti Egg** <actions string=\"Single Action\" />  the halfling troublemaker throws an egg filled with paint, glitter, and confetti at a creature within 30 feet. The target must succeed a DC 17 Reflex saving throw or become [dazzled](/Conditions.aspx?ID=65) for 1 round (or 1 minute on a critical failure).\r\n\r\n**Keen Eyes**   The halfling gains a +2 circumstance bonus when using the [Seek](/Actions.aspx?ID=2301) action to find [hidden](/Conditions.aspx?ID=79) or [undetected](/Conditions.aspx?ID=96) creatures within 30 feet of you. Whenever the halfling targets a creature that is [concealed](/Conditions.aspx?ID=62) or hidden from them, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The troublemaker deals an extra 1d6 precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-426\" />",
+ "name": "Halfling Troublemaker",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 192",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 192\r\n\r\n**Creature Family** [Halfling](/MonsterFamilies.aspx?ID=426)\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\r\n\r\n**AC** 16\r\n\r\n**Fort** +4\r\n\r\n**Ref** +10\r\n\r\n**Will** +7\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA halfling's bravado can sometimes lead them into trouble. These tricksters often roam in groups trying to one-up each other's last prank. While …\r\n</summary>",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Stealth",
+  "Thievery"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +3, [Deception](/Skills.aspx?ID=5) +5, [Stealth](/Skills.aspx?ID=15) +7, [Thievery](/Skills.aspx?ID=17) +7",
+ "skill_mod": {
+  "acrobatics": 7,
+  "athletics": 3,
+  "deception": 5,
+  "stealth": 7,
+  "thievery": 7
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 192"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 192",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell_markdown": "",
+ "stealth": "7",
+ "strike_damage_average": [
+  3,
+  3
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "A halfling's bravado can sometimes lead them into trouble. These tricksters often roam in groups trying to one-up each other's last prank. While …",
+ "summary_markdown": "A halfling's bravado can sometimes lead them into trouble. These tricksters often roam in groups trying to one-up each other's last prank. While …",
+ "text": " Halfling Troublemaker A halfling's bravado can sometimes lead them into trouble. These tricksters often roam in groups trying to one-up each other's last prank. While troublemakers rarely intend to kill, occasionally their pranks get out of hand. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Halfling Troublemaker Source Monster Core pg. 192 Perception +10 Languages Common, Halfling Skills Acrobatics +7, Athletics +3, Deception +5, Stealth +7, Thievery +7 Str +1 Dex +4 Con +1 Int +0 Wis +3 Cha +3 Items Filcher's Fork, Leather Armor --- AC 16 Fort +4 Ref +10 Will +7 HP 18 --- Speed 30 feet Melee Single Action filcher's fork +9 (Agile, Backstabber, deadly d6, Finesse, thrown 20 feet), Damage 1d4+1 piercing Ranged Single Action filcher's fork +9 (Agile, Backstabber, deadly d6, Finesse, thrown 20 feet), Damage 1d4+1 piercing Graffiti Egg Single Action the halfling troublemaker throws an egg filled with paint, glitter, and confetti at a creature within 30 feet. The target must succeed a DC 17 Reflex saving throw or become dazzled for 1 round (or 1 minute on a critical failure). Keen Eyes The halfling gains a +2 circumstance bonus when using the Seek action to find hidden or undetected creatures within 30 feet of you. Whenever the halfling targets a creature that is concealed or hidden from them, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one. Sneak Attack The troublemaker deals an extra 1d6 precision damage to off-guard creatures. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Humanoid",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3045",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 7,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

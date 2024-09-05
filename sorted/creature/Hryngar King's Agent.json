@@ -1,0 +1,205 @@
+{
+ "ac": 21,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "LE",
+ "attack_bonus": [
+  13,
+  13,
+  13,
+  13,
+  13
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Lie to Me",
+  "Counter Feint",
+  "Light Blindness",
+  "Nerve Strike",
+  "Quick Arrest",
+  "Sneak Attack"
+ ],
+ "creature_family": "Duergar",
+ "creature_family_markdown": "[Duergar](/MonsterFamilies.aspx?ID=38)",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 78,
+ "hp_raw": "78",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2698",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Bola (2)",
+  "Hand Crossbow",
+  "Dagger",
+  "average manacles with keys",
+  "spellstrike ammunition I (2; sleep , command [“drop prone”])"
+ ],
+ "language": [
+  "Common",
+  "Dwarven",
+  "Undercommon"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hryngar King's Agent](/Monsters.aspx?ID=2698)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nInvolved in both domestic security and international espionage, the agents of King Orgukagan's secret police are skilled at capturing enemies for interrogation, infiltrating rival organizations, and fighting without weapons. When the king takes special interest in a project, event, or individual, he sends one of his specially trained agents to handle the situation.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 25\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 23\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 20\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Hryngar King's Agent](/Monsters.aspx?ID=2698)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 86\n\n**Perception** +12; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +13, [Deception](/Skills.aspx?ID=5) +16, [Intimidation](/Skills.aspx?ID=7) +14, [Stealth](/Skills.aspx?ID=15) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Lie to Me** A king's agent uses their [Deception](/Skills.aspx?ID=5) DC when someone tries to [Lie](/Actions.aspx?ID=47) to them.\r\n\r\n**Items**\r\n[Bola](/Weapons.aspx?ID=92) (2), [Hand Crossbow](/Weapons.aspx?ID=69), [Dagger](/Weapons.aspx?ID=3), [average manacles with keys](/Equipment.aspx?ID=32), [spellstrike ammunition I](/Equipment.aspx?ID=167) (2; [_sleep_](/Spells.aspx?ID=288), [_command_](/Spells.aspx?ID=45) [“drop prone”])\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 78\n\n</row>\n\n**Counter Feint** <actions string=\"Reaction\" /> **Trigger** A creature fails to [feint](/Actions.aspx?ID=48) the king's agent; **Effect** The creature is [flat-footed](/Conditions.aspx?ID=16) against the next melee attack that the king's agent attempts before the end of their next turn.<br />**[Light Blindness](/MonsterAbilities.aspx?ID=22)** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +13 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d6+4 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +13 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+4 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nhand crossbow +13 ([range 60 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d6+2 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +13 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d4+4 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nbola +13 ([Nonlethal](/Traits.aspx?ID=188), [Ranged Trip](/Traits.aspx?ID=251), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+4 bludgeoning\r\n\r\n**Occult Innate Spells** DC 21\r\n- **Cantrips (3rd)**\r\n[Sigil](/Spells.aspx?ID=286)\r\n- **2nd**\r\n[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214)\r\n\r\n**Nerve Strike** <actions string=\"Two Actions\" />  The king's agent Strikes with their fist. If they hit, the target is [paralyzed](/Conditions.aspx?ID=28) until the end of the agent's next turn (DC 19 Fortitude negates).\r\n\r\n**Quick Arrest** <actions string=\"Three Actions\" />  **Requirements** The hryngar king's agent is holding [manacles](/Equipment.aspx?ID=32) and is adjacent to a creature who is [immobilized](/Conditions.aspx?ID=24), [paralyzed](/Conditions.aspx?ID=28), or [unconscious](/Conditions.aspx?ID=38); **Effect** The hryngar king's agent applies the manacles.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The hryngar king's agent deals an additional 2d6 precision damage to [flat-footed](/Conditions.aspx?ID=16) creatures.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-38\" />",
+ "name": "Hryngar King's Agent",
+ "npc": false,
+ "perception": 12,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 86",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 13,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-30",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 86\r\n\r\n**Creature Family** [Duergar](/MonsterFamilies.aspx?ID=38)\r\n\r\n<row gap=\"medium\">\r\n**HP** 78\r\n\r\n**AC** 21\r\n\r\n**Fort** +10\r\n\r\n**Ref** +13\r\n\r\n**Will** +14\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nInvolved in both domestic security and international espionage, the agents of King Orgukagan's secret police are skilled at capturing enemies for …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +13, [Deception](/Skills.aspx?ID=5) +16, [Intimidation](/Skills.aspx?ID=7) +14, [Stealth](/Skills.aspx?ID=15) +13",
+ "skill_mod": {
+  "acrobatics": 13,
+  "athletics": 13,
+  "deception": 16,
+  "intimidation": 14,
+  "stealth": 13
+ },
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 86"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 86",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Blood Vendetta",
+  "Paranoia",
+  "Sigil"
+ ],
+ "spell_markdown": "[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214), [Sigil](/Spells.aspx?ID=286)",
+ "spell_dc": [
+  21
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "spoilers": "Sky King's Tomb",
+ "stealth": "13",
+ "strike_damage_average": [
+  5,
+  6,
+  6,
+  7,
+  7
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Involved in both domestic security and international espionage, the agents of King Orgukagan's secret police are skilled at capturing enemies for …",
+ "summary_markdown": "Involved in both domestic security and international espionage, the agents of King Orgukagan's secret police are skilled at capturing enemies for …",
+ "text": " Hryngar King's Agent Involved in both domestic security and international espionage, the agents of King Orgukagan's secret police are skilled at capturing enemies for interrogation, infiltrating rival organizations, and fighting without weapons. When the king takes special interest in a project, event, or individual, he sends one of his specially trained agents to handle the situation. Recall Knowledge - Humanoid (Society): DC 25 Unspecific Lore : DC 23 Specific Lore : DC 20 Hryngar King's Agent Source Pathfinder #194: Cult of the Cave Worm pg. 86 Perception +12; darkvision Languages Common, Dwarven, Undercommon Skills Acrobatics +13, Athletics +13, Deception +16, Intimidation +14, Stealth +13 Str +2 Dex +4 Con +3 Int +1 Wis +3 Cha +5 Lie to Me A king's agent uses their Deception DC when someone tries to Lie to them. Items Bola (2), Hand Crossbow, Dagger, average manacles with keys, spellstrike ammunition I (2; sleep , command [“drop prone”]) --- AC 21 Fort +10 Ref +13 Will +14 HP 78 Counter Feint Reaction Trigger A creature fails to feint the king's agent; Effect The creature is flat-footed against the next melee attack that the king's agent attempts before the end of their next turn. Light Blindness --- Speed 25 feet Melee Single Action fist +13 (Agile, Finesse, Nonlethal), Damage 1d6+4 bludgeoning Melee Single Action dagger +13 (Agile, Finesse, versatile S), Damage 1d4+4 piercing Ranged Single Action hand crossbow +13 (range 60 feet, reload 1), Damage 1d6+2 piercing Ranged Single Action dagger +13 (Agile, Finesse, thrown 20 feet), Damage 1d4+4 piercing Ranged Single Action bola +13 (Nonlethal, Ranged Trip, thrown 20 feet), Damage 1d6+4 bludgeoning Occult Innate Spells DC 21 - Cantrips (3rd) Sigil - 2nd Blood Vendetta, Paranoia Nerve Strike Two Actions The king's agent Strikes with their fist. If they hit, the target is paralyzed until the end of the agent's next turn (DC 19 Fortitude negates). Quick Arrest Three Actions Requirements The hryngar king's agent is holding manacles and is adjacent to a creature who is immobilized, paralyzed, or unconscious; Effect The hryngar king's agent applies the manacles. Sneak Attack The hryngar king's agent deals an additional 2d6 precision damage to flat-footed creatures. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "Rare",
+  "LE",
+  "Medium",
+  "Hryngar"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Duergar](/Traits.aspx?ID=53), [Dwarf](/Traits.aspx?ID=54), [Humanoid](/Traits.aspx?ID=91), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2698",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 14,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

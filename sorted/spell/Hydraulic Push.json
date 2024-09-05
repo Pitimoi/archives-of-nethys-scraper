@@ -1,25 +1,37 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Besmara",
   "Dagon",
   "Hanspur",
+  "Kelizandri",
   "Lysianassa",
   "Ragadahn",
   "Sobek"
  ],
- "deity_markdown": "[Besmara](/Deities.aspx?ID=32), [Dagon](/Deities.aspx?ID=75), [Hanspur](/Deities.aspx?ID=154), [Lysianassa](/Deities.aspx?ID=105), [Ragadahn](/Deities.aspx?ID=99), [Sobek](/Deities.aspx?ID=60)",
+ "deity_markdown": "[Besmara](/Deities.aspx?ID=32), [Dagon](/Deities.aspx?ID=75), [Hanspur](/Deities.aspx?ID=154), [Kelizandri](/Deities.aspx?ID=104), [Lysianassa](/Deities.aspx?ID=105), [Ragadahn](/Deities.aspx?ID=99), [Sobek](/Deities.aspx?ID=60)",
  "domain_markdown": "",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -33,53 +45,66 @@
   9,
   10
  ],
- "id": "spell-154",
+ "id": "spell-1561",
+ "legacy_id": "spell-154",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Hydraulic Push](/Spells.aspx?ID=154)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 344 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Deities**\r\n[Besmara](/Deities.aspx?ID=32), [Dagon](/Deities.aspx?ID=75), [Hanspur](/Deities.aspx?ID=154), [Lysianassa](/Deities.aspx?ID=105), [Ragadahn](/Deities.aspx?ID=99), [Sobek](/Deities.aspx?ID=60)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature or unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call forth a powerful blast of pressurized water that bludgeons the target and knocks it back. Make a ranged spell attack roll.\r\n\r\n**Critical Success** The target takes 6d6 bludgeoning damage and is knocked back 10 feet.<br />\r\n**Success** The target takes 3d6 bludgeoning damage and is knocked back 5 feet.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Hydraulic Push](/Spells.aspx?ID=1561)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 336\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Besmara](/Deities.aspx?ID=32), [Dagon](/Deities.aspx?ID=75), [Hanspur](/Deities.aspx?ID=154), [Kelizandri](/Deities.aspx?ID=104), [Lysianassa](/Deities.aspx?ID=105), [Ragadahn](/Deities.aspx?ID=99), [Sobek](/Deities.aspx?ID=60)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature or unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call forth a powerful blast of pressurized water that bludgeons the target and knocks it back. Make a ranged spell attack roll.\r\n\r\n**Critical Success** The target takes 6d6 bludgeoning damage and is [knocked back](/Rules.aspx?ID=451) 10 feet.<br />\r\n**Success** The target takes 3d6 bludgeoning damage and is knocked back 5 feet.\n\n---\r\n**Heightened (+1)** The bludgeoning damage increases by 2d6.",
  "name": "Hydraulic Push",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 336",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 344 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Deities**\r\n[Besmara](/Deities.aspx?ID=32), [Dagon](/Deities.aspx?ID=75), [Hanspur](/Deities.aspx?ID=154), [Lysianassa](/Deities.aspx?ID=105), [Ragadahn](/Deities.aspx?ID=99), [Sobek](/Deities.aspx?ID=60)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature or unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDamage and push a creature with a blast of water.\r\n</summary>",
+ "saving_throw": "AC",
+ "saving_throw_markdown": "AC",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 336\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Besmara](/Deities.aspx?ID=32), [Dagon](/Deities.aspx?ID=75), [Hanspur](/Deities.aspx?ID=154), [Kelizandri](/Deities.aspx?ID=104), [Lysianassa](/Deities.aspx?ID=105), [Ragadahn](/Deities.aspx?ID=99), [Sobek](/Deities.aspx?ID=60)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature or unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDamage and push a creature with a blast of water.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 344"
+  "Player Core pg. 336"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 344 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 336",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Damage and push a creature with a blast of water.",
  "summary_markdown": "Damage and push a creature with a blast of water.",
  "target": "1 creature or unattended object",
  "target_markdown": "1 creature or unattended object",
- "text": " Hydraulic Push Source Core Rulebook pg. 344 4.0 Traditions Arcane, Primal Spell Lists Elemental Deities Besmara, Dagon, Hanspur, Lysianassa, Ragadahn, Sobek Cast Two Actions somatic, verbal Range 60 feet Target 1 creature or unattended object --- You call forth a powerful blast of pressurized water that bludgeons the target and knocks it back. Make a ranged spell attack roll. Critical Success The target takes 6d6 bludgeoning damage and is knocked back 10 feet. Success The target takes 3d6 bludgeoning damage and is knocked back 5 feet. --- Heightened (+1) The damage increases by 2d6.",
+ "text": "\nHydraulic Push Two Actions Source Player Core pg. 336 Traditions Arcane, Primal Deities Besmara, Dagon, Hanspur, Kelizandri, Lysianassa, Ragadahn, Sobek Range 60 feet Target 1 creature or unattended object Defense AC --- You call forth a powerful blast of pressurized water that bludgeons the target and knocks it back. Make a ranged spell attack roll. Critical Success The target takes 6d6 bludgeoning damage and is knocked back 10 feet. Success The target takes 3d6 bludgeoning damage and is knocked back 5 feet. --- Heightened (+1) The bludgeoning damage increases by 2d6.",
  "tradition": [
   "Arcane",
-  "Primal",
-  "Elemental"
+  "Primal"
  ],
- "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Attack",
-  "Evocation",
+  "Concentrate",
+  "Manipulate",
   "Water"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Evocation](/Traits.aspx?ID=65), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [
   "Attack",
-  "Evocation",
+  "Concentrate",
+  "Manipulate",
   "Water"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=154",
+ "url": "/Spells.aspx?ID=1561",
  "weakness": {}
 }

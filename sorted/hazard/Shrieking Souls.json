@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "DC 44  Diplomacy  (master) to comfort the spirit or DC 45  Occultism  (master) to ward off the spirit",
@@ -7,22 +6,32 @@
  "hazard_type": "Haunt",
  "id": "hazard-325",
  "level": 18,
- "markdown": "<title level=\"1\" right=\"Hazard 18\" pfs=\"\">[Shrieking Souls](/Hazards.aspx?ID=325)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA terrified soul releases an earsplitting scream.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 48 (master)\r\n\r\n**Disable**\r\nDC 44 [Diplomacy](/Skills.aspx?ID=6) (master) to comfort the spirit or DC 45 [Occultism](/Skills.aspx?ID=11) (master) to ward off the spirit\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Scream** <actions string=\"Reaction\" /> ([evocation](/Equipment.aspx?ID=1671), [sonic](/Traits.aspx?ID=147), [occult](/Traits.aspx?ID=120)) **Trigger** A creature enters the area; **Effect** The spirit screams, dealing 6d12+41 sonic damage to all creatures in a 30-foot cone (DC 40 [basic](/Rules.aspx?ID=329) Fortitude save).\n\n---\r\n**Reset**\r\n1 hour.",
+ "markdown": "<title level=\"1\" right=\"Hazard 18\" pfs=\"\">[Shrieking Souls](/Hazards.aspx?ID=325)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA terrified soul releases an earsplitting scream.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 48 (master)\r\n\r\n**Disable**\r\nDC 44 [Diplomacy](/Skills.aspx?ID=6) (master) to comfort the spirit or DC 45 [Occultism](/Skills.aspx?ID=11) (master) to ward off the spirit\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Scream** <actions string=\"Reaction\" /> ([evocation](/Equipment.aspx?ID=1671), [sonic](/Traits.aspx?ID=147), [occult](/Traits.aspx?ID=120)) **Trigger** A creature enters the area; **Effect** The spirit screams, dealing 6d12+41 sonic damage to all creatures in a 30-foot cone (DC 40 [basic](/Rules.aspx?ID=329) Fortitude save).\n\n---\r\n**Reset**\r\n1 hour.",
  "name": "Shrieking Souls",
+ "primary_source": "Pathfinder #186: Ghost King's Rage",
+ "primary_source_raw": "Pathfinder #186: Ghost King's Rage pg. 56",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Blood Lords",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-12-14",
  "reset": "1 hour.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA terrified soul releases an earsplitting scream.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA terrified soul releases an earsplitting scream.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #186: Ghost King's Rage"
  ],
  "source_raw": [
   "Pathfinder #186: Ghost King's Rage pg. 56"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Blood Lords",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Blood Lords"
+ ],
+ "source_markdown": "[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56",
  "speed": {},
  "spoilers": "Blood Lords",
  "stealth": "DC 48 (master)",
@@ -32,6 +41,10 @@
  "trait": [
   "Haunt",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Haunt](/Traits.aspx?ID=88), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

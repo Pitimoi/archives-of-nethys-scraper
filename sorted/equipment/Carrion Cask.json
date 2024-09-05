@@ -1,7 +1,6 @@
 {
  "access": "Characters from Geb have access to this item.",
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,34 +8,45 @@
  "id": "equipment-1797",
  "item_category": "Other",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Carrion Cask](/Equipment.aspx?ID=1797)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178</row>\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n**Access** Characters from Geb have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a necromantic sludge.\n\n<document level=\"2\" id=\"action-1458\" />\n\n<document level=\"2\" id=\"action-1459\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Carrion Cask](/Equipment.aspx?ID=1797)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n**Access** Characters from Geb have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a necromantic sludge.\n\n**Activate** <actions string=\"\" /> Interact;  **Frequency** once per day;   **Effect** You feed a corpse of a Small-sized or larger creature to the cask, little by little. The activation requires a three-action activity for a Small or Medium creature, a 1-minute activity for a Larger creature, and a 10-minute activity for a Huge creature. A Gargantuan creature is too large for the cask to devour.\n\n**Activate** <actions string=\"Two Actions\" /> command, envision;  **Frequency** once per day;  **Requirements** The _carrion cask_ has consumed a corpse since the last time it was activated; **Effect** You release the sludge from the _carrion cask's_ last meal in a pulse of necromantic energy. Creatures in a 30-foot cone take 6d6 negative damage, with a DC 24 [basic](/Rules.aspx?ID=329) Fortitude save.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Carrion Cask",
  "pfs": "Standard",
  "price": 50000,
  "price_raw": "500 gp",
+ "primary_source": "Impossible Lands",
+ "primary_source_raw": "Impossible Lands pg. 178",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-11-16",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178</row>\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Impossible Lands"
  ],
  "source_raw": [
   "Impossible Lands pg. 178"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Impossible Lands](/Sources.aspx?ID=146) pg. 178</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Impossible Lands](/Sources.aspx?ID=146) pg. 178",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a …",
  "summary_markdown": "This stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a …",
- "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Carrion Cask Source Impossible Lands pg. 178 Price 500 gp Bulk L Access Characters from Geb have access to this item. --- This stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a necromantic sludge.\n",
+ "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Carrion Cask Source Impossible Lands pg. 178 Price 500 gp Bulk L Access Characters from Geb have access to this item. --- This stylized, palm-sized box contains a black, ooze-like substance that can easily devour a corpse in moments, breaking the body down into a necromantic sludge. Activate Interact; Frequency once per day; Effect You feed a corpse of a Small-sized or larger creature to the cask, little by little. The activation requires a three-action activity for a Small or Medium creature, a 1-minute activity for a Larger creature, and a 10-minute activity for a Huge creature. A Gargantuan creature is too large for the cask to devour. Activate Two Actions command, envision; Frequency once per day; Requirements The carrion cask has consumed a corpse since the last time it was activated; Effect You release the sludge from the carrion cask's last meal in a pulse of necromantic energy. Creatures in a 30-foot cone take 6d6 negative damage, with a DC 24 basic Fortitude save.\n",
  "trait": [
   "Magical",
   "Necromancy",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

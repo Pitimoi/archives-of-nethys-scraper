@@ -1,6 +1,6 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,29 +8,42 @@
  ],
  "feat_markdown": "Cloak of Poison",
  "frequency": "once per day",
- "id": "feat-2398",
+ "id": "feat-4509",
+ "legacy_id": "feat-2398",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cloak of Poison](/Feats.aspx?ID=2398) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 43 <sup>2.0</sup></row>\r\n\r\n_[**PFS Note**](/pathfinder-society) “An unarmed attack or melee weapon without the reach trait” refers to all unarmed attacks (whether they have the reach trait or not), as well as melee weapons without the reach trait._\n\n**Frequency**\r\nonce per day\n\n</column>\r\n\r\n---\r\n\r\nYou secrete a cloak of concentrated poison that harms any who dare attack you. For 1 minute, any creature that touches you or damages you with an unarmed attack or melee weapon without the [reach](/Traits.aspx?ID=192) trait takes 3d6 poison damage.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cloak of Poison](/Feats.aspx?ID=4509) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 69\n\n**Frequency**\r\nonce per day\n\n</column>\r\n\r\n---\r\n\r\nYou secrete a cloak of concentrated poison that harms any who dare attack you. For 1 minute, any creature that touches you or damages you with an unarmed attack or melee weapon without the [reach](/Traits.aspx?ID=192) trait takes 3d6 poison damage.",
  "name": "Cloak of Poison",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 69",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2021-02-24",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 43 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou secrete a cloak of concentrated poison that harms any who dare attack you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 69\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou secrete a cloak of concentrated poison that harms any who dare attack you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Ancestry Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Ancestry Guide pg. 43"
+  "Player Core pg. 69"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 43 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 69",
  "speed": {},
  "summary": "You secrete a cloak of concentrated poison that harms any who dare attack you.",
  "summary_markdown": "You secrete a cloak of concentrated poison that harms any who dare attack you.",
- "text": "<title level=\"1\" right=\"Feat 13\" pfs=\"Standard\" > Cloak of Poison Two Actions Source Ancestry Guide pg. 43 2.0 PFS Note “An unarmed attack or melee weapon without the reach trait” refers to all unarmed attacks (whether they have the reach trait or not), as well as melee weapons without the reach trait. Frequency once per day --- You secrete a cloak of concentrated poison that harms any who dare attack you. For 1 minute, any creature that touches you or damages you with an unarmed attack or melee weapon without the reach trait takes 3d6 poison damage.",
+ "text": "<title level=\"1\" right=\"Feat 13\" pfs=\"Standard\" > Cloak of Poison Two Actions Source Player Core pg. 69 Frequency once per day --- You secrete a cloak of concentrated poison that harms any who dare attack you. For 1 minute, any creature that touches you or damages you with an unarmed attack or melee weapon without the reach trait takes 3d6 poison damage.",
  "trait": [
   "Leshy",
+  "Poison"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
   "Poison"
  ],
  "trait_markdown": "[Leshy](/Traits.aspx?ID=225), [Poison](/Traits.aspx?ID=126)",
@@ -39,6 +52,6 @@
   "Poison"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=2398",
+ "url": "/Feats.aspx?ID=4509",
  "weakness": {}
 }

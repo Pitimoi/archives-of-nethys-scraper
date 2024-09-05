@@ -1,19 +1,26 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Metal"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+3"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 5th rank",
+  "Heightened 8th rank"
  ],
  "heighten_level": [
   2,
@@ -22,40 +29,51 @@
  ],
  "id": "spell-945",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Magnetic Repulsion](/Spells.aspx?ID=945)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 115 <sup>1.1</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou adjust your magnetic polarity, causing metal objects to jump and shudder away from you. Attacks made with metal objects against you take a –1 status penalty, and the squares adjacent to you are difficult terrain for creatures wearing metal armor. For creatures made entirely of metal, the penalty to their attack rolls is –2 and the squares adjacent to you are greater difficult terrain.\n\n While this spell is active, you require an additional Interact action before using a metal object (including to Strike with a metal weapon), and if you're wearing metal armor, you're [slowed 1](/Conditions.aspx?ID=35).\n\n---\r\n**Heightened (+3)** The status penalty to attack rolls increases by 1.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Magnetic Repulsion](/Spells.aspx?ID=945)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 115 <sup>1.1</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou adjust your magnetic polarity, causing metal objects to jump and shudder away from you. Attacks made with metal objects against you take a –1 status penalty, and the squares adjacent to you are difficult terrain for creatures wearing metal armor. For creatures made entirely of metal, the penalty to their attack rolls is –2 and the squares adjacent to you are greater difficult terrain.\n\n While this spell is active, you require an additional Interact action before using a metal object (including to Strike with a metal weapon), and if you're wearing metal armor, you're [slowed 1](/Conditions.aspx?ID=35).\n\n---\r\n**Heightened (+3)** The status penalty to attack rolls increases by 1.",
  "name": "Magnetic Repulsion",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 115",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 115 <sup>1.1</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPush metal away, defending against metal weapons and armored foes.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 115 <sup>1.1</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPush metal away, defending against metal weapons and armored foes.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 115"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 115 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 115 <sup>1.1</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Push metal away, defending against metal weapons and armored foes.",
  "summary_markdown": "Push metal away, defending against metal weapons and armored foes.",
- "text": " Magnetic Repulsion Source Secrets of Magic pg. 115 1.1 Traditions Arcane, Primal Cast Two Actions somatic, verbal Duration 1 minute --- You adjust your magnetic polarity, causing metal objects to jump and shudder away from you. Attacks made with metal objects against you take a –1 status penalty, and the squares adjacent to you are difficult terrain for creatures wearing metal armor. For creatures made entirely of metal, the penalty to their attack rolls is –2 and the squares adjacent to you are greater difficult terrain. While this spell is active, you require an additional Interact action before using a metal object (including to Strike with a metal weapon), and if you're wearing metal armor, you're slowed 1. --- Heightened (+3) The status penalty to attack rolls increases by 1.",
+ "text": "\nMagnetic Repulsion Two Actions Source Secrets of Magic pg. 115 1.1 Traditions Arcane, Primal Cast somatic, verbal Duration 1 minute --- You adjust your magnetic polarity, causing metal objects to jump and shudder away from you. Attacks made with metal objects against you take a –1 status penalty, and the squares adjacent to you are difficult terrain for creatures wearing metal armor. For creatures made entirely of metal, the penalty to their attack rolls is –2 and the squares adjacent to you are greater difficult terrain. While this spell is active, you require an additional Interact action before using a metal object (including to Strike with a metal weapon), and if you're wearing metal armor, you're slowed 1. --- Heightened (+3) The status penalty to attack rolls increases by 1.",
  "tradition": [
   "Arcane",
   "Primal"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Abjuration"
+  "Abjuration",
+  "Metal"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_group": [
+  "School",
+  "Elemental"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Metal](/Traits.aspx?ID=505)",
  "trait_raw": [
-  "Abjuration"
+  "Abjuration",
+  "Metal"
  ],
  "type": "Spell",
  "url": "/Spells.aspx?ID=945",

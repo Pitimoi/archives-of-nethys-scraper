@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,27 +7,34 @@
  "feat_markdown": "Skeleton Commander",
  "id": "feat-3542",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Skeleton Commander](/Feats.aspx?ID=3542) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 57</row>\n\n**Prerequisites**\r\nExpert in [Religion](/Skills.aspx?ID=13)\n\n</column>\r\n\r\n---\r\n\r\nYou gain the ability to summon your own skeletal minions. You learn the [_create undead_](/Rituals.aspx?ID=10) rituals to create three types of undead for which you meet the prerequisites. These undead must have the [skeleton](/Traits.aspx?ID=236) trait or be other skeletal undead the GM agrees to. You can't teach these rituals to anyone else, and you can't participate in either ritual while allowing someone else to serve as the primary caster unless they also know the ritual.\n\n You gain a +2 circumstance bonus to Religion checks for _create undead_ rituals. You can also perform the ritual without the aid of a secondary caster; in this case, you attempt the secondary check normally performed by that caster.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Skeleton Commander](/Feats.aspx?ID=3542) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 57\n\n**Prerequisites**\r\nExpert in [Religion](/Skills.aspx?ID=13)\n\n</column>\r\n\r\n---\r\n\r\nYou gain the ability to summon your own skeletal minions. You learn the [_create undead_](/Rituals.aspx?ID=10) rituals to create three types of undead for which you meet the prerequisites. These undead must have the [skeleton](/Traits.aspx?ID=236) trait or be other skeletal undead the GM agrees to. You can't teach these rituals to anyone else, and you can't participate in either ritual while allowing someone else to serve as the primary caster unless they also know the ritual.\n\n You gain a +2 circumstance bonus to Religion checks for _create undead_ rituals. You can also perform the ritual without the aid of a secondary caster; in this case, you attempt the secondary check normally performed by that caster.",
  "name": "Skeleton Commander",
  "pfs": "Standard",
  "prerequisite": "Expert in Religion",
  "prerequisite_markdown": "Expert in [Religion](/Skills.aspx?ID=13)",
+ "primary_source": "Book of the Dead",
+ "primary_source_raw": "Book of the Dead pg. 57",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-04-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 57</row>\n\n**Prerequisites**\r\nExpert in [Religion](/Skills.aspx?ID=13)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain the ability to summon your own skeletal minions.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 57\n\n**Prerequisites**\r\nExpert in [Religion](/Skills.aspx?ID=13)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain the ability to summon your own skeletal minions.\r\n</summary>",
  "skill": [
   "Religion",
   "Religion"
  ],
+ "skill_mod": {},
  "source": [
   "Book of the Dead"
  ],
  "source_raw": [
   "Book of the Dead pg. 57"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Book of the Dead](/Sources.aspx?ID=118) pg. 57</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Book of the Dead](/Sources.aspx?ID=118) pg. 57",
  "speed": {},
  "summary": "You gain the ability to summon your own skeletal minions.",
  "summary_markdown": "You gain the ability to summon your own skeletal minions.",
@@ -36,6 +42,11 @@
  "trait": [
   "Skeleton",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Rarity"
  ],
  "trait_markdown": "[Skeleton](/Traits.aspx?ID=236), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,64 +1,107 @@
 {
  "ac": 17,
- "alignment": "CG",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  7,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Starlight Blast"
  ],
  "creature_family": "Azata",
- "creature_family_markdown": "[Azata](/MonsterFamilies.aspx?ID=10)",
+ "creature_family_markdown": "[Azata](/MonsterFamilies.aspx?ID=368)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 4,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 25,
  "hp_raw": "25",
- "id": "creature-34",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2840",
  "image": [
-  "/Images/Monsters/Azata_Lyrakien.png"
+  "/Images/Monsters/Lyrakien.webp"
  ],
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Celestial",
   "Common",
+  "Diabolic",
   "Draconic",
-  "Infernal"
+  "Empyrean"
  ],
- "language_markdown": "[Celestial](/Languages.aspx?ID=16), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Infernal](/Languages.aspx?ID=19)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115)",
+ "legacy_id": "creature-34",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Lyrakien (Wanderer Azata)](/Monsters.aspx?ID=34)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLyrakiens are musical messengers and embodiments of free travel. They serve [Desna](/Deities.aspx?ID=5) and other deities and empyreal lords of [Elysium](/Planes.aspx?ID=16), but are quite fond of the concept of free time and are always on the hunt for opportunities to pause in their duties to enjoy music or appreciate a moment of beauty. They love contests, stories, and songs, and they often challenge mortals to musical contests or pester them to share grand tales of their exploits. Lyrakiens rely on their agility to avoid conflicts, but they do their best to defend places of great natural beauty, especially against lawful or evil foes they can damage with their starlight. Lyrakiens have an innate wanderlust and rarely stay in the same place for very long. Some travel alongside adventurers, ofter writing songs about their quests and feats of derring-do.\n\nThough light-hearted creatures, lyrakiens don't let their whimsical personalities get in the way of protecting breathtaking natural locations. Often called “glistenwings” by [gnomes](/Ancestries.aspx?ID=3) and [halflings](/Ancestries.aspx?ID=5), they are frequently mistaken for [sprites](/Monsters.aspx?ID=389) or similar fey, a bit of confusion that many lyrakiens find amusing and fertile ground for shenanigans involving those they deem deserving of a bit of unexpected fun and discord in their lives.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Azata_Lyrakien.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Lyrakien](/Monsters.aspx?ID=34)</title>\r\n\r\n<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Azata\" url=\"/Traits.aspx?ID=17\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=23\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 30</row>\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\n[Celestial](/Languages.aspx?ID=16), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Infernal](/Languages.aspx?ID=19)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Diplomacy](/Skills.aspx?ID=6) +6, [Performance](/Skills.aspx?ID=12) +8, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 25\n\n**Weaknesses**\r\ncold iron 3, evil 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +9 ([Agile](/Traits.aspx?ID=170), [Chaotic](/Traits.aspx?ID=25), [Finesse](/Traits.aspx?ID=179), [Good](/Traits.aspx?ID=83), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d4-2 bludgeoning plus 1 chaotic and 1 good\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nstarlight ray +9 ([Chaotic](/Traits.aspx?ID=25), [Good](/Traits.aspx?ID=83), [Light](/Traits.aspx?ID=100), [range 10 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d4 chaotic and 1d4 good\r\n\r\n**Divine Innate Spells** DC 17\r\n- **Cantrips (1st)**\r\n[Dancing Lights](/Spells.aspx?ID=58), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Detect Alignment](/Spells.aspx?ID=65) (at will; evil only), [Heal](/Spells.aspx?ID=148), [Illusory Object](/Spells.aspx?ID=160)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n- **Constant (4th)**\r\n[Freedom of Movement](/Spells.aspx?ID=128)\r\n\r\n**Starlight Blast** <actions string=\"Two Actions\" /> ([Chaotic](/Traits.aspx?ID=25), [Good](/Traits.aspx?ID=83), [Light](/Traits.aspx?ID=100)) The lyrakien unleashes a blast of holy starlight in a 5-foot burst centered on itself. Creatures in the area take 1d6 chaotic damage and 1d6 good damage (DC 17 basic Reflex save). The lyrakien can’t use Starlight Blast or its starlight ray ranged attack for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-10\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Lyrakien (Wanderer Azata)](/Monsters.aspx?ID=2840)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLyrakiens are musical messengers and embodiments of free travel. They serve [Desna](/Deities.aspx?ID=281) and other deities and empyreal lords of [Elysium](/Planes.aspx?ID=40) but are quite fond of free time as a fundamental concept and are always on the hunt for opportunities to pause in their duties to enjoy music or appreciate a moment of beauty. They love contests, stories, and songs, and they often challenge mortals to musical contests or pester them to share grand tales of their exploits. Lyrakiens rely on their agility to avoid conflicts, but they do their best to defend places of great natural beauty, especially against foes they can damage with their starlight. Lyrakiens have an innate wanderlust and rarely stay in the same place for very long. Some travel alongside adventurers, often writing songs about their quests and feats of derring-do.\n\n Though light-hearted creatures, lyrakiens don't let their whimsical personalities get in the way of protecting breathtaking natural locations. Sometimes called “glistenwings” by gnomes and halflings, they are frequently mistaken for [sprites](/Monsters.aspx?ID=389) or similar [fey](/Languages.aspx?ID=119), a bit of confusion that many lyrakiens find amusing and fertile ground for shenanigans involving those they deem deserving of a bit of unexpected fun and discord in their lives.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lyrakien.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Lyrakien](/Monsters.aspx?ID=2840)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Azata\" url=\"/Traits.aspx?ID=543\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 32\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Diplomacy](/Skills.aspx?ID=6) +6, [Performance](/Skills.aspx?ID=12) +8, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 3, unholy 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103), [reach 0 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d4–2 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nstarlight ray +7 ([Holy](/Traits.aspx?ID=517), [Light](/Traits.aspx?ID=100), [range 30 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d4 spirit\r\n\r\n**Divine Innate Spells** DC 17\r\n- **Cantrips (1st)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Light](/Spells.aspx?ID=171)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148), [Illusory Object](/Spells.aspx?ID=160)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n- **Constant (4th)**\r\n[Unfettered Movement](/Spells.aspx?ID=1732)\r\n\r\n**Starlight Blast** <actions string=\"Two Actions\" /> ([Holy](/Traits.aspx?ID=517), [Light](/Traits.aspx?ID=100)) The lyrakien unleashes a blast of holy starlight in a 5-foot emanation. Enemies in the area take 2d6 spirit damage with a DC 17 [basic](/Rules.aspx?ID=329) Reflex save. The lyrakien can't use Starlight Blast or their starlight ray ranged attack for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-368\" />",
  "name": "Lyrakien",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 32",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Azata\" url=\"/Traits.aspx?ID=17\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=23\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 30</row>\r\n\r\n**Creature Family** [Azata](/MonsterFamilies.aspx?ID=10)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLyrakiens are musical messengers and embodiments of free travel. They serve  Desna  and other deities and empyreal lords of  Elysium , but are quite …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Azata\" url=\"/Traits.aspx?ID=543\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 32\r\n\r\n**Creature Family** [Azata](/MonsterFamilies.aspx?ID=368)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLyrakiens are musical messengers and embodiments of free travel. They serve  Desna  and other deities and empyreal lords of  Elysium  but are quite …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +9",
-  "Diplomacy +6",
-  "Performance +8",
-  "Religion +6",
-  "Stealth +7"
+  "Acrobatics",
+  "Diplomacy",
+  "Performance",
+  "Religion",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +9, [Diplomacy](/Skills.aspx?ID=6) +6, [Performance](/Skills.aspx?ID=12) +8, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill_mod": {
+  "acrobatics": 9,
+  "diplomacy": 6,
+  "performance": 8,
+  "religion": 6,
+  "stealth": 7
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 30"
+  "Monster Core pg. 32"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 30</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 32",
  "speed": {
   "fly": 50,
   "land": 25,
@@ -68,37 +111,68 @@
  "speed_raw": "25 feet, fly 50 feet",
  "spell": [
   "Read Omens",
-  "Detect Alignment",
   "Heal",
   "Illusory Object",
-  "Dancing Lights",
   "Daze",
   "Detect Magic",
-  "Freedom of Movement"
+  "Light",
+  "Unfettered Movement"
  ],
- "spell_markdown": "[Dancing Lights](/Spells.aspx?ID=58), [Daze](/Spells.aspx?ID=61), [Detect Alignment](/Spells.aspx?ID=65), [Detect Magic](/Spells.aspx?ID=66), [Freedom of Movement](/Spells.aspx?ID=128), [Heal](/Spells.aspx?ID=148), [Illusory Object](/Spells.aspx?ID=160), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Heal](/Spells.aspx?ID=148), [Illusory Object](/Spells.aspx?ID=160), [Light](/Spells.aspx?ID=171), [Read Omens](/Spells.aspx?ID=247), [Unfettered Movement](/Spells.aspx?ID=1732)",
+ "spell_dc": [
+  17
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "7",
+ "strike_damage_average": [
+  2,
+  5
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": -2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Lyrakiens are musical messengers and embodiments of free travel. They serve  Desna  and other deities and empyreal lords of  Elysium , but are quite …",
- "summary_markdown": "Lyrakiens are musical messengers and embodiments of free travel. They serve  Desna  and other deities and empyreal lords of  Elysium , but are quite …",
- "text": " Lyrakien (Wanderer Azata) Lyrakiens are musical messengers and embodiments of free travel. They serve Desna and other deities and empyreal lords of Elysium, but are quite fond of the concept of free time and are always on the hunt for opportunities to pause in their duties to enjoy music or appreciate a moment of beauty. They love contests, stories, and songs, and they often challenge mortals to musical contests or pester them to share grand tales of their exploits. Lyrakiens rely on their agility to avoid conflicts, but they do their best to defend places of great natural beauty, especially against lawful or evil foes they can damage with their starlight. Lyrakiens have an innate wanderlust and rarely stay in the same place for very long. Some travel alongside adventurers, ofter writing songs about their quests and feats of derring-do. Though light-hearted creatures, lyrakiens don't let their whimsical personalities get in the way of protecting breathtaking natural locations. Often called “glistenwings” by gnomes and halflings, they are frequently mistaken for sprites or similar fey, a bit of confusion that many lyrakiens find amusing and fertile ground for shenanigans involving those they deem deserving of a bit of unexpected fun and discord in their lives. Recall Knowledge - Celestial (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Lyrakien Source Bestiary pg. 30 Perception +8; darkvision Languages Celestial, Common, Draconic, Infernal Skills Acrobatics +9, Diplomacy +6, Performance +8, Religion +6, Stealth +7 Str -2 Dex +4 Con +1 Int +1 Wis +3 Cha +3 --- AC 17 Fort +4 Ref +7 Will +6 HP 25 Weaknesses cold iron 3, evil 3 --- Speed 25 feet, fly 50 feet Melee Single Action fist +9 (Agile, Chaotic, Finesse, Good, Magical), Damage 1d4-2 bludgeoning plus 1 chaotic and 1 good Ranged Single Action starlight ray +9 (Chaotic, Good, Light, range 10 feet), Damage 1d4 chaotic and 1d4 good Divine Innate Spells DC 17 - Cantrips (1st) Dancing Lights, Daze, Detect Magic - 1st Detect Alignment (at will; evil only), Heal, Illusory Object - 4th Read Omens - Constant (4th) Freedom of Movement Starlight Blast Two Actions (Chaotic, Good, Light) The lyrakien unleashes a blast of holy starlight in a 5-foot burst centered on itself. Creatures in the area take 1d6 chaotic damage and 1d6 good damage (DC 17 basic Reflex save). The lyrakien can’t use Starlight Blast or its starlight ray ranged attack for 1d4 rounds. ",
+ "summary": "Lyrakiens are musical messengers and embodiments of free travel. They serve  Desna  and other deities and empyreal lords of  Elysium  but are quite …",
+ "summary_markdown": "Lyrakiens are musical messengers and embodiments of free travel. They serve  Desna  and other deities and empyreal lords of  Elysium  but are quite …",
+ "text": " Lyrakien (Wanderer Azata) Lyrakiens are musical messengers and embodiments of free travel. They serve Desna and other deities and empyreal lords of Elysium but are quite fond of free time as a fundamental concept and are always on the hunt for opportunities to pause in their duties to enjoy music or appreciate a moment of beauty. They love contests, stories, and songs, and they often challenge mortals to musical contests or pester them to share grand tales of their exploits. Lyrakiens rely on their agility to avoid conflicts, but they do their best to defend places of great natural beauty, especially against foes they can damage with their starlight. Lyrakiens have an innate wanderlust and rarely stay in the same place for very long. Some travel alongside adventurers, often writing songs about their quests and feats of derring-do. Though light-hearted creatures, lyrakiens don't let their whimsical personalities get in the way of protecting breathtaking natural locations. Sometimes called “glistenwings” by gnomes and halflings, they are frequently mistaken for sprites or similar fey, a bit of confusion that many lyrakiens find amusing and fertile ground for shenanigans involving those they deem deserving of a bit of unexpected fun and discord in their lives. Recall Knowledge - Celestial (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Lyrakien Source Monster Core pg. 32 Perception +8; darkvision Languages Common, Diabolic, Draconic, Empyrean Skills Acrobatics +9, Diplomacy +6, Performance +8, Religion +6, Stealth +7 Str -2 Dex +4 Con +1 Int +1 Wis +3 Cha +3 --- AC 17 Fort +4 Ref +7 Will +6 HP 25 Weaknesses cold iron 3, unholy 3 --- Speed 25 feet, fly 50 feet Melee Single Action fist +7 (Agile, Finesse, Holy, Magical, reach 0 feet), Damage 1d4–2 bludgeoning Ranged Single Action starlight ray +7 (Holy, Light, range 30 feet), Damage 2d4 spirit Divine Innate Spells DC 17 - Cantrips (1st) Daze, Detect Magic, Light - 1st Heal, Illusory Object - 4th Read Omens - Constant (4th) Unfettered Movement Starlight Blast Two Actions (Holy, Light) The lyrakien unleashes a blast of holy starlight in a 5-foot emanation. Enemies in the area take 2d6 spirit damage with a DC 17 basic Reflex save. The lyrakien can't use Starlight Blast or their starlight ray ranged attack for 1d4 rounds. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Azata",
   "Celestial",
-  "CG",
+  "Holy",
   "Tiny"
  ],
- "trait_markdown": "[Azata](/Traits.aspx?ID=17), [Celestial](/Traits.aspx?ID=23)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Azata](/Traits.aspx?ID=543), [Celestial](/Traits.aspx?ID=551), [Holy](/Traits.aspx?ID=517)",
  "trait_raw": [
   "Azata",
-  "Celestial"
+  "Celestial",
+  "Holy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=34",
+ "url": "/Monsters.aspx?ID=2840",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -106,10 +180,14 @@
  ],
  "weakness": {
   "cold_iron": 3,
-  "evil": 3
+  "unholy": 3
  },
- "weakness_markdown": "cold iron 3, evil 3",
- "weakness_raw": "cold iron 3, evil 3",
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 3, unholy 3",
+ "weakness_raw": " cold iron  3, unholy 3",
  "will_save": 6,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

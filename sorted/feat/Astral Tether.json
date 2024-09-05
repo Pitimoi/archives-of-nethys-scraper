@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,22 +9,29 @@
  "feat_markdown": "Astral Tether",
  "id": "feat-3663",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Astral Tether](/Feats.aspx?ID=3663) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 24</row>\n\n</column>\r\n\r\n---\r\n\r\nYou spin out a thread of psychic energy that connects you to an ally, using it as a conduit for your abilities. Choose a willing creature within 60 feet and connect to it. Whenever you would gain a benefit from a psychic amp, you can have the amp affect the tethered creature instead. You can do so only if the amp grants a distinct benefit, not if it alters the amped spell. \n\nThe tether can't be severed physically but breaks if the distance between you and the tethered ally ever exceeds 60 feet, if you become [unconscious](/Conditions.aspx?ID=38), or if you use Astral Tether again.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Astral Tether](/Feats.aspx?ID=3663) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 24\n\n</column>\r\n\r\n---\r\n\r\nYou spin out a thread of psychic energy that connects you to an ally, using it as a conduit for your abilities. Choose a willing creature within 60 feet and connect to it. Whenever you would gain a benefit from a psychic amp, you can have the amp affect the tethered creature instead. You can do so only if the amp grants a distinct benefit, not if it alters the amped spell. \n\nThe tether can't be severed physically but breaks if the distance between you and the tethered ally ever exceeds 60 feet, if you become [unconscious](/Conditions.aspx?ID=38), or if you use Astral Tether again.",
  "name": "Astral Tether",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 24",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 24</row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou spin out a thread of psychic energy that connects you to an ally, using it as a conduit for your abilities.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 24\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou spin out a thread of psychic energy that connects you to an ally, using it as a conduit for your abilities.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 24"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 24</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 24",
  "speed": {},
  "summary": "You spin out a thread of psychic energy that connects you to an ally, using it as a conduit for your abilities.",
  "summary_markdown": "You spin out a thread of psychic energy that connects you to an ally, using it as a conduit for your abilities.",
@@ -33,6 +40,11 @@
   "Abjuration",
   "Occult",
   "Psychic"
+ ],
+ "trait_group": [
+  "School",
+  "Tradition",
+  "Class"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Occult](/Traits.aspx?ID=120), [Psychic](/Traits.aspx?ID=430)",
  "trait_raw": [

@@ -1,9 +1,9 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Dual-Weapon Warrior"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,25 +12,32 @@
  "feat_markdown": "Flensing Slice",
  "id": "feat-1953",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Flensing Slice](/Feats.aspx?ID=1953) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 170 <sup>2.0</sup></row>\n\n**Archetype** [Dual-Weapon Warrior](/Archetypes.aspx?ID=57)\n\n**Prerequisites**\r\n[Dual-Weapon Warrior Dedication](/Feats.aspx?ID=1950)\n\n**Requirements**\r\nYour last action was a [Double Slice](/Feats.aspx?ID=356), and both attacks hit the target.\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhen you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot. The target takes 1d8 [persistent bleed damage](/Conditions.aspx?ID=29) per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a [_major striking_](/Equipment.aspx?ID=280) weapon). The target becomes [flat-footed](/Conditions.aspx?ID=16), and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Flensing Slice](/Feats.aspx?ID=1953) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 170 <sup>2.0</sup>\n\n**Archetype** [Dual-Weapon Warrior](/Archetypes.aspx?ID=57)\n\n**Prerequisites**\r\n[Dual-Weapon Warrior Dedication](/Feats.aspx?ID=1950)\n\n**Requirements**\r\nYour last action was a [Double Slice](/Feats.aspx?ID=356), and both attacks hit the target.\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhen you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot. The target takes 1d8 [persistent bleed damage](/Conditions.aspx?ID=29) per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a [_major striking_](/Equipment.aspx?ID=280) weapon). The target becomes [flat-footed](/Conditions.aspx?ID=16), and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.",
  "name": "Flensing Slice",
  "pfs": "Standard",
  "prerequisite": "Dual-Weapon Warrior Dedication",
  "prerequisite_markdown": "[Dual-Weapon Warrior Dedication](/Feats.aspx?ID=1950)",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 170",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "requirement": "Your last action was a  Double Slice , and both attacks hit the target.",
  "requirement_markdown": "Your last action was a [Double Slice](/Feats.aspx?ID=356), and both attacks hit the target.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 170 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Dual-Weapon Warrior Dedication](/Feats.aspx?ID=1950)\n\n**Requirements**\r\nYour last action was a [Double Slice](/Feats.aspx?ID=356), and both attacks hit the target.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 170 <sup>2.0</sup>\n\n**Prerequisites**\r\n[Dual-Weapon Warrior Dedication](/Feats.aspx?ID=1950)\n\n**Requirements**\r\nYour last action was a [Double Slice](/Feats.aspx?ID=356), and both attacks hit the target.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 170"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 170 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 170 <sup>2.0</sup>",
  "speed": {},
  "summary": "When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot.",
  "summary_markdown": "When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot.",

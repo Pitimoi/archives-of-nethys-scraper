@@ -1,13 +1,11 @@
 {
  "actions": "1 hour",
+ "actions_number": 3600,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
-  "somatic",
-  "verbal"
+  "1 hour"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
@@ -15,39 +13,50 @@
   "6th",
   "8th"
  ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 4th rank",
+  "Heightened 6th rank",
+  "Heightened 8th rank"
+ ],
  "heighten_level": [
   2,
   4,
   6,
   8
  ],
- "id": "spell-52",
+ "id": "spell-1475",
+ "legacy_id": "spell-52",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Create Food](/Spells.aspx?ID=52)</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>1 hour ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create enough food to feed six Medium creatures for a day. This food is bland and unappealing, but it is nourishing. After 1 day, if no one has eaten the food, it decays and becomes inedible. Most Small creatures eat one-quarter as much as a Medium creature (one-sixteenth as much for most Tiny creatures), and most Large creatures eat 10 times as much (100 times as much for Huge creatures and so on).\n\n---\r\n**Heightened (4th)** You can feed 12 Medium creatures.\r\n\r\n**Heightened (6th)** You can feed 50 Medium creatures.\r\n\r\n**Heightened (8th)** You can feed 200 Medium creatures.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Create Food](/Spells.aspx?ID=1475)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 321\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 1 hour\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create enough food to feed six Medium creatures for a day. This food is bland and unappealing, but it is nourishing. After 1 day, if no one has eaten the food, it decays and becomes inedible. Most Small creatures eat one-quarter as much as a Medium creature (one-sixteenth as much for most Tiny creatures), and most Large creatures eat 10 times as much (100 times as much for Huge creatures and so on).\n\n---\r\n**Heightened (4th)** You can feed 12 Medium creatures.\r\n\r\n**Heightened (6th)** You can feed 50 Medium creatures.\r\n\r\n**Heightened (8th)** You can feed 200 Medium creatures.",
  "name": "Create Food",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 321",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>1 hour ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nConjure food that can feed multiple creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 321\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 1 hour\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFeed multiple creatures with conjured food.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 326"
+  "Player Core pg. 321"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 321",
  "speed": {},
- "summary": "Conjure food that can feed multiple creatures.",
- "summary_markdown": "Conjure food that can feed multiple creatures.",
- "text": " Create Food Source Core Rulebook pg. 326 4.0 Traditions Arcane, Divine, Primal Cast 1 hour (somatic, verbal) Range 30 feet --- You create enough food to feed six Medium creatures for a day. This food is bland and unappealing, but it is nourishing. After 1 day, if no one has eaten the food, it decays and becomes inedible. Most Small creatures eat one-quarter as much as a Medium creature (one-sixteenth as much for most Tiny creatures), and most Large creatures eat 10 times as much (100 times as much for Huge creatures and so on). --- Heightened (4th) You can feed 12 Medium creatures. Heightened (6th) You can feed 50 Medium creatures. Heightened (8th) You can feed 200 Medium creatures.",
+ "spell_type": "Spell",
+ "summary": "Feed multiple creatures with conjured food.",
+ "summary_markdown": "Feed multiple creatures with conjured food.",
+ "text": "\nCreate Food Source Player Core pg. 321 Traditions Arcane, Divine, Primal Cast 1 hour Range 30 feet --- You create enough food to feed six Medium creatures for a day. This food is bland and unappealing, but it is nourishing. After 1 day, if no one has eaten the food, it decays and becomes inedible. Most Small creatures eat one-quarter as much as a Medium creature (one-sixteenth as much for most Tiny creatures), and most Large creatures eat 10 times as much (100 times as much for Huge creatures and so on). --- Heightened (4th) You can feed 12 Medium creatures. Heightened (6th) You can feed 50 Medium creatures. Heightened (8th) You can feed 200 Medium creatures.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -55,13 +64,15 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Conjuration"
+  "Concentrate",
+  "Manipulate"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Conjuration"
+  "Concentrate",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=52",
+ "url": "/Spells.aspx?ID=1475",
  "weakness": {}
 }

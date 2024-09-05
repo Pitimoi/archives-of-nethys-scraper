@@ -1,0 +1,154 @@
+{
+ "ac": 27,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "N",
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Relentless",
+  "Shake It Off",
+  "Ferocious Gnaw",
+  "Pummeling Thrash"
+ ],
+ "creature_family": "Cave Worm",
+ "creature_family_markdown": "[Cave Worm](/MonsterFamilies.aspx?ID=21)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 220,
+ "hp_raw": "220",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2706",
+ "image": [
+  "/Images/Monsters/CaveWorm_LarvalWormBrood.png"
+ ],
+ "immunity": [
+  "precision",
+  "swarm mind"
+ ],
+ "immunity_markdown": "precision, [swarm mind](/MonsterAbilities.aspx?ID=36)",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"\">[Larval Cave Worm Brood](/Monsters.aspx?ID=2706)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile gestating, cave worms adapt to their surrounding environments, becoming accustomed to extreme temperatures and hazards nearby. For example, cave worms hatched in volcanic environments mature into crimson worms, while those raised near water sources mature into azure worms. Regardless of their environment, larval cave worms all have translucent bodies and pallid carapaces that harden and change color as they mature.\n\n When a brood of cave worms hatches from their eggs, the foot-long worms mass together, forming a swarm of ravenous larval worms. This swarm travels ceaselessly, consuming anything in its path. The young are drawn to movement, as living, squirming prey tends to be the most nutritious. As they age, they incorporate more minerals into their diet to support carapace growth.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/CaveWorm_LarvalWormBrood.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Larval Cave Worm Brood](/Monsters.aspx?ID=2706)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 85\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=12), [tremorsense](/MonsterAbilities.aspx?ID=40) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** -5\r\n\r\n**Wis** -2\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\n\n</row>\r\n\r\n**Immunities**\r\nprecision, [swarm mind](/MonsterAbilities.aspx?ID=36)\r\n\r\n**Resistances**\r\nbludgeoning 7, piercing 13, slashing 13\r\n\r\n**Weaknesses**\r\narea damage 13, [splash](/Traits.aspx?ID=150) damage 13\r\n\r\n**Relentless** When a larval cave worm brood gains the [paralyzed](/Conditions.aspx?ID=28), [slowed](/Conditions.aspx?ID=35), or [stunned](/Conditions.aspx?ID=36) condition, reduce the duration by half, to a minimum of 1 round. They also recover from penalties to their Speeds and the [immobilized](/Conditions.aspx?ID=24) condition at the end of their turn. Finally, they ignore non-magical [difficult terrain](/Rules.aspx?ID=453) and treat greater difficult terrain like difficult terrain.<br />**Shake It Off** <actions string=\"Reaction\" /> **Frequency** once per day; **Trigger** The larval cave worm brood would be affected by a condition or adverse effect (such as [_baleful polymorph_](/Spells.aspx?ID=17)); **Effect** The larval brood negates the triggering condition or effect. Effects from [artifacts](/Traits.aspx?ID=253), deities, or a similarly powerful source can't be avoided in this way.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, burrow 30 feet, swim 20 feet\n\n**Ferocious Gnaw** <actions string=\"Single Action\" />  Each foe in the larval swarm's space takes 6d6 piercing damage (DC 29 [basic](/Rules.aspx?ID=329) Reflex save).\r\n\r\n**Pummeling Thrash** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) **Requirements** The larval swarm's most recent action was Ferocious Gnaw; **Effect** The larval swarm frantically thrashes in an effort to consume its prey. The larval swarm attempts an [Athletics](/Skills.aspx?ID=3) check and compares the result to the Reflex DC of each creature in its space.<br /> **Critical Success** The creature falls [prone](/Conditions.aspx?ID=31) and take 4d6 bludgeoning damage.<br /> **Success** The creature falls prone and takes 2d6 bludgeoning damage.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Early Hatching</title>\r\n\r\nA single cave worm egg can produce several thousand larval cave worms when it slowly matures over a millennia. However, if a cave worm egg is disturbed or damaged before its natural cycle completes, the egg enters a rapid stage of maturation. Only a few hundred worms survive this process, creating significantly fewer offspring than when allowed to mature slowly.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-21\" />",
+ "name": "Larval Cave Worm Brood",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 85",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 19,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-09-23",
+ "resistance": {
+  "bludgeoning": 7,
+  "piercing": 13,
+  "slashing": 13
+ },
+ "resistance_markdown": "bludgeoning 7, piercing 13, slashing 13",
+ "resistance_raw": "bludgeoning 7, piercing 13, slashing 13",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 85\r\n\r\n**Creature Family** [Cave Worm](/MonsterFamilies.aspx?ID=21)\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 27\r\n\r\n**Fort** +21\r\n\r\n**Ref** +19\r\n\r\n**Will** +12\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile gestating, cave worms adapt to their surrounding environments, becoming accustomed to extreme temperatures and hazards nearby. For example, …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  ( imprecise ) 100 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [tremorsense](/MonsterAbilities.aspx?ID=40) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +22",
+ "skill_mod": {
+  "athletics": 22
+ },
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 85"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 85",
+ "speed": {
+  "burrow": 30,
+  "land": 30,
+  "max": 30,
+  "swim": 20
+ },
+ "speed_markdown": "30 feet, burrow 30 feet, swim 20 feet",
+ "speed_raw": "30 feet, burrow 30 feet, swim 20 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "While gestating, cave worms adapt to their surrounding environments, becoming accustomed to extreme temperatures and hazards nearby. For example, …",
+ "summary_markdown": "While gestating, cave worms adapt to their surrounding environments, becoming accustomed to extreme temperatures and hazards nearby. For example, …",
+ "text": " Larval Cave Worm Brood While gestating, cave worms adapt to their surrounding environments, becoming accustomed to extreme temperatures and hazards nearby. For example, cave worms hatched in volcanic environments mature into crimson worms, while those raised near water sources mature into azure worms. Regardless of their environment, larval cave worms all have translucent bodies and pallid carapaces that harden and change color as they mature. When a brood of cave worms hatches from their eggs, the foot-long worms mass together, forming a swarm of ravenous larval worms. This swarm travels ceaselessly, consuming anything in its path. The young are drawn to movement, as living, squirming prey tends to be the most nutritious. As they age, they incorporate more minerals into their diet to support carapace growth. Recall Knowledge - Animal (Nature): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Larval Cave Worm Brood Source Pathfinder #195: Heavy is the Crown pg. 85 Perception +14; darkvision, tremorsense (imprecise) 100 feet Languages Skills Athletics +22 Str +6 Dex +3 Con +6 Int -5 Wis -2 Cha -2 --- AC 27 Fort +21 Ref +19 Will +12 HP 220 Immunities precision, swarm mind Resistances bludgeoning 7, piercing 13, slashing 13 Weaknesses area damage 13, splash damage 13 Relentless When a larval cave worm brood gains the paralyzed, slowed, or stunned condition, reduce the duration by half, to a minimum of 1 round. They also recover from penalties to their Speeds and the immobilized condition at the end of their turn. Finally, they ignore non-magical difficult terrain and treat greater difficult terrain like difficult terrain. Shake It Off Reaction Frequency once per day; Trigger The larval cave worm brood would be affected by a condition or adverse effect (such as baleful polymorph ); Effect The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way. --- Speed 30 feet, burrow 30 feet, swim 20 feet Ferocious Gnaw Single Action Each foe in the larval swarm's space takes 6d6 piercing damage (DC 29 basic Reflex save). Pummeling Thrash Single Action (Attack) Requirements The larval swarm's most recent action was Ferocious Gnaw; Effect The larval swarm frantically thrashes in an effort to consume its prey. The larval swarm attempts an Athletics check and compares the result to the Reflex DC of each creature in its space. Critical Success The creature falls prone and take 4d6 bludgeoning damage. Success The creature falls prone and takes 2d6 bludgeoning damage. Early Hatching A single cave worm egg can produce several thousand larval cave worms when it slowly matures over a millennia. However, if a cave worm egg is disturbed or damaged before its natural cycle completes, the egg enters a rapid stage of maturation. Only a few hundred worms survive this process, creating significantly fewer offspring than when allowed to mature slowly. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Rare",
+  "Swarm",
+  "N",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Rare](/Traits.aspx?ID=137), [Swarm](/Traits.aspx?ID=239)",
+ "trait_raw": [
+  "Animal",
+  "Rare",
+  "Swarm"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2706",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "area": 13
+ },
+ "weakness_markdown": "area damage 13, [splash](/Traits.aspx?ID=150) damage 13",
+ "weakness_raw": "area damage 13,  splash  damage 13",
+ "will_save": 12,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": -2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

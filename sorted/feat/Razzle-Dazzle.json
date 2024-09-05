@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,37 +8,49 @@
  ],
  "feat_markdown": "Razzle-Dazzle",
  "frequency": "once per hour",
- "id": "feat-1417",
+ "id": "feat-4429",
+ "legacy_id": "feat-1417",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Razzle-Dazzle](/Feats.aspx?ID=1417) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Gnome\" url=\"/Traits.aspx?ID=80\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 44 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou [blind](/Conditions.aspx?ID=1) or [dazzle](/Conditions.aspx?ID=7) a creature.\n\n</column>\r\n\r\n---\r\n\r\nYou've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights. Extend the duration of the blinded or dazzled condition you give the target by 1 round.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Razzle-Dazzle](/Feats.aspx?ID=4429) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Gnome\" url=\"/Traits.aspx?ID=80\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 52\n\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou blind or dazzle a creature\n\n</column>\r\n\r\n---\r\n\r\nYou've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights. Extend the duration of the [blinded](/Conditions.aspx?ID=1) or [dazzled](/Conditions.aspx?ID=7) condition you give the target by 1 round.",
  "name": "Razzle-Dazzle",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 52",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Gnome\" url=\"/Traits.aspx?ID=80\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 44 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou [blind](/Conditions.aspx?ID=1) or [dazzle](/Conditions.aspx?ID=7) a creature.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Gnome\" url=\"/Traits.aspx?ID=80\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 52\r\n\r\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou blind or dazzle a creature\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 44"
+  "Player Core pg. 52"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 44 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 52",
  "speed": {},
  "summary": "You've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights.",
  "summary_markdown": "You've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Razzle-Dazzle Free Action Source Advanced Player's Guide pg. 44 2.0 Frequency once per hour Trigger You blind or dazzle a creature. --- You've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights. Extend the duration of the blinded or dazzled condition you give the target by 1 round.",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Razzle-Dazzle Free Action Source Player Core pg. 52 Frequency once per hour Trigger You blind or dazzle a creature --- You've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights. Extend the duration of the blinded or dazzled condition you give the target by 1 round.",
  "trait": [
   "Gnome"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Gnome](/Traits.aspx?ID=80)",
  "trait_raw": [
   "Gnome"
  ],
- "trigger": "You  blind  or  dazzle  a creature.",
- "trigger_markdown": "You [blind](/Conditions.aspx?ID=1) or [dazzle](/Conditions.aspx?ID=7) a creature.",
+ "trigger": "You blind or dazzle a creature",
+ "trigger_markdown": "You blind or dazzle a creature",
  "type": "Feat",
- "url": "/Feats.aspx?ID=1417",
+ "url": "/Feats.aspx?ID=4429",
  "weakness": {}
 }

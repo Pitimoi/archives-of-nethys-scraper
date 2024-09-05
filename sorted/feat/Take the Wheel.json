@@ -1,9 +1,9 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Trick Driver"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,29 +12,36 @@
  "feat_markdown": "Take the Wheel",
  "id": "feat-3142",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Take the Wheel](/Feats.aspx?ID=3142) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 55</row>\n\n**Archetype** [Trick Driver](/Archetypes.aspx?ID=112)\n\n**Prerequisites**\r\n[Trick Driver Dedication](/Feats.aspx?ID=3140); Expert in [Driving Lore](/Skills.aspx?ID=8)\n\n**Requirements**\r\nYou are adjacent to a [vehicle's](/equipment/vehicles) point of entry.\r\n\r\n</column>\r\n\r\n---\r\n\r\nDiving into a moving vehicle and seizing the controls is nothing new for you. You [Board](/Actions.aspx?ID=482) and [Take Control](/Actions.aspx?ID=486) of the adjacent vehicle.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Take the Wheel](/Feats.aspx?ID=3142) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 55\n\n**Archetype** [Trick Driver](/Archetypes.aspx?ID=112)\n\n**Prerequisites**\r\n[Trick Driver Dedication](/Feats.aspx?ID=3140); Expert in [Driving Lore](/Skills.aspx?ID=8)\n\n**Requirements**\r\nYou are adjacent to a [vehicle's](Vehicles.aspx) point of entry.\r\n\r\n</column>\r\n\r\n---\r\n\r\nDiving into a moving vehicle and seizing the controls is nothing new for you. You [Board](/Actions.aspx?ID=482) and [Take Control](/Actions.aspx?ID=486) of the adjacent vehicle.",
  "name": "Take the Wheel",
  "pfs": "Standard",
  "prerequisite": "Trick Driver Dedication; Expert in Driving Lore",
  "prerequisite_markdown": "[Trick Driver Dedication](/Feats.aspx?ID=3140); Expert in [Driving Lore](/Skills.aspx?ID=8)",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 55",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "requirement": "You are adjacent to a  vehicle's  point of entry.",
- "requirement_markdown": "You are adjacent to a [vehicle's](/equipment/vehicles) point of entry.",
+ "requirement_markdown": "You are adjacent to a [vehicle's](Vehicles.aspx) point of entry.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 55</row>\n\n**Prerequisites**\r\n[Trick Driver Dedication](/Feats.aspx?ID=3140); Expert in [Driving Lore](/Skills.aspx?ID=8)\n\n**Requirements**\r\nYou are adjacent to a [vehicle's](/equipment/vehicles) point of entry.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDiving into a moving vehicle and seizing the controls is nothing new for you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 55\n\n**Prerequisites**\r\n[Trick Driver Dedication](/Feats.aspx?ID=3140); Expert in [Driving Lore](/Skills.aspx?ID=8)\n\n**Requirements**\r\nYou are adjacent to a [vehicle's](Vehicles.aspx) point of entry.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDiving into a moving vehicle and seizing the controls is nothing new for you.\r\n</summary>",
  "skill": [
   "Lore",
   "Lore"
  ],
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 55"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 55</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 55",
  "speed": {},
  "summary": "Diving into a moving vehicle and seizing the controls is nothing new for you.",
  "summary_markdown": "Diving into a moving vehicle and seizing the controls is nothing new for you.",

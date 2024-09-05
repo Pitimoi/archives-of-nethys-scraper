@@ -1,20 +1,31 @@
 {
  "actions": "Single Action to Three Actions",
- "area": "20-foot emanation",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic"
+ "actions_number": 2,
+ "area": [
+  20
  ],
- "deity_markdown": "",
+ "area_raw": "20-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain": [
   "Healing"
  ],
- "domain_markdown": "[Healing](/Domains.aspx?ID=15)",
+ "domain_markdown": "[Healing](/Domains.aspx?ID=78)",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -25,50 +36,67 @@
   9,
   10
  ],
- "id": "spell-446",
+ "id": "spell-1809",
+ "legacy_id": "spell-446",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Rebuke Death](/Spells.aspx?ID=446)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>\n\n**Domain**\r\n[Healing](/Domains.aspx?ID=15)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row>([somatic](/Rules.aspx?ID=283))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 20-foot emanation\r\n\r\n**Target** 1 living creature per action spent to cast this spell\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou snatch creatures from the jaws of death. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the dying condition, coming back from dying due to this healing doesn't increase its wounded condition.\n\n---\r\n**Heightened (+1)** Increase the healing by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Rebuke Death](/Spells.aspx?ID=1809)\r\n<actions string=\"Single Action to Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 376\n\n**Domain**\r\n[Healing](/Domains.aspx?ID=78)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 20-foot emanation\r\n\r\n**Target** 1 living creature per action spent to Cast this spell\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou snatch creatures from the jaws of death, restoring them without the strain of a typical close call. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the [dying](/Conditions.aspx?ID=11) condition, coming back from dying due to this healing doesn't increase its [wounded](/Conditions.aspx?ID=42) condition.\n\n---\r\n**Heightened (+1)** Increase the healing by 1d6.",
  "name": "Rebuke Death",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 376",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>\n\n**Domain**\r\n[Healing](/Domains.aspx?ID=15)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row>([somatic](/Rules.aspx?ID=283))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 20-foot emanation\r\n\r\n**Target** 1 living creature per action spent to cast this spell\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou snatch creatures from the jaws of death.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 376\n\n**Domain**\r\n[Healing](/Domains.aspx?ID=78)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 20-foot emanation\r\n\r\n**Target** 1 living creature per action spent to Cast this spell\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou snatch creatures from the jaws of death, restoring them without the strain of a typical close call.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 396"
+  "Player Core pg. 376"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 376",
  "speed": {},
- "summary": "You snatch creatures from the jaws of death.",
- "summary_markdown": "You snatch creatures from the jaws of death.",
- "target": "1 living creature per action spent to cast this spell",
- "target_markdown": "1 living creature per action spent to cast this spell",
- "text": " Rebuke Death Source Core Rulebook pg. 396 4.0 Domain Healing Cast Single Action to Three Actions (somatic) Area 20-foot emanation Target 1 living creature per action spent to cast this spell --- You snatch creatures from the jaws of death. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the dying condition, coming back from dying due to this healing doesn't increase its wounded condition. --- Heightened (+1) Increase the healing by 1d6.",
+ "spell_type": "Focus",
+ "summary": "You snatch creatures from the jaws of death, restoring them without the strain of a typical close call.",
+ "summary_markdown": "You snatch creatures from the jaws of death, restoring them without the strain of a typical close call.",
+ "target": "1 living creature per action spent to Cast this spell",
+ "target_markdown": "1 living creature per action spent to Cast this spell",
+ "text": "\nRebuke Death Single Action to Three Actions Source Player Core pg. 376 Domain Healing Area 20-foot emanation Target 1 living creature per action spent to Cast this spell --- You snatch creatures from the jaws of death, restoring them without the strain of a typical close call. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the dying condition, coming back from dying due to this healing doesn't increase its wounded condition. --- Heightened (+1) Increase the healing by 1d6.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
+  "Concentrate",
+  "Focus",
   "Healing",
-  "Necromancy",
-  "Positive",
-  "Uncommon"
+  "Manipulate",
+  "Uncommon",
+  "Vitality",
+  "Positive"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Healing](/Traits.aspx?ID=89), [Necromancy](/Traits.aspx?ID=117), [Positive](/Traits.aspx?ID=128), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
   "Cleric",
+  "Concentrate",
+  "Focus",
   "Healing",
-  "Necromancy",
-  "Positive",
-  "Uncommon"
+  "Manipulate",
+  "Uncommon",
+  "Vitality"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=446",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1809",
  "weakness": {}
 }

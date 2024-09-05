@@ -1,19 +1,24 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Might"
  ],
- "domain_markdown": "[Might](/Domains.aspx?ID=20)",
+ "domain_markdown": "[Might](/Domains.aspx?ID=83)",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -24,46 +29,57 @@
   9,
   10
  ],
- "id": "spell-419",
+ "id": "spell-1819",
+ "legacy_id": "spell-419",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Enduring Might](/Spells.aspx?ID=419)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Might](/Domains.aspx?ID=20)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n**Trigger** An attack or effect would deal damage to you.\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour own might mingles with divine power to protect you. You gain resistance equal to 8 plus your Strength modifier against all damage from the triggering attack or effect.\n\n---\r\n**Heightened (+1)** The resistance increases by 2.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Enduring Might](/Spells.aspx?ID=1819)\r\n<actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Might](/Domains.aspx?ID=83)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** An attack or effect would deal damage to you\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour own might mingles with divine power to protect you from harm. You gain resistance equal to 8 plus your Strength modifier against all damage from the triggering attack or effect.\n\n---\r\n**Heightened (+1)** The resistance increases by 2.",
  "name": "Enduring Might",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 377",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Might](/Domains.aspx?ID=20)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n**Trigger** An attack or effect would deal damage to you.\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour own might mingles with divine power to protect you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Might](/Domains.aspx?ID=83)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** An attack or effect would deal damage to you\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour own might mingles with divine power to protect you from harm.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 392"
+  "Player Core pg. 377"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 377",
  "speed": {},
- "summary": "Your own might mingles with divine power to protect you.",
- "summary_markdown": "Your own might mingles with divine power to protect you.",
- "text": " Enduring Might Source Core Rulebook pg. 392 4.0 Domain Might Cast Reaction somatic Trigger An attack or effect would deal damage to you. --- Your own might mingles with divine power to protect you. You gain resistance equal to 8 plus your Strength modifier against all damage from the triggering attack or effect. --- Heightened (+1) The resistance increases by 2.",
+ "spell_type": "Focus",
+ "summary": "Your own might mingles with divine power to protect you from harm.",
+ "summary_markdown": "Your own might mingles with divine power to protect you from harm.",
+ "text": "\nEnduring Might Reaction Source Player Core pg. 377 Domain Might Trigger An attack or effect would deal damage to you --- Your own might mingles with divine power to protect you from harm. You gain resistance equal to 8 plus your Strength modifier against all damage from the triggering attack or effect. --- Heightened (+1) The resistance increases by 2.",
  "tradition_markdown": "",
  "trait": [
-  "Abjuration",
   "Cleric",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Cleric](/Traits.aspx?ID=26), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
-  "Abjuration",
   "Cleric",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trigger": "An attack or effect would deal damage to you.",
- "trigger_markdown": "An attack or effect would deal damage to you.",
- "type": "Focus",
- "url": "/Spells.aspx?ID=419",
+ "trigger": "An attack or effect would deal damage to you",
+ "trigger_markdown": "An attack or effect would deal damage to you",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1819",
  "weakness": {}
 }

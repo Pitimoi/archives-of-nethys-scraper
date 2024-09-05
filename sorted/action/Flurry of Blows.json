@@ -1,23 +1,30 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
  "exclude_from_search": false,
  "id": "action-9",
- "markdown": "<title level=\"1\" right=\"Action\">[Flurry of Blows](/Actions.aspx?ID=9) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 156 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nMake two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to the Strikes normally. As it has the flourish trait, you can use Flurry of Blows only once per turn.",
+ "markdown": "<title level=\"1\" right=\"Action\">[Flurry of Blows](/Actions.aspx?ID=9) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 156 <sup>4.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nMake two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to the Strikes normally. As it has the flourish trait, you can use Flurry of Blows only once per turn.",
  "name": "Flurry of Blows",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 156",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 156 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 156 <sup>4.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 156"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 156 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 156 <sup>4.0</sup>",
  "speed": {},
  "summary": "Make two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple …",
  "summary_markdown": "Make two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple …",
@@ -25,6 +32,10 @@
  "trait": [
   "Flourish",
   "Monk"
+ ],
+ "trait_group": [
+  "Class",
+  "Weapon"
  ],
  "trait_markdown": "[Flourish](/Traits.aspx?ID=73), [Monk](/Traits.aspx?ID=112)",
  "trait_raw": [

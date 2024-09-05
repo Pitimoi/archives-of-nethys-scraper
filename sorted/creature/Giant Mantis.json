@@ -1,55 +1,99 @@
 {
- "ac": 20,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac": 18,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  12,
+  12
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Deadly Mandibles",
+  "Capturing Grab",
   "Lunging Strike",
   "Sudden Strike"
  ],
- "creature_family": "Mantis, Giant",
- "creature_family_markdown": "[Mantis, Giant](/MonsterFamilies.aspx?ID=72)",
+ "creature_family": "Mantis",
+ "creature_family_markdown": "[Mantis](/MonsterFamilies.aspx?ID=442)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 10,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 40,
  "hp_raw": "40",
- "id": "creature-295",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3094",
+ "image": [
+  "/Images/Monsters/Giant_Mantis.webp"
+ ],
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-295",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Mantis](/Monsters.aspx?ID=295)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese massive cousins of normal praying mantises stand taller than an average human. They stalk through dense forests, striking at meals from the trees.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Giant Mantis](/Monsters.aspx?ID=295)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 233</row>\n\n**Perception** +9; darkvision\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +12, [Stealth](/Skills.aspx?ID=15) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 40\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet, fly 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nleg +12 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d10+5 piercing plus Grab\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmandibles +12,\r\n**Damage** 1d12+5 piercing\n\n**Deadly Mandibles** <actions string=\"Reaction\" />  **Trigger** The giant mantis Grabs a creature with its leg. **Effect** The mantis pulls the creature adjacent to it, then makes a mandibles Strike against the creature.\r\n\r\n**Lunging Strike** <actions string=\"Two Actions\" />  The giant mantis lunges forward, making a leg Strike with an extended reach of 20 feet.\r\n\r\n**Sudden Strike**   On the first round of combat, creatures that haven’t acted are [flat-footed](/Conditions.aspx?ID=16) to the giant mantis.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-72\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Mantis](/Monsters.aspx?ID=3094)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese massive cousins of praying mantises stand taller than an average human.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Giant_Mantis.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Giant Mantis](/Monsters.aspx?ID=3094)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 229\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +10, [Stealth](/Skills.aspx?ID=15) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet, fly 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nleg +12 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d10+5 piercing plus Capturing Grab\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmandibles + 12,\r\n**Damage** 1d12+5 piercing\n\n**Capturing Grab** <actions string=\"Single Action\" />  This ability functions as [Grab](/MonsterAbilities.aspx?ID=45), plus on a success, the mantis can choose to pull the creature adjacent to it, then makes a mandibles Strike against the creature. This extra benefit doesn't apply when the mantis maintains the Grab.\r\n\r\n**Lunging Strike** <actions string=\"Two Actions\" />  The giant mantis lunges forward, making a leg Strike with an extended reach of 20 feet. If it hits, the mantis can use Capturing Grab after the Strike even if the creature is out of reach.\r\n\r\n**Sudden Strike**   On the first round of combat, creatures that haven't acted are [off-guard](/Conditions.aspx?ID=58) to the giant mantis.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-442\" />",
  "name": "Giant Mantis",
  "npc": false,
  "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 229",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 12,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 233</row>\r\n\r\n**Creature Family** [Mantis, Giant](/MonsterFamilies.aspx?ID=72)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 20\r\n\r\n**Fort** +10\r\n\r\n**Ref** +12\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese massive cousins of normal praying mantises stand taller than an average human. They stalk through dense forests, striking at meals from the …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 229\r\n\r\n**Creature Family** [Mantis](/MonsterFamilies.aspx?ID=442)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 18\r\n\r\n**Fort** +10\r\n\r\n**Ref** +12\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese massive cousins of praying mantises stand taller than an average human.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Large"
  ],
- "skill": [
-  "Acrobatics +8",
-  "Athletics +12",
-  "Stealth +12"
+ "size_id": [
+  4
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +12, [Stealth](/Skills.aspx?ID=15) +12",
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +10, [Stealth](/Skills.aspx?ID=15) +12",
+ "skill_mod": {
+  "acrobatics": 8,
+  "athletics": 10,
+  "stealth": 12
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 233"
+  "Monster Core pg. 229"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 233</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 229",
  "speed": {
   "climb": 25,
   "fly": 20,
@@ -60,30 +104,49 @@
  "speed_raw": "25 feet, climb 25 feet, fly 20 feet",
  "spell_markdown": "",
  "stealth": "12",
+ "strike_damage_average": [
+  10,
+  11
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 5,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "These massive cousins of normal praying mantises stand taller than an average human. They stalk through dense forests, striking at meals from the …",
- "summary_markdown": "These massive cousins of normal praying mantises stand taller than an average human. They stalk through dense forests, striking at meals from the …",
- "text": " Giant Mantis These massive cousins of normal praying mantises stand taller than an average human. They stalk through dense forests, striking at meals from the trees. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Giant Mantis Source Bestiary pg. 233 Perception +9; darkvision Languages Skills Acrobatics +8, Athletics +12, Stealth +12 Str +5 Dex +3 Con +3 Int -5 Wis +2 Cha +0 --- AC 20 Fort +10 Ref +12 Will +7 HP 40 --- Speed 25 feet, climb 25 feet, fly 20 feet Melee Single Action leg +12 (Agile, reach 10 feet), Damage 1d10+5 piercing plus Grab Melee Single Action mandibles +12, Damage 1d12+5 piercing Deadly Mandibles Reaction Trigger The giant mantis Grabs a creature with its leg. Effect The mantis pulls the creature adjacent to it, then makes a mandibles Strike against the creature. Lunging Strike Two Actions The giant mantis lunges forward, making a leg Strike with an extended reach of 20 feet. Sudden Strike On the first round of combat, creatures that haven’t acted are flat-footed to the giant mantis. ",
+ "summary": "These massive cousins of praying mantises stand taller than an average human.",
+ "summary_markdown": "These massive cousins of praying mantises stand taller than an average human.",
+ "text": " Giant Mantis These massive cousins of praying mantises stand taller than an average human. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Giant Mantis Source Monster Core pg. 229 Perception +9; darkvision Languages Skills Acrobatics +8, Athletics +10, Stealth +12 Str +5 Dex +3 Con +3 Int -5 Wis +2 Cha +0 --- AC 18 Fort +10 Ref +12 Will +7 HP 40 --- Speed 25 feet, climb 25 feet, fly 20 feet Melee Single Action leg +12 (Agile, reach 10 feet), Damage 1d10+5 piercing plus Capturing Grab Melee Single Action mandibles + 12, Damage 1d12+5 piercing Capturing Grab Single Action This ability functions as Grab, plus on a success, the mantis can choose to pull the creature adjacent to it, then makes a mandibles Strike against the creature. This extra benefit doesn't apply when the mantis maintains the Grab. Lunging Strike Two Actions The giant mantis lunges forward, making a leg Strike with an extended reach of 20 feet. If it hits, the mantis can use Capturing Grab after the Strike even if the creature is out of reach. Sudden Strike On the first round of combat, creatures that haven't acted are off-guard to the giant mantis. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
-  "N",
   "Large"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
  "trait_raw": [
   "Animal"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=295",
+ "url": "/Monsters.aspx?ID=3094",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

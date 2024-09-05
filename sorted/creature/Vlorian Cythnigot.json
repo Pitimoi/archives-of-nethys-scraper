@@ -1,0 +1,197 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "CE",
+ "attack_bonus": [
+  11
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Sickening Display",
+  "Rust Creep"
+ ],
+ "creature_family": "Qlippoth",
+ "creature_family_markdown": "[Qlippoth](/MonsterFamilies.aspx?ID=146)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 45,
+ "hp_raw": "45",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2741",
+ "immunity": [
+  "controlled",
+  "fear"
+ ],
+ "immunity_markdown": "[controlled](/Conditions.aspx?ID=6), [fear](/Traits.aspx?ID=68)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Abyssal",
+  "<%UMR%37%%>telepathy<%END> (touch only)"
+ ],
+ "language_markdown": "[Abyssal](/Languages.aspx?ID=12); [telepathy](/MonsterAbilities.aspx?ID=37) (touch only)",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"\">[Vlorian Cythnigot](/Monsters.aspx?ID=2741)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Vlorian Cythnigot](/Monsters.aspx?ID=2741)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=306\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 30\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12); [telepathy](/MonsterAbilities.aspx?ID=37) (touch only)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +9, [Occultism](/Skills.aspx?ID=11) +9, [Stealth](/Skills.aspx?ID=15) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n</row>\r\n\r\n**Immunities**\r\n[controlled](/Conditions.aspx?ID=6), [fear](/Traits.aspx?ID=68)\r\n\r\n**Resistances**\r\n[mental](/Traits.aspx?ID=106) 3, physical 3 (except [cold iron](/Equipment.aspx?ID=375))\r\n\r\n**Weaknesses**\r\nlawful 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbite +11 ([Agile](/Traits.aspx?ID=170), [Chaotic](/Traits.aspx?ID=25), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d8+4 piercing plus 1d4 chaotic and rust creep\r\n\r\n**Occult Innate Spells** DC 20\r\n- **Cantrips (2nd)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Phantom Pain](/Spells.aspx?ID=220)\r\n- **2nd**\r\n[Detect Alignment](/Spells.aspx?ID=65) (at will; lawful only), [Paranoia](/Spells.aspx?ID=214)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**Sickening Display** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120), [Visual](/Traits.aspx?ID=163)) The cythnigot presents its awful appearance fully, and creatures in a 10-foot emanation must attempt a DC 20 Will save. Once a creature attempts this save, it's temporarily immune to further Sickening Displays for 1 minute. **Critical Success** The creature is unaffected.<br /> **Success** The creature is [flat-footed](/Conditions.aspx?ID=16) until its next turn.<br /> **Failure** The creature is [sickened 1](/Conditions.aspx?ID=34), and is flat-footed for as long as it's sickened.<br /> **Critical Failure** The creature is sickened 2 and is flat-footed for as long as it's sickened.\r\n\r\n**Rust Creep**  ([Disease](/Traits.aspx?ID=46)) A creature bitten by the Vlorian cythnigot becomes afflicted by [rust creep](/Diseases.aspx?ID=25), but with a DC 20 Fortitude save.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-146\" />",
+ "name": "Vlorian Cythnigot",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Rusthenge",
+ "primary_source_raw": "Rusthenge pg. 30",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Rusthenge",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 7,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-10-18",
+ "resistance": {
+  "bludgeoning": 3,
+  "mental": 3,
+  "physical": 3,
+  "piercing": 3,
+  "slashing": 3
+ },
+ "resistance_markdown": "[mental](/Traits.aspx?ID=106) 3, physical 3 (except [cold iron](/Equipment.aspx?ID=375))",
+ "resistance_raw": " mental  3, physical 3 (except  cold iron )",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=306\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 30\r\n\r\n**Creature Family** [Qlippoth](/MonsterFamilies.aspx?ID=146)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +11\r\n\r\n**Ref** +7\r\n\r\n**Will** +9\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Occultism",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +9, [Occultism](/Skills.aspx?ID=11) +9, [Stealth](/Skills.aspx?ID=15) +9",
+ "skill_mod": {
+  "acrobatics": 9,
+  "athletics": 9,
+  "occultism": 9,
+  "stealth": 9
+ },
+ "source": [
+  "Rusthenge"
+ ],
+ "source_raw": [
+  "Rusthenge pg. 30"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Rusthenge"
+ ],
+ "source_markdown": "[Rusthenge](/Sources.aspx?ID=215) pg. 30",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell": [
+  "Read Omens",
+  "Detect Alignment",
+  "Paranoia",
+  "Phantom Pain",
+  "Daze",
+  "Detect Magic"
+ ],
+ "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Detect Alignment](/Spells.aspx?ID=65), [Detect Magic](/Spells.aspx?ID=66), [Paranoia](/Spells.aspx?ID=214), [Phantom Pain](/Spells.aspx?ID=220), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_dc": [
+  20
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Rusthenge",
+ "stealth": "9",
+ "strike_damage_average": [
+  11
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "text": " Vlorian Cythnigot Recall Knowledge - Fiend (Religion): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Vlorian Cythnigot Source Rusthenge pg. 30 Perception +9; darkvision Languages Abyssal; telepathy (touch only) Skills Acrobatics +9, Athletics +9, Occultism +9, Stealth +9 Str +2 Dex +3 Con +4 Int +2 Wis +2 Cha +1 --- AC 19 Fort +11 Ref +7 Will +9 HP 45 Immunities controlled, fear Resistances mental 3, physical 3 (except cold iron) Weaknesses lawful 3 --- Speed 30 feet Melee Single Action bite +11 (Agile, Chaotic, Magical), Damage 1d8+4 piercing plus 1d4 chaotic and rust creep Occult Innate Spells DC 20 - Cantrips (2nd) Daze, Detect Magic - 1st Phantom Pain - 2nd Detect Alignment (at will; lawful only), Paranoia - 4th Read Omens Sickening Display Single Action (Concentrate, Emotion, Enchantment, Fear, Mental, Occult, Visual) The cythnigot presents its awful appearance fully, and creatures in a 10-foot emanation must attempt a DC 20 Will save. Once a creature attempts this save, it's temporarily immune to further Sickening Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is flat-footed until its next turn. Failure The creature is sickened 1, and is flat-footed for as long as it's sickened. Critical Failure The creature is sickened 2 and is flat-footed for as long as it's sickened. Rust Creep (Disease) A creature bitten by the Vlorian cythnigot becomes afflicted by rust creep, but with a DC 20 Fortitude save. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Fiend",
+  "Qlippoth",
+  "Rare",
+  "CE",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fiend](/Traits.aspx?ID=70), [Qlippoth](/Traits.aspx?ID=306), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Fiend",
+  "Qlippoth",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2741",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "lawful": 3
+ },
+ "weakness_markdown": "lawful 3",
+ "weakness_raw": "lawful 3",
+ "will_save": 9,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,56 +1,96 @@
 {
  "ac": 15,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  7
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": -3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Filth Fever"
+  "Putrid Plague"
  ],
  "creature_family": "Rat",
- "creature_family_markdown": "[Rat](/MonsterFamilies.aspx?ID=86)",
+ "creature_family_markdown": "[Rat](/MonsterFamilies.aspx?ID=462)",
  "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 6,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 8,
  "hp_raw": "8",
- "id": "creature-346",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3162",
  "image": [
-  "/Images/Monsters/Rat_GiantRat.png"
+  "/Images/Monsters/Giant_Rat.webp"
  ],
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-346",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Rat](/Monsters.aspx?ID=346)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGiant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot flt in the nooks where mundane rats typically hide, they are much easier to locate and exterminate. They mostly live in sewers where they can scavenge from the streets above, but some families of giant rats live in more remote locations, such as dank caves or forests and hills. Rats are incredibly adept survivors and can be found nearly anywhere in the world, though they tend to favor temperate or warm climates as opposed to cold regions.\n\n Although its bite alone is not lethal except to the very young or very old, the giant rat carries the filth fever common to rodents around the world—a pestilence more than capable of ravaging rural communities.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Rat_GiantRat.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Giant Rat](/Monsters.aspx?ID=346)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 276</row>\n\n**Perception** +5; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Athletics](/Skills.aspx?ID=3) +2, [Stealth](/Skills.aspx?ID=15) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** -3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n**HP** 8\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 10 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+1 piercing plus filth fever\n\n**Filth Fever**  ([Disease](/Traits.aspx?ID=46)) The [sickened](/Conditions.aspx?ID=34) and [unconscious](/Conditions.aspx?ID=38) conditions from filth fever don’t improve on their own until the disease is cured. **Saving Throw** DC 14 Fortitude; **Stage 1** carrier with no ill effect (1d4 hours), **Stage 2** [sickened 1](/Conditions.aspx?ID=34) (1 day), **Stage 3** [sickened 1](/Conditions.aspx?ID=34) and [slowed 1](/Conditions.aspx?ID=35) (1 day), **Stage 4** [unconscious](/Conditions.aspx?ID=38) (1 day), **Stage 5** dead\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-86\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Rat](/Monsters.aspx?ID=3162)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGiant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot fit in the nooks where mundane rats typically hide, they are much easier to locate and exterminate. They mostly live in sewers where they can scavenge from the streets above, but some families of giant rats live in more remote locations, such as dank caves, forests or hills. Rats are incredibly adept survivors and can be found nearly anywhere in the world, though they tend to favor temperate or warm climates as opposed to cold regions.\n\n Although its bite alone is not lethal except to the very young or very old, the giant rat carries the putrid plague common to rodents around the world—a pestilence more than capable of ravaging rural communities.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Giant_Rat.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Giant Rat](/Monsters.aspx?ID=3162)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 288\n\n**Perception** +5; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Athletics](/Skills.aspx?ID=3) +2, [Stealth](/Skills.aspx?ID=15) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** -3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 10 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+1 piercing plus putrid plague\n\n**Putrid Plague**  ([Disease](/Traits.aspx?ID=46)) The [sickened](/Conditions.aspx?ID=91) and [unconscious](/Conditions.aspx?ID=95) conditions from putrid plague can't end or be reduced until the disease is cured; **Saving Throw** DC 14 Fortitude; **Stage 1** carrier with no ill effect (1d4 hours), **Stage 2** [sickened 1](/Conditions.aspx?ID=91) (1 day), **Stage 3** sickened 1 and [slowed 1](/Conditions.aspx?ID=92) (1 day), **Stage 4** [unconscious](/Conditions.aspx?ID=95) (1 day), **Stage 5** dead\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-462\" />",
  "name": "Giant Rat",
  "npc": false,
  "perception": 5,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 288",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 276</row>\r\n\r\n**Creature Family** [Rat](/MonsterFamilies.aspx?ID=86)\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 15\r\n\r\n**Fort** +6\r\n\r\n**Ref** +7\r\n\r\n**Will** +3\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGiant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot flt in the nooks where …\r\n</summary>",
- "sense": "low-light vision, scent (imprecise) 30 feet",
- "sense_markdown": "low-light vision, scent (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 288\r\n\r\n**Creature Family** [Rat](/MonsterFamilies.aspx?ID=462)\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 15\r\n\r\n**Fort** +6\r\n\r\n**Ref** +7\r\n\r\n**Will** +3\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGiant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot fit in the nooks where …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Acrobatics +5",
-  "Athletics +2",
-  "Stealth +5"
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +5, [Athletics](/Skills.aspx?ID=3) +2, [Stealth](/Skills.aspx?ID=15) +5",
+ "skill_mod": {
+  "acrobatics": 5,
+  "athletics": 2,
+  "stealth": 5
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 276"
+  "Monster Core pg. 288"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 276</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 288",
  "speed": {
   "climb": 10,
   "land": 30,
@@ -60,30 +100,48 @@
  "speed_raw": "30 feet, climb 10 feet",
  "spell_markdown": "",
  "stealth": "5",
+ "strike_damage_average": [
+  4
+ ],
+ "strike_damage_scale": [
+  "Extreme"
+ ],
+ "strike_damage_scale_number": [
+  5
+ ],
  "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Giant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot flt in the nooks where …",
- "summary_markdown": "Giant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot flt in the nooks where …",
- "text": " Giant Rat Giant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot flt in the nooks where mundane rats typically hide, they are much easier to locate and exterminate. They mostly live in sewers where they can scavenge from the streets above, but some families of giant rats live in more remote locations, such as dank caves or forests and hills. Rats are incredibly adept survivors and can be found nearly anywhere in the world, though they tend to favor temperate or warm climates as opposed to cold regions. Although its bite alone is not lethal except to the very young or very old, the giant rat carries the filth fever common to rodents around the world—a pestilence more than capable of ravaging rural communities. Recall Knowledge - Animal (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Giant Rat Source Bestiary pg. 276 Perception +5; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +5, Athletics +2, Stealth +5 Str +1 Dex +3 Con +2 Int -4 Wis +1 Cha -3 --- AC 15 Fort +6 Ref +7 Will +3 HP 8 --- Speed 30 feet, climb 10 feet Melee Single Action jaws +7 (Agile, Finesse), Damage 1d6+1 piercing plus filth fever Filth Fever (Disease) The sickened and unconscious conditions from filth fever don’t improve on their own until the disease is cured. Saving Throw DC 14 Fortitude; Stage 1 carrier with no ill effect (1d4 hours), Stage 2 sickened 1 (1 day), Stage 3 sickened 1 and slowed 1 (1 day), Stage 4 unconscious (1 day), Stage 5 dead ",
+ "summary": "Giant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot fit in the nooks where …",
+ "summary_markdown": "Giant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot fit in the nooks where …",
+ "text": " Giant Rat Giant rats are enormous versions of the common vermin. They are typically found in abundant numbers, but since they cannot fit in the nooks where mundane rats typically hide, they are much easier to locate and exterminate. They mostly live in sewers where they can scavenge from the streets above, but some families of giant rats live in more remote locations, such as dank caves, forests or hills. Rats are incredibly adept survivors and can be found nearly anywhere in the world, though they tend to favor temperate or warm climates as opposed to cold regions. Although its bite alone is not lethal except to the very young or very old, the giant rat carries the putrid plague common to rodents around the world—a pestilence more than capable of ravaging rural communities. Recall Knowledge - Animal (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Giant Rat Source Monster Core pg. 288 Perception +5; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +5, Athletics +2, Stealth +5 Str +1 Dex +3 Con +2 Int -4 Wis +1 Cha -3 --- AC 15 Fort +6 Ref +7 Will +3 HP 8 --- Speed 30 feet, climb 10 feet Melee Single Action jaws +7 (Agile, Finesse), Damage 1d6+1 piercing plus putrid plague Putrid Plague (Disease) The sickened and unconscious conditions from putrid plague can't end or be reduced until the disease is cured; Saving Throw DC 14 Fortitude; Stage 1 carrier with no ill effect (1d4 hours), Stage 2 sickened 1 (1 day), Stage 3 sickened 1 and slowed 1 (1 day), Stage 4 unconscious (1 day), Stage 5 dead ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
-  "N",
   "Small"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
  "trait_raw": [
   "Animal"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=346",
+ "url": "/Monsters.aspx?ID=3162",
  "vision": "Low-light vision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 3,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

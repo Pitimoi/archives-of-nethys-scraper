@@ -2,40 +2,47 @@
  "archetype": [
   "Cleric"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Expert Cleric Spellcasting"
  ],
  "feat_markdown": "Expert Cleric Spellcasting",
- "id": "feat-699",
+ "id": "feat-5071",
+ "legacy_id": "feat-699",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Expert Cleric Spellcasting](/Feats.aspx?ID=699) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 224 <sup>4.0</sup></row>\n\n**Archetype** [Cleric](/Archetypes.aspx?ID=5)\n\n**Prerequisites**\r\n[Basic Cleric Spellcasting](/Feats.aspx?ID=695)\n\n</column>\r\n\r\n---\r\n\r\nYou gain the expert spellcasting benefits.\n\n<title level=\"2\">Expert Cleric Spellcasting leads to...</title>\r\n[Master Cleric Spellcasting](/Feats.aspx?ID=700)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Expert Cleric Spellcasting](/Feats.aspx?ID=5071) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 217\n\n**Archetype** [Cleric](/Archetypes.aspx?ID=212)\n\n**Prerequisites**\r\n[Basic Cleric Spellcasting](/Feats.aspx?ID=5067); Master in [Religion](/Skills.aspx?ID=13)\n\n</column>\r\n\r\n---\r\n\r\nYou gain the expert [spellcasting benefits](/Rules.aspx?ID=2132).\n\n<title level=\"2\">Expert Cleric Spellcasting leads to...</title>\r\n[Master Cleric Spellcasting](/Feats.aspx?ID=5072)",
  "name": "Expert Cleric Spellcasting",
  "pfs": "Standard",
- "prerequisite": "Basic Cleric Spellcasting",
- "prerequisite_markdown": "[Basic Cleric Spellcasting](/Feats.aspx?ID=695)",
+ "prerequisite": "Basic Cleric Spellcasting; Master in Religion",
+ "prerequisite_markdown": "[Basic Cleric Spellcasting](/Feats.aspx?ID=5067); Master in [Religion](/Skills.aspx?ID=13)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 217",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 224 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[Basic Cleric Spellcasting](/Feats.aspx?ID=695)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain the expert spellcasting benefits for cleric spellcasting.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 217\n\n**Prerequisites**\r\n[Basic Cleric Spellcasting](/Feats.aspx?ID=5067); Master in [Religion](/Skills.aspx?ID=13)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain the expert spellcasting benefits.\r\n</summary>",
  "skill": [
   "Religion",
   "Religion"
  ],
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 224"
+  "Player Core pg. 217"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 224 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 217",
  "speed": {},
- "summary": "You gain the expert spellcasting benefits for cleric spellcasting.",
- "summary_markdown": "You gain the expert spellcasting benefits for cleric spellcasting.",
- "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Expert Cleric Spellcasting Source Core Rulebook pg. 224 4.0 Archetype Cleric Prerequisites Basic Cleric Spellcasting --- You gain the expert spellcasting benefits. Expert Cleric Spellcasting leads to... Master Cleric Spellcasting",
+ "summary": "You gain the expert spellcasting benefits.",
+ "summary_markdown": "You gain the expert spellcasting benefits.",
+ "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Expert Cleric Spellcasting Source Player Core pg. 217 Archetype Cleric Prerequisites Basic Cleric Spellcasting; Master in Religion --- You gain the expert spellcasting benefits. Expert Cleric Spellcasting leads to... Master Cleric Spellcasting",
  "trait": [
   "Archetype"
  ],
@@ -44,6 +51,6 @@
   "Archetype"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=699",
+ "url": "/Feats.aspx?ID=5071",
  "weakness": {}
 }

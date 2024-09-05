@@ -3,7 +3,6 @@
   "Greataxe"
  ],
  "base_item_markdown": "[Greataxe](/Weapons.aspx?ID=21)",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -11,33 +10,47 @@
  "id": "equipment-490",
  "item_category": "Artifacts",
  "level": 25,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 25\"\r\n    pfs=\"\"\r\n>\r\n[Blackaxe](/Equipment.aspx?ID=490)\r\n</title>\n\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Cursed\" url=\"/Traits.aspx?ID=274\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 313</row>\n\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Greataxe](/Weapons.aspx?ID=21)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis potent weapon used by [Treerazer](/Monsters.aspx?ID=394) is a _+4 [greater corrosive](/Equipment.aspx?ID=292) [major striking](/Equipment.aspx?ID=280) obsidian [greataxe](/Weapons.aspx?ID=21)_ that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of [adamantine](/Equipment.aspx?ID=374).\n\n<document level=\"2\" id=\"action-294\" />\n\n<document level=\"2\" id=\"action-710\" />\n\n<document level=\"2\" id=\"action-711\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 25\"\r\n    pfs=\"\"\r\n>\r\n[Blackaxe](/Equipment.aspx?ID=490)\r\n</title>\n\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Cursed\" url=\"/Traits.aspx?ID=274\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 313\n\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Greataxe](/Weapons.aspx?ID=21)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis potent weapon used by [Treerazer](/Monsters.aspx?ID=394) is a _+4 [greater corrosive](/Equipment.aspx?ID=292) [major striking](/Equipment.aspx?ID=280) obsidian [greataxe](/Weapons.aspx?ID=21)_ that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of [adamantine](/Equipment.aspx?ID=374).\n\n**Activate** <actions string=\"Single Action\" /> ([divination](/Traits.aspx?ID=47), [scrying](/Traits.aspx?ID=141))   **Requirements** You aren't wielding _Blackaxe_ and you are its true owner. ; **Effect** You sense the world around _Blackaxe_ as though you were in its location and can use any of your innate spells through the link as if it were the source of the spell. If another creature is wielding _Blackaxe_, it must succeed at a DC 50 Will save or be [slowed 2](/Conditions.aspx?ID=35) until it relinquishes the weapon.\n\n**Activate** <actions string=\"Free Action\" /> command ([conjuration](/Traits.aspx?ID=33), [teleportation](/Traits.aspx?ID=156))   **Requirements** You aren't wielding _Blackaxe_ and you are its true owner.; **Effect** _Blackaxe_ appears in your hands, teleporting instantly from its prior location.\n\n**Activate** <actions string=\"Single Action\" /> command ([death](/Traits.aspx?ID=40), [healing](/Traits.aspx?ID=89), [necromancy](/Traits.aspx?ID=117)) **Frequency** once per minute;   **Effect** Make a Strike against a living tree with _Blackaxe_. If it hits, the tree withers to ash and you heal 250 Hit Points and gain the benefit of [_restoration_](/Spells.aspx?ID=258) (6th) and [_restore senses_](/Spells.aspx?ID=259).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Blackaxe",
+ "primary_source": "Bestiary",
+ "primary_source_raw": "Bestiary pg. 313",
+ "primary_source_category": "Rulebooks",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2019-08-01",
+ "remaster_id": "equipment-3176",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Cursed\" url=\"/Traits.aspx?ID=274\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 313</row>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis potent weapon used by  Treerazer  is a  +4  greater corrosive   major striking  obsidian  greataxe   that grants a +4 item bonus to attack …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Cursed\" url=\"/Traits.aspx?ID=274\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 313\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Greataxe](/Weapons.aspx?ID=21)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis potent weapon used by  Treerazer  is a  +4  greater corrosive   major striking  obsidian  greataxe   that grants a +4 item bonus to attack …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Bestiary"
  ],
  "source_raw": [
   "Bestiary pg. 313"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 313</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary](/Sources.aspx?ID=2) pg. 313",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This potent weapon used by  Treerazer  is a  +4  greater corrosive   major striking  obsidian  greataxe   that grants a +4 item bonus to attack …",
  "summary_markdown": "This potent weapon used by  Treerazer  is a  +4  greater corrosive   major striking  obsidian  greataxe   that grants a +4 item bonus to attack …",
- "text": "<title level=\"1\" right=\"Item 25\" pfs=\"\" > Blackaxe Source Bestiary pg. 313 Usage held in 2 hands Bulk 2 Base Weapon Greataxe --- This potent weapon used by Treerazer is a +4 greater corrosive major striking obsidian greataxe that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of adamantine.\n",
+ "text": "<title level=\"1\" right=\"Item 25\" pfs=\"\" > Blackaxe Source Bestiary pg. 313 Usage held in 2 hands Bulk 2 Base Weapon Greataxe --- This potent weapon used by Treerazer is a +4 greater corrosive major striking obsidian greataxe that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of adamantine. Activate Single Action (divination, scrying) Requirements You aren't wielding Blackaxe and you are its true owner. ; Effect You sense the world around Blackaxe as though you were in its location and can use any of your innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe , it must succeed at a DC 50 Will save or be slowed 2 until it relinquishes the weapon. Activate Free Action command (conjuration, teleportation) Requirements You aren't wielding Blackaxe and you are its true owner.; Effect Blackaxe appears in your hands, teleporting instantly from its prior location. Activate Single Action command (death, healing, necromancy) Frequency once per minute; Effect Make a Strike against a living tree with Blackaxe . If it hits, the tree withers to ash and you heal 250 Hit Points and gain the benefit of restoration (6th) and restore senses .\n",
  "trait": [
   "Artifact",
   "Cursed",
   "Evocation",
   "Primal",
   "Unique"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Tradition",
+  "Rarity"
  ],
  "trait_markdown": "[Artifact](/Traits.aspx?ID=253), [Cursed](/Traits.aspx?ID=274), [Evocation](/Traits.aspx?ID=65), [Primal](/Traits.aspx?ID=134), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [

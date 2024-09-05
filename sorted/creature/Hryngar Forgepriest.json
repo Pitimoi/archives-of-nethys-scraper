@@ -1,0 +1,209 @@
+{
+ "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "LE",
+ "attack_bonus": [
+  12,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Toil is Strength",
+  "Light Blindness",
+  "Hammerfall"
+ ],
+ "creature_family": "Duergar",
+ "creature_family_markdown": "[Duergar](/MonsterFamilies.aspx?ID=38)",
+ "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 99,
+ "hp_raw": "99",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2699",
+ "image": [
+  "/Images/Monsters/Hryngar_Forgepriest.png"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chain Mail",
+  "+1 striking returning light hammer"
+ ],
+ "language": [
+  "Common",
+  "Dwarven",
+  "Undercommon"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hryngar Forgepriest](/Monsters.aspx?ID=2699)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAbandoned by their cousins, the surface dwarves, hryngars were saved by [Droskar](/Deities.aspx?ID=28), who taught them to work hard and give no quarter. Now, that hardness is the sword and shield by which the hryngar rule their kingdoms. The forgepriests proselytize Droskar's teachings and punish heretics for any defiance.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hryngar_Forgepriest.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Hryngar Forgepriest](/Monsters.aspx?ID=2699)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 87\n\n**Perception** +13; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Religion](/Skills.aspx?ID=13) +15, [Society](/Skills.aspx?ID=14) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +1\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +5\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n[Chain Mail](/Armor.aspx?ID=9), _+1 [striking](/Equipment.aspx?ID=280) [returning](/Equipment.aspx?ID=301) [light hammer](/Weapons.aspx?ID=29)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 99\n\n</row>\n\n**Resistances**\r\nfire 5\n\n**Toil is Strength** <actions string=\"Reaction\" /> ([misfortune](/Traits.aspx?ID=110)) **Trigger** A creature within 30 feet would succeed at a save against a spell or ability that causes the [immobilized](/Conditions.aspx?ID=24) condition; **Effect** The target must reroll the triggering saving throw and use the worse result.<br />**Light Blindness** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_light hammer_ +14 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+5 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_light hammer_ +12 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 2d8+5 bludgeoning\r\n\r\n**Divine Prepared Spells** DC 21\r\n- **Cantrips (3rd)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246), [Shield](/Spells.aspx?ID=280)\r\n- **1st**\r\n[Command](/Spells.aspx?ID=45), [Detect Poison](/Spells.aspx?ID=67), [Magic Weapon](/Spells.aspx?ID=182)\r\n- **2nd**\r\n[Charitable Urge](/Spells.aspx?ID=677), [Mending](/Spells.aspx?ID=189), [See Invisibility](/Spells.aspx?ID=271)\r\n- **3rd**\r\n[Agonizing Despair](/Spells.aspx?ID=665), [Crisis of Faith](/Spells.aspx?ID=55), [Fear](/Spells.aspx?ID=110)\r\n\r\n**Occult Innate Spells** DC 21\r\n- **Cantrips (3rd)**\r\n[Sigil](/Spells.aspx?ID=286)\r\n- **2nd**\r\n[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214)\r\n\r\n**Hammerfall** <actions string=\"Two Actions\" />  The forgepriest tosses their hammer up to 30 feet. Where the hammer lands, molten metal erupts from the ground in a 10 foot radius dealing 6d8 fire damage to creatures in the area (DC 21 [basic](/Rules.aspx?ID=329) Reflex save). Creatures who critically fail also take 1d8 [persistent fire damage](/Conditions.aspx?ID=29). The forgepriest can't use Hammerfall again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-38\" />",
+ "name": "Hryngar Forgepriest",
+ "npc": false,
+ "perception": 13,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 87",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 11,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-30",
+ "resistance": {
+  "fire": 5
+ },
+ "resistance_markdown": "fire 5",
+ "resistance_raw": "fire 5",
+ "search_markdown": "<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 87\r\n\r\n**Creature Family** [Duergar](/MonsterFamilies.aspx?ID=38)\r\n\r\n<row gap=\"medium\">\r\n**HP** 99\r\n\r\n**AC** 23\r\n\r\n**Fort** +14\r\n\r\n**Ref** +11\r\n\r\n**Will** +15\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAbandoned by their cousins, the surface dwarves, hryngars were saved by  Droskar , who taught them to work hard and give no quarter. Now, that …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Religion",
+  "Society"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Religion](/Skills.aspx?ID=13) +15, [Society](/Skills.aspx?ID=14) +11",
+ "skill_mod": {
+  "athletics": 11,
+  "intimidation": 13,
+  "religion": 15,
+  "society": 11
+ },
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 87"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 87",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell": [
+  "Agonizing Despair",
+  "Crisis of Faith",
+  "Fear",
+  "Charitable Urge",
+  "Mending",
+  "See Invisibility",
+  "Command",
+  "Detect Poison",
+  "Magic Weapon",
+  "Daze",
+  "Detect Magic",
+  "Prestidigitation",
+  "Read Aura",
+  "Shield",
+  "Blood Vendetta",
+  "Paranoia",
+  "Sigil"
+ ],
+ "spell_markdown": "[Agonizing Despair](/Spells.aspx?ID=665), [Blood Vendetta](/Spells.aspx?ID=675), [Charitable Urge](/Spells.aspx?ID=677), [Command](/Spells.aspx?ID=45), [Crisis of Faith](/Spells.aspx?ID=55), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Detect Poison](/Spells.aspx?ID=67), [Fear](/Spells.aspx?ID=110), [Magic Weapon](/Spells.aspx?ID=182), [Mending](/Spells.aspx?ID=189), [Paranoia](/Spells.aspx?ID=214), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246), [See Invisibility](/Spells.aspx?ID=271), [Shield](/Spells.aspx?ID=280), [Sigil](/Spells.aspx?ID=286)",
+ "spell_dc": [
+  21,
+  21
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  14,
+  14
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Abandoned by their cousins, the surface dwarves, hryngars were saved by  Droskar , who taught them to work hard and give no quarter. Now, that …",
+ "summary_markdown": "Abandoned by their cousins, the surface dwarves, hryngars were saved by  Droskar , who taught them to work hard and give no quarter. Now, that …",
+ "text": " Hryngar Forgepriest Abandoned by their cousins, the surface dwarves, hryngars were saved by Droskar, who taught them to work hard and give no quarter. Now, that hardness is the sword and shield by which the hryngar rule their kingdoms. The forgepriests proselytize Droskar's teachings and punish heretics for any defiance. Recall Knowledge - Humanoid (Society): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Hryngar Forgepriest Source Pathfinder #194: Cult of the Cave Worm pg. 87 Perception +13; darkvision Languages Common, Dwarven, Undercommon Skills Athletics +11, Intimidation +13, Religion +15, Society +11 Str +3 Dex +1 Con +4 Int +1 Wis +5 Cha +3 Items Chain Mail, +1 striking returning light hammer --- AC 23 Fort +14 Ref +11 Will +15 HP 99 Resistances fire 5 Toil is Strength Reaction (misfortune) Trigger A creature within 30 feet would succeed at a save against a spell or ability that causes the immobilized condition; Effect The target must reroll the triggering saving throw and use the worse result. Light Blindness --- Speed 20 feet Melee Single Action light hammer +14 (Agile, Magical), Damage 2d8+5 bludgeoning Ranged Single Action light hammer +12 (Agile, Magical, thrown 20 feet), Damage 2d8+5 bludgeoning Divine Prepared Spells DC 21 - Cantrips (3rd) Daze, Detect Magic, Prestidigitation, Read Aura, Shield - 1st Command, Detect Poison, Magic Weapon - 2nd Charitable Urge, Mending, See Invisibility - 3rd Agonizing Despair, Crisis of Faith, Fear Occult Innate Spells DC 21 - Cantrips (3rd) Sigil - 2nd Blood Vendetta, Paranoia Hammerfall Two Actions The forgepriest tosses their hammer up to 30 feet. Where the hammer lands, molten metal erupts from the ground in a 10 foot radius dealing 6d8 fire damage to creatures in the area (DC 21 basic Reflex save). Creatures who critically fail also take 1d8 persistent fire damage. The forgepriest can't use Hammerfall again for 1d4 rounds. ",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "LE",
+  "Medium",
+  "Hryngar"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Duergar](/Traits.aspx?ID=53), [Dwarf](/Traits.aspx?ID=54), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_raw": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2699",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 15,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 5,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
+}

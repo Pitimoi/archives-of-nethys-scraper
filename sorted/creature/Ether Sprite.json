@@ -1,0 +1,165 @@
+{
+ "ac": 14,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "N",
+ "attack_bonus": [
+  6,
+  6
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Natural Glow",
+  "Hilarious Insult"
+ ],
+ "creature_family": "Sprite",
+ "creature_family_markdown": "[Sprite](/MonsterFamilies.aspx?ID=95)",
+ "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 1,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
+ "hp": 8,
+ "hp_raw": "8",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2701",
+ "image": [
+  "/Images/Monsters/Sprite_Ether.png"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Rapier"
+ ],
+ "language_markdown": "",
+ "level": -1,
+ "markdown": "<title level=\"1\" pfs=\"\">[Ether Sprite](/Monsters.aspx?ID=2701)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sprite_Ether.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Ether Sprite](/Monsters.aspx?ID=2701)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 89\n\n**Perception** +5\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +4, [Diplomacy](/Skills.aspx?ID=6) +4, [Performance](/Skills.aspx?ID=12) +6, [Stealth](/Skills.aspx?ID=15) +4, [Thievery](/Skills.aspx?ID=17) +4\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**Natural Glow** ([light](/Traits.aspx?ID=100), [primal](/Traits.aspx?ID=134)) An ether sprite sheds light as a [torch](/Equipment.aspx?ID=60). The sprite can suppress this glow by spending a single action with the [concentrate](/Traits.aspx?ID=32) trait.\r\n\r\n**Items**\r\n[Rapier](/Weapons.aspx?ID=36)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +1 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 1\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 10 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nrapier +6 ([deadly d8](/Traits.aspx?ID=174), [Disarm](/Traits.aspx?ID=175), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d6–2 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nluminous spark +6 ([Fire](/Traits.aspx?ID=72), [Light](/Traits.aspx?ID=100), [Magical](/Traits.aspx?ID=103), [range 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d4 fire\n\n**Hilarious Insult** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106)) The ether sprite taunts a creature within 30 feet and rolls [Performance](/Skills.aspx?ID=12) against the target's Will DC. On a success, the target is [confused](/Conditions.aspx?ID=5) until the end of their next turn.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Sprite Collections</title>\r\n\r\nEther sprites have a reputation for being thieves. In truth, they're generally curious about the world and simply have a tendency to walk away with objects that don't belong to them, not understanding the concept of ownership. As a result, ether sprites tend to have small interesting objects in their possession, such as talismans or gemstones.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-95\" />",
+ "name": "Ether Sprite",
+ "npc": false,
+ "perception": 5,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 89",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 6,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-30",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 89\r\n\r\n**Creature Family** [Sprite](/MonsterFamilies.aspx?ID=95)\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 14\r\n\r\n**Fort** +1\r\n\r\n**Ref** +6\r\n\r\n**Will** +3\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy.\r\n</summary>",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Diplomacy",
+  "Performance",
+  "Stealth",
+  "Thievery"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +4, [Diplomacy](/Skills.aspx?ID=6) +4, [Performance](/Skills.aspx?ID=12) +6, [Stealth](/Skills.aspx?ID=15) +4, [Thievery](/Skills.aspx?ID=17) +4",
+ "skill_mod": {
+  "acrobatics": 4,
+  "diplomacy": 4,
+  "performance": 6,
+  "stealth": 4,
+  "thievery": 4
+ },
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 89"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 89",
+ "speed": {
+  "fly": 40,
+  "land": 10,
+  "max": 40
+ },
+ "speed_markdown": "10 feet, fly 40 feet",
+ "speed_raw": "10 feet, fly 40 feet",
+ "spell_markdown": "",
+ "stealth": "4",
+ "strike_damage_average": [
+  2,
+  3
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": -2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy.",
+ "summary_markdown": "The excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy.",
+ "text": " Ether Sprite The excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy. Recall Knowledge - Fey (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Ether Sprite Source Pathfinder #194: Cult of the Cave Worm pg. 89 Perception +5 Languages Skills Acrobatics +4, Diplomacy +4, Performance +6, Stealth +4, Thievery +4 Str -2 Dex +3 Con +0 Int +0 Wis +2 Cha +3 Natural Glow (light, primal) An ether sprite sheds light as a torch. The sprite can suppress this glow by spending a single action with the concentrate trait. Items Rapier --- AC 14 Fort +1 Ref +6 Will +3 HP 8 Weaknesses cold iron 1 --- Speed 10 feet, fly 40 feet Melee Single Action rapier +6 (deadly d8, Disarm, Finesse, Magical), Damage 1d6–2 piercing Ranged Single Action luminous spark +6 (Fire, Light, Magical, range 20 feet), Damage 1d4 fire Hilarious Insult Single Action (Auditory, Emotion, Linguistic, Mental) The ether sprite taunts a creature within 30 feet and rolls Performance against the target's Will DC. On a success, the target is confused until the end of their next turn. Sprite Collections Ether sprites have a reputation for being thieves. In truth, they're generally curious about the world and simply have a tendency to walk away with objects that don't belong to them, not understanding the concept of ownership. As a result, ether sprites tend to have small interesting objects in their possession, such as talismans or gemstones. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Fey",
+  "N",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=69)",
+ "trait_raw": [
+  "Fey"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2701",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "cold_iron": 1
+ },
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 1",
+ "weakness_raw": " cold iron  1",
+ "will_save": 3,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

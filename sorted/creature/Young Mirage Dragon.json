@@ -1,0 +1,204 @@
+{
+ "ac": 27,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  18,
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 6,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Camouflage",
+  "Scintillating Defense",
+  "Draconic Frenzy",
+  "Draconic Momentum",
+  "Hallucinatory Breath",
+  "Lunging Bite",
+  "Sneak Attack"
+ ],
+ "creature_family": "Dragon, Mirage",
+ "creature_family_markdown": "[Dragon, Mirage](/MonsterFamilies.aspx?ID=402)",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 16,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 155,
+ "hp_raw": "155",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2950",
+ "immunity": [
+  "fascinated",
+  "paralyzed",
+  "sleep"
+ ],
+ "immunity_markdown": "[fascinated](/Conditions.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
+ "intelligence": 4,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "language": [
+  "Common",
+  "Draconic"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Young Mirage Dragon](/Monsters.aspx?ID=2950)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMirage dragons are masters of illusion magic and use their powers to deceive others and further their own agendas. In addition to their magical prowess, mirage dragons possess a number of additional features to help them on hunts or mislead attackers, such as their camouflaging scales and a hallucinatory breath that can confound multiple foes at once. Mirage dragons are vain and egotistical figures. They ultimately care more about themselves than others.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Young Mirage Dragon](/Monsters.aspx?ID=2950)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=534\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 122\n\n**Perception** +20; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +19, [Arcana](/Skills.aspx?ID=2) +19, [Athletics](/Skills.aspx?ID=3) +18, [Crafting](/Skills.aspx?ID=4) +19, [Deception](/Skills.aspx?ID=5) +21, [Diplomacy](/Skills.aspx?ID=6) +19, [Illusion Lore](/Skills.aspx?ID=8) +21, [Performance](/Skills.aspx?ID=12) +19, [Stealth](/Skills.aspx?ID=15) +19, [Thievery](/Skills.aspx?ID=17) +19\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +4\r\n\r\n**Wis** +5\r\n\r\n**Cha** +6\r\n</row>\r\n\r\n**Camouflage** The dragon can [Hide](/Actions.aspx?ID=2404) in natural environments even if they don't have [cover](/Rules.aspx?ID=459).\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +20 \r\n\r\n+2 status to all saves vs. [arcane](/Traits.aspx?ID=534)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 155\n\n</row>\r\n\r\n**Immunities**\r\n[fascinated](/Conditions.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\n\n**Scintillating Defense** <actions string=\"Reaction\" /> ([visual](/Traits.aspx?ID=727)) **Trigger** The dragon is targeted with an attack; **Effect** The dragon flashes their iridescent scales at the triggering creature to throw off the attack. The dragon gains [concealment](/Conditions.aspx?ID=62)against the triggering attack.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, climb 20 feet, fly 120 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+8 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +20 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d6+8 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +18 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+8 bludgeoning\r\n\r\n**Arcane Innate Spells** DC 27\r\n- **Cantrips (5th)**\r\n[Figment](/Spells.aspx?ID=1528), [Message](/Spells.aspx?ID=190)\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164)\r\n- **4th**\r\n[Illusory Creature](/Spells.aspx?ID=158), [Illusory Object](/Spells.aspx?ID=160) (at will), [Mirage](/Spells.aspx?ID=1604)\r\n- **5th**\r\n[Illusory Scene](/Spells.aspx?ID=161)\r\n\r\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The dragon makes two claw Strikes and one tail Strike in any order.\r\n\r\n**Draconic Momentum**   The dragon recharges their Hallucinatory Breath whenever they score a critical hit with a Strike.\r\n\r\n**Hallucinatory Breath** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)) The dragon breathes a cloud that assaults the senses and deals 7d6 mental damage in a 30-foot cone (DC 27 Will save). A creature that fails its save is also [confused](/Conditions.aspx?ID=63) for 1 round (1 minute on a critical failure) and is then temporarily immune to being confused by Hallucinatory Breath for 1 hour. The dragon can't use Hallucinatory Breath again for 1d4 rounds.\r\n\r\n**Lunging Bite** <actions string=\"Two Actions\" />  The dragon lunges their head forward, making a jaws Strike with an extended reach of 20 feet.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The dragon's Strikes deal an additional 2d6 precision damage to [off-guard](/Conditions.aspx?ID=58) targets.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-402\" />",
+ "name": "Young Mirage Dragon",
+ "npc": false,
+ "perception": 20,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 122",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 17,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=534\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 122\r\n\r\n**Creature Family** [Dragon, Mirage](/MonsterFamilies.aspx?ID=402)\r\n\r\n<row gap=\"medium\">\r\n**HP** 155\r\n\r\n**AC** 27\r\n\r\n**Fort** +16\r\n\r\n**Ref** +17\r\n\r\n**Will** +20\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMirage dragons are masters of illusion magic and use their powers to deceive others and further their own agendas. In addition to their magical …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Arcana",
+  "Athletics",
+  "Crafting",
+  "Deception",
+  "Diplomacy",
+  "Illusion Lore",
+  "Performance",
+  "Stealth",
+  "Thievery"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +19, [Arcana](/Skills.aspx?ID=2) +19, [Athletics](/Skills.aspx?ID=3) +18, [Crafting](/Skills.aspx?ID=4) +19, [Deception](/Skills.aspx?ID=5) +21, [Diplomacy](/Skills.aspx?ID=6) +19, [Illusion Lore](/Skills.aspx?ID=8) +21, [Performance](/Skills.aspx?ID=12) +19, [Stealth](/Skills.aspx?ID=15) +19, [Thievery](/Skills.aspx?ID=17) +19",
+ "skill_mod": {
+  "acrobatics": 19,
+  "arcana": 19,
+  "athletics": 18,
+  "crafting": 19,
+  "deception": 21,
+  "diplomacy": 19,
+  "performance": 19,
+  "stealth": 19,
+  "thievery": 19
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 122"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 122",
+ "speed": {
+  "climb": 20,
+  "fly": 120,
+  "land": 40,
+  "max": 120
+ },
+ "speed_markdown": "40 feet, climb 20 feet, fly 120 feet",
+ "speed_raw": "40 feet, climb 20 feet, fly 120 feet",
+ "spell": [
+  "Illusory Scene",
+  "Illusory Creature",
+  "Illusory Object",
+  "Mirage",
+  "Invisibility",
+  "Figment",
+  "Message"
+ ],
+ "spell_markdown": "[Figment](/Spells.aspx?ID=1528), [Illusory Creature](/Spells.aspx?ID=158), [Illusory Object](/Spells.aspx?ID=160), [Illusory Scene](/Spells.aspx?ID=161), [Invisibility](/Spells.aspx?ID=164), [Message](/Spells.aspx?ID=190), [Mirage](/Spells.aspx?ID=1604)",
+ "spell_dc": [
+  27
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "stealth": "19",
+ "strike_damage_average": [
+  15,
+  17,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Mirage dragons are masters of illusion magic and use their powers to deceive others and further their own agendas. In addition to their magical …",
+ "summary_markdown": "Mirage dragons are masters of illusion magic and use their powers to deceive others and further their own agendas. In addition to their magical …",
+ "text": " Young Mirage Dragon Mirage dragons are masters of illusion magic and use their powers to deceive others and further their own agendas. In addition to their magical prowess, mirage dragons possess a number of additional features to help them on hunts or mislead attackers, such as their camouflaging scales and a hallucinatory breath that can confound multiple foes at once. Mirage dragons are vain and egotistical figures. They ultimately care more about themselves than others. Recall Knowledge - Dragon (Arcana): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Young Mirage Dragon Source Monster Core pg. 122 Perception +20; darkvision, scent (imprecise) 60 feet Languages Common, Draconic Skills Acrobatics +19, Arcana +19, Athletics +18, Crafting +19, Deception +21, Diplomacy +19, Illusion Lore +21, Performance +19, Stealth +19, Thievery +19 Str +5 Dex +4 Con +3 Int +4 Wis +5 Cha +6 Camouflage The dragon can Hide in natural environments even if they don't have cover. --- AC 27 Fort +16 Ref +17 Will +20 +2 status to all saves vs. arcane HP 155 Immunities fascinated, paralyzed, sleep Scintillating Defense Reaction (visual) Trigger The dragon is targeted with an attack; Effect The dragon flashes their iridescent scales at the triggering creature to throw off the attack. The dragon gains concealmentagainst the triggering attack. --- Speed 40 feet, climb 20 feet, fly 120 feet Melee Single Action jaws +20 (Magical, reach 10 feet), Damage 2d10+8 piercing Melee Single Action claws +20 (Agile, Magical), Damage 2d6+8 slashing Melee Single Action tail +18 (Magical, reach 15 feet), Damage 2d8+8 bludgeoning Arcane Innate Spells DC 27 - Cantrips (5th) Figment, Message - 2nd Invisibility - 4th Illusory Creature, Illusory Object (at will), Mirage - 5th Illusory Scene Draconic Frenzy Two Actions The dragon makes two claw Strikes and one tail Strike in any order. Draconic Momentum The dragon recharges their Hallucinatory Breath whenever they score a critical hit with a Strike. Hallucinatory Breath Two Actions (Arcane, Emotion, Mental) The dragon breathes a cloud that assaults the senses and deals 7d6 mental damage in a 30-foot cone (DC 27 Will save). A creature that fails its save is also confused for 1 round (1 minute on a critical failure) and is then temporarily immune to being confused by Hallucinatory Breath for 1 hour. The dragon can't use Hallucinatory Breath again for 1d4 rounds. Lunging Bite Two Actions The dragon lunges their head forward, making a jaws Strike with an extended reach of 20 feet. Sneak Attack The dragon's Strikes deal an additional 2d6 precision damage to off-guard targets. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Arcane",
+  "Dragon",
+  "Large"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Arcane](/Traits.aspx?ID=534), [Dragon](/Traits.aspx?ID=581)",
+ "trait_raw": [
+  "Arcane",
+  "Dragon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2950",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 20,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

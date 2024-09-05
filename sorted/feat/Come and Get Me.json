@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Come and Get Me",
  "id": "feat-157",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Come and Get Me](/Feats.aspx?ID=157) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou open yourself to attacks so you can respond in turn. Until your rage ends, you are flat-footed, and damage rolls against you gain a +2 circumstance bonus. If a creature hits you, that creature is flat-footed to you until the end of your next turn. If you hit it before the end of your next turn, you gain temporary Hit Points equal to your Constitution modifier, or double that on a critical hit. These temporary Hit Points last until the end of your rage.\n\n<title level=\"2\">Come and Get Me leads to...</title>\r\n[Vengeful Strike](/Feats.aspx?ID=169)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Come and Get Me](/Feats.aspx?ID=157) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou open yourself to attacks so you can respond in turn. Until your rage ends, you are flat-footed, and damage rolls against you gain a +2 circumstance bonus. If a creature hits you, that creature is flat-footed to you until the end of your next turn. If you hit it before the end of your next turn, you gain temporary Hit Points equal to your Constitution modifier, or double that on a critical hit. These temporary Hit Points last until the end of your rage.\n\n<title level=\"2\">Come and Get Me leads to...</title>\r\n[Vengeful Strike](/Feats.aspx?ID=169)",
  "name": "Come and Get Me",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 91",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou open yourself to attacks so you can respond in turn.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou open yourself to attacks so you can respond in turn.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 91"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 91 <sup>4.0</sup>",
  "speed": {},
  "summary": "You open yourself to attacks so you can respond in turn.",
  "summary_markdown": "You open yourself to attacks so you can respond in turn.",
@@ -32,6 +39,10 @@
   "Barbarian",
   "Concentrate",
   "Rage"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Barbarian](/Traits.aspx?ID=18), [Concentrate](/Traits.aspx?ID=32), [Rage](/Traits.aspx?ID=135)",
  "trait_raw": [

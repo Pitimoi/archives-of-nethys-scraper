@@ -1,70 +1,119 @@
 {
  "ac": 18,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  10,
+  12,
+  12
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
  "creature_ability": [
+  "Grave Weapon",
   "Final Spite",
-  "Drain Life",
-  "Wight Spawn"
+  "Fueled by Spite",
+  "Corrupting Spite"
  ],
  "creature_family": "Wight",
  "creature_family_markdown": "[Wight](/MonsterFamilies.aspx?ID=163)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 11,
- "hp": 50,
- "hp_raw": "50 ( negative healing )",
- "id": "creature-413",
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 40,
+ "hp_raw": "40 (fueled by spite,  void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3239",
  "image": [
-  "/Images/Monsters/Wight.png"
+  "/Images/Monsters/Wight.webp"
  ],
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
-  "paralyze",
+  "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, paralyze, poison, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Dagger"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-413",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Wight](/Monsters.aspx?ID=413)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWights are undead humanoids that, much like wraiths, can drain the life from living creatures with but a touch. They arise as a result of necromantic rituals, especially violent deaths, or the sheer malevolent will of the deceased.\n\n As many types of wights exist as types of people from which they might be created. Hulking brutes, skittering sneaks, and cunning tinkers all make for different wights with different niches to fill. Environment, too, plays a part in determining a wight’s special abilities and defenses. Frost wights, for instances, can be found in the parts of the world where exposure is a common end. Regardless, wights typically haunt burial grounds, catacombs, or other places of the dead. But their hunger is targeted toward the living—those individuals who remind them of the shackles of mortality and whom they feel compelled to “free” to the state of undeath.\n\n A single wight can wreak a lot of havoc if it is compelled to rise from its tomb. Because creatures slain by wights become wights as well, all it takes is a single wight and a handful of unlucky graveyard visitors to create a veritable horde of these undead. Thus, canny priests and adventurers know that the best solution to a wight problem is swift and total eradication. Care must be taken, though, to destroy wight spawn before attempting to destroy the parent wight, for spawn without a master gain the ability to create spawn of their own.\n\n Durable and sustained as they are by negative energy, wights can last in harsh environments without decaying the way some lesser undead do. They might dwell in high mountain passes, sealed passageways, or submerged in bogs or lakes for decades or even centuries before the passage of an unsuspecting traveler rouses them from their rest.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Wight.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Wight](/Monsters.aspx?ID=413)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Wight\" url=\"/Traits.aspx?ID=259\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 332</row>\n\n**Perception** +10; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 50\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyze, poison, unconscious\n\n**Final Spite** <actions string=\"Reaction\" /> **Trigger** The wight is reduced to 0 Hit Points. **Effect** The wight makes a Strike before being destroyed. It doesn’t gain any temporary HP from drain life on this Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +12,\r\n**Damage** 1d6+4 slashing plus drain life\n\n**Drain Life**  ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) When the wight damages a living creature with its claw Strike, the wight gains 3 temporary Hit Points and the creature must succeed at a DC 17 Fortitude save or become [drained 1](/Conditions.aspx?ID=10). Further damage dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of [drained 4](/Conditions.aspx?ID=10)\r\n\r\n**Wight Spawn**  ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) A living humanoid slain by a wight’s claw Strike rises as a wight after 1d4 rounds. This wight spawn is under the command of the wight that killed it. It doesn’t have Drain Life or Wight Spawn and becomes [clumsy 2](/Conditions.aspx?ID=3) for as long as it is a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a full-fledged, autonomous wight; it regains its free will, gains Drain Life and Wight Spawn, and is no longer [clumsy](/Conditions.aspx?ID=3).\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_4_RelatedCreatures.png\">Other Wights</title>\r\n\r\nIn addition to the wight presented here, many other varieties exist. For example, the covetous cairn wight—ritually created to eternally guard its own wealth or that of its master—haunts barrows, ossuaries, and mausoleums. Unlike other wights, cairn wights can channel their life-draining touch through their melee weapons.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-163\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Wight](/Monsters.aspx?ID=3239)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWights are intelligent undead spawned through inescapable cycles of spite. This spite might come from their own malevolent will in life, or can be instilled by necromantic rituals, typically involving the desecration of burial sites. Wights usually haunt burial grounds, catacombs, or other places of the dead. Their hunger is targeted toward the living—those whose pumping hearts and ruddy warmth inspire visceral hatred.\n\n As many types of wights exist as types of people from which they might be created. Hulking brutes, skittering sneaks, and cunning tinkers all make for different wights with different niches to fill. The environment, too, plays a part in determining a wight's special abilities and defenses. Frost wights, for instance, can be found in parts of the world where exposure is a common end and the resentment of being left alone in the wild is a common source of spite. Durable and sustained by void energy, wights can last in harsh environments without decaying the way some lesser undead do.\n\n A single wight can wreak significant havoc if it is compelled to rise from its tomb. Because creatures slain under a wight's curse can become wights as well, all it takes is a single wight and a handful of unlucky graveyard visitors to create a veritable horde of these undead. Thus, canny priests and adventurers know that the best solution to a wight problem is swift and total eradication. Care must be taken, though, to destroy wight spawn before attempting to destroy the parent wight, for spawn without a master gain the ability to create spawn of their own.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Wight.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Wight](/Monsters.aspx?ID=3239)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Wight\" url=\"/Traits.aspx?ID=779\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 348\n\n**Perception** +10; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +10, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Grave Weapon** ([divine](/Traits.aspx?ID=579)) The wight is bound to a dagger it was buried with. Other wights can be bound to different weapons.\r\n\r\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\r\n(fueled by spite, [void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\n\n**Final Spite** <actions string=\"Reaction\" /> **Trigger** The wight is reduced to 0 Hit Points; **Effect** The wight makes a Strike before being destroyed. This Strike can inflict corrupting spite, but fueled by spite doesn't apply.<br />**Fueled by Spite** Each time a creature loses Hit Points due to a corrupting spite curse the wight inflicted, the wight gains 3 temporary Hit Points.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +12 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+6 slashing plus corrupting spite\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +12 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+6 slashing plus corrupting spite\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+6 slashing plus corrupting spite\n\n**Corrupting Spite**  ([Curse](/Traits.aspx?ID=38), [Divine](/Traits.aspx?ID=48), [Void](/Traits.aspx?ID=510)) The wight's [unarmed](/Traits.aspx?ID=719) attacks and bound weapons inflict a curse that makes a creature grow weak and spiteful. If a wight inflicts corrupting spite on a creature already afflicted by it, the victim attempts a new save, ignoring the result if it's better than a failure. A living humanoid that dies while under the curse rises as a wight after 1d4 rounds, [controlled](/Conditions.aspx?ID=64) by the wight that killed it. The wight spawn can't inflict corrupting spite and is [clumsy 2](/Conditions.aspx?ID=61). If its creator dies or after roughly a month of existence, the new wight becomes autonomous and turns into a normal wight; **Saving Throw** DC 17 Fortitude; **Stage 1** [drained 1](/Conditions.aspx?ID=68) (1 round); **Stage 2** drained 2 and doesn't treat any creatures as allies (1 round); **Stage 3** As stage 2, except drained 3 (1 round); **Stage 4** As stage 2, except drained 4 (1 round).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-163\" />",
  "name": "Wight",
  "npc": false,
  "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 348",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 6,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Wight\" url=\"/Traits.aspx?ID=259\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 332</row>\r\n\r\n**Creature Family** [Wight](/MonsterFamilies.aspx?ID=163)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50 ( negative healing )\r\n\r\n**AC** 18\r\n\r\n**Fort** +11\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWights are undead humanoids that, much like wraiths, can drain the life from living creatures with but a touch. They arise as a result of necromantic …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Wight\" url=\"/Traits.aspx?ID=779\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 348\r\n\r\n**Creature Family** [Wight](/MonsterFamilies.aspx?ID=163)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40 (fueled by spite,  void healing )\r\n\r\n**AC** 18\r\n\r\n**Fort** +11\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWights are intelligent undead spawned through inescapable cycles of spite. This spite might come from their own malevolent will in life, or can be …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
- "skill": [
-  "Athletics +11",
-  "Intimidation +9",
-  "Stealth +6"
+ "size_id": [
+  3
  ],
- "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +10, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill_mod": {
+  "athletics": 10,
+  "intimidation": 9,
+  "stealth": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 332"
+  "Monster Core pg. 348"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 332</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 348",
  "speed": {
   "land": 25,
   "max": 25
@@ -72,28 +121,47 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
- "stealth": "6",
+ "stealth": "8",
+ "strike_damage_average": [
+  8,
+  8,
+  8
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Wights are undead humanoids that, much like wraiths, can drain the life from living creatures with but a touch. They arise as a result of necromantic …",
- "summary_markdown": "Wights are undead humanoids that, much like wraiths, can drain the life from living creatures with but a touch. They arise as a result of necromantic …",
- "text": " Wight Wights are undead humanoids that, much like wraiths, can drain the life from living creatures with but a touch. They arise as a result of necromantic rituals, especially violent deaths, or the sheer malevolent will of the deceased. As many types of wights exist as types of people from which they might be created. Hulking brutes, skittering sneaks, and cunning tinkers all make for different wights with different niches to fill. Environment, too, plays a part in determining a wight’s special abilities and defenses. Frost wights, for instances, can be found in the parts of the world where exposure is a common end. Regardless, wights typically haunt burial grounds, catacombs, or other places of the dead. But their hunger is targeted toward the living—those individuals who remind them of the shackles of mortality and whom they feel compelled to “free” to the state of undeath. A single wight can wreak a lot of havoc if it is compelled to rise from its tomb. Because creatures slain by wights become wights as well, all it takes is a single wight and a handful of unlucky graveyard visitors to create a veritable horde of these undead. Thus, canny priests and adventurers know that the best solution to a wight problem is swift and total eradication. Care must be taken, though, to destroy wight spawn before attempting to destroy the parent wight, for spawn without a master gain the ability to create spawn of their own. Durable and sustained as they are by negative energy, wights can last in harsh environments without decaying the way some lesser undead do. They might dwell in high mountain passes, sealed passageways, or submerged in bogs or lakes for decades or even centuries before the passage of an unsuspecting traveler rouses them from their rest. Recall Knowledge - Undead (Religion): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Wight Source Bestiary pg. 332 Perception +10; darkvision Languages Common, Necril Skills Athletics +11, Intimidation +9, Stealth +6 Str +4 Dex +1 Con +4 Int +0 Wis +3 Cha +2 --- AC 18 Fort +11 Ref +6 Will +10 HP 50 (negative healing) Immunities death effects, disease, paralyze, poison, unconscious Final Spite Reaction Trigger The wight is reduced to 0 Hit Points. Effect The wight makes a Strike before being destroyed. It doesn’t gain any temporary HP from drain life on this Strike. --- Speed 25 feet Melee Single Action claw +12, Damage 1d6+4 slashing plus drain life Drain Life (Divine, Necromancy) When the wight damages a living creature with its claw Strike, the wight gains 3 temporary Hit Points and the creature must succeed at a DC 17 Fortitude save or become drained 1. Further damage dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of drained 4 Wight Spawn (Divine, Necromancy) A living humanoid slain by a wight’s claw Strike rises as a wight after 1d4 rounds. This wight spawn is under the command of the wight that killed it. It doesn’t have Drain Life or Wight Spawn and becomes clumsy 2 for as long as it is a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a full-fledged, autonomous wight; it regains its free will, gains Drain Life and Wight Spawn, and is no longer clumsy. Other Wights In addition to the wight presented here, many other varieties exist. For example, the covetous cairn wight—ritually created to eternally guard its own wealth or that of its master—haunts barrows, ossuaries, and mausoleums. Unlike other wights, cairn wights can channel their life-draining touch through their melee weapons. ",
+ "summary": "Wights are intelligent undead spawned through inescapable cycles of spite. This spite might come from their own malevolent will in life, or can be …",
+ "summary_markdown": "Wights are intelligent undead spawned through inescapable cycles of spite. This spite might come from their own malevolent will in life, or can be …",
+ "text": " Wight Wights are intelligent undead spawned through inescapable cycles of spite. This spite might come from their own malevolent will in life, or can be instilled by necromantic rituals, typically involving the desecration of burial sites. Wights usually haunt burial grounds, catacombs, or other places of the dead. Their hunger is targeted toward the living—those whose pumping hearts and ruddy warmth inspire visceral hatred. As many types of wights exist as types of people from which they might be created. Hulking brutes, skittering sneaks, and cunning tinkers all make for different wights with different niches to fill. The environment, too, plays a part in determining a wight's special abilities and defenses. Frost wights, for instance, can be found in parts of the world where exposure is a common end and the resentment of being left alone in the wild is a common source of spite. Durable and sustained by void energy, wights can last in harsh environments without decaying the way some lesser undead do. A single wight can wreak significant havoc if it is compelled to rise from its tomb. Because creatures slain under a wight's curse can become wights as well, all it takes is a single wight and a handful of unlucky graveyard visitors to create a veritable horde of these undead. Thus, canny priests and adventurers know that the best solution to a wight problem is swift and total eradication. Care must be taken, though, to destroy wight spawn before attempting to destroy the parent wight, for spawn without a master gain the ability to create spawn of their own. Recall Knowledge - Undead (Religion): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Wight Source Monster Core pg. 348 Perception +10; darkvision Languages Common, Necril Skills Athletics +10, Intimidation +9, Stealth +8 Str +4 Dex +1 Con +4 Int +0 Wis +3 Cha +2 Grave Weapon (divine) The wight is bound to a dagger it was buried with. Other wights can be bound to different weapons. Items Dagger --- AC 18 Fort +11 Ref +6 Will +10 HP 40 (fueled by spite, void healing) Immunities bleed, death effects, disease, paralyzed, poison, unconscious Final Spite Reaction Trigger The wight is reduced to 0 Hit Points; Effect The wight makes a Strike before being destroyed. This Strike can inflict corrupting spite, but fueled by spite doesn't apply. Fueled by Spite Each time a creature loses Hit Points due to a corrupting spite curse the wight inflicted, the wight gains 3 temporary Hit Points. --- Speed 25 feet Melee Single Action dagger +12 (Agile, versatile S), Damage 1d4+6 slashing plus corrupting spite Melee Single Action claw +12 (Agile), Damage 1d4+6 slashing plus corrupting spite Ranged Single Action dagger +10 (Agile, thrown 10 feet, versatile S), Damage 1d4+6 slashing plus corrupting spite Corrupting Spite (Curse, Divine, Void) The wight's unarmed attacks and bound weapons inflict a curse that makes a creature grow weak and spiteful. If a wight inflicts corrupting spite on a creature already afflicted by it, the victim attempts a new save, ignoring the result if it's better than a failure. A living humanoid that dies while under the curse rises as a wight after 1d4 rounds, controlled by the wight that killed it. The wight spawn can't inflict corrupting spite and is clumsy 2. If its creator dies or after roughly a month of existence, the new wight becomes autonomous and turns into a normal wight; Saving Throw DC 17 Fortitude; Stage 1 drained 1 (1 round); Stage 2 drained 2 and doesn't treat any creatures as allies (1 round); Stage 3 As stage 2, except drained 3 (1 round); Stage 4 As stage 2, except drained 4 (1 round). ",
+ "tradition_markdown": "",
  "trait": [
   "Undead",
+  "Unholy",
   "Wight",
-  "LE",
   "Medium"
  ],
- "trait_markdown": "[Undead](/Traits.aspx?ID=160), [Wight](/Traits.aspx?ID=259)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521), [Wight](/Traits.aspx?ID=779)",
  "trait_raw": [
   "Undead",
+  "Unholy",
   "Wight"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=413",
+ "url": "/Monsters.aspx?ID=3239",
  "vision": "Darkvision",
  "weakest_save": [
   "ref",
@@ -101,5 +169,9 @@
  ],
  "weakness": {},
  "will_save": 10,
- "wisdom": 3
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

@@ -1,27 +1,35 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
  "exclude_from_search": false,
- "id": "action-84",
- "markdown": "<title level=\"1\" right=\"Action\">[Seek](/Actions.aspx?ID=84) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 471 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the GM can have you select a 30-foot cone or a 15-foot burst within line of sight. You might take a penalty if you choose an area that's far away. \n\n If you're using Seek to search for objects (including secret doors and hazards), you search up to a 10-foot square adjacent to you. The GM might determine you need to Seek as an activity, taking more actions or even minutes or hours if you're searching a particularly cluttered area. \n\n The GM attempts a single secret Perception check for you and compares the result to the [Stealth](/Skills.aspx?ID=15) DCs of any [undetected](/Conditions.aspx?ID=39) or [hidden](/Conditions.aspx?ID=22) creatures in the area or the DC to detect each object in the area (as determined by the GM or by someone [Concealing the Object](/Actions.aspx?ID=61)). A creature you detect might remain hidden, rather than becoming [observed](/Conditions.aspx?ID=27), if you're using an imprecise sense or if an effect (such as [_invisibility_](/Spells.aspx?ID=164)) prevents the subject from being observed.\r\n\r\n**Critical Success** If you were searching for creatures, any undetected or hidden creature you critically succeeded against becomes observed by you. If you were searching for an object, you learn its location.<br />\r\n**Success** If you were searching for creatures, any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
+ "id": "action-2301",
+ "legacy_id": "action-84",
+ "markdown": "<title level=\"1\" right=\"Action\">[Seek](/Actions.aspx?ID=2301) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</column>\r\n\r\n---\r\n\r\nYou scan an area for signs of creatures or objects, possibly including secret doors or hazards. Choose an area to scan. The GM determines the area you can scan with one Seek action—almost always 30 feet or less in any dimension. The GM might impose a penalty if you search far away from you or adjust the number of actions it takes to Seek a particularly cluttered area.\n\n The GM attempts a single [secret](/Traits.aspx?ID=142) Perception check for you and compares the result to the [Stealth](/Skills.aspx?ID=15) DCs of any [undetected](/Conditions.aspx?ID=39) or [hidden](/Conditions.aspx?ID=22) creatures in the area, or the DC to detect each object in the area (as determined by the GM or by someone [Concealing the Object](/Actions.aspx?ID=61)). A creature you detect might remain hidden, rather than becoming [observed](/Conditions.aspx?ID=27), if you're using an [imprecise](/Rules.aspx?ID=412) sense or if an effect (such as [_invisibility_](/Spells.aspx?ID=164)) prevents the subject from being observed.\r\n\r\n**Critical Success** Any undetected or hidden creature you critically succeeded against becomes observed by you. You learn the location of objects in the area you critically succeeded against.<br />\r\n**Success** Any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. You learn the location of any object or get a clue to its whereabouts, as determined by the GM.",
  "name": "Seek",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 417",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 471 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou scan an area for signs of creatures or objects, possibly including secret doors or hazards. Choose an area to scan. The GM determines the area …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 471"
+  "Player Core pg. 417"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 471 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 417",
  "speed": {},
- "summary": "You scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the …",
- "summary_markdown": "You scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the …",
- "text": " Seek Single Action Source Core Rulebook pg. 471 4.0 --- You scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the GM can have you select a 30-foot cone or a 15-foot burst within line of sight. You might take a penalty if you choose an area that's far away. If you're using Seek to search for objects (including secret doors and hazards), you search up to a 10-foot square adjacent to you. The GM might determine you need to Seek as an activity, taking more actions or even minutes or hours if you're searching a particularly cluttered area. The GM attempts a single secret Perception check for you and compares the result to the Stealth DCs of any undetected or hidden creatures in the area or the DC to detect each object in the area (as determined by the GM or by someone Concealing the Object). A creature you detect might remain hidden, rather than becoming observed, if you're using an imprecise sense or if an effect (such as invisibility ) prevents the subject from being observed. Critical Success If you were searching for creatures, any undetected or hidden creature you critically succeeded against becomes observed by you. If you were searching for an object, you learn its location. Success If you were searching for creatures, any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
+ "summary": "You scan an area for signs of creatures or objects, possibly including secret doors or hazards. Choose an area to scan. The GM determines the area …",
+ "summary_markdown": "You scan an area for signs of creatures or objects, possibly including secret doors or hazards. Choose an area to scan. The GM determines the area …",
+ "text": " Seek Single Action Source Player Core pg. 417 --- You scan an area for signs of creatures or objects, possibly including secret doors or hazards. Choose an area to scan. The GM determines the area you can scan with one Seek action—almost always 30 feet or less in any dimension. The GM might impose a penalty if you search far away from you or adjust the number of actions it takes to Seek a particularly cluttered area. The GM attempts a single secret Perception check for you and compares the result to the Stealth DCs of any undetected or hidden creatures in the area, or the DC to detect each object in the area (as determined by the GM or by someone Concealing the Object). A creature you detect might remain hidden, rather than becoming observed, if you're using an imprecise sense or if an effect (such as invisibility ) prevents the subject from being observed. Critical Success Any undetected or hidden creature you critically succeeded against becomes observed by you. You learn the location of objects in the area you critically succeeded against. Success Any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. You learn the location of any object or get a clue to its whereabouts, as determined by the GM.",
  "trait": [
   "Concentrate",
   "Secret"
@@ -32,6 +40,6 @@
   "Secret"
  ],
  "type": "Action",
- "url": "/Actions.aspx?ID=84",
+ "url": "/Actions.aspx?ID=2301",
  "weakness": {}
 }

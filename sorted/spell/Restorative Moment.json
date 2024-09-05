@@ -1,65 +1,78 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
+ "heighten_group": [
+  "5th rank"
+ ],
  "heighten_level": [
   5
  ],
- "id": "spell-805",
+ "id": "spell-1885",
+ "legacy_id": "spell-805",
  "level": 5,
  "lesson": [
   "Lesson of Renewal"
  ],
- "lesson_markdown": "[Lesson of Renewal](/Lessons.aspx?ID=10)",
- "markdown": "<title level=\"1\" right=\"Focus 5\" pfs=\"Standard\">[Restorative Moment](/Spells.aspx?ID=805)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of Renewal](/Lessons.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou manipulate the threads of time around the target, giving them some of the benefits of a day's passage. The target decreases the values of any [doomed](/Conditions.aspx?ID=9) and [drained](/Conditions.aspx?ID=10) conditions it has by 1 and can immediately attempt one saving throw against each affliction it has with a stage length of 1 day or less. The target is then temporarily immune for 1 day.",
- "mystery_markdown": "",
+ "lesson_markdown": "[Lesson of Renewal](/Lessons.aspx?ID=25)",
+ "markdown": "<title level=\"1\" right=\"Focus 5\" pfs=\"Standard\">\r\n[Restorative Moment](/Spells.aspx?ID=1885)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of Renewal](/Lessons.aspx?ID=25)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour patron weaves the threads of time around the target, giving them some of the benefits of a day's passage. The target decreases the values of any [doomed](/Conditions.aspx?ID=9) and [drained](/Conditions.aspx?ID=10) conditions it has by 1 and can immediately attempt one saving throw against each affliction it has with a stage length of 1 day or less. The target is then temporarily immune for 1 day.",
  "name": "Restorative Moment",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 385",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of Renewal](/Lessons.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou manipulate the threads of time around the target, giving them some of the benefits of a day's passage.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of Renewal](/Lessons.aspx?ID=25)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour patron weaves the threads of time around the target, giving them some of the benefits of a day's passage.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 239"
+  "Player Core pg. 385"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 385",
  "speed": {},
- "summary": "You manipulate the threads of time around the target, giving them some of the benefits of a day's passage.",
- "summary_markdown": "You manipulate the threads of time around the target, giving them some of the benefits of a day's passage.",
+ "spell_type": "Focus",
+ "summary": "Your patron weaves the threads of time around the target, giving them some of the benefits of a day's passage.",
+ "summary_markdown": "Your patron weaves the threads of time around the target, giving them some of the benefits of a day's passage.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Restorative Moment Source Advanced Player's Guide pg. 239 2.0 Lesson Lesson of Renewal Cast Two Actions somatic, verbal Range 30 feet Target 1 creature --- You manipulate the threads of time around the target, giving them some of the benefits of a day's passage. The target decreases the values of any doomed and drained conditions it has by 1 and can immediately attempt one saving throw against each affliction it has with a stage length of 1 day or less. The target is then temporarily immune for 1 day.",
+ "text": "\nRestorative Moment Two Actions Source Player Core pg. 385 Lesson Lesson of Renewal Range 30 feet Target 1 creature --- Your patron weaves the threads of time around the target, giving them some of the benefits of a day's passage. The target decreases the values of any doomed and drained conditions it has by 1 and can immediately attempt one saving throw against each affliction it has with a stage length of 1 day or less. The target is then temporarily immune for 1 day.",
  "tradition_markdown": "",
  "trait": [
+  "Concentrate",
+  "Focus",
   "Hex",
-  "Necromancy",
+  "Manipulate",
   "Uncommon",
   "Witch"
  ],
- "trait_markdown": "[Hex](/Traits.aspx?ID=324), [Necromancy](/Traits.aspx?ID=117), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Hex](/Traits.aspx?ID=324), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
+  "Concentrate",
+  "Focus",
   "Hex",
-  "Necromancy",
+  "Manipulate",
   "Uncommon",
   "Witch"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=805",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1885",
  "weakness": {}
 }

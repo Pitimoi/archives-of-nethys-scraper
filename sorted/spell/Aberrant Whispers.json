@@ -1,22 +1,32 @@
 {
  "actions": "Single Action to Three Actions",
- "area": "5-foot emanation or more",
+ "actions_number": 2,
+ "area": [
+  5
+ ],
+ "area_raw": "5-foot emanation or more",
+ "area_type": [
+  "emanation"
+ ],
  "bloodline": [
   "Aberrant"
  ],
  "bloodline_markdown": "[Aberrant](/Bloodlines.aspx?ID=1)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 6,
  "duration_raw": "1 round",
  "exclude_from_search": false,
  "heighten": [
   "+3"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 6th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   3,
@@ -25,50 +35,63 @@
  ],
  "id": "spell-491",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">[Aberrant Whispers](/Spells.aspx?ID=491)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Aberrant](/Bloodlines.aspx?ID=1)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 5-foot emanation or more\r\n\r\n**Target** each foe in the area\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou utter phrases in an unknown tongue, assaulting the minds of those nearby. Each target must attempt a Will save. Regardless of the result of its save, each target is then temporarily immune for 1 minute. You can increase the number of actions it takes to Cast the Spell (to a maximum of 3 actions total). For each additional action, increase the emanation's radius by 5 feet, to a maximum of 10 extra feet for 3 actions.\r\n\r\n**Success** The target is unaffected.<br />\r\n**Failure** The target is stupefied 2.<br />\r\n**Critical Failure** The target is confused.\n\n---\r\n**Heightened (+3)** The initial radius increases by 5 feet.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">\r\n[Aberrant Whispers](/Spells.aspx?ID=491)\r\n<actions string=\"Single Action to Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>\n\n**Bloodline**\r\n[Aberrant](/Bloodlines.aspx?ID=1)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 5-foot emanation or more\r\n\r\n**Target** each foe in the area\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou utter phrases in an unknown tongue, assaulting the minds of those nearby. Each target must attempt a Will save. Regardless of the result of its save, each target is then temporarily immune for 1 minute. You can increase the number of actions it takes to Cast the Spell (to a maximum of 3 actions total). For each additional action, increase the emanation's radius by 5 feet, to a maximum of 10 extra feet for 3 actions.\r\n\r\n**Success** The target is unaffected.<br />\r\n**Failure** The target is stupefied 2.<br />\r\n**Critical Failure** The target is confused.\n\n---\r\n**Heightened (+3)** The initial radius increases by 5 feet.",
  "name": "Aberrant Whispers",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 402",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Aberrant](/Bloodlines.aspx?ID=1)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 5-foot emanation or more\r\n\r\n**Target** each foe in the area\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou utter phrases in an unknown tongue, assaulting the minds of those nearby. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>\n\n**Bloodline**\r\n[Aberrant](/Bloodlines.aspx?ID=1)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 5-foot emanation or more\r\n\r\n**Target** each foe in the area\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou utter phrases in an unknown tongue, assaulting the minds of those nearby. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 402"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You utter phrases in an unknown tongue, assaulting the minds of those nearby. ",
  "summary_markdown": "You utter phrases in an unknown tongue, assaulting the minds of those nearby. ",
  "target": "each foe in the area",
  "target_markdown": "each foe in the area",
- "text": " Aberrant Whispers Source Core Rulebook pg. 402 4.0 Bloodline Aberrant Cast Single Action to Three Actions verbal Area 5-foot emanation or more Target each foe in the area Saving Throw Will Duration 1 round --- You utter phrases in an unknown tongue, assaulting the minds of those nearby. Each target must attempt a Will save. Regardless of the result of its save, each target is then temporarily immune for 1 minute. You can increase the number of actions it takes to Cast the Spell (to a maximum of 3 actions total). For each additional action, increase the emanation's radius by 5 feet, to a maximum of 10 extra feet for 3 actions. Success The target is unaffected. Failure The target is stupefied 2. Critical Failure The target is confused. --- Heightened (+3) The initial radius increases by 5 feet.",
+ "text": "\nAberrant Whispers Single Action to Three Actions Source Core Rulebook pg. 402 4.0 Bloodline Aberrant Cast verbal Area 5-foot emanation or more Target each foe in the area Saving Throw Will Duration 1 round --- You utter phrases in an unknown tongue, assaulting the minds of those nearby. Each target must attempt a Will save. Regardless of the result of its save, each target is then temporarily immune for 1 minute. You can increase the number of actions it takes to Cast the Spell (to a maximum of 3 actions total). For each additional action, increase the emanation's radius by 5 feet, to a maximum of 10 extra feet for 3 actions. Success The target is unaffected. Failure The target is stupefied 2. Critical Failure The target is confused. --- Heightened (+3) The initial radius increases by 5 feet.",
  "tradition_markdown": "",
  "trait": [
   "Auditory",
   "Enchantment",
   "Mental",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Sense",
+  "School",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Auditory",
   "Enchantment",
   "Mental",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=491",
  "weakness": {}
 }

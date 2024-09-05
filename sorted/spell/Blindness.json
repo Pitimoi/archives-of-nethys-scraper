@@ -1,52 +1,52 @@
 {
  "actions": "Two Actions",
- "bloodline": [
-  "Hag"
- ],
- "bloodline_markdown": "[Hag](/Bloodlines.aspx?ID=8)",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
+ "heighten_group": [
+  "3rd rank"
+ ],
  "heighten_level": [
   3
  ],
- "id": "spell-26",
+ "id": "spell-1453",
+ "legacy_id": "spell-26",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">[Blindness](/Spells.aspx?ID=26)</title>\n\n<traits>\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 321 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Hag](/Bloodlines.aspx?ID=8)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is blinded until its next turn begins.<br />\r\n**Failure** The target is blinded for 1 minute.<br />\r\n**Critical Failure** The target is blinded permanently.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Blindness](/Spells.aspx?ID=1453)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 318\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is [blinded](/Conditions.aspx?ID=1) until its next turn begins.<br />\r\n**Failure** The target is blinded for 1 minute.<br />\r\n**Critical Failure** The target is blinded permanently.",
  "name": "Blindness",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 318",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 321 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Hag](/Bloodlines.aspx?ID=8)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStrike a target blind.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 318\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStrike a target blind.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 321"
+  "Player Core pg. 318"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 321 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 318",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Strike a target blind.",
  "summary_markdown": "Strike a target blind.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Blindness Source Core Rulebook pg. 321 4.0 Traditions Arcane, Divine, Occult, Primal Bloodline Hag Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Saving Throw Fortitude --- You blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute. Critical Success The target is unaffected. Success The target is blinded until its next turn begins. Failure The target is blinded for 1 minute. Critical Failure The target is blinded permanently.",
+ "text": "\nBlindness Two Actions Source Player Core pg. 318 Traditions Arcane, Divine, Occult, Primal Range 30 feet Target 1 creature Defense Fortitude --- You blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute. Critical Success The target is unaffected. Success The target is blinded until its next turn begins. Failure The target is blinded for 1 minute. Critical Failure The target is blinded permanently.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -55,15 +55,17 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
+  "Concentrate",
   "Incapacitation",
-  "Necromancy"
+  "Manipulate"
  ],
- "trait_markdown": "[Incapacitation](/Traits.aspx?ID=93), [Necromancy](/Traits.aspx?ID=117)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
+  "Concentrate",
   "Incapacitation",
-  "Necromancy"
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=26",
+ "url": "/Spells.aspx?ID=1453",
  "weakness": {}
 }

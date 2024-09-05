@@ -1,0 +1,171 @@
+{
+ "ac": 33,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  25,
+  25,
+  25
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Indomitable Beast",
+  "Manticore Venom",
+  "Scorpion Sting",
+  "Venomous Flight"
+ ],
+ "creature_family": "Manticore",
+ "creature_family_markdown": "[Manticore](/MonsterFamilies.aspx?ID=500)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 25,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 270,
+ "hp_raw": "270",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3299",
+ "image": [
+  "/Images/Monsters/Desert_Manticore.webp"
+ ],
+ "immunity": [
+  "poison"
+ ],
+ "immunity_markdown": "[poison](/Traits.aspx?ID=669)",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Kelish",
+  "Osiriani"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Kelish](/Languages.aspx?ID=38), [Osiriani](/Languages.aspx?ID=40)",
+ "level": 12,
+ "markdown": "<title level=\"1\" pfs=\"\">[Desert Manticore](/Monsters.aspx?ID=3299)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDesert manticores are far more dangerous than their common cousins and only marginally cleverer. Instead of the usually spiked tail reminiscent of a porcupine, desert manticores have large scorpion tails, requiring them to adopt closer approaches and cunning ambushes. Desert manticores are known for their egos and constant attempts to outmatch [sphinxes](/MonsterFamilies.aspx?ID=209) within their chosen territories. No accounts of such attempts have ever proved fruitful for the desert manticore.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Desert_Manticore.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[Desert Manticore](/Monsters.aspx?ID=3299)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 172\n\n**Perception** +22; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Kelish](/Languages.aspx?ID=38), [Osiriani](/Languages.aspx?ID=40)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +22, [Athletics](/Skills.aspx?ID=36) +25, [Deception](/Skills.aspx?ID=38) +22, [Intimidation](/Skills.aspx?ID=40) +26, [Stealth](/Skills.aspx?ID=48) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +2\r\n\r\n**Con** +5\r\n\r\n**Int** -2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 33 \r\n\r\n**Fort** +25 \r\n\r\n**Ref** +22 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 270\n\n</row>\r\n\r\n**Immunities**\r\n[poison](/Traits.aspx?ID=669)\n\n**Indomitable Beast** <actions string=\"Reaction\" /> **Frequency** once per day; **Trigger** The desert manticore is reduced to 0 HP; **Effect** The desert manticore avoids being knocked out and remains at 1 HP, then can make a stinger Strike against a creature in its reach.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +25,\r\n**Damage** 4d8+10 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +25 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 4d6+10 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstinger +25 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+10 piercing plus manticore venom\n\n**Manticore Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** Fortitude DC 32; **Maximum Duration** 6 rounds; **Stage 1** 3d8 poison damage and [drained 1](/Conditions.aspx?ID=68) (1 round); **Stage 2** 4d8 poison damage and drained 2 (1 round); **Stage 3** 5d8 poison damage and drained 3 (1 round)\r\n\r\n**Scorpion Sting** <actions string=\"Two Actions\" />  The desert manticore Strikes an [off-guard](/Conditions.aspx?ID=58) creature with its stinger. The attack injects venom deeply, dealing an additional 4d8 poison damage and giving the target a –2 circumstance penalty to their initial save against the poison.\r\n\r\n**Venomous Flight** <actions string=\"Two Actions\" />  The desert manticore [Flies](/Actions.aspx?ID=2312) twice, dripping venom from its stinger. It chooses a creature it flew directly above during the flight, which is exposed to manticore venom. The desert manticore cannot fly further than 60 feet above the target or the venom becomes too dispersed in fall to take effect.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-500\" />",
+ "name": "Desert Manticore",
+ "npc": false,
+ "perception": 22,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 172",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 22,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 172\r\n\r\n**Creature Family** [Manticore](/MonsterFamilies.aspx?ID=500)\r\n\r\n<row gap=\"medium\">\r\n**HP** 270\r\n\r\n**AC** 33\r\n\r\n**Fort** +25\r\n\r\n**Ref** +22\r\n\r\n**Will** +22\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDesert manticores are far more dangerous than their common cousins and only marginally cleverer. Instead of the usually spiked tail reminiscent of a …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +22, [Athletics](/Skills.aspx?ID=36) +25, [Deception](/Skills.aspx?ID=38) +22, [Intimidation](/Skills.aspx?ID=40) +26, [Stealth](/Skills.aspx?ID=48) +22",
+ "skill_mod": {
+  "acrobatics": 22,
+  "athletics": 25,
+  "deception": 22,
+  "intimidation": 26,
+  "stealth": 22
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 172"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 172",
+ "speed": {
+  "fly": 40,
+  "land": 30,
+  "max": 40
+ },
+ "speed_markdown": "30 feet, fly 40 feet",
+ "speed_raw": "30 feet, fly 40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  20,
+  24,
+  28
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Desert manticores are far more dangerous than their common cousins and only marginally cleverer. Instead of the usually spiked tail reminiscent of a …",
+ "summary_markdown": "Desert manticores are far more dangerous than their common cousins and only marginally cleverer. Instead of the usually spiked tail reminiscent of a …",
+ "text": " Desert Manticore Desert manticores are far more dangerous than their common cousins and only marginally cleverer. Instead of the usually spiked tail reminiscent of a porcupine, desert manticores have large scorpion tails, requiring them to adopt closer approaches and cunning ambushes. Desert manticores are known for their egos and constant attempts to outmatch sphinxes within their chosen territories. No accounts of such attempts have ever proved fruitful for the desert manticore. Recall Knowledge - Beast (Arcana, Nature): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Desert Manticore Source Howl of the Wild pg. 172 Perception +22; darkvision, scent (imprecise) 60 feet Languages Common, Kelish, Osiriani Skills Acrobatics +22, Athletics +25, Deception +22, Intimidation +26, Stealth +22 Str +7 Dex +2 Con +5 Int -2 Wis +2 Cha +4 --- AC 33 Fort +25 Ref +22 Will +22 HP 270 Immunities poison Indomitable Beast Reaction Frequency once per day; Trigger The desert manticore is reduced to 0 HP; Effect The desert manticore avoids being knocked out and remains at 1 HP, then can make a stinger Strike against a creature in its reach. --- Speed 30 feet, fly 40 feet Melee Single Action jaws +25, Damage 4d8+10 piercing plus Grab Melee Single Action claw +25 (Agile), Damage 4d6+10 slashing Melee Single Action stinger +25 (reach 10 feet), Damage 3d6+10 piercing plus manticore venom Manticore Venom (Poison) Saving Throw Fortitude DC 32; Maximum Duration 6 rounds; Stage 1 3d8 poison damage and drained 1 (1 round); Stage 2 4d8 poison damage and drained 2 (1 round); Stage 3 5d8 poison damage and drained 3 (1 round) Scorpion Sting Two Actions The desert manticore Strikes an off-guard creature with its stinger. The attack injects venom deeply, dealing an additional 4d8 poison damage and giving the target a –2 circumstance penalty to their initial save against the poison. Venomous Flight Two Actions The desert manticore Flies twice, dripping venom from its stinger. It chooses a creature it flew directly above during the flight, which is exposed to manticore venom. The desert manticore cannot fly further than 60 feet above the target or the venom becomes too dispersed in fall to take effect. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Uncommon",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Beast",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3299",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 22,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

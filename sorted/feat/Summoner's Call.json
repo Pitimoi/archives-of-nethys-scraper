@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,24 +9,31 @@
  "feat_markdown": "Summoner's Call",
  "id": "feat-2931",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Summoner's Call](/Feats.aspx?ID=2931) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 72 <sup>1.1</sup></row>\n\n**Trigger**\r\nYou or your eidolon take damage from a foe or hazard.\r\n\r\n**Requirements**\r\nYour eidolon is manifested more than 5 feet away.\r\n\r\n</column>\r\n\r\n---\r\n\r\nIn a moment of danger, you call your eidolon to your side. Your eidolon teleports to an open space adjacent to you.\n\n**Special** This feat has the trait matching your eidolon's tradition ([arcane](/Traits.aspx?ID=11), [divine](/Traits.aspx?ID=48), [occult](/Traits.aspx?ID=120), or [primal](/Traits.aspx?ID=134)).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Summoner's Call](/Feats.aspx?ID=2931) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 72 <sup>1.1</sup>\n\n**Trigger**\r\nYou or your eidolon take damage from a foe or hazard.\r\n\r\n**Requirements**\r\nYour eidolon is manifested more than 5 feet away.\r\n\r\n</column>\r\n\r\n---\r\n\r\nIn a moment of danger, you call your eidolon to your side. Your eidolon teleports to an open space adjacent to you.\n\n**Special** This feat has the trait matching your eidolon's tradition ([arcane](/Traits.aspx?ID=11), [divine](/Traits.aspx?ID=48), [occult](/Traits.aspx?ID=120), or [primal](/Traits.aspx?ID=134)).",
  "name": "Summoner's Call",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 72",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "requirement": "Your eidolon is manifested more than 5 feet away.",
  "requirement_markdown": "Your eidolon is manifested more than 5 feet away.",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 72 <sup>1.1</sup></row>\n\n**Trigger**\r\nYou or your eidolon take damage from a foe or hazard.\r\n\r\n**Requirements**\r\nYour eidolon is manifested more than 5 feet away.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIn a moment of danger, you call your eidolon to your side.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 72 <sup>1.1</sup>\n\n**Trigger**\r\nYou or your eidolon take damage from a foe or hazard.\r\n\r\n**Requirements**\r\nYour eidolon is manifested more than 5 feet away.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIn a moment of danger, you call your eidolon to your side.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 72"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 72 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 72 <sup>1.1</sup>",
  "speed": {},
  "summary": "In a moment of danger, you call your eidolon to your side.",
  "summary_markdown": "In a moment of danger, you call your eidolon to your side.",
@@ -36,6 +43,10 @@
   "Conjuration",
   "Summoner",
   "Teleportation"
+ ],
+ "trait_group": [
+  "School",
+  "Class"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Conjuration](/Traits.aspx?ID=33), [Summoner](/Traits.aspx?ID=392), [Teleportation](/Traits.aspx?ID=156)",
  "trait_raw": [

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -9,34 +8,45 @@
  "item_category": "Assistive Items",
  "item_subcategory": "Prostheses",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shifter Prosthesis](/Equipment.aspx?ID=1369)\r\n</title>\n\n<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 73</row>\r\n\r\n_[**PFS Note**](/pathfinder-society) All Pathfinder Society agents also have access to all assistive items from Morhen’s Mobility Apparel_\r\n\r\n**Price** 210 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis prosthetic arm is imbued with transmutation magic that can transform it into a weapon.\n\n<document level=\"2\" id=\"action-1058\" />\n\n<document level=\"2\" id=\"action-1059\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shifter Prosthesis](/Equipment.aspx?ID=1369)\r\n</title>\n\n<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 73\r\n\r\n_[**PFS Note**](/pathfinder-society) All Pathfinder Society agents also have access to all assistive items from Morhen’s Mobility Apparel_\r\n\r\n**Price** 210 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis prosthetic arm is imbued with transmutation magic that can transform it into a weapon.\n\n**Activate** <actions string=\"Three Actions\" /> command, Interact;    **Requirements** You are holding a one-handed weapon; **Effect** The prosthesis engulfs the weapon and absorbs it entirely. The weapon is unavailable until you use this Activation to release it from the prosthesis. The prosthesis can hold up to two items at a time.\n\n**Activate** <actions string=\"Free Action\" /> envision;  **Frequency** once per minute;   **Effect** The prosthesis reshapes into the form of a weapon it has absorbed. The prosthesis has all of the statistics of the weapon, including the effects of any etched runes. The prosthesis remains in this weapon's form until you use this Activation again to revert it back to a prosthesis.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Shifter Prosthesis",
  "pfs": "Standard",
  "price": 21000,
  "price_raw": "210 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 73",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 73</row>\r\n\r\n**Price** 210 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis prosthetic arm is imbued with transmutation magic that can transform it into a weapon.  \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 73\r\n\r\n**Price** 210 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis prosthetic arm is imbued with transmutation magic that can transform it into a weapon.  \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 73"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 73</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 73",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This prosthetic arm is imbued with transmutation magic that can transform it into a weapon.  ",
  "summary_markdown": "This prosthetic arm is imbued with transmutation magic that can transform it into a weapon.  ",
- "text": "<title level=\"1\" right=\"Item 6\" pfs=\"Standard\" > Shifter Prosthesis Source Grand Bazaar pg. 73 PFS Note All Pathfinder Society agents also have access to all assistive items from Morhen’s Mobility Apparel Price 210 gp Usage worn Bulk 1 --- This prosthetic arm is imbued with transmutation magic that can transform it into a weapon.\n",
+ "text": "<title level=\"1\" right=\"Item 6\" pfs=\"Standard\" > Shifter Prosthesis Source Grand Bazaar pg. 73 PFS Note All Pathfinder Society agents also have access to all assistive items from Morhen’s Mobility Apparel Price 210 gp Usage worn Bulk 1 --- This prosthetic arm is imbued with transmutation magic that can transform it into a weapon. Activate Three Actions command, Interact; Requirements You are holding a one-handed weapon; Effect The prosthesis engulfs the weapon and absorbs it entirely. The weapon is unavailable until you use this Activation to release it from the prosthesis. The prosthesis can hold up to two items at a time. Activate Free Action envision; Frequency once per minute; Effect The prosthesis reshapes into the form of a weapon it has absorbed. The prosthesis has all of the statistics of the weapon, including the effects of any etched runes. The prosthesis remains in this weapon's form until you use this Activation again to revert it back to a prosthesis.\n",
  "trait": [
   "Invested",
   "Magical",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

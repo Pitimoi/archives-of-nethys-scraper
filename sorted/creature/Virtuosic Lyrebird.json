@@ -1,0 +1,183 @@
+{
+ "ac": 24,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  12,
+  12
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Counter-Melody",
+  "Arcane Harmony",
+  "Spell Mimicry",
+  "Spellsong Casting"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 9,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
+ "hp": 65,
+ "hp_raw": "65",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3322",
+ "image": [
+  "/Images/Monsters/Virtuosic_Lyrebird.webp"
+ ],
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"\">[Virtuosic Lyrebird](/Monsters.aspx?ID=3322)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVirtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice mages established the original virtuosic lyrebirds as part of their graduation thesis, in an attempt to create a familiar that could better aid in spellcasting. The vocal mimicry of these birds did indeed allow them to harmonize with their bonded spellcaster; however, initial progress was slow, and the impatient students chose to hastily elevate the birds' abilities before their thesis deadline using experimental magic. Unfortunately, the specimens' newfound vocal mimicry was so supreme that they could mimic spell incantations as easily as any other sound they heard. The virtuosic lyrebirds soon vaporized, teleported out of, or befuddled their keepers into opening their cages, escaping into the wild and flourishing.\n\n Virtuosic lyrebirds use their spellcasting abilities mostly to play pranks and alleviate boredom. They tend to travel in pairs, but when these pairs congregate into larger flocks, their mischief and fun can quickly turn dangerous.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Virtuosic_Lyrebird.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Virtuosic Lyrebird](/Monsters.aspx?ID=3322)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 193\n\n**Perception** +14\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +15, [Arcana](/Skills.aspx?ID=35) +14, [Performance](/Skills.aspx?ID=45) +16, [Stealth](/Skills.aspx?ID=48) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** +3\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\n\n</row>\n\n**Counter-Melody** <actions string=\"Reaction\" /> ([auditory](/Traits.aspx?ID=541), magic) **Trigger** An opponent within 60 feet Casts a Spell; **Effect** The virtuosic lyrebird makes a [counteract](/Rules.aspx?ID=371) check against the triggering spell (+14 counteract modifier).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbeak +12 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d8+4 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +12 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d6+4 piercing\r\n\r\n**Arcane Spontaneous Spells** DC 24, attack +16\r\n- **Cantrips (3rd)**\r\n[Bullhorn](/Spells.aspx?ID=877), [Daze](/Spells.aspx?ID=61), [Figment](/Spells.aspx?ID=1528), [Ignition](/Spells.aspx?ID=1565), [Telekinetic Projectile](/Spells.aspx?ID=334)\r\n- **1st**\r\n[Command](/Spells.aspx?ID=45), [Fear](/Spells.aspx?ID=110), [Gust of Wind](/Spells.aspx?ID=143)\r\n- **2nd**\r\n[Breathe Fire](/Spells.aspx?ID=1457), [Shatter](/Spells.aspx?ID=279)\r\n- **3rd**\r\n[Force Barrage](/Spells.aspx?ID=1536), [Hypnotize](/Spells.aspx?ID=1564)\r\n\r\n**Arcane Harmony** <actions string=\"Single Action\" /> ([Arcane](/Traits.aspx?ID=11), [Auditory](/Traits.aspx?ID=16)) **Effect** The virtuosic lyrebird sings a subtle trill that others can use to embellish their magic. The next virtuosic lyrebird to Cast a Spell within 60 feet of the first lyrebird that used Arcane Harmony chooses one of the following two benefits, after which the Arcane Harmony ends.\n<ul><li>The spell gains a +2 status bonus to damage per spell rank.</li><li>One target of the spell takes a –2 status penalty to saves against the spell.</li></ul>\r\n\r\n**Spell Mimicry** <actions string=\"Free Action\" />  **Frequency** once per day; **Requirements** A creature Casts a Spell of 3rd rank or lower since the end of the virtuosic lyrebird' s last turn, and the virtuosic lyrebird heard the incantation for the spell; **Effect** The virtuosic lyrebird learns the spell enough to mimic and cast it this turn, using as many actions as the original spell took.\r\n\r\n**Spellsong Casting**   The virtuosic lyrebird's exquisite vocal control lets it cast spells purely through its song. While it must be able to vocalize to Cast a Spell, it doesn't need to gesture, removing the [manipulate](/Traits.aspx?ID=645) trait from any spell that it casts. If it Casts a Spell with the [linguistic](/Traits.aspx?ID=642) trait (usually with its Spell Mimicry), it can Cast that Spell in [Common](/Languages.aspx?ID=155), even though the bird doesn't truly understand the language.\r\n\r\n</column>",
+ "name": "Virtuosic Lyrebird",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 193",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 17,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 193\n\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 24\r\n\r\n**Fort** +9\r\n\r\n**Ref** +17\r\n\r\n**Will** +14\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVirtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice …\r\n</summary>",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Arcana",
+  "Performance",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +15, [Arcana](/Skills.aspx?ID=35) +14, [Performance](/Skills.aspx?ID=45) +16, [Stealth](/Skills.aspx?ID=48) +12",
+ "skill_mod": {
+  "acrobatics": 15,
+  "arcana": 14,
+  "performance": 16,
+  "stealth": 12
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 193"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 193",
+ "speed": {
+  "fly": 60,
+  "land": 15,
+  "max": 60
+ },
+ "speed_markdown": "15 feet, fly 60 feet",
+ "speed_raw": "15 feet, fly 60 feet",
+ "spell": [
+  "Force Barrage",
+  "Hypnotize",
+  "Breathe Fire",
+  "Shatter",
+  "Command",
+  "Fear",
+  "Gust of Wind",
+  "Bullhorn",
+  "Daze",
+  "Figment",
+  "Ignition",
+  "Telekinetic Projectile"
+ ],
+ "spell_markdown": "[Breathe Fire](/Spells.aspx?ID=1457), [Bullhorn](/Spells.aspx?ID=877), [Command](/Spells.aspx?ID=45), [Daze](/Spells.aspx?ID=61), [Fear](/Spells.aspx?ID=110), [Figment](/Spells.aspx?ID=1528), [Force Barrage](/Spells.aspx?ID=1536), [Gust of Wind](/Spells.aspx?ID=143), [Hypnotize](/Spells.aspx?ID=1564), [Ignition](/Spells.aspx?ID=1565), [Shatter](/Spells.aspx?ID=279), [Telekinetic Projectile](/Spells.aspx?ID=334)",
+ "spell_attack_bonus": [
+  16
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  24
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  11,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Virtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice …",
+ "summary_markdown": "Virtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice …",
+ "text": " Virtuosic Lyrebird Virtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice mages established the original virtuosic lyrebirds as part of their graduation thesis, in an attempt to create a familiar that could better aid in spellcasting. The vocal mimicry of these birds did indeed allow them to harmonize with their bonded spellcaster; however, initial progress was slow, and the impatient students chose to hastily elevate the birds' abilities before their thesis deadline using experimental magic. Unfortunately, the specimens' newfound vocal mimicry was so supreme that they could mimic spell incantations as easily as any other sound they heard. The virtuosic lyrebirds soon vaporized, teleported out of, or befuddled their keepers into opening their cages, escaping into the wild and flourishing. Virtuosic lyrebirds use their spellcasting abilities mostly to play pranks and alleviate boredom. They tend to travel in pairs, but when these pairs congregate into larger flocks, their mischief and fun can quickly turn dangerous. Recall Knowledge - Beast (Arcana, Nature): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Virtuosic Lyrebird Source Howl of the Wild pg. 193 Perception +14 Languages Skills Acrobatics +15, Arcana +14, Performance +16, Stealth +12 Str +4 Dex +5 Con +2 Int +3 Wis +2 Cha +4 --- AC 24 Fort +9 Ref +17 Will +14 HP 65 Counter-Melody Reaction (auditory, magic) Trigger An opponent within 60 feet Casts a Spell; Effect The virtuosic lyrebird makes a counteract check against the triggering spell (+14 counteract modifier). --- Speed 15 feet, fly 60 feet Melee Single Action beak +12 (Finesse), Damage 2d8+4 piercing Melee Single Action talon +12 (Agile, Finesse), Damage 2d6+4 piercing Arcane Spontaneous Spells DC 24, attack +16 - Cantrips (3rd) Bullhorn, Daze, Figment, Ignition, Telekinetic Projectile - 1st Command, Fear, Gust of Wind - 2nd Breathe Fire, Shatter - 3rd Force Barrage, Hypnotize Arcane Harmony Single Action (Arcane, Auditory) Effect The virtuosic lyrebird sings a subtle trill that others can use to embellish their magic. The next virtuosic lyrebird to Cast a Spell within 60 feet of the first lyrebird that used Arcane Harmony chooses one of the following two benefits, after which the Arcane Harmony ends. The spell gains a +2 status bonus to damage per spell rank. One target of the spell takes a –2 status penalty to saves against the spell. Spell Mimicry Free Action Frequency once per day; Requirements A creature Casts a Spell of 3rd rank or lower since the end of the virtuosic lyrebird' s last turn, and the virtuosic lyrebird heard the incantation for the spell; Effect The virtuosic lyrebird learns the spell enough to mimic and cast it this turn, using as many actions as the original spell took. Spellsong Casting The virtuosic lyrebird's exquisite vocal control lets it cast spells purely through its song. While it must be able to vocalize to Cast a Spell, it doesn't need to gesture, removing the manipulate trait from any spell that it casts. If it Casts a Spell with the linguistic trait (usually with its Spell Mimicry), it can Cast that Spell in Common, even though the bird doesn't truly understand the language. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Beast",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3322",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 14,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,57 +1,66 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-770",
+ "id": "spell-1863",
+ "legacy_id": "spell-770",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Gravity Weapon](/Spells.aspx?ID=770)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike. On your first weapon Strike each round, you gain a status bonus to damage equal to twice the number of weapon damage dice.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Gravity Weapon](/Spells.aspx?ID=1863)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=682\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 383\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike. On your first weapon Strike each round, you gain a status bonus to damage equal to twice the number of weapon damage dice.",
  "name": "Gravity Weapon",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 383",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=682\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 383\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 234"
+  "Player Core pg. 383"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 383",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike.",
  "summary_markdown": "You build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike.",
- "text": " Gravity Weapon Source Advanced Player's Guide pg. 234 2.0 Cast Single Action somatic Duration 1 minute --- You build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike. On your first weapon Strike each round, you gain a status bonus to damage equal to twice the number of weapon damage dice.",
+ "text": "\nGravity Weapon Single Action Source Player Core pg. 383 Duration 1 minute --- You build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike. On your first weapon Strike each round, you gain a status bonus to damage equal to twice the number of weapon damage dice.",
  "tradition_markdown": "",
  "trait": [
-  "Evocation",
+  "Focus",
   "Ranger",
   "Uncommon"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Ranger](/Traits.aspx?ID=136), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Focus](/Traits.aspx?ID=511), [Ranger](/Traits.aspx?ID=682), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
-  "Evocation",
+  "Focus",
   "Ranger",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=770",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1863",
+ "warden_spell_tier": "Initiate",
  "weakness": {}
 }

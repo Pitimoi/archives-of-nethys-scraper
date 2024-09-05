@@ -1,0 +1,173 @@
+{
+ "ac": 36,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "N",
+ "attack_bonus": [
+  30,
+  32
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 8,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Cold Healing",
+  "Inexorable",
+  "Leech Heat",
+  "Shake It Off",
+  "Fast Swallow",
+  "Swallow Whole",
+  "Thrash"
+ ],
+ "creature_family": "Cave Worm",
+ "creature_family_markdown": "[Cave Worm](/MonsterFamilies.aspx?ID=21)",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 30,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 370,
+ "hp_raw": "370 (cold healing)",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2703",
+ "immunity": [
+  "cold"
+ ],
+ "immunity_markdown": "[cold](/Traits.aspx?ID=27)",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 16,
+ "markdown": "<title level=\"1\" pfs=\"\">[Glacial Worm](/Monsters.aspx?ID=2703)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nCave worm eggs that lie dormant for a long period may experience significant climactic shift. If the temperature falls below freezing, the worms may hatch as glacial worms, also called white worms. These creatures immediately migrate as far north as possible, seeking the glaciers or icebergs that will nourish and house them. Glacial worms lack stingers, as liquid venom is less effective in cold temperatures. Occasionally, such creatures are carried far south on icebergs that have carved off the main ice sheets of the polar regions.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 37\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 35\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 32\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Glacial Worm](/Monsters.aspx?ID=2703)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 67\n\n**Perception** +22; [darkvision](/MonsterAbilities.aspx?ID=12), [tremorsense](/MonsterAbilities.aspx?ID=40) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +34\r\n\r\n<row gap=\"medium\">\r\n**Str** +10\r\n\r\n**Dex** +0\r\n\r\n**Con** +8\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +30 \r\n\r\n**Ref** +22 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 370\r\n(cold healing)\n\n</row>\r\n\r\n**Immunities**\r\n[cold](/Traits.aspx?ID=27)\n\n**Weaknesses**\r\n[fire](/Traits.aspx?ID=72) 15\r\n\r\n**Cold Healing** When a glacial worm is in extreme cold or surrounded by ice, it gains [fast healing 10](/MonsterAbilities.aspx?ID=15). When struck by a magical cold effect, a glacial worm regains Hit Points equal to half the cold damage the effect would otherwise deal.<br />**Inexorable** The glacial worm recovers from the [paralyzed](/Conditions.aspx?ID=28), [slowed](/Conditions.aspx?ID=35), and [stunned](/Conditions.aspx?ID=36) conditions at the end of its turn. It's also immune to penalties to its Speeds and the [immobilized](/Conditions.aspx?ID=24) condition, and it ignores [difficult terrain](/Rules.aspx?ID=453) and greater difficult terrain.<br />**Leech Heat** ([aura](/Traits.aspx?ID=206), [cold](/Traits.aspx?ID=27)) 30 feet. A glacial worm's intense cold absorbs heat. Creatures that start their turn within the area take 3d6 cold damage (DC 34 [basic](/Rules.aspx?ID=329) Fortitude save).<br />**Shake It Off** <actions string=\"Reaction\" /> **Frequency** once per day; **Trigger** The glacial worm would be affected by a condition or adverse effect (such as [_baleful polymorph_](/Spells.aspx?ID=17)); **Effect** The glacial worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, burrow 40 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +32 ([deadly 2d12](/Traits.aspx?ID=174), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+13 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=27)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbody +30 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+12 bludgeoning plus 1d6 cold\n\n**Fast Swallow** <actions string=\"Reaction\" />  **Trigger** The worm Grabs a creature; **Effect** The worm uses Swallow Whole.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=35)** <actions string=\"Single Action\" />  Huge, 3d8+12 bludgeoning plus 2d6 cold, Rupture 28\r\n\r\n**Thrash** <actions string=\"Two Actions\" />  The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-21\" />",
+ "name": "Glacial Worm",
+ "npc": false,
+ "perception": 22,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 67",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 22,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2023-08-30",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 67\r\n\r\n**Creature Family** [Cave Worm](/MonsterFamilies.aspx?ID=21)\r\n\r\n<row gap=\"medium\">\r\n**HP** 370 (cold healing)\r\n\r\n**AC** 36\r\n\r\n**Fort** +30\r\n\r\n**Ref** +22\r\n\r\n**Will** +22\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCave worm eggs that lie dormant for a long period may experience significant climactic shift. If the temperature falls below freezing, the worms may …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  ( imprecise ) 100 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [tremorsense](/MonsterAbilities.aspx?ID=40) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +34",
+ "skill_mod": {
+  "athletics": 34
+ },
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 67"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 67",
+ "speed": {
+  "burrow": 40,
+  "land": 40,
+  "max": 40,
+  "swim": 20
+ },
+ "speed_markdown": "40 feet, burrow 40 feet, swim 20 feet",
+ "speed_raw": "40 feet, burrow 40 feet, swim 20 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "strike_damage_average": [
+  24,
+  32
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 10,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Cave worm eggs that lie dormant for a long period may experience significant climactic shift. If the temperature falls below freezing, the worms may …",
+ "summary_markdown": "Cave worm eggs that lie dormant for a long period may experience significant climactic shift. If the temperature falls below freezing, the worms may …",
+ "text": " Glacial Worm Cave worm eggs that lie dormant for a long period may experience significant climactic shift. If the temperature falls below freezing, the worms may hatch as glacial worms, also called white worms. These creatures immediately migrate as far north as possible, seeking the glaciers or icebergs that will nourish and house them. Glacial worms lack stingers, as liquid venom is less effective in cold temperatures. Occasionally, such creatures are carried far south on icebergs that have carved off the main ice sheets of the polar regions. Recall Knowledge - Animal (Nature): DC 37 Unspecific Lore : DC 35 Specific Lore : DC 32 Glacial Worm Source Pathfinder #194: Cult of the Cave Worm pg. 67 Perception +22; darkvision, tremorsense (imprecise) 100 feet Languages Skills Athletics +34 Str +10 Dex +0 Con +8 Int -5 Wis +0 Cha -1 --- AC 36 Fort +30 Ref +22 Will +22 HP 370 (cold healing) Immunities cold Weaknesses fire 15 Cold Healing When a glacial worm is in extreme cold or surrounded by ice, it gains fast healing 10. When struck by a magical cold effect, a glacial worm regains Hit Points equal to half the cold damage the effect would otherwise deal. Inexorable The glacial worm recovers from the paralyzed, slowed, and stunned conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain. Leech Heat (aura, cold) 30 feet. A glacial worm's intense cold absorbs heat. Creatures that start their turn within the area take 3d6 cold damage (DC 34 basic Fortitude save). Shake It Off Reaction Frequency once per day; Trigger The glacial worm would be affected by a condition or adverse effect (such as baleful polymorph ); Effect The glacial worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way. --- Speed 40 feet, burrow 40 feet, swim 20 feet Melee Single Action jaws +32 (deadly 2d12, reach 15 feet), Damage 3d12+13 piercing plus Improved Grab Melee Single Action body +30 (reach 15 feet), Damage 2d8+12 bludgeoning plus 1d6 cold Fast Swallow Reaction Trigger The worm Grabs a creature; Effect The worm uses Swallow Whole. Swallow Whole Single Action Huge, 3d8+12 bludgeoning plus 2d6 cold, Rupture 28 Thrash Two Actions The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Animal",
+  "Uncommon",
+  "N",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=207), [Animal](/Traits.aspx?ID=9), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Amphibious",
+  "Animal",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2703",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {
+  "fire": 15
+ },
+ "weakness_markdown": "[fire](/Traits.aspx?ID=72) 15",
+ "weakness_raw": " fire  15",
+ "will_save": 22,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

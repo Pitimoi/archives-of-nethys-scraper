@@ -3,7 +3,6 @@
   "Scythe"
  ],
  "base_item_markdown": "[Scythe](/Weapons.aspx?ID=39)",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -12,36 +11,52 @@
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 13\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Vampiric Scythe](/Equipment.aspx?ID=1287)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evil\" url=\"/Traits.aspx?ID=64\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 31</row>\n\n**Price** 3,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Scythe](/Weapons.aspx?ID=39)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe blade of this _+2 [greater striking](/Equipment.aspx?ID=280) [wounding](/Equipment.aspx?ID=309) [scythe](/Weapons.aspx?ID=39)_ is sharp enough to produce a whistling sound when swung through the air. The shaft is made of ebony wood with a sickly shine to it, much like the shine of infected wounds and contaminated water.\n\n<document level=\"2\" id=\"action-1017\" />\n\n<document level=\"2\" id=\"action-1018\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 13\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Vampiric Scythe](/Equipment.aspx?ID=1287)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evil\" url=\"/Traits.aspx?ID=64\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 31\n\n**Price** 3,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Scythe](/Weapons.aspx?ID=39)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe blade of this _+2 [greater striking](/Equipment.aspx?ID=280) [wounding](/Equipment.aspx?ID=309) [scythe](/Weapons.aspx?ID=39)_ is sharp enough to produce a whistling sound when swung through the air. The shaft is made of ebony wood with a sickly shine to it, much like the shine of infected wounds and contaminated water.\n\n**Activate** <actions string=\"Reaction\" /> command;   **Trigger** An enemy critically succeeds at an attempt to [Disarm](/Actions.aspx?ID=41) you;  **Effect** As the scythe leaves your hand, it drinks the triggering creature's blood. The creature must succeed at a DC 30 Fortitude save or become [drained 2](/Conditions.aspx?ID=10) (drained 3 on a critical failure). If the triggering creature becomes drained, you gain temporary Hit Points equal to the triggering creature's level. You lose any remaining temporary Hit Points after 1 minute.\n\n**Activate** <actions string=\"Reaction\" /> command;  **Frequency** once per hour; **Trigger** You critically succeed at a Strike against a living opponent;  **Effect** The scythe drains life essence from your opponent into you. You gain a number of temporary Hit Points equal to half the slashing damage the scythe dealt to the foe. You lose any remaining temporary Hit Points after 1 minute. \n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Vampiric Scythe",
  "pfs": "Restricted",
  "price": 300000,
  "price_raw": "3,000 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 31",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evil\" url=\"/Traits.aspx?ID=64\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 31</row>\r\n\r\n**Price** 3,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe blade of this  +2  greater striking   wounding   scythe   is sharp enough to produce a whistling sound when swung through the air. The shaft is …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evil\" url=\"/Traits.aspx?ID=64\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 31\r\n\r\n**Price** 3,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Scythe](/Weapons.aspx?ID=39)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe blade of this  +2  greater striking   wounding   scythe   is sharp enough to produce a whistling sound when swung through the air. The shaft is …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 31"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 31</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 31",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "The blade of this  +2  greater striking   wounding   scythe   is sharp enough to produce a whistling sound when swung through the air. The shaft is …",
  "summary_markdown": "The blade of this  +2  greater striking   wounding   scythe   is sharp enough to produce a whistling sound when swung through the air. The shaft is …",
- "text": "<title level=\"1\" right=\"Item 13\" pfs=\"Restricted\" > Vampiric Scythe Source Grand Bazaar pg. 31 Price 3,000 gp Usage held in 2 hands Bulk 2 Base Weapon Scythe --- The blade of this +2 greater striking wounding scythe is sharp enough to produce a whistling sound when swung through the air. The shaft is made of ebony wood with a sickly shine to it, much like the shine of infected wounds and contaminated water.\n",
+ "text": "<title level=\"1\" right=\"Item 13\" pfs=\"Restricted\" > Vampiric Scythe Source Grand Bazaar pg. 31 Price 3,000 gp Usage held in 2 hands Bulk 2 Base Weapon Scythe --- The blade of this +2 greater striking wounding scythe is sharp enough to produce a whistling sound when swung through the air. The shaft is made of ebony wood with a sickly shine to it, much like the shine of infected wounds and contaminated water. Activate Reaction command; Trigger An enemy critically succeeds at an attempt to Disarm you; Effect As the scythe leaves your hand, it drinks the triggering creature's blood. The creature must succeed at a DC 30 Fortitude save or become drained 2 (drained 3 on a critical failure). If the triggering creature becomes drained, you gain temporary Hit Points equal to the triggering creature's level. You lose any remaining temporary Hit Points after 1 minute. Activate Reaction command; Frequency once per hour; Trigger You critically succeed at a Strike against a living opponent; Effect The scythe drains life essence from your opponent into you. You gain a number of temporary Hit Points equal to half the slashing damage the scythe dealt to the foe. You lose any remaining temporary Hit Points after 1 minute. ",
  "trait": [
   "Evil",
   "Magical",
   "Necromancy",
   "Negative",
-  "Uncommon"
+  "Uncommon",
+  "Void"
+ ],
+ "trait_group": [
+  "Alignment",
+  "School",
+  "Energy",
+  "Planar",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

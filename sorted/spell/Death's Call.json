@@ -1,62 +1,72 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Death"
  ],
- "domain_markdown": "[Death](/Domains.aspx?ID=7)",
+ "domain_markdown": "[Death](/Domains.aspx?ID=70)",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-413",
+ "id": "spell-1792",
+ "legacy_id": "spell-413",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Death's Call](/Spells.aspx?ID=413)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>\n\n**Domain**\r\n[Death](/Domains.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n**Trigger** A living creature within 20 feet of you dies, or an [undead](/Traits.aspx?ID=160) creature within 20 feet of you is destroyed.\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nSeeing another pass from this world to the next invigorates you. You gain temporary Hit Points equal to the triggering creature's level plus your spellcasting ability modifier. If the triggering creature was undead, double the number of temporary Hit Points you gain. These last for the duration of the spell, and the spell ends if all the temporary Hit Points are depleted earlier.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Death's Call](/Spells.aspx?ID=1792)\r\n<actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 373\n\n**Domain**\r\n[Death](/Domains.aspx?ID=70)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nSeeing another pass from this world invigorates you. You gain temporary Hit Points equal to the triggering creature's level plus your spellcasting attribute modifier. If the triggering creature was [undead](/Traits.aspx?ID=160), double the number of temporary Hit Points you gain. These last for the duration of the spell, and the spell ends if all the temporary Hit Points are depleted earlier.",
  "name": "Death's Call",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 373",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>\n\n**Domain**\r\n[Death](/Domains.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n**Trigger** A living creature within 20 feet of you dies, or an [undead](/Traits.aspx?ID=160) creature within 20 feet of you is destroyed.\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSeeing another pass from this world to the next invigorates you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 373\n\n**Domain**\r\n[Death](/Domains.aspx?ID=70)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSeeing another pass from this world invigorates you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 391"
+  "Player Core pg. 373"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 373",
  "speed": {},
- "summary": "Seeing another pass from this world to the next invigorates you.",
- "summary_markdown": "Seeing another pass from this world to the next invigorates you.",
- "text": " Death's Call Source Core Rulebook pg. 391 4.0 Domain Death Cast Reaction verbal Trigger A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed. Duration 1 minute --- Seeing another pass from this world to the next invigorates you. You gain temporary Hit Points equal to the triggering creature's level plus your spellcasting ability modifier. If the triggering creature was undead, double the number of temporary Hit Points you gain. These last for the duration of the spell, and the spell ends if all the temporary Hit Points are depleted earlier.",
+ "spell_type": "Focus",
+ "summary": "Seeing another pass from this world invigorates you.",
+ "summary_markdown": "Seeing another pass from this world invigorates you.",
+ "text": "\nDeath's Call Reaction Source Player Core pg. 373 Domain Death Trigger A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed Duration 1 minute --- Seeing another pass from this world invigorates you. You gain temporary Hit Points equal to the triggering creature's level plus your spellcasting attribute modifier. If the triggering creature was undead, double the number of temporary Hit Points you gain. These last for the duration of the spell, and the spell ends if all the temporary Hit Points are depleted earlier.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Necromancy",
+  "Concentrate",
+  "Focus",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Necromancy](/Traits.aspx?ID=117), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
-  "Necromancy",
+  "Concentrate",
+  "Focus",
   "Uncommon"
  ],
- "trigger": "A living creature within 20 feet of you dies, or an  undead  creature within 20 feet of you is destroyed.",
- "trigger_markdown": "A living creature within 20 feet of you dies, or an [undead](/Traits.aspx?ID=160) creature within 20 feet of you is destroyed.",
- "type": "Focus",
- "url": "/Spells.aspx?ID=413",
+ "trigger": "A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed",
+ "trigger_markdown": "A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1792",
  "weakness": {}
 }

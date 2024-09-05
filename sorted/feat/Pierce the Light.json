@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,21 +7,28 @@
  "feat_markdown": "Pierce the Light",
  "id": "feat-2515",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Pierce the Light](/Feats.aspx?ID=2515) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou tear the veil between the [Material Plane](/Planes.aspx?ID=1) and its shadow. You can cast [_plane shift_](/Spells.aspx?ID=222) twice per week as an occult innate spell that can only target yourself; you can travel only to the Material or [Shadow Planes](/Planes.aspx?ID=11), and your body serves as the focus component.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Pierce the Light](/Feats.aspx?ID=2515) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou tear the veil between the [Material Plane](/Planes.aspx?ID=1) and its shadow. You can cast [_plane shift_](/Spells.aspx?ID=222) twice per week as an occult innate spell that can only target yourself; you can travel only to the Material or [Shadow Planes](/Planes.aspx?ID=11), and your body serves as the focus component.",
  "name": "Pierce the Light",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 87",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou tear the veil between the Material Plane and its shadow.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou tear the veil between the Material Plane and its shadow.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 87"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup>",
  "speed": {},
  "summary": "You tear the veil between the Material Plane and its shadow.",
  "summary_markdown": "You tear the veil between the Material Plane and its shadow.",
@@ -30,6 +36,11 @@
  "trait": [
   "Fetchling",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Rarity"
  ],
  "trait_markdown": "[Fetchling](/Traits.aspx?ID=300), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

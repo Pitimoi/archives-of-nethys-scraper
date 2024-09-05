@@ -1,7 +1,7 @@
 {
  "access": "Matanji ethnicity",
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -11,23 +11,30 @@
  "frequency": "once per minute",
  "id": "feat-2761",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Demonblood Frenzy](/Feats.aspx?ID=2761) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 93 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\ntusks [unarmed](/Traits.aspx?ID=199) attack\r\n\r\n**Access**\r\nMatanji ethnicity\r\n\r\n**Trigger**\r\nYou successfully Strike a living creature that has the [fiend](/Traits.aspx?ID=70) trait with your tusks unarmed attack\n\n</column>\r\n\r\n---\r\n\r\nJust the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury. You become [quickened](/Conditions.aspx?ID=32) until the end of your next turn and you can use the extra action to make a tusks Strike, Stride, or Step.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Demonblood Frenzy](/Feats.aspx?ID=2761) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 93 <sup>2.0</sup>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\ntusks [unarmed](/Traits.aspx?ID=199) attack\r\n\r\n**Access**\r\nMatanji ethnicity\r\n\r\n**Trigger**\r\nYou successfully Strike a living creature that has the [fiend](/Traits.aspx?ID=70) trait with your tusks unarmed attack\n\n</column>\r\n\r\n---\r\n\r\nJust the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury. You become [quickened](/Conditions.aspx?ID=32) until the end of your next turn and you can use the extra action to make a tusks Strike, Stride, or Step.",
  "name": "Demonblood Frenzy",
  "pfs": "Standard",
  "prerequisite": "tusks unarmed attack",
  "prerequisite_markdown": "tusks [unarmed](/Traits.aspx?ID=199) attack",
+ "primary_source": "The Mwangi Expanse",
+ "primary_source_raw": "The Mwangi Expanse pg. 93",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-07-07",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 93 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\ntusks [unarmed](/Traits.aspx?ID=199) attack\r\n\r\n**Access**\r\nMatanji ethnicity\r\n\r\n**Trigger**\r\nYou successfully Strike a living creature that has the [fiend](/Traits.aspx?ID=70) trait with your tusks unarmed attack\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nJust the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 93 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\ntusks [unarmed](/Traits.aspx?ID=199) attack\r\n\r\n**Access**\r\nMatanji ethnicity\r\n\r\n**Trigger**\r\nYou successfully Strike a living creature that has the [fiend](/Traits.aspx?ID=70) trait with your tusks unarmed attack\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nJust the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "The Mwangi Expanse"
  ],
  "source_raw": [
   "The Mwangi Expanse pg. 93"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[The Mwangi Expanse](/Sources.aspx?ID=89) pg. 93 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[The Mwangi Expanse](/Sources.aspx?ID=89) pg. 93 <sup>2.0</sup>",
  "speed": {},
  "summary": "Just the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury.",
  "summary_markdown": "Just the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury.",
@@ -35,6 +42,13 @@
  "trait": [
   "Orc",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Half-Orc",
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Rarity"
  ],
  "trait_markdown": "[Orc](/Traits.aspx?ID=124), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

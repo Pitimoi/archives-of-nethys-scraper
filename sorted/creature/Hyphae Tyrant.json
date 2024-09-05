@@ -1,0 +1,212 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "NE",
+ "attack_bonus": [
+  10,
+  12
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Sporesense",
+  "Spore Burst",
+  "Change Shape",
+  "Spore Cloud",
+  "Spores"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 60,
+ "hp_raw": "60",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2602",
+ "image": [
+  "/Images/Monsters/HyphaeTyrant.png"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Druidic",
+  "Sylvan",
+  "Undercommon",
+  "speak with plants (fungi only)"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Druidic](/Languages.aspx?ID=23), [Sylvan](/Languages.aspx?ID=10), [Undercommon](/Languages.aspx?ID=11); speak with plants (fungi only)",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hyphae Tyrant](/Monsters.aspx?ID=2602)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLeshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and explore the grimmer elements of fungi: decomposition and possession. Combining unethical experiments, mind-altering cordyceps spores, and occult magic fueled by their own victim narrative, a fungus leshy can transform into a hyphae tyrant, who in turn transforms corpses into sporeborn puppets to torment local fauna. These leshies' greatest tragedy is perhaps their own impermanence. As their agendas increasingly celebrate decay, a hyphae tyrant's spite and occult narrative slowly drain their life force, ultimately ending in a final burst of destructive energy.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fungus](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/HyphaeTyrant.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Hyphae Tyrant](/Monsters.aspx?ID=2602)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 86\n\n**Perception** +11; darkvision, sporesense (imprecise) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Druidic](/Languages.aspx?ID=23), [Sylvan](/Languages.aspx?ID=10), [Undercommon](/Languages.aspx?ID=11); speak with plants (fungi only)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +8, [Nature](/Skills.aspx?ID=10) +10, [Occultism](/Skills.aspx?ID=11) +10, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Sporesense** ([divination](/Traits.aspx?ID=47), [primal](/Traits.aspx?ID=134))A hyphae tyrant intuitively senses and tracks all nearby fungi. The sense can distinguish between fungus creatures, features made of fungus, and creatures covered in spores.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +11 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\n\n</row>\n\n**Resistances**\r\nnegative 5\n\n**Spore Burst** ([healing](/Traits.aspx?ID=89), [negative](/Traits.aspx?ID=118)) When a hyphae tyrant dies, a burst of primal energy explodes from its body in a 30-foot emanation, restoring 3d8 to each fungus creature and dealing 3d8 negative damage (DC 20 basic Fortitude save) to each non-fungus creature in the area. This area is filled with fungus, becoming [difficult terrain](/Rules.aspx?ID=453).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+4 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspore pod +12 ([range increment 30 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d6+3 bludgeoning plus spores\r\n\r\n**Occult Prepared Spells** DC 21, attack +13\r\n- **Cantrips (2nd)**\r\n[Dancing Lights](/Spells.aspx?ID=58), [Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Lose the Path](/Spells.aspx?ID=940), [Ray of Enfeeblement](/Spells.aspx?ID=244)\r\n- **2nd**\r\n[Grim Tendrils](/Spells.aspx?ID=141)\r\n\r\n**Primal Innate Spells** DC 20\r\n- **2nd**\r\n[Protector Tree](/Spells.aspx?ID=976) (creates fungus)\r\n- **4th**\r\n[Speak with Plants](/Spells.aspx?ID=294)\r\n\r\n**Primal Rituals** DC 20\r\n\r\n- **2nd**\r\n_create mycoguardian_\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134), [Transmutation](/Traits.aspx?ID=157)) The hyphae tyrant transforms into a Small fungus. This ability otherwise uses the effects of [_tree shape_](/Spells.aspx?ID=342).\r\n\r\n**Spore Cloud** <actions string=\"Single Action\" /> ([Poison](/Traits.aspx?ID=126)) A hyphae tyrant unleashes a cloud of spores in a 20-foot emanation. Each non-fungi creature in this area must succeed at a DC 20 Fortitude save or take 2 [persistent poison damage](/Conditions.aspx?ID=29). A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (or 10 feet on a critical failure).\r\n\r\n**Spores**   A creature that takes damage from a hyphae tyrant's spore pod Strike must attempt a saving throw with the same DC and effect as its Spore Cloud ability.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Creating Mycoguardians</title>\r\n\r\nTo create a mycoguardian, such as a sporeborn, a ritualist can perform a ritual similar to [_create undead_](/Rituals.aspx?ID=10) called _create mycoguardian_, but providing valuable parasitic fungal spores instead of black onyx. This ritual uses Fungus Lore (trained) or Nature (expert) for both the Primary Check and Secondary Checks, and lacks the Evil trait.\r\n</aside>",
+ "name": "Hyphae Tyrant",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 86",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 13,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-02",
+ "resistance": {
+  "negative": 5
+ },
+ "resistance_markdown": "negative 5",
+ "resistance_raw": "negative 5",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 86\n\n<row gap=\"medium\">\r\n**HP** 60\r\n\r\n**AC** 20\r\n\r\n**Fort** +12\r\n\r\n**Ref** +13\r\n\r\n**Will** +11\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLeshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and …\r\n</summary>",
+ "sense": "darkvision, sporesense (imprecise) 60 feet",
+ "sense_markdown": "darkvision, sporesense (imprecise) 60 feet",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Athletics",
+  "Nature",
+  "Occultism",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +8, [Nature](/Skills.aspx?ID=10) +10, [Occultism](/Skills.aspx?ID=11) +10, [Stealth](/Skills.aspx?ID=15) +11",
+ "skill_mod": {
+  "athletics": 8,
+  "nature": 10,
+  "occultism": 10,
+  "stealth": 11
+ },
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 86"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 86",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Grim Tendrils",
+  "Lose the Path",
+  "Ray of Enfeeblement",
+  "Dancing Lights",
+  "Detect Magic",
+  "Speak with Plants",
+  "Protector Tree"
+ ],
+ "spell_markdown": "[Dancing Lights](/Spells.aspx?ID=58), [Detect Magic](/Spells.aspx?ID=66), [Grim Tendrils](/Spells.aspx?ID=141), [Lose the Path](/Spells.aspx?ID=940), [Protector Tree](/Spells.aspx?ID=976), [Ray of Enfeeblement](/Spells.aspx?ID=244), [Speak with Plants](/Spells.aspx?ID=294)",
+ "spell_attack_bonus": [
+  13
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  20,
+  21
+ ],
+ "spell_dc_scale": [
+  "Moderate",
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  3,
+  4
+ ],
+ "spoilers": "Sky King's Tomb",
+ "stealth": "11",
+ "strike_damage_average": [
+  7,
+  10
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Leshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and …",
+ "summary_markdown": "Leshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and …",
+ "text": " Hyphae Tyrant Leshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and explore the grimmer elements of fungi: decomposition and possession. Combining unethical experiments, mind-altering cordyceps spores, and occult magic fueled by their own victim narrative, a fungus leshy can transform into a hyphae tyrant, who in turn transforms corpses into sporeborn puppets to torment local fauna. These leshies' greatest tragedy is perhaps their own impermanence. As their agendas increasingly celebrate decay, a hyphae tyrant's spite and occult narrative slowly drain their life force, ultimately ending in a final burst of destructive energy. Recall Knowledge - Fungus (Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Hyphae Tyrant Source Pathfinder #193: Mantle of Gold pg. 86 Perception +11; darkvision, sporesense (imprecise) 60 feet Languages Common, Druidic, Sylvan, Undercommon; speak with plants (fungi only) Skills Athletics +8, Nature +10, Occultism +10, Stealth +11 Str +3 Dex +2 Con +4 Int +1 Wis +3 Cha +5 Sporesense (divination, primal)A hyphae tyrant intuitively senses and tracks all nearby fungi. The sense can distinguish between fungus creatures, features made of fungus, and creatures covered in spores. --- AC 20 Fort +12 Ref +13 Will +11 HP 60 Resistances negative 5 Spore Burst (healing, negative) When a hyphae tyrant dies, a burst of primal energy explodes from its body in a 30-foot emanation, restoring 3d8 to each fungus creature and dealing 3d8 negative damage (DC 20 basic Fortitude save) to each non-fungus creature in the area. This area is filled with fungus, becoming difficult terrain. --- Speed 25 feet Melee Single Action fist +10 (Agile, Finesse), Damage 1d6+4 bludgeoning Ranged Single Action spore pod +12 (range increment 30 feet), Damage 2d6+3 bludgeoning plus spores Occult Prepared Spells DC 21, attack +13 - Cantrips (2nd) Dancing Lights, Detect Magic - 1st Lose the Path, Ray of Enfeeblement - 2nd Grim Tendrils Primal Innate Spells DC 20 - 2nd Protector Tree (creates fungus) - 4th Speak with Plants Primal Rituals DC 20 - 2nd create mycoguardian Change Shape Single Action (Concentrate, Polymorph, Primal, Transmutation) The hyphae tyrant transforms into a Small fungus. This ability otherwise uses the effects of tree shape . Spore Cloud Single Action (Poison) A hyphae tyrant unleashes a cloud of spores in a 20-foot emanation. Each non-fungi creature in this area must succeed at a DC 20 Fortitude save or take 2 persistent poison damage. A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (or 10 feet on a critical failure). Spores A creature that takes damage from a hyphae tyrant's spore pod Strike must attempt a saving throw with the same DC and effect as its Spore Cloud ability. Creating Mycoguardians To create a mycoguardian, such as a sporeborn, a ritualist can perform a ritual similar to create undead called create mycoguardian , but providing valuable parasitic fungal spores instead of black onyx. This ritual uses Fungus Lore (trained) or Nature (expert) for both the Primary Check and Secondary Checks, and lacks the Evil trait. ",
+ "tradition": [
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Fungus",
+  "Leshy",
+  "Rare",
+  "NE",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Ancestry",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fungus](/Traits.aspx?ID=77), [Leshy](/Traits.aspx?ID=225), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Fungus",
+  "Leshy",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2602",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 11,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

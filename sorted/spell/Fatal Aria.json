@@ -1,67 +1,78 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
+ "heighten_group": [
+  "10th rank"
+ ],
  "heighten_level": [
   10
  ],
- "id": "spell-383",
+ "id": "spell-1765",
+ "legacy_id": "spell-383",
  "level": 10,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 10\" pfs=\"Standard\">[Fatal Aria](/Spells.aspx?ID=383)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 386 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou perform music so perfect that the target may die of joy or sorrow. Once targeted, the creature becomes temporarily immune for 1 minute. The effect of the spell depends on the target's level and current Hit Points. \n\n**16th or Lower** The target dies instantly. <br />**17th** If the target has 50 Hit Points or fewer, it dies instantly; otherwise, it drops to 0 Hit Points and becomes dying 1. <br />**18th or Higher** The target takes 50 damage. If this brings it to 0 Hit Points, it dies instantly.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 10\" pfs=\"Standard\">\r\n[Fatal Aria](/Spells.aspx?ID=1765)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 370\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou perform music so perfect that the target may die of joy or sorrow. Once targeted, the creature becomes temporarily immune for 1 minute. The effect of the spell depends on the target's level and current Hit Points.\n\n **16th or Lower** The target dies instantly.<br /> **17th** If the target has 50 Hit Points or fewer, it dies instantly; otherwise, it drops to 0 Hit Points and becomes [dying 1](/Conditions.aspx?ID=11).<br /> **18th or Higher** The target takes 50 damage. If this brings it to 0 Hit Points, it dies instantly.",
  "name": "Fatal Aria",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 370",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 386 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou perform music so perfect that the target may die of joy or sorrow. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 370\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou perform music so perfect that the target may die of joy or sorrow.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 386"
+  "Player Core pg. 370"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 386 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 370",
  "speed": {},
- "summary": "You perform music so perfect that the target may die of joy or sorrow. ",
- "summary_markdown": "You perform music so perfect that the target may die of joy or sorrow. ",
+ "spell_type": "Focus",
+ "summary": "You perform music so perfect that the target may die of joy or sorrow.",
+ "summary_markdown": "You perform music so perfect that the target may die of joy or sorrow.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Fatal Aria Source Core Rulebook pg. 386 4.0 Cast Single Action verbal Range 30 feet Target 1 creature --- You perform music so perfect that the target may die of joy or sorrow. Once targeted, the creature becomes temporarily immune for 1 minute. The effect of the spell depends on the target's level and current Hit Points. 16th or Lower The target dies instantly. 17th If the target has 50 Hit Points or fewer, it dies instantly; otherwise, it drops to 0 Hit Points and becomes dying 1. 18th or Higher The target takes 50 damage. If this brings it to 0 Hit Points, it dies instantly.",
+ "text": "\nFatal Aria Single Action Source Player Core pg. 370 Range 30 feet Target 1 creature --- You perform music so perfect that the target may die of joy or sorrow. Once targeted, the creature becomes temporarily immune for 1 minute. The effect of the spell depends on the target's level and current Hit Points. 16th or Lower The target dies instantly. 17th If the target has 50 Hit Points or fewer, it dies instantly; otherwise, it drops to 0 Hit Points and becomes dying 1. 18th or Higher The target takes 50 damage. If this brings it to 0 Hit Points, it dies instantly.",
  "tradition_markdown": "",
  "trait": [
   "Bard",
   "Composition",
+  "Concentrate",
   "Death",
   "Emotion",
-  "Enchantment",
+  "Focus",
   "Mental",
   "Uncommon"
  ],
- "trait_markdown": "[Bard](/Traits.aspx?ID=19), [Composition](/Traits.aspx?ID=31), [Death](/Traits.aspx?ID=40), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Class-Specific",
+  "Rarity"
+ ],
+ "trait_markdown": "[Bard](/Traits.aspx?ID=546), [Composition](/Traits.aspx?ID=31), [Concentrate](/Traits.aspx?ID=32), [Death](/Traits.aspx?ID=40), [Emotion](/Traits.aspx?ID=60), [Focus](/Traits.aspx?ID=511), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Bard",
   "Composition",
+  "Concentrate",
   "Death",
   "Emotion",
-  "Enchantment",
+  "Focus",
   "Mental",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=383",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1765",
  "weakness": {}
 }

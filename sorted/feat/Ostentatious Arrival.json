@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Ostentatious Arrival",
  "id": "feat-2913",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ostentatious Arrival](/Feats.aspx?ID=2913) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nIf the next action you take is to [Manifest your Eidolon](/Actions.aspx?ID=757) as a three-action activity, or to Cast a three-action summoning Spell, the creature appears in an explosion. All creatures in a 10-foot emanation around the creature you summoned or manifested take 1d4 fire damage per spell level for a summoning spell, or 1d4 damage per 2 levels for Manifesting your Eidolon. If the creature you summoned or manifested has the [acid](/Traits.aspx?ID=3), [cold](/Traits.aspx?ID=27), [electricity](/Traits.aspx?ID=56), [fire](/Traits.aspx?ID=72), [sonic](/Traits.aspx?ID=147), or [water](/Traits.aspx?ID=165) trait, the damage is that type instead (or cold damage for the water trait). If the creature has more than one of these traits, you choose which damage type to deal.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ostentatious Arrival](/Feats.aspx?ID=2913) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n</column>\r\n\r\n---\r\n\r\nIf the next action you take is to [Manifest your Eidolon](/Actions.aspx?ID=757) as a three-action activity, or to Cast a three-action summoning Spell, the creature appears in an explosion. All creatures in a 10-foot emanation around the creature you summoned or manifested take 1d4 fire damage per spell level for a summoning spell, or 1d4 damage per 2 levels for Manifesting your Eidolon. If the creature you summoned or manifested has the [acid](/Traits.aspx?ID=3), [cold](/Traits.aspx?ID=27), [electricity](/Traits.aspx?ID=56), [fire](/Traits.aspx?ID=72), [sonic](/Traits.aspx?ID=147), or [water](/Traits.aspx?ID=165) trait, the damage is that type instead (or cold damage for the water trait). If the creature has more than one of these traits, you choose which damage type to deal.",
  "name": "Ostentatious Arrival",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 69",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf the next action you take is to Manifest your Eidolon as a three-action activity, or to Cast a three-action summoning Spell, the creature appears in an explosion.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf the next action you take is to Manifest your Eidolon as a three-action activity, or to Cast a three-action summoning Spell, the creature appears in an explosion.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 69"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>",
  "speed": {},
  "summary": "If the next action you take is to Manifest your Eidolon as a three-action activity, or to Cast a three-action summoning Spell, the creature appears in an explosion.",
  "summary_markdown": "If the next action you take is to Manifest your Eidolon as a three-action activity, or to Cast a three-action summoning Spell, the creature appears in an explosion.",
@@ -32,7 +39,11 @@
   "Concentrate",
   "Manipulate",
   "Metamagic",
-  "Summoner"
+  "Summoner",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Metamagic](/Traits.aspx?ID=107), [Summoner](/Traits.aspx?ID=392)",
  "trait_raw": [

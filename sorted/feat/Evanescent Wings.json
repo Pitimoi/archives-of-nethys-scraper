@@ -1,34 +1,47 @@
 {
- "breadcrumbs_spa": [],
+ "actions": "Single Action",
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Evanescent Wings"
  ],
  "feat_markdown": "Evanescent Wings",
+ "frequency": "once per round",
  "id": "feat-2632",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Evanescent Wings](/Feats.aspx?ID=2632) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=238\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 130 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou've manifested wings that can flutter for brief spurts. You don't need to spend any additional actions to reach something in your space that a Medium creature could reach. For instance, if you wanted to open a cookie jar located four feet off the ground, you only need to spend a single Interact action to do so. When you use Evanescent Wings to flutter to a higher place in your space, your action gains the [move](/Traits.aspx?ID=114) trait.\n\n<title level=\"2\">Evanescent Wings leads to...</title>\r\n[Energize Wings](/Feats.aspx?ID=2639)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Evanescent Wings](/Feats.aspx?ID=2632) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=238\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 130 <sup>2.0</sup>\n\n**Frequency**\r\nonce per round\n\n</column>\r\n\r\n---\r\n\r\nYou've manifested wings that can flutter for brief spurts. You [Fly](/Actions.aspx?ID=2312). If you don't normally have a fly Speed, you gain a fly Speed of 15 feet for this movement. If you aren't on solid ground at the end of this movement, you fall.\n\n<title level=\"2\">Evanescent Wings leads to...</title>\r\n[Energize Wings](/Feats.aspx?ID=2639)",
  "name": "Evanescent Wings",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 130",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=238\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 130 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou've manifested wings that can flutter for brief spurts.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=238\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 130 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per round\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou've manifested wings that can flutter for brief spurts.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 130"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 130 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 130 <sup>2.0</sup>",
  "speed": {},
  "summary": "You've manifested wings that can flutter for brief spurts.",
  "summary_markdown": "You've manifested wings that can flutter for brief spurts.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Evanescent Wings Source Ancestry Guide pg. 130 2.0 --- You've manifested wings that can flutter for brief spurts. You don't need to spend any additional actions to reach something in your space that a Medium creature could reach. For instance, if you wanted to open a cookie jar located four feet off the ground, you only need to spend a single Interact action to do so. When you use Evanescent Wings to flutter to a higher place in your space, your action gains the move trait. Evanescent Wings leads to... Energize Wings",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Evanescent Wings Single Action Source Ancestry Guide pg. 130 2.0 Frequency once per round --- You've manifested wings that can flutter for brief spurts. You Fly. If you don't normally have a fly Speed, you gain a fly Speed of 15 feet for this movement. If you aren't on solid ground at the end of this movement, you fall. Evanescent Wings leads to... Energize Wings",
  "trait": [
   "Sprite"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry"
  ],
  "trait_markdown": "[Sprite](/Traits.aspx?ID=238)",
  "trait_raw": [

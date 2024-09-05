@@ -1,64 +1,115 @@
 {
  "ac": 17,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  6,
+  7,
+  7,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Blood of the Night"
  ],
  "creature_family": "Dhampir",
- "creature_family_markdown": "[Dhampir](/MonsterFamilies.aspx?ID=31)",
+ "creature_family_markdown": "[Dhampir](/MonsterFamilies.aspx?ID=390)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 4,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
  "hp": 22,
- "hp_raw": "22 ( negative healing )",
- "id": "creature-116",
+ "hp_raw": "22 ( void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2913",
  "image": [
-  "/Images/Monsters/Dhampir_DhampirWizard.png"
+  "/Images/Monsters/Dhampir_Wizard.webp"
  ],
  "intelligence": 4,
+ "intelligence_scale": "High",
+ "intelligence_scale_number": 4,
+ "item": [
+  "Dagger",
+  "spellbook containing their prepared spells",
+  "Staff"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-116",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Dhampir Wizard](/Monsters.aspx?ID=116)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis dhampir is a svetocher, the child of a moroi vampire.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dhampir_DhampirWizard.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Dhampir Wizard](/Monsters.aspx?ID=116)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dhampir\" url=\"/Traits.aspx?ID=215\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 95</row>\n\n**Perception** +4; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Arcana](/Skills.aspx?ID=2) +8, [Deception](/Skills.aspx?ID=5) +5, [Intimidation](/Skills.aspx?ID=7) +5, [Society](/Skills.aspx?ID=14) +8, [Stealth](/Skills.aspx?ID=15) +7, [Vampire Lore](/Skills.aspx?ID=8) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +4\r\n\r\n**Wis** +0\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), [Staff](/Weapons.aspx?ID=12), [spellbook containing their prepared spells](/Equipment.aspx?ID=53)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +6 \r\n\r\n+2 circumstance to all saves vs. disease\r\n</row>\r\n\r\n**HP** 22\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Blood of the Night** The dhampir’s penalty and Hit Point reduction from the drained condition are reduced as though the condition value were 1 lower.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+2 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +6 ([two-handed d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d4+2 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +7 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+2 piercing\r\n\r\n**Arcane Prepared Spells** DC 18, attack +8\r\n- **Cantrips (1st)**\r\n[Chill Touch](/Spells.aspx?ID=35), [Detect Magic](/Spells.aspx?ID=66), [Prestidigitation](/Spells.aspx?ID=229), [Ray of Frost](/Spells.aspx?ID=245), [Shield](/Spells.aspx?ID=280)\r\n- **1st**\r\n[Command](/Spells.aspx?ID=45), [Grim Tendrils](/Spells.aspx?ID=141) (x2), [Magic Missile](/Spells.aspx?ID=180)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-31\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Dhampir Wizard](/NPCs.aspx?ID=2913)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis dhampir is a svetocher, the child of a [moroi vampire](/MonsterFamilies.aspx?ID=480).\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dhampir_Wizard.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Dhampir Wizard](/NPCs.aspx?ID=2913)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dhampir\" url=\"/Traits.aspx?ID=750\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=627\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 95\n\n**Perception** +4; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Arcana](/Skills.aspx?ID=2) +8, [Deception](/Skills.aspx?ID=5) +5, [Intimidation](/Skills.aspx?ID=7) +5, [Society](/Skills.aspx?ID=14) +8, [Stealth](/Skills.aspx?ID=15) +7, [Vampire Lore](/Skills.aspx?ID=8) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +4\r\n\r\n**Wis** +0\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), spellbook containing their prepared spells, [Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +6 \r\n\r\n+2 circumstance to all saves vs. [disease](/Traits.aspx?ID=578)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 22\r\n([void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\n\n**Blood of the Night** The dhampir's penalty and Hit Point reduction from the [drained](/Conditions.aspx?ID=68) condition are reduced as though the condition value were 1 lower.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+2 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +6 ([two-handed d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d4+2 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +7 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+2 piercing\r\n\r\n**Arcane Prepared Spells** DC 18, attack +8\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Frostbite](/Spells.aspx?ID=1539), [Prestidigitation](/Spells.aspx?ID=229), [Shield](/Spells.aspx?ID=280), [Void Warp](/Spells.aspx?ID=1745)\r\n- **1st**\r\n[Command](/Spells.aspx?ID=45), [Force Barrage](/Spells.aspx?ID=1536), [Grim Tendrils](/Spells.aspx?ID=141) (×2)\n\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">Dhampir Dwellings</title>\r\n\r\nMost dhampirs make their homes in urban areas, though some more reclusive individuals claim ruins or dungeons as their domains. Those few who maintain a connection with a vampire parent may be found living under that parent's roof and even inheriting an estate after the vampire meets an untimely end.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-390\" />",
  "name": "Dhampir Wizard",
- "npc": false,
+ "npc": true,
  "perception": 4,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 95",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Dhampir\" url=\"/Traits.aspx?ID=215\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 95</row>\r\n\r\n**Creature Family** [Dhampir](/MonsterFamilies.aspx?ID=31)\r\n\r\n<row gap=\"medium\">\r\n**HP** 22 ( negative healing )\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +6\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis dhampir is a svetocher, the child of a moroi vampire.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dhampir\" url=\"/Traits.aspx?ID=750\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=627\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 95\r\n\r\n**Creature Family** [Dhampir](/MonsterFamilies.aspx?ID=390)\r\n\r\n<row gap=\"medium\">\r\n**HP** 22 ( void healing )\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +6\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis dhampir is a svetocher, the child of a  moroi vampire .\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +7",
-  "Arcana +8",
-  "Deception +5",
-  "Intimidation +5",
-  "Society +8",
-  "Stealth +7",
-  "Vampire Lore +8"
+  "Acrobatics",
+  "Arcana",
+  "Deception",
+  "Intimidation",
+  "Society",
+  "Stealth",
+  "Vampire Lore"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +7, [Arcana](/Skills.aspx?ID=2) +8, [Deception](/Skills.aspx?ID=5) +5, [Intimidation](/Skills.aspx?ID=7) +5, [Society](/Skills.aspx?ID=14) +8, [Stealth](/Skills.aspx?ID=15) +7, [Vampire Lore](/Skills.aspx?ID=8) +8",
+ "skill_mod": {
+  "acrobatics": 7,
+  "arcana": 8,
+  "deception": 5,
+  "intimidation": 5,
+  "society": 8,
+  "stealth": 7
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 95"
+  "Monster Core pg. 95"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 95</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 95",
  "speed": {
   "land": 25,
   "max": 25
@@ -67,39 +118,81 @@
  "speed_raw": "25 feet",
  "spell": [
   "Command",
+  "Force Barrage",
   "Grim Tendrils",
-  "Magic Missile",
-  "Chill Touch",
   "Detect Magic",
+  "Frostbite",
   "Prestidigitation",
-  "Ray of Frost",
-  "Shield"
+  "Shield",
+  "Void Warp"
  ],
- "spell_markdown": "[Chill Touch](/Spells.aspx?ID=35), [Command](/Spells.aspx?ID=45), [Detect Magic](/Spells.aspx?ID=66), [Grim Tendrils](/Spells.aspx?ID=141), [Magic Missile](/Spells.aspx?ID=180), [Prestidigitation](/Spells.aspx?ID=229), [Ray of Frost](/Spells.aspx?ID=245), [Shield](/Spells.aspx?ID=280)",
+ "spell_markdown": "[Command](/Spells.aspx?ID=45), [Detect Magic](/Spells.aspx?ID=66), [Force Barrage](/Spells.aspx?ID=1536), [Frostbite](/Spells.aspx?ID=1539), [Grim Tendrils](/Spells.aspx?ID=141), [Prestidigitation](/Spells.aspx?ID=229), [Shield](/Spells.aspx?ID=280), [Void Warp](/Spells.aspx?ID=1745)",
+ "spell_attack_bonus": [
+  8
+ ],
+ "spell_attack_bonus_scale": [
+  "Moderate"
+ ],
+ "spell_attack_bonus_scale_number": [
+  3
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "7",
+ "strike_damage_average": [
+  4,
+  4,
+  4,
+  5
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "This dhampir is a svetocher, the child of a moroi vampire.",
- "summary_markdown": "This dhampir is a svetocher, the child of a moroi vampire.",
- "text": " Dhampir Wizard This dhampir is a svetocher, the child of a moroi vampire. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Dhampir Wizard Source Bestiary pg. 95 Perception +4; darkvision Languages Common, Necril Skills Acrobatics +7, Arcana +8, Deception +5, Intimidation +5, Society +8, Stealth +7, Vampire Lore +8 Str +2 Dex +3 Con +0 Int +4 Wis +0 Cha +1 Items Dagger, Staff, spellbook containing their prepared spells --- AC 17 Fort +4 Ref +7 Will +6 +2 circumstance to all saves vs. disease HP 22 (negative healing) Blood of the Night The dhampir’s penalty and Hit Point reduction from the drained condition are reduced as though the condition value were 1 lower. --- Speed 25 feet Melee Single Action dagger +7 (Agile, Finesse, versatile S), Damage 1d4+2 piercing Melee Single Action staff +6 (two-handed d8), Damage 1d6+2 bludgeoning Melee Single Action fist +7 (Agile, Finesse, Nonlethal), Damage 1d4+2 bludgeoning Ranged Single Action dagger +7 (Agile, thrown 10 feet, versatile S), Damage 1d4+2 piercing Arcane Prepared Spells DC 18, attack +8 - Cantrips (1st) Chill Touch, Detect Magic, Prestidigitation, Ray of Frost, Shield - 1st Command, Grim Tendrils (x2), Magic Missile\n",
+ "summary": "This dhampir is a svetocher, the child of a  moroi vampire .",
+ "summary_markdown": "This dhampir is a svetocher, the child of a  moroi vampire .",
+ "text": " Dhampir Wizard This dhampir is a svetocher, the child of a moroi vampire. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Dhampir Wizard Source Monster Core pg. 95 Perception +4; darkvision Languages Common, Necril Skills Acrobatics +7, Arcana +8, Deception +5, Intimidation +5, Society +8, Stealth +7, Vampire Lore +8 Str +2 Dex +3 Con +0 Int +4 Wis +0 Cha +1 Items Dagger, spellbook containing their prepared spells, Staff --- AC 17 Fort +4 Ref +7 Will +6 +2 circumstance to all saves vs. disease HP 22 (void healing) Blood of the Night The dhampir's penalty and Hit Point reduction from the drained condition are reduced as though the condition value were 1 lower. --- Speed 25 feet Melee Single Action dagger +7 (Agile, Finesse, versatile S), Damage 1d4+2 piercing Melee Single Action staff +6 (two-handed d8), Damage 1d6+2 bludgeoning Melee Single Action fist +7 (Agile, Finesse, Nonlethal), Damage 1d4+2 bludgeoning Ranged Single Action dagger +7 (Agile, thrown 10 feet, versatile S), Damage 1d4+2 piercing Arcane Prepared Spells DC 18, attack +8 - Cantrips (1st) Detect Magic, Frostbite, Prestidigitation, Shield, Void Warp - 1st Command, Force Barrage, Grim Tendrils (×2) Dhampir Dwellings Most dhampirs make their homes in urban areas, though some more reclusive individuals claim ruins or dungeons as their domains. Those few who maintain a connection with a vampire parent may be found living under that parent's roof and even inheriting an estate after the vampire meets an untimely end. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
   "Dhampir",
   "Human",
   "Humanoid",
-  "NE",
   "Medium"
  ],
- "trait_markdown": "[Dhampir](/Traits.aspx?ID=215), [Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Dhampir](/Traits.aspx?ID=750), [Human](/Traits.aspx?ID=627), [Humanoid](/Traits.aspx?ID=628)",
  "trait_raw": [
   "Dhampir",
   "Human",
   "Humanoid"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=116",
+ "url": "/NPCs.aspx?ID=2913",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -107,5 +200,9 @@
  ],
  "weakness": {},
  "will_save": 6,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

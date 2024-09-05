@@ -1,10 +1,27 @@
 {
  "ac": 21,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  13,
+  15,
+  15
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Red Cap",
   "Divine Revulsion",
@@ -14,53 +31,89 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 11,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 60,
  "hp_raw": "60 ( fast healing  10)",
- "id": "creature-349",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3165",
  "image": [
   "/Images/Monsters/Redcap.png"
  ],
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Halberd",
+  "iron boots",
+  "red cap",
+  "Sickle"
+ ],
  "language": [
   "Common",
-  "Sylvan"
+  "Fey"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Sylvan](/Languages.aspx?ID=10)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119)",
+ "legacy_id": "creature-349",
  "level": 5,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Redcap](/Monsters.aspx?ID=349)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nRedcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, redcap women are no less fearsome or cruel. Redcaps are ultimately craven bullies, cowed by anything more powerful than themselves, a trait that leads them to fear and despise the symbols of good deities. Many fairy tales explain how the redcaps draw power from dipping the hats for which they are named in fresh blood. Just as iconic to these cruel little fey are their iron-clad boots, and the clanging sound of their metal soles clanking on stone floors is both discordant and disconcerting— especially to those who recognize the sound for what it is. Redcaps typically stand only 3 feet tall, with hunched frames, pointed ears, crooked teeth, and long, white, tangled hair.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Redcap.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Redcap](/Monsters.aspx?ID=349)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 278</row>\n\n**Perception** +12; low-light vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +15, [Deception](/Skills.aspx?ID=5) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Nature](/Skills.aspx?ID=10) +10, [Stealth](/Skills.aspx?ID=15) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Red Cap** ([necromancy](/Traits.aspx?ID=117), [primal](/Traits.aspx?ID=134)) A redcap’s woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a –4 status penalty to its damage rolls. It can create a new cap in 10 minutes, but that cap doesn’t grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for creatures other than the redcap who made it.\r\n\r\n**Items**\r\niron boots, red cap, [Scythe](/Weapons.aspx?ID=39)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 60\r\n([fast healing](/MonsterAbilities.aspx?ID=15) 10)\n\n**Weaknesses**\r\ncold iron 5, divine revulsion\r\n\r\n**Divine Revulsion** ([emotion](/Traits.aspx?ID=60), [fear](/Traits.aspx?ID=68), [mental](/Traits.aspx?ID=106)) If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.<br /> **Critical Success** The redcap is unaffected.<br /> **Success** The redcap is frightened 2.<br /> **Failure** The redcap gains the fleeing condition for 1 round and is frightened 4.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nscythe +15 ([deadly 1d10](/Traits.aspx?ID=174), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d10+10 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nboot +13 ([Agile](/Traits.aspx?ID=170), [versatile B](/Traits.aspx?ID=200)),\r\n**Damage** 1d6+8 piercing\n\n**Blood Soak** <actions string=\"Single Action\" /> ([Manipulate](/Traits.aspx?ID=104)) The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute.\r\n\r\n**Deadly Cleave** <actions string=\"Reaction\" />  **Trigger** The redcap reduces a creature to 0 Hit Points with a scythe Strike. **Effect** The redcap makes another scythe Strike against a different creature, using the same multiple attack penalty as the scythe Strike that triggered this reaction. This counts toward its multiple attack penalty.\r\n\r\n**Stomp** <actions string=\"Single Action\" />  The redcap Strides up to half its Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a [prone](/Conditions.aspx?ID=31) creature, it deals an extra 2d6 persistent bleed damage.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">Redcap Locations</title>\r\n\r\nUnlike some fey, redcaps don't embody a particular natural feature or environment, so they can be found almost anywhere. They tend to prefer areas that allow them to hide or at least get behind cover with their quick movement, such as forests, mountains, and underground tunnels and caverns.\r\n</aside>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Redcap Treasure</title>\r\n\r\nA redcap's boots and cap are of little value to other creatures, but it carries a scythe and various valuable trophies from its kills.\r\n</aside>",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Redcap](/Monsters.aspx?ID=3165)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nRedcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, redcaps of other genders are no less fearsome or cruel. However, redcaps are ultimately craven bullies, cowed by anything more powerful than themselves, a trait that leads them to fear and despise the symbols of deities.\n\n Many fairy tales explain how the redcaps draw power from dipping the hats for which they are named in fresh blood. Just as iconic to these cruel little fey are their iron-clad boots, and the clanging sound of their metal soles clanking on stone floors is both discordant and disconcerting—especially to those who recognize the sound for what it is. Redcaps typically stand only 3 feet tall, with hunched frames, pointed ears, crooked teeth, and long, white, tangled hair. Though unlikely to share true affection, redcaps find camaraderie in murder. Small troupes of redcaps travel together, sharing bloody kills and reminiscing on their brutal exploits. They loathe the company of most other creatures, with the notable exception of the feline fey called [elananxes](/Monsters.aspx?ID=2972).\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Redcap.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Redcap](/Monsters.aspx?ID=3165)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 290\n\n**Perception** +12; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +15, [Deception](/Skills.aspx?ID=5) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Nature](/Skills.aspx?ID=10) +10, [Stealth](/Skills.aspx?ID=15) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Red Cap** ([primal](/Traits.aspx?ID=676)) A redcap's woolen hat is dyed with the blood of their victims. If the redcap loses their cap, they no longer benefit from [fast healing](/MonsterAbilities.aspx?ID=62) and take a –4 status penalty to their damage rolls. They can create a new cap in 10 minutes, but that cap doesn't grant them powers until the redcap has turned it red with Blood Soak. A cap has no benefit for creatures other than the redcap who made it.\r\n\r\n**Items**\r\n[Halberd](/Weapons.aspx?ID=26), iron boots, red cap, [Sickle](/Weapons.aspx?ID=9)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\r\n([fast healing](/MonsterAbilities.aspx?ID=62) 10)\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 5, divine revulsion\r\n\r\n**Divine Revulsion** ([emotion](/Traits.aspx?ID=590), [fear](/Traits.aspx?ID=598), [mental](/Traits.aspx?ID=647)) If a redcap sees a creature brandish a religious symbol of a deity (which requires an Interact action by that creature) or cast a divine spell while wearing a religious symbol, the redcap must attempt a DC 19 Will save. They then become temporarily immune to all brandished religious symbols for 10 minutes.<br />**Critical Success** The redcap is unaffected.\n\n**Success** The redcap is [frightened 2](/Conditions.aspx?ID=76).\n\n**Failure** The redcap gains the [fleeing](/Conditions.aspx?ID=74) condition for 1 round and is frightened 4.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhalberd +15 ([reach 10 feet](/Traits.aspx?ID=192), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d10+10 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsickle +15 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d4+10 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\niron boot +13 ([Agile](/Traits.aspx?ID=170), [versatile B](/Traits.aspx?ID=200)),\r\n**Damage** 1d6+8 piercing\n\n**Blood Soak** <actions string=\"Single Action\" /> ([Manipulate](/Traits.aspx?ID=104)) The redcap dips their cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute.\r\n\r\n**Deadly Cleave** <actions string=\"Reaction\" />  **Trigger** The redcap reduces a creature to 0 Hit Points with a sickle Strike; **Effect** The redcap makes another scythe Strike against a different creature, using the same multiple attack penalty as the sickle Strike that triggered this reaction. This counts toward their multiple attack penalty.\r\n\r\n**Stomp** <actions string=\"Single Action\" />  The redcap Strides up to half their Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a [prone](/Conditions.aspx?ID=88) creature, it deals an extra 2d6 [persistent bleed damage](/Conditions.aspx?ID=29).\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">Stomping Ground</title>\r\n\r\nUnlike some fey, redcaps don't embody a particular natural feature or environment, so they can be found almost anywhere. They tend to prefer areas that allow them to hide or at least get behind cover with their quick movement, such as forests, mountains, and underground tunnels and caverns. Sometimes they take up residence in abandoned buildings, especially barns and sheds.\r\n</aside>",
  "name": "Redcap",
  "npc": false,
  "perception": 12,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 290",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 15,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 278</row>\n\n<row gap=\"medium\">\r\n**HP** 60 ( fast healing  10)\r\n\r\n**AC** 21\r\n\r\n**Fort** +11\r\n\r\n**Ref** +15\r\n\r\n**Will** +10\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRedcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, …\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 290\n\n<row gap=\"medium\">\r\n**HP** 60 ( fast healing  10)\r\n\r\n**AC** 21\r\n\r\n**Fort** +11\r\n\r\n**Ref** +15\r\n\r\n**Will** +10\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRedcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Acrobatics +13",
-  "Athletics +15",
-  "Deception +11",
-  "Intimidation +13",
-  "Nature +10",
-  "Stealth +13"
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Nature",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +15, [Deception](/Skills.aspx?ID=5) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Nature](/Skills.aspx?ID=10) +10, [Stealth](/Skills.aspx?ID=15) +13",
+ "skill_mod": {
+  "acrobatics": 13,
+  "athletics": 15,
+  "deception": 11,
+  "intimidation": 13,
+  "nature": 10,
+  "stealth": 13
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 278"
+  "Monster Core pg. 290"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 278</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 290",
  "speed": {
   "land": 50,
   "max": 50
@@ -69,25 +122,43 @@
  "speed_raw": "50 feet",
  "spell_markdown": "",
  "stealth": "13",
+ "strike_damage_average": [
+  11,
+  12,
+  15
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "Redcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, …",
  "summary_markdown": "Redcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, …",
- "text": " Redcap Redcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, redcap women are no less fearsome or cruel. Redcaps are ultimately craven bullies, cowed by anything more powerful than themselves, a trait that leads them to fear and despise the symbols of good deities. Many fairy tales explain how the redcaps draw power from dipping the hats for which they are named in fresh blood. Just as iconic to these cruel little fey are their iron-clad boots, and the clanging sound of their metal soles clanking on stone floors is both discordant and disconcerting— especially to those who recognize the sound for what it is. Redcaps typically stand only 3 feet tall, with hunched frames, pointed ears, crooked teeth, and long, white, tangled hair. Recall Knowledge - Fey (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Redcap Source Bestiary pg. 278 Perception +12; low-light vision Languages Common, Sylvan Skills Acrobatics +13, Athletics +15, Deception +11, Intimidation +13, Nature +10, Stealth +13 Str +4 Dex +4 Con +2 Int +1 Wis +1 Cha +2 Red Cap (necromancy, primal) A redcap’s woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a –4 status penalty to its damage rolls. It can create a new cap in 10 minutes, but that cap doesn’t grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for creatures other than the redcap who made it. Items iron boots, red cap, Scythe --- AC 21 Fort +11 Ref +15 Will +10 HP 60 (fast healing 10) Weaknesses cold iron 5, divine revulsion Divine Revulsion (emotion, fear, mental) If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes. Critical Success The redcap is unaffected. Success The redcap is frightened 2. Failure The redcap gains the fleeing condition for 1 round and is frightened 4. --- Speed 50 feet Melee Single Action scythe +15 (deadly 1d10, Trip), Damage 1d10+10 slashing Melee Single Action boot +13 (Agile, versatile B), Damage 1d6+8 piercing Blood Soak Single Action (Manipulate) The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute. Deadly Cleave Reaction Trigger The redcap reduces a creature to 0 Hit Points with a scythe Strike. Effect The redcap makes another scythe Strike against a different creature, using the same multiple attack penalty as the scythe Strike that triggered this reaction. This counts toward its multiple attack penalty. Stomp Single Action The redcap Strides up to half its Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a prone creature, it deals an extra 2d6 persistent bleed damage. Redcap Locations Unlike some fey, redcaps don't embody a particular natural feature or environment, so they can be found almost anywhere. They tend to prefer areas that allow them to hide or at least get behind cover with their quick movement, such as forests, mountains, and underground tunnels and caverns. Redcap Treasure A redcap's boots and cap are of little value to other creatures, but it carries a scythe and various valuable trophies from its kills. ",
+ "text": " Redcap Redcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, redcaps of other genders are no less fearsome or cruel. However, redcaps are ultimately craven bullies, cowed by anything more powerful than themselves, a trait that leads them to fear and despise the symbols of deities. Many fairy tales explain how the redcaps draw power from dipping the hats for which they are named in fresh blood. Just as iconic to these cruel little fey are their iron-clad boots, and the clanging sound of their metal soles clanking on stone floors is both discordant and disconcerting—especially to those who recognize the sound for what it is. Redcaps typically stand only 3 feet tall, with hunched frames, pointed ears, crooked teeth, and long, white, tangled hair. Though unlikely to share true affection, redcaps find camaraderie in murder. Small troupes of redcaps travel together, sharing bloody kills and reminiscing on their brutal exploits. They loathe the company of most other creatures, with the notable exception of the feline fey called elananxes. Recall Knowledge - Fey (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Redcap Source Monster Core pg. 290 Perception +12; low-light vision Languages Common, Fey Skills Acrobatics +13, Athletics +15, Deception +11, Intimidation +13, Nature +10, Stealth +13 Str +4 Dex +4 Con +2 Int +1 Wis +1 Cha +2 Red Cap (primal) A redcap's woolen hat is dyed with the blood of their victims. If the redcap loses their cap, they no longer benefit from fast healing and take a –4 status penalty to their damage rolls. They can create a new cap in 10 minutes, but that cap doesn't grant them powers until the redcap has turned it red with Blood Soak. A cap has no benefit for creatures other than the redcap who made it. Items Halberd, iron boots, red cap, Sickle --- AC 21 Fort +11 Ref +15 Will +10 HP 60 (fast healing 10) Weaknesses cold iron 5, divine revulsion Divine Revulsion (emotion, fear, mental) If a redcap sees a creature brandish a religious symbol of a deity (which requires an Interact action by that creature) or cast a divine spell while wearing a religious symbol, the redcap must attempt a DC 19 Will save. They then become temporarily immune to all brandished religious symbols for 10 minutes. Critical Success The redcap is unaffected. Success The redcap is frightened 2. Failure The redcap gains the fleeing condition for 1 round and is frightened 4. --- Speed 50 feet Melee Single Action halberd +15 (reach 10 feet, versatile S), Damage 1d10+10 slashing Melee Single Action sickle +15 (Agile, Finesse, Trip), Damage 1d4+10 slashing Melee Single Action iron boot +13 (Agile, versatile B), Damage 1d6+8 piercing Blood Soak Single Action (Manipulate) The redcap dips their cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute. Deadly Cleave Reaction Trigger The redcap reduces a creature to 0 Hit Points with a sickle Strike; Effect The redcap makes another scythe Strike against a different creature, using the same multiple attack penalty as the sickle Strike that triggered this reaction. This counts toward their multiple attack penalty. Stomp Single Action The redcap Strides up to half their Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a prone creature, it deals an extra 2d6 persistent bleed damage. Stomping Ground Unlike some fey, redcaps don't embody a particular natural feature or environment, so they can be found almost anywhere. They tend to prefer areas that allow them to hide or at least get behind cover with their quick movement, such as forests, mountains, and underground tunnels and caverns. Sometimes they take up residence in abandoned buildings, especially barns and sheds. ",
+ "tradition_markdown": "",
  "trait": [
   "Fey",
-  "CE",
   "Small"
  ],
- "trait_markdown": "[Fey](/Traits.aspx?ID=69)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599)",
  "trait_raw": [
   "Fey"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=349",
+ "url": "/Monsters.aspx?ID=3165",
  "vision": "Low-light vision",
  "weakest_save": [
   "will"
@@ -95,8 +166,12 @@
  "weakness": {
   "cold_iron": 5
  },
- "weakness_markdown": "cold iron 5, divine revulsion",
- "weakness_raw": "cold iron 5, divine revulsion",
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 5, divine revulsion",
+ "weakness_raw": " cold iron  5, divine revulsion",
  "will_save": 10,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

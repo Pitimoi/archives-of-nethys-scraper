@@ -1,37 +1,45 @@
 {
  "archetype": [
-  "Wizard"
+  "Wizard",
+  "Spellshot"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Advanced Arcana"
  ],
  "feat_markdown": "Advanced Arcana",
- "id": "feat-746",
+ "id": "feat-5110",
+ "legacy_id": "feat-746",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Advanced Arcana](/Feats.aspx?ID=746) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 231 <sup>4.0</sup></row>\n\n**Archetype** [Wizard](/Archetypes.aspx?ID=12)\n\n**Prerequisites**\r\n[Basic Arcana](/Feats.aspx?ID=744)\n\n</column>\r\n\r\n---\r\n\r\nYou gain one [wizard feat](/Classes.aspx?ID=12/feats). For the purpose of meeting its prerequisites, your wizard level is equal to half your character level.\n\n**Special** You can select this feat more than once. Each time you select it, you gain another wizard feat.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Advanced Arcana](/Feats.aspx?ID=5110) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 223\n\n**Archetypes** [Wizard](/Archetypes.aspx?ID=218), [Spellshot](/Archetypes.aspx?ID=122) (Level 6)\n\n**Prerequisites**\r\n[Basic Arcana](/Feats.aspx?ID=5108)\n\n</column>\r\n\r\n---\r\n\r\nYou gain one wizard feat. For the purpose of meeting its prerequisites, your wizard level is equal to half your character level.\n\n**Special** You can select this feat more than once. Each time you select it, you gain another wizard feat.",
  "name": "Advanced Arcana",
  "pfs": "Standard",
  "prerequisite": "Basic Arcana",
- "prerequisite_markdown": "[Basic Arcana](/Feats.aspx?ID=744)",
+ "prerequisite_markdown": "[Basic Arcana](/Feats.aspx?ID=5108)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 223",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 231 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[Basic Arcana](/Feats.aspx?ID=744)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain one wizard feat.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 223\n\n**Prerequisites**\r\n[Basic Arcana](/Feats.aspx?ID=5108)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain one wizard feat.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 231"
+  "Player Core pg. 223"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 231 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 223",
  "speed": {},
  "summary": "You gain one wizard feat.",
  "summary_markdown": "You gain one wizard feat.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Advanced Arcana Source Core Rulebook pg. 231 4.0 Archetype Wizard Prerequisites Basic Arcana --- You gain one wizard feat. For the purpose of meeting its prerequisites, your wizard level is equal to half your character level. Special You can select this feat more than once. Each time you select it, you gain another wizard feat.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Advanced Arcana Source Player Core pg. 223 Archetypes Wizard, Spellshot (Level 6) Prerequisites Basic Arcana --- You gain one wizard feat. For the purpose of meeting its prerequisites, your wizard level is equal to half your character level. Special You can select this feat more than once. Each time you select it, you gain another wizard feat.",
  "trait": [
   "Archetype"
  ],
@@ -40,6 +48,6 @@
   "Archetype"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=746",
+ "url": "/Feats.aspx?ID=5110",
  "weakness": {}
 }

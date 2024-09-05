@@ -1,63 +1,84 @@
 {
  "actions": "10 minutes",
- "area": "100-foot burst",
+ "actions_number": 600,
+ "area": [
+  100
+ ],
+ "area_raw": "100-foot burst",
+ "area_type": [
+  "burst"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
-  "material",
-  "somatic",
-  "verbal"
+  "10 minutes"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
- "duration_raw": "until the next time you make your daily preparations",
+ "duration_raw": "until your next daily preparations",
  "exclude_from_search": false,
+ "heighten_group": [
+  "5th rank"
+ ],
  "heighten_level": [
   5
  ],
- "id": "spell-109",
+ "id": "spell-1522",
+ "legacy_id": "spell-109",
  "level": 5,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 5\" pfs=\"Standard\">[False Vision](/Spells.aspx?ID=109)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n**Area** 100-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a false image that fools any attempts to scry on an area. Any scrying spell sees, hears, smells, and otherwise detects whatever you wish within the area, rather than what is actually in the area. You can Sustain the Spell each round to change the illusion as you desire, including playing out a complex scene. If the scrying spell is of a higher level than _false vision_, the scryer can attempt a Perception check to disbelieve the illusion, though even if they're successful, they can't learn what's truly going on in the area.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 5\" pfs=\"Standard\">\r\n[False Vision](/Spells.aspx?ID=1522)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 330\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n**Area** 100-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a false image that fools any attempts to scry on an area. Any [scrying](/Traits.aspx?ID=141) spell sees, hears, smells, and otherwise detects whatever you wish within the area, rather than what is actually in the area. You can Sustain the spell each round to change the illusion as you desire, including playing out a complex scene. If the scrying spell is of a higher rank than _false vision_, the scryer can attempt a Perception check to disbelieve the illusion, though even if they're successful, they can't learn what's truly going on in the area.",
  "name": "False Vision",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 330",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n**Area** 100-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the next time you make your daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTrick a scrying spell.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 330\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n**Area** 100-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTrick a scrying spell.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 337"
+  "Player Core pg. 330"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 330",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Trick a scrying spell.",
  "summary_markdown": "Trick a scrying spell.",
- "text": " False Vision Source Core Rulebook pg. 337 4.0 Traditions Arcane, Occult Cast 10 minutes (material, somatic, verbal) Range touch Area 100-foot burst Duration until the next time you make your daily preparations --- You create a false image that fools any attempts to scry on an area. Any scrying spell sees, hears, smells, and otherwise detects whatever you wish within the area, rather than what is actually in the area. You can Sustain the Spell each round to change the illusion as you desire, including playing out a complex scene. If the scrying spell is of a higher level than false vision , the scryer can attempt a Perception check to disbelieve the illusion, though even if they're successful, they can't learn what's truly going on in the area.",
+ "text": "\nFalse Vision Source Player Core pg. 330 Traditions Arcane, Occult Cast 10 minutes Range touch Area 100-foot burst Duration until your next daily preparations --- You create a false image that fools any attempts to scry on an area. Any scrying spell sees, hears, smells, and otherwise detects whatever you wish within the area, rather than what is actually in the area. You can Sustain the spell each round to change the illusion as you desire, including playing out a complex scene. If the scrying spell is of a higher rank than false vision , the scryer can attempt a Perception check to disbelieve the illusion, though even if they're successful, they can't learn what's truly going on in the area.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Illusion",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Illusion](/Traits.aspx?ID=92), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
+  "Concentrate",
   "Illusion",
+  "Manipulate",
   "Uncommon"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=109",
+ "url": "/Spells.aspx?ID=1522",
  "weakness": {}
 }

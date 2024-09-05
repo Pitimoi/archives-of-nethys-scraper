@@ -1,0 +1,153 @@
+{
+ "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  16,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Deep Breath",
+  "Sensitive Echolocation",
+  "Auditory Hunter",
+  "Bubble Burst",
+  "Pull Under",
+  "Resonant Jaws"
+ ],
+ "creature_family": "Dischoran",
+ "creature_family_markdown": "[Dischoran](/MonsterFamilies.aspx?ID=490)",
+ "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 110,
+ "hp_raw": "110",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3268",
+ "immunity": [
+  "visual"
+ ],
+ "immunity_markdown": "[visual](/Traits.aspx?ID=727)",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"\">[Drthak](/Monsters.aspx?ID=3268)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDrthaks are aquatic predators with long trailing fins that are rarely seen, clinging to coasts and estuaries where the high silt content makes them practically invisible to predators and prey alike. Some have been known to come inland, tracking their prey miles upriver before striking. The underwater environment alters the typical dischoran hunting behavior, with drthaks creating bubbles that implode to stun prey.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Drthak](/Monsters.aspx?ID=3268)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 140\n\n**Perception** +15; no vision, sensitive echolocation ([precise](/Rules.aspx?ID=411)) 120 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +16, [Stealth](/Skills.aspx?ID=48) +17, [Survival](/Skills.aspx?ID=49) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** -3\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Deep Breath** The drthak can [hold its breath](/Rules.aspx?ID=2436) for about 2 hours.<br />**Sensitive Echolocation** The drthak can use its hearing as a [precise sense](/Rules.aspx?ID=411) with the listed range. If the drthak takes sonic damage beyond its resistance, its senses are overloaded and all creatures are [concealed](/Conditions.aspx?ID=62) from it for 1 round.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +11 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 110\n\n</row>\r\n\r\n**Immunities**\r\n[visual](/Traits.aspx?ID=727)\n\n**Auditory Hunter** <actions string=\"Reaction\" /> **Trigger** A creature within 15 feet uses an [auditory](/Traits.aspx?ID=541) action; **Effect** The drthak Strides or [Swims](/Actions.aspx?ID=2381) towards the creature.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, swim 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +16,\r\n**Damage** 2d8+4 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nscreech +17 ([range 60 feet](/Traits.aspx?ID=248), [Sonic](/Traits.aspx?ID=147)),\r\n**Damage** 4d6 sonic plus resonant jaws\n\n**Bubble Burst** <actions string=\"Two Actions\" /> ([Sonic](/Traits.aspx?ID=147), [Water](/Traits.aspx?ID=165)) **Requirement** The drthak is underwater; **Effect** The drthak uses sonic power to push aside water in a 30-foot emanation, which then collapses in a crushing torrent. All creatures in the area, other than the drthak, take 3d10 bludgeoning damage (DC 24 [basic](/Rules.aspx?ID=329) Fortitude save).\r\n\r\n**Pull Under**   The drthak can [Swim](/Actions.aspx?ID=2381) at half Speed while it has a creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) in its jaws, carrying the creature along with it.\r\n\r\n**Resonant Jaws**   When the drthak misses a screech Strike against a creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) in its jaws, it deals that creature 2d6 sonic damage.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-490\" />",
+ "name": "Drthak",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 140",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 17,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 140\r\n\r\n**Creature Family** [Dischoran](/MonsterFamilies.aspx?ID=490)\r\n\r\n<row gap=\"medium\">\r\n**HP** 110\r\n\r\n**AC** 23\r\n\r\n**Fort** +14\r\n\r\n**Ref** +17\r\n\r\n**Will** +11\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDrthaks are aquatic predators with long trailing fins that are rarely seen, clinging to coasts and estuaries where the high silt content makes them …\r\n</summary>",
+ "sense": "no vision, sensitive echolocation ( precise ) 120 feet",
+ "sense_markdown": "no vision, sensitive echolocation ([precise](/Rules.aspx?ID=411)) 120 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +16, [Stealth](/Skills.aspx?ID=48) +17, [Survival](/Skills.aspx?ID=49) +13",
+ "skill_mod": {
+  "athletics": 16,
+  "stealth": 17,
+  "survival": 13
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 140"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 140",
+ "speed": {
+  "land": 20,
+  "max": 40,
+  "swim": 40
+ },
+ "speed_markdown": "20 feet, swim 40 feet",
+ "speed_raw": "20 feet, swim 40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  13,
+  14
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Drthaks are aquatic predators with long trailing fins that are rarely seen, clinging to coasts and estuaries where the high silt content makes them …",
+ "summary_markdown": "Drthaks are aquatic predators with long trailing fins that are rarely seen, clinging to coasts and estuaries where the high silt content makes them …",
+ "text": " Drthak Drthaks are aquatic predators with long trailing fins that are rarely seen, clinging to coasts and estuaries where the high silt content makes them practically invisible to predators and prey alike. Some have been known to come inland, tracking their prey miles upriver before striking. The underwater environment alters the typical dischoran hunting behavior, with drthaks creating bubbles that implode to stun prey. Recall Knowledge - Beast (Arcana, Nature): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Drthak Source Howl of the Wild pg. 140 Perception +15; no vision, sensitive echolocation (precise) 120 feet Languages Skills Athletics +16, Stealth +17, Survival +13 Str +4 Dex +5 Con +4 Int -3 Wis +3 Cha -1 Deep Breath The drthak can hold its breath for about 2 hours. Sensitive Echolocation The drthak can use its hearing as a precise sense with the listed range. If the drthak takes sonic damage beyond its resistance, its senses are overloaded and all creatures are concealed from it for 1 round. --- AC 23 Fort +14 Ref +17 Will +11 HP 110 Immunities visual Auditory Hunter Reaction Trigger A creature within 15 feet uses an auditory action; Effect The drthak Strides or Swims towards the creature. --- Speed 20 feet, swim 40 feet Melee Single Action jaws +16, Damage 2d8+4 piercing plus Grab Ranged Single Action screech +17 (range 60 feet, Sonic), Damage 4d6 sonic plus resonant jaws Bubble Burst Two Actions (Sonic, Water) Requirement The drthak is underwater; Effect The drthak uses sonic power to push aside water in a 30-foot emanation, which then collapses in a crushing torrent. All creatures in the area, other than the drthak, take 3d10 bludgeoning damage (DC 24 basic Fortitude save). Pull Under The drthak can Swim at half Speed while it has a creature grabbed or restrained in its jaws, carrying the creature along with it. Resonant Jaws When the drthak misses a screech Strike against a creature grabbed or restrained in its jaws, it deals that creature 2d6 sonic damage. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3268",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 11,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

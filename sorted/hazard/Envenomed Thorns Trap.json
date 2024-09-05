@@ -1,6 +1,5 @@
 {
  "ac": 18,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "Thievery  DC 18 (trained) to remove the trip wire.",
@@ -19,22 +18,32 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 2,
- "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Envenomed Thorns Trap](/Hazards.aspx?ID=217)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 13</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA trip wire strung 4 feet above the ground releases a branch studded with envenomed thorns.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 20 (trained)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 18 (trained) to remove the trip wire.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 18, **Fort** +10, **Ref** +4\r\n\r\n**Hardness**\r\n5\r\n\r\n**HP**\r\n28 (BT 14)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Thorny Branch** <actions string=\"Reaction\" /> ([poison](/Traits.aspx?ID=126)); **Trigger** The trip wire is touched; **Effect** The trap's poisoned thorns attack the creature or object touching the trip wire.<br /> **Melee** poisoned thorns +14, **Damage** 1d6+4 piercing plus 1d8 poison",
+ "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Envenomed Thorns Trap](/Hazards.aspx?ID=217)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 13\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA trip wire strung 4 feet above the ground releases a branch studded with envenomed thorns.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 20 (trained)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 18 (trained) to remove the trip wire.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 18, **Fort** +10, **Ref** +4\r\n\r\n**Hardness**\r\n5\r\n\r\n**HP**\r\n28 (BT 14)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Thorny Branch** <actions string=\"Reaction\" /> ([poison](/Traits.aspx?ID=126)); **Trigger** The trip wire is touched; **Effect** The trap's poisoned thorns attack the creature or object touching the trip wire.<br /> **Melee** poisoned thorns +14, **Damage** 1d6+4 piercing plus 1d8 poison",
  "name": "Envenomed Thorns Trap",
+ "primary_source": "Pathfinder #151: The Show Must Go On",
+ "primary_source_raw": "Pathfinder #151: The Show Must Go On pg. 13",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Extinction Curse",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 4,
  "release_date": "2020-01-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 13</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA trip wire strung 4 feet above the ground releases a branch studded with envenomed thorns.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 13\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA trip wire strung 4 feet above the ground releases a branch studded with envenomed thorns.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #151: The Show Must Go On"
  ],
  "source_raw": [
   "Pathfinder #151: The Show Must Go On pg. 13"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 13</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 13",
  "speed": {},
  "stealth": "DC 20 (trained)",
  "summary": "A trip wire strung 4 feet above the ground releases a branch studded with envenomed thorns.",
@@ -43,6 +52,10 @@
  "trait": [
   "Mechanical",
   "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard"
  ],
  "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
  "trait_raw": [

@@ -1,46 +1,57 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Archaeologist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Delay Trap"
  ],
  "feat_markdown": "Delay Trap",
- "id": "feat-572",
+ "id": "feat-4950",
+ "legacy_id": "feat-572",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Delay Trap](/Feats.aspx?ID=572) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 186 <sup>4.0</sup></row>\n\n**Archetype** [Archaeologist](/Archetypes.aspx?ID=46) (Level 10)\n\n**Trigger**\r\nA trap within your reach is triggered.\n\n</column>\r\n\r\n---\r\n\r\nYou can jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap; the DC to do so is increased by 5, and the effects are as follows.\n\n**Critical Success** You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice).<br />\r\n**Success** You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM’s choice).<br />\r\n**Failure** No effect.<br />\r\n**Critical Failure** You’re flat-footed until the start of your next turn.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Delay Trap](/Feats.aspx?ID=4950) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 173\n\n**Archetype** [Archaeologist](/Archetypes.aspx?ID=46) (Level 10)\n\n**Trigger**\r\nA trap within your reach is triggered\n\n</column>\r\n\r\n---\r\n\r\nYou try to jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap with the following results instead of the normal ones for the action.\n\n**Critical Success** You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice).<br />\r\n**Success** You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM’s choice).<br />\r\n**Failure** No effect.<br />\r\n**Critical Failure** You’re flat-footed until the start of your next turn.",
  "name": "Delay Trap",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 173",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 186 <sup>4.0</sup></row>\n\n**Trigger**\r\nA trap within your reach is triggered.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can jam the workings of a trap to delay its effects.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 173\n\n**Trigger**\r\nA trap within your reach is triggered\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou try to jam the workings of a trap to delay its effects.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 186"
+  "Player Core pg. 173"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 186 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 173",
  "speed": {},
- "summary": "You can jam the workings of a trap to delay its effects.",
- "summary_markdown": "You can jam the workings of a trap to delay its effects.",
- "text": "<title level=\"1\" right=\"Feat 8\" pfs=\"Standard\" > Delay Trap Reaction Source Core Rulebook pg. 186 4.0 Archetype Archaeologist (Level 10) Trigger A trap within your reach is triggered. --- You can jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap; the DC to do so is increased by 5, and the effects are as follows. Critical Success You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice). Success You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM’s choice). Failure No effect. Critical Failure You’re flat-footed until the start of your next turn.",
+ "summary": "You try to jam the workings of a trap to delay its effects.",
+ "summary_markdown": "You try to jam the workings of a trap to delay its effects.",
+ "text": "<title level=\"1\" right=\"Feat 8\" pfs=\"Standard\" > Delay Trap Reaction Source Player Core pg. 173 Archetype Archaeologist (Level 10) Trigger A trap within your reach is triggered --- You try to jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap with the following results instead of the normal ones for the action. Critical Success You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice). Success You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM’s choice). Failure No effect. Critical Failure You’re flat-footed until the start of your next turn.",
  "trait": [
   "Rogue"
  ],
- "trait_markdown": "[Rogue](/Traits.aspx?ID=139)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Rogue](/Traits.aspx?ID=687)",
  "trait_raw": [
   "Rogue"
  ],
- "trigger": "A trap within your reach is triggered.",
- "trigger_markdown": "A trap within your reach is triggered.",
+ "trigger": "A trap within your reach is triggered",
+ "trigger_markdown": "A trap within your reach is triggered",
  "type": "Feat",
- "url": "/Feats.aspx?ID=572",
+ "url": "/Feats.aspx?ID=4950",
  "weakness": {}
 }

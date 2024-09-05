@@ -1,17 +1,27 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   2,
@@ -26,37 +36,45 @@
  ],
  "id": "spell-639",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Limited\">[Sudden Bolt](/Spells.aspx?ID=639)</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 79</row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call down a small bolt of lightning on the target, dealing 4d12 electricity damage.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Limited\">\r\n[Sudden Bolt](/Spells.aspx?ID=639)\r\n<actions string=\"Two Actions\" />\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 79\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\n[basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call down a small bolt of lightning on the target, dealing 4d12 electricity damage.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12.",
  "name": "Sudden Bolt",
- "patron_theme_markdown": "",
  "pfs": "Limited",
+ "primary_source": "Pathfinder #151: The Show Must Go On",
+ "primary_source_raw": "Pathfinder #151: The Show Must Go On pg. 79",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Extinction Curse",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-01-30",
  "resistance": {},
  "saving_throw": "basic  Reflex",
  "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Reflex",
  "school": "evocation",
- "search_markdown": "<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 79</row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call down a small bolt of lightning on the target\r\n</summary>",
+ "search_markdown": "<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 79\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\n[basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call down a small bolt of lightning on the target\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #151: The Show Must Go On"
  ],
  "source_raw": [
   "Pathfinder #151: The Show Must Go On pg. 79"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 79</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 79",
  "speed": {},
+ "spell_type": "Spell",
  "spoilers": "Extinction Curse",
  "summary": "You call down a small bolt of lightning on the target",
  "summary_markdown": "You call down a small bolt of lightning on the target",
  "target": "1 creature or object",
  "target_markdown": "1 creature or object",
- "text": " Sudden Bolt May contain spoilers from Extinction Curse Source Pathfinder #151: The Show Must Go On pg. 79 Traditions Arcane, Primal Cast Two Actions somatic, verbal Range 60 feet Target 1 creature or object Saving Throw basic Reflex --- You call down a small bolt of lightning on the target, dealing 4d12 electricity damage. --- Heightened (+1) The damage increases by 1d12.",
+ "text": "\nSudden Bolt Two Actions May contain spoilers from Extinction Curse Source Pathfinder #151: The Show Must Go On pg. 79 Traditions Arcane, Primal Cast somatic, verbal Range 60 feet Target 1 creature or object Saving Throw basic Reflex --- You call down a small bolt of lightning on the target, dealing 4d12 electricity damage. --- Heightened (+1) The damage increases by 1d12.",
  "tradition": [
   "Arcane",
   "Primal"
@@ -66,6 +84,12 @@
   "Electricity",
   "Evocation",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

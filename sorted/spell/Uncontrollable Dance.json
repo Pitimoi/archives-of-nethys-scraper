@@ -1,77 +1,79 @@
 {
  "actions": "Two Actions",
- "bloodline": [
-  "Aberrant",
-  "Fey"
- ],
- "bloodline_markdown": "[Aberrant](/Bloodlines.aspx?ID=1), [Fey](/Bloodlines.aspx?ID=7)",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Ashava",
   "Hathor",
   "Kofusachi",
   "The Perplexing Jest"
  ],
- "deity_markdown": "[Ashava](/Deities.aspx?ID=114), [Hathor](/Deities.aspx?ID=52), [Kofusachi](/Deities.aspx?ID=177), [The Perplexing Jest](/Deities.aspx?ID=271)",
+ "deity_markdown": "[Ashava](/Deities.aspx?ID=114), [Hathor](/Deities.aspx?ID=52), [Kofusachi](/Deities.aspx?ID=309), [The Perplexing Jest](/Deities.aspx?ID=271)",
  "domain_markdown": "",
  "duration_raw": "varies",
  "exclude_from_search": false,
+ "heighten_group": [
+  "8th rank"
+ ],
  "heighten_level": [
   8
  ],
- "id": "spell-347",
+ "id": "spell-1730",
+ "legacy_id": "spell-347",
  "level": 8,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 8\" pfs=\"Standard\">[Uncontrollable Dance](/Spells.aspx?ID=347)</title>\n\n<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodlines**\r\n[Aberrant](/Bloodlines.aspx?ID=1), [Fey](/Bloodlines.aspx?ID=7)\r\n\r\n**Deities**\r\n[Ashava](/Deities.aspx?ID=114), [Hathor](/Deities.aspx?ID=52), [Kofusachi](/Deities.aspx?ID=177), [The Perplexing Jest](/Deities.aspx?ID=271)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target is overcome with an all-consuming urge to dance. For the duration of the spell, the target is flat-footed and can't use reactions. While affected, the creature can't use actions with the move trait except to dance, using the Stride action to move up to half its Speed.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The spell's duration is 3 rounds, and the target must spend at least 1 action each turn dancing.<br />\r\n**Failure** The spell's duration is 1 minute, and the target must spend at least 2 actions each turn dancing.<br />\r\n**Critical Failure** The spell's duration is 1 minute, and the target must spend all its actions each turn dancing.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 8\" pfs=\"Standard\">\r\n[Uncontrollable Dance](/Spells.aspx?ID=1730)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 364\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Ashava](/Deities.aspx?ID=114), [Hathor](/Deities.aspx?ID=52), [Kofusachi](/Deities.aspx?ID=309), [The Perplexing Jest](/Deities.aspx?ID=271)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target is overcome with an all-consuming urge to dance. For the duration of the spell, the target is [off-guard](/Conditions.aspx?ID=58) and can't use reactions. It also can't use [move](/Traits.aspx?ID=114) actions except to dance, using the Stride action to move up to half its Speed.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The spell's duration is 3 rounds, and the target must spend at least 1 action each turn dancing.<br />\r\n**Failure** The spell's duration is 1 minute, and the target must spend at least 2 actions each turn dancing.<br />\r\n**Critical Failure** The spell's duration is 1 minute, and the target must spend all its actions each turn dancing.",
  "name": "Uncontrollable Dance",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 364",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodlines**\r\n[Aberrant](/Bloodlines.aspx?ID=1), [Fey](/Bloodlines.aspx?ID=7)\r\n\r\n**Deities**\r\n[Ashava](/Deities.aspx?ID=114), [Hathor](/Deities.aspx?ID=52), [Kofusachi](/Deities.aspx?ID=177), [The Perplexing Jest](/Deities.aspx?ID=271)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOvercome a target with an all-consuming urge to dance.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 364\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Ashava](/Deities.aspx?ID=114), [Hathor](/Deities.aspx?ID=52), [Kofusachi](/Deities.aspx?ID=309), [The Perplexing Jest](/Deities.aspx?ID=271)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOvercome a target with an allconsuming urge to dance.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 379"
+  "Player Core pg. 364"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 364",
  "speed": {},
- "summary": "Overcome a target with an all-consuming urge to dance.",
- "summary_markdown": "Overcome a target with an all-consuming urge to dance.",
+ "spell_type": "Spell",
+ "summary": "Overcome a target with an allconsuming urge to dance.",
+ "summary_markdown": "Overcome a target with an allconsuming urge to dance.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Uncontrollable Dance Source Core Rulebook pg. 379 4.0 Traditions Arcane, Occult Bloodlines Aberrant, Fey Deities Ashava, Hathor, Kofusachi, The Perplexing Jest Cast Two Actions somatic, verbal Range touch Target 1 creature Saving Throw Will Duration varies --- The target is overcome with an all-consuming urge to dance. For the duration of the spell, the target is flat-footed and can't use reactions. While affected, the creature can't use actions with the move trait except to dance, using the Stride action to move up to half its Speed. Critical Success The target is unaffected. Success The spell's duration is 3 rounds, and the target must spend at least 1 action each turn dancing. Failure The spell's duration is 1 minute, and the target must spend at least 2 actions each turn dancing. Critical Failure The spell's duration is 1 minute, and the target must spend all its actions each turn dancing.",
+ "text": "\nUncontrollable Dance Two Actions Source Player Core pg. 364 Traditions Arcane, Occult Deities Ashava, Hathor, Kofusachi, The Perplexing Jest Range touch Target 1 creature Defense Will Duration varies --- The target is overcome with an all-consuming urge to dance. For the duration of the spell, the target is off-guard and can't use reactions. It also can't use move actions except to dance, using the Stride action to move up to half its Speed. Critical Success The target is unaffected. Success The spell's duration is 3 rounds, and the target must spend at least 1 action each turn dancing. Failure The spell's duration is 1 minute, and the target must spend at least 2 actions each turn dancing. Critical Failure The spell's duration is 1 minute, and the target must spend all its actions each turn dancing.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Enchantment",
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
-  "Enchantment",
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=347",
+ "url": "/Spells.aspx?ID=1730",
  "weakness": {}
 }

@@ -1,7 +1,7 @@
 {
  "access": "Knights of Lastwall have access to this feat.",
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,23 +10,30 @@
  "feat_markdown": "Shared Sight",
  "id": "feat-3642",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shared Sight](/Feats.aspx?ID=3642) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 85</row>\n\n**Prerequisites**\r\n[Soulsight](/Feats.aspx?ID=1647)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</column>\r\n\r\n---\r\n\r\nYou bestow the mystical vision granted to you by your muse upon your allies. If your next action is to cast a non-cantrip spell that affects one or more of your allies, all affected allies gain your spiritsense for 1 minute.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shared Sight](/Feats.aspx?ID=3642) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 85\n\n**Prerequisites**\r\n[Soulsight](/Feats.aspx?ID=1647)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</column>\r\n\r\n---\r\n\r\nYou bestow the mystical vision granted to you by your muse upon your allies. If your next action is to cast a non-cantrip spell that affects one or more of your allies, all affected allies gain your spiritsense for 1 minute.",
  "name": "Shared Sight",
  "pfs": "Standard",
  "prerequisite": "Soulsight",
  "prerequisite_markdown": "[Soulsight](/Feats.aspx?ID=1647)",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 85",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-05-25",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 85</row>\n\n**Prerequisites**\r\n[Soulsight](/Feats.aspx?ID=1647)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou bestow the mystical vision granted to you by your muse upon your allies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 85\n\n**Prerequisites**\r\n[Soulsight](/Feats.aspx?ID=1647)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou bestow the mystical vision granted to you by your muse upon your allies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 85"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 85</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 85",
  "speed": {},
  "summary": "You bestow the mystical vision granted to you by your muse upon your allies.",
  "summary_markdown": "You bestow the mystical vision granted to you by your muse upon your allies.",
@@ -36,7 +43,12 @@
   "Concentrate",
   "Metamagic",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Bard](/Traits.aspx?ID=19), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

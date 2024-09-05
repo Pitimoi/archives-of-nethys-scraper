@@ -1,67 +1,88 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
-  "Arundhat",
   "Arundhat",
   "Halcamora",
   "Hearth and Harvest",
   "Matravash",
   "Yuelral"
  ],
- "deity_markdown": "[Arundhat](/Deities.aspx?ID=186), [Arundhat](/Deities.aspx?ID=186), [Halcamora](/Deities.aspx?ID=120), [Hearth and Harvest](/Deities.aspx?ID=252), [Matravash](/Deities.aspx?ID=193), [Yuelral](/Deities.aspx?ID=111)",
+ "deity_markdown": "[Arundhat](/Deities.aspx?ID=186), [Halcamora](/Deities.aspx?ID=120), [Hearth and Harvest](/Deities.aspx?ID=252), [Matravash](/Deities.aspx?ID=193), [Yuelral](/Deities.aspx?ID=111)",
  "domain_markdown": "",
- "duration": 600,
- "duration_raw": "10 minutes",
+ "duration": 3600,
+ "duration_raw": "1 hour",
+ "element": [
+  "Wood"
+ ],
  "exclude_from_search": false,
+ "heighten": [
+  "4th"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank"
+ ],
  "heighten_level": [
+  3,
   4
  ],
- "id": "spell-294",
- "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Speak with Plants](/Spells.aspx?ID=294)</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 370 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Arundhat](/Deities.aspx?ID=186), [Arundhat](/Deities.aspx?ID=186), [Halcamora](/Deities.aspx?ID=120), [Hearth and Harvest](/Deities.aspx?ID=252), [Matravash](/Deities.aspx?ID=193), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can ask questions of and receive answers from plants and fungi, but the spell doesn't make them more friendly or intelligent than normal. Most normal plants and fungi have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity. Cunning plant or fungus monsters are likely to be terse and evasive, while less intelligent ones often make inane comments.",
- "mystery_markdown": "",
+ "id": "spell-1681",
+ "legacy_id": "spell-294",
+ "level": 3,
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Speak with Plants](/Spells.aspx?ID=1681)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 358\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Arundhat](/Deities.aspx?ID=186), [Halcamora](/Deities.aspx?ID=120), [Hearth and Harvest](/Deities.aspx?ID=252), [Matravash](/Deities.aspx?ID=193), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can ask questions of and receive answers from [plants](/Traits.aspx?ID=125) and [fungi](/Traits.aspx?ID=77), but the spell doesn't make them more friendly or intelligent than normal. Most normal plants and fungi have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity. Cunning plant or fungus monsters are likely to be terse and evasive, while less intelligent ones often make inane comments.\n\n---\r\n**Heightened (4th)** The duration is 8 hours.",
  "name": "Speak with Plants",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 358",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 370 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Arundhat](/Deities.aspx?ID=186), [Arundhat](/Deities.aspx?ID=186), [Halcamora](/Deities.aspx?ID=120), [Hearth and Harvest](/Deities.aspx?ID=252), [Matravash](/Deities.aspx?ID=193), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCommunicate with plants and plant creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 358\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Arundhat](/Deities.aspx?ID=186), [Halcamora](/Deities.aspx?ID=120), [Hearth and Harvest](/Deities.aspx?ID=252), [Matravash](/Deities.aspx?ID=193), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCommunicate with plants and plant creatures.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 370"
+  "Player Core pg. 358"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 370 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 358",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Communicate with plants and plant creatures.",
  "summary_markdown": "Communicate with plants and plant creatures.",
- "text": " Speak with Plants Source Core Rulebook pg. 370 4.0 Tradition Primal Deities Arundhat, Arundhat, Halcamora, Hearth and Harvest, Matravash, Yuelral Cast Two Actions somatic, verbal Duration 10 minutes --- You can ask questions of and receive answers from plants and fungi, but the spell doesn't make them more friendly or intelligent than normal. Most normal plants and fungi have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity. Cunning plant or fungus monsters are likely to be terse and evasive, while less intelligent ones often make inane comments.",
+ "text": "\nSpeak with Plants Two Actions Source Player Core pg. 358 Traditions Divine, Occult, Primal Deities Arundhat, Halcamora, Hearth and Harvest, Matravash, Yuelral Duration 1 hour --- You can ask questions of and receive answers from plants and fungi, but the spell doesn't make them more friendly or intelligent than normal. Most normal plants and fungi have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity. Cunning plant or fungus monsters are likely to be terse and evasive, while less intelligent ones often make inane comments. --- Heightened (4th) The duration is 8 hours.",
  "tradition": [
+  "Divine",
+  "Occult",
   "Primal"
  ],
- "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Divination",
-  "Plant"
+  "Concentrate",
+  "Manipulate",
+  "Plant",
+  "Wood"
  ],
- "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Plant](/Traits.aspx?ID=125)",
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Plant](/Traits.aspx?ID=125), [Wood](/Traits.aspx?ID=508)",
  "trait_raw": [
-  "Divination",
-  "Plant"
+  "Concentrate",
+  "Manipulate",
+  "Plant",
+  "Wood"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=294",
+ "url": "/Spells.aspx?ID=1681",
  "weakness": {}
 }

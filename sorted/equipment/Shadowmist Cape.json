@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,38 +8,50 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 19,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 19\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shadowmist Cape](/Equipment.aspx?ID=2143)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 104 <sup>1.1</sup></row>\n\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn cape\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to [Stealth](/Skills.aspx?ID=15) checks. When you invest the cape, you either increase your Dexterity score by 2 or increase it to 18, whichever is higher.\n\n<document level=\"2\" id=\"action-1642\" />\n\n<document level=\"2\" id=\"action-1643\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 19\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shadowmist Cape](/Equipment.aspx?ID=2143)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 104 <sup>1.1</sup>\n\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn cape\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to [Stealth](/Skills.aspx?ID=15) checks. When you invest the cape, you either increase your Dexterity score by 2 or increase it to 18, whichever is higher.\n\n**Activate** <actions string=\"Reaction\" /> Interact;  **Frequency** once per hour; **Trigger** A creature misses you with an attack;  **Effect** Attempt a Stealth check against the triggering creature's Perception DC. If you roll a success, you're [hidden](/Conditions.aspx?ID=22) from that creature until the end of your next turn or until right after you use a [hostile action](/Rules.aspx?ID=300) against that creature. If you roll a critical success, you're hidden from that creature until the end of your next turn, even if you use hostile actions against that creature.\n\n**Activate** <actions string=\"Two Actions\" /> Interact;  **Frequency** once per day;   **Effect** With a twirl of the cape, you transform yourself into a puff of gray smoke. You cast [_gaseous form_](/Spells.aspx?ID=129) on yourself.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Shadowmist Cape",
  "pfs": "Standard",
  "price": 4000000,
  "price_raw": "40,000 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 104",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 104 <sup>1.1</sup></row>\r\n\r\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn cape\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to  Stealth  checks. When you invest the cape, you …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 104 <sup>1.1</sup>\r\n\r\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn cape\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to  Stealth  checks. When you invest the cape, you …\r\n</summary>",
  "skill": [
   "Stealth"
  ],
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 104"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 104 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 104 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to  Stealth  checks. When you invest the cape, you …",
  "summary_markdown": "This black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to  Stealth  checks. When you invest the cape, you …",
- "text": "<title level=\"1\" right=\"Item 19\" pfs=\"Standard\" > Shadowmist Cape Source Treasure Vault pg. 104 1.1 Price 40,000 gp Usage worn cape Bulk L --- This black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to Stealth checks. When you invest the cape, you either increase your Dexterity score by 2 or increase it to 18, whichever is higher.\n",
+ "text": "<title level=\"1\" right=\"Item 19\" pfs=\"Standard\" > Shadowmist Cape Source Treasure Vault pg. 104 1.1 Price 40,000 gp Usage worn cape Bulk L --- This black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to Stealth checks. When you invest the cape, you either increase your Dexterity score by 2 or increase it to 18, whichever is higher. Activate Reaction Interact; Frequency once per hour; Trigger A creature misses you with an attack; Effect Attempt a Stealth check against the triggering creature's Perception DC. If you roll a success, you're hidden from that creature until the end of your next turn or until right after you use a hostile action against that creature. If you roll a critical success, you're hidden from that creature until the end of your next turn, even if you use hostile actions against that creature. Activate Two Actions Interact; Frequency once per day; Effect With a twirl of the cape, you transform yourself into a puff of gray smoke. You cast gaseous form on yourself.\n",
  "trait": [
   "Apex",
   "Illusion",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Monster"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Illusion](/Traits.aspx?ID=92), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

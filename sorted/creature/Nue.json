@@ -1,0 +1,165 @@
+{
+ "ac": 30,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  24,
+  24,
+  24
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Viper Tail",
+  "Viper Tail",
+  "Cloud Form",
+  "Monstrous Howl",
+  "Thundering Howl"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 200,
+ "hp_raw": "200",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2776",
+ "immunity": [
+  "fear"
+ ],
+ "immunity_markdown": "fear",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Tien"
+ ],
+ "language_markdown": "[Tien](/Languages.aspx?ID=43)",
+ "level": 11,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Nue](/Monsters.aspx?ID=2776)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA nue is an ancient creature of enormous size and destructive power. Though sightings are rare, it's described as having the head of a monkey, the body of a tanuki, the limbs of a tiger, and a snake for a tail. The beast's eerie body is matched by its ability to drain the life force of those around it just by howling.\n\n According to certain tales, in ancient times, a nue would freely terrorize kingdoms and inflict nightmares upon it victims. It first appears as an enormous storm cloud before turning a poisonous black color. When angered, a nue can summon lightning to cause massive amounts of collateral damage. Hearing a nue's howl is considered an ill omen. \r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Nue](/Monsters.aspx?ID=2776)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 291\n\n**Perception** +21; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +22, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Occultism](/Skills.aspx?ID=11) +18, [Survival](/Skills.aspx?ID=16) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Viper Tail** <actions string=\"Reaction\" /> **Trigger** A creature within 15 feet of the nue leaves a square during a move action it's using or moves into a square that would cause the nue to become flanked; **Effect** The nue whips around and attempts a tail Strike against the triggering creature. This Strike doesn't count toward the nue's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +24 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 200\n\n</row>\r\n\r\n**Immunities**\r\nfear\r\n\r\n**Resistances**\r\nnon-magical 10\n\n**Viper Tail** <actions string=\"Reaction\" /> **Trigger** A creature within 15 feet of the nue leaves a square during a move action it's using or moves into a square that would cause the nue to become flanked; **Effect** The nue whips around and attempts a tail Strike against the triggering creature. This Strike doesn't count toward the nue's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +24 ([Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+7 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +24 ([Agile](/Traits.aspx?ID=170), [Disarm](/Traits.aspx?ID=175), [Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+7 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +24 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d4+7 piercing plus 2d4 poison\n\n**Cloud Form** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127)) The nue changes its shape into that of a dark storm cloud. In Cloud Form, the nue is [concealed](/Conditions.aspx?ID=62), gains a 60-foot fly Speed, gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise, and can't make attacks, though it can use its howl abilities. The nue can Dismiss this effect.\r\n\r\n**Monstrous Howl** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16), [Mental](/Traits.aspx?ID=106), [Void](/Traits.aspx?ID=510)) The nue lets out an eerie howl that rattles creatures' very souls. Creatures within 60 feet must attempt a DC 27 Will save (DC 29 at night). They're then temporarily immune to Monstrous Howl for 10 minutes. \n\n**Critical Success** The creature is unaffected.<br />\n**Success** The creature takes 2d8 [persistent void damage](/Conditions.aspx?ID=29).<br />\n**Failure** As success, plus the target is [drained](/Conditions.aspx?ID=68) 1.<br />\n**Critical Failure** As success, plus the target is drained 2 and [stunned](/Conditions.aspx?ID=93) 1.\r\n\r\n**Thundering Howl** <actions string=\"Two Actions\" /> ([Electricity](/Traits.aspx?ID=56)) **Effect** The nue howls to the sky, calling down a bolt of lightning that strikes the creature closest to the nue, to a maximum range of 60 feet. The bolt deals 12d6 electricity damage (DC 27 basic Reflex save). The nue then can't use Thundering Howl for 1d4 round\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Curse of the Nue</title>\r\n\r\nEven in death, a nue's spirit can bring disaster to those around it. One way to suppress the curse is to perform burial rites and build a mound over the nue's tomb. Another is to avoid the curse entirely by setting the corpse adrift down a river or burying it far away. The curse itself is said to enact its wrath through possession; some believe this is how a nue is created.\r\n</aside>",
+ "name": "Nue",
+ "npc": false,
+ "perception": 21,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 291",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 24,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "resistance_markdown": "non-magical 10",
+ "resistance_raw": "non-magical 10",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 291\n\n<row gap=\"medium\">\r\n**HP** 200\r\n\r\n**AC** 30\r\n\r\n**Fort** +21\r\n\r\n**Ref** +24\r\n\r\n**Will** +18\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA nue is an ancient creature of enormous size and destructive power. Though sightings are rare, it's described as having the head of a monkey, the …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Occultism",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +22, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Occultism](/Skills.aspx?ID=11) +18, [Survival](/Skills.aspx?ID=16) +17",
+ "skill_mod": {
+  "acrobatics": 20,
+  "athletics": 22,
+  "deception": 18,
+  "intimidation": 18,
+  "occultism": 18,
+  "survival": 17
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 291"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 291",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet",
+ "speed_raw": "40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  19,
+  20,
+  23
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "A nue is an ancient creature of enormous size and destructive power. Though sightings are rare, it's described as having the head of a monkey, the …",
+ "summary_markdown": "A nue is an ancient creature of enormous size and destructive power. Though sightings are rare, it's described as having the head of a monkey, the …",
+ "text": " Nue A nue is an ancient creature of enormous size and destructive power. Though sightings are rare, it's described as having the head of a monkey, the body of a tanuki, the limbs of a tiger, and a snake for a tail. The beast's eerie body is matched by its ability to drain the life force of those around it just by howling. According to certain tales, in ancient times, a nue would freely terrorize kingdoms and inflict nightmares upon it victims. It first appears as an enormous storm cloud before turning a poisonous black color. When angered, a nue can summon lightning to cause massive amounts of collateral damage. Hearing a nue's howl is considered an ill omen. Recall Knowledge - Beast (Arcana, Nature): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Nue Source Tian Xia World Guide pg. 291 Perception +21; darkvision Languages Tien Skills Acrobatics +20, Athletics +22, Deception +18, Intimidation +18, Occultism +18, Survival +17 Str +7 Dex +6 Con +4 Int +1 Wis +3 Cha +4 Viper Tail Reaction Trigger A creature within 15 feet of the nue leaves a square during a move action it's using or moves into a square that would cause the nue to become flanked; Effect The nue whips around and attempts a tail Strike against the triggering creature. This Strike doesn't count toward the nue's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike. --- AC 30 Fort +21 Ref +24 Will +18 HP 200 Immunities fear Resistances non-magical 10 Viper Tail Reaction Trigger A creature within 15 feet of the nue leaves a square during a move action it's using or moves into a square that would cause the nue to become flanked; Effect The nue whips around and attempts a tail Strike against the triggering creature. This Strike doesn't count toward the nue's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike. --- Speed 40 feet Melee Single Action jaws +24 (Finesse, reach 10 feet), Damage 3d10+7 piercing Melee Single Action claw +24 (Agile, Disarm, Finesse, reach 10 feet), Damage 3d8+7 slashing Melee Single Action tail +24 (Agile, Finesse, reach 15 feet), Damage 3d4+7 piercing plus 2d4 poison Cloud Form Single Action (Concentrate, Polymorph) The nue changes its shape into that of a dark storm cloud. In Cloud Form, the nue is concealed, gains a 60-foot fly Speed, gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise, and can't make attacks, though it can use its howl abilities. The nue can Dismiss this effect. Monstrous Howl Two Actions (Auditory, Mental, Void) The nue lets out an eerie howl that rattles creatures' very souls. Creatures within 60 feet must attempt a DC 27 Will save (DC 29 at night). They're then temporarily immune to Monstrous Howl for 10 minutes. Critical Success The creature is unaffected. Success The creature takes 2d8 persistent void damage. Failure As success, plus the target is drained 1. Critical Failure As success, plus the target is drained 2 and stunned 1. Thundering Howl Two Actions (Electricity) Effect The nue howls to the sky, calling down a bolt of lightning that strikes the creature closest to the nue, to a maximum range of 60 feet. The bolt deals 12d6 electricity damage (DC 27 basic Reflex save). The nue then can't use Thundering Howl for 1d4 round Curse of the Nue Even in death, a nue's spirit can bring disaster to those around it. One way to suppress the curse is to perform burial rites and build a mound over the nue's tomb. Another is to avoid the curse entirely by setting the corpse adrift down a river or burying it far away. The curse itself is said to enact its wrath through possession; some believe this is how a nue is created. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=20)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2776",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 18,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,70 +1,80 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-809",
+ "id": "spell-1893",
+ "legacy_id": "spell-809",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Wilding Word](/Spells.aspx?ID=809)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Patron Theme**\r\n[Wild](/Patrons.aspx?ID=7)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 [animal](/Traits.aspx?ID=9), [fungus](/Traits.aspx?ID=77), or [plant](/Traits.aspx?ID=125)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nWith a few words, you convince a wild creature you are a kindred spirit, making it reluctant to harm you. The target must attempt a Will save. Regardless of the outcome, the target is then temporarily immune for 1 minute.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** When the target attempts an attack roll or skill check that would harm you, it takes a –2 status penalty to its roll.<br />\r\n**Failure** As success, but the target also becomes [sickened 1](/Conditions.aspx?ID=34) each time it damages you.<br />\r\n**Critical Failure** As success, but the target also becomes sickened 2 each time it damages you.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Wilding Word](/Spells.aspx?ID=1893)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 387\n\n**Patron Theme**\r\n[Wilding Steward](/Patrons.aspx?ID=18)\r\n\r\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour patron's majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you. The target must attempt a Will save; if the creature is an [animal](/Traits.aspx?ID=9), [fungus](/Traits.aspx?ID=77), or [plant](/Traits.aspx?ID=125), it takes a –1 circumstance penalty to its save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** When the target attempts an attack roll or skill check that would harm you, it takes a –2 status penalty to its roll.<br />\r\n**Failure** As success, but the target also becomes [sickened 1](/Conditions.aspx?ID=34) each time it damages you.<br />\r\n**Critical Failure** As failure, but the sickened value is 2.",
  "name": "Wilding Word",
  "patron_theme": [
-  "Wild"
+  "Wilding Steward"
  ],
- "patron_theme_markdown": "[Wild](/Patrons.aspx?ID=7)",
+ "patron_theme_markdown": "[Wilding Steward](/Patrons.aspx?ID=18)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 387",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Patron Theme**\r\n[Wild](/Patrons.aspx?ID=7)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 [animal](/Traits.aspx?ID=9), [fungus](/Traits.aspx?ID=77), or [plant](/Traits.aspx?ID=125)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWith a few words, you convince a wild creature you are a kindred spirit, making it reluctant to harm you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 387\n\n**Patron Theme**\r\n[Wilding Steward](/Patrons.aspx?ID=18)\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour patron's majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 239"
+  "Player Core pg. 387"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 387",
  "speed": {},
- "summary": "With a few words, you convince a wild creature you are a kindred spirit, making it reluctant to harm you.",
- "summary_markdown": "With a few words, you convince a wild creature you are a kindred spirit, making it reluctant to harm you.",
- "target": "1  animal ,  fungus , or  plant ",
- "target_markdown": "1 [animal](/Traits.aspx?ID=9), [fungus](/Traits.aspx?ID=77), or [plant](/Traits.aspx?ID=125)",
- "text": " Wilding Word Source Advanced Player's Guide pg. 239 2.0 Patron Theme Wild Cast Single Action verbal Range 30 feet Target 1 animal, fungus, or plant Saving Throw Will Duration sustained up to 1 minute --- With a few words, you convince a wild creature you are a kindred spirit, making it reluctant to harm you. The target must attempt a Will save. Regardless of the outcome, the target is then temporarily immune for 1 minute. Critical Success The target is unaffected. Success When the target attempts an attack roll or skill check that would harm you, it takes a –2 status penalty to its roll. Failure As success, but the target also becomes sickened 1 each time it damages you. Critical Failure As success, but the target also becomes sickened 2 each time it damages you.",
+ "spell_type": "Cantrip",
+ "summary": "Your patron's majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you.",
+ "summary_markdown": "Your patron's majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "\nWilding Word Single Action Source Player Core pg. 387 Patron Theme Wilding Steward Range 30 feet Target 1 creature Defense Will Duration sustained up to 1 minute --- Your patron's majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you. The target must attempt a Will save; if the creature is an animal, fungus, or plant, it takes a –1 circumstance penalty to its save. Critical Success The target is unaffected. Success When the target attempts an attack roll or skill check that would harm you, it takes a –2 status penalty to its roll. Failure As success, but the target also becomes sickened 1 each time it damages you. Critical Failure As failure, but the sickened value is 2.",
  "tradition_markdown": "",
  "trait": [
   "Cantrip",
-  "Enchantment",
   "Hex",
+  "Mental",
   "Uncommon",
   "Witch"
  ],
- "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Enchantment](/Traits.aspx?ID=61), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Hex](/Traits.aspx?ID=324), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
   "Cantrip",
-  "Enchantment",
   "Hex",
+  "Mental",
   "Uncommon",
   "Witch"
  ],
- "type": "Cantrip",
- "url": "/Spells.aspx?ID=809",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1893",
  "weakness": {}
 }

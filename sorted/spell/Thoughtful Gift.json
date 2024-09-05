@@ -1,17 +1,21 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "3rd",
   "5th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank"
  ],
  "heighten_level": [
   1,
@@ -20,33 +24,38 @@
  ],
  "id": "spell-722",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Thoughtful Gift](/Spells.aspx?ID=722)</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 226 <sup>2.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou teleport one object of light or negligible Bulk held in your hand to the target. The object appears instantly in the target's hand, if they have a free hand, or at their feet if they don't. The target knows what object you are attempting to send them. If the target is unconscious or refuses to accept your gift, or if the spell would teleport a creature (even if the creature is inside an [extradimensional](/Traits.aspx?ID=67) container), the spell fails.\n\n---\r\n**Heightened (3rd)** The spell's range increases to 500 feet.\r\n\r\n**Heightened (5th)** As 3rd level, and the object's maximum Bulk increases to 1. You can Cast the Spell with 3 actions instead of 1; doing so increases the range to 1 mile and you don't need line of sight to the target, but you must be extremely familiar with the target.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Thoughtful Gift](/Spells.aspx?ID=722)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 226 <sup>2.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou teleport one object of light or negligible Bulk held in your hand to the target. The object appears instantly in the target's hand, if they have a free hand, or at their feet if they don't. The target knows what object you are attempting to send them. If the target is unconscious or refuses to accept your gift, or if the spell would teleport a creature (even if the creature is inside an [extradimensional](/Traits.aspx?ID=67) container), the spell fails.\n\n---\r\n**Heightened (3rd)** The spell's range increases to 500 feet.\r\n\r\n**Heightened (5th)** As 3rd level, and the object's maximum Bulk increases to 1. You can Cast the Spell with 3 actions instead of 1; doing so increases the range to 1 mile and you don't need line of sight to the target, but you must be extremely familiar with the target.",
  "name": "Thoughtful Gift",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 226",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 226 <sup>2.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTeleport an item to an ally's grasp.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 226 <sup>2.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTeleport an item to an ally's grasp.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 226"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 226 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 226 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Teleport an item to an ally's grasp.",
  "summary_markdown": "Teleport an item to an ally's grasp.",
  "target": "1 willing creature",
  "target_markdown": "1 willing creature",
- "text": " Thoughtful Gift Source Advanced Player's Guide pg. 226 2.0 Traditions Arcane, Divine, Occult Cast Single Action somatic Range 120 feet Target 1 willing creature --- You teleport one object of light or negligible Bulk held in your hand to the target. The object appears instantly in the target's hand, if they have a free hand, or at their feet if they don't. The target knows what object you are attempting to send them. If the target is unconscious or refuses to accept your gift, or if the spell would teleport a creature (even if the creature is inside an extradimensional container), the spell fails. --- Heightened (3rd) The spell's range increases to 500 feet. Heightened (5th) As 3rd level, and the object's maximum Bulk increases to 1. You can Cast the Spell with 3 actions instead of 1; doing so increases the range to 1 mile and you don't need line of sight to the target, but you must be extremely familiar with the target.",
+ "text": "\nThoughtful Gift Single Action Source Advanced Player's Guide pg. 226 2.0 Traditions Arcane, Divine, Occult Cast somatic Range 120 feet Target 1 willing creature --- You teleport one object of light or negligible Bulk held in your hand to the target. The object appears instantly in the target's hand, if they have a free hand, or at their feet if they don't. The target knows what object you are attempting to send them. If the target is unconscious or refuses to accept your gift, or if the spell would teleport a creature (even if the creature is inside an extradimensional container), the spell fails. --- Heightened (3rd) The spell's range increases to 500 feet. Heightened (5th) As 3rd level, and the object's maximum Bulk increases to 1. You can Cast the Spell with 3 actions instead of 1; doing so increases the range to 1 mile and you don't need line of sight to the target, but you must be extremely familiar with the target.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -56,6 +65,9 @@
  "trait": [
   "Conjuration",
   "Teleportation"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Teleportation](/Traits.aspx?ID=156)",
  "trait_raw": [

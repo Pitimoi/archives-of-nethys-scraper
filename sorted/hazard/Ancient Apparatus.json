@@ -1,0 +1,75 @@
+{
+ "ac": 18,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "DC 18  Thievery  to adjust the device's workings so they seize up and no longer function, or DC 21  Religion  to focus prayers to a non-evil deity into the device to disrupt its ability to channel ambient faith",
+ "exclude_from_search": false,
+ "fortitude_save": 5,
+ "hardness": 8,
+ "hardness_raw": "8",
+ "hazard_type": "Trap",
+ "hp": 30,
+ "hp_raw": "30 (BT 15)",
+ "id": "hazard-420",
+ "immunity": [
+  "critical hits",
+  "object immunities",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, object immunities, precision damage",
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Ancient Apparatus](/Hazards.aspx?ID=420)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 34\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nA complex device made of multicolored metal that resembles a combination of grinding gears, spider-like legs, and twitching blades, from which emits a constant soft ticking sound. All of the metal in the device appears to be rusted or corroded.\r\n\r\n---\r\n\r\n**Stealth**\r\n+8 (trained)\r\n\r\n**Disable**\r\nDC 18 [Thievery](/Skills.aspx?ID=17) to adjust the device's workings so they seize up and no longer function, or DC 21 [Religion](/Skills.aspx?ID=13) to focus prayers to a non-evil deity into the device to disrupt its ability to channel ambient faith\n\n<column gap=\"tiny\">\r\n\r\n**AC** 18, **Fort** +5, **Ref** +11\r\n\r\n**Hardness**\r\n8\r\n\r\n**HP**\r\n30 (BT 15)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spin Up** <actions string=\"Reaction\" /> **Trigger** The ancient apparatus takes damage or an attempt to disable it fails; **Effect** The ancient apparatus begins to grind and churn faster. Its soft ticking whirs up to a discordant buzzing sound, and the entire thing begins to glow with an unsettling rust-colored light. All living creatures in area **D3** experience the unsettling taste of rust in their mouths and must succeed on a DC 18 Fortitude save to avoid becoming [sickened 1](/Conditions.aspx?ID=34). The ancient apparatus then rolls initiative.\n\n---\r\n**Routine**\r\n(3 actions) The ancient apparatus emits beams of rust-colored light, spending an action to make ranged Strikes against three targets in area D3. The apparatus can target creatures as if it possessed [darkvision](/MonsterAbilities.aspx?ID=12), but has no ability to discern between friend or foe. It can't target a creature more than once, and if there are more than three targets, it selects its targets from those it can see in the room randomly. The ancient apparatus has only 1 action as long as its Hit Points are below its BT.<br /> **Ranged** rusty light beam +11 ([divine](/Traits.aspx?ID=48), [necromancy](/Traits.aspx?ID=117)), **Damage** 2d6+5 negative plus [rust creep](/Diseases.aspx?ID=25)\r\n\r\n---\r\n**Reset**\r\nThe ancient apparatus reverts to its non-active mode and resets automatically at the end of any round in which there are no obvious targets to attack.",
+ "name": "Ancient Apparatus",
+ "primary_source": "Rusthenge",
+ "primary_source_raw": "Rusthenge pg. 34",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Rusthenge",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 11,
+ "release_date": "2023-10-18",
+ "reset": "The ancient apparatus reverts to its non-active mode and resets automatically at the end of any round in which there are no obvious targets to attack.",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 34\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA complex device made of multicolored metal that resembles a combination of grinding gears, spider-like legs, and twitching blades, from which emits …\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Rusthenge"
+ ],
+ "source_raw": [
+  "Rusthenge pg. 34"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Rusthenge"
+ ],
+ "source_markdown": "[Rusthenge](/Sources.aspx?ID=215) pg. 34",
+ "speed": {},
+ "spoilers": "Rusthenge",
+ "stealth": "+8 (trained)",
+ "summary": "A complex device made of multicolored metal that resembles a combination of grinding gears, spider-like legs, and twitching blades, from which emits …",
+ "summary_markdown": "A complex device made of multicolored metal that resembles a combination of grinding gears, spider-like legs, and twitching blades, from which emits …",
+ "text": " Ancient Apparatus Source Rusthenge pg. 34 Complexity Complex A complex device made of multicolored metal that resembles a combination of grinding gears, spider-like legs, and twitching blades, from which emits a constant soft ticking sound. All of the metal in the device appears to be rusted or corroded. --- Stealth +8 (trained) Disable DC 18 Thievery to adjust the device's workings so they seize up and no longer function, or DC 21 Religion to focus prayers to a non-evil deity into the device to disrupt its ability to channel ambient faith AC 18, Fort +5, Ref +11 Hardness 8 HP 30 (BT 15) Immunities critical hits, object immunities, precision damage Spin Up Reaction Trigger The ancient apparatus takes damage or an attempt to disable it fails; Effect The ancient apparatus begins to grind and churn faster. Its soft ticking whirs up to a discordant buzzing sound, and the entire thing begins to glow with an unsettling rust-colored light. All living creatures in area D3 experience the unsettling taste of rust in their mouths and must succeed on a DC 18 Fortitude save to avoid becoming sickened 1. The ancient apparatus then rolls initiative. --- Routine (3 actions) The ancient apparatus emits beams of rust-colored light, spending an action to make ranged Strikes against three targets in area D3. The apparatus can target creatures as if it possessed darkvision, but has no ability to discern between friend or foe. It can't target a creature more than once, and if there are more than three targets, it selects its targets from those it can see in the room randomly. The ancient apparatus has only 1 action as long as its Hit Points are below its BT. Ranged rusty light beam +11 (divine, necromancy), Damage 2d6+5 negative plus rust creep --- Reset The ancient apparatus reverts to its non-active mode and resets automatically at the end of any round in which there are no obvious targets to attack.",
+ "trait": [
+  "Complex",
+  "Magical",
+  "Trap",
+  "Unique"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Equipment",
+  "Rarity"
+ ],
+ "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Magical](/Traits.aspx?ID=103), [Trap](/Traits.aspx?ID=158), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Complex",
+  "Magical",
+  "Trap",
+  "Unique"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=420",
+ "weakness": {}
+}

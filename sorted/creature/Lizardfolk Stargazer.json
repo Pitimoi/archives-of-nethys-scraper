@@ -1,57 +1,104 @@
 {
  "ac": 17,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  8,
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Deep Breath"
  ],
  "creature_family": "Lizardfolk",
- "creature_family_markdown": "[Lizardfolk](/MonsterFamilies.aspx?ID=71)",
+ "creature_family_markdown": "[Lizardfolk](/MonsterFamilies.aspx?ID=441)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 30,
  "hp_raw": "30",
- "id": "creature-293",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3092",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Staff"
+ ],
  "language": [
+  "Common",
   "Draconic",
   "Iruxi"
  ],
- "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)",
+ "legacy_id": "creature-293",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Lizardfolk Stargazer](/Monsters.aspx?ID=293)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and observant stargazers are among the people’s most respected members. Even the lowliest stargazer, as presented here, has a number of useful primal spells to aid their kin; in larger iruxi settlements, stargazers wield even greater powers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Lizardfolk Stargazer](/Monsters.aspx?ID=293)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 231</row>\n\n**Perception** +8\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)\r\n\r\n**Skills**\r\n[Diplomacy](/Skills.aspx?ID=6) +4, [Iruxi Lore](/Skills.aspx?ID=8) +6, [Nature](/Skills.aspx?ID=10) +8, [Stealth](/Skills.aspx?ID=15) +6, [Survival](/Skills.aspx?ID=16) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +2\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 30\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +8 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8,\r\n**Damage** 1d6+2 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d4+2 bludgeoning\r\n\r\n**Primal Prepared Spells** DC 20, attack +10\r\n- **Cantrips (1st)**\r\n[Guidance](/Spells.aspx?ID=142), [Know Direction](/Spells.aspx?ID=169), [Produce Flame](/Spells.aspx?ID=236), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Heal](/Spells.aspx?ID=148), [Magic Fang](/Spells.aspx?ID=179), [Shillelagh](/Spells.aspx?ID=282), [Summon Animal](/Spells.aspx?ID=316)\r\n\r\n**Deep Breath**   A lizardfolk stargazer can hold their breath for 200 rounds (20 minutes).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-71\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Lizardfolk Stargazer](/NPCs.aspx?ID=3092)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and observant stargazers are among the people's most respected members. Even the lowliest stargazer, as presented here, has a number of useful primal spells to aid their kin; in larger iruxi settlements, stargazers wield even greater powers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Lizardfolk Stargazer](/NPCs.aspx?ID=3092)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=760\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 227\n\n**Perception** +8\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)\r\n\r\n**Skills**\r\n[Diplomacy](/Skills.aspx?ID=6) +4, [Iruxi Lore](/Skills.aspx?ID=8) +6, [Nature](/Skills.aspx?ID=10) +8, [Stealth](/Skills.aspx?ID=15) +6, [Survival](/Skills.aspx?ID=16) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +2\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Deep Breath** A lizardfolk stargazer can [hold their breath](/Rules.aspx?ID=468) for 20 minutes.\r\n\r\n**Items**\r\n[Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +8 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8,\r\n**Damage** 1d6+2 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d4+2 bludgeoning\r\n\r\n**Primal Prepared Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\n[Guidance](/Spells.aspx?ID=142), [Ignition](/Spells.aspx?ID=1565), [Know the Way](/Spells.aspx?ID=1582), [Light](/Spells.aspx?ID=171), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Heal](/Spells.aspx?ID=148), [Runic Body](/Spells.aspx?ID=1657), [Pest Form](/Spells.aspx?ID=217), [Summon Animal](/Spells.aspx?ID=316)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-441\" />",
  "name": "Lizardfolk Stargazer",
- "npc": false,
+ "npc": true,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 227",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 6,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 231</row>\r\n\r\n**Creature Family** [Lizardfolk](/MonsterFamilies.aspx?ID=71)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=760\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 227\r\n\r\n**Creature Family** [Lizardfolk](/MonsterFamilies.aspx?ID=441)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Diplomacy +4",
-  "Iruxi Lore +6",
-  "Nature +8",
-  "Stealth +6",
-  "Survival +8"
+  "Diplomacy",
+  "Iruxi Lore",
+  "Nature",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Diplomacy](/Skills.aspx?ID=6) +4, [Iruxi Lore](/Skills.aspx?ID=8) +6, [Nature](/Skills.aspx?ID=10) +8, [Stealth](/Skills.aspx?ID=15) +6, [Survival](/Skills.aspx?ID=16) +8",
+ "skill_mod": {
+  "diplomacy": 4,
+  "nature": 8,
+  "stealth": 6,
+  "survival": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 231"
+  "Monster Core pg. 227"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 231</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 227",
  "speed": {
   "land": 25,
   "max": 25,
@@ -62,41 +109,84 @@
  "spell": [
   "Charm",
   "Heal",
-  "Magic Fang",
-  "Shillelagh",
+  "Runic Body",
+  "Pest Form",
   "Summon Animal",
   "Guidance",
-  "Know Direction",
-  "Produce Flame",
+  "Ignition",
+  "Know the Way",
+  "Light",
   "Stabilize"
  ],
- "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Guidance](/Spells.aspx?ID=142), [Heal](/Spells.aspx?ID=148), [Know Direction](/Spells.aspx?ID=169), [Magic Fang](/Spells.aspx?ID=179), [Produce Flame](/Spells.aspx?ID=236), [Shillelagh](/Spells.aspx?ID=282), [Stabilize](/Spells.aspx?ID=307), [Summon Animal](/Spells.aspx?ID=316)",
+ "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Guidance](/Spells.aspx?ID=142), [Heal](/Spells.aspx?ID=148), [Ignition](/Spells.aspx?ID=1565), [Know the Way](/Spells.aspx?ID=1582), [Light](/Spells.aspx?ID=171), [Pest Form](/Spells.aspx?ID=217), [Runic Body](/Spells.aspx?ID=1657), [Stabilize](/Spells.aspx?ID=307), [Summon Animal](/Spells.aspx?ID=316)",
+ "spell_attack_bonus": [
+  10
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "6",
+ "strike_damage_average": [
+  4,
+  5,
+  5
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "will"
  ],
  "summary": "The tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and …",
  "summary_markdown": "The tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and …",
- "text": " Lizardfolk Stargazer The tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and observant stargazers are among the people’s most respected members. Even the lowliest stargazer, as presented here, has a number of useful primal spells to aid their kin; in larger iruxi settlements, stargazers wield even greater powers. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Lizardfolk Stargazer Source Bestiary pg. 231 Perception +8 Languages Draconic, Iruxi Skills Diplomacy +4, Iruxi Lore +6, Nature +8, Stealth +6, Survival +8 Str +2 Dex +2 Con +1 Int +0 Wis +4 Cha +0 Items Staff --- AC 17 Fort +7 Ref +6 Will +10 HP 30 --- Speed 25 feet, swim 20 feet Melee Single Action staff +8 (two-hand d8), Damage 1d6+2 bludgeoning Melee Single Action jaws +8, Damage 1d6+2 piercing Melee Single Action tail +8 (Agile, Finesse), Damage 1d4+2 bludgeoning Primal Prepared Spells DC 20, attack +10 - Cantrips (1st) Guidance, Know Direction, Produce Flame, Stabilize - 1st Charm, Heal, Magic Fang, Shillelagh, Summon Animal Deep Breath A lizardfolk stargazer can hold their breath for 200 rounds (20 minutes). ",
+ "text": " Lizardfolk Stargazer The tradition of astrology and looking to the stars for both navigation and prognostication is well-established in iruxi society, and their wise and observant stargazers are among the people's most respected members. Even the lowliest stargazer, as presented here, has a number of useful primal spells to aid their kin; in larger iruxi settlements, stargazers wield even greater powers. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Lizardfolk Stargazer Source Monster Core pg. 227 Perception +8 Languages Common, Draconic, Iruxi Skills Diplomacy +4, Iruxi Lore +6, Nature +8, Stealth +6, Survival +8 Str +2 Dex +2 Con +1 Int +0 Wis +4 Cha +0 Deep Breath A lizardfolk stargazer can hold their breath for 20 minutes. Items Staff --- AC 17 Fort +7 Ref +6 Will +10 HP 30 --- Speed 25 feet, swim 20 feet Melee Single Action staff +8 (two-hand d8), Damage 1d6+2 bludgeoning Melee Single Action jaws +8, Damage 1d6+2 piercing Melee Single Action tail +8 (Agile, Finesse), Damage 1d4+2 bludgeoning Primal Prepared Spells DC 18, attack +10 - Cantrips (1st) Guidance, Ignition, Know the Way, Light, Stabilize - 1st Charm, Heal, Runic Body, Pest Form, Summon Animal\n",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Humanoid",
   "Lizardfolk",
-  "N",
   "Medium"
  ],
- "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Lizardfolk](/Traits.aspx?ID=226)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628), [Lizardfolk](/Traits.aspx?ID=760)",
  "trait_raw": [
   "Humanoid",
   "Lizardfolk"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=293",
+ "url": "/NPCs.aspx?ID=3092",
  "weakest_save": [
   "ref",
   "reflex"
  ],
  "weakness": {},
  "will_save": 10,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,35 +8,47 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Belt of Giant Strength](/Equipment.aspx?ID=398)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup></row>\n\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn belt\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to Athletics checks to lift a heavy object, Escape, and Force Open. When you invest the belt, you either increase your Strength score by 2 or increase it to 18, whichever would give you a higher score.\n\n<document level=\"2\" id=\"action-224\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Belt of Giant Strength](/Equipment.aspx?ID=398)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup>\n\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn belt\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to Athletics checks to lift a heavy object, Escape, and Force Open. When you invest the belt, you either increase your Strength score by 2 or increase it to 18, whichever would give you a higher score.\n\n**Activate** <actions string=\"Reaction\" /> Interact;   **Trigger** You are targeted by a thrown rock attack, or a rock would fall on you;  **Effect** Attempt an Athletics check to grab the triggering rock. Use the Athletics DC of the creature throwing the rock, the DC of the hazard or other effect, or DC 35 if no other DC is applicable. You must have a free hand to catch the rock, but you can Release anything you’re holding in a hand as part of this reaction.\r\n\r\n**Success** You safely catch the rock, take no damage, and are now holding the rock.<br />\r\n**Failure** You take half damage.<br />\r\n**Critical Failure** You take full damage.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Belt of Giant Strength",
  "pfs": "Standard",
  "price": 1500000,
  "price_raw": "15,000 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 603",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "equipment-3008",
+ "remaster_name": "Bracers of Strength",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup></row>\r\n\r\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn belt\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup>\r\n\r\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn belt\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks …\r\n</summary>",
  "skill": [
   "Athletics"
  ],
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 603"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks …",
  "summary_markdown": "This thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks …",
- "text": "<title level=\"1\" right=\"Item 17\" pfs=\"Standard\" > Belt of Giant Strength Source Core Rulebook pg. 603 4.0 Price 15,000 gp Usage worn belt Bulk L --- This thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to Athletics checks to lift a heavy object, Escape, and Force Open. When you invest the belt, you either increase your Strength score by 2 or increase it to 18, whichever would give you a higher score.\n",
+ "text": "<title level=\"1\" right=\"Item 17\" pfs=\"Standard\" > Belt of Giant Strength Source Core Rulebook pg. 603 4.0 Price 15,000 gp Usage worn belt Bulk L --- This thick leather belt is decorated with a buckle carved from glittering quartz in the shape of a fist. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to Athletics checks to lift a heavy object, Escape, and Force Open. When you invest the belt, you either increase your Strength score by 2 or increase it to 18, whichever would give you a higher score. Activate Reaction Interact; Trigger You are targeted by a thrown rock attack, or a rock would fall on you; Effect Attempt an Athletics check to grab the triggering rock. Use the Athletics DC of the creature throwing the rock, the DC of the hazard or other effect, or DC 35 if no other DC is applicable. You must have a free hand to catch the rock, but you can Release anything you’re holding in a hand as part of this reaction. Success You safely catch the rock, take no damage, and are now holding the rock. Failure You take half damage. Critical Failure You take full damage.\n",
  "trait": [
   "Apex",
   "Invested"
+ ],
+ "trait_group": [
+  "Equipment"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Invested](/Traits.aspx?ID=98)",
  "trait_raw": [

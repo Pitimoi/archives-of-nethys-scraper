@@ -1,59 +1,106 @@
 {
- "ac": 16,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac": 14,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Unluck Aura"
  ],
  "creature_family": "Gremlin",
- "creature_family_markdown": "[Gremlin](/MonsterFamilies.aspx?ID=58)",
+ "creature_family_markdown": "[Gremlin](/MonsterFamilies.aspx?ID=424)",
  "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 5,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 17,
  "hp_raw": "17",
- "id": "creature-246",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3032",
  "intelligence": 0,
- "language": [
-  "Gnoll",
-  "Undercommon"
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Shortbow (60 arrows)",
+  "Shortsword"
  ],
- "language_markdown": "[Gnoll](/Languages.aspx?ID=17), [Undercommon](/Languages.aspx?ID=11)",
+ "language": [
+  "Kholo",
+  "Sakvroth"
+ ],
+ "language_markdown": "[Kholo](/Languages.aspx?ID=122), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-246",
  "level": 0,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Pugwampi](/Monsters.aspx?ID=246)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures—something that happens often due to the supernatural aura of ill fortune these gremlins project. They enjoy preparing pranks involving spikes, excrement, pits full of spiders, and the like. Pugwampis are somewhat deaf and thus often yell loudly to each other when not hiding. Many pugwampis worship gnolls as gods and aspire to be more like gnolls, although gnolls hate pugwampis even more than most creatures do, due to their sycophantic fawning.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Pugwampi](/Monsters.aspx?ID=246)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=221\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 193</row>\n\n**Perception** +6; (–2 to hear things); darkvision\r\n\r\n**Languages**\r\n[Gnoll](/Languages.aspx?ID=17), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Crafting](/Skills.aspx?ID=4) +2, [Deception](/Skills.aspx?ID=5) +2, [Nature](/Skills.aspx?ID=10) +4, [Stealth](/Skills.aspx?ID=15) +5, [Thievery](/Skills.aspx?ID=17) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** -3\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** -2\r\n</row>\n\n**Items**\r\n[Shortbow](/Weapons.aspx?ID=77) (60 arrows), [Shortsword](/Weapons.aspx?ID=43)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 17\n\n**Weaknesses**\r\ncold iron 2\r\n\r\n**Unluck Aura** ([aura](/Traits.aspx?ID=206), [divination](/Traits.aspx?ID=47), [mental](/Traits.aspx?ID=106), [misfortune](/Traits.aspx?ID=110), [primal](/Traits.aspx?ID=134)) 20 feet. Creatures other than animals, gremlins, and gnolls in the aura become extremely unlucky (DC 16 Will save; creature must roll this Will save twice and take the worse result). On a successful save, the creature is temporarily immune to pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and take the worse result on all checks as long as it is within the aura.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshortsword +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d6-3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshortbow +8 ([deadly 1d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [range increment 60 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 1d6 piercing\r\n\r\n**Primal Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Prestidigitation](/Spells.aspx?ID=229)\r\n- **2nd**\r\n[Speak with Animals](/Spells.aspx?ID=293) (at will)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-58\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Pugwampi](/Monsters.aspx?ID=3032)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures— something that happens often due to the supernatural aura of ill fortune these gremlins project. They enjoy preparing pranks involving spikes, excrement, pits full of spiders, and similar twisted torments. Pugwampis are somewhat deaf and thus often yell loudly to each other when not hiding. Many pugwampis worship [kholos](/MonsterFamilies.aspx?ID=54) as gods and aspire to be more like them. Kholos, on the other hand, hate pugwampis because of their sycophantic fawning.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Pugwampi](/Monsters.aspx?ID=3032)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=756\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 180\n\n**Perception** +6; (-2 to hear things) [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Kholo](/Languages.aspx?ID=122), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Crafting](/Skills.aspx?ID=4) +2, [Deception](/Skills.aspx?ID=5) +2, [Nature](/Skills.aspx?ID=10) +4, [Stealth](/Skills.aspx?ID=15) +5, [Thievery](/Skills.aspx?ID=17) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** -3\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** -2\r\n</row>\n\n**Items**\r\n[Shortbow](/Weapons.aspx?ID=77) (60 arrows), [Shortsword](/Weapons.aspx?ID=43)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 17\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 2\r\n\r\n**Unluck Aura** ([aura](/Traits.aspx?ID=542), [mental](/Traits.aspx?ID=647), [misfortune](/Traits.aspx?ID=654), [primal](/Traits.aspx?ID=676)) 20 feet. When a creature that isn't an [animal](/Traits.aspx?ID=531), [gremlin](/MonsterFamilies.aspx?ID=424), or [kholo](/MonsterFamilies.aspx?ID=434) enters the aura, it might become unlucky. It attempts a DC 16 Will save; it must roll twice and take the worse result. On a success, the creature is temporarily immune to pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and take the worse result on all checks as long as it's within the aura.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshortsword +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 0 feet](/Traits.aspx?ID=192), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d6–3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshortbow +8 ([deadly d10](/Traits.aspx?ID=174), [range increment 60 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 1d6 piercing\r\n\r\n**Primal Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Prestidigitation](/Spells.aspx?ID=229)\r\n- **2nd**\r\n[Speak with Animals](/Spells.aspx?ID=293) (at will)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-424\" />",
  "name": "Pugwampi",
  "npc": false,
  "perception": 6,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 180",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=221\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 193</row>\r\n\r\n**Creature Family** [Gremlin](/MonsterFamilies.aspx?ID=58)\r\n\r\n<row gap=\"medium\">\r\n**HP** 17\r\n\r\n**AC** 16\r\n\r\n**Fort** +5\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures—something that happens …\r\n</summary>",
- "sense": "(–2 to hear things); darkvision",
- "sense_markdown": "(–2 to hear things); darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=756\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 180\r\n\r\n**Creature Family** [Gremlin](/MonsterFamilies.aspx?ID=424)\r\n\r\n<row gap=\"medium\">\r\n**HP** 17\r\n\r\n**AC** 14\r\n\r\n**Fort** +5\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures— something that happens …\r\n</summary>",
+ "sense": "(-2 to hear things)  darkvision ",
+ "sense_markdown": "(-2 to hear things) [darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
-  "Tiny"
+  "Small"
+ ],
+ "size_id": [
+  2
  ],
  "skill": [
-  "Crafting +2",
-  "Deception +2",
-  "Nature +4",
-  "Stealth +5",
-  "Thievery +5"
+  "Crafting",
+  "Deception",
+  "Nature",
+  "Stealth",
+  "Thievery"
  ],
  "skill_markdown": "[Crafting](/Skills.aspx?ID=4) +2, [Deception](/Skills.aspx?ID=5) +2, [Nature](/Skills.aspx?ID=10) +4, [Stealth](/Skills.aspx?ID=15) +5, [Thievery](/Skills.aspx?ID=17) +5",
+ "skill_mod": {
+  "crafting": 2,
+  "deception": 2,
+  "nature": 4,
+  "stealth": 5,
+  "thievery": 5
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 193"
+  "Monster Core pg. 180"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 193</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 180",
  "speed": {
   "land": 25,
   "max": 25
@@ -65,28 +112,56 @@
   "Prestidigitation"
  ],
  "spell_markdown": "[Prestidigitation](/Spells.aspx?ID=229), [Speak with Animals](/Spells.aspx?ID=293)",
+ "spell_dc": [
+  16
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "5",
+ "strike_damage_average": [
+  3,
+  3
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures—something that happens …",
- "summary_markdown": "Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures—something that happens …",
- "text": " Pugwampi Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures—something that happens often due to the supernatural aura of ill fortune these gremlins project. They enjoy preparing pranks involving spikes, excrement, pits full of spiders, and the like. Pugwampis are somewhat deaf and thus often yell loudly to each other when not hiding. Many pugwampis worship gnolls as gods and aspire to be more like gnolls, although gnolls hate pugwampis even more than most creatures do, due to their sycophantic fawning. Recall Knowledge - Fey (Nature): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Pugwampi Source Bestiary pg. 193 Perception +6; (–2 to hear things); darkvision Languages Gnoll, Undercommon Skills Crafting +2, Deception +2, Nature +4, Stealth +5, Thievery +5 Str -3 Dex +3 Con +0 Int +0 Wis +2 Cha -2 Items Shortbow (60 arrows), Shortsword --- AC 16 Fort +5 Ref +8 Will +6 HP 17 Weaknesses cold iron 2 Unluck Aura (aura, divination, mental, misfortune, primal) 20 feet. Creatures other than animals, gremlins, and gnolls in the aura become extremely unlucky (DC 16 Will save; creature must roll this Will save twice and take the worse result). On a successful save, the creature is temporarily immune to pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and take the worse result on all checks as long as it is within the aura. --- Speed 25 feet Melee Single Action shortsword +8 (Agile, Finesse, Magical, versatile S), Damage 1d6-3 slashing Ranged Single Action shortbow +8 (deadly 1d10, Magical, range increment 60 feet, reload 0), Damage 1d6 piercing Primal Innate Spells DC 16 - Cantrips (1st) Prestidigitation - 2nd Speak with Animals (at will)\n",
+ "summary": "Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures— something that happens …",
+ "summary_markdown": "Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures— something that happens …",
+ "text": " Pugwampi Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures— something that happens often due to the supernatural aura of ill fortune these gremlins project. They enjoy preparing pranks involving spikes, excrement, pits full of spiders, and similar twisted torments. Pugwampis are somewhat deaf and thus often yell loudly to each other when not hiding. Many pugwampis worship kholos as gods and aspire to be more like them. Kholos, on the other hand, hate pugwampis because of their sycophantic fawning. Recall Knowledge - Fey (Nature): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Pugwampi Source Monster Core pg. 180 Perception +6; (-2 to hear things) darkvision Languages Kholo, Sakvroth Skills Crafting +2, Deception +2, Nature +4, Stealth +5, Thievery +5 Str -3 Dex +3 Con +0 Int +0 Wis +2 Cha -2 Items Shortbow (60 arrows), Shortsword --- AC 14 Fort +5 Ref +8 Will +6 HP 17 Weaknesses cold iron 2 Unluck Aura (aura, mental, misfortune, primal) 20 feet. When a creature that isn't an animal, gremlin, or kholo enters the aura, it might become unlucky. It attempts a DC 16 Will save; it must roll twice and take the worse result. On a success, the creature is temporarily immune to pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and take the worse result on all checks as long as it's within the aura. --- Speed 25 feet Melee Single Action shortsword +8 (Agile, Finesse, reach 0 feet, versatile S), Damage 1d6–3 slashing Ranged Single Action shortbow +8 (deadly d10, range increment 60 feet, reload 0), Damage 1d6 piercing Primal Innate Spells DC 16 - Cantrips (1st) Prestidigitation - 2nd Speak with Animals (at will)\n",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Fey",
   "Gremlin",
-  "NE",
-  "Tiny"
+  "Small"
  ],
- "trait_markdown": "[Fey](/Traits.aspx?ID=69), [Gremlin](/Traits.aspx?ID=221)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Gremlin](/Traits.aspx?ID=756)",
  "trait_raw": [
   "Fey",
   "Gremlin"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=246",
+ "url": "/Monsters.aspx?ID=3032",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -95,8 +170,12 @@
  "weakness": {
   "cold_iron": 2
  },
- "weakness_markdown": "cold iron 2",
- "weakness_raw": "cold iron 2",
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 2",
+ "weakness_raw": " cold iron  2",
  "will_save": 6,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

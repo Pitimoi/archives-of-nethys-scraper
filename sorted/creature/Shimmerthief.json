@@ -1,0 +1,186 @@
+{
+ "ac": 25,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Echolocation",
+  "Shimmervision",
+  "Gleam Theft",
+  "Drain Light",
+  "Lasting Darkness"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 119,
+ "hp_raw": "119",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2795",
+ "immunity": [
+  "blinded",
+  "dazzled",
+  "visual"
+ ],
+ "immunity_markdown": "blinded, dazzled, visual",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Draconic"
+ ],
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Shimmerthief](/Monsters.aspx?ID=2795)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nShimmerthieves are blind, lizard-like cave dwellers with an insatiable yearning to consume the rare delicacy of light. This hunger compels them to travel beyond their subterranean lairs to the surface to feed, leaving pockets of darkness behind as they go.\n\n They're far from unintelligent yet prefer to avoid other sapient creatures, aware that many find them off-putting. They become independent at a young age but are protective of their kind, and they travel in small groups when able. Prudent shimmerthieves try to avoid feeding on light in busy areas, but such places are also the most tempting, as bustling populations mean more light sources.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 25\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 23\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 20\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Shimmerthief](/Monsters.aspx?ID=2795)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #198: No Breath to Cry](/Sources.aspx?ID=224) pg. 86\n\n**Perception** +15; echolocation 120 feet, shimmervision\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Stealth](/Skills.aspx?ID=15) +17, [Survival](/Skills.aspx?ID=16) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +6\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Echolocation** A shimmerthief can use their hearing as a precise sense at the listed range.<br />**Shimmervision** A shimmerthief's sight allows them to sense sources of light from the same distance as creatures with standard vision but doesn't allow them to make out details. They can't detect anything other than light sources using this vision.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 119\n\n</row>\r\n\r\n**Immunities**\r\nblinded, dazzled, visual\n\n**Gleam Theft** ([aura](/Traits.aspx?ID=542), [darkness](/Traits.aspx?ID=569), [primal](/Traits.aspx?ID=676)) 10 feet. A shimmerthief constantly absorbs ambient light. Bright light in their aura becomes dim light, and dim light becomes darkness. A shimmerthief can suppress or activate this aura as a single action with the [concentrate](/Traits.aspx?ID=561) trait.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws + 17,\r\n**Damage** 2d8+10 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +17 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+10 slashing\r\n\r\n**Primal Innate Spells** DC 25, attack +17\r\n- **2nd**\r\n[Blur](/Spells.aspx?ID=28), [Darkness](/Spells.aspx?ID=59) (at will)\r\n- **4th**\r\n[Darkness](/Spells.aspx?ID=59)\r\n\r\n**Drain Light** <actions string=\"Two Actions\" /> ([Abjuration](/Traits.aspx?ID=2), [Darkness](/Traits.aspx?ID=39), [Primal](/Traits.aspx?ID=134)) The shimmerthief targets a light source within 30 feet, then attempts to counteract it with a spell attack roll. If they succeed, the shimmerthief regains 2d8+10 Hit Points (4d8+20 Hit Points on a critical success).\r\n\r\n**Lasting Darkness** <actions string=\"Reaction\" />  **Frequency** once per day; **Trigger** The shimmerthief casts darkness as a 2nd-level spell; **Effect** The duration of the shimmerthief's darkness increases to 24 hours. \n\n**Critical Success** The creature is unaffected.<br />\n**Success** The creature is [frightened](/Conditions.aspx?ID=76) 1.<br />\n**Failure** The creature is frightened 2.<br />\n**Critical Failure** The creature is frightened 2 and [fleeing](/Conditions.aspx?ID=74) for as long as it remains frightened.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Alternate Diets</title>\r\n\r\nSome shimmerthieves develop a taste for and the capacity to consume energy forms far more insidious than light, allowing them to feed on life energy or thought energy instead of light. Such behavior is considered monstrous by most shimmerthieves and a reason for exile. Shimmerthieves with these proclivities are dangerous predators that maintain the ability to feed on light and purposely create pockets of darkness to trap and feed on victims. A shimmerthief that feeds on life energy deals negative damage with their jaws, while one that feeds on thought energy deals mental damage with their jaws.\r\n</aside>",
+ "name": "Shimmerthief",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #198: No Breath to Cry",
+ "primary_source_raw": "Pathfinder #198: No Breath to Cry pg. 86",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 17,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-12-25",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #198: No Breath to Cry](/Sources.aspx?ID=224) pg. 86\n\n<row gap=\"medium\">\r\n**HP** 119\r\n\r\n**AC** 25\r\n\r\n**Fort** +12\r\n\r\n**Ref** +17\r\n\r\n**Will** +15\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nShimmerthieves are blind, lizard-like cave dwellers with an insatiable yearning to consume the rare delicacy of light. This hunger compels them to …\r\n</summary>",
+ "sense": "echolocation 120 feet, shimmervision",
+ "sense_markdown": "echolocation 120 feet, shimmervision",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Stealth](/Skills.aspx?ID=15) +17, [Survival](/Skills.aspx?ID=16) +17",
+ "skill_mod": {
+  "stealth": 17,
+  "survival": 17
+ },
+ "source": [
+  "Pathfinder #198: No Breath to Cry"
+ ],
+ "source_raw": [
+  "Pathfinder #198: No Breath to Cry pg. 86"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Pathfinder #198: No Breath to Cry](/Sources.aspx?ID=224) pg. 86",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Darkness",
+  "Blur"
+ ],
+ "spell_markdown": "[Blur](/Spells.aspx?ID=28), [Darkness](/Spells.aspx?ID=59)",
+ "spell_attack_bonus": [
+  17
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  25
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Season of Ghosts",
+ "stealth": "17",
+ "strike_damage_average": [
+  17,
+  19
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Shimmerthieves are blind, lizard-like cave dwellers with an insatiable yearning to consume the rare delicacy of light. This hunger compels them to …",
+ "summary_markdown": "Shimmerthieves are blind, lizard-like cave dwellers with an insatiable yearning to consume the rare delicacy of light. This hunger compels them to …",
+ "text": " Shimmerthief Shimmerthieves are blind, lizard-like cave dwellers with an insatiable yearning to consume the rare delicacy of light. This hunger compels them to travel beyond their subterranean lairs to the surface to feed, leaving pockets of darkness behind as they go. They're far from unintelligent yet prefer to avoid other sapient creatures, aware that many find them off-putting. They become independent at a young age but are protective of their kind, and they travel in small groups when able. Prudent shimmerthieves try to avoid feeding on light in busy areas, but such places are also the most tempting, as bustling populations mean more light sources. Recall Knowledge - Beast (Arcana, Nature): DC 25 Unspecific Lore : DC 23 Specific Lore : DC 20 Shimmerthief Source Pathfinder #198: No Breath to Cry pg. 86 Perception +15; echolocation 120 feet, shimmervision Languages Draconic Skills Stealth +17, Survival +17 Str +4 Dex +6 Con +3 Int +0 Wis +4 Cha +0 Echolocation A shimmerthief can use their hearing as a precise sense at the listed range. Shimmervision A shimmerthief's sight allows them to sense sources of light from the same distance as creatures with standard vision but doesn't allow them to make out details. They can't detect anything other than light sources using this vision. --- AC 25 Fort +12 Ref +17 Will +15 HP 119 Immunities blinded, dazzled, visual Gleam Theft (aura, darkness, primal) 10 feet. A shimmerthief constantly absorbs ambient light. Bright light in their aura becomes dim light, and dim light becomes darkness. A shimmerthief can suppress or activate this aura as a single action with the concentrate trait. --- Speed 25 feet Melee Single Action jaws + 17, Damage 2d8+10 piercing Melee Single Action claw +17 (Agile), Damage 2d6+10 slashing Primal Innate Spells DC 25, attack +17 - 2nd Blur, Darkness (at will) - 4th Darkness Drain Light Two Actions (Abjuration, Darkness, Primal) The shimmerthief targets a light source within 30 feet, then attempts to counteract it with a spell attack roll. If they succeed, the shimmerthief regains 2d8+10 Hit Points (4d8+20 Hit Points on a critical success). Lasting Darkness Reaction Frequency once per day; Trigger The shimmerthief casts darkness as a 2nd-level spell; Effect The duration of the shimmerthief's darkness increases to 24 hours. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Critical Failure The creature is frightened 2 and fleeing for as long as it remains frightened. Alternate Diets Some shimmerthieves develop a taste for and the capacity to consume energy forms far more insidious than light, allowing them to feed on life energy or thought energy instead of light. Such behavior is considered monstrous by most shimmerthieves and a reason for exile. Shimmerthieves with these proclivities are dangerous predators that maintain the ability to feed on light and purposely create pockets of darkness to trap and feed on victims. A shimmerthief that feeds on life energy deals negative damage with their jaws, while one that feeds on thought energy deals mental damage with their jaws. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Beast",
+  "Uncommon",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=20), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Beast",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2795",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 15,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

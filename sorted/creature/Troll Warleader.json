@@ -1,0 +1,184 @@
+{
+ "ac": 29,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  23,
+  23,
+  24
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Easily Misled",
+  "Furious Roar",
+  "Reactive Strike",
+  "Primordial Roar",
+  "Shed Armor",
+  "Sweeping Axes"
+ ],
+ "creature_family": "Troll",
+ "creature_family_markdown": "[Troll](/MonsterFamilies.aspx?ID=478)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 240,
+ "hp_raw": "240",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3220",
+ "image": [
+  "/Images/Monsters/Troll_Warleader.webp"
+ ],
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking battle axe (2)",
+  "Half Plate"
+ ],
+ "language": [
+  "Jotun"
+ ],
+ "language_markdown": "[Jotun](/Languages.aspx?ID=8)",
+ "legacy_id": "creature-396",
+ "legacy_name": "Troll King",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Troll Warleader](/Monsters.aspx?ID=3220)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLong-lived trolls sometimes force their way through the twin distractions of hunger and pain to learn more about the world around them. To manage their regeneration, they learn to cover themselves in crude armor that slowly becomes integrated with the top layer of their flesh. Marked by this armor and aided by their superior wits, these warleaders gather a variety of trolls to serve them in raiding parties.\n\n The warleader presented here is a forest troll, but warleaders can be other types of trolls as well. Many of them are adapted to battle tactics that are best suited to their home environments.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 27\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 25\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 22\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Troll_Warleader.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Troll Warleader](/Monsters.aspx?ID=3220)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Troll\" url=\"/Traits.aspx?ID=777\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 331\n\n**Perception** +19; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +21, [Crafting](/Skills.aspx?ID=4) +15, [Intimidation](/Skills.aspx?ID=7) +22, [Nature](/Skills.aspx?ID=10) +17, [Survival](/Skills.aspx?ID=16) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +3\r\n\r\n**Con** +7\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Easily Misled** The troll warleader gets a –4 circumstance penalty to their Perception DC against [Deception](/Skills.aspx?ID=38) checks.\r\n\r\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [battle axe](/Weapons.aspx?ID=371)_ (2), [Half Plate](/Armor.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 29 (26 plus [all-around vision](/MonsterAbilities.aspx?ID=49) after Shed Armor)\r\n\r\n**Fort** +23 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n\r\n, regeneration 20 (deactivated by [electricity](/Traits.aspx?ID=586) or [fire](/Traits.aspx?ID=604))\n\n</row>\n\n**Weaknesses**\r\nelectricity 10, fire 10\r\n\r\n**Furious Roar** <actions string=\"Reaction\" /> **Trigger** The troll warleader takes electricity or fire damage; **Effect** The warleader uses their Primordial Roar and, if they're aware of the damage's source, can Stride toward it. If the warleader has [persistent fire damage](/Conditions.aspx?ID=29), they attempt a DC 15 flat check to remove it.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +23 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+13 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbattle axe +24 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d8+13 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +23 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+13 slashing\n\n**Primordial Roar** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The troll warleader unleashes a bestial roar. Each non-troll creature in a 100-foot emanation must attempt a DC 29 Will save. The creature is then temporarily immune for 10 minutes.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [frightened 1](/Conditions.aspx?ID=76).<br /> **Failure** The creature is frightened 2.<br /> **Critical Failure** The creature is frightened 3.\r\n\r\n**Shed Armor** <actions string=\"Single Action\" /> ([Manipulate](/Traits.aspx?ID=104)) The warleader cuts their armor loose from their flesh. They immediately heal 60 Hit Points in a surge of regeneration as they grow twisted limbs and malformed faces. Without their armor, the warleader's AC drops to 26 but they gain [all-around vision](/MonsterAbilities.aspx?ID=49) from the new faces. Putting the armor back on takes 10 minutes, and this ability can't be used again until 1 hour has passed.\r\n\r\n**Sweeping Axes** <actions string=\"Three Actions\" />  **Requirements** The troll warleader is wielding two battle axes; **Effect** The warleader makes a battle axe Strike against each creature in their reach and the bonus from [sweep](/Traits.aspx?ID=708) applies to each attack. These attacks count against their multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-478\" />",
+ "name": "Troll Warleader",
+ "npc": false,
+ "perception": 19,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 331",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 17,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Troll\" url=\"/Traits.aspx?ID=777\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 331\r\n\r\n**Creature Family** [Troll](/MonsterFamilies.aspx?ID=478)\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n\r\n**AC** 29\r\n\r\n**Fort** +23\r\n\r\n**Ref** +17\r\n\r\n**Will** +15\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLong-lived trolls sometimes force their way through the twin distractions of hunger and pain to learn more about the world around them. To manage …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Crafting",
+  "Intimidation",
+  "Nature",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +21, [Crafting](/Skills.aspx?ID=4) +15, [Intimidation](/Skills.aspx?ID=7) +22, [Nature](/Skills.aspx?ID=10) +17, [Survival](/Skills.aspx?ID=16) +17",
+ "skill_mod": {
+  "athletics": 21,
+  "crafting": 15,
+  "intimidation": 22,
+  "nature": 17,
+  "survival": 17
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 331"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 331",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  22,
+  22,
+  26
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Long-lived trolls sometimes force their way through the twin distractions of hunger and pain to learn more about the world around them. To manage …",
+ "summary_markdown": "Long-lived trolls sometimes force their way through the twin distractions of hunger and pain to learn more about the world around them. To manage …",
+ "text": " Troll Warleader Long-lived trolls sometimes force their way through the twin distractions of hunger and pain to learn more about the world around them. To manage their regeneration, they learn to cover themselves in crude armor that slowly becomes integrated with the top layer of their flesh. Marked by this armor and aided by their superior wits, these warleaders gather a variety of trolls to serve them in raiding parties. The warleader presented here is a forest troll, but warleaders can be other types of trolls as well. Many of them are adapted to battle tactics that are best suited to their home environments. Recall Knowledge - Humanoid (Society): DC 27 Unspecific Lore : DC 25 Specific Lore : DC 22 Troll Warleader Source Monster Core pg. 331 Perception +19; darkvision Languages Jotun Skills Athletics +21, Crafting +15, Intimidation +22, Nature +17, Survival +17 Str +7 Dex +3 Con +7 Int -1 Wis +1 Cha +4 Easily Misled The troll warleader gets a –4 circumstance penalty to their Perception DC against Deception checks. Items +1 striking battle axe (2), Half Plate --- AC 29 (26 plus all-around vision after Shed Armor) Fort +23 Ref +17 Will +15 HP 240 , regeneration 20 (deactivated by electricity or fire) Weaknesses electricity 10, fire 10 Furious Roar Reaction Trigger The troll warleader takes electricity or fire damage; Effect The warleader uses their Primordial Roar and, if they're aware of the damage's source, can Stride toward it. If the warleader has persistent fire damage, they attempt a DC 15 flat check to remove it. Reactive Strike Reaction --- Speed 30 feet Melee Single Action jaws +23 (reach 10 feet), Damage 2d12+13 piercing Melee Single Action battle axe +24 (Magical, reach 10 feet, Sweep), Damage 2d8+13 slashing Melee Single Action claw +23 (Agile, reach 10 feet), Damage 2d8+13 slashing Primordial Roar Single Action (Auditory, Emotion, Fear, Mental) The troll warleader unleashes a bestial roar. Each non-troll creature in a 100-foot emanation must attempt a DC 29 Will save. The creature is then temporarily immune for 10 minutes. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Critical Failure The creature is frightened 3. Shed Armor Single Action (Manipulate) The warleader cuts their armor loose from their flesh. They immediately heal 60 Hit Points in a surge of regeneration as they grow twisted limbs and malformed faces. Without their armor, the warleader's AC drops to 26 but they gain all-around vision from the new faces. Putting the armor back on takes 10 minutes, and this ability can't be used again until 1 hour has passed. Sweeping Axes Three Actions Requirements The troll warleader is wielding two battle axes; Effect The warleader makes a battle axe Strike against each creature in their reach and the bonus from sweep applies to each attack. These attacks count against their multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Giant",
+  "Humanoid",
+  "Troll",
+  "Wood",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Elemental"
+ ],
+ "trait_markdown": "[Giant](/Traits.aspx?ID=616), [Humanoid](/Traits.aspx?ID=628), [Troll](/Traits.aspx?ID=777), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Giant",
+  "Humanoid",
+  "Troll",
+  "Wood"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3220",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "electricity": 10,
+  "fire": 10
+ },
+ "weakness_markdown": "electricity 10, fire 10",
+ "weakness_raw": "electricity 10, fire 10",
+ "will_save": 15,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

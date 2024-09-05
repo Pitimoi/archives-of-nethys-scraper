@@ -1,59 +1,108 @@
 {
  "ac": 19,
- "alignment": "CN",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  11,
+  11,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_family": "Changeling",
- "creature_family_markdown": "[Changeling](/MonsterFamilies.aspx?ID=23)",
+ "creature_family_markdown": "[Changeling](/MonsterFamilies.aspx?ID=381)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 45,
  "hp_raw": "45",
- "id": "creature-79",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2877",
  "image": [
-  "/Images/Monsters/Changeling_ChangelingExile.png"
+  "/Images/Monsters/Changeling_Exile.webp"
  ],
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Leather Armor",
+  "Sickle",
+  "Staff"
+ ],
  "language": [
   "Common",
-  "Druidic"
+  "Wildsong"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Druidic](/Languages.aspx?ID=23)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Wildsong](/Languages.aspx?ID=116)",
+ "legacy_id": "creature-79",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Changeling Exile](/Monsters.aspx?ID=79)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis changeling exile is the child of a night hag or dreamthief hag.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Changeling_ChangelingExile.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Changeling Exile](/Monsters.aspx?ID=79)</title>\r\n\r\n<traits>\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Changeling\" url=\"/Traits.aspx?ID=212\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 62</row>\n\n**Perception** +11; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Druidic](/Languages.aspx?ID=23)\r\n\r\n**Skills**\r\n[Deception](/Skills.aspx?ID=5) +9, [Medicine](/Skills.aspx?ID=9) +9, [Nature](/Skills.aspx?ID=10) +11, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +0\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Leather Armor](/Armor.aspx?ID=4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +11 \r\n\r\n+2 circumstance to all saves vs. dream and sleep\r\n</row>\r\n\r\n**HP** 45\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +11 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+4 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +11 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4+4 bludgeoning\r\n\r\n**Primal Prepared Spells** DC 21, attack +11\r\n- **Cantrips (2nd)**\r\n[Dancing Lights](/Spells.aspx?ID=58), [Produce Flame](/Spells.aspx?ID=236), [Read Aura](/Spells.aspx?ID=246), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Burning Hands](/Spells.aspx?ID=30), [Shillelagh](/Spells.aspx?ID=282), [Ventriloquism](/Spells.aspx?ID=356)\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59), [Humanoid Form](/Spells.aspx?ID=153)\r\n\r\n**Druid Order Spells** DC 21\r\n- **2nd**\r\n[Wild Morph](/Spells.aspx?ID=480), [Wild Shape](/Spells.aspx?ID=481) (1 Focus Point)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-23\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Changeling Exile](/Monsters.aspx?ID=2877)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis changeling exile is the child of a cuckoo hag.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Changeling_Exile.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Changeling Exile](/Monsters.aspx?ID=2877)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Changeling\" url=\"/Traits.aspx?ID=552\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=627\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 60\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Wildsong](/Languages.aspx?ID=116)\r\n\r\n**Skills**\r\n[Deception](/Skills.aspx?ID=5) +9, [Medicine](/Skills.aspx?ID=9) +9, [Nature](/Skills.aspx?ID=10) +11, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +0\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Leather Armor](/Armor.aspx?ID=4), [Sickle](/Weapons.aspx?ID=9), [Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +11 \r\n\r\n+2 circumstance to all saves vs. [dream](/Traits.aspx?ID=582) and [sleep](/Traits.aspx?ID=696)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +11 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+4 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +11 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4+4 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsickle +11 ([Agile](/Traits.aspx?ID=170), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d4+4 slashing\r\n\r\n**Primal Prepared Spells** DC 21, attack +11\r\n- **Cantrips (2nd)**\r\n[Ignition](/Spells.aspx?ID=1565), [Light](/Spells.aspx?ID=171), [Read Aura](/Spells.aspx?ID=246), [Tangle Vine](/Spells.aspx?ID=1713)\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59), [Humanoid Form](/Spells.aspx?ID=153), [Breathe Fire](/Spells.aspx?ID=1457), [Spider Sting](/Spells.aspx?ID=300), [Ventriloquism](/Spells.aspx?ID=356)\r\n\r\n**Druid Order Spells 2 Focus Points,** DC 21\r\n- **2nd**\r\n[Untamed Form](/Spells.aspx?ID=1861), [Untamed Shift](/Spells.aspx?ID=1862)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-381\" />",
  "name": "Changeling Exile",
  "npc": false,
  "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 60",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Changeling\" url=\"/Traits.aspx?ID=212\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 62</row>\r\n\r\n**Creature Family** [Changeling](/MonsterFamilies.aspx?ID=23)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +7\r\n\r\n**Ref** +8\r\n\r\n**Will** +11\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis changeling exile is the child of a night hag or dreamthief hag.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Changeling\" url=\"/Traits.aspx?ID=552\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=627\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 60\r\n\r\n**Creature Family** [Changeling](/MonsterFamilies.aspx?ID=381)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +7\r\n\r\n**Ref** +8\r\n\r\n**Will** +11\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis changeling exile is the child of a cuckoo hag.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Deception +9",
-  "Medicine +9",
-  "Nature +11",
-  "Stealth +8",
-  "Survival +9"
+  "Deception",
+  "Medicine",
+  "Nature",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Deception](/Skills.aspx?ID=5) +9, [Medicine](/Skills.aspx?ID=9) +9, [Nature](/Skills.aspx?ID=10) +11, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +9",
+ "skill_mod": {
+  "deception": 9,
+  "medicine": 9,
+  "nature": 11,
+  "stealth": 8,
+  "survival": 9
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 62"
+  "Monster Core pg. 60"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 62</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 60",
  "speed": {
   "land": 25,
   "max": 25
@@ -63,40 +112,82 @@
  "spell": [
   "Darkness",
   "Humanoid Form",
-  "Burning Hands",
-  "Shillelagh",
+  "Breathe Fire",
+  "Spider Sting",
   "Ventriloquism",
-  "Dancing Lights",
-  "Produce Flame",
+  "Ignition",
+  "Light",
   "Read Aura",
-  "Tanglefoot",
-  "Wild Morph",
-  "Wild Shape"
+  "Tangle Vine",
+  "Untamed Form",
+  "Untamed Shift"
  ],
- "spell_markdown": "[Burning Hands](/Spells.aspx?ID=30), [Dancing Lights](/Spells.aspx?ID=58), [Darkness](/Spells.aspx?ID=59), [Humanoid Form](/Spells.aspx?ID=153), [Produce Flame](/Spells.aspx?ID=236), [Read Aura](/Spells.aspx?ID=246), [Shillelagh](/Spells.aspx?ID=282), [Tanglefoot](/Spells.aspx?ID=330), [Ventriloquism](/Spells.aspx?ID=356), [Wild Morph](/Spells.aspx?ID=480), [Wild Shape](/Spells.aspx?ID=481)",
+ "spell_markdown": "[Breathe Fire](/Spells.aspx?ID=1457), [Darkness](/Spells.aspx?ID=59), [Humanoid Form](/Spells.aspx?ID=153), [Ignition](/Spells.aspx?ID=1565), [Light](/Spells.aspx?ID=171), [Read Aura](/Spells.aspx?ID=246), [Spider Sting](/Spells.aspx?ID=300), [Tangle Vine](/Spells.aspx?ID=1713), [Untamed Form](/Spells.aspx?ID=1861), [Untamed Shift](/Spells.aspx?ID=1862), [Ventriloquism](/Spells.aspx?ID=356)",
+ "spell_attack_bonus": [
+  11
+ ],
+ "spell_attack_bonus_scale": [
+  "Moderate"
+ ],
+ "spell_attack_bonus_scale_number": [
+  3
+ ],
+ "spell_dc": [
+  21,
+  21
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "8",
+ "strike_damage_average": [
+  6,
+  6,
+  6
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "will"
  ],
- "summary": "This changeling exile is the child of a night hag or dreamthief hag.",
- "summary_markdown": "This changeling exile is the child of a night hag or dreamthief hag.",
- "text": " Changeling Exile This changeling exile is the child of a night hag or dreamthief hag. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Changeling Exile Source Bestiary pg. 62 Perception +11; darkvision Languages Common, Druidic Skills Deception +9, Medicine +9, Nature +11, Stealth +8, Survival +9 Str +4 Dex +1 Con +0 Int +0 Wis +4 Cha +2 Items Leather Armor --- AC 19 Fort +7 Ref +8 Will +11 +2 circumstance to all saves vs. dream and sleep HP 45 --- Speed 25 feet Melee Single Action claws +11 (Agile), Damage 1d4+4 slashing Melee Single Action staff +11 (two-hand d8), Damage 1d4+4 bludgeoning Primal Prepared Spells DC 21, attack +11 - Cantrips (2nd) Dancing Lights, Produce Flame, Read Aura, Tanglefoot - 1st Burning Hands, Shillelagh, Ventriloquism - 2nd Darkness, Humanoid Form Druid Order Spells DC 21 - 2nd Wild Morph, Wild Shape (1 Focus Point)\n",
+ "summary": "This changeling exile is the child of a cuckoo hag.",
+ "summary_markdown": "This changeling exile is the child of a cuckoo hag.",
+ "text": " Changeling Exile This changeling exile is the child of a cuckoo hag. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Changeling Exile Source Monster Core pg. 60 Perception +11; darkvision Languages Common, Wildsong Skills Deception +9, Medicine +9, Nature +11, Stealth +8, Survival +9 Str +4 Dex +1 Con +0 Int +0 Wis +4 Cha +2 Items Leather Armor, Sickle, Staff --- AC 19 Fort +7 Ref +8 Will +11 +2 circumstance to all saves vs. dream and sleep HP 45 --- Speed 25 feet Melee Single Action claws +11 (Agile), Damage 1d4+4 slashing Melee Single Action staff +11 (two-hand d8), Damage 1d4+4 bludgeoning Melee Single Action sickle +11 (Agile, Trip), Damage 1d4+4 slashing Primal Prepared Spells DC 21, attack +11 - Cantrips (2nd) Ignition, Light, Read Aura, Tangle Vine - 2nd Darkness, Humanoid Form, Breathe Fire, Spider Sting, Ventriloquism Druid Order Spells 2 Focus Points, DC 21 - 2nd Untamed Form, Untamed Shift\n",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Changeling",
   "Human",
   "Humanoid",
-  "CN",
   "Medium"
  ],
- "trait_markdown": "[Changeling](/Traits.aspx?ID=212), [Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Changeling](/Traits.aspx?ID=552), [Human](/Traits.aspx?ID=627), [Humanoid](/Traits.aspx?ID=628)",
  "trait_raw": [
   "Changeling",
   "Human",
   "Humanoid"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=79",
+ "url": "/Monsters.aspx?ID=2877",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -104,5 +195,9 @@
  ],
  "weakness": {},
  "will_save": 11,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

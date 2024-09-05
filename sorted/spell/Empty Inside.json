@@ -1,12 +1,11 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "verbal"
  ],
- "deity_markdown": "",
  "domain": [
   "Void"
  ],
@@ -15,46 +14,60 @@
  "heighten": [
   "5th"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank"
+ ],
  "heighten_level": [
   1,
   5
  ],
  "id": "spell-626",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Empty Inside](/Spells.aspx?ID=626)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 119 <sup>2.0</sup></row>\n\n**Domain**\r\n[Void](/Domains.aspx?ID=56)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place. Attempt a counteract check against one [emotion](/Traits.aspx?ID=60) effect affecting you.\n\n---\r\n**Heightened (5th)** You can attempt counteract checks against any number of emotion effects affecting you.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Empty Inside](/Spells.aspx?ID=626)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 119 <sup>2.0</sup>\n\n**Domain**\r\n[Void](/Domains.aspx?ID=56)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place. Attempt a counteract check against one [emotion](/Traits.aspx?ID=60) effect affecting you.\n\n---\r\n**Heightened (5th)** You can attempt counteract checks against any number of emotion effects affecting you.",
  "name": "Empty Inside",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 119",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 119 <sup>2.0</sup></row>\n\n**Domain**\r\n[Void](/Domains.aspx?ID=56)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 119 <sup>2.0</sup>\n\n**Domain**\r\n[Void](/Domains.aspx?ID=56)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 119"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 119 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 119 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place.",
  "summary_markdown": "You inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place.",
- "text": " Empty Inside Source Gods &amp; Magic pg. 119 2.0 Domain Void Cast Single Action verbal --- You inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place. Attempt a counteract check against one emotion effect affecting you. --- Heightened (5th) You can attempt counteract checks against any number of emotion effects affecting you.",
+ "text": "\nEmpty Inside Single Action Source Gods &amp; Magic pg. 119 2.0 Domain Void Cast verbal --- You inject a sliver of the void into your mind, momentarily remaking it into a bleak and empty place. Attempt a counteract check against one emotion effect affecting you. --- Heightened (5th) You can attempt counteract checks against any number of emotion effects affecting you.",
  "tradition_markdown": "",
  "trait": [
   "Abjuration",
-  "Mental"
+  "Mental",
+  "Focus"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Mental](/Traits.aspx?ID=106)",
+ "trait_group": [
+  "School"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Mental](/Traits.aspx?ID=106), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Abjuration",
-  "Mental"
+  "Mental",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=626",
  "weakness": {}
 }

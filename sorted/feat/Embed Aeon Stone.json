@@ -2,7 +2,6 @@
  "archetype": [
   "Runelord"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -11,27 +10,34 @@
  "feat_markdown": "Embed Aeon Stone",
  "id": "feat-3021",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Embed Aeon Stone](/Feats.aspx?ID=3021) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 240 <sup>1.1</sup></row>\n\n**Archetype** [Runelord](/Archetypes.aspx?ID=103)\n\n**Prerequisites**\r\n[Runelord Dedication](/Feats.aspx?ID=3020); Trained in [Crafting](/Skills.aspx?ID=4)\n\n</column>\r\n\r\n---\r\n\r\nYou discover the secrets to embedding [_aeon stones_](/Equipment.aspx?ID=407) into your flesh. You spend 1 day attuning to an _aeon stone_ and physically embedding it in your skin. While the stone is embedded this way, you gain the benefits of the _aeon stone_ as if it were orbiting above your head, but it protects the stone from being noticed or stolen as easily. _Aeon stones_ in your flesh must be invested to function, as usual.\n\n You can also use this activity to safely remove an embedded _aeon stone_ in 1 day. Someone without this feat can attempt to surgically remove it safely by spending 1 day and succeeding at a DC 30 [Medicine](/Skills.aspx?ID=9) check, or hastily by simply ripping it from a corpse.\n\n<title level=\"2\">Embed Aeon Stone leads to...</title>\r\n[Aeon Resonance](/Feats.aspx?ID=3022)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Embed Aeon Stone](/Feats.aspx?ID=3021) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 240 <sup>1.1</sup>\n\n**Archetype** [Runelord](/Archetypes.aspx?ID=103)\n\n**Prerequisites**\r\n[Runelord Dedication](/Feats.aspx?ID=3020); Trained in [Crafting](/Skills.aspx?ID=4)\n\n</column>\r\n\r\n---\r\n\r\nYou discover the secrets to embedding [_aeon stones_](/Equipment.aspx?ID=407) into your flesh. You spend 1 day attuning to an _aeon stone_ and physically embedding it in your skin. While the stone is embedded this way, you gain the benefits of the _aeon stone_ as if it were orbiting above your head, but it protects the stone from being noticed or stolen as easily. _Aeon stones_ in your flesh must be invested to function, as usual.\n\n You can also use this activity to safely remove an embedded _aeon stone_ in 1 day. Someone without this feat can attempt to surgically remove it safely by spending 1 day and succeeding at a DC 30 [Medicine](/Skills.aspx?ID=9) check, or hastily by simply ripping it from a corpse.\n\n<title level=\"2\">Embed Aeon Stone leads to...</title>\r\n[Aeon Resonance](/Feats.aspx?ID=3022)",
  "name": "Embed Aeon Stone",
  "pfs": "Standard",
  "prerequisite": "Runelord Dedication; Trained in Crafting",
  "prerequisite_markdown": "[Runelord Dedication](/Feats.aspx?ID=3020); Trained in [Crafting](/Skills.aspx?ID=4)",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 240",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 240 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Runelord Dedication](/Feats.aspx?ID=3020); Trained in [Crafting](/Skills.aspx?ID=4)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou discover the secrets to embedding [_aeon stones_](/Equipment.aspx?ID=407) into your flesh.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 240 <sup>1.1</sup>\n\n**Prerequisites**\r\n[Runelord Dedication](/Feats.aspx?ID=3020); Trained in [Crafting](/Skills.aspx?ID=4)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou discover the secrets to embedding [_aeon stones_](/Equipment.aspx?ID=407) into your flesh.\r\n</summary>",
  "skill": [
   "Crafting",
   "Crafting"
  ],
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 240"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 240 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 240 <sup>1.1</sup>",
  "speed": {},
  "summary": "You discover the secrets to embedding   aeon stones   into your flesh.",
  "summary_markdown": "You discover the secrets to embedding [_aeon stones_](/Equipment.aspx?ID=407) into your flesh.",

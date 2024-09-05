@@ -1,10 +1,24 @@
 {
  "ac": 36,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  28,
+  28
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Spite",
   "Funnel",
@@ -13,55 +27,80 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 29,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 230,
  "hp_raw": "230",
- "id": "creature-1403",
- "image": [
-  "/Images/Monsters/Kun.png"
- ],
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2774",
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Aquan",
+  "Thalassic",
   "(can't speak any language)"
  ],
- "language_markdown": "[Aquan](/Languages.aspx?ID=14); (can't speak any language)",
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113); (can't speak any language)",
+ "legacy_id": "creature-1403",
  "level": 14,
- "markdown": "<title level=\"1\" pfs=\"\">[Kun](/Monsters.aspx?ID=1403)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nHungry and resentful, the malevolent kun is a mythological fish monster that dwells in the remotest, coldest depths of the ocean. This massively powerful creatures could easily rule a subaquatic domain if they cared to, but kuns are also famous for their total self-absorption and complete ambivalence toward other forms of life. A kun remains as far away from other creatures as they can, subsisting on only their own icy hatred. They can consume and digest prey, but such feedings are incidental. Most kuns remain ignorant and uncaring, keeping themselves in the dark, disregarding any signs of life around them except to occasionally lash out with a spiteful attack.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Kun.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Kun](/Monsters.aspx?ID=1403)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 79</row>\n\n**Perception** +27; [darkvision](/MonsterAbilities.aspx?ID=12), [light blindness](/MonsterAbilities.aspx?ID=22), [wavesense](/MonsterAbilities.aspx?ID=41) 60 feet\r\n\r\n**Languages**\r\n[Aquan](/Languages.aspx?ID=14); (can't speak any language)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +25, [Athletics](/Skills.aspx?ID=3) +29, [Intimidation](/Skills.aspx?ID=7) +22, [Survival](/Skills.aspx?ID=16) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +7\r\n\r\n**Int** +1\r\n\r\n**Wis** +5\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +29 \r\n\r\n**Ref** +24 \r\n\r\n**Will** +23 \n\n</row>\r\n\r\n**HP** 230\n\n**Resistances**\r\ncold 10\r\n\r\n**Weaknesses**\r\ngood 10\r\n\r\n**Spite** <actions string=\"Reaction\" /> **Trigger** A creature within reach of the kun's tail uses an action to attack or heal another creature (including the kun); **Effect** The kun bats the triggering creature away with their tail, making a tail Strike against the creature. On a hit, the action is disrupted and the creature is pushed 10 feet.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** swim 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +30 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+14 piercing plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +28 ([reach 20 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 3d12+14 bludgeoning\r\n\r\n**Primal Innate Spells** DC 32\r\n- **7th**\r\n[Control Water](/Spells.aspx?ID=51) (at will), [Darkness](/Spells.aspx?ID=59) (at will), [Wall of Ice](/Spells.aspx?ID=364)\r\n\r\n**Funnel** <actions string=\"Two Actions\" /> ([Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65), [Primal](/Traits.aspx?ID=134), [Water](/Traits.aspx?ID=165)) The kun inhales violently, sucking in heat and all creatures in the water in a 60-foot cone. Creatures in the area must succeed at a DC 33 Fortitude save or take 10d8 cold damage. The kun can't Funnel again for 1d4 rounds.<br /> **Critical Success** The creature is unaffected. <br />**Success** The creature takes half damage. <br />**Failure** The creature takes full damage and is pulled 30 feet toward the kun. <br />**Critical Failure** The creature takes double damage and is pulled 60 feet toward the kun.\r\n\r\n**Heart of Darkness**   Whenever the kun makes an attack from within an area of darkness, their attack deals an additional 2d6 evil damage.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=35)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Huge, 3d12+7 bludgeoning, Rupture 30\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Change of Heart</title>\r\n\r\nThe kun hunts at the bottom of the cold, dark sea. But if shone the light of the sun, a kun begins to understand that it dwells within a different, bigger world. When flocks of birds or schools of fish cast their dappled shadows upon a kun, they might grow weary of their solitude or become curious about the realm above. In extremely rare circumstances and for their own mysterious reasons, a kun might sacrifice some of their power to undergo a permanent, one-time transformation. In a final dramatic act, the kun flings themself up and out of the ocean, allowing the sun to fully wash over them. In the process, the kun transforms from the hateful fish into a noble and curious bird called a [peng](/Monsters.aspx?ID=1406). \r\n</aside>",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Kun](/Monsters.aspx?ID=2774)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nHungry and resentful, the malevolent kuns are mythological fish monsters that dwell in the remotest, coldest depths of the ocean. These massively powerful creatures could easily rule a subaquatic domain if they cared to, but kuns are also famous for their total self-absorption and complete ambivalence toward other forms of life. Kuns remain as far away from other creatures as they can, subsisting on only their own icy hatred. They can consume and digest prey, but such feedings are incidental or driven more by spite than any physical need. Most kuns remain ignorant and uncaring, keeping themselves in the dark and disregarding any signs of life around them except to occasionally lash out when disturbed.\n\n The kun hunts at the bottom of the cold, dark sea. But if shown the light of the sun, a kun begins to understand that it dwells within a different, bigger world. When flocks of birds or schools of fish cast their dappled shadows upon a kun, they might grow weary of their solitude or become curious about the realm above.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Kun](/Monsters.aspx?ID=2774)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 289\n\n**Perception** +27; [darkvision](/MonsterAbilities.aspx?ID=59), [light blindness](/MonsterAbilities.aspx?ID=68), [wavesense](/MonsterAbilities.aspx?ID=84) 60 feet\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113); (can't speak any language)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +25, [Athletics](/Skills.aspx?ID=3) +29, [Intimidation](/Skills.aspx?ID=7) +22, [Survival](/Skills.aspx?ID=16) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +7\r\n\r\n**Int** +1\r\n\r\n**Wis** +5\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +29 \r\n\r\n**Ref** +24 \r\n\r\n**Will** +23 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 230\n\n</row>\n\n**Resistances**\r\ncold 10\r\n\r\n**Weaknesses**\r\nholy 10\r\n\r\n**Spite** <actions string=\"Reaction\" /> **Trigger** A creature within reach of the kun's tail uses an action to heal or help anyone else **Effect** The kun bats the triggering creature away with their tail, making a tail Strike against the creature. On a hit, the action is disrupted and the creature is pushed 10 feet.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** swim 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +28 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+14 piercing plus [Grab](/MonsterAbilities.aspx?ID=45) and heart of darkness\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +28 ([reach 20 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 3d12+14 bludgeoning\r\n\r\n**Primal Innate Spells** DC 32\r\n- **5th**\r\n[Control Water](/Spells.aspx?ID=51) (at will)\r\n- **7th**\r\n[Darkness](/Spells.aspx?ID=59) (at will), [Wall of Ice](/Spells.aspx?ID=364)\r\n\r\n**Funnel** <actions string=\"Two Actions\" /> ([Cold](/Traits.aspx?ID=27), [Primal](/Traits.aspx?ID=134), [Water](/Traits.aspx?ID=165)) The kun inhales violently, sucking in heat and all creatures in the water in a 60-foot cone. Creatures take 10d8 cold damage and must attempt a DC 33 Fortitude save. The kun can't Funnel again for 1d4 rounds. \n\n**Critical Success** The creature is unaffected.<br />\n**Success** The creature takes half damage.<br />\n**Failure** The creature takes full damage and is pulled 30 feet toward the kun.<br />\n**Critical Failure** The creature takes double damage and is pulled 60 feet toward the kun.\r\n\r\n**Heart of Darkness**   Whenever the kun makes a jaws Strike from within an area of darkness, their jaws deals an additional 2d6 spirit damage and gains the unholy trait.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Huge, 3d12+7 bludgeoning, Rupture 30\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Change of Heart</title>\r\n\r\nIn extremely rare circumstances and for their own mysterious reasons, a kun might sacrifice some of their power to undergo a permanent, onetime transformation. In a final dramatic act, the kun flings themself up and out of the ocean, allowing the sun to fully wash over them. In the process, the kun transforms from a hateful fish into a noble and curious bird called a [peng](/Monsters.aspx?ID=2780)\r\n</aside>",
  "name": "Kun",
  "npc": false,
  "perception": 27,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 289",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 24,
- "release_date": "2021-07-07",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-04-24",
  "resistance": {
   "cold": 10
  },
  "resistance_markdown": "cold 10",
  "resistance_raw": "cold 10",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 79</row>\n\n<row gap=\"medium\">\r\n**HP** 230\r\n\r\n**AC** 36\r\n\r\n**Fort** +29\r\n\r\n**Ref** +24\r\n\r\n**Will** +23\r\n\r\n**Perception** +27\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHungry and resentful, the malevolent kun is a mythological fish monster that dwells in the remotest, coldest depths of the ocean. This massively …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 289\n\n<row gap=\"medium\">\r\n**HP** 230\r\n\r\n**AC** 36\r\n\r\n**Fort** +29\r\n\r\n**Ref** +24\r\n\r\n**Will** +23\r\n\r\n**Perception** +27\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHungry and resentful, the malevolent kuns are mythological fish monsters that dwell in the remotest, coldest depths of the ocean. These massively …\r\n</summary>",
  "sense": " darkvision ,  light blindness ,  wavesense  60 feet",
- "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [light blindness](/MonsterAbilities.aspx?ID=22), [wavesense](/MonsterAbilities.aspx?ID=41) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [light blindness](/MonsterAbilities.aspx?ID=68), [wavesense](/MonsterAbilities.aspx?ID=84) 60 feet",
  "size": [
   "Gargantuan"
  ],
+ "size_id": [
+  6
+ ],
  "skill": [
-  "Acrobatics +25",
-  "Athletics +29",
-  "Intimidation +22",
-  "Survival +25"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +25, [Athletics](/Skills.aspx?ID=3) +29, [Intimidation](/Skills.aspx?ID=7) +22, [Survival](/Skills.aspx?ID=16) +25",
+ "skill_mod": {
+  "acrobatics": 25,
+  "athletics": 29,
+  "intimidation": 22,
+  "survival": 25
+ },
  "source": [
-  "Pathfinder #167: Ready? Fight!"
+  "Tian Xia World Guide"
  ],
  "source_raw": [
-  "Pathfinder #167: Ready? Fight! pg. 79"
+  "Tian Xia World Guide pg. 289"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Fists of the Ruby Phoenix",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 79</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 289",
  "speed": {
   "max": 40,
   "swim": 40
@@ -69,46 +108,81 @@
  "speed_markdown": "swim 40 feet",
  "speed_raw": "swim 40 feet",
  "spell": [
-  "Control Water",
   "Darkness",
-  "Wall of Ice"
+  "Wall of Ice",
+  "Control Water"
  ],
  "spell_markdown": "[Control Water](/Spells.aspx?ID=51), [Darkness](/Spells.aspx?ID=59), [Wall of Ice](/Spells.aspx?ID=364)",
- "spoilers": "Fists of the Ruby Phoenix",
+ "spell_dc": [
+  32
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  33,
+  33
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Hungry and resentful, the malevolent kun is a mythological fish monster that dwells in the remotest, coldest depths of the ocean. This massively …",
- "summary_markdown": "Hungry and resentful, the malevolent kun is a mythological fish monster that dwells in the remotest, coldest depths of the ocean. This massively …",
- "text": " Kun Hungry and resentful, the malevolent kun is a mythological fish monster that dwells in the remotest, coldest depths of the ocean. This massively powerful creatures could easily rule a subaquatic domain if they cared to, but kuns are also famous for their total self-absorption and complete ambivalence toward other forms of life. A kun remains as far away from other creatures as they can, subsisting on only their own icy hatred. They can consume and digest prey, but such feedings are incidental. Most kuns remain ignorant and uncaring, keeping themselves in the dark, disregarding any signs of life around them except to occasionally lash out with a spiteful attack. Recall Knowledge - Beast (Arcana, Nature): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Kun Source Pathfinder #167: Ready? Fight! pg. 79 Perception +27; darkvision, light blindness, wavesense 60 feet Languages Aquan; (can't speak any language) Skills Acrobatics +25, Athletics +29, Intimidation +22, Survival +25 Str +8 Dex +4 Con +7 Int +1 Wis +5 Cha +4 --- AC 36 Fort +29 Ref +24 Will +23 HP 230 Resistances cold 10 Weaknesses good 10 Spite Reaction Trigger A creature within reach of the kun's tail uses an action to attack or heal another creature (including the kun); Effect The kun bats the triggering creature away with their tail, making a tail Strike against the creature. On a hit, the action is disrupted and the creature is pushed 10 feet. --- Speed swim 40 feet Melee Single Action jaws +30 (reach 15 feet), Damage 3d12+14 piercing plus Grab Melee Single Action tail +28 (reach 20 feet, Sweep), Damage 3d12+14 bludgeoning Primal Innate Spells DC 32 - 7th Control Water (at will), Darkness (at will), Wall of Ice Funnel Two Actions (Cold, Evocation, Primal, Water) The kun inhales violently, sucking in heat and all creatures in the water in a 60-foot cone. Creatures in the area must succeed at a DC 33 Fortitude save or take 10d8 cold damage. The kun can't Funnel again for 1d4 rounds. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is pulled 30 feet toward the kun. Critical Failure The creature takes double damage and is pulled 60 feet toward the kun. Heart of Darkness Whenever the kun makes an attack from within an area of darkness, their attack deals an additional 2d6 evil damage. Swallow Whole Single Action (Attack) Huge, 3d12+7 bludgeoning, Rupture 30 Change of Heart The kun hunts at the bottom of the cold, dark sea. But if shone the light of the sun, a kun begins to understand that it dwells within a different, bigger world. When flocks of birds or schools of fish cast their dappled shadows upon a kun, they might grow weary of their solitude or become curious about the realm above. In extremely rare circumstances and for their own mysterious reasons, a kun might sacrifice some of their power to undergo a permanent, one-time transformation. In a final dramatic act, the kun flings themself up and out of the ocean, allowing the sun to fully wash over them. In the process, the kun transforms from the hateful fish into a noble and curious bird called a peng. ",
+ "summary": "Hungry and resentful, the malevolent kuns are mythological fish monsters that dwell in the remotest, coldest depths of the ocean. These massively …",
+ "summary_markdown": "Hungry and resentful, the malevolent kuns are mythological fish monsters that dwell in the remotest, coldest depths of the ocean. These massively …",
+ "text": " Kun Hungry and resentful, the malevolent kuns are mythological fish monsters that dwell in the remotest, coldest depths of the ocean. These massively powerful creatures could easily rule a subaquatic domain if they cared to, but kuns are also famous for their total self-absorption and complete ambivalence toward other forms of life. Kuns remain as far away from other creatures as they can, subsisting on only their own icy hatred. They can consume and digest prey, but such feedings are incidental or driven more by spite than any physical need. Most kuns remain ignorant and uncaring, keeping themselves in the dark and disregarding any signs of life around them except to occasionally lash out when disturbed. The kun hunts at the bottom of the cold, dark sea. But if shown the light of the sun, a kun begins to understand that it dwells within a different, bigger world. When flocks of birds or schools of fish cast their dappled shadows upon a kun, they might grow weary of their solitude or become curious about the realm above. Recall Knowledge - Beast (Arcana, Nature): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Kun Source Tian Xia World Guide pg. 289 Perception +27; darkvision, light blindness, wavesense 60 feet Languages Thalassic; (can't speak any language) Skills Acrobatics +25, Athletics +29, Intimidation +22, Survival +25 Str +8 Dex +4 Con +7 Int +1 Wis +5 Cha +4 --- AC 36 Fort +29 Ref +24 Will +23 HP 230 Resistances cold 10 Weaknesses holy 10 Spite Reaction Trigger A creature within reach of the kun's tail uses an action to heal or help anyone else Effect The kun bats the triggering creature away with their tail, making a tail Strike against the creature. On a hit, the action is disrupted and the creature is pushed 10 feet. --- Speed swim 40 feet Melee Single Action jaws +28 (reach 15 feet), Damage 3d12+14 piercing plus Grab and heart of darkness Melee Single Action tail +28 (reach 20 feet, Sweep), Damage 3d12+14 bludgeoning Primal Innate Spells DC 32 - 5th Control Water (at will) - 7th Darkness (at will), Wall of Ice Funnel Two Actions (Cold, Primal, Water) The kun inhales violently, sucking in heat and all creatures in the water in a 60-foot cone. Creatures take 10d8 cold damage and must attempt a DC 33 Fortitude save. The kun can't Funnel again for 1d4 rounds. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is pulled 30 feet toward the kun. Critical Failure The creature takes double damage and is pulled 60 feet toward the kun. Heart of Darkness Whenever the kun makes a jaws Strike from within an area of darkness, their jaws deals an additional 2d6 spirit damage and gains the unholy trait. Swallow Whole Single Action (Attack) Huge, 3d12+7 bludgeoning, Rupture 30 Change of Heart In extremely rare circumstances and for their own mysterious reasons, a kun might sacrifice some of their power to undergo a permanent, onetime transformation. In a final dramatic act, the kun flings themself up and out of the ocean, allowing the sun to fully wash over them. In the process, the kun transforms from a hateful fish into a noble and curious bird called a peng ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Aquatic",
   "Beast",
   "Cold",
   "Uncommon",
-  "NE",
+  "Unholy",
   "Gargantuan"
  ],
- "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Beast](/Traits.aspx?ID=20), [Cold](/Traits.aspx?ID=27), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Energy",
+  "Rarity"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Beast](/Traits.aspx?ID=20), [Cold](/Traits.aspx?ID=27), [Uncommon](/Traits.aspx?ID=159), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Aquatic",
   "Beast",
   "Cold",
-  "Uncommon"
+  "Uncommon",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=1403",
+ "url": "/Monsters.aspx?ID=2774",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {
-  "good": 10
+  "holy": 10
  },
- "weakness_markdown": "good 10",
- "weakness_raw": "good 10",
+ "weakness_markdown": "holy 10",
+ "weakness_raw": "holy 10",
  "will_save": 23,
- "wisdom": 5
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

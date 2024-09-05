@@ -1,23 +1,33 @@
 {
  "actions": "Two Actions",
- "area": "15-foot emanation",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  15
  ],
- "deity_markdown": "",
+ "area_raw": "15-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain": [
   "Protection"
  ],
- "domain_markdown": "[Protection](/Domains.aspx?ID=27)",
+ "domain_markdown": "[Protection](/Domains.aspx?ID=90)",
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -28,46 +38,59 @@
   9,
   10
  ],
- "id": "spell-442",
+ "id": "spell-1833",
+ "legacy_id": "spell-442",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Protector's Sphere](/Spells.aspx?ID=442)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 395 <sup>4.0</sup></row>\n\n**Domain**\r\n[Protection](/Domains.aspx?ID=27)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA protective aura emanates out from you, safeguarding you and your allies. You gain resistance 3 to all damage. Your allies also gain this resistance while they are within the area.\n\n---\r\n**Heightened (+1)** The resistance increases by 1.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Protector's Sphere](/Spells.aspx?ID=1833)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 379\n\n**Domain**\r\n[Protection](/Domains.aspx?ID=90)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA protective aura emanates out from you, safeguarding you and your allies. You gain resistance 3 to all damage. Your allies also gain this resistance while in the aura.\n\n---\r\n**Heightened (+1)** The resistance increases by 1.",
  "name": "Protector's Sphere",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 379",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 395 <sup>4.0</sup></row>\n\n**Domain**\r\n[Protection](/Domains.aspx?ID=27)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA protective aura emanates out from you, safeguarding you and your allies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 379\n\n**Domain**\r\n[Protection](/Domains.aspx?ID=90)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA protective aura emanates out from you, safeguarding you and your allies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 395"
+  "Player Core pg. 379"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 395 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 379",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "A protective aura emanates out from you, safeguarding you and your allies.",
  "summary_markdown": "A protective aura emanates out from you, safeguarding you and your allies.",
- "text": " Protector's Sphere Source Core Rulebook pg. 395 4.0 Domain Protection Cast Two Actions somatic, verbal Area 15-foot emanation Duration sustained up to 1 minute --- A protective aura emanates out from you, safeguarding you and your allies. You gain resistance 3 to all damage. Your allies also gain this resistance while they are within the area. --- Heightened (+1) The resistance increases by 1.",
+ "text": "\nProtector's Sphere Two Actions Source Player Core pg. 379 Domain Protection Area 15-foot emanation Duration sustained up to 1 minute --- A protective aura emanates out from you, safeguarding you and your allies. You gain resistance 3 to all damage. Your allies also gain this resistance while in the aura. --- Heightened (+1) The resistance increases by 1.",
  "tradition_markdown": "",
  "trait": [
-  "Abjuration",
   "Aura",
   "Cleric",
+  "Concentrate",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Aura](/Traits.aspx?ID=206), [Cleric](/Traits.aspx?ID=26), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Aura](/Traits.aspx?ID=206), [Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
-  "Abjuration",
   "Aura",
   "Cleric",
+  "Concentrate",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=442",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1833",
  "weakness": {}
 }

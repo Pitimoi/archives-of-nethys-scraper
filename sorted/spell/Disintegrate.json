@@ -1,28 +1,26 @@
 {
  "actions": "Two Actions",
- "bloodline": [
-  "Demonic",
-  "Imperial",
-  "Phoenix"
- ],
- "bloodline_markdown": "[Demonic](/Bloodlines.aspx?ID=3), [Imperial](/Bloodlines.aspx?ID=9), [Phoenix](/Bloodlines.aspx?ID=15)",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Kerkamoth",
   "Rovagug",
   "Set",
   "Sorrow's Sword"
  ],
- "deity_markdown": "[Kerkamoth](/Deities.aspx?ID=140), [Rovagug](/Deities.aspx?ID=15), [Set](/Deities.aspx?ID=242), [Sorrow's Sword](/Deities.aspx?ID=249)",
+ "deity_markdown": "[Kerkamoth](/Deities.aspx?ID=140), [Rovagug](/Deities.aspx?ID=291), [Set](/Deities.aspx?ID=242), [Sorrow's Sword](/Deities.aspx?ID=249)",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   6,
@@ -31,51 +29,58 @@
   9,
   10
  ],
- "id": "spell-76",
+ "id": "spell-1492",
+ "legacy_id": "spell-76",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">[Disintegrate](/Spells.aspx?ID=76)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 330 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Bloodlines**\r\n[Demonic](/Bloodlines.aspx?ID=3), [Imperial](/Bloodlines.aspx?ID=9), [Phoenix](/Bloodlines.aspx?ID=15)\r\n\r\n**Deities**\r\n[Kerkamoth](/Deities.aspx?ID=140), [Rovagug](/Deities.aspx?ID=15), [Set](/Deities.aspx?ID=242), [Sorrow's Sword](/Deities.aspx?ID=249)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 creature or unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou fire a green ray at your target. Make a spell attack. On a hit, you deal 12d10 damage, and the target must attempt a [basic](/Rules.aspx?ID=329) Fortitude save. On a critical hit, treat the save result as one degree worse. A creature reduced to 0 HP is reduced to fine powder; its gear remains.\n\n An object you hit is destroyed (no save), regardless of Hardness, unless it's an [artifact](/Traits.aspx?ID=253) or similarly hard to destroy. A single casting can destroy no more than a 10-foot cube of matter. This automatically destroys any [force](/Traits.aspx?ID=75) construct, such as a [_wall of force_](/Spells.aspx?ID=363).\n\n---\r\n**Heightened (+1)** The damage increases by 2d10.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">\r\n[Disintegrate](/Spells.aspx?ID=1492)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\n\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\r\n[Kerkamoth](/Deities.aspx?ID=140), [Rovagug](/Deities.aspx?ID=291), [Set](/Deities.aspx?ID=242), [Sorrow's Sword](/Deities.aspx?ID=249)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 creature, unattended object, or force construct\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC and [basic](/Rules.aspx?ID=329) Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA black tracer bolt flies toward your target, and upon making contact intensifies into a powerful destructive beam. Make a spell attack against the target. If you hit an object or force construct (such as a [_wall of force_](/Spells.aspx?ID=363)), it's destroyed with no save unless it's an [artifact](/Traits.aspx?ID=253) or similarly powerful. A single casting can destroy no more than a 10-foot cube of matter. \n\nIf you hit a creature, it takes 12d10 damage (no damage type) with a basic Fortitude save. If you critically hit, the target gets a result one degree of success worse than the outcome of its Fortitude save. A creature reduced to 0 HP is blasted to fine powder; its gear remains.\n\n---\r\n**Heightened (+1)** The damage increases by 2d10.",
  "name": "Disintegrate",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 325",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "saving_throw": "Fortitude",
- "saving_throw_markdown": "Fortitude",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 330 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Bloodlines**\r\n[Demonic](/Bloodlines.aspx?ID=3), [Imperial](/Bloodlines.aspx?ID=9), [Phoenix](/Bloodlines.aspx?ID=15)\r\n\r\n**Deities**\r\n[Kerkamoth](/Deities.aspx?ID=140), [Rovagug](/Deities.aspx?ID=15), [Set](/Deities.aspx?ID=242), [Sorrow's Sword](/Deities.aspx?ID=249)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 creature or unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nReduce a creature or object to dust.\r\n</summary>",
+ "saving_throw": "AC and  basic  Fortitude",
+ "saving_throw_markdown": "AC and [basic](/Rules.aspx?ID=329) Fortitude",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\r\n\r\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\r\n[Kerkamoth](/Deities.aspx?ID=140), [Rovagug](/Deities.aspx?ID=291), [Set](/Deities.aspx?ID=242), [Sorrow's Sword](/Deities.aspx?ID=249)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 creature, unattended object, or force construct\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC and [basic](/Rules.aspx?ID=329) Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nReduce a creature or object to dust.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 330"
+  "Player Core pg. 325"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 330 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 325",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Reduce a creature or object to dust.",
  "summary_markdown": "Reduce a creature or object to dust.",
- "target": "1 creature or unattended object",
- "target_markdown": "1 creature or unattended object",
- "text": " Disintegrate Source Core Rulebook pg. 330 4.0 Tradition Arcane Bloodlines Demonic, Imperial, Phoenix Deities Kerkamoth, Rovagug, Set, Sorrow's Sword Cast Two Actions somatic, verbal Range 120 feet Target 1 creature or unattended object Saving Throw Fortitude --- You fire a green ray at your target. Make a spell attack. On a hit, you deal 12d10 damage, and the target must attempt a basic Fortitude save. On a critical hit, treat the save result as one degree worse. A creature reduced to 0 HP is reduced to fine powder; its gear remains. An object you hit is destroyed (no save), regardless of Hardness, unless it's an artifact or similarly hard to destroy. A single casting can destroy no more than a 10-foot cube of matter. This automatically destroys any force construct, such as a wall of force . --- Heightened (+1) The damage increases by 2d10.",
+ "target": "1 creature, unattended object, or force construct",
+ "target_markdown": "1 creature, unattended object, or force construct",
+ "text": "\nDisintegrate Two Actions Source Player Core pg. 325 Tradition Arcane Deities Kerkamoth, Rovagug, Set, Sorrow's Sword Range 120 feet Target 1 creature, unattended object, or force construct Defense AC and basic Fortitude --- A black tracer bolt flies toward your target, and upon making contact intensifies into a powerful destructive beam. Make a spell attack against the target. If you hit an object or force construct (such as a wall of force ), it's destroyed with no save unless it's an artifact or similarly powerful. A single casting can destroy no more than a 10-foot cube of matter. If you hit a creature, it takes 12d10 damage (no damage type) with a basic Fortitude save. If you critically hit, the target gets a result one degree of success worse than the outcome of its Fortitude save. A creature reduced to 0 HP is blasted to fine powder; its gear remains. --- Heightened (+1) The damage increases by 2d10.",
  "tradition": [
   "Arcane"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
   "Attack",
-  "Evocation"
+  "Concentrate",
+  "Manipulate"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Evocation](/Traits.aspx?ID=65)",
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
   "Attack",
-  "Evocation"
+  "Concentrate",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=76",
+ "url": "/Spells.aspx?ID=1492",
  "weakness": {}
 }

@@ -1,9 +1,9 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Eldritch Archer"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -13,24 +13,31 @@
  "frequency": "once per day",
  "id": "feat-1967",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Phase Arrow](/Feats.aspx?ID=1967) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 173 <sup>2.0</sup></row>\n\n**Archetype** [Eldritch Archer](/Archetypes.aspx?ID=59)\n\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Eldritch Archer Dedication](/Feats.aspx?ID=1960)\n\n</column>\r\n\r\n---\r\n\r\nYou can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target. Make a bow Strike against a foe who is [observed](/Conditions.aspx?ID=27) or [hidden](/Conditions.aspx?ID=22) to you (but not [undetected](/Conditions.aspx?ID=39)). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the [concealed](/Conditions.aspx?ID=4) condition, the [hidden](/Conditions.aspx?ID=22) condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike's damage can't be reduced with a [Shield Block](/Feats.aspx?ID=839) reaction using a non-magical shield.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Phase Arrow](/Feats.aspx?ID=1967) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 173 <sup>2.0</sup>\n\n**Archetype** [Eldritch Archer](/Archetypes.aspx?ID=59)\n\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Eldritch Archer Dedication](/Feats.aspx?ID=1960)\n\n</column>\r\n\r\n---\r\n\r\nYou can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target. Make a bow Strike against a foe who is [observed](/Conditions.aspx?ID=27) or [hidden](/Conditions.aspx?ID=22) to you (but not [undetected](/Conditions.aspx?ID=39)). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the [concealed](/Conditions.aspx?ID=4) condition, the [hidden](/Conditions.aspx?ID=22) condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike's damage can't be reduced with a [Shield Block](/Feats.aspx?ID=839) reaction using a non-magical shield.",
  "name": "Phase Arrow",
  "pfs": "Standard",
  "prerequisite": "Eldritch Archer Dedication",
  "prerequisite_markdown": "[Eldritch Archer Dedication](/Feats.aspx?ID=1960)",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 173",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 173 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Eldritch Archer Dedication](/Feats.aspx?ID=1960)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 173 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Eldritch Archer Dedication](/Feats.aspx?ID=1960)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 173"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 173 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 173 <sup>2.0</sup>",
  "speed": {},
  "summary": "You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target.",
  "summary_markdown": "You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target.",
@@ -39,6 +46,9 @@
   "Archetype",
   "Conjuration",
   "Magical"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

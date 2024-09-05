@@ -1,9 +1,9 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Linguist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,23 +12,30 @@
  "feat_markdown": "Spot Translate",
  "id": "feat-1996",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spot Translate](/Feats.aspx?ID=1996) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 178 <sup>2.0</sup></row>\n\n**Archetype** [Linguist](/Archetypes.aspx?ID=64)\n\n**Prerequisites**\r\n[Linguist Dedication](/Feats.aspx?ID=1993)\n\n**Trigger**\r\nAnother creature within 60 feet uses a [linguistic](/Traits.aspx?ID=101) effect in a language you understand.\n\n</column>\r\n\r\n---\r\n\r\nYou interpret a creature's words, repeating their message in a different language that you know. If the triggering effect's targets speak either the original language or the one you translated into, they are affected.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spot Translate](/Feats.aspx?ID=1996) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 178 <sup>2.0</sup>\n\n**Archetype** [Linguist](/Archetypes.aspx?ID=64)\n\n**Prerequisites**\r\n[Linguist Dedication](/Feats.aspx?ID=1993)\n\n**Trigger**\r\nAnother creature within 60 feet uses a [linguistic](/Traits.aspx?ID=101) effect in a language you understand.\n\n</column>\r\n\r\n---\r\n\r\nYou interpret a creature's words, repeating their message in a different language that you know. If the triggering effect's targets speak either the original language or the one you translated into, they are affected.",
  "name": "Spot Translate",
  "pfs": "Standard",
  "prerequisite": "Linguist Dedication",
  "prerequisite_markdown": "[Linguist Dedication](/Feats.aspx?ID=1993)",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 178",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 178 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Linguist Dedication](/Feats.aspx?ID=1993)\n\n**Trigger**\r\nAnother creature within 60 feet uses a [linguistic](/Traits.aspx?ID=101) effect in a language you understand.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou interpret a creature's words, repeating their message in a different language that you know.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 178 <sup>2.0</sup>\n\n**Prerequisites**\r\n[Linguist Dedication](/Feats.aspx?ID=1993)\n\n**Trigger**\r\nAnother creature within 60 feet uses a [linguistic](/Traits.aspx?ID=101) effect in a language you understand.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou interpret a creature's words, repeating their message in a different language that you know.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 178"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 178 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 178 <sup>2.0</sup>",
  "speed": {},
  "summary": "You interpret a creature's words, repeating their message in a different language that you know.",
  "summary_markdown": "You interpret a creature's words, repeating their message in a different language that you know.",
@@ -37,6 +44,9 @@
   "Archetype",
   "Auditory",
   "Linguistic"
+ ],
+ "trait_group": [
+  "Sense"
  ],
  "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Auditory](/Traits.aspx?ID=16), [Linguistic](/Traits.aspx?ID=101)",
  "trait_raw": [

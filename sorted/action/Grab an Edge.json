@@ -1,29 +1,37 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "action",
  "exclude_from_search": false,
- "id": "action-95",
- "markdown": "<title level=\"1\" right=\"Action\">[Grab an Edge](/Actions.aspx?ID=95) <actions string=\"Reaction\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 472 <sup>4.0</sup></row>\n\n**Trigger** You fall from or past an edge or handhold.\r\n\r\n**Requirements** Your hands are not tied behind your back or otherwise restrained\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhen you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then [Climb](/Actions.aspx?ID=33) up using [Athletics](/Skills.aspx?ID=3).\n\n**Critical Success** You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter.<br />\r\n**Success** If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check.<br />\r\n**Critical Failure** You continue to fall, and if you’ve fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.",
+ "id": "action-2313",
+ "legacy_id": "action-95",
+ "markdown": "<title level=\"1\" right=\"Action\">[Grab an Edge](/Actions.aspx?ID=2313) <actions string=\"Reaction\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Trigger** You fall from or past an edge or handhold.\r\n\r\n**Requirements** Your hands are not tied behind your back or otherwise restrained\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhen you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at your choice of an [Acrobatics](/Skills.aspx?ID=1) check or a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then [Climb](/Actions.aspx?ID=33) up using Athletics.\r\n\r\n**Critical Success** You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take [damage from the distance fallen](/Rules.aspx?ID=402) so far, but you treat the fall as though it were 30 feet shorter.<br />\r\n**Success** If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check.<br />\r\n**Critical Failure** You continue to fall, and if you've fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.",
  "name": "Grab an Edge",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 419",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "requirement": "Your hands are not tied behind your back or otherwise restrained",
  "requirement_markdown": "Your hands are not tied behind your back or otherwise restrained",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 472 <sup>4.0</sup></row>\n\n**Trigger**\r\nYou fall from or past an edge or handhold.\r\n\r\n**Requirement**\r\nYour hands are not tied behind your back or otherwise restrained\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Trigger**\r\nYou fall from or past an edge or handhold.\r\n\r\n**Requirement**\r\nYour hands are not tied behind your back or otherwise restrained\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at your choice of an  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 472"
+  "Player Core pg. 419"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 472 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 419",
  "speed": {},
- "summary": "When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, …",
- "summary_markdown": "When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, …",
- "text": " Grab an Edge Reaction Source Core Rulebook pg. 472 4.0 Trigger You fall from or past an edge or handhold. Requirements Your hands are not tied behind your back or otherwise restrained --- When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then Climb up using Athletics. Critical Success You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter. Success If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check. Critical Failure You continue to fall, and if you’ve fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.",
+ "summary": "When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at your choice of an  …",
+ "summary_markdown": "When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at your choice of an  …",
+ "text": " Grab an Edge Reaction Source Player Core pg. 419 Trigger You fall from or past an edge or handhold. Requirements Your hands are not tied behind your back or otherwise restrained --- When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at your choice of an Acrobatics check or a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then Climb up using Athletics. Critical Success You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter. Success If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check. Critical Failure You continue to fall, and if you've fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.",
  "trait": [
   "Manipulate"
  ],
@@ -34,6 +42,6 @@
  "trigger": "You fall from or past an edge or handhold.",
  "trigger_markdown": "You fall from or past an edge or handhold.",
  "type": "Action",
- "url": "/Actions.aspx?ID=95",
+ "url": "/Actions.aspx?ID=2313",
  "weakness": {}
 }

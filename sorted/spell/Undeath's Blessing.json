@@ -1,21 +1,32 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline": [
   "Undead"
  ],
  "bloodline_markdown": "[Undead](/Bloodlines.aspx?ID=10)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -31,50 +42,66 @@
  ],
  "id": "spell-518",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Undeath's Blessing](/Spells.aspx?ID=518)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 405 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 living creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou instill within a creature the touch of the grave. For the duration, [_harm_](/Spells.aspx?ID=146) and [_heal_](/Spells.aspx?ID=148) spells treat the creature as [undead](/Traits.aspx?ID=160). In addition, _harm_ spells gain a +2 status bonus to the Hit Points restored to the target.\n\n If the target wishes to avoid the spell, it can attempt a Will save to reduce the effects.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target heals half as much from _heal_ and takes half as much damage from _harm_ for 1 round.<br />\r\n**Failure** Effects as described in the text.\n\n---\r\n**Heightened (+1)** The status bonus to the Hit Points restored increases by 2.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Undeath's Blessing](/Spells.aspx?ID=518)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 405 <sup>4.0</sup>\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 living creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou instill within a creature the touch of the grave. For the duration, [_harm_](/Spells.aspx?ID=146) and [_heal_](/Spells.aspx?ID=148) spells treat the creature as [undead](/Traits.aspx?ID=160). In addition, _harm_ spells gain a +2 status bonus to the Hit Points restored to the target.\n\n If the target wishes to avoid the spell, it can attempt a Will save to reduce the effects.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target heals half as much from _heal_ and takes half as much damage from _harm_ for 1 round.<br />\r\n**Failure** Effects as described in the text.\n\n---\r\n**Heightened (+1)** The status bonus to the Hit Points restored increases by 2.",
  "name": "Undeath's Blessing",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 405",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 405 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 living creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou instill within a creature the touch of the grave.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 405 <sup>4.0</sup>\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 living creature touched\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou instill within a creature the touch of the grave.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 405"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 405 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 405 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You instill within a creature the touch of the grave.",
  "summary_markdown": "You instill within a creature the touch of the grave.",
  "target": "1 living creature touched",
  "target_markdown": "1 living creature touched",
- "text": " Undeath's Blessing Source Core Rulebook pg. 405 4.0 Bloodline Undead Cast Single Action somatic Range touch Target 1 living creature touched Saving Throw Will Duration 1 minute --- You instill within a creature the touch of the grave. For the duration, harm and heal spells treat the creature as undead. In addition, harm spells gain a +2 status bonus to the Hit Points restored to the target. If the target wishes to avoid the spell, it can attempt a Will save to reduce the effects. Critical Success The target is unaffected. Success The target heals half as much from heal and takes half as much damage from harm for 1 round. Failure Effects as described in the text. --- Heightened (+1) The status bonus to the Hit Points restored increases by 2.",
+ "text": "\nUndeath's Blessing Single Action Source Core Rulebook pg. 405 4.0 Bloodline Undead Cast somatic Range touch Target 1 living creature touched Saving Throw Will Duration 1 minute --- You instill within a creature the touch of the grave. For the duration, harm and heal spells treat the creature as undead. In addition, harm spells gain a +2 status bonus to the Hit Points restored to the target. If the target wishes to avoid the spell, it can attempt a Will save to reduce the effects. Critical Success The target is unaffected. Success The target heals half as much from heal and takes half as much damage from harm for 1 round. Failure Effects as described in the text. --- Heightened (+1) The status bonus to the Hit Points restored increases by 2.",
  "tradition_markdown": "",
  "trait": [
   "Necromancy",
   "Negative",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus",
+  "Void"
  ],
- "trait_markdown": "[Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Energy",
+  "Planar",
+  "Creature Type",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Necromancy",
   "Negative",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=518",
  "weakness": {}
 }

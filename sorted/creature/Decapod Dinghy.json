@@ -1,0 +1,170 @@
+{
+ "ac": 28,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  19,
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "All Aboard",
+  "Protect Passenger",
+  "Anemone Transport",
+  "Inflate Anemones",
+  "Stinging Anemones"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 145,
+ "hp_raw": "145",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3259",
+ "image": [
+  "/Images/Monsters/Decapod_Dinghy.webp"
+ ],
+ "immunity": [
+  "poison"
+ ],
+ "immunity_markdown": "[poison](/Traits.aspx?ID=669)",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Thalassic",
+  "(can't speak any language)"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113); (can't speak any language)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"\">[Decapod Dinghy](/Monsters.aspx?ID=3259)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDecapod dinghies are massive crabs indigenous to the Okaiyo Ocean that often assist the local humanoids with transportation. They can understand [Thalassic](/Languages.aspx?ID=113) and are instantly recognizable by the colorful anemones they carry on their backs and in their front claws. [Athamarus](/Ancestries.aspx?ID=71) and [merfolk](/Ancestries.aspx?ID=74) are common sights atop decapod dinghies, lounging comfortably amidst the anemones and sharing food with their hosts.\n\n This peaceful cooperation is indirectly caused by the legendary crustacean [Tehialai-Thief-Of-Ships](/Monsters.aspx?ID=1741). Since Tehialai's rampages are a constant threat in the Okaiyo, the ancestors of the decapod dinghies bonded with other marine life to survive. Decapod dinghies' relationship with anemones is particularly tight, using the small creatures as poisonous extensions of their own bodies and using their response to movements in the water to compensate for the decapod dinghy's otherwise poor vision. In a region wracked by Tehialai's storms, everyone needs to band together, after all.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Decapod_Dinghy.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Decapod Dinghy](/Monsters.aspx?ID=3259)</title>\r\n\r\n<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 135\n\n**Perception** +16; [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 30 feet, [wavesense](/MonsterAbilities.aspx?ID=84) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113); (can't speak any language)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +15, [Athletics](/Skills.aspx?ID=36) +18, [Nature](/Skills.aspx?ID=43) +17, [Stealth](/Skills.aspx?ID=48) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** -2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**All Aboard** A decapod dinghy can carry up to 30 Bulk of creatures or unattended items on their back, such as five Medium creatures. The anemones' gentle hold on the passengers is sufficient in most situations, but while in combat, those passengers are [slowed 1](/Conditions.aspx?ID=92) if they want to take other actions while remaining on the decapod dinghy's back.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 145\n\n</row>\r\n\r\n**Immunities**\r\n[poison](/Traits.aspx?ID=669)\n\n**Weaknesses**\r\nbludgeoning 5\r\n\r\n**Protect Passenger** <actions string=\"Reaction\" /> **Trigger** An enemy within 20 feet damages one of the decapod dinghy's passengers; **Effect** The decapod dinghy's anemones lash out for a tentacle Strike against the triggering creature.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 25 feet, swim 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +19 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 slashing plus 2d6 poison\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +19 ([Poison](/Traits.aspx?ID=126), [reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 5d6 poison plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**Anemone Transport** <actions string=\"Three Actions\" /> ([Primal](/Traits.aspx?ID=134), [Teleportation](/Traits.aspx?ID=156)) The decapod dinghy and all their willing passengers teleport to a patch of anemones within 10 miles large enough for the decapod dinghy to stand among them. Although the decapod dinghy doesn't need to see the location, they must have been there before. All creatures transported are temporarily immune to this ability for 24 hours.\r\n\r\n**Inflate Anemones** <actions string=\"Single Action\" />  The anemones on the decapod dinghy's back inflate, enveloping all passengers and giving each passenger a +2 circumstance bonus to AC until the beginning of the decapod dinghy's next turn.\r\n\r\n**Stinging Anemones** <actions string=\"Single Action\" /> ([Poison](/Traits.aspx?ID=126)) The decapod dinghy's anemones sting any number of creatures they choose among passengers and those the decapod dinghy has [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90). The stings deal 5d6 poison damage (DC 26 [basic](/Rules.aspx?ID=329) Fortitude save). On a failed save, that creature is also [enfeebled 2](/Conditions.aspx?ID=71) for 1 hour.\r\n\r\n</column>",
+ "name": "Decapod Dinghy",
+ "npc": false,
+ "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 135",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 135\n\n<row gap=\"medium\">\r\n**HP** 145\r\n\r\n**AC** 28\r\n\r\n**Fort** +18\r\n\r\n**Ref** +15\r\n\r\n**Will** +15\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDecapod dinghies are massive crabs indigenous to the Okaiyo Ocean that often assist the local humanoids with transportation. They can understand  …\r\n</summary>",
+ "sense": " tremorsense  ( imprecise ) 30 feet,  wavesense  ( imprecise ) 30 feet",
+ "sense_markdown": "[tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 30 feet, [wavesense](/MonsterAbilities.aspx?ID=84) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Nature",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +15, [Athletics](/Skills.aspx?ID=36) +18, [Nature](/Skills.aspx?ID=43) +17, [Stealth](/Skills.aspx?ID=48) +15",
+ "skill_mod": {
+  "acrobatics": 15,
+  "athletics": 18,
+  "nature": 17,
+  "stealth": 15
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 135"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 135",
+ "speed": {
+  "climb": 25,
+  "land": 30,
+  "max": 30,
+  "swim": 25
+ },
+ "speed_markdown": "30 feet, climb 25 feet, swim 25 feet",
+ "speed_raw": "30 feet, climb 25 feet, swim 25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  17,
+  23
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 7,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Decapod dinghies are massive crabs indigenous to the Okaiyo Ocean that often assist the local humanoids with transportation. They can understand  …",
+ "summary_markdown": "Decapod dinghies are massive crabs indigenous to the Okaiyo Ocean that often assist the local humanoids with transportation. They can understand  …",
+ "text": " Decapod Dinghy Decapod dinghies are massive crabs indigenous to the Okaiyo Ocean that often assist the local humanoids with transportation. They can understand Thalassic and are instantly recognizable by the colorful anemones they carry on their backs and in their front claws. Athamarus and merfolk are common sights atop decapod dinghies, lounging comfortably amidst the anemones and sharing food with their hosts. This peaceful cooperation is indirectly caused by the legendary crustacean Tehialai-Thief-Of-Ships. Since Tehialai's rampages are a constant threat in the Okaiyo, the ancestors of the decapod dinghies bonded with other marine life to survive. Decapod dinghies' relationship with anemones is particularly tight, using the small creatures as poisonous extensions of their own bodies and using their response to movements in the water to compensate for the decapod dinghy's otherwise poor vision. In a region wracked by Tehialai's storms, everyone needs to band together, after all. Recall Knowledge - Beast (Arcana, Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Decapod Dinghy Source Howl of the Wild pg. 135 Perception +16; tremorsense (imprecise) 30 feet, wavesense (imprecise) 30 feet Languages Thalassic; (can't speak any language) Skills Acrobatics +15, Athletics +18, Nature +17, Stealth +15 Str +7 Dex +3 Con +4 Int -2 Wis +3 Cha +0 All Aboard A decapod dinghy can carry up to 30 Bulk of creatures or unattended items on their back, such as five Medium creatures. The anemones' gentle hold on the passengers is sufficient in most situations, but while in combat, those passengers are slowed 1 if they want to take other actions while remaining on the decapod dinghy's back. --- AC 28 Fort +18 Ref +15 Will +15 HP 145 Immunities poison Weaknesses bludgeoning 5 Protect Passenger Reaction Trigger An enemy within 20 feet damages one of the decapod dinghy's passengers; Effect The decapod dinghy's anemones lash out for a tentacle Strike against the triggering creature. --- Speed 30 feet, climb 25 feet, swim 25 feet Melee Single Action claw +19 (reach 10 feet), Damage 2d8+7 slashing plus 2d6 poison Melee Single Action tentacle +19 (Poison, reach 20 feet), Damage 5d6 poison plus Grab Anemone Transport Three Actions (Primal, Teleportation) The decapod dinghy and all their willing passengers teleport to a patch of anemones within 10 miles large enough for the decapod dinghy to stand among them. Although the decapod dinghy doesn't need to see the location, they must have been there before. All creatures transported are temporarily immune to this ability for 24 hours. Inflate Anemones Single Action The anemones on the decapod dinghy's back inflate, enveloping all passengers and giving each passenger a +2 circumstance bonus to AC until the beginning of the decapod dinghy's next turn. Stinging Anemones Single Action (Poison) The decapod dinghy's anemones sting any number of creatures they choose among passengers and those the decapod dinghy has grabbed or restrained. The stings deal 5d6 poison damage (DC 26 basic Fortitude save). On a failed save, that creature is also enfeebled 2 for 1 hour. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Beast",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Amphibious",
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3259",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {
+  "bludgeoning": 5
+ },
+ "weakness_markdown": "bludgeoning 5",
+ "weakness_raw": "bludgeoning 5",
+ "will_save": 15,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,0 +1,200 @@
+{
+ "ac": 39,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "CN",
+ "attack_bonus": [
+  31,
+  32,
+  34
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High",
+  "Extreme"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4,
+  5
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Attack of Opportunity",
+  "Shield Block",
+  "Challenge Foe",
+  "Defender of Svarýr",
+  "Instant Repair"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 31,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 295,
+ "hp_raw": "295",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2589",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+2 greater striking returning dagger",
+  "+2 greater striking longsword",
+  "greater sturdy shield (Hardness 15^ HP 120^ BT 60)"
+ ],
+ "language": [
+  "Common",
+  "Jotun",
+  "Skald",
+  "<%SPELLS%340%%><i>tongues</i><%END>"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Skald](/Languages.aspx?ID=42); [_tongues_](/Spells.aspx?ID=340)",
+ "level": 16,
+ "markdown": "<title level=\"1\" pfs=\"\">[Svarýr Soldier](/Monsters.aspx?ID=2589)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Monitor](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 40\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 38\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 35\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Svarýr Soldier](/Monsters.aspx?ID=2589)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aesir\" url=\"/Traits.aspx?ID=348\" />\r\n<trait label=\"Monitor\" url=\"/Traits.aspx?ID=111\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 42\n\n**Perception** +30; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Skald](/Languages.aspx?ID=42); [_tongues_](/Spells.aspx?ID=340)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +32, [Crafting](/Skills.aspx?ID=4) +25, [Intimidation](/Skills.aspx?ID=7) +29\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +5\r\n\r\n**Con** +7\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n_+2 [greater striking](/Equipment.aspx?ID=280) [returning](/Equipment.aspx?ID=301) [dagger](/Weapons.aspx?ID=3)_, _+2 [greater striking](/Equipment.aspx?ID=280) [longsword](/Weapons.aspx?ID=31)_, [_greater sturdy shield_](/Equipment.aspx?ID=327) (Hardness 15^ HP 120^ BT 60)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 39 \r\n\r\n**Fort** +31 \r\n\r\n**Ref** +27 \r\n\r\n**Will** +25 (+29 vs. [fear](/Traits.aspx?ID=68))\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 295\n\n</row>\n\n**Resistances**\r\npiercing 15\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, fly 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_longsword_ +34 ([Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 3d8+16 slashing plus 2d6 mental\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +32 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 3d6+16 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_dagger_ +31 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 3d4+16 piercing\r\n\r\n**Champion Devotion Spells** DC 34, 3 Focus Points\r\n- **1st**\r\n[Lay on Hands](/Spells.aspx?ID=395), [Weapon Surge](/Spells.aspx?ID=469)\r\n- **4th**\r\n[Word of Freedom](/Spells.aspx?ID=470), [Zeal for Battle](/Spells.aspx?ID=472)\r\n\r\n**Divine Innate Spells** DC 34\r\n- **Constant (5th)**\r\n[Tongues](/Spells.aspx?ID=340)\r\n\r\n**Challenge Foe** <actions string=\"Single Action\" />  The soldier challenges one creature they can see to single combat, attempting to [Demoralize](/Actions.aspx?ID=53) that target. This target remains the soldier's foe until it's defeated, it flees, or the encounter ends. The soldier gains a circumstance bonus to damage equal to their number of weapon damage dice against their designated foe but takes an equivalent circumstance penalty to damage against any other creature. If the soldier is defeated by their challenged foe, the shame causes them to lose use of their champion devotion spells for 1 week or until they challenge the same foe again and emerge victorious, whichever comes first.\r\n\r\n**Defender of Svarýr**   The soldier's melee Strikes with a [longsword](/Weapons.aspx?ID=31) become infused with the convictions of their duty, and deal an additional 2d6 mental damage against foes they fight while in Svarýr (listed above).\r\n\r\n**Instant Repair** <actions string=\"Single Action\" />  The soldier [Repairs](/Actions.aspx?ID=42) their shield. They can't use this ability if the shield is completely destroyed\r\n\r\n</column>",
+ "name": "Svarýr Soldier",
+ "npc": false,
+ "perception": 30,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Pathfinder #192: Worst of All Possible Worlds",
+ "primary_source_raw": "Pathfinder #192: Worst of All Possible Worlds pg. 42",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 27,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-06-28",
+ "resistance": {
+  "piercing": 15
+ },
+ "resistance_markdown": "piercing 15",
+ "resistance_raw": "piercing 15",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aesir\" url=\"/Traits.aspx?ID=348\" />\r\n<trait label=\"Monitor\" url=\"/Traits.aspx?ID=111\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 42\n\n<row gap=\"medium\">\r\n**HP** 295\r\n\r\n**AC** 39\r\n\r\n**Fort** +31\r\n\r\n**Ref** +27\r\n\r\n**Will** +25\r\n\r\n**Perception** +30\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Crafting",
+  "Intimidation"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +32, [Crafting](/Skills.aspx?ID=4) +25, [Intimidation](/Skills.aspx?ID=7) +29",
+ "skill_mod": {
+  "athletics": 32,
+  "crafting": 25,
+  "intimidation": 29
+ },
+ "source": [
+  "Pathfinder #192: Worst of All Possible Worlds"
+ ],
+ "source_raw": [
+  "Pathfinder #192: Worst of All Possible Worlds pg. 42"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 42",
+ "speed": {
+  "fly": 30,
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet, fly 30 feet",
+ "speed_raw": "40 feet, fly 30 feet",
+ "spell": [
+  "Lay on Hands",
+  "Weapon Surge",
+  "Word of Freedom",
+  "Zeal for Battle",
+  "Tongues"
+ ],
+ "spell_markdown": "[Lay on Hands](/Spells.aspx?ID=395), [Tongues](/Spells.aspx?ID=340), [Weapon Surge](/Spells.aspx?ID=469), [Word of Freedom](/Spells.aspx?ID=470), [Zeal for Battle](/Spells.aspx?ID=472)",
+ "spell_dc": [
+  34,
+  34
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "spoilers": "Stolen Fate",
+ "strike_damage_average": [
+  23,
+  26,
+  36
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 8,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "text": " Svarýr Soldier Recall Knowledge - Monitor (Religion): DC 40 Unspecific Lore : DC 38 Specific Lore : DC 35 Svarýr Soldier Source Pathfinder #192: Worst of All Possible Worlds pg. 42 Perception +30; darkvision Languages Common, Jotun, Skald; tongues Skills Athletics +32, Crafting +25, Intimidation +29 Str +8 Dex +5 Con +7 Int +1 Wis +3 Cha +5 Items +2 greater striking returning dagger , +2 greater striking longsword , greater sturdy shield (Hardness 15^ HP 120^ BT 60) --- AC 39 Fort +31 Ref +27 Will +25 (+29 vs. fear) HP 295 Resistances piercing 15 Attack of Opportunity Reaction Shield Block Reaction --- Speed 40 feet, fly 30 feet Melee Single Action longsword +34 (Magical, versatile P), Damage 3d8+16 slashing plus 2d6 mental Melee Single Action fist +32 (Agile), Damage 3d6+16 bludgeoning Ranged Single Action dagger +31 (Agile, Magical, thrown 10 feet, versatile S), Damage 3d4+16 piercing Champion Devotion Spells DC 34, 3 Focus Points - 1st Lay on Hands, Weapon Surge - 4th Word of Freedom, Zeal for Battle Divine Innate Spells DC 34 - Constant (5th) Tongues Challenge Foe Single Action The soldier challenges one creature they can see to single combat, attempting to Demoralize that target. This target remains the soldier's foe until it's defeated, it flees, or the encounter ends. The soldier gains a circumstance bonus to damage equal to their number of weapon damage dice against their designated foe but takes an equivalent circumstance penalty to damage against any other creature. If the soldier is defeated by their challenged foe, the shame causes them to lose use of their champion devotion spells for 1 week or until they challenge the same foe again and emerge victorious, whichever comes first. Defender of Svarýr The soldier's melee Strikes with a longsword become infused with the convictions of their duty, and deal an additional 2d6 mental damage against foes they fight while in Svarýr (listed above). Instant Repair Single Action The soldier Repairs their shield. They can't use this ability if the shield is completely destroyed ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Aesir",
+  "Monitor",
+  "Rare",
+  "CN",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Aesir](/Traits.aspx?ID=348), [Monitor](/Traits.aspx?ID=111), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Aesir",
+  "Monitor",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2589",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 25,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

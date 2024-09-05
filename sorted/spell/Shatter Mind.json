@@ -1,18 +1,33 @@
 {
  "actions": "Two Actions",
- "area": "15-foot cone",
+ "actions_number": 4,
+ "area": [
+  15
+ ],
+ "area_raw": "15-foot cone",
+ "area_type": [
+  "cone"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -26,31 +41,36 @@
  ],
  "id": "spell-1140",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 3\" pfs=\"Standard\">[Shatter Mind](/Spells.aspx?ID=1140)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 21</row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Will\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou telepathically assail the minds of your foes. You deal mental damage equal to 2d4 plus your spellcasting ability modifier to all enemies in the area, with a basic Will save.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.\n\n---\r\n\r\n<column gap=\"tiny\">\r\n**Amp** You increase the area of the spell to your choice of a 30-foot cone or 60-foot cone, and the damage dice for the spell change to d10s. Creatures that fail are [stupefied 1](/Conditions.aspx?ID=37) until the start of your next turn (or stupefied 2 on a critical failure).\n\n</column>",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 3\" pfs=\"Standard\">\r\n[Shatter Mind](/Spells.aspx?ID=1140)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 21\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\n[basic](/Rules.aspx?ID=329) Will\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou telepathically assail the minds of your foes. You deal 3d4 mental damage to all enemies in the area, with a basic Will save.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.\n\n---\r\n\r\n<column gap=\"tiny\">\r\n**Amp** You increase the area of the spell to your choice of a 30-foot cone or 60-foot cone, and the damage dice for the spell change to d10s. Creatures that fail are [stupefied 1](/Conditions.aspx?ID=37) until the start of your next turn (or stupefied 2 on a critical failure).\n\n</column>",
  "name": "Shatter Mind",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 21",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-07-27",
  "resistance": {},
  "saving_throw": "basic  Will",
  "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Will",
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 21</row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Will\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou telepathically assail the minds of your foes.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 21\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\n[basic](/Rules.aspx?ID=329) Will\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou telepathically assail the minds of your foes.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 21"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 21</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 21",
  "speed": {},
+ "spell_type": "Cantrip",
  "summary": "You telepathically assail the minds of your foes.",
  "summary_markdown": "You telepathically assail the minds of your foes.",
- "text": " Shatter Mind Source Dark Archive pg. 21 Cast Two Actions somatic, verbal Area 15-foot cone Saving Throw basic Will --- You telepathically assail the minds of your foes. You deal mental damage equal to 2d4 plus your spellcasting ability modifier to all enemies in the area, with a basic Will save. --- Heightened (+1) The damage increases by 1d4. --- Amp You increase the area of the spell to your choice of a 30-foot cone or 60-foot cone, and the damage dice for the spell change to d10s. Creatures that fail are stupefied 1 until the start of your next turn (or stupefied 2 on a critical failure).\n",
+ "text": "\nShatter Mind Two Actions Source Dark Archive pg. 21 Cast somatic, verbal Area 15-foot cone Saving Throw basic Will --- You telepathically assail the minds of your foes. You deal 3d4 mental damage to all enemies in the area, with a basic Will save. --- Heightened (+1) The damage increases by 1d4. --- Amp You increase the area of the spell to your choice of a 30-foot cone or 60-foot cone, and the damage dice for the spell change to d10s. Creatures that fail are stupefied 1 until the start of your next turn (or stupefied 2 on a critical failure).\n",
  "tradition_markdown": "",
  "trait": [
   "Cantrip",
@@ -58,6 +78,11 @@
   "Mental",
   "Psychic",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Evocation](/Traits.aspx?ID=65), [Mental](/Traits.aspx?ID=106), [Psychic](/Traits.aspx?ID=430), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -67,7 +92,7 @@
   "Psychic",
   "Uncommon"
  ],
- "type": "Cantrip",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=1140",
  "weakness": {}
 }

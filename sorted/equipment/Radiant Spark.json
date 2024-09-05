@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,34 +7,50 @@
  "id": "equipment-900",
  "item_category": "Artifacts",
  "level": 25,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 25\"\r\n    pfs=\"\"\r\n>\r\n[Radiant Spark](/Equipment.aspx?ID=900)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #162: Ruins of the Radiant Siege](/Sources.aspx?ID=54) pg. 74</row>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of [celestials](/Traits.aspx?ID=23) bound within it in ancient times. Each activation consumes a bit of this celestial energy, projecting the screams of the celestials into your mind. While holding the _Radiant Spark_, you gain a +2 item bonus to saving throws against [divine](/Traits.aspx?ID=48) spells and effects and you are aware of its powers. If you are good, while holding the _Radiant Spark_, you are [sickened 3](/Conditions.aspx?ID=34) and can't recover from this condition.\n\n<document level=\"2\" id=\"action-678\" />\n\n<document level=\"2\" id=\"action-679\" />\n\n<document level=\"2\" id=\"action-680\" />\n\n**Destruction** An archfiend or evil demigod must willingly swap their essence with that of a celestial dominated or bound by the artifact, then critically fail the saving throw against having their essence consumed. This permanently destroys both the artifact and the fiend or demigod.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 25\"\r\n    pfs=\"\"\r\n>\r\n[Radiant Spark](/Equipment.aspx?ID=900)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #162: Ruins of the Radiant Siege](/Sources.aspx?ID=54) pg. 74\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of [celestials](/Traits.aspx?ID=23) bound within it in ancient times. Each activation consumes a bit of this celestial energy, projecting the screams of the celestials into your mind. While holding the _Radiant Spark_, you gain a +2 item bonus to saving throws against [divine](/Traits.aspx?ID=48) spells and effects and you are aware of its powers. If you are good, while holding the _Radiant Spark_, you are [sickened 3](/Conditions.aspx?ID=34) and can't recover from this condition.\n\n**Activate** <actions string=\"Two Actions\" /> envision, Interact;     **Effect** The _Radiant Spark_ casts a 10th-level [_dominate_](/Spells.aspx?ID=87) spell (DC 49) on a creature that isn't from the [Material Plane](/Planes.aspx?ID=1). Celestials get an outcome one degree of success worse than the result of their save.\n\n**Activate** <actions string=\"Free Action\" /> envision;   **Trigger** You begin casting a [_planar binding_](/Rituals.aspx?ID=17) ritual;  **Effect** The _Radiant Spark_ reduces the casting time of the ritual to 1 hour, and you don't need secondary casters for this ritual.\n\n**Activate** <actions string=\"Reaction\" /> envision, Interact;   **Trigger** The target critically fails their save against the _Radiant Spark's_ _dominate_ spell or you critically succeed at binding the target with the _planar binding_ ritual using the artifact;  **Effect** The target must attempt a DC 49 Will save and is immune to further attempts for 24 hours.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is [drained 2](/Conditions.aspx?ID=10).<br />\r\n**Failure** The target dies and its essence is trapped within the _Radiant Spark_. It can be brought back to life only with powerful magic such as [_wish_](/Spells.aspx?ID=377) or [_miracle_](/Spells.aspx?ID=196).<br />\r\n**Critical Failure** As failure, and the target can't be brought back to life until the _Radiant Spark_ is destroyed.\n\n**Destruction** An archfiend or evil demigod must willingly swap their essence with that of a celestial dominated or bound by the artifact, then critically fail the saving throw against having their essence consumed. This permanently destroys both the artifact and the fiend or demigod.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Radiant Spark",
+ "primary_source": "Pathfinder #162: Ruins of the Radiant Siege",
+ "primary_source_raw": "Pathfinder #162: Ruins of the Radiant Siege pg. 74",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2020-12-15",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #162: Ruins of the Radiant Siege](/Sources.aspx?ID=54) pg. 74</row>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of  celestials  bound within it in …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #162: Ruins of the Radiant Siege](/Sources.aspx?ID=54) pg. 74\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of  celestials  bound within it in …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #162: Ruins of the Radiant Siege"
  ],
  "source_raw": [
   "Pathfinder #162: Ruins of the Radiant Siege pg. 74"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #162: Ruins of the Radiant Siege](/Sources.aspx?ID=54) pg. 74</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #162: Ruins of the Radiant Siege](/Sources.aspx?ID=54) pg. 74",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Agents of Edgewatch",
  "stage_markdown": "",
  "summary": "This shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of  celestials  bound within it in …",
  "summary_markdown": "This shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of  celestials  bound within it in …",
- "text": "<title level=\"1\" right=\"Item 25\" pfs=\"\" > Radiant Spark May contain spoilers from Agents of Edgewatch Source Pathfinder #162: Ruins of the Radiant Siege pg. 74 Usage held in 1 hand Bulk L --- This shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of celestials bound within it in ancient times. Each activation consumes a bit of this celestial energy, projecting the screams of the celestials into your mind. While holding the Radiant Spark , you gain a +2 item bonus to saving throws against divine spells and effects and you are aware of its powers. If you are good, while holding the Radiant Spark , you are sickened 3 and can't recover from this condition. Destruction An archfiend or evil demigod must willingly swap their essence with that of a celestial dominated or bound by the artifact, then critically fail the saving throw against having their essence consumed. This permanently destroys both the artifact and the fiend or demigod.\n",
+ "text": "<title level=\"1\" right=\"Item 25\" pfs=\"\" > Radiant Spark May contain spoilers from Agents of Edgewatch Source Pathfinder #162: Ruins of the Radiant Siege pg. 74 Usage held in 1 hand Bulk L --- This shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of celestials bound within it in ancient times. Each activation consumes a bit of this celestial energy, projecting the screams of the celestials into your mind. While holding the Radiant Spark , you gain a +2 item bonus to saving throws against divine spells and effects and you are aware of its powers. If you are good, while holding the Radiant Spark , you are sickened 3 and can't recover from this condition. Activate Two Actions envision, Interact; Effect The Radiant Spark casts a 10th-level dominate spell (DC 49) on a creature that isn't from the Material Plane. Celestials get an outcome one degree of success worse than the result of their save. Activate Free Action envision; Trigger You begin casting a planar binding ritual; Effect The Radiant Spark reduces the casting time of the ritual to 1 hour, and you don't need secondary casters for this ritual. Activate Reaction envision, Interact; Trigger The target critically fails their save against the Radiant Spark's dominate spell or you critically succeed at binding the target with the planar binding ritual using the artifact; Effect The target must attempt a DC 49 Will save and is immune to further attempts for 24 hours. Critical Success The target is unaffected. Success The target is drained 2. Failure The target dies and its essence is trapped within the Radiant Spark . It can be brought back to life only with powerful magic such as wish or miracle . Critical Failure As failure, and the target can't be brought back to life until the Radiant Spark is destroyed. Destruction An archfiend or evil demigod must willingly swap their essence with that of a celestial dominated or bound by the artifact, then critically fail the saving throw against having their essence consumed. This permanently destroys both the artifact and the fiend or demigod.\n",
  "trait": [
   "Artifact",
   "Conjuration",
   "Occult",
   "Unique"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Tradition",
+  "Rarity"
  ],
  "trait_markdown": "[Artifact](/Traits.aspx?ID=253), [Conjuration](/Traits.aspx?ID=33), [Occult](/Traits.aspx?ID=120), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [

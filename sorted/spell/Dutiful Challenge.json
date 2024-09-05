@@ -1,13 +1,12 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain": [
   "Duty"
  ],
@@ -18,6 +17,11 @@
  "heighten": [
   "+3"
  ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 7th rank",
+  "Heightened 10th rank"
+ ],
  "heighten_level": [
   4,
   7,
@@ -25,42 +29,52 @@
  ],
  "id": "spell-605",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Dutiful Challenge](/Spells.aspx?ID=605)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 114 <sup>2.0</sup></row>\n\n**Domain**\r\n[Duty](/Domains.aspx?ID=45)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nAs you challenge an enemy, you take some of its attention away from your allies. The target takes a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than you, and you take a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than the target. Each time a creature other than you uses a hostile action that affects the challenged enemy, the enemy can attempt a Will save. On a success, the enemy no longer takes the penalty against that creature. You can Dismiss the spell, and it ends automatically if you or the target is defeated.\n\n---\r\n**Heightened (+3)** The status penalties increase by 1.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Dutiful Challenge](/Spells.aspx?ID=605)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 114 <sup>2.0</sup>\n\n**Domain**\r\n[Duty](/Domains.aspx?ID=45)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nAs you challenge an enemy, you take some of its attention away from your allies. The target takes a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than you, and you take a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than the target. Each time a creature other than you uses a hostile action that affects the challenged enemy, the enemy can attempt a Will save. On a success, the enemy no longer takes the penalty against that creature. You can Dismiss the spell, and it ends automatically if you or the target is defeated.\n\n---\r\n**Heightened (+3)** The status penalties increase by 1.",
  "name": "Dutiful Challenge",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 114",
+ "primary_source_category": "Lost Omens",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 114 <sup>2.0</sup></row>\n\n**Domain**\r\n[Duty](/Domains.aspx?ID=45)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAs you challenge an enemy, you take some of its attention away from your allies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 114 <sup>2.0</sup>\n\n**Domain**\r\n[Duty](/Domains.aspx?ID=45)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAs you challenge an enemy, you take some of its attention away from your allies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 114"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 114 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 114 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "As you challenge an enemy, you take some of its attention away from your allies.",
  "summary_markdown": "As you challenge an enemy, you take some of its attention away from your allies.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Dutiful Challenge Source Gods &amp; Magic pg. 114 2.0 Domain Duty Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Duration 1 minute --- As you challenge an enemy, you take some of its attention away from your allies. The target takes a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than you, and you take a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than the target. Each time a creature other than you uses a hostile action that affects the challenged enemy, the enemy can attempt a Will save. On a success, the enemy no longer takes the penalty against that creature. You can Dismiss the spell, and it ends automatically if you or the target is defeated. --- Heightened (+3) The status penalties increase by 1.",
+ "text": "\nDutiful Challenge Two Actions Source Gods &amp; Magic pg. 114 2.0 Domain Duty Cast somatic, verbal Range 30 feet Target 1 creature Duration 1 minute --- As you challenge an enemy, you take some of its attention away from your allies. The target takes a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than you, and you take a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than the target. Each time a creature other than you uses a hostile action that affects the challenged enemy, the enemy can attempt a Will save. On a success, the enemy no longer takes the penalty against that creature. You can Dismiss the spell, and it ends automatically if you or the target is defeated. --- Heightened (+3) The status penalties increase by 1.",
  "tradition_markdown": "",
  "trait": [
-  "Abjuration"
+  "Abjuration",
+  "Focus"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_group": [
+  "School"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
-  "Abjuration"
+  "Abjuration",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=605",
  "weakness": {}
 }

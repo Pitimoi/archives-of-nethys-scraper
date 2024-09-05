@@ -1,13 +1,8 @@
 {
  "actions": "Three Actions",
+ "actions_number": 6,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "material",
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Erastil",
   "Fandarra",
@@ -16,13 +11,26 @@
   "Xhamen-Dor",
   "Zon-Kuthon"
  ],
- "deity_markdown": "[Erastil](/Deities.aspx?ID=6), [Fandarra](/Deities.aspx?ID=236), [Jaidi](/Deities.aspx?ID=155), [Treerazer](/Deities.aspx?ID=26), [Xhamen-Dor](/Deities.aspx?ID=165), [Zon-Kuthon](/Deities.aspx?ID=20)",
+ "deity_markdown": "[Erastil](/Deities.aspx?ID=282), [Fandarra](/Deities.aspx?ID=236), [Jaidi](/Deities.aspx?ID=155), [Treerazer](/Deities.aspx?ID=324), [Xhamen-Dor](/Deities.aspx?ID=165), [Zon-Kuthon](/Deities.aspx?ID=296)",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Wood"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -34,47 +42,61 @@
   9,
   10
  ],
- "id": "spell-366",
+ "id": "spell-1752",
+ "legacy_id": "spell-366",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">[Wall of Thorns](/Spells.aspx?ID=366)</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 383 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Erastil](/Deities.aspx?ID=6), [Fandarra](/Deities.aspx?ID=236), [Jaidi](/Deities.aspx?ID=155), [Treerazer](/Deities.aspx?ID=26), [Xhamen-Dor](/Deities.aspx?ID=165), [Zon-Kuthon](/Deities.aspx?ID=20)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nOver the course of a minute, you cause a thick wall of thorny brambles to grow from the ground. You create a 5-foot-thick wall of brambles and thorns in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height. Everything on each side of the wall has cover from creatures on the opposite side, and the wall's spaces are difficult terrain. For every move action a creature uses to enter at least one of the wall's spaces, that creature takes 3d4 piercing damage.\n\n Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely.\n\n---\r\n**Heightened (+1)** The Hit Points of each section of the wall increase by 5, and the piercing damage increases by 1d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Wall of Thorns](/Spells.aspx?ID=1752)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 367\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Erastil](/Deities.aspx?ID=282), [Fandarra](/Deities.aspx?ID=236), [Jaidi](/Deities.aspx?ID=155), [Treerazer](/Deities.aspx?ID=324), [Xhamen-Dor](/Deities.aspx?ID=165), [Zon-Kuthon](/Deities.aspx?ID=296)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nOver the course of a minute, you grow a wall of thorny brambles from the ground. You create a 5-foot-thick wall of brambles and thorns in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height. Everything on each side of the wall has [cover](/Rules.aspx?ID=459) from creatures on the opposite side, and the wall's spaces are [difficult terrain](/Rules.aspx?ID=453). For every move action a creature uses to enter at least one of the wall's spaces, that creature takes 3d4 piercing damage. \n\nEach 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely.\n\n---\r\n**Heightened (+1)** The Hit Points of each section of the wall increase by 5, and the piercing damage increases by 1d4.",
  "name": "Wall of Thorns",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 367",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 383 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Erastil](/Deities.aspx?ID=6), [Fandarra](/Deities.aspx?ID=236), [Jaidi](/Deities.aspx?ID=155), [Treerazer](/Deities.aspx?ID=26), [Xhamen-Dor](/Deities.aspx?ID=165), [Zon-Kuthon](/Deities.aspx?ID=20)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGrow a wall of brambles.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 367\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Erastil](/Deities.aspx?ID=282), [Fandarra](/Deities.aspx?ID=236), [Jaidi](/Deities.aspx?ID=155), [Treerazer](/Deities.aspx?ID=324), [Xhamen-Dor](/Deities.aspx?ID=165), [Zon-Kuthon](/Deities.aspx?ID=296)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGrow a wall of brambles.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 383"
+  "Player Core pg. 367"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 383 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 367",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Grow a wall of brambles.",
  "summary_markdown": "Grow a wall of brambles.",
- "text": " Wall of Thorns Source Core Rulebook pg. 383 4.0 Tradition Primal Deities Erastil, Fandarra, Jaidi, Treerazer, Xhamen-Dor, Zon-Kuthon Cast Three Actions material, somatic, verbal Range 60 feet Duration 1 minute --- Over the course of a minute, you cause a thick wall of thorny brambles to grow from the ground. You create a 5-foot-thick wall of brambles and thorns in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height. Everything on each side of the wall has cover from creatures on the opposite side, and the wall's spaces are difficult terrain. For every move action a creature uses to enter at least one of the wall's spaces, that creature takes 3d4 piercing damage. Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely. --- Heightened (+1) The Hit Points of each section of the wall increase by 5, and the piercing damage increases by 1d4.",
+ "text": "\nWall of Thorns Three Actions Source Player Core pg. 367 Traditions Arcane, Primal Deities Erastil, Fandarra, Jaidi, Treerazer, Xhamen-Dor, Zon-Kuthon Range 60 feet Duration 1 minute --- Over the course of a minute, you grow a wall of thorny brambles from the ground. You create a 5-foot-thick wall of brambles and thorns in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height. Everything on each side of the wall has cover from creatures on the opposite side, and the wall's spaces are difficult terrain. For every move action a creature uses to enter at least one of the wall's spaces, that creature takes 3d4 piercing damage. Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely. --- Heightened (+1) The Hit Points of each section of the wall increase by 5, and the piercing damage increases by 1d4.",
  "tradition": [
+  "Arcane",
   "Primal"
  ],
- "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Conjuration",
-  "Plant"
+  "Concentrate",
+  "Manipulate",
+  "Plant",
+  "Wood"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Plant](/Traits.aspx?ID=125)",
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Plant](/Traits.aspx?ID=125), [Wood](/Traits.aspx?ID=508)",
  "trait_raw": [
-  "Conjuration",
-  "Plant"
+  "Concentrate",
+  "Manipulate",
+  "Plant",
+  "Wood"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=366",
+ "url": "/Spells.aspx?ID=1752",
  "weakness": {}
 }

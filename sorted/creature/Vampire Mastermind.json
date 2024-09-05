@@ -1,15 +1,29 @@
 {
  "ac": 27,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  18
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Children of the Night",
+  "Vampire Vulnerabilities",
   "Mist Escape",
   "Change Shape",
-  "Create Spawn",
+  "Create Servitor",
   "Dominate",
   "Drain Bonded Item",
   "Drink Blood",
@@ -17,73 +31,108 @@
   "Turn to Mist"
  ],
  "creature_family": "Vampire",
- "creature_family_markdown": "[Vampire](/MonsterFamilies.aspx?ID=97)",
+ "creature_family_markdown": "[Vampire](/MonsterFamilies.aspx?ID=480)",
  "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 15,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 115,
- "hp_raw": "115 (coffin restoration,  fast healing  10,  negative healing )",
- "id": "creature-401",
+ "hp_raw": "115 (coffin restoration,  fast healing  10,  void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3226",
  "image": [
-  "/Images/Monsters/Vampire_VampireMastermind.png"
+  "/Images/Monsters/Vampire_Mastermind.webp"
  ],
  "immunity": [
-  "death effects",
+  "death  effects",
   "disease",
-  "paralyze",
+  "paralyzed",
   "poison",
   "sleep"
  ],
- "immunity_markdown": "death effects, disease, paralyze, poison, sleep",
+ "immunity_markdown": "[death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)",
  "intelligence": 6,
+ "intelligence_scale": "High",
+ "intelligence_scale_number": 4,
+ "item": [
+  "signet ring"
+ ],
  "language": [
   "Common",
   "Necril",
   "plus one regional language"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20); plus one regional language",
+ "legacy_id": "creature-401",
  "level": 9,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Vampire Mastermind](/Monsters.aspx?ID=401)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vampire_VampireMastermind.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Vampire Mastermind](/Monsters.aspx?ID=401)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 321</row>\n\n**Perception** +20; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20); plus one regional language\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Arcana](/Skills.aspx?ID=2) +21, [Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +22, [Society](/Skills.aspx?ID=14) +19, [Stealth](/Skills.aspx?ID=15) +19\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +6\r\n\r\n**Wis** +4\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Children of the Night** ([divine](/Traits.aspx?ID=48), [enchantment](/Traits.aspx?ID=61), [mental](/Traits.aspx?ID=106)) The vampire's presence brings forth creatures of the night to do the master's bidding. These typically include [rat swarms](/Monsters.aspx?ID=347), [bat swarms](/Traits.aspx?ID=239), and [wolves](/Monsters.aspx?ID=415), but can include other creatures. The vampire can give telepathic orders to these creatures as long as they are within 100 feet, but they can't communicate back.\r\n\r\n**Items**\r\nsignet ring\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +20 \n\n</row>\r\n\r\n**HP** 115\r\n(coffin restoration, [fast healing](/MonsterAbilities.aspx?ID=15) 10, [negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyze, poison, sleep\r\n\r\n**Resistances**\r\nphysical 10 (except magical silver)\r\n\r\n**Weaknesses**\r\nvampire weaknesses\r\n\r\n**Mist Escape** <actions string=\"Free Action\" />**Trigger** The vampire is reduced to 0 HP. **Effect** The vampire uses Turn to Mist. It can take move actions to move toward its coffin even though it’s at 0 HP. While at 0 HP in this form, the vampire is unaffected by further damage. It automatically returns to its corporeal form, unconscious, if it reaches its coffin or after 2 hours, whichever comes first.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +18 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d8+9 slashing plus Grab\r\n\r\n**Arcane Prepared Spells** DC 29, attack +19\r\n- **Cantrips (4th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Mage Hand](/Spells.aspx?ID=177), [Message](/Spells.aspx?ID=190), [Ray of Frost](/Spells.aspx?ID=245), [Sigil](/Spells.aspx?ID=286)\r\n- **1st**\r\n[Color Spray](/Spells.aspx?ID=44) (x2), [Fleet Step](/Spells.aspx?ID=122), [Ray of Enfeeblement](/Spells.aspx?ID=244)\r\n- **2nd**\r\n[Flaming Sphere](/Spells.aspx?ID=121), [Invisibility](/Spells.aspx?ID=164), [Mirror Image](/Spells.aspx?ID=197), [Touch of Idiocy](/Spells.aspx?ID=341)\r\n- **3rd**\r\n[Dispel Magic](/Spells.aspx?ID=78), [Fireball](/Spells.aspx?ID=119), [Haste](/Spells.aspx?ID=147), [Lightning Bolt](/Spells.aspx?ID=172)\r\n- **4th**\r\n[Fire Shield](/Spells.aspx?ID=118), [Phantasmal Killer](/Spells.aspx?ID=219), [Veil](/Spells.aspx?ID=355), [Wall of Fire](/Spells.aspx?ID=362)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)) Giant bat with fangs +19 for 2d8+9 piercing.\r\n\r\n**Create Spawn**  ([Divine](/Traits.aspx?ID=48), [Downtime](/Traits.aspx?ID=49), [Necromancy](/Traits.aspx?ID=117)) If a creature dies after being reduced to 0 HP by Drink Blood, the vampire can turn this victim into a vampire by donating some of its own blood to the victim and burying the victim in earth for 3 nights. If the new vampire is lower level than its creator, it is under the creator’s control. If a vampire controls too many spawn at once (as determined by the GM), strong-willed spawn can free themselves by succeeding at a Will saving throw against the vampire’s Will DC.\r\n\r\n**Dominate** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) The vampire can cast [_dominate_](/Spells.aspx?ID=87) (DC 26) at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the visual trait. A creature that succeeds is temporarily immune to that vampire's Dominate for 24 hours. Fully destroying the vampire ends the domination, but merely reducing the vampire to 0 HP is insufficient to break the spell.\r\n\r\n**Drain Bonded Item** <actions string=\"Free Action\" /> ([Arcane](/Traits.aspx?ID=11), [Wizard](/Traits.aspx?ID=166)) **Frequency** Once per day. **Requirements** The vampire hasn’t acted yet on this turn. **Effect** The vampire expends the power stored in its signet ring. This gives the vampire the ability to cast one prepared spell it had already previously cast today, without spending a spell slot. The vampire must still Cast the Spell and meet the spell’s other requirements.\r\n\r\n**Drink Blood** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) **Requirement** A [grabbed](/Conditions.aspx?ID=20), [paralyzed](/Conditions.aspx?ID=28), [restrained](/Conditions.aspx?ID=33), [unconscious](/Conditions.aspx?ID=38), or willing creature is within the vampire's reach. **Effect** The vampire sinks its fangs into that creature to drink its blood. This requires an [Athletics](/Skills.aspx?ID=3) check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [drained 2](/Conditions.aspx?ID=10) and the vampire regains 10 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drain value by 1. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.<br /> A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a DC 20 [Medicine](/Skills.aspx?ID=9) check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.\r\n\r\n**Steady Spellcasting**   If another creature’s reaction would disrupt the vampire mastermind’s spellcasting action, the vampire attempts a DC 15 flat check. If the vampire succeeds, its action isn’t disrupted.\r\n\r\n**Turn to Mist** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Transmutation](/Traits.aspx?ID=157)) The vampire turns into a cloud of vapor, as the gaseous form spell, or back to its normal form. The vampire loses fast healing while in gaseous form. The vampire can remain in this form indefinitely.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-97\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Vampire Mastermind](/Monsters.aspx?ID=3226)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vampire_Mastermind.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Vampire Mastermind](/Monsters.aspx?ID=3226)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=778\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 337\n\n**Perception** +20; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20); plus one regional language\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Arcana](/Skills.aspx?ID=2) +21, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +22, [Society](/Skills.aspx?ID=14) +19, [Stealth](/Skills.aspx?ID=15) +19\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +6\r\n\r\n**Wis** +4\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Children of the Night** ([divine](/Traits.aspx?ID=579), [mental](/Traits.aspx?ID=647)) \r\n\r\n**Items**\r\n[signet ring](/Equipment.aspx?ID=681)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +20 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 115\r\n(coffin restoration, [fast healing](/MonsterAbilities.aspx?ID=62) 10, [void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)\r\n\r\n**Resistances**\r\nphysical 10 (except [magical](/Traits.aspx?ID=644) [silver](/Equipment.aspx?ID=2920))\n\n**Vampire Vulnerabilities** <br />**Mist Escape** <actions string=\"Free Action\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +18 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d8+9 slashing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Arcane Prepared Spells** DC 29, attack +19\r\n- **Cantrips (4th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Frostbite](/Spells.aspx?ID=1539), [Message](/Spells.aspx?ID=190), [Telekinetic Hand](/Spells.aspx?ID=1715), [Sigil](/Spells.aspx?ID=286)\r\n- **1st**\r\n[Dizzying Colors](/Spells.aspx?ID=1500) (×2), [Enfeeble](/Spells.aspx?ID=1513), [Fleet Step](/Spells.aspx?ID=122)\r\n- **2nd**\r\n[Blur](/Spells.aspx?ID=28), [Floating Flame](/Spells.aspx?ID=1533), [Invisibility](/Spells.aspx?ID=164), [Stupefy](/Spells.aspx?ID=1691)\r\n- **3rd**\r\n[Dispel Magic](/Spells.aspx?ID=78), [Fireball](/Spells.aspx?ID=119), [Haste](/Spells.aspx?ID=147), [Lightning Bolt](/Spells.aspx?ID=172)\r\n- **4th**\r\n[Fire Shield](/Spells.aspx?ID=118), [Illusory Disguise](/Spells.aspx?ID=159), [Vision of Death](/Spells.aspx?ID=1742), [Wall of Fire](/Spells.aspx?ID=362)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127)) Giant bat with fangs +19 for 2d8+9 piercing.\r\n\r\n**Create Servitor**  ([Divine](/Traits.aspx?ID=48), [Downtime](/Traits.aspx?ID=49)) \r\n\r\n**Dominate** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) DC 26\r\n\r\n**Drain Bonded Item** <actions string=\"Free Action\" /> ([Arcane](/Traits.aspx?ID=11)) **Frequency** once per day; **Requirements** The vampire mastermind hasn't acted yet on this turn; **Effect** The vampire expends the power stored in their signet ring. This gives the vampire the ability to cast one prepared spell they had already previously cast today without spending a spell slot. The vampire must still Cast the Spell and meet the spell's other requirements.\r\n\r\n**Drink Blood** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48)) When Drinking Blood, the vampire mastermind regains 10 HP.\r\n\r\n**Steady Spellcasting**   If another creature's reaction would disrupt the vampire mastermind's spellcasting action, the vampire attempts a DC 15 flat check. If the vampire succeeds, their action isn't disrupted.\r\n\r\n**Turn to Mist** <actions string=\"Single Action\" /> ([Air](/Traits.aspx?ID=5), [Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127)) \r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-480\" />",
  "name": "Vampire Mastermind",
  "npc": false,
  "perception": 20,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
- "rarity": "uncommon",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 337",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 18,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 10,
   "physical": 10,
   "piercing": 10,
   "slashing": 10
  },
- "resistance_markdown": "physical 10 (except magical silver)",
- "resistance_raw": "physical 10 (except magical silver)",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 321</row>\r\n\r\n**Creature Family** [Vampire](/MonsterFamilies.aspx?ID=97)\r\n\r\n<row gap=\"medium\">\r\n**HP** 115 (coffin restoration,  fast healing  10,  negative healing )\r\n\r\n**AC** 27\r\n\r\n**Fort** +15\r\n\r\n**Ref** +18\r\n\r\n**Will** +20\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "resistance_markdown": "physical 10 (except [magical](/Traits.aspx?ID=644) [silver](/Equipment.aspx?ID=2920))",
+ "resistance_raw": "physical 10 (except  magical   silver )",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=778\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 337\r\n\r\n**Creature Family** [Vampire](/MonsterFamilies.aspx?ID=480)\r\n\r\n<row gap=\"medium\">\r\n**HP** 115 (coffin restoration,  fast healing  10,  void healing )\r\n\r\n**AC** 27\r\n\r\n**Fort** +15\r\n\r\n**Ref** +18\r\n\r\n**Will** +20\r\n\r\n**Perception** +20\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
- "skill": [
-  "Acrobatics +17",
-  "Arcana +21",
-  "Athletics +16",
-  "Deception +20",
-  "Diplomacy +20",
-  "Intimidation +22",
-  "Society +19",
-  "Stealth +19"
+ "size_id": [
+  3
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +17, [Arcana](/Skills.aspx?ID=2) +21, [Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +22, [Society](/Skills.aspx?ID=14) +19, [Stealth](/Skills.aspx?ID=15) +19",
+ "skill": [
+  "Acrobatics",
+  "Arcana",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Society",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +17, [Arcana](/Skills.aspx?ID=2) +21, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +22, [Society](/Skills.aspx?ID=14) +19, [Stealth](/Skills.aspx?ID=15) +19",
+ "skill_mod": {
+  "acrobatics": 17,
+  "arcana": 21,
+  "athletics": 18,
+  "deception": 20,
+  "diplomacy": 20,
+  "intimidation": 22,
+  "society": 19,
+  "stealth": 19
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 321"
+  "Monster Core pg. 337"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 321</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 337",
  "speed": {
   "climb": 25,
   "land": 25,
@@ -93,58 +142,96 @@
  "speed_raw": "25 feet, climb 25 feet",
  "spell": [
   "Fire Shield",
-  "Phantasmal Killer",
-  "Veil",
+  "Illusory Disguise",
+  "Vision of Death",
   "Wall of Fire",
   "Dispel Magic",
   "Fireball",
   "Haste",
   "Lightning Bolt",
-  "Flaming Sphere",
+  "Blur",
+  "Floating Flame",
   "Invisibility",
-  "Mirror Image",
-  "Touch of Idiocy",
-  "Color Spray",
+  "Stupefy",
+  "Dizzying Colors",
+  "Enfeeble",
   "Fleet Step",
-  "Ray of Enfeeblement",
   "Detect Magic",
-  "Mage Hand",
+  "Frostbite",
   "Message",
-  "Ray of Frost",
+  "Telekinetic Hand",
   "Sigil"
  ],
- "spell_markdown": "[Color Spray](/Spells.aspx?ID=44), [Detect Magic](/Spells.aspx?ID=66), [Dispel Magic](/Spells.aspx?ID=78), [Fire Shield](/Spells.aspx?ID=118), [Fireball](/Spells.aspx?ID=119), [Flaming Sphere](/Spells.aspx?ID=121), [Fleet Step](/Spells.aspx?ID=122), [Haste](/Spells.aspx?ID=147), [Invisibility](/Spells.aspx?ID=164), [Lightning Bolt](/Spells.aspx?ID=172), [Mage Hand](/Spells.aspx?ID=177), [Message](/Spells.aspx?ID=190), [Mirror Image](/Spells.aspx?ID=197), [Phantasmal Killer](/Spells.aspx?ID=219), [Ray of Enfeeblement](/Spells.aspx?ID=244), [Ray of Frost](/Spells.aspx?ID=245), [Sigil](/Spells.aspx?ID=286), [Touch of Idiocy](/Spells.aspx?ID=341), [Veil](/Spells.aspx?ID=355), [Wall of Fire](/Spells.aspx?ID=362)",
+ "spell_markdown": "[Blur](/Spells.aspx?ID=28), [Detect Magic](/Spells.aspx?ID=66), [Dispel Magic](/Spells.aspx?ID=78), [Dizzying Colors](/Spells.aspx?ID=1500), [Enfeeble](/Spells.aspx?ID=1513), [Fire Shield](/Spells.aspx?ID=118), [Fireball](/Spells.aspx?ID=119), [Fleet Step](/Spells.aspx?ID=122), [Floating Flame](/Spells.aspx?ID=1533), [Frostbite](/Spells.aspx?ID=1539), [Haste](/Spells.aspx?ID=147), [Illusory Disguise](/Spells.aspx?ID=159), [Invisibility](/Spells.aspx?ID=164), [Lightning Bolt](/Spells.aspx?ID=172), [Message](/Spells.aspx?ID=190), [Sigil](/Spells.aspx?ID=286), [Stupefy](/Spells.aspx?ID=1691), [Telekinetic Hand](/Spells.aspx?ID=1715), [Vision of Death](/Spells.aspx?ID=1742), [Wall of Fire](/Spells.aspx?ID=362)",
+ "spell_attack_bonus": [
+  19
+ ],
+ "spell_attack_bonus_scale": [
+  "Moderate"
+ ],
+ "spell_attack_bonus_scale_number": [
+  3
+ ],
+ "spell_dc": [
+  29
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "19",
+ "strike_damage_average": [
+  18
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "will"
  ],
  "summary": "Vampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide.",
  "summary_markdown": "Vampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide.",
- "text": " Vampire Mastermind Vampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide. Recall Knowledge - Undead (Religion): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Vampire Mastermind Source Bestiary pg. 321 Perception +20; darkvision Languages Common, Necril; plus one regional language Skills Acrobatics +17, Arcana +21, Athletics +16, Deception +20, Diplomacy +20, Intimidation +22, Society +19, Stealth +19 Str +3 Dex +4 Con +1 Int +6 Wis +4 Cha +5 Children of the Night (divine, enchantment, mental) The vampire's presence brings forth creatures of the night to do the master's bidding. These typically include rat swarms, bat swarms, and wolves, but can include other creatures. The vampire can give telepathic orders to these creatures as long as they are within 100 feet, but they can't communicate back. Items signet ring --- AC 27 Fort +15 Ref +18 Will +20 HP 115 (coffin restoration, fast healing 10, negative healing) Immunities death effects, disease, paralyze, poison, sleep Resistances physical 10 (except magical silver) Weaknesses vampire weaknesses Mist Escape Free Action Trigger The vampire is reduced to 0 HP. Effect The vampire uses Turn to Mist. It can take move actions to move toward its coffin even though it’s at 0 HP. While at 0 HP in this form, the vampire is unaffected by further damage. It automatically returns to its corporeal form, unconscious, if it reaches its coffin or after 2 hours, whichever comes first. --- Speed 25 feet, climb 25 feet Melee Single Action claw +18 (Agile), Damage 2d8+9 slashing plus Grab Arcane Prepared Spells DC 29, attack +19 - Cantrips (4th) Detect Magic, Mage Hand, Message, Ray of Frost, Sigil - 1st Color Spray (x2), Fleet Step, Ray of Enfeeblement - 2nd Flaming Sphere, Invisibility, Mirror Image, Touch of Idiocy - 3rd Dispel Magic, Fireball, Haste, Lightning Bolt - 4th Fire Shield, Phantasmal Killer, Veil, Wall of Fire Change Shape Single Action (Concentrate, Divine, Polymorph, Transmutation) Giant bat with fangs +19 for 2d8+9 piercing. Create Spawn (Divine, Downtime, Necromancy) If a creature dies after being reduced to 0 HP by Drink Blood, the vampire can turn this victim into a vampire by donating some of its own blood to the victim and burying the victim in earth for 3 nights. If the new vampire is lower level than its creator, it is under the creator’s control. If a vampire controls too many spawn at once (as determined by the GM), strong-willed spawn can free themselves by succeeding at a Will saving throw against the vampire’s Will DC. Dominate Two Actions (Divine, Enchantment, Incapacitation, Mental, Visual) The vampire can cast dominate (DC 26) at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the visual trait. A creature that succeeds is temporarily immune to that vampire's Dominate for 24 hours. Fully destroying the vampire ends the domination, but merely reducing the vampire to 0 HP is insufficient to break the spell. Drain Bonded Item Free Action (Arcane, Wizard) Frequency Once per day. Requirements The vampire hasn’t acted yet on this turn. Effect The vampire expends the power stored in its signet ring. This gives the vampire the ability to cast one prepared spell it had already previously cast today, without spending a spell slot. The vampire must still Cast the Spell and meet the spell’s other requirements. Drink Blood Single Action (Divine, Necromancy) Requirement A grabbed, paralyzed, restrained, unconscious, or willing creature is within the vampire's reach. Effect The vampire sinks its fangs into that creature to drink its blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is drained 2 and the vampire regains 10 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drain value by 1. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so. A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a DC 20 Medicine check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes. Steady Spellcasting If another creature’s reaction would disrupt the vampire mastermind’s spellcasting action, the vampire attempts a DC 15 flat check. If the vampire succeeds, its action isn’t disrupted. Turn to Mist Single Action (Concentrate, Divine, Transmutation) The vampire turns into a cloud of vapor, as the gaseous form spell, or back to its normal form. The vampire loses fast healing while in gaseous form. The vampire can remain in this form indefinitely. ",
+ "text": " Vampire Mastermind Vampire masterminds are evil wizards who control entire cabals of the undead and instill fear in the hearts of mortals far and wide. Recall Knowledge - Undead (Religion): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Vampire Mastermind Source Monster Core pg. 337 Perception +20; darkvision Languages Common, Necril; plus one regional language Skills Acrobatics +17, Arcana +21, Athletics +18, Deception +20, Diplomacy +20, Intimidation +22, Society +19, Stealth +19 Str +3 Dex +4 Con +1 Int +6 Wis +4 Cha +5 Children of the Night (divine, mental) Items signet ring --- AC 27 Fort +15 Ref +18 Will +20 HP 115 (coffin restoration, fast healing 10, void healing) Immunities death effects, disease, paralyzed, poison, sleep Resistances physical 10 (except magical silver) Vampire Vulnerabilities Mist Escape Free Action --- Speed 25 feet, climb 25 feet Melee Single Action claw +18 (Agile), Damage 2d8+9 slashing plus Grab Arcane Prepared Spells DC 29, attack +19 - Cantrips (4th) Detect Magic, Frostbite, Message, Telekinetic Hand, Sigil - 1st Dizzying Colors (×2), Enfeeble, Fleet Step - 2nd Blur, Floating Flame, Invisibility, Stupefy - 3rd Dispel Magic, Fireball, Haste, Lightning Bolt - 4th Fire Shield, Illusory Disguise, Vision of Death, Wall of Fire Change Shape Single Action (Concentrate, Divine, Polymorph) Giant bat with fangs +19 for 2d8+9 piercing. Create Servitor (Divine, Downtime) Dominate Two Actions (Divine, Incapacitation, Mental, Visual) DC 26 Drain Bonded Item Free Action (Arcane) Frequency once per day; Requirements The vampire mastermind hasn't acted yet on this turn; Effect The vampire expends the power stored in their signet ring. This gives the vampire the ability to cast one prepared spell they had already previously cast today without spending a spell slot. The vampire must still Cast the Spell and meet the spell's other requirements. Drink Blood Single Action (Divine) When Drinking Blood, the vampire mastermind regains 10 HP. Steady Spellcasting If another creature's reaction would disrupt the vampire mastermind's spellcasting action, the vampire attempts a DC 15 flat check. If the vampire succeeds, their action isn't disrupted. Turn to Mist Single Action (Air, Concentrate, Divine, Polymorph) ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
-  "Uncommon",
   "Undead",
+  "Unholy",
   "Vampire",
-  "CE",
   "Medium"
  ],
- "trait_markdown": "[Uncommon](/Traits.aspx?ID=159), [Undead](/Traits.aspx?ID=160), [Vampire](/Traits.aspx?ID=242)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521), [Vampire](/Traits.aspx?ID=778)",
  "trait_raw": [
-  "Uncommon",
   "Undead",
+  "Unholy",
   "Vampire"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=401",
+ "url": "/Monsters.aspx?ID=3226",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
   "fortitude"
  ],
  "weakness": {},
- "weakness_markdown": "vampire weaknesses",
- "weakness_raw": "vampire weaknesses",
  "will_save": 20,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

@@ -1,72 +1,83 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Family"
  ],
- "domain_markdown": "[Family](/Domains.aspx?ID=11)",
- "duration": 6,
- "duration_raw": "1 round",
+ "domain_markdown": "[Family](/Domains.aspx?ID=74)",
+ "duration": 60,
+ "duration_raw": "1 minute",
  "exclude_from_search": false,
  "heighten": [
   "5th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank"
  ],
  "heighten_level": [
   1,
   5
  ],
- "id": "spell-452",
+ "id": "spell-1800",
+ "legacy_id": "spell-452",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Soothing Words](/Spells.aspx?ID=452)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>\n\n**Domain**\r\n[Family](/Domains.aspx?ID=11)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou attempt to calm the target by uttering soothing words in a calm and even tone. The target gains a +1 status bonus to Will saving throws. This bonus increases to +2 against emotion effects.\n\n In addition, when you Cast this Spell, you can attempt to counteract one emotion effect on the target.\n\n---\r\n**Heightened (5th)** The bonus to saves increases to +2, or +3 against emotion effects.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Soothing Words](/Spells.aspx?ID=1800)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 374\n\n**Domain**\r\n[Family](/Domains.aspx?ID=74)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou attempt to calm the target by uttering soothing words in a calm and even tone. The target gains a +1 status bonus to Will saving throws. This bonus increases to +2 against [emotion](/Traits.aspx?ID=60) effects.\n\n In addition, when you Cast this Spell, you can attempt to [counteract](/Rules.aspx?ID=371) one emotion effect on the target.\n\n---\r\n**Heightened (5th)** The bonus to saves increases to +2, or +3 against emotion effects.",
  "name": "Soothing Words",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 374",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>\n\n**Domain**\r\n[Family](/Domains.aspx?ID=11)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou attempt to calm the target by uttering soothing words in a calm and even tone.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 374\n\n**Domain**\r\n[Family](/Domains.aspx?ID=74)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou attempt to calm the target by uttering soothing words in a calm and even tone.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 396"
+  "Player Core pg. 374"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 396 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 374",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You attempt to calm the target by uttering soothing words in a calm and even tone.",
  "summary_markdown": "You attempt to calm the target by uttering soothing words in a calm and even tone.",
  "target": "1 ally",
  "target_markdown": "1 ally",
- "text": " Soothing Words Source Core Rulebook pg. 396 4.0 Domain Family Cast Single Action verbal Range 30 feet Target 1 ally Duration 1 round --- You attempt to calm the target by uttering soothing words in a calm and even tone. The target gains a +1 status bonus to Will saving throws. This bonus increases to +2 against emotion effects. In addition, when you Cast this Spell, you can attempt to counteract one emotion effect on the target. --- Heightened (5th) The bonus to saves increases to +2, or +3 against emotion effects.",
+ "text": "\nSoothing Words Single Action Source Player Core pg. 374 Domain Family Range 30 feet Target 1 ally Duration 1 minute --- You attempt to calm the target by uttering soothing words in a calm and even tone. The target gains a +1 status bonus to Will saving throws. This bonus increases to +2 against emotion effects. In addition, when you Cast this Spell, you can attempt to counteract one emotion effect on the target. --- Heightened (5th) The bonus to saves increases to +2, or +3 against emotion effects.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
-  "Mental",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
-  "Mental",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=452",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1800",
  "weakness": {}
 }

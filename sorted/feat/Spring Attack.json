@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,32 @@
  "feat_markdown": "Spring Attack",
  "id": "feat-413",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spring Attack](/Feats.aspx?ID=413) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Press\" url=\"/Traits.aspx?ID=133\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup></row>\n\n**Requirements**\r\nYou are adjacent to an enemy.\r\n\r\n</column>\r\n\r\n---\r\n\r\nSpringing away from one foe, you Strike at another. Stride up to your Speed, but you must end that movement within melee reach of a different enemy. At the end of your movement, make a melee Strike against an enemy now within reach. You can use Spring Attack while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spring Attack](/Feats.aspx?ID=413) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Press\" url=\"/Traits.aspx?ID=133\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup>\n\n**Requirements**\r\nYou are adjacent to an enemy.\r\n\r\n</column>\r\n\r\n---\r\n\r\nSpringing away from one foe, you Strike at another. Stride up to your Speed, but you must end that movement within melee reach of a different enemy. At the end of your movement, make a melee Strike against an enemy now within reach. You can use Spring Attack while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.",
  "name": "Spring Attack",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 152",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "feat-4833",
+ "remaster_name": "Dashing Strike",
  "requirement": "You are adjacent to an enemy.",
  "requirement_markdown": "You are adjacent to an enemy.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Press\" url=\"/Traits.aspx?ID=133\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup></row>\n\n**Requirements**\r\nYou are adjacent to an enemy.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpringing away from one foe, you Strike at another.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Press\" url=\"/Traits.aspx?ID=133\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup>\n\n**Requirements**\r\nYou are adjacent to an enemy.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpringing away from one foe, you Strike at another.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 152"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 152 <sup>4.0</sup>",
  "speed": {},
  "summary": "Springing away from one foe, you Strike at another.",
  "summary_markdown": "Springing away from one foe, you Strike at another.",
@@ -33,6 +42,9 @@
  "trait": [
   "Fighter",
   "Press"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Fighter](/Traits.aspx?ID=71), [Press](/Traits.aspx?ID=133)",
  "trait_raw": [

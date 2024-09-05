@@ -1,38 +1,46 @@
 {
  "breadcrumbs": [
-  "Chapter 9: Playing the Game",
-  "General Rules",
-  "Specific Checks"
+  "Chapter 8: Playing the Game",
+  "Checks"
  ],
- "breadcrumbs_spa": [],
  "category": "rules",
  "exclude_from_search": false,
- "id": "rules-325",
- "markdown": "<title level=\"1\" right=\"Rules\">[Spell Attack Rolls](/Rules.aspx?ID=325)</title>\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 447 <sup>4.0</sup></row>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\nIf you cast spells, you might be able to make a spell attack roll. These rolls are usually made when a spell makes an attack against a creature’s AC. \n\n The ability modifier for a spell attack roll depends on how you gained access to your spells. If your class grants you spellcasting, use your key ability modifier. Innate spells use your Charisma modifier unless the ability that granted them states otherwise. Focus spells and other sources of spells specify which ability modifier you use for spell attack rolls in the ability that granted them. If you have spells from multiple sources or traditions, you might use different ability modifiers for spell attack rolls for these different sources of spells. For example, a dwarf cleric with the [Stonewalker](/Feats.aspx?ID=10) ancestry feat would use her Charisma modifier when casting [_meld into stone_](/Spells.aspx?ID=188) from that feat, since it’s a divine innate spell, but she would use her Wisdom modifier when casting [_heal_](/Spells.aspx?ID=148) and other spells using her cleric divine spellcasting.\n\nDetermine the spell attack roll with the following formula. \n\n<center>**Spell attack roll result = d20 roll + ability modifier used for spellcasting + proficiency bonus + other bonuses + penalties**</center> If you have the ability to cast spells, you’ll have a proficiency rank for your spell attack rolls, so you’ll always add a proficiency bonus. Like your ability modifier, this proficiency rank may vary from one spell to another if you have spells from multiple sources. Spell attack rolls can benefit from circumstance bonuses and status bonuses, though item bonuses to spell attack rolls are rare. Penalties affect spell attack rolls just like any other attack roll—including your multiple attack penalty.\n\n Many times, instead of requiring you to make a spell attack roll, the spells you cast will require those within the area or targeted by the spell to attempt a saving throw against your Spell DC to determine how the spell affects them. \n\n Your spell DC is calculated using the following formula. \n\n<center>**Spell DC = 10 + ability modifier used for spellcasting + proficiency bonus + other bonuses + penalties**</center>\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>",
+ "id": "rules-2292",
+ "legacy_id": "rules-325",
+ "markdown": "<title level=\"1\" right=\"Rules\">[Spell Attack Rolls](/Rules.aspx?ID=2292)</title>\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 403\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\nIf you cast spells, you might need to make a spell attack roll. These rolls are usually made when you cast a spell that targets a creature's AC.\n\nThe attribute modifier for a spell attack roll depends on how you gained the spell. If your class grants you spellcasting, use your key attribute modifier (such as Intelligence for a wizard). Innate spells use your Charisma modifier unless the ability that granted them states otherwise. Focus spells and other sources of spells specify which attribute modifier you use for spell attack modifiers in the ability that granted them. If you have spells from multiple sources or traditions, you might use different attribute modifiers for spell attack modifiers for these different sources of spells. For example, a dwarf cleric with the Stonewalker ancestry feat would use her Charisma modifier when casting one with stone from that feat, since it's a divine innate spell, but she would use her Wisdom modifier when casting heal and other spells using her cleric divine spellcasting.\n\nIf you have the ability to cast spells, you'll have a proficiency rank for your spell attack modifier, so you'll always add a proficiency bonus. Spell attack rolls can benefit from circumstance bonuses and status bonuses, though item bonuses to spell attack rolls are rare. Penalties affect spell attack rolls just like any other attack roll—including your multiple attack penalty.\n\nCalculate a **spell attack roll** with the following formula.\n\n<center>**Spell attack roll result = d20 roll + spellcasting attribute modifier + proficiency bonus + other bonuses + penalties**</center>\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Writing Down Statistics</title>\r\n\r\nWhen creating your character and adventuring you'll record the total modifier for various important checks on your character sheet. Since many bonuses and penalties are due to the immediate circumstances, spells, and other temporary magical effects, you typically won't apply them to your notations.\n\nFor example, the number you write down for your **attack modifier** with your battle axe would likely be your Strength modifier + your proficiency bonus with martial weapons. Your **spell attack modifier** is typically just your spellcasting attribute modifier + your proficiency bonus, and your **spell DC** is usually the same number + 10.\n\nItem bonuses and penalties are often more persistent, so you will often want to record them ahead of time. For instance, if you upgraded your battle axe with a +1 weapon potency rune, you'll want to add the +1 item bonus into your attack modifier with the battle axe, since you will include that bonus every time you attack with that weapon.\r\n</aside>",
  "name": "Spell Attack Rolls",
  "next_link": {
-  "label": "Perception",
-  "url": "/Rules.aspx?ID=326"
+  "label": "Spell DC",
+  "url": "/Rules.aspx?ID=2293"
  },
  "previous_link": {
   "label": "Attack Rolls",
-  "url": "/Rules.aspx?ID=321"
+  "url": "/Rules.aspx?ID=2288"
  },
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 403",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 447 <sup>4.0</sup></row>\r\n\r\nChapter 9: Playing the Game / General Rules / Specific Checks\r\n</additional-info>",
+ "search_markdown": "<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 403\r\n\r\nChapter 8: Playing the Game / Checks\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf you cast spells, you might need to make a spell attack roll. These rolls are usually made when you cast a spell that targets a creature's AC.  The …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 447"
+  "Player Core pg. 403"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 447 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 403",
  "speed": {},
- "text": " Spell Attack Rolls Source Core Rulebook pg. 447 4.0 If you cast spells, you might be able to make a spell attack roll. These rolls are usually made when a spell makes an attack against a creature’s AC. The ability modifier for a spell attack roll depends on how you gained access to your spells. If your class grants you spellcasting, use your key ability modifier. Innate spells use your Charisma modifier unless the ability that granted them states otherwise. Focus spells and other sources of spells specify which ability modifier you use for spell attack rolls in the ability that granted them. If you have spells from multiple sources or traditions, you might use different ability modifiers for spell attack rolls for these different sources of spells. For example, a dwarf cleric with the Stonewalker ancestry feat would use her Charisma modifier when casting meld into stone from that feat, since it’s a divine innate spell, but she would use her Wisdom modifier when casting heal and other spells using her cleric divine spellcasting. Determine the spell attack roll with the following formula. Spell attack roll result = d20 roll + ability modifier used for spellcasting + proficiency bonus + other bonuses + penalties If you have the ability to cast spells, you’ll have a proficiency rank for your spell attack rolls, so you’ll always add a proficiency bonus. Like your ability modifier, this proficiency rank may vary from one spell to another if you have spells from multiple sources. Spell attack rolls can benefit from circumstance bonuses and status bonuses, though item bonuses to spell attack rolls are rare. Penalties affect spell attack rolls just like any other attack roll—including your multiple attack penalty. Many times, instead of requiring you to make a spell attack roll, the spells you cast will require those within the area or targeted by the spell to attempt a saving throw against your Spell DC to determine how the spell affects them. Your spell DC is calculated using the following formula. Spell DC = 10 + ability modifier used for spellcasting + proficiency bonus + other bonuses + penalties ",
+ "summary": "If you cast spells, you might need to make a spell attack roll. These rolls are usually made when you cast a spell that targets a creature's AC.  The …",
+ "summary_markdown": "If you cast spells, you might need to make a spell attack roll. These rolls are usually made when you cast a spell that targets a creature's AC.  The …",
+ "text": " Spell Attack Rolls Source Player Core pg. 403 If you cast spells, you might need to make a spell attack roll. These rolls are usually made when you cast a spell that targets a creature's AC. The attribute modifier for a spell attack roll depends on how you gained the spell. If your class grants you spellcasting, use your key attribute modifier (such as Intelligence for a wizard). Innate spells use your Charisma modifier unless the ability that granted them states otherwise. Focus spells and other sources of spells specify which attribute modifier you use for spell attack modifiers in the ability that granted them. If you have spells from multiple sources or traditions, you might use different attribute modifiers for spell attack modifiers for these different sources of spells. For example, a dwarf cleric with the Stonewalker ancestry feat would use her Charisma modifier when casting one with stone from that feat, since it's a divine innate spell, but she would use her Wisdom modifier when casting heal and other spells using her cleric divine spellcasting. If you have the ability to cast spells, you'll have a proficiency rank for your spell attack modifier, so you'll always add a proficiency bonus. Spell attack rolls can benefit from circumstance bonuses and status bonuses, though item bonuses to spell attack rolls are rare. Penalties affect spell attack rolls just like any other attack roll—including your multiple attack penalty. Calculate a spell attack roll with the following formula. Spell attack roll result = d20 roll + spellcasting attribute modifier + proficiency bonus + other bonuses + penalties Writing Down Statistics When creating your character and adventuring you'll record the total modifier for various important checks on your character sheet. Since many bonuses and penalties are due to the immediate circumstances, spells, and other temporary magical effects, you typically won't apply them to your notations. For example, the number you write down for your attack modifier with your battle axe would likely be your Strength modifier + your proficiency bonus with martial weapons. Your spell attack modifier is typically just your spellcasting attribute modifier + your proficiency bonus, and your spell DC is usually the same number + 10. Item bonuses and penalties are often more persistent, so you will often want to record them ahead of time. For instance, if you upgraded your battle axe with a +1 weapon potency rune, you'll want to add the +1 item bonus into your attack modifier with the battle axe, since you will include that bonus every time you attack with that weapon. ",
  "type": "Rules",
- "url": "/Rules.aspx?ID=325",
+ "url": "/Rules.aspx?ID=2292",
  "weakness": {}
 }

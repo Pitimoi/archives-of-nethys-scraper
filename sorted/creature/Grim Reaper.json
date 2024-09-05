@@ -1,15 +1,28 @@
 {
  "ac": 47,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  40
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 8,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 8,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Death’s Grace",
   "Status Sight",
   "Aura of Misfortune",
-  "Negative Healing",
+  "Death's Grace",
+  "Void Healing",
   "Lurking Death",
   "Death Strike",
   "Energy Drain",
@@ -19,37 +32,58 @@
  "creature_family": "Grim Reaper",
  "creature_family_markdown": "[Grim Reaper](/MonsterFamilies.aspx?ID=104)",
  "dexterity": 10,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 37,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 320,
- "hp_raw": "320 ( negative healing )",
- "id": "creature-250",
+ "hp_raw": "320 (death's grace,  void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3036",
  "image": [
-  "/Images/Monsters/GrimReaper.png"
+  "/Images/Monsters/Grim_Reaper.webp"
  ],
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
   "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, paralyzed, poison, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": 5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Scythe"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-250",
  "level": 21,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Grim Reaper](/Monsters.aspx?ID=250)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe Grim Reaper is the unflinching personification of death. Silent as the grave and as inevitable as time itself, this legendary being hunts down and finishes creatures that have evaded death for far too long. Sometimes the Grim Reaper comes without warning, while at others it comes to finish the work that other creatures could not. The Grim Reaper serves no god, fiend, or aeon. It is both despised and feared by psychopomps and celestials, but few—if any—dare to stand in its way. Like some eternal plague, it kills those who try to cure the multiverse of its presence. It stands alone and holds only its own council, and the pleading and reasoning of mortals and immortals alike fall on deaf ears once the Grim Reaper closes on its quarry. Its own reasoning is silent to mortal ears and inscrutable to the mortal mind, but no matter the reason, the result is unyielding and final.\n\n While some legends hold that the Grim Reaper appears before everyone as they die, the truth is quite a bit more disturbing. Such vigils in fact lie within the providence of the psychopomps, a race of immortals charged with the protection and guidance of mortal souls through the afterlife. The Grim Reaper has little interest in protecting souls or guiding them. It is instead compelled by sinister agendas arising within the nighted realm of Abaddon, where the Horsemen of the Apocalypse rule. Indeed there are many similarities in shape and form between the Grim Reaper and Charon, the Horseman of Death, but no recorded instance exists of these two powerful entities working together. Instead, the Grim Reaper serves as something of a manifestation of Abaddon itself, and in this regard is believed by some to be an incarnation of the mysterious First Horseman. When the Grim Reaper comes to a world, it does so not as an angel of mercy, but as a relentless harvester of life. Those who fall to the Grim Reaper were not destined to die as much as they were selected, hunted, and murdered.\n\n Perhaps the most frightening legends surrounding the Grim Reaper concern its nature as a singular entity, for some believe that more than one grim reaper exists in the Great Beyond. These whispers tell of a cabal of at least nine of these creatures that stalk reality, culling the living as inexplicable servants of true entropy. According to the teaching of some death cults, the final goal of the Grim Reaper is to end the entire cycle of life and death and serve as a silent lord of an empty universe.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 52\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 50\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 47\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/GrimReaper.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 21\">[Grim Reaper](/Monsters.aspx?ID=250)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 196</row>\n\n**Perception** +41; darkvision, [_see invisibility_](/Spells.aspx?ID=271), status sight, [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +43, [Athletics](/Skills.aspx?ID=3) +38, [Deception](/Skills.aspx?ID=5) +40, [Intimidation](/Skills.aspx?ID=7) +43, [Religion](/Skills.aspx?ID=13) +39, [Society](/Skills.aspx?ID=14) +36, [Stealth](/Skills.aspx?ID=15) +43\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +10\r\n\r\n**Con** +8\r\n\r\n**Int** +5\r\n\r\n**Wis** +7\r\n\r\n**Cha** +8\r\n</row>\r\n\r\n**Death’s Grace** The grim reaper can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the grim reaper still never counts as a living creature.<br /> **Status Sight** The grim reaper automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see.\r\n\r\n**Items**\r\n[Scythe](/Weapons.aspx?ID=39)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 47 \r\n\r\n**Fort** +37 \r\n\r\n**Ref** +41 \r\n\r\n**Will** +38 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 320\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyzed, poison, unconscious\r\n\r\n**Resistances**\r\nall damage 15\n\n**Aura of Misfortune** ([aura](/Traits.aspx?ID=206), [divination](/Traits.aspx?ID=47), [divine](/Traits.aspx?ID=48), [misfortune](/Traits.aspx?ID=110)) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result.<br /> **Negative Healing** The grim reaper can choose whether or not it takes positive damage.<br /> **Lurking Death** <actions string=\"Reaction\" /> ([teleportation](/Traits.aspx?ID=156)); **Trigger** A creature within 100 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait. **Effect** The grim reaper teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the grim reaper disrupts the triggering action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, fly 75 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_keen scythe_ +40 ([Agile](/Traits.aspx?ID=170), [deadly 3d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 4d10+23 slashing plus death strike and energy drain\r\n\r\n**Divine Innate Spells** DC 47, attack +37\r\n- **7th**\r\n[Plane Shift](/Spells.aspx?ID=222)\r\n- **10th**\r\n[Finger of Death](/Spells.aspx?ID=116) (x4)\r\n- **Constant (2nd)**\r\n[See Invisibility](/Spells.aspx?ID=271)\r\n- **Constant (3rd)**\r\n[Haste](/Spells.aspx?ID=147)\r\n- **Constant (6th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Death Strike**  ([Death](/Traits.aspx?ID=40)) A creature critically hit by any of the grim reaper’s attacks or that critically fails against any of its spells must succeed at a DC 47 Fortitude save or die.\r\n\r\n**Energy Drain**   When the grim reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude save or become [doomed 1](/Conditions.aspx?ID=9). If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3).\r\n\r\n**Final Death**   A creature killed by the grim reaper can’t be brought back to life by any means short of divine intervention.\r\n\r\n**Infuse Weapon**  ([Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65)) Any scythe gains the [agile](/Traits.aspx?ID=170) trait, can’t be disarmed, and becomes a _+3 [major striking](/Equipment.aspx?ID=280) [keen](/Equipment.aspx?ID=300) scythe_ while the grim reaper wields it. If the grim reaper Strikes a creature with a weakness to any specific type of damage, the scythe’s damage counts as that type of damage, in addition to slashing.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-104\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Grim Reaper](/Monsters.aspx?ID=3036)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe Grim Reaper is the unflinching personification of death. Silent as the grave and inexorable as time itself, this legendary being hunts down creatures that have evaded death for too long. Sometimes the Grim Reaper comes without warning. Other times it comes to finish the work others could not. The Grim Reaper serves no god, [fiend](/Traits.aspx?ID=600), [aeon](/MonsterFamilies.aspx?ID=357), or otherworldly being. It's both despised and feared by [psychopomps](/MonsterFamilies.aspx?ID=458) and [celestials](/Languages.aspx?ID=16), but few—if any—dare stand in its way. Like some eternal plague, it kills any who try to cure the multiverse of its presence. It stands alone and keeps its own council. The pleas of mortals and immortals alike fall on deaf ears once the Grim Reaper chooses its quarry. Its reasoning is silent and inscrutable to the mortal mind, but no matter its choice, the result is final.\n\n While some legends claim that the Grim Reaper appears to everyone when they die, the truth is more disturbing. Such vigils are the providence of psychopomps, immortals charged with the protection and guidance of mortal souls through the afterlife. The Grim Reaper instead enacts the sinister agenda of [Abaddon](/Planes.aspx?ID=37), where the Apocalypse Riders rule. Indeed, there are many similarities in shape and form between the Grim Reaper and [Charon](/Deities.aspx?ID=135), the Rider of Death, but there are no recorded instance of these entities working together. Instead, the Grim Reaper serves as something of a manifestation of Abaddon itself, and in this regard, is believed to be an incarnation of the mysterious First Rider. When the Grim Reaper visits a world, it does so not as an angel of mercy but a relentless harvester of life. Those who fall to the Grim Reaper were not destined to die as much as they were selected, hunted, and murdered.\n\n Perhaps the most frightening detail surrounding the Grim Reaper's legend is its nature as a singular entity, for some believe that more than one exists in the Great Beyond. There are whispered rumors of a council of at least nine Grim Reapers, stalking reality and culling the living as in service to true entropy. According to the teachings of some death cults, the final goal of the Grim Reaper is to end the cycle of life and death and serve as a silent lord of an empty universe.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 52\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 50\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 47\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Grim_Reaper.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 21\">[Grim Reaper](/Monsters.aspx?ID=3036)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=723\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 184\n\n**Perception** +41; [darkvision](/MonsterAbilities.aspx?ID=59), see the unseen, status sight, [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +43, [Athletics](/Skills.aspx?ID=3) +38, [Deception](/Skills.aspx?ID=5) +40, [Intimidation](/Skills.aspx?ID=7) +43, [Religion](/Skills.aspx?ID=13) +39, [Society](/Skills.aspx?ID=14) +36, [Stealth](/Skills.aspx?ID=15) +43\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +10\r\n\r\n**Con** +8\r\n\r\n**Int** +5\r\n\r\n**Wis** +7\r\n\r\n**Cha** +8\r\n</row>\r\n\r\n**Status Sight** The Grim Reaper automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see.\r\n\r\n**Items**\r\n[Scythe](/Weapons.aspx?ID=39)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 47 \r\n\r\n**Fort** +37 \r\n\r\n**Ref** +41 \r\n\r\n**Will** +38 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 320\r\n(death's grace, [void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\r\n\r\n**Resistances**\r\nall damage 15\n\n**Aura of Misfortune** ([aura](/Traits.aspx?ID=542), [divine](/Traits.aspx?ID=579), [misfortune](/Traits.aspx?ID=654)) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result.<br />**Death's Grace** The Grim Reaper can choose whether or not it counts as [undead](/Traits.aspx?ID=722) for effects that affect undead differently. Even if it does not count as undead, the Grim Reaper still never counts as a living creature.<br />**Void Healing** The Grim Reaper can choose whether or not it takes vitality damage.<br />**Lurking Death** <actions string=\"Reaction\" /> ([divine](/Traits.aspx?ID=579), [teleportation](/Traits.aspx?ID=710)) **Trigger** A creature within 100 feet makes a ranged attack or uses an action that has the [concentrate](/Traits.aspx?ID=561), [manipulate](/Traits.aspx?ID=645), or [move](/Traits.aspx?ID=658) trait; **Effect** The Grim Reaper teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the Grim Reaper disrupts the triggering action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, fly 75 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nkeen scythe +40 ([Agile](/Traits.aspx?ID=170), [deadly 3d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 4d10+23 slashing plus death strike and energy drain\r\n\r\n**Divine Innate Spells** DC 47, attack +37\r\n- **2nd**\r\n[See the Unseen](/Spells.aspx?ID=1663)\r\n- **3rd**\r\n[Haste](/Spells.aspx?ID=147)\r\n- **7th**\r\n[Interplanar Teleport](/Spells.aspx?ID=1576)\r\n- **10th**\r\n[Execute](/Spells.aspx?ID=1519) (×4)\r\n- **Constant (6th)**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n\r\n**Death Strike**  ([Death](/Traits.aspx?ID=40)) A creature critically hit by any of the Grim Reaper's attacks or that critically fails against any of its spells must succeed at a DC 47 Fortitude save or die.\r\n\r\n**Energy Drain**   When the Grim Reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude save or become [doomed 1](/Conditions.aspx?ID=67). If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3).\r\n\r\n**Final Death**   A creature killed by the Grim Reaper can't be brought back to life by any means short of divine intervention.\r\n\r\n**Infuse Weapon**  ([Divine](/Traits.aspx?ID=48)) Any scythe gains the [agile](/Traits.aspx?ID=526) trait, can't be disarmed, and becomes a _+3 [major striking](/Equipment.aspx?ID=2829) [keen](/Equipment.aspx?ID=2843) scythe_ while the Grim Reaper wields it. If the Grim Reaper Strikes a creature with a weakness to any specific type of damage, the scythe's damage counts as that type of damage, in addition to slashing.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-104\" />",
  "name": "Grim Reaper",
  "npc": false,
  "perception": 41,
+ "perception_scale": "Extreme",
+ "perception_scale_number": 5,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 184",
+ "primary_source_category": "Rulebooks",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 41,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Extreme",
+ "reflex_save_scale_number": 5,
+ "release_date": "2024-03-27",
  "resistance": {
   "acid": 15,
   "all": 15,
@@ -64,6 +98,7 @@
   "fire": 15,
   "force": 15,
   "good": 15,
+  "holy": 15,
   "lawful": 15,
   "mental": 15,
   "negative": 15,
@@ -76,34 +111,50 @@
   "silver": 15,
   "slashing": 15,
   "sonic": 15,
-  "splash": 15
+  "spirit": 15,
+  "splash": 15,
+  "unholy": 15
  },
  "resistance_markdown": "all damage 15",
  "resistance_raw": "all damage 15",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 196</row>\r\n\r\n**Creature Family** [Grim Reaper](/MonsterFamilies.aspx?ID=104)\r\n\r\n<row gap=\"medium\">\r\n**HP** 320 ( negative healing )\r\n\r\n**AC** 47\r\n\r\n**Fort** +37\r\n\r\n**Ref** +41\r\n\r\n**Will** +38\r\n\r\n**Perception** +41\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe Grim Reaper is the unflinching personification of death. Silent as the grave and as inevitable as time itself, this legendary being hunts down …\r\n</summary>",
- "sense": "darkvision,   see invisibility  , status sight,   true seeing  ",
- "sense_markdown": "darkvision, [_see invisibility_](/Spells.aspx?ID=271), status sight, [_true seeing_](/Spells.aspx?ID=344)",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=723\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 184\r\n\r\n**Creature Family** [Grim Reaper](/MonsterFamilies.aspx?ID=104)\r\n\r\n<row gap=\"medium\">\r\n**HP** 320 (death's grace,  void healing )\r\n\r\n**AC** 47\r\n\r\n**Fort** +37\r\n\r\n**Ref** +41\r\n\r\n**Will** +38\r\n\r\n**Perception** +41\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe Grim Reaper is the unflinching personification of death. Silent as the grave and inexorable as time itself, this legendary being hunts down …\r\n</summary>",
+ "sense": " darkvision , see the unseen, status sight,   truesight  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), see the unseen, status sight, [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +43",
-  "Athletics +38",
-  "Deception +40",
-  "Intimidation +43",
-  "Religion +39",
-  "Society +36",
-  "Stealth +43"
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Religion",
+  "Society",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +43, [Athletics](/Skills.aspx?ID=3) +38, [Deception](/Skills.aspx?ID=5) +40, [Intimidation](/Skills.aspx?ID=7) +43, [Religion](/Skills.aspx?ID=13) +39, [Society](/Skills.aspx?ID=14) +36, [Stealth](/Skills.aspx?ID=15) +43",
+ "skill_mod": {
+  "acrobatics": 43,
+  "athletics": 38,
+  "deception": 40,
+  "intimidation": 43,
+  "religion": 39,
+  "society": 36,
+  "stealth": 43
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 196"
+  "Monster Core pg. 184"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 196</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 184",
  "speed": {
   "fly": 75,
   "land": 50,
@@ -112,35 +163,73 @@
  "speed_markdown": "50 feet, fly 75 feet",
  "speed_raw": "50 feet, fly 75 feet",
  "spell": [
-  "Finger of Death",
-  "Plane Shift",
-  "True Seeing",
+  "Execute",
+  "Interplanar Teleport",
+  "Truesight",
   "Haste",
-  "See Invisibility"
+  "See the Unseen"
  ],
- "spell_markdown": "[Finger of Death](/Spells.aspx?ID=116), [Haste](/Spells.aspx?ID=147), [Plane Shift](/Spells.aspx?ID=222), [See Invisibility](/Spells.aspx?ID=271), [True Seeing](/Spells.aspx?ID=344)",
+ "spell_markdown": "[Execute](/Spells.aspx?ID=1519), [Haste](/Spells.aspx?ID=147), [Interplanar Teleport](/Spells.aspx?ID=1576), [See the Unseen](/Spells.aspx?ID=1663), [Truesight](/Spells.aspx?ID=1727)",
+ "spell_attack_bonus": [
+  37
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  47
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "43",
+ "strike_damage_average": [
+  45
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 8,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "The Grim Reaper is the unflinching personification of death. Silent as the grave and as inevitable as time itself, this legendary being hunts down …",
- "summary_markdown": "The Grim Reaper is the unflinching personification of death. Silent as the grave and as inevitable as time itself, this legendary being hunts down …",
- "text": " Grim Reaper The Grim Reaper is the unflinching personification of death. Silent as the grave and as inevitable as time itself, this legendary being hunts down and finishes creatures that have evaded death for far too long. Sometimes the Grim Reaper comes without warning, while at others it comes to finish the work that other creatures could not. The Grim Reaper serves no god, fiend, or aeon. It is both despised and feared by psychopomps and celestials, but few—if any—dare to stand in its way. Like some eternal plague, it kills those who try to cure the multiverse of its presence. It stands alone and holds only its own council, and the pleading and reasoning of mortals and immortals alike fall on deaf ears once the Grim Reaper closes on its quarry. Its own reasoning is silent to mortal ears and inscrutable to the mortal mind, but no matter the reason, the result is unyielding and final. While some legends hold that the Grim Reaper appears before everyone as they die, the truth is quite a bit more disturbing. Such vigils in fact lie within the providence of the psychopomps, a race of immortals charged with the protection and guidance of mortal souls through the afterlife. The Grim Reaper has little interest in protecting souls or guiding them. It is instead compelled by sinister agendas arising within the nighted realm of Abaddon, where the Horsemen of the Apocalypse rule. Indeed there are many similarities in shape and form between the Grim Reaper and Charon, the Horseman of Death, but no recorded instance exists of these two powerful entities working together. Instead, the Grim Reaper serves as something of a manifestation of Abaddon itself, and in this regard is believed by some to be an incarnation of the mysterious First Horseman. When the Grim Reaper comes to a world, it does so not as an angel of mercy, but as a relentless harvester of life. Those who fall to the Grim Reaper were not destined to die as much as they were selected, hunted, and murdered. Perhaps the most frightening legends surrounding the Grim Reaper concern its nature as a singular entity, for some believe that more than one grim reaper exists in the Great Beyond. These whispers tell of a cabal of at least nine of these creatures that stalk reality, culling the living as inexplicable servants of true entropy. According to the teaching of some death cults, the final goal of the Grim Reaper is to end the entire cycle of life and death and serve as a silent lord of an empty universe. Recall Knowledge - Undead (Religion): DC 52 Unspecific Lore : DC 50 Specific Lore : DC 47 Grim Reaper Source Bestiary pg. 196 Perception +41; darkvision, see invisibility , status sight, true seeing Languages Common, Necril Skills Acrobatics +43, Athletics +38, Deception +40, Intimidation +43, Religion +39, Society +36, Stealth +43 Str +8 Dex +10 Con +8 Int +5 Wis +7 Cha +8 Death’s Grace The grim reaper can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the grim reaper still never counts as a living creature. Status Sight The grim reaper automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see. Items Scythe --- AC 47 Fort +37 Ref +41 Will +38 +1 status to all saves vs. magic HP 320 (negative healing) Immunities death effects, disease, paralyzed, poison, unconscious Resistances all damage 15 Aura of Misfortune (aura, divination, divine, misfortune) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result. Negative Healing The grim reaper can choose whether or not it takes positive damage. Lurking Death Reaction (teleportation); Trigger A creature within 100 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait. Effect The grim reaper teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the grim reaper disrupts the triggering action. --- Speed 50 feet, fly 75 feet Melee Single Action keen scythe +40 (Agile, deadly 3d10, Magical, reach 10 feet, Trip), Damage 4d10+23 slashing plus death strike and energy drain Divine Innate Spells DC 47, attack +37 - 7th Plane Shift - 10th Finger of Death (x4) - Constant (2nd) See Invisibility - Constant (3rd) Haste - Constant (6th) True Seeing Death Strike (Death) A creature critically hit by any of the grim reaper’s attacks or that critically fails against any of its spells must succeed at a DC 47 Fortitude save or die. Energy Drain When the grim reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude save or become doomed 1. If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3). Final Death A creature killed by the grim reaper can’t be brought back to life by any means short of divine intervention. Infuse Weapon (Divine, Evocation) Any scythe gains the agile trait, can’t be disarmed, and becomes a +3 major striking keen scythe while the grim reaper wields it. If the grim reaper Strikes a creature with a weakness to any specific type of damage, the scythe’s damage counts as that type of damage, in addition to slashing. ",
+ "summary": "The Grim Reaper is the unflinching personification of death. Silent as the grave and inexorable as time itself, this legendary being hunts down …",
+ "summary_markdown": "The Grim Reaper is the unflinching personification of death. Silent as the grave and inexorable as time itself, this legendary being hunts down …",
+ "text": " Grim Reaper The Grim Reaper is the unflinching personification of death. Silent as the grave and inexorable as time itself, this legendary being hunts down creatures that have evaded death for too long. Sometimes the Grim Reaper comes without warning. Other times it comes to finish the work others could not. The Grim Reaper serves no god, fiend, aeon, or otherworldly being. It's both despised and feared by psychopomps and celestials, but few—if any—dare stand in its way. Like some eternal plague, it kills any who try to cure the multiverse of its presence. It stands alone and keeps its own council. The pleas of mortals and immortals alike fall on deaf ears once the Grim Reaper chooses its quarry. Its reasoning is silent and inscrutable to the mortal mind, but no matter its choice, the result is final. While some legends claim that the Grim Reaper appears to everyone when they die, the truth is more disturbing. Such vigils are the providence of psychopomps, immortals charged with the protection and guidance of mortal souls through the afterlife. The Grim Reaper instead enacts the sinister agenda of Abaddon, where the Apocalypse Riders rule. Indeed, there are many similarities in shape and form between the Grim Reaper and Charon, the Rider of Death, but there are no recorded instance of these entities working together. Instead, the Grim Reaper serves as something of a manifestation of Abaddon itself, and in this regard, is believed to be an incarnation of the mysterious First Rider. When the Grim Reaper visits a world, it does so not as an angel of mercy but a relentless harvester of life. Those who fall to the Grim Reaper were not destined to die as much as they were selected, hunted, and murdered. Perhaps the most frightening detail surrounding the Grim Reaper's legend is its nature as a singular entity, for some believe that more than one exists in the Great Beyond. There are whispered rumors of a council of at least nine Grim Reapers, stalking reality and culling the living as in service to true entropy. According to the teachings of some death cults, the final goal of the Grim Reaper is to end the cycle of life and death and serve as a silent lord of an empty universe. Recall Knowledge - Undead (Religion): DC 52 Unspecific Lore : DC 50 Specific Lore : DC 47 Grim Reaper Source Monster Core pg. 184 Perception +41; darkvision, see the unseen, status sight, truesight Languages Common, Necril Skills Acrobatics +43, Athletics +38, Deception +40, Intimidation +43, Religion +39, Society +36, Stealth +43 Str +8 Dex +10 Con +8 Int +5 Wis +7 Cha +8 Status Sight The Grim Reaper automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see. Items Scythe --- AC 47 Fort +37 Ref +41 Will +38 +1 status to all saves vs. magic HP 320 (death's grace, void healing) Immunities bleed, death effects, disease, paralyzed, poison, unconscious Resistances all damage 15 Aura of Misfortune (aura, divine, misfortune) 20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result. Death's Grace The Grim Reaper can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the Grim Reaper still never counts as a living creature. Void Healing The Grim Reaper can choose whether or not it takes vitality damage. Lurking Death Reaction (divine, teleportation) Trigger A creature within 100 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait; Effect The Grim Reaper teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the Grim Reaper disrupts the triggering action. --- Speed 50 feet, fly 75 feet Melee Single Action keen scythe +40 (Agile, deadly 3d10, Magical, reach 10 feet, Trip), Damage 4d10+23 slashing plus death strike and energy drain Divine Innate Spells DC 47, attack +37 - 2nd See the Unseen - 3rd Haste - 7th Interplanar Teleport - 10th Execute (×4) - Constant (6th) Truesight Death Strike (Death) A creature critically hit by any of the Grim Reaper's attacks or that critically fails against any of its spells must succeed at a DC 47 Fortitude save or die. Energy Drain When the Grim Reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude save or become doomed 1. If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3). Final Death A creature killed by the Grim Reaper can't be brought back to life by any means short of divine intervention. Infuse Weapon (Divine) Any scythe gains the agile trait, can't be disarmed, and becomes a +3 major striking keen scythe while the Grim Reaper wields it. If the Grim Reaper Strikes a creature with a weakness to any specific type of damage, the scythe's damage counts as that type of damage, in addition to slashing. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Undead",
+  "Unholy",
   "Unique",
-  "NE",
   "Medium"
  ],
- "trait_markdown": "[Undead](/Traits.aspx?ID=160), [Unique](/Traits.aspx?ID=161)",
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521), [Unique](/Traits.aspx?ID=723)",
  "trait_raw": [
   "Undead",
+  "Unholy",
   "Unique"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=250",
+ "url": "/Monsters.aspx?ID=3036",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -148,5 +237,9 @@
  ],
  "weakness": {},
  "will_save": 38,
- "wisdom": 7
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 7,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

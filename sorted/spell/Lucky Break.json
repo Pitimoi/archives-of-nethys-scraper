@@ -1,62 +1,70 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Luck"
  ],
- "domain_markdown": "[Luck](/Domains.aspx?ID=18)",
+ "domain_markdown": "[Luck](/Domains.aspx?ID=81)",
  "exclude_from_search": false,
+ "heighten_group": [
+  "4th rank"
+ ],
  "heighten_level": [
   4
  ],
- "id": "spell-430",
+ "id": "spell-1815",
+ "legacy_id": "spell-430",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Lucky Break](/Spells.aspx?ID=430)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 393 <sup>4.0</sup></row>\n\n**Domain**\r\n[Luck](/Domains.aspx?ID=18)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n**Trigger** You fail (but don't critically fail) a saving throw.\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nReroll the saving throw and use the better result. You then become temporarily immune for 10 minutes.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Lucky Break](/Spells.aspx?ID=1815)\r\n<actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 376\n\n**Domain**\r\n[Luck](/Domains.aspx?ID=81)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** You fail, but don’t critically fail, a saving throw\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nReroll the saving throw and use the better result. You then become temporarily immune for 10 minutes.",
  "name": "Lucky Break",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 376",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 393 <sup>4.0</sup></row>\n\n**Domain**\r\n[Luck](/Domains.aspx?ID=18)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n**Trigger** You fail (but don't critically fail) a saving throw.\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nReroll a failed saving throw and use the better result.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 376\n\n**Domain**\r\n[Luck](/Domains.aspx?ID=81)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** You fail, but don’t critically fail, a saving throw\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nReroll the saving throw and use the better result.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 393"
+  "Player Core pg. 376"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 393 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 376",
  "speed": {},
- "summary": "Reroll a failed saving throw and use the better result.",
- "summary_markdown": "Reroll a failed saving throw and use the better result.",
- "text": " Lucky Break Source Core Rulebook pg. 393 4.0 Domain Luck Cast Reaction verbal Trigger You fail (but don't critically fail) a saving throw. --- Reroll the saving throw and use the better result. You then become temporarily immune for 10 minutes.",
+ "spell_type": "Focus",
+ "summary": "Reroll the saving throw and use the better result.",
+ "summary_markdown": "Reroll the saving throw and use the better result.",
+ "text": "\nLucky Break Reaction Source Player Core pg. 376 Domain Luck Trigger You fail, but don’t critically fail, a saving throw --- Reroll the saving throw and use the better result. You then become temporarily immune for 10 minutes.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Divination",
-  "Fortune",
+  "Concentrate",
+  "Focus",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Divination](/Traits.aspx?ID=47), [Fortune](/Traits.aspx?ID=76), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
-  "Divination",
-  "Fortune",
+  "Concentrate",
+  "Focus",
   "Uncommon"
  ],
- "trigger": "You fail (but don't critically fail) a saving throw.",
- "trigger_markdown": "You fail (but don't critically fail) a saving throw.",
- "type": "Focus",
- "url": "/Spells.aspx?ID=430",
+ "trigger": "You fail, but don’t critically fail, a saving throw",
+ "trigger_markdown": "You fail, but don’t critically fail, a saving throw",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1815",
  "weakness": {}
 }

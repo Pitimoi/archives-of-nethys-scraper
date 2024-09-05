@@ -1,85 +1,95 @@
 {
  "actions": "Two Actions",
- "area": "5-foot burst",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  5
  ],
+ "area_raw": "5-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "deity": [
   "Bes",
   "Desna",
   "Kitumu",
-  "Lady Jingxi",
   "Luhar",
   "The Prismatic Ray"
  ],
- "deity_markdown": "[Bes](/Deities.aspx?ID=51), [Desna](/Deities.aspx?ID=5), [Kitumu](/Deities.aspx?ID=229), [Lady Jingxi](/Deities.aspx?ID=178), [Luhar](/Deities.aspx?ID=216), [The Prismatic Ray](/Deities.aspx?ID=207)",
+ "deity_markdown": "[Bes](/Deities.aspx?ID=51), [Desna](/Deities.aspx?ID=281), [Kitumu](/Deities.aspx?ID=229), [Luhar](/Deities.aspx?ID=216), [The Prismatic Ray](/Deities.aspx?ID=207)",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "4th"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 4th rank"
+ ],
  "heighten_level": [
   1,
   4
  ],
- "id": "spell-288",
+ "id": "spell-1675",
+ "legacy_id": "spell-288",
  "level": 1,
  "lesson": [
   "Lesson of Dreams"
  ],
- "lesson_markdown": "[Lesson of Dreams](/Lessons.aspx?ID=1)",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Sleep](/Spells.aspx?ID=288)</title>\n\n<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sleep\" url=\"/Traits.aspx?ID=145\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 370 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Bes](/Deities.aspx?ID=51), [Desna](/Deities.aspx?ID=5), [Kitumu](/Deities.aspx?ID=229), [Lady Jingxi](/Deities.aspx?ID=178), [Luhar](/Deities.aspx?ID=216), [The Prismatic Ray](/Deities.aspx?ID=207)\n\n**Lesson**\r\n[Lesson of Dreams](/Lessons.aspx?ID=1)\n\n**Patron Theme**\r\n[Night](/Patrons.aspx?ID=5)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 5-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nEach creature in the area becomes drowsy and might fall asleep. A creature that falls unconscious from this spell doesn't fall prone or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature takes a –1 status penalty to Perception checks for 1 round.<br />\r\n**Failure** The creature falls unconscious. If it's still unconscious after 1 minute, it wakes up automatically.<br />\r\n**Critical Failure** The creature falls unconscious. If it's still unconscious after 1 hour, it wakes up automatically.\n\n---\r\n**Heightened (4th)** The creatures fall unconscious for 1 round on a failure or 1 minute on a critical failure. They fall prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.",
- "mystery_markdown": "",
+ "lesson_markdown": "[Lesson of Dreams](/Lessons.aspx?ID=16)",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Sleep](/Spells.aspx?ID=1675)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sleep\" url=\"/Traits.aspx?ID=145\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 357\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Bes](/Deities.aspx?ID=51), [Desna](/Deities.aspx?ID=281), [Kitumu](/Deities.aspx?ID=229), [Luhar](/Deities.aspx?ID=216), [The Prismatic Ray](/Deities.aspx?ID=207)\n\n**Lesson**\r\n[Lesson of Dreams](/Lessons.aspx?ID=16)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 5-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nEach creature in the area becomes drowsy, possibly nodding off. A creature that falls [unconscious](/Conditions.aspx?ID=38) from this spell doesn't fall [prone](/Conditions.aspx?ID=31) or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature takes a –1 status penalty to Perception checks for 1 round.<br />\r\n**Failure** The creature falls unconscious. If it's still unconscious after 1 minute, it wakes up automatically.<br />\r\n**Critical Failure** The creature falls unconscious. If it's still unconscious after 1 hour, it wakes up automatically.\n\n---\r\n**Heightened (4th)** The creatures fall unconscious for 1 round on a failure or 1 minute on a critical failure. They fall [prone](/Conditions.aspx?ID=31) and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.",
  "name": "Sleep",
- "patron_theme": [
-  "Night"
- ],
- "patron_theme_markdown": "[Night](/Patrons.aspx?ID=5)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 357",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sleep\" url=\"/Traits.aspx?ID=145\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 370 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Bes](/Deities.aspx?ID=51), [Desna](/Deities.aspx?ID=5), [Kitumu](/Deities.aspx?ID=229), [Lady Jingxi](/Deities.aspx?ID=178), [Luhar](/Deities.aspx?ID=216), [The Prismatic Ray](/Deities.aspx?ID=207)\n\n**Lesson**\r\n[Lesson of Dreams](/Lessons.aspx?ID=1)\n\n**Patron Theme**\r\n[Night](/Patrons.aspx?ID=5)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 5-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCause creatures in a small area to fall asleep.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Sleep\" url=\"/Traits.aspx?ID=145\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 357\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Bes](/Deities.aspx?ID=51), [Desna](/Deities.aspx?ID=281), [Kitumu](/Deities.aspx?ID=229), [Luhar](/Deities.aspx?ID=216), [The Prismatic Ray](/Deities.aspx?ID=207)\n\n**Lesson**\r\n[Lesson of Dreams](/Lessons.aspx?ID=16)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 5-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPut creatures in a small area to sleep.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 370"
+  "Player Core pg. 357"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 370 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 357",
  "speed": {},
- "summary": "Cause creatures in a small area to fall asleep.",
- "summary_markdown": "Cause creatures in a small area to fall asleep.",
- "text": " Sleep Source Core Rulebook pg. 370 4.0 Traditions Arcane, Occult Deities Bes, Desna, Kitumu, Lady Jingxi, Luhar, The Prismatic Ray Lesson Lesson of Dreams Patron Theme Night Cast Two Actions somatic, verbal Range 30 feet Area 5-foot burst Saving Throw Will --- Each creature in the area becomes drowsy and might fall asleep. A creature that falls unconscious from this spell doesn't fall prone or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat. Critical Success The creature is unaffected. Success The creature takes a –1 status penalty to Perception checks for 1 round. Failure The creature falls unconscious. If it's still unconscious after 1 minute, it wakes up automatically. Critical Failure The creature falls unconscious. If it's still unconscious after 1 hour, it wakes up automatically. --- Heightened (4th) The creatures fall unconscious for 1 round on a failure or 1 minute on a critical failure. They fall prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.",
+ "spell_type": "Spell",
+ "summary": "Put creatures in a small area to sleep.",
+ "summary_markdown": "Put creatures in a small area to sleep.",
+ "text": "\nSleep Two Actions Source Player Core pg. 357 Traditions Arcane, Occult Deities Bes, Desna, Kitumu, Luhar, The Prismatic Ray Lesson Lesson of Dreams Range 30 feet Area 5-foot burst Defense Will --- Each creature in the area becomes drowsy, possibly nodding off. A creature that falls unconscious from this spell doesn't fall prone or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat. Critical Success The creature is unaffected. Success The creature takes a –1 status penalty to Perception checks for 1 round. Failure The creature falls unconscious. If it's still unconscious after 1 minute, it wakes up automatically. Critical Failure The creature falls unconscious. If it's still unconscious after 1 hour, it wakes up automatically. --- Heightened (4th) The creatures fall unconscious for 1 round on a failure or 1 minute on a critical failure. They fall prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Enchantment",
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental",
   "Sleep"
  ],
- "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Sleep](/Traits.aspx?ID=145)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Sleep](/Traits.aspx?ID=145)",
  "trait_raw": [
-  "Enchantment",
+  "Concentrate",
   "Incapacitation",
+  "Manipulate",
   "Mental",
   "Sleep"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=288",
+ "url": "/Spells.aspx?ID=1675",
  "weakness": {}
 }

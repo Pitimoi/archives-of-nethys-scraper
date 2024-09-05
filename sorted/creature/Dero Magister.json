@@ -1,66 +1,109 @@
 {
  "ac": 22,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  10
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 5,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Vulnerable to Sunlight",
-  "Cytillesh Stare"
+  "Cytillesh Stare",
+  "Dero Medicine"
  ],
  "creature_family": "Dero",
- "creature_family_markdown": "[Dero](/MonsterFamilies.aspx?ID=29)",
+ "creature_family_markdown": "[Dero](/MonsterFamilies.aspx?ID=388)",
  "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 10,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 65,
  "hp_raw": "65",
- "id": "creature-107",
- "image": [
-  "/Images/Monsters/Dero_DeroMagister.png"
- ],
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2904",
  "immunity": [
-  "confusion"
+  "confused"
  ],
- "immunity_markdown": "[confusion](/Conditions.aspx?ID=5)",
+ "immunity_markdown": "[confused](/Conditions.aspx?ID=63)",
  "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "cytillesh toolkit (see sidebar)",
+  "Staff"
+ ],
  "language": [
   "Aklo",
-  "Undercommon"
+  "Sakvroth"
  ],
- "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Undercommon](/Languages.aspx?ID=11)",
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-107",
  "level": 5,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Dero Magister](/Monsters.aspx?ID=107)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their victims.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dero_DeroMagister.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Dero Magister](/Monsters.aspx?ID=107)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Dero\" url=\"/Traits.aspx?ID=214\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 85</row>\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Crafting](/Skills.aspx?ID=4) +12, [Medicine](/Skills.aspx?ID=9) +8, [Occultism](/Skills.aspx?ID=11) +12, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +3\r\n\r\n**Wis** -1\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n[Aklys](/Weapons.aspx?ID=85)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 65\n\n**Immunities**\r\n[confusion](/Conditions.aspx?ID=5)\n\n**Weaknesses**\r\nvulnerable to sunlight\r\n\r\n**Vulnerable to Sunlight** A dero magister takes 10 damage for every hour they're exposed to sunlight.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\naklys +10 ([Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d6+3 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\naklys +13 ([Ranged Trip](/Traits.aspx?ID=251), [Tethered](/Traits.aspx?ID=252), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 bludgeoning\r\n\r\n**Occult Innate Spells** DC 24\r\n- **Cantrips (1st)**\r\n[Daze](/Spells.aspx?ID=61), [Ghost Sound](/Spells.aspx?ID=132)\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59) (at will), [Sound Burst](/Spells.aspx?ID=292)\r\n- **4th**\r\n[Modify Memory](/Spells.aspx?ID=200)\r\n\r\n**Occult Spontaneous Spells** DC 24\r\n- **Cantrips (3rd)**\r\n[Chill Touch](/Spells.aspx?ID=35), [Dancing Lights](/Spells.aspx?ID=58), [Detect Magic](/Spells.aspx?ID=66), [Forbidding Ward](/Spells.aspx?ID=126), [Message](/Spells.aspx?ID=190)\r\n- **1st**\r\n[Grim Tendrils](/Spells.aspx?ID=141), [Magic Missile](/Spells.aspx?ID=180), [Phantom Pain](/Spells.aspx?ID=220), [Soothe](/Spells.aspx?ID=291) (4 slots)\r\n- **2nd**\r\n[Hideous Laughter](/Spells.aspx?ID=150), [Paranoia](/Spells.aspx?ID=214), [Spectral Hand](/Spells.aspx?ID=295), [Touch of Idiocy](/Spells.aspx?ID=341) (4 slots)\r\n- **3rd**\r\n[Blindness](/Spells.aspx?ID=26), [Vampiric Touch](/Spells.aspx?ID=354) (3 slots)\r\n\r\n**Cytillesh Stare** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) **Frequency** once per round; **Effect** The magister focuses their gaze on a creature they can see within 30 feet. The target is [dazzled](/Conditions.aspx?ID=7) for 1 round and must succeed at a DC 24 Will saving throw or be [confused](/Conditions.aspx?ID=5) for 1 round.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-29\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Dero Magister](/Monsters.aspx?ID=2904)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their victims.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Dero Magister](/Monsters.aspx?ID=2904)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Dero\" url=\"/Traits.aspx?ID=749\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 85\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Crafting](/Skills.aspx?ID=4) +12, [Medicine](/Skills.aspx?ID=9) +10, [Occultism](/Skills.aspx?ID=11) +12, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +3\r\n\r\n**Wis** -1\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n[cytillesh toolkit](/Equipment.aspx?ID=59) (see sidebar), [Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\n\n</row>\r\n\r\n**Immunities**\r\n[confused](/Conditions.aspx?ID=63)\n\n**Vulnerable to Sunlight** A dero magister takes 10 damage for every hour they're exposed to sunlight.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +10 ([two-hand 1d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4+3 bludgeoning\r\n\r\n**Occult Innate Spells** DC 24\r\n- **Cantrips (3rd)**\r\n[Daze](/Spells.aspx?ID=61), [Light](/Spells.aspx?ID=171), [Read Aura](/Spells.aspx?ID=246)\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59), [Revealing Light](/Spells.aspx?ID=1653)\r\n- **4th**\r\n[Nightmare](/Spells.aspx?ID=208), [Rewrite Memory](/Spells.aspx?ID=1655)\r\n\r\n**Occult Spontaneous Spells** DC 24\r\n- **Cantrips (3rd)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Forbidding Ward](/Spells.aspx?ID=126), [Light](/Spells.aspx?ID=171), [Message](/Spells.aspx?ID=190), [Void Warp](/Spells.aspx?ID=1745)\r\n- **1st**\r\n[Force Barrage](/Spells.aspx?ID=1536), [Grim Tendrils](/Spells.aspx?ID=141), [Phantom Pain](/Spells.aspx?ID=220), [Soothe](/Spells.aspx?ID=291) (4 slots)\r\n- **2nd**\r\n[Laughing Fit](/Spells.aspx?ID=1583), [Paranoia](/Spells.aspx?ID=214), [Stupefy](/Spells.aspx?ID=1691), [Telekinetic Maneuver](/Spells.aspx?ID=333) (4 slots)\r\n- **3rd**\r\n[Blindness](/Spells.aspx?ID=26), [Levitate](/Spells.aspx?ID=170), [Vampiric Feast](/Spells.aspx?ID=1736) (3 slots)\r\n\r\n**Cytillesh Stare** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) **Frequency** once per round; **Effect** The magister focuses their gaze on a creature they can see within 30 feet. The target is [dazzled](/Conditions.aspx?ID=65) for 1 round and must succeed at a DC 24 Will saving throw or be [confused](/Conditions.aspx?ID=63) for 1 round.\r\n\r\n**Dero Medicine** <actions string=\"Single Action\" /> ([Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104)) **Requirements** The dero is wearing a cytillesh toolkit and has a hand free; **Effect** The dero excises damaged flesh and crudely stitches wounds shut, healing themself or an ally in reach for 2d8+10 Hit Points. For 1 hour, the target has slashing weakness 2 and is immune to Dero Medicine.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-388\" />",
  "name": "Dero Magister",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 85",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 13,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dero\" url=\"/Traits.aspx?ID=214\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 85</row>\r\n\r\n**Creature Family** [Dero](/MonsterFamilies.aspx?ID=29)\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 22\r\n\r\n**Fort** +10\r\n\r\n**Ref** +13\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Dero\" url=\"/Traits.aspx?ID=749\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 85\r\n\r\n**Creature Family** [Dero](/MonsterFamilies.aspx?ID=388)\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 22\r\n\r\n**Fort** +10\r\n\r\n**Ref** +13\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Small"
  ],
- "skill": [
-  "Crafting +12",
-  "Medicine +8",
-  "Occultism +12",
-  "Stealth +11"
+ "size_id": [
+  2
  ],
- "skill_markdown": "[Crafting](/Skills.aspx?ID=4) +12, [Medicine](/Skills.aspx?ID=9) +8, [Occultism](/Skills.aspx?ID=11) +12, [Stealth](/Skills.aspx?ID=15) +11",
+ "skill": [
+  "Crafting",
+  "Medicine",
+  "Occultism",
+  "Stealth"
+ ],
+ "skill_markdown": "[Crafting](/Skills.aspx?ID=4) +12, [Medicine](/Skills.aspx?ID=9) +10, [Occultism](/Skills.aspx?ID=11) +12, [Stealth](/Skills.aspx?ID=15) +11",
+ "skill_mod": {
+  "crafting": 12,
+  "medicine": 10,
+  "occultism": 12,
+  "stealth": 11
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 85"
+  "Monster Core pg. 85"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 85</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 85",
  "speed": {
   "land": 20,
   "max": 20
@@ -68,52 +111,83 @@
  "speed_markdown": "20 feet",
  "speed_raw": "20 feet",
  "spell": [
-  "Modify Memory",
+  "Nightmare",
+  "Rewrite Memory",
   "Darkness",
-  "Sound Burst",
+  "Revealing Light",
   "Daze",
-  "Ghost Sound",
+  "Light",
+  "Read Aura",
   "Blindness",
-  "Vampiric Touch",
-  "Hideous Laughter",
+  "Levitate",
+  "Vampiric Feast",
+  "Laughing Fit",
   "Paranoia",
-  "Spectral Hand",
-  "Touch of Idiocy",
+  "Stupefy",
+  "Telekinetic Maneuver",
+  "Force Barrage",
   "Grim Tendrils",
-  "Magic Missile",
   "Phantom Pain",
   "Soothe",
-  "Chill Touch",
-  "Dancing Lights",
   "Detect Magic",
   "Forbidding Ward",
-  "Message"
+  "Message",
+  "Void Warp"
  ],
- "spell_markdown": "[Blindness](/Spells.aspx?ID=26), [Chill Touch](/Spells.aspx?ID=35), [Dancing Lights](/Spells.aspx?ID=58), [Darkness](/Spells.aspx?ID=59), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Forbidding Ward](/Spells.aspx?ID=126), [Ghost Sound](/Spells.aspx?ID=132), [Grim Tendrils](/Spells.aspx?ID=141), [Hideous Laughter](/Spells.aspx?ID=150), [Magic Missile](/Spells.aspx?ID=180), [Message](/Spells.aspx?ID=190), [Modify Memory](/Spells.aspx?ID=200), [Paranoia](/Spells.aspx?ID=214), [Phantom Pain](/Spells.aspx?ID=220), [Soothe](/Spells.aspx?ID=291), [Sound Burst](/Spells.aspx?ID=292), [Spectral Hand](/Spells.aspx?ID=295), [Touch of Idiocy](/Spells.aspx?ID=341), [Vampiric Touch](/Spells.aspx?ID=354)",
+ "spell_markdown": "[Blindness](/Spells.aspx?ID=26), [Darkness](/Spells.aspx?ID=59), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Forbidding Ward](/Spells.aspx?ID=126), [Force Barrage](/Spells.aspx?ID=1536), [Grim Tendrils](/Spells.aspx?ID=141), [Laughing Fit](/Spells.aspx?ID=1583), [Levitate](/Spells.aspx?ID=170), [Light](/Spells.aspx?ID=171), [Message](/Spells.aspx?ID=190), [Nightmare](/Spells.aspx?ID=208), [Paranoia](/Spells.aspx?ID=214), [Phantom Pain](/Spells.aspx?ID=220), [Read Aura](/Spells.aspx?ID=246), [Revealing Light](/Spells.aspx?ID=1653), [Rewrite Memory](/Spells.aspx?ID=1655), [Soothe](/Spells.aspx?ID=291), [Stupefy](/Spells.aspx?ID=1691), [Telekinetic Maneuver](/Spells.aspx?ID=333), [Vampiric Feast](/Spells.aspx?ID=1736), [Void Warp](/Spells.aspx?ID=1745)",
+ "spell_dc": [
+  24,
+  24
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "11",
+ "strike_damage_average": [
+  5
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "Dero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their …",
  "summary_markdown": "Dero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their …",
- "text": " Dero Magister Dero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their victims. Recall Knowledge - Humanoid (Society): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Dero Magister Source Bestiary pg. 85 Perception +8; darkvision Languages Aklo, Undercommon Skills Crafting +12, Medicine +8, Occultism +12, Stealth +11 Str +1 Dex +4 Con +2 Int +3 Wis -1 Cha +5 Items Aklys --- AC 22 Fort +10 Ref +13 Will +10 HP 65 Immunities confusion Weaknesses vulnerable to sunlight Vulnerable to Sunlight A dero magister takes 10 damage for every hour they're exposed to sunlight. --- Speed 20 feet Melee Single Action aklys +10 (Trip), Damage 1d6+3 bludgeoning Ranged Single Action aklys +13 (Ranged Trip, Tethered, thrown 20 feet), Damage 1d6+3 bludgeoning Occult Innate Spells DC 24 - Cantrips (1st) Daze, Ghost Sound - 2nd Darkness (at will), Sound Burst - 4th Modify Memory Occult Spontaneous Spells DC 24 - Cantrips (3rd) Chill Touch, Dancing Lights, Detect Magic, Forbidding Ward, Message - 1st Grim Tendrils, Magic Missile, Phantom Pain, Soothe (4 slots) - 2nd Hideous Laughter, Paranoia, Spectral Hand, Touch of Idiocy (4 slots) - 3rd Blindness, Vampiric Touch (3 slots) Cytillesh Stare Single Action (Concentrate, Incapacitation, Mental, Visual) Frequency once per round; Effect The magister focuses their gaze on a creature they can see within 30 feet. The target is dazzled for 1 round and must succeed at a DC 24 Will saving throw or be confused for 1 round. ",
+ "text": " Dero Magister Dero magisters are leaders among dero society. They perform the bulk of the cruel operations and memory-altering procedures inflicted upon their victims. Recall Knowledge - Humanoid (Society): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Dero Magister Source Monster Core pg. 85 Perception +8; darkvision Languages Aklo, Sakvroth Skills Crafting +12, Medicine +10, Occultism +12, Stealth +11 Str +1 Dex +4 Con +2 Int +3 Wis -1 Cha +5 Items cytillesh toolkit (see sidebar), Staff --- AC 22 Fort +10 Ref +13 Will +10 HP 65 Immunities confused Vulnerable to Sunlight A dero magister takes 10 damage for every hour they're exposed to sunlight. --- Speed 20 feet Melee Single Action staff +10 (two-hand 1d8), Damage 1d4+3 bludgeoning Occult Innate Spells DC 24 - Cantrips (3rd) Daze, Light, Read Aura - 2nd Darkness, Revealing Light - 4th Nightmare, Rewrite Memory Occult Spontaneous Spells DC 24 - Cantrips (3rd) Detect Magic, Forbidding Ward, Light, Message, Void Warp - 1st Force Barrage, Grim Tendrils, Phantom Pain, Soothe (4 slots) - 2nd Laughing Fit, Paranoia, Stupefy, Telekinetic Maneuver (4 slots) - 3rd Blindness, Levitate, Vampiric Feast (3 slots) Cytillesh Stare Single Action (Concentrate, Incapacitation, Mental, Visual) Frequency once per round; Effect The magister focuses their gaze on a creature they can see within 30 feet. The target is dazzled for 1 round and must succeed at a DC 24 Will saving throw or be confused for 1 round. Dero Medicine Single Action (Healing, Manipulate) Requirements The dero is wearing a cytillesh toolkit and has a hand free; Effect The dero excises damaged flesh and crudely stitches wounds shut, healing themself or an ally in reach for 2d8+10 Hit Points. For 1 hour, the target has slashing weakness 2 and is immune to Dero Medicine. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Dero",
   "Humanoid",
   "Uncommon",
-  "CE",
   "Small"
  ],
- "trait_markdown": "[Dero](/Traits.aspx?ID=214), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Dero](/Traits.aspx?ID=749), [Humanoid](/Traits.aspx?ID=628), [Uncommon](/Traits.aspx?ID=721)",
  "trait_raw": [
   "Dero",
   "Humanoid",
   "Uncommon"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=107",
+ "url": "/Monsters.aspx?ID=2904",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -121,8 +195,10 @@
   "will"
  ],
  "weakness": {},
- "weakness_markdown": "vulnerable to sunlight",
- "weakness_raw": "vulnerable to sunlight",
  "will_save": 10,
- "wisdom": -1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": -1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -9,34 +8,49 @@
  "item_category": "Assistive Items",
  "item_subcategory": "Tails",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Thrasher Tail](/Equipment.aspx?ID=2164)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Clockwork\" url=\"/Traits.aspx?ID=331\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 109 <sup>1.1</sup></row>\n\n**Price** 620 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nKobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides numerous blades and spikes, tensioned and wound around a spring-loaded trigger at the base of the prosthesis. Resetting and reattaching a sprung thrasher tail takes 10 minutes.\n\n<document level=\"2\" id=\"action-1663\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Thrasher Tail](/Equipment.aspx?ID=2164)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Clockwork\" url=\"/Traits.aspx?ID=331\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 109 <sup>1.1</sup>\n\n**Price** 620 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nKobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides numerous blades and spikes, tensioned and wound around a spring-loaded trigger at the base of the prosthesis. Resetting and reattaching a sprung thrasher tail takes 10 minutes.\n\n**Activate** <actions string=\"Reaction\" />  ;   **Trigger** You're [grabbed](/Conditions.aspx?ID=20);  **Effect** Your tail comes off in your opponent's hand, and the mechanism unwinds, causing the blades and spikes to protrude and the tail to spin and thrash. The tail deals 8d6 slashing damage to the opponent who has you grabbed with a DC 25 [basic](/Rules.aspx?ID=329) Reflex save. Regardless of the result of their save, you're no longer grabbed.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Thrasher Tail",
  "pfs": "Standard",
  "price": 62000,
  "price_raw": "620 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 109",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2023-02-22",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Clockwork\" url=\"/Traits.aspx?ID=331\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 109 <sup>1.1</sup></row>\r\n\r\n**Price** 620 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Clockwork\" url=\"/Traits.aspx?ID=331\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 109 <sup>1.1</sup>\r\n\r\n**Price** 620 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 109"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 109 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 109 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Kobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides …",
  "summary_markdown": "Kobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides …",
- "text": "<title level=\"1\" right=\"Item 9\" pfs=\"Standard\" > Thrasher Tail Source Treasure Vault pg. 109 1.1 Price 620 gp Usage worn Bulk 1 --- Kobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides numerous blades and spikes, tensioned and wound around a spring-loaded trigger at the base of the prosthesis. Resetting and reattaching a sprung thrasher tail takes 10 minutes.\n",
+ "text": "<title level=\"1\" right=\"Item 9\" pfs=\"Standard\" > Thrasher Tail Source Treasure Vault pg. 109 1.1 Price 620 gp Usage worn Bulk 1 --- Kobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides numerous blades and spikes, tensioned and wound around a spring-loaded trigger at the base of the prosthesis. Resetting and reattaching a sprung thrasher tail takes 10 minutes. Activate Reaction ; Trigger You're grabbed; Effect Your tail comes off in your opponent's hand, and the mechanism unwinds, causing the blades and spikes to protrude and the tail to spin and thrash. The tail deals 8d6 slashing damage to the opponent who has you grabbed with a DC 25 basic Reflex save. Regardless of the result of their save, you're no longer grabbed.\n",
  "trait": [
   "Clockwork",
   "Kobold",
   "Mechanical",
   "Rare"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon",
+  "Ancestry",
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Clockwork](/Traits.aspx?ID=331), [Kobold](/Traits.aspx?ID=224), [Mechanical](/Traits.aspx?ID=105), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

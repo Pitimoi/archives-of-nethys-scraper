@@ -1,61 +1,106 @@
 {
  "ac": 17,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  9,
+  9
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 2,
- "constitution": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Hydraulic Asphyxiation"
  ],
  "creature_family": "Merfolk",
- "creature_family_markdown": "[Merfolk](/MonsterFamilies.aspx?ID=73)",
+ "creature_family_markdown": "[Merfolk](/MonsterFamilies.aspx?ID=443)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
- "fortitude_save": 7,
+ "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 30,
  "hp_raw": "30",
- "id": "creature-299",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3098",
  "image": [
-  "/Images/Monsters/Merfolk_MerfolkWavecaller.png"
+  "/Images/Monsters/Merfolk_Wavecaller.webp"
  ],
- "intelligence": 0,
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Dagger"
+ ],
  "language": [
-  "Aquan",
-  "Common"
+  "Common",
+  "Thalassic"
  ],
- "language_markdown": "[Aquan](/Languages.aspx?ID=14), [Common](/Languages.aspx?ID=1)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Thalassic](/Languages.aspx?ID=113)",
+ "legacy_id": "creature-299",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Merfolk Wavecaller](/Monsters.aspx?ID=299)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMerfolk wavecallers use their primal power to call forth allies and defend their people with deadly magic.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Merfolk_MerfolkWavecaller.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Merfolk Wavecaller](/Monsters.aspx?ID=299)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Merfolk\" url=\"/Traits.aspx?ID=227\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 235</row>\n\n**Perception** +8; low-light vision\r\n\r\n**Languages**\r\n[Aquan](/Languages.aspx?ID=14), [Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Deception](/Skills.aspx?ID=5) +6, [Nature](/Skills.aspx?ID=10) +8, [Religion](/Skills.aspx?ID=13) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 30\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +9 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +9 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Primal Prepared Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\n[Dancing Lights](/Spells.aspx?ID=58), [Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Ray of Frost](/Spells.aspx?ID=245), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154)\r\n\r\n**Hydraulic Asphyxiation** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65), [Water](/Traits.aspx?ID=165)) **Requirement** The target is fully submerged in water, within 30 feet of the merfolk wavecaller, and holding its breath. **Effect** The merfolk wavecaller commands the tides to crush their foe's throat, rooting the target in place and forcing it to choke up precious air. The target must succeed at a DC 18 Fortitude save or become immobilized for 1 round and immediately lose 1d4 actions' worth of air (or twice that on a critical failure).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-73\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Merfolk Wavecaller](/Monsters.aspx?ID=3098)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMerfolk wavecallers use their primal magic to defend their people. Their ability to asphyxiate airbreathers makes them crucial when surface dwellers invade.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Merfolk_Wavecaller.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Merfolk Wavecaller](/Monsters.aspx?ID=3098)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Merfolk\" url=\"/Traits.aspx?ID=761\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 231\n\n**Perception** +8; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Deception](/Skills.aspx?ID=5) +6, [Nature](/Skills.aspx?ID=10) +8, [Religion](/Skills.aspx?ID=13) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** +0\r\n\r\n**Int** +1\r\n\r\n**Wis** +4\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +9 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +9 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Primal Prepared Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Frostbite](/Spells.aspx?ID=1539), [Light](/Spells.aspx?ID=171), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154)\r\n\r\n**Hydraulic Asphyxiation** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Water](/Traits.aspx?ID=165)) **Requirements** The target is fully submerged in water, within 30 feet of the merfolk wavecaller, and [holding its breath](/Rules.aspx?ID=468); **Effect** The merfolk wavecaller commands the tides to crush their foe's throat, rooting the target in place and forcing it to choke up precious air. The target must succeed at a DC 18 Fortitude save or become [immobilized](/Conditions.aspx?ID=81) for 1 round and immediately lose 1d4 rounds' worth of air (or twice that on a critical failure).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-443\" />",
  "name": "Merfolk Wavecaller",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 231",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 6,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Merfolk\" url=\"/Traits.aspx?ID=227\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 235</row>\r\n\r\n**Creature Family** [Merfolk](/MonsterFamilies.aspx?ID=73)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMerfolk wavecallers use their primal power to call forth allies and defend their people with deadly magic.\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Merfolk\" url=\"/Traits.aspx?ID=761\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 231\r\n\r\n**Creature Family** [Merfolk](/MonsterFamilies.aspx?ID=443)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +6\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMerfolk wavecallers use their primal magic to defend their people. Their ability to asphyxiate airbreathers makes them crucial when surface dwellers …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +7",
-  "Deception +6",
-  "Nature +8",
-  "Religion +8"
+  "Athletics",
+  "Deception",
+  "Nature",
+  "Religion"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +7, [Deception](/Skills.aspx?ID=5) +6, [Nature](/Skills.aspx?ID=10) +8, [Religion](/Skills.aspx?ID=13) +8",
+ "skill_mod": {
+  "athletics": 7,
+  "deception": 6,
+  "nature": 8,
+  "religion": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 235"
+  "Monster Core pg. 231"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 235</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 231",
  "speed": {
   "land": 5,
   "max": 30,
@@ -67,41 +112,85 @@
   "Charm",
   "Heal",
   "Hydraulic Push",
-  "Dancing Lights",
   "Detect Magic",
   "Electric Arc",
-  "Ray of Frost",
+  "Frostbite",
+  "Light",
   "Stabilize"
  ],
- "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Dancing Lights](/Spells.aspx?ID=58), [Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154), [Ray of Frost](/Spells.aspx?ID=245), [Stabilize](/Spells.aspx?ID=307)",
+ "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Frostbite](/Spells.aspx?ID=1539), [Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154), [Light](/Spells.aspx?ID=171), [Stabilize](/Spells.aspx?ID=307)",
+ "spell_attack_bonus": [
+  10
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  5,
+  5
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "will"
  ],
- "summary": "Merfolk wavecallers use their primal power to call forth allies and defend their people with deadly magic.",
- "summary_markdown": "Merfolk wavecallers use their primal power to call forth allies and defend their people with deadly magic.",
- "text": " Merfolk Wavecaller Merfolk wavecallers use their primal power to call forth allies and defend their people with deadly magic. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Merfolk Wavecaller Source Bestiary pg. 235 Perception +8; low-light vision Languages Aquan, Common Skills Athletics +7, Deception +6, Nature +8, Religion +8 Str +3 Dex +2 Con +1 Int +0 Wis +4 Cha +2 Items Dagger --- AC 17 Fort +7 Ref +6 Will +10 HP 30 --- Speed 5 feet, swim 30 feet Melee Single Action dagger +9 (Agile, versatile S), Damage 1d4+3 piercing Ranged Single Action dagger +9 (Agile, thrown 10 feet, versatile S), Damage 1d4+3 piercing Primal Prepared Spells DC 18, attack +10 - Cantrips (1st) Dancing Lights, Detect Magic, Electric Arc, Ray of Frost, Stabilize - 1st Charm, Heal, Hydraulic Push Hydraulic Asphyxiation Single Action (Divine, Evocation, Water) Requirement The target is fully submerged in water, within 30 feet of the merfolk wavecaller, and holding its breath. Effect The merfolk wavecaller commands the tides to crush their foe's throat, rooting the target in place and forcing it to choke up precious air. The target must succeed at a DC 18 Fortitude save or become immobilized for 1 round and immediately lose 1d4 actions' worth of air (or twice that on a critical failure). ",
+ "summary": "Merfolk wavecallers use their primal magic to defend their people. Their ability to asphyxiate airbreathers makes them crucial when surface dwellers …",
+ "summary_markdown": "Merfolk wavecallers use their primal magic to defend their people. Their ability to asphyxiate airbreathers makes them crucial when surface dwellers …",
+ "text": " Merfolk Wavecaller Merfolk wavecallers use their primal magic to defend their people. Their ability to asphyxiate airbreathers makes them crucial when surface dwellers invade. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Merfolk Wavecaller Source Monster Core pg. 231 Perception +8; low-light vision Languages Common, Thalassic Skills Athletics +7, Deception +6, Nature +8, Religion +8 Str +3 Dex +2 Con +0 Int +1 Wis +4 Cha +2 Items Dagger --- AC 17 Fort +6 Ref +6 Will +10 HP 30 --- Speed 5 feet, swim 30 feet Melee Single Action dagger +9 (Agile, versatile S), Damage 1d4+3 piercing Ranged Single Action dagger +9 (Agile, thrown 10 feet, versatile S), Damage 1d4+3 piercing Primal Prepared Spells DC 18, attack +10 - Cantrips (1st) Detect Magic, Electric Arc, Frostbite, Light, Stabilize - 1st Charm, Heal, Hydraulic Push Hydraulic Asphyxiation Single Action (Divine, Water) Requirements The target is fully submerged in water, within 30 feet of the merfolk wavecaller, and holding its breath; Effect The merfolk wavecaller commands the tides to crush their foe's throat, rooting the target in place and forcing it to choke up precious air. The target must succeed at a DC 18 Fortitude save or become immobilized for 1 round and immediately lose 1d4 rounds' worth of air (or twice that on a critical failure). ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Aquatic",
+  "Amphibious",
   "Humanoid",
   "Merfolk",
-  "N",
   "Medium"
  ],
- "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Humanoid](/Traits.aspx?ID=91), [Merfolk](/Traits.aspx?ID=227)",
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Ancestry"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Humanoid](/Traits.aspx?ID=628), [Merfolk](/Traits.aspx?ID=761)",
  "trait_raw": [
-  "Aquatic",
+  "Amphibious",
   "Humanoid",
   "Merfolk"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=299",
+ "url": "/Monsters.aspx?ID=3098",
  "vision": "Low-light vision",
  "weakest_save": [
+  "fort",
+  "fortitude",
   "ref",
   "reflex"
  ],
  "weakness": {},
  "will_save": 10,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

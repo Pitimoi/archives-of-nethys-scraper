@@ -1,19 +1,21 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Fire"
  ],
- "domain_markdown": "[Fire](/Domains.aspx?ID=13)",
+ "domain_markdown": "[Fire](/Domains.aspx?ID=76)",
  "exclude_from_search": false,
  "heighten": [
   "+2"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 6th rank",
+  "Heightened 8th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -21,50 +23,61 @@
   8,
   10
  ],
- "id": "spell-423",
+ "id": "spell-1805",
+ "legacy_id": "spell-423",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Flame Barrier](/Spells.aspx?ID=423)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=13)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n**Trigger** An effect would deal fire damage to either you or an ally within range.\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** the creature that would take fire damage\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou swiftly deflect incoming flames. The target gains fire resistance 15 against the triggering effect.\n\n---\r\n**Heightened (+2)** The resistance increases by 5.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Flame Barrier](/Spells.aspx?ID=1805)\r\n<actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 375\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=76)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** An effect would deal fire damage to you or an ally within range\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** one creature that would take fire damage from the triggering effect\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou swiftly deflect incoming flames. The target gains fire resistance 15 against the triggering effect.\n\n---\r\n**Heightened (+2)** The resistance increases by 5.",
  "name": "Flame Barrier",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 375",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=13)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n**Trigger** An effect would deal fire damage to either you or an ally within range.\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** the creature that would take fire damage\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nProtect yourself or an ally from fire.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 375\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=76)\n\n<row gap=\"medium\">\n\n \r\n\r\n**Trigger** An effect would deal fire damage to you or an ally within range\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** one creature that would take fire damage from the triggering effect\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou swiftly deflect incoming flames.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 392"
+  "Player Core pg. 375"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 375",
  "speed": {},
- "summary": "Protect yourself or an ally from fire.",
- "summary_markdown": "Protect yourself or an ally from fire.",
- "target": "the creature that would take fire damage",
- "target_markdown": "the creature that would take fire damage",
- "text": " Flame Barrier Source Core Rulebook pg. 392 4.0 Domain Fire Cast Reaction verbal Trigger An effect would deal fire damage to either you or an ally within range. Range 60 feet Target the creature that would take fire damage --- You swiftly deflect incoming flames. The target gains fire resistance 15 against the triggering effect. --- Heightened (+2) The resistance increases by 5.",
+ "spell_type": "Focus",
+ "summary": "You swiftly deflect incoming flames.",
+ "summary_markdown": "You swiftly deflect incoming flames.",
+ "target": "one creature that would take fire damage from the triggering effect",
+ "target_markdown": "one creature that would take fire damage from the triggering effect",
+ "text": "\nFlame Barrier Reaction Source Player Core pg. 375 Domain Fire Trigger An effect would deal fire damage to you or an ally within range Range 60 feet Target one creature that would take fire damage from the triggering effect --- You swiftly deflect incoming flames. The target gains fire resistance 15 against the triggering effect. --- Heightened (+2) The resistance increases by 5.",
  "tradition_markdown": "",
  "trait": [
-  "Abjuration",
   "Cleric",
+  "Concentrate",
+  "Focus",
   "Uncommon"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Cleric](/Traits.aspx?ID=26), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
-  "Abjuration",
   "Cleric",
+  "Concentrate",
+  "Focus",
   "Uncommon"
  ],
- "trigger": "An effect would deal fire damage to either you or an ally within range.",
- "trigger_markdown": "An effect would deal fire damage to either you or an ally within range.",
- "type": "Focus",
- "url": "/Spells.aspx?ID=423",
+ "trigger": "An effect would deal fire damage to you or an ally within range",
+ "trigger_markdown": "An effect would deal fire damage to you or an ally within range",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1805",
  "weakness": {}
 }

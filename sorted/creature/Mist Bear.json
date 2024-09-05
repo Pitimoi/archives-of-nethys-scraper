@@ -1,0 +1,148 @@
+{
+ "ac": 24,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Mist Form",
+  "Clouded Charge",
+  "Misty Mauling"
+ ],
+ "creature_family": "Ethereal Wildlife",
+ "creature_family_markdown": "[Ethereal Wildlife](/MonsterFamilies.aspx?ID=492)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 140,
+ "hp_raw": "140",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3273",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Mist Bear](/Monsters.aspx?ID=3273)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLike the mundane bears they resemble, a mist bear is motivated by simple pursuits, such as food. Unlike other ursines, the mist bear can dissipate into a cloud of ethereal vapor, greatly complicating the efforts of neighboring humanoids to keep their provisions safe from the creature's depredations.\n\n Fortunately, the mist bear follows a predictable pattern of behavior, usually foraging within [the Universe](/Planes.aspx?ID=26) for only a few months every year to gorge itself. Once sated, it then enters a state similar to hibernation where it drifts through the [Ethereal Plane](/Planes.aspx?ID=34) as a cloud of intangible vapor.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 25\r\n\r\n**[Recall Knowledge - Ethereal](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=44)): DC 25\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 23\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 20\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Mist Bear](/Monsters.aspx?ID=3273)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Ethereal\" url=\"/Traits.aspx?ID=593\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 147\n\n**Perception** +18; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +17, [Survival](/Skills.aspx?ID=49) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +2\r\n\r\n**Con** +5\r\n\r\n**Int** -3\r\n\r\n**Wis** +4\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Mist Form** ([concentrate](/Traits.aspx?ID=561), [exploration](/Traits.aspx?ID=595), [occult](/Traits.aspx?ID=662), [polymorph](/Traits.aspx?ID=670)) Over the course of a minute, a mist bear can transmute its form into a cloud of ethereal vapor. In this state it has resistance 10 to physical damage, is immune to precision damage, and can't use any actions with the attack or [manipulate](/Traits.aspx?ID=645) trait. It has a fly Speed of 10 feet and can slip through tiny cracks. The mist bear can return to solid form as a single action.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 140\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +17,\r\n**Damage** 2d10+8 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +17 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d8+8 slashing plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**Clouded Charge** <actions string=\"Two Actions\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Visual](/Traits.aspx?ID=163)) The mist bear Strides twice. During this movement, wisps of ethereal smoke trail from its body, making it [concealed](/Conditions.aspx?ID=62). The mist bear then Strikes. The target is [off-guard](/Conditions.aspx?ID=58) to this attack if the bear moved at least 20 feet.\r\n\r\n**Misty Mauling** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127)) **Requirements** The mist bear has a creature [grabbed](/Conditions.aspx?ID=77); **Effect** The mist bear digs its claws into the grabbed creature as it dissipates into mist. The grabbed creature takes 3d8 slashing damage (DC 25 [basic](/Rules.aspx?ID=329) Fortitude save). The mist bear gains the benefits of its Mist Form, [Flies](/Actions.aspx?ID=2312)up to 10 feet, and then returns to its solid form.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-492\" />",
+ "name": "Mist Bear",
+ "npc": false,
+ "perception": 18,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 147",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 13,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Ethereal\" url=\"/Traits.aspx?ID=593\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 147\r\n\r\n**Creature Family** [Ethereal Wildlife](/MonsterFamilies.aspx?ID=492)\r\n\r\n<row gap=\"medium\">\r\n**HP** 140\r\n\r\n**AC** 24\r\n\r\n**Fort** +16\r\n\r\n**Ref** +13\r\n\r\n**Will** +15\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLike the mundane bears they resemble, a mist bear is motivated by simple pursuits, such as food. Unlike other ursines, the mist bear can dissipate …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +17, [Survival](/Skills.aspx?ID=49) +15",
+ "skill_mod": {
+  "athletics": 17,
+  "survival": 15
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 147"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 147",
+ "speed": {
+  "land": 35,
+  "max": 35
+ },
+ "speed_markdown": "35 feet",
+ "speed_raw": "35 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  17,
+  19
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Like the mundane bears they resemble, a mist bear is motivated by simple pursuits, such as food. Unlike other ursines, the mist bear can dissipate …",
+ "summary_markdown": "Like the mundane bears they resemble, a mist bear is motivated by simple pursuits, such as food. Unlike other ursines, the mist bear can dissipate …",
+ "text": " Mist Bear Like the mundane bears they resemble, a mist bear is motivated by simple pursuits, such as food. Unlike other ursines, the mist bear can dissipate into a cloud of ethereal vapor, greatly complicating the efforts of neighboring humanoids to keep their provisions safe from the creature's depredations. Fortunately, the mist bear follows a predictable pattern of behavior, usually foraging within the Universe for only a few months every year to gorge itself. Once sated, it then enters a state similar to hibernation where it drifts through the Ethereal Plane as a cloud of intangible vapor. Recall Knowledge - Beast (Arcana, Nature): DC 25 Recall Knowledge - Ethereal (Occultism): DC 25 Unspecific Lore : DC 23 Specific Lore : DC 20 Mist Bear Source Howl of the Wild pg. 147 Perception +18; darkvision, scent (imprecise) 30 feet Languages Skills Athletics +17, Survival +15 Str +6 Dex +2 Con +5 Int -3 Wis +4 Cha +2 Mist Form (concentrate, exploration, occult, polymorph) Over the course of a minute, a mist bear can transmute its form into a cloud of ethereal vapor. In this state it has resistance 10 to physical damage, is immune to precision damage, and can't use any actions with the attack or manipulate trait. It has a fly Speed of 10 feet and can slip through tiny cracks. The mist bear can return to solid form as a single action. --- AC 24 Fort +16 Ref +13 Will +15 HP 140 --- Speed 35 feet Melee Single Action jaws +17, Damage 2d10+8 piercing Melee Single Action claw +17 (Agile), Damage 2d8+8 slashing plus Grab Clouded Charge Two Actions (Concentrate, Occult, Visual) The mist bear Strides twice. During this movement, wisps of ethereal smoke trail from its body, making it concealed. The mist bear then Strikes. The target is off-guard to this attack if the bear moved at least 20 feet. Misty Mauling Single Action (Concentrate, Occult, Polymorph) Requirements The mist bear has a creature grabbed; Effect The mist bear digs its claws into the grabbed creature as it dissipates into mist. The grabbed creature takes 3d8 slashing damage (DC 25 basic Fortitude save). The mist bear gains the benefits of its Mist Form, Fliesup to 10 feet, and then returns to its solid form. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Ethereal",
+  "Uncommon",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Ethereal](/Traits.aspx?ID=593), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Beast",
+  "Ethereal",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3273",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 15,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

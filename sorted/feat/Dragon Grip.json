@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,23 +7,30 @@
  "feat_markdown": "Dragon Grip",
  "id": "feat-2420",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Dragon Grip](/Feats.aspx?ID=2420) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 51 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Beast Trainer](/Feats.aspx?ID=1283)\n\n</column>\r\n\r\n---\r\n\r\nYour hold has a unique draconic connection. You gain a +2 circumstance bonus when you attempt to [Make an Impression](/Actions.aspx?ID=50) on a creature with the [dragon](/Traits.aspx?ID=50) trait. You gain access to the [Riding Drake](/AnimalCompanions.aspx?ID=21) animal companion.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Dragon Grip](/Feats.aspx?ID=2420) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 51 <sup>2.0</sup>\n\n**Prerequisites**\r\n[Beast Trainer](/Feats.aspx?ID=1283)\n\n</column>\r\n\r\n---\r\n\r\nYour hold has a unique draconic connection. You gain a +2 circumstance bonus when you attempt to [Make an Impression](/Actions.aspx?ID=50) on a creature with the [dragon](/Traits.aspx?ID=50) trait. You gain access to the [Riding Drake](/AnimalCompanions.aspx?ID=21) animal companion.",
  "name": "Dragon Grip",
  "pfs": "Standard",
  "prerequisite": "Beast Trainer",
  "prerequisite_markdown": "[Beast Trainer](/Feats.aspx?ID=1283)",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 51",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 51 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Beast Trainer](/Feats.aspx?ID=1283)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour hold has a unique draconic connection.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 51 <sup>2.0</sup>\n\n**Prerequisites**\r\n[Beast Trainer](/Feats.aspx?ID=1283)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour hold has a unique draconic connection.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 51"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 51 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 51 <sup>2.0</sup>",
  "speed": {},
  "summary": "Your hold has a unique draconic connection.",
  "summary_markdown": "Your hold has a unique draconic connection.",
@@ -32,6 +38,13 @@
  "trait": [
   "Orc",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Half-Orc",
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Rarity"
  ],
  "trait_markdown": "[Orc](/Traits.aspx?ID=124), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

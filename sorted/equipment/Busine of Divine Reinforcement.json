@@ -1,7 +1,6 @@
 {
  "access": "Knights of Lastwall have access to this item.",
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -9,39 +8,52 @@
  "id": "equipment-1566",
  "item_category": "Held Items",
  "level": 15,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Standard\"\r\n>\r\n[Busine of Divine Reinforcement](/Equipment.aspx?ID=1566)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89</row>\n\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n**Access** Knights of Lastwall have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. When played as an instrument, the busine generates powerful and harmonious notes and grants a +2 item bonus to [Performance](/Skills.aspx?ID=12) checks.\n\n<document level=\"2\" id=\"action-1179\" />\n\n<document level=\"2\" id=\"action-1180\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Standard\"\r\n>\r\n[Busine of Divine Reinforcement](/Equipment.aspx?ID=1566)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89\n\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n**Access** Knights of Lastwall have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. When played as an instrument, the busine generates powerful and harmonious notes and grants a +2 item bonus to [Performance](/Skills.aspx?ID=12) checks.\n\n**Activate** <actions string=\"Two Actions\" /> Interact ([auditory](/Traits.aspx?ID=16)) **Frequency** once per minute;   **Effect** You play a few notes on the busine. Evil creatures within 60 feet who hear the notes must succeed at a DC 34 Will save or be [stunned](/Conditions.aspx?ID=36) for 1 round, or 2 rounds on a critical failure; this is an [incapacitation](/Traits.aspx?ID=93) effect.\n\n**Activate** <actions string=\"Three Actions\" /> command, envision, Interact;  **Frequency** once per day;   **Effect** You blow into the busine and conjure a [celestial](/Languages.aspx?ID=16) with the effects of a 6th-level [_summon celestial_](/Spells.aspx?ID=317) spell, but there are no alignment restrictions to define which celestials you can call. The celestial will fight only evil creatures and leaves after all present evil creatures have been defeated or the spell's duration ends, whichever comes first. You can Sustain the Activation to extend the spell's duration, as normal. If you have a deity and the conjured celestial's alignment is one of your deity's preferred alignments, the effect functions as a normal 6th-level _summon celestial_ spell instead, meaning the celestial will fight any creature, not just evil creatures, and will perform other tasks as you command.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Busine of Divine Reinforcement",
  "pfs": "Standard",
  "price": 600000,
  "price_raw": "6,000 gp",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 89",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-05-25",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89</row>\r\n\r\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89\r\n\r\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. …\r\n</summary>",
  "skill": [
   "Performance"
  ],
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 89"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 89</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 89",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. …",
  "summary_markdown": "This long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. …",
- "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Standard\" > Busine of Divine Reinforcement Source Knights of Lastwall pg. 89 Price 6,000 gp Usage held in 2 hands Bulk 1 Access Knights of Lastwall have access to this item. --- This long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. When played as an instrument, the busine generates powerful and harmonious notes and grants a +2 item bonus to Performance checks.\n",
+ "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Standard\" > Busine of Divine Reinforcement Source Knights of Lastwall pg. 89 Price 6,000 gp Usage held in 2 hands Bulk 1 Access Knights of Lastwall have access to this item. --- This long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. When played as an instrument, the busine generates powerful and harmonious notes and grants a +2 item bonus to Performance checks. Activate Two Actions Interact (auditory) Frequency once per minute; Effect You play a few notes on the busine. Evil creatures within 60 feet who hear the notes must succeed at a DC 34 Will save or be stunned for 1 round, or 2 rounds on a critical failure; this is an incapacitation effect. Activate Three Actions command, envision, Interact; Frequency once per day; Effect You blow into the busine and conjure a celestial with the effects of a 6th-level summon celestial spell, but there are no alignment restrictions to define which celestials you can call. The celestial will fight only evil creatures and leaves after all present evil creatures have been defeated or the spell's duration ends, whichever comes first. You can Sustain the Activation to extend the spell's duration, as normal. If you have a deity and the conjured celestial's alignment is one of your deity's preferred alignments, the effect functions as a normal 6th-level summon celestial spell instead, meaning the celestial will fight any creature, not just evil creatures, and will perform other tasks as you command.\n",
  "trait": [
   "Conjuration",
   "Divine",
   "Good",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Tradition",
+  "Alignment",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Divine](/Traits.aspx?ID=48), [Good](/Traits.aspx?ID=83), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

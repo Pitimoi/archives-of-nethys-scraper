@@ -1,0 +1,152 @@
+{
+ "ac": 29,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  21,
+  21
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Bloodsense",
+  "Driven by Hunger    Trigger",
+  "Horn Toss",
+  "Mountain Stride",
+  "Trample"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 22,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 210,
+ "hp_raw": "210",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2765",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Aoyin](/Monsters.aspx?ID=2765)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nn aoyin resembles an ox with a pale body, four horns, and hair as coarse as straw. Although this large, solitary beast bears a slight resemblance to the common draft ox, it's a highly aggressive and territorial carnivore who stalks and devours its prey. An aoyin dwells high in the mountains, rarely being seen by common folk. However, during lean winters, an aoyin might descend from its mountain home in search of food, resulting in gruesome encounters with nearby settlements. It's believed that a single aoyin can decimate the population of an entire village, only to retreat into the nearby mountains once it has satiated its hunger.\n\n An aoyin, even a herd of the creatures, is primarily driven by hunger and other natural urges. Outside of its natural habitat, an aoyin might occasionally be kept by those who revel in bloodlust. Even with magical control, a captive aoyin is more likely to turn on its handlers than obey commands. As an uncontrolled weapon, however, a hungry aoyin poses a terrible threat to most communities.\n\n Tales in certain isolated areas claim that the growling call of an aoyin can drive those unlucky enough to hear it into a frenzy of hunger and violence. Villages will be found consumed by infighting without any sign of an aoyin even entering its borders. Although it's possible a powerful variant of this creature might possess this ability, most of these stories are inspired by the terrible magic available to those who understand the aoyin's secrets and are spread when villages collapse through magic compulsions or mundane infighting.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Aoyin](/Monsters.aspx?ID=2765)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 280\n\n**Perception** +19; bloodsense (precise) 60 feet, low-light vision, scent (precise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +21, [Stealth](/Skills.aspx?ID=15) +18, [Survival](/Skills.aspx?ID=16) +19\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +4\r\n\r\n**Con** +6\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** -2\r\n</row>\r\n\r\n**Bloodsense** An aoyin can detect exposed blood as a precise sense at the listed range, including from creatures taking persistent bleed damage.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 29 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 210\n\n</row>\n\n**Driven by Hunger <actions string=\"Reaction\" /> **Trigger** The aoyin fails or succeeds at a save against an emotion effect** **Effect** The aoyin's hunger is powerful enough to blot out any other emotion. The aoyin critically succeeds at the save instead. If a creature within 40 feet is taking persistent bleed damage, the aoyin can also Stride up to its Speed in a straight line toward that target as it seeks out the closest source of food.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet; mountain stride\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorn +21 ([deadly d12](/Traits.aspx?ID=174), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+7 piercing plus 2d6 persistent bleed\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhoof +21 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 bludgeoning\n\n**Horn Toss** <actions string=\"Two Actions\" />  The aoyin Strides and makes a horn Strike. If the Strike hits, the target is flung 20 feet in a direction of the aoyin's choice.\r\n\r\n**Mountain Stride**   An aoyin isn't impeded by difficult terrain caused by snow or mountainous terrain, nor does it need to Balance to move over uneven ground created by those conditions.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=39)** <actions string=\"Three Actions\" />  Medium, hoof, DC 29\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Adyin Horns</title>\r\n\r\nThe horns of an aoyin are a potent material for crafting magical items that induce a frenzied state or blood loss, much like in tales about the beast's calls. Each horn, of which an aoyin normally has four, can be used as 60 gp worth of materials for items like a [_wounding_](/Equipment.aspx?ID=2854) rune.\r\n</aside>",
+ "name": "Aoyin",
+ "npc": false,
+ "perception": 19,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 280",
+ "primary_source_category": "Lost Omens",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 18,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 280\n\n<row gap=\"medium\">\r\n**HP** 210\r\n\r\n**AC** 29\r\n\r\n**Fort** +22\r\n\r\n**Ref** +18\r\n\r\n**Will** +16\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nn aoyin resembles an ox with a pale body, four horns, and hair as coarse as straw. Although this large, solitary beast bears a slight resemblance to …\r\n</summary>",
+ "sense": "bloodsense (precise) 60 feet, low-light vision, scent (precise) 30 feet",
+ "sense_markdown": "bloodsense (precise) 60 feet, low-light vision, scent (precise) 30 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +21, [Stealth](/Skills.aspx?ID=15) +18, [Survival](/Skills.aspx?ID=16) +19",
+ "skill_mod": {
+  "athletics": 21,
+  "stealth": 18,
+  "survival": 19
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 280"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 280",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet; mountain stride",
+ "speed_raw": "40 feet; mountain stride",
+ "spell_markdown": "",
+ "stealth": "18",
+ "strike_damage_average": [
+  16,
+  27
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "n aoyin resembles an ox with a pale body, four horns, and hair as coarse as straw. Although this large, solitary beast bears a slight resemblance to …",
+ "summary_markdown": "n aoyin resembles an ox with a pale body, four horns, and hair as coarse as straw. Although this large, solitary beast bears a slight resemblance to …",
+ "text": " Aoyin n aoyin resembles an ox with a pale body, four horns, and hair as coarse as straw. Although this large, solitary beast bears a slight resemblance to the common draft ox, it's a highly aggressive and territorial carnivore who stalks and devours its prey. An aoyin dwells high in the mountains, rarely being seen by common folk. However, during lean winters, an aoyin might descend from its mountain home in search of food, resulting in gruesome encounters with nearby settlements. It's believed that a single aoyin can decimate the population of an entire village, only to retreat into the nearby mountains once it has satiated its hunger. An aoyin, even a herd of the creatures, is primarily driven by hunger and other natural urges. Outside of its natural habitat, an aoyin might occasionally be kept by those who revel in bloodlust. Even with magical control, a captive aoyin is more likely to turn on its handlers than obey commands. As an uncontrolled weapon, however, a hungry aoyin poses a terrible threat to most communities. Tales in certain isolated areas claim that the growling call of an aoyin can drive those unlucky enough to hear it into a frenzy of hunger and violence. Villages will be found consumed by infighting without any sign of an aoyin even entering its borders. Although it's possible a powerful variant of this creature might possess this ability, most of these stories are inspired by the terrible magic available to those who understand the aoyin's secrets and are spread when villages collapse through magic compulsions or mundane infighting. Recall Knowledge - Animal (Nature): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Aoyin Source Tian Xia World Guide pg. 280 Perception +19; bloodsense (precise) 60 feet, low-light vision, scent (precise) 30 feet Languages Skills Athletics +21, Stealth +18, Survival +19 Str +7 Dex +4 Con +6 Int -4 Wis +3 Cha -2 Bloodsense An aoyin can detect exposed blood as a precise sense at the listed range, including from creatures taking persistent bleed damage. --- AC 29 Fort +22 Ref +18 Will +16 HP 210 Driven by Hunger Reaction Trigger The aoyin fails or succeeds at a save against an emotion effect Effect The aoyin's hunger is powerful enough to blot out any other emotion. The aoyin critically succeeds at the save instead. If a creature within 40 feet is taking persistent bleed damage, the aoyin can also Stride up to its Speed in a straight line toward that target as it seeks out the closest source of food. --- Speed 40 feet; mountain stride Melee Single Action horn +21 (deadly d12, reach 10 feet), Damage 2d12+7 piercing plus 2d6 persistent bleed Melee Single Action hoof +21 (Agile, reach 10 feet), Damage 2d8+7 bludgeoning Horn Toss Two Actions The aoyin Strides and makes a horn Strike. If the Strike hits, the target is flung 20 feet in a direction of the aoyin's choice. Mountain Stride An aoyin isn't impeded by difficult terrain caused by snow or mountainous terrain, nor does it need to Balance to move over uneven ground created by those conditions. Trample Three Actions Medium, hoof, DC 29 Adyin Horns The horns of an aoyin are a potent material for crafting magical items that induce a frenzied state or blood loss, much like in tales about the beast's calls. Each horn, of which an aoyin normally has four, can be used as 60 gp worth of materials for items like a wounding rune. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Rare",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Animal",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2765",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 16,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

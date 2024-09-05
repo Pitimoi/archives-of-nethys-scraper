@@ -1,41 +1,56 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-2518",
  "item_category": "Artifacts",
  "item_subcategory": "The Deck of Destiny",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"\"\r\n>\r\n[The Waxworks](/Equipment.aspx?ID=2518)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Stolen Fate</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 79</row>\n\n<row gap=\"medium\">\n\n**Usage** carried\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\n_The Waxworks_ represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects that render you [clumsy](/Conditions.aspx?ID=3), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [enfeebled](/Conditions.aspx?ID=13), or [fatigued](/Conditions.aspx?ID=15). The item bonus increases to +3 if you are 20th level.\n\n<document level=\"2\" id=\"action-2064\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"\"\r\n>\r\n[The Waxworks](/Equipment.aspx?ID=2518)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Stolen Fate</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 79\n\n<row gap=\"medium\">\n\n**Usage** carried\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\n_The Waxworks_ represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects that render you [clumsy](/Conditions.aspx?ID=3), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [enfeebled](/Conditions.aspx?ID=13), or [fatigued](/Conditions.aspx?ID=15). The item bonus increases to +3 if you are 20th level.\n\n**Activate** <actions string=\"Two Actions\" /> envision, Interact;  **Frequency** once per day;   **Effect** You cause two 30-foot lines of hot wax to extend out of the card as you present it. The two lines must both start at you and extend in different directions. If you are at least 15th level, you can create a third line, and if you're at least 19th level you can create a fourth line. All creatures in the area must attempt a Fortitude save against your class DC.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature takes 2d6 [persistent fire damage](/Conditions.aspx?ID=29) and 2d6 persistent mental damage. An affected creature or adjacent ally can reduce both of these values by 1d6 by spending an Interact action to scrape off the goo. Until the damage is reduced to 1d6 per type, the affected creature is also [confused](/Conditions.aspx?ID=5) (this is an [emotion](/Traits.aspx?ID=60) and [mental](/Traits.aspx?ID=106) effect).<br />\r\n**Failure** As success, but 4d6 persistent fire damage and 4d6 persistent mental damage.<br />\r\n**Critical Failure** As success, but 6d6 persistent fire damage and 6d6 persistent mental damage, and the creature's speed is [slowed 1](/Conditions.aspx?ID=35) until the damage is reduced to 1d6 per type.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "The Waxworks",
+ "primary_source": "Pathfinder #191: The Destiny War",
+ "primary_source_raw": "Pathfinder #191: The Destiny War pg. 79",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2023-05-24",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 79</row>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** carried\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n The Waxworks  represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 79\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** carried\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n The Waxworks  represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #191: The Destiny War"
  ],
  "source_raw": [
   "Pathfinder #191: The Destiny War pg. 79"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Stolen Fate",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 79</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 79",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Stolen Fate",
  "stage_markdown": "",
  "summary": " The Waxworks  represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects …",
  "summary_markdown": " The Waxworks  represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects …",
- "text": "<title level=\"1\" right=\"Item 20\" pfs=\"\" > The Waxworks May contain spoilers from Stolen Fate Source Pathfinder #191: The Destiny War pg. 79 Usage carried --- The Waxworks represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects that render you clumsy, doomed, drained, enfeebled, or fatigued. The item bonus increases to +3 if you are 20th level.\n",
+ "text": "<title level=\"1\" right=\"Item 20\" pfs=\"\" > The Waxworks May contain spoilers from Stolen Fate Source Pathfinder #191: The Destiny War pg. 79 Usage carried --- The Waxworks represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects that render you clumsy, doomed, drained, enfeebled, or fatigued. The item bonus increases to +3 if you are 20th level. Activate Two Actions envision, Interact; Frequency once per day; Effect You cause two 30-foot lines of hot wax to extend out of the card as you present it. The two lines must both start at you and extend in different directions. If you are at least 15th level, you can create a third line, and if you're at least 19th level you can create a fourth line. All creatures in the area must attempt a Fortitude save against your class DC. Critical Success The creature is unaffected. Success The creature takes 2d6 persistent fire damage and 2d6 persistent mental damage. An affected creature or adjacent ally can reduce both of these values by 1d6 by spending an Interact action to scrape off the goo. Until the damage is reduced to 1d6 per type, the affected creature is also confused (this is an emotion and mental effect). Failure As success, but 4d6 persistent fire damage and 4d6 persistent mental damage. Critical Failure As success, but 6d6 persistent fire damage and 6d6 persistent mental damage, and the creature's speed is slowed 1 until the damage is reduced to 1d6 per type.\n",
  "trait": [
   "Artifact",
   "Invested",
   "Magical",
   "Necromancy",
   "Unique"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Artifact](/Traits.aspx?ID=253), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [

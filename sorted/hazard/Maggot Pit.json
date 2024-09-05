@@ -1,0 +1,79 @@
+{
+ "ac": 39,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "Three DC 45  Religion  checks within the room to utter prayers, which calm and quell the maggots with invocations to the gods",
+ "exclude_from_search": false,
+ "fortitude_save": 27,
+ "hazard_type": "Environmental",
+ "hp": 120,
+ "hp_raw": "120 (BT 60)",
+ "id": "hazard-396",
+ "immunity": [
+  "precision damage"
+ ],
+ "immunity_markdown": "precision damage",
+ "level": 18,
+ "markdown": "<title level=\"1\" right=\"Hazard 18\" pfs=\"\">[Maggot Pit](/Hazards.aspx?ID=396)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 65\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nCountless human-faced, fanged maggots wriggle and squirm in this chamber.\r\n\r\n---\r\n\r\n**Stealth**\r\n+0 (the maggots are slow and impossible to miss)\r\n\r\n**Disable**\r\nThree DC 45 [Religion](/Skills.aspx?ID=13) checks within the room to utter prayers, which calm and quell the maggots with invocations to the gods\n\n<column gap=\"tiny\">\r\n\r\n**AC** 39, **Fort** +27, **Ref** +33\n\n**HP**\r\n120 (BT 60)\r\n\r\n**Immunities**\r\nprecision damage\r\n\r\n**Weaknesses**\r\narea damage 15, good damage 15, [splash](/Traits.aspx?ID=150) damage 15\r\n\r\n**Resistances**\r\nbludgeoning 10, piercing 20, slashing 20\r\n\r\n</column>\r\n\r\n**Damning Swarm** <actions string=\"Reaction\" /> ([death](/Traits.aspx?ID=40), [divine](/Traits.aspx?ID=48), [necromancy](/Traits.aspx?ID=117)) **Trigger** a creature appears in area **M1**; **Effect** The swarming maggots squirm into a biting frenzy, and all creatures on the ground in area **M1** must attempt a DC 40 Fortitude save. The hazard then rolls initiative.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature takes 1d10+5 piercing damage, 3d6 poison damage, and is [sickened 1](/Conditions.aspx?ID=34).<br />\r\n**Failure** The creature takes 2d10+10 piercing damage, 6d6 poison damage, is sickened 1, and is [enfeebled 1](/Conditions.aspx?ID=13) by the maggots' bites.<br />\r\n**Critical Failure** The creature takes 4d10+20 piercing damage, 12d6 poison damage, is sickened 1, and is enfeebled 2 by the maggots' bites.\r\n\r\n---\r\n**Routine**\r\n(2 actions; [death](/Traits.aspx?ID=40), [divine](/Traits.aspx?ID=48), [necromancy](/Traits.aspx?ID=117)) On its initiative, the pit uses its first action to use Damning Swarm against any creature within 5 feet of the pit floor. It then takes its second action to form a long, thrashing tendril composed of thousands of maggots to lash at a single target within area **M1**.<br /> **Melee** <actions string=\"Single Action\" /> maggot tendril +35 (reach 200 feet); **Damage** 1d12+20 piercing and 2d12 poison (on a critical hit, the target is [enfeebled 1](/Conditions.aspx?ID=13); this has the [poison](/Traits.aspx?ID=126) trait)\r\n\r\n---\r\n**Reset**\r\nThe pit functions continuously. If it's disabled or destroyed, it resets automatically after 24 hours if the crystal stele in area **M2** still functions, otherwise it doesn't reset.",
+ "name": "Maggot Pit",
+ "primary_source": "Pathfinder #191: The Destiny War",
+ "primary_source_raw": "Pathfinder #191: The Destiny War pg. 65",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 33,
+ "release_date": "2023-05-24",
+ "reset": "The pit functions continuously. If it's disabled or destroyed, it resets automatically after 24 hours if the crystal stele in area <b>M2</b> still functions, otherwise it doesn't reset.",
+ "resistance": {
+  "bludgeoning": 10,
+  "piercing": 20,
+  "slashing": 20
+ },
+ "resistance_markdown": "bludgeoning 10, piercing 20, slashing 20",
+ "resistance_raw": "bludgeoning 10, piercing 20, slashing 20",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 65\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCountless human-faced, fanged maggots wriggle and squirm in this chamber.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #191: The Destiny War"
+ ],
+ "source_raw": [
+  "Pathfinder #191: The Destiny War pg. 65"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 65",
+ "speed": {},
+ "spoilers": "Stolen Fate",
+ "stealth": "+0 (the maggots are slow and impossible to miss)",
+ "summary": "Countless human-faced, fanged maggots wriggle and squirm in this chamber.",
+ "summary_markdown": "Countless human-faced, fanged maggots wriggle and squirm in this chamber.",
+ "text": " Maggot Pit Source Pathfinder #191: The Destiny War pg. 65 Complexity Complex Countless human-faced, fanged maggots wriggle and squirm in this chamber. --- Stealth +0 (the maggots are slow and impossible to miss) Disable Three DC 45 Religion checks within the room to utter prayers, which calm and quell the maggots with invocations to the gods AC 39, Fort +27, Ref +33 HP 120 (BT 60) Immunities precision damage Weaknesses area damage 15, good damage 15, splash damage 15 Resistances bludgeoning 10, piercing 20, slashing 20 Damning Swarm Reaction (death, divine, necromancy) Trigger a creature appears in area M1 ; Effect The swarming maggots squirm into a biting frenzy, and all creatures on the ground in area M1 must attempt a DC 40 Fortitude save. The hazard then rolls initiative. Critical Success The creature is unaffected. Success The creature takes 1d10+5 piercing damage, 3d6 poison damage, and is sickened 1. Failure The creature takes 2d10+10 piercing damage, 6d6 poison damage, is sickened 1, and is enfeebled 1 by the maggots' bites. Critical Failure The creature takes 4d10+20 piercing damage, 12d6 poison damage, is sickened 1, and is enfeebled 2 by the maggots' bites. --- Routine (2 actions; death, divine, necromancy) On its initiative, the pit uses its first action to use Damning Swarm against any creature within 5 feet of the pit floor. It then takes its second action to form a long, thrashing tendril composed of thousands of maggots to lash at a single target within area M1 . Melee Single Action maggot tendril +35 (reach 200 feet); Damage 1d12+20 piercing and 2d12 poison (on a critical hit, the target is enfeebled 1; this has the poison trait) --- Reset The pit functions continuously. If it's disabled or destroyed, it resets automatically after 24 hours if the crystal stele in area M2 still functions, otherwise it doesn't reset.",
+ "trait": [
+  "Complex",
+  "Environmental",
+  "Unique"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Rarity"
+ ],
+ "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Environmental](/Traits.aspx?ID=62), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Complex",
+  "Environmental",
+  "Unique"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=396",
+ "weakness": {
+  "area": 15,
+  "good": 15
+ },
+ "weakness_markdown": "area damage 15, good damage 15, [splash](/Traits.aspx?ID=150) damage 15",
+ "weakness_raw": "area damage 15, good damage 15,  splash  damage 15"
+}

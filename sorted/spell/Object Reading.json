@@ -1,17 +1,16 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
  "deity": [
-  "Cosmic Caravan",
   "Cosmic Caravan"
  ],
- "deity_markdown": "[Cosmic Caravan](/Deities.aspx?ID=219), [Cosmic Caravan](/Deities.aspx?ID=219)",
+ "deity_markdown": "[Cosmic Caravan](/Deities.aspx?ID=219)",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
@@ -20,6 +19,14 @@
   "6th",
   "8th",
   "9th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 4th rank",
+  "Heightened 6th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   1,
@@ -31,39 +38,53 @@
  ],
  "id": "spell-705",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Object Reading](/Spells.aspx?ID=705)</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 222 <sup>2.0</sup>, [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 74</row>\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Cosmic Caravan](/Deities.aspx?ID=219), [Cosmic Caravan](/Deities.aspx?ID=219)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou place a hand on an object to learn a piece of information about an emotional event that occurred involving the object within the past week, determined by the GM. If you cast _object reading_ on the same item multiple times, you can either concentrate on a single event to gain additional pieces of information about that event, or gain a piece of information about another emotional event in the applicable time frame.\n\n---\r\n**Heightened (2nd)** You can learn about an event that occurred within the last month.\r\n\r\n**Heightened (4th)** You can learn about an event that occurred within the last year.\r\n\r\n**Heightened (6th)** You can learn about an event that occurred within the last decade.\r\n\r\n**Heightened (8th)** You can learn about an event that occurred within the last century.\r\n\r\n**Heightened (9th)** You can learn about an event that occurred within the entirety of the object’s history.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Object Reading](/Spells.aspx?ID=705)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 222 <sup>2.0</sup>, [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 74\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Cosmic Caravan](/Deities.aspx?ID=219)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou place a hand on an object to learn a piece of information about an emotional event that occurred involving the object within the past week, determined by the GM. If you cast _object reading_ on the same item multiple times, you can either concentrate on a single event to gain additional pieces of information about that event, or gain a piece of information about another emotional event in the applicable time frame.\n\n---\r\n**Heightened (2nd)** You can learn about an event that occurred within the last month.\r\n\r\n**Heightened (4th)** You can learn about an event that occurred within the last year.\r\n\r\n**Heightened (6th)** You can learn about an event that occurred within the last decade.\r\n\r\n**Heightened (8th)** You can learn about an event that occurred within the last century.\r\n\r\n**Heightened (9th)** You can learn about an event that occurred within the entirety of the object’s history.",
  "name": "Object Reading",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 222",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 222 <sup>2.0</sup>, [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 74</row>\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Cosmic Caravan](/Deities.aspx?ID=219), [Cosmic Caravan](/Deities.aspx?ID=219)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGet psychic impressions from an object.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 222 <sup>2.0</sup>, [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 74\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Cosmic Caravan](/Deities.aspx?ID=219)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGet psychic impressions from an object.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Advanced Player's Guide",
+  "Pathfinder #147: Tomorrow Must Burn"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 222"
+  "Advanced Player's Guide pg. 222",
+  "Pathfinder #147: Tomorrow Must Burn pg. 74"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 222 <sup>2.0</sup>, [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 74</row>",
+ "source_category": [
+  "Rulebooks",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Age of Ashes"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 222 <sup>2.0</sup>, [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 74",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Get psychic impressions from an object.",
  "summary_markdown": "Get psychic impressions from an object.",
  "target": "1 object",
  "target_markdown": "1 object",
- "text": " Object Reading Source Advanced Player's Guide pg. 222 2.0 , Pathfinder #147: Tomorrow Must Burn pg. 74 Tradition Occult Deities Cosmic Caravan, Cosmic Caravan Cast Two Actions somatic, verbal Range touch Target 1 object --- You place a hand on an object to learn a piece of information about an emotional event that occurred involving the object within the past week, determined by the GM. If you cast object reading on the same item multiple times, you can either concentrate on a single event to gain additional pieces of information about that event, or gain a piece of information about another emotional event in the applicable time frame. --- Heightened (2nd) You can learn about an event that occurred within the last month. Heightened (4th) You can learn about an event that occurred within the last year. Heightened (6th) You can learn about an event that occurred within the last decade. Heightened (8th) You can learn about an event that occurred within the last century. Heightened (9th) You can learn about an event that occurred within the entirety of the object’s history.",
+ "text": "\nObject Reading Two Actions Source Advanced Player's Guide pg. 222 2.0 , Pathfinder #147: Tomorrow Must Burn pg. 74 Tradition Occult Deity Cosmic Caravan Cast somatic, verbal Range touch Target 1 object --- You place a hand on an object to learn a piece of information about an emotional event that occurred involving the object within the past week, determined by the GM. If you cast object reading on the same item multiple times, you can either concentrate on a single event to gain additional pieces of information about that event, or gain a piece of information about another emotional event in the applicable time frame. --- Heightened (2nd) You can learn about an event that occurred within the last month. Heightened (4th) You can learn about an event that occurred within the last year. Heightened (6th) You can learn about an event that occurred within the last decade. Heightened (8th) You can learn about an event that occurred within the last century. Heightened (9th) You can learn about an event that occurred within the entirety of the object’s history.",
  "tradition": [
   "Occult"
  ],
  "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Divination"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Divination](/Traits.aspx?ID=47)",
  "trait_raw": [

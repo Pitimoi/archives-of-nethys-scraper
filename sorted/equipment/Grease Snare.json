@@ -1,28 +1,35 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1489",
  "item_category": "Snares",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Grease Snare](/Equipment.aspx?ID=1489)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Snare\" url=\"/Traits.aspx?ID=146\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 113</row>\n\n**Price** 30 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis snare releases a stream of grease that coats the area, making movement difficult and potentially making the target slippery and clumsy. The square with the snare, as well as three adjacent squares you determine when you set the snare, become difficult terrain when a creature triggers the snare. The triggering creature must attempt a DC 22 Reflex saving throw. A creature can use three Interact actions to wipe away the grease from a single square or from the triggering creature; removing the grease from the triggering creature ends the effects on it.\n\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is [clumsy 1](/Conditions.aspx?ID=3) for 1 round.<br />\r\n**Failure** For 1 minute, the creature is clumsy 1 and must roll twice and use the worse result whenever attempting a [Thievery](/Skills.aspx?ID=17) check. If the target rolls a failure at a Thievery check, it gets a critical failure instead. This is a [misfortune](/Traits.aspx?ID=110) effect.<br />\r\n**Critical Failure** As failure, but the effects last for 1 hour instead of 1 minute, and removing the grease from the triggering creature requires a 1-minute activity instead of three Interact actions.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Grease Snare](/Equipment.aspx?ID=1489)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Snare\" url=\"/Traits.aspx?ID=146\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 113\n\n**Price** 30 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis snare releases a stream of grease that coats the area, making movement difficult and potentially making the target slippery and clumsy. The square with the snare, as well as three adjacent squares you determine when you set the snare, become difficult terrain when a creature triggers the snare. The triggering creature must attempt a DC 22 Reflex saving throw. A creature can use three Interact actions to wipe away the grease from a single square or from the triggering creature; removing the grease from the triggering creature ends the effects on it.\n\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is [clumsy 1](/Conditions.aspx?ID=3) for 1 round.<br />\r\n**Failure** For 1 minute, the creature is clumsy 1 and must roll twice and use the worse result whenever attempting a [Thievery](/Skills.aspx?ID=17) check. If the target rolls a failure at a Thievery check, it gets a critical failure instead. This is a [misfortune](/Traits.aspx?ID=110) effect.<br />\r\n**Critical Failure** As failure, but the effects last for 1 hour instead of 1 minute, and removing the grease from the triggering creature requires a 1-minute activity instead of three Interact actions.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Grease Snare",
  "pfs": "Standard",
  "price": 3000,
  "price_raw": "30 gp",
+ "primary_source": "Monsters of Myth",
+ "primary_source_raw": "Monsters of Myth pg. 113",
+ "primary_source_category": "Lost Omens",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2021-12-22",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Snare\" url=\"/Traits.aspx?ID=146\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 113</row>\r\n\r\n**Price** 30 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis snare releases a stream of grease that coats the area, making movement difficult and potentially making the target slippery and clumsy. The …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Snare\" url=\"/Traits.aspx?ID=146\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 113\r\n\r\n**Price** 30 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis snare releases a stream of grease that coats the area, making movement difficult and potentially making the target slippery and clumsy. The …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Monsters of Myth"
  ],
  "source_raw": [
   "Monsters of Myth pg. 113"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Monsters of Myth](/Sources.aspx?ID=107) pg. 113</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Monsters of Myth](/Sources.aspx?ID=107) pg. 113",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -35,6 +42,11 @@
   "Rare",
   "Snare",
   "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Mechanical](/Traits.aspx?ID=105), [Rare](/Traits.aspx?ID=137), [Snare](/Traits.aspx?ID=146), [Trap](/Traits.aspx?ID=158)",
  "trait_raw": [

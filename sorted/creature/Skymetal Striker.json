@@ -1,0 +1,167 @@
+{
+ "ac": 26,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Phase Blade",
+  "Temporal Stutter",
+  "Two-Headed Assault"
+ ],
+ "creature_family": "Elemental, Metal",
+ "creature_family_markdown": "[Elemental, Metal](/MonsterFamilies.aspx?ID=343)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "element": [
+  "Metal"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 100,
+ "hp_raw": "100",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2650",
+ "image": [
+  "/Images/Monsters/SkymetalStriker.png"
+ ],
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Talican"
+ ],
+ "language_markdown": "[Talican](/Languages.aspx?ID=112)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Skymetal Striker](/Monsters.aspx?ID=2650)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA skymetal striker resembles a serpent—or, more precisely, the two-headed serpent known as an [amphisbaena](/Monsters.aspx?ID=1060)—made of a long string of dozens of spinning, sharp-toothed circular saw blades. These blades array themselves along the creature's body like beads on an invisible cord of magnetic force. Although the blades making up the creature are typically composed of many different metals and alloys, it is best known, feared, and named for the blades of [orichalcum](/Equipment.aspx?ID=276) and [inubrix](/Equipment.aspx?ID=1415) that form the “heads” at either end of its serpentine body.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/SkymetalStriker.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Skymetal Striker](/Monsters.aspx?ID=2650)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 156\n\n**Perception** +15; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Talican](/Languages.aspx?ID=112)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Stealth](/Skills.aspx?ID=15) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\n[electricity](/Traits.aspx?ID=56) 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ninubrix fangs +17 ([Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+6 slashing plus phase blade\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\norichalcum fangs +17 ([Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+6 slashing plus temporal stutter\n\n**Phase Blade**   A skymetal striker's inubrix fangs Strike ignores damage resistance from metal armor's armor specialization effects and the circumstance bonus to AC from metal shields, and it doesn't trigger the Shield Block reaction from a metal shield.\r\n\r\n**Temporal Stutter**   A creature not already affected by temporal stutter that takes damage from a skymetal striker's orichalcum fangs Strike must attempt a DC 25 Fortitude save.<br />**Success** The target is [quickened](/Conditions.aspx?ID=32) until the end of its next turn.<br /> **Failure** The target is [slowed 1](/Conditions.aspx?ID=35) until the end of its next turn.<br />**Critical Failure** The target is slowed 2 until the end of its next turn.\r\n\r\n**Two-Headed Assault** <actions string=\"Two Actions\" />  The skymetal striker makes one inubrix fangs Strike and one orichalcum fangs Strike, each against a different creature. Its multiple attack penalty increases only after all the attacks are made.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Strange Metals</title>\r\n\r\n[Inubrix](/Equipment.aspx?ID=1415) and [orichalcum](/Equipment.aspx?ID=276) are types of skymetal—a collective term used in the Universe to refer to exceedingly rare metals, most possessing magical properties, found on distant planets and fallen stars. Skymetal can be found in abundance on the [Plane of Metal](/Planes.aspx?ID=24), however, and many metal elementals contain at least a bit of one type or another. Inubrix, colloquially called ghost iron, is prized for its ability to phase through other metals, while orichalcum's mystical properties can warp the very flow of time around it.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-343\" />",
+ "name": "Skymetal Striker",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 156",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 17,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-02",
+ "resistance": {
+  "electricity": 5
+ },
+ "resistance_markdown": "[electricity](/Traits.aspx?ID=56) 5",
+ "resistance_raw": " electricity  5",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 156\r\n\r\n**Creature Family** [Elemental, Metal](/MonsterFamilies.aspx?ID=343)\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\r\n\r\n**AC** 26\r\n\r\n**Fort** +15\r\n\r\n**Ref** +17\r\n\r\n**Will** +13\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA skymetal striker resembles a serpent—or, more precisely, the two-headed serpent known as an  amphisbaena —made of a long string of dozens of …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +17, [Stealth](/Skills.aspx?ID=15) +17",
+ "skill_mod": {
+  "acrobatics": 17,
+  "stealth": 17
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 156"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 156",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "stealth": "17",
+ "strike_damage_average": [
+  17,
+  19
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "A skymetal striker resembles a serpent—or, more precisely, the two-headed serpent known as an  amphisbaena —made of a long string of dozens of …",
+ "summary_markdown": "A skymetal striker resembles a serpent—or, more precisely, the two-headed serpent known as an  amphisbaena —made of a long string of dozens of …",
+ "text": " Skymetal Striker A skymetal striker resembles a serpent—or, more precisely, the two-headed serpent known as an amphisbaena—made of a long string of dozens of spinning, sharp-toothed circular saw blades. These blades array themselves along the creature's body like beads on an invisible cord of magnetic force. Although the blades making up the creature are typically composed of many different metals and alloys, it is best known, feared, and named for the blades of orichalcum and inubrix that form the “heads” at either end of its serpentine body. Recall Knowledge - Elemental (Arcana, Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Skymetal Striker Source Rage of Elements pg. 156 Perception +15; darkvision Languages Talican Skills Acrobatics +17, Stealth +17 Str +2 Dex +6 Con +4 Int +2 Wis +2 Cha +2 --- AC 26 Fort +15 Ref +17 Will +13 HP 100 Immunities bleed, paralyzed, poison, sleep Resistances electricity 5 --- Speed 25 feet Melee Single Action inubrix fangs +17 (Finesse, reach 10 feet), Damage 2d10+6 slashing plus phase blade Melee Single Action orichalcum fangs +17 (Finesse, reach 10 feet), Damage 2d12+6 slashing plus temporal stutter Phase Blade A skymetal striker's inubrix fangs Strike ignores damage resistance from metal armor's armor specialization effects and the circumstance bonus to AC from metal shields, and it doesn't trigger the Shield Block reaction from a metal shield. Temporal Stutter A creature not already affected by temporal stutter that takes damage from a skymetal striker's orichalcum fangs Strike must attempt a DC 25 Fortitude save. Success The target is quickened until the end of its next turn. Failure The target is slowed 1 until the end of its next turn. Critical Failure The target is slowed 2 until the end of its next turn. Two-Headed Assault Two Actions The skymetal striker makes one inubrix fangs Strike and one orichalcum fangs Strike, each against a different creature. Its multiple attack penalty increases only after all the attacks are made. Strange Metals Inubrix and orichalcum are types of skymetal—a collective term used in the Universe to refer to exceedingly rare metals, most possessing magical properties, found on distant planets and fallen stars. Skymetal can be found in abundance on the Plane of Metal, however, and many metal elementals contain at least a bit of one type or another. Inubrix, colloquially called ghost iron, is prized for its ability to phase through other metals, while orichalcum's mystical properties can warp the very flow of time around it. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Metal",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Metal](/Traits.aspx?ID=505)",
+ "trait_raw": [
+  "Elemental",
+  "Metal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2650",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 13,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

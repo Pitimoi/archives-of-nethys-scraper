@@ -1,75 +1,122 @@
 {
- "ac": 20,
- "alignment": "Any",
- "breadcrumbs_spa": [],
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Personality Fragments"
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 23,
  "hp_raw": "23",
- "id": "creature-383",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3204",
  "image": [
-  "/Images/Monsters/SoulboundDoll.png"
+  "/Images/Monsters/Soulbound_Doll.webp"
  ],
  "immunity": [
   "bleed",
-  "death effects",
+  "death  effects",
   "disease",
   "doomed",
   "drained",
   "fatigued",
   "healing",
-  "mental",
-  "necromancy",
-  "nonlethal attacks",
+  "nonlethal  attacks",
   "paralyzed",
   "poison",
   "sickened",
-  "unconscious"
+  "unconscious",
+  "vitality",
+  "void"
  ],
- "immunity_markdown": "bleed, death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [doomed](/Conditions.aspx?ID=67), [drained](/Conditions.aspx?ID=68), [fatigued](/Conditions.aspx?ID=73), [healing](/Traits.aspx?ID=623), [nonlethal](/Traits.aspx?ID=661) attacks, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sickened](/Conditions.aspx?ID=91), [unconscious](/Conditions.aspx?ID=95), [vitality](/Traits.aspx?ID=509), [void](/Traits.aspx?ID=510)",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "one spoken by its creator (typically Common)"
+  "Common",
+  "one spoken by its creator (typically <%LANGUAGES%155%%>Common<%END>)"
  ],
- "language_markdown": "one spoken by its creator (typically Common)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1); one spoken by its creator (typically [Common](/Languages.aspx?ID=155))",
+ "legacy_id": "creature-383",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Soulbound Doll](/Monsters.aspx?ID=383)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSoulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal’s soul. These little constructs are created for a variety of reasons—such as to serve as companions or servants—but their free will means their obedience to their creators is hardly a given. Followers of Pharasma generally abhor soulbound dolls, viewing them as a perversion of the natural cycle of souls, and those who worship the Lady of Graves see the destruction of a soulbound doll, regardless of the construct’s alignment, as an important service to the Great Beyond. Soulbound dolls are the simplest in a series of soulbound constructs including human-sized soulbound mannequins, powerful soulbound shells, and sentinel soulbound terra-cotta warriors. Creating them from unwilling living creatures is evil, and an unwilling donor can resist the process with a successful Will save against the creator’s Craft DC, ruining the doll if not preventing the donor’s death. A non-evil doll can only be crafted from the soul of a person who has given consent to such use before their death occurred\n\n Soulbound dolls encountered by adventurers are typically guardians of some sort; despite their diminutive size, the soul fragment’s power makes the doll’s flst more dangerous than a casual observer would expect. Further, it grants the doll a single spell of outsized power given its stature. Because of their autonomy and remarkable intelligence, soulbound dolls are occasionally employed by their crafters as administrators over much more powerful but mindless constructs such as golems, allowing such dolls to control defenses far beyond their own capabilities. Though soulbound dolls contain a small fragment of a soul extracted during or shortly after a person’s death, this doesn’t affect the deceased’s resurrection or progress to the afterlife. This extraction process is lethal to otherwise-living prospective soul donors, though there are rumors of more expensive processes that allows someone to donate a fragment of a living soul without repercussions.\n\n The soul fragment resides in a soul focus gem (Hardness 10) typically embedded in the doll’s neck or chest. The soul fragment isn’t static, and the doll continues to learn from its initial state, meaning its personality and abilities can change, possibly growing closer to the donor’s or moving farther a  eld on its own individual path. The soulbound doll’s focus gem retains the doll’s memories even after the doll’s destruction. The the intact soul focus gem of a destroyed doll can even be placed into a new doll body by someone knowledgeable in the creation of soulbound creatures, effectively reconstituting the soulbound doll.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/SoulboundDoll.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Soulbound Doll](/Monsters.aspx?ID=383)</title>\r\n\r\n<traits>\r\n<trait label=\"Any\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Soulbound\" url=\"/Traits.aspx?ID=237\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 304</row>\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\none spoken by its creator (typically Common)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Occultism](/Skills.aspx?ID=11) +4, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Personality Fragments** A soulbound doll shares fragments of its donor soul’s personality, though none of that creature’s memories. This causes a soulbound doll to match the donor soul’s alignment and gain the corresponding alignment traits.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 23\n\n**Immunities**\r\nbleed, death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Occult Innate Spells** DC 18, attack +8\r\n- **Cantrips (1st)**\r\n[Light](/Spells.aspx?ID=171), [Mage Hand](/Spells.aspx?ID=177), [Prestidigitation](/Spells.aspx?ID=229)\r\n- **3rd**\r\n[Levitate](/Spells.aspx?ID=170), one additional spell depending on the donor soul's alignment (see sidebar)\n\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Innate Spells</title>\r\n\r\nA soulbound doll's additional 3rd-level innate spell depends on its alignment, as listed below. <br />**Lawful Good**: [_zone of truth_](/Spells.aspx?ID=379); **Neutral Good**: [_heroism_](/Spells.aspx?ID=149); **Chaotic Good**: [_heal_](/Spells.aspx?ID=148); **Lawful Neutral**: [_nondetection_](/Spells.aspx?ID=209); **Neutral**: [_wall of thorns_](/Spells.aspx?ID=366); **Chaotic Neutral**: [_grease_](/Spells.aspx?ID=140); **Lawful Evil**: [_chilling darkness_](/Spells.aspx?ID=36); **Neutral Evil**: [_harm_](/Spells.aspx?ID=146); **Chaotic Evil**: [_vampiric touch_](/Spells.aspx?ID=354)\r\n</aside>",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Soulbound Doll](/Monsters.aspx?ID=3204)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSoulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal's soul. These little constructs are created for a variety of reasons—such as to serve as companions or servants— but their free will means their obedience to their creators is hardly a given. Followers of [Pharasma](/Deities.aspx?ID=290) generally abhor soulbound dolls, viewing them as a perversion of the natural cycle of souls, and those who worship the Lady of Graves see the destruction of a soulbound doll, regardless of the construct's behavior, as an important service to the Great Beyond.\n\n Soulbound dolls are the simplest in a series of soulbound constructs, including human-sized soulbound mannequins, powerful soulbound shells, and sentinel soulbound terra-cotta warriors. Creating them from unwilling living creatures is cruel, and an unwilling donor can resist the process with a successful Will save against the creator's [Craft](/Actions.aspx?ID=2385) DC, ruining the doll if not preventing the donor's death. A doll can also be crafted from the soul of a person who has given consent to such use before their death.\n\n Soulbound dolls encountered by adventurers are typically guardians of some sort; despite their diminutive size, the soul fragment's power makes the doll's fist more dangerous than a casual observer would expect. Further, it grants the doll a single spell of outsized power, given its stature. Because of their autonomy and remarkable intelligence, soulbound dolls are occasionally employed by their crafters as administrators over much more powerful but mindless constructs, allowing such dolls to control defenses far beyond their own capabilities.\n\n Though soulbound dolls contain a small fragment of a soul extracted during or shortly after a person's death, this doesn't affect the deceased's resurrection or progress to the afterlife. This extraction process is typically lethal to otherwise living prospective soul donors.\n\n The soul fragment resides in a soul focus gem (Hardness 10) typically embedded in the doll's neck or chest. The soul fragment generally clings to a strong personality trait of the original soul, but the doll continues to learn from its initial state, meaning its personality and abilities can change, possibly growing closer to the donor's or moving farther afield on its own individual path. The soulbound doll's focus gem retains the doll's memories even after the doll's destruction. The intact soul focus gem of a destroyed doll can even be placed into a new doll body by someone knowledgeable in the creation of soulbound creatures, effectively reconstituting the soulbound doll.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Crafting](/Skills.aspx?ID=37)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Soulbound_Doll.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Soulbound Doll](/Monsters.aspx?ID=3204)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=563\" />\r\n<trait label=\"Soulbound\" url=\"/Traits.aspx?ID=773\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 318\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1); one spoken by its creator (typically [Common](/Languages.aspx?ID=155))\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Occultism](/Skills.aspx?ID=11) +4, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Personality Fragments** A soulbound doll shares fragments of its donor soul's personality, though none of that creature's memories. This causes a soulbound doll to match a strong personality trait of the donor soul (see sidebar). Because of its soul sliver, a soulbound doll is not immune to spirit as most constructs are.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 23\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [doomed](/Conditions.aspx?ID=67), [drained](/Conditions.aspx?ID=68), [fatigued](/Conditions.aspx?ID=73), [healing](/Traits.aspx?ID=623), [nonlethal](/Traits.aspx?ID=661) attacks, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sickened](/Conditions.aspx?ID=91), [unconscious](/Conditions.aspx?ID=95), [vitality](/Traits.aspx?ID=509), [void](/Traits.aspx?ID=510)\r\n\r\n**Resistances**\r\nbludgeoning 3, piercing 5, slashing 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [reach 0 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Occult Innate Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\n[Light](/Spells.aspx?ID=171), [Prestidigitation](/Spells.aspx?ID=229), [Telekinetic Hand](/Spells.aspx?ID=1715)\r\n- **2nd**\r\none spell based on donor soul's personality trait (see sidebar)\r\n- **3rd**\r\n[Levitate](/Spells.aspx?ID=170)\n\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Soulbound Personalities</title>\r\n\r\nA soulbound doll's additional 2nd-rank innate spell depends on a strong personality trait it had in life, as listed below.\n\n **Brave**: [_enlarge_](/Spells.aspx?ID=1514)<br /> **Calm**: [_calm_](/Spells.aspx?ID=1458)<br /> **Careful**: [_augury_](/Spells.aspx?ID=1445)<br /> **Cruel**: [_harm_](/Spells.aspx?ID=1552)<br /> **Gentle**: [_peaceful rest_](/Spells.aspx?ID=1625)<br /> **Impish**: [_disguise magic_](/Spells.aspx?ID=1491)<br /> **Jolly**: [_laughing fit_](/Spells.aspx?ID=1583)<br /> **Kind**: [_heal_](/Spells.aspx?ID=1554)<br /> **Rash**: [_breathe fire_](/Spells.aspx?ID=1457)<br /> **Sassy**: [_dispel magic_](/Spells.aspx?ID=1493)<br /> **Timid**: [_invisibility_](/Spells.aspx?ID=1577)\r\n</aside>",
  "name": "Soulbound Doll",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 318",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 10,
- "release_date": "2019-08-01",
- "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Soulbound\" url=\"/Traits.aspx?ID=237\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 304</row>\n\n<row gap=\"medium\">\r\n**HP** 23\r\n\r\n**AC** 20\r\n\r\n**Fort** +7\r\n\r\n**Ref** +10\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSoulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal’s soul. These little constructs are …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {
+  "bludgeoning": 3,
+  "piercing": 5,
+  "slashing": 3
+ },
+ "resistance_markdown": "bludgeoning 3, piercing 5, slashing 3",
+ "resistance_raw": "bludgeoning 3, piercing 5, slashing 3",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=563\" />\r\n<trait label=\"Soulbound\" url=\"/Traits.aspx?ID=773\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 318\n\n<row gap=\"medium\">\r\n**HP** 23\r\n\r\n**AC** 17\r\n\r\n**Fort** +7\r\n\r\n**Ref** +10\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSoulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal's soul. These little constructs are …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Occultism +4",
-  "Stealth +8"
+  "Acrobatics",
+  "Occultism",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Occultism](/Skills.aspx?ID=11) +4, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill_mod": {
+  "acrobatics": 8,
+  "occultism": 4,
+  "stealth": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 304"
+  "Monster Core pg. 318"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 304</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 318",
  "speed": {
   "land": 20,
   "max": 20
@@ -79,38 +126,78 @@
  "spell": [
   "Levitate",
   "Light",
-  "Mage Hand",
   "Prestidigitation",
-  "Zone of Truth"
+  "Telekinetic Hand",
+  "Abyssal Plague"
  ],
- "spell_markdown": "[Levitate](/Spells.aspx?ID=170), [Light](/Spells.aspx?ID=171), [Mage Hand](/Spells.aspx?ID=177), [Prestidigitation](/Spells.aspx?ID=229), [Zone of Truth](/Spells.aspx?ID=379)",
+ "spell_markdown": "[Abyssal Plague](/Spells.aspx?ID=1), [Levitate](/Spells.aspx?ID=170), [Light](/Spells.aspx?ID=171), [Prestidigitation](/Spells.aspx?ID=229), [Telekinetic Hand](/Spells.aspx?ID=1715)",
+ "spell_attack_bonus": [
+  10
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "8",
+ "strike_damage_average": [
+  5
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal’s soul. These little constructs are …",
- "summary_markdown": "Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal’s soul. These little constructs are …",
- "text": " Soulbound Doll Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal’s soul. These little constructs are created for a variety of reasons—such as to serve as companions or servants—but their free will means their obedience to their creators is hardly a given. Followers of Pharasma generally abhor soulbound dolls, viewing them as a perversion of the natural cycle of souls, and those who worship the Lady of Graves see the destruction of a soulbound doll, regardless of the construct’s alignment, as an important service to the Great Beyond. Soulbound dolls are the simplest in a series of soulbound constructs including human-sized soulbound mannequins, powerful soulbound shells, and sentinel soulbound terra-cotta warriors. Creating them from unwilling living creatures is evil, and an unwilling donor can resist the process with a successful Will save against the creator’s Craft DC, ruining the doll if not preventing the donor’s death. A non-evil doll can only be crafted from the soul of a person who has given consent to such use before their death occurred Soulbound dolls encountered by adventurers are typically guardians of some sort; despite their diminutive size, the soul fragment’s power makes the doll’s flst more dangerous than a casual observer would expect. Further, it grants the doll a single spell of outsized power given its stature. Because of their autonomy and remarkable intelligence, soulbound dolls are occasionally employed by their crafters as administrators over much more powerful but mindless constructs such as golems, allowing such dolls to control defenses far beyond their own capabilities. Though soulbound dolls contain a small fragment of a soul extracted during or shortly after a person’s death, this doesn’t affect the deceased’s resurrection or progress to the afterlife. This extraction process is lethal to otherwise-living prospective soul donors, though there are rumors of more expensive processes that allows someone to donate a fragment of a living soul without repercussions. The soul fragment resides in a soul focus gem (Hardness 10) typically embedded in the doll’s neck or chest. The soul fragment isn’t static, and the doll continues to learn from its initial state, meaning its personality and abilities can change, possibly growing closer to the donor’s or moving farther a eld on its own individual path. The soulbound doll’s focus gem retains the doll’s memories even after the doll’s destruction. The the intact soul focus gem of a destroyed doll can even be placed into a new doll body by someone knowledgeable in the creation of soulbound creatures, effectively reconstituting the soulbound doll. Recall Knowledge - Construct (Arcana, Crafting): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Soulbound Doll Source Bestiary pg. 304 Perception +8; darkvision Languages one spoken by its creator (typically Common) Skills Acrobatics +8, Occultism +4, Stealth +8 Str -2 Dex +4 Con +3 Int +0 Wis +2 Cha +0 Personality Fragments A soulbound doll shares fragments of its donor soul’s personality, though none of that creature’s memories. This causes a soulbound doll to match the donor soul’s alignment and gain the corresponding alignment traits. --- AC 20 Fort +7 Ref +10 Will +6 HP 23 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious --- Speed 20 feet Melee Single Action fist +10 (Agile, Finesse, Magical), Damage 1d6+2 bludgeoning Occult Innate Spells DC 18, attack +8 - Cantrips (1st) Light, Mage Hand, Prestidigitation - 3rd Levitate, one additional spell depending on the donor soul's alignment (see sidebar) Innate Spells A soulbound doll's additional 3rd-level innate spell depends on its alignment, as listed below. Lawful Good : zone of truth ; Neutral Good : heroism ; Chaotic Good : heal ; Lawful Neutral : nondetection ; Neutral : wall of thorns ; Chaotic Neutral : grease ; Lawful Evil : chilling darkness ; Neutral Evil : harm ; Chaotic Evil : vampiric touch ",
+ "summary": "Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal's soul. These little constructs are …",
+ "summary_markdown": "Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal's soul. These little constructs are …",
+ "text": " Soulbound Doll Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal's soul. These little constructs are created for a variety of reasons—such as to serve as companions or servants— but their free will means their obedience to their creators is hardly a given. Followers of Pharasma generally abhor soulbound dolls, viewing them as a perversion of the natural cycle of souls, and those who worship the Lady of Graves see the destruction of a soulbound doll, regardless of the construct's behavior, as an important service to the Great Beyond. Soulbound dolls are the simplest in a series of soulbound constructs, including human-sized soulbound mannequins, powerful soulbound shells, and sentinel soulbound terra-cotta warriors. Creating them from unwilling living creatures is cruel, and an unwilling donor can resist the process with a successful Will save against the creator's Craft DC, ruining the doll if not preventing the donor's death. A doll can also be crafted from the soul of a person who has given consent to such use before their death. Soulbound dolls encountered by adventurers are typically guardians of some sort; despite their diminutive size, the soul fragment's power makes the doll's fist more dangerous than a casual observer would expect. Further, it grants the doll a single spell of outsized power, given its stature. Because of their autonomy and remarkable intelligence, soulbound dolls are occasionally employed by their crafters as administrators over much more powerful but mindless constructs, allowing such dolls to control defenses far beyond their own capabilities. Though soulbound dolls contain a small fragment of a soul extracted during or shortly after a person's death, this doesn't affect the deceased's resurrection or progress to the afterlife. This extraction process is typically lethal to otherwise living prospective soul donors. The soul fragment resides in a soul focus gem (Hardness 10) typically embedded in the doll's neck or chest. The soul fragment generally clings to a strong personality trait of the original soul, but the doll continues to learn from its initial state, meaning its personality and abilities can change, possibly growing closer to the donor's or moving farther afield on its own individual path. The soulbound doll's focus gem retains the doll's memories even after the doll's destruction. The intact soul focus gem of a destroyed doll can even be placed into a new doll body by someone knowledgeable in the creation of soulbound creatures, effectively reconstituting the soulbound doll. Recall Knowledge - Construct (Arcana, Crafting): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Soulbound Doll Source Monster Core pg. 318 Perception +8; darkvision Languages Common; one spoken by its creator (typically Common) Skills Acrobatics +8, Occultism +4, Stealth +8 Str -2 Dex +4 Con +3 Int +0 Wis +2 Cha +0 Personality Fragments A soulbound doll shares fragments of its donor soul's personality, though none of that creature's memories. This causes a soulbound doll to match a strong personality trait of the donor soul (see sidebar). Because of its soul sliver, a soulbound doll is not immune to spirit as most constructs are. --- AC 17 Fort +7 Ref +10 Will +6 HP 23 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, unconscious, vitality, void Resistances bludgeoning 3, piercing 5, slashing 3 --- Speed 20 feet Melee Single Action fist +10 (Agile, Finesse, Magical, reach 0 feet), Damage 1d6+2 bludgeoning Occult Innate Spells DC 18, attack +10 - Cantrips (1st) Light, Prestidigitation, Telekinetic Hand - 2nd one spell based on donor soul's personality trait (see sidebar) - 3rd Levitate Soulbound Personalities A soulbound doll's additional 2nd-rank innate spell depends on a strong personality trait it had in life, as listed below. Brave : enlarge Calm : calm Careful : augury Cruel : harm Gentle : peaceful rest Impish : disguise magic Jolly : laughing fit Kind : heal Rash : breathe fire Sassy : dispel magic Timid : invisibility ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Construct",
   "Soulbound",
-  "Any",
   "Tiny"
  ],
- "trait_markdown": "[Construct](/Traits.aspx?ID=35), [Soulbound](/Traits.aspx?ID=237)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Construct](/Traits.aspx?ID=563), [Soulbound](/Traits.aspx?ID=773)",
  "trait_raw": [
   "Construct",
   "Soulbound"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=383",
+ "url": "/Monsters.aspx?ID=3204",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 6,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,45 +1,57 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Master of Many Styles"
  ],
  "feat_markdown": "Master of Many Styles",
- "id": "feat-480",
+ "id": "feat-4850",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Master of Many Styles](/Feats.aspx?ID=480) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 165 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[Stance Savant (Monk)](/Feats.aspx?ID=472)\n\n**Trigger**\r\nYour turn begins\n\n</column>\r\n\r\n---\r\n\r\nYou move between stances in an unceasing dance. You use an action with the stance trait.\n\n<title level=\"2\">Master of Many Styles leads to...</title>\r\n[Ki Center](/Feats.aspx?ID=1759)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Master of Many Styles](/Feats.aspx?ID=4850) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 150, [Core Rulebook](/Sources.aspx?ID=1) pg. 165 <sup>4.0</sup>\n\n**Prerequisites**\r\n[Opening Stance (Fighter)](/Feats.aspx?ID=4845)\n\n**Trigger**\r\nYour turn begins\n\n</column>\r\n\r\n---\r\n\r\nYou move fluidly between stances, using your mastery of combat to always adopt the best tactics. You use an action with the stance trait.",
  "name": "Master of Many Styles",
  "pfs": "Standard",
- "prerequisite": "Stance Savant (Monk)",
- "prerequisite_markdown": "[Stance Savant (Monk)](/Feats.aspx?ID=472)",
+ "prerequisite": "Opening Stance (Fighter)",
+ "prerequisite_markdown": "[Opening Stance (Fighter)](/Feats.aspx?ID=4845)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 150",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 165 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[Stance Savant (Monk)](/Feats.aspx?ID=472)\n\n**Trigger**\r\nYour turn begins\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou move between stances in an unceasing dance.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 150, [Core Rulebook](/Sources.aspx?ID=1) pg. 165 <sup>4.0</sup>\n\n**Prerequisites**\r\n[Opening Stance (Fighter)](/Feats.aspx?ID=4845)\n\n**Trigger**\r\nYour turn begins\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou move fluidly between stances, using your mastery of combat to always adopt the best tactics.\r\n</summary>",
+ "skill_mod": {},
  "source": [
+  "Player Core",
   "Core Rulebook"
  ],
  "source_raw": [
+  "Player Core pg. 150",
   "Core Rulebook pg. 165"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 165 <sup>4.0</sup></row>",
- "speed": {},
- "summary": "You move between stances in an unceasing dance.",
- "summary_markdown": "You move between stances in an unceasing dance.",
- "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Master of Many Styles Free Action Source Core Rulebook pg. 165 4.0 Prerequisites Stance Savant (Monk) Trigger Your turn begins --- You move between stances in an unceasing dance. You use an action with the stance trait. Master of Many Styles leads to... Ki Center",
- "trait": [
-  "Monk"
+ "source_category": [
+  "Rulebooks"
  ],
- "trait_markdown": "[Monk](/Traits.aspx?ID=112)",
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 150, [Core Rulebook](/Sources.aspx?ID=1) pg. 165 <sup>4.0</sup>",
+ "speed": {},
+ "summary": "You move fluidly between stances, using your mastery of combat to always adopt the best tactics.",
+ "summary_markdown": "You move fluidly between stances, using your mastery of combat to always adopt the best tactics.",
+ "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Master of Many Styles Free Action Source Player Core pg. 150, Core Rulebook pg. 165 4.0 Prerequisites Opening Stance (Fighter) Trigger Your turn begins --- You move fluidly between stances, using your mastery of combat to always adopt the best tactics. You use an action with the stance trait.",
+ "trait": [
+  "Fighter"
+ ],
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Fighter](/Traits.aspx?ID=601)",
  "trait_raw": [
-  "Monk"
+  "Fighter"
  ],
  "trigger": "Your turn begins",
  "trigger_markdown": "Your turn begins",
  "type": "Feat",
- "url": "/Feats.aspx?ID=480",
+ "url": "/Feats.aspx?ID=4850",
  "weakness": {}
 }

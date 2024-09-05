@@ -1,0 +1,165 @@
+{
+ "ac": 35,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  29,
+  31,
+  31
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 8,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Inexorable",
+  "Slough Skin",
+  "Benthic Worm Venom",
+  "Breach",
+  "Fast Swallow",
+  "Swallow Whole",
+  "Thrash"
+ ],
+ "creature_family": "Cave Worm",
+ "creature_family_markdown": "[Cave Worm](/MonsterFamilies.aspx?ID=378)",
+ "dexterity": -1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 32,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
+ "hp": 320,
+ "hp_raw": "320",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2872",
+ "image": [
+  "/Images/Monsters/Benthic_Worm.webp"
+ ],
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "legacy_id": "creature-74",
+ "legacy_name": "Azure Worm",
+ "level": 15,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Benthic Worm](/Monsters.aspx?ID=2872)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe benthic worm is a deep-blue creature that is more at home in flooded tunnels than dry caves. While a benthic worm is a strong swimmer, it prefers to lie in wait within the walls, floor, or even ceiling of flooded caverns, ready to spring out and ambush creatures swimming past its hiding spot. The benthic worm is particularly hated and feared by Darklands-dwelling cultures, due to the fact that a benthic worm that burrows into a tunnel often brings with it waters from the submerged river or lake it calls home. When it becomes obvious that a benthic worm is near a Darklands settlement, the inhabitants quickly establish a hunting party to deal with the menace before it can bring ruin.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Benthic_Worm.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 15\">[Benthic Worm](/Monsters.aspx?ID=2872)</title>\r\n\r\n<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 56\n\n**Perception** +22; [darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +33, [Stealth](/Skills.aspx?ID=15) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +10\r\n\r\n**Dex** -1\r\n\r\n**Con** +8\r\n\r\n**Int** -5\r\n\r\n**Wis** -1\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 35 \r\n\r\n**Fort** +32 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +23 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 320\n\n</row>\n\n**Inexorable** The cave worm recovers from the [paralyzed](/Conditions.aspx?ID=85), [slowed](/Conditions.aspx?ID=92), and [stunned](/Conditions.aspx?ID=93) conditions at the end of its turn. It's also immune to penalties to its Speeds and the [immobilized](/Conditions.aspx?ID=81) condition, and it ignores [difficult terrain](/Rules.aspx?ID=453) and greater difficult terrain.<br />**Slough Skin** <actions string=\"Reaction\" /> **Frequency** once per day; **Trigger** The cave worm would be affected by a condition or adverse effect (such as [_cursed metamorphosis_](/Spells.aspx?ID=1479)); **Effect** The cave worm negates the triggering condition or effect by sloughing an outer layer of its skin. Effects from [artifacts](/Traits.aspx?ID=537), deities, or a similarly powerful source can't be avoided in this way.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, burrow 40 feet, swim 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +31 ([deadly 2d10](/Traits.aspx?ID=174), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+16 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstinger +31 ([Agile](/Traits.aspx?ID=170), [Poison](/Traits.aspx?ID=126), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d6+16 piercing plus benthic worm venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbody +29 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+14 bludgeoning\n\n**Benthic Worm Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 37 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 3d6 poison damage and [clumsy 2](/Conditions.aspx?ID=61) (1 round); **Stage 2** 4d6 poison damage and clumsy 2 (1 round); **Stage 3** 6d6 poison damage and clumsy 2 (1 round)\r\n\r\n**Breach** <actions string=\"Two Actions\" />  The benthic worm Swims up to its swim Speed, then [Leaps](/Actions.aspx?ID=2298) vertically out of the water up to 30 feet, making a Strike against a creature at the apex of the jump (this lets it attack a creature within 45 feet of the water's surface). After the Strike, the worm splashes back down. It can use [Improved Grab](/MonsterAbilities.aspx?ID=66) on this Strike and follow it up with Fast Swallow.\r\n\r\n**Fast Swallow** <actions string=\"Reaction\" />  **Trigger** The worm Grabs a creature; **Effect** The worm uses Swallow Whole.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Huge, 3d8+10 bludgeoning, Rupture 27\r\n\r\n**Thrash** <actions string=\"Two Actions\" />  The worm attempts one Strike against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-378\" />",
+ "name": "Benthic Worm",
+ "npc": false,
+ "perception": 22,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 56",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 20,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 56\r\n\r\n**Creature Family** [Cave Worm](/MonsterFamilies.aspx?ID=378)\r\n\r\n<row gap=\"medium\">\r\n**HP** 320\r\n\r\n**AC** 35\r\n\r\n**Fort** +32\r\n\r\n**Ref** +20\r\n\r\n**Will** +23\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe benthic worm is a deep-blue creature that is more at home in flooded tunnels than dry caves. While a benthic worm is a strong swimmer, it prefers …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  ( imprecise ) 100 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +33, [Stealth](/Skills.aspx?ID=15) +20",
+ "skill_mod": {
+  "athletics": 33,
+  "stealth": 20
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 56"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 56",
+ "speed": {
+  "burrow": 40,
+  "land": 40,
+  "max": 60,
+  "swim": 60
+ },
+ "speed_markdown": "40 feet, burrow 40 feet, swim 60 feet",
+ "speed_raw": "40 feet, burrow 40 feet, swim 60 feet",
+ "spell_markdown": "",
+ "stealth": "20",
+ "strike_damage_average": [
+  23,
+  30,
+  35
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 10,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "The benthic worm is a deep-blue creature that is more at home in flooded tunnels than dry caves. While a benthic worm is a strong swimmer, it prefers …",
+ "summary_markdown": "The benthic worm is a deep-blue creature that is more at home in flooded tunnels than dry caves. While a benthic worm is a strong swimmer, it prefers …",
+ "text": " Benthic Worm The benthic worm is a deep-blue creature that is more at home in flooded tunnels than dry caves. While a benthic worm is a strong swimmer, it prefers to lie in wait within the walls, floor, or even ceiling of flooded caverns, ready to spring out and ambush creatures swimming past its hiding spot. The benthic worm is particularly hated and feared by Darklands-dwelling cultures, due to the fact that a benthic worm that burrows into a tunnel often brings with it waters from the submerged river or lake it calls home. When it becomes obvious that a benthic worm is near a Darklands settlement, the inhabitants quickly establish a hunting party to deal with the menace before it can bring ruin. Recall Knowledge - Animal (Nature): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Benthic Worm Source Monster Core pg. 56 Perception +22; darkvision, tremorsense (imprecise) 100 feet Languages Skills Athletics +33, Stealth +20 Str +10 Dex -1 Con +8 Int -5 Wis -1 Cha -1 --- AC 35 Fort +32 Ref +20 Will +23 HP 320 Inexorable The cave worm recovers from the paralyzed, slowed, and stunned conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain. Slough Skin Reaction Frequency once per day; Trigger The cave worm would be affected by a condition or adverse effect (such as cursed metamorphosis ); Effect The cave worm negates the triggering condition or effect by sloughing an outer layer of its skin. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way. --- Speed 40 feet, burrow 40 feet, swim 60 feet Melee Single Action jaws +31 (deadly 2d10, reach 15 feet), Damage 3d12+16 piercing plus Improved Grab Melee Single Action stinger +31 (Agile, Poison, reach 15 feet), Damage 4d6+16 piercing plus benthic worm venom Melee Single Action body +29 (reach 15 feet), Damage 2d8+14 bludgeoning Benthic Worm Venom (Poison) Saving Throw DC 37 Fortitude; Maximum Duration 6 rounds; Stage 1 3d6 poison damage and clumsy 2 (1 round); Stage 2 4d6 poison damage and clumsy 2 (1 round); Stage 3 6d6 poison damage and clumsy 2 (1 round) Breach Two Actions The benthic worm Swims up to its swim Speed, then Leaps vertically out of the water up to 30 feet, making a Strike against a creature at the apex of the jump (this lets it attack a creature within 45 feet of the water's surface). After the Strike, the worm splashes back down. It can use Improved Grab on this Strike and follow it up with Fast Swallow. Fast Swallow Reaction Trigger The worm Grabs a creature; Effect The worm uses Swallow Whole. Swallow Whole Single Action (Attack) Huge, 3d8+10 bludgeoning, Rupture 27 Thrash Two Actions The worm attempts one Strike against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Animal",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Amphibious",
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2872",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 23,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": -1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

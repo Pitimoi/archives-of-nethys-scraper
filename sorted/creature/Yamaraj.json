@@ -1,86 +1,132 @@
 {
  "ac": 45,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  38,
+  38,
+  38
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 6,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Frightful Presence",
   "Lightning Drinker",
-  "Breath Weapon",
+  "Beetle Breath",
   "Final Judgment",
-  "Spirit Touch",
+  "Shepherd's Touch",
   "Yamaraj Venom"
  ],
  "creature_family": "Psychopomp",
- "creature_family_markdown": "[Psychopomp](/MonsterFamilies.aspx?ID=83)",
+ "creature_family_markdown": "[Psychopomp](/MonsterFamilies.aspx?ID=458)",
  "dexterity": 7,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 33,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 375,
- "hp_raw": "375 ( fast healing 20 , lightning drinker)",
- "id": "creature-770",
+ "hp_raw": "375 ( fast healing  20, lightning drinker)",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3150",
  "image": [
-  "/Images/Monsters/Psychopomp_Yamaraj.png"
+  "/Images/Monsters/Yamaraj.webp"
  ],
  "immunity": [
   "death  effects",
   "disease",
-  "electricity (see lightning drinker)"
+  "electricity  (see lightning drinker)"
  ],
- "immunity_markdown": "[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), electricity (see lightning drinker)",
+ "immunity_markdown": "[death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [electricity](/Traits.aspx?ID=586) (see lightning drinker)",
  "intelligence": 10,
+ "intelligence_scale": "High",
+ "intelligence_scale_number": 4,
  "language": [
-  "Abyssal",
-  "Celestial",
-  "Infernal",
+  "Chthonian",
+  "Diabolic",
+  "Empyrean",
   "Requian",
-  "<%UMR%37%%>telepathy 120 feet<%END>, <%SPELLS%340%%><i>tongues</i><%END>"
+  "<%UMR%79%%>telepathy<%END> 120 feet, <%SPELLS%1728%%><i>truespeech</i><%END>"
  ],
- "language_markdown": "[Abyssal](/Languages.aspx?ID=12), [Celestial](/Languages.aspx?ID=16), [Infernal](/Languages.aspx?ID=19), [Requian](/Languages.aspx?ID=34); [telepathy 120 feet](/MonsterAbilities.aspx?ID=37), [_tongues_](/Spells.aspx?ID=340)",
+ "language_markdown": "[Chthonian](/Languages.aspx?ID=114), [Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115), [Requian](/Languages.aspx?ID=34); [telepathy](/MonsterAbilities.aspx?ID=79) 120 feet, [_truespeech_](/Spells.aspx?ID=1728)",
+ "legacy_id": "creature-770",
  "level": 20,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Yamaraj](/Monsters.aspx?ID=770)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe greatest judges among the psychopomps are the massive yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or [Pharasma](/Deities.aspx?ID=14) herself. A yamaraj resembles an immense dragon with dark, feathery scales and an emotionless, dispassionate gaze behind a feathered mask. When not serving as the senior magistrates, lords, and generals of the [Boneyard](/Planes.aspx?ID=15), yamarajes pursue highly individualistic hobbies, such as gardening or literature. They are willing to halt in their duties to converse with mortals whose expertise matches their interests.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Monitor](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 42\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 40\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 37\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Psychopomp_Yamaraj.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 20\">[Yamaraj](/Monsters.aspx?ID=770)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Monitor\" url=\"/Traits.aspx?ID=111\" />\r\n<trait label=\"Psychopomp\" url=\"/Traits.aspx?ID=232\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 211 <sup>2.0</sup></row>\n\n**Perception** +37; [darkvision](/MonsterAbilities.aspx?ID=12), [lifesense 240 feet](/MonsterAbilities.aspx?ID=21), [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12), [Celestial](/Languages.aspx?ID=16), [Infernal](/Languages.aspx?ID=19), [Requian](/Languages.aspx?ID=34); [telepathy 120 feet](/MonsterAbilities.aspx?ID=37), [_tongues_](/Spells.aspx?ID=340)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +36, [Boneyard Lore](/Skills.aspx?ID=8) +40, [Deception](/Skills.aspx?ID=5) +34, [Diplomacy](/Skills.aspx?ID=6) +34, [Intimidation](/Skills.aspx?ID=7) +36, [Legal Lore](/Skills.aspx?ID=8) +40, [Occultism](/Skills.aspx?ID=11) +38, [Religion](/Skills.aspx?ID=13) +38, [Society](/Skills.aspx?ID=14) +38\r\n\r\n<row gap=\"medium\">\r\n**Str** +10\r\n\r\n**Dex** +7\r\n\r\n**Con** +7\r\n\r\n**Int** +10\r\n\r\n**Wis** +7\r\n\r\n**Cha** +6\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 45 \r\n\r\n**Fort** +33 \r\n\r\n**Ref** +31 \r\n\r\n**Will** +35 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 375\r\n([fast healing 20](/MonsterAbilities.aspx?ID=15), lightning drinker)\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), electricity (see lightning drinker)\r\n\r\n**Resistances**\r\nnegative 20, poison 20\n\n**[Frightful Presence](/MonsterAbilities.aspx?ID=17)** ([aura](/Traits.aspx?ID=206), [emotion](/Traits.aspx?ID=60), [fear](/Traits.aspx?ID=68), [mental](/Traits.aspx?ID=106)) 60 feet, DC 39<br />**Lightning Drinker** Whenever a yamaraj would take electricity damage if not for its immunity, its fast healing increases to 40 on its next turn. During that turn, if it uses its breath weapon, the beetles crackle with electricity and deal 2d12 additional electricity damage.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, fly 50 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +38 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d8+18 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=27) and yamaraj venom and spirit touch\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +38 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d4+18 slashing plus spirit touch\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +38 ([Magical](/Traits.aspx?ID=103), [reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d10+18 bludgeoning plus spirit touch\r\n\r\n**Divine Innate Spells** DC 44\r\n- **5th**\r\n[Dimension Door](/Spells.aspx?ID=69) (at will), [Mind Probe](/Spells.aspx?ID=193) (at will)\r\n- **8th**\r\n[Chain Lightning](/Spells.aspx?ID=33) (×3), [Dispel Magic](/Spells.aspx?ID=78) (×3), [Spirit Song](/Spells.aspx?ID=303), [Wall of Force](/Spells.aspx?ID=363)\r\n- **9th**\r\n[Bind Soul](/Spells.aspx?ID=21), [Harm](/Spells.aspx?ID=146), [Heal](/Spells.aspx?ID=148), [Wail of the Banshee](/Spells.aspx?ID=361)\r\n- **10th**\r\n[Miracle](/Spells.aspx?ID=196), [Revival](/Spells.aspx?ID=262)\r\n- **Constant (10th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Rituals** DC 44\r\n\r\n- **5th**\r\n[Call Spirit](/Rituals.aspx?ID=5), [Resurrect](/Rituals.aspx?ID=20)\r\n\r\n**Breath Weapon** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65)) The yamaraj breathes a blast of beetles in a 50-foot cone that deals 14d8 slashing damage and 4d8 [persistent slashing damage](/Conditions.aspx?ID=29) to creatures in the area (DC 42 Reflex save). It can't use Breath Weapon again for 1d4 rounds. <br />**Critical Success** The creature takes no damage. <br />**Success** The creature takes half damage and is [sickened 1](/Conditions.aspx?ID=34). <br />**Failure** The creature takes full damage and is sickened 2. <br />**Critical Failure** The creature takes double damage and is sickened 3.\r\n\r\n**Final Judgment**   A yamaraj's miracle spells are used only to pronounce judgment, typically either to restore a dead or destroyed creature to life, bind a creature to the [Boneyard](/Planes.aspx?ID=15), or banish a creature from the Boneyard.\r\n\r\n**Spirit Touch**   A yamaraj's Strikes affect [incorporeal](/Traits.aspx?ID=222) creatures with the effects of a [_ghost touch_](/Equipment.aspx?ID=297) property rune and deal 3d6 negative damage to living creatures and 3d6 positive damage to undead.\r\n\r\n**Yamaraj Venom**  ([Poison](/Traits.aspx?ID=126)) While a creature is [clumsy](/Conditions.aspx?ID=3) from this poison, it is [doomed](/Conditions.aspx?ID=9) with the same value; **Saving Throw** DC 42 Fortitude; **Maximum Duration** 10 rounds; **Stage 1** 3d8 poison damage and clumsy 1 (1 round); **Stage 2** 5d8 poison damage and clumsy 2 (1 round); **Stage 3** 7d8 poison damage and clumsy 3 (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-83\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Yamaraj](/Monsters.aspx?ID=3150)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe greatest judges among the psychopomps are yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or [Pharasma](/Deities.aspx?ID=290) herself. A yamaraj resembles an immense dragon with dark, feathery scales and an emotionless, dispassionate gaze behind a feathered mask. When not serving as the senior magistrates, lords,  and generals of the [Boneyard](/Planes.aspx?ID=39), yamarajes pursue highly individualistic hobbies, such as gardening or literature.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Monitor](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 42\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 40\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 37\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Yamaraj.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 20\">[Yamaraj](/Monsters.aspx?ID=3150)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Monitor\" url=\"/Traits.aspx?ID=655\" />\r\n<trait label=\"Psychopomp\" url=\"/Traits.aspx?ID=679\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 277\n\n**Perception** +37; [darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 240 feet, [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Chthonian](/Languages.aspx?ID=114), [Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115), [Requian](/Languages.aspx?ID=34); [telepathy](/MonsterAbilities.aspx?ID=79) 120 feet, [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +38, [Boneyard Lore](/Skills.aspx?ID=8) +40, [Deception](/Skills.aspx?ID=5) +34, [Diplomacy](/Skills.aspx?ID=6) +34, [Intimidation](/Skills.aspx?ID=7) +36, [Legal Lore](/Skills.aspx?ID=8) +40, [Occultism](/Skills.aspx?ID=11) +38, [Religion](/Skills.aspx?ID=13) +38, [Society](/Skills.aspx?ID=14) +38\r\n\r\n<row gap=\"medium\">\r\n**Str** +10\r\n\r\n**Dex** +7\r\n\r\n**Con** +7\r\n\r\n**Int** +10\r\n\r\n**Wis** +7\r\n\r\n**Cha** +6\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 45 \r\n\r\n**Fort** +33 \r\n\r\n**Ref** +31 \r\n\r\n**Will** +35 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 375\r\n([fast healing](/MonsterAbilities.aspx?ID=62) 20, lightning drinker)\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [electricity](/Traits.aspx?ID=586) (see lightning drinker)\r\n\r\n**Resistances**\r\n[poison](/Traits.aspx?ID=669) 20, [void](/Traits.aspx?ID=510) 20\n\n**[Frightful Presence](/MonsterAbilities.aspx?ID=64)** ([aura](/Traits.aspx?ID=542), [emotion](/Traits.aspx?ID=590), [fear](/Traits.aspx?ID=598), [mental](/Traits.aspx?ID=647)) 60 feet, DC 39<br />**Lightning Drinker** Whenever a yamaraj would take electricity damage if not for its immunity, its fast healing increases to 40 on its next turn. During that turn, if it uses Beetle Breath, the beetles deal 2d12 additional electricity damage.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, fly 50 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +38 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d8+18 piercing plus Improved [Grab](/MonsterAbilities.aspx?ID=45) and yamaraj venom and 3d6 shepherd's touch\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +38 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d4+18 slashing plus 3d6 shepherd's touch\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +38 ([Magical](/Traits.aspx?ID=103), [reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d10+18 bludgeoning plus 3d6 shepherd's touch\r\n\r\n**Divine Innate Spells** DC 44\r\n- **5th**\r\n[Translocate](/Spells.aspx?ID=1724) (at will), [Mind Probe](/Spells.aspx?ID=193) (at will)\r\n- **8th**\r\n[Chain Lightning](/Spells.aspx?ID=33) (×3), [Dispel Magic](/Spells.aspx?ID=78) (×3), [Wall of Force](/Spells.aspx?ID=363)\r\n- **9th**\r\n[Harm](/Spells.aspx?ID=146), [Heal](/Spells.aspx?ID=148), [Seize Soul](/Spells.aspx?ID=1664), [Spirit Blast](/Spells.aspx?ID=301), [Wails of the Damned](/Spells.aspx?ID=1747)\r\n- **10th**\r\n[Manifestation](/Spells.aspx?ID=1592) (see final judgment), [Revival](/Spells.aspx?ID=262)\r\n- **Constant (10th)**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n\r\n**Rituals** DC 44\r\n\r\n- **5th**\r\n[Call Spirit](/Rituals.aspx?ID=5), [Resurrect](/Rituals.aspx?ID=20)\r\n\r\n**Beetle Breath** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48)) The yamaraj breathes a blast of beetles in a 50-foot cone that deals 14d8 slashing damage and 4d8 [persistent slashing damage](/Conditions.aspx?ID=29) to creatures in the area with a DC 42 Reflex save. It can't use Beetle Breath again for 1d4 rounds.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature takes half damage and is [sickened 1](/Conditions.aspx?ID=91).<br /> **Failure** The creature takes full damage and is sickened 2.<br /> **Critical Failure** The creature takes double damage and is sickened 3.\r\n\r\n**Final Judgment**   A yamaraj's [_manifestation_](/Spells.aspx?ID=1592) spells are used only to pronounce judgment, typically either to restore a dead or destroyed creature to life, bind a creature to the [Boneyard](/Planes.aspx?ID=39), or banish a creature from the Boneyard.\r\n\r\n**Shepherd's Touch**   A yamaraj's Strikes have the benefit of a [_ghost touch_](/Equipment.aspx?ID=2840) property rune and deal an additional 3d6 void damage to living creatures or 3d6 vitality damage to undead.\r\n\r\n**Yamaraj Venom**  ([Poison](/Traits.aspx?ID=126)) While a creature is [clumsy](/Conditions.aspx?ID=61) from this poison, it is [doomed](/Conditions.aspx?ID=67) with the same value; **Saving Throw** DC 42 Fortitude; **Maximum Duration** 10 rounds; **Stage 1** 3d8 poison damage and [clumsy 1](/Conditions.aspx?ID=61) (1 round); **Stage 2** 5d8 poison damage and clumsy 2 (1 round); **Stage 3** 7d8 poison damage and clumsy 3 (1 round).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-458\" />",
  "name": "Yamaraj",
  "npc": false,
  "perception": 37,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 277",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 31,
- "release_date": "2020-05-27",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
-  "negative": 20,
   "poison": 20
  },
- "resistance_markdown": "negative 20, poison 20",
- "resistance_raw": "negative 20, poison 20",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Monitor\" url=\"/Traits.aspx?ID=111\" />\r\n<trait label=\"Psychopomp\" url=\"/Traits.aspx?ID=232\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 211 <sup>2.0</sup></row>\r\n\r\n**Creature Family** [Psychopomp](/MonsterFamilies.aspx?ID=83)\r\n\r\n<row gap=\"medium\">\r\n**HP** 375 ( fast healing 20 , lightning drinker)\r\n\r\n**AC** 45\r\n\r\n**Fort** +33\r\n\r\n**Ref** +31\r\n\r\n**Will** +35\r\n\r\n**Perception** +37\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe greatest judges among the psychopomps are the massive yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or  …\r\n</summary>",
- "sense": " darkvision ,  lifesense 240 feet ,   true seeing  ",
- "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [lifesense 240 feet](/MonsterAbilities.aspx?ID=21), [_true seeing_](/Spells.aspx?ID=344)",
+ "resistance_markdown": "[poison](/Traits.aspx?ID=669) 20, [void](/Traits.aspx?ID=510) 20",
+ "resistance_raw": " poison  20,  void  20",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Monitor\" url=\"/Traits.aspx?ID=655\" />\r\n<trait label=\"Psychopomp\" url=\"/Traits.aspx?ID=679\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 277\r\n\r\n**Creature Family** [Psychopomp](/MonsterFamilies.aspx?ID=458)\r\n\r\n<row gap=\"medium\">\r\n**HP** 375 ( fast healing  20, lightning drinker)\r\n\r\n**AC** 45\r\n\r\n**Fort** +33\r\n\r\n**Ref** +31\r\n\r\n**Will** +35\r\n\r\n**Perception** +37\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe greatest judges among the psychopomps are yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or  Pharasma  …\r\n</summary>",
+ "sense": " darkvision ,  lifesense  240 feet,   truesight  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 240 feet, [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Huge"
  ],
- "skill": [
-  "Acrobatics +33",
-  "Athletics +36",
-  "Boneyard Lore +40",
-  "Deception +34",
-  "Diplomacy +34",
-  "Intimidation +36",
-  "Legal Lore +40",
-  "Occultism +38",
-  "Religion +38",
-  "Society +38"
+ "size_id": [
+  5
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +36, [Boneyard Lore](/Skills.aspx?ID=8) +40, [Deception](/Skills.aspx?ID=5) +34, [Diplomacy](/Skills.aspx?ID=6) +34, [Intimidation](/Skills.aspx?ID=7) +36, [Legal Lore](/Skills.aspx?ID=8) +40, [Occultism](/Skills.aspx?ID=11) +38, [Religion](/Skills.aspx?ID=13) +38, [Society](/Skills.aspx?ID=14) +38",
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Boneyard Lore",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Legal Lore",
+  "Occultism",
+  "Religion",
+  "Society"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +33, [Athletics](/Skills.aspx?ID=3) +38, [Boneyard Lore](/Skills.aspx?ID=8) +40, [Deception](/Skills.aspx?ID=5) +34, [Diplomacy](/Skills.aspx?ID=6) +34, [Intimidation](/Skills.aspx?ID=7) +36, [Legal Lore](/Skills.aspx?ID=8) +40, [Occultism](/Skills.aspx?ID=11) +38, [Religion](/Skills.aspx?ID=13) +38, [Society](/Skills.aspx?ID=14) +38",
+ "skill_mod": {
+  "acrobatics": 33,
+  "athletics": 38,
+  "deception": 34,
+  "diplomacy": 34,
+  "intimidation": 36,
+  "occultism": 38,
+  "religion": 38,
+  "society": 38
+ },
  "source": [
-  "Bestiary 2"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 2 pg. 211"
+  "Monster Core pg. 277"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 211 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 277",
  "speed": {
   "fly": 50,
   "land": 35,
@@ -90,43 +136,75 @@
  "speed_markdown": "35 feet, fly 50 feet, swim 30 feet",
  "speed_raw": "35 feet, fly 50 feet, swim 30 feet",
  "spell": [
-  "Miracle",
+  "Manifestation",
   "Revival",
-  "Bind Soul",
   "Harm",
   "Heal",
-  "Wail of the Banshee",
+  "Seize Soul",
+  "Spirit Blast",
+  "Wails of the Damned",
   "Chain Lightning",
   "Dispel Magic",
-  "Spirit Song",
   "Wall of Force",
-  "Dimension Door",
+  "Translocate",
   "Mind Probe",
-  "True Seeing"
+  "Truesight"
  ],
- "spell_markdown": "[Bind Soul](/Spells.aspx?ID=21), [Chain Lightning](/Spells.aspx?ID=33), [Dimension Door](/Spells.aspx?ID=69), [Dispel Magic](/Spells.aspx?ID=78), [Harm](/Spells.aspx?ID=146), [Heal](/Spells.aspx?ID=148), [Mind Probe](/Spells.aspx?ID=193), [Miracle](/Spells.aspx?ID=196), [Revival](/Spells.aspx?ID=262), [Spirit Song](/Spells.aspx?ID=303), [True Seeing](/Spells.aspx?ID=344), [Wail of the Banshee](/Spells.aspx?ID=361), [Wall of Force](/Spells.aspx?ID=363)",
+ "spell_markdown": "[Chain Lightning](/Spells.aspx?ID=33), [Dispel Magic](/Spells.aspx?ID=78), [Harm](/Spells.aspx?ID=146), [Heal](/Spells.aspx?ID=148), [Manifestation](/Spells.aspx?ID=1592), [Mind Probe](/Spells.aspx?ID=193), [Revival](/Spells.aspx?ID=262), [Seize Soul](/Spells.aspx?ID=1664), [Spirit Blast](/Spells.aspx?ID=301), [Translocate](/Spells.aspx?ID=1724), [Truesight](/Spells.aspx?ID=1727), [Wails of the Damned](/Spells.aspx?ID=1747), [Wall of Force](/Spells.aspx?ID=363)",
+ "spell_dc": [
+  44
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  38,
+  46,
+  50
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 10,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "will"
  ],
- "summary": "The greatest judges among the psychopomps are the massive yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or  …",
- "summary_markdown": "The greatest judges among the psychopomps are the massive yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or  …",
- "text": " Yamaraj The greatest judges among the psychopomps are the massive yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or Pharasma herself. A yamaraj resembles an immense dragon with dark, feathery scales and an emotionless, dispassionate gaze behind a feathered mask. When not serving as the senior magistrates, lords, and generals of the Boneyard, yamarajes pursue highly individualistic hobbies, such as gardening or literature. They are willing to halt in their duties to converse with mortals whose expertise matches their interests. Recall Knowledge - Monitor (Religion): DC 42 Unspecific Lore : DC 40 Specific Lore : DC 37 Yamaraj Source Bestiary 2 pg. 211 2.0 Perception +37; darkvision, lifesense 240 feet, true seeing Languages Abyssal, Celestial, Infernal, Requian; telepathy 120 feet, tongues Skills Acrobatics +33, Athletics +36, Boneyard Lore +40, Deception +34, Diplomacy +34, Intimidation +36, Legal Lore +40, Occultism +38, Religion +38, Society +38 Str +10 Dex +7 Con +7 Int +10 Wis +7 Cha +6 --- AC 45 Fort +33 Ref +31 Will +35 +1 status to all saves vs. magic HP 375 (fast healing 20, lightning drinker) Immunities death effects, disease, electricity (see lightning drinker) Resistances negative 20, poison 20 Frightful Presence (aura, emotion, fear, mental) 60 feet, DC 39 Lightning Drinker Whenever a yamaraj would take electricity damage if not for its immunity, its fast healing increases to 40 on its next turn. During that turn, if it uses its breath weapon, the beetles crackle with electricity and deal 2d12 additional electricity damage. --- Speed 35 feet, fly 50 feet, swim 30 feet Melee Single Action jaws +38 (Magical, reach 15 feet), Damage 4d8+18 piercing plus Improved Grab and yamaraj venom and spirit touch Melee Single Action claw +38 (Agile, Magical, reach 15 feet), Damage 4d4+18 slashing plus spirit touch Melee Single Action tail +38 (Magical, reach 20 feet), Damage 4d10+18 bludgeoning plus spirit touch Divine Innate Spells DC 44 - 5th Dimension Door (at will), Mind Probe (at will) - 8th Chain Lightning (×3), Dispel Magic (×3), Spirit Song, Wall of Force - 9th Bind Soul, Harm, Heal, Wail of the Banshee - 10th Miracle, Revival - Constant (10th) True Seeing Rituals DC 44 - 5th Call Spirit, Resurrect Breath Weapon Two Actions (Divine, Evocation) The yamaraj breathes a blast of beetles in a 50-foot cone that deals 14d8 slashing damage and 4d8 persistent slashing damage to creatures in the area (DC 42 Reflex save). It can't use Breath Weapon again for 1d4 rounds. Critical Success The creature takes no damage. Success The creature takes half damage and is sickened 1. Failure The creature takes full damage and is sickened 2. Critical Failure The creature takes double damage and is sickened 3. Final Judgment A yamaraj's miracle spells are used only to pronounce judgment, typically either to restore a dead or destroyed creature to life, bind a creature to the Boneyard, or banish a creature from the Boneyard. Spirit Touch A yamaraj's Strikes affect incorporeal creatures with the effects of a ghost touch property rune and deal 3d6 negative damage to living creatures and 3d6 positive damage to undead. Yamaraj Venom (Poison) While a creature is clumsy from this poison, it is doomed with the same value; Saving Throw DC 42 Fortitude; Maximum Duration 10 rounds; Stage 1 3d8 poison damage and clumsy 1 (1 round); Stage 2 5d8 poison damage and clumsy 2 (1 round); Stage 3 7d8 poison damage and clumsy 3 (1 round) ",
+ "summary": "The greatest judges among the psychopomps are yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or  Pharasma  …",
+ "summary_markdown": "The greatest judges among the psychopomps are yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or  Pharasma  …",
+ "text": " Yamaraj The greatest judges among the psychopomps are yamarajes, whose wisdom is legendary and whose edicts are unappealable except to ushers or Pharasma herself. A yamaraj resembles an immense dragon with dark, feathery scales and an emotionless, dispassionate gaze behind a feathered mask. When not serving as the senior magistrates, lords, and generals of the Boneyard, yamarajes pursue highly individualistic hobbies, such as gardening or literature. Recall Knowledge - Monitor (Religion): DC 42 Unspecific Lore : DC 40 Specific Lore : DC 37 Yamaraj Source Monster Core pg. 277 Perception +37; darkvision, lifesense 240 feet, truesight Languages Chthonian, Diabolic, Empyrean, Requian; telepathy 120 feet, truespeech Skills Acrobatics +33, Athletics +38, Boneyard Lore +40, Deception +34, Diplomacy +34, Intimidation +36, Legal Lore +40, Occultism +38, Religion +38, Society +38 Str +10 Dex +7 Con +7 Int +10 Wis +7 Cha +6 --- AC 45 Fort +33 Ref +31 Will +35 +1 status to all saves vs. magic HP 375 (fast healing 20, lightning drinker) Immunities death effects, disease, electricity (see lightning drinker) Resistances poison 20, void 20 Frightful Presence (aura, emotion, fear, mental) 60 feet, DC 39 Lightning Drinker Whenever a yamaraj would take electricity damage if not for its immunity, its fast healing increases to 40 on its next turn. During that turn, if it uses Beetle Breath, the beetles deal 2d12 additional electricity damage. --- Speed 35 feet, fly 50 feet, swim 30 feet Melee Single Action jaws +38 (Magical, reach 15 feet), Damage 4d8+18 piercing plus Improved Grab and yamaraj venom and 3d6 shepherd's touch Melee Single Action claw +38 (Agile, Magical, reach 15 feet), Damage 4d4+18 slashing plus 3d6 shepherd's touch Melee Single Action tail +38 (Magical, reach 20 feet), Damage 4d10+18 bludgeoning plus 3d6 shepherd's touch Divine Innate Spells DC 44 - 5th Translocate (at will), Mind Probe (at will) - 8th Chain Lightning (×3), Dispel Magic (×3), Wall of Force - 9th Harm, Heal, Seize Soul, Spirit Blast, Wails of the Damned - 10th Manifestation (see final judgment), Revival - Constant (10th) Truesight Rituals DC 44 - 5th Call Spirit, Resurrect Beetle Breath Two Actions (Divine) The yamaraj breathes a blast of beetles in a 50-foot cone that deals 14d8 slashing damage and 4d8 persistent slashing damage to creatures in the area with a DC 42 Reflex save. It can't use Beetle Breath again for 1d4 rounds. Critical Success The creature is unaffected. Success The creature takes half damage and is sickened 1. Failure The creature takes full damage and is sickened 2. Critical Failure The creature takes double damage and is sickened 3. Final Judgment A yamaraj's manifestation spells are used only to pronounce judgment, typically either to restore a dead or destroyed creature to life, bind a creature to the Boneyard, or banish a creature from the Boneyard. Shepherd's Touch A yamaraj's Strikes have the benefit of a ghost touch property rune and deal an additional 3d6 void damage to living creatures or 3d6 vitality damage to undead. Yamaraj Venom (Poison) While a creature is clumsy from this poison, it is doomed with the same value; Saving Throw DC 42 Fortitude; Maximum Duration 10 rounds; Stage 1 3d8 poison damage and clumsy 1 (1 round); Stage 2 5d8 poison damage and clumsy 2 (1 round); Stage 3 7d8 poison damage and clumsy 3 (1 round). ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Monitor",
   "Psychopomp",
   "Uncommon",
-  "N",
   "Huge"
  ],
- "trait_markdown": "[Monitor](/Traits.aspx?ID=111), [Psychopomp](/Traits.aspx?ID=232), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Monitor](/Traits.aspx?ID=655), [Psychopomp](/Traits.aspx?ID=679), [Uncommon](/Traits.aspx?ID=721)",
  "trait_raw": [
   "Monitor",
   "Psychopomp",
   "Uncommon"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=770",
+ "url": "/Monsters.aspx?ID=3150",
  "vision": "Darkvision",
  "weakest_save": [
   "ref",
@@ -134,5 +212,9 @@
  ],
  "weakness": {},
  "will_save": 35,
- "wisdom": 7
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 7,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

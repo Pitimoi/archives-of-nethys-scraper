@@ -1,0 +1,60 @@
+{
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 20  Thievery  (expert) to rub out the hidden runes on the ceiling, or   dispel magic   (2nd level,  counteract  DC 18) to counteract the trap",
+ "exclude_from_search": false,
+ "hazard_type": "Trap",
+ "id": "hazard-423",
+ "level": 3,
+ "markdown": "<title level=\"1\" right=\"Hazard 3\" pfs=\"\">[Rushing Waters](/Hazards.aspx?ID=423)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 49\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nRivulets of water begin to run from the circle of stones to gather in a growing puddle at the center.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 20 (trained)\r\n\r\n**Disable**\r\nDC 20 [Thievery](/Skills.aspx?ID=17) (expert) to rub out the hidden runes on the ceiling, or [_dispel magic_](/Spells.aspx?ID=78) (2nd level, [counteract](/Rules.aspx?ID=371) DC 18) to counteract the trap\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Spherical Deluge** <actions string=\"Reaction\" /> ([arcane](/Traits.aspx?ID=11), [conjuration](/Traits.aspx?ID=33), [water](/Traits.aspx?ID=165)) **Trigger** A creature enters the area south of the ring of stones marked on the map; **Effect** A deluge of water rises up from the ring of stones, then flows forcefully down the passageway to drain into the pit at area **F1b**. Large and smaller creatures in the water's path must attempt a DC 20 Fortitude save. The rushing waters vanish instantly upon striking the pit floor, but do leave everything down there sopping wet.\r\n\r\n**Critical Success** The creature withstands the force of the rushing waters and is unaffected.<br />\r\n**Success** The creature takes 1d10 bludgeoning damage as the rushing waters slam them into a cave wall.<br />\r\n**Failure** The creature is knocked [prone](/Conditions.aspx?ID=31) by the rushing waters, takes 1d10+6 bludgeoning damage, and is [pushed](/Rules.aspx?ID=451) by the water to the spiky pit trap and triggers the trap.<br />\r\n**Critical Failure** As failure, but the creature can't attempt to [Grab an Edge](/Actions.aspx?ID=95) if they fall into the [spiky pit trap](/Hazards.aspx?ID=424).\n\n---\r\n**Reset**\r\nThe magic rejuvenates over 10 minutes, after which it is recharged and ready to activate again.",
+ "name": "Rushing Waters",
+ "primary_source": "Rusthenge",
+ "primary_source_raw": "Rusthenge pg. 49",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Rusthenge",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-10-18",
+ "reset": "The magic rejuvenates over 10 minutes, after which it is recharged and ready to activate again.",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 49\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRivulets of water begin to run from the circle of stones to gather in a growing puddle at the center.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Rusthenge"
+ ],
+ "source_raw": [
+  "Rusthenge pg. 49"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Rusthenge"
+ ],
+ "source_markdown": "[Rusthenge](/Sources.aspx?ID=215) pg. 49",
+ "speed": {},
+ "spoilers": "Rusthenge",
+ "stealth": "DC 20 (trained)",
+ "summary": "Rivulets of water begin to run from the circle of stones to gather in a growing puddle at the center.",
+ "summary_markdown": "Rivulets of water begin to run from the circle of stones to gather in a growing puddle at the center.",
+ "text": " Rushing Waters Source Rusthenge pg. 49 Complexity Simple Rivulets of water begin to run from the circle of stones to gather in a growing puddle at the center. --- Stealth DC 20 (trained) Disable DC 20 Thievery (expert) to rub out the hidden runes on the ceiling, or dispel magic (2nd level, counteract DC 18) to counteract the trap Spherical Deluge Reaction (arcane, conjuration, water) Trigger A creature enters the area south of the ring of stones marked on the map; Effect A deluge of water rises up from the ring of stones, then flows forcefully down the passageway to drain into the pit at area F1b . Large and smaller creatures in the water's path must attempt a DC 20 Fortitude save. The rushing waters vanish instantly upon striking the pit floor, but do leave everything down there sopping wet. Critical Success The creature withstands the force of the rushing waters and is unaffected. Success The creature takes 1d10 bludgeoning damage as the rushing waters slam them into a cave wall. Failure The creature is knocked prone by the rushing waters, takes 1d10+6 bludgeoning damage, and is pushed by the water to the spiky pit trap and triggers the trap. Critical Failure As failure, but the creature can't attempt to Grab an Edge if they fall into the spiky pit trap. --- Reset The magic rejuvenates over 10 minutes, after which it is recharged and ready to activate again.",
+ "trait": [
+  "Magical",
+  "Trap",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard",
+  "Rarity"
+ ],
+ "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Trap](/Traits.aspx?ID=158), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Magical",
+  "Trap",
+  "Uncommon"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=423",
+ "weakness": {}
+}

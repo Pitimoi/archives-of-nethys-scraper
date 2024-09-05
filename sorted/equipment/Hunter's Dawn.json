@@ -3,7 +3,6 @@
   "Club"
  ],
  "base_item_markdown": "[Club](/Weapons.aspx?ID=2)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -11,34 +10,51 @@
  "id": "equipment-674",
  "item_category": "Artifacts",
  "level": 23,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 23\"\r\n    pfs=\"\"\r\n>\r\n[Hunter's Dawn](/Equipment.aspx?ID=674)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=11\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #156: The Apocalypse Prophet](/Sources.aspx?ID=36) pg. 67</row>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Club](/Weapons.aspx?ID=2)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\n_Hunter's Dawn_ is a _+3 [greater striking](/Equipment.aspx?ID=280) [speed](/Equipment.aspx?ID=304) [ghost touch](/Equipment.aspx?ID=297) [club](/Weapons.aspx?ID=2)_. However, the notched head of the weapon marks it as an atlatl, an ancient tool used for throwing [darts](/Weapons.aspx?ID=68) and [javelins](/Weapons.aspx?ID=71). You can use _Hunter's Dawn_ with a mundane dart or javelin like you would use a bow with an arrow; when you do so, the range of the dart or javelin is doubled, and the dart or javelin uses _Hunter's Dawn_ to determine its attack modifier and damage dice.\n\n<document level=\"2\" id=\"action-534\" />\n\n<document level=\"2\" id=\"action-535\" />\n\n<document level=\"2\" id=\"action-536\" />\r\n\r\n**Destruction** _Hunter's Dawn_ can be destroyed only by placing it on the funeral pyre of a dead god.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 23\"\r\n    pfs=\"\"\r\n>\r\n[Hunter's Dawn](/Equipment.aspx?ID=674)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=11\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #156: The Apocalypse Prophet](/Sources.aspx?ID=36) pg. 67\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Club](/Weapons.aspx?ID=2)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\n_Hunter's Dawn_ is a _+3 [greater striking](/Equipment.aspx?ID=280) [speed](/Equipment.aspx?ID=304) [ghost touch](/Equipment.aspx?ID=297) [club](/Weapons.aspx?ID=2)_. However, the notched head of the weapon marks it as an atlatl, an ancient tool used for throwing [darts](/Weapons.aspx?ID=68) and [javelins](/Weapons.aspx?ID=71). You can use _Hunter's Dawn_ with a mundane dart or javelin like you would use a bow with an arrow; when you do so, the range of the dart or javelin is doubled, and the dart or javelin uses _Hunter's Dawn_ to determine its attack modifier and damage dice.\n\n**Activate** <actions string=\"Single Action to Three Actions\" /> Interact;     **Effect** You swing _Hunter's Dawn_ and launch a magically conjured javelin at a target within 60 feet, making a ranged Strike. The javelin has the statistics of a javelin but gains the magical properties of _Hunter's Dawn_ and disappears immediately after hitting or missing its target. On a successful hit, you deal damage (3d6 piercing, due to the atlatl's _greater striking_ rune, plus your Strength modifier); in addition, a gazelle leaps from the hit target to one or more targets within 20 feet of the first, dealing 2d6 piercing damage plus your Strength modifier. The number of additional targets hit in this way is equal to the number of actions you spend to activate this ability (one additional target if you used one action, two additional targets for two actions, and so forth).\n\n**Activate** <actions string=\"Reaction\" /> ;   **Trigger** You hit a creature with a ranged Strike with _Hunter's Dawn_;  **Effect** The target is marked. Once per day, you can cast a 5th-level [_locate_](/Spells.aspx?ID=173) spell on the marked target, regardless of its distance from you or your ability to cast spells. This effect persists until it is dispelled (counterspell DC 46), the creature dies, or a new target is marked.\n\n**Activate** <actions string=\"Single Action\" /> Interact;  **Frequency** three times per day;   **Effect** You shave a curl of wood from _Hunter's Dawn_ and create a roaring fire within 15 feet. You can choose one of the following shapes for the fire to take: a 10-foot square, a 20-foot line, or a 15-foot cone. Each creature in the affected squares take 6d6 fire damage (DC 46 basic Reflex save).\r\n\r\n**Destruction** _Hunter's Dawn_ can be destroyed only by placing it on the funeral pyre of a dead god.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Hunter's Dawn",
+ "primary_source": "Pathfinder #156: The Apocalypse Prophet",
+ "primary_source_raw": "Pathfinder #156: The Apocalypse Prophet pg. 67",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Extinction Curse",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2020-06-24",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=11\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #156: The Apocalypse Prophet](/Sources.aspx?ID=36) pg. 67</row>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Hunter's Dawn  is a  +3  greater striking   speed   ghost touch   club  . However, the notched head of the weapon marks it as an atlatl, an ancient …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=11\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #156: The Apocalypse Prophet](/Sources.aspx?ID=36) pg. 67\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Club](/Weapons.aspx?ID=2)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Hunter's Dawn  is a  +3  greater striking   speed   ghost touch   club  . However, the notched head of the weapon marks it as an atlatl, an ancient …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #156: The Apocalypse Prophet"
  ],
  "source_raw": [
   "Pathfinder #156: The Apocalypse Prophet pg. 67"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #156: The Apocalypse Prophet](/Sources.aspx?ID=36) pg. 67</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Pathfinder #156: The Apocalypse Prophet](/Sources.aspx?ID=36) pg. 67",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Extinction Curse",
  "stage_markdown": "",
  "summary": " Hunter's Dawn  is a  +3  greater striking   speed   ghost touch   club  . However, the notched head of the weapon marks it as an atlatl, an ancient …",
  "summary_markdown": " Hunter's Dawn  is a  +3  greater striking   speed   ghost touch   club  . However, the notched head of the weapon marks it as an atlatl, an ancient …",
- "text": "<title level=\"1\" right=\"Item 23\" pfs=\"\" > Hunter's Dawn May contain spoilers from Extinction Curse Source Pathfinder #156: The Apocalypse Prophet pg. 67 Usage held in 1 hand Bulk 1 Base Weapon Club --- Hunter's Dawn is a +3 greater striking speed ghost touch club . However, the notched head of the weapon marks it as an atlatl, an ancient tool used for throwing darts and javelins. You can use Hunter's Dawn with a mundane dart or javelin like you would use a bow with an arrow; when you do so, the range of the dart or javelin is doubled, and the dart or javelin uses Hunter's Dawn to determine its attack modifier and damage dice. Destruction Hunter's Dawn can be destroyed only by placing it on the funeral pyre of a dead god.\n",
+ "text": "<title level=\"1\" right=\"Item 23\" pfs=\"\" > Hunter's Dawn May contain spoilers from Extinction Curse Source Pathfinder #156: The Apocalypse Prophet pg. 67 Usage held in 1 hand Bulk 1 Base Weapon Club --- Hunter's Dawn is a +3 greater striking speed ghost touch club . However, the notched head of the weapon marks it as an atlatl, an ancient tool used for throwing darts and javelins. You can use Hunter's Dawn with a mundane dart or javelin like you would use a bow with an arrow; when you do so, the range of the dart or javelin is doubled, and the dart or javelin uses Hunter's Dawn to determine its attack modifier and damage dice. Activate Single Action to Three Actions Interact; Effect You swing Hunter's Dawn and launch a magically conjured javelin at a target within 60 feet, making a ranged Strike. The javelin has the statistics of a javelin but gains the magical properties of Hunter's Dawn and disappears immediately after hitting or missing its target. On a successful hit, you deal damage (3d6 piercing, due to the atlatl's greater striking rune, plus your Strength modifier); in addition, a gazelle leaps from the hit target to one or more targets within 20 feet of the first, dealing 2d6 piercing damage plus your Strength modifier. The number of additional targets hit in this way is equal to the number of actions you spend to activate this ability (one additional target if you used one action, two additional targets for two actions, and so forth). Activate Reaction ; Trigger You hit a creature with a ranged Strike with Hunter's Dawn ; Effect The target is marked. Once per day, you can cast a 5th-level locate spell on the marked target, regardless of its distance from you or your ability to cast spells. This effect persists until it is dispelled (counterspell DC 46), the creature dies, or a new target is marked. Activate Single Action Interact; Frequency three times per day; Effect You shave a curl of wood from Hunter's Dawn and create a roaring fire within 15 feet. You can choose one of the following shapes for the fire to take: a 10-foot square, a 20-foot line, or a 15-foot cone. Each creature in the affected squares take 6d6 fire damage (DC 46 basic Reflex save). Destruction Hunter's Dawn can be destroyed only by placing it on the funeral pyre of a dead god.\n",
  "trait": [
   "Arcane",
   "Artifact",
   "Enchantment",
   "Unique"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Monster",
+  "Equipment",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Arcane](/Traits.aspx?ID=11), [Artifact](/Traits.aspx?ID=253), [Enchantment](/Traits.aspx?ID=61), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [

@@ -1,17 +1,33 @@
 {
  "actions": "Single Action",
- "area": "10-foot emanation",
+ "actions_number": 2,
+ "area": [
+  10
+ ],
+ "area_raw": "10-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
+ "element": [
+  "Earth"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   5,
@@ -23,42 +39,56 @@
  ],
  "id": "spell-1255",
  "level": 5,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 5\" pfs=\"Standard\">[Untwisting Iron Roots](/Spells.aspx?ID=1255)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 223</row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 10-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind. Creatures within range take 2d6 bludgeoning damage, with a [basic](/Rules.aspx?ID=329) Reflex save; on a failed save, they also fall [prone](/Conditions.aspx?ID=31). The affected area becomes difficult terrain, but you can move through the difficult terrain normally.\n\n---\r\n**Heightened (+1)** The damage increases by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 5\" pfs=\"Standard\">\r\n[Untwisting Iron Roots](/Spells.aspx?ID=1255)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 223\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 10-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind. Creatures within range take 2d6 bludgeoning damage, with a [basic](/Rules.aspx?ID=329) Reflex save; on a failed save, they also fall [prone](/Conditions.aspx?ID=31). The affected area becomes difficult terrain, but you can move through the difficult terrain normally.\n\n---\r\n**Heightened (+1)** The damage increases by 1d6.",
  "name": "Untwisting Iron Roots",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Impossible Lands",
+ "primary_source_raw": "Impossible Lands pg. 223",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-11-16",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 223</row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 10-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 223\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 10-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Impossible Lands"
  ],
  "source_raw": [
   "Impossible Lands pg. 223"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Impossible Lands](/Sources.aspx?ID=146) pg. 223</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Impossible Lands](/Sources.aspx?ID=146) pg. 223",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind.",
  "summary_markdown": "You manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind.",
- "text": " Untwisting Iron Roots Source Impossible Lands pg. 223 Cast Single Action verbal Area 10-foot emanation --- You manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind. Creatures within range take 2d6 bludgeoning damage, with a basic Reflex save; on a failed save, they also fall prone. The affected area becomes difficult terrain, but you can move through the difficult terrain normally. --- Heightened (+1) The damage increases by 1d6.",
+ "text": "\nUntwisting Iron Roots Single Action Source Impossible Lands pg. 223 Cast verbal Area 10-foot emanation --- You manipulate the earth beneath your feet to throw your enemies off balance, leaving chunks of rock and rubble behind. Creatures within range take 2d6 bludgeoning damage, with a basic Reflex save; on a failed save, they also fall prone. The affected area becomes difficult terrain, but you can move through the difficult terrain normally. --- Heightened (+1) The damage increases by 1d6.",
  "tradition_markdown": "",
  "trait": [
   "Earth",
   "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Earth](/Traits.aspx?ID=55), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster",
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Earth](/Traits.aspx?ID=55), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Earth",
   "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=1255",
  "weakness": {}
 }

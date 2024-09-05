@@ -1,0 +1,197 @@
+{
+ "ac": 33,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  25,
+  27,
+  27
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 8,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Snow Vision",
+  "Bean Panic",
+  "Icy Deflection",
+  "Reactive Strike",
+  "Change Shape",
+  "Chilling Combo",
+  "Falling Frozen Lightning"
+ ],
+ "creature_family": "Oni",
+ "creature_family_markdown": "[Oni](/MonsterFamilies.aspx?ID=452)",
+ "dexterity": 5,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 290,
+ "hp_raw": "290",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3122",
+ "image": [
+  "/Images/Monsters/Snow_Oni.webp"
+ ],
+ "immunity": [
+  "cold"
+ ],
+ "immunity_markdown": "[cold](/Traits.aspx?ID=555)",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1)",
+ "legacy_id": "creature-747",
+ "legacy_name": "Ice Yai",
+ "level": 13,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Snow Oni](/Monsters.aspx?ID=3122)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSnow oni maintain their seething temperaments even in their icy homes. The isolation of their environment gives them trappings of asceticism, and many snow oni pursue physical perfection, reveling in the process of turning their bodies into powerful fighting machines. They are just as hedonistic and brutal as any of their brethren, however, and eager to indulge in warm baths, strong drink, and humanoid flesh.\n\n Like many oni, snow oni possess a third eye in the center of their forehead. This eye gives snow oni a mystical sense that allows them to peer through even the thickest flurries of snow.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Snow_Oni.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Snow Oni](/Monsters.aspx?ID=3122)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=555\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=765\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 253\n\n**Perception** +26; [greater darkvision](/MonsterAbilities.aspx?ID=59), snow vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +24, [Athletics](/Skills.aspx?ID=3) +25, [Deception](/Skills.aspx?ID=5) +27\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +5\r\n\r\n**Con** +5\r\n\r\n**Int** +0\r\n\r\n**Wis** +5\r\n\r\n**Cha** +8\r\n</row>\r\n\r\n**Snow Vision** Snow doesn't impair the snow oni's vision; they ignore [concealment](/Conditions.aspx?ID=62) from snowfall.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 33 \r\n\r\n**Fort** +23 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +21 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 290\n\n</row>\r\n\r\n**Immunities**\r\n[cold](/Traits.aspx?ID=555)\n\n**Weaknesses**\r\nbean panic, spirit 15\r\n\r\n**Bean Panic** Oni are curiously afraid of beans, especially as the seasons begin to change. If a creature Interacts to throw a handful of beans at the oni, the oni becomes [frightened 2](/Conditions.aspx?ID=76). While frightened this way, their weakness to spirit damage is increased by 5. The oni then becomes immune to bean panic for 24 hours.<br />**Icy Deflection** <actions string=\"Reaction\" /> **Trigger** The snow oni is targeted by a ranged Strike or spell attack roll that doesn't have the [fire](/Traits.aspx?ID=604) trait; **Effect** The snow oni creates a reflective blockade of ice, gaining a +4 circumstance bonus to AC against the triggering attack roll. If the attack misses, the snow oni redirects the attack to another creature within 20 feet of the snow oni. The attacker rerolls the attack roll against the new target.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +27 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+16 bludgeoning plus 2d6 cold\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +27 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+16 piercing plus 1d6 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nice dart +25 ([Cold](/Traits.aspx?ID=27), [Magical](/Traits.aspx?ID=103), [range increment 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d10+4 cold plus 1d6 spirit\r\n\r\n**Primal Innate Spells** DC 31\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134)) The snow oni can take on the appearance of any Medium or Large [humanoid](/Traits.aspx?ID=628) creature. This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal\r\n\r\n**Chilling Combo** <actions string=\"Single Action\" /> ([Cold](/Traits.aspx?ID=27)) The snow oni makes two fist Strikes targeting the same creature. If they both hit, the target becomes [slowed 1](/Conditions.aspx?ID=92) for 1 round.\r\n\r\n**Falling Frozen Lightning** <actions string=\"Two Actions\" /> ([Cold](/Traits.aspx?ID=27), [Primal](/Traits.aspx?ID=134)) The snow oni calls down a bolt of icy lightning, white as fallen snow. The bolt strikes a location within 60 feet, freezing the air into a cloud of snow that fills a 20-foot burst and lasts for 1 minute. All creatures within the snow become [concealed](/Conditions.aspx?ID=62), and all creatures outside the snow become concealed to creatures within it. A creature that enters the snow or begins its turn there takes 15 cold damage, with a DC 33 [basic](/Rules.aspx?ID=329) Fortitude save.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-452\" />",
+ "name": "Snow Oni",
+ "npc": false,
+ "perception": 26,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 253",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 25,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=555\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=765\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 253\r\n\r\n**Creature Family** [Oni](/MonsterFamilies.aspx?ID=452)\r\n\r\n<row gap=\"medium\">\r\n**HP** 290\r\n\r\n**AC** 33\r\n\r\n**Fort** +23\r\n\r\n**Ref** +25\r\n\r\n**Will** +21\r\n\r\n**Perception** +26\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSnow oni maintain their seething temperaments even in their icy homes. The isolation of their environment gives them trappings of asceticism, and …\r\n</summary>",
+ "sense": " greater darkvision , snow vision",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=59), snow vision",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +24, [Athletics](/Skills.aspx?ID=3) +25, [Deception](/Skills.aspx?ID=5) +27",
+ "skill_mod": {
+  "acrobatics": 24,
+  "athletics": 25,
+  "deception": 27
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 253"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 253",
+ "speed": {
+  "fly": 40,
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet, fly 40 feet",
+ "speed_raw": "40 feet, fly 40 feet",
+ "spell": [
+  "Invisibility"
+ ],
+ "spell_markdown": "[Invisibility](/Spells.aspx?ID=164)",
+ "spell_dc": [
+  31
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  24,
+  26,
+  32
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Snow oni maintain their seething temperaments even in their icy homes. The isolation of their environment gives them trappings of asceticism, and …",
+ "summary_markdown": "Snow oni maintain their seething temperaments even in their icy homes. The isolation of their environment gives them trappings of asceticism, and …",
+ "text": " Snow Oni Snow oni maintain their seething temperaments even in their icy homes. The isolation of their environment gives them trappings of asceticism, and many snow oni pursue physical perfection, reveling in the process of turning their bodies into powerful fighting machines. They are just as hedonistic and brutal as any of their brethren, however, and eager to indulge in warm baths, strong drink, and humanoid flesh. Like many oni, snow oni possess a third eye in the center of their forehead. This eye gives snow oni a mystical sense that allows them to peer through even the thickest flurries of snow. Recall Knowledge - Humanoid (Society): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Snow Oni Source Monster Core pg. 253 Perception +26; greater darkvision, snow vision Languages Common Skills Acrobatics +24, Athletics +25, Deception +27 Str +8 Dex +5 Con +5 Int +0 Wis +5 Cha +8 Snow Vision Snow doesn't impair the snow oni's vision; they ignore concealment from snowfall. --- AC 33 Fort +23 Ref +25 Will +21 HP 290 Immunities cold Weaknesses bean panic, spirit 15 Bean Panic Oni are curiously afraid of beans, especially as the seasons begin to change. If a creature Interacts to throw a handful of beans at the oni, the oni becomes frightened 2. While frightened this way, their weakness to spirit damage is increased by 5. The oni then becomes immune to bean panic for 24 hours. Icy Deflection Reaction Trigger The snow oni is targeted by a ranged Strike or spell attack roll that doesn't have the fire trait; Effect The snow oni creates a reflective blockade of ice, gaining a +4 circumstance bonus to AC against the triggering attack roll. If the attack misses, the snow oni redirects the attack to another creature within 20 feet of the snow oni. The attacker rerolls the attack roll against the new target. Reactive Strike Reaction --- Speed 40 feet, fly 40 feet Melee Single Action fist +27 (Agile, Magical, reach 10 feet), Damage 2d8+16 bludgeoning plus 2d6 cold Melee Single Action jaws +27 (Magical, reach 10 feet), Damage 2d6+16 piercing plus 1d6 persistent bleed Ranged Single Action ice dart +25 (Cold, Magical, range increment 60 feet), Damage 3d10+4 cold plus 1d6 spirit Primal Innate Spells DC 31 - 2nd Invisibility (at will; self only) Change Shape Single Action (Concentrate, Polymorph, Primal) The snow oni can take on the appearance of any Medium or Large humanoid creature. This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal Chilling Combo Single Action (Cold) The snow oni makes two fist Strikes targeting the same creature. If they both hit, the target becomes slowed 1 for 1 round. Falling Frozen Lightning Two Actions (Cold, Primal) The snow oni calls down a bolt of icy lightning, white as fallen snow. The bolt strikes a location within 60 feet, freezing the air into a cloud of snow that fills a 20-foot burst and lasts for 1 minute. All creatures within the snow become concealed, and all creatures outside the snow become concealed to creatures within it. A creature that enters the snow or begins its turn there takes 15 cold damage, with a DC 33 basic Fortitude save. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cold",
+  "Giant",
+  "Humanoid",
+  "Oni",
+  "Unholy",
+  "Large"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cold](/Traits.aspx?ID=555), [Giant](/Traits.aspx?ID=616), [Humanoid](/Traits.aspx?ID=628), [Oni](/Traits.aspx?ID=765), [Unholy](/Traits.aspx?ID=521)",
+ "trait_raw": [
+  "Cold",
+  "Giant",
+  "Humanoid",
+  "Oni",
+  "Unholy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3122",
+ "vision": "Greater darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "spirit": 15
+ },
+ "weakness_markdown": "bean panic, spirit 15",
+ "weakness_raw": "bean panic, spirit 15",
+ "will_save": 21,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

@@ -1,59 +1,64 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "10th rank"
+ ],
  "heighten_level": [
   10
  ],
- "id": "spell-204",
+ "id": "spell-1612",
+ "legacy_id": "spell-204",
  "level": 10,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 10\" pfs=\"Standard\">[Nature Incarnate](/Spells.aspx?ID=204)</title>\n\n<traits>\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 354 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe primal power of the world flows through you. You transform into an incarnation of nature, either a green man or a kaiju. Your battle form is Medium for a green man or Gargantuan (30-foot-by-30-foot space) for a kaiju. You must have enough space to expand into or the spell is lost. While in this form, you gain the [plant](/Traits.aspx?ID=125) trait (for a green man) or the [beast](/Traits.aspx?ID=20) trait (for a kaiju). You can Dismiss the spell.\n\n You gain the following statistics and abilities regardless of which battle form you choose: \n<ul><li>AC = 25 + your level. Ignore your armor's check penalty and Speed reduction. </li><li>30 temporary Hit Points. </li><li>[Darkvision](/Rules.aspx?ID=415). </li><li>One or more attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +34, and you use the listed damage. These attacks are Strength based (for the purpose of the [enfeebled](/Conditions.aspx?ID=13) condition, for example). If your unarmed attack modifier is higher, you can use it instead. </li><li>[Athletics](/Skills.aspx?ID=3) modifier of +36, unless your own modifier is higher.</li></ul> You also gain specific abilities based on the type of incarnation you choose:\n\n- **Green Man** Speed 40 feet, climb Speed 40 feet; **Melee** <actions string=\"Single Action\" /> vines (reach 30 feet, versatile P), **Damage** 6d8+12 bludgeoning; **Ranged** <actions string=\"Single Action\" /> thorns (range 100 feet), **Damage** 6d6+6 piercing; **Green Caress** (aura, primal, transmutation) 60 feet. Enemies other than plants must succeed at a Fortitude save against your spell DC or become clumsy 1 for 1 round (clumsy 2 on a critical failure).\r\n- **Kaiju** Speed 50 feet; resistance 5 to physical damage; **Melee** <actions string=\"Single Action\" /> jaws (reach 30 feet), **Damage** 6d10+10 piercing; **Melee** <actions string=\"Single Action\" /> claws (agile, reach 30 feet), **Damage** 6d8+8 slashing; **Melee** <actions string=\"Single Action\" /> foot (agile, reach 15 feet), **Damage** 6d6+10 bludgeoning; **Unstoppable** You are immune to being immobilized and ignore difficult terrain and greater difficult terrain; **Trample**<actions string=\"Three Actions\" /> You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a basic Reflex save against your spell DC.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 10\" pfs=\"Standard\">\r\n[Nature Incarnate](/Spells.aspx?ID=1612)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 346\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe primal power of the world flows through you. You transform into an incarnation of nature, either a green man or a kaiju. Your battle form is Medium for a green man or Gargantuan (30-foot-by-30-foot space) for a kaiju. While in this form, you gain the [plant](/Traits.aspx?ID=125) trait (for a green man) or the [beast](/Traits.aspx?ID=20) trait (for a kaiju). You can Dismiss the spell.\n\n You gain the following statistics and abilities regardless of which battle form you choose: \n<ul><li>AC = 25 + your level. Ignore your armor's check penalty and Speed reduction.</li><li>30 temporary Hit Points.</li><li>[Darkvision](/Rules.aspx?ID=415).</li><li>One or more attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +34, and you use the listed damage. These attacks are Strength based (for the purpose of the [enfeebled](/Conditions.aspx?ID=13) condition, for example). If your [unarmed](/Traits.aspx?ID=199) attack modifier is higher, you can use it instead.</li><li>[Athletics](/Skills.aspx?ID=3) modifier of +36, unless your own is higher.</li></ul> You gain specific abilities based on the incarnation you choose:\n\n- **Green Man** Speed 40 feet, climb 40 feet; **Melee** <actions string=\"Single Action\" /> vines ([reach 30 feet](/Traits.aspx?ID=192), [versatile P](/Traits.aspx?ID=200)), **Damage** 6d8+12 bludgeoning; **Ranged** <actions string=\"Single Action\" /> thorns ([range 100 feet](/Traits.aspx?ID=248)), **Damage** 6d6+6 piercing; **Green Caress** ([aura](/Traits.aspx?ID=206), [primal](/Traits.aspx?ID=134)) 60 feet. Enemies other than plants must succeed at a Fortitude save against your spell DC or become [clumsy 1](/Conditions.aspx?ID=3) for 1 round (clumsy 2 on a critical failure).\r\n- **Kaiju** Speed 50 feet; resistance 5 to physical damage; **Melee** <actions string=\"Single Action\" /> jaws ([reach 30 feet](/Traits.aspx?ID=192)), **Damage** 6d10+10 piercing; **Melee** <actions string=\"Single Action\" /> claws ([agile](/Traits.aspx?ID=170), [reach 30 feet](/Traits.aspx?ID=192)), **Damage** 6d8+8 slashing; **Melee** <actions string=\"Single Action\" /> foot ([agile](/Traits.aspx?ID=170), [reach 15 feet](/Traits.aspx?ID=192)), **Damage** 6d6+10 bludgeoning; **Unstoppable** You are immune to being [immobilized](/Conditions.aspx?ID=24) and ignore [difficult terrain and greater difficult terrain](/Rules.aspx?ID=453); **Trample** <actions string=\"Three Actions\" /> You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a [basic](/Rules.aspx?ID=329) Reflex save against your spell DC.",
  "name": "Nature Incarnate",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 346",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 354 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTurn into a massive avatar of nature.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 346\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTurn into a massive avatar of nature.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 354"
+  "Player Core pg. 346"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 354 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 346",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Turn into a massive avatar of nature.",
  "summary_markdown": "Turn into a massive avatar of nature.",
- "text": " Nature Incarnate Source Core Rulebook pg. 354 4.0 Tradition Primal Cast Two Actions somatic, verbal Duration 1 minute --- The primal power of the world flows through you. You transform into an incarnation of nature, either a green man or a kaiju. Your battle form is Medium for a green man or Gargantuan (30-foot-by-30-foot space) for a kaiju. You must have enough space to expand into or the spell is lost. While in this form, you gain the plant trait (for a green man) or the beast trait (for a kaiju). You can Dismiss the spell. You gain the following statistics and abilities regardless of which battle form you choose: AC = 25 + your level. Ignore your armor's check penalty and Speed reduction. 30 temporary Hit Points. Darkvision. One or more attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +34, and you use the listed damage. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. Athletics modifier of +36, unless your own modifier is higher. You also gain specific abilities based on the type of incarnation you choose: - Green Man Speed 40 feet, climb Speed 40 feet; Melee Single Action vines (reach 30 feet, versatile P), Damage 6d8+12 bludgeoning; Ranged Single Action thorns (range 100 feet), Damage 6d6+6 piercing; Green Caress (aura, primal, transmutation) 60 feet. Enemies other than plants must succeed at a Fortitude save against your spell DC or become clumsy 1 for 1 round (clumsy 2 on a critical failure). - Kaiju Speed 50 feet; resistance 5 to physical damage; Melee Single Action jaws (reach 30 feet), Damage 6d10+10 piercing; Melee Single Action claws (agile, reach 30 feet), Damage 6d8+8 slashing; Melee Single Action foot (agile, reach 15 feet), Damage 6d6+10 bludgeoning; Unstoppable You are immune to being immobilized and ignore difficult terrain and greater difficult terrain; Trample Three Actions You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a basic Reflex save against your spell DC.",
+ "text": "\nNature Incarnate Two Actions Source Player Core pg. 346 Tradition Primal Duration 1 minute --- The primal power of the world flows through you. You transform into an incarnation of nature, either a green man or a kaiju. Your battle form is Medium for a green man or Gargantuan (30-foot-by-30-foot space) for a kaiju. While in this form, you gain the plant trait (for a green man) or the beast trait (for a kaiju). You can Dismiss the spell. You gain the following statistics and abilities regardless of which battle form you choose: AC = 25 + your level. Ignore your armor's check penalty and Speed reduction. 30 temporary Hit Points. Darkvision. One or more attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +34, and you use the listed damage. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. Athletics modifier of +36, unless your own is higher. You gain specific abilities based on the incarnation you choose: - Green Man Speed 40 feet, climb 40 feet; Melee Single Action vines (reach 30 feet, versatile P), Damage 6d8+12 bludgeoning; Ranged Single Action thorns (range 100 feet), Damage 6d6+6 piercing; Green Caress (aura, primal) 60 feet. Enemies other than plants must succeed at a Fortitude save against your spell DC or become clumsy 1 for 1 round (clumsy 2 on a critical failure). - Kaiju Speed 50 feet; resistance 5 to physical damage; Melee Single Action jaws (reach 30 feet), Damage 6d10+10 piercing; Melee Single Action claws (agile, reach 30 feet), Damage 6d8+8 slashing; Melee Single Action foot (agile, reach 15 feet), Damage 6d6+10 bludgeoning; Unstoppable You are immune to being immobilized and ignore difficult terrain and greater difficult terrain; Trample Three Actions You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a basic Reflex save against your spell DC.",
  "tradition": [
   "Primal"
  ],
  "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Polymorph",
-  "Transmutation"
+  "Concentrate",
+  "Manipulate",
+  "Polymorph"
  ],
- "trait_markdown": "[Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Polymorph](/Traits.aspx?ID=127)",
  "trait_raw": [
-  "Polymorph",
-  "Transmutation"
+  "Concentrate",
+  "Manipulate",
+  "Polymorph"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=204",
+ "url": "/Spells.aspx?ID=1612",
  "weakness": {}
 }

@@ -1,0 +1,159 @@
+{
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  11
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Camouflage",
+  "Ambush",
+  "Reactive Grab",
+  "Decomposing Toxin"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 38,
+ "hp_raw": "38",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2664",
+ "image": [
+  "/Images/Monsters/Olobigonde.png"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 2,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Olobigonde](/Monsters.aspx?ID=2664)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThough the [Plane of Water](/Planes.aspx?ID=7) is mostly liquid, it does contain its share of solid material, whether in the form of free-floating aquatic plants, hunks of coral, or even detritus from lost underwater cities. Flotsam and jetsam collect across the plane, and olobigondes are just one of the many creatures that have evolved to live among and consume this detritus. These flat, round fish are covered in a moss-like skin that makes them exceptionally difficult to spot as they hug the sides of flotsam, feeding off the waste that drifts into their wide, open mouths.\n\n While olobigondes are primarily detritivores, they've been known to lie in wait within a forest of kelp or against a mossy stone to ambush smaller creatures, such as water scamps or lone passing merfolk. The fish launch themselves from their hiding spot to take large bites out of their surprised prey, then grab the victim as it tries to flee. Despite their size and ungainly shape, olobigondes can move quickly in water, though their bursts of speed are usually short-lived. In addition to maintaining a firm hold on prey, olobigondes' mouths are filled with a unique toxin that weakens and decomposes living flesh. The hungry fish easily gulp down the resulting slurry.\n\n Ancient olobigondes grow truly immense, and their outward appearance evolves. There seems to be no limit to their size. Their skin even separates into plates with deep channels where water can accumulate, giving them the appearance of an entire patch of detritus rather than one piece.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 16\r\n\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Olobigonde.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Olobigonde](/Monsters.aspx?ID=2664)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 184\n\n**Perception** +7; [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +10, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +1\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** -5\r\n</row>\r\n\r\n**Camouflage** An olobigonde can [Hide](/Actions.aspx?ID=62) in aquatic environments even if it doesn't have cover. However, there must be plants, debris, a seabed, or other objects for it to camouflage itself, not just open water.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 38\n\n</row>\n\n**Ambush** <actions string=\"Reaction\" /> **Trigger** A target creature passes within 20 feet of the olobigonde's hiding place and has not detected the olobigonde; **Effect** The olobigonde lunges out of its hiding place, [Swims](/Actions.aspx?ID=39) directly toward the triggering creature, and makes a jaws Strike against it. The target creature is [off-guard](/Conditions.aspx?ID=58) to this attack.<br />**Reactive Grab** <actions string=\"Reaction\" /> **Trigger** A creature within the olobigonde's reach leaves a square during a [move](/Traits.aspx?ID=114) action it's using; **Requirements** The olobigonde doesn't have a creature [grabbed](/Conditions.aspx?ID=20); **Effect** The olobigonde attempts to [Grapple](/Actions.aspx?ID=35) the triggering creature with its jaws. On a success, the target also takes 3 piercing damage (doubled on a critical success).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +11,\r\n**Damage** 1d8+3 piercing plus decomposing toxin\n\n**Decomposing Toxin**  ([Poison](/Traits.aspx?ID=126)) A living creature struck by an olobigonde's jaws Strike must succeed at a DC 15 Fortitude save or become [enfeebled 1](/Conditions.aspx?ID=13) and take 1d6 [persistent poison damage](/Conditions.aspx?ID=29) (or enfeebled 2 with 2d6 persistent poison damage on a critical failure). The enfeebled condition ends when the persistent damage does. A creature currently affected by decomposing toxin doesn't need to save again.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Olobigonde Toxin</title>\r\n\r\nAlchemists who travel the planes have discovered how readily an olobigonde's toxin can decompose flesh, and some have discovered ways to incorporate it into their creations. An olobigonde's corpse yields approximately 1 gp worth of raw materials when harvested with a successful DC 16 [Crafting](/Skills.aspx?ID=4) or [Survival](/Skills.aspx?ID=16) check (2 gp worth on a critical success). This material can be used only to craft [alchemical bombs](/Equipment.aspx?Category=6&amp;Subcategory=7) with the [poison](/Traits.aspx?ID=126) trait.\r\n</aside>",
+ "name": "Olobigonde",
+ "npc": false,
+ "perception": 7,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 184",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 7,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 184\n\n<row gap=\"medium\">\r\n**HP** 38\r\n\r\n**AC** 17\r\n\r\n**Fort** +10\r\n\r\n**Ref** +7\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThough the  Plane of Water  is mostly liquid, it does contain its share of solid material, whether in the form of free-floating aquatic plants, hunks …\r\n</summary>",
+ "sense": " scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +10, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +7",
+ "skill_mod": {
+  "athletics": 10,
+  "stealth": 9,
+  "survival": 7
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 184"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 184",
+ "speed": {
+  "land": 5,
+  "max": 30,
+  "swim": 30
+ },
+ "speed_markdown": "5 feet, swim 30 feet",
+ "speed_raw": "5 feet, swim 30 feet",
+ "spell_markdown": "",
+ "stealth": "9",
+ "strike_damage_average": [
+  7
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Though the  Plane of Water  is mostly liquid, it does contain its share of solid material, whether in the form of free-floating aquatic plants, hunks …",
+ "summary_markdown": "Though the  Plane of Water  is mostly liquid, it does contain its share of solid material, whether in the form of free-floating aquatic plants, hunks …",
+ "text": " Olobigonde Though the Plane of Water is mostly liquid, it does contain its share of solid material, whether in the form of free-floating aquatic plants, hunks of coral, or even detritus from lost underwater cities. Flotsam and jetsam collect across the plane, and olobigondes are just one of the many creatures that have evolved to live among and consume this detritus. These flat, round fish are covered in a moss-like skin that makes them exceptionally difficult to spot as they hug the sides of flotsam, feeding off the waste that drifts into their wide, open mouths. While olobigondes are primarily detritivores, they've been known to lie in wait within a forest of kelp or against a mossy stone to ambush smaller creatures, such as water scamps or lone passing merfolk. The fish launch themselves from their hiding spot to take large bites out of their surprised prey, then grab the victim as it tries to flee. Despite their size and ungainly shape, olobigondes can move quickly in water, though their bursts of speed are usually short-lived. In addition to maintaining a firm hold on prey, olobigondes' mouths are filled with a unique toxin that weakens and decomposes living flesh. The hungry fish easily gulp down the resulting slurry. Ancient olobigondes grow truly immense, and their outward appearance evolves. There seems to be no limit to their size. Their skin even separates into plates with deep channels where water can accumulate, giving them the appearance of an entire patch of detritus rather than one piece. Recall Knowledge - Animal (Nature): DC 16 Recall Knowledge - Elemental (Arcana, Nature): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Olobigonde Source Rage of Elements pg. 184 Perception +7; scent (imprecise) 60 feet Languages Skills Athletics +10, Stealth +9, Survival +7 Str +3 Dex +1 Con +4 Int -4 Wis +1 Cha -5 Camouflage An olobigonde can Hide in aquatic environments even if it doesn't have cover. However, there must be plants, debris, a seabed, or other objects for it to camouflage itself, not just open water. --- AC 17 Fort +10 Ref +7 Will +5 HP 38 Ambush Reaction Trigger A target creature passes within 20 feet of the olobigonde's hiding place and has not detected the olobigonde; Effect The olobigonde lunges out of its hiding place, Swims directly toward the triggering creature, and makes a jaws Strike against it. The target creature is off-guard to this attack. Reactive Grab Reaction Trigger A creature within the olobigonde's reach leaves a square during a move action it's using; Requirements The olobigonde doesn't have a creature grabbed; Effect The olobigonde attempts to Grapple the triggering creature with its jaws. On a success, the target also takes 3 piercing damage (doubled on a critical success). --- Speed 5 feet, swim 30 feet Melee Single Action jaws +11, Damage 1d8+3 piercing plus decomposing toxin Decomposing Toxin (Poison) A living creature struck by an olobigonde's jaws Strike must succeed at a DC 15 Fortitude save or become enfeebled 1 and take 1d6 persistent poison damage (or enfeebled 2 with 2d6 persistent poison damage on a critical failure). The enfeebled condition ends when the persistent damage does. A creature currently affected by decomposing toxin doesn't need to save again. Olobigonde Toxin Alchemists who travel the planes have discovered how readily an olobigonde's toxin can decompose flesh, and some have discovered ways to incorporate it into their creations. An olobigonde's corpse yields approximately 1 gp worth of raw materials when harvested with a successful DC 16 Crafting or Survival check (2 gp worth on a critical success). This material can be used only to craft alchemical bombs with the poison trait. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Aquatic",
+  "Elemental",
+  "Water",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Aquatic](/Traits.aspx?ID=168), [Elemental](/Traits.aspx?ID=57), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Animal",
+  "Aquatic",
+  "Elemental",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2664",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 5,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

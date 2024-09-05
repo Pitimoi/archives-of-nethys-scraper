@@ -1,0 +1,158 @@
+{
+ "ac": 24,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "N",
+ "attack_bonus": [
+  16,
+  16,
+  18,
+  18
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Blinding Spittle",
+  "Constrict",
+  "Spike Rend",
+  "Tail Impalement"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 120,
+ "hp_raw": "120",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2601",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Pagulin](/Monsters.aspx?ID=2601)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nPagulins are massive, multi-legged lizards that stalk the mountain passes of the Five Kings Mountains. These reptiles hunt [elk](/Monsters.aspx?ID=2201) and [augdunars](/Monsters.aspx?ID=2596) by lying in wait behind rock formations or within the openings of caves. Pagulins produce a mildly acidic saliva that they spit at prey to temporarily blind them before moving in for the kill. A pagulin's tail features a deadly thagomizer, four large spikes that it uses to impale prey to prevent their escape. Five Kings citizens know that pagulins are much smarter than they look, with many reports of pagulins intentionally allowing prey to escape, only to follow a creature to its den and feast on its entire family.\n\n Though pagulins are deadly, most in the Five Kings Mountains are indifferent to them. Pagulins tend to rest for days at a time after a hunt, spending time to digest their massive kills. They're particularly territorial, however, and will gladly rouse from a post-meal stupor to defend their lairs. The lizards are also known to attack anything that interrupts a hunt or scares off prey. Many merchant caravans have dealt with an unexpected pagulin attack after riding past a herd of startled deer.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 25\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 23\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 20\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Pagulin](/Monsters.aspx?ID=2601)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Highhelm](/Sources.aspx?ID=204) pg. 131\n\n**Perception** +14; [low-light vision](/MonsterAbilities.aspx?ID=23), [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +17, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +18 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+9 piercing plus Grab\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +18 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+9 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +16 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+6 piercing plus Tail Impalement\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspit +16 ([range 30 feet](/Traits.aspx?ID=248)),\r\n**Damage** Blinding Spittle\n\n**Blinding Spittle**   A creature hit by a pagulin's spit must attempt a DC 22 Fortitude save.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [dazzled](/Conditions.aspx?ID=7) for 1 round. It can use an Interact action to wipe away the spittle and remove the dazzled condition.<br /> **Failure** As success, except the creature is [blinded](/Conditions.aspx?ID=1) for 1 round instead of dazzled.<br /> **Critical Failure** As failure, but the creature is blinded for 1 minute. The creature needs 2 total Interact actions to wipe away the spittle.\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  **Damage** 1d10+6 piercing, DC 25\r\n\r\n**Spike Rend** <actions string=\"Single Action\" />  **Requirements** The pagulin has a creature impaled on its tail; **Effect** The pagulin violently pulls its tail out of the creature, dealing 2d6 [persistent bleed damage](/Conditions.aspx?ID=29) to the creature.\r\n\r\n**Tail Impalement**   A creature hit by a pagulin's tail becomes impaled on one of the tail's spikes. The creature becomes [grabbed](/Conditions.aspx?ID=20). If the pagulin moves, it brings the grabbed creature along with it. The pagulin doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to [Escape](/Actions.aspx?ID=79) as normal. Large and larger creatures are immune to a pagulin's Tail Impalement.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Pagulin Lairs</title>\r\n\r\nPagulins tend to reside within the countless natural caves of the Five Kings Mountains. Identifying these caves is generally easy as the cavern floor and walls are pocked with small holes created from pagulin spittle. While pagulins are most common within the Five Kings Mountains and surrounding ranges, they also live in the more arid steppes and mountain ranges of northwestern Avistan. These pagulins are rarer than their Five Mountains cousins but have adapted to their differing environment. Rather than residing in caves, they create small burrows beneath shrubs or squeeze into crevices between large rocks. Reports of northern pagulins note how they're much more irritable, which some attribute to the hotter climes of these regions. Others attribute this to the cooler nights, as these pagulins seem most irritable early in the morning.\r\n</aside>",
+ "name": "Pagulin",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Highhelm",
+ "primary_source_raw": "Highhelm pg. 131",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 15,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-06-28",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Highhelm](/Sources.aspx?ID=204) pg. 131\n\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 24\r\n\r\n**Fort** +18\r\n\r\n**Ref** +15\r\n\r\n**Will** +12\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPagulins are massive, multi-legged lizards that stalk the mountain passes of the Five Kings Mountains. These reptiles hunt  elk  and  augdunars  by …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23), [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +17, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15",
+ "skill_mod": {
+  "athletics": 17,
+  "stealth": 15,
+  "survival": 15
+ },
+ "source": [
+  "Highhelm"
+ ],
+ "source_raw": [
+  "Highhelm pg. 131"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Highhelm](/Sources.aspx?ID=204) pg. 131",
+ "speed": {
+  "climb": 15,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet, climb 15 feet",
+ "speed_raw": "25 feet, climb 15 feet",
+ "spell_markdown": "",
+ "stealth": "15",
+ "strike_damage_average": [
+  15,
+  16,
+  20
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Pagulins are massive, multi-legged lizards that stalk the mountain passes of the Five Kings Mountains. These reptiles hunt  elk  and  augdunars  by …",
+ "summary_markdown": "Pagulins are massive, multi-legged lizards that stalk the mountain passes of the Five Kings Mountains. These reptiles hunt  elk  and  augdunars  by …",
+ "text": " Pagulin Pagulins are massive, multi-legged lizards that stalk the mountain passes of the Five Kings Mountains. These reptiles hunt elk and augdunars by lying in wait behind rock formations or within the openings of caves. Pagulins produce a mildly acidic saliva that they spit at prey to temporarily blind them before moving in for the kill. A pagulin's tail features a deadly thagomizer, four large spikes that it uses to impale prey to prevent their escape. Five Kings citizens know that pagulins are much smarter than they look, with many reports of pagulins intentionally allowing prey to escape, only to follow a creature to its den and feast on its entire family. Though pagulins are deadly, most in the Five Kings Mountains are indifferent to them. Pagulins tend to rest for days at a time after a hunt, spending time to digest their massive kills. They're particularly territorial, however, and will gladly rouse from a post-meal stupor to defend their lairs. The lizards are also known to attack anything that interrupts a hunt or scares off prey. Many merchant caravans have dealt with an unexpected pagulin attack after riding past a herd of startled deer. Recall Knowledge - Animal (Nature): DC 25 Unspecific Lore : DC 23 Specific Lore : DC 20 Pagulin Source Highhelm pg. 131 Perception +14; low-light vision, scent (imprecise) 30 feet Languages Skills Athletics +17, Stealth +15, Survival +15 Str +6 Dex +3 Con +4 Int -4 Wis +3 Cha +0 --- AC 24 Fort +18 Ref +15 Will +12 HP 120 --- Speed 25 feet, climb 15 feet Melee Single Action jaws +18 (reach 10 feet), Damage 2d10+9 piercing plus Grab Melee Single Action claw +18 (Agile), Damage 2d6+9 slashing Melee Single Action tail +16 (reach 15 feet), Damage 2d8+6 piercing plus Tail Impalement Ranged Single Action spit +16 (range 30 feet), Damage Blinding Spittle Blinding Spittle A creature hit by a pagulin's spit must attempt a DC 22 Fortitude save. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. It can use an Interact action to wipe away the spittle and remove the dazzled condition. Failure As success, except the creature is blinded for 1 round instead of dazzled. Critical Failure As failure, but the creature is blinded for 1 minute. The creature needs 2 total Interact actions to wipe away the spittle. Constrict Single Action Damage 1d10+6 piercing, DC 25 Spike Rend Single Action Requirements The pagulin has a creature impaled on its tail; Effect The pagulin violently pulls its tail out of the creature, dealing 2d6 persistent bleed damage to the creature. Tail Impalement A creature hit by a pagulin's tail becomes impaled on one of the tail's spikes. The creature becomes grabbed. If the pagulin moves, it brings the grabbed creature along with it. The pagulin doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to Escape as normal. Large and larger creatures are immune to a pagulin's Tail Impalement. Pagulin Lairs Pagulins tend to reside within the countless natural caves of the Five Kings Mountains. Identifying these caves is generally easy as the cavern floor and walls are pocked with small holes created from pagulin spittle. While pagulins are most common within the Five Kings Mountains and surrounding ranges, they also live in the more arid steppes and mountain ranges of northwestern Avistan. These pagulins are rarer than their Five Mountains cousins but have adapted to their differing environment. Rather than residing in caves, they create small burrows beneath shrubs or squeeze into crevices between large rocks. Reports of northern pagulins note how they're much more irritable, which some attribute to the hotter climes of these regions. Others attribute this to the cooler nights, as these pagulins seem most irritable early in the morning. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Uncommon",
+  "N",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Animal",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2601",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 12,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

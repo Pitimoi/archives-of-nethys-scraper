@@ -1,47 +1,57 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Defensive Recovery"
  ],
  "feat_markdown": "Defensive Recovery",
- "id": "feat-294",
+ "id": "feat-4680",
+ "legacy_id": "feat-294",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Defensive Recovery](/Feats.aspx?ID=294) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 125 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[harmful font or healing font](/Classes.aspx?ID=5)\n\n</column>\r\n\r\n---\r\n\r\nYour faith provides temporary protection in addition to healing. If the next action you use is to cast [_harm_](/Spells.aspx?ID=146) or [_heal_](/Spells.aspx?ID=148) on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Defensive Recovery](/Feats.aspx?ID=4680) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 119\n\n</column>\r\n\r\n---\r\n\r\nYour faith provides temporary protection in addition to healing. If the next action you use is to cast harm or heal on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.",
  "name": "Defensive Recovery",
  "pfs": "Standard",
- "prerequisite": "harmful font or healing font",
- "prerequisite_markdown": "[harmful font or healing font](/Classes.aspx?ID=5)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 119",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 125 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[harmful font or healing font](/Classes.aspx?ID=5)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour faith provides temporary protection in addition to healing.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 119\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour faith provides temporary protection in addition to healing.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 125"
+  "Player Core pg. 119"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 125 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 119",
  "speed": {},
  "summary": "Your faith provides temporary protection in addition to healing.",
  "summary_markdown": "Your faith provides temporary protection in addition to healing.",
- "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Defensive Recovery Single Action Source Core Rulebook pg. 125 4.0 Prerequisites harmful font or healing font --- Your faith provides temporary protection in addition to healing. If the next action you use is to cast harm or heal on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.",
+ "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Defensive Recovery Single Action Source Player Core pg. 119 --- Your faith provides temporary protection in addition to healing. If the next action you use is to cast harm or heal on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.",
  "trait": [
   "Cleric",
   "Concentrate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Cleric",
   "Concentrate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=294",
+ "url": "/Feats.aspx?ID=4680",
  "weakness": {}
 }

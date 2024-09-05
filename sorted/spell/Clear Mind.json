@@ -1,0 +1,82 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "heighten": [
+  "4th",
+  "6th",
+  "8th"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 4th rank",
+  "Heightened 6th rank",
+  "Heightened 8th rank"
+ ],
+ "heighten_level": [
+  2,
+  4,
+  6,
+  8
+ ],
+ "id": "spell-1469",
+ "legacy_id": "spell-252",
+ "legacy_name": "Remove Fear",
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Clear Mind](/Spells.aspx?ID=1469)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 320\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou drive mental contamination from the target's mind. Attempt to [counteract](/Rules.aspx?ID=371) an effect of your choice imposing one of these conditions on the target: [fleeing](/Conditions.aspx?ID=17), [frightened](/Conditions.aspx?ID=19), and [stupefied](/Conditions.aspx?ID=37). If you failed to counteract the effect but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed. This spell can't counteract or suppress conditions that are part of curses, diseases, or a natural state of the target.\n\n---\r\n**Heightened (4th)** Add [confused](/Conditions.aspx?ID=5), [controlled](/Conditions.aspx?ID=6), and [slowed](/Conditions.aspx?ID=35) to the list of conditions.\r\n\r\n**Heightened (6th)** Add [doomed](/Conditions.aspx?ID=9) to the list of conditions.\r\n\r\n**Heightened (8th)** Add [stunned](/Conditions.aspx?ID=36) to the list of conditions.",
+ "name": "Clear Mind",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 320",
+ "primary_source_category": "Rulebooks",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 320\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCounteract fleeing, frightened, stupefied, and related conditions.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 320"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 320",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Counteract fleeing, frightened, stupefied, and related conditions.",
+ "summary_markdown": "Counteract fleeing, frightened, stupefied, and related conditions.",
+ "target": "1 willing creature",
+ "target_markdown": "1 willing creature",
+ "text": "\nClear Mind Two Actions Source Player Core pg. 320 Traditions Divine, Occult, Primal Range touch Target 1 willing creature --- You drive mental contamination from the target's mind. Attempt to counteract an effect of your choice imposing one of these conditions on the target: fleeing, frightened, and stupefied. If you failed to counteract the effect but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed. This spell can't counteract or suppress conditions that are part of curses, diseases, or a natural state of the target. --- Heightened (4th) Add confused, controlled, and slowed to the list of conditions. Heightened (6th) Add doomed to the list of conditions. Heightened (8th) Add stunned to the list of conditions.",
+ "tradition": [
+  "Divine",
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Concentrate",
+  "Healing",
+  "Manipulate",
+  "Mental"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Concentrate",
+  "Healing",
+  "Manipulate",
+  "Mental"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1469",
+ "weakness": {}
+}

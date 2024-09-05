@@ -1,0 +1,152 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  6,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Camouflage",
+  "Defensive Spines",
+  "Stonefish Venom"
+ ],
+ "creature_family": "Fish",
+ "creature_family_markdown": "[Fish](/MonsterFamilies.aspx?ID=493)",
+ "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 9,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 15,
+ "hp_raw": "15",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3274",
+ "image": [
+  "/Images/Monsters/Stonefish.webp"
+ ],
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 0,
+ "markdown": "<title level=\"1\" pfs=\"\">[Stonefish](/Monsters.aspx?ID=3274)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nStonefish use their superior camouflage to lie in wait and devour small prey, becoming indistinguishable from the reefs they call home. Larger creatures are also at risk, although mostly through accidental contact with the stonefish's spines and their agonizing venom.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Stonefish.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Stonefish](/Monsters.aspx?ID=3274)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 148\n\n**Perception** +7; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +7, [Athletics](/Skills.aspx?ID=36) +4, [Stealth](/Skills.aspx?ID=48) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Camouflage** The stonefish can [Hide](/Actions.aspx?ID=2404) in its natural environment even if it doesn't have [cover](/Rules.aspx?ID=2372).\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 15\n\n</row>\n\n**Defensive Spines** When a creature moves into a space with one or more stonefish, that creature takes 1d4 piercing damage and is exposed to stonefish venom.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** swim 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbite +7 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+2 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspines +6,\r\n**Damage** 1d4+2 piercing plus stonefish venom\n\n**Stonefish Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 16 Fortitude; **Maximum Duration** 3 hours; **Stage 1** [clumsy 1](/Conditions.aspx?ID=61) (1 round); **Stage 2** clumsy 2 (10 minutes); **Stage 3** 3d6 poison and clumsy 2 (1 hour)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-493\" />",
+ "name": "Stonefish",
+ "npc": false,
+ "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 148",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 6,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 148\r\n\r\n**Creature Family** [Fish](/MonsterFamilies.aspx?ID=493)\r\n\r\n<row gap=\"medium\">\r\n**HP** 15\r\n\r\n**AC** 16\r\n\r\n**Fort** +9\r\n\r\n**Ref** +6\r\n\r\n**Will** +3\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStonefish use their superior camouflage to lie in wait and devour small prey, becoming indistinguishable from the reefs they call home. Larger …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +7, [Athletics](/Skills.aspx?ID=36) +4, [Stealth](/Skills.aspx?ID=48) +9",
+ "skill_mod": {
+  "acrobatics": 7,
+  "athletics": 4,
+  "stealth": 9
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 148"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 148",
+ "speed": {
+  "max": 25,
+  "swim": 25
+ },
+ "speed_markdown": "swim 25 feet",
+ "speed_raw": "swim 25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  5
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 2,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Stonefish use their superior camouflage to lie in wait and devour small prey, becoming indistinguishable from the reefs they call home. Larger …",
+ "summary_markdown": "Stonefish use their superior camouflage to lie in wait and devour small prey, becoming indistinguishable from the reefs they call home. Larger …",
+ "text": " Stonefish Stonefish use their superior camouflage to lie in wait and devour small prey, becoming indistinguishable from the reefs they call home. Larger creatures are also at risk, although mostly through accidental contact with the stonefish's spines and their agonizing venom. Recall Knowledge - Animal (Nature): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Stonefish Source Howl of the Wild pg. 148 Perception +7; low-light vision Languages Skills Acrobatics +7, Athletics +4, Stealth +9 Str +2 Dex +3 Con +2 Int -5 Wis +1 Cha -1 Camouflage The stonefish can Hide in its natural environment even if it doesn't have cover. --- AC 16 Fort +9 Ref +6 Will +3 HP 15 Defensive Spines When a creature moves into a space with one or more stonefish, that creature takes 1d4 piercing damage and is exposed to stonefish venom. --- Speed swim 25 feet Melee Single Action bite +7 (Finesse), Damage 1d6+2 piercing Melee Single Action spines +6, Damage 1d4+2 piercing plus stonefish venom Stonefish Venom (Poison) Saving Throw DC 16 Fortitude; Maximum Duration 3 hours; Stage 1 clumsy 1 (1 round); Stage 2 clumsy 2 (10 minutes); Stage 3 3d6 poison and clumsy 2 (1 hour) ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Aquatic",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Aquatic](/Traits.aspx?ID=533)",
+ "trait_raw": [
+  "Animal",
+  "Aquatic"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3274",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 3,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

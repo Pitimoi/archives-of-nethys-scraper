@@ -1,0 +1,217 @@
+{
+ "ac": 30,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  22,
+  24,
+  24
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Frightful Presence",
+  "Hell's Sting",
+  "Reactive Strike",
+  "Diabolic Fire",
+  "Draconic Frenzy",
+  "Draconic Momentum",
+  "Hellfire Breath"
+ ],
+ "creature_family": "Dragon, Diabolic",
+ "creature_family_markdown": "[Dragon, Diabolic](/MonsterFamilies.aspx?ID=398)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 215,
+ "hp_raw": "215",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2938",
+ "immunity": [
+  "fire",
+  "paralyzed",
+  "sleep"
+ ],
+ "immunity_markdown": "[fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Diabolic",
+  "Draconic",
+  "Pyric"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Pyric](/Languages.aspx?ID=110)",
+ "level": 11,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Young Diabolic Dragon](/Monsters.aspx?ID=2938)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n[Hell](/Planes.aspx?ID=42), according to some theologians, is a living entity in and of itself. Diabolic dragons, these scholars argue, are just extensions of the plane, living creatures that break off from Hell to enact its will. Whether this is true or whether diabolical dragons are simply the reborn souls of dragons sent to Hell, the fact remains that these dragons are powerful, cunning, and tyrannical. Every diabolic dragon's goal is to further Hell's will, though how this happens can vary. Regardless of their goals, these dragons always approach newcomers with an unsettling calmness.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Young Diabolic Dragon](/Monsters.aspx?ID=2938)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=579\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 112\n\n**Perception** +21; [greater darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, smoke vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Pyric](/Languages.aspx?ID=110)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +24, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +22, [Hell Lore](/Skills.aspx?ID=8) +19, [Intimidation](/Skills.aspx?ID=7) +20, [Legal Lore](/Skills.aspx?ID=8) +21, [Religion](/Skills.aspx?ID=13) +21, [Society](/Skills.aspx?ID=14) +19, [Thievery](/Skills.aspx?ID=17) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +23 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +21 \r\n\r\n+2 status to all saves vs. [divine](/Traits.aspx?ID=579)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 215\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\n\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 10\r\n\r\n**[Frightful Presence](/MonsterAbilities.aspx?ID=64)** ([aura](/Traits.aspx?ID=542), [emotion](/Traits.aspx?ID=590), [fear](/Traits.aspx?ID=598), [mental](/Traits.aspx?ID=647)) 90 feet, DC 28<br />**Hell's Sting** <actions string=\"Reaction\" /> ([divine](/Traits.aspx?ID=579), [mental](/Traits.aspx?ID=647), [unholy](/Traits.aspx?ID=521)) **Trigger** The dragon is critically hit with a melee attack; **Effect** The dragon channels the rancor of [Hell](/Planes.aspx?ID=42) back through the body of their foe, overwhelming it with an infernal assault on the mind. The triggering creature takes 6d6 mental damage with a DC 30 [basic](/Rules.aspx?ID=329) Will save. [Holy](/Traits.aspx?ID=517) creatures use an outcome one degree of success worse than they roll on their saving throw.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet, fly 120 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +24 ([Fire](/Traits.aspx?ID=72), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d12+10 piercing plus 2d6 fire\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +24 ([Agile](/Traits.aspx?ID=170), [Fire](/Traits.aspx?ID=72), [Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d8+10 piercing plus 2d6 fire and [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +22 ([Fire](/Traits.aspx?ID=72), [reach 15 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d8+10 bludgeoning plus 2d6 fire and [Knockdown](/MonsterAbilities.aspx?ID=46)\r\n\r\n**Divine Innate Spells** DC 28, attack +20\r\n- **Cantrips (6th)**\r\n[Ignition](/Spells.aspx?ID=1565)\r\n- **5th**\r\n[Divine Immolation](/Spells.aspx?ID=1496), [Wall of Fire](/Spells.aspx?ID=362)\r\n\r\n**Diabolic Fire**   Any fire damage that a diabolic dragon deals, including fire damage from spells, is imbued with the unholy power of Hell to scorch the spirit as well. A creature takes [spirit](/Traits.aspx?ID=737) damage instead of fire damage if that would be more detrimental to the creature (as determined by the GM). A diabolic dragon is immune to the diabolic fire of other diabolic dragons, the fire from [_divine immolation_](/Spells.aspx?ID=1496), and similar effects.\r\n\r\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The dragon makes two claw Strikes and one tail Strike in any order.\r\n\r\n**Draconic Momentum**   The dragon recharges their Hellfire Breath whenever they score a critical hit with a Strike.\r\n\r\n**Hellfire Breath** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Fire](/Traits.aspx?ID=72), [Unholy](/Traits.aspx?ID=521)) The dragon unleashes a blast of infernal fire that deals 12d6 fire damage in a 40-foot cone (DC 30 [basic](/Rules.aspx?ID=329) Reflex save). The dragon can't use Hellfire Breath again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-398\" />",
+ "name": "Young Diabolic Dragon",
+ "npc": false,
+ "perception": 21,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 112",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 20,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=579\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 112\r\n\r\n**Creature Family** [Dragon, Diabolic](/MonsterFamilies.aspx?ID=398)\r\n\r\n<row gap=\"medium\">\r\n**HP** 215\r\n\r\n**AC** 30\r\n\r\n**Fort** +23\r\n\r\n**Ref** +20\r\n\r\n**Will** +21\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHell , according to some theologians, is a living entity in and of itself. Diabolic dragons, these scholars argue, are just extensions of the plane, …\r\n</summary>",
+ "sense": " greater darkvision ,  scent  ( imprecise ) 60 feet, smoke vision",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, smoke vision",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Hell Lore",
+  "Intimidation",
+  "Legal Lore",
+  "Religion",
+  "Society",
+  "Thievery"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +24, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +22, [Hell Lore](/Skills.aspx?ID=8) +19, [Intimidation](/Skills.aspx?ID=7) +20, [Legal Lore](/Skills.aspx?ID=8) +21, [Religion](/Skills.aspx?ID=13) +21, [Society](/Skills.aspx?ID=14) +19, [Thievery](/Skills.aspx?ID=17) +20",
+ "skill_mod": {
+  "acrobatics": 20,
+  "athletics": 24,
+  "deception": 20,
+  "diplomacy": 22,
+  "intimidation": 20,
+  "religion": 21,
+  "society": 19,
+  "thievery": 20
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 112"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 112",
+ "speed": {
+  "fly": 120,
+  "land": 50,
+  "max": 120
+ },
+ "speed_markdown": "50 feet, fly 120 feet",
+ "speed_raw": "50 feet, fly 120 feet",
+ "spell": [
+  "Divine Immolation",
+  "Wall of Fire",
+  "Ignition"
+ ],
+ "spell_markdown": "[Divine Immolation](/Spells.aspx?ID=1496), [Ignition](/Spells.aspx?ID=1565), [Wall of Fire](/Spells.aspx?ID=362)",
+ "spell_attack_bonus": [
+  20
+ ],
+ "spell_attack_bonus_scale": [
+  "Moderate"
+ ],
+ "spell_attack_bonus_scale_number": [
+  3
+ ],
+ "spell_dc": [
+  28
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  26,
+  26,
+  30
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Hell , according to some theologians, is a living entity in and of itself. Diabolic dragons, these scholars argue, are just extensions of the plane, …",
+ "summary_markdown": "Hell , according to some theologians, is a living entity in and of itself. Diabolic dragons, these scholars argue, are just extensions of the plane, …",
+ "text": " Young Diabolic Dragon Hell, according to some theologians, is a living entity in and of itself. Diabolic dragons, these scholars argue, are just extensions of the plane, living creatures that break off from Hell to enact its will. Whether this is true or whether diabolical dragons are simply the reborn souls of dragons sent to Hell, the fact remains that these dragons are powerful, cunning, and tyrannical. Every diabolic dragon's goal is to further Hell's will, though how this happens can vary. Regardless of their goals, these dragons always approach newcomers with an unsettling calmness. Recall Knowledge - Dragon (Arcana): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Young Diabolic Dragon Source Monster Core pg. 112 Perception +21; greater darkvision, scent (imprecise) 60 feet, smoke vision Languages Common, Diabolic, Draconic, Pyric Skills Acrobatics +20, Athletics +24, Deception +20, Diplomacy +22, Hell Lore +19, Intimidation +20, Legal Lore +21, Religion +21, Society +19, Thievery +20 Str +7 Dex +3 Con +6 Int +2 Wis +4 Cha +3 --- AC 30 Fort +23 Ref +20 Will +21 +2 status to all saves vs. divine HP 215 Immunities fire, paralyzed, sleep Weaknesses holy 10 Frightful Presence (aura, emotion, fear, mental) 90 feet, DC 28 Hell's Sting Reaction (divine, mental, unholy) Trigger The dragon is critically hit with a melee attack; Effect The dragon channels the rancor of Hell back through the body of their foe, overwhelming it with an infernal assault on the mind. The triggering creature takes 6d6 mental damage with a DC 30 basic Will save. Holy creatures use an outcome one degree of success worse than they roll on their saving throw. Reactive Strike Reaction --- Speed 50 feet, fly 120 feet Melee Single Action jaws +24 (Fire, Magical, reach 10 feet, Unholy), Damage 2d12+10 piercing plus 2d6 fire Melee Single Action claws +24 (Agile, Fire, Magical, Unholy), Damage 2d8+10 piercing plus 2d6 fire and Grab Melee Single Action tail +22 (Fire, reach 15 feet, Magical, Unholy), Damage 2d8+10 bludgeoning plus 2d6 fire and Knockdown Divine Innate Spells DC 28, attack +20 - Cantrips (6th) Ignition - 5th Divine Immolation, Wall of Fire Diabolic Fire Any fire damage that a diabolic dragon deals, including fire damage from spells, is imbued with the unholy power of Hell to scorch the spirit as well. A creature takes spirit damage instead of fire damage if that would be more detrimental to the creature (as determined by the GM). A diabolic dragon is immune to the diabolic fire of other diabolic dragons, the fire from divine immolation , and similar effects. Draconic Frenzy Two Actions The dragon makes two claw Strikes and one tail Strike in any order. Draconic Momentum The dragon recharges their Hellfire Breath whenever they score a critical hit with a Strike. Hellfire Breath Two Actions (Divine, Fire, Unholy) The dragon unleashes a blast of infernal fire that deals 12d6 fire damage in a 40-foot cone (DC 30 basic Reflex save). The dragon can't use Hellfire Breath again for 1d4 rounds. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Divine",
+  "Dragon",
+  "Unholy",
+  "Large"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Divine](/Traits.aspx?ID=579), [Dragon](/Traits.aspx?ID=581), [Unholy](/Traits.aspx?ID=521)",
+ "trait_raw": [
+  "Divine",
+  "Dragon",
+  "Unholy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2938",
+ "vision": "Greater darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "holy": 10
+ },
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 10",
+ "weakness_raw": " holy  10",
+ "will_save": 21,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Bullet Split",
  "id": "feat-3177",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Bullet Split](/Feats.aspx?ID=3177) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 114</row>\n\n**Requirements**\r\nYou're wielding a firearm or crossbow in one hand and a slashing (or [versatile S](/Traits.aspx?ID=200)) melee weapon in the other.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou carefully align your weapon with the edge of your blade, splitting the projectile in two as you fire to attack two different targets. Make two Strikes, one each against two separate targets. The targets must be adjacent to each other and within your weapon's maximum range. Each of these attacks takes a –2 penalty to the attack roll, but the two count as only one attack when calculating your multiple attack penalty.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Bullet Split](/Feats.aspx?ID=3177) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 114\n\n**Requirements**\r\nYou're wielding a firearm or crossbow in one hand and a slashing (or [versatile S](/Traits.aspx?ID=200)) melee weapon in the other.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou carefully align your weapon with the edge of your blade, splitting the projectile in two as you fire to attack two different targets. Make two Strikes, one each against two separate targets. The targets must be adjacent to each other and within your weapon's maximum range. Each of these attacks takes a –2 penalty to the attack roll, but the two count as only one attack when calculating your multiple attack penalty.",
  "name": "Bullet Split",
  "pfs": "Standard",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 114",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "requirement": "You're wielding a firearm or crossbow in one hand and a slashing (or  versatile S ) melee weapon in the other.",
  "requirement_markdown": "You're wielding a firearm or crossbow in one hand and a slashing (or [versatile S](/Traits.aspx?ID=200)) melee weapon in the other.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 114</row>\n\n**Requirements**\r\nYou're wielding a firearm or crossbow in one hand and a slashing (or [versatile S](/Traits.aspx?ID=200)) melee weapon in the other.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou carefully align your weapon with the edge of your blade, splitting the projectile in two as you fire to attack two different targets.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 114\n\n**Requirements**\r\nYou're wielding a firearm or crossbow in one hand and a slashing (or [versatile S](/Traits.aspx?ID=200)) melee weapon in the other.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou carefully align your weapon with the edge of your blade, splitting the projectile in two as you fire to attack two different targets.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 114"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 114</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 114",
  "speed": {},
  "summary": "You carefully align your weapon with the edge of your blade, splitting the projectile in two as you fire to attack two different targets.",
  "summary_markdown": "You carefully align your weapon with the edge of your blade, splitting the projectile in two as you fire to attack two different targets.",
@@ -33,6 +40,9 @@
  "trait": [
   "Flourish",
   "Gunslinger"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Flourish](/Traits.aspx?ID=73), [Gunslinger](/Traits.aspx?ID=406)",
  "trait_raw": [

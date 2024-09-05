@@ -1,68 +1,115 @@
 {
- "ac": 19,
- "alignment": "CG",
- "breadcrumbs_spa": [],
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  12
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Nature Empathy",
   "Tree Dependent",
   "Tree Meld"
  ],
  "creature_family": "Nymph",
- "creature_family_markdown": "[Nymph](/MonsterFamilies.aspx?ID=77)",
+ "creature_family_markdown": "[Nymph](/MonsterFamilies.aspx?ID=449)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "element": [
+  "Wood"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 55,
  "hp_raw": "55",
- "id": "creature-312",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3112",
  "image": [
-  "/Images/Monsters/Nymph_Dryad.png"
+  "/Images/Monsters/Dryad.webp"
  ],
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Common",
   "Elven",
-  "Sylvan",
-  "<%SPELLS%294%%><i>speak with plants</i><%END>"
+  "Fey",
+  "Muan"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Fey](/Languages.aspx?ID=119), [Muan](/Languages.aspx?ID=108)",
+ "legacy_id": "creature-312",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Dryad](/Monsters.aspx?ID=312)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm their sacred groves and beloved forests, but they are not above using enchantments to enlist the aid of allies when evil threats cannot be dissuaded with words alone. In times of peace, dryads happily live secluded lives inside their trees, and a community at harmony with nature might not even realize a dryad lives nearby.\n\n Though they watch over all the woods around them, dryads are inextricably tied to a specific tree, usually an oak. Dryads who are bonded to another type of tree are fundamentally the same, but they may differ in temperament and appearance to match their ward. For instance, kraneiai, or cherry-tree dryads, have beautiful pink coloration and concern themselves with the fragile beauty of life.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Nymph_Dryad.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Dryad](/Monsters.aspx?ID=312)</title>\r\n\r\n<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=230\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 246</row>\n\n**Perception** +10; low-light vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +5, [Crafting](/Skills.aspx?ID=4) +7, [Diplomacy](/Skills.aspx?ID=6) +9, [Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Nature Empathy** The dryad can use Diplomacy to Make an Impression on and make very simple Requests of animals and plants.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 55\n\n**Weaknesses**\r\ncold iron 5, fire 5\r\n\r\n**Tree Dependent** A dryad is mystically bonded to a single great tree and must remain within 300 feet of it. If she moves beyond that range, she becomes sickened 1 and is unable to recover. She must attempt a DC 18 Fortitude save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, she becomes drained 1, with this value increasing by 1 every additional 24 hours. A dryad can perform a 24-hour ritual to bond herself to a new tree.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbranch +12 ([Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d12+2 bludgeoning\r\n\r\n**Primal Innate Spells** DC 21, attack +11\r\n- **Cantrips (2nd)**\r\n[Tanglefoot](/Spells.aspx?ID=330)\r\n- **2nd**\r\n[Entangle](/Spells.aspx?ID=103) (at will), [Tree Shape](/Spells.aspx?ID=342) (at will)\r\n- **3rd**\r\n[Sleep](/Spells.aspx?ID=288)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (x3), [Suggestion](/Spells.aspx?ID=315)\r\n- **5th**\r\n[Tree Stride](/Spells.aspx?ID=343) (x2)\r\n- **Constant (4th)**\r\n[Speak with Plants](/Spells.aspx?ID=294)\r\n\r\n**Tree Meld** <actions string=\"Two Actions\" /> ([Primal](/Traits.aspx?ID=134), [Transmutation](/Traits.aspx?ID=157)) The dryad touches a tree of enough volume to contain her and merges into it for as long as she wishes. She can Cast a Spell while inside as long as the spell doesn’t require a line of effect outside the tree. She can hear, but not see, what’s going on outside the tree. She can Dismiss this effect.<br /> Significant physical damage dealt to the tree expels the dryad from the tree and deals 3d6 damage to her. _[Passwall](/Spells.aspx?ID=216)_ expels the dryad without dealing damage.<br /> If a dryad uses this ability on her bonded tree, she instead enters an extradimensional living space within the tree; Tree Meld gains the [extradimensional](/Traits.aspx?ID=67) trait. A dryad can bring up to two other creatures with her when entering her home within her bonded tree. The dryad can still be expelled from this space as above.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-77\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Dryad](/Monsters.aspx?ID=3112)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm their sacred groves and beloved forests, but they're not above using magic to enlist the aid of allies when evil threats cannot be dissuaded with words alone. In times of peace, dryads happily live secluded lives inside their trees, and a community at harmony with nature might not even realize a dryad lives nearby.\n\n Though they watch over all the woods around them, dryads are inextricably tied to a specific tree, usually an oak. Dryads who are bonded to another type of tree are fundamentally the same, but they may differ in temperament and appearance to match their chosen ward. For instance, kraneiai, or cherry-tree dryads, have beautiful pink coloration and concern themselves with the fragile beauty of life.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dryad.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Dryad](/Monsters.aspx?ID=3112)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=764\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=668\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 244\n\n**Perception** +10; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Fey](/Languages.aspx?ID=119), [Muan](/Languages.aspx?ID=108)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +5, [Crafting](/Skills.aspx?ID=4) +7, [Diplomacy](/Skills.aspx?ID=6) +9, [Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Nature Empathy** The dryad can ask questions of, receive answers from, and use the [Diplomacy](/Skills.aspx?ID=39) skill with [animals](/Traits.aspx?ID=531) and [plants](/Traits.aspx?ID=668).\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 55\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 5, [fire](/Traits.aspx?ID=604) 5\r\n\r\n**Tree Dependent** A dryad is bonded to a single great tree. If she is more than 300 feet away from it for 24 hours or more, she gains the [weak](/Rules.aspx?ID=791) adjustments until she returns. She can perform a 24-hour ritual to bond herself to a new tree.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbranch +12 ([Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d12+2 bludgeoning\r\n\r\n**Primal Innate Spells** DC 20, attack +12\r\n- **Cantrips (2nd)**\r\n[Tangle Vine](/Spells.aspx?ID=1713)\r\n- **2nd**\r\n[Entangling Flora](/Spells.aspx?ID=1515) (at will), [One with Plants](/Spells.aspx?ID=1618) (at will)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (×3), [Suggestion](/Spells.aspx?ID=315)\r\n- **5th**\r\n[Nature's Pathway](/Spells.aspx?ID=1613) (×2)\r\n\r\n**Tree Meld** <actions string=\"Two Actions\" />  A [_one with plants_](/Spells.aspx?ID=1618) spell cast by a dryad has an unlimited duration. In addition, if the dryad merges with her bonded tree, she can choose to instead enter an extradimensional living space within the tree, and can bring up to two adjacent, willing creatures with her; the spell gains the [extradimensional](/Traits.aspx?ID=596) trait. The dryad can still be expelled from this space.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-449\" />",
  "name": "Dryad",
  "npc": false,
  "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 244",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 11,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=230\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 246</row>\r\n\r\n**Creature Family** [Nymph](/MonsterFamilies.aspx?ID=77)\r\n\r\n<row gap=\"medium\">\r\n**HP** 55\r\n\r\n**AC** 19\r\n\r\n**Fort** +6\r\n\r\n**Ref** +11\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm …\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Nymph\" url=\"/Traits.aspx?ID=764\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=668\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 244\r\n\r\n**Creature Family** [Nymph](/MonsterFamilies.aspx?ID=449)\r\n\r\n<row gap=\"medium\">\r\n**HP** 55\r\n\r\n**AC** 17\r\n\r\n**Fort** +6\r\n\r\n**Ref** +11\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +9",
-  "Athletics +5",
-  "Crafting +7",
-  "Diplomacy +9",
-  "Nature +13",
-  "Stealth +9",
-  "Survival +12"
+  "Acrobatics",
+  "Athletics",
+  "Crafting",
+  "Diplomacy",
+  "Nature",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +5, [Crafting](/Skills.aspx?ID=4) +7, [Diplomacy](/Skills.aspx?ID=6) +9, [Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +12",
+ "skill_mod": {
+  "acrobatics": 9,
+  "athletics": 5,
+  "crafting": 7,
+  "diplomacy": 9,
+  "nature": 13,
+  "stealth": 9,
+  "survival": 12
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 246"
+  "Monster Core pg. 244"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 246</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 244",
  "speed": {
   "land": 25,
   "max": 25
@@ -70,40 +117,77 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell": [
-  "Tree Stride",
+  "Nature's Pathway",
   "Charm",
   "Suggestion",
-  "Sleep",
-  "Entangle",
-  "Tree Shape",
-  "Tanglefoot",
-  "Speak with Plants"
+  "Entangling Flora",
+  "One with Plants",
+  "Tangle Vine"
  ],
- "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Entangle](/Spells.aspx?ID=103), [Sleep](/Spells.aspx?ID=288), [Speak with Plants](/Spells.aspx?ID=294), [Suggestion](/Spells.aspx?ID=315), [Tanglefoot](/Spells.aspx?ID=330), [Tree Shape](/Spells.aspx?ID=342), [Tree Stride](/Spells.aspx?ID=343)",
+ "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Entangling Flora](/Spells.aspx?ID=1515), [Nature's Pathway](/Spells.aspx?ID=1613), [One with Plants](/Spells.aspx?ID=1618), [Suggestion](/Spells.aspx?ID=315), [Tangle Vine](/Spells.aspx?ID=1713)",
+ "spell_attack_bonus": [
+  12
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  20
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "9",
+ "strike_damage_average": [
+  8
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "Dryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm …",
  "summary_markdown": "Dryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm …",
- "text": " Dryad Dryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm their sacred groves and beloved forests, but they are not above using enchantments to enlist the aid of allies when evil threats cannot be dissuaded with words alone. In times of peace, dryads happily live secluded lives inside their trees, and a community at harmony with nature might not even realize a dryad lives nearby. Though they watch over all the woods around them, dryads are inextricably tied to a specific tree, usually an oak. Dryads who are bonded to another type of tree are fundamentally the same, but they may differ in temperament and appearance to match their ward. For instance, kraneiai, or cherry-tree dryads, have beautiful pink coloration and concern themselves with the fragile beauty of life. Recall Knowledge - Fey (Nature): DC 18 Recall Knowledge - Plant (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Dryad Source Bestiary pg. 246 Perception +10; low-light vision Languages Common, Elven, Sylvan; speak with plants Skills Acrobatics +9, Athletics +5, Crafting +7, Diplomacy +9, Nature +13, Stealth +9, Survival +12 Str +0 Dex +4 Con +1 Int +2 Wis +3 Cha +4 Nature Empathy The dryad can use Diplomacy to Make an Impression on and make very simple Requests of animals and plants. --- AC 19 Fort +6 Ref +11 Will +10 HP 55 Weaknesses cold iron 5, fire 5 Tree Dependent A dryad is mystically bonded to a single great tree and must remain within 300 feet of it. If she moves beyond that range, she becomes sickened 1 and is unable to recover. She must attempt a DC 18 Fortitude save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, she becomes drained 1, with this value increasing by 1 every additional 24 hours. A dryad can perform a 24-hour ritual to bond herself to a new tree. --- Speed 25 feet Melee Single Action branch +12 (Finesse, Magical), Damage 1d12+2 bludgeoning Primal Innate Spells DC 21, attack +11 - Cantrips (2nd) Tanglefoot - 2nd Entangle (at will), Tree Shape (at will) - 3rd Sleep - 4th Charm (x3), Suggestion - 5th Tree Stride (x2) - Constant (4th) Speak with Plants Tree Meld Two Actions (Primal, Transmutation) The dryad touches a tree of enough volume to contain her and merges into it for as long as she wishes. She can Cast a Spell while inside as long as the spell doesn’t require a line of effect outside the tree. She can hear, but not see, what’s going on outside the tree. She can Dismiss this effect. Significant physical damage dealt to the tree expels the dryad from the tree and deals 3d6 damage to her. Passwall expels the dryad without dealing damage. If a dryad uses this ability on her bonded tree, she instead enters an extradimensional living space within the tree; Tree Meld gains the extradimensional trait. A dryad can bring up to two other creatures with her when entering her home within her bonded tree. The dryad can still be expelled from this space as above. ",
+ "text": " Dryad Dryads are fey guardians of the trees and creatures who dwell in wooded areas. They prefer using indirect methods to dissuade those who would harm their sacred groves and beloved forests, but they're not above using magic to enlist the aid of allies when evil threats cannot be dissuaded with words alone. In times of peace, dryads happily live secluded lives inside their trees, and a community at harmony with nature might not even realize a dryad lives nearby. Though they watch over all the woods around them, dryads are inextricably tied to a specific tree, usually an oak. Dryads who are bonded to another type of tree are fundamentally the same, but they may differ in temperament and appearance to match their chosen ward. For instance, kraneiai, or cherry-tree dryads, have beautiful pink coloration and concern themselves with the fragile beauty of life. Recall Knowledge - Fey (Nature): DC 18 Recall Knowledge - Plant (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Dryad Source Monster Core pg. 244 Perception +10; low-light vision Languages Common, Elven, Fey, Muan Skills Acrobatics +9, Athletics +5, Crafting +7, Diplomacy +9, Nature +13, Stealth +9, Survival +12 Str +0 Dex +4 Con +1 Int +2 Wis +3 Cha +4 Nature Empathy The dryad can ask questions of, receive answers from, and use the Diplomacy skill with animals and plants. --- AC 17 Fort +6 Ref +11 Will +10 HP 55 Weaknesses cold iron 5, fire 5 Tree Dependent A dryad is bonded to a single great tree. If she is more than 300 feet away from it for 24 hours or more, she gains the weak adjustments until she returns. She can perform a 24-hour ritual to bond herself to a new tree. --- Speed 25 feet Melee Single Action branch +12 (Finesse, Magical), Damage 1d12+2 bludgeoning Primal Innate Spells DC 20, attack +12 - Cantrips (2nd) Tangle Vine - 2nd Entangling Flora (at will), One with Plants (at will) - 4th Charm (×3), Suggestion - 5th Nature's Pathway (×2) Tree Meld Two Actions A one with plants spell cast by a dryad has an unlimited duration. In addition, if the dryad merges with her bonded tree, she can choose to instead enter an extradimensional living space within the tree, and can bring up to two adjacent, willing creatures with her; the spell gains the extradimensional trait. The dryad can still be expelled from this space. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Fey",
   "Nymph",
   "Plant",
-  "CG",
+  "Wood",
   "Medium"
  ],
- "trait_markdown": "[Fey](/Traits.aspx?ID=69), [Nymph](/Traits.aspx?ID=230), [Plant](/Traits.aspx?ID=125)",
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Elemental"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Nymph](/Traits.aspx?ID=764), [Plant](/Traits.aspx?ID=668), [Wood](/Traits.aspx?ID=508)",
  "trait_raw": [
   "Fey",
   "Nymph",
-  "Plant"
+  "Plant",
+  "Wood"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=312",
+ "url": "/Monsters.aspx?ID=3112",
  "vision": "Low-light vision",
  "weakest_save": [
   "fort",
@@ -113,8 +197,12 @@
   "cold_iron": 5,
   "fire": 5
  },
- "weakness_markdown": "cold iron 5, fire 5",
- "weakness_raw": "cold iron 5, fire 5",
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 5, [fire](/Traits.aspx?ID=604) 5",
+ "weakness_raw": " cold iron  5,  fire  5",
  "will_save": 10,
- "wisdom": 3
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

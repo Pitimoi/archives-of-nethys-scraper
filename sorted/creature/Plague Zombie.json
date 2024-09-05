@@ -1,62 +1,101 @@
 {
  "ac": 13,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  9
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Slow",
-  "Jaws",
+  "Zombie Bite",
   "Zombie Rot"
  ],
  "creature_family": "Zombie",
- "creature_family_markdown": "[Zombie](/MonsterFamilies.aspx?ID=103)",
+ "creature_family_markdown": "[Zombie](/MonsterFamilies.aspx?ID=487)",
  "dexterity": -2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 50,
- "hp_raw": "50 ( negative healing )",
- "id": "creature-424",
+ "hp_raw": "50 ( void healing )",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3250",
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
   "mental",
   "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, mental, paralyzed, poison, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [mental](/Traits.aspx?ID=647), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-424",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Plague Zombie](/Monsters.aspx?ID=424)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nPlague zombies are infested with hideous contagions.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Plague Zombie](/Monsters.aspx?ID=424)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Zombie\" url=\"/Traits.aspx?ID=245\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 340</row>\n\n**Perception** +3; darkvision\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** -2\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -2\r\n</row>\r\n\r\n**Slow** A zombie is permanently slowed 1 and can’t use reactions.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 13 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +3 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n**HP** 50\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, mental, paralyzed, poison, unconscious\n\n**Weaknesses**\r\npositive 10, slashing 10\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +9,\r\n**Damage** 1d8+4 bludgeoning plus Grab and zombie rot\n\n**Jaws** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) **Requirement** The plague zombie has a creature grabbed or restrained. **Effect** The plague zombie makes a jaws unarmed melee Strike against the grabbed or restrained creature with an attack modifier of +9 that deals 1d12+4 piercing damage. A creature damaged by the jaws is exposed to zombie rot.\r\n\r\n**Zombie Rot**  ([Disease](/Traits.aspx?ID=46), [Necromancy](/Traits.aspx?ID=117)) An infected creature can’t heal damage it takes from zombie rot until it has been cured of the disease. **Saving Throw** DC 18 Fortitude; **Stage 1** carrier with no ill effect (1 day); **Stage 2** 1d6 negative damage (1 day); **Stage 3** 1d6 negative damage (1 day); **Stage 4** 1d6 negative damage (1 day); **Stage 5** dead, rising as a plague zombie immediately\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-103\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Plague Zombie](/Monsters.aspx?ID=3250)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nPlague zombies are infested with horrible contagions.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Plague Zombie](/Monsters.aspx?ID=3250)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Zombie\" url=\"/Traits.aspx?ID=782\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 356\n\n**Perception** +3; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** -2\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -2\r\n</row>\r\n\r\n**Slow** A zombie is permanently [slowed 1](/Conditions.aspx?ID=92) and can't use reactions.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 13 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +3 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\r\n([void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [mental](/Traits.aspx?ID=647), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\n\n**Weaknesses**\r\nslashing 10, vitality 10\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +9,\r\n**Damage** 1d8+4 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45) and zombie rot\n\n**Zombie Bite** <actions string=\"Single Action\" />  **Requirements** The zombie has a creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90); **Effect** The zombie makes a jaws [unarmed](/Traits.aspx?ID=719) melee Strike against that creature with an attack modifier of +9 that deals 1d12+4 piercing damage and exposes the creature to zombie rot.\r\n\r\n**Zombie Rot**  ([Disease](/Traits.aspx?ID=46), [Divine](/Traits.aspx?ID=48), [Void](/Traits.aspx?ID=510)) An infected creature can't heal damage it takes from zombie rot until it has been cured of the disease; **Saving Throw** DC 18 Fortitude; **Stage 1** carrier with no ill effect (1 day); **Stage 2** 1d6 void damage (1 day); **Stage 3** 1d6 void damage (1 day); **Stage 4** 1d6 void damage (1 day); **Stage 5** dead, rising as a plague zombie immediately\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-487\" />",
  "name": "Plague Zombie",
  "npc": false,
  "perception": 3,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 356",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 3,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Zombie\" url=\"/Traits.aspx?ID=245\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 340</row>\r\n\r\n**Creature Family** [Zombie](/MonsterFamilies.aspx?ID=103)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50 ( negative healing )\r\n\r\n**AC** 13\r\n\r\n**Fort** +6\r\n\r\n**Ref** +3\r\n\r\n**Will** +4\r\n\r\n**Perception** +3\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPlague zombies are infested with hideous contagions.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Zombie\" url=\"/Traits.aspx?ID=782\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 356\r\n\r\n**Creature Family** [Zombie](/MonsterFamilies.aspx?ID=487)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50 ( void healing )\r\n\r\n**AC** 13\r\n\r\n**Fort** +6\r\n\r\n**Ref** +3\r\n\r\n**Will** +4\r\n\r\n**Perception** +3\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPlague zombies are infested with horrible contagions.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
- "skill": [
-  "Athletics +7"
+ "size_id": [
+  3
  ],
- "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +7",
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +9",
+ "skill_mod": {
+  "athletics": 9
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 340"
+  "Monster Core pg. 356"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 340</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 356",
  "speed": {
   "land": 25,
   "max": 25
@@ -64,40 +103,60 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  8
+ ],
+ "strike_damage_scale": [
+  "Extreme"
+ ],
+ "strike_damage_scale_number": [
+  5
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Plague zombies are infested with hideous contagions.",
- "summary_markdown": "Plague zombies are infested with hideous contagions.",
- "text": " Plague Zombie Plague zombies are infested with hideous contagions. Recall Knowledge - Undead (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Plague Zombie Source Bestiary pg. 340 Perception +3; darkvision Languages Skills Athletics +7 Str +4 Dex -2 Con +3 Int -5 Wis +0 Cha -2 Slow A zombie is permanently slowed 1 and can’t use reactions. --- AC 13 Fort +6 Ref +3 Will +4 HP 50 (negative healing) Immunities death effects, disease, mental, paralyzed, poison, unconscious Weaknesses positive 10, slashing 10 --- Speed 25 feet Melee Single Action fist +9, Damage 1d8+4 bludgeoning plus Grab and zombie rot Jaws Single Action (Attack) Requirement The plague zombie has a creature grabbed or restrained. Effect The plague zombie makes a jaws unarmed melee Strike against the grabbed or restrained creature with an attack modifier of +9 that deals 1d12+4 piercing damage. A creature damaged by the jaws is exposed to zombie rot. Zombie Rot (Disease, Necromancy) An infected creature can’t heal damage it takes from zombie rot until it has been cured of the disease. Saving Throw DC 18 Fortitude; Stage 1 carrier with no ill effect (1 day); Stage 2 1d6 negative damage (1 day); Stage 3 1d6 negative damage (1 day); Stage 4 1d6 negative damage (1 day); Stage 5 dead, rising as a plague zombie immediately ",
+ "summary": "Plague zombies are infested with horrible contagions.",
+ "summary_markdown": "Plague zombies are infested with horrible contagions.",
+ "text": " Plague Zombie Plague zombies are infested with horrible contagions. Recall Knowledge - Undead (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Plague Zombie Source Monster Core pg. 356 Perception +3; darkvision Languages Skills Athletics +9 Str +4 Dex -2 Con +3 Int -5 Wis +0 Cha -2 Slow A zombie is permanently slowed 1 and can't use reactions. --- AC 13 Fort +6 Ref +3 Will +4 HP 50 (void healing) Immunities bleed, death effects, disease, mental, paralyzed, poison, unconscious Weaknesses slashing 10, vitality 10 --- Speed 25 feet Melee Single Action fist +9, Damage 1d8+4 bludgeoning plus Grab and zombie rot Zombie Bite Single Action Requirements The zombie has a creature grabbed or restrained; Effect The zombie makes a jaws unarmed melee Strike against that creature with an attack modifier of +9 that deals 1d12+4 piercing damage and exposes the creature to zombie rot. Zombie Rot (Disease, Divine, Void) An infected creature can't heal damage it takes from zombie rot until it has been cured of the disease; Saving Throw DC 18 Fortitude; Stage 1 carrier with no ill effect (1 day); Stage 2 1d6 void damage (1 day); Stage 3 1d6 void damage (1 day); Stage 4 1d6 void damage (1 day); Stage 5 dead, rising as a plague zombie immediately ",
+ "tradition_markdown": "",
  "trait": [
   "Mindless",
   "Undead",
+  "Unholy",
   "Zombie",
-  "NE",
   "Medium"
  ],
- "trait_markdown": "[Mindless](/Traits.aspx?ID=108), [Undead](/Traits.aspx?ID=160), [Zombie](/Traits.aspx?ID=245)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Mindless](/Traits.aspx?ID=652), [Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521), [Zombie](/Traits.aspx?ID=782)",
  "trait_raw": [
   "Mindless",
   "Undead",
+  "Unholy",
   "Zombie"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=424",
+ "url": "/Monsters.aspx?ID=3250",
  "vision": "Darkvision",
  "weakest_save": [
   "ref",
   "reflex"
  ],
  "weakness": {
-  "positive": 10,
   "slashing": 10
  },
- "weakness_markdown": "positive 10, slashing 10",
- "weakness_raw": "positive 10, slashing 10",
+ "weakness_markdown": "slashing 10, vitality 10",
+ "weakness_raw": "slashing 10, vitality 10",
  "will_save": 4,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,10 +1,28 @@
 {
  "ac": 27,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  17,
+  20,
+  21
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Attack of Opportunity",
   "Change Shape"
@@ -12,53 +30,87 @@
  "creature_family": "Oni",
  "creature_family_markdown": "[Oni](/MonsterFamilies.aspx?ID=144)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 125,
  "hp_raw": "125",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-746",
  "image": [
   "/Images/Monsters/Oni_OniDoshi.png"
  ],
  "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Breastplate",
+  "composite shortbow with 20 arrows",
+  "+1 striking falchion"
+ ],
  "language": [
   "Common",
   "Jotun"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Onidoshi](/Monsters.aspx?ID=746)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOnidoshi, or ogre mages, are oni with the material form of an [ogre](/MonsterFamilies.aspx?ID=78). Onidoshi's supernatural prowess and overwhelming intellect are enough to awe and cow entire families of rank-and-file ogres. Because of this, onidoshi are often found at the head of ogre war parties or orchestrating these violent campaigns from behind the scenes. It's rare for onidoshi to lead solitary existences, but those who do prefer to maraud the countryside or exploit villages and hoard the spoils for themselves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 24\r\n\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Oni_OniDoshi.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Onidoshi](/Monsters.aspx?ID=746)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=303\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 188 <sup>2.0</sup></row>\n\n**Perception** +17; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Arcana](/Skills.aspx?ID=2) +13, [Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Nature](/Skills.aspx?ID=10) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[Breastplate](/Armor.aspx?ID=10), [composite shortbow with 20 arrows](/Weapons.aspx?ID=75), _+1 [striking](/Equipment.aspx?ID=280) [falchion](/Weapons.aspx?ID=18)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +15 \r\n\r\n+1 status on all saves vs. magic\r\n</row>\r\n\r\n**HP** 125\r\n\r\n, regeneration 7 (deactivated by acid or fire)\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_falchion_ +21 ([Forceful](/Traits.aspx?ID=180), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d10+9 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +20 ([Agile](/Traits.aspx?ID=170), [Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+9 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite shortbow +17 ([deadly 1d10](/Traits.aspx?ID=174), [range increment 100 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 2d6+9 piercing\r\n\r\n**Primal Innate Spells** DC 24\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59), [Invisibility](/Spells.aspx?ID=164) (at will, self only)\r\n- **3rd**\r\n[Fear](/Spells.aspx?ID=110)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34), [Gaseous Form](/Spells.aspx?ID=129), [Sleep](/Spells.aspx?ID=288)\r\n- **5th**\r\n[Cone of Cold](/Spells.aspx?ID=47)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134), [Transmutation](/Traits.aspx?ID=157)) The onidoshi takes on the appearance of an [ogre](/MonsterFamilies.aspx?ID=78). This doesn't change their Speed or Strike attack and damage.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-144\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Onidoshi](/Monsters.aspx?ID=746)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOnidoshi, or ogre mages, are oni with the material form of an [ogre](/MonsterFamilies.aspx?ID=78). Onidoshi's supernatural prowess and overwhelming intellect are enough to awe and cow entire families of rank-and-file ogres. Because of this, onidoshi are often found at the head of ogre war parties or orchestrating these violent campaigns from behind the scenes. It's rare for onidoshi to lead solitary existences, but those who do prefer to maraud the countryside or exploit villages and hoard the spoils for themselves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 24\r\n\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Oni_OniDoshi.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Onidoshi](/Monsters.aspx?ID=746)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=303\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 188 <sup>2.0</sup>\n\n**Perception** +17; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Arcana](/Skills.aspx?ID=2) +13, [Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Nature](/Skills.aspx?ID=10) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[Breastplate](/Armor.aspx?ID=10), [composite shortbow with 20 arrows](/Weapons.aspx?ID=75), _+1 [striking](/Equipment.aspx?ID=280) [falchion](/Weapons.aspx?ID=18)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +15 \r\n\r\n+1 status on all saves vs. magic\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n, regeneration 7 (deactivated by acid or fire)\n\n</row>\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_falchion_ +21 ([Forceful](/Traits.aspx?ID=180), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d10+9 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +20 ([Agile](/Traits.aspx?ID=170), [Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+9 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite shortbow +17 ([deadly 1d10](/Traits.aspx?ID=174), [range increment 100 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 2d6+9 piercing\r\n\r\n**Primal Innate Spells** DC 24\r\n- **2nd**\r\n[Darkness](/Spells.aspx?ID=59), [Invisibility](/Spells.aspx?ID=164) (at will, self only)\r\n- **3rd**\r\n[Fear](/Spells.aspx?ID=110)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34), [Gaseous Form](/Spells.aspx?ID=129), [Sleep](/Spells.aspx?ID=288)\r\n- **5th**\r\n[Cone of Cold](/Spells.aspx?ID=47)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134), [Transmutation](/Traits.aspx?ID=157)) The onidoshi takes on the appearance of an [ogre](/MonsterFamilies.aspx?ID=78). This doesn't change their Speed or Strike attack and damage.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-144\" />",
  "name": "Onidoshi",
  "npc": false,
  "perception": 17,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Bestiary 2",
+ "primary_source_raw": "Bestiary 2 pg. 188",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 15,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2020-05-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=303\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 188 <sup>2.0</sup></row>\r\n\r\n**Creature Family** [Oni](/MonsterFamilies.aspx?ID=144)\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n**AC** 27\r\n\r\n**Fort** +18\r\n\r\n**Ref** +15\r\n\r\n**Will** +15\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOnidoshi, or ogre mages, are oni with the material form of an  ogre . Onidoshi's supernatural prowess and overwhelming intellect are enough to awe …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=303\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 188 <sup>2.0</sup>\r\n\r\n**Creature Family** [Oni](/MonsterFamilies.aspx?ID=144)\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n**AC** 27\r\n\r\n**Fort** +18\r\n\r\n**Ref** +15\r\n\r\n**Will** +15\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOnidoshi, or ogre mages, are oni with the material form of an  ogre . Onidoshi's supernatural prowess and overwhelming intellect are enough to awe …\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +15",
-  "Arcana +13",
-  "Athletics +16",
-  "Deception +18",
-  "Intimidation +18",
-  "Nature +17"
+  "Acrobatics",
+  "Arcana",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Nature"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +15, [Arcana](/Skills.aspx?ID=2) +13, [Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Nature](/Skills.aspx?ID=10) +17",
+ "skill_mod": {
+  "acrobatics": 15,
+  "arcana": 13,
+  "athletics": 16,
+  "deception": 18,
+  "intimidation": 18,
+  "nature": 17
+ },
  "source": [
   "Bestiary 2"
  ],
  "source_raw": [
   "Bestiary 2 pg. 188"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 188 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary 2](/Sources.aspx?ID=32) pg. 188 <sup>2.0</sup>",
  "speed": {
   "fly": 30,
   "land": 30,
@@ -76,7 +128,31 @@
   "Invisibility"
  ],
  "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Cone of Cold](/Spells.aspx?ID=47), [Darkness](/Spells.aspx?ID=59), [Fear](/Spells.aspx?ID=110), [Gaseous Form](/Spells.aspx?ID=129), [Invisibility](/Spells.aspx?ID=164), [Sleep](/Spells.aspx?ID=288)",
+ "spell_dc": [
+  24
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  16,
+  18,
+  20
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
@@ -84,6 +160,10 @@
  "summary": "Onidoshi, or ogre mages, are oni with the material form of an  ogre . Onidoshi's supernatural prowess and overwhelming intellect are enough to awe …",
  "summary_markdown": "Onidoshi, or ogre mages, are oni with the material form of an  ogre . Onidoshi's supernatural prowess and overwhelming intellect are enough to awe …",
  "text": " Onidoshi Onidoshi, or ogre mages, are oni with the material form of an ogre. Onidoshi's supernatural prowess and overwhelming intellect are enough to awe and cow entire families of rank-and-file ogres. Because of this, onidoshi are often found at the head of ogre war parties or orchestrating these violent campaigns from behind the scenes. It's rare for onidoshi to lead solitary existences, but those who do prefer to maraud the countryside or exploit villages and hoard the spoils for themselves. Recall Knowledge - Fiend (Religion): DC 24 Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Onidoshi Source Bestiary 2 pg. 188 2.0 Perception +17; darkvision Languages Common, Jotun Skills Acrobatics +15, Arcana +13, Athletics +16, Deception +18, Intimidation +18, Nature +17 Str +6 Dex +3 Con +4 Int +3 Wis +3 Cha +4 Items Breastplate, composite shortbow with 20 arrows, +1 striking falchion --- AC 27 Fort +18 Ref +15 Will +15 +1 status on all saves vs. magic HP 125 , regeneration 7 (deactivated by acid or fire) Attack of Opportunity Reaction --- Speed 30 feet, fly 30 feet Melee Single Action falchion +21 (Forceful, Magical, reach 10 feet, Sweep), Damage 2d10+9 slashing Melee Single Action fist +20 (Agile, Evil, Magical, reach 10 feet), Damage 2d8+9 bludgeoning Ranged Single Action composite shortbow +17 (deadly 1d10, range increment 100 feet, reload 0), Damage 2d6+9 piercing Primal Innate Spells DC 24 - 2nd Darkness, Invisibility (at will, self only) - 3rd Fear - 4th Charm, Gaseous Form, Sleep - 5th Cone of Cold Change Shape Single Action (Concentrate, Polymorph, Primal, Transmutation) The onidoshi takes on the appearance of an ogre. This doesn't change their Speed or Strike attack and damage. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Fiend",
   "Giant",
@@ -91,6 +171,10 @@
   "Oni",
   "LE",
   "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
  ],
  "trait_markdown": "[Fiend](/Traits.aspx?ID=70), [Giant](/Traits.aspx?ID=79), [Humanoid](/Traits.aspx?ID=91), [Oni](/Traits.aspx?ID=303)",
  "trait_raw": [
@@ -109,5 +193,9 @@
  ],
  "weakness": {},
  "will_save": 15,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

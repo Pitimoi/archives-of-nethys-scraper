@@ -1,43 +1,55 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Energy Ablation"
  ],
  "feat_markdown": "Energy Ablation",
- "id": "feat-1834",
+ "id": "feat-5026",
+ "legacy_id": "feat-1834",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Energy Ablation](/Feats.aspx?ID=1834) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 142 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nWhen you cast energy spells, you retain some of that energy as a protective barrier. If your next action is to Cast a Spell that deals [energy damage](/Rules.aspx?ID=340), whether or not it successfully deals damage, you gain resistance to that type of energy equal to the spell's level (minimum 1) until the end of your next turn. If the spell deals more than one type of energy damage, choose one and gain resistance to that type.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Energy Ablation](/Feats.aspx?ID=5026) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 201\n\n</column>\r\n\r\n---\r\n\r\nAs you direct destructive energy at a foe, you can divert some of its power into a protective barrier that shields you from harm. If your next action is to Cast a Spell that deals at least one type of energy damage (acid, cold, electricity, fire, force, sonic, vitality, or void), you gain resistance to an energy damage type of your choice equal to the spell’s rank. The resistance lasts until the end of your next turn. You get the resistance regardless of whether or not your spell dealt damage.",
  "name": "Energy Ablation",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 201",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 142 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you cast energy spells, you retain some of that energy as a protective barrier.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 201\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAs you direct destructive energy at a foe, you can divert some of its power into a protective barrier that shields you from harm.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 142"
+  "Player Core pg. 201"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 142 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 201",
  "speed": {},
- "summary": "When you cast energy spells, you retain some of that energy as a protective barrier.",
- "summary_markdown": "When you cast energy spells, you retain some of that energy as a protective barrier.",
- "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Energy Ablation Single Action Source Advanced Player's Guide pg. 142 2.0 --- When you cast energy spells, you retain some of that energy as a protective barrier. If your next action is to Cast a Spell that deals energy damage, whether or not it successfully deals damage, you gain resistance to that type of energy equal to the spell's level (minimum 1) until the end of your next turn. If the spell deals more than one type of energy damage, choose one and gain resistance to that type.",
+ "summary": "As you direct destructive energy at a foe, you can divert some of its power into a protective barrier that shields you from harm.",
+ "summary_markdown": "As you direct destructive energy at a foe, you can divert some of its power into a protective barrier that shields you from harm.",
+ "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Energy Ablation Single Action Source Player Core pg. 201 --- As you direct destructive energy at a foe, you can divert some of its power into a protective barrier that shields you from harm. If your next action is to Cast a Spell that deals at least one type of energy damage (acid, cold, electricity, fire, force, sonic, vitality, or void), you gain resistance to an energy damage type of your choice equal to the spell’s rank. The resistance lasts until the end of your next turn. You get the resistance regardless of whether or not your spell dealt damage.",
  "trait": [
-  "Metamagic",
-  "Wizard"
+  "Spellshape",
+  "Wizard",
+  "Metamagic"
  ],
- "trait_markdown": "[Metamagic](/Traits.aspx?ID=107), [Wizard](/Traits.aspx?ID=166)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Spellshape](/Traits.aspx?ID=513), [Wizard](/Traits.aspx?ID=735)",
  "trait_raw": [
-  "Metamagic",
+  "Spellshape",
   "Wizard"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1834",
+ "url": "/Feats.aspx?ID=5026",
  "weakness": {}
 }

@@ -1,0 +1,174 @@
+{
+ "ac": 22,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  12,
+  12
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Heat of the Forge",
+  "Self-Destruct",
+  "Blazing Rush",
+  "Burning Touch"
+ ],
+ "creature_family": "Munsahir",
+ "creature_family_markdown": "[Munsahir](/MonsterFamilies.aspx?ID=342)",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 65,
+ "hp_raw": "65",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2637",
+ "immunity": [
+  "fire"
+ ],
+ "immunity_markdown": "[fire](/Traits.aspx?ID=72)",
+ "intelligence": 4,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "item": [
+  "gatecrasher armor"
+ ],
+ "language": [
+  "Common",
+  "Pyric"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Pyric](/Languages.aspx?ID=110)",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Munsahir Gatecrasher](/Monsters.aspx?ID=2637)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nTypically members of the nobility, gatecrashers wear advanced power armor.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 19\r\n\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Munsahir Gatecrasher](/Monsters.aspx?ID=2637)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 131\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Pyric](/Languages.aspx?ID=110)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +10, [Crafting](/Skills.aspx?ID=4) +12, [Plane of Fire Lore](/Skills.aspx?ID=8) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +0\r\n\r\n**Con** +4\r\n\r\n**Int** +4\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\ngatecrasher armor\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +11 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=72)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=27) 5\r\n\r\n**Heat of the Forge** ([aura](/Traits.aspx?ID=206), [fire](/Traits.aspx?ID=72)) 10 feet. An munsahir's skin radiates heat like a forge's fire. A creature that starts its turn in the area must succeed at a DC 19 Fortitude save or become [fatigued](/Conditions.aspx?ID=15) while it remains in the area. Creatures immune to [environmental heat effects](/Rules.aspx?ID=642) or with any fire resistance are immune.<br />**Self-Destruct** When the munsahir is reduced to 0 HP, their armor explodes at the start of their next turn, dealing 5d6 fire damage in a 10-foot radius (DC 19 [basic](/Rules.aspx?ID=329) Reflex).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhammer gauntlet +12 ([Free-Hand](/Traits.aspx?ID=181), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d12+6 bludgeoning plus 1d6 fire\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nflame jet +12 ([Brutal](/Traits.aspx?ID=249), [Fire](/Traits.aspx?ID=72), [range increment 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d6 fire plus 1d6 [persistent fire](/Conditions.aspx?ID=29)\n\n**Blazing Rush** <actions string=\"Two Actions\" />  The gatecrasher Strides up to double their Speed in a straight line. They can pass through enemy spaces and make a hammer gauntlet Strike against each creature they move through. Blazing Rush can't be used again for 1d4 rounds.\r\n\r\n**Burning Touch**  ([Fire](/Traits.aspx?ID=72), [Primal](/Traits.aspx?ID=134)) The munsahir gatecrasher's Strikes deal an extra 1d6 fire damage (included above). When the gatecrasher successfully performs a [Grapple](/Actions.aspx?ID=35) or [Shove](/Actions.aspx?ID=38) action, they also deal 1d6 fire damage to their target.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-342\" />",
+ "name": "Munsahir Gatecrasher",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 131",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 6,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 131\r\n\r\n**Creature Family** [Munsahir](/MonsterFamilies.aspx?ID=342)\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 22\r\n\r\n**Fort** +14\r\n\r\n**Ref** +6\r\n\r\n**Will** +11\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTypically members of the nobility, gatecrashers wear advanced power armor.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Crafting",
+  "Plane of Fire Lore"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +10, [Crafting](/Skills.aspx?ID=4) +12, [Plane of Fire Lore](/Skills.aspx?ID=8) +10",
+ "skill_mod": {
+  "athletics": 10,
+  "crafting": 12
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 131"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 131",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  10,
+  16
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Typically members of the nobility, gatecrashers wear advanced power armor.",
+ "summary_markdown": "Typically members of the nobility, gatecrashers wear advanced power armor.",
+ "text": " Munsahir Gatecrasher Typically members of the nobility, gatecrashers wear advanced power armor. Recall Knowledge - Elemental (Arcana, Nature): DC 19 Recall Knowledge - Humanoid (Society): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Munsahir Gatecrasher Source Rage of Elements pg. 131 Perception +11; darkvision Languages Common, Pyric Skills Athletics +10, Crafting +12, Plane of Fire Lore +10 Str +2 Dex +0 Con +4 Int +4 Wis +3 Cha -1 Items gatecrasher armor --- AC 22 Fort +14 Ref +6 Will +11 HP 65 Immunities fire Weaknesses cold 5 Heat of the Forge (aura, fire) 10 feet. An munsahir's skin radiates heat like a forge's fire. A creature that starts its turn in the area must succeed at a DC 19 Fortitude save or become fatigued while it remains in the area. Creatures immune to environmental heat effects or with any fire resistance are immune. Self-Destruct When the munsahir is reduced to 0 HP, their armor explodes at the start of their next turn, dealing 5d6 fire damage in a 10-foot radius (DC 19 basic Reflex). --- Speed 20 feet Melee Single Action hammer gauntlet +12 (Free-Hand, Shove), Damage 1d12+6 bludgeoning plus 1d6 fire Ranged Single Action flame jet +12 (Brutal, Fire, range increment 20 feet), Damage 2d6 fire plus 1d6 persistent fire Blazing Rush Two Actions The gatecrasher Strides up to double their Speed in a straight line. They can pass through enemy spaces and make a hammer gauntlet Strike against each creature they move through. Blazing Rush can't be used again for 1d4 rounds. Burning Touch (Fire, Primal) The munsahir gatecrasher's Strikes deal an extra 1d6 fire damage (included above). When the gatecrasher successfully performs a Grapple or Shove action, they also deal 1d6 fire damage to their target. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Fire",
+  "Humanoid",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Fire](/Traits.aspx?ID=72), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_raw": [
+  "Elemental",
+  "Fire",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2637",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "cold": 5
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=27) 5",
+ "weakness_raw": " cold  5",
+ "will_save": 11,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

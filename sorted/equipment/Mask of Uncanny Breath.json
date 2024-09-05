@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,38 +8,50 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 11,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mask of Uncanny Breath](/Equipment.aspx?ID=2326)\r\n</title>\n\n<traits>\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 150 <sup>1.1</sup></row>\n\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. While wearing it, each breath you take feels cool and pure, perfectly flowing to feed your ki. You gain resistance 10 to [inhaled](/Traits.aspx?ID=96) [poisons](/Traits.aspx?ID=126) and can breathe in an airless or toxic environment. When you breathe in, fragments of bizarre knowledge flow through you, granting you a +2 item bonus to [Occultism](/Skills.aspx?ID=11) checks.\n\n<document level=\"2\" id=\"action-1878\" />\n\n<document level=\"2\" id=\"action-1879\" />\n\n**Craft Requirements** You are a [monk](/Classes.aspx?ID=8) with occult ki spells.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mask of Uncanny Breath](/Equipment.aspx?ID=2326)\r\n</title>\n\n<traits>\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 150 <sup>1.1</sup>\n\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. While wearing it, each breath you take feels cool and pure, perfectly flowing to feed your ki. You gain resistance 10 to [inhaled](/Traits.aspx?ID=96) [poisons](/Traits.aspx?ID=126) and can breathe in an airless or toxic environment. When you breathe in, fragments of bizarre knowledge flow through you, granting you a +2 item bonus to [Occultism](/Skills.aspx?ID=11) checks.\n\n**Activate** <actions string=\"Free Action\" /> envision;  **Frequency** once per day;   **Effect** You gain 1 Focus Point, which you can use only to cast an [occult](/Traits.aspx?ID=120) monk ki spell. If not used by the end of your turn, this Focus Point is lost.\n\n**Activate** <actions string=\"Reaction\" /> command;  **Frequency** once per day; **Trigger** Your [unarmed](/Traits.aspx?ID=199) Strike hits a creature that breathes;  **Effect** The mask contorts and inhales, sucking breath from your target's lungs. The target falls [unconscious](/Conditions.aspx?ID=38) but doesn't fall [prone](/Conditions.aspx?ID=31) or drop what it's holding. It wakes up at the end of your turn if it hasn't been woken up already.\n\n**Craft Requirements** You are a [monk](/Classes.aspx?ID=8) with occult ki spells.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Mask of Uncanny Breath",
  "pfs": "Standard",
  "price": 120000,
  "price_raw": "1,200 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 150",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 150 <sup>1.1</sup></row>\r\n\r\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 150 <sup>1.1</sup>\r\n\r\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. …\r\n</summary>",
  "skill": [
   "Occultism"
  ],
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 150"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 150 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 150 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. …",
  "summary_markdown": "A thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. …",
- "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Standard\" > Mask of Uncanny Breath Source Treasure Vault pg. 150 1.1 Price 1,200 gp Usage worn mask Bulk L --- A thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. While wearing it, each breath you take feels cool and pure, perfectly flowing to feed your ki. You gain resistance 10 to inhaled poisons and can breathe in an airless or toxic environment. When you breathe in, fragments of bizarre knowledge flow through you, granting you a +2 item bonus to Occultism checks. Craft Requirements You are a monk with occult ki spells.\n",
+ "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Standard\" > Mask of Uncanny Breath Source Treasure Vault pg. 150 1.1 Price 1,200 gp Usage worn mask Bulk L --- A thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a mask of uncanny breath fully covers your face. While wearing it, each breath you take feels cool and pure, perfectly flowing to feed your ki. You gain resistance 10 to inhaled poisons and can breathe in an airless or toxic environment. When you breathe in, fragments of bizarre knowledge flow through you, granting you a +2 item bonus to Occultism checks. Activate Free Action envision; Frequency once per day; Effect You gain 1 Focus Point, which you can use only to cast an occult monk ki spell. If not used by the end of your turn, this Focus Point is lost. Activate Reaction command; Frequency once per day; Trigger Your unarmed Strike hits a creature that breathes; Effect The mask contorts and inhales, sucking breath from your target's lungs. The target falls unconscious but doesn't fall prone or drop what it's holding. It wakes up at the end of your turn if it hasn't been woken up already. Craft Requirements You are a monk with occult ki spells.\n",
  "trait": [
   "Focused",
   "Invested",
   "Necromancy",
   "Occult"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Tradition"
  ],
  "trait_markdown": "[Focused](/Traits.aspx?ID=74), [Invested](/Traits.aspx?ID=98), [Necromancy](/Traits.aspx?ID=117), [Occult](/Traits.aspx?ID=120)",
  "trait_raw": [

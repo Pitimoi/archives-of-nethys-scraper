@@ -3,7 +3,6 @@
   "Greatclub"
  ],
  "base_item_markdown": "[Greatclub](/Weapons.aspx?ID=22)",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -12,33 +11,43 @@
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Conflagration Club](/Equipment.aspx?ID=1051)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 182 <sup>1.1</sup></row>\n\n**Price** 250 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Greatclub](/Weapons.aspx?ID=22)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA ring of magical crystals encircles the base of this _+1 [striking](/Equipment.aspx?ID=280) [greatclub](/Weapons.aspx?ID=22)_, allowing it to absorb and store magical energy.\n\n<document level=\"2\" id=\"action-840\" />\n\n<document level=\"2\" id=\"action-841\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Conflagration Club](/Equipment.aspx?ID=1051)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 182 <sup>1.1</sup>\n\n**Price** 250 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Greatclub](/Weapons.aspx?ID=22)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA ring of magical crystals encircles the base of this _+1 [striking](/Equipment.aspx?ID=280) [greatclub](/Weapons.aspx?ID=22)_, allowing it to absorb and store magical energy.\n\n**Activate** <actions string=\"Reaction\" /> envision;   **Trigger** You Cast a Spell from a spell slot, and the spell has the [acid](/Traits.aspx?ID=3), [cold](/Traits.aspx?ID=27), [electricity](/Traits.aspx?ID=56), [fire](/Traits.aspx?ID=72), or [sonic](/Traits.aspx?ID=147) trait; **Requirements** The club has no charges; **Effect** You mentally align the club's crystals to reverberate with energy from the spell. It gains a number of charges equal to the level of the spell slot, and the charges are attuned to the damage type matching the spell's trait. If the spell has more than one eligible trait, choose one when the charges are stored.\n\n**Activate** <actions string=\"Two Actions\" /> command, envision ([evocation](/Traits.aspx?ID=65), [magical](/Traits.aspx?ID=103))   **Requirements** The club has at least 1 charge; **Effect** You flip the club around to blast a cone of energy from its base. Each creature in a 15-foot cone takes 1d6 damage per charge stored in the club, with a [basic](/Rules.aspx?ID=329) Reflex save against your spell DC or DC 19, whichever is greater. The damage type is the same type the charges were attuned to. The club loses all of its charges.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Conflagration Club",
  "pfs": "Standard",
  "price": 25000,
  "price_raw": "250 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 182",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 182 <sup>1.1</sup></row>\r\n\r\n**Price** 250 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA ring of magical crystals encircles the base of this  +1  striking   greatclub  , allowing it to absorb and store magical energy.  \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 182 <sup>1.1</sup>\r\n\r\n**Price** 250 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Greatclub](/Weapons.aspx?ID=22)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA ring of magical crystals encircles the base of this  +1  striking   greatclub  , allowing it to absorb and store magical energy.  \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 182"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 182 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 182 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A ring of magical crystals encircles the base of this  +1  striking   greatclub  , allowing it to absorb and store magical energy.  ",
  "summary_markdown": "A ring of magical crystals encircles the base of this  +1  striking   greatclub  , allowing it to absorb and store magical energy.  ",
- "text": "<title level=\"1\" right=\"Item 6\" pfs=\"Standard\" > Conflagration Club Source Secrets of Magic pg. 182 1.1 Price 250 gp Usage held in 2 hands Bulk 2 Base Weapon Greatclub --- A ring of magical crystals encircles the base of this +1 striking greatclub , allowing it to absorb and store magical energy.\n",
+ "text": "<title level=\"1\" right=\"Item 6\" pfs=\"Standard\" > Conflagration Club Source Secrets of Magic pg. 182 1.1 Price 250 gp Usage held in 2 hands Bulk 2 Base Weapon Greatclub --- A ring of magical crystals encircles the base of this +1 striking greatclub , allowing it to absorb and store magical energy. Activate Reaction envision; Trigger You Cast a Spell from a spell slot, and the spell has the acid, cold, electricity, fire, or sonic trait; Requirements The club has no charges; Effect You mentally align the club's crystals to reverberate with energy from the spell. It gains a number of charges equal to the level of the spell slot, and the charges are attuned to the damage type matching the spell's trait. If the spell has more than one eligible trait, choose one when the charges are stored. Activate Two Actions command, envision (evocation, magical) Requirements The club has at least 1 charge; Effect You flip the club around to blast a cone of energy from its base. Each creature in a 15-foot cone takes 1d6 damage per charge stored in the club, with a basic Reflex save against your spell DC or DC 19, whichever is greater. The damage type is the same type the charges were attuned to. The club loses all of its charges.\n",
  "trait": [
   "Evocation",
   "Magical"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

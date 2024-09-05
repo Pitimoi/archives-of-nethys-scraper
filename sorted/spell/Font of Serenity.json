@@ -1,14 +1,19 @@
 {
  "actions": "Two Actions",
- "area": "15-foot emanation",
+ "actions_number": 4,
+ "area": [
+  15
+ ],
+ "area_raw": "15-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain": [
   "Repose"
  ],
@@ -19,50 +24,64 @@
  "heighten": [
   "+4"
  ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 8th rank"
+ ],
  "heighten_level": [
   4,
   8
  ],
  "id": "spell-613",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Font of Serenity](/Spells.aspx?ID=613)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 116 <sup>2.0</sup></row>\n\n**Domain**\r\n[Repose](/Domains.aspx?ID=49)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 15-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA divine beacon radiates serenity, soothing nearby allies. Allies within the area gain a +1 status bonus to saving throws against [emotion](/Traits.aspx?ID=60) effects. An ally can touch the font as an Interact action; if they do so, the spell attempts to counteract one emotion effect affecting the ally of the ally’s choice, after which that emotion effect is temporarily immune for 1 day. If the spell succeeds at the counteract check, it removes the emotion effect from your ally, though not from any other creatures the effect might be affecting.\n\n---\r\n**Heightened (+4)** The bonus increases by 1.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Font of Serenity](/Spells.aspx?ID=613)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 116 <sup>2.0</sup>\n\n**Domain**\r\n[Repose](/Domains.aspx?ID=49)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 15-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA divine beacon radiates serenity, soothing nearby allies. Allies within the area gain a +1 status bonus to saving throws against [emotion](/Traits.aspx?ID=60) effects. An ally can touch the font as an Interact action; if they do so, the spell attempts to counteract one emotion effect affecting the ally of the ally’s choice, after which that emotion effect is temporarily immune for 1 day. If the spell succeeds at the counteract check, it removes the emotion effect from your ally, though not from any other creatures the effect might be affecting.\n\n---\r\n**Heightened (+4)** The bonus increases by 1.",
  "name": "Font of Serenity",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 116",
+ "primary_source_category": "Lost Omens",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 116 <sup>2.0</sup></row>\n\n**Domain**\r\n[Repose](/Domains.aspx?ID=49)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 15-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA divine beacon radiates serenity, soothing nearby allies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 116 <sup>2.0</sup>\n\n**Domain**\r\n[Repose](/Domains.aspx?ID=49)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n**Area** 15-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA divine beacon radiates serenity, soothing nearby allies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 116"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 116 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 116 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "A divine beacon radiates serenity, soothing nearby allies.",
  "summary_markdown": "A divine beacon radiates serenity, soothing nearby allies.",
- "text": " Font of Serenity Source Gods &amp; Magic pg. 116 2.0 Domain Repose Cast Two Actions somatic, verbal Range 30 feet Area 15-foot emanation Duration 1 minute --- A divine beacon radiates serenity, soothing nearby allies. Allies within the area gain a +1 status bonus to saving throws against emotion effects. An ally can touch the font as an Interact action; if they do so, the spell attempts to counteract one emotion effect affecting the ally of the ally’s choice, after which that emotion effect is temporarily immune for 1 day. If the spell succeeds at the counteract check, it removes the emotion effect from your ally, though not from any other creatures the effect might be affecting. --- Heightened (+4) The bonus increases by 1.",
+ "text": "\nFont of Serenity Two Actions Source Gods &amp; Magic pg. 116 2.0 Domain Repose Cast somatic, verbal Range 30 feet Area 15-foot emanation Duration 1 minute --- A divine beacon radiates serenity, soothing nearby allies. Allies within the area gain a +1 status bonus to saving throws against emotion effects. An ally can touch the font as an Interact action; if they do so, the spell attempts to counteract one emotion effect affecting the ally of the ally’s choice, after which that emotion effect is temporarily immune for 1 day. If the spell succeeds at the counteract check, it removes the emotion effect from your ally, though not from any other creatures the effect might be affecting. --- Heightened (+4) The bonus increases by 1.",
  "tradition_markdown": "",
  "trait": [
   "Abjuration",
   "Emotion",
-  "Mental"
+  "Mental",
+  "Focus"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)",
+ "trait_group": [
+  "School"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Abjuration",
   "Emotion",
-  "Mental"
+  "Mental",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=613",
  "weakness": {}
 }

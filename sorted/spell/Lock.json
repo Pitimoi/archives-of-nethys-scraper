@@ -1,52 +1,56 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
- "duration_raw": "until the next time you make your daily preparations.",
+ "duration_raw": "until your next daily preparations",
  "exclude_from_search": false,
  "heighten": [
   "2nd"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank"
  ],
  "heighten_level": [
   1,
   2
  ],
- "id": "spell-174",
+ "id": "spell-1589",
+ "legacy_id": "spell-174",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Lock](/Spells.aspx?ID=174)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 348 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 lock, or a door or container with a latch\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations.\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target's latch mechanism clinks shut, held fast by unseen magical restraints. When you magically lock a target, you set an [Athletics](/Skills.aspx?ID=3) and [Thievery](/Skills.aspx?ID=17) DC to open it equal to your spell DC or the base lock DC with a +4 status bonus, whichever is higher. Any key or combination that once opened a lock affected by this spell does not do so for the duration of the spell, though the key or combination does grant a +4 circumstance bonus to checks to open the door.\n\n If the target is opened, the spell ends. Assuming the target is not barred or locked in some additional way, you can unlock and open it with an Interact action during which you touch the target. This does not end the spell. You can Dismiss this spell at any time and from any distance.\n\n---\r\n**Heightened (2nd)** The duration increases to unlimited, but you must expend 6 gp worth of gold dust as an additional cost.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Lock](/Spells.aspx?ID=1589)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 341\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 lock, or a door or container with a latch\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target's latch mechanism clinks shut, held fast by unseen magical wards. When you magically lock a target, you set an [Athletics](/Skills.aspx?ID=3) and [Thievery](/Skills.aspx?ID=17) DC to open it equal to your spell DC or the base lock DC with a +4 status bonus, whichever is higher. Any key or combination that once opened a lock affected by this spell does not do so for the duration of the spell, though the key or combination does grant a +4 circumstance bonus to checks to open the door.\n\n If the target is opened, the spell ends. Assuming the target is not barred or locked in some additional way, you can unlock and open it with an Interact action during which you touch the target. This does not end the spell. You can Dismiss this spell at any time and from any distance.\n\n---\r\n**Heightened (2nd)** The duration is unlimited, but you must expend 6 gp worth of precious metals as an additional cost.",
  "name": "Lock",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 341",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 348 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 lock, or a door or container with a latch\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the next time you make your daily preparations.\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake a lock hard to open.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 341\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 lock, or a door or container with a latch\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake a lock much harder to open.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 348"
+  "Player Core pg. 341"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 348 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 341",
  "speed": {},
- "summary": "Make a lock hard to open.",
- "summary_markdown": "Make a lock hard to open.",
+ "spell_type": "Spell",
+ "summary": "Make a lock much harder to open.",
+ "summary_markdown": "Make a lock much harder to open.",
  "target": "1 lock, or a door or container with a latch",
  "target_markdown": "1 lock, or a door or container with a latch",
- "text": " Lock Source Core Rulebook pg. 348 4.0 Traditions Arcane, Divine, Occult Cast Two Actions somatic, verbal Range touch Target 1 lock, or a door or container with a latch Duration until the next time you make your daily preparations. --- The target's latch mechanism clinks shut, held fast by unseen magical restraints. When you magically lock a target, you set an Athletics and Thievery DC to open it equal to your spell DC or the base lock DC with a +4 status bonus, whichever is higher. Any key or combination that once opened a lock affected by this spell does not do so for the duration of the spell, though the key or combination does grant a +4 circumstance bonus to checks to open the door. If the target is opened, the spell ends. Assuming the target is not barred or locked in some additional way, you can unlock and open it with an Interact action during which you touch the target. This does not end the spell. You can Dismiss this spell at any time and from any distance. --- Heightened (2nd) The duration increases to unlimited, but you must expend 6 gp worth of gold dust as an additional cost.",
+ "text": "\nLock Two Actions Source Player Core pg. 341 Traditions Arcane, Divine, Occult Range touch Target 1 lock, or a door or container with a latch Duration until your next daily preparations --- The target's latch mechanism clinks shut, held fast by unseen magical wards. When you magically lock a target, you set an Athletics and Thievery DC to open it equal to your spell DC or the base lock DC with a +4 status bonus, whichever is higher. Any key or combination that once opened a lock affected by this spell does not do so for the duration of the spell, though the key or combination does grant a +4 circumstance bonus to checks to open the door. If the target is opened, the spell ends. Assuming the target is not barred or locked in some additional way, you can unlock and open it with an Interact action during which you touch the target. This does not end the spell. You can Dismiss this spell at any time and from any distance. --- Heightened (2nd) The duration is unlimited, but you must expend 6 gp worth of precious metals as an additional cost.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -54,13 +58,15 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=174",
+ "url": "/Spells.aspx?ID=1589",
  "weakness": {}
 }

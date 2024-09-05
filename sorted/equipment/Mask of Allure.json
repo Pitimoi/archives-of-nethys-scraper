@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,41 +8,52 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 18,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mask of Allure](/Equipment.aspx?ID=1066)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 186 <sup>1.1</sup></row>\n\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape of your head. The material is breathable and light, and does not obscure vision. You gain a +2 item bonus to [Deception](/Skills.aspx?ID=5), [Diplomacy](/Skills.aspx?ID=6), [Intimidation](/Skills.aspx?ID=7), and [Performance](/Skills.aspx?ID=12) checks while wearing the mask.\n\n When you invest the mask, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.\n\n<document level=\"2\" id=\"action-855\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mask of Allure](/Equipment.aspx?ID=1066)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 186 <sup>1.1</sup>\n\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape of your head. The material is breathable and light, and does not obscure vision. You gain a +2 item bonus to [Deception](/Skills.aspx?ID=5), [Diplomacy](/Skills.aspx?ID=6), [Intimidation](/Skills.aspx?ID=7), and [Performance](/Skills.aspx?ID=12) checks while wearing the mask.\n\n When you invest the mask, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.\n\n**Activate** <actions string=\"Free Action\" /> envision ([visual](/Traits.aspx?ID=163)) **Frequency** once per day; **Trigger** You attempt a Deception, Diplomacy, Intimidation, or Performance check;  **Effect** You gain a +4 status bonus to the triggering check. This ability has no effect if you're under the effects of a disguise that hides the _mask of allure_. Depending on the skill used, the mirrored silver transforms into one of the following appearances. \n\n<ul><li>**Deception** A swirl of silver, which entirely obscures and conceals your normal features.</li><li>**Diplomacy** A kind, gentle and inviting expression.</li><li>**Intimidation** A monstrous visage that shocks viewers into paying attention.</li><li>**Performance** A jovial humanoid face, the mouth cracked wide with a comedic smile or a tragic frown, depending on the nature of the performance.</li></ul>\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Mask of Allure",
  "pfs": "Standard",
  "price": 2400000,
  "price_raw": "24,000 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 186",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 186 <sup>1.1</sup></row>\r\n\r\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 186 <sup>1.1</sup>\r\n\r\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn mask\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape …\r\n</summary>",
  "skill": [
   "Deception",
   "Diplomacy",
   "Intimidation",
   "Performance"
  ],
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 186"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 186 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 186 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape …",
  "summary_markdown": "This mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape …",
- "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Mask of Allure Source Secrets of Magic pg. 186 1.1 Price 24,000 gp Usage worn mask Bulk L --- This mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape of your head. The material is breathable and light, and does not obscure vision. You gain a +2 item bonus to Deception, Diplomacy, Intimidation, and Performance checks while wearing the mask. When you invest the mask, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.\n",
+ "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Mask of Allure Source Secrets of Magic pg. 186 1.1 Price 24,000 gp Usage worn mask Bulk L --- This mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape of your head. The material is breathable and light, and does not obscure vision. You gain a +2 item bonus to Deception, Diplomacy, Intimidation, and Performance checks while wearing the mask. When you invest the mask, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score. Activate Free Action envision (visual) Frequency once per day; Trigger You attempt a Deception, Diplomacy, Intimidation, or Performance check; Effect You gain a +4 status bonus to the triggering check. This ability has no effect if you're under the effects of a disguise that hides the mask of allure . Depending on the skill used, the mirrored silver transforms into one of the following appearances. Deception A swirl of silver, which entirely obscures and conceals your normal features. Diplomacy A kind, gentle and inviting expression. Intimidation A monstrous visage that shocks viewers into paying attention. Performance A jovial humanoid face, the mouth cracked wide with a comedic smile or a tragic frown, depending on the nature of the performance. ",
  "trait": [
   "Apex",
   "Enchantment",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Enchantment](/Traits.aspx?ID=61), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

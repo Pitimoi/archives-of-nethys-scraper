@@ -1,22 +1,48 @@
 {
  "ac": 16,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "LN",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Spiny Body",
   "Verdant Burst"
  ],
  "creature_family_markdown": "",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 40,
  "hp_raw": "40",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
  "id": "creature-1938",
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "wand of heal (1st)"
+ ],
  "language": [
   "Common",
   "Draconic",
@@ -26,38 +52,61 @@
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Druidic](/Languages.aspx?ID=23), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294) (succulents only)",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"\">[Dewey Daystar](/NPCs.aspx?ID=1938)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Dewey Daystar](/NPCs.aspx?ID=1938)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 46</row>\n\n**Perception** +10; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Druidic](/Languages.aspx?ID=23), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294) (succulents only)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Alkenstar Lore](/Skills.aspx?ID=8) +5, [Intimidation](/Skills.aspx?ID=7) +8, [Medicine](/Skills.aspx?ID=9) +8, [Nature](/Skills.aspx?ID=10) +8, [Survival](/Skills.aspx?ID=16) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +4\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n_wand of [heal](/Spells.aspx?ID=148)_ (1st)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n**HP** 40\n\n**Spiny Body** A cactus leshy is covered in spines. A creature that [Grabs](/Conditions.aspx?ID=20) the cactus leshy takes 1d8+3 piercing damage.<br />**Verdant Burst** When Dewey Daystar dies, a burst of primal energy explodes from his body, restoring 2d8 Hit Points to each [plant](/Traits.aspx?ID=125) creature in a 30-foot emanation. This area fills with cacti, becoming difficult terrain. If the terrain is not a viable environment for the cacti, they wither after 24 hours.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspine +8 ([Finesse](/Traits.aspx?ID=179), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d8+3 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspine +8 ([range increment 20 feet](/Traits.aspx?ID=248), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d6+3 piercing\r\n\r\n**Primal Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\n[Acid Splash](/Spells.aspx?ID=3), [Dancing Lights](/Spells.aspx?ID=58), [Guidance](/Spells.aspx?ID=142), [Stabilize](/Spells.aspx?ID=307), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154), [Magic Fang](/Spells.aspx?ID=179)\n\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Dewey Daystar](/NPCs.aspx?ID=1938)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Dewey Daystar](/NPCs.aspx?ID=1938)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 46\n\n**Perception** +10; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Druidic](/Languages.aspx?ID=23), [Sylvan](/Languages.aspx?ID=10); [_speak with plants_](/Spells.aspx?ID=294) (succulents only)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Alkenstar Lore](/Skills.aspx?ID=8) +5, [Intimidation](/Skills.aspx?ID=7) +8, [Medicine](/Skills.aspx?ID=9) +8, [Nature](/Skills.aspx?ID=10) +8, [Survival](/Skills.aspx?ID=16) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +4\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n_wand of [heal](/Spells.aspx?ID=148)_ (1st)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\n\n</row>\n\n**Spiny Body** A cactus leshy is covered in spines. A creature that [Grabs](/Conditions.aspx?ID=20) the cactus leshy takes 1d8+3 piercing damage.<br />**Verdant Burst** When Dewey Daystar dies, a burst of primal energy explodes from his body, restoring 2d8 Hit Points to each [plant](/Traits.aspx?ID=125) creature in a 30-foot emanation. This area fills with cacti, becoming difficult terrain. If the terrain is not a viable environment for the cacti, they wither after 24 hours.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspine +8 ([Finesse](/Traits.aspx?ID=179), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d8+3 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspine +8 ([range increment 20 feet](/Traits.aspx?ID=248), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d6+3 piercing\r\n\r\n**Primal Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\n[Acid Splash](/Spells.aspx?ID=3), [Dancing Lights](/Spells.aspx?ID=58), [Guidance](/Spells.aspx?ID=142), [Stabilize](/Spells.aspx?ID=307), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154), [Magic Fang](/Spells.aspx?ID=179)\n\n</column>",
  "name": "Dewey Daystar",
  "npc": true,
  "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #178: Punks in a Powderkeg",
+ "primary_source_raw": "Pathfinder #178: Punks in a Powderkeg pg. 46",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Outlaws of Alkenstar",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 6,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2022-04-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 46</row>\n\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 46\n\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +6\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Acrobatics +6",
-  "Alkenstar Lore +5",
-  "Intimidation +8",
-  "Medicine +8",
-  "Nature +8",
-  "Survival +8"
+  "Acrobatics",
+  "Alkenstar Lore",
+  "Intimidation",
+  "Medicine",
+  "Nature",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Alkenstar Lore](/Skills.aspx?ID=8) +5, [Intimidation](/Skills.aspx?ID=7) +8, [Medicine](/Skills.aspx?ID=9) +8, [Nature](/Skills.aspx?ID=10) +8, [Survival](/Skills.aspx?ID=16) +8",
+ "skill_mod": {
+  "acrobatics": 6,
+  "intimidation": 8,
+  "medicine": 8,
+  "nature": 8,
+  "survival": 8
+ },
  "source": [
   "Pathfinder #178: Punks in a Powderkeg"
  ],
  "source_raw": [
   "Pathfinder #178: Punks in a Powderkeg pg. 46"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Outlaws of Alkenstar",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 46</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Outlaws of Alkenstar"
+ ],
+ "source_markdown": "[Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 46",
  "speed": {
   "land": 25,
   "max": 25
@@ -75,18 +124,58 @@
   "Tanglefoot"
  ],
  "spell_markdown": "[Acid Splash](/Spells.aspx?ID=3), [Dancing Lights](/Spells.aspx?ID=58), [Guidance](/Spells.aspx?ID=142), [Heal](/Spells.aspx?ID=148), [Hydraulic Push](/Spells.aspx?ID=154), [Magic Fang](/Spells.aspx?ID=179), [Stabilize](/Spells.aspx?ID=307), [Tanglefoot](/Spells.aspx?ID=330)",
+ "spell_attack_bonus": [
+  10
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "spoilers": "Outlaws of Alkenstar",
+ "strike_damage_average": [
+  6,
+  7
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "will"
  ],
  "text": " Dewey Daystar Recall Knowledge - Plant (Nature): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Dewey Daystar Source Pathfinder #178: Punks in a Powderkeg pg. 46 Perception +10; low-light vision Languages Common, Draconic, Druidic, Sylvan; speak with plants (succulents only) Skills Acrobatics +6, Alkenstar Lore +5, Intimidation +8, Medicine +8, Nature +8, Survival +8 Str +0 Dex +2 Con +3 Int +1 Wis +4 Cha +4 Items wand of heal (1st) --- AC 16 Fort +7 Ref +6 Will +10 HP 40 Spiny Body A cactus leshy is covered in spines. A creature that Grabs the cactus leshy takes 1d8+3 piercing damage. Verdant Burst When Dewey Daystar dies, a burst of primal energy explodes from his body, restoring 2d8 Hit Points to each plant creature in a 30-foot emanation. This area fills with cacti, becoming difficult terrain. If the terrain is not a viable environment for the cacti, they wither after 24 hours. --- Speed 25 feet Melee Single Action spine +8 (Finesse, Unarmed), Damage 1d8+3 piercing Ranged Single Action spine +8 (range increment 20 feet, Unarmed), Damage 1d6+3 piercing Primal Spells DC 18, attack +10 - Cantrips (1st) Acid Splash, Dancing Lights, Guidance, Stabilize, Tanglefoot - 1st Heal, Hydraulic Push, Magic Fang\n",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Leshy",
   "Plant",
   "Unique",
   "LN",
   "Small"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Leshy](/Traits.aspx?ID=225), [Plant](/Traits.aspx?ID=125), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
@@ -103,5 +192,9 @@
  ],
  "weakness": {},
  "will_save": 10,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

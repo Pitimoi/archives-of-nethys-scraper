@@ -1,0 +1,144 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Arcanosense",
+  "Arcanovore",
+  "Arcane Consumption",
+  "Arcanotaxis"
+ ],
+ "creature_family": "Hexmoth",
+ "creature_family_markdown": "[Hexmoth](/MonsterFamilies.aspx?ID=498)",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 45,
+ "hp_raw": "45",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3289",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hexworm](/Monsters.aspx?ID=3289)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese gray larvae inch across the ground with an instinct to feed on magic.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Hexworm](/Monsters.aspx?ID=3289)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 159\n\n**Perception** +10; arcanosense ([precise](/Rules.aspx?ID=411)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +10, [Arcana](/Skills.aspx?ID=35) +12, [Stealth](/Skills.aspx?ID=48) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Arcanosense** A hexworm can sense sources of magic at the listed range as though it has a 4th-rank [_detect magic_](/Spells.aspx?ID=1485) constant innate spell.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n</row>\n\n**Resistances**\r\narcanovore\n\n**Arcanovore** A hexworm has resistance 5 against all damage caused by spells.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmandibles +8,\r\n**Damage** 2d6+2 piercing plus Arcane Consumption\n\n**Arcane Consumption** <actions string=\"Single Action\" />  The hexworm attempts to consume the magic of an adjacent magical effect or unattended magic item. It attempts a [counteract](/Rules.aspx?ID=371) check against the target with a +11 modifier. On a success, the magical effect ends. A magic item instead becomes a mundane item for 1 round. The hexworm gains 2d8 Hit Points.\r\n\r\n**Arcanotaxis** <actions string=\"Free Action\" />  **Requirements** The hexworm has detected a source of magic with its arcanosense; **Trigger** The hexworm's turn begins; **Effect** The hexworm Strides up to its Speed toward the nearest source of magic it can detect.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-498\" />",
+ "name": "Hexworm",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 159",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 14,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "resistance_markdown": "arcanovore",
+ "resistance_raw": "arcanovore",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 159\r\n\r\n**Creature Family** [Hexmoth](/MonsterFamilies.aspx?ID=498)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 20\r\n\r\n**Fort** +11\r\n\r\n**Ref** +14\r\n\r\n**Will** +6\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese gray larvae inch across the ground with an instinct to feed on magic.\r\n</summary>",
+ "sense": "arcanosense ( precise ) 60 feet",
+ "sense_markdown": "arcanosense ([precise](/Rules.aspx?ID=411)) 60 feet",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Arcana",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +10, [Arcana](/Skills.aspx?ID=35) +12, [Stealth](/Skills.aspx?ID=48) +9",
+ "skill_mod": {
+  "acrobatics": 10,
+  "arcana": 12,
+  "stealth": 9
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 159"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 159",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  9
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "These gray larvae inch across the ground with an instinct to feed on magic.",
+ "summary_markdown": "These gray larvae inch across the ground with an instinct to feed on magic.",
+ "text": " Hexworm These gray larvae inch across the ground with an instinct to feed on magic. Recall Knowledge - Animal (Nature): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Hexworm Source Howl of the Wild pg. 159 Perception +10; arcanosense (precise) 60 feet Languages Skills Acrobatics +10, Arcana +12, Stealth +9 Str +2 Dex +4 Con +3 Int -5 Wis +1 Cha +0 Arcanosense A hexworm can sense sources of magic at the listed range as though it has a 4th-rank detect magic constant innate spell. --- AC 20 Fort +11 Ref +14 Will +6 HP 45 Resistances arcanovore Arcanovore A hexworm has resistance 5 against all damage caused by spells. --- Speed 20 feet Melee Single Action mandibles +8, Damage 2d6+2 piercing plus Arcane Consumption Arcane Consumption Single Action The hexworm attempts to consume the magic of an adjacent magical effect or unattended magic item. It attempts a counteract check against the target with a +11 modifier. On a success, the magical effect ends. A magic item instead becomes a mundane item for 1 round. The hexworm gains 2d8 Hit Points. Arcanotaxis Free Action Requirements The hexworm has detected a source of magic with its arcanosense; Trigger The hexworm's turn begins; Effect The hexworm Strides up to its Speed toward the nearest source of magic it can detect. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3289",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 6,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

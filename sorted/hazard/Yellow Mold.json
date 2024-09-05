@@ -1,6 +1,5 @@
 {
  "ac": 27,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "Survival  DC 26 (expert) to remove the mold without triggering the spores",
@@ -17,21 +16,28 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 8,
- "markdown": "<title level=\"1\" right=\"Hazard 8\" pfs=\"\">[Yellow Mold](/Hazards.aspx?ID=10)</title>\r\n\r\n<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 524 <sup>4.0</sup></row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nPoisonous mold spores assault nearby creatures.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 28 (trained)\r\n\r\n**Disable**\r\n[Survival](/Skills.aspx?ID=16) DC 26 (expert) to remove the mold without triggering the spores\n\n<column gap=\"tiny\">\r\n\r\n**AC** 27, **Fort** +17, **Ref** +13\n\n**HP**\r\n70\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spore Explosion** <actions string=\"Reaction\" /> **Trigger** A creature moves into the mold’s space or damages the mold. The mold can’t use this reaction if it’s in direct sunlight or if the damage was fire damage. **Effect** The triggering creature and all creatures within 10 feet are exposed to yellow mold spores.<br />**Yellow Mold Spores** (inhaled, poison) Any drained condition from the spores persists after the poison’s duration ends; **Saving Throw** DC 26 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d8 poison damage and drained 1 (1 round); **Stage 2** 2d8 poison damage and drained 2 (1 round); **Stage 3** 3d8 poison damage and drained 3 (1 round)",
+ "markdown": "<title level=\"1\" right=\"Hazard 8\" pfs=\"\">[Yellow Mold](/Hazards.aspx?ID=10)</title>\r\n\r\n<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 524 <sup>4.0</sup>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nPoisonous mold spores assault nearby creatures.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 28 (trained)\r\n\r\n**Disable**\r\n[Survival](/Skills.aspx?ID=16) DC 26 (expert) to remove the mold without triggering the spores\n\n<column gap=\"tiny\">\r\n\r\n**AC** 27, **Fort** +17, **Ref** +13\n\n**HP**\r\n70\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spore Explosion** <actions string=\"Reaction\" /> **Trigger** A creature moves into the mold’s space or damages the mold. The mold can’t use this reaction if it’s in direct sunlight or if the damage was fire damage. **Effect** The triggering creature and all creatures within 10 feet are exposed to yellow mold spores.<br />**Yellow Mold Spores** (inhaled, poison) Any drained condition from the spores persists after the poison’s duration ends; **Saving Throw** DC 26 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d8 poison damage and drained 1 (1 round); **Stage 2** 2d8 poison damage and drained 2 (1 round); **Stage 3** 3d8 poison damage and drained 3 (1 round)",
  "name": "Yellow Mold",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 524",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 524 <sup>4.0</sup></row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPoisonous mold spores assault nearby creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 524 <sup>4.0</sup>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPoisonous mold spores assault nearby creatures.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 524"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 524 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 524 <sup>4.0</sup>",
  "speed": {},
  "stealth": "DC 28 (trained)",
  "summary": "Poisonous mold spores assault nearby creatures.",
@@ -40,6 +46,10 @@
  "trait": [
   "Environmental",
   "Fungus"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Creature Type"
  ],
  "trait_markdown": "[Environmental](/Traits.aspx?ID=62), [Fungus](/Traits.aspx?ID=77)",
  "trait_raw": [

@@ -1,0 +1,172 @@
+{
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  10,
+  10,
+  10,
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Sea Speech",
+  "Shared Feast",
+  "Wriggling Rush"
+ ],
+ "creature_family": "Sedacthy",
+ "creature_family_markdown": "[Sedacthy](/MonsterFamilies.aspx?ID=467)",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 7,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 30,
+ "hp_raw": "30",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3178",
+ "image": [
+  "/Images/Monsters/Sedacthy_Scout.webp"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Spear"
+ ],
+ "language": [
+  "Thalassic",
+  "sea speech"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113); sea speech",
+ "level": 2,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Sedacthy Scout](/Monsters.aspx?ID=3178)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nScouts, usually young sedacthies, ply the ocean in search of animal servants or tread ashore to hunt. Scouts hunting on the surface press [crocodiles](/Monsters.aspx?ID=2887) and [snakes](/MonsterFamilies.aspx?ID=473) into service, while those underwater prefer [electric eels](/Monsters.aspx?ID=2970) and [hippocampi](/Monsters.aspx?ID=3050).\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sedacthy_Scout.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Sedacthy Scout](/Monsters.aspx?ID=3178)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Sedacthy\" url=\"/Traits.aspx?ID=770\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 300\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59), [wavesense](/MonsterAbilities.aspx?ID=84) 30 feet\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113); sea speech\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +8, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**Sea Speech** A sedacthy speaking [Thalassic](/Languages.aspx?ID=113) can be understood by any animal that has a swim Speed or the [amphibious](/Traits.aspx?ID=529) or [aquatic](/Traits.aspx?ID=533) trait. By spending a week regularly interacting with such an animal, the sedacthy can make it permanently [helpful](/Conditions.aspx?ID=78).\r\n\r\n**Items**\r\n[Spear](/Weapons.aspx?ID=10)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, swim 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspear +10,\r\n**Damage** 1d6+6 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +10,\r\n**Damage** 1d4+4 piercing plus 1d4 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +10 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d6+4 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspear +10 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+4 piercing\n\n**Shared Feast** <actions string=\"Two Actions\" />  The sedacthy makes a jaws Strike. If it hits, an ally of their choice can spend a reaction to make a jaws Strike against the same target. Allies with beaks or similar attacks can use those instead of jaws.\r\n\r\n**Wriggling Rush** <actions string=\"Single Action\" />  **Frequency** once per round; **Effect** The scout takes a Stride action and a [Swim](/Actions.aspx?ID=2381) action, in either order. They ignore [difficult terrain](/Rules.aspx?ID=453) from mud, quicksand, and similar terrain during this movement.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-467\" />",
+ "name": "Sedacthy Scout",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 300",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Sedacthy\" url=\"/Traits.aspx?ID=770\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 300\r\n\r\n**Creature Family** [Sedacthy](/MonsterFamilies.aspx?ID=467)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +7\r\n\r\n**Ref** +10\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nScouts, usually young sedacthies, ply the ocean in search of animal servants or tread ashore to hunt. Scouts hunting on the surface press  crocodiles …\r\n</summary>",
+ "sense": " darkvision ,  wavesense  30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [wavesense](/MonsterAbilities.aspx?ID=84) 30 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +8, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +7",
+ "skill_mod": {
+  "athletics": 8,
+  "intimidation": 9,
+  "stealth": 8,
+  "survival": 7
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 300"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 300",
+ "speed": {
+  "land": 20,
+  "max": 40,
+  "swim": 40
+ },
+ "speed_markdown": "20 feet, swim 40 feet",
+ "speed_raw": "20 feet, swim 40 feet",
+ "spell_markdown": "",
+ "stealth": "8",
+ "strike_damage_average": [
+  7,
+  7,
+  9,
+  9
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Scouts, usually young sedacthies, ply the ocean in search of animal servants or tread ashore to hunt. Scouts hunting on the surface press  crocodiles …",
+ "summary_markdown": "Scouts, usually young sedacthies, ply the ocean in search of animal servants or tread ashore to hunt. Scouts hunting on the surface press  crocodiles …",
+ "text": " Sedacthy Scout Scouts, usually young sedacthies, ply the ocean in search of animal servants or tread ashore to hunt. Scouts hunting on the surface press crocodiles and snakes into service, while those underwater prefer electric eels and hippocampi. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Sedacthy Scout Source Monster Core pg. 300 Perception +9; darkvision, wavesense 30 feet Languages Thalassic; sea speech Skills Athletics +8, Intimidation +9, Stealth +8, Survival +7 Str +4 Dex +4 Con +1 Int +0 Wis +1 Cha +3 Sea Speech A sedacthy speaking Thalassic can be understood by any animal that has a swim Speed or the amphibious or aquatic trait. By spending a week regularly interacting with such an animal, the sedacthy can make it permanently helpful. Items Spear --- AC 17 Fort +7 Ref +10 Will +7 HP 30 --- Speed 20 feet, swim 40 feet Melee Single Action spear +10, Damage 1d6+6 piercing Melee Single Action jaws +10, Damage 1d4+4 piercing plus 1d4 persistent bleed Melee Single Action claw +10 (Agile), Damage 1d6+4 slashing Ranged Single Action spear +10 (thrown 20 feet), Damage 1d6+4 piercing Shared Feast Two Actions The sedacthy makes a jaws Strike. If it hits, an ally of their choice can spend a reaction to make a jaws Strike against the same target. Allies with beaks or similar attacks can use those instead of jaws. Wriggling Rush Single Action Frequency once per round; Effect The scout takes a Stride action and a Swim action, in either order. They ignore difficult terrain from mud, quicksand, and similar terrain during this movement. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Humanoid",
+  "Sedacthy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Humanoid](/Traits.aspx?ID=628), [Sedacthy](/Traits.aspx?ID=770)",
+ "trait_raw": [
+  "Amphibious",
+  "Humanoid",
+  "Sedacthy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3178",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 7,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

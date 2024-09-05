@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,33 +8,43 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Hat of Many Minds](/Equipment.aspx?ID=1060)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup></row>\n\n**Price** 1,800 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you adjust it. You gain a +2 item bonus to checks to [Earn Income](/Actions.aspx?ID=23).\n\n<document level=\"2\" id=\"action-850\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Hat of Many Minds](/Equipment.aspx?ID=1060)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup>\n\n**Price** 1,800 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you adjust it. You gain a +2 item bonus to checks to [Earn Income](/Actions.aspx?ID=23).\n\n**Activate** <actions string=\"Three Actions\" /> envision, Interact;  **Frequency** once per day;   **Effect** You tear off a patch of cloth to manifest it into a copy of yourself, dressed in the color and fabric of the patch. The copy follows your specific instructions and performs a single, straightforward task for up to 30 minutes. It takes the copy three times as long to complete the task as it would you, meaning it can perform a task that would take you a maximum of 10 minutes. It doesn't react quickly enough to be of any use during an encounter, and it can't use your spells or other special abilities—just basic actions and skill actions.\n\n The copy disappears and returns to the hat as a piece of cloth when the given task has been completed, or when you Dismiss the activation.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Hat of Many Minds",
  "pfs": "Standard",
  "price": 180000,
  "price_raw": "1,800 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 185",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup></row>\r\n\r\n**Price** 1,800 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup>\r\n\r\n**Price** 1,800 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn headwear\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 185"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you …",
  "summary_markdown": "This pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you …",
- "text": "<title level=\"1\" right=\"Item 12\" pfs=\"Standard\" > Hat of Many Minds Source Secrets of Magic pg. 185 1.1 Price 1,800 gp Usage worn headwear Bulk L --- This pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you adjust it. You gain a +2 item bonus to checks to Earn Income.\n",
+ "text": "<title level=\"1\" right=\"Item 12\" pfs=\"Standard\" > Hat of Many Minds Source Secrets of Magic pg. 185 1.1 Price 1,800 gp Usage worn headwear Bulk L --- This pointy, brimmed hat made up of a rainbow patchwork of various materials seems to sit just a little lopsided on your head, no matter how you adjust it. You gain a +2 item bonus to checks to Earn Income. Activate Three Actions envision, Interact; Frequency once per day; Effect You tear off a patch of cloth to manifest it into a copy of yourself, dressed in the color and fabric of the patch. The copy follows your specific instructions and performs a single, straightforward task for up to 30 minutes. It takes the copy three times as long to complete the task as it would you, meaning it can perform a task that would take you a maximum of 10 minutes. It doesn't react quickly enough to be of any use during an encounter, and it can't use your spells or other special abilities—just basic actions and skill actions. The copy disappears and returns to the hat as a piece of cloth when the given task has been completed, or when you Dismiss the activation.\n",
  "trait": [
   "Conjuration",
   "Magical"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

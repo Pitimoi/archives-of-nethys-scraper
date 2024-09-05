@@ -1,69 +1,75 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Apollyon",
   "Ghlaunder",
   "Urgathoa"
  ],
- "deity_markdown": "[Apollyon](/Deities.aspx?ID=134), [Ghlaunder](/Deities.aspx?ID=36), [Urgathoa](/Deities.aspx?ID=19)",
+ "deity_markdown": "[Apollyon](/Deities.aspx?ID=134), [Ghlaunder](/Deities.aspx?ID=36), [Urgathoa](/Deities.aspx?ID=295)",
  "domain_markdown": "",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-139",
+ "id": "spell-1545",
+ "legacy_id": "spell-139",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Goblin Pox](/Spells.aspx?ID=139)</title>\n\n<traits>\r\n<trait label=\"Disease\" url=\"/Traits.aspx?ID=46\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 341 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Apollyon](/Deities.aspx?ID=134), [Ghlaunder](/Deities.aspx?ID=36), [Urgathoa](/Deities.aspx?ID=19)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour touch afflicts the target with goblin pox, an irritating allergenic rash. The target must attempt a Fortitude save.<br />\n\n**Critical Success** The target is unaffected.<br />\n**Success** The target is sickened 1.<br />\n**Failure** The target is afflicted with goblin pox at stage 1.<br />\n**Critical Failure** The target is afflicted with goblin pox at stage 2.\n\n**Goblin Pox** (disease); **Level** 1. Goblins and goblin dogs are immune. **Stage 1** sickened 1 (1 round); **Stage 2** sickened 1 and slowed 1 (1 round); **Stage 3** sickened 1 and the creature can't reduce its sickened value below 1 (1 day)",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Goblin Pox](/Spells.aspx?ID=1545)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Disease\" url=\"/Traits.aspx?ID=46\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 333\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Apollyon](/Deities.aspx?ID=134), [Ghlaunder](/Deities.aspx?ID=36), [Urgathoa](/Deities.aspx?ID=295)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour touch afflicts the target with goblin pox, an irritating allergenic rash. The target must attempt a Fortitude save. \n\n**Critical Success** The target is unaffected.<br />\n**Success** The target is [sickened 1](/Conditions.aspx?ID=34).<br />\n**Failure** The target is afflicted with goblin pox at stage 1.<br />\n**Critical Failure** The target is afflicted with goblin pox at stage 2. \n\n**Goblin Pox** ([disease](/Traits.aspx?ID=46)) Level 1; Creatures that have the [goblin](/Traits.aspx?ID=81) trait and [goblin dogs](/Monsters.aspx?ID=236) are immune; **Stage 1** sickened 1 (1 round); **Stage 2** sickened 1 and [slowed 1](/Conditions.aspx?ID=35) (1 round); **Stage 3** sickened 1 and the creature can't reduce its sickened value below 1 (1 day)",
  "name": "Goblin Pox",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 333",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Disease\" url=\"/Traits.aspx?ID=46\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 341 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Apollyon](/Deities.aspx?ID=134), [Ghlaunder](/Deities.aspx?ID=36), [Urgathoa](/Deities.aspx?ID=19)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nInfect a creature with goblin pox.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Disease\" url=\"/Traits.aspx?ID=46\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 333\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Apollyon](/Deities.aspx?ID=134), [Ghlaunder](/Deities.aspx?ID=36), [Urgathoa](/Deities.aspx?ID=295)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nInfect a creature with goblin pox.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 341"
+  "Player Core pg. 333"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 341 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 333",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Infect a creature with goblin pox.",
  "summary_markdown": "Infect a creature with goblin pox.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Goblin Pox Source Core Rulebook pg. 341 4.0 Traditions Arcane, Primal Deities Apollyon, Ghlaunder, Urgathoa Cast Two Actions somatic, verbal Range touch Target 1 creature Saving Throw Fortitude --- Your touch afflicts the target with goblin pox, an irritating allergenic rash. The target must attempt a Fortitude save. Critical Success The target is unaffected. Success The target is sickened 1. Failure The target is afflicted with goblin pox at stage 1. Critical Failure The target is afflicted with goblin pox at stage 2. Goblin Pox (disease); Level 1. Goblins and goblin dogs are immune. Stage 1 sickened 1 (1 round); Stage 2 sickened 1 and slowed 1 (1 round); Stage 3 sickened 1 and the creature can't reduce its sickened value below 1 (1 day)",
+ "text": "\nGoblin Pox Two Actions Source Player Core pg. 333 Traditions Arcane, Primal Deities Apollyon, Ghlaunder, Urgathoa Range touch Target 1 creature Defense Fortitude --- Your touch afflicts the target with goblin pox, an irritating allergenic rash. The target must attempt a Fortitude save. Critical Success The target is unaffected. Success The target is sickened 1. Failure The target is afflicted with goblin pox at stage 1. Critical Failure The target is afflicted with goblin pox at stage 2. Goblin Pox (disease) Level 1; Creatures that have the goblin trait and goblin dogs are immune; Stage 1 sickened 1 (1 round); Stage 2 sickened 1 and slowed 1 (1 round); Stage 3 sickened 1 and the creature can't reduce its sickened value below 1 (1 day)",
  "tradition": [
   "Arcane",
   "Primal"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
+  "Concentrate",
   "Disease",
-  "Necromancy"
+  "Manipulate"
  ],
- "trait_markdown": "[Disease](/Traits.aspx?ID=46), [Necromancy](/Traits.aspx?ID=117)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Disease](/Traits.aspx?ID=46), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
+  "Concentrate",
   "Disease",
-  "Necromancy"
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=139",
+ "url": "/Spells.aspx?ID=1545",
  "weakness": {}
 }

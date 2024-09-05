@@ -1,7 +1,7 @@
 {
  "actions": "Three Actions",
+ "actions_number": 6,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "material",
@@ -10,12 +10,22 @@
  ],
  "cost": "6 gp of ruby dust",
  "cost_markdown": "6 gp of ruby dust",
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "unlimited",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   2,
@@ -30,44 +40,53 @@
  ],
  "id": "spell-50",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Continual Flame](/Spells.aspx?ID=50)</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** unlimited\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA magical flame springs up from the object, as bright as a torch. It doesn't need oxygen, react to water, or generate heat.\n\n---\r\n**Heightened (+1)** The cost increases as follows: 16 gp for 3rd level; 30 gp for 4th, 60 gp for 5th, 120 gp for 6th; 270 gp for 7th, 540 gp for 8th, 1,350 gp for 9th, and 3,350 gp for 10th.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Continual Flame](/Spells.aspx?ID=50)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n**Cost** 6 gp of ruby dust\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** unlimited\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA magical flame springs up from the object, as bright as a torch. It doesn't need oxygen, react to water, or generate heat.\n\n---\r\n**Heightened (+1)** The cost increases as follows: 16 gp for 3rd level; 30 gp for 4th, 60 gp for 5th, 120 gp for 6th; 270 gp for 7th, 540 gp for 8th, 1,350 gp for 9th, and 3,350 gp for 10th.",
  "name": "Continual Flame",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 326",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1518",
+ "remaster_name": "Everlight",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** unlimited\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA magical flame burns indefinitely.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n**Cost** 6 gp of ruby dust\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** unlimited\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA magical flame burns indefinitely.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 326"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 326 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "A magical flame burns indefinitely.",
  "summary_markdown": "A magical flame burns indefinitely.",
  "target": "1 object",
  "target_markdown": "1 object",
- "text": " Continual Flame Source Core Rulebook pg. 326 4.0 Traditions Arcane, Divine, Occult, Primal Spell Lists Elemental Cast Three Actions material, somatic, verbal Range touch Target 1 object Duration unlimited --- A magical flame springs up from the object, as bright as a torch. It doesn't need oxygen, react to water, or generate heat. --- Heightened (+1) The cost increases as follows: 16 gp for 3rd level; 30 gp for 4th, 60 gp for 5th, 120 gp for 6th; 270 gp for 7th, 540 gp for 8th, 1,350 gp for 9th, and 3,350 gp for 10th.",
+ "text": "\nContinual Flame Three Actions Source Core Rulebook pg. 326 4.0 Traditions Arcane, Divine, Occult, Primal Cast material, somatic, verbal Cost 6 gp of ruby dust Range touch Target 1 object Duration unlimited --- A magical flame springs up from the object, as bright as a torch. It doesn't need oxygen, react to water, or generate heat. --- Heightened (+1) The cost increases as follows: 16 gp for 3rd level; 30 gp for 4th, 60 gp for 5th, 120 gp for 6th; 270 gp for 7th, 540 gp for 8th, 1,350 gp for 9th, and 3,350 gp for 10th.",
  "tradition": [
   "Arcane",
   "Divine",
   "Occult",
-  "Primal",
-  "Elemental"
+  "Primal"
  ],
- "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Evocation",
   "Light"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Light](/Traits.aspx?ID=100)",
  "trait_raw": [

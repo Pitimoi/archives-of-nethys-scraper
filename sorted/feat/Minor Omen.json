@@ -1,9 +1,9 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Oatia Skysage"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -13,27 +13,37 @@
  "frequency": "once per day",
  "id": "feat-4068",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Limited\"\r\n>\r\n[Minor Omen](/Feats.aspx?ID=4068) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #187: The Seventh Arch](/Sources.aspx?ID=192) pg. 82</row>\n\n**Archetype** [Oatia Skysage](/Archetypes.aspx?ID=199)\n\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Oatia Skysage Dedication](/Feats.aspx?ID=4064)\n\n**Trigger**\r\nYou fail a Reflex save.\r\n\r\n**Requirements**\r\nYou can see the night sky.\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe stars warn you of danger in the nick of time. Reroll the failed save and use the new result.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Limited\"\r\n>\r\n[Minor Omen](/Feats.aspx?ID=4068) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #187: The Seventh Arch](/Sources.aspx?ID=192) pg. 82\n\n**Archetype** [Oatia Skysage](/Archetypes.aspx?ID=199)\n\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Oatia Skysage Dedication](/Feats.aspx?ID=4064)\n\n**Trigger**\r\nYou fail a Reflex save.\r\n\r\n**Requirements**\r\nYou can see the night sky.\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe stars warn you of danger in the nick of time. Reroll the failed save and use the new result.",
  "name": "Minor Omen",
  "pfs": "Limited",
  "prerequisite": "Oatia Skysage Dedication",
  "prerequisite_markdown": "[Oatia Skysage Dedication](/Feats.aspx?ID=4064)",
+ "primary_source": "Pathfinder #187: The Seventh Arch",
+ "primary_source_raw": "Pathfinder #187: The Seventh Arch pg. 82",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Gatewalkers",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-01-25",
  "requirement": "You can see the night sky.",
  "requirement_markdown": "You can see the night sky.",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #187: The Seventh Arch](/Sources.aspx?ID=192) pg. 82</row>\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Oatia Skysage Dedication](/Feats.aspx?ID=4064)\n\n**Trigger**\r\nYou fail a Reflex save.\r\n\r\n**Requirements**\r\nYou can see the night sky.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe stars warn you of danger in the nick of time.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #187: The Seventh Arch](/Sources.aspx?ID=192) pg. 82\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\n[Oatia Skysage Dedication](/Feats.aspx?ID=4064)\n\n**Trigger**\r\nYou fail a Reflex save.\r\n\r\n**Requirements**\r\nYou can see the night sky.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe stars warn you of danger in the nick of time.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #187: The Seventh Arch"
  ],
  "source_raw": [
   "Pathfinder #187: The Seventh Arch pg. 82"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Gatewalkers",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #187: The Seventh Arch](/Sources.aspx?ID=192) pg. 82</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Gatewalkers"
+ ],
+ "source_markdown": "[Pathfinder #187: The Seventh Arch](/Sources.aspx?ID=192) pg. 82",
  "speed": {},
  "summary": "The stars warn you of danger in the nick of time.",
  "summary_markdown": "The stars warn you of danger in the nick of time.",
@@ -43,6 +53,10 @@
   "Divination",
   "Fortune",
   "Occult"
+ ],
+ "trait_group": [
+  "School",
+  "Tradition"
  ],
  "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Divination](/Traits.aspx?ID=47), [Fortune](/Traits.aspx?ID=76), [Occult](/Traits.aspx?ID=120)",
  "trait_raw": [

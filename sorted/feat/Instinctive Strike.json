@@ -1,6 +1,6 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Instinctive Strike",
  "id": "feat-1616",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Instinctive Strike](/Feats.aspx?ID=1616) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 110 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Acute Scent](/Feats.aspx?ID=135) or precise or imprecise [scent](/Rules.aspx?ID=417)\n\n</column>\r\n\r\n---\r\n\r\nYou trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent's location. Make a melee Strike against an opponent that isn't hiding its scent with an effect like [_negate aroma_](/Spells.aspx?ID=206). This attack ignores any flat check required due to the target being [concealed](/Conditions.aspx?ID=4) or [hidden](/Conditions.aspx?ID=22).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Instinctive Strike](/Feats.aspx?ID=1616) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 110 <sup>2.0</sup>\n\n**Prerequisites**\r\n[Acute Scent](/Feats.aspx?ID=135) or precise or imprecise [scent](/Rules.aspx?ID=417)\n\n</column>\r\n\r\n---\r\n\r\nYou trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent's location. Make a melee Strike against an opponent that isn't hiding its scent with an effect like [_negate aroma_](/Spells.aspx?ID=206). This attack ignores any flat check required due to the target being [concealed](/Conditions.aspx?ID=4) or [hidden](/Conditions.aspx?ID=22).",
  "name": "Instinctive Strike",
  "pfs": "Standard",
  "prerequisite": "Acute Scent or precise or imprecise scent",
  "prerequisite_markdown": "[Acute Scent](/Feats.aspx?ID=135) or precise or imprecise [scent](/Rules.aspx?ID=417)",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 110",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 110 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Acute Scent](/Feats.aspx?ID=135) or precise or imprecise [scent](/Rules.aspx?ID=417)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent's location.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 110 <sup>2.0</sup>\n\n**Prerequisites**\r\n[Acute Scent](/Feats.aspx?ID=135) or precise or imprecise [scent](/Rules.aspx?ID=417)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent's location.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 110"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 110 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 110 <sup>2.0</sup>",
  "speed": {},
  "summary": "You trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent's location.",
  "summary_markdown": "You trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent's location.",
@@ -34,6 +41,10 @@
   "Barbarian",
   "Manipulate",
   "Rage"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Barbarian](/Traits.aspx?ID=18), [Manipulate](/Traits.aspx?ID=104), [Rage](/Traits.aspx?ID=135)",
  "trait_raw": [

@@ -1,0 +1,175 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "CE",
+ "attack_bonus": [
+  1,
+  10,
+  10,
+  12
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Stench",
+  "Far-Reaching Fear",
+  "Predator's Decree",
+  "Sacrificial Takedown"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 9,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 50,
+ "hp_raw": "50",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2611",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Skysunder ( +1 clan dagger )",
+  "scroll of create food"
+ ],
+ "language": [
+  "Draconic",
+  "Undercommon"
+ ],
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hhruklaz](/Monsters.aspx?ID=2611)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Hhruklaz](/Monsters.aspx?ID=2611)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 56\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +11, [Performance](/Skills.aspx?ID=12) +7, [Religion](/Skills.aspx?ID=13) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +0\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\nSkysunder (_+1 [clan dagger](/Weapons.aspx?ID=13))_, scroll of [_create food_](/Spells.aspx?ID=52)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +10 \r\n\r\n+2 status to saves vs. petrifying gaze\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\n\n</row>\n\n**Stench** ([aura](/MonsterAbilities.aspx?ID=5), olfactory) 30 feet. A creature that enters the area must attempt a DC 21 Fortitude save. On a failure, the creature is [sickened](/Conditions.aspx?ID=34) 1, and on a critical failure, the creature also takes a –5 status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n+1 clan dagger +11 ([Agile](/Traits.aspx?ID=170), [Dwarf](/Traits.aspx?ID=54), [Parry](/Traits.aspx?ID=190), [versatile B](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +10,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +10 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d6+3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshattering chant +12 ([range increment 30 feet](/Traits.aspx?ID=248), [Sonic](/Traits.aspx?ID=147)),\r\n**Damage** 2d6+4 sonic\r\n\r\n**Rituals** DC 17\r\n\r\n- **2nd**\r\n[Consecrate](/Rituals.aspx?ID=8)\r\n\r\n**Far-Reaching Fear**   The range at which Hhrulkaz can [Demoralize](/Actions.aspx?ID=53) Demoralize creatures increases to 60 feet, and she doesn't take a penalty if the creature doesn't understand her language.\r\n\r\n**Predator's Decree** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)) **Requirements** Hhrulkaz is within 60 feet of a frightened creature or a creature she successfully hit with a shattering chant this turn; **Effect** Hhrulkaz condemns the creature to be eaten. The creature must make a DC 20 Will save. \n\n**Success** The target is unaffected.<br />\n**Failure** The target gains weakness 2 to all damage for 3 rounds. At the end of each of its turns, the target can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.<br />\n**Critical Failure** As failure, but the target gains\r\nweakness 4 to all damage.\r\n\r\n**Sacrificial Takedown** <actions string=\"Two Actions\" />  Hhrulkaz attempts an Athletics check to [Trip](/Actions.aspx?ID=40) a creature. If she succeeds, she then makes a melee Strike against the target, granting her weapon the [fatal d10](/Traits.aspx?ID=178) trait until the end of her turn. Both attacks count toward her multiple attack penalty, but the penalty doesn't increase until after she makes both attacks.\r\n\r\n</column>",
+ "name": "Hhruklaz",
+ "npc": false,
+ "perception": 8,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 56",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 7,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 56\n\n<row gap=\"medium\">\r\n**HP** 50\r\n\r\n**AC** 19\r\n\r\n**Fort** +9\r\n\r\n**Ref** +7\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "darkvision",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Performance",
+  "Religion"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +11, [Performance](/Skills.aspx?ID=12) +7, [Religion](/Skills.aspx?ID=13) +10",
+ "skill_mod": {
+  "athletics": 9,
+  "intimidation": 11,
+  "performance": 7,
+  "religion": 10
+ },
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 56"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 56",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "strike_damage_average": [
+  5,
+  6,
+  6,
+  11
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "text": " Hhruklaz Recall Knowledge - Humanoid (Society): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Hhruklaz Source Pathfinder #193: Mantle of Gold pg. 56 Perception +8; darkvision Languages Draconic, Undercommon Skills Athletics +9, Intimidation +11, Performance +7, Religion +10 Str +3 Dex +0 Con +2 Int +1 Wis +3 Cha +4 Items Skysunder ( +1 clan dagger) , scroll of create food --- AC 19 Fort +9 Ref +7 Will +10 +2 status to saves vs. petrifying gaze HP 50 Stench (aura, olfactory) 30 feet. A creature that enters the area must attempt a DC 21 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5 status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute. --- Speed 25 feet Melee Single Action +1 clan dagger +11 (Agile, Dwarf, Parry, versatile B), Damage 1d4+3 piercing Melee Single Action jaws +10, Damage 1d6+3 piercing Melee Single Action claw +10 (Agile), Damage 1d6+3 slashing Ranged Single Action shattering chant +12 (range increment 30 feet, Sonic), Damage 2d6+4 sonic Rituals DC 17 - 2nd Consecrate Far-Reaching Fear The range at which Hhrulkaz can Demoralize Demoralize creatures increases to 60 feet, and she doesn't take a penalty if the creature doesn't understand her language. Predator's Decree Single Action (Divine, Emotion, Mental) Requirements Hhrulkaz is within 60 feet of a frightened creature or a creature she successfully hit with a shattering chant this turn; Effect Hhrulkaz condemns the creature to be eaten. The creature must make a DC 20 Will save. Success The target is unaffected. Failure The target gains weakness 2 to all damage for 3 rounds. At the end of each of its turns, the target can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success. Critical Failure As failure, but the target gains weakness 4 to all damage. Sacrificial Takedown Two Actions Hhrulkaz attempts an Athletics check to Trip a creature. If she succeeds, she then makes a melee Strike against the target, granting her weapon the fatal d10 trait until the end of her turn. Both attacks count toward her multiple attack penalty, but the penalty doesn't increase until after she makes both attacks. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Humanoid",
+  "Unique",
+  "Xulgath",
+  "CE",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Unique](/Traits.aspx?ID=161), [Xulgath](/Traits.aspx?ID=244)",
+ "trait_raw": [
+  "Humanoid",
+  "Unique",
+  "Xulgath"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2611",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 10,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

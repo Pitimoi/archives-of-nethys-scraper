@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,23 +10,30 @@
  "frequency": "once per round",
  "id": "feat-3690",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wandering Thoughts](/Feats.aspx?ID=3690) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psyche\" url=\"/Traits.aspx?ID=429\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 29</row>\n\n**Frequency**\r\nonce per round\n\n**Requirements**\r\nYou used your most recent action to Cast a Spell.\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhen your [Psyche is Unleashed](/Actions.aspx?ID=1222), each burst of magic you cast also folds space around you, and you travel through one of those folds. You teleport 15 feet to a square you can see.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wandering Thoughts](/Feats.aspx?ID=3690) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psyche\" url=\"/Traits.aspx?ID=429\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 29\n\n**Frequency**\r\nonce per round\n\n**Requirements**\r\nYou used your most recent action to Cast a Spell.\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhen your [Psyche is Unleashed](/Actions.aspx?ID=1222), each burst of magic you cast also folds space around you, and you travel through one of those folds. You teleport 15 feet to a square you can see.",
  "name": "Wandering Thoughts",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 29",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "requirement": "You used your most recent action to Cast a Spell.",
  "requirement_markdown": "You used your most recent action to Cast a Spell.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psyche\" url=\"/Traits.aspx?ID=429\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 29</row>\r\n\r\n**Frequency**\r\nonce per round\n\n**Requirements**\r\nYou used your most recent action to Cast a Spell.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen your [Psyche is Unleashed](/Actions.aspx?ID=1222), each burst of magic you cast also folds space around you, and you travel through one of those folds.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psyche\" url=\"/Traits.aspx?ID=429\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 29\r\n\r\n**Frequency**\r\nonce per round\n\n**Requirements**\r\nYou used your most recent action to Cast a Spell.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen your [Psyche is Unleashed](/Actions.aspx?ID=1222), each burst of magic you cast also folds space around you, and you travel through one of those folds.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 29"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 29</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 29",
  "speed": {},
  "summary": "When your  Psyche is Unleashed , each burst of magic you cast also folds space around you, and you travel through one of those folds.",
  "summary_markdown": "When your [Psyche is Unleashed](/Actions.aspx?ID=1222), each burst of magic you cast also folds space around you, and you travel through one of those folds.",
@@ -37,6 +44,11 @@
   "Psyche",
   "Psychic",
   "Teleportation"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Class-Specific",
+  "Class"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Psyche](/Traits.aspx?ID=429), [Psychic](/Traits.aspx?ID=430), [Teleportation](/Traits.aspx?ID=156)",
  "trait_raw": [

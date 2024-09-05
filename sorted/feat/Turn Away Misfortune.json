@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,22 +9,29 @@
  "feat_markdown": "Turn Away Misfortune",
  "id": "feat-3707",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Turn Away Misfortune](/Feats.aspx?ID=3707) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Esoterica\" url=\"/Traits.aspx?ID=427\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 43</row>\n\n**Trigger**\r\nYou would attempt a roll affected by a [misfortune](/Traits.aspx?ID=110) effect.\n\n</column>\r\n\r\n---\r\n\r\nYou perform a superstition, such as casting salt over your shoulder to ward off bad luck. Turn Away Misfortune's [fortune](/Traits.aspx?ID=76) trait cancels out the misfortune effect, causing you to roll normally. As normal, you can apply only one fortune ability to a roll, so if you Turned Away Misfortune on an attack roll, you couldn't also use an ability like [Halfling Luck](/Feats.aspx?ID=54) to alter the roll further.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Turn Away Misfortune](/Feats.aspx?ID=3707) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Esoterica\" url=\"/Traits.aspx?ID=427\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 43\n\n**Trigger**\r\nYou would attempt a roll affected by a [misfortune](/Traits.aspx?ID=110) effect.\n\n</column>\r\n\r\n---\r\n\r\nYou perform a superstition, such as casting salt over your shoulder to ward off bad luck. Turn Away Misfortune's [fortune](/Traits.aspx?ID=76) trait cancels out the misfortune effect, causing you to roll normally. As normal, you can apply only one fortune ability to a roll, so if you Turned Away Misfortune on an attack roll, you couldn't also use an ability like [Halfling Luck](/Feats.aspx?ID=54) to alter the roll further.",
  "name": "Turn Away Misfortune",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 43",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Esoterica\" url=\"/Traits.aspx?ID=427\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 43</row>\n\n**Trigger**\r\nYou would attempt a roll affected by a [misfortune](/Traits.aspx?ID=110) effect.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou perform a superstition, such as casting salt over your shoulder to ward off bad luck.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Esoterica\" url=\"/Traits.aspx?ID=427\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 43\n\n**Trigger**\r\nYou would attempt a roll affected by a [misfortune](/Traits.aspx?ID=110) effect.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou perform a superstition, such as casting salt over your shoulder to ward off bad luck.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 43"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 43</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 43",
  "speed": {},
  "summary": "You perform a superstition, such as casting salt over your shoulder to ward off bad luck.",
  "summary_markdown": "You perform a superstition, such as casting salt over your shoulder to ward off bad luck.",
@@ -36,6 +43,12 @@
   "Manipulate",
   "Occult",
   "Thaumaturge"
+ ],
+ "trait_group": [
+  "School",
+  "Class-Specific",
+  "Tradition",
+  "Class"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Esoterica](/Traits.aspx?ID=427), [Fortune](/Traits.aspx?ID=76), [Manipulate](/Traits.aspx?ID=104), [Occult](/Traits.aspx?ID=120), [Thaumaturge](/Traits.aspx?ID=432)",
  "trait_raw": [

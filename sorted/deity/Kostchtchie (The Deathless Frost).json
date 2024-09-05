@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Strength",
   "Constitution"
  ],
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "anathema": "Make a deal with Baba Yaga or her children, defer to or obey a woman",
  "category": "deity",
  "cleric_spell": [
   "Chilling Spray",
@@ -14,10 +14,9 @@
  "deity": [
   "Kostchtchie"
  ],
- "deity_markdown": "[Kostchtchie](/Deities.aspx?ID=77)",
  "deity_category": "Demon Lords",
- "deity_category_markdown": "[Demon Lords\r\n](/DeityCategories.aspx?ID=5)",
- "deity_category_order": "2Demon Lords\r\n",
+ "deity_category_markdown": "[Demon Lords](/DeityCategories.aspx?ID=5)",
+ "deity_category_order": "2Demon Lords",
  "divine_font": [
   "Harm"
  ],
@@ -37,6 +36,7 @@
   "Zeal"
  ],
  "domain_primary_markdown": "[Cold](/Domains.aspx?ID=41), [Destruction](/Domains.aspx?ID=8), [Might](/Domains.aspx?ID=20), [Zeal](/Domains.aspx?ID=37)",
+ "edict": "Avenge all slights three times over, kill all witches",
  "exclude_from_search": false,
  "favored_weapon": [
   "Warhammer"
@@ -47,29 +47,46 @@
   "CE"
  ],
  "id": "deity-77",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Restricted\">[Kostchtchie (The Deathless Frost)](/Deities.aspx?ID=77)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Demon Lords\r\n](/DeityCategories.aspx?ID=5)\r\n\r\n**Edicts** Avenge all slights three times over, kill all witches\r\n\r\n**Anathema** Make a deal with Baba Yaga or her children, defer to or obey a woman\n\n**Follower Alignments**\r\nNE, CE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nStrength or Constitution\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146)\r\n\r\n**Divine Skill** [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Favored Weapon** [Warhammer](/Weapons.aspx?ID=47)\r\n\r\n**Domains** [Cold](/Domains.aspx?ID=41), [Destruction](/Domains.aspx?ID=8), [Might](/Domains.aspx?ID=20), [Zeal](/Domains.aspx?ID=37)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Chilling Spray](/Spells.aspx?ID=678)\n\n- **2nd**\r\n[Enlarge](/Spells.aspx?ID=102)\n\n- **5th**\r\n[Cone of Cold](/Spells.aspx?ID=47)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Restricted\">[Kostchtchie (The Deathless Frost)](/Deities.aspx?ID=77)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Demon Lords](/DeityCategories.aspx?ID=5)\r\n\r\n**Edicts** Avenge all slights three times over, kill all witches\r\n\r\n**Anathema** Make a deal with Baba Yaga or her children, defer to or obey a woman\n\n**Follower Alignments**\r\nNE, CE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nStrength or Constitution\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146)\r\n\r\n**Divine Sanctification** can choose unholy\r\n\r\n**Divine Skill** [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Favored Weapon** [Warhammer](/Weapons.aspx?ID=47)\r\n\r\n**Domains** [Cold](/Domains.aspx?ID=41), [Destruction](/Domains.aspx?ID=8), [Might](/Domains.aspx?ID=20), [Zeal](/Domains.aspx?ID=37)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Chilling Spray](/Spells.aspx?ID=678)\n\n- **2nd**\r\n[Enlarge](/Spells.aspx?ID=102)\n\n- **5th**\r\n[Cone of Cold](/Spells.aspx?ID=47)\n\n</column>",
  "name": "Kostchtchie (The Deathless Frost)",
  "pfs": "Restricted",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 126",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Harm\r\n\r\n**Divine Skill** [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Favored Weapon** [Warhammer](/Weapons.aspx?ID=47)\r\n\r\n**Domains** [Cold](/Domains.aspx?ID=41), [Destruction](/Domains.aspx?ID=8), [Might](/Domains.aspx?ID=20), [Zeal](/Domains.aspx?ID=37)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "unholy"
+ ],
+ "sanctification_raw": "can choose unholy",
+ "search_markdown": "<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup>\r\n\r\n**Divine Font** Harm\r\n\r\n**Divine Skill** [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Favored Weapon** [Warhammer](/Weapons.aspx?ID=47)\r\n\r\n**Domains** [Cold](/Domains.aspx?ID=41), [Destruction](/Domains.aspx?ID=8), [Might](/Domains.aspx?ID=20), [Zeal](/Domains.aspx?ID=37)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
  "skill": [
   "Athletics"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3)",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 126"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup>",
  "speed": {},
+ "spell": [
+  "Chilling Spray",
+  "Enlarge",
+  "Cone of Cold"
+ ],
+ "spell_markdown": "[Chilling Spray](/Spells.aspx?ID=678), [Cone of Cold](/Spells.aspx?ID=47), [Enlarge](/Spells.aspx?ID=102)",
  "summary": " Nethys Note: no description has been provided of this deity ",
  "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Kostchtchie (The Deathless Frost) Source Gods &amp; Magic pg. 126 2.0 Nethys Note: no description has been provided of this deity Category [Demon Lords ](/DeityCategories.aspx?ID=5) Edicts Avenge all slights three times over, kill all witches Anathema Make a deal with Baba Yaga or her children, defer to or obey a woman Follower Alignments NE, CE Devotee Benefits Divine Ability Strength or Constitution Divine Font Harm Divine Skill Athletics Favored Weapon Warhammer Domains Cold, Destruction, Might, Zeal Alternate Domains Cleric Spells - 1st Chilling Spray - 2nd Enlarge - 5th Cone of Cold\n",
+ "text": " Kostchtchie (The Deathless Frost) Source Gods &amp; Magic pg. 126 2.0 Nethys Note: no description has been provided of this deity Category Demon Lords Edicts Avenge all slights three times over, kill all witches Anathema Make a deal with Baba Yaga or her children, defer to or obey a woman Follower Alignments NE, CE Devotee Benefits Divine Attribute Strength or Constitution Divine Font Harm Divine Sanctification can choose unholy Divine Skill Athletics Favored Weapon Warhammer Domains Cold, Destruction, Might, Zeal Alternate Domains Cleric Spells - 1st Chilling Spray - 2nd Enlarge - 5th Cone of Cold\n",
  "trait": [
   "CE"
  ],

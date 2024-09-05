@@ -1,50 +1,66 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Elementalist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
+ "element": [
+  "Earth"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Rockslide Spell"
  ],
  "feat_markdown": "Rockslide Spell",
- "id": "feat-2991",
+ "id": "feat-4349",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Rockslide Spell](/Feats.aspx?ID=2991) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=98)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n</column>\r\n\r\n---\r\n\r\nYou enhance your spell with elemental earth, causing chunks of stone to litter the ground. If the next action you use is to Cast a non-cantrip Spell that affects an area, a number of 5-foot squares in the area equal to the spell level become difficult terrain for 1 round. These squares must be on the ground, and the entire area of difficult terrain must be contiguous. The spell gains the [earth](/Traits.aspx?ID=55) trait.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Rockslide Spell](/Feats.aspx?ID=4349) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=207)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340); earth is in your elemental philosophy\n\n</column>\r\n\r\n---\r\n\r\nYou enhance your spell with elemental earth, causing chunks of stone to litter the ground. If the next action you use is to Cast a non-cantrip Spell that affects an area, a number of 5-foot squares in the area equal to the spell rank become [difficult terrain](/Rules.aspx?ID=453) for 1 round. These squares must be on the ground, and the entire area of difficult terrain must be contiguous. The spell gains the [earth](/Traits.aspx?ID=55) trait.",
  "name": "Rockslide Spell",
  "pfs": "Standard",
- "prerequisite": "Elementalist Dedication",
- "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=2986)",
+ "prerequisite": "Elementalist Dedication; earth is in your elemental philosophy",
+ "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=4340); earth is in your elemental philosophy",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 59",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2021-09-01",
+ "rarity_id": 1,
+ "release_date": "2023-08-02",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance your spell with elemental earth, causing chunks of stone to litter the ground.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340); earth is in your elemental philosophy\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance your spell with elemental earth, causing chunks of stone to litter the ground.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Secrets of Magic"
+  "Rage of Elements"
  ],
  "source_raw": [
-  "Secrets of Magic pg. 207"
+  "Rage of Elements pg. 59"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 59",
  "speed": {},
  "summary": "You enhance your spell with elemental earth, causing chunks of stone to litter the ground.",
  "summary_markdown": "You enhance your spell with elemental earth, causing chunks of stone to litter the ground.",
- "text": "<title level=\"1\" right=\"Feat 10\" pfs=\"Standard\" > Rockslide Spell Single Action Source Secrets of Magic pg. 207 1.1 Archetype Elementalist Prerequisites Elementalist Dedication --- You enhance your spell with elemental earth, causing chunks of stone to litter the ground. If the next action you use is to Cast a non-cantrip Spell that affects an area, a number of 5-foot squares in the area equal to the spell level become difficult terrain for 1 round. These squares must be on the ground, and the entire area of difficult terrain must be contiguous. The spell gains the earth trait.",
+ "text": "<title level=\"1\" right=\"Feat 10\" pfs=\"Standard\" > Rockslide Spell Single Action Source Rage of Elements pg. 59 Archetype Elementalist Prerequisites Elementalist Dedication; earth is in your elemental philosophy --- You enhance your spell with elemental earth, causing chunks of stone to litter the ground. If the next action you use is to Cast a non-cantrip Spell that affects an area, a number of 5-foot squares in the area equal to the spell rank become difficult terrain for 1 round. These squares must be on the ground, and the entire area of difficult terrain must be contiguous. The spell gains the earth trait.",
  "trait": [
   "Archetype",
   "Earth",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Earth](/Traits.aspx?ID=55), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Earth](/Traits.aspx?ID=55), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Archetype",
   "Earth",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=2991",
+ "url": "/Feats.aspx?ID=4349",
  "weakness": {}
 }

@@ -1,31 +1,38 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
  "exclude_from_search": false,
- "id": "action-20",
- "markdown": "<title level=\"1\" right=\"Action\">[Constrict](/Actions.aspx?ID=20) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 216 <sup>4.0</sup></row>\n\n**Requirements** The snake has a smaller creature [grabbed](/Conditions.aspx?ID=20).\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe snake deals 12 bludgeoning damage to the [grabbed](/Conditions.aspx?ID=20) creature; the creature must attempt a basic Fortitude save. If the snake is a specialized animal companion, increase this damage to 20.",
+ "id": "action-2285",
+ "markdown": "<title level=\"1\" right=\"Action\">[Constrict](/Actions.aspx?ID=2285) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 210\n\n**Requirements** The snake has a smaller creature [grabbed](/Conditions.aspx?ID=20).\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe snake deals 12 bludgeoning damage to the grabbed creature; the creature must attempt a [basic](/Rules.aspx?ID=329) Fortitude save against your class DC. If the snake is a specialized animal companion, increase this damage to 20.",
  "name": "Constrict",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 210",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "requirement": "The snake has a smaller creature  grabbed .",
  "requirement_markdown": "The snake has a smaller creature [grabbed](/Conditions.aspx?ID=20).",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 216 <sup>4.0</sup></row>\n\n**Requirement**\r\nThe snake has a smaller creature [grabbed](/Conditions.aspx?ID=20).\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe snake deals 12 bludgeoning damage to the  grabbed  creature; the creature must attempt a basic Fortitude save. If the snake is a specialized …\r\n</summary>",
+ "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 210\n\n**Requirement**\r\nThe snake has a smaller creature [grabbed](/Conditions.aspx?ID=20).\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe snake deals 12 bludgeoning damage to the grabbed creature; the creature must attempt a  basic  Fortitude save against your class DC. If the snake …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 216"
+  "Player Core pg. 210"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 216 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 210",
  "speed": {},
- "summary": "The snake deals 12 bludgeoning damage to the  grabbed  creature; the creature must attempt a basic Fortitude save. If the snake is a specialized …",
- "summary_markdown": "The snake deals 12 bludgeoning damage to the  grabbed  creature; the creature must attempt a basic Fortitude save. If the snake is a specialized …",
- "text": " Constrict Single Action Source Core Rulebook pg. 216 4.0 Requirements The snake has a smaller creature grabbed. --- The snake deals 12 bludgeoning damage to the grabbed creature; the creature must attempt a basic Fortitude save. If the snake is a specialized animal companion, increase this damage to 20.",
+ "summary": "The snake deals 12 bludgeoning damage to the grabbed creature; the creature must attempt a  basic  Fortitude save against your class DC. If the snake …",
+ "summary_markdown": "The snake deals 12 bludgeoning damage to the grabbed creature; the creature must attempt a  basic  Fortitude save against your class DC. If the snake …",
+ "text": " Constrict Single Action Source Player Core pg. 210 Requirements The snake has a smaller creature grabbed. --- The snake deals 12 bludgeoning damage to the grabbed creature; the creature must attempt a basic Fortitude save against your class DC. If the snake is a specialized animal companion, increase this damage to 20.",
  "trait_markdown": "",
  "type": "Action",
- "url": "/Actions.aspx?ID=20",
+ "url": "/Actions.aspx?ID=2285",
  "weakness": {}
 }

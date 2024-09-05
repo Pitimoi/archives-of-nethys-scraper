@@ -3,7 +3,6 @@
   "Wooden Shield"
  ],
  "base_item_markdown": "[Wooden Shield](/Shields.aspx?ID=2)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -12,33 +11,43 @@
  "item_category": "Shields",
  "item_subcategory": "Specific Shields",
  "level": 11,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Standard\"\r\n>\r\n[Arrow-Catching Shield](/Equipment.aspx?ID=317)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 587 <sup>4.0</sup></row>\n\n**Price** 1,350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis remarkable [wooden shield](/Shields.aspx?ID=2) (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows.\n\n<document level=\"2\" id=\"action-190\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Standard\"\r\n>\r\n[Arrow-Catching Shield](/Equipment.aspx?ID=317)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 587 <sup>4.0</sup>\n\n**Price** 1,350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis remarkable [wooden shield](/Shields.aspx?ID=2) (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows.\n\n**Activate** <actions string=\"Reaction\" /> Interact;  **Frequency** once per minute; **Trigger** A ranged weapon Strike targets a creature within 15 feet of you when you have this shield raised, and the attacker has not yet rolled their attack;  **Effect** The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the [Shield Block](/Feats.aspx?ID=839) reaction.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Arrow-Catching Shield",
  "pfs": "Standard",
  "price": 135000,
  "price_raw": "1,350 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 587",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 587 <sup>4.0</sup></row>\r\n\r\n**Price** 1,350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis remarkable  wooden shield  (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 587 <sup>4.0</sup>\r\n\r\n**Price** 1,350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis remarkable  wooden shield  (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 587"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 587 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 587 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This remarkable  wooden shield  (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows. ",
  "summary_markdown": "This remarkable  wooden shield  (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows. ",
- "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Standard\" > Arrow-Catching Shield Source Core Rulebook pg. 587 4.0 Price 1,350 gp Usage held in 1 hand Bulk 1 Base Shield Wooden Shield --- This remarkable wooden shield (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows.\n",
+ "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Standard\" > Arrow-Catching Shield Source Core Rulebook pg. 587 4.0 Price 1,350 gp Usage held in 1 hand Bulk 1 Base Shield Wooden Shield --- This remarkable wooden shield (Hardness 10, HP 60, BT 30) is carved with images of overlapping fletched arrows. Activate Reaction Interact; Frequency once per minute; Trigger A ranged weapon Strike targets a creature within 15 feet of you when you have this shield raised, and the attacker has not yet rolled their attack; Effect The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the Shield Block reaction.\n",
  "trait": [
   "Abjuration",
   "Magical"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

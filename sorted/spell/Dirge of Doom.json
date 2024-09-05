@@ -1,68 +1,83 @@
 {
  "actions": "Single Action",
- "area": "30-foot emanation",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "verbal"
+ "actions_number": 2,
+ "area": [
+  30
  ],
- "deity_markdown": "",
+ "area_raw": "30-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain_markdown": "",
  "duration": 6,
  "duration_raw": "1 round",
  "exclude_from_search": false,
+ "heighten_group": [
+  "3rd rank"
+ ],
  "heighten_level": [
   3
  ],
- "id": "spell-382",
+ "id": "spell-1764",
+ "legacy_id": "spell-382",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 3\" pfs=\"Standard\">[Dirge of Doom](/Spells.aspx?ID=382)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 386 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nFoes within the area are [frightened 1](/Conditions.aspx?ID=19). They can't reduce their frightened value below 1 while they remain in the area.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 3\" pfs=\"Standard\">\r\n[Dirge of Doom](/Spells.aspx?ID=1764)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 370\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nEnemies within the area are [frightened 1](/Conditions.aspx?ID=19). They can't reduce their frightened value below 1 while they remain in the area.",
  "name": "Dirge of Doom",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 370",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 386 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFrighten nearby enemies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 370\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEnemies within the area are [frightened 1](/Conditions.aspx?ID=19).\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 386"
+  "Player Core pg. 370"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 386 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 370",
  "speed": {},
- "summary": "Frighten nearby enemies.",
- "summary_markdown": "Frighten nearby enemies.",
- "text": " Dirge of Doom Source Core Rulebook pg. 386 4.0 Cast Single Action verbal Area 30-foot emanation Duration 1 round --- Foes within the area are frightened 1. They can't reduce their frightened value below 1 while they remain in the area.",
+ "spell_type": "Cantrip",
+ "summary": "Enemies within the area are  frightened 1 .",
+ "summary_markdown": "Enemies within the area are [frightened 1](/Conditions.aspx?ID=19).",
+ "text": "\nDirge of Doom Single Action Source Player Core pg. 370 Area 30-foot emanation Duration 1 round --- Enemies within the area are frightened 1. They can't reduce their frightened value below 1 while they remain in the area.",
  "tradition_markdown": "",
  "trait": [
   "Bard",
   "Cantrip",
   "Composition",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
   "Fear",
   "Mental",
   "Uncommon"
  ],
- "trait_markdown": "[Bard](/Traits.aspx?ID=19), [Cantrip](/Traits.aspx?ID=22), [Composition](/Traits.aspx?ID=31), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Class-Specific",
+  "Rarity"
+ ],
+ "trait_markdown": "[Bard](/Traits.aspx?ID=546), [Cantrip](/Traits.aspx?ID=22), [Composition](/Traits.aspx?ID=31), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Bard",
   "Cantrip",
   "Composition",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
   "Fear",
   "Mental",
   "Uncommon"
  ],
- "type": "Cantrip",
- "url": "/Spells.aspx?ID=382",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1764",
  "weakness": {}
 }

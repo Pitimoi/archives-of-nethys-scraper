@@ -1,6 +1,5 @@
 {
  "ac": 48,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Complex",
  "disable": "DC 48  Religion  (legendary) to disenchant each eye through prayer or DC 48  Thievery  (legendary) to disable each eye",
@@ -19,22 +18,32 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 20,
- "markdown": "<title level=\"1\" right=\"Hazard 20\" pfs=\"\">[Urgathoa's Ire](/Hazards.aspx?ID=331)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 67</row>\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nA statue of Urgathoa fires eye beams at intruders.\r\n\r\n---\r\n\r\n**Stealth**\r\n+38 (legendary)\r\n\r\n**Disable**\r\nDC 48 [Religion](/Skills.aspx?ID=13) (legendary) to disenchant each eye through prayer or DC 48 [Thievery](/Skills.aspx?ID=17) (legendary) to disable each eye\n\n<column gap=\"tiny\">\r\n\r\n**AC** 48, **Fort** +36, **Ref** +30\r\n\r\n**Eye Hardness**\r\n35\r\n\r\n**HP**\r\n135 (BT 67)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Glare** <actions string=\"Reaction\" /> ([divine](/Traits.aspx?ID=48), [evocation](/Equipment.aspx?ID=1671), [fire](/Traits.aspx?ID=72)) **Trigger** A creature other than Kemnebi enters the chamber; **Effect** The trap shoots a concentrated beam of fire at the triggering creature. The trap makes an eye beam Strike. If one of Urgathoa's eyes has been disabled, this Strike deals half damage. The trap then rolls initiative.\n\n---\r\n**Routine**\r\n(1 action) The trap shoots a concentrated beam of fire at a random intruder. The trap makes an eye beam Strike. If one of Urgathoa's eyes has been disabled, this Strike deals half damage.<br />**Ranged** <actions string=\"Single Action\" /> eye beam +41 ([range increment 200 feet](/Traits.aspx?ID=248)), **Damage** 8d10+44 fire",
+ "markdown": "<title level=\"1\" right=\"Hazard 20\" pfs=\"\">[Urgathoa's Ire](/Hazards.aspx?ID=331)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 67\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nA statue of Urgathoa fires eye beams at intruders.\r\n\r\n---\r\n\r\n**Stealth**\r\n+38 (legendary)\r\n\r\n**Disable**\r\nDC 48 [Religion](/Skills.aspx?ID=13) (legendary) to disenchant each eye through prayer or DC 48 [Thievery](/Skills.aspx?ID=17) (legendary) to disable each eye\n\n<column gap=\"tiny\">\r\n\r\n**AC** 48, **Fort** +36, **Ref** +30\r\n\r\n**Eye Hardness**\r\n35\r\n\r\n**HP**\r\n135 (BT 67)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Glare** <actions string=\"Reaction\" /> ([divine](/Traits.aspx?ID=48), [evocation](/Equipment.aspx?ID=1671), [fire](/Traits.aspx?ID=72)) **Trigger** A creature other than Kemnebi enters the chamber; **Effect** The trap shoots a concentrated beam of fire at the triggering creature. The trap makes an eye beam Strike. If one of Urgathoa's eyes has been disabled, this Strike deals half damage. The trap then rolls initiative.\n\n---\r\n**Routine**\r\n(1 action) The trap shoots a concentrated beam of fire at a random intruder. The trap makes an eye beam Strike. If one of Urgathoa's eyes has been disabled, this Strike deals half damage.<br />**Ranged** <actions string=\"Single Action\" /> eye beam +41 ([range increment 200 feet](/Traits.aspx?ID=248)), **Damage** 8d10+44 fire",
  "name": "Urgathoa's Ire",
+ "primary_source": "Pathfinder #186: Ghost King's Rage",
+ "primary_source_raw": "Pathfinder #186: Ghost King's Rage pg. 67",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Blood Lords",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 30,
  "release_date": "2022-12-14",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 67</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA statue of Urgathoa fires eye beams at intruders.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 67\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA statue of Urgathoa fires eye beams at intruders.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #186: Ghost King's Rage"
  ],
  "source_raw": [
   "Pathfinder #186: Ghost King's Rage pg. 67"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Blood Lords",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 67</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Blood Lords"
+ ],
+ "source_markdown": "[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 67",
  "speed": {},
  "spoilers": "Blood Lords",
  "stealth": "+38 (legendary)",
@@ -46,6 +55,11 @@
   "Magical",
   "Trap",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Magical](/Traits.aspx?ID=103), [Trap](/Traits.aspx?ID=158), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

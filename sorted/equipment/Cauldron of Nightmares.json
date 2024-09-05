@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -8,36 +7,52 @@
  "id": "equipment-891",
  "item_category": "Held Items",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"\"\r\n>\r\n[Cauldron of Nightmares](/Equipment.aspx?ID=891)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #161: Belly of the Black Whale](/Sources.aspx?ID=51) pg. 78</row>\n\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nEngraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the world. The cauldron has an affinity for preying on the minds of captives and prisoners, who take a –2 circumstance penalty to saving throws against it. Good creatures are [enfeebled 2](/Conditions.aspx?ID=13) while carrying, wielding, or wearing this item crafted by the sea-witches.\n\n<document level=\"2\" id=\"action-668\" />\n\n<document level=\"2\" id=\"action-669\" />\n\n**Craft Requirements** Supply a casting of [_nightmare_](/Spells.aspx?ID=208).\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"\"\r\n>\r\n[Cauldron of Nightmares](/Equipment.aspx?ID=891)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #161: Belly of the Black Whale](/Sources.aspx?ID=51) pg. 78\n\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nEngraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the world. The cauldron has an affinity for preying on the minds of captives and prisoners, who take a –2 circumstance penalty to saving throws against it. Good creatures are [enfeebled 2](/Conditions.aspx?ID=13) while carrying, wielding, or wearing this item crafted by the sea-witches.\n\n**Activate** <actions string=\"Single Action\" /> Interact ([divination](/Traits.aspx?ID=47)) **Frequency** once per day;   **Effect** The cauldron casts [_nightmare_](/Spells.aspx?ID=208) (DC 35) on a target creature that you know by name. The target must be on the same plane as you. If the target fails its save and is 15th level or lower, you add its nightmare to the cauldron. The cauldron can hold only six nightmares at a time; when you add a new nightmare, you choose which six to keep.\n\n**Activate** <actions string=\"Two Actions\" /> Interact ([illusion](/Traits.aspx?ID=92), [visual](/Traits.aspx?ID=163)) **Frequency** once per week;   **Effect** You spill the nightmarish contents of the cauldron onto the ground and choose one creature whose nightmare is stored in your cauldron. A nightmare copy of the chosen creature springs to life from the bubbling pile of horror. The cauldron casts [_duplicate foe_](/Spells.aspx?ID=93) on the target, ignoring the range restriction, and the target automatically fails its saving throw. All enemies within 20 feet of the cauldron are subjected to a [fear](/Traits.aspx?ID=68) spell (DC 35). All other nightmares stored in the cauldron are lost. The cauldron becomes totally inert and can't be used again for 1 week.\n\n**Craft Requirements** Supply a casting of [_nightmare_](/Spells.aspx?ID=208).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Cauldron of Nightmares",
  "price": 1300000,
  "price_raw": "13,000 gp",
+ "primary_source": "Pathfinder #161: Belly of the Black Whale",
+ "primary_source_raw": "Pathfinder #161: Belly of the Black Whale pg. 78",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2020-11-15",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #161: Belly of the Black Whale](/Sources.aspx?ID=51) pg. 78</row>\r\n\r\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEngraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #161: Belly of the Black Whale](/Sources.aspx?ID=51) pg. 78\r\n\r\n**Price** 13,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEngraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #161: Belly of the Black Whale"
  ],
  "source_raw": [
   "Pathfinder #161: Belly of the Black Whale pg. 78"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #161: Belly of the Black Whale](/Sources.aspx?ID=51) pg. 78</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #161: Belly of the Black Whale](/Sources.aspx?ID=51) pg. 78",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Agents of Edgewatch",
  "stage_markdown": "",
  "summary": "Engraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the …",
  "summary_markdown": "Engraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the …",
- "text": "<title level=\"1\" right=\"Item 17\" pfs=\"\" > Cauldron of Nightmares May contain spoilers from Agents of Edgewatch Source Pathfinder #161: Belly of the Black Whale pg. 78 Price 13,000 gp Usage held in 2 hands Bulk 1 --- Engraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the world. The cauldron has an affinity for preying on the minds of captives and prisoners, who take a –2 circumstance penalty to saving throws against it. Good creatures are enfeebled 2 while carrying, wielding, or wearing this item crafted by the sea-witches. Craft Requirements Supply a casting of nightmare .\n",
+ "text": "<title level=\"1\" right=\"Item 17\" pfs=\"\" > Cauldron of Nightmares May contain spoilers from Agents of Edgewatch Source Pathfinder #161: Belly of the Black Whale pg. 78 Price 13,000 gp Usage held in 2 hands Bulk 1 --- Engraved with carvings of tortured souls, this green cauldron has two abilities that allow it to capture nightmares and then unleash them on the world. The cauldron has an affinity for preying on the minds of captives and prisoners, who take a –2 circumstance penalty to saving throws against it. Good creatures are enfeebled 2 while carrying, wielding, or wearing this item crafted by the sea-witches. Activate Single Action Interact (divination) Frequency once per day; Effect The cauldron casts nightmare (DC 35) on a target creature that you know by name. The target must be on the same plane as you. If the target fails its save and is 15th level or lower, you add its nightmare to the cauldron. The cauldron can hold only six nightmares at a time; when you add a new nightmare, you choose which six to keep. Activate Two Actions Interact (illusion, visual) Frequency once per week; Effect You spill the nightmarish contents of the cauldron onto the ground and choose one creature whose nightmare is stored in your cauldron. A nightmare copy of the chosen creature springs to life from the bubbling pile of horror. The cauldron casts duplicate foe on the target, ignoring the range restriction, and the target automatically fails its saving throw. All enemies within 20 feet of the cauldron are subjected to a fear spell (DC 35). All other nightmares stored in the cauldron are lost. The cauldron becomes totally inert and can't be used again for 1 week. Craft Requirements Supply a casting of nightmare .\n",
  "trait": [
   "Illusion",
   "Invested",
   "Magical",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Monster",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

@@ -1,13 +1,12 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "material",
   "somatic"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 3600,
  "duration_raw": "1 hour",
@@ -15,39 +14,48 @@
  "heighten": [
   "4th"
  ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 4th rank"
+ ],
  "heighten_level": [
   2,
   4
  ],
  "id": "spell-1151",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Empty Pack](/Spells.aspx?ID=1151)</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 105</row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 container of 2 Bulk or less\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou render every item inside the container you touch invisible, although the container itself remains visible. The items within are [undetected](/Conditions.aspx?ID=39) to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item [hidden](/Conditions.aspx?ID=22) to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container.\n\n---\r\n**Heightened (4th)** The duration is until the next time you make your daily preparations.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Empty Pack](/Spells.aspx?ID=1151)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 105\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 container of 2 Bulk or less\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou render every item inside the container you touch invisible, although the container itself remains visible. The items within are [undetected](/Conditions.aspx?ID=39) to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item [hidden](/Conditions.aspx?ID=22) to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container.\n\n---\r\n**Heightened (4th)** The duration is until the next time you make your daily preparations.",
  "name": "Empty Pack",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 105",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 105</row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 container of 2 Bulk or less\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake objects inside a container invisible\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 105\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 container of 2 Bulk or less\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake objects inside a container invisible\r\n\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 105"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 105</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 105",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Make objects inside a container invisible\r\n",
  "summary_markdown": "Make objects inside a container invisible\r\n",
  "target": "1 container of 2 Bulk or less",
  "target_markdown": "1 container of 2 Bulk or less",
- "text": " Empty Pack Source Dark Archive pg. 105 Traditions Arcane, Occult Cast Two Actions material, somatic Range touch Target 1 container of 2 Bulk or less Duration 1 hour --- You render every item inside the container you touch invisible, although the container itself remains visible. The items within are undetected to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item hidden to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container. --- Heightened (4th) The duration is until the next time you make your daily preparations.",
+ "text": "\nEmpty Pack Two Actions Source Dark Archive pg. 105 Traditions Arcane, Occult Cast material, somatic Range touch Target 1 container of 2 Bulk or less Duration 1 hour --- You render every item inside the container you touch invisible, although the container itself remains visible. The items within are undetected to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item hidden to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container. --- Heightened (4th) The duration is until the next time you make your daily preparations.",
  "tradition": [
   "Arcane",
   "Occult"
@@ -55,6 +63,10 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Illusion"
+ ],
+ "trait_group": [
+  "School",
+  "Monster"
  ],
  "trait_markdown": "[Illusion](/Traits.aspx?ID=92)",
  "trait_raw": [

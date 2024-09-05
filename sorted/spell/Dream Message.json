@@ -1,52 +1,59 @@
 {
  "actions": "10 minutes",
+ "actions_number": 600,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
-  "somatic",
-  "verbal"
+  "10 minutes"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
- "duration_raw": "until the next time you make your daily preparations.",
+ "duration_raw": "until your next daily preparations",
  "exclude_from_search": false,
  "heighten": [
   "4th"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank"
  ],
  "heighten_level": [
   3,
   4
  ],
- "id": "spell-90",
+ "id": "spell-1503",
+ "legacy_id": "spell-90",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">[Dream Message](/Spells.aspx?ID=90)</title>\n\n<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 333 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\n\n**Target** 1 creature you know by name and have met in person\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations.\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send a message to your target's dream. The message is one-way, up to 1 minute of speech (roughly 150 words). If the target is asleep, they receive the message instantly. If not, they receive it the next time they sleep. As soon as they receive it, the spell ends, and you know the message was sent.\n\n---\r\n**Heightened (4th)** You can target up to 10 creatures you know by name and have met in person. You must send the same message to all of them; the spell ends for each creature individually.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Dream Message](/Spells.aspx?ID=1503)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 326\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\n\n**Target** 1 creature you know by name and have met in person\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send a message to your target's dream. The message is one-way, up to 1 minute of speech (roughly 150 words). If the  target is asleep, they receive the message instantly. If not, they receive it the next time they sleep. As soon as they receive it, the spell ends, and you know the message was sent.\n\n---\r\n**Heightened (4th)** You can target up to 10 creatures you know by name and have met in person. You must send the same message to all of them; the spell ends for each creature individually.",
  "name": "Dream Message",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 326",
+ "primary_source_category": "Rulebooks",
  "range": 10000000,
  "range_raw": "planetary",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 333 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\r\n\r\n \r\n\r\n**Target** 1 creature you know by name and have met in person\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the next time you make your daily preparations.\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSend a message that arrives in a dream.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 326\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\r\n\r\n \r\n\r\n**Target** 1 creature you know by name and have met in person\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSend a message that arrives in a dream.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 333"
+  "Player Core pg. 326"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 333 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 326",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Send a message that arrives in a dream.",
  "summary_markdown": "Send a message that arrives in a dream.",
  "target": "1 creature you know by name and have met in person",
  "target_markdown": "1 creature you know by name and have met in person",
- "text": " Dream Message Source Core Rulebook pg. 333 4.0 Traditions Arcane, Divine, Occult Cast 10 minutes (somatic, verbal) Range planetary Target 1 creature you know by name and have met in person Duration until the next time you make your daily preparations. --- You send a message to your target's dream. The message is one-way, up to 1 minute of speech (roughly 150 words). If the target is asleep, they receive the message instantly. If not, they receive it the next time they sleep. As soon as they receive it, the spell ends, and you know the message was sent. --- Heightened (4th) You can target up to 10 creatures you know by name and have met in person. You must send the same message to all of them; the spell ends for each creature individually.",
+ "text": "\nDream Message Source Player Core pg. 326 Traditions Arcane, Divine, Occult Cast 10 minutes Range planetary Target 1 creature you know by name and have met in person Duration until your next daily preparations --- You send a message to your target's dream. The message is one-way, up to 1 minute of speech (roughly 150 words). If the target is asleep, they receive the message instantly. If not, they receive it the next time they sleep. As soon as they receive it, the spell ends, and you know the message was sent. --- Heightened (4th) You can target up to 10 creatures you know by name and have met in person. You must send the same message to all of them; the spell ends for each creature individually.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -54,15 +61,17 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Enchantment",
+  "Concentrate",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
-  "Enchantment",
+  "Concentrate",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=90",
+ "url": "/Spells.aspx?ID=1503",
  "weakness": {}
 }

@@ -1,0 +1,166 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "N",
+ "attack_bonus": [
+  11
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": -5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Rancid Spore Pods",
+  "Spore Pop",
+  "Emit Spores",
+  "Purple Pox",
+  "Spore Domination"
+ ],
+ "creature_family": "Sporeborn",
+ "creature_family_markdown": "[Sporeborn](/MonsterFamilies.aspx?ID=340)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 70,
+ "hp_raw": "70",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2604",
+ "image": [
+  "/Images/Monsters/Sporeborn.png"
+ ],
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Sporeborn Myceloid](/Monsters.aspx?ID=2604)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile most sporeborn are created from the flesh of vertebrates or creatures with exoskeletons, fungal and plant creatures serve as a fine host for a sporeborn's parasitic spores. In these cases, the sporeborn mycelial network burrows through the corpse, replacing the original hyphae in fungal creatures and the xylem and pith in plants. This allows the sporeborn to puppet the creature, much as it does in mammals by replacing the tendons with its own rugged mycelium. Fungus and plant hosts are more likely to develop the potent poison sporeborn ability to enhance the hosts' natural abilities.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fungus](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sporeborn.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Sporeborn Myceloid](/Monsters.aspx?ID=2604)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n<trait label=\"Sporeborn\" url=\"/Traits.aspx?ID=514\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 89\n\n**Perception** +10; darkvision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Stealth](/Skills.aspx?ID=15) +11, [Survival](/Skills.aspx?ID=16) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** -5\r\n\r\n**Wis** +2\r\n\r\n**Cha** -5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 70\n\n</row>\n\n**Weaknesses**\r\nslashing 5\r\n\r\n**Rancid Spore Pods** The sporeborn is covered in spore pods that rupture when it takes any piercing damage or a critical hit. In either case, adjacent creatures are hit with spores, causing them to become [sickened](/Conditions.aspx?ID=34) 1 unless they succeed at a DC 18 Fortitude save.<br />**Spore Pop** If a sporeborn myceloid is reduced to 0 HP by a critical hit, it pops, forcing it to immediately Emit Spores, even if it has already used the ability that day.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +11 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d6+4 bludgeoning plus purple pox\n\n**Emit Spores** <actions string=\"Single Action\" />  **Frequency** once per day; **Effect** The sporeborn myceloid expels spores in a 10-foot burst centered on a corner of its own space. This cloud lasts until the start of the sporeborn myceloid's next turn. Each creature that is in the cloud or enters it is exposed to purple pox.\r\n\r\n**Purple Pox**  ([Disease](/Traits.aspx?ID=46)) Myceloids are immune; <br />**Saving Throw** DC 22 Fortitude; **Onset** 1 minute;<br /> **Stage 1** 2d6 poison damage and [stupefied](/Conditions.aspx?ID=37) 1 (1 day);<br /> **Stage 2** 6d6 poison damage, stupefied 3, and the creature is compelled to seek out the nearest myceloid colony—this compulsion is a mental and emotion effect (1 day);<br /> **Stage 3** The creature dies. Over 24 hours, its corpse becomes bloated and bursts, releasing a new, fully grown myceloid.\r\n\r\n**Spore Domination** <actions string=\"Two Actions\" /> ([Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134)) The sporeborn myceloid targets one creature affected by purple pox within 60 feet. That creature must attempt a DC 24 Will save. It is then temporarily immune to spore domination for 10 minutes\n\n**Critical Success** The target is unaffected.<br />\n**Success** Until the end of its next turn, the target is helpful to sporeborn myceloids and can’t take hostile actions against them.<br />\n**Failure** As success, but for 1 minute.<br />\n**Critical Failure** As success, but until the purple pox is cured.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-340\" />",
+ "name": "Sporeborn Myceloid",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 89",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 9,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n<trait label=\"Sporeborn\" url=\"/Traits.aspx?ID=514\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 89\r\n\r\n**Creature Family** [Sporeborn](/MonsterFamilies.aspx?ID=340)\r\n\r\n<row gap=\"medium\">\r\n**HP** 70\r\n\r\n**AC** 20\r\n\r\n**Fort** +14\r\n\r\n**Ref** +9\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile most sporeborn are created from the flesh of vertebrates or creatures with exoskeletons, fungal and plant creatures serve as a fine host for a …\r\n</summary>",
+ "sense": "darkvision, scent (imprecise) 30 feet",
+ "sense_markdown": "darkvision, scent (imprecise) 30 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Stealth](/Skills.aspx?ID=15) +11, [Survival](/Skills.aspx?ID=16) +10",
+ "skill_mod": {
+  "stealth": 11,
+  "survival": 10
+ },
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 89"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 89",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "stealth": "11",
+ "strike_damage_average": [
+  11
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "While most sporeborn are created from the flesh of vertebrates or creatures with exoskeletons, fungal and plant creatures serve as a fine host for a …",
+ "summary_markdown": "While most sporeborn are created from the flesh of vertebrates or creatures with exoskeletons, fungal and plant creatures serve as a fine host for a …",
+ "text": " Sporeborn Myceloid While most sporeborn are created from the flesh of vertebrates or creatures with exoskeletons, fungal and plant creatures serve as a fine host for a sporeborn's parasitic spores. In these cases, the sporeborn mycelial network burrows through the corpse, replacing the original hyphae in fungal creatures and the xylem and pith in plants. This allows the sporeborn to puppet the creature, much as it does in mammals by replacing the tendons with its own rugged mycelium. Fungus and plant hosts are more likely to develop the potent poison sporeborn ability to enhance the hosts' natural abilities. Recall Knowledge - Fungus (Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Sporeborn Myceloid Source Pathfinder #193: Mantle of Gold pg. 89 Perception +10; darkvision, scent (imprecise) 30 feet Languages Skills Stealth +11, Survival +10 Str +4 Dex +3 Con +4 Int -5 Wis +2 Cha -5 --- AC 20 Fort +14 Ref +9 Will +10 HP 70 Weaknesses slashing 5 Rancid Spore Pods The sporeborn is covered in spore pods that rupture when it takes any piercing damage or a critical hit. In either case, adjacent creatures are hit with spores, causing them to become sickened 1 unless they succeed at a DC 18 Fortitude save. Spore Pop If a sporeborn myceloid is reduced to 0 HP by a critical hit, it pops, forcing it to immediately Emit Spores, even if it has already used the ability that day. --- Speed 20 feet Melee Single Action fist +11 (Agile, Finesse), Damage 2d6+4 bludgeoning plus purple pox Emit Spores Single Action Frequency once per day; Effect The sporeborn myceloid expels spores in a 10-foot burst centered on a corner of its own space. This cloud lasts until the start of the sporeborn myceloid's next turn. Each creature that is in the cloud or enters it is exposed to purple pox. Purple Pox (Disease) Myceloids are immune; Saving Throw DC 22 Fortitude; Onset 1 minute; Stage 1 2d6 poison damage and stupefied 1 (1 day); Stage 2 6d6 poison damage, stupefied 3, and the creature is compelled to seek out the nearest myceloid colony—this compulsion is a mental and emotion effect (1 day); Stage 3 The creature dies. Over 24 hours, its corpse becomes bloated and bursts, releasing a new, fully grown myceloid. Spore Domination Two Actions (Emotion, Enchantment, Incapacitation, Mental, Primal) The sporeborn myceloid targets one creature affected by purple pox within 60 feet. That creature must attempt a DC 24 Will save. It is then temporarily immune to spore domination for 10 minutes Critical Success The target is unaffected. Success Until the end of its next turn, the target is helpful to sporeborn myceloids and can’t take hostile actions against them. Failure As success, but for 1 minute. Critical Failure As success, but until the purple pox is cured. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Fungus",
+  "Mindless",
+  "Rare",
+  "Sporeborn",
+  "N",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fungus](/Traits.aspx?ID=77), [Mindless](/Traits.aspx?ID=108), [Rare](/Traits.aspx?ID=137), [Sporeborn](/Traits.aspx?ID=514)",
+ "trait_raw": [
+  "Fungus",
+  "Mindless",
+  "Rare",
+  "Sporeborn"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2604",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "slashing": 5
+ },
+ "weakness_markdown": "slashing 5",
+ "weakness_raw": "slashing 5",
+ "will_save": 10,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

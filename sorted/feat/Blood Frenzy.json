@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,25 +9,32 @@
  "feat_markdown": "Blood Frenzy",
  "id": "feat-2909",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Blood Frenzy](/Feats.aspx?ID=2909) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Bloodletting Claws](/Feats.aspx?ID=2900)\n\n**Requirements**\r\nYour eidolon's last action dealt bleed damage to a living creature.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour eidolon flies into a frenzy. It gains the benefits of [_boost eidolon_](/Spells.aspx?ID=1045) and gains temporary HP equal to your level, but takes a –2 penalty to AC. It can't voluntarily end the frenzy or start another frenzy while in the frenzy. The frenzy lasts for 1 minute, after which your eidolon is [fatigued](/Conditions.aspx?ID=15) for 1 minute and can't start another frenzy for 1 minute.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Blood Frenzy](/Feats.aspx?ID=2909) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n**Prerequisites**\r\n[Bloodletting Claws](/Feats.aspx?ID=2900)\n\n**Requirements**\r\nYour eidolon's last action dealt bleed damage to a living creature.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour eidolon flies into a frenzy. It gains the benefits of [_boost eidolon_](/Spells.aspx?ID=1045) and gains temporary HP equal to your level, but takes a –2 penalty to AC. It can't voluntarily end the frenzy or start another frenzy while in the frenzy. The frenzy lasts for 1 minute, after which your eidolon is [fatigued](/Conditions.aspx?ID=15) for 1 minute and can't start another frenzy for 1 minute.",
  "name": "Blood Frenzy",
  "pfs": "Standard",
  "prerequisite": "Bloodletting Claws",
  "prerequisite_markdown": "[Bloodletting Claws](/Feats.aspx?ID=2900)",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 69",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "requirement": "Your eidolon's last action dealt bleed damage to a living creature.",
  "requirement_markdown": "Your eidolon's last action dealt bleed damage to a living creature.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Bloodletting Claws](/Feats.aspx?ID=2900)\n\n**Requirements**\r\nYour eidolon's last action dealt bleed damage to a living creature.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour eidolon flies into a frenzy.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n**Prerequisites**\r\n[Bloodletting Claws](/Feats.aspx?ID=2900)\n\n**Requirements**\r\nYour eidolon's last action dealt bleed damage to a living creature.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour eidolon flies into a frenzy.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 69"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>",
  "speed": {},
  "summary": "Your eidolon flies into a frenzy.",
  "summary_markdown": "Your eidolon flies into a frenzy.",
@@ -36,6 +43,10 @@
   "Eidolon",
   "Evolution",
   "Summoner"
+ ],
+ "trait_group": [
+  "Class-Specific",
+  "Class"
  ],
  "trait_markdown": "[Eidolon](/Traits.aspx?ID=386), [Evolution](/Traits.aspx?ID=394), [Summoner](/Traits.aspx?ID=392)",
  "trait_raw": [

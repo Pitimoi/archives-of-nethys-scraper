@@ -1,61 +1,66 @@
 {
  "actions": "Two Actions",
- "bloodline": [
-  "Demonic"
- ],
- "bloodline_markdown": "[Demonic](/Bloodlines.aspx?ID=3)",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
-  "Dhalavei",
-  "Kelizandri"
+  "Dhalavei"
  ],
- "deity_markdown": "[Dhalavei](/Deities.aspx?ID=189), [Kelizandri](/Deities.aspx?ID=104)",
+ "deity_markdown": "[Dhalavei](/Deities.aspx?ID=189)",
  "domain_markdown": "",
  "duration_raw": "varies",
  "exclude_from_search": false,
  "heighten": [
   "3rd"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank"
+ ],
  "heighten_level": [
   1,
   3
  ],
- "id": "spell-110",
+ "id": "spell-1524",
+ "legacy_id": "spell-110",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Fear](/Spells.aspx?ID=110)</title>\n\n<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Demonic](/Bloodlines.aspx?ID=3)\r\n\r\n**Deities**\r\n[Dhalavei](/Deities.aspx?ID=189), [Kelizandri](/Deities.aspx?ID=104)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou plant fear in the target; it must attempt a Will save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is frightened 1.<br />\r\n**Failure** The target is frightened 2.<br />\r\n**Critical Failure** The target is frightened 3 and fleeing for 1 round.\n\n---\r\n**Heightened (3rd)** You can target up to five creatures.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Fear](/Spells.aspx?ID=1524)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 331\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Dhalavei](/Deities.aspx?ID=189)\n\n**Patron Theme**\r\n[Starless Shadow](/Patrons.aspx?ID=17)\r\n\r\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou plant fear in the target; it must attempt a Will save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is [frightened 1](/Conditions.aspx?ID=19).<br />\r\n**Failure** The target is frightened 2.<br />\r\n**Critical Failure** The target is frightened 3 and [fleeing](/Conditions.aspx?ID=17) for 1 round.\n\n---\r\n**Heightened (3rd)** You can target up to five creatures.",
  "name": "Fear",
- "patron_theme_markdown": "",
+ "patron_theme": [
+  "Starless Shadow"
+ ],
+ "patron_theme_markdown": "[Starless Shadow](/Patrons.aspx?ID=17)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 331",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Demonic](/Bloodlines.aspx?ID=3)\r\n\r\n**Deities**\r\n[Dhalavei](/Deities.aspx?ID=189), [Kelizandri](/Deities.aspx?ID=104)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFrighten a creature, possibly making it flee.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 331\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Dhalavei](/Deities.aspx?ID=189)\n\n**Patron Theme**\r\n[Starless Shadow](/Patrons.aspx?ID=17)\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFrighten a creature, possibly making it flee.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 337"
+  "Player Core pg. 331"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 337 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 331",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Frighten a creature, possibly making it flee.",
  "summary_markdown": "Frighten a creature, possibly making it flee.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Fear Source Core Rulebook pg. 337 4.0 Traditions Arcane, Divine, Occult, Primal Bloodline Demonic Deities Dhalavei, Kelizandri Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Saving Throw Will Duration varies --- You plant fear in the target; it must attempt a Will save. Critical Success The target is unaffected. Success The target is frightened 1. Failure The target is frightened 2. Critical Failure The target is frightened 3 and fleeing for 1 round. --- Heightened (3rd) You can target up to five creatures.",
+ "text": "\nFear Two Actions Source Player Core pg. 331 Traditions Arcane, Divine, Occult, Primal Deity Dhalavei Patron Theme Starless Shadow Range 30 feet Target 1 creature Defense Will Duration varies --- You plant fear in the target; it must attempt a Will save. Critical Success The target is unaffected. Success The target is frightened 1. Failure The target is frightened 2. Critical Failure The target is frightened 3 and fleeing for 1 round. --- Heightened (3rd) You can target up to five creatures.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -64,19 +69,21 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
+  "Concentrate",
   "Emotion",
-  "Enchantment",
   "Fear",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
+  "Concentrate",
   "Emotion",
-  "Enchantment",
   "Fear",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=110",
+ "url": "/Spells.aspx?ID=1524",
  "weakness": {}
 }

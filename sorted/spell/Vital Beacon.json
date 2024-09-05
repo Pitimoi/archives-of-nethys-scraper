@@ -1,21 +1,25 @@
 {
  "actions": "1 minute",
- "bloodline": [
-  "Nymph"
- ],
- "bloodline_markdown": "[Nymph](/Bloodlines.aspx?ID=12)",
- "breadcrumbs_spa": [],
+ "actions_number": 60,
+ "bloodline_markdown": "",
  "category": "spell",
  "component": [
-  "somatic",
-  "verbal"
+  "1 minute"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "until your next daily preparations",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -26,48 +30,61 @@
   9,
   10
  ],
- "id": "spell-359",
+ "id": "spell-1743",
+ "legacy_id": "spell-359",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Vital Beacon](/Spells.aspx?ID=359)</title>\n\n<traits>\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 382 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Nymph](/Bloodlines.aspx?ID=12)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>1 minute ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nVitality radiates outward from you, allowing others to supplicate and receive healing. Once per round, either you or an ally can use an Interact action to supplicate and lay hands upon you to regain Hit Points. Each time the beacon heals someone, it decreases in strength. It restores 4d10 Hit Points to the first creature, 4d8 Hit Points to the second, 4d6 Hit Points to the third, and 4d4 Hit Points to the fourth, after which the spell ends. You can have only one _vital beacon_ active at a time.\n\n---\r\n**Heightened (+1)** The beacon restores one additional die of Hit Points each time it heals, using the same die size as the others for that step.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">\r\n[Vital Beacon](/Spells.aspx?ID=1743)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 366\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 1 minute\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nVitality radiates outward from you, allowing others to supplicate and receive healing. Once per round, either you or an ally can use an Interact action to supplicate and lay hands upon you to regain Hit Points. Each time the beacon heals someone, it decreases in strength. It restores 4d10 Hit Points to the first creature, 4d8 Hit Points to the second, 4d6 Hit Points to the third, and 4d4 Hit Points to the fourth, after which the spell ends. You can have only one _vital beacon_ active at a time.\n\n---\r\n**Heightened (+1)** The beacon restores one additional die of HP each time it heals, using the normal die size for that step.",
  "name": "Vital Beacon",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 366",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 382 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\r\n[Nymph](/Bloodlines.aspx?ID=12)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>1 minute ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until your next daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRadiate vitality that heals creatures that touch you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 366\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 1 minute\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRadiate vitality that heals creatures that touch you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 382"
+  "Player Core pg. 366"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 382 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 366",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Radiate vitality that heals creatures that touch you.",
  "summary_markdown": "Radiate vitality that heals creatures that touch you.",
- "text": " Vital Beacon Source Core Rulebook pg. 382 4.0 Traditions Divine, Primal Bloodline Nymph Cast 1 minute (somatic, verbal) Duration until your next daily preparations --- Vitality radiates outward from you, allowing others to supplicate and receive healing. Once per round, either you or an ally can use an Interact action to supplicate and lay hands upon you to regain Hit Points. Each time the beacon heals someone, it decreases in strength. It restores 4d10 Hit Points to the first creature, 4d8 Hit Points to the second, 4d6 Hit Points to the third, and 4d4 Hit Points to the fourth, after which the spell ends. You can have only one vital beacon active at a time. --- Heightened (+1) The beacon restores one additional die of Hit Points each time it heals, using the same die size as the others for that step.",
+ "text": "\nVital Beacon Source Player Core pg. 366 Traditions Divine, Primal Cast 1 minute Duration until your next daily preparations --- Vitality radiates outward from you, allowing others to supplicate and receive healing. Once per round, either you or an ally can use an Interact action to supplicate and lay hands upon you to regain Hit Points. Each time the beacon heals someone, it decreases in strength. It restores 4d10 Hit Points to the first creature, 4d8 Hit Points to the second, 4d6 Hit Points to the third, and 4d4 Hit Points to the fourth, after which the spell ends. You can have only one vital beacon active at a time. --- Heightened (+1) The beacon restores one additional die of HP each time it heals, using the normal die size for that step.",
  "tradition": [
   "Divine",
   "Primal"
  ],
  "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
+  "Concentrate",
   "Healing",
-  "Necromancy",
+  "Manipulate",
+  "Vitality",
   "Positive"
  ],
- "trait_markdown": "[Healing](/Traits.aspx?ID=89), [Necromancy](/Traits.aspx?ID=117), [Positive](/Traits.aspx?ID=128)",
+ "trait_group": [
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
+  "Concentrate",
   "Healing",
-  "Necromancy",
-  "Positive"
+  "Manipulate",
+  "Vitality"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=359",
+ "url": "/Spells.aspx?ID=1743",
  "weakness": {}
 }

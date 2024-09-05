@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,22 +10,29 @@
  "frequency": "once per hour",
  "id": "feat-2512",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shadow Sight](/Feats.aspx?ID=2512) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per hour\n\n</column>\r\n\r\n---\r\n\r\nYou draw on your connection with the [Shadow Plane](/Planes.aspx?ID=11) to see through all but the deepest darkness. You gain [greater darkvision](/Rules.aspx?ID=415) for 1 minute.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shadow Sight](/Feats.aspx?ID=2512) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup>\n\n**Frequency**\r\nonce per hour\n\n</column>\r\n\r\n---\r\n\r\nYou draw on your connection with the [Shadow Plane](/Planes.aspx?ID=11) to see through all but the deepest darkness. You gain [greater darkvision](/Rules.aspx?ID=415) for 1 minute.",
  "name": "Shadow Sight",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 87",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per hour\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou draw on your connection with the Shadow Plane to see through all but the deepest darkness.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fetchling\" url=\"/Traits.aspx?ID=300\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per hour\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou draw on your connection with the Shadow Plane to see through all but the deepest darkness.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 87"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 87 <sup>2.0</sup>",
  "speed": {},
  "summary": "You draw on your connection with the Shadow Plane to see through all but the deepest darkness.",
  "summary_markdown": "You draw on your connection with the Shadow Plane to see through all but the deepest darkness.",
@@ -34,6 +41,12 @@
   "Fetchling",
   "Occult",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Tradition",
+  "School"
  ],
  "trait_markdown": "[Fetchling](/Traits.aspx?ID=300), [Occult](/Traits.aspx?ID=120), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

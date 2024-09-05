@@ -1,16 +1,24 @@
 {
  "actions": "Single Action to Three Actions",
- "bloodline": [
-  "Undead"
- ],
- "bloodline_markdown": "[Undead](/Bloodlines.aspx?ID=10)",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
+ "bloodline_markdown": "",
  "category": "spell",
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -24,48 +32,59 @@
   9,
   10
  ],
- "id": "spell-146",
+ "id": "spell-1552",
+ "legacy_id": "spell-146",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Harm](/Spells.aspx?ID=146)</title>\n\n<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 343 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row></row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** varies\n\n**Target** 1 living creature or 1 willing undead creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou channel negative energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 negative damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.\n\n <actions string=\"Single Action\" /> **(somatic)** The spell has a range of touch.<br /><actions string=\"Two Actions\" /> **(somatic, verbal)** The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.<br /><actions string=\"Three Actions\" /> **(material, somatic, verbal)** You disperse negative energy in a 30-foot emanation. This targets all living and undead creatures in the area.\n\n---\r\n**Heightened (+1)** The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Harm](/Spells.aspx?ID=1552)\r\n<actions string=\"Single Action to Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Void\" url=\"/Traits.aspx?ID=510\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 334\n\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** varies\n\n**Target** 1 living creature or 1 willing undead creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou channel void energy to harm the living or heal the [undead](/Traits.aspx?ID=160). If the target is a living creature, you deal 1d8 void damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.\n\n <actions string=\"Single Action\" /> The spell has a range of touch.<br /> <actions string=\"Two Actions\" />([concentrate](/Traits.aspx?ID=32)) The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.<br /> <actions string=\"Three Actions\" /> ([concentrate](/Traits.aspx?ID=32)) You disperse void energy in a 30-foot emanation. This targets all living and undead creatures in the area.\n\n---\r\n**Heightened (+1)** The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.",
  "name": "Harm",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 334",
+ "primary_source_category": "Rulebooks",
  "range_raw": "varies",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 343 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row></row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** varies\r\n\r\n \r\n\r\n**Target** 1 living creature or 1 willing undead creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Negative energy harms the living or heals the undead, either a single creature or all in a burst.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Void\" url=\"/Traits.aspx?ID=510\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 334\r\n\r\n**Tradition**\r\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** varies\r\n\r\n \r\n\r\n**Target** 1 living creature or 1 willing undead creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVoid energy harms the living or heals the undead, either a single creature or all in a burst.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 343"
+  "Player Core pg. 334"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 343 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 334",
  "speed": {},
- "summary": " Negative energy harms the living or heals the undead, either a single creature or all in a burst.",
- "summary_markdown": " Negative energy harms the living or heals the undead, either a single creature or all in a burst.",
+ "spell_type": "Spell",
+ "summary": "Void energy harms the living or heals the undead, either a single creature or all in a burst.",
+ "summary_markdown": "Void energy harms the living or heals the undead, either a single creature or all in a burst.",
  "target": "1 living creature or 1 willing undead creature",
  "target_markdown": "1 living creature or 1 willing undead creature",
- "text": " Harm Source Core Rulebook pg. 343 4.0 Tradition Divine Bloodline Undead Cast Single Action to Three Actions Range varies Target 1 living creature or 1 willing undead creature --- You channel negative energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 negative damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters. Single Action (somatic) The spell has a range of touch. Two Actions (somatic, verbal) The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8. Three Actions (material, somatic, verbal) You disperse negative energy in a 30-foot emanation. This targets all living and undead creatures in the area. --- Heightened (+1) The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.",
+ "text": "\nHarm Single Action to Three Actions Source Player Core pg. 334 Tradition Divine Range varies Target 1 living creature or 1 willing undead creature --- You channel void energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 void damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters. Single Action The spell has a range of touch. Two Actions(concentrate) The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8. Three Actions (concentrate) You disperse void energy in a 30-foot emanation. This targets all living and undead creatures in the area. --- Heightened (+1) The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.",
  "tradition": [
   "Divine"
  ],
  "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
-  "Necromancy",
+  "Manipulate",
+  "Void",
   "Negative"
  ],
- "trait_markdown": "[Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118)",
+ "trait_group": [
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Manipulate](/Traits.aspx?ID=104), [Void](/Traits.aspx?ID=510)",
  "trait_raw": [
-  "Necromancy",
-  "Negative"
+  "Manipulate",
+  "Void"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=146",
+ "url": "/Spells.aspx?ID=1552",
  "weakness": {}
 }

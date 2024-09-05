@@ -1,45 +1,59 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Orc Superstition"
  ],
  "feat_markdown": "Orc Superstition",
- "id": "feat-85",
+ "id": "feat-4516",
+ "legacy_id": "feat-85",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Orc Superstition](/Feats.aspx?ID=85) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 59 <sup>4.0</sup></row>\n\n**Trigger**\r\nYou attempt a saving throw against a spell or magical effect, before rolling.\n\n</column>\r\n\r\n---\r\n\r\nYou defend yourself against magic by relying on techniques derived from orc cultural superstitions. You gain a +1 circumstance bonus to your saving throw against the triggering spell or magical effect.\n\n<title level=\"2\">Orc Superstition leads to...</title>\r\n[Pervasive Superstition](/Feats.aspx?ID=89)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Orc Superstition](/Feats.aspx?ID=4516) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 72\n\n**Trigger**\r\nYou attempt a saving throw against a spell or magical effect, and have not yet rolled\n\n</column>\r\n\r\n---\r\n\r\nYou defend yourself against magic by relying on techniques derived from orc cultural superstitions. You gain a +1 circumstance bonus to your saving throw against the triggering spell or magical effect.\n\n<title level=\"2\">Orc Superstition leads to...</title>\r\n[Pervasive Superstition](/Feats.aspx?ID=4524)",
  "name": "Orc Superstition",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 72",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 59 <sup>4.0</sup></row>\n\n**Trigger**\r\nYou attempt a saving throw against a spell or magical effect, before rolling.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou defend yourself against magic by relying on techniques derived from orc cultural superstitions.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 72\n\n**Trigger**\r\nYou attempt a saving throw against a spell or magical effect, and have not yet rolled\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou defend yourself against magic by relying on techniques derived from orc cultural superstitions.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 59"
+  "Player Core pg. 72"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 59 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 72",
  "speed": {},
  "summary": "You defend yourself against magic by relying on techniques derived from orc cultural superstitions.",
  "summary_markdown": "You defend yourself against magic by relying on techniques derived from orc cultural superstitions.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Orc Superstition Reaction Source Core Rulebook pg. 59 4.0 Trigger You attempt a saving throw against a spell or magical effect, before rolling. --- You defend yourself against magic by relying on techniques derived from orc cultural superstitions. You gain a +1 circumstance bonus to your saving throw against the triggering spell or magical effect. Orc Superstition leads to... Pervasive Superstition",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Orc Superstition Reaction Source Player Core pg. 72 Trigger You attempt a saving throw against a spell or magical effect, and have not yet rolled --- You defend yourself against magic by relying on techniques derived from orc cultural superstitions. You gain a +1 circumstance bonus to your saving throw against the triggering spell or magical effect. Orc Superstition leads to... Pervasive Superstition",
  "trait": [
   "Concentrate",
   "Orc"
+ ],
+ "trait_group": [
+  "Half-Orc",
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Orc](/Traits.aspx?ID=124)",
  "trait_raw": [
   "Concentrate",
   "Orc"
  ],
- "trigger": "You attempt a saving throw against a spell or magical effect, before rolling.",
- "trigger_markdown": "You attempt a saving throw against a spell or magical effect, before rolling.",
+ "trigger": "You attempt a saving throw against a spell or magical effect, and have not yet rolled",
+ "trigger_markdown": "You attempt a saving throw against a spell or magical effect, and have not yet rolled",
  "type": "Feat",
- "url": "/Feats.aspx?ID=85",
+ "url": "/Feats.aspx?ID=4516",
  "weakness": {}
 }

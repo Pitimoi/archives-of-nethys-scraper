@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -12,28 +12,38 @@
  "item_category": "Alchemical Items",
  "item_subcategory": "Alchemical Poisons",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 13\"\r\n    pfs=\"Limited\"\r\n>\r\n[Spectral Nightshade](/Equipment.aspx?ID=834)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #160: Assault on Hunting Lodge Seven](/Sources.aspx?ID=49) pg. 66</row>\n\n**Price** 450 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nBelladonna cultivated in planes hazardous to living visitors, such as the [Shadow Plane](/Planes.aspx?ID=11) or the [Boneyard](/Planes.aspx?ID=15), grow with a strange, skeletal look to their branches. The leaves and berries of these extraplanar plants are partly incorporeal and significantly more toxic than [belladonna](/Equipment.aspx?ID=105) grown on the [Material Plane](/Planes.aspx?ID=1). When imbued with spirit-twisting magic, _spectral nightshade_ quickly drains away the victim's vitality and makes colors painfully bright and bewildering. _Spectral nightshade_ doesn't affect creatures that have no spirit; if a possessing spirit inhabits a body that takes poison damage from spectral nightshade, the possessor takes an equal amount of force damage, even if the possessor can't be affected directly by poisons.\n\n **Saving Throw** DC 33 Fortitude; **Onset** 1 minute; **Maximum Duration** 6 minutes; **Stage 1** 10d6 poison damage and [dazzled](/Conditions.aspx?ID=7) (1 minute); **Stage 2** 13d6 poison damage and [drained 1](/Conditions.aspx?ID=10) (1 minute); **Stage 3** 15d6 poison damage, [confused](/Conditions.aspx?ID=5), and drained 2 (1 minute)\n\n**Craft Requirements** Supply one casting of [_spirit blast_](/Spells.aspx?ID=301).\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 13\"\r\n    pfs=\"Limited\"\r\n>\r\n[Spectral Nightshade](/Equipment.aspx?ID=834)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Agents of Edgewatch</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #160: Assault on Hunting Lodge Seven](/Sources.aspx?ID=49) pg. 66\n\n**Price** 450 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nBelladonna cultivated in planes hazardous to living visitors, such as the [Shadow Plane](/Planes.aspx?ID=11) or the [Boneyard](/Planes.aspx?ID=15), grow with a strange, skeletal look to their branches. The leaves and berries of these extraplanar plants are partly incorporeal and significantly more toxic than [belladonna](/Equipment.aspx?ID=105) grown on the [Material Plane](/Planes.aspx?ID=1). When imbued with spirit-twisting magic, _spectral nightshade_ quickly drains away the victim's vitality and makes colors painfully bright and bewildering. _Spectral nightshade_ doesn't affect creatures that have no spirit; if a possessing spirit inhabits a body that takes poison damage from spectral nightshade, the possessor takes an equal amount of force damage, even if the possessor can't be affected directly by poisons.\n\n **Saving Throw** DC 33 Fortitude; **Onset** 1 minute; **Maximum Duration** 6 minutes; **Stage 1** 10d6 poison damage and [dazzled](/Conditions.aspx?ID=7) (1 minute); **Stage 2** 13d6 poison damage and [drained 1](/Conditions.aspx?ID=10) (1 minute); **Stage 3** 15d6 poison damage, [confused](/Conditions.aspx?ID=5), and drained 2 (1 minute)\n\n**Craft Requirements** Supply one casting of [_spirit blast_](/Spells.aspx?ID=301).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Spectral Nightshade",
  "onset": 60,
  "onset_raw": "1 minute",
  "pfs": "Limited",
  "price": 45000,
  "price_raw": "450 gp",
+ "primary_source": "Pathfinder #160: Assault on Hunting Lodge Seven",
+ "primary_source_raw": "Pathfinder #160: Assault on Hunting Lodge Seven pg. 66",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-10-14",
  "resistance": {},
  "saving_throw": "DC 33 Fortitude",
  "saving_throw_markdown": "DC 33 Fortitude",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #160: Assault on Hunting Lodge Seven](/Sources.aspx?ID=49) pg. 66</row>\r\n\r\n**Price** 450 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBelladonna cultivated in planes hazardous to living visitors, such as the  Shadow Plane  or the  Boneyard , grow with a strange, skeletal look to …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Ingested\" url=\"/Traits.aspx?ID=95\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #160: Assault on Hunting Lodge Seven](/Sources.aspx?ID=49) pg. 66\r\n\r\n**Price** 450 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBelladonna cultivated in planes hazardous to living visitors, such as the  Shadow Plane  or the  Boneyard , grow with a strange, skeletal look to …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #160: Assault on Hunting Lodge Seven"
  ],
  "source_raw": [
   "Pathfinder #160: Assault on Hunting Lodge Seven pg. 66"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #160: Assault on Hunting Lodge Seven](/Sources.aspx?ID=49) pg. 66</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #160: Assault on Hunting Lodge Seven](/Sources.aspx?ID=49) pg. 66",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Agents of Edgewatch",
@@ -52,6 +62,12 @@
   "Ingested",
   "Poison",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Tradition",
+  "Poison",
+  "Rarity"
  ],
  "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Divine](/Traits.aspx?ID=48), [Ingested](/Traits.aspx?ID=95), [Poison](/Traits.aspx?ID=126), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

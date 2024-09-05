@@ -1,0 +1,157 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "N",
+ "attack_bonus": [
+  7,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Blood-Crazed",
+  "Blood Drain",
+  "Grab"
+ ],
+ "creature_family": "Bloodseeker",
+ "creature_family_markdown": "[Bloodseeker](/MonsterFamilies.aspx?ID=347)",
+ "dexterity": 5,
+ "dexterity_scale": "Extreme",
+ "dexterity_scale_number": 5,
+ "exclude_from_search": false,
+ "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 25,
+ "hp_raw": "25",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2694",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 2,
+ "markdown": "<title level=\"1\" pfs=\"\">[Giant Bloodseeker](/Monsters.aspx?ID=2694)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe Court of Ether breeds bloodseekers to enormous sizes to serve as cavalry mounts for their non-winged warriors. These bloodseekers serve as capable mounts—at least until they detect the scent of blood.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Giant Bloodseeker](/Monsters.aspx?ID=2694)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 84\n\n**Perception** +10; [darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Blood-Crazed** If the bloodseeker starts its turn within 60 feet of a creature with [bleed](/Conditions.aspx?ID=29) damage, it must attempt a DC 11 flat check. On a failure, the bloodseeker attempts to move adjacent to the bleeding creature and Strike it with its proboscis. The bloodseeker gains a +4 circumstance bonus to attack rolls against this target.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 10 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbarbed leg +11 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d4+3 piercing plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nproboscis +7,\r\n**Damage** 1d6+3 piercing plus Blood Drain\n\n**Blood Drain** <actions string=\"Single Action\" />  Strike with its proboscis against a target with blood; **Effect** The bloodseeker sucks blood from that target, dealing 2d4 damage, and the bloodseeker gains temporary Hit Points equal to the damage dealt. The target becomes [drained 1](/Conditions.aspx?ID=10).\r\n\r\n**[Grab](/MonsterAbilities.aspx?ID=18)** <actions string=\"Single Action\" />  \r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-347\" />",
+ "name": "Giant Bloodseeker",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 84",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 11,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-30",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 84\r\n\r\n**Creature Family** [Bloodseeker](/MonsterFamilies.aspx?ID=347)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n\r\n**AC** 19\r\n\r\n**Fort** +6\r\n\r\n**Ref** +11\r\n\r\n**Will** +6\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe Court of Ether breeds bloodseekers to enormous sizes to serve as cavalry mounts for their non-winged warriors. These bloodseekers serve as …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +7",
+ "skill_mod": {
+  "acrobatics": 9,
+  "athletics": 7
+ },
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 84"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 84",
+ "speed": {
+  "fly": 40,
+  "land": 10,
+  "max": 40
+ },
+ "speed_markdown": "10 feet, fly 40 feet",
+ "speed_raw": "10 feet, fly 40 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "strike_damage_average": [
+  5,
+  6
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The Court of Ether breeds bloodseekers to enormous sizes to serve as cavalry mounts for their non-winged warriors. These bloodseekers serve as …",
+ "summary_markdown": "The Court of Ether breeds bloodseekers to enormous sizes to serve as cavalry mounts for their non-winged warriors. These bloodseekers serve as …",
+ "text": " Giant Bloodseeker The Court of Ether breeds bloodseekers to enormous sizes to serve as cavalry mounts for their non-winged warriors. These bloodseekers serve as capable mounts—at least until they detect the scent of blood. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Giant Bloodseeker Source Pathfinder #194: Cult of the Cave Worm pg. 84 Perception +10; darkvision, scent (imprecise) 60 feet Languages Skills Acrobatics +9, Athletics +7 Str +1 Dex +5 Con +2 Int -5 Wis +2 Cha +0 Blood-Crazed If the bloodseeker starts its turn within 60 feet of a creature with bleed damage, it must attempt a DC 11 flat check. On a failure, the bloodseeker attempts to move adjacent to the bleeding creature and Strike it with its proboscis. The bloodseeker gains a +4 circumstance bonus to attack rolls against this target. --- AC 19 Fort +6 Ref +11 Will +6 HP 25 --- Speed 10 feet, fly 40 feet Melee Single Action barbed leg +11 (Agile, Finesse), Damage 1d4+3 piercing plus Grab Melee Single Action proboscis +7, Damage 1d6+3 piercing plus Blood Drain Blood Drain Single Action Strike with its proboscis against a target with blood; Effect The bloodseeker sucks blood from that target, dealing 2d4 damage, and the bloodseeker gains temporary Hit Points equal to the damage dealt. The target becomes drained 1. Grab Single Action ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Uncommon",
+  "N",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Animal",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2694",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 6,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

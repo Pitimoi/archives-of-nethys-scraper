@@ -1,0 +1,221 @@
+{
+ "ac": 36,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  28,
+  28
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Reactive Strike",
+  "Bond with Mortal",
+  "Bonded Strike",
+  "Sun's Heat",
+  "Sun's Touch",
+  "Swallow Whole",
+  "Unleash the Sun"
+ ],
+ "creature_family": "Spirit Guide",
+ "creature_family_markdown": "[Spirit Guide](/MonsterFamilies.aspx?ID=502)",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 25,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 251,
+ "hp_raw": "251",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3311",
+ "image": [
+  "/Images/Monsters/Sunscale_Serpent.webp"
+ ],
+ "immunity": [
+  "disease",
+  "paralyzed",
+  "poison",
+  "precision"
+ ],
+ "immunity_markdown": "[disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), precision",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Draconic",
+  "<%SPELLS%1728%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2); [_truespeech_](/Spells.aspx?ID=1728)",
+ "level": 14,
+ "markdown": "<title level=\"1\" pfs=\"\">[Guardian Guide](/Monsters.aspx?ID=3311)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGuardian guides take any size or shape, from quiet mouse spirits that protect families from pestilence and locusts to mighty sunscale serpents who embody the watchful wrath of the sun itself.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 34\r\n\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sunscale_Serpent.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Sunscale Serpent](/Monsters.aspx?ID=3311)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=632\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 182\n\n**Perception** +25; [low-light vision](/MonsterAbilities.aspx?ID=69), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2); [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +25, [Athletics](/Skills.aspx?ID=36) +25, [Stealth](/Skills.aspx?ID=48) +33, [Survival](/Skills.aspx?ID=49) +28\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +6\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +25 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +28 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 251\n\n</row>\r\n\r\n**Immunities**\r\n[disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), precision\r\n\r\n**Resistances**\r\nall damage 14 (except [force](/Traits.aspx?ID=610), [_ghost touch_](/Equipment.aspx?ID=2840), [spirit](/Traits.aspx?ID=737), or [vitality](/Traits.aspx?ID=509); double resistance vs. non- &amp;lt;%traits%644%%&amp;gt; magical &amp;lt;%end>)\n\n**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> tail only\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +28 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+11 force plus [Improved Grab](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +28 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+11 force plus [Push](/MonsterAbilities.aspx?ID=47)\r\n\r\n**Primal Innate Spells** DC 31\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**Bond with Mortal**  ([Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134)) **Frequency** once per day; **Effect** The spirit guide spends 10 minutes to form a bond with a mortal creature. While the bond exists, the spirit guide increases their current and maximum Hit Points by 28, gains a +2 status bonus to their attack and damage rolls, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies.<br />This bond strengthens the spirit guide's connection to [the Universe](/Planes.aspx?ID=26). While bonded, the spirit guide loses the [incorporeal](/Traits.aspx?ID=632) and [spirit](/Traits.aspx?ID=737) traits, loses their immunity to disease, paralysis, and poison, along with their resistance to all damage, and changes their Strikes to deal the appropriate amount of physical damage (typically piercing or slashing) instead of force damage.\r\n\r\n**Bonded Strike** <actions string=\"Two Actions\" />  **Requirements** The sunscale serpent is currently Bonded with a Mortal; **Effect** The sunscale serpent makes a jaws Strike. If this attack hits, the bonded mortal can spend their reaction to Strike the same target.\r\n\r\n**Sun's Heat** <actions string=\"Two Actions\" />  The sunscale serpent [Flies](/Actions.aspx?ID=2312) up to its fly Speed. All creatures directly below the spaces it moves through must succeed at a DC 31 Fortitude save or be exposed to sun's touch poison. The serpent cannot fly further than 60 feet above the target or the poison becomes too dispersed in the fall to take effect.\r\n\r\n**Sun's Touch**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** Fortitude DC 34; **Maximum Duration** 6 rounds; **Stage 1** 6d8 poison damage and [clumsy 1](/Conditions.aspx?ID=61) (1 round); **Stage 2** 8d6 poison damage and clumsy 2 (1 round); **Stage 3** 6d10 poison damage and [fatigued](/Conditions.aspx?ID=73) (1 round)\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" />  Large, 2d10+9 force and 2d10 fire, Rupture 32\r\n\r\n**Unleash the Sun** <actions string=\"Three Actions\" />  **Requirement** The sunscale serpent is flying; **Effect** The sunscale serpent Flies up to its fly Speed, then crashes to the ground, releasing a wave of heat dealing 5d10 fire damage to all creatures within a 60-foot burst and searing their eyes with the erupting glory of its scales. Each creature in the area must attempt a DC 31 Reflex save.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature takes half damage.<br /> **Failure** The creature takes full damage and is [dazzled](/Conditions.aspx?ID=65) for 1 round.<br /> **Critical Failure** The creature takes full damage, is [blinded](/Conditions.aspx?ID=59) for 1 round, and dazzled for 1 minute.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-502\" />",
+ "name": "Sunscale Serpent",
+ "npc": false,
+ "perception": 25,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 182",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 26,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "acid": 14,
+  "all": 14,
+  "area": 14,
+  "bleed": 14,
+  "bludgeoning": 14,
+  "chaotic": 14,
+  "cold": 14,
+  "cold_iron": 14,
+  "electricity": 14,
+  "evil": 14,
+  "fire": 14,
+  "good": 14,
+  "holy": 14,
+  "lawful": 14,
+  "mental": 14,
+  "negative": 14,
+  "orichalcum": 14,
+  "physical": 14,
+  "piercing": 14,
+  "poison": 14,
+  "positive": 14,
+  "precision": 14,
+  "silver": 14,
+  "slashing": 14,
+  "sonic": 14,
+  "splash": 14,
+  "unholy": 14
+ },
+ "resistance_markdown": "all damage 14 (except [force](/Traits.aspx?ID=610), [_ghost touch_](/Equipment.aspx?ID=2840), [spirit](/Traits.aspx?ID=737), or [vitality](/Traits.aspx?ID=509); double resistance vs. non- &lt;%traits%644%%&gt; magical &lt;%end>)",
+ "resistance_raw": "all damage 14 (except  force ,   ghost touch  ,  spirit , or  vitality ; double resistance vs. non- magical )",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=632\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 182\r\n\r\n**Creature Family** [Spirit Guide](/MonsterFamilies.aspx?ID=502)\r\n\r\n<row gap=\"medium\">\r\n**HP** 251\r\n\r\n**AC** 36\r\n\r\n**Fort** +25\r\n\r\n**Ref** +26\r\n\r\n**Will** +28\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGuardian guides take any size or shape, from quiet mouse spirits that protect families from pestilence and locusts to mighty sunscale serpents who …\r\n</summary>",
+ "sense": " low-light vision ,  tremorsense  ( imprecise ) 100 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +25, [Athletics](/Skills.aspx?ID=36) +25, [Stealth](/Skills.aspx?ID=48) +33, [Survival](/Skills.aspx?ID=49) +28",
+ "skill_mod": {
+  "acrobatics": 25,
+  "athletics": 25,
+  "stealth": 33,
+  "survival": 28
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 182"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 182",
+ "speed": {
+  "fly": 40,
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet, fly 40 feet",
+ "speed_raw": "40 feet, fly 40 feet",
+ "spell": [
+  "Truespeech"
+ ],
+ "spell_markdown": "[Truespeech](/Spells.aspx?ID=1728)",
+ "spell_dc": [
+  31
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  21,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Guardian guides take any size or shape, from quiet mouse spirits that protect families from pestilence and locusts to mighty sunscale serpents who …",
+ "summary_markdown": "Guardian guides take any size or shape, from quiet mouse spirits that protect families from pestilence and locusts to mighty sunscale serpents who …",
+ "text": " Guardian Guide Guardian guides take any size or shape, from quiet mouse spirits that protect families from pestilence and locusts to mighty sunscale serpents who embody the watchful wrath of the sun itself. Recall Knowledge - Animal (Nature): DC 34 Recall Knowledge - Beast (Arcana, Nature): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Sunscale Serpent Source Howl of the Wild pg. 182 Perception +25; low-light vision, tremorsense (imprecise) 100 feet Languages Common, Draconic; truespeech Skills Acrobatics +25, Athletics +25, Stealth +33, Survival +28 Str +8 Dex +4 Con +3 Int +1 Wis +6 Cha -1 --- AC 36 Fort +25 Ref +26 Will +28 HP 251 Immunities disease, paralyzed, poison, precision Resistances all damage 14 (except force, ghost touch , spirit, or vitality; double resistance vs. non- &amp;lt;%traits%644%%&amp;gt; magical &amp;lt;%end>) Reactive Strike Reaction tail only --- Speed 40 feet, fly 40 feet Melee Single Action jaws +28 (Magical, reach 10 feet), Damage 3d8+11 force plus Improved Grab Melee Single Action tail +28 (Agile, Magical, reach 15 feet), Damage 3d6+11 force plus Push Primal Innate Spells DC 31 - Constant (5th) Truespeech Bond with Mortal (Mental, Primal) Frequency once per day; Effect The spirit guide spends 10 minutes to form a bond with a mortal creature. While the bond exists, the spirit guide increases their current and maximum Hit Points by 28, gains a +2 status bonus to their attack and damage rolls, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies. This bond strengthens the spirit guide's connection to the Universe. While bonded, the spirit guide loses the incorporeal and spirit traits, loses their immunity to disease, paralysis, and poison, along with their resistance to all damage, and changes their Strikes to deal the appropriate amount of physical damage (typically piercing or slashing) instead of force damage. Bonded Strike Two Actions Requirements The sunscale serpent is currently Bonded with a Mortal; Effect The sunscale serpent makes a jaws Strike. If this attack hits, the bonded mortal can spend their reaction to Strike the same target. Sun's Heat Two Actions The sunscale serpent Flies up to its fly Speed. All creatures directly below the spaces it moves through must succeed at a DC 31 Fortitude save or be exposed to sun's touch poison. The serpent cannot fly further than 60 feet above the target or the poison becomes too dispersed in the fall to take effect. Sun's Touch (Poison) Saving Throw Fortitude DC 34; Maximum Duration 6 rounds; Stage 1 6d8 poison damage and clumsy 1 (1 round); Stage 2 8d6 poison damage and clumsy 2 (1 round); Stage 3 6d10 poison damage and fatigued (1 round) Swallow Whole Single Action Large, 2d10+9 force and 2d10 fire, Rupture 32 Unleash the Sun Three Actions Requirement The sunscale serpent is flying; Effect The sunscale serpent Flies up to its fly Speed, then crashes to the ground, releasing a wave of heat dealing 5d10 fire damage to all creatures within a 60-foot burst and searing their eyes with the erupting glory of its scales. Each creature in the area must attempt a DC 31 Reflex save. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is dazzled for 1 round. Critical Failure The creature takes full damage, is blinded for 1 round, and dazzled for 1 minute. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Animal",
+  "Beast",
+  "Incorporeal",
+  "Spirit",
+  "Uncommon",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Beast](/Traits.aspx?ID=547), [Incorporeal](/Traits.aspx?ID=632), [Spirit](/Traits.aspx?ID=737), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Animal",
+  "Beast",
+  "Incorporeal",
+  "Spirit",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3311",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 28,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

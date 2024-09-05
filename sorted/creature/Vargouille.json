@@ -1,57 +1,106 @@
 {
  "ac": 18,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "NE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
- "charisma": -1,
- "constitution": 4,
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Kiss",
-  "Shriek",
-  "Vargouille Transformation",
-  "Vargouille Venom"
+  "Vargouille's Kiss",
+  "Vargouille's Shriek",
+  "Tenacious Wounds"
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
- "exclude_from_search": true,
- "fortitude_save": 10,
- "hp": 30,
- "hp_raw": "30",
- "id": "creature-2477",
- "intelligence": -2,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 28,
+ "hp_raw": "28",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2186",
+ "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Infernal"
+  "Daemonic"
  ],
- "language_markdown": "[Infernal](/Languages.aspx?ID=19)",
+ "language_markdown": "[Daemonic](/Languages.aspx?ID=31)",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"\">[Vargouille](/Monsters.aspx?ID=2477)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 16\r\n\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Vargouille](/Monsters.aspx?ID=2477)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35, [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 124</row>\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Infernal](/Languages.aspx?ID=19)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +4\r\n\r\n**Int** -2\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 30\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +10 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d8+3 piercing plus vargouille venom\n\n**Kiss** <actions string=\"Single Action\" />  The vargouille kisses an adjacent creature that's asleep, [paralyzed](/Conditions.aspx?ID=28), or [unconscious](/Conditions.aspx?ID=38), exposing it to the vargouille transformation disease.\r\n\r\n**Shriek** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Visual](/Traits.aspx?ID=163)) The vargouille shrieks, its scream so terrible that all non-vargouilles within 60 feet must succeed at a DC 16 Fortitude save or be [paralyzed](/Conditions.aspx?ID=28) for 3 rounds. The effect ends early for a creature if the vargouille moves out of sight, moves farther than 60 feet from the creature, or attacks the creature with its fangs. After attempting its save, a creature is immune to that particular vargouille's Shriek for 24 hours.\r\n\r\n**Vargouille Transformation**  ([Disease](/Traits.aspx?ID=46)) Exposing the victim to sunlight or any [light](/Traits.aspx?ID=100) spell of 3rd level or higher pauses the progression of the disease until the victim is no longer in light. **Saving Throw** DC 18 Fortitude; **Stage 1** carrier with no effect (1d6 hours); **Stage 2** victim's hair falls out (1d6 hours); **Stage 3** victim's ears grow into leathery wings, tentacles sprout on the chin and scalp, and the teeth become long, pointed fangs (1 day); **Stage 4** victim's mind regresses to a vicious and unintelligent shell of its former self (1d6 hours); **Stage 5** victim's head breaks free of the body (which dies) and becomes a new vargouille\r\n\r\n**Vargouille Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 18 Fortitude; **Stage 1** Damage the victim has taken from vargouille fangs can't be healed magically. Once all vargouille fang damage has been healed nonmagically, the poison ends.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Vargouille](/Monsters.aspx?ID=2186)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVargouilles are scavengers from the swamps of [Abaddon](/Planes.aspx?ID=12), where they flop and flap through strange and haunted skies in constant search of fresh souls to torment. In this daemonic nightmare realm, vargouilles play a role similar to that of a raven or vulture, although they augment these roles with a malevolent delight in causing pain and anguish that no scavenger bird could ever hope to match. A vargouille is larger than a human head, typically between 12 and 20 inches high with a 15- to 35-inch wingspan. While vargouilles aren't natives of the [Material Plane](/Planes.aspx?ID=1), they can be found there nevertheless, occupying graveyards, ancient battlefields, or anywhere one can find remnants of death and decay.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Aberration](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=11)): DC 21\r\n\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 21\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 19\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 16\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Vargouille](/Monsters.aspx?ID=2186)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=1\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 124, [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Daemonic](/Languages.aspx?ID=31)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +4, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** -3\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 25 feet\r\n\r\n**Melee**\r\n<actions string=\"\" />\r\nbite +10 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d8 piercing plus 1d6 poison\n\n**Vargouille's Kiss** <actions string=\"Three Actions\" /> ([Disease](/Traits.aspx?ID=46), [Occult](/Traits.aspx?ID=120), [Transmutation](/Traits.aspx?ID=157)) **Requirements** The vargouille is adjacent to a [paralyzed](/Conditions.aspx?ID=28), [unconscious](/Conditions.aspx?ID=38), or willing humanoid creature; **Effect** The vargouille nuzzles up against a helpless or willing humanoid creature in a parody of a lover's kiss—the creature must then attempt a saving throw or begin an unsettling transformation into a vargouille. The sickened, stupefied, and unconscious conditions from Vargouille's Kiss don't improve on their own until the disease is cured. This disease can't progress in stage as long as the victim is in sunlight or in the area of a 3rd-level or higher [light](/Traits.aspx?ID=100) effect. **Saving Throw** DC 18 Fortitude; **Stage 1** no ill effect (2 hours); **Stage 2** victim's hair falls out, [sickened 1](/Conditions.aspx?ID=34) (2 hours); **Stage 3** victim's ears elongate into winglike shapes and their teeth grow tangled and sharp, [stupefied 1](/Conditions.aspx?ID=37) (2 hours); **Stage 4** as Stage 3, but the victim falls [unconscious](/Conditions.aspx?ID=38) (2 hours); **Stage 5** death, and the victim's head transforms into a new vargouille that detaches from the body and flies off to spread evil on its own.\r\n\r\n**Vargouille's Shriek** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16), [Evocation](/Traits.aspx?ID=65), [Incapacitation](/Traits.aspx?ID=93), [Occult](/Traits.aspx?ID=120), [Visual](/Traits.aspx?ID=163)) The vargouille distends its jaw awfully and emits an unnerving shriek. All creatures within 60 feet who can see and hear the vargouille must attempt a DC 15 Fortitude save. <br />**Success** The creature is unaffected and is temporarily immune to Vargouille's Shriek for 24 hours. <br />**Failure** The creature is [paralyzed](/Conditions.aspx?ID=28) until the end of its next turn. <br />**Critical Failure** The creature is paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.\r\n\r\n**Tenacious Wounds**  ([Curse](/Traits.aspx?ID=38), [Necromancy](/Traits.aspx?ID=117), [Occult](/Traits.aspx?ID=120)) A creature who takes poison damage from a vargouille must succeed at a DC 18 Fortitude save or be cursed. The cursed creature can't regain HP except via magic, and anyone Casting a Spell to heal the creature must succeed at a DC 18 [counteract](/Rules.aspx?ID=371) check or the healing has no effect. The vargouille's counteract level is equal to its creature level. A creature can attempt a new DC 18 Fortitude save once per day (typically when it makes its daily preparations) to end this curse. The curse ends automatically if the creature is healed to maximum HP.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Infestations of Evil</title>\r\n\r\nWhile an evil spellcaster can certainly conjure vargouilles and seed them through a region to spread their kind, these minor fiends have an even more insidious method of crossing the planar boundary. In graveyards that have become corrupted by daemonic influences or cults devoted to the [Horsemen of the Apocalypse](/DeityCategories.aspx?ID=11), fresh corpses can spontaneously serve as portals from [Abaddon](/Planes.aspx?ID=12), allowing brand new vargouilles to be “born” from the heads of the dead.\r\n</aside>",
  "name": "Vargouille",
  "npc": false,
- "perception": 11,
- "rarity": "common",
- "reflex_save": 8,
- "release_date": "2020-07-30",
+ "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Crown of the Kobold King",
+ "primary_source_raw": "Crown of the Kobold King pg. 124",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Crown of the Kobold King",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 10,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2022-10-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35, [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 124</row>\n\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 18\r\n\r\n**Fort** +10\r\n\r\n**Ref** +8\r\n\r\n**Will** +7\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=1\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 124, [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35\n\n<row gap=\"medium\">\r\n**HP** 28\r\n\r\n**AC** 18\r\n\r\n**Fort** +6\r\n\r\n**Ref** +10\r\n\r\n**Will** +8\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVargouilles are scavengers from the swamps of  Abaddon , where they flop and flap through strange and haunted skies in constant search of fresh souls …\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Small"
  ],
- "skill": [
-  "Acrobatics +8",
-  "Stealth +8"
+ "size_id": [
+  2
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +4, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill_mod": {
+  "acrobatics": 8,
+  "athletics": 4,
+  "intimidation": 6,
+  "stealth": 8
+ },
  "source": [
+  "Crown of the Kobold King",
   "Pathfinder #157: Devil at the Dreaming Palace"
  ],
  "source_raw": [
+  "Crown of the Kobold King pg. 124",
   "Pathfinder #157: Devil at the Dreaming Palace pg. 35"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35, [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 124</row>",
+ "source_category": [
+  "Adventures",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Crown of the Kobold King",
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 124, [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35",
  "speed": {
   "fly": 25,
   "max": 25
@@ -59,33 +108,57 @@
  "speed_markdown": "fly 25 feet",
  "speed_raw": "fly 25 feet",
  "spell_markdown": "",
+ "spoilers": "Crown of the Kobold King",
  "stealth": "8",
- "strength": 3,
- "strongest_save": [
-  "fort",
-  "fortitude"
+ "strike_damage_average": [
+  8
  ],
- "summary": "",
- "summary_markdown": "",
- "text": " Vargouille Recall Knowledge - Beast (Arcana, Nature): DC 16 Recall Knowledge - Fiend (Religion): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Vargouille Source Pathfinder #157: Devil at the Dreaming Palace pg. 35, Crown of the Kobold King pg. 124 Perception +11; darkvision Languages Infernal Skills Acrobatics +8, Stealth +8 Str +3 Dex +4 Con +4 Int -2 Wis +3 Cha -1 --- AC 18 Fort +10 Ref +8 Will +7 HP 30 --- Speed fly 25 feet Melee Single Action fangs +10 (Finesse), Damage 1d8+3 piercing plus vargouille venom Kiss Single Action The vargouille kisses an adjacent creature that's asleep, paralyzed, or unconscious, exposing it to the vargouille transformation disease. Shriek Two Actions (Auditory, Concentrate, Visual) The vargouille shrieks, its scream so terrible that all non-vargouilles within 60 feet must succeed at a DC 16 Fortitude save or be paralyzed for 3 rounds. The effect ends early for a creature if the vargouille moves out of sight, moves farther than 60 feet from the creature, or attacks the creature with its fangs. After attempting its save, a creature is immune to that particular vargouille's Shriek for 24 hours. Vargouille Transformation (Disease) Exposing the victim to sunlight or any light spell of 3rd level or higher pauses the progression of the disease until the victim is no longer in light. Saving Throw DC 18 Fortitude; Stage 1 carrier with no effect (1d6 hours); Stage 2 victim's hair falls out (1d6 hours); Stage 3 victim's ears grow into leathery wings, tentacles sprout on the chin and scalp, and the teeth become long, pointed fangs (1 day); Stage 4 victim's mind regresses to a vicious and unintelligent shell of its former self (1d6 hours); Stage 5 victim's head breaks free of the body (which dies) and becomes a new vargouille Vargouille Venom (Poison) Saving Throw DC 18 Fortitude; Stage 1 Damage the victim has taken from vargouille fangs can't be healed magically. Once all vargouille fang damage has been healed nonmagically, the poison ends. ",
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Vargouilles are scavengers from the swamps of  Abaddon , where they flop and flap through strange and haunted skies in constant search of fresh souls …",
+ "summary_markdown": "Vargouilles are scavengers from the swamps of  Abaddon , where they flop and flap through strange and haunted skies in constant search of fresh souls …",
+ "text": " Vargouille Vargouilles are scavengers from the swamps of Abaddon, where they flop and flap through strange and haunted skies in constant search of fresh souls to torment. In this daemonic nightmare realm, vargouilles play a role similar to that of a raven or vulture, although they augment these roles with a malevolent delight in causing pain and anguish that no scavenger bird could ever hope to match. A vargouille is larger than a human head, typically between 12 and 20 inches high with a 15- to 35-inch wingspan. While vargouilles aren't natives of the Material Plane, they can be found there nevertheless, occupying graveyards, ancient battlefields, or anywhere one can find remnants of death and decay. Recall Knowledge - Aberration (Occultism): DC 21 Recall Knowledge - Fiend (Religion): DC 21 Unspecific Lore : DC 19 Specific Lore : DC 16 Vargouille Source Crown of the Kobold King pg. 124, Pathfinder #157: Devil at the Dreaming Palace pg. 35 Perception +8; darkvision Languages Daemonic Skills Acrobatics +8, Athletics +4, Intimidation +6, Stealth +8 Str +0 Dex +4 Con +2 Int -3 Wis +2 Cha +0 --- AC 18 Fort +6 Ref +10 Will +8 HP 28 --- Speed fly 25 feet Melee bite +10 (Agile, Finesse), Damage 1d8 piercing plus 1d6 poison Vargouille's Kiss Three Actions (Disease, Occult, Transmutation) Requirements The vargouille is adjacent to a paralyzed, unconscious, or willing humanoid creature; Effect The vargouille nuzzles up against a helpless or willing humanoid creature in a parody of a lover's kiss—the creature must then attempt a saving throw or begin an unsettling transformation into a vargouille. The sickened, stupefied, and unconscious conditions from Vargouille's Kiss don't improve on their own until the disease is cured. This disease can't progress in stage as long as the victim is in sunlight or in the area of a 3rd-level or higher light effect. Saving Throw DC 18 Fortitude; Stage 1 no ill effect (2 hours); Stage 2 victim's hair falls out, sickened 1 (2 hours); Stage 3 victim's ears elongate into winglike shapes and their teeth grow tangled and sharp, stupefied 1 (2 hours); Stage 4 as Stage 3, but the victim falls unconscious (2 hours); Stage 5 death, and the victim's head transforms into a new vargouille that detaches from the body and flies off to spread evil on its own. Vargouille's Shriek Two Actions (Auditory, Evocation, Incapacitation, Occult, Visual) The vargouille distends its jaw awfully and emits an unnerving shriek. All creatures within 60 feet who can see and hear the vargouille must attempt a DC 15 Fortitude save. Success The creature is unaffected and is temporarily immune to Vargouille's Shriek for 24 hours. Failure The creature is paralyzed until the end of its next turn. Critical Failure The creature is paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save. Tenacious Wounds (Curse, Necromancy, Occult) A creature who takes poison damage from a vargouille must succeed at a DC 18 Fortitude save or be cursed. The cursed creature can't regain HP except via magic, and anyone Casting a Spell to heal the creature must succeed at a DC 18 counteract check or the healing has no effect. The vargouille's counteract level is equal to its creature level. A creature can attempt a new DC 18 Fortitude save once per day (typically when it makes its daily preparations) to end this curse. The curse ends automatically if the creature is healed to maximum HP. Infestations of Evil While an evil spellcaster can certainly conjure vargouilles and seed them through a region to spread their kind, these minor fiends have an even more insidious method of crossing the planar boundary. In graveyards that have become corrupted by daemonic influences or cults devoted to the Horsemen of the Apocalypse, fresh corpses can spontaneously serve as portals from Abaddon, allowing brand new vargouilles to be “born” from the heads of the dead. ",
+ "tradition_markdown": "",
  "trait": [
-  "Beast",
+  "Aberration",
   "Fiend",
+  "Rare",
   "NE",
   "Small"
  ],
- "trait_markdown": "[Beast](/Traits.aspx?ID=20), [Fiend](/Traits.aspx?ID=70)",
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Aberration](/Traits.aspx?ID=1), [Fiend](/Traits.aspx?ID=70), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [
-  "Beast",
-  "Fiend"
+  "Aberration",
+  "Fiend",
+  "Rare"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=2477",
+ "url": "/Monsters.aspx?ID=2186",
  "vision": "Darkvision",
  "weakest_save": [
-  "will"
+  "fort",
+  "fortitude"
  ],
  "weakness": {},
- "will_save": 7,
- "wisdom": 3
+ "will_save": 8,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

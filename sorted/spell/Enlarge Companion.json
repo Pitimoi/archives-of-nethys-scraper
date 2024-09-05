@@ -1,64 +1,81 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten": [
+  "4th"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 4th rank"
+ ],
  "heighten_level": [
+  2,
   4
  ],
- "id": "spell-768",
- "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Enlarge Companion](/Spells.aspx?ID=768)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour animal companion grows much larger, towering over its foes in battle. Your animal companion becomes Huge, gaining the effects of a 4th-level [_enlarge_](/Spells.aspx?ID=102) spell.",
- "mystery_markdown": "",
+ "id": "spell-1867",
+ "legacy_id": "spell-768",
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Focus 2\" pfs=\"Standard\">\r\n[Enlarge Companion](/Spells.aspx?ID=1867)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=682\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 383\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour animal companion grows much larger, towering over its foes in battle. Your animal companion becomes Large, gaining the effects of a 2nd-rank [_enlarge_](/Spells.aspx?ID=102) spell.\n\n---\r\n**Heightened (4th)** Your animal companion instead becomes Huge, gaining the benefits of a 4th-rank _enlarge_ spell.",
  "name": "Enlarge Companion",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 383",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour animal companion grows much larger, towering over its foes in battle.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=682\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 383\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** your animal companion\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour animal companion grows much larger, towering over its foes in battle.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 234"
+  "Player Core pg. 383"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 234 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 383",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "Your animal companion grows much larger, towering over its foes in battle.",
  "summary_markdown": "Your animal companion grows much larger, towering over its foes in battle.",
  "target": "your animal companion",
  "target_markdown": "your animal companion",
- "text": " Enlarge Companion Source Advanced Player's Guide pg. 234 2.0 Cast Two Actions somatic, verbal Range 30 feet Target your animal companion Duration 1 minute --- Your animal companion grows much larger, towering over its foes in battle. Your animal companion becomes Huge, gaining the effects of a 4th-level enlarge spell.",
+ "text": "\nEnlarge Companion Two Actions Source Player Core pg. 383 Range 30 feet Target your animal companion Duration 1 minute --- Your animal companion grows much larger, towering over its foes in battle. Your animal companion becomes Large, gaining the effects of a 2nd-rank enlarge spell. --- Heightened (4th) Your animal companion instead becomes Huge, gaining the benefits of a 4th-rank enlarge spell.",
  "tradition_markdown": "",
  "trait": [
+  "Concentrate",
+  "Focus",
+  "Manipulate",
   "Polymorph",
   "Ranger",
-  "Transmutation",
   "Uncommon"
  ],
- "trait_markdown": "[Polymorph](/Traits.aspx?ID=127), [Ranger](/Traits.aspx?ID=136), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Polymorph](/Traits.aspx?ID=127), [Ranger](/Traits.aspx?ID=682), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
+  "Concentrate",
+  "Focus",
+  "Manipulate",
   "Polymorph",
   "Ranger",
-  "Transmutation",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=768",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1867",
+ "warden_spell_tier": "Advanced",
  "weakness": {}
 }

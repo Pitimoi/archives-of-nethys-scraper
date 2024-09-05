@@ -1,0 +1,219 @@
+{
+ "ac": 28,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  20,
+  20,
+  21
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Turbulent Seas",
+  "Change Shape",
+  "Gift of Hospitality",
+  "Skewer"
+ ],
+ "creature_family": "Genie",
+ "creature_family_markdown": "[Genie](/MonsterFamilies.aspx?ID=417)",
+ "dexterity": 5,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 17,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 145,
+ "hp_raw": "145",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3005",
+ "image": [
+  "/Images/Monsters/Faydhaan.webp"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking trident"
+ ],
+ "language": [
+  "Common",
+  "Muan",
+  "Petran",
+  "Pyric",
+  "Sussuran",
+  "Talican",
+  "Thalassic",
+  "<%SPELLS%1728%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Muan](/Languages.aspx?ID=108), [Petran](/Languages.aspx?ID=109), [Pyric](/Languages.aspx?ID=110), [Sussuran](/Languages.aspx?ID=111), [Talican](/Languages.aspx?ID=112), [Thalassic](/Languages.aspx?ID=113); [_truespeech_](/Spells.aspx?ID=1728)",
+ "legacy_id": "creature-215",
+ "legacy_name": "Marid",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Faydhaan](/Monsters.aspx?ID=3005)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe faydhaans of the [Plane of Water](/Planes.aspx?ID=32) are more powerful than the other genies dwelling on the elemental planes, but they prefer to forge alliances through diplomacy and flattery.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Faydhaan.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Faydhaan](/Monsters.aspx?ID=3005)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Genie\" url=\"/Traits.aspx?ID=752\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 158\n\n**Perception** +16; (18 to [Sense Motive](/Actions.aspx?ID=2302)) [darkvision](/MonsterAbilities.aspx?ID=59), [wavesense](/MonsterAbilities.aspx?ID=84) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Muan](/Languages.aspx?ID=108), [Petran](/Languages.aspx?ID=109), [Pyric](/Languages.aspx?ID=110), [Sussuran](/Languages.aspx?ID=111), [Talican](/Languages.aspx?ID=112), [Thalassic](/Languages.aspx?ID=113); [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +19, [Crafting](/Skills.aspx?ID=4) +16, [Deception](/Skills.aspx?ID=5) +18, [Diplomacy](/Skills.aspx?ID=6) +20, [Nature](/Skills.aspx?ID=10) +18, [Performance](/Skills.aspx?ID=12) +20, [Society](/Skills.aspx?ID=14) +16, [Stealth](/Skills.aspx?ID=15) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [trident](/Weapons.aspx?ID=401)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 145\n\n</row>\n\n**Resistances**\r\n[fire](/Traits.aspx?ID=604) 10\n\n**Turbulent Seas** ([aura](/Traits.aspx?ID=542), [water](/Traits.aspx?ID=732)) 40 feet. Water in the aura that is also in the same body of water as the faydhaan is [difficult terrain](/Rules.aspx?ID=453) for [Swimming](/Actions.aspx?ID=2381)creatures. Creatures with the [water](/Traits.aspx?ID=732) trait are immune.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_trident_ +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+10 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +20 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [Nonlethal](/Traits.aspx?ID=188), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d4+10 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_trident_ +21 ([Magical](/Traits.aspx?ID=103), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 2d8+10 piercing\r\n\r\n**Arcane Innate Spells** DC 24\r\n- **Cantrips (5th)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **2nd**\r\n[Create Water](/Spells.aspx?ID=53) (at will), [Invisibility](/Spells.aspx?ID=164) (×2), [Water Breathing](/Spells.aspx?ID=370)\r\n- **4th**\r\n[Hydraulic Push](/Spells.aspx?ID=154) (at will)\r\n- **5th**\r\n[Control Water](/Spells.aspx?ID=51) (at will), [Hydraulic Torrent](/Spells.aspx?ID=155), [Truespeech](/Spells.aspx?ID=1728) (at will)\r\n- **7th**\r\n[Interplanar Teleport](/Spells.aspx?ID=1576) (to [Astral Plane](/Equipment.aspx?ID=2832); Elemental Planes; or [the Universe](/Planes.aspx?ID=26) only)\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Arcane](/Traits.aspx?ID=11), [Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127)) The faydhaan transforms into a Small or Medium [water elemental](/MonsterFamilies.aspx?ID=412), [aquatic](/Traits.aspx?ID=533) [animal](/Traits.aspx?ID=531), or [humanoid](/Traits.aspx?ID=628). This doesn't affect their statistics, but it could change the damage type of their Strikes.\r\n\r\n**Gift of Hospitality** <actions string=\"Three Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)) The faydhaan gives another willing creature a magical gift or an agreeable conversation. The creature gains a +2 status bonus to [Society](/Skills.aspx?ID=47) and [Diplomacy](/Skills.aspx?ID=39) checks. A creature can't have more than one gift at a time, and a faydhaan can't grant more than one gift at a time. The gift ends if the target acts hostile, or if the faydhaan renounces the recipient (a single action).\r\n\r\n**Skewer** <actions string=\"Single Action\" />  The faydhaan makes a trident Strike, dealing an extra 2d6 [persistent bleed damage](/Conditions.aspx?ID=29) on a hit (4d6 on a critical hit).\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Faydhaan Shuyookhs</title>\r\n\r\nFaydhaan shuyookhs grant wishes in ways that please the most people possible. They add the following innate spells: **7th** [_hydraulic torrent_](/Spells.aspx?ID=1562), [_planar palace_](/Spells.aspx?ID=1634), [_summon elemental_](/Spells.aspx?ID=1698); **5th** [_howling blizzard_](/Spells.aspx?ID=1559) (at will), [_illusory creature_](/Spells.aspx?ID=1567) (×2), [_mirage_](/Spells.aspx?ID=1604), [_truespeech_](/Spells.aspx?ID=1728) (at will); **4th** [_invisibility_](/Spells.aspx?ID=1577) (×2), [_vapor form_](/Spells.aspx?ID=1738); **2nd** [_create water_](/Spells.aspx?ID=1476) (at will), [_invisibility_](/Spells.aspx?ID=1577) (at will), [_see the unseen_](/Spells.aspx?ID=1663).\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-417\" />",
+ "name": "Faydhaan",
+ "npc": false,
+ "perception": 16,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 158",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 18,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {
+  "fire": 10
+ },
+ "resistance_markdown": "[fire](/Traits.aspx?ID=604) 10",
+ "resistance_raw": " fire  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Genie\" url=\"/Traits.aspx?ID=752\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 158\r\n\r\n**Creature Family** [Genie](/MonsterFamilies.aspx?ID=417)\r\n\r\n<row gap=\"medium\">\r\n**HP** 145\r\n\r\n**AC** 28\r\n\r\n**Fort** +17\r\n\r\n**Ref** +18\r\n\r\n**Will** +18\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe faydhaans of the  Plane of Water  are more powerful than the other genies dwelling on the elemental planes, but they prefer to forge alliances …\r\n</summary>",
+ "sense": "(18 to  Sense Motive )  darkvision ,  wavesense  ( imprecise ) 60 feet",
+ "sense_markdown": "(18 to [Sense Motive](/Actions.aspx?ID=2302)) [darkvision](/MonsterAbilities.aspx?ID=59), [wavesense](/MonsterAbilities.aspx?ID=84) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Crafting",
+  "Deception",
+  "Diplomacy",
+  "Nature",
+  "Performance",
+  "Society",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +19, [Crafting](/Skills.aspx?ID=4) +16, [Deception](/Skills.aspx?ID=5) +18, [Diplomacy](/Skills.aspx?ID=6) +20, [Nature](/Skills.aspx?ID=10) +18, [Performance](/Skills.aspx?ID=12) +20, [Society](/Skills.aspx?ID=14) +16, [Stealth](/Skills.aspx?ID=15) +18",
+ "skill_mod": {
+  "athletics": 19,
+  "crafting": 16,
+  "deception": 18,
+  "diplomacy": 20,
+  "nature": 18,
+  "performance": 20,
+  "society": 16,
+  "stealth": 18
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 158"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 158",
+ "speed": {
+  "land": 25,
+  "max": 40,
+  "swim": 40
+ },
+ "speed_markdown": "25 feet, swim 40 feet",
+ "speed_raw": "25 feet, swim 40 feet",
+ "spell": [
+  "Interplanar Teleport",
+  "Control Water",
+  "Hydraulic Torrent",
+  "Truespeech",
+  "Hydraulic Push",
+  "Create Water",
+  "Invisibility",
+  "Water Breathing",
+  "Detect Magic"
+ ],
+ "spell_markdown": "[Control Water](/Spells.aspx?ID=51), [Create Water](/Spells.aspx?ID=53), [Detect Magic](/Spells.aspx?ID=66), [Hydraulic Push](/Spells.aspx?ID=154), [Hydraulic Torrent](/Spells.aspx?ID=155), [Interplanar Teleport](/Spells.aspx?ID=1576), [Invisibility](/Spells.aspx?ID=164), [Truespeech](/Spells.aspx?ID=1728), [Water Breathing](/Spells.aspx?ID=370)",
+ "spell_dc": [
+  24
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "stealth": "18",
+ "strike_damage_average": [
+  12,
+  19,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "summary": "The faydhaans of the  Plane of Water  are more powerful than the other genies dwelling on the elemental planes, but they prefer to forge alliances …",
+ "summary_markdown": "The faydhaans of the  Plane of Water  are more powerful than the other genies dwelling on the elemental planes, but they prefer to forge alliances …",
+ "text": " Faydhaan The faydhaans of the Plane of Water are more powerful than the other genies dwelling on the elemental planes, but they prefer to forge alliances through diplomacy and flattery. Recall Knowledge - Elemental (Arcana, Nature): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Faydhaan Source Monster Core pg. 158 Perception +16; (18 to Sense Motive) darkvision, wavesense (imprecise) 60 feet Languages Common, Muan, Petran, Pyric, Sussuran, Talican, Thalassic; truespeech Skills Athletics +19, Crafting +16, Deception +18, Diplomacy +20, Nature +18, Performance +20, Society +16, Stealth +18 Str +4 Dex +5 Con +2 Int +1 Wis +3 Cha +5 Items +1 striking trident --- AC 28 Fort +17 Ref +18 Will +18 HP 145 Resistances fire 10 Turbulent Seas (aura, water) 40 feet. Water in the aura that is also in the same body of water as the faydhaan is difficult terrain for Swimmingcreatures. Creatures with the water trait are immune. --- Speed 25 feet, swim 40 feet Melee Single Action trident +20 (Magical, reach 10 feet), Damage 2d8+10 piercing Melee Single Action fist +20 (Agile, Magical, Nonlethal, reach 10 feet), Damage 1d4+10 bludgeoning Ranged Single Action trident +21 (Magical, thrown 20 feet), Damage 2d8+10 piercing Arcane Innate Spells DC 24 - Cantrips (5th) Detect Magic - 2nd Create Water (at will), Invisibility (×2), Water Breathing - 4th Hydraulic Push (at will) - 5th Control Water (at will), Hydraulic Torrent, Truespeech (at will) - 7th Interplanar Teleport (to Astral Plane; Elemental Planes; or the Universe only) - Constant (5th) Truespeech Change Shape Single Action (Arcane, Concentrate, Polymorph) The faydhaan transforms into a Small or Medium water elemental, aquatic animal, or humanoid. This doesn't affect their statistics, but it could change the damage type of their Strikes. Gift of Hospitality Three Actions (Arcane, Emotion, Mental) The faydhaan gives another willing creature a magical gift or an agreeable conversation. The creature gains a +2 status bonus to Society and Diplomacy checks. A creature can't have more than one gift at a time, and a faydhaan can't grant more than one gift at a time. The gift ends if the target acts hostile, or if the faydhaan renounces the recipient (a single action). Skewer Single Action The faydhaan makes a trident Strike, dealing an extra 2d6 persistent bleed damage on a hit (4d6 on a critical hit). Faydhaan Shuyookhs Faydhaan shuyookhs grant wishes in ways that please the most people possible. They add the following innate spells: 7th hydraulic torrent , planar palace , summon elemental ; 5th howling blizzard (at will), illusory creature (×2), mirage , truespeech (at will); 4th invisibility (×2), vapor form ; 2nd create water (at will), invisibility (at will), see the unseen . ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Elemental",
+  "Genie",
+  "Water",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=587), [Genie](/Traits.aspx?ID=752), [Water](/Traits.aspx?ID=732)",
+ "trait_raw": [
+  "Elemental",
+  "Genie",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3005",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 18,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

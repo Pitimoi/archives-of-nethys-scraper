@@ -1,12 +1,8 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "material",
-  "somatic"
- ],
  "deity": [
   "Achaekek",
   "Ketephys",
@@ -18,7 +14,7 @@
   "Shax",
   "Yaezhing"
  ],
- "deity_markdown": "[Achaekek](/Deities.aspx?ID=29), [Ketephys](/Deities.aspx?ID=110), [Nalinivati](/Deities.aspx?ID=181), [Ng](/Deities.aspx?ID=98), [Nivi Rhombodazzle](/Deities.aspx?ID=44), [Norgorber](/Deities.aspx?ID=13), [Raumya](/Deities.aspx?ID=195), [Shax](/Deities.aspx?ID=80), [Yaezhing](/Deities.aspx?ID=184)",
+ "deity_markdown": "[Achaekek](/Deities.aspx?ID=29), [Ketephys](/Deities.aspx?ID=110), [Nalinivati](/Deities.aspx?ID=313), [Ng](/Deities.aspx?ID=98), [Nivi Rhombodazzle](/Deities.aspx?ID=44), [Norgorber](/Deities.aspx?ID=289), [Raumya](/Deities.aspx?ID=195), [Shax](/Deities.aspx?ID=80), [Yaezhing](/Deities.aspx?ID=318)",
  "domain_markdown": "",
  "duration": 600,
  "duration_raw": "10 minutes",
@@ -26,52 +22,70 @@
  "heighten": [
   "4th"
  ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 4th rank"
+ ],
  "heighten_level": [
   2,
   4
  ],
- "id": "spell-164",
+ "id": "spell-1577",
+ "legacy_id": "spell-164",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Invisibility](/Spells.aspx?ID=164)</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 347 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Achaekek](/Deities.aspx?ID=29), [Ketephys](/Deities.aspx?ID=110), [Nalinivati](/Deities.aspx?ID=181), [Ng](/Deities.aspx?ID=98), [Nivi Rhombodazzle](/Deities.aspx?ID=44), [Norgorber](/Deities.aspx?ID=13), [Raumya](/Deities.aspx?ID=195), [Shax](/Deities.aspx?ID=80), [Yaezhing](/Deities.aspx?ID=184)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nCloaked in illusion, the target becomes [invisible](/Conditions.aspx?ID=26). This makes it [undetected](/Conditions.aspx?ID=39) to all creatures, though the creatures can attempt to find the target, making it [hidden](/Conditions.aspx?ID=22) to them instead. If the target uses a [hostile action](/Rules.aspx?ID=300), the spell ends after that hostile action is completed.\n\n---\r\n**Heightened (4th)** The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Invisibility](/Spells.aspx?ID=1577)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 339\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Achaekek](/Deities.aspx?ID=29), [Ketephys](/Deities.aspx?ID=110), [Nalinivati](/Deities.aspx?ID=313), [Ng](/Deities.aspx?ID=98), [Nivi Rhombodazzle](/Deities.aspx?ID=44), [Norgorber](/Deities.aspx?ID=289), [Raumya](/Deities.aspx?ID=195), [Shax](/Deities.aspx?ID=80), [Yaezhing](/Deities.aspx?ID=318)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nIllusions bend light around the target, rendering it [invisible](/Conditions.aspx?ID=26). This makes it [undetected](/Conditions.aspx?ID=39) to all creatures, though the creatures can attempt to find the target, making it [hidden](/Conditions.aspx?ID=22) to them instead. If the target uses a [hostile action](/Rules.aspx?ID=300), the spell ends after that hostile action is completed.\n\n---\r\n**Heightened (4th)** The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.",
  "name": "Invisibility",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 339",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 347 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Achaekek](/Deities.aspx?ID=29), [Ketephys](/Deities.aspx?ID=110), [Nalinivati](/Deities.aspx?ID=181), [Ng](/Deities.aspx?ID=98), [Nivi Rhombodazzle](/Deities.aspx?ID=44), [Norgorber](/Deities.aspx?ID=13), [Raumya](/Deities.aspx?ID=195), [Shax](/Deities.aspx?ID=80), [Yaezhing](/Deities.aspx?ID=184)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n A creature can’t be seen until it attacks.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 339\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Achaekek](/Deities.aspx?ID=29), [Ketephys](/Deities.aspx?ID=110), [Nalinivati](/Deities.aspx?ID=313), [Ng](/Deities.aspx?ID=98), [Nivi Rhombodazzle](/Deities.aspx?ID=44), [Norgorber](/Deities.aspx?ID=289), [Raumya](/Deities.aspx?ID=195), [Shax](/Deities.aspx?ID=80), [Yaezhing](/Deities.aspx?ID=318)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA creature can't be seen until it attacks.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 347"
+  "Player Core pg. 339"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 347 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 339",
  "speed": {},
- "summary": " A creature can’t be seen until it attacks.",
- "summary_markdown": " A creature can’t be seen until it attacks.",
+ "spell_type": "Spell",
+ "summary": "A creature can't be seen until it attacks.",
+ "summary_markdown": "A creature can't be seen until it attacks.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Invisibility Source Core Rulebook pg. 347 4.0 Traditions Arcane, Occult Deities Achaekek, Ketephys, Nalinivati, Ng, Nivi Rhombodazzle, Norgorber, Raumya, Shax, Yaezhing Cast Two Actions material, somatic Range touch Target 1 creature Duration 10 minutes --- Cloaked in illusion, the target becomes invisible. This makes it undetected to all creatures, though the creatures can attempt to find the target, making it hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed. --- Heightened (4th) The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.",
+ "text": "\nInvisibility Two Actions Source Player Core pg. 339 Traditions Arcane, Occult Deities Achaekek, Ketephys, Nalinivati, Ng, Nivi Rhombodazzle, Norgorber, Raumya, Shax, Yaezhing Range touch Target 1 creature Duration 10 minutes --- Illusions bend light around the target, rendering it invisible. This makes it undetected to all creatures, though the creatures can attempt to find the target, making it hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed. --- Heightened (4th) The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Illusion"
+  "Illusion",
+  "Manipulate",
+  "Subtle"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92)",
+ "trait_group": [
+  "School",
+  "Monster"
+ ],
+ "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Manipulate](/Traits.aspx?ID=104), [Subtle](/Traits.aspx?ID=522)",
  "trait_raw": [
-  "Illusion"
+  "Illusion",
+  "Manipulate",
+  "Subtle"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=164",
+ "url": "/Spells.aspx?ID=1577",
  "weakness": {}
 }

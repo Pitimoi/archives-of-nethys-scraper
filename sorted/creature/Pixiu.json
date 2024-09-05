@@ -1,0 +1,173 @@
+{
+ "ac": 26,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Goldsense",
+  "Good Fortune",
+  "Stored Wealth",
+  "Devour Wealth",
+  "Trample"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 165,
+ "hp_raw": "165",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2781",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Draconic"
+ ],
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Pixiu](/Monsters.aspx?ID=2781)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nTo witness a pixiu (pee-shee-oh) is a blessing indeed—and a sight to behold. This winged, dragon-headed lion has a formidable appearance that belies its youthful exuberance. Legend claims it was this overenthusiastic playfulness that caused the first of their kind to be banished from heaven, cursed to gather wealth and never let it go. Whatever the case, each pixiu has an uncanny ability to sniff out gold, which it loves to eat. Curiously, a pixiu's touch is also able to sunder curses and censure malign spirits, perhaps a remnant of its lost divinity.\n\n Due to its celestial background and ability to exorcise curses, a pixiu is also believed to be a bringer and protector of prosperity, attracting good fortune and fending off evil spirits. Its heavenly origins and love of wealth may be the reason why imperial dragons have cared for them since time immemorial, valuing them as guardians and loyal companions. In particular, underworld dragons employ pixius to expand their hoards, and many sovereign dragons value them as status symbols. In dragon-ruled realms across Tian Xia, the presence of a pixiu within a community is seen as a sign of its draconic patron's approval and goodwill.\n\n Despite the protection of imperial dragons, the lure of wealth is still enough to drive some to attack a pixiu. Although a pixiu will rarely forgive an attacker, it prefers to withdraw peacefully from those it judges as purehearted but desperate. A pixiu's draconic masters, however, aren't always as forgiving.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Pixiu](/Monsters.aspx?ID=2781)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 295\n\n**Perception** +18; [darkvision](/MonsterAbilities.aspx?ID=59), goldsense (precise) 120 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +14, [Athletics](/Skills.aspx?ID=3) +18, [Religion](/Skills.aspx?ID=13) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +2\r\n\r\n**Con** +6\r\n\r\n**Int** -2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Goldsense** The pixiu can detect the presence, location, and approximate value of gold within 120 feet.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 165\n\n</row>\n\n**Resistances**\r\nvoid 10\n\n**Good Fortune** <actions string=\"Reaction\" /> ([ &lt;%TRAITS%612%%&gt; fortune](/Traits.aspx?ID=612) **Trigger** The pixiu &lt;%END>, or an ally within 30 feet, is about to attempt a saving throw but hasn't rolled yet) **Frequency** once per hour; **Effect** That creature rolls the triggering saving throw twice and takes the better result.<br />**Stored Wealth** Pixius can eat gold and gems with no adverse effects. A pixiu's belly can hold any number of gold pieces, usually around 100. Whenever it takes slashing or piercing damage, a number of gold pieces equal to the damage falls from its belly to the ground in its square.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +20 ([Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d10+5 piercing plus 1d4 holy and Devour Wealth\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +20 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d6+5 slashing plus 1d4 spirit\r\n\r\n**Divine Innate Spells** DC 26\r\n- **4th**\r\n[Cleanse Affliction](/Spells.aspx?ID=1467) (×3)\r\n\r\n**Devour Wealth** <actions string=\"Single Action\" />  **Requirements** The pixiu's previous action was a successful jaws Strike; **Effect** The pixiu swallows up to 2d12 gold pieces on the target's person and gains temporary Hit Points equal to the amount devoured. These temporary Hit Points last for 1 minute.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Three Actions\" />  Medium or smaller, claw, DC 26\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Pixiu Dimorphism</title>\r\n\r\nMale and female pixius have notable differences (though, just like natural animals, individuals with the traits of both exist). Males have a golden coat and mane, while females have a blue overcoat. While most pixius have one horn, females with two horns aren't uncommon; curiously, no male pixius with two horns have ever been documented.\r\n</aside>",
+ "name": "Pixiu",
+ "npc": false,
+ "perception": 18,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 295",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 14,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "resistance_markdown": "void 10",
+ "resistance_raw": "void 10",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 295\n\n<row gap=\"medium\">\r\n**HP** 165\r\n\r\n**AC** 26\r\n\r\n**Fort** +18\r\n\r\n**Ref** +14\r\n\r\n**Will** +16\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTo witness a pixiu (pee-shee-oh) is a blessing indeed—and a sight to behold. This winged, dragon-headed lion has a formidable appearance that belies …\r\n</summary>",
+ "sense": " darkvision , goldsense (precise) 120 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), goldsense (precise) 120 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Religion"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +14, [Athletics](/Skills.aspx?ID=3) +18, [Religion](/Skills.aspx?ID=13) +16",
+ "skill_mod": {
+  "acrobatics": 14,
+  "athletics": 18,
+  "religion": 16
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 295"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 295",
+ "speed": {
+  "fly": 40,
+  "land": 30,
+  "max": 40
+ },
+ "speed_markdown": "30 feet, fly 40 feet",
+ "speed_raw": "30 feet, fly 40 feet",
+ "spell": [
+  "Cleanse Affliction"
+ ],
+ "spell_markdown": "[Cleanse Affliction](/Spells.aspx?ID=1467)",
+ "spell_dc": [
+  26
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  14,
+  18
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "To witness a pixiu (pee-shee-oh) is a blessing indeed—and a sight to behold. This winged, dragon-headed lion has a formidable appearance that belies …",
+ "summary_markdown": "To witness a pixiu (pee-shee-oh) is a blessing indeed—and a sight to behold. This winged, dragon-headed lion has a formidable appearance that belies …",
+ "text": " Pixiu To witness a pixiu (pee-shee-oh) is a blessing indeed—and a sight to behold. This winged, dragon-headed lion has a formidable appearance that belies its youthful exuberance. Legend claims it was this overenthusiastic playfulness that caused the first of their kind to be banished from heaven, cursed to gather wealth and never let it go. Whatever the case, each pixiu has an uncanny ability to sniff out gold, which it loves to eat. Curiously, a pixiu's touch is also able to sunder curses and censure malign spirits, perhaps a remnant of its lost divinity. Due to its celestial background and ability to exorcise curses, a pixiu is also believed to be a bringer and protector of prosperity, attracting good fortune and fending off evil spirits. Its heavenly origins and love of wealth may be the reason why imperial dragons have cared for them since time immemorial, valuing them as guardians and loyal companions. In particular, underworld dragons employ pixius to expand their hoards, and many sovereign dragons value them as status symbols. In dragon-ruled realms across Tian Xia, the presence of a pixiu within a community is seen as a sign of its draconic patron's approval and goodwill. Despite the protection of imperial dragons, the lure of wealth is still enough to drive some to attack a pixiu. Although a pixiu will rarely forgive an attacker, it prefers to withdraw peacefully from those it judges as purehearted but desperate. A pixiu's draconic masters, however, aren't always as forgiving. Recall Knowledge - Dragon (Arcana): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Pixiu Source Tian Xia World Guide pg. 295 Perception +18; darkvision, goldsense (precise) 120 feet Languages Draconic Skills Acrobatics +14, Athletics +18, Religion +16 Str +6 Dex +2 Con +6 Int -2 Wis +4 Cha +4 Goldsense The pixiu can detect the presence, location, and approximate value of gold within 120 feet. --- AC 26 Fort +18 Ref +14 Will +16 HP 165 Resistances void 10 Good Fortune Reaction ( &lt;%TRAITS%612%%&gt; fortune Trigger The pixiu &lt;%END>, or an ally within 30 feet, is about to attempt a saving throw but hasn't rolled yet) Frequency once per hour; Effect That creature rolls the triggering saving throw twice and takes the better result. Stored Wealth Pixius can eat gold and gems with no adverse effects. A pixiu's belly can hold any number of gold pieces, usually around 100. Whenever it takes slashing or piercing damage, a number of gold pieces equal to the damage falls from its belly to the ground in its square. --- Speed 30 feet, fly 40 feet Melee Single Action jaws +20 (Magical), Damage 2d10+5 piercing plus 1d4 holy and Devour Wealth Melee Single Action claw +20 (Agile, Magical), Damage 2d6+5 slashing plus 1d4 spirit Divine Innate Spells DC 26 - 4th Cleanse Affliction (×3) Devour Wealth Single Action Requirements The pixiu's previous action was a successful jaws Strike; Effect The pixiu swallows up to 2d12 gold pieces on the target's person and gains temporary Hit Points equal to the amount devoured. These temporary Hit Points last for 1 minute. Trample Three Actions Medium or smaller, claw, DC 26 Pixiu Dimorphism Male and female pixius have notable differences (though, just like natural animals, individuals with the traits of both exist). Males have a golden coat and mane, while females have a blue overcoat. While most pixius have one horn, females with two horns aren't uncommon; curiously, no male pixius with two horns have ever been documented. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Dragon",
+  "Uncommon",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Dragon](/Traits.aspx?ID=50), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Dragon",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2781",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 16,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

@@ -1,42 +1,81 @@
 {
  "ac": 17,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  12,
+  12
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Broad Swipe",
   "Terrifying Charge"
  ],
  "creature_family": "Skeleton",
- "creature_family_markdown": "[Skeleton](/MonsterFamilies.aspx?ID=92)",
+ "creature_family_markdown": "[Skeleton](/MonsterFamilies.aspx?ID=472)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
- "fortitude_save": 10,
+ "fortitude_save": 8,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 50,
- "hp_raw": "50 ( negative healing )",
- "id": "creature-375",
+ "hp_raw": "50 ( void healing )",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3196",
+ "image": [
+  "/Images/Monsters/Skeletal_Giant.webp"
+ ],
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
   "mental",
   "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, mental, paralyzed, poison, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [mental](/Traits.aspx?ID=647), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Glaive",
+  "Half Plate"
+ ],
  "language_markdown": "",
+ "legacy_id": "creature-375",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Skeletal Giant](/Monsters.aspx?ID=375)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe reanimated bones of giants make excellent necromantic thralls.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Skeletal Giant](/Monsters.aspx?ID=375)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 299</row>\n\n**Perception** +7; darkvision\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Half Plate](/Armor.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 50\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, mental, paralyzed, poison, unconscious\r\n\r\n**Resistances**\r\ncold 5, electricity 5, fire 5, piercing 5, slashing 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nglaive +12 ([deadly d8](/Traits.aspx?ID=174), [Forceful](/Traits.aspx?ID=180), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d8+7 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorns +12 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d10+5 piercing\n\n**Broad Swipe** <actions string=\"Two Actions\" />  The giant makes two Strikes with its glaive against two adjacent foes, both of whom are within its reach. The multiple attack penalty does not increase until after both attacks are resolved.\r\n\r\n**Terrifying Charge** <actions string=\"Two Actions\" />  The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage. If the strike hits, the giant attempts to Demoralize the target.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-92\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Skeletal Giant](/Monsters.aspx?ID=3196)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe reanimated bones of giants make excellent necromantic thralls.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Skeletal_Giant.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Skeletal Giant](/Monsters.aspx?ID=3196)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=772\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 313\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Glaive](/Weapons.aspx?ID=20), [Half Plate](/Armor.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\r\n([void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [mental](/Traits.aspx?ID=647), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\r\n\r\n**Resistances**\r\n[cold](/Traits.aspx?ID=555) 5, [electricity](/Traits.aspx?ID=586) 5, [fire](/Traits.aspx?ID=604) 5, piercing 5, slashing 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nglaive +12 ([deadly d8](/Traits.aspx?ID=174), [Forceful](/Traits.aspx?ID=180), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d8+7 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorns +12 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d10+5 piercing\n\n**Broad Swipe** <actions string=\"Two Actions\" />  The giant makes two Strikes with its glaive against two adjacent foes, both of whom are within its reach. Both attacks count toward the giant's multiple attack penalty, but the penalty doesn't increase until after both attacks.\r\n\r\n**Terrifying Charge** <actions string=\"Two Actions\" />  The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage. If the strike hits, the giant attempts to [Demoralize](/Actions.aspx?ID=2395) the target.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-472\" />",
  "name": "Skeletal Giant",
  "npc": false,
  "perception": 7,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 313",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
   "cold": 5,
   "electricity": 5,
@@ -44,27 +83,36 @@
   "piercing": 5,
   "slashing": 5
  },
- "resistance_markdown": "cold 5, electricity 5, fire 5, piercing 5, slashing 5",
- "resistance_raw": "cold 5, electricity 5, fire 5, piercing 5, slashing 5",
- "search_markdown": "<traits>\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 299</row>\r\n\r\n**Creature Family** [Skeleton](/MonsterFamilies.aspx?ID=92)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50 ( negative healing )\r\n\r\n**AC** 17\r\n\r\n**Fort** +10\r\n\r\n**Ref** +8\r\n\r\n**Will** +7\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe reanimated bones of giants make excellent necromantic thralls.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "resistance_markdown": "[cold](/Traits.aspx?ID=555) 5, [electricity](/Traits.aspx?ID=586) 5, [fire](/Traits.aspx?ID=604) 5, piercing 5, slashing 5",
+ "resistance_raw": " cold  5,  electricity  5,  fire  5, piercing 5, slashing 5",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=772\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 313\r\n\r\n**Creature Family** [Skeleton](/MonsterFamilies.aspx?ID=472)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50 ( void healing )\r\n\r\n**AC** 17\r\n\r\n**Fort** +8\r\n\r\n**Ref** +8\r\n\r\n**Will** +7\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe reanimated bones of giants make excellent necromantic thralls.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Athletics +12",
-  "Intimidation +9"
+  "Athletics",
+  "Intimidation"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +9",
+ "skill_mod": {
+  "athletics": 12,
+  "intimidation": 9
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 299"
+  "Monster Core pg. 313"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 299</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 313",
  "speed": {
   "land": 30,
   "max": 30
@@ -72,34 +120,58 @@
  "speed_markdown": "30 feet",
  "speed_raw": "30 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  10,
+  11
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 5,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "fort",
-  "fortitude"
+  "fortitude",
+  "ref",
+  "reflex"
  ],
  "summary": "The reanimated bones of giants make excellent necromantic thralls.",
  "summary_markdown": "The reanimated bones of giants make excellent necromantic thralls.",
- "text": " Skeletal Giant The reanimated bones of giants make excellent necromantic thralls. Recall Knowledge - Undead (Religion): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Skeletal Giant Source Bestiary pg. 299 Perception +7; darkvision Languages Skills Athletics +12, Intimidation +9 Str +5 Dex +1 Con +3 Int -5 Wis +0 Cha +2 Items Half Plate --- AC 17 Fort +10 Ref +8 Will +7 HP 50 (negative healing) Immunities death effects, disease, mental, paralyzed, poison, unconscious Resistances cold 5, electricity 5, fire 5, piercing 5, slashing 5 --- Speed 30 feet Melee Single Action glaive +12 (deadly d8, Forceful, reach 15 feet), Damage 1d8+7 slashing Melee Single Action horns +12 (Agile), Damage 1d10+5 piercing Broad Swipe Two Actions The giant makes two Strikes with its glaive against two adjacent foes, both of whom are within its reach. The multiple attack penalty does not increase until after both attacks are resolved. Terrifying Charge Two Actions The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage. If the strike hits, the giant attempts to Demoralize the target. ",
+ "text": " Skeletal Giant The reanimated bones of giants make excellent necromantic thralls. Recall Knowledge - Undead (Religion): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Skeletal Giant Source Monster Core pg. 313 Perception +7; darkvision Languages Skills Athletics +12, Intimidation +9 Str +5 Dex +1 Con +3 Int -5 Wis +0 Cha +2 Items Glaive, Half Plate --- AC 17 Fort +8 Ref +8 Will +7 HP 50 (void healing) Immunities bleed, death effects, disease, mental, paralyzed, poison, unconscious Resistances cold 5, electricity 5, fire 5, piercing 5, slashing 5 --- Speed 30 feet Melee Single Action glaive +12 (deadly d8, Forceful, reach 15 feet), Damage 1d8+7 slashing Melee Single Action horns +12 (Agile), Damage 1d10+5 piercing Broad Swipe Two Actions The giant makes two Strikes with its glaive against two adjacent foes, both of whom are within its reach. Both attacks count toward the giant's multiple attack penalty, but the penalty doesn't increase until after both attacks. Terrifying Charge Two Actions The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage. If the strike hits, the giant attempts to Demoralize the target. ",
+ "tradition_markdown": "",
  "trait": [
   "Mindless",
   "Skeleton",
   "Undead",
-  "NE",
+  "Unholy",
   "Large"
  ],
- "trait_markdown": "[Mindless](/Traits.aspx?ID=108), [Skeleton](/Traits.aspx?ID=236), [Undead](/Traits.aspx?ID=160)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Mindless](/Traits.aspx?ID=652), [Skeleton](/Traits.aspx?ID=772), [Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Mindless",
   "Skeleton",
-  "Undead"
+  "Undead",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=375",
+ "url": "/Monsters.aspx?ID=3196",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,21 +1,31 @@
 {
  "actions": "Two Actions",
- "area": "30-foot cone",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  30
  ],
- "deity_markdown": "",
+ "area_raw": "30-foot cone",
+ "area_type": [
+  "cone"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain": [
   "Death"
  ],
- "domain_markdown": "[Death](/Domains.aspx?ID=7)",
+ "domain_markdown": "[Death](/Domains.aspx?ID=70)",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -26,48 +36,65 @@
   9,
   10
  ],
- "id": "spell-420",
+ "id": "spell-1793",
+ "legacy_id": "spell-420",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Eradicate Undeath](/Spells.aspx?ID=420)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Death](/Domains.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA massive deluge of life energy causes the undead to fall apart. Each undead creature in the area takes 4d12 positive damage.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Eradicate Undeath](/Spells.aspx?ID=1793)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 374\n\n**Domain**\r\n[Death](/Domains.aspx?ID=70)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA massive deluge of life energy causes the undead to fall apart. Each [undead](/Traits.aspx?ID=160) creature in the area takes 4d12 vitality damage.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12.",
  "name": "Eradicate Undeath",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 374",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "basic  Fortitude",
  "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Fortitude",
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Death](/Domains.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA massive deluge of life energy causes the undead to fall apart.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 374\n\n**Domain**\r\n[Death](/Domains.aspx?ID=70)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA massive deluge of life energy causes the undead to fall apart.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 392"
+  "Player Core pg. 374"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 374",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "A massive deluge of life energy causes the undead to fall apart.",
  "summary_markdown": "A massive deluge of life energy causes the undead to fall apart.",
- "text": " Eradicate Undeath Source Core Rulebook pg. 392 4.0 Domain Death Cast Two Actions somatic, verbal Area 30-foot cone Saving Throw basic Fortitude --- A massive deluge of life energy causes the undead to fall apart. Each undead creature in the area takes 4d12 positive damage. --- Heightened (+1) The damage increases by 1d12.",
+ "text": "\nEradicate Undeath Two Actions Source Player Core pg. 374 Domain Death Area 30-foot cone Defense basic Fortitude --- A massive deluge of life energy causes the undead to fall apart. Each undead creature in the area takes 4d12 vitality damage. --- Heightened (+1) The damage increases by 1d12.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Necromancy",
-  "Positive",
-  "Uncommon"
+  "Concentrate",
+  "Focus",
+  "Manipulate",
+  "Uncommon",
+  "Vitality",
+  "Positive"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Necromancy](/Traits.aspx?ID=117), [Positive](/Traits.aspx?ID=128), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
   "Cleric",
-  "Necromancy",
-  "Positive",
-  "Uncommon"
+  "Concentrate",
+  "Focus",
+  "Manipulate",
+  "Uncommon",
+  "Vitality"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=420",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1793",
  "weakness": {}
 }

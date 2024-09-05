@@ -1,0 +1,172 @@
+{
+ "ac": 26,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "LN",
+ "attack_bonus": [
+  18,
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Bravery",
+  "Attack of Opportunity",
+  "Shield Block",
+  "Double Slice",
+  "Grim Efficiency",
+  "Quick Block"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 140,
+ "hp_raw": "140",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2718",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking longsword",
+  "+1 chain mail",
+  "light hammer",
+  "minor sturdy shield (Hardness 8^ 64 HP^ BT 32) with +1 striking shield boss"
+ ],
+ "language_markdown": "",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hrungul Ironeye](/NPCs.aspx?ID=2718)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Hrungul Ironeye](/NPCs.aspx?ID=2718)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 55\n\n**Perception** +16; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +15, [Survival](/Skills.aspx?ID=16) +14, [Warfare Lore](/Skills.aspx?ID=8) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=280) [longsword](/Weapons.aspx?ID=31)_, _+1 [chain mail](/Armor.aspx?ID=9)_, [light hammer](/Equipment.aspx?ID=24), [_minor sturdy shield_](/Equipment.aspx?ID=327) (Hardness 8^ 64 HP^ BT 32) with _+1 [striking](/Equipment.aspx?ID=280) [shield boss](/Weapons.aspx?ID=41)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 140\n\n</row>\n\n**Bravery** When the Hrungul rolls a success on a Will save against a [fear](/Traits.aspx?ID=68) effect, he gets a critical success instead. In addition, any time he gains the [frightened](/Conditions.aspx?ID=19) condition, reduce its value by 1.<br />**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_longsword_ +20 ([versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d8+10 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_shield boss_ +20,\r\n**Damage** 2d6+10 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nlight hammer +18 ([Agile](/Traits.aspx?ID=170), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+10 bludgeoning\n\n**Double Slice**   Hrungul makes a longsword Strike, followed by a shield boss Strike against the same target at a –2 penalty, each using his current multiple attack penalty. If both attacks hit, he combines their damage and applies resistances and weaknesses only once. This counts as two attacks when calculating his multiple attack penalty.\r\n\r\n**Grim Efficiency** <actions string=\"Reaction\" /> ([Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) **Frequency** once per round; **Trigger** A foe within 30 feet critically fails a Strike against Hrungul or targets Hrungul with an effect against which he critically succeeds at the saving throw; **Effect** Hrungul's defense displays his effortless military skill, unsettling the triggering foe. He attempts to [Demoralize](/Actions.aspx?ID=53) the foe, using his [Warfare Lore](/Skills.aspx?ID=8) skill modifier in place of his [Intimidation](/Skills.aspx?ID=7) skill.\r\n\r\n**Quick Block**   At the start of his turn, Hrungul gains an additional reaction that he can use only to [Shield Block](/MonsterAbilities.aspx?ID=32).\r\n\r\n</column>",
+ "name": "Hrungul Ironeye",
+ "npc": true,
+ "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 55",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 14,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-09-23",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 55\n\n<row gap=\"medium\">\r\n**HP** 140\r\n\r\n**AC** 26\r\n\r\n**Fort** +18\r\n\r\n**Ref** +14\r\n\r\n**Will** +16\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Deception",
+  "Survival",
+  "Warfare Lore"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +15, [Survival](/Skills.aspx?ID=16) +14, [Warfare Lore](/Skills.aspx?ID=8) +17",
+ "skill_mod": {
+  "athletics": 16,
+  "deception": 15,
+  "survival": 14
+ },
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 55"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 55",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "strike_damage_average": [
+  13,
+  17,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "text": " Hrungul Ironeye Recall Knowledge - Humanoid (Society): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Hrungul Ironeye Source Pathfinder #195: Heavy is the Crown pg. 55 Perception +16; darkvision Languages Skills Athletics +16, Deception +15, Survival +14, Warfare Lore +17 Str +6 Dex +2 Con +4 Int +1 Wis +2 Cha +3 Items +1 striking longsword , +1 chain mail , light hammer, minor sturdy shield (Hardness 8^ 64 HP^ BT 32) with +1 striking shield boss --- AC 26 Fort +18 Ref +14 Will +16 HP 140 Bravery When the Hrungul rolls a success on a Will save against a fear effect, he gets a critical success instead. In addition, any time he gains the frightened condition, reduce its value by 1. Attack of Opportunity Reaction Shield Block Reaction --- Speed 20 feet Melee Single Action longsword +20 (versatile P), Damage 2d8+10 slashing Melee Single Action shield boss +20, Damage 2d6+10 bludgeoning Ranged Single Action light hammer +18 (Agile, thrown 20 feet), Damage 1d6+10 bludgeoning Double Slice Hrungul makes a longsword Strike, followed by a shield boss Strike against the same target at a –2 penalty, each using his current multiple attack penalty. If both attacks hit, he combines their damage and applies resistances and weaknesses only once. This counts as two attacks when calculating his multiple attack penalty. Grim Efficiency Reaction (Mental, Visual) Frequency once per round; Trigger A foe within 30 feet critically fails a Strike against Hrungul or targets Hrungul with an effect against which he critically succeeds at the saving throw; Effect Hrungul's defense displays his effortless military skill, unsettling the triggering foe. He attempts to Demoralize the foe, using his Warfare Lore skill modifier in place of his Intimidation skill. Quick Block At the start of his turn, Hrungul gains an additional reaction that he can use only to Shield Block. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Dwarf",
+  "Humanoid",
+  "Unique",
+  "LN",
+  "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Dwarf](/Traits.aspx?ID=54), [Humanoid](/Traits.aspx?ID=91), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Dwarf",
+  "Humanoid",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/NPCs.aspx?ID=2718",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 16,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

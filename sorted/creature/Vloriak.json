@@ -1,0 +1,203 @@
+{
+ "ac": 21,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "CE",
+ "attack_bonus": [
+  15,
+  15
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Restoration Vulnerability",
+  "Lick Rust",
+  "Rust",
+  "Spew Rusted Shards"
+ ],
+ "creature_family": "Demon",
+ "creature_family_markdown": "[Demon](/MonsterFamilies.aspx?ID=28)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 90,
+ "hp_raw": "90",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2727",
+ "image": [
+  "/Images/Monsters/Demon_Vloriak.png"
+ ],
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Abyssal",
+  "Common",
+  "<%UMR%37%%>telepathy<%END> 100 feet"
+ ],
+ "language_markdown": "[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"\">[Vloriak (Despoiler Demon)](/Monsters.aspx?ID=2727)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVloriaks rise from the sinful souls of those whose acts of sabotage resulted in despair and terror, and they delight in the destruction of mortal artifice. Often called despoiler demons, vloriaks were the followers of Xar-Azmak. Their numbers have dwindled over the eons since the Lord of Rust's death; those that exist now are scattered throughout the [Abyss](/Planes.aspx?ID=13). Their chitinous bodies and faceted eyes give them an insectile appearance.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Demon_Vloriak.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Vloriak](/Monsters.aspx?ID=2727)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Demon\" url=\"/Traits.aspx?ID=42\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 62\n\n**Perception** +13; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +13, [Intimidation](/Skills.aspx?ID=7) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** -1\r\n\r\n**Wis** +4\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +13 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=103)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 90\n\n</row>\n\n**Resistances**\r\n[acid](/Traits.aspx?ID=3) 5\r\n\r\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=272) 5, good 5\r\n\r\n**Restoration Vulnerability** A vloriak suffers agonizing pain when a creature or object recovers from a debilitating effect in its proximity. The first time in a round in which a creature who is affected by a negative condition and is within sight of the demon reduces that condition's value, the demon takes 3d6 mental damage and cannot Lick Rust on its next turn.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +15,\r\n**Damage** 2d6+6 slashing plus 1d6 evil\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntongue +15 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6 acid plus 1d6 evil and rust\r\n\r\n**Divine Innate Spells** DC 22, attack +14\r\n- **Cantrips (3rd)**\r\n[Acid Splash](/Spells.aspx?ID=3)\r\n- **2nd**\r\n[Acid Arrow](/Spells.aspx?ID=2) (×3), [Shatter](/Spells.aspx?ID=279)\r\n- **3rd**\r\n[Paralyze](/Spells.aspx?ID=213)\r\n\r\n**Lick Rust** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) **Requirements** The vloriak rusted a metal item with its tongue this turn; **Effect** The vloriak attempts a tongue Strike on the same target it just attacked. If it hits, it deals no damage as it licks away the rust and heals 2d6 Hit Points (or 4d6 Hit Points if the Strike was a critical hit). It can't Lick Rust on its next turn.\r\n\r\n**Rust**   A vloriak's saliva causes metal to rust rapidly. If it succeeds at a tongue Strike or [Disarm](/Actions.aspx?ID=41) attempt, the vloriak deals 2d6 damage (doubled on a critical hit) to a metal item the target is wearing or holding, ignoring its Hardness. If the vloriak hits an unattended metal item, the item takes this damage automatically. If a creature uses the [Shield Block](/Feats.aspx?ID=839) reaction with a metal shield against a tongue attack, the shield is automatically [broken](/Conditions.aspx?ID=2), but no other item is rusted on that attack.\r\n\r\n**Spew Rusted Shards** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65)) The vloriak spews a 15-foot cone of acid and rusted metal. Creatures in the area take 3d6 acid and 3d6 piercing damage (DC 22 [basic](/Rules.aspx?ID=329) Reflex save). A creature that takes any piercing damage is exposed to [tetanus](/Diseases.aspx?ID=3). The vloriak can't Spew Rusted Shards for 1d4 rounds.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Vlorian Influence</title>\r\n\r\nVloriaks hail from the otherworldly realm of Vlorus, and as such carry within themselves the potential for decay and rusting ruin. Other creatures that dwell in Vlorus— particularly fiends who rise to power there—can gain similar powers over rust as well. Fiends of any type can become infested with unique rust-themed abilities if they hail from this otherworldly realm.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-28\" />",
+ "name": "Vloriak",
+ "npc": false,
+ "perception": 13,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Rusthenge",
+ "primary_source_raw": "Rusthenge pg. 62",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Rusthenge",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 11,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-10-18",
+ "resistance": {
+  "acid": 5
+ },
+ "resistance_markdown": "[acid](/Traits.aspx?ID=3) 5",
+ "resistance_raw": " acid  5",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Demon\" url=\"/Traits.aspx?ID=42\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 62\r\n\r\n**Creature Family** [Demon](/MonsterFamilies.aspx?ID=28)\r\n\r\n<row gap=\"medium\">\r\n**HP** 90\r\n\r\n**AC** 21\r\n\r\n**Fort** +15\r\n\r\n**Ref** +11\r\n\r\n**Will** +13\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVloriaks rise from the sinful souls of those whose acts of sabotage resulted in despair and terror, and they delight in the destruction of mortal …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +13, [Intimidation](/Skills.aspx?ID=7) +12",
+ "skill_mod": {
+  "athletics": 13,
+  "intimidation": 12
+ },
+ "source": [
+  "Rusthenge"
+ ],
+ "source_raw": [
+  "Rusthenge pg. 62"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Rusthenge"
+ ],
+ "source_markdown": "[Rusthenge](/Sources.aspx?ID=215) pg. 62",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Paralyze",
+  "Acid Arrow",
+  "Shatter",
+  "Acid Splash"
+ ],
+ "spell_markdown": "[Acid Arrow](/Spells.aspx?ID=2), [Acid Splash](/Spells.aspx?ID=3), [Paralyze](/Spells.aspx?ID=213), [Shatter](/Spells.aspx?ID=279)",
+ "spell_attack_bonus": [
+  14
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  22
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Rusthenge",
+ "strike_damage_average": [
+  10,
+  16
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Vloriaks rise from the sinful souls of those whose acts of sabotage resulted in despair and terror, and they delight in the destruction of mortal …",
+ "summary_markdown": "Vloriaks rise from the sinful souls of those whose acts of sabotage resulted in despair and terror, and they delight in the destruction of mortal …",
+ "text": " Vloriak (Despoiler Demon) Vloriaks rise from the sinful souls of those whose acts of sabotage resulted in despair and terror, and they delight in the destruction of mortal artifice. Often called despoiler demons, vloriaks were the followers of Xar-Azmak. Their numbers have dwindled over the eons since the Lord of Rust's death; those that exist now are scattered throughout the Abyss. Their chitinous bodies and faceted eyes give them an insectile appearance. Recall Knowledge - Fiend (Religion): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Vloriak Source Rusthenge pg. 62 Perception +13; darkvision Languages Abyssal, Common; telepathy 100 feet Skills Athletics +13, Intimidation +12 Str +4 Dex +2 Con +4 Int -1 Wis +4 Cha +3 --- AC 21 Fort +15 Ref +11 Will +13 +1 status to all saves vs. magic HP 90 Resistances acid 5 Weaknesses cold iron 5, good 5 Restoration Vulnerability A vloriak suffers agonizing pain when a creature or object recovers from a debilitating effect in its proximity. The first time in a round in which a creature who is affected by a negative condition and is within sight of the demon reduces that condition's value, the demon takes 3d6 mental damage and cannot Lick Rust on its next turn. --- Speed 25 feet Melee Single Action claw +15, Damage 2d6+6 slashing plus 1d6 evil Melee Single Action tongue +15 (Agile, reach 10 feet), Damage 2d6 acid plus 1d6 evil and rust Divine Innate Spells DC 22, attack +14 - Cantrips (3rd) Acid Splash - 2nd Acid Arrow (×3), Shatter - 3rd Paralyze Lick Rust Single Action (Attack) Requirements The vloriak rusted a metal item with its tongue this turn; Effect The vloriak attempts a tongue Strike on the same target it just attacked. If it hits, it deals no damage as it licks away the rust and heals 2d6 Hit Points (or 4d6 Hit Points if the Strike was a critical hit). It can't Lick Rust on its next turn. Rust A vloriak's saliva causes metal to rust rapidly. If it succeeds at a tongue Strike or Disarm attempt, the vloriak deals 2d6 damage (doubled on a critical hit) to a metal item the target is wearing or holding, ignoring its Hardness. If the vloriak hits an unattended metal item, the item takes this damage automatically. If a creature uses the Shield Block reaction with a metal shield against a tongue attack, the shield is automatically broken, but no other item is rusted on that attack. Spew Rusted Shards Two Actions (Divine, Evocation) The vloriak spews a 15-foot cone of acid and rusted metal. Creatures in the area take 3d6 acid and 3d6 piercing damage (DC 22 basic Reflex save). A creature that takes any piercing damage is exposed to tetanus. The vloriak can't Spew Rusted Shards for 1d4 rounds. Vlorian Influence Vloriaks hail from the otherworldly realm of Vlorus, and as such carry within themselves the potential for decay and rusting ruin. Other creatures that dwell in Vlorus— particularly fiends who rise to power there—can gain similar powers over rust as well. Fiends of any type can become infested with unique rust-themed abilities if they hail from this otherworldly realm. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Demon",
+  "Fiend",
+  "Uncommon",
+  "CE",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Demon](/Traits.aspx?ID=42), [Fiend](/Traits.aspx?ID=70), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Demon",
+  "Fiend",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2727",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "cold_iron": 5,
+  "good": 5
+ },
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=272) 5, good 5",
+ "weakness_raw": " cold iron  5, good 5",
+ "will_save": 13,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

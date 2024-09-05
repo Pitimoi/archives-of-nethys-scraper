@@ -1,6 +1,5 @@
 {
  "ac": 25,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "Thievery  DC 20 to cut the string without setting off the trap",
@@ -19,22 +18,32 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 6,
- "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[Rigged Cubby](/Hazards.aspx?ID=379)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 51</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA hidden string connected to precariously stacked bricks causes the cubby to collapse in on itself when the string is pulled.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 25 (expert)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 20 to cut the string without setting off the trap\n\n<column gap=\"tiny\">\r\n\r\n**AC** 25, **Fort** +0, **Ref** +0\r\n\r\n**Hardness**\r\n0\r\n\r\n**HP**\r\n1\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Collapse** <actions string=\"Reaction\" /> **Trigger** A creature touches the sickle in the cubby; **Effect** The heavy bricks above the cubby collapse, leaving the sickle unscathed but dealing 4d6+10 bludgeoning damage (DC 26 [basic](/Rules.aspx?ID=329) Reflex save) to the triggering creature.",
+ "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[Rigged Cubby](/Hazards.aspx?ID=379)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 51\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA hidden string connected to precariously stacked bricks causes the cubby to collapse in on itself when the string is pulled.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 25 (expert)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 20 to cut the string without setting off the trap\n\n<column gap=\"tiny\">\r\n\r\n**AC** 25, **Fort** +0, **Ref** +0\r\n\r\n**Hardness**\r\n0\r\n\r\n**HP**\r\n1\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Collapse** <actions string=\"Reaction\" /> **Trigger** A creature touches the sickle in the cubby; **Effect** The heavy bricks above the cubby collapse, leaving the sickle unscathed but dealing 4d6+10 bludgeoning damage (DC 26 [basic](/Rules.aspx?ID=329) Reflex save) to the triggering creature.",
  "name": "Rigged Cubby",
+ "primary_source": "Pathfinder #158: Sixty Feet Under",
+ "primary_source_raw": "Pathfinder #158: Sixty Feet Under pg. 51",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 0,
  "release_date": "2020-08-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 51</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA hidden string connected to precariously stacked bricks causes the cubby to collapse in on itself when the string is pulled.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 51\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA hidden string connected to precariously stacked bricks causes the cubby to collapse in on itself when the string is pulled.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #158: Sixty Feet Under"
  ],
  "source_raw": [
   "Pathfinder #158: Sixty Feet Under pg. 51"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 51</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 51",
  "speed": {},
  "stealth": "DC 25 (expert)",
  "summary": "A hidden string connected to precariously stacked bricks causes the cubby to collapse in on itself when the string is pulled.",
@@ -43,6 +52,10 @@
  "trait": [
   "Mechanical",
   "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard"
  ],
  "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
  "trait_raw": [

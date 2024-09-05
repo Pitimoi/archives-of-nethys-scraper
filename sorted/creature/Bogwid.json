@@ -1,0 +1,154 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  14,
+  15
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Revolting Aura",
+  "Bogwid Fever",
+  "Ravenous Young"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 100,
+ "hp_raw": "100",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2859",
+ "image": [
+  "/Images/Monsters/Bogwid.webp"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Bogwid](/Monsters.aspx?ID=2859)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe abhorrent combination between a toad and an octopus, a bogwid drags its bloated green body through the swamps in search of a meal for the many larvae it carries on its back. Despite its absurd appearance and its pervasive scent, a bogwid is an ambush hunter. It will hide itself in sand, vegetation, or whatever happens to be around and wait patiently until a larger creature, such as a humanoid or a crocodile, approaches, before it attacks. A desperate bogwid may even attack a small group in search of food for both it and its young. Once it has a suitably large corpse, the larvae on its back will leap onto it and begin fighting each other for their one chance at survival. The remaining larva buries itself in the body and begins devouring it over the next couple of weeks. Afterward, a fully grown bogwid emerges from what is left of the rotting corpse. Within a week of its new life, the young bogwid too will begin asexually producing larvae on its back, repeating the cycle.\n\n Bogwids earned their name due to their environment. They are almost exclusively found in bogs and swamps. Occasionally one might be found in a suitable warm environment closer to civilization, but they are too often hunted if they are seen near a town or settlement. Some have discovered that bogwids have an extremely negative reaction when introduced to the cold and will violently attack whatever they perceive to be the source.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Aberration](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=44)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Bogwid.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Bogwid](/Monsters.aspx?ID=2859)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=523\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 46\n\n**Perception** +12; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +13, [Intimidation](/Skills.aspx?ID=7) +11, [Stealth](/Skills.aspx?ID=15) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +4\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** -2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\n\n</row>\n\n**Revolting Aura** ([aura](/Traits.aspx?ID=542), [olfactory](/Traits.aspx?ID=664)) 20 feet. A creature entering the aura or beginning their turn in the aura must succeed at a DC 20 Fortitude save or become [sickened](/Conditions.aspx?ID=91) 1 (or sickened 2 on a critical failure). A creature that succeeds is temporarily immune to the aura for 1 minute.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 20 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +15,\r\n**Damage** 2d8+8 bludgeoning plus bogwid fever\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nlarval spit +14 ([range increment 10 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d8 [persistent bleed](/Conditions.aspx?ID=29) plus ravenous young\n\n**Bogwid Fever**  ([Disease](/Traits.aspx?ID=46)) **Saving Throw** DC 20 Fortitude; **Onset** 1 day; **Stage 1** enfeebled 1 (1 day); **Stage 2** enfeebled 2, and the DC to recover from [persistent bleed](/Conditions.aspx?ID=29) is increased by 2 (1 day); **Stage 3** enfeebled 3, and the DC to recover from persistent bleed is increased by 5 (1 day); **Stage 4** enfeebled 4, the DC to recover from persistent bleed is increased by 5, and you take 1d8 persistent bleed damage every 1d4 hours (1 day)\r\n\r\n**Ravenous Young**   The larvae launched from the bogwid attach themselves to the target and begin to feed. Once a larva is attached, the target becomes [drained 1](/Conditions.aspx?ID=68). While the larva remains attached, the target cannot recover from [persistent bleed](/Conditions.aspx?ID=29). To remove the larva, the target can attempt a DC 21 [Escape](/Actions.aspx?ID=2296) check. Additionally, any area damage dealt to the target destroys all attached larvae.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons//\">Swamp Bodies</title>\r\n\r\nWhile a bogwid does not have a lair and does not carry any treasure, a bogwid's presence is often foreshadowed by the discovery of bodies with large gaping holes in their chests. Though these will often just come in the form of crocodiles and other large predators, a lucky adventurer might just stumble upon the corpse of a much less lucky adventurer.\r\n</aside>",
+ "name": "Bogwid",
+ "npc": false,
+ "perception": 12,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 46",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 12,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=523\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 46\n\n<row gap=\"medium\">\r\n**HP** 100\r\n\r\n**AC** 20\r\n\r\n**Fort** +15\r\n\r\n**Ref** +12\r\n\r\n**Will** +8\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe abhorrent combination between a toad and an octopus, a bogwid drags its bloated green body through the swamps in search of a meal for the many …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +13, [Intimidation](/Skills.aspx?ID=7) +11, [Stealth](/Skills.aspx?ID=15) +10",
+ "skill_mod": {
+  "athletics": 13,
+  "intimidation": 11,
+  "stealth": 10
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 46"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 46",
+ "speed": {
+  "climb": 20,
+  "land": 25,
+  "max": 25,
+  "swim": 20
+ },
+ "speed_markdown": "25 feet, climb 20 feet, swim 20 feet",
+ "speed_raw": "25 feet, climb 20 feet, swim 20 feet",
+ "spell_markdown": "",
+ "stealth": "10",
+ "strike_damage_average": [
+  9,
+  17
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "The abhorrent combination between a toad and an octopus, a bogwid drags its bloated green body through the swamps in search of a meal for the many …",
+ "summary_markdown": "The abhorrent combination between a toad and an octopus, a bogwid drags its bloated green body through the swamps in search of a meal for the many …",
+ "text": " Bogwid The abhorrent combination between a toad and an octopus, a bogwid drags its bloated green body through the swamps in search of a meal for the many larvae it carries on its back. Despite its absurd appearance and its pervasive scent, a bogwid is an ambush hunter. It will hide itself in sand, vegetation, or whatever happens to be around and wait patiently until a larger creature, such as a humanoid or a crocodile, approaches, before it attacks. A desperate bogwid may even attack a small group in search of food for both it and its young. Once it has a suitably large corpse, the larvae on its back will leap onto it and begin fighting each other for their one chance at survival. The remaining larva buries itself in the body and begins devouring it over the next couple of weeks. Afterward, a fully grown bogwid emerges from what is left of the rotting corpse. Within a week of its new life, the young bogwid too will begin asexually producing larvae on its back, repeating the cycle. Bogwids earned their name due to their environment. They are almost exclusively found in bogs and swamps. Occasionally one might be found in a suitable warm environment closer to civilization, but they are too often hunted if they are seen near a town or settlement. Some have discovered that bogwids have an extremely negative reaction when introduced to the cold and will violently attack whatever they perceive to be the source. Recall Knowledge - Aberration (Occultism): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Bogwid Source Monster Core pg. 46 Perception +12; darkvision Languages Skills Athletics +13, Intimidation +11, Stealth +10 Str +5 Dex +4 Con +4 Int -4 Wis -2 Cha +1 --- AC 20 Fort +15 Ref +12 Will +8 HP 100 Revolting Aura (aura, olfactory) 20 feet. A creature entering the aura or beginning their turn in the aura must succeed at a DC 20 Fortitude save or become sickened 1 (or sickened 2 on a critical failure). A creature that succeeds is temporarily immune to the aura for 1 minute. --- Speed 25 feet, climb 20 feet, swim 20 feet Melee Single Action tentacle +15, Damage 2d8+8 bludgeoning plus bogwid fever Ranged Single Action larval spit +14 (range increment 10 feet), Damage 2d8 persistent bleed plus ravenous young Bogwid Fever (Disease) Saving Throw DC 20 Fortitude; Onset 1 day; Stage 1 enfeebled 1 (1 day); Stage 2 enfeebled 2, and the DC to recover from persistent bleed is increased by 2 (1 day); Stage 3 enfeebled 3, and the DC to recover from persistent bleed is increased by 5 (1 day); Stage 4 enfeebled 4, the DC to recover from persistent bleed is increased by 5, and you take 1d8 persistent bleed damage every 1d4 hours (1 day) Ravenous Young The larvae launched from the bogwid attach themselves to the target and begin to feed. Once a larva is attached, the target becomes drained 1. While the larva remains attached, the target cannot recover from persistent bleed. To remove the larva, the target can attempt a DC 21 Escape check. Additionally, any area damage dealt to the target destroys all attached larvae. Swamp Bodies While a bogwid does not have a lair and does not carry any treasure, a bogwid's presence is often foreshadowed by the discovery of bodies with large gaping holes in their chests. Though these will often just come in the form of crocodiles and other large predators, a lucky adventurer might just stumble upon the corpse of a much less lucky adventurer. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Aberration",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Aberration](/Traits.aspx?ID=523)",
+ "trait_raw": [
+  "Aberration"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2859",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 8,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": -2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

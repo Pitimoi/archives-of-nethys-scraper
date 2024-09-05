@@ -1,10 +1,24 @@
 {
- "ac": 19,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  12,
+  12
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Tail Lash",
   "Caustic Mucus",
@@ -12,62 +26,94 @@
   "Speed Surge"
  ],
  "creature_family": "Drake",
- "creature_family_markdown": "[Drake](/MonsterFamilies.aspx?ID=36)",
+ "creature_family_markdown": "[Drake](/MonsterFamilies.aspx?ID=404)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 11,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 45,
  "hp_raw": "45",
- "id": "creature-159",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2958",
  "image": [
-  "/Images/Monsters/Drake_RiverDrake.png"
+  "/Images/Monsters/River_Drake.webp"
  ],
  "immunity": [
   "paralyzed",
-  "unconscious"
+  "sleep"
  ],
- "immunity_markdown": "paralyzed, unconscious",
+ "immunity_markdown": "[paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Draconic"
  ],
  "language_markdown": "[Draconic](/Languages.aspx?ID=2)",
+ "legacy_id": "creature-159",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[River Drake](/Monsters.aspx?ID=159)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlthough the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant relatives of the black dragon. While smaller than most drakes, river drakes are more than capable of plaguing river travelers and are equally at home above and below the water’s surface. This flexibility allows them to catch a wide variety of prey, from fish and boggards to deer and the occasional ferry passenger.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Drake_RiverDrake.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[River Drake](/Monsters.aspx?ID=159)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 131</row>\n\n**Perception** +9; darkvision, scent (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +10, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 45\n\n**Immunities**\r\nparalyzed, unconscious\r\n\r\n**Resistances**\r\nacid 10\n\n**Tail Lash** <actions string=\"Reaction\" /> **Trigger** A creature within reach of the river drake’s tail uses an action to Strike or attempt a skill check. **Effect** The river drake attempts to Strike the triggering creature with its tail. If it hits, the creature takes a –2 circumstance penalty to the triggering roll.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, fly 50 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +12,\r\n**Damage** 2d8+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +12 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+3 bludgeoning\n\n**Caustic Mucus** <actions string=\"Two Actions\" /> ([Acid](/Traits.aspx?ID=3), [Arcane](/Traits.aspx?ID=11), [Evocation](/Traits.aspx?ID=65)) The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a 10-foot burst. Creatures within the burst take 4d6 acid damage (DC 19 [basic](/Rules.aspx?ID=329) Reflex save). Those that fail this save also take 1d6 [persistent](/Conditions.aspx?ID=29) acid damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage. The river drake can't use Caustic Mucus again for 1d6 rounds.\r\n\r\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The river drake makes one Fangs Strike and two Tail Strikes in any order.\r\n\r\n**Speed Surge** <actions string=\"Single Action\" /> ([Move](/Traits.aspx?ID=114)) The river drake moves up to twice its Speed. It can do this three times per day\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-36\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[River Drake](/Monsters.aspx?ID=2958)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlthough the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant relatives of the dragons that rule the oceans. While smaller than most drakes, river drakes are more than capable of plaguing river travelers and are equally at home above and below the water's surface. This flexibility allows them to catch a wide variety of prey, from fish and boggards to deer and the occasional ferry passenger.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/River_Drake.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[River Drake](/Monsters.aspx?ID=2958)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 129\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +10, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n</row>\r\n\r\n**Immunities**\r\n[paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\r\n\r\n**Resistances**\r\n[acid](/Traits.aspx?ID=524) 10\n\n**Tail Lash** <actions string=\"Reaction\" /> **Trigger** A creature within reach of the river drake's tail uses an action to Strike or attempt a skill check; **Effect** The river drake attempts to Strike the triggering creature with their tail. If it hits, the target takes a –2 circumstance penalty to the triggering roll.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, fly 50 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +12,\r\n**Damage** 2d8+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +12 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+3 bludgeoning\n\n**Caustic Mucus** <actions string=\"Two Actions\" /> ([Acid](/Traits.aspx?ID=3), [Primal](/Traits.aspx?ID=134)) The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a 10-foot burst. Creatures within the burst take 4d6 acid damage (DC 19 [basic](/Rules.aspx?ID=329) Reflex save). Those that fail this save also take 1d6 [persistent acid damage](/Conditions.aspx?ID=29) and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage. The river drake can't use Caustic Mucus again for 1d6 rounds.\r\n\r\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The river drake makes one fangs Strike and two tail Strikes in any order.\r\n\r\n**Speed Surge** <actions string=\"Single Action\" /> ([Move](/Traits.aspx?ID=114)) **Frequency** three times per day; **Effect** The river drake Strides or Flies twice.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-404\" />",
  "name": "River Drake",
  "npc": false,
  "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 129",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 9,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "acid": 10
  },
- "resistance_markdown": "acid 10",
- "resistance_raw": "acid 10",
- "search_markdown": "<traits>\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 131</row>\r\n\r\n**Creature Family** [Drake](/MonsterFamilies.aspx?ID=36)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +11\r\n\r\n**Ref** +9\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlthough the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant …\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 30 feet",
- "sense_markdown": "darkvision, scent (imprecise) 30 feet",
+ "resistance_markdown": "[acid](/Traits.aspx?ID=524) 10",
+ "resistance_raw": " acid  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 129\r\n\r\n**Creature Family** [Drake](/MonsterFamilies.aspx?ID=404)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 17\r\n\r\n**Fort** +11\r\n\r\n**Ref** +9\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlthough the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +11",
-  "Athletics +10",
-  "Intimidation +6",
-  "Stealth +9",
-  "Survival +7"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +10, [Intimidation](/Skills.aspx?ID=7) +6, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +7",
+ "skill_mod": {
+  "acrobatics": 11,
+  "athletics": 10,
+  "intimidation": 6,
+  "stealth": 9,
+  "survival": 7
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 131"
+  "Monster Core pg. 129"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 131</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 129",
  "speed": {
   "fly": 50,
   "land": 20,
@@ -78,34 +124,58 @@
  "speed_raw": "20 feet, fly 50 feet, swim 30 feet",
  "spell_markdown": "",
  "stealth": "9",
+ "strike_damage_average": [
+  10,
+  12
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "Although the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant …",
  "summary_markdown": "Although the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant …",
- "text": " River Drake Although the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant relatives of the black dragon. While smaller than most drakes, river drakes are more than capable of plaguing river travelers and are equally at home above and below the water’s surface. This flexibility allows them to catch a wide variety of prey, from fish and boggards to deer and the occasional ferry passenger. Recall Knowledge - Dragon (Arcana): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 River Drake Source Bestiary pg. 131 Perception +9; darkvision, scent (imprecise) 30 feet Languages Draconic Skills Acrobatics +11, Athletics +10, Intimidation +6, Stealth +9, Survival +7 Str +3 Dex +4 Con +2 Int -1 Wis +2 Cha -1 --- AC 19 Fort +11 Ref +9 Will +7 HP 45 Immunities paralyzed, unconscious Resistances acid 10 Tail Lash Reaction Trigger A creature within reach of the river drake’s tail uses an action to Strike or attempt a skill check. Effect The river drake attempts to Strike the triggering creature with its tail. If it hits, the creature takes a –2 circumstance penalty to the triggering roll. --- Speed 20 feet, fly 50 feet, swim 30 feet Melee Single Action fangs +12, Damage 2d8+3 piercing Melee Single Action tail +12 (reach 10 feet), Damage 2d6+3 bludgeoning Caustic Mucus Two Actions (Acid, Arcane, Evocation) The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a 10-foot burst. Creatures within the burst take 4d6 acid damage (DC 19 basic Reflex save). Those that fail this save also take 1d6 persistent acid damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage. The river drake can't use Caustic Mucus again for 1d6 rounds. Draconic Frenzy Two Actions The river drake makes one Fangs Strike and two Tail Strikes in any order. Speed Surge Single Action (Move) The river drake moves up to twice its Speed. It can do this three times per day ",
+ "text": " River Drake Although the glistening scales and sleek, fin-like wings on these drakes give them an appearance reminiscent of river fish, they are actually distant relatives of the dragons that rule the oceans. While smaller than most drakes, river drakes are more than capable of plaguing river travelers and are equally at home above and below the water's surface. This flexibility allows them to catch a wide variety of prey, from fish and boggards to deer and the occasional ferry passenger. Recall Knowledge - Dragon (Arcana): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 River Drake Source Monster Core pg. 129 Perception +9; darkvision, scent (imprecise) 30 feet Languages Draconic Skills Acrobatics +11, Athletics +10, Intimidation +6, Stealth +9, Survival +7 Str +3 Dex +4 Con +2 Int -1 Wis +2 Cha -1 --- AC 17 Fort +11 Ref +9 Will +7 HP 45 Immunities paralyzed, sleep Resistances acid 10 Tail Lash Reaction Trigger A creature within reach of the river drake's tail uses an action to Strike or attempt a skill check; Effect The river drake attempts to Strike the triggering creature with their tail. If it hits, the target takes a –2 circumstance penalty to the triggering roll. --- Speed 20 feet, fly 50 feet, swim 30 feet Melee Single Action fangs +12, Damage 2d8+3 piercing Melee Single Action tail +12 (reach 10 feet), Damage 2d6+3 bludgeoning Caustic Mucus Two Actions (Acid, Primal) The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a 10-foot burst. Creatures within the burst take 4d6 acid damage (DC 19 basic Reflex save). Those that fail this save also take 1d6 persistent acid damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage. The river drake can't use Caustic Mucus again for 1d6 rounds. Draconic Frenzy Two Actions The river drake makes one fangs Strike and two tail Strikes in any order. Speed Surge Single Action (Move) Frequency three times per day; Effect The river drake Strides or Flies twice. ",
+ "tradition_markdown": "",
  "trait": [
   "Amphibious",
   "Dragon",
   "Water",
-  "NE",
   "Medium"
  ],
- "trait_markdown": "[Amphibious](/Traits.aspx?ID=207), [Dragon](/Traits.aspx?ID=50), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Dragon](/Traits.aspx?ID=581), [Water](/Traits.aspx?ID=732)",
  "trait_raw": [
   "Amphibious",
   "Dragon",
   "Water"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=159",
+ "url": "/Monsters.aspx?ID=2958",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

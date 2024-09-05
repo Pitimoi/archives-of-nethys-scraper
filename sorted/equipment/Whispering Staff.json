@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -8,36 +7,47 @@
  "id": "equipment-2146",
  "item_category": "Staves",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Whispering Staff](/Equipment.aspx?ID=2146)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Staff\" url=\"/Traits.aspx?ID=151\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 105 <sup>1.1</sup></row>\n\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a variety of languages in sibilant tones, creating what seems to be nonsense to all but the staff's wielder or those they choose to affect. The staff functions as a [_major staff of divination_](/Equipment.aspx?ID=353). While using the staff, you gain a +3 item bonus to [Decipher Writing](/Actions.aspx?ID=22), [Identify Magic](/Actions.aspx?ID=24), and [Recall Knowledge](/Actions.aspx?ID=26) checks, regardless of the skill. When you invest the staff, you either increase your Intelligence score by 2 or increase it to 18, whichever is higher. You must select the skills and languages the first time you invest the item, and whenever you invest the same _whispering staff_, you get the same skills and languages you chose the first time.\n\n<document level=\"2\" id=\"action-1649\" />\n\n<document level=\"2\" id=\"action-1650\" />\n\n<document level=\"2\" id=\"action-1651\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Limited\"\r\n>\r\n[Whispering Staff](/Equipment.aspx?ID=2146)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Staff\" url=\"/Traits.aspx?ID=151\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 105 <sup>1.1</sup>\n\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a variety of languages in sibilant tones, creating what seems to be nonsense to all but the staff's wielder or those they choose to affect. The staff functions as a [_major staff of divination_](/Equipment.aspx?ID=353). While using the staff, you gain a +3 item bonus to [Decipher Writing](/Actions.aspx?ID=22), [Identify Magic](/Actions.aspx?ID=24), and [Recall Knowledge](/Actions.aspx?ID=26) checks, regardless of the skill. When you invest the staff, you either increase your Intelligence score by 2 or increase it to 18, whichever is higher. You must select the skills and languages the first time you invest the item, and whenever you invest the same _whispering staff_, you get the same skills and languages you chose the first time.\n\n**Activate** <actions string=\"Single Action\" /> envision ([mental](/Traits.aspx?ID=106)) **Frequency** once per round;   **Effect** Through the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of your next turn, that creature is [flat-footed](/Conditions.aspx?ID=16) to you and takes a –2 circumstance penalty to saving throws against your spells.\n\n**Activate** <actions string=\"Two Actions\" /> Interact ([mental](/Traits.aspx?ID=106), [misfortune](/Traits.aspx?ID=110)) **Frequency** once per hour;   **Effect** You point the staff at one creature you can see within 30 feet of you, causing the whispers to howl in that creature's mind. The target must attempt a DC 43 Will save. If it fails, whenever the creature attempts an attack roll, skill check, or saving throw, it must roll twice and take the worse roll. This lasts until the start of your next turn.\n\n**Activate** <actions string=\"Two Actions\" /> envision ([fortune](/Traits.aspx?ID=76), [mental](/Traits.aspx?ID=106)) **Frequency** once per day;   **Effect** You twirl the staff in three consecutive circles and call for the whispers to speak up. For the next minute, you and all allies within a 30-foot emanation around you can hear your staff's whispers clearly and distinctly, gaining benefit from their advice and mental protection. Whenever you and your affected allies attempt to Recall Knowledge or attempt a saving throw against a [mental](/Traits.aspx?ID=106) effect, you roll twice and take the better result. This is a [fortune](/Traits.aspx?ID=76) effect.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Whispering Staff",
- "pfs": "Standard",
+ "pfs": "Limited",
  "price": 7000000,
  "price_raw": "70,000 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 105",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Staff\" url=\"/Traits.aspx?ID=151\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 105 <sup>1.1</sup></row>\r\n\r\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Staff\" url=\"/Traits.aspx?ID=151\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 105 <sup>1.1</sup>\r\n\r\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 105"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 105 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 105 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a …",
  "summary_markdown": "This gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a …",
- "text": "<title level=\"1\" right=\"Item 20\" pfs=\"Standard\" > Whispering Staff Source Treasure Vault pg. 105 1.1 Price 70,000 gp Usage held in 1 hand Bulk 1 --- This gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a variety of languages in sibilant tones, creating what seems to be nonsense to all but the staff's wielder or those they choose to affect. The staff functions as a major staff of divination . While using the staff, you gain a +3 item bonus to Decipher Writing, Identify Magic, and Recall Knowledge checks, regardless of the skill. When you invest the staff, you either increase your Intelligence score by 2 or increase it to 18, whichever is higher. You must select the skills and languages the first time you invest the item, and whenever you invest the same whispering staff , you get the same skills and languages you chose the first time.\n",
+ "text": "<title level=\"1\" right=\"Item 20\" pfs=\"Limited\" > Whispering Staff Source Treasure Vault pg. 105 1.1 Price 70,000 gp Usage held in 1 hand Bulk 1 --- This gnarled wooden staff is carved with humanoid faces in various emotional states. When the staff is activated, the faces begin to whisper a variety of languages in sibilant tones, creating what seems to be nonsense to all but the staff's wielder or those they choose to affect. The staff functions as a major staff of divination . While using the staff, you gain a +3 item bonus to Decipher Writing, Identify Magic, and Recall Knowledge checks, regardless of the skill. When you invest the staff, you either increase your Intelligence score by 2 or increase it to 18, whichever is higher. You must select the skills and languages the first time you invest the item, and whenever you invest the same whispering staff , you get the same skills and languages you chose the first time. Activate Single Action envision (mental) Frequency once per round; Effect Through the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of your next turn, that creature is flat-footed to you and takes a –2 circumstance penalty to saving throws against your spells. Activate Two Actions Interact (mental, misfortune) Frequency once per hour; Effect You point the staff at one creature you can see within 30 feet of you, causing the whispers to howl in that creature's mind. The target must attempt a DC 43 Will save. If it fails, whenever the creature attempts an attack roll, skill check, or saving throw, it must roll twice and take the worse roll. This lasts until the start of your next turn. Activate Two Actions envision (fortune, mental) Frequency once per day; Effect You twirl the staff in three consecutive circles and call for the whispers to speak up. For the next minute, you and all allies within a 30-foot emanation around you can hear your staff's whispers clearly and distinctly, gaining benefit from their advice and mental protection. Whenever you and your affected allies attempt to Recall Knowledge or attempt a saving throw against a mental effect, you roll twice and take the better result. This is a fortune effect.\n",
  "trait": [
   "Apex",
   "Divination",
   "Invested",
   "Magical",
   "Staff"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Divination](/Traits.aspx?ID=47), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Staff](/Traits.aspx?ID=151)",
  "trait_raw": [

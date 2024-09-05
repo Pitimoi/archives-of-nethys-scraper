@@ -1,0 +1,165 @@
+{
+ "ac": 26,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "N",
+ "attack_bonus": [
+  18,
+  20
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Relentless",
+  "Shake It Off",
+  "Clumsy Leap",
+  "Killing Shake",
+  "Rock Tunneler",
+  "Swallow Whole"
+ ],
+ "creature_family": "Cave Worm",
+ "creature_family_markdown": "[Cave Worm](/MonsterFamilies.aspx?ID=21)",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 20,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 170,
+ "hp_raw": "170",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2705",
+ "image": [
+  "/Images/Monsters/CaveWorm_Juvenile.png"
+ ],
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"\">[Juvenile Cave Worm](/Monsters.aspx?ID=2705)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA juvenile cave worm has left its brood or eaten them, and has started to establish its own territory, hunting in regular intervals. These young worms tend to be more aggressive towards other life forms than their relatively mellow adult kin.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/CaveWorm_Juvenile.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Juvenile Cave Worm](/Monsters.aspx?ID=2705)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 84\n\n**Perception** +12; [darkvision](/MonsterAbilities.aspx?ID=12), [tremorsense](/MonsterAbilities.aspx?ID=40) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Stealth](/Skills.aspx?ID=15) +14\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +0\r\n\r\n**Con** +6\r\n\r\n**Int** -5\r\n\r\n**Wis** -2\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 170\n\n</row>\n\n**Relentless** When a juvenile cave worm gains the [paralyzed](/Conditions.aspx?ID=28), [slowed](/Conditions.aspx?ID=35), or [stunned](/Conditions.aspx?ID=36) condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Speeds and the [immobilized](/Conditions.aspx?ID=24) condition at the end of its turn. Finally, it ignores non-magical [difficult terrain](/Rules.aspx?ID=453) and treats greater difficult terrain like difficult terrain.<br />**Shake It Off** <actions string=\"Reaction\" /> **Frequency** once per day; **Trigger** The juvenile cave worm would be affected by a condition or adverse effect (such as [_baleful polymorph_](/Spells.aspx?ID=17)); **Effect** The juvenile cave worm negates the triggering condition or effect. Effects from [artifacts](/Traits.aspx?ID=253), deities, or a similarly powerful source can't be avoided in this way.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, burrow 30 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +20 ([deadly d10](/Traits.aspx?ID=174), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+9 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=27)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbody +18,\r\n**Damage** 1d8+10 bludgeoning\n\n**Clumsy Leap** <actions string=\"Two Actions\" />  The cave worm flings its body, [Leaping](/Actions.aspx?ID=81) 30 feet. If it lands next to a creature, it can Strike that creature with its jaws. If the jaws Strike fails, it can Strike with its body using the same multiple attack penalty as the failed jaws Strike, but it becomes [flat-footed](/Conditions.aspx?ID=16) until the start of its next turn.\r\n\r\n**Killing Shake** <actions string=\"Two Actions\" />  **Requirements** The juvenile cave worm has a Medium or smaller creature [grabbed](/Conditions.aspx?ID=20); **Effect** The juvenile cave worm shakes the creature back and forth quickly, tearing flesh with its multiple rows of teeth. The target takes 2d12+9 slashing damage and is knocked [prone](/Conditions.aspx?ID=31). If the creature is adjacent to a solid surface, such as a stone wall, it takes an additional 2d6 bludgeoning damage. The creature attempts a DC 23 [basic](/Rules.aspx?ID=329) Reflex save against all damage; if the creature succeeds, it isn't knocked prone.\r\n\r\n**Rock Tunneler**   A juvenile cave worm can burrow through solid stone at a Speed of 10 feet. It can leave a tunnel if it desires, and it usually does.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=35)** <actions string=\"Single Action\" />  Medium, 1d8+10 bludgeoning, Rupture 18\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Brood Variance</title>\r\n\r\nThe cave worms presented here are typical of standard rock worms. For crimson worms, use the [elite](/Rules.aspx?ID=790) adjustment and add immunity to [fire](/Traits.aspx?ID=72). For azure worms, increase their swim Speed to 40. Gray worms gain [negative healing](/MonsterAbilities.aspx?ID=42) and a weakness to [positive](/Traits.aspx?ID=128) energy 5. Glacial worms gain immunity to [cold](/Traits.aspx?ID=27).\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-21\" />",
+ "name": "Juvenile Cave Worm",
+ "npc": false,
+ "perception": 12,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 84",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 14,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-09-23",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 84\r\n\r\n**Creature Family** [Cave Worm](/MonsterFamilies.aspx?ID=21)\r\n\r\n<row gap=\"medium\">\r\n**HP** 170\r\n\r\n**AC** 26\r\n\r\n**Fort** +20\r\n\r\n**Ref** +14\r\n\r\n**Will** +10\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA juvenile cave worm has left its brood or eaten them, and has started to establish its own territory, hunting in regular intervals. These young …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  ( imprecise ) 100 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [tremorsense](/MonsterAbilities.aspx?ID=40) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +18, [Stealth](/Skills.aspx?ID=15) +14",
+ "skill_mod": {
+  "athletics": 18,
+  "stealth": 14
+ },
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 84"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 84",
+ "speed": {
+  "burrow": 30,
+  "land": 30,
+  "max": 30,
+  "swim": 20
+ },
+ "speed_markdown": "30 feet, burrow 30 feet, swim 20 feet",
+ "speed_raw": "30 feet, burrow 30 feet, swim 20 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "stealth": "14",
+ "strike_damage_average": [
+  14,
+  22
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "A juvenile cave worm has left its brood or eaten them, and has started to establish its own territory, hunting in regular intervals. These young …",
+ "summary_markdown": "A juvenile cave worm has left its brood or eaten them, and has started to establish its own territory, hunting in regular intervals. These young …",
+ "text": " Juvenile Cave Worm A juvenile cave worm has left its brood or eaten them, and has started to establish its own territory, hunting in regular intervals. These young worms tend to be more aggressive towards other life forms than their relatively mellow adult kin. Recall Knowledge - Animal (Nature): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Juvenile Cave Worm Source Pathfinder #195: Heavy is the Crown pg. 84 Perception +12; darkvision, tremorsense (imprecise) 100 feet Languages Skills Athletics +18, Stealth +14 Str +6 Dex +0 Con +6 Int -5 Wis -2 Cha -1 --- AC 26 Fort +20 Ref +14 Will +10 HP 170 Relentless When a juvenile cave worm gains the paralyzed, slowed, or stunned condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Speeds and the immobilized condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain. Shake It Off Reaction Frequency once per day; Trigger The juvenile cave worm would be affected by a condition or adverse effect (such as baleful polymorph ); Effect The juvenile cave worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way. --- Speed 30 feet, burrow 30 feet, swim 20 feet Melee Single Action jaws +20 (deadly d10, reach 10 feet), Damage 2d12+9 piercing plus Improved Grab Melee Single Action body +18, Damage 1d8+10 bludgeoning Clumsy Leap Two Actions The cave worm flings its body, Leaping 30 feet. If it lands next to a creature, it can Strike that creature with its jaws. If the jaws Strike fails, it can Strike with its body using the same multiple attack penalty as the failed jaws Strike, but it becomes flat-footed until the start of its next turn. Killing Shake Two Actions Requirements The juvenile cave worm has a Medium or smaller creature grabbed; Effect The juvenile cave worm shakes the creature back and forth quickly, tearing flesh with its multiple rows of teeth. The target takes 2d12+9 slashing damage and is knocked prone. If the creature is adjacent to a solid surface, such as a stone wall, it takes an additional 2d6 bludgeoning damage. The creature attempts a DC 23 basic Reflex save against all damage; if the creature succeeds, it isn't knocked prone. Rock Tunneler A juvenile cave worm can burrow through solid stone at a Speed of 10 feet. It can leave a tunnel if it desires, and it usually does. Swallow Whole Single Action Medium, 1d8+10 bludgeoning, Rupture 18 Brood Variance The cave worms presented here are typical of standard rock worms. For crimson worms, use the elite adjustment and add immunity to fire. For azure worms, increase their swim Speed to 40. Gray worms gain negative healing and a weakness to positive energy 5. Glacial worms gain immunity to cold. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Uncommon",
+  "N",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Animal",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2705",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 10,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": -2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

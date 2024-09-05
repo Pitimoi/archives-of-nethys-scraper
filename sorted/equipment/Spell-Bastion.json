@@ -1,40 +1,51 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1392",
  "item_category": "Runes",
  "item_subcategory": "Accessory Runes",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spell-Bastion](/Equipment.aspx?ID=1392)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 89</row>\n\n**Price** 2,700 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** applied to shield\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _spell-bastion_ rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or lower into the shield. The spell must take 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect—it's instead stored for later. When you invest a _spell-bastion_ shield, you immediately know the name and level of the stored spell. A _spell-bastion_ shield found as treasure has a 50% chance of having a spell of the GM's choice stored in it.\n\n<document level=\"2\" id=\"action-1076\" />\n\n<document level=\"2\" id=\"action-1077\" />\n\n<document level=\"2\" id=\"action-1078\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spell-Bastion](/Equipment.aspx?ID=1392)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 89\n\n**Price** 2,700 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** applied to shield\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _spell-bastion_ rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or lower into the shield. The spell must take 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect—it's instead stored for later. When you invest a _spell-bastion_ shield, you immediately know the name and level of the stored spell. A _spell-bastion_ shield found as treasure has a 50% chance of having a spell of the GM's choice stored in it.\n\n**Activate** <actions string=\"Single Action\" /> envision;    **Requirements** Your _spell-bastion_ shield is storing a spell, and you have your shield raised; **Effect** You prepare to unleash the stored spell on any foe that hits you until your next turn.\n\n**Activate** <actions string=\"Free Action\" /> command;   **Trigger** You use the [Shield Block](/Feats.aspx?ID=839) reaction against a foe that the stored spell can target; **Requirements** You have a spell stored in your _spell-bastion_ shield, and you've activated the shield since your last turn in preparation for unleashing the spell; **Effect** You unleash the stored spell, which uses the target of the triggering attack as the target of the spell. This empties the spell from the shield and allows a spell to be cast into it again.\n\n**Activate** <actions string=\"Single Action\" /> command;     **Effect** You harmlessly expend the stored spell. This frees the shield to have a new spell cast into it.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Spell-Bastion",
  "pfs": "Standard",
  "price": 270000,
  "price_raw": "2,700 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 89",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 89</row>\r\n\r\n**Price** 2,700 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** applied to shield\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  spell-bastion  rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 89\r\n\r\n**Price** 2,700 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** applied to shield\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  spell-bastion  rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 89"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 89</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 89",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A  spell-bastion  rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or …",
  "summary_markdown": "A  spell-bastion  rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or …",
- "text": "<title level=\"1\" right=\"Item 13\" pfs=\"Standard\" > Spell-Bastion Source Grand Bazaar pg. 89 Price 2,700 gp Usage applied to shield --- A spell-bastion rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or lower into the shield. The spell must take 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect—it's instead stored for later. When you invest a spell-bastion shield, you immediately know the name and level of the stored spell. A spell-bastion shield found as treasure has a 50% chance of having a spell of the GM's choice stored in it.\n",
+ "text": "<title level=\"1\" right=\"Item 13\" pfs=\"Standard\" > Spell-Bastion Source Grand Bazaar pg. 89 Price 2,700 gp Usage applied to shield --- A spell-bastion rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or lower into the shield. The spell must take 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect—it's instead stored for later. When you invest a spell-bastion shield, you immediately know the name and level of the stored spell. A spell-bastion shield found as treasure has a 50% chance of having a spell of the GM's choice stored in it. Activate Single Action envision; Requirements Your spell-bastion shield is storing a spell, and you have your shield raised; Effect You prepare to unleash the stored spell on any foe that hits you until your next turn. Activate Free Action command; Trigger You use the Shield Block reaction against a foe that the stored spell can target; Requirements You have a spell stored in your spell-bastion shield, and you've activated the shield since your last turn in preparation for unleashing the spell; Effect You unleash the stored spell, which uses the target of the triggering attack as the target of the spell. This empties the spell from the shield and allows a spell to be cast into it again. Activate Single Action command; Effect You harmlessly expend the stored spell. This frees the shield to have a new spell cast into it.\n",
  "trait": [
   "Abjuration",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

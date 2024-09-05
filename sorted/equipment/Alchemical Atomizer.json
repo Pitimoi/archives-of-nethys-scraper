@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,32 +8,45 @@
  "item_category": "Alchemical Items",
  "item_subcategory": "Alchemical Other",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Alchemical Atomizer](/Equipment.aspx?ID=779)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Legends](/Sources.aspx?ID=40) pg. 80</row>\n\n**Price** 175 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nKhismar developed this unique atomizer that allows for the distribution of [elixirs](/equipment/alchemical-items/alchemical-elixirs), [oils](/equipment/consumables/oils), and [potions](/equipment/consumables/potions) as a fine spray or mist. The atomizer can hold a single elixir, oil, or potion. An atomizer contains enough reagents to use it up to 10 times before the reagents must be replaced. A new batch of reagents costs 5 gp and requires an Interact action to replace.\n\n<document level=\"2\" id=\"action-611\" />\n\n<document level=\"2\" id=\"action-612\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Alchemical Atomizer](/Equipment.aspx?ID=779)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Legends](/Sources.aspx?ID=40) pg. 80\n\n**Price** 175 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nKhismar developed this unique atomizer that allows for the distribution of [elixirs](/Equipment.aspx?Category=6&amp;Subcategory=8), [oils](/Equipment.aspx?Category=15&amp;Subcategory=17), and [potions](/Equipment.aspx?Category=15&amp;Subcategory=18) as a fine spray or mist. The atomizer can hold a single elixir, oil, or potion. An atomizer contains enough reagents to use it up to 10 times before the reagents must be replaced. A new batch of reagents costs 5 gp and requires an Interact action to replace.\n\n**Activate** <actions string=\"Single Action\" /> Interact;     **Effect** You spray the contents of the atomizer on yourself or an adjacent willing ally or unattended object. The target gains the effects of the applied elixir, oil, or potion. The target must be a valid target for the effect, such as food or drink for a [_nectar of purification_](/Equipment.aspx?ID=174), or the consumable is lost.\n\n**Activate** <actions string=\"Two Actions\" /> Interact;     **Effect** You cause the atomizer to mix its reagents and fire its held consumable at a square within 30 feet. The consumable forms a cloud that fills the space. The first willing valid target to enter the space automatically gains the effect of the consumable. If there are multiple valid targets, such as with multiple weapons for [_aligned oil_](/Equipment.aspx?ID=173), the creature entering the space determines how the effect is applied. The cloud is consumed upon contact with a willing valid target or at the start of your next turn, whichever comes first.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Alchemical Atomizer",
  "pfs": "Standard",
  "price": 17500,
  "price_raw": "175 gp",
+ "primary_source": "Legends",
+ "primary_source_raw": "Legends pg. 80",
+ "primary_source_category": "Lost Omens",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Legends](/Sources.aspx?ID=40) pg. 80</row>\r\n\r\n**Price** 175 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKhismar developed this unique atomizer that allows for the distribution of  elixirs ,  oils , and  potions  as a fine spray or mist. The atomizer can …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Legends](/Sources.aspx?ID=40) pg. 80\r\n\r\n**Price** 175 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKhismar developed this unique atomizer that allows for the distribution of  elixirs ,  oils , and  potions  as a fine spray or mist. The atomizer can …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Legends"
  ],
  "source_raw": [
   "Legends pg. 80"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Legends](/Sources.aspx?ID=40) pg. 80</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Legends](/Sources.aspx?ID=40) pg. 80",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Khismar developed this unique atomizer that allows for the distribution of  elixirs ,  oils , and  potions  as a fine spray or mist. The atomizer can …",
  "summary_markdown": "Khismar developed this unique atomizer that allows for the distribution of  elixirs ,  oils , and  potions  as a fine spray or mist. The atomizer can …",
- "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Alchemical Atomizer Source Legends pg. 80 Price 175 gp Usage held in 1 hand Bulk L --- Khismar developed this unique atomizer that allows for the distribution of elixirs, oils, and potions as a fine spray or mist. The atomizer can hold a single elixir, oil, or potion. An atomizer contains enough reagents to use it up to 10 times before the reagents must be replaced. A new batch of reagents costs 5 gp and requires an Interact action to replace.\n",
+ "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Alchemical Atomizer Source Legends pg. 80 Price 175 gp Usage held in 1 hand Bulk L --- Khismar developed this unique atomizer that allows for the distribution of elixirs, oils, and potions as a fine spray or mist. The atomizer can hold a single elixir, oil, or potion. An atomizer contains enough reagents to use it up to 10 times before the reagents must be replaced. A new batch of reagents costs 5 gp and requires an Interact action to replace. Activate Single Action Interact; Effect You spray the contents of the atomizer on yourself or an adjacent willing ally or unattended object. The target gains the effects of the applied elixir, oil, or potion. The target must be a valid target for the effect, such as food or drink for a nectar of purification , or the consumable is lost. Activate Two Actions Interact; Effect You cause the atomizer to mix its reagents and fire its held consumable at a square within 30 feet. The consumable forms a cloud that fills the space. The first willing valid target to enter the space automatically gains the effect of the consumable. If there are multiple valid targets, such as with multiple weapons for aligned oil , the creature entering the space determines how the effect is applied. The cloud is consumed upon contact with a willing valid target or at the start of your next turn, whichever comes first.\n",
  "trait": [
   "Alchemical",
   "Rare"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon",
+  "Rarity"
  ],
  "trait_markdown": "[Alchemical](/Traits.aspx?ID=6), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

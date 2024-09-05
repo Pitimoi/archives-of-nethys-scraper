@@ -1,74 +1,122 @@
 {
  "ac": 27,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  19,
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
-  "Wing Deflection",
+  "Sandstorm Sight",
+  "Wing Deflection    Trigger",
   "Draconic Frenzy",
   "Sandstorm Breath",
   "Speed Surge",
   "Surprise Attacker"
  ],
  "creature_family": "Drake",
- "creature_family_markdown": "[Drake](/MonsterFamilies.aspx?ID=36)",
+ "creature_family_markdown": "[Drake](/MonsterFamilies.aspx?ID=404)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Earth"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 17,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 135,
  "hp_raw": "135",
- "id": "creature-164",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2963",
  "image": [
-  "/Images/Monsters/Drake_DesertDrake.png"
+  "/Images/Monsters/Desert_Drake.webp"
  ],
  "immunity": [
   "paralyzed",
-  "unconscious"
+  "sleep"
  ],
- "immunity_markdown": "paralyzed, unconscious",
+ "immunity_markdown": "[paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Draconic"
  ],
  "language_markdown": "[Draconic](/Languages.aspx?ID=2)",
+ "legacy_id": "creature-164",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Desert Drake](/Monsters.aspx?ID=164)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDistant cousins of blue dragons that lack their relatives’ magical talents and intelligence, these desert-dwelling drakes are nonetheless dangerous ambush predators, preying upon isolated desert travelers and outposts for food and supplies. They retain their true-blooded forebears’ resistance to electricity and affinity for sandy environs. Desert drakes’ scales range in coloration from rust-brown to light tan and ocher shades, mimicking the colors of the dunes they call home.\n\n Desert drakes are among the lightest and most compact of the drakes, though this shouldn’t be mistaken for frailty. Their swooped-back horns and feather-thin wings are adapted to make burrowing as easy as possible. Indeed, a desert drake’s powerful neck makes wriggling through sand and other loose scree as easy as walking for it.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Drake_DesertDrake.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Desert Drake](/Monsters.aspx?ID=164)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 135</row>\n\n**Perception** +15; darkvision, scent (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +13, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +5\r\n\r\n**Int** -1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n**HP** 135\n\n**Immunities**\r\nparalyzed, unconscious\r\n\r\n**Resistances**\r\nelectricity 16\n\n**Wing Deflection** <actions string=\"Reaction\" /> **Trigger** The desert drake is targeted with an attack. **Effect** The desert drake raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the desert drake is flying at the time it is attacked, it descends 10 feet after the attack is complete.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet; burrow 20 feet (sand only), fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +20,\r\n**Damage** 2d12+8 piercing plus 1d6 electricity\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +20 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+8 bludgeoning plus Push 5 feet\n\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The desert drake makes two Fangs Strikes and one Tail Strike in any order.\r\n\r\n**Sandstorm Breath** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65)) The desert drake spits a ball of electrically charged sand to a range of 60 feet that explodes into a cloud with a 15-foot-radius burst. Creatures in the area take 9d6 electricity damage (DC 27 [basic](/Rules.aspx?ID=329) Reflex save). The cloud remains for 1d4 rounds, granting [concealment](/Rules.aspx?ID=425) to everything within. The desert drake can't use Sandstorm Breath again for 1d6 rounds.\r\n\r\n**Speed Surge** <actions string=\"Single Action\" /> ([Move](/Traits.aspx?ID=114)) The desert drake moves up to twice its Speed. It can do this three times per day.\r\n\r\n**Surprise Attacker**   On the first round of combat, creatures that haven't acted yet are [flat-footed](/Conditions.aspx?ID=16) to the desert drake.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-36\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Desert Drake](/Monsters.aspx?ID=2963)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese distant cousins of creatures like [adamantine dragons](/MonsterFamilies.aspx?ID=396)are a pale echo that lacks their relatives' power and intelligence. Desert drakes are nonetheless dangerous ambush predators, preying upon isolated desert travelers and outposts for food and supplies. Desert drakes' scales range in coloration from rust-brown to light tan and ocher shades, mimicking the colors of the dunes they call home.\n\n Like [frost drakes](/Monsters.aspx?ID=2962), a rampage of desert drakes often claims a huge span of territory, watching over an expanse of desert from a perch in nearby mountains or a nest among weathered ruins. Any creature visible on the surface is liable to be targeted by the drakes, especially humanoid caravans. Rampages along trade routes quickly learn to leave a member watching over each oasis for new prey. During especially lean times, the drakes will even dig out subterranean prey like [ankhravs](/MonsterFamilies.aspx?ID=361), [giant scorpions](/Monsters.aspx?ID=356), or entire nests of [giant ants](/Monsters.aspx?ID=2824).\n\n Desert drakes are among the lightest and most compact of the drakes, though this shouldn't be mistaken for frailty. Their swooped-back horns and feather-thin wings are adapted to make burrowing as easy as possible. Indeed, a desert drake's powerful neck makes wriggling through sand and other loose scree as easy as walking for it.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Desert_Drake.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Desert Drake](/Monsters.aspx?ID=2963)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=585\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 133\n\n**Perception** +15; [darkvision](/MonsterAbilities.aspx?ID=59), sandstorm sight, [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +13, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +5\r\n\r\n**Int** -1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\r\n\r\n**Sandstorm Sight** Sandstorms don't impair a desert drake's vision; they ignore [concealment](/Conditions.aspx?ID=62)from sandstorms. They also are immune to being [dazzled](/Conditions.aspx?ID=65) or [blinded](/Conditions.aspx?ID=59) by sand or other grit.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\n\n</row>\r\n\r\n**Immunities**\r\n[paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\r\n\r\n**Resistances**\r\n[cold](/Traits.aspx?ID=555) 10, [fire](/Traits.aspx?ID=604) 10\n\n**Wing Deflection <actions string=\"Reaction\" /> **Trigger** The desert drake is targeted with an attack** **Effect** The desert drake raises their wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the desert drake is flying at the time they're attacked, they descend 10 feet after the attack is complete.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet; burrow 20 feet (sand only), fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +19,\r\n**Damage** 2d12+10 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +19 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+10 bludgeoning plus [Push](/MonsterAbilities.aspx?ID=47) 5 feet\n\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The desert drake makes two fangs Strikes and one tail Strike in any order.\r\n\r\n**Sandstorm Breath** <actions string=\"Two Actions\" /> ([Earth](/Traits.aspx?ID=55), [Primal](/Traits.aspx?ID=134)) The desert drake spits a ball of abrasive sand with a range of 60 feet that explodes into a cloud with a 15-foot-radius burst. Creatures in the area take 9d6 slashing damage (DC 27 [basic](/Rules.aspx?ID=329) Reflex save). The desert drake can't use Sandstorm Breath again for 1d6 rounds, during which the sandstorm lingers in the area. This lingering sandstorm grants [concealment](/Conditions.aspx?ID=62)to everything within it and conceals everything outside from them.\r\n\r\n**Speed Surge** <actions string=\"Single Action\" /> ([Move](/Traits.aspx?ID=114)) **Frequency** three times per day; **Effect** The desert drake Strides or Flies twice.\r\n\r\n**Surprise Attacker**   On the first round of combat, creatures that haven't acted yet are [off-guard](/Conditions.aspx?ID=58) to the desert drake.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-404\" />",
  "name": "Desert Drake",
  "npc": false,
  "perception": 15,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 133",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 15,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
-  "electricity": 16
+  "cold": 10,
+  "fire": 10
  },
- "resistance_markdown": "electricity 16",
- "resistance_raw": "electricity 16",
- "search_markdown": "<traits>\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 135</row>\r\n\r\n**Creature Family** [Drake](/MonsterFamilies.aspx?ID=36)\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 27\r\n\r\n**Fort** +17\r\n\r\n**Ref** +15\r\n\r\n**Will** +13\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDistant cousins of blue dragons that lack their relatives’ magical talents and intelligence, these desert-dwelling drakes are nonetheless dangerous …\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 30 feet",
- "sense_markdown": "darkvision, scent (imprecise) 30 feet",
+ "resistance_markdown": "[cold](/Traits.aspx?ID=555) 10, [fire](/Traits.aspx?ID=604) 10",
+ "resistance_raw": " cold  10,  fire  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=585\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 133\r\n\r\n**Creature Family** [Drake](/MonsterFamilies.aspx?ID=404)\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 27\r\n\r\n**Fort** +17\r\n\r\n**Ref** +15\r\n\r\n**Will** +13\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese distant cousins of creatures like  adamantine dragons are a pale echo that lacks their relatives' power and intelligence. Desert drakes are …\r\n</summary>",
+ "sense": " darkvision , sandstorm sight,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), sandstorm sight, [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +17",
-  "Athletics +18",
-  "Intimidation +13",
-  "Stealth +15",
-  "Survival +15"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +18, [Intimidation](/Skills.aspx?ID=7) +13, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15",
+ "skill_mod": {
+  "acrobatics": 17,
+  "athletics": 18,
+  "intimidation": 13,
+  "stealth": 15,
+  "survival": 15
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 135"
+  "Monster Core pg. 133"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 135</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 133",
  "speed": {
   "burrow": 20,
   "fly": 50,
@@ -79,32 +127,56 @@
  "speed_raw": "20 feet; burrow 20 feet (sand only), fly 50 feet",
  "spell_markdown": "",
  "stealth": "15",
+ "strike_damage_average": [
+  19,
+  23
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Distant cousins of blue dragons that lack their relatives’ magical talents and intelligence, these desert-dwelling drakes are nonetheless dangerous …",
- "summary_markdown": "Distant cousins of blue dragons that lack their relatives’ magical talents and intelligence, these desert-dwelling drakes are nonetheless dangerous …",
- "text": " Desert Drake Distant cousins of blue dragons that lack their relatives’ magical talents and intelligence, these desert-dwelling drakes are nonetheless dangerous ambush predators, preying upon isolated desert travelers and outposts for food and supplies. They retain their true-blooded forebears’ resistance to electricity and affinity for sandy environs. Desert drakes’ scales range in coloration from rust-brown to light tan and ocher shades, mimicking the colors of the dunes they call home. Desert drakes are among the lightest and most compact of the drakes, though this shouldn’t be mistaken for frailty. Their swooped-back horns and feather-thin wings are adapted to make burrowing as easy as possible. Indeed, a desert drake’s powerful neck makes wriggling through sand and other loose scree as easy as walking for it. Recall Knowledge - Dragon (Arcana): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Desert Drake Source Bestiary pg. 135 Perception +15; darkvision, scent (imprecise) 30 feet Languages Draconic Skills Acrobatics +17, Athletics +18, Intimidation +13, Stealth +15, Survival +15 Str +6 Dex +3 Con +5 Int -1 Wis +3 Cha +1 --- AC 27 Fort +17 Ref +15 Will +13 HP 135 Immunities paralyzed, unconscious Resistances electricity 16 Wing Deflection Reaction Trigger The desert drake is targeted with an attack. Effect The desert drake raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the desert drake is flying at the time it is attacked, it descends 10 feet after the attack is complete. --- Speed 20 feet; burrow 20 feet (sand only), fly 50 feet Melee Single Action fangs +20, Damage 2d12+8 piercing plus 1d6 electricity Melee Single Action tail +20 (reach 10 feet), Damage 2d10+8 bludgeoning plus Push 5 feet Draconic Frenzy Two Actions The desert drake makes two Fangs Strikes and one Tail Strike in any order. Sandstorm Breath Two Actions (Arcane, Electricity, Evocation) The desert drake spits a ball of electrically charged sand to a range of 60 feet that explodes into a cloud with a 15-foot-radius burst. Creatures in the area take 9d6 electricity damage (DC 27 basic Reflex save). The cloud remains for 1d4 rounds, granting concealment to everything within. The desert drake can't use Sandstorm Breath again for 1d6 rounds. Speed Surge Single Action (Move) The desert drake moves up to twice its Speed. It can do this three times per day. Surprise Attacker On the first round of combat, creatures that haven't acted yet are flat-footed to the desert drake. ",
+ "summary": "These distant cousins of creatures like  adamantine dragons are a pale echo that lacks their relatives' power and intelligence. Desert drakes are …",
+ "summary_markdown": "These distant cousins of creatures like  adamantine dragons are a pale echo that lacks their relatives' power and intelligence. Desert drakes are …",
+ "text": " Desert Drake These distant cousins of creatures like adamantine dragonsare a pale echo that lacks their relatives' power and intelligence. Desert drakes are nonetheless dangerous ambush predators, preying upon isolated desert travelers and outposts for food and supplies. Desert drakes' scales range in coloration from rust-brown to light tan and ocher shades, mimicking the colors of the dunes they call home. Like frost drakes, a rampage of desert drakes often claims a huge span of territory, watching over an expanse of desert from a perch in nearby mountains or a nest among weathered ruins. Any creature visible on the surface is liable to be targeted by the drakes, especially humanoid caravans. Rampages along trade routes quickly learn to leave a member watching over each oasis for new prey. During especially lean times, the drakes will even dig out subterranean prey like ankhravs, giant scorpions, or entire nests of giant ants. Desert drakes are among the lightest and most compact of the drakes, though this shouldn't be mistaken for frailty. Their swooped-back horns and feather-thin wings are adapted to make burrowing as easy as possible. Indeed, a desert drake's powerful neck makes wriggling through sand and other loose scree as easy as walking for it. Recall Knowledge - Dragon (Arcana): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Desert Drake Source Monster Core pg. 133 Perception +15; darkvision, sandstorm sight, scent (imprecise) 30 feet Languages Draconic Skills Acrobatics +17, Athletics +18, Intimidation +13, Stealth +15, Survival +15 Str +6 Dex +3 Con +5 Int -1 Wis +3 Cha +1 Sandstorm Sight Sandstorms don't impair a desert drake's vision; they ignore concealmentfrom sandstorms. They also are immune to being dazzled or blinded by sand or other grit. --- AC 27 Fort +17 Ref +15 Will +13 HP 135 Immunities paralyzed, sleep Resistances cold 10, fire 10 Wing Deflection Reaction Trigger The desert drake is targeted with an attack Effect The desert drake raises their wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the desert drake is flying at the time they're attacked, they descend 10 feet after the attack is complete. --- Speed 20 feet; burrow 20 feet (sand only), fly 50 feet Melee Single Action fangs +19, Damage 2d12+10 piercing Melee Single Action tail +19 (reach 10 feet), Damage 2d8+10 bludgeoning plus Push 5 feet Draconic Frenzy Two Actions The desert drake makes two fangs Strikes and one tail Strike in any order. Sandstorm Breath Two Actions (Earth, Primal) The desert drake spits a ball of abrasive sand with a range of 60 feet that explodes into a cloud with a 15-foot-radius burst. Creatures in the area take 9d6 slashing damage (DC 27 basic Reflex save). The desert drake can't use Sandstorm Breath again for 1d6 rounds, during which the sandstorm lingers in the area. This lingering sandstorm grants concealmentto everything within it and conceals everything outside from them. Speed Surge Single Action (Move) Frequency three times per day; Effect The desert drake Strides or Flies twice. Surprise Attacker On the first round of combat, creatures that haven't acted yet are off-guard to the desert drake. ",
+ "tradition_markdown": "",
  "trait": [
   "Dragon",
   "Earth",
-  "NE",
   "Large"
  ],
- "trait_markdown": "[Dragon](/Traits.aspx?ID=50), [Earth](/Traits.aspx?ID=55)",
+ "trait_group": [
+  "Creature Type",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Dragon](/Traits.aspx?ID=581), [Earth](/Traits.aspx?ID=585)",
  "trait_raw": [
   "Dragon",
   "Earth"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=164",
+ "url": "/Monsters.aspx?ID=2963",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 13,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

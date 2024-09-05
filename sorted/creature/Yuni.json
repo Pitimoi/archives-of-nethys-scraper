@@ -1,0 +1,205 @@
+{
+ "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "CN",
+ "attack_bonus": [
+  15
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Site Bound",
+  "Rejuvenation",
+  "Frightful Moan",
+  "Tiger Attack"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
+ "hp": 82,
+ "hp_raw": "82 (negative healing, rejuvenation)",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2752",
+ "immunity": [
+  "death effects",
+  "disease",
+  "paralyzed",
+  "poison",
+  "unconscious"
+ ],
+ "immunity_markdown": "death effects, disease, paralyzed, poison, unconscious",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Yuni](/Monsters.aspx?ID=2752)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Spirit](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=11)): DC 33\r\n\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 33\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 31\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 28\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Yuni](/Monsters.aspx?ID=2752)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Ghost\" url=\"/Traits.aspx?ID=217\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #197: Let the Leaves Fall](/Sources.aspx?ID=222) pg. 46\n\n**Perception** +15; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Deception](/Skills.aspx?ID=5) +15, [Society](/Skills.aspx?ID=14) +13, [Stealth](/Skills.aspx?ID=15) +17, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** -5\r\n\r\n**Dex** +2\r\n\r\n**Con** +0\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Site Bound** A typical ghost can stray only a short distance from where it was killed or the place it haunts. A typical limit is 120 feet. Some ghosts are instead bound to a room, building, item, or creature that was special to it rather than a location.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +17 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 82\r\n(negative healing, rejuvenation)\n\n</row>\r\n\r\n**Immunities**\r\ndeath effects, disease, paralyzed, poison, unconscious\r\n\r\n**Resistances**\r\nall damage 5 ([except force](/Traits.aspx?ID=666), [ghost touch](/Traits.aspx?ID=217), [or positive](/Traits.aspx?ID=128)) double resistance vs. non-magical)\n\n**Rejuvenation** ([divine](/Traits.aspx?ID=579), [necromancy](/Traits.aspx?ID=117)) Returning her sister's holy prayer beads and revealing her fate allows Yuni to move on (although she'll return as a ghost next year if the PCs don't break the Willowshore mindscape before then).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nghostly hand +15 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+8 negative\n\n**Frightful Moan** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16), [Divine](/Traits.aspx?ID=48), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The ghost laments its fate, forcing each living creature within 30 feet to attempt a DC 25 Will save. On a failure, a creature becomes [frightened](/Conditions.aspx?ID=76) 2 (or frightened 3 on a critical failure). On a success, a creature is temporarily immune to this ghost's frightful moan for 1 minute.\r\n\r\n**Tiger Attack** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Conjuration](/Traits.aspx?ID=33)) Yuni cries out in pain as a ghostly tiger appears to rip and tear at her body, only for additional ghostly tigers to appear and do the same to all creatures in a 30-foot emanation. Creatures in this area take 4d6 slashing damage (DC 25 basic Reflex save).\r\n\r\n</column>",
+ "name": "Yuni",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #197: Let the Leaves Fall",
+ "primary_source_raw": "Pathfinder #197: Let the Leaves Fall pg. 46",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 15,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-11-29",
+ "resistance": {
+  "acid": 5,
+  "all": 5,
+  "area": 5,
+  "bleed": 5,
+  "bludgeoning": 5,
+  "chaotic": 5,
+  "cold": 5,
+  "cold_iron": 5,
+  "electricity": 5,
+  "evil": 5,
+  "fire": 5,
+  "force": 5,
+  "good": 5,
+  "holy": 5,
+  "lawful": 5,
+  "mental": 5,
+  "negative": 5,
+  "orichalcum": 5,
+  "physical": 5,
+  "piercing": 5,
+  "poison": 5,
+  "positive": 5,
+  "precision": 5,
+  "silver": 5,
+  "slashing": 5,
+  "sonic": 5,
+  "spirit": 5,
+  "splash": 5,
+  "unholy": 5
+ },
+ "resistance_markdown": "all damage 5 ([except force](/Traits.aspx?ID=666), [ghost touch](/Traits.aspx?ID=217), [or positive](/Traits.aspx?ID=128)) double resistance vs. non-magical)",
+ "resistance_raw": "all damage 5 ( except force ,  ghost touch ,  or positive ) double resistance vs. non-magical)",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Ghost\" url=\"/Traits.aspx?ID=217\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #197: Let the Leaves Fall](/Sources.aspx?ID=222) pg. 46\n\n<row gap=\"medium\">\r\n**HP** 82 (negative healing, rejuvenation)\r\n\r\n**AC** 23\r\n\r\n**Fort** +11\r\n\r\n**Ref** +15\r\n\r\n**Will** +17\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "darkvision",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Deception",
+  "Society",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +15, [Deception](/Skills.aspx?ID=5) +15, [Society](/Skills.aspx?ID=14) +13, [Stealth](/Skills.aspx?ID=15) +17, [Survival](/Skills.aspx?ID=16) +15",
+ "skill_mod": {
+  "acrobatics": 15,
+  "deception": 15,
+  "society": 13,
+  "stealth": 17,
+  "survival": 15
+ },
+ "source": [
+  "Pathfinder #197: Let the Leaves Fall"
+ ],
+ "source_raw": [
+  "Pathfinder #197: Let the Leaves Fall pg. 46"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Pathfinder #197: Let the Leaves Fall](/Sources.aspx?ID=222) pg. 46",
+ "speed": {
+  "fly": 25,
+  "max": 25
+ },
+ "speed_markdown": "fly 25 feet",
+ "speed_raw": "fly 25 feet",
+ "spell_markdown": "",
+ "spoilers": "Season of Ghosts",
+ "stealth": "17",
+ "strike_damage_average": [
+  17
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": -5,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "will"
+ ],
+ "text": " Yuni Recall Knowledge - Spirit (Occultism): DC 33 Recall Knowledge - Undead (Religion): DC 33 Unspecific Lore : DC 31 Specific Lore : DC 28 Yuni Source Pathfinder #197: Let the Leaves Fall pg. 46 Perception +15; darkvision Languages Common Skills Acrobatics +15, Deception +15, Society +13, Stealth +17, Survival +15 Str -5 Dex +2 Con +0 Int +2 Wis +4 Cha +4 Site Bound A typical ghost can stray only a short distance from where it was killed or the place it haunts. A typical limit is 120 feet. Some ghosts are instead bound to a room, building, item, or creature that was special to it rather than a location. --- AC 23 Fort +11 Ref +15 Will +17 HP 82 (negative healing, rejuvenation) Immunities death effects, disease, paralyzed, poison, unconscious Resistances all damage 5 (except force, ghost touch, or positive) double resistance vs. non-magical) Rejuvenation (divine, necromancy) Returning her sister's holy prayer beads and revealing her fate allows Yuni to move on (although she'll return as a ghost next year if the PCs don't break the Willowshore mindscape before then). --- Speed fly 25 feet Melee Single Action ghostly hand +15 (Agile, Finesse, Magical), Damage 2d8+8 negative Frightful Moan Two Actions (Auditory, Divine, Emotion, Enchantment, Fear, Mental) The ghost laments its fate, forcing each living creature within 30 feet to attempt a DC 25 Will save. On a failure, a creature becomes frightened 2 (or frightened 3 on a critical failure). On a success, a creature is temporarily immune to this ghost's frightful moan for 1 minute. Tiger Attack Two Actions (Divine, Conjuration) Yuni cries out in pain as a ghostly tiger appears to rip and tear at her body, only for additional ghostly tigers to appear and do the same to all creatures in a 30-foot emanation. Creatures in this area take 4d6 slashing damage (DC 25 basic Reflex save). ",
+ "tradition_markdown": "",
+ "trait": [
+  "Ghost",
+  "Incorporeal",
+  "Spirit",
+  "Undead",
+  "Unique",
+  "CN",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Ghost](/Traits.aspx?ID=217), [Incorporeal](/Traits.aspx?ID=222), [Spirit](/Traits.aspx?ID=149), [Undead](/Traits.aspx?ID=160), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Ghost",
+  "Incorporeal",
+  "Spirit",
+  "Undead",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2752",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 17,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

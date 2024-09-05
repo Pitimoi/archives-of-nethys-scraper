@@ -1,66 +1,80 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Water"
  ],
- "domain_markdown": "[Water](/Domains.aspx?ID=35)",
+ "domain_markdown": "[Water](/Domains.aspx?ID=98)",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-458",
+ "id": "spell-1848",
+ "legacy_id": "spell-458",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Tidal Surge](/Spells.aspx?ID=458)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 397 <sup>4.0</sup></row>\n\n**Domain**\r\n[Water](/Domains.aspx?ID=35)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call forth a tremendous wave to move the target either in a body of water or on the ground. The target must attempt a Fortitude save.\r\n\r\n**Failure** You move the target 5 feet in any direction along the ground or 10 feet in any direction through a body of water.<br />\r\n**Critical Failure** You move the target up to 10 feet in any direction along the ground or 20 feet in any direction through a body of water.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Tidal Surge](/Spells.aspx?ID=1848)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n**Domain**\r\n[Water](/Domains.aspx?ID=98)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call forth a tremendous wave to move the target either in a body of water or on the ground. You move the target up to 10 feet in any direction along the ground or 20 feet through a body of water. An unwilling target can attempt a Fortitude save, and it avoids being moved if it succeeds.",
  "name": "Tidal Surge",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 381",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "saving_throw": "Fortitude",
- "saving_throw_markdown": "Fortitude",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 397 <sup>4.0</sup></row>\n\n**Domain**\r\n[Water](/Domains.aspx?ID=35)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call forth a tremendous wave to move the target either in a body of water or on the ground.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n**Domain**\r\n[Water](/Domains.aspx?ID=98)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call forth a tremendous wave to move the target either in a body of water or on the ground.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 397"
+  "Player Core pg. 381"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 397 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 381",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You call forth a tremendous wave to move the target either in a body of water or on the ground.",
  "summary_markdown": "You call forth a tremendous wave to move the target either in a body of water or on the ground.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Tidal Surge Source Core Rulebook pg. 397 4.0 Domain Water Cast Single Action somatic Range 60 feet Target 1 creature Saving Throw Fortitude --- You call forth a tremendous wave to move the target either in a body of water or on the ground. The target must attempt a Fortitude save. Failure You move the target 5 feet in any direction along the ground or 10 feet in any direction through a body of water. Critical Failure You move the target up to 10 feet in any direction along the ground or 20 feet in any direction through a body of water.",
+ "text": "\nTidal Surge Single Action Source Player Core pg. 381 Domain Water Range 60 feet Target 1 creature --- You call forth a tremendous wave to move the target either in a body of water or on the ground. You move the target up to 10 feet in any direction along the ground or 20 feet through a body of water. An unwilling target can attempt a Fortitude save, and it avoids being moved if it succeeds.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Water"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [
   "Cleric",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Water"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=458",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1848",
  "weakness": {}
 }

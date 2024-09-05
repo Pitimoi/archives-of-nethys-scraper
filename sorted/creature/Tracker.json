@@ -1,10 +1,27 @@
 {
  "ac": 20,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  9,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Forager",
   "Master Tracker",
@@ -13,45 +30,76 @@
  "creature_family": "Foresters",
  "creature_family_markdown": "[Foresters](/MonsterFamilies.aspx?ID=186)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 9,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 45,
  "hp_raw": "45",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-906",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Composite Longbow (60 arrows)",
+  "Leather Armor",
+  "Staff"
+ ],
  "language": [
   "Common"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1)",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Limited\">[Tracker](/NPCs.aspx?ID=906)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide their trails. Given these poor conditions, an unskilled eye might spot a sign or two of a creature's passing, but only a skilled tracker can identify several such signs and discern their relationship to each other, connecting one to the next until they form a trail of prints, scat, fur, feathers, and blood that leads to the quarry's lair.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Tracker](/NPCs.aspx?ID=906)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 219</row>\n\n**Perception** +13\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Forest Lore](/Skills.aspx?ID=8) +5, [Nature](/Skills.aspx?ID=10) +11, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Forager** While using [Survival](/Skills.aspx?ID=16) to [Subsist](/Actions.aspx?ID=27), if the hunter rolls a failure or a critical failure, they get a success instead. If the hunter rolls a success, they can provide food for 16 additional creatures that eat about as much as a human, or 32 creatures on a critical success.<br />**Master Tracker** The tracker can [Track](/Actions.aspx?ID=66) while moving at full speed.\r\n\r\n**Items**\r\n[Composite Longbow](/Weapons.aspx?ID=74) (60 arrows), [Leather Armor](/Armor.aspx?ID=4), [Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n**HP** 45\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +9 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4+4 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite longbow +11 ([deadly 1d10](/Traits.aspx?ID=174), [Propulsive](/Traits.aspx?ID=191), [range increment 100 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254), [volley 30 feet](/Traits.aspx?ID=201)),\r\n**Damage** 1d8+3 piercing\n\n**Hunt Prey** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32)) The tracker designates a single creature they can see and hear, or one they're [Tracking](/Actions.aspx?ID=66), as their prey. The tracker gains a +2 circumstance bonus to Perception checks to [Seek](/Actions.aspx?ID=84) the prey and to [Survival](/Skills.aspx?ID=16) checks to Track the prey. The first time the tracker hits the designated prey in a round, they deal an additional 1d8 precision damage. The tracker also ignores the penalty for making ranged attacks within their second range increment. These effects last until the tracker uses Hunt Prey again.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-186\" />",
+ "markdown": "<title level=\"1\" pfs=\"Limited\">[Tracker](/NPCs.aspx?ID=906)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide their trails. Given these poor conditions, an unskilled eye might spot a sign or two of a creature's passing, but only a skilled tracker can identify several such signs and discern their relationship to each other, connecting one to the next until they form a trail of prints, scat, fur, feathers, and blood that leads to the quarry's lair.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Tracker](/NPCs.aspx?ID=906)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 219\n\n**Perception** +13\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Forest Lore](/Skills.aspx?ID=8) +5, [Nature](/Skills.aspx?ID=10) +11, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Forager** While using [Survival](/Skills.aspx?ID=16) to [Subsist](/Actions.aspx?ID=27), if the hunter rolls a failure or a critical failure, they get a success instead. If the hunter rolls a success, they can provide food for 16 additional creatures that eat about as much as a human, or 32 creatures on a critical success.<br />**Master Tracker** The tracker can [Track](/Actions.aspx?ID=66) while moving at full speed.\r\n\r\n**Items**\r\n[Composite Longbow](/Weapons.aspx?ID=74) (60 arrows), [Leather Armor](/Armor.aspx?ID=4), [Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +9 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4+4 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite longbow +11 ([deadly 1d10](/Traits.aspx?ID=174), [Propulsive](/Traits.aspx?ID=191), [range increment 100 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254), [volley 30 feet](/Traits.aspx?ID=201)),\r\n**Damage** 1d8+3 piercing\n\n**Hunt Prey** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32)) The tracker designates a single creature they can see and hear, or one they're [Tracking](/Actions.aspx?ID=66), as their prey. The tracker gains a +2 circumstance bonus to Perception checks to [Seek](/Actions.aspx?ID=84) the prey and to [Survival](/Skills.aspx?ID=16) checks to Track the prey. The first time the tracker hits the designated prey in a round, they deal an additional 1d8 precision damage. The tracker also ignores the penalty for making ranged attacks within their second range increment. These effects last until the tracker uses Hunt Prey again.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-186\" />",
  "name": "Tracker",
  "npc": true,
  "perception": 13,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Limited",
+ "primary_source": "Gamemastery Guide",
+ "primary_source_raw": "Gamemastery Guide pg. 219",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 11,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2020-02-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 219</row>\r\n\r\n**Creature Family** [Foresters](/MonsterFamilies.aspx?ID=186)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 20\r\n\r\n**Fort** +9\r\n\r\n**Ref** +11\r\n\r\n**Will** +9\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 219\r\n\r\n**Creature Family** [Foresters](/MonsterFamilies.aspx?ID=186)\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 20\r\n\r\n**Fort** +9\r\n\r\n**Ref** +11\r\n\r\n**Will** +9\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Forest Lore +5",
-  "Nature +11",
-  "Stealth +9",
-  "Survival +13"
+  "Forest Lore",
+  "Nature",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Forest Lore](/Skills.aspx?ID=8) +5, [Nature](/Skills.aspx?ID=10) +11, [Stealth](/Skills.aspx?ID=15) +9, [Survival](/Skills.aspx?ID=16) +13",
+ "skill_mod": {
+  "nature": 11,
+  "stealth": 9,
+  "survival": 13
+ },
  "source": [
   "Gamemastery Guide"
  ],
  "source_raw": [
   "Gamemastery Guide pg. 219"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Gamemastery Guide](/Sources.aspx?ID=22) pg. 219</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Gamemastery Guide](/Sources.aspx?ID=22) pg. 219",
  "speed": {
   "land": 25,
   "max": 25
@@ -60,7 +108,19 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "stealth": "9",
+ "strike_damage_average": [
+  6,
+  7
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
@@ -68,11 +128,18 @@
  "summary": "The forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide …",
  "summary_markdown": "The forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide …",
  "text": " Tracker The forest offers dangerous creatures—whether they walk on four legs or two—a place to hide. Dim light, low brush, and fallen leaves conspire to hide their trails. Given these poor conditions, an unskilled eye might spot a sign or two of a creature's passing, but only a skilled tracker can identify several such signs and discern their relationship to each other, connecting one to the next until they form a trail of prints, scat, fur, feathers, and blood that leads to the quarry's lair. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Tracker Source Gamemastery Guide pg. 219 Perception +13 Languages Common Skills Forest Lore +5, Nature +11, Stealth +9, Survival +13 Str +2 Dex +4 Con +2 Int +0 Wis +4 Cha +0 Forager While using Survival to Subsist, if the hunter rolls a failure or a critical failure, they get a success instead. If the hunter rolls a success, they can provide food for 16 additional creatures that eat about as much as a human, or 32 creatures on a critical success. Master Tracker The tracker can Track while moving at full speed. Items Composite Longbow (60 arrows), Leather Armor, Staff --- AC 20 Fort +9 Ref +11 Will +9 HP 45 --- Speed 25 feet Melee Single Action staff +9 (two-hand d8), Damage 1d4+4 bludgeoning Ranged Single Action composite longbow +11 (deadly 1d10, Propulsive, range increment 100 feet, reload 0, volley 30 feet), Damage 1d8+3 piercing Hunt Prey Single Action (Concentrate) The tracker designates a single creature they can see and hear, or one they're Tracking, as their prey. The tracker gains a +2 circumstance bonus to Perception checks to Seek the prey and to Survival checks to Track the prey. The first time the tracker hits the designated prey in a round, they deal an additional 1d8 precision damage. The tracker also ignores the penalty for making ranged attacks within their second range increment. These effects last until the tracker uses Hunt Prey again. ",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -88,5 +155,9 @@
  ],
  "weakness": {},
  "will_save": 9,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

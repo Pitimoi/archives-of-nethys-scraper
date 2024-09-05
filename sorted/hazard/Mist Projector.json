@@ -1,0 +1,78 @@
+{
+ "ac": 25,
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 27  Thievery  (expert) to deactivate the trap without its control key or DC 26  Crafting  to create and apply a chemical that neutralizes the gas.",
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 17,
+ "hardness": 15,
+ "hardness_raw": "15",
+ "hazard_type": "Trap",
+ "hp": 60,
+ "hp_raw": "60 (BT 30)",
+ "id": "hazard-406",
+ "immunity": [
+  "critical hits",
+  "object immunities",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, object immunities, precision damage",
+ "level": 7,
+ "markdown": "<title level=\"1\" right=\"Hazard 7\" pfs=\"\">[Mist Projector](/Hazards.aspx?ID=406)</title>\r\n\r\n<traits>\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 59\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nHidden jets expel gas that quickly freezes, causing limited damage to nearby books.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 23 (expert)\r\n\r\n**Disable**\r\nDC 27 [Thievery](/Skills.aspx?ID=17) (expert) to deactivate the trap without its control key or DC 26 [Crafting](/Skills.aspx?ID=4) to create and apply a chemical that neutralizes the gas.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 25, **Fort** +17, **Ref** +10\r\n\r\n**Hardness**\r\n15\r\n\r\n**HP**\r\n60 (BT 30)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Icy Mist** <actions string=\"Reaction\" /> ([cold](/Traits.aspx?ID=27), [water](/Traits.aspx?ID=165)) **Trigger** The northeast bookshelf is touched; **Effect** Freezing mist fills a 30-foot cone originating from the room's northeast corner. Creatures in the area take 5d8 cold damage (DC 25 [basic](/Rules.aspx?ID=329) Fortitude). Creatures who fail or critically fail the saving throw take 2d8 [persistent cold damage](/Conditions.aspx?ID=29) for up to 3 rounds. The affected area is filled with mist that functions as [_obscuring mist_](/Spells.aspx?ID=210) for 3 rounds.\n\n---\r\n**Reset**\r\n8 hours",
+ "name": "Mist Projector",
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 59",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "release_date": "2023-08-30",
+ "reset": "8 hours",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 59\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHidden jets expel gas that quickly freezes, causing limited damage to nearby books.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 59"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 59",
+ "speed": {},
+ "stealth": "DC 23 (expert)",
+ "summary": "Hidden jets expel gas that quickly freezes, causing limited damage to nearby books.",
+ "summary_markdown": "Hidden jets expel gas that quickly freezes, causing limited damage to nearby books.",
+ "text": " Mist Projector Source Pathfinder #194: Cult of the Cave Worm pg. 59 Complexity Simple Hidden jets expel gas that quickly freezes, causing limited damage to nearby books. --- Stealth DC 23 (expert) Disable DC 27 Thievery (expert) to deactivate the trap without its control key or DC 26 Crafting to create and apply a chemical that neutralizes the gas. AC 25, Fort +17, Ref +10 Hardness 15 HP 60 (BT 30) Immunities critical hits, object immunities, precision damage Icy Mist Reaction (cold, water) Trigger The northeast bookshelf is touched; Effect Freezing mist fills a 30-foot cone originating from the room's northeast corner. Creatures in the area take 5d8 cold damage (DC 25 basic Fortitude). Creatures who fail or critically fail the saving throw take 2d8 persistent cold damage for up to 3 rounds. The affected area is filled with mist that functions as obscuring mist for 3 rounds. --- Reset 8 hours",
+ "trait": [
+  "Cold",
+  "Trap",
+  "Water"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Equipment",
+  "Hazard",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Cold](/Traits.aspx?ID=27), [Trap](/Traits.aspx?ID=158), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Cold",
+  "Trap",
+  "Water"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=406",
+ "weakness": {}
+}

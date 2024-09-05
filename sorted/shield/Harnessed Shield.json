@@ -1,6 +1,5 @@
 {
  "ac": 2,
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "shield",
@@ -13,23 +12,30 @@
  "item_category": "Shields",
  "item_subcategory": "Base Shields",
  "level": 0,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Shield 0\"\r\n    pfs=\"Standard\"\r\n>\r\n[Harnessed Shield](/Shields.aspx?ID=9)\r\n</title>\r\n\r\n<traits>\r\n<trait label=\"Harnessed\" url=\"/Traits.aspx?ID=477\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 20 <sup>1.1</sup></row>\r\n\r\n<row gap=\"medium\">\r\n**Price** 5 gp\r\n\r\n**AC Bonus** 2 \r\n\r\n**Speed Penalty** -5 ft.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Bulk** 2\r\n\r\n**Hardness** 5\r\n\r\n**HP (BT)** 20 (10)\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThis large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight with [jousting](/Traits.aspx?ID=186) weapons in case they're forced into combat without their mounts. Balancing the weapon within the shield's hold is somewhat awkward, and longer weapons, like [lances](/Weapons.aspx?ID=28), need to be held closer to the body than usual for proper support.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Shield 0\"\r\n    pfs=\"Standard\"\r\n>\r\n[Harnessed Shield](/Shields.aspx?ID=9)\r\n</title>\r\n\r\n<traits>\r\n<trait label=\"Harnessed\" url=\"/Traits.aspx?ID=477\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 20 <sup>1.1</sup>\r\n\r\n<row gap=\"medium\">\r\n**Price** 5 gp\r\n\r\n**AC Bonus** 2 \r\n\r\n**Speed Penalty** -5 ft.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Bulk** 2\r\n\r\n**Hardness** 5\r\n\r\n**HP (BT)** 20 (10)\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThis large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight with [jousting](/Traits.aspx?ID=186) weapons in case they're forced into combat without their mounts. Balancing the weapon within the shield's hold is somewhat awkward, and longer weapons, like [lances](/Weapons.aspx?ID=28), need to be held closer to the body than usual for proper support.",
  "name": "Harnessed Shield",
  "pfs": "Standard",
  "price": 500,
  "price_raw": "5 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 20",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Harnessed\" url=\"/Traits.aspx?ID=477\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 20 <sup>1.1</sup></row>\r\n\r\n<row gap=\"medium\">\r\n**Price** 5 gp\r\n\r\n**AC Bonus** 2 \r\n\r\n**Speed Penalty** -5 ft.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Bulk** 2\r\n\r\n**Hardness** 5\r\n\r\n**HP (BT)** 20 (10)\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Harnessed\" url=\"/Traits.aspx?ID=477\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 20 <sup>1.1</sup>\r\n\r\n<row gap=\"medium\">\r\n**Price** 5 gp\r\n\r\n**AC Bonus** 2 \r\n\r\n**Speed Penalty** -5 ft.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Bulk** 2\r\n\r\n**Hardness** 5\r\n\r\n**HP (BT)** 20 (10)\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 20"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 20 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 20 <sup>1.1</sup>",
  "speed": {},
  "speed_penalty": "-5 ft.",
  "summary": "This large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight …",
@@ -38,11 +44,14 @@
  "trait": [
   "Harnessed"
  ],
+ "trait_group": [
+  "Shield"
+ ],
  "trait_markdown": "[Harnessed](/Traits.aspx?ID=477)",
  "trait_raw": [
   "Harnessed"
  ],
- "type": "Shield",
+ "type": "Item",
  "url": "/Shields.aspx?ID=9",
  "weakness": {}
 }

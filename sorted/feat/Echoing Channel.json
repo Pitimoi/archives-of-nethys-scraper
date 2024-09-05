@@ -1,45 +1,57 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Echoing Channel"
  ],
  "feat_markdown": "Echoing Channel",
- "id": "feat-306",
+ "id": "feat-4699",
+ "legacy_id": "feat-306",
  "level": 18,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Echoing Channel](/Feats.aspx?ID=306) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 127 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nWhen you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action [_harm_](/Spells.aspx?ID=146) or [_heal_](/Spells.aspx?ID=148) to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action _harm_ or _heal_ you cast and doesn’t cost another spell slot.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Echoing Channel](/Feats.aspx?ID=4699) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 121\n\n</column>\r\n\r\n---\r\n\r\nWhen you pull forth vitality or void energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature in range. Target that creature with a 1-action version of the same spell. This spell is the same rank as the 2-action harm or heal you cast and doesn’t cost another spell slot.",
  "name": "Echoing Channel",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 121",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 127 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you pull forth positive or negative energy, you also create a smaller pocket of that energy.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 121\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen you pull forth vitality or void energy, you also create a smaller pocket of that energy.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 127"
+  "Player Core pg. 121"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 127 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 121",
  "speed": {},
- "summary": "When you pull forth positive or negative energy, you also create a smaller pocket of that energy.",
- "summary_markdown": "When you pull forth positive or negative energy, you also create a smaller pocket of that energy.",
- "text": "<title level=\"1\" right=\"Feat 18\" pfs=\"Standard\" > Echoing Channel Single Action Source Core Rulebook pg. 127 4.0 --- When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action harm or heal you cast and doesn’t cost another spell slot.",
+ "summary": "When you pull forth vitality or void energy, you also create a smaller pocket of that energy.",
+ "summary_markdown": "When you pull forth vitality or void energy, you also create a smaller pocket of that energy.",
+ "text": "<title level=\"1\" right=\"Feat 18\" pfs=\"Standard\" > Echoing Channel Single Action Source Player Core pg. 121 --- When you pull forth vitality or void energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature in range. Target that creature with a 1-action version of the same spell. This spell is the same rank as the 2-action harm or heal you cast and doesn’t cost another spell slot.",
  "trait": [
   "Cleric",
   "Concentrate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Cleric",
   "Concentrate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=306",
+ "url": "/Feats.aspx?ID=4699",
  "weakness": {}
 }

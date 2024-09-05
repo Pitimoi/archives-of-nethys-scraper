@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -10,24 +10,31 @@
  "item_category": "Consumables",
  "item_subcategory": "Oils",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Merciful Balm](/Equipment.aspx?ID=2072)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 86 <sup>1.1</sup></row>\n\n**Price** 3 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nSmelling strongly of herbs and pine resin, _merciful balm_ is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the [nonlethal](/Traits.aspx?ID=188) trait for 1 hour.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Merciful Balm](/Equipment.aspx?ID=2072)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 86 <sup>1.1</sup>\n\n**Price** 3 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nSmelling strongly of herbs and pine resin, _merciful balm_ is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the [nonlethal](/Traits.aspx?ID=188) trait for 1 hour.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Merciful Balm",
  "pfs": "Standard",
  "price": 300,
  "price_raw": "3 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 86",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 86 <sup>1.1</sup></row>\r\n\r\n**Price** 3 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSmelling strongly of herbs and pine resin,  merciful balm  is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the  …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 86 <sup>1.1</sup>\r\n\r\n**Price** 3 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSmelling strongly of herbs and pine resin,  merciful balm  is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 86"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 86 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 86 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -39,6 +46,10 @@
   "Consumable",
   "Magical",
   "Oil"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Consumable](/Traits.aspx?ID=36), [Magical](/Traits.aspx?ID=103), [Oil](/Traits.aspx?ID=121)",
  "trait_raw": [

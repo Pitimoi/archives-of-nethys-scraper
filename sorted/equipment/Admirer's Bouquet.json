@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,36 +7,50 @@
  "id": "equipment-1758",
  "item_category": "Held Items",
  "level": 7,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Limited\"\r\n>\r\n[Admirer's Bouquet](/Equipment.aspx?ID=1758)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Kingmaker</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Kingmaker Companion Guide](/Sources.aspx?ID=151) pg. 84</row>\n\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nAn _admirer's bouquet_ appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen vibrantly colored long-stemmed flowers appear in the carrier's hand, the stems wrapped in the silk.\n\n<document level=\"2\" id=\"action-1363\" />\n\n<document level=\"2\" id=\"action-1364\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Limited\"\r\n>\r\n[Admirer's Bouquet](/Equipment.aspx?ID=1758)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Kingmaker</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Kingmaker Companion Guide](/Sources.aspx?ID=151) pg. 84\n\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nAn _admirer's bouquet_ appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen vibrantly colored long-stemmed flowers appear in the carrier's hand, the stems wrapped in the silk.\n\n**Activate** <actions string=\"Single Action\" /> Interact;  **Frequency** once per minute;   **Effect** By taking a deep sniff of the pleasant-smelling flowers, you can speed your recovery from nausea and reduce your [sickened](/Conditions.aspx?ID=34) value by 1.\n\n**Activate** <actions string=\"Reaction\" /> Interact;  **Frequency** once per hour; **Trigger** an ally with a free hand ends their turn adjacent to you;  **Effect** You hand the _admirer's bouquet_ to the triggering ally. If they accept the bouquet, they gain a +1 item bonus to saves against [emotion](/Traits.aspx?ID=60) and [mental](/Traits.aspx?ID=106) effects as long as they continue to carry the _admirer's bouquet_. If they're currently suffering from a debilitating emotion or mental effect as the result of a saving throw made during the previous turn, they can immediately attempt a new saving throw against that effect upon being given the bouquet; if they do so, they gain the _admirer's bouquet's_ +1 item bonus to this saving throw. An _admirer's bouquet_ can allow for a new saving throw in this way only once per day.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Admirer's Bouquet",
  "pfs": "Limited",
  "price": 35000,
  "price_raw": "350 gp",
+ "primary_source": "Kingmaker Companion Guide",
+ "primary_source_raw": "Kingmaker Companion Guide pg. 84",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Kingmaker",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2022-10-26",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Kingmaker Companion Guide](/Sources.aspx?ID=151) pg. 84</row>\r\n\r\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn  admirer's bouquet  appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Kingmaker Companion Guide](/Sources.aspx?ID=151) pg. 84\r\n\r\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn  admirer's bouquet  appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Kingmaker Companion Guide"
  ],
  "source_raw": [
   "Kingmaker Companion Guide pg. 84"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Kingmaker",
- "source_markdown": "<row gap=\"tiny\">[Kingmaker Companion Guide](/Sources.aspx?ID=151) pg. 84</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Kingmaker"
+ ],
+ "source_markdown": "[Kingmaker Companion Guide](/Sources.aspx?ID=151) pg. 84",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Kingmaker",
  "stage_markdown": "",
  "summary": "An  admirer's bouquet  appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen …",
  "summary_markdown": "An  admirer's bouquet  appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen …",
- "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Limited\" > Admirer's Bouquet May contain spoilers from Kingmaker Source Kingmaker Companion Guide pg. 84 Price 350 gp Usage held in 1 hand Bulk L --- An admirer's bouquet appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen vibrantly colored long-stemmed flowers appear in the carrier's hand, the stems wrapped in the silk.\n",
+ "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Limited\" > Admirer's Bouquet May contain spoilers from Kingmaker Source Kingmaker Companion Guide pg. 84 Price 350 gp Usage held in 1 hand Bulk L --- An admirer's bouquet appears to be a colorful silken handkerchief that exudes a pleasant floral scent until it's picked up, at which point a dozen vibrantly colored long-stemmed flowers appear in the carrier's hand, the stems wrapped in the silk. Activate Single Action Interact; Frequency once per minute; Effect By taking a deep sniff of the pleasant-smelling flowers, you can speed your recovery from nausea and reduce your sickened value by 1. Activate Reaction Interact; Frequency once per hour; Trigger an ally with a free hand ends their turn adjacent to you; Effect You hand the admirer's bouquet to the triggering ally. If they accept the bouquet, they gain a +1 item bonus to saves against emotion and mental effects as long as they continue to carry the admirer's bouquet . If they're currently suffering from a debilitating emotion or mental effect as the result of a saving throw made during the previous turn, they can immediately attempt a new saving throw against that effect upon being given the bouquet; if they do so, they gain the admirer's bouquet's +1 item bonus to this saving throw. An admirer's bouquet can allow for a new saving throw in this way only once per day.\n",
  "trait": [
   "Abjuration",
   "Magical",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

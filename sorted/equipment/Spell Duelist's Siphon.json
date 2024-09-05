@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,34 +7,45 @@
  "id": "equipment-2182",
  "item_category": "Grimoires",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spell Duelist's Siphon](/Equipment.aspx?ID=2182)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 113 <sup>1.1</sup></row>\n\n**Price** 1,750 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nMetal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover.\n\n<document level=\"2\" id=\"action-1679\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Spell Duelist's Siphon](/Equipment.aspx?ID=2182)\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 113 <sup>1.1</sup>\n\n**Price** 1,750 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nMetal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover.\n\n**Activate** <actions string=\"Reaction\" /> envision;  **Frequency** once per day; **Trigger** You're targeted with an [arcane](/Traits.aspx?ID=11) spell attack and you have this grimoire raised; **Requirements** You have the [Raise a Tome](/Feats.aspx?ID=2848) feat; **Effect** The grimoire attempts to absorb knowledge of the spell targeting you. You attempt to [counteract](/Rules.aspx?ID=371) the triggering spell. If you succeed, the spell is absorbed into the grimoire, and the diagrams on the cover change to indicate the somatic gestures and sigils for the counteracted spell. While the grimoire contains a spell, you can spend a spell slot of the same or higher level as the spell in the grimoire to cast that spell instead, heightened to the appropriate level (if you spent a higher-level spell slot). After you cast the spell, it's expended from the grimoire.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Spell Duelist's Siphon",
  "pfs": "Standard",
  "price": 175000,
  "price_raw": "1,750 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 113",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 113 <sup>1.1</sup></row>\r\n\r\n**Price** 1,750 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMetal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 113 <sup>1.1</sup>\r\n\r\n**Price** 1,750 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMetal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 113"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 113 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 113 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Metal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover. ",
  "summary_markdown": "Metal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover. ",
- "text": "<title level=\"1\" right=\"Item 12\" pfs=\"Standard\" > Spell Duelist's Siphon Source Treasure Vault pg. 113 1.1 Price 1,750 gp Bulk L --- Metal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover.\n",
+ "text": "<title level=\"1\" right=\"Item 12\" pfs=\"Standard\" > Spell Duelist's Siphon Source Treasure Vault pg. 113 1.1 Price 1,750 gp Bulk L --- Metal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover. Activate Reaction envision; Frequency once per day; Trigger You're targeted with an arcane spell attack and you have this grimoire raised; Requirements You have the Raise a Tome feat; Effect The grimoire attempts to absorb knowledge of the spell targeting you. You attempt to counteract the triggering spell. If you succeed, the spell is absorbed into the grimoire, and the diagrams on the cover change to indicate the somatic gestures and sigils for the counteracted spell. While the grimoire contains a spell, you can spend a spell slot of the same or higher level as the spell in the grimoire to cast that spell instead, heightened to the appropriate level (if you spent a higher-level spell slot). After you cast the spell, it's expended from the grimoire.\n",
  "trait": [
   "Abjuration",
   "Grimoire",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Grimoire](/Traits.aspx?ID=387), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

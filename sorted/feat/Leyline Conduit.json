@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,30 @@
  "frequency": "once per minute",
  "id": "feat-354",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Leyline Conduit](/Feats.aspx?ID=354) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup></row>\n\n**Frequency**\r\nonce per minute\n\n</column>\r\n\r\n---\r\n\r\nYou can cast your spells effortlessly by tapping into the leylines of the world. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don’t expend the prepared spell as you cast it.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Leyline Conduit](/Feats.aspx?ID=354) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup>\n\n**Frequency**\r\nonce per minute\n\n</column>\r\n\r\n---\r\n\r\nYou can cast your spells effortlessly by tapping into the leylines of the world. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don’t expend the prepared spell as you cast it.",
  "name": "Leyline Conduit",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 139",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "feat-4766",
+ "remaster_name": "Ley Line Conduit",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup></row>\r\n\r\n**Frequency**\r\nonce per minute\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can cast your spells effortlessly by tapping into the leylines of the world.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup>\r\n\r\n**Frequency**\r\nonce per minute\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can cast your spells effortlessly by tapping into the leylines of the world.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 139"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup>",
  "speed": {},
  "summary": "You can cast your spells effortlessly by tapping into the leylines of the world.",
  "summary_markdown": "You can cast your spells effortlessly by tapping into the leylines of the world.",
@@ -33,7 +42,11 @@
   "Concentrate",
   "Druid",
   "Manipulate",
-  "Metamagic"
+  "Metamagic",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=52), [Manipulate](/Traits.aspx?ID=104), [Metamagic](/Traits.aspx?ID=107)",
  "trait_raw": [

@@ -4,7 +4,6 @@
   "Wooden Shield"
  ],
  "base_item_markdown": "[Wooden Shield](/Shields.aspx?ID=2)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -13,34 +12,45 @@
  "item_category": "Shields",
  "item_subcategory": "Specific Shields",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shining Shield](/Equipment.aspx?ID=1574)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 90</row>\n\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\r\n\r\n**Access** Knights of Lastwall have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nKalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among these knights. A shining shield is a seemingly simple [wooden shield](/Shields.aspx?ID=2) (Hardness 6, HP 24, BT 12) with the Shining Oath engraved on the inside.\n\n While raised, a _shining shield_ moves itself to provide cover for your allies. If you have this shield raised and would provide [cover](/Rules.aspx?ID=459) to an ally against a foe by standing between them, the cover you provide increases one step. Thus, if you were to grant lesser cover, you grant standard cover instead; if you were to grant standard cover, you instead grant greater cover.\n\n<document level=\"2\" id=\"action-1188\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shining Shield](/Equipment.aspx?ID=1574)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 90\n\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\r\n\r\n**Access** Knights of Lastwall have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nKalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among these knights. A shining shield is a seemingly simple [wooden shield](/Shields.aspx?ID=2) (Hardness 6, HP 24, BT 12) with the Shining Oath engraved on the inside.\n\n While raised, a _shining shield_ moves itself to provide cover for your allies. If you have this shield raised and would provide [cover](/Rules.aspx?ID=459) to an ally against a foe by standing between them, the cover you provide increases one step. Thus, if you were to grant lesser cover, you grant standard cover instead; if you were to grant standard cover, you instead grant greater cover.\n\n**Activate** <actions string=\"Three Actions\" /> command, Interact;  **Frequency** once per day;   **Effect** You shout an oath to protect the innocent and weak, and the shield gives off [bright light](/Rules.aspx?ID=407). All enemies in a 30- foot radius around you must attempt a DC 27 Will save, with the following effects.\r\n\r\n**Success** The creature is unaffected.<br />\r\n**Failure** For 1 round, the creature ignores other creatures in the area and concentrates on bringing you down. The creature will still attack anyone preventing them from attacking you, uses tactics deemed most convenient to defeat you, and works with other creatures that confront you.<br />\r\n**Critical Failure** As failure, but the duration is 1 minute.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Shining Shield",
  "pfs": "Standard",
  "price": 100000,
  "price_raw": "1,000 gp",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 90",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-05-25",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 90</row>\r\n\r\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 90\r\n\r\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 90"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 90</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 90",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Kalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among …",
  "summary_markdown": "Kalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among …",
- "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Shining Shield Source Knights of Lastwall pg. 90 Price 1,000 gp Usage held in 1 hand Bulk 1 Base Shield Wooden Shield Access Knights of Lastwall have access to this item. --- Kalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among these knights. A shining shield is a seemingly simple wooden shield (Hardness 6, HP 24, BT 12) with the Shining Oath engraved on the inside. While raised, a shining shield moves itself to provide cover for your allies. If you have this shield raised and would provide cover to an ally against a foe by standing between them, the cover you provide increases one step. Thus, if you were to grant lesser cover, you grant standard cover instead; if you were to grant standard cover, you instead grant greater cover.\n",
+ "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Shining Shield Source Knights of Lastwall pg. 90 Price 1,000 gp Usage held in 1 hand Bulk 1 Base Shield Wooden Shield Access Knights of Lastwall have access to this item. --- Kalabrynne Iomedar commissioned the first of these shields, which have become some of the Shining Sentinels' most valued equipment, replicated among these knights. A shining shield is a seemingly simple wooden shield (Hardness 6, HP 24, BT 12) with the Shining Oath engraved on the inside. While raised, a shining shield moves itself to provide cover for your allies. If you have this shield raised and would provide cover to an ally against a foe by standing between them, the cover you provide increases one step. Thus, if you were to grant lesser cover, you grant standard cover instead; if you were to grant standard cover, you instead grant greater cover. Activate Three Actions command, Interact; Frequency once per day; Effect You shout an oath to protect the innocent and weak, and the shield gives off bright light. All enemies in a 30- foot radius around you must attempt a DC 27 Will save, with the following effects. Success The creature is unaffected. Failure For 1 round, the creature ignores other creatures in the area and concentrates on bringing you down. The creature will still attack anyone preventing them from attacking you, uses tactics deemed most convenient to defeat you, and works with other creatures that confront you. Critical Failure As failure, but the duration is 1 minute.\n",
  "trait": [
   "Enchantment",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

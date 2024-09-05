@@ -1,19 +1,24 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Nature"
  ],
- "domain_markdown": "[Nature](/Domains.aspx?ID=22)",
+ "domain_markdown": "[Nature](/Domains.aspx?ID=85)",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -24,50 +29,65 @@
   9,
   10
  ],
- "id": "spell-435",
+ "id": "spell-1823",
+ "legacy_id": "spell-435",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Nature's Bounty](/Spells.aspx?ID=435)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 394 <sup>4.0</sup></row>\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=22)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n**Requirements** You have a free hand.\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA palm-sized raw fruit or vegetable appears in your open hand. You choose the specific type of food. A creature can consume the food with an Interact action to regain 3d10+12 Hit Points and be nourished as if it had eaten a meal. If uneaten, the food rots and crumbles to dust after 1 minute.\n\n---\r\n**Heightened (+1)** The Hit Points restored increase by 6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Nature's Bounty](/Spells.aspx?ID=1823)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=85)\n\n<row gap=\"medium\">\n\n \n\n**Requirements** You have a free hand\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA palm-sized raw fruit or vegetable of your choice appears in your open hand. A creature can consume the food with an Interact action to regain 3d10+12 Hit Points and be nourished as if it had eaten a meal. If uneaten, the food crumbles to dust after 1 minute.\n\n---\r\n**Heightened (+1)** The Hit Points restored increase by 6.",
  "name": "Nature's Bounty",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 377",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
- "requirement": "You have a free hand.",
- "requirement_markdown": "You have a free hand.",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
+ "requirement": "You have a free hand",
+ "requirement_markdown": "You have a free hand",
  "resistance": {},
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 394 <sup>4.0</sup></row>\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=22)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n**Requirements** You have a free hand.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA palm-sized raw fruit or vegetable appears in your open hand.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=85)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n**Requirements** You have a free hand\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA palm-sized raw fruit or vegetable of your choice appears in your open hand.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 394"
+  "Player Core pg. 377"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 394 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 377",
  "speed": {},
- "summary": "A palm-sized raw fruit or vegetable appears in your open hand.",
- "summary_markdown": "A palm-sized raw fruit or vegetable appears in your open hand.",
- "text": " Nature's Bounty Source Core Rulebook pg. 394 4.0 Domain Nature Cast Single Action somatic Requirements You have a free hand. --- A palm-sized raw fruit or vegetable appears in your open hand. You choose the specific type of food. A creature can consume the food with an Interact action to regain 3d10+12 Hit Points and be nourished as if it had eaten a meal. If uneaten, the food rots and crumbles to dust after 1 minute. --- Heightened (+1) The Hit Points restored increase by 6.",
+ "spell_type": "Focus",
+ "summary": "A palm-sized raw fruit or vegetable of your choice appears in your open hand.",
+ "summary_markdown": "A palm-sized raw fruit or vegetable of your choice appears in your open hand.",
+ "text": "\nNature's Bounty Single Action Source Player Core pg. 377 Domain Nature Requirements You have a free hand --- A palm-sized raw fruit or vegetable of your choice appears in your open hand. A creature can consume the food with an Interact action to regain 3d10+12 Hit Points and be nourished as if it had eaten a meal. If uneaten, the food crumbles to dust after 1 minute. --- Heightened (+1) The Hit Points restored increase by 6.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Conjuration",
+  "Focus",
+  "Manipulate",
   "Plant",
-  "Positive",
-  "Uncommon"
+  "Uncommon",
+  "Vitality",
+  "Positive"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Conjuration](/Traits.aspx?ID=33), [Plant](/Traits.aspx?ID=125), [Positive](/Traits.aspx?ID=128), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Creature Type",
+  "Rarity",
+  "Energy",
+  "Planar"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Plant](/Traits.aspx?ID=125), [Uncommon](/Traits.aspx?ID=159), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
   "Cleric",
-  "Conjuration",
+  "Focus",
+  "Manipulate",
   "Plant",
-  "Positive",
-  "Uncommon"
+  "Uncommon",
+  "Vitality"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=435",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1823",
  "weakness": {}
 }

@@ -1,0 +1,175 @@
+{
+ "ac": 40,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "LN",
+ "attack_bonus": [
+  32
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 8,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Eclipse Aura",
+  "Solar Flare",
+  "Lunar Burst",
+  "Shadow Leap",
+  "Thermal Mastery"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 33,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 310,
+ "hp_raw": "310",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2585",
+ "intelligence": 5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1)",
+ "level": 17,
+ "markdown": "<title level=\"1\" pfs=\"\">[Mighty Bul-Gae](/Monsters.aspx?ID=2585)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 41\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 39\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 36\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 17\">[Mighty Bul-Gae](/Monsters.aspx?ID=2585)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 20\n\n**Perception** +30; [greater darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +32, [Intimidation](/Skills.aspx?ID=7) +29, [Stealth](/Skills.aspx?ID=15) +30, [Survival](/Skills.aspx?ID=16) +32\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +5\r\n\r\n**Con** +8\r\n\r\n**Int** +5\r\n\r\n**Wis** +7\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 40 \r\n\r\n**Fort** +33 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +30 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 310\n\n</row>\n\n**Resistances**\r\n[cold](/Traits.aspx?ID=27) 15, [fire](/Traits.aspx?ID=72) 15\n\n**Eclipse Aura** ([aura](/Traits.aspx?ID=206), [darkness](/Traits.aspx?ID=39), [occult](/Traits.aspx?ID=120)) 100 feet. Light and shadows morph strangely around the bul-gae. A creature attempting to create a [light](/Traits.aspx?ID=100) effect within the aura must attempt a DC 5 flat check. On a failure, the attempt fails, the effect is lost, and the DC to [counteract](/Rules.aspx?ID=371) [darkness](/Traits.aspx?ID=39) effects within the aura is increased by 1.<br />**Solar Flare** <actions string=\"Reaction\" /> ([evocation](/Traits.aspx?ID=65), [fire](/Traits.aspx?ID=72), [occult](/Traits.aspx?ID=120)) **Trigger** The bul-gae takes damage; **Effect** The bul-gae releases a solar flare  in a 30-foot emanation. Each creature in the area takes 6d8 fire damage (DC 38 [basic](/Rules.aspx?ID=329) Reflex save). On a critical failure, a creature also takes 2d10 [persistent fire damage](/Conditions.aspx?ID=29). After using this ability, the bul-gae's flames cool and they can't use Solar Flare again until after they have used Lunar Burst.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, fly 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +32 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 3d8+17 piercing plus 2d6 cold or fire and [Improved Knockdown](/MonsterAbilities.aspx?ID=28)\n\n**Lunar Burst** <actions string=\"Two Actions\" /> ([Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65), [Occult](/Traits.aspx?ID=120)) The bul-gae releases a blast of otherworldly frost that deals 6d8 cold damage to each creature in a 10-foot emanation (DC 38 [basic](/Rules.aspx?ID=329) Reflex save). On a critical failure, a creature also becomes [slowed 2](/Conditions.aspx?ID=35). After using this ability, the bul-gae's flames heat up and they can't use Lunar Burst again until after they have used Solar Flare.\r\n\r\n**Shadow Leap** <actions string=\"Single Action\" /> ([Conjuration](/Traits.aspx?ID=33), [Occult](/Traits.aspx?ID=120), [Shadow](/Traits.aspx?ID=143), [Teleportation](/Traits.aspx?ID=156)) **Requirements** The bul-gae is in [dim light](/Rules.aspx?ID=408) or [darkness](/Rules.aspx?ID=409); **Effect** The bul-gae dives into a shadow and reappears from another shadow within 40 feet.\r\n\r\n**Thermal Mastery**   The bul-gae has total control over the powers of cold and fire. Each time they attack with their jaws, they can choose either cold or fire for the additional damage.\r\n\r\n</column>",
+ "name": "Mighty Bul-Gae",
+ "npc": false,
+ "perception": 30,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #192: Worst of All Possible Worlds",
+ "primary_source_raw": "Pathfinder #192: Worst of All Possible Worlds pg. 20",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 26,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-06-28",
+ "resistance": {
+  "cold": 15,
+  "fire": 15
+ },
+ "resistance_markdown": "[cold](/Traits.aspx?ID=27) 15, [fire](/Traits.aspx?ID=72) 15",
+ "resistance_raw": " cold  15,  fire  15",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 20\n\n<row gap=\"medium\">\r\n**HP** 310\r\n\r\n**AC** 40\r\n\r\n**Fort** +33\r\n\r\n**Ref** +26\r\n\r\n**Will** +30\r\n\r\n**Perception** +30\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " greater darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +32, [Intimidation](/Skills.aspx?ID=7) +29, [Stealth](/Skills.aspx?ID=15) +30, [Survival](/Skills.aspx?ID=16) +32",
+ "skill_mod": {
+  "athletics": 32,
+  "intimidation": 29,
+  "stealth": 30,
+  "survival": 32
+ },
+ "source": [
+  "Pathfinder #192: Worst of All Possible Worlds"
+ ],
+ "source_raw": [
+  "Pathfinder #192: Worst of All Possible Worlds pg. 20"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 20",
+ "speed": {
+  "fly": 30,
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet, fly 30 feet",
+ "speed_raw": "40 feet, fly 30 feet",
+ "spell_markdown": "",
+ "spoilers": "Stolen Fate",
+ "stealth": "30",
+ "strike_damage_average": [
+  37
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "text": " Mighty Bul-Gae Recall Knowledge - Beast (Arcana, Nature): DC 41 Unspecific Lore : DC 39 Specific Lore : DC 36 Mighty Bul-Gae Source Pathfinder #192: Worst of All Possible Worlds pg. 20 Perception +30; greater darkvision, scent (imprecise) 60 feet Languages Common Skills Athletics +32, Intimidation +29, Stealth +30, Survival +32 Str +9 Dex +5 Con +8 Int +5 Wis +7 Cha +4 --- AC 40 Fort +33 Ref +26 Will +30 HP 310 Resistances cold 15, fire 15 Eclipse Aura (aura, darkness, occult) 100 feet. Light and shadows morph strangely around the bul-gae. A creature attempting to create a light effect within the aura must attempt a DC 5 flat check. On a failure, the attempt fails, the effect is lost, and the DC to counteract darkness effects within the aura is increased by 1. Solar Flare Reaction (evocation, fire, occult) Trigger The bul-gae takes damage; Effect The bul-gae releases a solar flare in a 30-foot emanation. Each creature in the area takes 6d8 fire damage (DC 38 basic Reflex save). On a critical failure, a creature also takes 2d10 persistent fire damage. After using this ability, the bul-gae's flames cool and they can't use Solar Flare again until after they have used Lunar Burst. --- Speed 40 feet, fly 30 feet Melee Single Action jaws +32 (Agile), Damage 3d8+17 piercing plus 2d6 cold or fire and Improved Knockdown Lunar Burst Two Actions (Cold, Evocation, Occult) The bul-gae releases a blast of otherworldly frost that deals 6d8 cold damage to each creature in a 10-foot emanation (DC 38 basic Reflex save). On a critical failure, a creature also becomes slowed 2. After using this ability, the bul-gae's flames heat up and they can't use Lunar Burst again until after they have used Solar Flare. Shadow Leap Single Action (Conjuration, Occult, Shadow, Teleportation) Requirements The bul-gae is in dim light or darkness; Effect The bul-gae dives into a shadow and reappears from another shadow within 40 feet. Thermal Mastery The bul-gae has total control over the powers of cold and fire. Each time they attack with their jaws, they can choose either cold or fire for the additional damage. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Cold",
+  "Fire",
+  "Rare",
+  "LN",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Monster",
+  "Elemental",
+  "Planar",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=20), [Cold](/Traits.aspx?ID=27), [Fire](/Traits.aspx?ID=72), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Beast",
+  "Cold",
+  "Fire",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2585",
+ "vision": "Greater darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 30,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 7,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

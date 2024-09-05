@@ -1,0 +1,170 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  14,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "Extreme",
+ "constitution_scale_number": 5,
+ "creature_ability": [
+  "Easily Misled",
+  "Furious Flailing",
+  "Chase Prey",
+  "Rend"
+ ],
+ "creature_family": "Troll",
+ "creature_family_markdown": "[Troll](/MonsterFamilies.aspx?ID=478)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 17,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
+ "hp": 125,
+ "hp_raw": "125",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3219",
+ "image": [
+  "/Images/Monsters/Forest_Troll.webp"
+ ],
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Jotun"
+ ],
+ "language_markdown": "[Jotun](/Languages.aspx?ID=8)",
+ "legacy_id": "creature-395",
+ "legacy_name": "Troll",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Forest Troll](/Monsters.aspx?ID=3219)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nForest trolls are gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws and toothy maws. These trolls stand anywhere from 12 to 16 feet tall, though they prefer to hunch for comfort and to lull foes into a false sense of security. Trolls are truly creatures of the forest, deeply linked in flesh and blood to the verdant habitats they consider their territory. In fact, when a forest troll is killed, their flesh turns into blackened lumps of charcoal, often still glowing with coals. Despite that, these creatures roam farther and wider than most of their kin, to the extent that they're the first creatures a common person thinks of when they hear the word “troll.”\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Forest_Troll.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Forest Troll](/Monsters.aspx?ID=3219)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Troll\" url=\"/Traits.aspx?ID=777\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 330\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +2\r\n\r\n**Con** +6\r\n\r\n**Int** -2\r\n\r\n**Wis** +0\r\n\r\n**Cha** -2\r\n</row>\r\n\r\n**Easily Misled** The forest troll gets a –4 circumstance penalty to their Perception DC against [Deception](/Skills.aspx?ID=38) checks.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n, regeneration 20 (deactivated by [electricity](/Traits.aspx?ID=586) or [fire](/Traits.aspx?ID=604))\n\n</row>\n\n**Weaknesses**\r\nelectricity 10, fire 10\r\n\r\n**Furious Flailing** <actions string=\"Reaction\" /> **Trigger** The forest troll takes electricity or fire damage; **Effect** The troll makes a claw Strike against a random creature within its reach. If the troll has [persistent fire damage](/Conditions.aspx?ID=29), they attempt a DC 15 flat check to remove it.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +14 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+5 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +14 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+5 slashing\n\n**Chase Prey** <actions string=\"Two Actions\" />  The forest troll rushes forward on all fours, Striding and then making two claw Strikes.\r\n\r\n**[Rend](/MonsterAbilities.aspx?ID=73)** <actions string=\"Single Action\" />  claw\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-478\" />",
+ "name": "Forest Troll",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 330",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 11,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Troll\" url=\"/Traits.aspx?ID=777\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 330\r\n\r\n**Creature Family** [Troll](/MonsterFamilies.aspx?ID=478)\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n**AC** 20\r\n\r\n**Fort** +17\r\n\r\n**Ref** +11\r\n\r\n**Will** +7\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nForest trolls are gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +12",
+ "skill_mod": {
+  "athletics": 12,
+  "intimidation": 12
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 330"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 330",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  14,
+  16
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Forest trolls are gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious …",
+ "summary_markdown": "Forest trolls are gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious …",
+ "text": " Forest Troll Forest trolls are gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws and toothy maws. These trolls stand anywhere from 12 to 16 feet tall, though they prefer to hunch for comfort and to lull foes into a false sense of security. Trolls are truly creatures of the forest, deeply linked in flesh and blood to the verdant habitats they consider their territory. In fact, when a forest troll is killed, their flesh turns into blackened lumps of charcoal, often still glowing with coals. Despite that, these creatures roam farther and wider than most of their kin, to the extent that they're the first creatures a common person thinks of when they hear the word “troll.” Recall Knowledge - Humanoid (Society): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Forest Troll Source Monster Core pg. 330 Perception +11; darkvision Languages Jotun Skills Athletics +12, Intimidation +12 Str +5 Dex +2 Con +6 Int -2 Wis +0 Cha -2 Easily Misled The forest troll gets a –4 circumstance penalty to their Perception DC against Deception checks. --- AC 20 Fort +17 Ref +11 Will +7 HP 125 , regeneration 20 (deactivated by electricity or fire) Weaknesses electricity 10, fire 10 Furious Flailing Reaction Trigger The forest troll takes electricity or fire damage; Effect The troll makes a claw Strike against a random creature within its reach. If the troll has persistent fire damage, they attempt a DC 15 flat check to remove it. --- Speed 30 feet Melee Single Action jaws +14 (reach 10 feet), Damage 2d10+5 piercing Melee Single Action claw +14 (Agile, reach 10 feet), Damage 2d8+5 slashing Chase Prey Two Actions The forest troll rushes forward on all fours, Striding and then making two claw Strikes. Rend Single Action claw ",
+ "tradition_markdown": "",
+ "trait": [
+  "Giant",
+  "Humanoid",
+  "Troll",
+  "Wood",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Elemental"
+ ],
+ "trait_markdown": "[Giant](/Traits.aspx?ID=616), [Humanoid](/Traits.aspx?ID=628), [Troll](/Traits.aspx?ID=777), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Giant",
+  "Humanoid",
+  "Troll",
+  "Wood"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3219",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "electricity": 10,
+  "fire": 10
+ },
+ "weakness_markdown": "electricity 10, fire 10",
+ "weakness_raw": "electricity 10, fire 10",
+ "will_save": 7,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

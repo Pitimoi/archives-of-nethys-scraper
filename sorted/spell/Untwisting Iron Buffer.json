@@ -1,16 +1,25 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -24,40 +33,51 @@
  ],
  "id": "spell-546",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">[Untwisting Iron Buffer](/Spells.aspx?ID=546)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [World Guide](/Sources.aspx?ID=6) pg. 83 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send currents of protective ki to the surface of your body that protect you from harm, at least until your enemies dissipate them. You gain 15 temporary Hit Points, which last for up to 3 rounds.\n\n---\r\n**Heightened (+1)** The temporary Hit Points increase by 5.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">\r\n[Untwisting Iron Buffer](/Spells.aspx?ID=546)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [World Guide](/Sources.aspx?ID=6) pg. 83 <sup>2.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send currents of protective ki to the surface of your body that protect you from harm, at least until your enemies dissipate them. You gain 15 temporary Hit Points, which last for up to 3 rounds.\n\n---\r\n**Heightened (+1)** The temporary Hit Points increase by 5.",
  "name": "Untwisting Iron Buffer",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "World Guide",
+ "primary_source_raw": "World Guide pg. 83",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-31",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [World Guide](/Sources.aspx?ID=6) pg. 83 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGain temporary hit points.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [World Guide](/Sources.aspx?ID=6) pg. 83 <sup>2.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGain temporary hit points.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "World Guide"
  ],
  "source_raw": [
   "World Guide pg. 83"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[World Guide](/Sources.aspx?ID=6) pg. 83 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[World Guide](/Sources.aspx?ID=6) pg. 83 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "Gain temporary hit points.",
  "summary_markdown": "Gain temporary hit points.",
- "text": " Untwisting Iron Buffer Source World Guide pg. 83 2.0 Cast Single Action verbal --- You send currents of protective ki to the surface of your body that protect you from harm, at least until your enemies dissipate them. You gain 15 temporary Hit Points, which last for up to 3 rounds. --- Heightened (+1) The temporary Hit Points increase by 5.",
+ "text": "\nUntwisting Iron Buffer Single Action Source World Guide pg. 83 2.0 Cast verbal --- You send currents of protective ki to the surface of your body that protect you from harm, at least until your enemies dissipate them. You gain 15 temporary Hit Points, which last for up to 3 rounds. --- Heightened (+1) The temporary Hit Points increase by 5.",
  "tradition_markdown": "",
  "trait": [
   "Abjuration",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Abjuration",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=546",
  "weakness": {}
 }

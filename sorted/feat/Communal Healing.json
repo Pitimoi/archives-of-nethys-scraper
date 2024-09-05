@@ -1,44 +1,58 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Communal Healing"
  ],
  "feat_markdown": "Communal Healing",
- "id": "feat-271",
+ "id": "feat-4648",
+ "legacy_id": "feat-271",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Communal Healing](/Feats.aspx?ID=271) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 122 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou’re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the [_heal_](/Spells.aspx?ID=148) spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the _heal_ spell.\n\n<title level=\"2\">Communal Healing leads to...</title>\r\n[Improved Communal Healing](/Feats.aspx?ID=279)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Communal Healing](/Feats.aspx?ID=4648) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 115\n\n</column>\r\n\r\n---\r\n\r\nYou’re an exceptional conduit for vitality and, as you channel it through you, you can divert some to heal yourself or another creature. When you cast the heal spell to heal a single creature, choose another willing living creature within range of your heal to regain Hit Points equal to the heal spell’s rank.",
  "name": "Communal Healing",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 115",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 122 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou’re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 115\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou’re an exceptional conduit for vitality and, as you channel it through you, you can divert some to heal yourself or another creature.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 122"
+  "Player Core pg. 115"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 122 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 115",
  "speed": {},
- "summary": "You’re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries.",
- "summary_markdown": "You’re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries.",
- "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Communal Healing Source Core Rulebook pg. 122 4.0 --- You’re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell. Communal Healing leads to... Improved Communal Healing",
+ "summary": "You’re an exceptional conduit for vitality and, as you channel it through you, you can divert some to heal yourself or another creature.",
+ "summary_markdown": "You’re an exceptional conduit for vitality and, as you channel it through you, you can divert some to heal yourself or another creature.",
+ "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Communal Healing Source Player Core pg. 115 --- You’re an exceptional conduit for vitality and, as you channel it through you, you can divert some to heal yourself or another creature. When you cast the heal spell to heal a single creature, choose another willing living creature within range of your heal to regain Hit Points equal to the heal spell’s rank.",
  "trait": [
   "Cleric",
   "Healing",
+  "Vitality",
   "Positive"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Healing](/Traits.aspx?ID=89), [Positive](/Traits.aspx?ID=128)",
+ "trait_group": [
+  "Class",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Healing](/Traits.aspx?ID=89), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
   "Cleric",
   "Healing",
-  "Positive"
+  "Vitality"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=271",
+ "url": "/Feats.aspx?ID=4648",
  "weakness": {}
 }

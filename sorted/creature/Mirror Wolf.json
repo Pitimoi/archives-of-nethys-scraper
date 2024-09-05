@@ -1,0 +1,215 @@
+{
+ "ac": 24,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Visage Strike",
+  "Bond with Mortal",
+  "Strafing Strike",
+  "Bonded Strike",
+  "Lingering Assailant",
+  "Pack Attack"
+ ],
+ "creature_family": "Spirit Guide",
+ "creature_family_markdown": "[Spirit Guide](/MonsterFamilies.aspx?ID=502)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 117,
+ "hp_raw": "117",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3312",
+ "image": [
+  "/Images/Monsters/Mirror_Wolf.webp"
+ ],
+ "immunity": [
+  "disease",
+  "paralyzed",
+  "poison",
+  "precision"
+ ],
+ "immunity_markdown": "[disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), precision",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "<%SPELLS%1728%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1); [_truespeech_](/Spells.aspx?ID=1728)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Swift Guide](/Monsters.aspx?ID=3312)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSwift guides are often among the first spirit guides to respond to threats, and they're said to move with such incredible speed that it's impossible to tell whether they're one or many until the battle is resolved.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Mirror_Wolf.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Mirror Wolf](/Monsters.aspx?ID=3312)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=632\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 183\n\n**Perception** +18; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1); [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +15, [Athletics](/Skills.aspx?ID=36) +12, [Intimidation](/Skills.aspx?ID=40) +11, [Stealth](/Skills.aspx?ID=48) +19, [Survival](/Skills.aspx?ID=49) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +6\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 117\n\n</row>\r\n\r\n**Immunities**\r\n[disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), precision\r\n\r\n**Resistances**\r\nall damage 7 (except [force](/Traits.aspx?ID=610), [_ghost touch_](/Equipment.aspx?ID=2840), [spirit](/Traits.aspx?ID=737), or [vitality](/Traits.aspx?ID=509); double resistance vs. non- &amp;lt;%traits%644%%&amp;gt; magical &amp;lt;%end>)\n\n**Visage Strike** <actions string=\"Reaction\" /> **Trigger** A creature adjacent to the mirror wolf's visages damages mirror wolf's ally; **Effect** The mirror wolf teleports to the visage's spot, destroying the visage, and makes a jaws Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +17 ([Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+8 force plus [Knockdown](/MonsterAbilities.aspx?ID=46)\r\n\r\n**Primal Innate Spells** DC 22\r\n- **3rd**\r\n[Revealing Light](/Spells.aspx?ID=1653)\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**Bond with Mortal**  ([Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134)) **Frequency** once per day; **Effect** The spirit guide spends 10 minutes to form a bond with a mortal creature. While the bond exists, the spirit guide increases their current and maximum Hit Points by 14, gains a +2 status bonus to their attack and damage rolls, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies.<br />This bond strengthens the spirit guide's connection to [the Universe](/Planes.aspx?ID=26). While bonded, the spirit guide loses the [incorporeal](/Traits.aspx?ID=632) and [spirit](/Traits.aspx?ID=737) traits, loses their immunity to disease, paralysis, and poison, along with their resistance to all damage, and changes their Strikes to deal the appropriate amount of physical damage (typically piercing or slashing) instead of force damage.\r\n\r\n**Strafing Strike** <actions string=\"Two Actions\" />  The mirror wolf makes a jaws Strike against a creature within range. The mirror wolf can then Stride and make a second jaws Strike against the same creature.\r\n\r\n**Bonded Strike** <actions string=\"Two Actions\" />  **Requirements** The mirror wolf is currently Bonded with a Mortal; **Effect** The mirror wolf makes a jaws Strike. If this attack hits, the bonded mortal can spend their reaction to Strike the same target.\r\n\r\n**Lingering Assailant**  ([Illusion](/Traits.aspx?ID=92), [Visual](/Traits.aspx?ID=163)) The mirror wolf attacks with such speed it leaves a visage of itself behind. When the mirror wolf Strikes, they leave behind a visage in an adjacent square. The visage is treated as an ally for effects such as flanking and pack attack. A visage has AC 10 and 1 HP and lasts for 1 round.\r\n\r\n**Pack Attack**   The mirror wolf's Strikes deal 1d8 extra damage to creatures within reach of at least two of the mirror wolf's allies.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-502\" />",
+ "name": "Mirror Wolf",
+ "npc": false,
+ "perception": 18,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 183",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 19,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "acid": 7,
+  "all": 7,
+  "area": 7,
+  "bleed": 7,
+  "bludgeoning": 7,
+  "chaotic": 7,
+  "cold": 7,
+  "cold_iron": 7,
+  "electricity": 7,
+  "evil": 7,
+  "fire": 7,
+  "good": 7,
+  "holy": 7,
+  "lawful": 7,
+  "mental": 7,
+  "negative": 7,
+  "orichalcum": 7,
+  "physical": 7,
+  "piercing": 7,
+  "poison": 7,
+  "positive": 7,
+  "precision": 7,
+  "silver": 7,
+  "slashing": 7,
+  "sonic": 7,
+  "splash": 7,
+  "unholy": 7
+ },
+ "resistance_markdown": "all damage 7 (except [force](/Traits.aspx?ID=610), [_ghost touch_](/Equipment.aspx?ID=2840), [spirit](/Traits.aspx?ID=737), or [vitality](/Traits.aspx?ID=509); double resistance vs. non- &lt;%traits%644%%&gt; magical &lt;%end>)",
+ "resistance_raw": "all damage 7 (except  force ,   ghost touch  ,  spirit , or  vitality ; double resistance vs. non- magical )",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=632\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 183\r\n\r\n**Creature Family** [Spirit Guide](/MonsterFamilies.aspx?ID=502)\r\n\r\n<row gap=\"medium\">\r\n**HP** 117\r\n\r\n**AC** 24\r\n\r\n**Fort** +14\r\n\r\n**Ref** +19\r\n\r\n**Will** +15\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSwift guides are often among the first spirit guides to respond to threats, and they're said to move with such incredible speed that it's impossible …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +15, [Athletics](/Skills.aspx?ID=36) +12, [Intimidation](/Skills.aspx?ID=40) +11, [Stealth](/Skills.aspx?ID=48) +19, [Survival](/Skills.aspx?ID=49) +17",
+ "skill_mod": {
+  "acrobatics": 15,
+  "athletics": 12,
+  "intimidation": 11,
+  "stealth": 19,
+  "survival": 17
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 183"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 183",
+ "speed": {
+  "land": 35,
+  "max": 35
+ },
+ "speed_markdown": "35 feet",
+ "speed_raw": "35 feet",
+ "spell": [
+  "Revealing Light",
+  "Truespeech"
+ ],
+ "spell_markdown": "[Revealing Light](/Spells.aspx?ID=1653), [Truespeech](/Spells.aspx?ID=1728)",
+ "spell_dc": [
+  22
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  17
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Swift guides are often among the first spirit guides to respond to threats, and they're said to move with such incredible speed that it's impossible …",
+ "summary_markdown": "Swift guides are often among the first spirit guides to respond to threats, and they're said to move with such incredible speed that it's impossible …",
+ "text": " Swift Guide Swift guides are often among the first spirit guides to respond to threats, and they're said to move with such incredible speed that it's impossible to tell whether they're one or many until the battle is resolved. Recall Knowledge - Beast (Arcana, Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Mirror Wolf Source Howl of the Wild pg. 183 Perception +18; low-light vision, scent (imprecise) 30 feet Languages Common; truespeech Skills Acrobatics +15, Athletics +12, Intimidation +11, Stealth +19, Survival +17 Str +3 Dex +6 Con +2 Int +1 Wis +3 Cha -2 --- AC 24 Fort +14 Ref +19 Will +15 HP 117 Immunities disease, paralyzed, poison, precision Resistances all damage 7 (except force, ghost touch , spirit, or vitality; double resistance vs. non- &amp;lt;%traits%644%%&amp;gt; magical &amp;lt;%end>) Visage Strike Reaction Trigger A creature adjacent to the mirror wolf's visages damages mirror wolf's ally; Effect The mirror wolf teleports to the visage's spot, destroying the visage, and makes a jaws Strike. --- Speed 35 feet Melee Single Action jaws +17 (Magical), Damage 2d8+8 force plus Knockdown Primal Innate Spells DC 22 - 3rd Revealing Light - Constant (5th) Truespeech Bond with Mortal (Mental, Primal) Frequency once per day; Effect The spirit guide spends 10 minutes to form a bond with a mortal creature. While the bond exists, the spirit guide increases their current and maximum Hit Points by 14, gains a +2 status bonus to their attack and damage rolls, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies. This bond strengthens the spirit guide's connection to the Universe. While bonded, the spirit guide loses the incorporeal and spirit traits, loses their immunity to disease, paralysis, and poison, along with their resistance to all damage, and changes their Strikes to deal the appropriate amount of physical damage (typically piercing or slashing) instead of force damage. Strafing Strike Two Actions The mirror wolf makes a jaws Strike against a creature within range. The mirror wolf can then Stride and make a second jaws Strike against the same creature. Bonded Strike Two Actions Requirements The mirror wolf is currently Bonded with a Mortal; Effect The mirror wolf makes a jaws Strike. If this attack hits, the bonded mortal can spend their reaction to Strike the same target. Lingering Assailant (Illusion, Visual) The mirror wolf attacks with such speed it leaves a visage of itself behind. When the mirror wolf Strikes, they leave behind a visage in an adjacent square. The visage is treated as an ally for effects such as flanking and pack attack. A visage has AC 10 and 1 HP and lasts for 1 round. Pack Attack The mirror wolf's Strikes deal 1d8 extra damage to creatures within reach of at least two of the mirror wolf's allies. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Beast",
+  "Incorporeal",
+  "Spirit",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Incorporeal](/Traits.aspx?ID=632), [Spirit](/Traits.aspx?ID=737)",
+ "trait_raw": [
+  "Beast",
+  "Incorporeal",
+  "Spirit"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3312",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 15,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

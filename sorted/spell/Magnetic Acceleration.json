@@ -1,17 +1,29 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
+ "element": [
+  "Metal"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -25,33 +37,38 @@
  ],
  "id": "spell-943",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">[Magnetic Acceleration](/Spells.aspx?ID=943)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 114 <sup>1.1</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou magnetize a small metal object, such as a nail or coin, and launch it away from you at massive speed. Make a ranged spell attack roll; if the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with _magnetic acceleration_. On a hit, the target takes 3d6 bludgeoning damage and 3d6 piercing damage, or double damage on a critical hit.\n\n---\r\n**Heightened (+1)** The bludgeoning and piercing damage each increase by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Magnetic Acceleration](/Spells.aspx?ID=943)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 114 <sup>1.1</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou magnetize a small metal object, such as a nail or coin, and launch it away from you at massive speed. Make a ranged spell attack roll; if the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with _magnetic acceleration_. On a hit, the target takes 3d6 bludgeoning damage and 3d6 piercing damage, or double damage on a critical hit.\n\n---\r\n**Heightened (+1)** The bludgeoning and piercing damage each increase by 1d6.",
  "name": "Magnetic Acceleration",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 114",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 114 <sup>1.1</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMagnetically launch an item to attack a foe.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 114 <sup>1.1</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n**Target** 1 creature or object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMagnetically launch an item to attack a foe.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 114"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 114 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 114 <sup>1.1</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Magnetically launch an item to attack a foe.",
  "summary_markdown": "Magnetically launch an item to attack a foe.",
  "target": "1 creature or object",
  "target_markdown": "1 creature or object",
- "text": " Magnetic Acceleration Source Secrets of Magic pg. 114 1.1 Traditions Arcane, Primal Cast Two Actions somatic, verbal Range 120 feet Target 1 creature or object --- You magnetize a small metal object, such as a nail or coin, and launch it away from you at massive speed. Make a ranged spell attack roll; if the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with magnetic acceleration . On a hit, the target takes 3d6 bludgeoning damage and 3d6 piercing damage, or double damage on a critical hit. --- Heightened (+1) The bludgeoning and piercing damage each increase by 1d6.",
+ "text": "\nMagnetic Acceleration Two Actions Source Secrets of Magic pg. 114 1.1 Traditions Arcane, Primal Cast somatic, verbal Range 120 feet Target 1 creature or object --- You magnetize a small metal object, such as a nail or coin, and launch it away from you at massive speed. Make a ranged spell attack roll; if the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with magnetic acceleration . On a hit, the target takes 3d6 bludgeoning damage and 3d6 piercing damage, or double damage on a critical hit. --- Heightened (+1) The bludgeoning and piercing damage each increase by 1d6.",
  "tradition": [
   "Arcane",
   "Primal"
@@ -59,12 +76,18 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Attack",
-  "Evocation"
+  "Evocation",
+  "Metal"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Evocation](/Traits.aspx?ID=65)",
+ "trait_group": [
+  "School",
+  "Elemental"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Evocation](/Traits.aspx?ID=65), [Metal](/Traits.aspx?ID=505)",
  "trait_raw": [
   "Attack",
-  "Evocation"
+  "Evocation",
+  "Metal"
  ],
  "type": "Spell",
  "url": "/Spells.aspx?ID=943",

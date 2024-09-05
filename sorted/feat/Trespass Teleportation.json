@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,26 +9,33 @@
  "feat_markdown": "Trespass Teleportation",
  "id": "feat-3726",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Trespass Teleportation](/Feats.aspx?ID=3726) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 47</row>\n\n**Prerequisites**\r\n[Exploit Vulnerability](/Actions.aspx?ID=1227)\n\n**Trigger**\r\nThe target of your Exploit Vulnerability is within 120 feet and uses a [teleportation](/Traits.aspx?ID=156) effect.\r\n\r\n**Requirements**\r\nYou are benefiting from Exploit Vulnerability.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can hunt your foe to the ends of creation. You teleport along with the enemy, appearing the same direction and distance from it as you were before it teleported (or the nearest unoccupied space if your destination is occupied). Any allies affected by [Share Weakness](/Feats.aspx?ID=3717) or [Ubiquitous Weakness](/Feats.aspx?ID=3733), if you have those abilities, can spend their reaction to teleport along with the enemy if they're within 120 of the enemy and choose to do so.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Trespass Teleportation](/Feats.aspx?ID=3726) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 47\n\n**Prerequisites**\r\n[Exploit Vulnerability](/Actions.aspx?ID=1227)\n\n**Trigger**\r\nThe target of your Exploit Vulnerability is within 120 feet and uses a [teleportation](/Traits.aspx?ID=156) effect.\r\n\r\n**Requirements**\r\nYou are benefiting from Exploit Vulnerability.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can hunt your foe to the ends of creation. You teleport along with the enemy, appearing the same direction and distance from it as you were before it teleported (or the nearest unoccupied space if your destination is occupied). Any allies affected by [Share Weakness](/Feats.aspx?ID=3717) or [Ubiquitous Weakness](/Feats.aspx?ID=3733), if you have those abilities, can spend their reaction to teleport along with the enemy if they're within 120 of the enemy and choose to do so.",
  "name": "Trespass Teleportation",
  "pfs": "Standard",
  "prerequisite": "Exploit Vulnerability",
  "prerequisite_markdown": "[Exploit Vulnerability](/Actions.aspx?ID=1227)",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 47",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "requirement": "You are benefiting from Exploit Vulnerability.",
  "requirement_markdown": "You are benefiting from Exploit Vulnerability.",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 47</row>\n\n**Prerequisites**\r\n[Exploit Vulnerability](/Actions.aspx?ID=1227)\n\n**Trigger**\r\nThe target of your Exploit Vulnerability is within 120 feet and uses a [teleportation](/Traits.aspx?ID=156) effect.\r\n\r\n**Requirements**\r\nYou are benefiting from Exploit Vulnerability.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can hunt your foe to the ends of creation.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=432\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 47\n\n**Prerequisites**\r\n[Exploit Vulnerability](/Actions.aspx?ID=1227)\n\n**Trigger**\r\nThe target of your Exploit Vulnerability is within 120 feet and uses a [teleportation](/Traits.aspx?ID=156) effect.\r\n\r\n**Requirements**\r\nYou are benefiting from Exploit Vulnerability.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can hunt your foe to the ends of creation.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 47"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 47</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 47",
  "speed": {},
  "summary": "You can hunt your foe to the ends of creation.",
  "summary_markdown": "You can hunt your foe to the ends of creation.",
@@ -38,6 +45,11 @@
   "Occult",
   "Teleportation",
   "Thaumaturge"
+ ],
+ "trait_group": [
+  "School",
+  "Tradition",
+  "Class"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Occult](/Traits.aspx?ID=120), [Teleportation](/Traits.aspx?ID=156), [Thaumaturge](/Traits.aspx?ID=432)",
  "trait_raw": [

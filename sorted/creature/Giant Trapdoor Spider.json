@@ -1,10 +1,24 @@
 {
  "ac": 18,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  11
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Trapdoor Lunge",
   "Giant Trapdoor Spider Venom"
@@ -12,43 +26,72 @@
  "creature_family": "Spider",
  "creature_family_markdown": "[Spider](/MonsterFamilies.aspx?ID=94)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 28,
  "hp_raw": "28",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-2224",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"\">[Giant Trapdoor Spider](/Monsters.aspx?ID=2224)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Giant Trapdoor Spider](/Monsters.aspx?ID=2224)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 56</row>\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +8, [Stealth](/Skills.aspx?ID=15) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +2\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 28\n\n**Trapdoor Lunge** <actions string=\"Reaction\" /> **Requirements** Initiative has not yet been rolled; **Trigger** A creature comes within 25 feet of the spider's lair while the spider is positioned just under the ajar trapdoor, and the spider notices the creature; Effect The spider Strides or [Climbs](/Actions.aspx?ID=33) before it rolls initiative.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +11,\r\n**Damage** 1d10+3 piercing plus giant trapdoor spider venom\n\n**Giant Trapdoor Spider Venom**  ([Incapacitation](/Traits.aspx?ID=93), [Poison](/Traits.aspx?ID=126)) **Saving Throw** Fortitude DC 18; **Maximum Duration** 6 rounds; **Stage 1** 1d10 poison and [flat-footed](/Conditions.aspx?ID=16) (1 round); **Stage 2** 1d12 poison, [slowed 1](/Conditions.aspx?ID=35), and flat-footed (1 round); **Stage 3** 2d6 poison and [paralyzed](/Conditions.aspx?ID=28) (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-94\" />",
+ "markdown": "<title level=\"1\" pfs=\"\">[Giant Trapdoor Spider](/Monsters.aspx?ID=2224)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Giant Trapdoor Spider](/Monsters.aspx?ID=2224)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 56\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +8, [Stealth](/Skills.aspx?ID=15) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +2\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\n\n</row>\n\n**Trapdoor Lunge** <actions string=\"Reaction\" /> **Requirements** Initiative has not yet been rolled; **Trigger** A creature comes within 25 feet of the spider's lair while the spider is positioned just under the ajar trapdoor, and the spider notices the creature; Effect The spider Strides or [Climbs](/Actions.aspx?ID=33) before it rolls initiative.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +11,\r\n**Damage** 1d10+3 piercing plus giant trapdoor spider venom\n\n**Giant Trapdoor Spider Venom**  ([Incapacitation](/Traits.aspx?ID=93), [Poison](/Traits.aspx?ID=126)) **Saving Throw** Fortitude DC 18; **Maximum Duration** 6 rounds; **Stage 1** 1d10 poison and [flat-footed](/Conditions.aspx?ID=16) (1 round); **Stage 2** 1d12 poison, [slowed 1](/Conditions.aspx?ID=35), and flat-footed (1 round); **Stage 3** 2d6 poison and [paralyzed](/Conditions.aspx?ID=28) (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-94\" />",
  "name": "Giant Trapdoor Spider",
  "npc": false,
  "perception": 7,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Kingmaker Adventure Path",
+ "primary_source_raw": "Kingmaker Adventure Path pg. 56",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Kingmaker",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 11,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
  "release_date": "2022-10-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 56</row>\r\n\r\n**Creature Family** [Spider](/MonsterFamilies.aspx?ID=94)\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +11\r\n\r\n**Will** +7\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 56\r\n\r\n**Creature Family** [Spider](/MonsterFamilies.aspx?ID=94)\r\n\r\n<row gap=\"medium\">\r\n**HP** 28\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +11\r\n\r\n**Will** +7\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +7",
-  "Athletics +8",
-  "Stealth +9"
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +8, [Stealth](/Skills.aspx?ID=15) +9",
+ "skill_mod": {
+  "acrobatics": 7,
+  "athletics": 8,
+  "stealth": 9
+ },
  "source": [
   "Kingmaker Adventure Path"
  ],
  "source_raw": [
   "Kingmaker Adventure Path pg. 56"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Kingmaker",
- "source_markdown": "<row gap=\"tiny\">[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 56</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Kingmaker"
+ ],
+ "source_markdown": "[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 56",
  "speed": {
   "climb": 30,
   "land": 30,
@@ -59,17 +102,33 @@
  "spell_markdown": "",
  "spoilers": "Kingmaker",
  "stealth": "9",
+ "strike_damage_average": [
+  8
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "text": " Giant Trapdoor Spider Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Giant Trapdoor Spider Source Kingmaker Adventure Path pg. 56 Perception +7; darkvision Languages Skills Acrobatics +7, Athletics +8, Stealth +9 Str +4 Dex +4 Con +3 Int -5 Wis +2 Cha -4 --- AC 18 Fort +8 Ref +11 Will +7 HP 28 Trapdoor Lunge Reaction Requirements Initiative has not yet been rolled; Trigger A creature comes within 25 feet of the spider's lair while the spider is positioned just under the ajar trapdoor, and the spider notices the creature; Effect The spider Strides or Climbs before it rolls initiative. --- Speed 30 feet, climb 30 feet Melee Single Action fangs +11, Damage 1d10+3 piercing plus giant trapdoor spider venom Giant Trapdoor Spider Venom (Incapacitation, Poison) Saving Throw Fortitude DC 18; Maximum Duration 6 rounds; Stage 1 1d10 poison and flat-footed (1 round); Stage 2 1d12 poison, slowed 1, and flat-footed (1 round); Stage 3 2d6 poison and paralyzed (1 round) ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Uncommon",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -84,5 +143,9 @@
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

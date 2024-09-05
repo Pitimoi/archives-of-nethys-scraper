@@ -1,13 +1,8 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 600,
  "duration_raw": "10 minutes",
@@ -15,56 +10,67 @@
  "heighten": [
   "9th"
  ],
+ "heighten_group": [
+  "6th rank",
+  "Heightened 9th rank"
+ ],
  "heighten_level": [
   6,
   9
  ],
- "id": "spell-378",
+ "id": "spell-1760",
+ "legacy_id": "spell-378",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">[Zealous Conviction](/Spells.aspx?ID=378)</title>\n\n<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 385 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** up to 10 willing creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou bypass your targets' rational minds, instilling them with unshakable conviction and zeal. The targets each gain 12 temporary Hit Points and a +2 status bonus to Will saves against mental effects, as their faith overrides the signals from their own bodies and minds. If you tell a target to do something, it must comply with your request, though if it would normally find the task repugnant, it can attempt a Will save at the end of its turn each round due to the cognitive dissonance. On a success, it ends the spell's effects on itself entirely.\n\n---\r\n**Heightened (9th)** The temporary Hit Points increase to 18, and the status bonus to Will saves increases to +3.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">\r\n[Zealous Conviction](/Spells.aspx?ID=1760)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 369\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** up to 10 willing creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou bypass your targets' rational minds, instilling them with unshakable conviction and zeal. The targets each gain 12 temporary Hit Points and a +2 status bonus to Will saves against mental effects, as their faith overrides the signals from their own bodies and minds. If you tell a target to do something, it must comply with your request, though if it would normally find the task repugnant, it can attempt a Will save at the end of its turn each round due to the cognitive dissonance. On a success, it ends the spell's effects on itself entirely.\n\n---\r\n**Heightened (9th)** The temporary Hit Points increase to 18, and the status bonus to Will saves increases to +3.",
  "name": "Zealous Conviction",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 369",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 385 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** up to 10 willing creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nInstill unshakable conviction and zeal in willing creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 369\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** up to 10 willing creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nInstill unshakable conviction and zeal in willing creatures.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 385"
+  "Player Core pg. 369"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 385 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 369",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Instill unshakable conviction and zeal in willing creatures.",
  "summary_markdown": "Instill unshakable conviction and zeal in willing creatures.",
  "target": "up to 10 willing creatures",
  "target_markdown": "up to 10 willing creatures",
- "text": " Zealous Conviction Source Core Rulebook pg. 385 4.0 Traditions Divine, Occult Cast Two Actions somatic, verbal Range 30 feet Target up to 10 willing creatures Duration 10 minutes --- You bypass your targets' rational minds, instilling them with unshakable conviction and zeal. The targets each gain 12 temporary Hit Points and a +2 status bonus to Will saves against mental effects, as their faith overrides the signals from their own bodies and minds. If you tell a target to do something, it must comply with your request, though if it would normally find the task repugnant, it can attempt a Will save at the end of its turn each round due to the cognitive dissonance. On a success, it ends the spell's effects on itself entirely. --- Heightened (9th) The temporary Hit Points increase to 18, and the status bonus to Will saves increases to +3.",
+ "text": "\nZealous Conviction Two Actions Source Player Core pg. 369 Traditions Divine, Occult Range 30 feet Target up to 10 willing creatures Duration 10 minutes --- You bypass your targets' rational minds, instilling them with unshakable conviction and zeal. The targets each gain 12 temporary Hit Points and a +2 status bonus to Will saves against mental effects, as their faith overrides the signals from their own bodies and minds. If you tell a target to do something, it must comply with your request, though if it would normally find the task repugnant, it can attempt a Will save at the end of its turn each round due to the cognitive dissonance. On a success, it ends the spell's effects on itself entirely. --- Heightened (9th) The temporary Hit Points increase to 18, and the status bonus to Will saves increases to +3.",
  "tradition": [
   "Divine",
   "Occult"
  ],
  "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Emotion",
-  "Enchantment",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
+  "Concentrate",
   "Emotion",
-  "Enchantment",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=378",
+ "url": "/Spells.aspx?ID=1760",
  "weakness": {}
 }

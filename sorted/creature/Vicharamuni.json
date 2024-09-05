@@ -1,0 +1,213 @@
+{
+ "ac": 31,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  22,
+  22,
+  22
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Coils of Knowledge",
+  "Greater Constrict",
+  "Spiritual Venom",
+  "Vicharamuni Venom"
+ ],
+ "creature_family": "Naga",
+ "creature_family_markdown": "[Naga](/MonsterFamilies.aspx?ID=446)",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 20,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 175,
+ "hp_raw": "175",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3104",
+ "image": [
+  "/Images/Monsters/Vicharamuni.webp"
+ ],
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Empyrean"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Empyrean](/Languages.aspx?ID=115)",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Vicharamuni (Awakener Naga)](/Monsters.aspx?ID=3104)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAwakener nagas are benevolent and wise teachers of people and places. They seek to guide and nurture the world around them, sensing mortals or locales with potential supernatural significance. Once located, these nagas provide instruction and divine trials to forge their wards toward strength and to impart a deeper understanding of right and wrong. Though considered stern and intimidating taskmasters by their students, those taught by a vicharamuni often go on to become great heroes.\n\n Awakener nagas are similarly attentive in guiding their young. Upon reaching adulthood, a naga is provided a final trial before being encouraged to depart the nest and seek out their own natural wonders or promising mortals. Sometimes generations of nagas might guard the same place or family line, passing the honor of such care from parent to child. In such cases, the parent nagas aim to have at least one of their children elect to stay behind and become the guardian of their ancestral ward, giving the parents peace of mind that the site they protect will continue to be guarded by their descendants.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 29\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 27\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 24\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vicharamuni.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Vicharamuni](/Monsters.aspx?ID=3104)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 237\n\n**Perception** +22; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Empyrean](/Languages.aspx?ID=115)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +22, [Athletics](/Skills.aspx?ID=3) +21, [Deception](/Skills.aspx?ID=5) +18, [Diplomacy](/Skills.aspx?ID=6) +21, [Heaven Lore](/Skills.aspx?ID=8) +21, [Stealth](/Skills.aspx?ID=15) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +6\r\n\r\n**Con** +5\r\n\r\n**Int** +3\r\n\r\n**Wis** +5\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +22 ([Finesse](/Traits.aspx?ID=179), [Holy](/Traits.aspx?ID=517), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+8 piercing plus vicharamuni venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Holy](/Traits.aspx?ID=517), [reach 20 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+8 bludgeoning plus coils of knowledge\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspit +22 ([Agile](/Traits.aspx?ID=170), [Holy](/Traits.aspx?ID=517), [Poison](/Traits.aspx?ID=126), [range increment 30 feet](/Traits.aspx?ID=248)),\r\n**Damage** vicharamuni venom\r\n\r\n**Divine Spontaneous Spells** DC 29, attack +21\r\n- **Cantrips (5th)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Frostbite](/Spells.aspx?ID=1539), [Light](/Spells.aspx?ID=171), [Read Aura](/Spells.aspx?ID=246), [Stabilize](/Spells.aspx?ID=307), [Telekinetic Hand](/Spells.aspx?ID=1715)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148), [Protection](/Spells.aspx?ID=238), [Spirit Link](/Spells.aspx?ID=302) (4 slots)\r\n- **2nd**\r\n[Calm](/Spells.aspx?ID=1458), [Noise Blast](/Spells.aspx?ID=1616), [See the Unseen](/Spells.aspx?ID=1663) (4 slots)\r\n- **3rd**\r\n[Crisis of Faith](/Spells.aspx?ID=55), [Holy Light](/Spells.aspx?ID=1557), [Mind Reading](/Spells.aspx?ID=194) (4 slots)\r\n- **4th**\r\n[Cleanse Affliction](/Spells.aspx?ID=1467), [Lightning Bolt](/Spells.aspx?ID=172), [Fly](/Spells.aspx?ID=125) (4 slots)\r\n- **5th**\r\n[Breath of Life](/Spells.aspx?ID=29), [Dispel Magic](/Spells.aspx?ID=78), [Divine Immolation](/Spells.aspx?ID=1496) (4 slots)\r\n\r\n**Coils of Knowledge**  ([Force](/Traits.aspx?ID=75), [Magical](/Traits.aspx?ID=103)) The naga's grip is more spiritual than physical. A creature hit by a smaranava's tail must succeed at a DC 29 Will save or become [grabbed](/Conditions.aspx?ID=77) by the tail until they [Escape](/Actions.aspx?ID=2296), the naga releases them with an Interact action, or the naga dies. A captive takes a –4 status penalty to Escape, but can choose to attempt an [Occultism](/Skills.aspx?ID=44) or [Religion](/Skills.aspx?ID=46) check to Escape instead of the usual options without taking this penalty.\r\n\r\n**[Greater Constrict](/MonsterAbilities.aspx?ID=65)** <actions string=\"Single Action\" />  3d8+5 bludgeoning, DC 29\r\n\r\n**Spiritual Venom**   A vicharamuni can choose to negate any damage that its venom does to a creature. In addition, the naga can cast any of its divine spells on a creature that is affected by its venom, regardless of range or line of effect.\r\n\r\n**Vicharamuni Venom**  ([Divine](/Traits.aspx?ID=48), [Holy](/Traits.aspx?ID=517), [Mental](/Traits.aspx?ID=106), [Poison](/Traits.aspx?ID=126), [Spirit](/Traits.aspx?ID=149)) **Saving Throw** DC 29 Will; **Maximum Duration** 6 rounds; **Stage 1** 3d6 spirit (1 round); **Stage 2** 3d6 spirit and [drained 1](/Conditions.aspx?ID=68) (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-446\" />",
+ "name": "Vicharamuni",
+ "npc": false,
+ "perception": 22,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 237",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 21,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 237\r\n\r\n**Creature Family** [Naga](/MonsterFamilies.aspx?ID=446)\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\r\n\r\n**AC** 31\r\n\r\n**Fort** +20\r\n\r\n**Ref** +21\r\n\r\n**Will** +22\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAwakener nagas are benevolent and wise teachers of people and places. They seek to guide and nurture the world around them, sensing mortals or …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Heaven Lore",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +22, [Athletics](/Skills.aspx?ID=3) +21, [Deception](/Skills.aspx?ID=5) +18, [Diplomacy](/Skills.aspx?ID=6) +21, [Heaven Lore](/Skills.aspx?ID=8) +21, [Stealth](/Skills.aspx?ID=15) +20",
+ "skill_mod": {
+  "acrobatics": 22,
+  "athletics": 21,
+  "deception": 18,
+  "diplomacy": 21,
+  "stealth": 20
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 237"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 237",
+ "speed": {
+  "land": 25,
+  "max": 25,
+  "swim": 25
+ },
+ "speed_markdown": "25 feet, swim 25 feet",
+ "speed_raw": "25 feet, swim 25 feet",
+ "spell": [
+  "Breath of Life",
+  "Dispel Magic",
+  "Divine Immolation",
+  "Cleanse Affliction",
+  "Lightning Bolt",
+  "Fly",
+  "Crisis of Faith",
+  "Holy Light",
+  "Mind Reading",
+  "Calm",
+  "Noise Blast",
+  "See the Unseen",
+  "Heal",
+  "Protection",
+  "Spirit Link",
+  "Daze",
+  "Detect Magic",
+  "Frostbite",
+  "Light",
+  "Read Aura",
+  "Stabilize",
+  "Telekinetic Hand"
+ ],
+ "spell_markdown": "[Breath of Life](/Spells.aspx?ID=29), [Calm](/Spells.aspx?ID=1458), [Cleanse Affliction](/Spells.aspx?ID=1467), [Crisis of Faith](/Spells.aspx?ID=55), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Dispel Magic](/Spells.aspx?ID=78), [Divine Immolation](/Spells.aspx?ID=1496), [Fly](/Spells.aspx?ID=125), [Frostbite](/Spells.aspx?ID=1539), [Heal](/Spells.aspx?ID=148), [Holy Light](/Spells.aspx?ID=1557), [Light](/Spells.aspx?ID=171), [Lightning Bolt](/Spells.aspx?ID=172), [Mind Reading](/Spells.aspx?ID=194), [Noise Blast](/Spells.aspx?ID=1616), [Protection](/Spells.aspx?ID=238), [Read Aura](/Spells.aspx?ID=246), [See the Unseen](/Spells.aspx?ID=1663), [Spirit Link](/Spells.aspx?ID=302), [Stabilize](/Spells.aspx?ID=307), [Telekinetic Hand](/Spells.aspx?ID=1715)",
+ "spell_attack_bonus": [
+  21
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  29
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "20",
+ "strike_damage_average": [
+  21,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Awakener nagas are benevolent and wise teachers of people and places. They seek to guide and nurture the world around them, sensing mortals or …",
+ "summary_markdown": "Awakener nagas are benevolent and wise teachers of people and places. They seek to guide and nurture the world around them, sensing mortals or …",
+ "text": " Vicharamuni (Awakener Naga) Awakener nagas are benevolent and wise teachers of people and places. They seek to guide and nurture the world around them, sensing mortals or locales with potential supernatural significance. Once located, these nagas provide instruction and divine trials to forge their wards toward strength and to impart a deeper understanding of right and wrong. Though considered stern and intimidating taskmasters by their students, those taught by a vicharamuni often go on to become great heroes. Awakener nagas are similarly attentive in guiding their young. Upon reaching adulthood, a naga is provided a final trial before being encouraged to depart the nest and seek out their own natural wonders or promising mortals. Sometimes generations of nagas might guard the same place or family line, passing the honor of such care from parent to child. In such cases, the parent nagas aim to have at least one of their children elect to stay behind and become the guardian of their ancestral ward, giving the parents peace of mind that the site they protect will continue to be guarded by their descendants. Recall Knowledge - Beast (Arcana, Nature): DC 29 Unspecific Lore : DC 27 Specific Lore : DC 24 Vicharamuni Source Monster Core pg. 237 Perception +22; darkvision Languages Common, Empyrean Skills Acrobatics +22, Athletics +21, Deception +18, Diplomacy +21, Heaven Lore +21, Stealth +20 Str +5 Dex +6 Con +5 Int +3 Wis +5 Cha +4 --- AC 31 Fort +20 Ref +21 Will +22 HP 175 --- Speed 25 feet, swim 25 feet Melee Single Action fangs +22 (Finesse, Holy, reach 10 feet), Damage 3d10+8 piercing plus vicharamuni venom Melee Single Action tail +22 (Agile, Finesse, Holy, reach 20 feet), Damage 3d8+8 bludgeoning plus coils of knowledge Ranged Single Action spit +22 (Agile, Holy, Poison, range increment 30 feet), Damage vicharamuni venom Divine Spontaneous Spells DC 29, attack +21 - Cantrips (5th) Daze, Detect Magic, Frostbite, Light, Read Aura, Stabilize, Telekinetic Hand - 1st Heal, Protection, Spirit Link (4 slots) - 2nd Calm, Noise Blast, See the Unseen (4 slots) - 3rd Crisis of Faith, Holy Light, Mind Reading (4 slots) - 4th Cleanse Affliction, Lightning Bolt, Fly (4 slots) - 5th Breath of Life, Dispel Magic, Divine Immolation (4 slots) Coils of Knowledge (Force, Magical) The naga's grip is more spiritual than physical. A creature hit by a smaranava's tail must succeed at a DC 29 Will save or become grabbed by the tail until they Escape, the naga releases them with an Interact action, or the naga dies. A captive takes a –4 status penalty to Escape, but can choose to attempt an Occultism or Religion check to Escape instead of the usual options without taking this penalty. Greater Constrict Single Action 3d8+5 bludgeoning, DC 29 Spiritual Venom A vicharamuni can choose to negate any damage that its venom does to a creature. In addition, the naga can cast any of its divine spells on a creature that is affected by its venom, regardless of range or line of effect. Vicharamuni Venom (Divine, Holy, Mental, Poison, Spirit) Saving Throw DC 29 Will; Maximum Duration 6 rounds; Stage 1 3d6 spirit (1 round); Stage 2 3d6 spirit and drained 1 (1 round) ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Beast",
+  "Holy",
+  "Uncommon",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Holy](/Traits.aspx?ID=517), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Beast",
+  "Holy",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3104",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 22,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

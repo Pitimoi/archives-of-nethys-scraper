@@ -1,37 +1,47 @@
 {
  "archetype": [
-  "Living Monolith"
+  "Stonebound"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Stone Blood"
  ],
  "feat_markdown": "Stone Blood",
- "id": "feat-890",
+ "id": "feat-4380",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Stone Blood](/Feats.aspx?ID=890) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [World Guide](/Sources.aspx?ID=6) pg. 59 <sup>2.0</sup></row>\n\n**Archetype** [Living Monolith](/Archetypes.aspx?ID=16)\n\n**Prerequisites**\r\n[Ka Stone Ritual](/Feats.aspx?ID=889)\n\n</column>\r\n\r\n---\r\n\r\nYou can selectively stop your bleeding with ease. Reduce the DC of flat checks to stop persistent bleed damage you have from 15 to 10, and you can use a single action that has the [concentrate](/Traits.aspx?ID=32) trait to gain an early flat check without physically binding the wounds. You recover naturally from the [drained](/Conditions.aspx?ID=10) condition twice as quickly as normal.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Limited\"\r\n>\r\n[Stone Blood](/Feats.aspx?ID=4380) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 83\n\n**Archetype** [Stonebound](/Archetypes.aspx?ID=210)\n\n**Prerequisites**\r\n[Stonebound Dedication](/Feats.aspx?ID=4377)\n\n</column>\r\n\r\n---\r\n\r\nYour blood becomes thick and sluggish, but no less effective at oxygenating your cells. You can selectively stop your bleeding with ease. Reduce the DC of flat checks to stop [persistent bleed damage](/Conditions.aspx?ID=29) from 15 to 10, and you can use a single action that has the [concentrate](/Traits.aspx?ID=32) trait to gain an early flat check without physically binding the wounds. You recover from the [drained](/Conditions.aspx?ID=10) condition twice as quickly as normal.",
  "name": "Stone Blood",
- "pfs": "Standard",
- "prerequisite": "Ka Stone Ritual",
- "prerequisite_markdown": "[Ka Stone Ritual](/Feats.aspx?ID=889)",
+ "pfs": "Limited",
+ "prerequisite": "Stonebound Dedication",
+ "prerequisite_markdown": "[Stonebound Dedication](/Feats.aspx?ID=4377)",
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 83",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
  "rarity": "common",
- "release_date": "2019-08-31",
+ "rarity_id": 1,
+ "release_date": "2023-09-23",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [World Guide](/Sources.aspx?ID=6) pg. 59 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Ka Stone Ritual](/Feats.aspx?ID=889)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour blood clots quickly.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 83\n\n**Prerequisites**\r\n[Stonebound Dedication](/Feats.aspx?ID=4377)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour blood becomes thick and sluggish, but no less effective at oxygenating your cells.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "World Guide"
+  "Pathfinder #195: Heavy is the Crown"
  ],
  "source_raw": [
-  "World Guide pg. 59"
+  "Pathfinder #195: Heavy is the Crown pg. 83"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[World Guide](/Sources.aspx?ID=6) pg. 59 <sup>2.0</sup></row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 83",
  "speed": {},
- "summary": "Your blood clots quickly.",
- "summary_markdown": "Your blood clots quickly.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Stone Blood Source World Guide pg. 59 2.0 Archetype Living Monolith Prerequisites Ka Stone Ritual --- You can selectively stop your bleeding with ease. Reduce the DC of flat checks to stop persistent bleed damage you have from 15 to 10, and you can use a single action that has the concentrate trait to gain an early flat check without physically binding the wounds. You recover naturally from the drained condition twice as quickly as normal.",
+ "summary": "Your blood becomes thick and sluggish, but no less effective at oxygenating your cells.",
+ "summary_markdown": "Your blood becomes thick and sluggish, but no less effective at oxygenating your cells.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Limited\" > Stone Blood Source Pathfinder #195: Heavy is the Crown pg. 83 Archetype Stonebound Prerequisites Stonebound Dedication --- Your blood becomes thick and sluggish, but no less effective at oxygenating your cells. You can selectively stop your bleeding with ease. Reduce the DC of flat checks to stop persistent bleed damage from 15 to 10, and you can use a single action that has the concentrate trait to gain an early flat check without physically binding the wounds. You recover from the drained condition twice as quickly as normal.",
  "trait": [
   "Archetype"
  ],
@@ -40,6 +50,6 @@
   "Archetype"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=890",
+ "url": "/Feats.aspx?ID=4380",
  "weakness": {}
 }

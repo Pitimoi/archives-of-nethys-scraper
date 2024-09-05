@@ -1,0 +1,228 @@
+{
+ "ac": 42,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "LE",
+ "attack_bonus": [
+  34
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 8,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 5,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Final Spite",
+  "Unnerving Gaze",
+  "Assemble Choir",
+  "Focus Gaze",
+  "Spirit-Flensing Touch"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 8,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 27,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 335,
+ "hp_raw": "335",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2571",
+ "immunity": [
+  "cold"
+ ],
+ "immunity_markdown": "[cold](/Traits.aspx?ID=27)",
+ "intelligence": 6,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "item": [
+  "Lens of the Outreaching Eye",
+  "The Tyrant"
+ ],
+ "language": [
+  "Aklo",
+  "Common",
+  "Draconic",
+  "Goblin",
+  "Infernal",
+  "Jotun",
+  "Shadowtongue",
+  "Sylvan"
+ ],
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Goblin](/Languages.aspx?ID=6), [Infernal](/Languages.aspx?ID=19), [Jotun](/Languages.aspx?ID=8), [Shadowtongue](/Languages.aspx?ID=21), [Sylvan](/Languages.aspx?ID=10)",
+ "level": 18,
+ "markdown": "<title level=\"1\" pfs=\"\">[Sonnorae](/Monsters.aspx?ID=2571)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 48\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 46\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 43\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[Sonnorae](/Monsters.aspx?ID=2571)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Velstrac\" url=\"/Traits.aspx?ID=265\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 61\n\n**Perception** +31; [darkvision](/MonsterAbilities.aspx?ID=12), [_detect magic_](/Spells.aspx?ID=66), painsight, [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Goblin](/Languages.aspx?ID=6), [Infernal](/Languages.aspx?ID=19), [Jotun](/Languages.aspx?ID=8), [Shadowtongue](/Languages.aspx?ID=21), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +32, [Athletics](/Skills.aspx?ID=3) +31, [Deception](/Skills.aspx?ID=5) +36, [Diplomacy](/Skills.aspx?ID=6) +34, [Intimidation](/Skills.aspx?ID=7) +36, [Performance](/Skills.aspx?ID=12) +34, [Religion](/Skills.aspx?ID=13) +31, [Stealth](/Skills.aspx?ID=15) +34, [Torture Lore](/Skills.aspx?ID=8) +32\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +8\r\n\r\n**Con** +5\r\n\r\n**Int** +6\r\n\r\n**Wis** +7\r\n\r\n**Cha** +8\r\n</row>\n\n**Items**\r\n[_Lens of the Outreaching Eye_](/Equipment.aspx?ID=2499), _[The Tyrant](/Equipment.aspx?ID=2516)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 42 \r\n\r\n**Fort** +27 \r\n\r\n**Ref** +32 \r\n\r\n**Will** +31 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=103)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 335\r\n\r\n, regeneration 25 (deactivated by good or [silver](/Equipment.aspx?ID=379))\n\n</row>\r\n\r\n**Immunities**\r\n[cold](/Traits.aspx?ID=27)\n\n**Weaknesses**\r\ngood 20, silver 20\r\n\r\n**Final Spite** <actions string=\"Reaction\" /> **Trigger** Sonnorae is reduced to 0 Hit Points; **Effect** Sonnorae casts [_wail of the banshee_](/Spells.aspx?ID=361), if it's available, before [dying](/Conditions.aspx?ID=11). Otherwise, she makes one Strike.<br />**Unnerving Gaze** ([aura](/Traits.aspx?ID=206), [divine](/Traits.aspx?ID=48), [enchantment](/Traits.aspx?ID=61), [mental](/Traits.aspx?ID=106), [visual](/Traits.aspx?ID=163)) 30 feet. When a creature ends its turn in the aura, it must succeed at a DC 37 Will save or become [doomed 1](/Conditions.aspx?ID=9).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 30 feet (from [_fly_](/Spells.aspx?ID=125))\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +34 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+15 slashing plus 2d6 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Divine Innate Spells** DC 40, attack +32\r\n- **Cantrips (9th)**\r\n[Daze](/Spells.aspx?ID=61), [Sigil](/Spells.aspx?ID=286)\r\n- **4th**\r\n[Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n- **7th**\r\n[Command](/Spells.aspx?ID=45), [Crushing Despair](/Spells.aspx?ID=57), [Sound Burst](/Spells.aspx?ID=292)\r\n- **8th**\r\n[Mind Blank](/Spells.aspx?ID=192), [Plane Shift](/Spells.aspx?ID=222) (at will; to the Harrowed Realm; [Material Plane](/Planes.aspx?ID=1); or [Shadow Plane](/Planes.aspx?ID=11) only), [Spiritual Epidemic](/Spells.aspx?ID=304)\r\n- **9th**\r\n[Synesthesia](/Spells.aspx?ID=328), [Wail of the Banshee](/Spells.aspx?ID=361)\r\n- **Constant (8th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Fly](/Spells.aspx?ID=125), [True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Assemble Choir** <actions string=\"Two Actions\" />  Sonnorae adds a creature that is affected by her Spirit-Flensing Touch and is within 100 feet to her choir of screams. Sonnorae can have any number of creatures in her choir, although a creature no longer affected by Spirit-Flensing Touch leaves the choir immediately. Creatures in Sonnorae's choir of screams are [fascinated](/Conditions.aspx?ID=14) by each other and Sonnorae, and they can't use [hostile actions](/Rules.aspx?ID=300) toward each other or Sonnorae. If Sonnorae uses a hostile action toward a creature in her choir, it immediately leaves the choir. When Sonnorae casts an innate divine spell, she can cause the effect to originate from any member of her choir instead of herself, using her saving throw DC and attack bonus.\r\n\r\n**Focus Gaze** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) Sonnorae stares at a creature she can see within 30 feet. The target must attempt a Will save against Sonnorae's unnerving gaze. In addition, if the creature was already [doomed](/Conditions.aspx?ID=9), on a failed save, it sees the skin of its body peel back, making it [confused](/Conditions.aspx?ID=5) for as long as it remains doomed. After attempting this save, the creature is then temporarily immune until the start of Sonnorae's next turn.\r\n\r\n**Spirit-Flensing Touch** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Mental](/Traits.aspx?ID=106), [Necromancy](/Traits.aspx?ID=117)) Sonnorae touches a creature within 10 feet. The target's spirit tears through its organs and flesh and must attempt a DC 40 Will save.<br /> **Critical Success** The creature is unaffected, and is temporarily immune for 24 hours.<br /> **Success** The creature takes 4d6 slashing damage.<br /> **Failure** The creature takes 9d6 damage and is [sickened 1](/Conditions.aspx?ID=34) and [stupefied 1](/Conditions.aspx?ID=37). As long as the creature remains sickened, it must use one action on its turn to scream in agony.<br /> **Critical Failure** The creature takes 18d6 damage and is sickened 2 and stupefied 2. As long as the creature remains sickened, it must use two actions on its turn to scream in agony.\r\n\r\n</column>",
+ "name": "Sonnorae",
+ "npc": false,
+ "perception": 31,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #191: The Destiny War",
+ "primary_source_raw": "Pathfinder #191: The Destiny War pg. 61",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 32,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-05-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Velstrac\" url=\"/Traits.aspx?ID=265\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 61\n\n<row gap=\"medium\">\r\n**HP** 335\r\n\r\n**AC** 42\r\n\r\n**Fort** +27\r\n\r\n**Ref** +32\r\n\r\n**Will** +31\r\n\r\n**Perception** +31\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " darkvision ,   detect magic  , painsight,   true seeing  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [_detect magic_](/Spells.aspx?ID=66), painsight, [_true seeing_](/Spells.aspx?ID=344)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Performance",
+  "Religion",
+  "Stealth",
+  "Torture Lore"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +32, [Athletics](/Skills.aspx?ID=3) +31, [Deception](/Skills.aspx?ID=5) +36, [Diplomacy](/Skills.aspx?ID=6) +34, [Intimidation](/Skills.aspx?ID=7) +36, [Performance](/Skills.aspx?ID=12) +34, [Religion](/Skills.aspx?ID=13) +31, [Stealth](/Skills.aspx?ID=15) +34, [Torture Lore](/Skills.aspx?ID=8) +32",
+ "skill_mod": {
+  "acrobatics": 32,
+  "athletics": 31,
+  "deception": 36,
+  "diplomacy": 34,
+  "intimidation": 36,
+  "performance": 34,
+  "religion": 31,
+  "stealth": 34
+ },
+ "source": [
+  "Pathfinder #191: The Destiny War"
+ ],
+ "source_raw": [
+  "Pathfinder #191: The Destiny War pg. 61"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 61",
+ "speed": {
+  "fly": 30,
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet, fly 30 feet (from [_fly_](/Spells.aspx?ID=125))",
+ "speed_raw": "30 feet, fly 30 feet (from   fly  )",
+ "spell": [
+  "Synesthesia",
+  "Wail of the Banshee",
+  "Mind Blank",
+  "Plane Shift",
+  "Spiritual Epidemic",
+  "Command",
+  "Crushing Despair",
+  "Sound Burst",
+  "Invisibility",
+  "Daze",
+  "Sigil",
+  "Detect Magic",
+  "Fly",
+  "True Seeing"
+ ],
+ "spell_markdown": "[Command](/Spells.aspx?ID=45), [Crushing Despair](/Spells.aspx?ID=57), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Fly](/Spells.aspx?ID=125), [Invisibility](/Spells.aspx?ID=164), [Mind Blank](/Spells.aspx?ID=192), [Plane Shift](/Spells.aspx?ID=222), [Sigil](/Spells.aspx?ID=286), [Sound Burst](/Spells.aspx?ID=292), [Spiritual Epidemic](/Spells.aspx?ID=304), [Synesthesia](/Spells.aspx?ID=328), [True Seeing](/Spells.aspx?ID=344), [Wail of the Banshee](/Spells.aspx?ID=361)",
+ "spell_attack_bonus": [
+  32
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  40
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Stolen Fate",
+ "stealth": "34",
+ "strike_damage_average": [
+  32
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 7,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "text": " Sonnorae Recall Knowledge - Fiend (Religion): DC 48 Unspecific Lore : DC 46 Specific Lore : DC 43 Sonnorae Source Pathfinder #191: The Destiny War pg. 61 Perception +31; darkvision, detect magic , painsight, true seeing Languages Aklo, Common, Draconic, Goblin, Infernal, Jotun, Shadowtongue, Sylvan Skills Acrobatics +32, Athletics +31, Deception +36, Diplomacy +34, Intimidation +36, Performance +34, Religion +31, Stealth +34, Torture Lore +32 Str +7 Dex +8 Con +5 Int +6 Wis +7 Cha +8 Items Lens of the Outreaching Eye , The Tyrant --- AC 42 Fort +27 Ref +32 Will +31 +1 status to all saves vs. magic HP 335 , regeneration 25 (deactivated by good or silver) Immunities cold Weaknesses good 20, silver 20 Final Spite Reaction Trigger Sonnorae is reduced to 0 Hit Points; Effect Sonnorae casts wail of the banshee , if it's available, before dying. Otherwise, she makes one Strike. Unnerving Gaze (aura, divine, enchantment, mental, visual) 30 feet. When a creature ends its turn in the aura, it must succeed at a DC 37 Will save or become doomed 1. --- Speed 30 feet, fly 30 feet (from fly ) Melee Single Action claw +34 (Agile, Finesse, reach 10 feet), Damage 3d6+15 slashing plus 2d6 persistent bleed Divine Innate Spells DC 40, attack +32 - Cantrips (9th) Daze, Sigil - 4th Invisibility (at will; self only) - 7th Command, Crushing Despair, Sound Burst - 8th Mind Blank, Plane Shift (at will; to the Harrowed Realm; Material Plane; or Shadow Plane only), Spiritual Epidemic - 9th Synesthesia, Wail of the Banshee - Constant (8th) Detect Magic, Fly, True Seeing Assemble Choir Two Actions Sonnorae adds a creature that is affected by her Spirit-Flensing Touch and is within 100 feet to her choir of screams. Sonnorae can have any number of creatures in her choir, although a creature no longer affected by Spirit-Flensing Touch leaves the choir immediately. Creatures in Sonnorae's choir of screams are fascinated by each other and Sonnorae, and they can't use hostile actions toward each other or Sonnorae. If Sonnorae uses a hostile action toward a creature in her choir, it immediately leaves the choir. When Sonnorae casts an innate divine spell, she can cause the effect to originate from any member of her choir instead of herself, using her saving throw DC and attack bonus. Focus Gaze Single Action (Concentrate, Divine, Enchantment, Mental, Visual) Sonnorae stares at a creature she can see within 30 feet. The target must attempt a Will save against Sonnorae's unnerving gaze. In addition, if the creature was already doomed, on a failed save, it sees the skin of its body peel back, making it confused for as long as it remains doomed. After attempting this save, the creature is then temporarily immune until the start of Sonnorae's next turn. Spirit-Flensing Touch Two Actions (Divine, Mental, Necromancy) Sonnorae touches a creature within 10 feet. The target's spirit tears through its organs and flesh and must attempt a DC 40 Will save. Critical Success The creature is unaffected, and is temporarily immune for 24 hours. Success The creature takes 4d6 slashing damage. Failure The creature takes 9d6 damage and is sickened 1 and stupefied 1. As long as the creature remains sickened, it must use one action on its turn to scream in agony. Critical Failure The creature takes 18d6 damage and is sickened 2 and stupefied 2. As long as the creature remains sickened, it must use two actions on its turn to scream in agony. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Fiend",
+  "Unique",
+  "Velstrac",
+  "LE",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity",
+  "Monster"
+ ],
+ "trait_markdown": "[Fiend](/Traits.aspx?ID=70), [Unique](/Traits.aspx?ID=161), [Velstrac](/Traits.aspx?ID=265)",
+ "trait_raw": [
+  "Fiend",
+  "Unique",
+  "Velstrac"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2571",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "good": 20,
+  "silver": 20
+ },
+ "weakness_markdown": "good 20, silver 20",
+ "weakness_raw": "good 20, silver 20",
+ "will_save": 31,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 7,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,37 +8,51 @@
  ],
  "feat_markdown": "Orc Ferocity",
  "frequency": "once per day",
- "id": "feat-83",
+ "id": "feat-4514",
+ "legacy_id": "feat-83",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Orc Ferocity](/Feats.aspx?ID=83) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 59 <sup>4.0</sup></row>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would be reduced to 0 Hit Points but not immediately killed.\n\n</column>\r\n\r\n---\r\n\r\nFierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your [wounded](/Conditions.aspx?ID=42) condition increases by 1.\n\n<title level=\"2\">Orc Ferocity leads to...</title>\r\n[Defy Death](/Feats.aspx?ID=2416), [Ferocious Beasts](/Feats.aspx?ID=1292), [Incredible Ferocity](/Feats.aspx?ID=90), [Rampaging Ferocity](/Feats.aspx?ID=1294), [Undying Ferocity](/Feats.aspx?ID=1291)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Orc Ferocity](/Feats.aspx?ID=4514) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 72\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would be reduced to 0 Hit Points but not immediately killed\n\n</column>\r\n\r\n---\r\n\r\nFierceness in battle runs through your blood, and you refuse to fall from your injuries no matter how terrible they may be. You avoid being knocked out and remain at 1 Hit Point, and your [wounded](/Conditions.aspx?ID=42) condition increases by 1.\n\n<title level=\"2\">Orc Ferocity leads to...</title>\r\n[Defy Death](/Feats.aspx?ID=4522), [Ferocious Beasts](/Feats.aspx?ID=4527), [Incredible Ferocity](/Feats.aspx?ID=4526), [Rampaging Ferocity](/Feats.aspx?ID=4529), [Undying Ferocity](/Feats.aspx?ID=4525)",
  "name": "Orc Ferocity",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 72",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 59 <sup>4.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would be reduced to 0 Hit Points but not immediately killed.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFierceness in battle runs through your blood, and you refuse to fall from your injuries.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 72\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would be reduced to 0 Hit Points but not immediately killed\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFierceness in battle runs through your blood, and you refuse to fall from your injuries no matter how terrible they may be.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 59"
+  "Player Core pg. 72"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 59 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 72",
  "speed": {},
- "summary": "Fierceness in battle runs through your blood, and you refuse to fall from your injuries.",
- "summary_markdown": "Fierceness in battle runs through your blood, and you refuse to fall from your injuries.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Orc Ferocity Reaction Source Core Rulebook pg. 59 4.0 Frequency once per day Trigger You would be reduced to 0 Hit Points but not immediately killed. --- Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1. Orc Ferocity leads to... Defy Death, Ferocious Beasts, Incredible Ferocity, Rampaging Ferocity, Undying Ferocity",
+ "summary": "Fierceness in battle runs through your blood, and you refuse to fall from your injuries no matter how terrible they may be.",
+ "summary_markdown": "Fierceness in battle runs through your blood, and you refuse to fall from your injuries no matter how terrible they may be.",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Orc Ferocity Reaction Source Player Core pg. 72 Frequency once per day Trigger You would be reduced to 0 Hit Points but not immediately killed --- Fierceness in battle runs through your blood, and you refuse to fall from your injuries no matter how terrible they may be. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1. Orc Ferocity leads to... Defy Death, Ferocious Beasts, Incredible Ferocity, Rampaging Ferocity, Undying Ferocity",
  "trait": [
   "Orc"
+ ],
+ "trait_group": [
+  "Half-Orc",
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Orc](/Traits.aspx?ID=124)",
  "trait_raw": [
   "Orc"
  ],
- "trigger": "You would be reduced to 0 Hit Points but not immediately killed.",
- "trigger_markdown": "You would be reduced to 0 Hit Points but not immediately killed.",
+ "trigger": "You would be reduced to 0 Hit Points but not immediately killed",
+ "trigger_markdown": "You would be reduced to 0 Hit Points but not immediately killed",
  "type": "Feat",
- "url": "/Feats.aspx?ID=83",
+ "url": "/Feats.aspx?ID=4514",
  "weakness": {}
 }

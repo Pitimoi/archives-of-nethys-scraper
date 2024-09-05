@@ -1,12 +1,8 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Zyphus"
  ],
@@ -15,6 +11,17 @@
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   2,
@@ -27,50 +34,61 @@
   9,
   10
  ],
- "id": "spell-279",
+ "id": "spell-1670",
+ "legacy_id": "spell-279",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Shatter](/Spells.aspx?ID=279)</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Sonic\" url=\"/Traits.aspx?ID=147\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 368 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Zyphus](/Deities.aspx?ID=160)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA high-frequency sonic attack shatters a nearby object. You deal 2d10 sonic damage to the object, ignoring the object's Hardness if it is 4 or lower.\n\n---\r\n**Heightened (+1)** The damage increases by 1d10, and the Hardness the spell ignores increases by 2.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Shatter](/Spells.aspx?ID=1670)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sonic\" url=\"/Traits.aspx?ID=147\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 356\n\n**Traditions**\r\n[Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Zyphus](/Deities.aspx?ID=160)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA high-frequency sonic attack shatters a nearby object. You deal 2d10 sonic damage to the object, ignoring the object's Hardness if it is 4 or lower.\n\n---\r\n**Heightened (+1)** The damage increases by 1d10, and the Hardness the spell ignores increases by 2.",
  "name": "Shatter",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 356",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Sonic\" url=\"/Traits.aspx?ID=147\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 368 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Zyphus](/Deities.aspx?ID=160)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Shatter an object with a high-frequency sonic attack.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sonic\" url=\"/Traits.aspx?ID=147\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 356\r\n\r\n**Traditions**\r\n[Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Zyphus](/Deities.aspx?ID=160)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 unattended object\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nShatter an object with a high-frequency sonic attack.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 368"
+  "Player Core pg. 356"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 368 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 356",
  "speed": {},
- "summary": " Shatter an object with a high-frequency sonic attack.",
- "summary_markdown": " Shatter an object with a high-frequency sonic attack.",
+ "spell_type": "Spell",
+ "summary": "Shatter an object with a high-frequency sonic attack.",
+ "summary_markdown": "Shatter an object with a high-frequency sonic attack.",
  "target": "1 unattended object",
  "target_markdown": "1 unattended object",
- "text": " Shatter Source Core Rulebook pg. 368 4.0 Traditions Occult, Primal Deity Zyphus Cast Two Actions somatic, verbal Range 30 feet Target 1 unattended object --- A high-frequency sonic attack shatters a nearby object. You deal 2d10 sonic damage to the object, ignoring the object's Hardness if it is 4 or lower. --- Heightened (+1) The damage increases by 1d10, and the Hardness the spell ignores increases by 2.",
+ "text": "\nShatter Two Actions Source Player Core pg. 356 Traditions Occult, Primal Deity Zyphus Range 30 feet Target 1 unattended object --- A high-frequency sonic attack shatters a nearby object. You deal 2d10 sonic damage to the object, ignoring the object's Hardness if it is 4 or lower. --- Heightened (+1) The damage increases by 1d10, and the Hardness the spell ignores increases by 2.",
  "tradition": [
   "Occult",
   "Primal"
  ],
  "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Evocation",
+  "Concentrate",
+  "Manipulate",
   "Sonic"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Sonic](/Traits.aspx?ID=147)",
+ "trait_group": [
+  "Energy",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Sonic](/Traits.aspx?ID=147)",
  "trait_raw": [
-  "Evocation",
+  "Concentrate",
+  "Manipulate",
   "Sonic"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=279",
+ "url": "/Spells.aspx?ID=1670",
  "weakness": {}
 }

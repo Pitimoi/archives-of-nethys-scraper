@@ -1,28 +1,52 @@
 {
- "breadcrumbs_spa": [],
  "category": "action",
- "exclude_from_search": true,
- "id": "action-846",
- "markdown": "**Activate** <actions string=\"\" />Make an Impression;     **Effect** If you share drinks from a _flask of fellowship_ as part of your Make an Impression action, the drink that pours from the flask happens to be exactly what the target of your efforts would most like to have a dram or two of—wine, spirits, hot ginger tea, or ice cold water with lemon, for example. You gain a +1 item bonus on your [Diplomacy](/Skills.aspx?ID=6) check. \n\nThe GM can disallow the flask's use if it doesn't make sense in the moment for you to pull out a flask and start pouring, if drinks are inappropriate for the occasion, or if your target is absolutely not interested in sharing a drink with you. Drinks from the _flask of fellowship_ are entirely social; they won't intoxicate anyone, nor alleviate serious thirst.",
+ "exclude_from_search": false,
+ "id": "action-2392",
+ "legacy_id": "action-50",
+ "markdown": "<title level=\"1\" right=\"Action\">[Make an Impression](/Actions.aspx?ID=2392) <actions string=\"\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n</column>\r\n\r\n---\r\n\r\nWith at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a [Diplomacy](/Skills.aspx?ID=6) check against the Will DC of one target. You can instead choose up to five targets if you take a –2 penalty. The GM might add other bonuses or penalties based on the situation. Any impression you make lasts for only the current social interaction unless the GM decides otherwise. See the Changing Attitudes sidebar for a summary of the attitude conditions.\r\n\r\n**Critical Success** The target's attitude toward you improves by two steps.<br />\r\n**Success** The target's attitude toward you improves by one step.<br />\r\n**Critical Failure** The target's attitude toward you decreases by one step.",
  "name": "Make an Impression",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 239",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2021-09-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 184 <sup>1.1</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf you share drinks from a  flask of fellowship  as part of your Make an Impression action, the drink that pours from the flask happens to be exactly …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\r\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWith at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Secrets of Magic"
+  "Player Core"
  ],
  "source_raw": [
-  "Secrets of Magic pg. 184"
+  "Player Core pg. 239"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 184 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 239",
  "speed": {},
- "summary": "If you share drinks from a  flask of fellowship  as part of your Make an Impression action, the drink that pours from the flask happens to be exactly …",
- "summary_markdown": "If you share drinks from a  flask of fellowship  as part of your Make an Impression action, the drink that pours from the flask happens to be exactly …",
- "text": " Activate Make an Impression; Effect If you share drinks from a flask of fellowship as part of your Make an Impression action, the drink that pours from the flask happens to be exactly what the target of your efforts would most like to have a dram or two of—wine, spirits, hot ginger tea, or ice cold water with lemon, for example. You gain a +1 item bonus on your Diplomacy check. The GM can disallow the flask's use if it doesn't make sense in the moment for you to pull out a flask and start pouring, if drinks are inappropriate for the occasion, or if your target is absolutely not interested in sharing a drink with you. Drinks from the flask of fellowship are entirely social; they won't intoxicate anyone, nor alleviate serious thirst.",
- "trait_markdown": "",
+ "summary": "With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a …",
+ "summary_markdown": "With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a …",
+ "text": " Make an Impression Source Player Core pg. 239 --- With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a Diplomacy check against the Will DC of one target. You can instead choose up to five targets if you take a –2 penalty. The GM might add other bonuses or penalties based on the situation. Any impression you make lasts for only the current social interaction unless the GM decides otherwise. See the Changing Attitudes sidebar for a summary of the attitude conditions. Critical Success The target's attitude toward you improves by two steps. Success The target's attitude toward you improves by one step. Critical Failure The target's attitude toward you decreases by one step.",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Exploration",
+  "Linguistic",
+  "Mental"
+ ],
+ "trait_group": [
+  "Sense"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Exploration",
+  "Linguistic",
+  "Mental"
+ ],
  "type": "Action",
- "url": "/Actions.aspx?ID=846",
+ "url": "/Actions.aspx?ID=2392",
  "weakness": {}
 }

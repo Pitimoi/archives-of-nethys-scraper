@@ -1,49 +1,60 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Tactical Entry"
  ],
  "feat_markdown": "Tactical Entry",
- "id": "feat-1800",
+ "id": "feat-4960",
+ "legacy_id": "feat-1800",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Tactical Entry](/Feats.aspx?ID=1800) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 136 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nMaster in [Stealth](/Skills.aspx?ID=15)\n\n**Requirements**\r\nYou rolled [Stealth](/Skills.aspx?ID=15) for initiative in this encounter, and neither you nor any enemies have acted yet in this encounter.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou Stride. This movement doesn't trigger any reactions.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Tactical Entry](/Feats.aspx?ID=4960) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 175\n\n**Prerequisites**\r\nMaster in [Stealth](/Skills.aspx?ID=15)\n\n**Requirements**\r\nYou rolled Stealth for initiative in this encounter, and neither you nor any enemies have acted yet\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou [Stride](/Actions.aspx?ID=88). This movement doesn’t trigger any reactions.",
  "name": "Tactical Entry",
  "pfs": "Standard",
  "prerequisite": "Master in Stealth",
  "prerequisite_markdown": "Master in [Stealth](/Skills.aspx?ID=15)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 175",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
- "requirement": "You rolled  Stealth  for initiative in this encounter, and neither you nor any enemies have acted yet in this encounter.",
- "requirement_markdown": "You rolled [Stealth](/Skills.aspx?ID=15) for initiative in this encounter, and neither you nor any enemies have acted yet in this encounter.",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You rolled Stealth for initiative in this encounter, and neither you nor any enemies have acted yet",
+ "requirement_markdown": "You rolled Stealth for initiative in this encounter, and neither you nor any enemies have acted yet",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 136 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nMaster in [Stealth](/Skills.aspx?ID=15)\n\n**Requirements**\r\nYou rolled [Stealth](/Skills.aspx?ID=15) for initiative in this encounter, and neither you nor any enemies have acted yet in this encounter.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStride without triggering reactions\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 175\n\n**Prerequisites**\r\nMaster in [Stealth](/Skills.aspx?ID=15)\n\n**Requirements**\r\nYou rolled Stealth for initiative in this encounter, and neither you nor any enemies have acted yet\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou [Stride](/Actions.aspx?ID=88).\r\n</summary>",
  "skill": [
   "Stealth",
   "Stealth"
  ],
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 136"
+  "Player Core pg. 175"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 136 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 175",
  "speed": {},
- "summary": "Stride without triggering reactions",
- "summary_markdown": "Stride without triggering reactions",
- "text": "<title level=\"1\" right=\"Feat 8\" pfs=\"Standard\" > Tactical Entry Free Action Source Advanced Player's Guide pg. 136 2.0 Prerequisites Master in Stealth Requirements You rolled Stealth for initiative in this encounter, and neither you nor any enemies have acted yet in this encounter. --- You Stride. This movement doesn't trigger any reactions.",
+ "summary": "You  Stride .",
+ "summary_markdown": "You [Stride](/Actions.aspx?ID=88).",
+ "text": "<title level=\"1\" right=\"Feat 8\" pfs=\"Standard\" > Tactical Entry Free Action Source Player Core pg. 175 Prerequisites Master in Stealth Requirements You rolled Stealth for initiative in this encounter, and neither you nor any enemies have acted yet --- You Stride. This movement doesn’t trigger any reactions.",
  "trait": [
   "Rogue"
  ],
- "trait_markdown": "[Rogue](/Traits.aspx?ID=139)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Rogue](/Traits.aspx?ID=687)",
  "trait_raw": [
   "Rogue"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1800",
+ "url": "/Feats.aspx?ID=4960",
  "weakness": {}
 }

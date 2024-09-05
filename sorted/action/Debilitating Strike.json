@@ -1,37 +1,47 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "action",
  "exclude_from_search": false,
- "id": "action-11",
- "markdown": "<title level=\"1\" right=\"Action\">[Debilitating Strike](/Actions.aspx?ID=11) <actions string=\"Free Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 182 <sup>4.0</sup></row>\n\n**Trigger** Your Strike hits a [flat-footed](/Conditions.aspx?ID=16) creature and deals damage.\n\n</column>\r\n\r\n---\r\n\r\nYou apply one of the following debilitations, which lasts until the end of your next turn. \n<ul><li>**Debilitation** The target takes a –10-foot status penalty to its Speeds. </li><li>**Debilitation** The target becomes [enfeebled 1](/Conditions.aspx?ID=13).</li></ul>",
+ "id": "action-2258",
+ "markdown": "<title level=\"1\" right=\"Action\">[Debilitating Strike](/Actions.aspx?ID=2258) <actions string=\"Free Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 168\n\n**Trigger** Your Strike hits an [off-guard](/Conditions.aspx?ID=58) creature and deals damage.\n\n</column>\r\n\r\n---\r\n\r\nYou apply one of the following debilitations, which lasts until the end of your next turn. \n<ul><li>**Debilitation** The target takes a –10-foot status penalty to its Speeds.</li><li>**Debilitation** The target becomes [enfeebled 1](/Conditions.aspx?ID=13).</li></ul>",
  "name": "Debilitating Strike",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 168",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 182 <sup>4.0</sup></row>\n\n**Trigger**\r\nYour Strike hits a [flat-footed](/Conditions.aspx?ID=16) creature and deals damage.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou apply one of the following debilitations, which lasts until the end of your next turn.    Debilitation  The target takes a –10-foot status …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 168\n\n**Trigger**\r\nYour Strike hits an [off-guard](/Conditions.aspx?ID=58) creature and deals damage.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou apply one of the following debilitations, which lasts until the end of your next turn.    Debilitation  The target takes a –10-foot status …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 182"
+  "Player Core pg. 168"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 182 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 168",
  "speed": {},
  "summary": "You apply one of the following debilitations, which lasts until the end of your next turn.    Debilitation  The target takes a –10-foot status …",
  "summary_markdown": "You apply one of the following debilitations, which lasts until the end of your next turn.    Debilitation  The target takes a –10-foot status …",
- "text": " Debilitating Strike Free Action Source Core Rulebook pg. 182 4.0 Trigger Your Strike hits a flat-footed creature and deals damage. --- You apply one of the following debilitations, which lasts until the end of your next turn. Debilitation The target takes a –10-foot status penalty to its Speeds. Debilitation The target becomes enfeebled 1. ",
+ "text": " Debilitating Strike Free Action Source Player Core pg. 168 Trigger Your Strike hits an off-guard creature and deals damage. --- You apply one of the following debilitations, which lasts until the end of your next turn. Debilitation The target takes a –10-foot status penalty to its Speeds. Debilitation The target becomes enfeebled 1. ",
  "trait": [
   "Rogue"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Rogue](/Traits.aspx?ID=139)",
  "trait_raw": [
   "Rogue"
  ],
- "trigger": "Your Strike hits a  flat-footed  creature and deals damage.",
- "trigger_markdown": "Your Strike hits a [flat-footed](/Conditions.aspx?ID=16) creature and deals damage.",
+ "trigger": "Your Strike hits an  off-guard  creature and deals damage.",
+ "trigger_markdown": "Your Strike hits an [off-guard](/Conditions.aspx?ID=58) creature and deals damage.",
  "type": "Action",
- "url": "/Actions.aspx?ID=11",
+ "url": "/Actions.aspx?ID=2258",
  "weakness": {}
 }

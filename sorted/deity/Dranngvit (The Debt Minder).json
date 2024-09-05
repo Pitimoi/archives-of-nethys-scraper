@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Constitution",
   "Wisdom"
  ],
  "alignment": "LN",
- "breadcrumbs_spa": [],
+ "anathema": "Allow a slight to go unrecognized, avoid repaying a debt, force others into debts you know are unpayable",
  "category": "deity",
  "cleric_spell": [
   "Longstrider",
@@ -12,25 +12,32 @@
   "Passwall"
  ],
  "deity": [
-  "Dranngvit"
+  "Dranngvit",
+  "Dwarven Pantheon"
  ],
- "deity_markdown": "[Dranngvit](/Deities.aspx?ID=86)",
+ "deity_markdown": "[Dwarven Pantheon](/Deities.aspx?ID=196)",
  "deity_category": "Dwarven Gods",
- "deity_category_markdown": "[Dwarven Gods\r\n](/DeityCategories.aspx?ID=6)",
- "deity_category_order": "2Dwarven Gods\r\n",
+ "deity_category_markdown": "[Dwarven Gods](/DeityCategories.aspx?ID=6)",
+ "deity_category_order": "2Dwarven Gods",
  "divine_font": [
   "Harm",
   "Heal"
  ],
  "divine_font_markdown": "[Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)",
  "domain": [
+  "Fate",
   "Knowledge",
   "Might",
   "Travel",
+  "Truth",
   "Vigil"
  ],
- "domain_markdown": "[Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Vigil](/Domains.aspx?ID=55)",
- "domain_alternate_markdown": "",
+ "domain_markdown": "[Fate](/Domains.aspx?ID=12), [Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Truth](/Domains.aspx?ID=32), [Vigil](/Domains.aspx?ID=55)",
+ "domain_alternate": [
+  "Fate",
+  "Truth"
+ ],
+ "domain_alternate_markdown": "[Fate](/Domains.aspx?ID=12), [Truth](/Domains.aspx?ID=32)",
  "domain_primary": [
   "Knowledge",
   "Might",
@@ -38,6 +45,7 @@
   "Vigil"
  ],
  "domain_primary_markdown": "[Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Vigil](/Domains.aspx?ID=55)",
+ "edict": "Help reclaim just debts, seek appropriate vengeance against transgressions",
  "exclude_from_search": false,
  "favored_weapon": [
   "Light Pick"
@@ -48,29 +56,50 @@
   "LE"
  ],
  "id": "deity-86",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Dranngvit (The Debt Minder)](/Deities.aspx?ID=86)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Dwarven Gods\r\n](/DeityCategories.aspx?ID=6)\r\n\r\n**Edicts** Help reclaim just debts, seek appropriate vengeance against transgressions\r\n\r\n**Anathema** Allow a slight to go unrecognized, avoid repaying a debt, force others into debts you know are unpayable\n\n**Follower Alignments**\r\nLN, LE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nConstitution or Wisdom\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Intimidation](/Skills.aspx?ID=7)\r\n\r\n**Favored Weapon** [Light Pick](/Weapons.aspx?ID=30)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Vigil](/Domains.aspx?ID=55)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Longstrider](/Spells.aspx?ID=175)\n\n- **2nd**\r\n[Knock](/Spells.aspx?ID=168)\n\n- **5th**\r\n[Passwall](/Spells.aspx?ID=216)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Dranngvit (The Debt Minder)](/Deities.aspx?ID=86)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Highhelm](/Sources.aspx?ID=204) pg. 118\n\nMost dwarves consider the dour goddess Dranngvit to be a necessary evil, a harsh and acrimonious deity to whom one turns only when all other options have been exhausted. Dwarven legend holds that she was once betrothed to [Torag](/Deities.aspx?ID=18) and destined to become queen of the dwarven pantheon, only to be denied her promised throne when Torag fell in love with and chose [Folgrit](/Deities.aspx?ID=87) as his bride instead. Humiliated and embittered, Dranngvit withdrew from Forgeheart, the [Heavenly](/Planes.aspx?ID=17) domain of the dwarven gods, to dwell forever in self-imposed exile far from the rest of her pantheon with her great hound Hefnd as her sole companion.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Dwarven Gods](/DeityCategories.aspx?ID=6)\r\n\r\n**Edicts** Help reclaim just debts, seek appropriate vengeance against transgressions\r\n\r\n**Anathema** Allow a slight to go unrecognized, avoid repaying a debt, force others into debts you know are unpayable\r\n\r\n**Area of Concern**\r\ndebt, pursuit, vengeance\r\n\r\n**Follower Alignments**\r\nLN, LE\r\n\r\n**Pantheons**\r\n[Dwarven Pantheon](/Deities.aspx?ID=196)\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nConstitution or Wisdom\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose unholy\r\n\r\n**Divine Skill** [Intimidation](/Skills.aspx?ID=7)\r\n\r\n**Favored Weapon** [Light Pick](/Weapons.aspx?ID=30)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Vigil](/Domains.aspx?ID=55)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** [Fate](/Domains.aspx?ID=12), [Truth](/Domains.aspx?ID=32)\r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Longstrider](/Spells.aspx?ID=175)\n\n- **2nd**\r\n[Knock](/Spells.aspx?ID=168)\n\n- **5th**\r\n[Passwall](/Spells.aspx?ID=216)\n\n</column>",
  "name": "Dranngvit (The Debt Minder)",
+ "pantheon": [
+  "Dwarven Pantheon"
+ ],
+ "pantheon_markdown": "[Dwarven Pantheon](/Deities.aspx?ID=196)",
  "pfs": "Standard",
+ "primary_source": "Highhelm",
+ "primary_source_raw": "Highhelm pg. 118",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
- "release_date": "2020-01-29",
+ "rarity_id": 1,
+ "release_date": "2023-06-28",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Intimidation](/Skills.aspx?ID=7)\r\n\r\n**Favored Weapon** [Light Pick](/Weapons.aspx?ID=30)\r\n\r\n**Domains** [Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Vigil](/Domains.aspx?ID=55)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "unholy"
+ ],
+ "sanctification_raw": "can choose unholy",
+ "search_markdown": "<additional-info>\r\n**Source** [Highhelm](/Sources.aspx?ID=204) pg. 118\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Intimidation](/Skills.aspx?ID=7)\r\n\r\n**Favored Weapon** [Light Pick](/Weapons.aspx?ID=30)\r\n\r\n**Domains** [Fate](/Domains.aspx?ID=12), [Knowledge](/Domains.aspx?ID=17), [Might](/Domains.aspx?ID=20), [Travel](/Domains.aspx?ID=30), [Truth](/Domains.aspx?ID=32), [Vigil](/Domains.aspx?ID=55)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMost dwarves consider the dour goddess Dranngvit to be a necessary evil, a harsh and acrimonious deity to whom one turns only when all other options …\r\n</summary>",
  "skill": [
   "Intimidation"
  ],
  "skill_markdown": "[Intimidation](/Skills.aspx?ID=7)",
+ "skill_mod": {},
  "source": [
-  "Gods & Magic"
+  "Highhelm"
  ],
  "source_raw": [
-  "Gods & Magic pg. 126"
+  "Highhelm pg. 118"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Highhelm](/Sources.aspx?ID=204) pg. 118",
  "speed": {},
- "summary": " Nethys Note: no description has been provided of this deity ",
- "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Dranngvit (The Debt Minder) Source Gods &amp; Magic pg. 126 2.0 Nethys Note: no description has been provided of this deity Category [Dwarven Gods ](/DeityCategories.aspx?ID=6) Edicts Help reclaim just debts, seek appropriate vengeance against transgressions Anathema Allow a slight to go unrecognized, avoid repaying a debt, force others into debts you know are unpayable Follower Alignments LN, LE Devotee Benefits Divine Ability Constitution or Wisdom Divine Font Harm or Heal Divine Skill Intimidation Favored Weapon Light Pick Domains Knowledge, Might, Travel, Vigil Alternate Domains Cleric Spells - 1st Longstrider - 2nd Knock - 5th Passwall\n",
+ "spell": [
+  "Longstrider",
+  "Knock",
+  "Passwall"
+ ],
+ "spell_markdown": "[Knock](/Spells.aspx?ID=168), [Longstrider](/Spells.aspx?ID=175), [Passwall](/Spells.aspx?ID=216)",
+ "summary": "Most dwarves consider the dour goddess Dranngvit to be a necessary evil, a harsh and acrimonious deity to whom one turns only when all other options …",
+ "summary_markdown": "Most dwarves consider the dour goddess Dranngvit to be a necessary evil, a harsh and acrimonious deity to whom one turns only when all other options …",
+ "text": " Dranngvit (The Debt Minder) Source Highhelm pg. 118 Most dwarves consider the dour goddess Dranngvit to be a necessary evil, a harsh and acrimonious deity to whom one turns only when all other options have been exhausted. Dwarven legend holds that she was once betrothed to Torag and destined to become queen of the dwarven pantheon, only to be denied her promised throne when Torag fell in love with and chose Folgrit as his bride instead. Humiliated and embittered, Dranngvit withdrew from Forgeheart, the Heavenly domain of the dwarven gods, to dwell forever in self-imposed exile far from the rest of her pantheon with her great hound Hefnd as her sole companion. Category Dwarven Gods Edicts Help reclaim just debts, seek appropriate vengeance against transgressions Anathema Allow a slight to go unrecognized, avoid repaying a debt, force others into debts you know are unpayable Area of Concern debt, pursuit, vengeance Follower Alignments LN, LE Pantheons Dwarven Pantheon Devotee Benefits Divine Attribute Constitution or Wisdom Divine Font Harm or Heal Divine Sanctification can choose unholy Divine Skill Intimidation Favored Weapon Light Pick Domains Knowledge, Might, Travel, Vigil Alternate Domains Fate, Truth Cleric Spells - 1st Longstrider - 2nd Knock - 5th Passwall\n",
  "trait": [
   "LN"
  ],

@@ -1,0 +1,165 @@
+{
+ "ac": 30,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  24,
+  24,
+  24,
+  25
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 7,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Dread Gaze",
+  "Carry Off",
+  "Disembowel",
+  "Terrifying Screech",
+  "Razor-Edged Flight"
+ ],
+ "creature_family": "Griffon",
+ "creature_family_markdown": "[Griffon](/MonsterFamilies.aspx?ID=497)",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 210,
+ "hp_raw": "210",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3287",
+ "image": [
+  "/Images/Monsters/Ascendant_Griffon.webp"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 11,
+ "markdown": "<title level=\"1\" pfs=\"\">[Ascendant Griffon](/Monsters.aspx?ID=3287)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis griffon is aptly named for both its majestic appearance in flight and its increased ferocity over the common griffon. Despite its size, the sheer muscle mass present in this creature makes flight seem effortless, if preposterous. It makes its home among the canopies of the most ancient forests and atop the peaks of the greatest mountains, hunting its prey from above with silent and deadly accuracy. The ascendant griffon prefers to hunt other large creatures within its territory, such as bears, but they will not hesitate to attack smaller prey they perceive as a threat to their territory. Whether an ascendant griffon is a new evolutionary development or a throwback to a more primeval version of the creature is difficult to determine. Further research into these exceptional creatures may provide insight into their origins and perhaps the origins of all griffons.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 33\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 31\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 28\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Ascendant_Griffon.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Ascendant Griffon](/Monsters.aspx?ID=3287)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 157\n\n**Perception** +25; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 120 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +23, [Athletics](/Skills.aspx?ID=36) +23, [Intimidation](/Skills.aspx?ID=40) +25, [Stealth](/Skills.aspx?ID=48) +21, [Survival](/Skills.aspx?ID=49) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +6\r\n\r\n**Con** +5\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +7\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +24 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 210\n\n</row>\n\n**Dread Gaze** <actions string=\"Reaction\" /> **Trigger** A creature ends a [move](/Traits.aspx?ID=658) action within 30 feet of the ascendant griffon; **Effect** The ascendant griffon turns its head to stare down the triggering creature, and attempts to [Demoralize](/Actions.aspx?ID=2395) it. This use of Demoralize has the [visual](/Traits.aspx?ID=727) trait rather than the [auditory](/Traits.aspx?ID=541) trait, and the griffon does not take a penalty on its check for not sharing a language.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbeak +24,\r\n**Damage** 4d8+10 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +24,\r\n**Damage** 4d6+10 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwing +24 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 4d6+10 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nfeather +25 ([range 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d8+10 piercing\n\n**Carry Off**   An ascendant griffon can [Fly](/Actions.aspx?ID=2312) at full speed with a creature [grabbed](/Conditions.aspx?ID=77) in its talons, moving that creature along with it.\r\n\r\n**Disembowel** <actions string=\"Single Action\" />  **Requirements** The ascendant griffon has a creature [grabbed](/Conditions.aspx?ID=77) in its talons; **Effect** The griffon makes a beak Strike to rip at the flesh of its prey. If the Strike hits, that creature becomes [drained 1](/Conditions.aspx?ID=68) (or increases its drained value by 1, to a maximum of 4).\r\n\r\n**Terrifying Screech** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The ascendant griffon unleashes a fearsome cry that strikes terror into its prey. Each creature within 100 feet must attempt a DC 30 Will save. Regardless of the result, creatures are temporarily immune for 1 minute.<br />**Critical Success** The creature is unaffected.<br />**Success** The creature is [frightened 1](/Conditions.aspx?ID=76).<br />**Failure** The creature is frightened 2.<br />**Critical Failure** The creature is frightened 2 and [fleeing](/Conditions.aspx?ID=74) for 1 round.\r\n\r\n**Razor-Edged Flight** <actions string=\"Two Actions\" />  The ascendant griffon glides violently forward, [Flying](/Actions.aspx?ID=2312)twice. It makes a wing Strike at any point during the movement against up to two different targets; if either of these attacks is a critical hit, the target also takes 2d6 [persistent bleed damage](/Conditions.aspx?ID=29).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-497\" />",
+ "name": "Ascendant Griffon",
+ "npc": false,
+ "perception": 25,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 157",
+ "primary_source_category": "Rulebooks",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 24,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 157\r\n\r\n**Creature Family** [Griffon](/MonsterFamilies.aspx?ID=497)\r\n\r\n<row gap=\"medium\">\r\n**HP** 210\r\n\r\n**AC** 30\r\n\r\n**Fort** +21\r\n\r\n**Ref** +24\r\n\r\n**Will** +18\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis griffon is aptly named for both its majestic appearance in flight and its increased ferocity over the common griffon. Despite its size, the …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 120 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 120 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +23, [Athletics](/Skills.aspx?ID=36) +23, [Intimidation](/Skills.aspx?ID=40) +25, [Stealth](/Skills.aspx?ID=48) +21, [Survival](/Skills.aspx?ID=49) +22",
+ "skill_mod": {
+  "acrobatics": 23,
+  "athletics": 23,
+  "intimidation": 25,
+  "stealth": 21,
+  "survival": 22
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 157"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 157",
+ "speed": {
+  "fly": 40,
+  "land": 25,
+  "max": 40
+ },
+ "speed_markdown": "25 feet, fly 40 feet",
+ "speed_raw": "25 feet, fly 40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  19,
+  24,
+  24,
+  28
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3,
+  4
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "This griffon is aptly named for both its majestic appearance in flight and its increased ferocity over the common griffon. Despite its size, the …",
+ "summary_markdown": "This griffon is aptly named for both its majestic appearance in flight and its increased ferocity over the common griffon. Despite its size, the …",
+ "text": " Ascendant Griffon This griffon is aptly named for both its majestic appearance in flight and its increased ferocity over the common griffon. Despite its size, the sheer muscle mass present in this creature makes flight seem effortless, if preposterous. It makes its home among the canopies of the most ancient forests and atop the peaks of the greatest mountains, hunting its prey from above with silent and deadly accuracy. The ascendant griffon prefers to hunt other large creatures within its territory, such as bears, but they will not hesitate to attack smaller prey they perceive as a threat to their territory. Whether an ascendant griffon is a new evolutionary development or a throwback to a more primeval version of the creature is difficult to determine. Further research into these exceptional creatures may provide insight into their origins and perhaps the origins of all griffons. Recall Knowledge - Animal (Nature): DC 33 Unspecific Lore : DC 31 Specific Lore : DC 28 Ascendant Griffon Source Howl of the Wild pg. 157 Perception +25; darkvision, scent (imprecise) 120 feet Languages Skills Acrobatics +23, Athletics +23, Intimidation +25, Stealth +21, Survival +22 Str +7 Dex +6 Con +5 Int -4 Wis +3 Cha +7 --- AC 30 Fort +21 Ref +24 Will +18 HP 210 Dread Gaze Reaction Trigger A creature ends a move action within 30 feet of the ascendant griffon; Effect The ascendant griffon turns its head to stare down the triggering creature, and attempts to Demoralize it. This use of Demoralize has the visual trait rather than the auditory trait, and the griffon does not take a penalty on its check for not sharing a language. --- Speed 25 feet, fly 40 feet Melee Single Action beak +24, Damage 4d8+10 piercing Melee Single Action talon +24, Damage 4d6+10 piercing plus Improved Grab Melee Single Action wing +24 (Agile), Damage 4d6+10 slashing Ranged Single Action feather +25 (range 60 feet), Damage 2d8+10 piercing Carry Off An ascendant griffon can Fly at full speed with a creature grabbed in its talons, moving that creature along with it. Disembowel Single Action Requirements The ascendant griffon has a creature grabbed in its talons; Effect The griffon makes a beak Strike to rip at the flesh of its prey. If the Strike hits, that creature becomes drained 1 (or increases its drained value by 1, to a maximum of 4). Terrifying Screech Single Action (Auditory, Emotion, Fear, Mental) The ascendant griffon unleashes a fearsome cry that strikes terror into its prey. Each creature within 100 feet must attempt a DC 30 Will save. Regardless of the result, creatures are temporarily immune for 1 minute. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Critical Failure The creature is frightened 2 and fleeing for 1 round. Razor-Edged Flight Two Actions The ascendant griffon glides violently forward, Flyingtwice. It makes a wing Strike at any point during the movement against up to two different targets; if either of these attacks is a critical hit, the target also takes 2d6 persistent bleed damage. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Rare",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Rare](/Traits.aspx?ID=683)",
+ "trait_raw": [
+  "Animal",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3287",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 18,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,10 +1,25 @@
 {
  "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  3,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Dragonscaled",
   "Black",
@@ -18,54 +33,87 @@
  "creature_family": "Kobold",
  "creature_family_markdown": "[Kobold](/MonsterFamilies.aspx?ID=65)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 4,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
  "hp": 25,
  "hp_raw": "25",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-274",
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Staff"
+ ],
  "language": [
   "Common",
   "Draconic"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Kobold Dragon Mage](/Monsters.aspx?ID=274)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nKobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments to the kobolds’ claim to draconic heritage.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Kobold Dragon Mage](/Monsters.aspx?ID=274)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 213</row>\n\n**Perception** +5; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +6, [Dragon Lore](/Skills.aspx?ID=8) +10, [Deception](/Skills.aspx?ID=5) +8, [Diplomacy](/Skills.aspx?ID=6) +8, [Intimidation](/Skills.aspx?ID=7) +8, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** -1\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +2\r\n\r\n**Wis** +1\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 25\n\n**Resistances**\r\npoison 5 (see dragonscaled)\n\n**Dragonscaled** A kobold dragon mage’s resistance depends on the color of its scales: **Black** acid 5, **Blue** electricity 5, **Green** poison 5, **Red** fire 5, **White** cold 5.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6-1 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +3 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4-1 bludgeoning\r\n\r\n**Arcane Spontaneous Spells** DC 20\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Ghost Sound](/Spells.aspx?ID=132), [Mage Hand](/Spells.aspx?ID=177), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Fear](/Spells.aspx?ID=110), [Illusory Object](/Spells.aspx?ID=160), [Magic Missile](/Spells.aspx?ID=180) (4 slots)\r\n\r\n**Illusory Retreat** <actions string=\"Three Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Illusion](/Traits.aspx?ID=92), [Manipulate](/Traits.aspx?ID=104), [Move](/Traits.aspx?ID=114)) **Frequency** once per hour; **Requirements** The kobold dragon mage is adjacent to at least one enemy. **Effect** The dragon mage creates an illusion of itself in its square and then becomes invisible (with the effects of a 2nd-level [_invisibility_](/Spells.aspx?ID=164) spell) for 1d4 rounds. The dragon mage can move up to half its Speed, but it must end its movement in a space that's not adjacent to any enemeies. This is a 1st-level spell that requires a somatic component.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The dragon mage deals an extra 1d6 precision damage to flat-footed creatures.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-65\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Kobold Dragon Mage](/Monsters.aspx?ID=274)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nKobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments to the kobolds’ claim to draconic heritage.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Kobold Dragon Mage](/Monsters.aspx?ID=274)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 213\n\n**Perception** +5; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +6, [Dragon Lore](/Skills.aspx?ID=8) +10, [Deception](/Skills.aspx?ID=5) +8, [Diplomacy](/Skills.aspx?ID=6) +8, [Intimidation](/Skills.aspx?ID=7) +8, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** -1\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +2\r\n\r\n**Wis** +1\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[Staff](/Weapons.aspx?ID=12)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\n\n</row>\n\n**Resistances**\r\npoison 5 (see dragonscaled)\n\n**Dragonscaled** A kobold dragon mage’s resistance depends on the color of its scales: **Black** acid 5, **Blue** electricity 5, **Green** poison 5, **Red** fire 5, **White** cold 5.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +7 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6-1 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstaff +3 ([two-hand d8](/Traits.aspx?ID=198)),\r\n**Damage** 1d4-1 bludgeoning\r\n\r\n**Arcane Spontaneous Spells** DC 20\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Ghost Sound](/Spells.aspx?ID=132), [Mage Hand](/Spells.aspx?ID=177), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Fear](/Spells.aspx?ID=110), [Illusory Object](/Spells.aspx?ID=160), [Magic Missile](/Spells.aspx?ID=180) (4 slots)\r\n\r\n**Illusory Retreat** <actions string=\"Three Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Illusion](/Traits.aspx?ID=92), [Manipulate](/Traits.aspx?ID=104), [Move](/Traits.aspx?ID=114)) **Frequency** once per hour; **Requirements** The kobold dragon mage is adjacent to at least one enemy. **Effect** The dragon mage creates an illusion of itself in its square and then becomes invisible (with the effects of a 2nd-level [_invisibility_](/Spells.aspx?ID=164) spell) for 1d4 rounds. The dragon mage can move up to half its Speed, but it must end its movement in a space that's not adjacent to any enemeies. This is a 1st-level spell that requires a somatic component.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The dragon mage deals an extra 1d6 precision damage to flat-footed creatures.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-65\" />",
  "name": "Kobold Dragon Mage",
  "npc": false,
  "perception": 5,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Bestiary",
+ "primary_source_raw": "Bestiary pg. 213",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2019-08-01",
+ "remaster_id": "creature-3074",
+ "remaster_name": "Kobold Cavern Mage",
  "resistance": {
   "poison": 5
  },
  "resistance_markdown": "poison 5 (see dragonscaled)",
  "resistance_raw": "poison 5 (see dragonscaled)",
- "search_markdown": "<traits>\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 213</row>\r\n\r\n**Creature Family** [Kobold](/MonsterFamilies.aspx?ID=65)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +7\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Kobold\" url=\"/Traits.aspx?ID=224\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 213\r\n\r\n**Creature Family** [Kobold](/MonsterFamilies.aspx?ID=65)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +7\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments …\r\n</summary>",
  "sense": "darkvision",
  "sense_markdown": "darkvision",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Arcana +6",
-  "Dragon Lore +10",
-  "Deception +8",
-  "Diplomacy +8",
-  "Intimidation +8",
-  "Stealth +7"
+  "Arcana",
+  "Dragon Lore",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Stealth"
  ],
  "skill_markdown": "[Arcana](/Skills.aspx?ID=2) +6, [Dragon Lore](/Skills.aspx?ID=8) +10, [Deception](/Skills.aspx?ID=5) +8, [Diplomacy](/Skills.aspx?ID=6) +8, [Intimidation](/Skills.aspx?ID=7) +8, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill_mod": {
+  "arcana": 6,
+  "deception": 8,
+  "diplomacy": 8,
+  "intimidation": 8,
+  "stealth": 7
+ },
  "source": [
   "Bestiary"
  ],
  "source_raw": [
   "Bestiary pg. 213"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 213</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary](/Sources.aspx?ID=2) pg. 213",
  "speed": {
   "land": 25,
   "max": 25
@@ -83,8 +131,29 @@
   "Tanglefoot"
  ],
  "spell_markdown": "[Detect Magic](/Spells.aspx?ID=66), [Electric Arc](/Spells.aspx?ID=97), [Fear](/Spells.aspx?ID=110), [Ghost Sound](/Spells.aspx?ID=132), [Illusory Object](/Spells.aspx?ID=160), [Mage Hand](/Spells.aspx?ID=177), [Magic Missile](/Spells.aspx?ID=180), [Tanglefoot](/Spells.aspx?ID=330)",
+ "spell_dc": [
+  20
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "7",
+ "strike_damage_average": [
+  1,
+  2
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex",
@@ -93,11 +162,21 @@
  "summary": "Kobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments …",
  "summary_markdown": "Kobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments …",
  "text": " Kobold Dragon Mage Kobold dragon mages use magic to carry out their secret schemes. The presence of a dragon mage in a kobold warren is one of the greatest testaments to the kobolds’ claim to draconic heritage. Recall Knowledge - Humanoid (Society): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Kobold Dragon Mage Source Bestiary pg. 213 Perception +5; darkvision Languages Common, Draconic Skills Arcana +6, Dragon Lore +10, Deception +8, Diplomacy +8, Intimidation +8, Stealth +7 Str -1 Dex +3 Con +0 Int +2 Wis +1 Cha +4 Items Staff --- AC 17 Fort +4 Ref +7 Will +7 HP 25 Resistances poison 5 (see dragonscaled) Dragonscaled A kobold dragon mage’s resistance depends on the color of its scales: Black acid 5, Blue electricity 5, Green poison 5, Red fire 5, White cold 5. --- Speed 25 feet Melee Single Action claw +7 (Agile, Finesse), Damage 1d6-1 slashing Melee Single Action staff +3 (two-hand d8), Damage 1d4-1 bludgeoning Arcane Spontaneous Spells DC 20 - Cantrips (1st) Detect Magic, Electric Arc, Ghost Sound, Mage Hand, Tanglefoot - 1st Fear, Illusory Object, Magic Missile (4 slots) Illusory Retreat Three Actions (Arcane, Illusion, Manipulate, Move) Frequency once per hour; Requirements The kobold dragon mage is adjacent to at least one enemy. Effect The dragon mage creates an illusion of itself in its square and then becomes invisible (with the effects of a 2nd-level invisibility spell) for 1d4 rounds. The dragon mage can move up to half its Speed, but it must end its movement in a space that's not adjacent to any enemeies. This is a 1st-level spell that requires a somatic component. Sneak Attack The dragon mage deals an extra 1d6 precision damage to flat-footed creatures. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
   "Humanoid",
   "Kobold",
   "LE",
   "Small"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Kobold](/Traits.aspx?ID=224)",
  "trait_raw": [
@@ -113,5 +192,9 @@
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

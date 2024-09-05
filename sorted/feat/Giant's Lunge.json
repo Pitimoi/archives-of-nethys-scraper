@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Giant's Lunge",
  "id": "feat-168",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Giant's Lunge](/Feats.aspx?ID=168) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[giant instinct](/Instincts.aspx?ID=4)\n\n</column>\r\n\r\n---\r\n\r\nYou extend your body and prepare to attack foes outside your normal reach. Until your rage ends, all your melee weapons and unarmed attacks gain reach 10. This doesn’t increase the reach of any weapon or unarmed attack that already has the reach trait, but it does combine with abilities that increase your reach due to increased size, such as [Giant’s Stature](/Feats.aspx?ID=149).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Giant's Lunge](/Feats.aspx?ID=168) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup>\n\n**Prerequisites**\r\n[giant instinct](/Instincts.aspx?ID=4)\n\n</column>\r\n\r\n---\r\n\r\nYou extend your body and prepare to attack foes outside your normal reach. Until your rage ends, all your melee weapons and unarmed attacks gain reach 10. This doesn’t increase the reach of any weapon or unarmed attack that already has the reach trait, but it does combine with abilities that increase your reach due to increased size, such as [Giant’s Stature](/Feats.aspx?ID=149).",
  "name": "Giant's Lunge",
  "pfs": "Standard",
  "prerequisite": "giant instinct",
  "prerequisite_markdown": "[giant instinct](/Instincts.aspx?ID=4)",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 93",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[giant instinct](/Instincts.aspx?ID=4)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou extend your body and prepare to attack foes outside your normal reach.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup>\n\n**Prerequisites**\r\n[giant instinct](/Instincts.aspx?ID=4)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou extend your body and prepare to attack foes outside your normal reach.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 93"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup>",
  "speed": {},
  "summary": "You extend your body and prepare to attack foes outside your normal reach.",
  "summary_markdown": "You extend your body and prepare to attack foes outside your normal reach.",
@@ -34,6 +41,10 @@
   "Barbarian",
   "Concentrate",
   "Rage"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Barbarian](/Traits.aspx?ID=18), [Concentrate](/Traits.aspx?ID=32), [Rage](/Traits.aspx?ID=135)",
  "trait_raw": [

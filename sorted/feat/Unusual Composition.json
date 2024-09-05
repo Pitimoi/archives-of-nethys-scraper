@@ -1,49 +1,61 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Unusual Composition"
  ],
  "feat_markdown": "Unusual Composition",
- "id": "feat-200",
+ "id": "feat-4616",
+ "legacy_id": "feat-200",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Unusual Composition](/Feats.aspx?ID=200) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 102 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[polymath muse](/Muses.aspx?ID=3)\n\n</column>\r\n\r\n---\r\n\r\nYou can translate the emotion and power of a composition to other mediums. If your next action is to cast a composition spell, you can use a different kind of performance than usual for the composition to change any of its somatic components to verbal components or vice versa. As usual for composition spells, this changes whether the composition is auditory or visual.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Unusual Composition](/Feats.aspx?ID=4616) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 105\n\n**Prerequisites**\r\n[polymath muse](/Muses.aspx?ID=3)\n\n</column>\r\n\r\n---\r\n\r\nYou can translate the emotion and power of a composition to other mediums. If your next action is to cast a [composition](/Traits.aspx?ID=559) spell that is [auditory](/Traits.aspx?ID=541) or [visual](/Traits.aspx?ID=727), you can have it affect creatures who can witness it with any sense, not just those the traits indicate, even including [special senses](/Rules.aspx?ID=2409) like [tremorsense](/Rules.aspx?ID=2413). You can choose to exclude any senses you choose.",
  "name": "Unusual Composition",
  "pfs": "Standard",
  "prerequisite": "polymath muse",
  "prerequisite_markdown": "[polymath muse](/Muses.aspx?ID=3)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 105",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 102 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[polymath muse](/Muses.aspx?ID=3)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can translate the emotion and power of a composition to other mediums.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 105\n\n**Prerequisites**\r\n[polymath muse](/Muses.aspx?ID=3)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can translate the emotion and power of a composition to other mediums.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 102"
+  "Player Core pg. 105"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 102 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 105",
  "speed": {},
  "summary": "You can translate the emotion and power of a composition to other mediums.",
  "summary_markdown": "You can translate the emotion and power of a composition to other mediums.",
- "text": "<title level=\"1\" right=\"Feat 10\" pfs=\"Standard\" > Unusual Composition Single Action Source Core Rulebook pg. 102 4.0 Prerequisites polymath muse --- You can translate the emotion and power of a composition to other mediums. If your next action is to cast a composition spell, you can use a different kind of performance than usual for the composition to change any of its somatic components to verbal components or vice versa. As usual for composition spells, this changes whether the composition is auditory or visual.",
+ "text": "<title level=\"1\" right=\"Feat 10\" pfs=\"Standard\" > Unusual Composition Single Action Source Player Core pg. 105 Prerequisites polymath muse --- You can translate the emotion and power of a composition to other mediums. If your next action is to cast a composition spell that is auditory or visual, you can have it affect creatures who can witness it with any sense, not just those the traits indicate, even including special senses like tremorsense. You can choose to exclude any senses you choose.",
  "trait": [
   "Bard",
   "Concentrate",
   "Manipulate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Bard](/Traits.aspx?ID=19), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Bard](/Traits.aspx?ID=546), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Bard",
   "Concentrate",
   "Manipulate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=200",
+ "url": "/Feats.aspx?ID=4616",
  "weakness": {}
 }

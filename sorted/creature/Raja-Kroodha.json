@@ -1,0 +1,216 @@
+{
+ "ac": 30,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  20,
+  22,
+  23
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Knowledge of Delusion",
+  "Reassert Fate",
+  "Change Shape",
+  "Cruel Majesty",
+  "Sneak Attack",
+  "Swallow Whole"
+ ],
+ "creature_family": "Rakshasa",
+ "creature_family_markdown": "[Rakshasa](/MonsterFamilies.aspx?ID=461)",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 180,
+ "hp_raw": "180",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3161",
+ "image": [
+  "/Images/Monsters/Raja-Krodha.webp"
+ ],
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking taravari (functions as a scimitar )"
+ ],
+ "language": [
+  "Chthonian",
+  "Common",
+  "Diabolic",
+  "Empyrean",
+  "Sakvroth"
+ ],
+ "language_markdown": "[Chthonian](/Languages.aspx?ID=114), [Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-345",
+ "legacy_name": "Raja Rakshasa",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Raja-Kroodha](/Monsters.aspx?ID=3161)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe most iconic rakshasas, raja-krodhas are tiger-headed hunters of mortalkind. They are incarnations of all the malice people try to deny within themselves and instead wrongly ascribe to deadly predators of the wild. Their power and skill inspire fear, but also awe, and it is not unknown for some peoples to treat such a rakshasa as a guardian, if one to be treated with extreme caution.\n\n Despite their nature as brutal flesh-eaters, rajas are extremely eloquent and philosophical when they choose to be. This is simply another form of camouflage, one that allows them to blend into cities, much as their stripes allow them to fade into jungles, and it often lulls scholars and intellectuals into a false sense of security. While it is not in the nature of a raja-krodha to be a social schemer or a mastermind, it pleases them when others delude themselves into thinking they are.\n\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Raja-Krodha.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Raja-Kroodha](/Monsters.aspx?ID=3161)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Rakshasa\" url=\"/Traits.aspx?ID=768\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 287\n\n**Perception** +18; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Chthonian](/Languages.aspx?ID=114), [Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +19, [Deception](/Skills.aspx?ID=5) +21, [Diplomacy](/Skills.aspx?ID=6) +21, [Intimidation](/Skills.aspx?ID=7) +21, [Performance](/Skills.aspx?ID=12) +19, [Religion](/Skills.aspx?ID=13) +18, [Stealth](/Skills.aspx?ID=15) +23\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) taravari_ (functions as a [scimitar](/Weapons.aspx?ID=393))\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +18 \r\n\r\n+2 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 180\n\n</row>\n\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 10, Immunities [fear](/Traits.aspx?ID=598), [fortune](/Traits.aspx?ID=612), [misfortune](/Traits.aspx?ID=654)\r\n\r\n**Knowledge of Delusion** ([divine](/Traits.aspx?ID=579)) A creature that fails a [Recall Knowledge](/Actions.aspx?ID=2367) check or a Perception check to [Sense Motive](/Actions.aspx?ID=2302) on a rakshasa is [off-guard](/Conditions.aspx?ID=58) until the end of its next turn.<br />**Reassert Fate** <actions string=\"Reaction\" /> ([divine](/Traits.aspx?ID=579)) **Trigger** A creature within 30 feet uses a [fortune](/Traits.aspx?ID=612) or [misfortune](/Traits.aspx?ID=654) effect; **Effect** The raja-krodha reasserts the ebb and flow of fate, instilling a deep dread in those who would attempt to cheat their written role. They disrupt the triggering effect, and the triggering creature becomes [frightened 2](/Conditions.aspx?ID=76) and is [off-guard](/Conditions.aspx?ID=58) to the raja-krodha until the end of its next turn.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntaravari +23 ([Forceful](/Traits.aspx?ID=180), [Magical](/Traits.aspx?ID=103), [Sweep](/Traits.aspx?ID=194), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d6+12 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +20 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d6+12 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d4+12 slashing\r\n\r\n**Divine Innate Spells** DC 29\r\n- **Cantrips (5th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Divine Lance](/Spells.aspx?ID=84)\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164)\r\n- **3rd**\r\n[Clairaudience](/Spells.aspx?ID=39), [Haste](/Spells.aspx?ID=147)\r\n- **4th**\r\n[Clairvoyance](/Spells.aspx?ID=40), [Unfettered Movement](/Spells.aspx?ID=1732), [Vampiric Feast](/Spells.aspx?ID=1736)\r\n- **5th**\r\n[Crisis of Faith](/Spells.aspx?ID=55), [Hallucination](/Spells.aspx?ID=144), [Invoke Spirits](/Spells.aspx?ID=937)\r\n\r\n**Cleric Domain Spells (2 Focus Points),** DC 29\r\n- **5th**\r\n[Ignite Ambition](/Spells.aspx?ID=1782), [Savor the Sting](/Spells.aspx?ID=449)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127)) The raja-krodha takes on the appearance of any Medium [humanoid](/Traits.aspx?ID=628). This doesn't change the raja-krodha's Speed or their attack and damage modifiers with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning). They lose their fangs Strike unless the humanoid form has fangs or a similar unarmed attack.\r\n\r\n**Cruel Majesty** <actions string=\"Single Action\" /> ([Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) **Requirements** The rakshasa is not in its true form; **Effect** The rakshasa Changes Shape into its true form in a display that is equal parts terrifying and majestic. Creatures within 30 feet of the rakshasa must succeed at a DC 29 Will save or be [off-guard](/Conditions.aspx?ID=58) to the rakshasa until the beginning of the rakshasa's next turn as they are awestruck.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The raja-krodha deals 2d6 extra precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Medium, 2d12+6 bludgeoning, Rupture 15\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-461\" />",
+ "name": "Raja-Kroodha",
+ "npc": false,
+ "perception": 18,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 287",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 20,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Rakshasa\" url=\"/Traits.aspx?ID=768\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 287\r\n\r\n**Creature Family** [Rakshasa](/MonsterFamilies.aspx?ID=461)\r\n\r\n<row gap=\"medium\">\r\n**HP** 180\r\n\r\n**AC** 30\r\n\r\n**Fort** +18\r\n\r\n**Ref** +20\r\n\r\n**Will** +18\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe most iconic rakshasas, raja-krodhas are tiger-headed hunters of mortalkind. They are incarnations of all the malice people try to deny within …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Performance",
+  "Religion",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +19, [Deception](/Skills.aspx?ID=5) +21, [Diplomacy](/Skills.aspx?ID=6) +21, [Intimidation](/Skills.aspx?ID=7) +21, [Performance](/Skills.aspx?ID=12) +19, [Religion](/Skills.aspx?ID=13) +18, [Stealth](/Skills.aspx?ID=15) +23",
+ "skill_mod": {
+  "athletics": 19,
+  "deception": 21,
+  "diplomacy": 21,
+  "intimidation": 21,
+  "performance": 19,
+  "religion": 18,
+  "stealth": 23
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 287"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 287",
+ "speed": {
+  "land": 35,
+  "max": 35
+ },
+ "speed_markdown": "35 feet",
+ "speed_raw": "35 feet",
+ "spell": [
+  "Crisis of Faith",
+  "Hallucination",
+  "Invoke Spirits",
+  "Clairvoyance",
+  "Unfettered Movement",
+  "Vampiric Feast",
+  "Clairaudience",
+  "Haste",
+  "Invisibility",
+  "Detect Magic",
+  "Divine Lance",
+  "Ignite Ambition",
+  "Savor the Sting"
+ ],
+ "spell_markdown": "[Clairaudience](/Spells.aspx?ID=39), [Clairvoyance](/Spells.aspx?ID=40), [Crisis of Faith](/Spells.aspx?ID=55), [Detect Magic](/Spells.aspx?ID=66), [Divine Lance](/Spells.aspx?ID=84), [Hallucination](/Spells.aspx?ID=144), [Haste](/Spells.aspx?ID=147), [Ignite Ambition](/Spells.aspx?ID=1782), [Invisibility](/Spells.aspx?ID=164), [Invoke Spirits](/Spells.aspx?ID=937), [Savor the Sting](/Spells.aspx?ID=449), [Unfettered Movement](/Spells.aspx?ID=1732), [Vampiric Feast](/Spells.aspx?ID=1736)",
+ "spell_dc": [
+  29,
+  29
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "23",
+ "strike_damage_average": [
+  17,
+  19,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The most iconic rakshasas, raja-krodhas are tiger-headed hunters of mortalkind. They are incarnations of all the malice people try to deny within …",
+ "summary_markdown": "The most iconic rakshasas, raja-krodhas are tiger-headed hunters of mortalkind. They are incarnations of all the malice people try to deny within …",
+ "text": " Raja-Kroodha The most iconic rakshasas, raja-krodhas are tiger-headed hunters of mortalkind. They are incarnations of all the malice people try to deny within themselves and instead wrongly ascribe to deadly predators of the wild. Their power and skill inspire fear, but also awe, and it is not unknown for some peoples to treat such a rakshasa as a guardian, if one to be treated with extreme caution. Despite their nature as brutal flesh-eaters, rajas are extremely eloquent and philosophical when they choose to be. This is simply another form of camouflage, one that allows them to blend into cities, much as their stripes allow them to fade into jungles, and it often lulls scholars and intellectuals into a false sense of security. While it is not in the nature of a raja-krodha to be a social schemer or a mastermind, it pleases them when others delude themselves into thinking they are. Raja-Kroodha Source Monster Core pg. 287 Perception +18; darkvision Languages Chthonian, Common, Diabolic, Empyrean, Sakvroth Skills Athletics +19, Deception +21, Diplomacy +21, Intimidation +21, Performance +19, Religion +18, Stealth +23 Str +6 Dex +6 Con +4 Int +2 Wis +2 Cha +5 Items +1 striking taravari (functions as a scimitar) --- AC 30 Fort +18 Ref +20 Will +18 +2 status to all saves vs. magic HP 180 Weaknesses holy 10, Immunities fear, fortune, misfortune Knowledge of Delusion (divine) A creature that fails a Recall Knowledge check or a Perception check to Sense Motive on a rakshasa is off-guard until the end of its next turn. Reassert Fate Reaction (divine) Trigger A creature within 30 feet uses a fortune or misfortune effect; Effect The raja-krodha reasserts the ebb and flow of fate, instilling a deep dread in those who would attempt to cheat their written role. They disrupt the triggering effect, and the triggering creature becomes frightened 2 and is off-guard to the raja-krodha until the end of its next turn. --- Speed 35 feet Melee Single Action taravari +23 (Forceful, Magical, Sweep, Unholy), Damage 2d6+12 slashing Melee Single Action fangs +20 (Agile, Magical, Unholy), Damage 2d6+12 piercing plus Grab Melee Single Action claw +22 (Agile, Finesse, Magical, Unholy), Damage 2d4+12 slashing Divine Innate Spells DC 29 - Cantrips (5th) Detect Magic, Divine Lance - 2nd Invisibility - 3rd Clairaudience, Haste - 4th Clairvoyance, Unfettered Movement, Vampiric Feast - 5th Crisis of Faith, Hallucination, Invoke Spirits Cleric Domain Spells (2 Focus Points), DC 29 - 5th Ignite Ambition, Savor the Sting Change Shape Single Action (Concentrate, Divine, Polymorph) The raja-krodha takes on the appearance of any Medium humanoid. This doesn't change the raja-krodha's Speed or their attack and damage modifiers with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning). They lose their fangs Strike unless the humanoid form has fangs or a similar unarmed attack. Cruel Majesty Single Action (Emotion, Mental, Visual) Requirements The rakshasa is not in its true form; Effect The rakshasa Changes Shape into its true form in a display that is equal parts terrifying and majestic. Creatures within 30 feet of the rakshasa must succeed at a DC 29 Will save or be off-guard to the rakshasa until the beginning of the rakshasa's next turn as they are awestruck. Sneak Attack The raja-krodha deals 2d6 extra precision damage to off-guard creatures. Swallow Whole Single Action (Attack) Medium, 2d12+6 bludgeoning, Rupture 15 ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Rakshasa",
+  "Spirit",
+  "Unholy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster"
+ ],
+ "trait_markdown": "[Rakshasa](/Traits.aspx?ID=768), [Spirit](/Traits.aspx?ID=737), [Unholy](/Traits.aspx?ID=521)",
+ "trait_raw": [
+  "Rakshasa",
+  "Spirit",
+  "Unholy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3161",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude",
+  "will"
+ ],
+ "weakness": {
+  "holy": 10
+ },
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 10, Immunities [fear](/Traits.aspx?ID=598), [fortune](/Traits.aspx?ID=612), [misfortune](/Traits.aspx?ID=654)",
+ "weakness_raw": " holy  10, Immunities  fear ,  fortune ,  misfortune ",
+ "will_save": 18,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

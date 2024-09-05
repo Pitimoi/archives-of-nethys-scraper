@@ -1,21 +1,32 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Nature"
  ],
- "domain_markdown": "[Nature](/Domains.aspx?ID=22)",
+ "domain_markdown": "[Nature](/Domains.aspx?ID=85)",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Wood"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -29,48 +40,63 @@
   9,
   10
  ],
- "id": "spell-467",
+ "id": "spell-1822",
+ "legacy_id": "spell-467",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Vibrant Thorns](/Spells.aspx?ID=467)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=22)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour body sprouts a coat of brambly thorns that harm those that strike you and thrive on life magic. Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with unarmed attacks, take 1 piercing damage each time they do. Anytime you cast a positive spell, the damage from your thorns increases to 1d6 until the start of your next turn.\n\n---\r\n**Heightened (+1)** The damage increases by 1, or 1d6 after you cast a positive spell.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Vibrant Thorns](/Spells.aspx?ID=1822)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=85)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour body sprouts brambly thorns that thrive on life magic. Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with [unarmed](/Traits.aspx?ID=199) attacks, take 1 piercing damage each time they do. Anytime you cast a [vitality](/Traits.aspx?ID=509) spell, the thorns' damage increases to 1d6 until the start of your next turn.\n\n---\r\n**Heightened (+1)** The damage increases by 1, or 1d6 after you cast a vitality spell.",
  "name": "Vibrant Thorns",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 377",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=22)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour body sprouts a coat of brambly thorns that harm those that strike you and thrive on life magic.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Nature](/Domains.aspx?ID=85)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour body sprouts brambly thorns that thrive on life magic.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 399"
+  "Player Core pg. 377"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 377",
  "speed": {},
- "summary": "Your body sprouts a coat of brambly thorns that harm those that strike you and thrive on life magic.",
- "summary_markdown": "Your body sprouts a coat of brambly thorns that harm those that strike you and thrive on life magic.",
- "text": " Vibrant Thorns Source Core Rulebook pg. 399 4.0 Domain Nature Cast Single Action somatic Duration 1 minute --- Your body sprouts a coat of brambly thorns that harm those that strike you and thrive on life magic. Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with unarmed attacks, take 1 piercing damage each time they do. Anytime you cast a positive spell, the damage from your thorns increases to 1d6 until the start of your next turn. --- Heightened (+1) The damage increases by 1, or 1d6 after you cast a positive spell.",
+ "spell_type": "Focus",
+ "summary": "Your body sprouts brambly thorns that thrive on life magic.",
+ "summary_markdown": "Your body sprouts brambly thorns that thrive on life magic.",
+ "text": "\nVibrant Thorns Single Action Source Player Core pg. 377 Domain Nature Duration 1 minute --- Your body sprouts brambly thorns that thrive on life magic. Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with unarmed attacks, take 1 piercing damage each time they do. Anytime you cast a vitality spell, the thorns' damage increases to 1d6 until the start of your next turn. --- Heightened (+1) The damage increases by 1, or 1d6 after you cast a vitality spell.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
+  "Focus",
+  "Manipulate",
   "Morph",
   "Plant",
-  "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Wood"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Morph](/Traits.aspx?ID=113), [Plant](/Traits.aspx?ID=125), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Creature Type",
+  "Rarity",
+  "Elemental"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Morph](/Traits.aspx?ID=113), [Plant](/Traits.aspx?ID=125), [Uncommon](/Traits.aspx?ID=159), [Wood](/Traits.aspx?ID=508)",
  "trait_raw": [
   "Cleric",
+  "Focus",
+  "Manipulate",
   "Morph",
   "Plant",
-  "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Wood"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=467",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1822",
  "weakness": {}
 }

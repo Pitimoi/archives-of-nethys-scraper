@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,23 +7,30 @@
  "feat_markdown": "Greenwatcher",
  "id": "feat-4058",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Greenwatcher](/Feats.aspx?ID=4058) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=318\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 129</row>\n\n**Prerequisites**\r\n[Defy Fey](/Feats.aspx?ID=4054)\n\n</column>\r\n\r\n---\r\n\r\nYour experience fighting against and alongside fey creatures is nearly unrivaled. Any weapon you wield or unarmed attack you make against a [fey](/Traits.aspx?ID=69) creature is treated as [cold iron](/Equipment.aspx?ID=375). Whenever you critically fail a save against a spell cast by a fey creature, it's instead treated as a normal failure. Whenever you critically succeed on a Strike against a fey creature, the target is immediately subject to the effects of a [_faerie fire_](/Spells.aspx?ID=107) spell. For the purposes of [counteracting](/Rules.aspx?ID=371) this effect, it's an innate 2nd-level primal spell.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Greenwatcher](/Feats.aspx?ID=4058) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=318\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 129\n\n**Prerequisites**\r\n[Defy Fey](/Feats.aspx?ID=4054)\n\n</column>\r\n\r\n---\r\n\r\nYour experience fighting against and alongside fey creatures is nearly unrivaled. Any weapon you wield or unarmed attack you make against a [fey](/Traits.aspx?ID=69) creature is treated as [cold iron](/Equipment.aspx?ID=375). Whenever you critically fail a save against a spell cast by a fey creature, it's instead treated as a normal failure. Whenever you critically succeed on a Strike against a fey creature, the target is immediately subject to the effects of a [_faerie fire_](/Spells.aspx?ID=107) spell. For the purposes of [counteracting](/Rules.aspx?ID=371) this effect, it's an innate 2nd-level primal spell.",
  "name": "Greenwatcher",
  "pfs": "Standard",
  "prerequisite": "Defy Fey",
  "prerequisite_markdown": "[Defy Fey](/Feats.aspx?ID=4054)",
+ "primary_source": "Impossible Lands",
+ "primary_source_raw": "Impossible Lands pg. 129",
+ "primary_source_category": "Lost Omens",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2022-11-16",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=318\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 129</row>\n\n**Prerequisites**\r\n[Defy Fey](/Feats.aspx?ID=4054)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour experience fighting against and alongside fey creatures is nearly unrivaled.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=318\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 129\n\n**Prerequisites**\r\n[Defy Fey](/Feats.aspx?ID=4054)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour experience fighting against and alongside fey creatures is nearly unrivaled.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Impossible Lands"
  ],
  "source_raw": [
   "Impossible Lands pg. 129"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Impossible Lands](/Sources.aspx?ID=146) pg. 129</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Impossible Lands](/Sources.aspx?ID=146) pg. 129",
  "speed": {},
  "summary": "Your experience fighting against and alongside fey creatures is nearly unrivaled.",
  "summary_markdown": "Your experience fighting against and alongside fey creatures is nearly unrivaled.",
@@ -34,6 +40,10 @@
   "Investigator",
   "Ranger",
   "Rare"
+ ],
+ "trait_group": [
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Gunslinger](/Traits.aspx?ID=406), [Investigator](/Traits.aspx?ID=318), [Ranger](/Traits.aspx?ID=136), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

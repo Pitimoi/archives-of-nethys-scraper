@@ -1,23 +1,26 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Dagon",
   "Hei Feng",
   "Ranginori",
   "Vineshvakhi"
  ],
- "deity_markdown": "[Dagon](/Deities.aspx?ID=75), [Hei Feng](/Deities.aspx?ID=40), [Ranginori](/Deities.aspx?ID=106), [Vineshvakhi](/Deities.aspx?ID=262)",
+ "deity_markdown": "[Dagon](/Deities.aspx?ID=75), [Hei Feng](/Deities.aspx?ID=307), [Ranginori](/Deities.aspx?ID=106), [Vineshvakhi](/Deities.aspx?ID=262)",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   6,
@@ -26,52 +29,63 @@
   9,
   10
  ],
- "id": "spell-33",
+ "id": "spell-1462",
+ "legacy_id": "spell-33",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">[Chain Lightning](/Spells.aspx?ID=33)</title>\n\n<traits>\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 322 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Dagon](/Deities.aspx?ID=75), [Hei Feng](/Deities.aspx?ID=40), [Ranginori](/Deities.aspx?ID=106), [Vineshvakhi](/Deities.aspx?ID=262)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\n\n**Target** 1 creature, plus any number of additional creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou discharge a powerful bolt of lightning at the target, dealing 8d12 electricity damage. The target must attempt a basic Reflex save. The electricity arcs to another creature within 30 feet of the first target, jumps to another creature within 30 feet of that target, and so on. You can end the chain at any point. You can't target the same creature more than once, and you must have line of effect to all targets. Roll the damage only once, and apply it to each target (halving or doubling as appropriate for its saving throw outcome). The chain ends if any one of the targets critically succeeds at its save.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">\r\n[Chain Lightning](/Spells.aspx?ID=1462)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 319\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Dagon](/Deities.aspx?ID=75), [Hei Feng](/Deities.aspx?ID=307), [Ranginori](/Deities.aspx?ID=106), [Vineshvakhi](/Deities.aspx?ID=262)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\n\n**Target** 1 creature, plus any number of additional creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou discharge a powerful bolt of lightning at the target, dealing 8d12 electricity damage. The target must attempt a basic Reflex save. The electricity then arcs to another creature within  30 feet of the first target, jumps to another creature within 30 feet of that target, and so on. You can end the chain at any point. You can't target the same creature more than once, and you must have line of effect to all targets. Roll the damage only once and apply it to each target (halving or doubling as appropriate for its saving throw outcome). The chain ends if any one of the targets critically succeeds at its save.\n\n---\r\n**Heightened (+1)** The damage increases by 1d12.",
  "name": "Chain Lightning",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 319",
+ "primary_source_category": "Rulebooks",
  "range": 500,
  "range_raw": "500 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "saving_throw": "Reflex",
- "saving_throw_markdown": "Reflex",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 322 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Dagon](/Deities.aspx?ID=75), [Hei Feng](/Deities.aspx?ID=40), [Ranginori](/Deities.aspx?ID=106), [Vineshvakhi](/Deities.aspx?ID=262)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n \r\n\r\n**Target** 1 creature, plus any number of additional creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Lightning jumps from creature to creature.\r\n</summary>",
+ "saving_throw": "basic  Reflex",
+ "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Reflex",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 319\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Dagon](/Deities.aspx?ID=75), [Hei Feng](/Deities.aspx?ID=307), [Ranginori](/Deities.aspx?ID=106), [Vineshvakhi](/Deities.aspx?ID=262)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n \r\n\r\n**Target** 1 creature, plus any number of additional creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn arc of lightning jumps from creature to creature.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 322"
+  "Player Core pg. 319"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 322 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 319",
  "speed": {},
- "summary": " Lightning jumps from creature to creature.",
- "summary_markdown": " Lightning jumps from creature to creature.",
+ "spell_type": "Spell",
+ "summary": "An arc of lightning jumps from creature to creature.",
+ "summary_markdown": "An arc of lightning jumps from creature to creature.",
  "target": "1 creature, plus any number of additional creatures",
  "target_markdown": "1 creature, plus any number of additional creatures",
- "text": " Chain Lightning Source Core Rulebook pg. 322 4.0 Traditions Arcane, Primal Deities Dagon, Hei Feng, Ranginori, Vineshvakhi Cast Two Actions somatic, verbal Range 500 feet Target 1 creature, plus any number of additional creatures Saving Throw Reflex --- You discharge a powerful bolt of lightning at the target, dealing 8d12 electricity damage. The target must attempt a basic Reflex save. The electricity arcs to another creature within 30 feet of the first target, jumps to another creature within 30 feet of that target, and so on. You can end the chain at any point. You can't target the same creature more than once, and you must have line of effect to all targets. Roll the damage only once, and apply it to each target (halving or doubling as appropriate for its saving throw outcome). The chain ends if any one of the targets critically succeeds at its save. --- Heightened (+1) The damage increases by 1d12.",
+ "text": "\nChain Lightning Two Actions Source Player Core pg. 319 Traditions Arcane, Primal Deities Dagon, Hei Feng, Ranginori, Vineshvakhi Range 500 feet Target 1 creature, plus any number of additional creatures Defense basic Reflex --- You discharge a powerful bolt of lightning at the target, dealing 8d12 electricity damage. The target must attempt a basic Reflex save. The electricity then arcs to another creature within 30 feet of the first target, jumps to another creature within 30 feet of that target, and so on. You can end the chain at any point. You can't target the same creature more than once, and you must have line of effect to all targets. Roll the damage only once and apply it to each target (halving or doubling as appropriate for its saving throw outcome). The chain ends if any one of the targets critically succeeds at its save. --- Heightened (+1) The damage increases by 1d12.",
  "tradition": [
   "Arcane",
   "Primal"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
+  "Concentrate",
   "Electricity",
-  "Evocation"
+  "Manipulate"
  ],
- "trait_markdown": "[Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65)",
+ "trait_group": [
+  "Energy",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Electricity](/Traits.aspx?ID=56), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
+  "Concentrate",
   "Electricity",
-  "Evocation"
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=33",
+ "url": "/Spells.aspx?ID=1462",
  "weakness": {}
 }

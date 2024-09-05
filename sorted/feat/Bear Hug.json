@@ -1,45 +1,55 @@
 {
- "actions": "Single Action",
+ "actions": "Two Actions",
+ "actions_number": 4,
  "archetype": [
-  "Ursine Avenger Hood"
+  "Werecreature"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Bear Hug"
  ],
  "feat_markdown": "Bear Hug",
- "id": "feat-4088",
+ "id": "feat-5491",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"\"\r\n>\r\n[Bear Hug](/Feats.aspx?ID=4088) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 183 <sup>1.1</sup></row>\n\n**Archetype** [Ursine Avenger Hood](/Archetypes.aspx?ID=200)\n\n**Requirements**\r\nYour last action was a successful claw Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou snatch at your opponent with your claws, pulling them close in a ferocious bear hug. You make another claw Strike against the same target. If this Strike hits, the target is also [grabbed](/Conditions.aspx?ID=20).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Bear Hug](/Feats.aspx?ID=5491) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=535\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 77\n\n**Archetype** [Werecreature](/Archetypes.aspx?ID=225)\n\n**Prerequisites**\r\n[Werecreature Dedication](/Feats.aspx?ID=5486); werebear\n\n**Requirements**\r\nYou’re in bear or hybrid shape, and your last action was a successful claw Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou hug your opponent. You make another claw Strike against the same target. If this Strike hits, the target is [grabbed](/Conditions.aspx?ID=77) until the end of your next turn, unless you move or your target [Escapes](/Actions.aspx?ID=2296).",
  "name": "Bear Hug",
+ "pfs": "Standard",
+ "prerequisite": "Werecreature Dedication; werebear",
+ "prerequisite_markdown": "[Werecreature Dedication](/Feats.aspx?ID=5486); werebear",
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 77",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2023-02-22",
- "requirement": "Your last action was a successful claw Strike.",
- "requirement_markdown": "Your last action was a successful claw Strike.",
+ "rarity_id": 1,
+ "release_date": "2024-05-29",
+ "requirement": "You’re in bear or hybrid shape, and your last action was a successful claw Strike.",
+ "requirement_markdown": "You’re in bear or hybrid shape, and your last action was a successful claw Strike.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 183 <sup>1.1</sup></row>\n\n**Requirements**\r\nYour last action was a successful claw Strike.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou snatch at your opponent with your claws, pulling them close in a ferocious bear hug.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=535\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 77\n\n**Prerequisites**\r\n[Werecreature Dedication](/Feats.aspx?ID=5486); werebear\n\n**Requirements**\r\nYou’re in bear or hybrid shape, and your last action was a successful claw Strike.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou hug your opponent.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Treasure Vault"
+  "Howl of the Wild"
  ],
  "source_raw": [
-  "Treasure Vault pg. 183"
+  "Howl of the Wild pg. 77"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 183 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 77",
  "speed": {},
- "summary": "You snatch at your opponent with your claws, pulling them close in a ferocious bear hug.",
- "summary_markdown": "You snatch at your opponent with your claws, pulling them close in a ferocious bear hug.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"\" > Bear Hug Single Action Source Treasure Vault pg. 183 1.1 Archetype Ursine Avenger Hood Requirements Your last action was a successful claw Strike. --- You snatch at your opponent with your claws, pulling them close in a ferocious bear hug. You make another claw Strike against the same target. If this Strike hits, the target is also grabbed.",
+ "summary": "You hug your opponent.",
+ "summary_markdown": "You hug your opponent.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Bear Hug Two Actions Source Howl of the Wild pg. 77 Archetype Werecreature Prerequisites Werecreature Dedication; werebear Requirements You’re in bear or hybrid shape, and your last action was a successful claw Strike. --- You hug your opponent. You make another claw Strike against the same target. If this Strike hits, the target is grabbed until the end of your next turn, unless you move or your target Escapes.",
  "trait": [
   "Archetype"
  ],
- "trait_markdown": "[Archetype](/Traits.aspx?ID=12)",
+ "trait_markdown": "[Archetype](/Traits.aspx?ID=535)",
  "trait_raw": [
   "Archetype"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=4088",
+ "url": "/Feats.aspx?ID=5491",
  "weakness": {}
 }

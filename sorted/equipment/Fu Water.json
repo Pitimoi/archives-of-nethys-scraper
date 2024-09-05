@@ -1,36 +1,43 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-987",
  "item_category": "Consumables",
  "item_subcategory": "Potions",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Fu Water](/Equipment.aspx?ID=987)\r\n</title>\n\n<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Potion\" url=\"/Traits.aspx?ID=130\" />\r\n<trait label=\"Splash\" url=\"/Traits.aspx?ID=150\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 161 <sup>1.1</sup></row>\n\n**Price** 21 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nBurnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many [fulu](/equipment/consumables/fulu) items, _fu water_ must be created using [divine](/Traits.aspx?ID=48) magic.\n\n<document level=\"2\" id=\"action-784\" />\n\n<document level=\"2\" id=\"action-785\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Fu Water](/Equipment.aspx?ID=987)\r\n</title>\n\n<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Potion\" url=\"/Traits.aspx?ID=130\" />\r\n<trait label=\"Splash\" url=\"/Traits.aspx?ID=150\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 161 <sup>1.1</sup>\n\n**Price** 21 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nBurnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many [fulu](/Equipment.aspx?Category=15&amp;Subcategory=61) items, _fu water_ must be created using [divine](/Traits.aspx?ID=48) magic.\n\n**Activate** <actions string=\"Single Action\" /> Interact;     **Effect** This potion functions as a bottle of [_holy water_](/Equipment.aspx?ID=245). Like holy water, you throw it as a Strike. It's a simple [thrown](/Traits.aspx?ID=195) weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn't add the [manipulate](/Actions.aspx?ID=639) trait to the attack made with it.\n\n**Activate** <actions string=\"Single Action\" /> Interact;     **Effect** You drink the _fu water_ to [counteract](/Rules.aspx?ID=371) ailments within yourself. Attempt a [counteract](/Rules.aspx?ID=371) check with a +9 counteract modifier and a counteract level of 3 against one effect that imposes the [confused](/Conditions.aspx?ID=5), [fascinated](/Conditions.aspx?ID=14), [frightened](/Conditions.aspx?ID=19), or [stupefied](/Conditions.aspx?ID=37) condition. You are then [sickened 1](/Conditions.aspx?ID=34).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Fu Water",
  "pfs": "Standard",
  "price": 2100,
  "price_raw": "21 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 161",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Potion\" url=\"/Traits.aspx?ID=130\" />\r\n<trait label=\"Splash\" url=\"/Traits.aspx?ID=150\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 161 <sup>1.1</sup></row>\r\n\r\n**Price** 21 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBurnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many  fulu  …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Potion\" url=\"/Traits.aspx?ID=130\" />\r\n<trait label=\"Splash\" url=\"/Traits.aspx?ID=150\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 161 <sup>1.1</sup>\r\n\r\n**Price** 21 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBurnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many  fulu  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 161"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 161 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 161 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many  fulu  …",
  "summary_markdown": "Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many  fulu  …",
- "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Standard\" > Fu Water Source Secrets of Magic pg. 161 1.1 Price 21 gp Usage held in 1 hand --- Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many fulu items, fu water must be created using divine magic.\n",
+ "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Standard\" > Fu Water Source Secrets of Magic pg. 161 1.1 Price 21 gp Usage held in 1 hand --- Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many fulu items, fu water must be created using divine magic. Activate Single Action Interact; Effect This potion functions as a bottle of holy water . Like holy water, you throw it as a Strike. It's a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn't add the manipulate trait to the attack made with it. Activate Single Action Interact; Effect You drink the fu water to counteract ailments within yourself. Attempt a counteract check with a +9 counteract modifier and a counteract level of 3 against one effect that imposes the confused, fascinated, frightened, or stupefied condition. You are then sickened 1.\n",
  "trait": [
   "Consumable",
   "Divine",
@@ -38,6 +45,12 @@
   "Necromancy",
   "Potion",
   "Splash"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Tradition",
+  "Alignment",
+  "School"
  ],
  "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Divine](/Traits.aspx?ID=48), [Good](/Traits.aspx?ID=83), [Necromancy](/Traits.aspx?ID=117), [Potion](/Traits.aspx?ID=130), [Splash](/Traits.aspx?ID=150)",
  "trait_raw": [

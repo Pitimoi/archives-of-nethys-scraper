@@ -1,50 +1,67 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Elementalist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Burning Spell"
  ],
  "feat_markdown": "Burning Spell",
- "id": "feat-2989",
+ "id": "feat-4343",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Burning Spell](/Feats.aspx?ID=2989) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=98)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n</column>\r\n\r\n---\r\n\r\nYou enhance your spell with elemental fire, causing it to set the target on fire. If the next action you use is to Cast a non-cantrip Spell that deals damage at a single target, the spell deals additional [persistent fire damage](/Conditions.aspx?ID=29) equal to the spell level, in addition to its other effects. This has no effect if the spell already deals persistent fire damage. The spell gains the [fire](/Traits.aspx?ID=72) trait.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Burning Spell](/Feats.aspx?ID=4343) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=207)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340); fire is in your elemental philosophy\n\n</column>\r\n\r\n---\r\n\r\nYou enhance your spell with elemental fire, causing it to set the target on fire. If the next action you use is to Cast a non-cantrip Spell that deals damage at a single target, the spell deals additional [persistent fire damage](/Conditions.aspx?ID=29) equal to the spell rank, in addition to its other effects. This has no effect if the spell already deals persistent fire damage. The spell gains the [fire](/Traits.aspx?ID=72) trait.",
  "name": "Burning Spell",
  "pfs": "Standard",
- "prerequisite": "Elementalist Dedication",
- "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=2986)",
+ "prerequisite": "Elementalist Dedication; fire is in your elemental philosophy",
+ "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=4340); fire is in your elemental philosophy",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 59",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2021-09-01",
+ "rarity_id": 1,
+ "release_date": "2023-08-02",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance your spell with elemental fire, causing it to set the target on fire.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340); fire is in your elemental philosophy\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou enhance your spell with elemental fire, causing it to set the target on fire.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Secrets of Magic"
+  "Rage of Elements"
  ],
  "source_raw": [
-  "Secrets of Magic pg. 207"
+  "Rage of Elements pg. 59"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 59",
  "speed": {},
  "summary": "You enhance your spell with elemental fire, causing it to set the target on fire.",
  "summary_markdown": "You enhance your spell with elemental fire, causing it to set the target on fire.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Burning Spell Single Action Source Secrets of Magic pg. 207 1.1 Archetype Elementalist Prerequisites Elementalist Dedication --- You enhance your spell with elemental fire, causing it to set the target on fire. If the next action you use is to Cast a non-cantrip Spell that deals damage at a single target, the spell deals additional persistent fire damage equal to the spell level, in addition to its other effects. This has no effect if the spell already deals persistent fire damage. The spell gains the fire trait.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Burning Spell Single Action Source Rage of Elements pg. 59 Archetype Elementalist Prerequisites Elementalist Dedication; fire is in your elemental philosophy --- You enhance your spell with elemental fire, causing it to set the target on fire. If the next action you use is to Cast a non-cantrip Spell that deals damage at a single target, the spell deals additional persistent fire damage equal to the spell rank, in addition to its other effects. This has no effect if the spell already deals persistent fire damage. The spell gains the fire trait.",
  "trait": [
   "Archetype",
   "Fire",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Fire](/Traits.aspx?ID=72), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Fire](/Traits.aspx?ID=72), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Archetype",
   "Fire",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=2989",
+ "url": "/Feats.aspx?ID=4343",
  "weakness": {}
 }

@@ -1,53 +1,55 @@
 {
- "ac": 21,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
- "disable": "DC 25  Survival  (trained) to prop up the tunnel ceiling without triggering a collapse",
+ "disable": "DC 28  Crafting  (expert) or DC 31  Survival  (trained) to prop up the cavern ceiling without triggering a collapse.",
  "exclude_from_search": false,
- "fortitude_save": 14,
- "hardness": 13,
- "hardness_raw": "13",
  "hazard_type": "Environmental",
- "hp": 46,
- "hp_raw": "46 (BT 23)",
- "id": "hazard-117",
- "immunity": [
-  "critical hits",
-  "object immunities",
-  "precision damage"
- ],
- "immunity_markdown": "critical hits, object immunities, precision damage",
- "level": 4,
- "markdown": "<title level=\"1\" right=\"Hazard 4\" pfs=\"\">[Cave-In](/Hazards.aspx?ID=117)</title>\r\n\r\n<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 6</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nThe tunel collapses, filling the passage with stone\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 22 (trained)\r\n\r\n**Disable**\r\nDC 25 [Survival](/Skills.aspx?ID=16) (trained) to prop up the tunnel ceiling without triggering a collapse\n\n<column gap=\"tiny\">\r\n\r\n**AC** 21, **Fort** +14, **Ref** +14\r\n\r\n**Hardness**\r\n13\r\n\r\n**HP**\r\n46 (BT 23)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Collapse** <actions string=\"Reaction\" /> **Trigger** A creature moves into the unstable tunnel; **Effect** The tunnel collapses in a cave-in that deals 4d8+10 bludgeoning damage to the triggering creature and all creatures in area A2 (DC 21 [basic](/Rules.aspx?ID=329) Reflex save). On a failed save, the triggering creature is [immobilized](/Conditions.aspx?ID=24) (Escape DC 21). This collapse fully blocks the tunnel (area A2), making it impassable.",
+ "id": "hazard-407",
+ "level": 8,
+ "markdown": "<title level=\"1\" right=\"Hazard 8\" pfs=\"\">[Cave-In](/Hazards.aspx?ID=407)</title>\r\n\r\n<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 8, [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 6\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nThe rubble shifts and the cavern ceiling collapses.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 24 (trained)\r\n\r\n**Disable**\r\nDC 28 [Crafting](/Skills.aspx?ID=4) (expert) or DC 31 [Survival](/Skills.aspx?ID=16) (trained) to prop up the cavern ceiling without triggering a collapse.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Collapse** <actions string=\"Reaction\" /> **Trigger** A creature moves the rubble; **Effect** The cavern collapses in a cave-in that deals 4d8+22 bludgeoning damage to the triggering creature and all creatures in the cavern (DC 30 [basic](/Rules.aspx?ID=329) Reflex save).",
  "name": "Cave-In",
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 8",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
  "rarity": "common",
- "reflex_save": 14,
- "release_date": "2022-02-23",
+ "rarity_id": 1,
+ "release_date": "2023-09-23",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 6</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe tunel collapses, filling the passage with stone\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 8, [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 6\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe rubble shifts and the cavern ceiling collapses.\r\n</summary>",
+ "skill_mod": {},
  "source": [
+  "Pathfinder #195: Heavy is the Crown",
   "Pathfinder #176: Lost Mammoth Valley"
  ],
  "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 8",
   "Pathfinder #176: Lost Mammoth Valley pg. 6"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Quest for the Frozen Flame",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 6</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb",
+  "Quest for the Frozen Flame"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 8, [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 6",
  "speed": {},
- "stealth": "DC 22 (trained)",
- "summary": "The tunel collapses, filling the passage with stone",
- "summary_markdown": "The tunel collapses, filling the passage with stone",
- "text": " Cave-In Source Pathfinder #176: Lost Mammoth Valley pg. 6 Complexity Simple The tunel collapses, filling the passage with stone --- Stealth DC 22 (trained) Disable DC 25 Survival (trained) to prop up the tunnel ceiling without triggering a collapse AC 21, Fort +14, Ref +14 Hardness 13 HP 46 (BT 23) Immunities critical hits, object immunities, precision damage Collapse Reaction Trigger A creature moves into the unstable tunnel; Effect The tunnel collapses in a cave-in that deals 4d8+10 bludgeoning damage to the triggering creature and all creatures in area A2 (DC 21 basic Reflex save). On a failed save, the triggering creature is immobilized (Escape DC 21). This collapse fully blocks the tunnel (area A2), making it impassable.",
+ "stealth": "DC 24 (trained)",
+ "summary": "The rubble shifts and the cavern ceiling collapses.",
+ "summary_markdown": "The rubble shifts and the cavern ceiling collapses.",
+ "text": " Cave-In Source Pathfinder #195: Heavy is the Crown pg. 8, Pathfinder #176: Lost Mammoth Valley pg. 6 Complexity Simple The rubble shifts and the cavern ceiling collapses. --- Stealth DC 24 (trained) Disable DC 28 Crafting (expert) or DC 31 Survival (trained) to prop up the cavern ceiling without triggering a collapse. Collapse Reaction Trigger A creature moves the rubble; Effect The cavern collapses in a cave-in that deals 4d8+22 bludgeoning damage to the triggering creature and all creatures in the cavern (DC 30 basic Reflex save).",
  "trait": [
   "Environmental"
+ ],
+ "trait_group": [
+  "Hazard"
  ],
  "trait_markdown": "[Environmental](/Traits.aspx?ID=62)",
  "trait_raw": [
   "Environmental"
  ],
  "type": "Hazard",
- "url": "/Hazards.aspx?ID=117",
+ "url": "/Hazards.aspx?ID=407",
  "weakness": {}
 }

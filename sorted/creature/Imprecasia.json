@@ -1,0 +1,200 @@
+{
+ "ac": 31,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "N",
+ "attack_bonus": [
+  23
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Scent Curse",
+  "Drink Death",
+  "Devour Curse",
+  "Homeland's Hostility"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 6,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 180,
+ "hp_raw": "180",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2802",
+ "immunity": [
+  "cursed"
+ ],
+ "immunity_markdown": "cursed",
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Aklo",
+  "Common",
+  "Sylvan"
+ ],
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Sylvan](/Languages.aspx?ID=10)",
+ "level": 11,
+ "markdown": "<title level=\"1\" pfs=\"\">[Imprecasia](/Monsters.aspx?ID=2802)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAn imprecasia, commonly known as a curse eater, is a solitary fey drawn to the energy emanating from curses. They appear as emaciated humanoid creatures with shadowy wings, long thin hands with sharp claws, and insectile heads with feathery antenna.\n\n An imprecasia's appearance in a region signifies the land is troubled, but they're not unpopular creatures. On the contrary, an imprecasia's whereabouts are coveted information, as they have the ability to fully consume curses on objects and creatures. Many carrying the weight of a curse seek out curse eaters, most of whom will gladly accept doomed objects or charitably destroy an individual's curse.\n\n An imprecasia will never accept the idea of healing a cursed land or blighted region. One might even seek to strengthen the afflictions on a region simply to ensure a regular supply of food. A bolder imprecasia tracks cursed families over generations, feeding off their misfortune until the curse ends or the bloodline dies off. Any who attempt to destroy such curses may find themselves the enemy of an imprecasia defending their source of sustenance.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 30\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 28\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 25\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Imprecasia](/Monsters.aspx?ID=2802)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 83\n\n**Perception** +23; [darkvision](/MonsterAbilities.aspx?ID=59), scent curse\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21, [Nature](/Skills.aspx?ID=10) +23, [Survival](/Skills.aspx?ID=16) +23\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +6\r\n\r\n**Con** +5\r\n\r\n**Int** +3\r\n\r\n**Wis** +6\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Scent Curse** The imprecasia can smell the presence of curses of a level equal to or lower than their own level within 30 feet this is an imprecise sense.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +21 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 180\n\n</row>\r\n\r\n**Immunities**\r\ncursed\r\n\r\n**Resistances**\r\nnegative 10\r\n\r\n**Weaknesses**\r\ncold iron 10\r\n\r\n**Drink Death**  <actions string=\"Reaction\" />([necromancy](/Traits.aspx?ID=117), [primal](/Traits.aspx?ID=676)) **Trigger** A creature within 30 feet of the imprecasia is [dying](/Conditions.aspx?ID=69) **Effect** The imprecasia inhales, drawing a thin blue streak of vapor out of the dying creature's body into their mouth. The dying creature's dying condition is reduced by 1, and the imprecasia regains 2d10+9 Hit Points.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +23 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d12+9 slashing plus homeland's hostility\r\n\r\n**Primal Innate Spells** DC 32, attack +22\r\n- **Cantrips (5th)**\r\n[Tanglefoot](/Spells.aspx?ID=330)\r\n- **3rd**\r\n[Earthbind](/Spells.aspx?ID=94)\r\n- **5th**\r\n[Blindness](/Spells.aspx?ID=26), [Deafness](/Spells.aspx?ID=62), [Hallucinatory Terrain](/Spells.aspx?ID=145), [Remove Curse](/Spells.aspx?ID=250)\r\n\r\n**Devour Curse** <actions string=\"Two Actions\" /> ([Abjuration](/Traits.aspx?ID=2), [Primal](/Traits.aspx?ID=134)) The imprecasia casts remove curse against a curse afflicting a creature, but with a cast of two actions rather than 10 minutes. If they succeed in removing the curse, they also drains vitality from the creature, causing it to become [drained](/Conditions.aspx?ID=68) 1 unless it succeeds at a DC 30 Fortitude save (drained 2 on a critical failure). If the curse is removed, the imprecasia doesn't expend that use of [_remove curse_](/Spells.aspx?ID=250) as a primal innate spell.\r\n\r\n**Homeland's Hostility**  ([Curse](/Traits.aspx?ID=38), [Enchantment](/Traits.aspx?ID=61), [Primal](/Traits.aspx?ID=134)) A creature that takes damage from the imprecasia's claws must attempt a DC 30 Will save. On a failure, it treats all terrain within 60 feet of an imprecasia as difficult terrain.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Targeting Items</title>\r\n\r\nAn imprecasia can cast [_remove curse_](/Spells.aspx?ID=250) on a cursed item rather than on a creature, but they can't use Devour Curse on it. They can only do so on an item that's of a level equal to or less than their own level; on a success, the item is uncursed for 24 hours if it's of a level equal to or higher than the imprecasia's level –4, or uncursed permanently if it's lower level than that.\r\n</aside>",
+ "name": "Imprecasia",
+ "npc": false,
+ "perception": 23,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #199: To Bloom Below the Web",
+ "primary_source_raw": "Pathfinder #199: To Bloom Below the Web pg. 83",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 23,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-01-26",
+ "resistance": {
+  "negative": 10
+ },
+ "resistance_markdown": "negative 10",
+ "resistance_raw": "negative 10",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 83\n\n<row gap=\"medium\">\r\n**HP** 180\r\n\r\n**AC** 31\r\n\r\n**Fort** +18\r\n\r\n**Ref** +23\r\n\r\n**Will** +21\r\n\r\n**Perception** +23\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn imprecasia, commonly known as a curse eater, is a solitary fey drawn to the energy emanating from curses. They appear as emaciated humanoid …\r\n</summary>",
+ "sense": " darkvision , scent curse",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), scent curse",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Nature",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +21, [Nature](/Skills.aspx?ID=10) +23, [Survival](/Skills.aspx?ID=16) +23",
+ "skill_mod": {
+  "acrobatics": 21,
+  "nature": 23,
+  "survival": 23
+ },
+ "source": [
+  "Pathfinder #199: To Bloom Below the Web"
+ ],
+ "source_raw": [
+  "Pathfinder #199: To Bloom Below the Web pg. 83"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 83",
+ "speed": {
+  "fly": 25,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet, fly 25 feet",
+ "speed_raw": "25 feet, fly 25 feet",
+ "spell": [
+  "Blindness",
+  "Deafness",
+  "Hallucinatory Terrain",
+  "Remove Curse",
+  "Earthbind",
+  "Tanglefoot"
+ ],
+ "spell_markdown": "[Blindness](/Spells.aspx?ID=26), [Deafness](/Spells.aspx?ID=62), [Earthbind](/Spells.aspx?ID=94), [Hallucinatory Terrain](/Spells.aspx?ID=145), [Remove Curse](/Spells.aspx?ID=250), [Tanglefoot](/Spells.aspx?ID=330)",
+ "spell_attack_bonus": [
+  22
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  32
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Season of Ghosts",
+ "strike_damage_average": [
+  22
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "An imprecasia, commonly known as a curse eater, is a solitary fey drawn to the energy emanating from curses. They appear as emaciated humanoid …",
+ "summary_markdown": "An imprecasia, commonly known as a curse eater, is a solitary fey drawn to the energy emanating from curses. They appear as emaciated humanoid …",
+ "text": " Imprecasia An imprecasia, commonly known as a curse eater, is a solitary fey drawn to the energy emanating from curses. They appear as emaciated humanoid creatures with shadowy wings, long thin hands with sharp claws, and insectile heads with feathery antenna. An imprecasia's appearance in a region signifies the land is troubled, but they're not unpopular creatures. On the contrary, an imprecasia's whereabouts are coveted information, as they have the ability to fully consume curses on objects and creatures. Many carrying the weight of a curse seek out curse eaters, most of whom will gladly accept doomed objects or charitably destroy an individual's curse. An imprecasia will never accept the idea of healing a cursed land or blighted region. One might even seek to strengthen the afflictions on a region simply to ensure a regular supply of food. A bolder imprecasia tracks cursed families over generations, feeding off their misfortune until the curse ends or the bloodline dies off. Any who attempt to destroy such curses may find themselves the enemy of an imprecasia defending their source of sustenance. Recall Knowledge - Fey (Nature): DC 30 Unspecific Lore : DC 28 Specific Lore : DC 25 Imprecasia Source Pathfinder #199: To Bloom Below the Web pg. 83 Perception +23; darkvision, scent curse Languages Aklo, Common, Sylvan Skills Acrobatics +21, Nature +23, Survival +23 Str +3 Dex +6 Con +5 Int +3 Wis +6 Cha +5 Scent Curse The imprecasia can smell the presence of curses of a level equal to or lower than their own level within 30 feet this is an imprecise sense. --- AC 31 Fort +18 Ref +23 Will +21 HP 180 Immunities cursed Resistances negative 10 Weaknesses cold iron 10 Drink Death Reaction(necromancy, primal) Trigger A creature within 30 feet of the imprecasia is dying Effect The imprecasia inhales, drawing a thin blue streak of vapor out of the dying creature's body into their mouth. The dying creature's dying condition is reduced by 1, and the imprecasia regains 2d10+9 Hit Points. --- Speed 25 feet, fly 25 feet Melee Single Action claws +23 (Agile, Finesse, Magical), Damage 2d12+9 slashing plus homeland's hostility Primal Innate Spells DC 32, attack +22 - Cantrips (5th) Tanglefoot - 3rd Earthbind - 5th Blindness, Deafness, Hallucinatory Terrain, Remove Curse Devour Curse Two Actions (Abjuration, Primal) The imprecasia casts remove curse against a curse afflicting a creature, but with a cast of two actions rather than 10 minutes. If they succeed in removing the curse, they also drains vitality from the creature, causing it to become drained 1 unless it succeeds at a DC 30 Fortitude save (drained 2 on a critical failure). If the curse is removed, the imprecasia doesn't expend that use of remove curse as a primal innate spell. Homeland's Hostility (Curse, Enchantment, Primal) A creature that takes damage from the imprecasia's claws must attempt a DC 30 Will save. On a failure, it treats all terrain within 60 feet of an imprecasia as difficult terrain. Targeting Items An imprecasia can cast remove curse on a cursed item rather than on a creature, but they can't use Devour Curse on it. They can only do so on an item that's of a level equal to or less than their own level; on a success, the item is uncursed for 24 hours if it's of a level equal to or higher than the imprecasia's level –4, or uncursed permanently if it's lower level than that. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Fey",
+  "Uncommon",
+  "N",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Fey",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2802",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "cold_iron": 10
+ },
+ "weakness_markdown": "cold iron 10",
+ "weakness_raw": "cold iron 10",
+ "will_save": 21,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

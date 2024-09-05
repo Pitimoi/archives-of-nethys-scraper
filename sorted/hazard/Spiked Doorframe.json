@@ -1,6 +1,5 @@
 {
  "ac": 21,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "Thievery  DC 20 (trained) to deactivate a trigger built into the door's handle",
@@ -19,22 +18,32 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 4,
- "markdown": "<title level=\"1\" right=\"Hazard 4\" pfs=\"\">[Spiked Doorframe](/Hazards.aspx?ID=64)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 46</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nSpikes lance out of the doorframe to skewer anyone who attempts to open the door.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 25 (trained)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 20 (trained) to deactivate a trigger built into the door's handle\n\n<column gap=\"tiny\">\r\n\r\n**AC** 21, **Fort** +12, **Ref** +8\r\n\r\n**Hardness**\r\n11\r\n\r\n**HP**\r\n44 (BT 22)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spikes** <actions string=\"Single Action\" /> ([attack](/Traits.aspx?ID=15)); **Trigger** The door is opened. **Effect** The trap makes an attack against the creature that opened the door.\n\n **Melee** spikes +17; **Damage** 4d6+3 piercing",
+ "markdown": "<title level=\"1\" right=\"Hazard 4\" pfs=\"\">[Spiked Doorframe](/Hazards.aspx?ID=64)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 46\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nSpikes lance out of the doorframe to skewer anyone who attempts to open the door.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 25 (trained)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 20 (trained) to deactivate a trigger built into the door's handle\n\n<column gap=\"tiny\">\r\n\r\n**AC** 21, **Fort** +12, **Ref** +8\r\n\r\n**Hardness**\r\n11\r\n\r\n**HP**\r\n44 (BT 22)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spikes** <actions string=\"Single Action\" /> ([attack](/Traits.aspx?ID=15)); **Trigger** The door is opened. **Effect** The trap makes an attack against the creature that opened the door.\n\n **Melee** spikes +17; **Damage** 4d6+3 piercing",
  "name": "Spiked Doorframe",
+ "primary_source": "Pathfinder #145: Hellknight Hill",
+ "primary_source_raw": "Pathfinder #145: Hellknight Hill pg. 46",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Age of Ashes",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 46</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpikes lance out of the doorframe to skewer anyone who attempts to open the door.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 46\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpikes lance out of the doorframe to skewer anyone who attempts to open the door.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #145: Hellknight Hill"
  ],
  "source_raw": [
   "Pathfinder #145: Hellknight Hill pg. 46"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Age of Ashes",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 46</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Age of Ashes"
+ ],
+ "source_markdown": "[Pathfinder #145: Hellknight Hill](/Sources.aspx?ID=4) pg. 46",
  "speed": {},
  "stealth": "DC 25 (trained)",
  "summary": "Spikes lance out of the doorframe to skewer anyone who attempts to open the door.",
@@ -43,6 +52,10 @@
  "trait": [
   "Mechanical",
   "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard"
  ],
  "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
  "trait_raw": [

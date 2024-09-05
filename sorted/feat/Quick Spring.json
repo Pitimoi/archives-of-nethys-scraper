@@ -3,7 +3,6 @@
  "archetype": [
   "Acrobat"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,35 +11,45 @@
  "feat_markdown": "Quick Spring",
  "id": "feat-4151",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Quick Spring](/Feats.aspx?ID=4151) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Firebrands](/Sources.aspx?ID=196) pg. 81</row>\n\n**Archetype** [Acrobat](/Archetypes.aspx?ID=45)\n\n**Prerequisites**\r\n[Acrobat Dedication](/Feats.aspx?ID=1873)\r\n\r\n**Access**\r\nMembers of the Firebrands at the rank of second mark or higher have access to this feat.\n\n</column>\r\n\r\n---\r\n\r\nIshii Bunji is a skilled tumbler, and learning his technique allows you to propel yourself across the battlefield faster than your enemies can react. When you [Tumble Through](/Actions.aspx?ID=29), you Stride up to twice your Speed.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Quick Spring](/Feats.aspx?ID=4151) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 81\n\n**Archetype** [Acrobat](/Archetypes.aspx?ID=45)\n\n**Prerequisites**\r\n[Acrobat Dedication](/Feats.aspx?ID=1873); Master in [Acrobatics](/Skills.aspx?ID=1)\r\n\r\n**Access**\r\nMembers of the Firebrands at the rank of second mark or higher have access to this feat.\n\n</column>\r\n\r\n---\r\n\r\nIshii Bunji is a skilled tumbler, and learning his technique allows you to push yourself off a foe and propel yourself across the battlefield faster. If you succeed at an Acrobatics check to [Tumble Through](/Actions.aspx?ID=29) an enemy's space, you can Stride again as a free action after you complete your current movement.",
  "name": "Quick Spring",
- "pfs": "Restricted",
- "prerequisite": "Acrobat Dedication",
- "prerequisite_markdown": "[Acrobat Dedication](/Feats.aspx?ID=1873)",
+ "pfs": "Standard",
+ "prerequisite": "Acrobat Dedication; Master in Acrobatics",
+ "prerequisite_markdown": "[Acrobat Dedication](/Feats.aspx?ID=1873); Master in [Acrobatics](/Skills.aspx?ID=1)",
+ "primary_source": "Firebrands",
+ "primary_source_raw": "Firebrands pg. 81",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2023-03-29",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Firebrands](/Sources.aspx?ID=196) pg. 81</row>\n\n**Prerequisites**\r\n[Acrobat Dedication](/Feats.aspx?ID=1873)\r\n\r\n**Access**\r\nMembers of the Firebrands at the rank of second mark or higher have access to this feat.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIshii Bunji is a skilled tumbler, and learning his technique allows you to propel yourself across the battlefield faster than your enemies can react.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 81\n\n**Prerequisites**\r\n[Acrobat Dedication](/Feats.aspx?ID=1873); Master in [Acrobatics](/Skills.aspx?ID=1)\r\n\r\n**Access**\r\nMembers of the Firebrands at the rank of second mark or higher have access to this feat.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIshii Bunji is a skilled tumbler, and learning his technique allows you to propel yourself across the battlefield faster than your enemies can react.\r\n</summary>",
  "skill": [
   "Acrobatics",
   "Acrobatics"
  ],
+ "skill_mod": {},
  "source": [
   "Firebrands"
  ],
  "source_raw": [
   "Firebrands pg. 81"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Firebrands](/Sources.aspx?ID=196) pg. 81</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Firebrands](/Sources.aspx?ID=196) pg. 81",
  "speed": {},
  "summary": "Ishii Bunji is a skilled tumbler, and learning his technique allows you to propel yourself across the battlefield faster than your enemies can react.",
  "summary_markdown": "Ishii Bunji is a skilled tumbler, and learning his technique allows you to propel yourself across the battlefield faster than your enemies can react.",
- "text": "<title level=\"1\" right=\"Feat 13\" pfs=\"Restricted\" > Quick Spring Source Firebrands pg. 81 Archetype Acrobat Prerequisites Acrobat Dedication Access Members of the Firebrands at the rank of second mark or higher have access to this feat. --- Ishii Bunji is a skilled tumbler, and learning his technique allows you to propel yourself across the battlefield faster than your enemies can react. When you Tumble Through, you Stride up to twice your Speed.",
+ "text": "<title level=\"1\" right=\"Feat 13\" pfs=\"Standard\" > Quick Spring Source Firebrands pg. 81 Archetype Acrobat Prerequisites Acrobat Dedication; Master in Acrobatics Access Members of the Firebrands at the rank of second mark or higher have access to this feat. --- Ishii Bunji is a skilled tumbler, and learning his technique allows you to push yourself off a foe and propel yourself across the battlefield faster. If you succeed at an Acrobatics check to Tumble Through an enemy's space, you can Stride again as a free action after you complete your current movement.",
  "trait": [
   "Archetype",
   "Skill",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Rarity"
  ],
  "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Skill](/Traits.aspx?ID=144), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,0 +1,171 @@
+{
+ "ac": 21,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  12,
+  14,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Reactive Strike",
+  "Bark Orders",
+  "Pack Attack",
+  "Rugged Travel"
+ ],
+ "creature_family": "Kholo",
+ "creature_family_markdown": "[Kholo](/MonsterFamilies.aspx?ID=434)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 60,
+ "hp_raw": "60",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3071",
+ "image": [
+  "/Images/Monsters/Kholo_Sergeant.webp"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Composite Shortbow (20 arrows)",
+  "Hide Armor",
+  "Scimitar"
+ ],
+ "language": [
+  "Common",
+  "Kholo"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Kholo](/Languages.aspx?ID=122)",
+ "legacy_id": "creature-231",
+ "legacy_name": "Gnoll Sergeant",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Kholo Sergeant](/Monsters.aspx?ID=3071)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhen kholos band together to form mercenary bands or raiding parties, the strongest or most respected among them is often designated the hunt leader or sergeant. These kholo are responsible for the safety and success of their packmates and train extensively in the art of war. Their skill at arms makes them powerful adversaries. A kholo sergeant might also serve as a mercenary group's leader in other affairs, such as sorting out domestic disputes or negotiating with rival kholo bands.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Kholo_Sergeant.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Kholo Sergeant](/Monsters.aspx?ID=3071)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Kholo\" url=\"/Traits.aspx?ID=758\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 209\n\n**Perception** +10; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Kholo](/Languages.aspx?ID=122)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +13, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +11, [Survival](/Skills.aspx?ID=16) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Composite Shortbow](/Weapons.aspx?ID=75) (20 arrows), [Hide Armor](/Armor.aspx?ID=7), [Scimitar](/Weapons.aspx?ID=38)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\n\n</row>\n\n**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nscimitar +14 ([Forceful](/Traits.aspx?ID=180), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 1d6+7 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +14 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d6+7 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite shortbow +12 ([deadly d10](/Traits.aspx?ID=174), [Propulsive](/Traits.aspx?ID=191), [range increment 60 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 1d6+4 piercing\n\n**Bark Orders** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Linguistic](/Traits.aspx?ID=101)) The kholo sergeant commands their allies to reposition. Any allies who hear and understand this order can use a reaction to Step.\r\n\r\n**Pack Attack**   A kholo bonekeeper deals 1d4 extra damage to any creature that's within reach of at least two of the kholo bonekeeper's allies.\r\n\r\n**Rugged Travel**   A kholo ignores the first square of [difficult terrain](/Rules.aspx?ID=453) they move into each time they Step or Stride.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-434\" />",
+ "name": "Kholo Sergeant",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 209",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Kholo\" url=\"/Traits.aspx?ID=758\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 209\r\n\r\n**Creature Family** [Kholo](/MonsterFamilies.aspx?ID=434)\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\r\n\r\n**AC** 21\r\n\r\n**Fort** +12\r\n\r\n**Ref** +10\r\n\r\n**Will** +8\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen kholos band together to form mercenary bands or raiding parties, the strongest or most respected among them is often designated the hunt leader …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +13, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +11, [Survival](/Skills.aspx?ID=16) +10",
+ "skill_mod": {
+  "athletics": 13,
+  "intimidation": 9,
+  "stealth": 11,
+  "survival": 10
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 209"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 209",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "stealth": "11",
+ "strike_damage_average": [
+  7,
+  10,
+  10
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "When kholos band together to form mercenary bands or raiding parties, the strongest or most respected among them is often designated the hunt leader …",
+ "summary_markdown": "When kholos band together to form mercenary bands or raiding parties, the strongest or most respected among them is often designated the hunt leader …",
+ "text": " Kholo Sergeant When kholos band together to form mercenary bands or raiding parties, the strongest or most respected among them is often designated the hunt leader or sergeant. These kholo are responsible for the safety and success of their packmates and train extensively in the art of war. Their skill at arms makes them powerful adversaries. A kholo sergeant might also serve as a mercenary group's leader in other affairs, such as sorting out domestic disputes or negotiating with rival kholo bands. Recall Knowledge - Humanoid (Society): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Kholo Sergeant Source Monster Core pg. 209 Perception +10; darkvision Languages Common, Kholo Skills Athletics +13, Intimidation +9, Stealth +11, Survival +10 Str +4 Dex +2 Con +2 Int +0 Wis +1 Cha +0 Items Composite Shortbow (20 arrows), Hide Armor, Scimitar --- AC 21 Fort +12 Ref +10 Will +8 HP 60 Reactive Strike Reaction --- Speed 25 feet Melee Single Action scimitar +14 (Forceful, Sweep), Damage 1d6+7 slashing Melee Single Action jaws +14 (Agile), Damage 1d6+7 piercing Ranged Single Action composite shortbow +12 (deadly d10, Propulsive, range increment 60 feet, reload 0), Damage 1d6+4 piercing Bark Orders Single Action (Auditory, Linguistic) The kholo sergeant commands their allies to reposition. Any allies who hear and understand this order can use a reaction to Step. Pack Attack A kholo bonekeeper deals 1d4 extra damage to any creature that's within reach of at least two of the kholo bonekeeper's allies. Rugged Travel A kholo ignores the first square of difficult terrain they move into each time they Step or Stride. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Humanoid",
+  "Kholo",
+  "Medium",
+  "Gnoll"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628), [Kholo](/Traits.aspx?ID=758)",
+ "trait_raw": [
+  "Humanoid",
+  "Kholo"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3071",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 8,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

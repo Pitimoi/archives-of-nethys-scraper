@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,31 @@
  "feat_markdown": "Necrotic Infusion",
  "id": "feat-280",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Necrotic Infusion](/Feats.aspx?ID=280) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[harmful font](/Classes.aspx?ID=5); evil alignment\n\n</column>\r\n\r\n---\r\n\r\nYou pour negative energy into your undead subject to empower its attacks. If the next action you use is to cast [_harm_](/Spells.aspx?ID=146) to restore Hit Points to a single undead creature, the target then deals an additional 1d6 negative damage with its melee weapons and unarmed attacks until the end of its next turn. If the _harm_ spell is at least 5th level, this damage increases to 2d6, and if the _harm_ spell is at least 8th level, the damage increases to 3d6.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Necrotic Infusion](/Feats.aspx?ID=280) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup>\n\n**Prerequisites**\r\n[harmful font](/Classes.aspx?ID=5); evil alignment\n\n</column>\r\n\r\n---\r\n\r\nYou pour negative energy into your undead subject to empower its attacks. If the next action you use is to cast [_harm_](/Spells.aspx?ID=146) to restore Hit Points to a single undead creature, the target then deals an additional 1d6 negative damage with its melee weapons and unarmed attacks until the end of its next turn. If the _harm_ spell is at least 5th level, this damage increases to 2d6, and if the _harm_ spell is at least 8th level, the damage increases to 3d6.",
  "name": "Necrotic Infusion",
  "pfs": "Standard",
  "prerequisite": "harmful font; evil alignment",
  "prerequisite_markdown": "[harmful font](/Classes.aspx?ID=5); evil alignment",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 123",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "0",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[harmful font](/Classes.aspx?ID=5); evil alignment\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou pour negative energy into your undead subject to empower its attacks.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup>\n\n**Prerequisites**\r\n[harmful font](/Classes.aspx?ID=5); evil alignment\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou pour negative energy into your undead subject to empower its attacks.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 123"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup>",
  "speed": {},
  "summary": "You pour negative energy into your undead subject to empower its attacks.",
  "summary_markdown": "You pour negative energy into your undead subject to empower its attacks.",
@@ -33,7 +41,11 @@
  "trait": [
   "Cleric",
   "Concentrate",
-  "Metamagic"
+  "Metamagic",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
  "trait_raw": [

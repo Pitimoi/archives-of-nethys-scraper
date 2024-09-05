@@ -1,0 +1,69 @@
+{
+ "ac": 22,
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "Thievery  DC 24 (expert) on the pressure plates.",
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "hardness": 13,
+ "hardness_raw": "13",
+ "hazard_type": "Trap",
+ "hp": 54,
+ "hp_raw": "54 (BT 27) to cut the barbed ropes and disable the trap",
+ "id": "hazard-384",
+ "immunity": [
+  "critical hits",
+  "object immunities",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, object immunities, precision damage",
+ "level": 6,
+ "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[Entangling Shredder Trap](/Hazards.aspx?ID=384)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [The Enmity Cycle](/Sources.aspx?ID=200) pg. 24\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nDozens of ropes embedded with steel barbs spring out from the walls when at least two creatures step on the rugs.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 25 (expert) to notice the pressure plates under the rugs\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 24 (expert) on the pressure plates.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 22, **Fort** +11, **Ref** +16\r\n\r\n**Hardness**\r\n13\r\n\r\n**HP**\r\n54 (BT 27) to cut the barbed ropes and disable the trap\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Entangling Ropes** <actions string=\"Reaction\" /> ([attack](/Traits.aspx?ID=15)) **Trigger** Two creatures enter the hallway or end their turn in the hallway; **Effect** The trap makes a barbed rope Strike against the triggering creatures. This trap doesn't take a multiple attack penalty.<br /> **Melee** <actions string=\"Single Action\" /> barbed rope +20, **Damage** 4d8+14 slashing plus grasping ropes **Grasping Ropes** The ropes whip around the limbs of the target. The target must attempt a DC 25 Reflex save.<br /> **Success** The target is unaffected.<br /> **Failure** The target is [flat-footed](/Conditions.aspx?ID=16) until it cuts the ropes or [Escapes](/Actions.aspx?ID=79) (DC 25).<br /> **Critical Failure** As failure, but the target is also [immobilized](/Conditions.aspx?ID=24).\n\n---\r\n**Reset**\r\nmanual",
+ "name": "Entangling Shredder Trap",
+ "primary_source": "The Enmity Cycle",
+ "primary_source_raw": "The Enmity Cycle pg. 24",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "The Enmity Cycle",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 16,
+ "release_date": "2023-05-24",
+ "reset": "manual",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [The Enmity Cycle](/Sources.aspx?ID=200) pg. 24\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDozens of ropes embedded with steel barbs spring out from the walls when at least two creatures step on the rugs.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "The Enmity Cycle"
+ ],
+ "source_raw": [
+  "The Enmity Cycle pg. 24"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "The Enmity Cycle"
+ ],
+ "source_markdown": "[The Enmity Cycle](/Sources.aspx?ID=200) pg. 24",
+ "speed": {},
+ "stealth": "DC 25 (expert) to notice the pressure plates under the rugs",
+ "summary": "Dozens of ropes embedded with steel barbs spring out from the walls when at least two creatures step on the rugs.",
+ "summary_markdown": "Dozens of ropes embedded with steel barbs spring out from the walls when at least two creatures step on the rugs.",
+ "text": " Entangling Shredder Trap Source The Enmity Cycle pg. 24 Complexity Simple Dozens of ropes embedded with steel barbs spring out from the walls when at least two creatures step on the rugs. --- Stealth DC 25 (expert) to notice the pressure plates under the rugs Disable Thievery DC 24 (expert) on the pressure plates. AC 22, Fort +11, Ref +16 Hardness 13 HP 54 (BT 27) to cut the barbed ropes and disable the trap Immunities critical hits, object immunities, precision damage Entangling Ropes Reaction (attack) Trigger Two creatures enter the hallway or end their turn in the hallway; Effect The trap makes a barbed rope Strike against the triggering creatures. This trap doesn't take a multiple attack penalty. Melee Single Action barbed rope +20, Damage 4d8+14 slashing plus grasping ropes Grasping Ropes The ropes whip around the limbs of the target. The target must attempt a DC 25 Reflex save. Success The target is unaffected. Failure The target is flat-footed until it cuts the ropes or Escapes (DC 25). Critical Failure As failure, but the target is also immobilized. --- Reset manual",
+ "trait": [
+  "Mechanical",
+  "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard"
+ ],
+ "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
+ "trait_raw": [
+  "Mechanical",
+  "Trap"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=384",
+ "weakness": {}
+}

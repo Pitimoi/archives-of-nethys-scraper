@@ -1,43 +1,55 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Ricochet Stance (Fighter)"
  ],
  "feat_markdown": "Ricochet Stance (Fighter)",
- "id": "feat-1726",
+ "id": "feat-4805",
+ "legacy_id": "feat-1726",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ricochet Stance (Fighter)](/Feats.aspx?ID=1726) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 126 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou adopt a stance designed to rebound your [thrown](/Traits.aspx?ID=195) weapons back toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon's listed [range increment](/Traits.aspx?ID=248) and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ricochet Stance (Fighter)](/Feats.aspx?ID=4805) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 145\n\n</column>\r\n\r\n---\r\n\r\nYou adopt a stance to rebound your thrown weapons toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon’s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.",
  "name": "Ricochet Stance (Fighter)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 145",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 126 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou adopt a stance designed to rebound your thrown weapons back toward you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 145\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou adopt a stance to rebound your thrown weapons toward you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 126"
+  "Player Core pg. 145"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 126 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 145",
  "speed": {},
- "summary": "You adopt a stance designed to rebound your thrown weapons back toward you.",
- "summary_markdown": "You adopt a stance designed to rebound your thrown weapons back toward you.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Ricochet Stance (Fighter) Single Action Source Advanced Player's Guide pg. 126 2.0 --- You adopt a stance designed to rebound your thrown weapons back toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon's listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.",
+ "summary": "You adopt a stance to rebound your thrown weapons toward you.",
+ "summary_markdown": "You adopt a stance to rebound your thrown weapons toward you.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Ricochet Stance (Fighter) Single Action Source Player Core pg. 145 --- You adopt a stance to rebound your thrown weapons toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon’s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.",
  "trait": [
   "Fighter",
   "Stance"
  ],
- "trait_markdown": "[Fighter](/Traits.aspx?ID=71), [Stance](/Traits.aspx?ID=152)",
+ "trait_group": [
+  "Class",
+  "Class-Specific"
+ ],
+ "trait_markdown": "[Fighter](/Traits.aspx?ID=601), [Stance](/Traits.aspx?ID=152)",
  "trait_raw": [
   "Fighter",
   "Stance"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1726",
+ "url": "/Feats.aspx?ID=4805",
  "weakness": {}
 }

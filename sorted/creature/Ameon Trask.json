@@ -1,10 +1,27 @@
 {
  "ac": 30,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  22,
+  23
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Attack of Opportunity",
   "Sneak Attack",
@@ -13,47 +30,86 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 5,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 19,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 175,
  "hp_raw": "175",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-2307",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 chain mail",
+  "Composite Shortbow (20 arrows)",
+  "+1 striking short sword",
+  "cold iron short sword",
+  "Invisibility Potion",
+  "moderate healing potion",
+  "50 gp"
+ ],
  "language": [
   "Common",
   "Skald"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Skald](/Languages.aspx?ID=42)",
  "level": 10,
- "markdown": "<title level=\"1\" pfs=\"\">[Ameon Trask](/NPCs.aspx?ID=2307)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 37\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 35\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 32\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Ameon Trask](/NPCs.aspx?ID=2307)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 298</row>\n\n**Perception** +16\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Skald](/Languages.aspx?ID=42)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +19, [Deception](/Skills.aspx?ID=5) +20, [Intimidation](/Skills.aspx?ID=7) +20, [Warfare Lore](/Skills.aspx?ID=8) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +5\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +0\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[_+1 chain mail_](/Armor.aspx?ID=9), [Composite Shortbow](/Weapons.aspx?ID=75) (20 arrows), _[+1 striking](/Equipment.aspx?ID=280) [short sword](/Weapons.aspx?ID=43)_, [cold iron](/Equipment.aspx?ID=272) short sword, [Invisibility Potion](/Equipment.aspx?ID=187), [moderate healing potion](/Equipment.aspx?ID=186), 50 gp\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +19 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n**HP** 175\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_short sword_ +23 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 2d6+9 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_cold iron short sword_ +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d6+9 piercing\n\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   Ameon Trask deals 2d6 extra precision damage to [flat-footed](/Conditions.aspx?ID=16) creatures.\r\n\r\n**Twin Feint** <actions string=\"Two Actions\" />  Ameon Trask makes a series of attacks with both short swords, using the first attack to throw his foe off guard against a second attack at a different angle. He makes one Strike with each of his short swords, both against the same target. The target is automatically [flat-footed](/Conditions.aspx?ID=16) against the second attack. Apply Ameon Trask's multiple attack penalty to the Strikes normally.\r\n\r\n**Twin Parry** <actions string=\"Single Action\" />  Ameon uses his two short swords to parry attacks. He gains a +2 circumstance bonus to AC until the start of his next turn, but loses this bonus if he no longer wields a weapon in each hand.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Ameon Trask](/NPCs.aspx?ID=2307)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 37\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 35\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 32\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Ameon Trask](/NPCs.aspx?ID=2307)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 298\n\n**Perception** +16\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Skald](/Languages.aspx?ID=42)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +19, [Deception](/Skills.aspx?ID=5) +20, [Intimidation](/Skills.aspx?ID=7) +20, [Warfare Lore](/Skills.aspx?ID=8) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +5\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +0\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[_+1 chain mail_](/Armor.aspx?ID=9), [Composite Shortbow](/Weapons.aspx?ID=75) (20 arrows), _[+1 striking](/Equipment.aspx?ID=280) [short sword](/Weapons.aspx?ID=43)_, [cold iron](/Equipment.aspx?ID=272) short sword, [Invisibility Potion](/Equipment.aspx?ID=187), [moderate healing potion](/Equipment.aspx?ID=186), 50 gp\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +19 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\n\n</row>\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_short sword_ +23 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 2d6+9 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_cold iron short sword_ +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d6+9 piercing\n\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   Ameon Trask deals 2d6 extra precision damage to [flat-footed](/Conditions.aspx?ID=16) creatures.\r\n\r\n**Twin Feint** <actions string=\"Two Actions\" />  Ameon Trask makes a series of attacks with both short swords, using the first attack to throw his foe off guard against a second attack at a different angle. He makes one Strike with each of his short swords, both against the same target. The target is automatically [flat-footed](/Conditions.aspx?ID=16) against the second attack. Apply Ameon Trask's multiple attack penalty to the Strikes normally.\r\n\r\n**Twin Parry** <actions string=\"Single Action\" />  Ameon uses his two short swords to parry attacks. He gains a +2 circumstance bonus to AC until the start of his next turn, but loses this bonus if he no longer wields a weapon in each hand.\r\n\r\n</column>",
  "name": "Ameon Trask",
  "npc": true,
  "perception": 16,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Kingmaker Adventure Path",
+ "primary_source_raw": "Kingmaker Adventure Path pg. 298",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Kingmaker",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 21,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2022-10-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 298</row>\n\n<row gap=\"medium\">\r\n**HP** 175\r\n\r\n**AC** 30\r\n\r\n**Fort** +19\r\n\r\n**Ref** +21\r\n\r\n**Will** +16\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 298\n\n<row gap=\"medium\">\r\n**HP** 175\r\n\r\n**AC** 30\r\n\r\n**Fort** +19\r\n\r\n**Ref** +21\r\n\r\n**Will** +16\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +21",
-  "Athletics +19",
-  "Deception +20",
-  "Intimidation +20",
-  "Warfare Lore +16"
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Warfare Lore"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +19, [Deception](/Skills.aspx?ID=5) +20, [Intimidation](/Skills.aspx?ID=7) +20, [Warfare Lore](/Skills.aspx?ID=8) +16",
+ "skill_mod": {
+  "acrobatics": 21,
+  "athletics": 19,
+  "deception": 20,
+  "intimidation": 20
+ },
  "source": [
   "Kingmaker Adventure Path"
  ],
  "source_raw": [
   "Kingmaker Adventure Path pg. 298"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Kingmaker",
- "source_markdown": "<row gap=\"tiny\">[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 298</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Kingmaker"
+ ],
+ "source_markdown": "[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 298",
  "speed": {
   "land": 25,
   "max": 25
@@ -62,18 +118,38 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "spoilers": "Kingmaker",
+ "strike_damage_average": [
+  12,
+  16
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "text": " Ameon Trask Recall Knowledge - Humanoid (Society): DC 37 Unspecific Lore : DC 35 Specific Lore : DC 32 Ameon Trask Source Kingmaker Adventure Path pg. 298 Perception +16 Languages Common, Skald Skills Acrobatics +21, Athletics +19, Deception +20, Intimidation +20, Warfare Lore +16 Str +3 Dex +5 Con +3 Int +0 Wis +0 Cha +4 Items +1 chain mail , Composite Shortbow (20 arrows), +1 striking short sword , cold iron short sword, Invisibility Potion, moderate healing potion, 50 gp --- AC 30 Fort +19 Ref +21 Will +16 HP 175 Attack of Opportunity Reaction --- Speed 25 feet Melee Single Action short sword +23 (Agile, Finesse, versatile S), Damage 2d6+9 piercing Melee Single Action cold iron short sword +22 (Agile, Finesse, versatile S), Damage 1d6+9 piercing Sneak Attack Ameon Trask deals 2d6 extra precision damage to flat-footed creatures. Twin Feint Two Actions Ameon Trask makes a series of attacks with both short swords, using the first attack to throw his foe off guard against a second attack at a different angle. He makes one Strike with each of his short swords, both against the same target. The target is automatically flat-footed against the second attack. Apply Ameon Trask's multiple attack penalty to the Strikes normally. Twin Parry Single Action Ameon uses his two short swords to parry attacks. He gains a +2 circumstance bonus to AC until the start of his next turn, but loses this bonus if he no longer wields a weapon in each hand. ",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "Unique",
   "LE",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
@@ -88,5 +164,9 @@
  ],
  "weakness": {},
  "will_save": 16,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,0 +1,186 @@
+{
+ "ac": 15,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  5,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Light Blindness",
+  "Bola Bolt"
+ ],
+ "creature_family": "Hryngar",
+ "creature_family_markdown": "[Hryngar](/MonsterFamilies.aspx?ID=432)",
+ "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 7,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 18,
+ "hp_raw": "18",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3061",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chain Shirt",
+  "Crossbow (3 bola bolts and 10 bolts)",
+  "Light Mace"
+ ],
+ "language": [
+  "Common",
+  "Dwarven",
+  "Sakvroth"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-168",
+ "legacy_name": "Duergar Sharpshooter",
+ "level": 0,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Hryngar Sharpshooter](/Monsters.aspx?ID=3061)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nHryngar sharpshooters serve both as ranged support for caravans and as snipers posted on guard towers overlooking quarries and other areas where workers toil away the hours. Hryngar sharpshooters also specialize in nonlethal methods of ranged combat—tactics they are often called upon to use when tracking down derelict debtors or those attempting to flee from their contractual obligations.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Hryngar Sharpshooter](/Monsters.aspx?ID=3061)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=584\" />\r\n<trait label=\"Hryngar\" url=\"/Traits.aspx?ID=626\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 202\n\n**Perception** +4; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +3, [Stealth](/Skills.aspx?ID=15) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** -2\r\n</row>\n\n**Items**\r\n[Chain Shirt](/Armor.aspx?ID=6), [Crossbow](/Weapons.aspx?ID=67) (3 bola bolts and 10 bolts), [Light Mace](/Weapons.aspx?ID=5)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \r\n\r\n+2 status to saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\n\n</row>\n\n**[Light Blindness](/MonsterAbilities.aspx?ID=68)** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlight mace +5 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d4+1 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncrossbow +7 ([range increment 120 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d8 piercing or bola bolt\r\n\r\n**Occult Innate Spells** DC 12\r\n- **Cantrips (1st)**\r\n[Sigil](/Spells.aspx?ID=286)\r\n- **2nd**\r\n[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214)\r\n\r\n**Bola Bolt**   This shot deals no damage, but on a hit, the target must succeed at a DC 16 Reflex save or be knocked [prone](/Conditions.aspx?ID=88) and become [immobilized](/Conditions.aspx?ID=81) until it is freed with a successful DC 15 check to [Escape](/Actions.aspx?ID=2296). This check can be attempted either by the target or a creature adjacent to the target.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-432\" />",
+ "name": "Hryngar Sharpshooter",
+ "npc": false,
+ "perception": 4,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 202",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=584\" />\r\n<trait label=\"Hryngar\" url=\"/Traits.aspx?ID=626\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 202\r\n\r\n**Creature Family** [Hryngar](/MonsterFamilies.aspx?ID=432)\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\r\n\r\n**AC** 15\r\n\r\n**Fort** +7\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHryngar sharpshooters serve both as ranged support for caravans and as snipers posted on guard towers overlooking quarries and other areas where …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +3, [Stealth](/Skills.aspx?ID=15) +5",
+ "skill_mod": {
+  "athletics": 3,
+  "stealth": 5
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 202"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 202",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell": [
+  "Blood Vendetta",
+  "Paranoia",
+  "Sigil"
+ ],
+ "spell_markdown": "[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214), [Sigil](/Spells.aspx?ID=286)",
+ "spell_dc": [
+  12
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "stealth": "5",
+ "strike_damage_average": [
+  3,
+  4
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "fort",
+  "fortitude",
+  "ref",
+  "reflex"
+ ],
+ "summary": "Hryngar sharpshooters serve both as ranged support for caravans and as snipers posted on guard towers overlooking quarries and other areas where …",
+ "summary_markdown": "Hryngar sharpshooters serve both as ranged support for caravans and as snipers posted on guard towers overlooking quarries and other areas where …",
+ "text": " Hryngar Sharpshooter Hryngar sharpshooters serve both as ranged support for caravans and as snipers posted on guard towers overlooking quarries and other areas where workers toil away the hours. Hryngar sharpshooters also specialize in nonlethal methods of ranged combat—tactics they are often called upon to use when tracking down derelict debtors or those attempting to flee from their contractual obligations. Recall Knowledge - Humanoid (Society): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Hryngar Sharpshooter Source Monster Core pg. 202 Perception +4; darkvision Languages Common, Dwarven, Sakvroth Skills Athletics +3, Stealth +5 Str +1 Dex +3 Con +3 Int +0 Wis +2 Cha -2 Items Chain Shirt, Crossbow (3 bola bolts and 10 bolts), Light Mace --- AC 15 Fort +7 Ref +7 Will +4 +2 status to saves vs. magic HP 18 Light Blindness --- Speed 20 feet Melee Single Action light mace +5 (Agile, Finesse, Shove), Damage 1d4+1 bludgeoning Ranged Single Action crossbow +7 (range increment 120 feet, reload 1), Damage 1d8 piercing or bola bolt Occult Innate Spells DC 12 - Cantrips (1st) Sigil - 2nd Blood Vendetta, Paranoia Bola Bolt This shot deals no damage, but on a hit, the target must succeed at a DC 16 Reflex save or be knocked prone and become immobilized until it is freed with a successful DC 15 check to Escape. This check can be attempted either by the target or a creature adjacent to the target. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Dwarf",
+  "Hryngar",
+  "Humanoid",
+  "Medium",
+  "Duergar"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Dwarf](/Traits.aspx?ID=584), [Hryngar](/Traits.aspx?ID=626), [Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Dwarf",
+  "Hryngar",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3061",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 4,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

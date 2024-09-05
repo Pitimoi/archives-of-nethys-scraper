@@ -1,40 +1,53 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-461-566",
  "item_category": "Worn Items",
+ "item_parent_id": "equipment-461",
  "item_subcategory": "Other Worn Items",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6+\"\r\n    pfs=\"\"\r\n>\r\n[Ring of the Ram](/Equipment.aspx?ID=461)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis heavy iron ring is shaped to look like the head of a ram, with curling horns.\n\n<document level=\"2\" id=\"action-275\" />\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 6\"\r\npfs=\"Standard\"\r\n>\r\nRing of the Ram\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup></row>\n\n**Price** 220 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 13\"\r\npfs=\"Standard\"\r\n>\r\nRing of the Ram (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup></row>\n\n**Price** 2,700 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe ring deals 3d6 force damage per action spent, and the save DC is 32. When you activate the ring using 3 actions, you can disperse the force into multiple magical rams, targeting all creatures in a 30-foot cone instead of one target within 60 feet.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6+\"\r\n    pfs=\"\"\r\n>\r\n[Ring of the Ram](/Equipment.aspx?ID=461)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup>\n\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis heavy iron ring is shaped to look like the head of a ram, with curling horns.\n\n**Activate** <actions string=\"Single Action or more Actions\" /> (Interact);  **Frequency** once per minute;   **Effect** A ram-shaped blast of force slams into one foe that you can see within 60 feet. The number of actions you spend to Activate this Item (from 1 to 3) determines the intensity of the force. The blow deals 2d6 force damage per action spent and pushes the target 5 feet per action spent. The target must attempt a DC 22 Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage and is pushed half the distance.<br />\r\n**Failure** The target takes full damage and is pushed the full distance.<br />\r\n**Critical Failure** The target takes double damage and is pushed twice the distance.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 6\"\r\npfs=\"Standard\"\r\n>\r\nRing of the Ram\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup>\n\n**Price** 220 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 13\"\r\npfs=\"Standard\"\r\n>\r\nRing of the Ram (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup>\n\n**Price** 2,700 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe ring deals 3d6 force damage per action spent, and the save DC is 32. When you activate the ring using 3 actions, you can disperse the force into multiple magical rams, targeting all creatures in a 30-foot cone instead of one target within 60 feet.",
  "name": "Ring of the Ram",
  "pfs": "Standard",
  "price": 22000,
  "price_raw": "220 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 615",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup></row>\r\n\r\n**Price** 220 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis heavy iron ring is shaped to look like the head of a ram, with curling horns. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup>\r\n\r\n**Price** 220 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis heavy iron ring is shaped to look like the head of a ram, with curling horns.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 615"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 615 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
- "summary": "This heavy iron ring is shaped to look like the head of a ram, with curling horns. ",
- "summary_markdown": "This heavy iron ring is shaped to look like the head of a ram, with curling horns. ",
- "text": "<title level=\"1\" right=\"Item 6+\" pfs=\"\" > Ring of the Ram Source Core Rulebook pg. 615 4.0 Usage worn --- This heavy iron ring is shaped to look like the head of a ram, with curling horns. <title level=\"2\" right=\"Item 6\" pfs=\"Standard\" > Ring of the Ram Source Core Rulebook pg. 615 4.0 Price 220 gp <title level=\"2\" right=\"Item 13\" pfs=\"Standard\" > Ring of the Ram (Greater) Source Core Rulebook pg. 615 4.0 Price 2,700 gp --- The ring deals 3d6 force damage per action spent, and the save DC is 32. When you activate the ring using 3 actions, you can disperse the force into multiple magical rams, targeting all creatures in a 30-foot cone instead of one target within 60 feet.",
+ "summary": "This heavy iron ring is shaped to look like the head of a ram, with curling horns.",
+ "summary_markdown": "This heavy iron ring is shaped to look like the head of a ram, with curling horns.",
+ "text": "<title level=\"1\" right=\"Item 6+\" pfs=\"\" > Ring of the Ram Source Core Rulebook pg. 615 4.0 Usage worn --- This heavy iron ring is shaped to look like the head of a ram, with curling horns. Activate Single Action or more Actions (Interact); Frequency once per minute; Effect A ram-shaped blast of force slams into one foe that you can see within 60 feet. The number of actions you spend to Activate this Item (from 1 to 3) determines the intensity of the force. The blow deals 2d6 force damage per action spent and pushes the target 5 feet per action spent. The target must attempt a DC 22 Fortitude save. Critical Success The target is unaffected. Success The target takes half damage and is pushed half the distance. Failure The target takes full damage and is pushed the full distance. Critical Failure The target takes double damage and is pushed twice the distance. <title level=\"2\" right=\"Item 6\" pfs=\"Standard\" > Ring of the Ram Source Core Rulebook pg. 615 4.0 Price 220 gp <title level=\"2\" right=\"Item 13\" pfs=\"Standard\" > Ring of the Ram (Greater) Source Core Rulebook pg. 615 4.0 Price 2,700 gp --- The ring deals 3d6 force damage per action spent, and the save DC is 32. When you activate the ring using 3 actions, you can disperse the force into multiple magical rams, targeting all creatures in a 30-foot cone instead of one target within 60 feet.",
  "trait": [
   "Evocation",
   "Force",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Energy",
+  "Equipment"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Force](/Traits.aspx?ID=75), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

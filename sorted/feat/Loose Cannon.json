@@ -1,9 +1,9 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "archetype": [
   "Alkenstar Agent"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,24 +12,34 @@
  "feat_markdown": "Loose Cannon",
  "id": "feat-3569",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Limited\"\r\n>\r\n[Loose Cannon](/Feats.aspx?ID=3569) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 78</row>\n\n**Archetype** [Alkenstar Agent](/Archetypes.aspx?ID=183)\n\n**Prerequisites**\r\n[Alkenstar Agent Dedication](/Feats.aspx?ID=3568)\n\n</column>\r\n\r\n---\r\n\r\nYour unpredictable gunfire often catches enemies off guard or hits unprotected areas. Make a ranged Strike with a firearm against a creature that you haven't already attacked on this turn. You gain a circumstance bonus to damage on this Strike equal to the number of weapon damage dice. The Strike gains the following failure effect.\n\n**Failure** The firearm misfires, but it doesn't cause the other critical failure effects listed below.<br />\r\n**Critical Failure** The firearm misfires and also explodes. It becomes [broken](/Conditions.aspx?ID=2), and it deals its normal weapon damage to all creatures in a 20-foot burst centered on the firearm, with a [basic](/Rules.aspx?ID=329) Reflex save against your class DC. This damage includes any from the weapon's [fundamental](/equipment/runes/fundamental-weapon-runes) and [property](/equipment/runes/weapon-property-runes) runes.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Limited\"\r\n>\r\n[Loose Cannon](/Feats.aspx?ID=3569) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 78\n\n**Archetype** [Alkenstar Agent](/Archetypes.aspx?ID=183)\n\n**Prerequisites**\r\n[Alkenstar Agent Dedication](/Feats.aspx?ID=3568)\n\n</column>\r\n\r\n---\r\n\r\nYour unpredictable gunfire often catches enemies off guard or hits unprotected areas. Make a ranged Strike with a firearm against a creature that you haven't already attacked on this turn. You gain a circumstance bonus to damage on this Strike equal to the number of weapon damage dice. The Strike gains the following failure effect.\n\n**Failure** The firearm [misfires](/Rules.aspx?ID=1649), but it doesn't cause the other critical failure effects listed below.<br />\r\n**Critical Failure** The firearm misfires and also explodes. It becomes [broken](/Conditions.aspx?ID=2), and it deals its normal weapon damage to all creatures in a 20-foot burst centered on the firearm, with a [basic](/Rules.aspx?ID=329) Reflex save against your class DC. This damage includes any from the weapon's [fundamental](/Equipment.aspx?Category=23&amp;Subcategory=25) and [property](/Equipment.aspx?Category=23&amp;Subcategory=27) runes.",
  "name": "Loose Cannon",
  "pfs": "Limited",
  "prerequisite": "Alkenstar Agent Dedication",
  "prerequisite_markdown": "[Alkenstar Agent Dedication](/Feats.aspx?ID=3568)",
+ "primary_source": "Pathfinder #178: Punks in a Powderkeg",
+ "primary_source_raw": "Pathfinder #178: Punks in a Powderkeg pg. 78",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Outlaws of Alkenstar",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-04-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 78</row>\n\n**Prerequisites**\r\n[Alkenstar Agent Dedication](/Feats.aspx?ID=3568)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour unpredictable gunfire often catches enemies off guard or hits unprotected areas.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 78\n\n**Prerequisites**\r\n[Alkenstar Agent Dedication](/Feats.aspx?ID=3568)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour unpredictable gunfire often catches enemies off guard or hits unprotected areas.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #178: Punks in a Powderkeg"
  ],
  "source_raw": [
   "Pathfinder #178: Punks in a Powderkeg pg. 78"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Outlaws of Alkenstar",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 78</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Outlaws of Alkenstar"
+ ],
+ "source_markdown": "[Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 78",
  "speed": {},
  "summary": "Your unpredictable gunfire often catches enemies off guard or hits unprotected areas.",
  "summary_markdown": "Your unpredictable gunfire often catches enemies off guard or hits unprotected areas.",

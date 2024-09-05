@@ -1,0 +1,199 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Gnomish Shift",
+  "Do a Jig"
+ ],
+ "creature_family": "Gnome",
+ "creature_family_markdown": "[Gnome](/MonsterFamilies.aspx?ID=421)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 5,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 16,
+ "hp_raw": "16",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3020",
+ "image": [
+  "/Images/Monsters/Gnome_Bard.webp"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Dagger",
+  "Musical Instrument (handheld)",
+  "Sling (20 bullets)"
+ ],
+ "language": [
+  "Common",
+  "Fey",
+  "Gnomish"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119), [Gnomish](/Languages.aspx?ID=5)",
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Gnome Bard](/NPCs.aspx?ID=3020)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nBeing a bard allows a gnome a wonderful excuse to constantly travel and see new places while simultaneously creating wonderful things. Occasionally, these bards have a reputation for inappropriate or socially critical performances.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Gnome_Bard.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Gnome Bard](/NPCs.aspx?ID=3020)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Gnome\" url=\"/Traits.aspx?ID=617\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 172\n\n**Perception** +7; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119), [Gnomish](/Languages.aspx?ID=5)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +7, [Diplomacy](/Skills.aspx?ID=6) +5, [Intimidation](/Skills.aspx?ID=7) +7, [Performance](/Skills.aspx?ID=12) +7, [Stealth](/Skills.aspx?ID=15) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +1\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), [Musical Instrument](/Equipment.aspx?ID=37) (handheld), [Sling](/Weapons.aspx?ID=72) (20 bullets)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 16\n\n</row>\n\n**Gnomish Shift** <actions string=\"Reaction\" /> ([primal](/Traits.aspx?ID=676), [teleportation](/Traits.aspx?ID=710)) **Trigger** The gnome bard would take damage; **Effect** The gnome bard gains resistance 2 to the triggering damage and teleports to an adjacent space.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+2 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nsling +8 ([Propulsive](/Traits.aspx?ID=191), [range increment 50 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d6+1 bludgeoning\r\n\r\n**Occult Spontaneous Spells** DC 19, attack +11\r\n- **Cantrips (1st)**\r\n[Courageous Anthem](/Spells.aspx?ID=1763), [Daze](/Spells.aspx?ID=61), [Figment](/Spells.aspx?ID=1528), [Message](/Spells.aspx?ID=190), [Prestidigitation](/Spells.aspx?ID=229), [Summon Instrument](/Spells.aspx?ID=721)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Command](/Spells.aspx?ID=45) (4 slots)\r\n\r\n**Do a Jig** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Incapacitation](/Traits.aspx?ID=93), [Occult](/Traits.aspx?ID=120), [Mental](/Traits.aspx?ID=106)) the gnome bard plays a ditty that inspires dance. One creature within 30 feet must make a Will saving throw DC 19.<br /> **Success** the target is unaffected.<br /> **Failure** The target must waste 1 action on its next turn dancing.<br /> **Critical Failure** The target must waste 2 actions on its next turn dancing.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-421\" />",
+ "name": "Gnome Bard",
+ "npc": true,
+ "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 172",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Gnome\" url=\"/Traits.aspx?ID=617\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 172\r\n\r\n**Creature Family** [Gnome](/MonsterFamilies.aspx?ID=421)\r\n\r\n<row gap=\"medium\">\r\n**HP** 16\r\n\r\n**AC** 16\r\n\r\n**Fort** +5\r\n\r\n**Ref** +7\r\n\r\n**Will** +9\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBeing a bard allows a gnome a wonderful excuse to constantly travel and see new places while simultaneously creating wonderful things. Occasionally, …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Acrobatics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Performance",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +7, [Diplomacy](/Skills.aspx?ID=6) +5, [Intimidation](/Skills.aspx?ID=7) +7, [Performance](/Skills.aspx?ID=12) +7, [Stealth](/Skills.aspx?ID=15) +5",
+ "skill_mod": {
+  "acrobatics": 5,
+  "deception": 7,
+  "diplomacy": 5,
+  "intimidation": 7,
+  "performance": 7,
+  "stealth": 5
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 172"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 172",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Charm",
+  "Command",
+  "Courageous Anthem",
+  "Daze",
+  "Figment",
+  "Message",
+  "Prestidigitation",
+  "Summon Instrument"
+ ],
+ "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Command](/Spells.aspx?ID=45), [Courageous Anthem](/Spells.aspx?ID=1763), [Daze](/Spells.aspx?ID=61), [Figment](/Spells.aspx?ID=1528), [Message](/Spells.aspx?ID=190), [Prestidigitation](/Spells.aspx?ID=229), [Summon Instrument](/Spells.aspx?ID=721)",
+ "spell_attack_bonus": [
+  11
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  19
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "5",
+ "strike_damage_average": [
+  4,
+  4
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Being a bard allows a gnome a wonderful excuse to constantly travel and see new places while simultaneously creating wonderful things. Occasionally, …",
+ "summary_markdown": "Being a bard allows a gnome a wonderful excuse to constantly travel and see new places while simultaneously creating wonderful things. Occasionally, …",
+ "text": " Gnome Bard Being a bard allows a gnome a wonderful excuse to constantly travel and see new places while simultaneously creating wonderful things. Occasionally, these bards have a reputation for inappropriate or socially critical performances. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Gnome Bard Source Monster Core pg. 172 Perception +7; low-light vision Languages Common, Fey, Gnomish Skills Acrobatics +5, Deception +7, Diplomacy +5, Intimidation +7, Performance +7, Stealth +5 Str +1 Dex +3 Con +1 Int +1 Wis +2 Cha +4 Items Dagger, Musical Instrument (handheld), Sling (20 bullets) --- AC 16 Fort +5 Ref +7 Will +9 HP 16 Gnomish Shift Reaction (primal, teleportation) Trigger The gnome bard would take damage; Effect The gnome bard gains resistance 2 to the triggering damage and teleports to an adjacent space. --- Speed 25 feet Melee Single Action dagger +8 (Agile, Finesse, thrown 10 feet, versatile S), Damage 1d4+2 piercing Ranged Single Action sling +8 (Propulsive, range increment 50 feet, reload 1), Damage 1d6+1 bludgeoning Occult Spontaneous Spells DC 19, attack +11 - Cantrips (1st) Courageous Anthem, Daze, Figment, Message, Prestidigitation, Summon Instrument - 1st Charm, Command (4 slots) Do a Jig Single Action (Auditory, Incapacitation, Occult, Mental) the gnome bard plays a ditty that inspires dance. One creature within 30 feet must make a Will saving throw DC 19. Success the target is unaffected. Failure The target must waste 1 action on its next turn dancing. Critical Failure The target must waste 2 actions on its next turn dancing. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Gnome",
+  "Humanoid",
+  "Small"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Gnome](/Traits.aspx?ID=617), [Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Gnome",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/NPCs.aspx?ID=3020",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 9,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

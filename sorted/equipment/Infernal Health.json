@@ -1,39 +1,50 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-761",
  "item_category": "Contracts",
  "item_subcategory": "Thrune Contracts",
  "level": 15,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Infernal Health](/Equipment.aspx?ID=761)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Contract\" url=\"/Traits.aspx?ID=329\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Legends](/Sources.aspx?ID=40) pg. 10</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nYou regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The healing you gain from long-term rest is similarly tripled. Once per day, from any distance, Abrogail Thrune II can recite a voidability clause in your Thrune contract as a 1-minute activity to prevent you from regaining Hit Points from resting for 1 day.\n\n<document level=\"2\" id=\"action-603\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Infernal Health](/Equipment.aspx?ID=761)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Contract\" url=\"/Traits.aspx?ID=329\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Legends](/Sources.aspx?ID=40) pg. 10\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nYou regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The healing you gain from long-term rest is similarly tripled. Once per day, from any distance, Abrogail Thrune II can recite a voidability clause in your Thrune contract as a 1-minute activity to prevent you from regaining Hit Points from resting for 1 day.\n\n**Activate** <actions string=\"Two Actions\" /> command;  **Frequency** once per day;   **Effect** You recite a subclause regarding mandatory remediation from your Thrune contract. For 6 rounds, at the start of your turn each round, you recover 25 Hit Points unless you took good damage since the start of your previous turn.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Infernal Health",
  "pfs": "Restricted",
+ "primary_source": "Legends",
+ "primary_source_raw": "Legends pg. 10",
+ "primary_source_category": "Lost Omens",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Contract\" url=\"/Traits.aspx?ID=329\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Legends](/Sources.aspx?ID=40) pg. 10</row>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Contract\" url=\"/Traits.aspx?ID=329\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Legends](/Sources.aspx?ID=40) pg. 10\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Legends"
  ],
  "source_raw": [
   "Legends pg. 10"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Legends](/Sources.aspx?ID=40) pg. 10</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Legends](/Sources.aspx?ID=40) pg. 10",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "You regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The …",
  "summary_markdown": "You regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The …",
- "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Restricted\" > Infernal Health Source Legends pg. 10 --- You regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The healing you gain from long-term rest is similarly tripled. Once per day, from any distance, Abrogail Thrune II can recite a voidability clause in your Thrune contract as a 1-minute activity to prevent you from regaining Hit Points from resting for 1 day.\n",
+ "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Restricted\" > Infernal Health Source Legends pg. 10 --- You regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The healing you gain from long-term rest is similarly tripled. Once per day, from any distance, Abrogail Thrune II can recite a voidability clause in your Thrune contract as a 1-minute activity to prevent you from regaining Hit Points from resting for 1 day. Activate Two Actions command; Frequency once per day; Effect You recite a subclause regarding mandatory remediation from your Thrune contract. For 6 rounds, at the start of your turn each round, you recover 25 Hit Points unless you took good damage since the start of your previous turn.\n",
  "trait": [
   "Contract",
   "Healing",
   "Invested",
   "Magical",
   "Rare"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Contract](/Traits.aspx?ID=329), [Healing](/Traits.aspx?ID=89), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

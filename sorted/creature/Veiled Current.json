@@ -1,0 +1,167 @@
+{
+ "ac": 28,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  19,
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Naturally Invisible",
+  "Envelop"
+ ],
+ "creature_family": "Elemental, Air",
+ "creature_family_markdown": "[Elemental, Air](/MonsterFamilies.aspx?ID=41)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "element": [
+  "Air"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 100,
+ "hp_raw": "100",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2618",
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Sussuran"
+ ],
+ "language_markdown": "[Sussuran](/Languages.aspx?ID=111)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Veiled Current](/Monsters.aspx?ID=2618)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOften considered cousins of [phades](/Monsters.aspx?ID=179), veiled currents are loose veils of wind who catch prey within their folds.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Veiled Current](/Monsters.aspx?ID=2618)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 82\n\n**Perception** +17; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Sussuran](/Languages.aspx?ID=111)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +18, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +15, [Stealth](/Skills.aspx?ID=15) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +1\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Naturally Invisible** The veiled current is [invisible](/Conditions.aspx?ID=26) at all times. When they take a [hostile action](/Rules.aspx?ID=300) of any kind, the veiled current is [hidden](/Conditions.aspx?ID=22) instead of [undetected](/Conditions.aspx?ID=39) as the vague outline of their humanoid form becomes faintly visible until the start of their next turn.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstatic fold +19 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+8 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nstatic scream +19 ([range increment 50 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d8+4 sonic\n\n**Envelop** <actions string=\"Two Actions\" />  **Requirements** The veiled current begins their turn with a target of their size or smaller [grabbed](/Conditions.aspx?ID=20); **Effect** The veiled current maintains the Grab and coalesces around the creature, stretching themself into a semisolid veil that smothers the creature within. This thereafter has the same effect as if the veiled current had [Engulfed](/MonsterAbilities.aspx?ID=14) the creature (DC 26, 1d8+8 bludgeoning, [Escape](/Actions.aspx?ID=79) DC 26, Rupture 17). As engulfing a creature is a [hostile action](/Rules.aspx?ID=300), the veiled current is [hidden](/Conditions.aspx?ID=22) instead of [undetected](/Conditions.aspx?ID=39) every round it has a creature engulfed.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-41\" />",
+ "name": "Veiled Current",
+ "npc": false,
+ "perception": 17,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 82",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 19,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 82\r\n\r\n**Creature Family** [Elemental, Air](/MonsterFamilies.aspx?ID=41)\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\r\n\r\n**AC** 28\r\n\r\n**Fort** +15\r\n\r\n**Ref** +19\r\n\r\n**Will** +13\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOften considered cousins of  phades , veiled currents are loose veils of wind who catch prey within their folds.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +18, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +15, [Stealth](/Skills.aspx?ID=15) +18",
+ "skill_mod": {
+  "acrobatics": 18,
+  "athletics": 18,
+  "deception": 15,
+  "stealth": 18
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 82"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 82",
+ "speed": {
+  "fly": 50,
+  "max": 50
+ },
+ "speed_markdown": "fly 50 feet",
+ "speed_raw": "fly 50 feet",
+ "spell_markdown": "",
+ "stealth": "18",
+ "strike_damage_average": [
+  13,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Often considered cousins of  phades , veiled currents are loose veils of wind who catch prey within their folds.",
+ "summary_markdown": "Often considered cousins of  phades , veiled currents are loose veils of wind who catch prey within their folds.",
+ "text": " Veiled Current Often considered cousins of phades, veiled currents are loose veils of wind who catch prey within their folds. Recall Knowledge - Elemental (Arcana, Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Veiled Current Source Rage of Elements pg. 82 Perception +17; darkvision Languages Sussuran Skills Acrobatics +18, Athletics +18, Deception +15, Stealth +18 Str +2 Dex +6 Con +4 Int +2 Wis +1 Cha +3 --- AC 28 Fort +15 Ref +19 Will +13 HP 100 Immunities bleed, paralyzed, poison, sleep Naturally Invisible The veiled current is invisible at all times. When they take a hostile action of any kind, the veiled current is hidden instead of undetected as the vague outline of their humanoid form becomes faintly visible until the start of their next turn. --- Speed fly 50 feet Melee Single Action static fold +19 (Agile, Finesse, reach 10 feet), Damage 2d10+8 bludgeoning plus Grab Ranged Single Action static scream +19 (range increment 50 feet), Damage 2d8+4 sonic Envelop Two Actions Requirements The veiled current begins their turn with a target of their size or smaller grabbed; Effect The veiled current maintains the Grab and coalesces around the creature, stretching themself into a semisolid veil that smothers the creature within. This thereafter has the same effect as if the veiled current had Engulfed the creature (DC 26, 1d8+8 bludgeoning, Escape DC 26, Rupture 17). As engulfing a creature is a hostile action, the veiled current is hidden instead of undetected every round it has a creature engulfed. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Air",
+  "Elemental",
+  "Large"
+ ],
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Air](/Traits.aspx?ID=5), [Elemental](/Traits.aspx?ID=57)",
+ "trait_raw": [
+  "Air",
+  "Elemental"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2618",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 13,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

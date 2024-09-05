@@ -1,10 +1,28 @@
 {
  "ac": 15,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "NE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  7,
+  9,
+  9
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Shield Block",
   "Spurred by Death",
@@ -13,44 +31,80 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 10,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 20,
  "hp_raw": "20",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-1763",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "everburning torch",
+  "Hide Armor",
+  "polished topaz worth 25 gp",
+  "spears (3)",
+  "wooden shield (Hardness 3, 12 HP, BT 6) with shield boss"
+ ],
  "language": [
   "Hallit"
  ],
  "language_markdown": "[Hallit](/Languages.aspx?ID=37)",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"\">[Burning Mammoth Longshield](/NPCs.aspx?ID=1763)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 17\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 15\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 12\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Burning Mammoth Longshield](/NPCs.aspx?ID=1763)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 25</row>\n\n**Perception** +8\r\n\r\n**Languages**\r\n[Hallit](/Languages.aspx?ID=37)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Intimidation](/Skills.aspx?ID=7) +6, [Survival](/Skills.aspx?ID=16) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[_everburning torch_](/Equipment.aspx?ID=255), [Hide Armor](/Armor.aspx?ID=7), polished topaz worth 25 gp, [spears](/Weapons.aspx?ID=10) (3), [wooden shield](/Shields.aspx?ID=2) (Hardness 3, 12 HP, BT 6) with [shield boss](/Weapons.aspx?ID=41)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 (17 with shield raised)\r\n\r\n**Fort** +10 \r\n\r\n**Ref** +4 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n**HP** 20\n\n**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> A longshield can use Shield Block to prevent fire damage in addition to physical damage.<br />**Spurred by Death** <actions string=\"Reaction\" /> **Trigger** An ally within 30 feet reduces a creature to 0 HP; **Effect** The longshield Steps or Strides.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspear +9,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshield boss +9,\r\n**Damage** 1d6+3 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspear +7 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 piercing\n\n**Shield Shove** <actions string=\"Single Action\" />  **Frequency** once per round; **Requirements** The longshield's shield is raised; **Effect** The longshield rolls an [Athletics](/Skills.aspx?ID=3) check to [Shove](/Actions.aspx?ID=38) a creature in reach. If they roll a failure, they get a success instead, and if they roll a success, they get a critical success instead. The longshield's shield is lowered.\r\n\r\n**Opportunistic Defense** <actions string=\"Free Action\" />  **Trigger** The longshield successfully Strikes with their shield boss; **Effect** The longshield Raises their Shield.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Burning Mammoth Longshield](/NPCs.aspx?ID=1763)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 17\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 15\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 12\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Burning Mammoth Longshield](/NPCs.aspx?ID=1763)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 25\n\n**Perception** +8\r\n\r\n**Languages**\r\n[Hallit](/Languages.aspx?ID=37)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Intimidation](/Skills.aspx?ID=7) +6, [Survival](/Skills.aspx?ID=16) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[_everburning torch_](/Equipment.aspx?ID=255), [Hide Armor](/Armor.aspx?ID=7), polished topaz worth 25 gp, [spears](/Weapons.aspx?ID=10) (3), [wooden shield](/Shields.aspx?ID=2) (Hardness 3, 12 HP, BT 6) with [shield boss](/Weapons.aspx?ID=41)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 (17 with shield raised)\r\n\r\n**Fort** +10 \r\n\r\n**Ref** +4 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> A longshield can use Shield Block to prevent fire damage in addition to physical damage.<br />**Spurred by Death** <actions string=\"Reaction\" /> **Trigger** An ally within 30 feet reduces a creature to 0 HP; **Effect** The longshield Steps or Strides.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspear +9,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshield boss +9,\r\n**Damage** 1d6+3 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspear +7 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 piercing\n\n**Shield Shove** <actions string=\"Single Action\" />  **Frequency** once per round; **Requirements** The longshield's shield is raised; **Effect** The longshield rolls an [Athletics](/Skills.aspx?ID=3) check to [Shove](/Actions.aspx?ID=38) a creature in reach. If they roll a failure, they get a success instead, and if they roll a success, they get a critical success instead. The longshield's shield is lowered.\r\n\r\n**Opportunistic Defense** <actions string=\"Free Action\" />  **Trigger** The longshield successfully Strikes with their shield boss; **Effect** The longshield Raises their Shield.\r\n\r\n</column>",
  "name": "Burning Mammoth Longshield",
  "npc": true,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #175: Broken Tusk Moon",
+ "primary_source_raw": "Pathfinder #175: Broken Tusk Moon pg. 25",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Quest for the Frozen Flame",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 4,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2022-01-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 25</row>\n\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 15\r\n\r\n**Fort** +10\r\n\r\n**Ref** +4\r\n\r\n**Will** +8\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 25\n\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 15\r\n\r\n**Fort** +10\r\n\r\n**Ref** +4\r\n\r\n**Will** +8\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +6",
-  "Intimidation +6",
-  "Survival +6"
+  "Athletics",
+  "Intimidation",
+  "Survival"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +6, [Intimidation](/Skills.aspx?ID=7) +6, [Survival](/Skills.aspx?ID=16) +6",
+ "skill_mod": {
+  "athletics": 6,
+  "intimidation": 6,
+  "survival": 6
+ },
  "source": [
   "Pathfinder #175: Broken Tusk Moon"
  ],
  "source_raw": [
   "Pathfinder #175: Broken Tusk Moon pg. 25"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Quest for the Frozen Flame",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 25</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Quest for the Frozen Flame"
+ ],
+ "source_markdown": "[Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 25",
  "speed": {
   "land": 20,
   "max": 20
@@ -59,18 +113,39 @@
  "speed_raw": "20 feet",
  "spell_markdown": "",
  "spoilers": "Quest for the Frozen Flame",
+ "strike_damage_average": [
+  6,
+  6,
+  6
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "text": " Burning Mammoth Longshield Recall Knowledge - Humanoid (Society): DC 17 Unspecific Lore : DC 15 Specific Lore : DC 12 Burning Mammoth Longshield Source Pathfinder #175: Broken Tusk Moon pg. 25 Perception +8 Languages Hallit Skills Athletics +6, Intimidation +6, Survival +6 Str +3 Dex +1 Con +3 Int +0 Wis +1 Cha +1 Items everburning torch , Hide Armor, polished topaz worth 25 gp, spears (3), wooden shield (Hardness 3, 12 HP, BT 6) with shield boss --- AC 15 (17 with shield raised) Fort +10 Ref +4 Will +8 HP 20 Shield Block Reaction A longshield can use Shield Block to prevent fire damage in addition to physical damage. Spurred by Death Reaction Trigger An ally within 30 feet reduces a creature to 0 HP; Effect The longshield Steps or Strides. --- Speed 20 feet Melee Single Action spear +9, Damage 1d6+3 piercing Melee Single Action shield boss +9, Damage 1d6+3 bludgeoning Ranged Single Action spear +7 (thrown 20 feet), Damage 1d6+3 piercing Shield Shove Single Action Frequency once per round; Requirements The longshield's shield is raised; Effect The longshield rolls an Athletics check to Shove a creature in reach. If they roll a failure, they get a success instead, and if they roll a success, they get a critical success instead. The longshield's shield is lowered. Opportunistic Defense Free Action Trigger The longshield successfully Strikes with their shield boss; Effect The longshield Raises their Shield. ",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "Uncommon",
   "NE",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -86,5 +161,9 @@
  ],
  "weakness": {},
  "will_save": 8,
- "wisdom": 1
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

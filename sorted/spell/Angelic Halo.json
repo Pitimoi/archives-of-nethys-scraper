@@ -1,65 +1,86 @@
 {
  "actions": "Single Action",
- "area": "15-foot emanation",
+ "actions_number": 2,
+ "area": [
+  15
+ ],
+ "area_raw": "15-foot emanation",
+ "area_type": [
+  "emanation"
+ ],
  "bloodline": [
   "Angelic"
  ],
  "bloodline_markdown": "[Angelic](/Bloodlines.aspx?ID=2)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
  "id": "spell-494",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Angelic Halo](/Spells.aspx?ID=494)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Angelic](/Bloodlines.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou gain an angelic halo with an aura that increases allies' healing from the [_heal_](/Spells.aspx?ID=148) spell. Allies in your halo's emanation who are healed by a _heal_ spell gain a status bonus to Hit Points regained equal to double the _heal_ spell's level.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Angelic Halo](/Spells.aspx?ID=494)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>\n\n**Bloodline**\r\n[Angelic](/Bloodlines.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot emanation\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou gain an angelic halo with an aura that increases allies' healing from the [_heal_](/Spells.aspx?ID=148) spell. Allies in your halo's emanation who are healed by a _heal_ spell gain a status bonus to Hit Points regained equal to double the _heal_ spell's level.",
  "name": "Angelic Halo",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 402",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Angelic](/Bloodlines.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain an angelic halo with an aura that increases allies’ healing from the heal spell.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Aura\" url=\"/Traits.aspx?ID=206\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>\n\n**Bloodline**\r\n[Angelic](/Bloodlines.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot emanation\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain an angelic halo with an aura that increases allies’ healing from the heal spell.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 402"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You gain an angelic halo with an aura that increases allies’ healing from the heal spell.",
  "summary_markdown": "You gain an angelic halo with an aura that increases allies’ healing from the heal spell.",
- "text": " Angelic Halo Source Core Rulebook pg. 402 4.0 Bloodline Angelic Cast Single Action verbal Area 15-foot emanation Duration 1 minute --- You gain an angelic halo with an aura that increases allies' healing from the heal spell. Allies in your halo's emanation who are healed by a heal spell gain a status bonus to Hit Points regained equal to double the heal spell's level.",
+ "text": "\nAngelic Halo Single Action Source Core Rulebook pg. 402 4.0 Bloodline Angelic Cast verbal Area 15-foot emanation Duration 1 minute --- You gain an angelic halo with an aura that increases allies' healing from the heal spell. Allies in your halo's emanation who are healed by a heal spell gain a status bonus to Hit Points regained equal to double the heal spell's level.",
  "tradition_markdown": "",
  "trait": [
   "Abjuration",
   "Aura",
   "Good",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Aura](/Traits.aspx?ID=206), [Good](/Traits.aspx?ID=83), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Alignment",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Aura](/Traits.aspx?ID=206), [Good](/Traits.aspx?ID=83), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Abjuration",
   "Aura",
   "Good",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=494",
  "weakness": {}
 }

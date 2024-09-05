@@ -1,0 +1,62 @@
+{
+ "ac": 16,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "Succeed at four of the following checks in any combination:  Nature  DC 14 (trained) to calm the animals,  Intimidation  DC 16 (untrained) to scare the augdunars away, Will DC 18 (trained) to avoid flinching and project confidence, causing the augdunars to veer away. For each success, the hazard takes a cumulative –1 penalty to attack rolls.",
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "hazard_type": "Environmental",
+ "hp": 30,
+ "hp_raw": "30",
+ "id": "hazard-400",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Hazard 1\" pfs=\"\">[Ornery Augdunars](/Hazards.aspx?ID=400)</title>\r\n\r\n<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 30\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nSpooked augdunars gallop wildly about the paddock, biting and kicking as they run.\r\n\r\n---\r\n\r\n**Stealth**\r\n+8 (trained)\r\n\r\n**Disable**\r\nSucceed at four of the following checks in any combination: [Nature](/Domains.aspx?ID=22) DC 14 (trained) to calm the animals, [Intimidation](/Skills.aspx?ID=7) DC 16 (untrained) to scare the augdunars away, Will DC 18 (trained) to avoid flinching and project confidence, causing the augdunars to veer away. For each success, the hazard takes a cumulative –1 penalty to attack rolls.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 16, **Fort** +10, **Ref** +8\n\n**HP**\r\n30\n\n</column>\r\n\r\n**Rile** <actions string=\"Reaction\" /> **Trigger** Algerschmick rolls initiative; **Effect** The augdunars roll initiative.\n\n---\r\n**Routine**\r\n(2 actions) The augdunars use an action to Strike one target with their jaws, and they use another action to [Trip](/Actions.aspx?ID=40) a different target (Athletics +9). If the augdunars have taken damage since their last turn, they instead use Lashing Hooves with their first action and then make either a jaws Strike or Trip attempt with their second action.<br /> **Melee** <actions string=\"Single Action\" /> hoof +11, Damage 1d6+3 bludgeoning<br /> **Melee** <actions string=\"Single Action\" /> jaws +11, Damage 1d4+3 piercing<br /> **Lashing Hooves** <actions string=\"Single Action\" /> An augdunar makes a hoof Strike and compares the attack roll result to the AC of up to two foes who are adjacent to each other.",
+ "name": "Ornery Augdunars",
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 30",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 8,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 30\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpooked augdunars gallop wildly about the paddock, biting and kicking as they run.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 30"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 30",
+ "speed": {},
+ "stealth": "+8 (trained)",
+ "summary": "Spooked augdunars gallop wildly about the paddock, biting and kicking as they run.",
+ "summary_markdown": "Spooked augdunars gallop wildly about the paddock, biting and kicking as they run.",
+ "text": " Ornery Augdunars Source Pathfinder #193: Mantle of Gold pg. 30 Complexity Complex Spooked augdunars gallop wildly about the paddock, biting and kicking as they run. --- Stealth +8 (trained) Disable Succeed at four of the following checks in any combination: Nature DC 14 (trained) to calm the animals, Intimidation DC 16 (untrained) to scare the augdunars away, Will DC 18 (trained) to avoid flinching and project confidence, causing the augdunars to veer away. For each success, the hazard takes a cumulative –1 penalty to attack rolls. AC 16, Fort +10, Ref +8 HP 30 Rile Reaction Trigger Algerschmick rolls initiative; Effect The augdunars roll initiative. --- Routine (2 actions) The augdunars use an action to Strike one target with their jaws, and they use another action to Trip a different target (Athletics +9). If the augdunars have taken damage since their last turn, they instead use Lashing Hooves with their first action and then make either a jaws Strike or Trip attempt with their second action. Melee Single Action hoof +11, Damage 1d6+3 bludgeoning Melee Single Action jaws +11, Damage 1d4+3 piercing Lashing Hooves Single Action An augdunar makes a hoof Strike and compares the attack roll result to the AC of up to two foes who are adjacent to each other.",
+ "trait": [
+  "Animal",
+  "Complex",
+  "Environmental"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Hazard"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Complex](/Traits.aspx?ID=30), [Environmental](/Traits.aspx?ID=62)",
+ "trait_raw": [
+  "Animal",
+  "Complex",
+  "Environmental"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=400",
+ "weakness": {}
+}

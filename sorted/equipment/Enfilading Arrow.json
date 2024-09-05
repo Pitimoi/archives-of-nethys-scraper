@@ -1,33 +1,41 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "ammunition": "arrow",
  "ammunition_markdown": "arrow",
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1253",
  "item_category": "Consumables",
  "item_subcategory": "Magical Ammunition",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Enfilading Arrow](/Equipment.aspx?ID=1253)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 14</row>\n\n**Price** 125 gp\r\n\r\n<row gap=\"medium\">\r\n**Ammunition** arrow\n\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis arrow splits at the far end of the shaft into five branching arrowheads, making it impractical for single targets but deadly in combat. When you fire an activated _enfilading arrow_, it sails upward and shatters into countless copies. The arrows then rain down in a 10-foot burst at any point within your weapon's first range increment, dealing 6d8 piercing damage to all creatures in the area (DC 25 [basic](/Rules.aspx?ID=329) Reflex).\n\n If a creature critically fails the save and you have access to the [bow](/WeaponGroups.aspx?ID=4) critical specialization effect, the target is [immobilized](/Conditions.aspx?ID=24) and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Enfilading Arrow](/Equipment.aspx?ID=1253)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 14\n\n**Price** 125 gp\r\n\r\n<row gap=\"medium\">\r\n**Ammunition** arrow\n\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis arrow splits at the far end of the shaft into five branching arrowheads, making it impractical for single targets but deadly in combat. When you fire an activated _enfilading arrow_, it sails upward and shatters into countless copies. The arrows then rain down in a 10-foot burst at any point within your weapon's first range increment, dealing 6d8 piercing damage to all creatures in the area (DC 25 [basic](/Rules.aspx?ID=329) Reflex).\n\n If a creature critically fails the save and you have access to the [bow](/WeaponGroups.aspx?ID=4) critical specialization effect, the target is [immobilized](/Conditions.aspx?ID=24) and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Enfilading Arrow",
  "pfs": "Standard",
  "price": 12500,
  "price_raw": "125 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 14",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 14</row>\r\n\r\n**Price** 125 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis arrow splits at the far end of the shaft into five branching arrowheads, making it impractical for single targets but deadly in combat. When you …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 14\r\n\r\n**Price** 125 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis arrow splits at the far end of the shaft into five branching arrowheads, making it impractical for single targets but deadly in combat. When you …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 14"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 14</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 14",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -39,6 +47,11 @@
   "Consumable",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Consumable](/Traits.aspx?ID=36), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

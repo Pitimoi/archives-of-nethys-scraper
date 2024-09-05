@@ -1,61 +1,107 @@
 {
  "ac": 18,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Attack of Opportunity",
-  "Shield Block",
-  "Formation"
+  "Formation",
+  "Reactive Strike",
+  "Shield Block"
  ],
  "creature_family": "Hobgoblin",
- "creature_family_markdown": "[Hobgoblin](/MonsterFamilies.aspx?ID=61)",
+ "creature_family_markdown": "[Hobgoblin](/MonsterFamilies.aspx?ID=430)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 5,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 20,
  "hp_raw": "20",
- "id": "creature-261",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3053",
  "image": [
-  "/Images/Monsters/Hobgoblin_HobgoblinSoldier.png"
+  "/Images/Monsters/Hobgoblin_Soldier.webp"
  ],
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Breastplate",
+  "Longsword",
+  "Shortbow (10 arrows)",
+  "Wooden Shield (Hardness 3, HP 12, BT 6)"
+ ],
  "language": [
   "Common",
   "Goblin"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6)",
+ "legacy_id": "creature-261",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Hobgoblin Soldier](/Monsters.aspx?ID=261)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSoldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hobgoblin_HobgoblinSoldier.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Hobgoblin Soldier](/Monsters.aspx?ID=261)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 206</row>\n\n**Perception** +7; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Hide Armor](/Armor.aspx?ID=7), [Shortbow](/Weapons.aspx?ID=77) (10 arrows), [wooden shield](/Shields.aspx?ID=2) (Hardness 3, HP 12, BT 6)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 (20 with shield raised)\r\n\r\n**Fort** +5 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 20\n\n**Attack of Opportunity** <actions string=\"Reaction\" /><br /> **Shield Block** <actions string=\"Reaction\" /><br /> **Formation** When it’s adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlongsword +8 ([versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 1d8+3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshortbow +8 ([deadly 1d10](/Traits.aspx?ID=174), [range increment 60 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 1d6 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-61\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Hobgoblin Soldier](/Monsters.aspx?ID=3053)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSoldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hobgoblin_Soldier.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Hobgoblin Soldier](/Monsters.aspx?ID=3053)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Hobgoblin\" url=\"/Traits.aspx?ID=757\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 198\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Breastplate](/Armor.aspx?ID=10), [Longsword](/Weapons.aspx?ID=31), [Shortbow](/Weapons.aspx?ID=77) (10 arrows), [Wooden Shield](/Shields.aspx?ID=2) (Hardness 3, HP 12, BT 6)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 (20 with shield raised)\r\n\r\n**Fort** +5 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n**Formation** When they're adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=75)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlongsword +8 ([versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 1d8+3 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshortbow +8 ([deadly d10](/Traits.aspx?ID=174), [range increment 60 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254)),\r\n**Damage** 1d6 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-430\" />",
  "name": "Hobgoblin Soldier",
  "npc": false,
  "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 198",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 6,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 206</row>\r\n\r\n**Creature Family** [Hobgoblin](/MonsterFamilies.aspx?ID=61)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 18\r\n\r\n**Fort** +5\r\n\r\n**Ref** +6\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSoldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Hobgoblin\" url=\"/Traits.aspx?ID=757\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 198\r\n\r\n**Creature Family** [Hobgoblin](/MonsterFamilies.aspx?ID=430)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 18\r\n\r\n**Fort** +5\r\n\r\n**Ref** +6\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSoldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +6",
-  "Stealth +6"
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "athletics": 6,
+  "stealth": 6
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 206"
+  "Monster Core pg. 198"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 206</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 198",
  "speed": {
   "land": 25,
   "max": 25
@@ -64,27 +110,45 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "stealth": "6",
+ "strike_damage_average": [
+  3,
+  7
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "Soldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit.",
  "summary_markdown": "Soldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit.",
- "text": " Hobgoblin Soldier Soldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Hobgoblin Soldier Source Bestiary pg. 206 Perception +7; darkvision Languages Common, Goblin Skills Athletics +6, Stealth +6 Str +3 Dex +3 Con +2 Int +0 Wis +2 Cha -1 Items Hide Armor, Shortbow (10 arrows), wooden shield (Hardness 3, HP 12, BT 6) --- AC 18 (20 with shield raised) Fort +5 Ref +6 Will +5 HP 20 Attack of Opportunity Reaction Shield Block Reaction Formation When it’s adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects. --- Speed 25 feet Melee Single Action longsword +8 (versatile P), Damage 1d8+3 slashing Ranged Single Action shortbow +8 (deadly 1d10, range increment 60 feet, reload 0), Damage 1d6 piercing\n",
+ "text": " Hobgoblin Soldier Soldiers make up the bulk of hobgoblin society, whether that society is a village or a military unit. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Hobgoblin Soldier Source Monster Core pg. 198 Perception +7; darkvision Languages Common, Goblin Skills Athletics +6, Stealth +6 Str +3 Dex +3 Con +2 Int +0 Wis +2 Cha -1 Items Breastplate, Longsword, Shortbow (10 arrows), Wooden Shield (Hardness 3, HP 12, BT 6) --- AC 18 (20 with shield raised) Fort +5 Ref +6 Will +5 HP 20 Formation When they're adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects. Reactive Strike Reaction Shield Block Reaction --- Speed 25 feet Melee Single Action longsword +8 (versatile P), Damage 1d8+3 slashing Ranged Single Action shortbow +8 (deadly d10, range increment 60 feet, reload 0), Damage 1d6 piercing\n",
+ "tradition_markdown": "",
  "trait": [
-  "Goblin",
+  "Hobgoblin",
   "Humanoid",
-  "LE",
   "Medium"
  ],
- "trait_markdown": "[Goblin](/Traits.aspx?ID=81), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Hobgoblin](/Traits.aspx?ID=757), [Humanoid](/Traits.aspx?ID=628)",
  "trait_raw": [
-  "Goblin",
+  "Hobgoblin",
   "Humanoid"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=261",
+ "url": "/Monsters.aspx?ID=3053",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -93,5 +157,9 @@
  ],
  "weakness": {},
  "will_save": 5,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

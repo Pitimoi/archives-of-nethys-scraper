@@ -1,0 +1,198 @@
+{
+ "ac": 31,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  22
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Archon's Protection",
+  "Archon's Pursuit",
+  "Courageous Switch",
+  "Holy Armament",
+  "Living Shield",
+  "Terrifying Smite"
+ ],
+ "creature_family": "Archon",
+ "creature_family_markdown": "[Archon](/MonsterFamilies.aspx?ID=365)",
+ "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 150,
+ "hp_raw": "150",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2835",
+ "image": [
+  "/Images/Monsters/Rekhep.webp"
+ ],
+ "immunity": [
+  "fear"
+ ],
+ "immunity_markdown": "[fear](/Traits.aspx?ID=598)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking lance"
+ ],
+ "language": [
+  "Diabolic",
+  "Draconic",
+  "Empyrean",
+  "Utopian",
+  "<%SPELLS%1728%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115), [Utopian](/Languages.aspx?ID=36); [_truespeech_](/Spells.aspx?ID=1728)",
+ "level": 10,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Rekhep (Shield Archon)](/Monsters.aspx?ID=2835)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nRekheps are the living shields that defend [Heaven](/Planes.aspx?ID=41) against fiendish incursions. They tile together in massive formations capable of withstanding any onslaught. Given their tremendous strength and imposing stature, shield archons are ideal guardians of the meek and are sometimes summoned to the mortal [Universe](/Planes.aspx?ID=26)to ward off the attacks of great numbers of evildoers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 27\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 25\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 22\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Rekhep.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Rekhep](/Monsters.aspx?ID=2835)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Archon\" url=\"/Traits.aspx?ID=536\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 28\n\n**Perception** +19; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115), [Utopian](/Languages.aspx?ID=36); [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +21, [Diplomacy](/Skills.aspx?ID=6) +19, [Intimidation](/Skills.aspx?ID=7) +19, [Religion](/Skills.aspx?ID=13) +19, [Survival](/Skills.aspx?ID=16) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +7\r\n\r\n**Int** +2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [lance](/Weapons.aspx?ID=383)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 [all-around vision](/MonsterAbilities.aspx?ID=49)\r\n\r\n**Fort** +23 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +19 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\n\n</row>\r\n\r\n**Immunities**\r\n[fear](/Traits.aspx?ID=598)\n\n**Weaknesses**\r\n[unholy](/Traits.aspx?ID=521) 10\r\n\r\n**Archon's Protection** <actions string=\"Reaction\" /> **Trigger** An enemy damages the archon's ally and both are within 15 feet of the archon; **Effect** The ally gains resistance 15 to all damage against the triggering damage and the archon can make a Strike against the enemy.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_holy lance_ +22 ([deadly d8](/Traits.aspx?ID=174), [Divine](/Traits.aspx?ID=48), [Holy](/Traits.aspx?ID=517), [jousting d6](/Traits.aspx?ID=186), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+11 piercing plus 1d4 spirit (or 2d4 spirit vs. an [unholy](/Traits.aspx?ID=521) target)\r\n\r\n**Divine Innate Spells** DC 27\r\n- **Cantrips (5th)**\r\n[Divine Lance](/Spells.aspx?ID=84), [Message](/Spells.aspx?ID=190)\r\n- **1st**\r\n[Sure Strike](/Spells.aspx?ID=1709) (×3)\r\n- **2nd**\r\n[Share Life](/Spells.aspx?ID=1669) (×3)\r\n- **4th**\r\n[Translocate](/Spells.aspx?ID=1724) (at will)\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**Archon's Pursuit** <actions string=\"Two Actions\" />  **Frequency** once per day; **Requirements** The rekhep saw another creature teleport within the last round and has at least one [_translocate_](/Spells.aspx?ID=1724) spell remaining; **Effect** The rekhep casts one of their _translocate_ spells, which is heightened to 5th rank and causes the rekhep to arrive in an unoccupied space it chooses within 30 feet of the creature it's pursuing. If the creature is too far away, the rekhep arrives as close as possible.\r\n\r\n**Courageous Switch**   When a rekhep uses their [_translocate_](/Spells.aspx?ID=1724) innate spell, they can choose to move into the space of a willing ally they can see within range. If they do, the ally switches places with the archon, appearing in the space the archon just vacated, as if it too had cast _translocate_.\r\n\r\n**Holy Armament**  ([Divine](/Traits.aspx?ID=48), [Holy](/Traits.aspx?ID=517)) Any weapon gains the [_holy_](/Equipment.aspx?ID=2842) rune while the rekhep wields it.\r\n\r\n**Living Shield** <actions string=\"Single Action\" />  The rekhep grants an adjacent ally a +2 circumstance bonus to AC until they're no longer adjacent or until the start of the archon's next turn, whichever comes first. When the rekhep uses Archon's Protection against an attack against the shielded ally, the rekhep gains the resistance and takes the damage rather than the ally.\r\n\r\n**Terrifying Smite** <actions string=\"Two Actions\" /> ([Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The rekhep makes a Strike against an enemy that has one of the rekhep's allies within its reach. On a hit, the target takes an additional 2d8 mental damage and is [frightened 2](/Conditions.aspx?ID=76). The extra damage and frightened value are doubled on a critical hit.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-365\" />",
+ "name": "Rekhep",
+ "npc": false,
+ "perception": 19,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 28",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Archon\" url=\"/Traits.aspx?ID=536\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 28\r\n\r\n**Creature Family** [Archon](/MonsterFamilies.aspx?ID=365)\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\r\n\r\n**AC** 31\r\n\r\n**Fort** +23\r\n\r\n**Ref** +15\r\n\r\n**Will** +19\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRekheps are the living shields that defend  Heaven  against fiendish incursions. They tile together in massive formations capable of withstanding any …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Diplomacy",
+  "Intimidation",
+  "Religion",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +21, [Diplomacy](/Skills.aspx?ID=6) +19, [Intimidation](/Skills.aspx?ID=7) +19, [Religion](/Skills.aspx?ID=13) +19, [Survival](/Skills.aspx?ID=16) +17",
+ "skill_mod": {
+  "athletics": 21,
+  "diplomacy": 19,
+  "intimidation": 19,
+  "religion": 19,
+  "survival": 17
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 28"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 28",
+ "speed": {
+  "fly": 60,
+  "land": 30,
+  "max": 60
+ },
+ "speed_markdown": "30 feet, fly 60 feet",
+ "speed_raw": "30 feet, fly 60 feet",
+ "spell": [
+  "Translocate",
+  "Share Life",
+  "Sure Strike",
+  "Divine Lance",
+  "Message",
+  "Truespeech"
+ ],
+ "spell_markdown": "[Divine Lance](/Spells.aspx?ID=84), [Message](/Spells.aspx?ID=190), [Share Life](/Spells.aspx?ID=1669), [Sure Strike](/Spells.aspx?ID=1709), [Translocate](/Spells.aspx?ID=1724), [Truespeech](/Spells.aspx?ID=1728)",
+ "spell_dc": [
+  27
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  27
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Rekheps are the living shields that defend  Heaven  against fiendish incursions. They tile together in massive formations capable of withstanding any …",
+ "summary_markdown": "Rekheps are the living shields that defend  Heaven  against fiendish incursions. They tile together in massive formations capable of withstanding any …",
+ "text": " Rekhep (Shield Archon) Rekheps are the living shields that defend Heaven against fiendish incursions. They tile together in massive formations capable of withstanding any onslaught. Given their tremendous strength and imposing stature, shield archons are ideal guardians of the meek and are sometimes summoned to the mortal Universeto ward off the attacks of great numbers of evildoers. Recall Knowledge - Celestial (Religion): DC 27 Unspecific Lore : DC 25 Specific Lore : DC 22 Rekhep Source Monster Core pg. 28 Perception +19; darkvision Languages Diabolic, Draconic, Empyrean, Utopian; truespeech Skills Athletics +21, Diplomacy +19, Intimidation +19, Religion +19, Survival +17 Str +5 Dex +1 Con +7 Int +2 Wis +3 Cha +3 Items +1 striking lance --- AC 31 all-around vision Fort +23 Ref +15 Will +19 +1 status to all saves vs. magic HP 150 Immunities fear Weaknesses unholy 10 Archon's Protection Reaction Trigger An enemy damages the archon's ally and both are within 15 feet of the archon; Effect The ally gains resistance 15 to all damage against the triggering damage and the archon can make a Strike against the enemy. --- Speed 30 feet, fly 60 feet Melee Single Action holy lance +22 (deadly d8, Divine, Holy, jousting d6, reach 10 feet), Damage 2d8+11 piercing plus 1d4 spirit (or 2d4 spirit vs. an unholy target) Divine Innate Spells DC 27 - Cantrips (5th) Divine Lance, Message - 1st Sure Strike (×3) - 2nd Share Life (×3) - 4th Translocate (at will) - Constant (5th) Truespeech Archon's Pursuit Two Actions Frequency once per day; Requirements The rekhep saw another creature teleport within the last round and has at least one translocate spell remaining; Effect The rekhep casts one of their translocate spells, which is heightened to 5th rank and causes the rekhep to arrive in an unoccupied space it chooses within 30 feet of the creature it's pursuing. If the creature is too far away, the rekhep arrives as close as possible. Courageous Switch When a rekhep uses their translocate innate spell, they can choose to move into the space of a willing ally they can see within range. If they do, the ally switches places with the archon, appearing in the space the archon just vacated, as if it too had cast translocate . Holy Armament (Divine, Holy) Any weapon gains the holy rune while the rekhep wields it. Living Shield Single Action The rekhep grants an adjacent ally a +2 circumstance bonus to AC until they're no longer adjacent or until the start of the archon's next turn, whichever comes first. When the rekhep uses Archon's Protection against an attack against the shielded ally, the rekhep gains the resistance and takes the damage rather than the ally. Terrifying Smite Two Actions (Emotion, Fear, Mental) The rekhep makes a Strike against an enemy that has one of the rekhep's allies within its reach. On a hit, the target takes an additional 2d8 mental damage and is frightened 2. The extra damage and frightened value are doubled on a critical hit. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Archon",
+  "Celestial",
+  "Holy",
+  "Large"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Archon](/Traits.aspx?ID=536), [Celestial](/Traits.aspx?ID=551), [Holy](/Traits.aspx?ID=517)",
+ "trait_raw": [
+  "Archon",
+  "Celestial",
+  "Holy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2835",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "unholy": 10
+ },
+ "weakness_markdown": "[unholy](/Traits.aspx?ID=521) 10",
+ "weakness_raw": " unholy  10",
+ "will_save": 19,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

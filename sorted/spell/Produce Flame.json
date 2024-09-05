@@ -1,21 +1,35 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline": [
   "Diabolic",
   "Elemental"
  ],
  "bloodline_markdown": "[Diabolic](/Bloodlines.aspx?ID=4), [Elemental](/Bloodlines.aspx?ID=6)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -31,48 +45,62 @@
  ],
  "id": "spell-236",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Produce Flame](/Spells.aspx?ID=236)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 360 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodlines**\r\n[Diabolic](/Bloodlines.aspx?ID=4), [Elemental](/Bloodlines.aspx?ID=6)\n\n**Mysteries**\r\n[Ash](/Mysteries.aspx?ID=10), [Flames](/Mysteries.aspx?ID=5)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach. The flame deals fire damage equal to 1d4 + your spellcasting ability modifier.\r\n\r\n**Critical Success** The target takes double damage and 1d4 [persistent fire damage](/Conditions.aspx?ID=29).<br />\r\n**Success** The target takes full damage.\n\n---\r\n**Heightened (+1)** Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Produce Flame](/Spells.aspx?ID=236)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 360 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodlines**\r\n[Diabolic](/Bloodlines.aspx?ID=4), [Elemental](/Bloodlines.aspx?ID=6)\n\n**Mysteries**\r\n[Ash](/Mysteries.aspx?ID=10), [Flames](/Mysteries.aspx?ID=5)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach. The flame deals 2d4 fire damage.\r\n\r\n**Critical Success** The target takes double damage and 1d4 [persistent fire damage](/Conditions.aspx?ID=29).<br />\r\n**Success** The target takes full damage.\n\n---\r\n**Heightened (+1)** Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.",
  "mystery": [
   "Ash",
   "Flames"
  ],
  "mystery_markdown": "[Ash](/Mysteries.aspx?ID=10), [Flames](/Mysteries.aspx?ID=5)",
  "name": "Produce Flame",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 360",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1565",
+ "remaster_name": "Ignition",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 360 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodlines**\r\n[Diabolic](/Bloodlines.aspx?ID=4), [Elemental](/Bloodlines.aspx?ID=6)\n\n**Mysteries**\r\n[Ash](/Mysteries.aspx?ID=10), [Flames](/Mysteries.aspx?ID=5)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKindle small flames to attack close or at range.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 360 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodlines**\r\n[Diabolic](/Bloodlines.aspx?ID=4), [Elemental](/Bloodlines.aspx?ID=6)\n\n**Mysteries**\r\n[Ash](/Mysteries.aspx?ID=10), [Flames](/Mysteries.aspx?ID=5)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKindle small flames to attack close or at range.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 360"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 360 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 360 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Cantrip",
  "summary": "Kindle small flames to attack close or at range.",
  "summary_markdown": "Kindle small flames to attack close or at range.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Produce Flame Source Core Rulebook pg. 360 4.0 Traditions Arcane, Primal Spell Lists Elemental Bloodlines Diabolic, Elemental Mysteries Ash, Flames Cast Two Actions somatic, verbal Range 30 feet Target 1 creature --- A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach. The flame deals fire damage equal to 1d4 + your spellcasting ability modifier. Critical Success The target takes double damage and 1d4 persistent fire damage. Success The target takes full damage. --- Heightened (+1) Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.",
+ "text": "\nProduce Flame Two Actions Source Core Rulebook pg. 360 4.0 Traditions Arcane, Primal Bloodlines Diabolic, Elemental Mysteries Ash, Flames Cast somatic, verbal Range 30 feet Target 1 creature --- A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach. The flame deals 2d4 fire damage. Critical Success The target takes double damage and 1d4 persistent fire damage. Success The target takes full damage. --- Heightened (+1) Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.",
  "tradition": [
   "Arcane",
-  "Primal",
-  "Elemental"
+  "Primal"
  ],
- "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Attack",
   "Cantrip",
   "Evocation",
   "Fire"
+ ],
+ "trait_group": [
+  "School",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
  ],
  "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cantrip](/Traits.aspx?ID=22), [Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72)",
  "trait_raw": [
@@ -81,7 +109,7 @@
   "Evocation",
   "Fire"
  ],
- "type": "Cantrip",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=236",
  "weakness": {}
 }

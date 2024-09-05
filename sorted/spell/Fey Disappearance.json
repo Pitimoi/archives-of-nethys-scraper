@@ -1,20 +1,23 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline": [
   "Fey"
  ],
  "bloodline_markdown": "[Fey](/Bloodlines.aspx?ID=7)",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "until the end of your next turn",
  "exclude_from_search": false,
  "heighten": [
   "5th"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 5th rank"
  ],
  "heighten_level": [
   3,
@@ -22,42 +25,54 @@
  ],
  "id": "spell-509",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">[Fey Disappearance](/Spells.aspx?ID=509)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 404 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Fey](/Bloodlines.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the end of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou become invisible and ignore natural difficult terrain (such as underbrush). Any hostile action you use ends this invisibility, but you still ignore natural difficult terrain.\n\n---\r\n**Heightened (5th)** If you use a hostile action, the invisibility doesn't end.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">\r\n[Fey Disappearance](/Spells.aspx?ID=509)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 404 <sup>4.0</sup>\n\n**Bloodline**\r\n[Fey](/Bloodlines.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the end of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou become invisible and ignore natural difficult terrain (such as underbrush). Any hostile action you use ends this invisibility, but you still ignore natural difficult terrain.\n\n---\r\n**Heightened (5th)** If you use a hostile action, the invisibility doesn't end.",
  "name": "Fey Disappearance",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 404",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 404 <sup>4.0</sup></row>\n\n**Bloodline**\r\n[Fey](/Bloodlines.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the end of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou become invisible and ignore natural difficult terrain.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 404 <sup>4.0</sup>\n\n**Bloodline**\r\n[Fey](/Bloodlines.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the end of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou become invisible and ignore natural difficult terrain.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 404"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 404 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 404 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You become invisible and ignore natural difficult terrain.",
  "summary_markdown": "You become invisible and ignore natural difficult terrain.",
- "text": " Fey Disappearance Source Core Rulebook pg. 404 4.0 Bloodline Fey Cast Single Action somatic Duration until the end of your next turn --- You become invisible and ignore natural difficult terrain (such as underbrush). Any hostile action you use ends this invisibility, but you still ignore natural difficult terrain. --- Heightened (5th) If you use a hostile action, the invisibility doesn't end.",
+ "text": "\nFey Disappearance Single Action Source Core Rulebook pg. 404 4.0 Bloodline Fey Cast somatic Duration until the end of your next turn --- You become invisible and ignore natural difficult terrain (such as underbrush). Any hostile action you use ends this invisibility, but you still ignore natural difficult terrain. --- Heightened (5th) If you use a hostile action, the invisibility doesn't end.",
  "tradition_markdown": "",
  "trait": [
   "Enchantment",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Sorcerer](/Traits.aspx?ID=148), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Enchantment",
   "Sorcerer",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=509",
  "weakness": {}
 }

@@ -1,10 +1,24 @@
 {
  "ac": 25,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  19,
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
  "creature_ability": [
   "Tighten Coils",
   "Greater Constrict",
@@ -13,46 +27,74 @@
   "Wrap in Coils"
  ],
  "creature_family": "Snake",
- "creature_family_markdown": "[Snake](/MonsterFamilies.aspx?ID=93)",
+ "creature_family_markdown": "[Snake](/MonsterFamilies.aspx?ID=473)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 20,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 175,
  "hp_raw": "175",
- "id": "creature-382",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3203",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-382",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Anaconda](/Monsters.aspx?ID=382)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe monstrous giant anaconda is capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers watch out for snakes that might drop on them from the jungle canopy above, giant anacondas are most commonly encountered in ponds and rivers, where they feed on prey including manatees and capybaras.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Giant Anaconda](/Monsters.aspx?ID=382)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 303</row>\n\n**Perception** +17; low-light vision, scent (imprecise) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Athletics](/Skills.aspx?ID=3) +21, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n**HP** 175\n\n**Tighten Coils** <actions string=\"Reaction\" /> **Trigger** A creature grabbed or restrained by the giant anaconda attempts to Escape. **Effect** The DC of the Escape check is increased by 2.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +21 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+7 piercing plus Grab\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +21 ([Agile](/Traits.aspx?ID=170), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 bludgeoning plus Push 10 feet\n\n**[Greater Constrict](/MonsterAbilities.aspx?ID=19)** <actions string=\"Single Action\" />  1d10+7 bludgeoning, DC 26\r\n\r\n**Slither** <actions string=\"Single Action\" />  The giant anaconda Strides, Climbs, or Swims up to half its Speed, pulling any creatures it has grabbed with it.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=35)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Large, 1d10+7 bludgeoning, Rupture 21\r\n\r\n**Wrap in Coils** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) **Requirement** A Large or smaller creature is grabbed or restrained in the giant anaconda’s jaws. **Effect** The giant anaconda moves the creature into its coils, freeing its jaws to make attacks, then uses Greater Constrict against the creature. The giant anaconda’s coils can hold as many creatures as will fit in its space.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-93\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Anaconda](/Monsters.aspx?ID=3203)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe monstrous giant anaconda is a constrictor snake capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers watch out for snakes that might drop on them from the jungle canopy above, giant anacondas are most commonly encountered in ponds and rivers, where they feed on prey including manatees and capybaras. This hunting tactic allows anacondas to drown their prey while constricting it, reducing the chance of injuries while hunting. Despite lurid and sensational stories spread by adventurers, these snakes rarely attack humanoids.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Giant Anaconda](/Monsters.aspx?ID=3203)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 317\n\n**Perception** +17; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Athletics](/Skills.aspx?ID=3) +21, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\n\n</row>\n\n**Tighten Coils** <actions string=\"Reaction\" /> **Trigger** A creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) by the python attempts to [Escape](/Actions.aspx?ID=2296); **Effect** The DC of the Escape check is increased by 2.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +19 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+7 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +19 ([Agile](/Traits.aspx?ID=170), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 bludgeoning plus [Push](/MonsterAbilities.aspx?ID=47) 10 feet\n\n**[Greater Constrict](/MonsterAbilities.aspx?ID=65)** <actions string=\"Single Action\" />  1d10+7 bludgeoning, DC 26\r\n\r\n**Slither** <actions string=\"Single Action\" />  The giant anaconda Strides, [Climbs](/Actions.aspx?ID=2374), or [Swims](/Actions.aspx?ID=2381) up to half its Speed, pulling any creatures it has [grabbed](/Conditions.aspx?ID=77) with it.\r\n\r\n**[Swallow Whole](/MonsterAbilities.aspx?ID=77)** <actions string=\"Single Action\" /> ([Attack](/Traits.aspx?ID=15)) Large, 1d10+7 bludgeoning, Rupture 21\r\n\r\n**Wrap in Coils** <actions string=\"Single Action\" />  **Requirements** A Large or smaller creature is [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) in the giant anaconda's jaws; **Effect** The giant anaconda moves the creature into its coils, freeing its jaws to make attacks, then uses Greater Constrict against the creature. The giant anaconda's coils can hold as many creatures as will fit in its space.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-473\" />",
  "name": "Giant Anaconda",
  "npc": false,
  "perception": 17,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 317",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 17,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 303</row>\r\n\r\n**Creature Family** [Snake](/MonsterFamilies.aspx?ID=93)\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\r\n\r\n**AC** 25\r\n\r\n**Fort** +20\r\n\r\n**Ref** +17\r\n\r\n**Will** +15\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe monstrous giant anaconda is capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers …\r\n</summary>",
- "sense": "low-light vision, scent (imprecise) 60 feet",
- "sense_markdown": "low-light vision, scent (imprecise) 60 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 317\r\n\r\n**Creature Family** [Snake](/MonsterFamilies.aspx?ID=473)\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\r\n\r\n**AC** 25\r\n\r\n**Fort** +20\r\n\r\n**Ref** +17\r\n\r\n**Will** +15\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe monstrous giant anaconda is a constrictor snake capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 60 feet",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Acrobatics +15",
-  "Athletics +21",
-  "Stealth +15",
-  "Survival +15"
+  "Acrobatics",
+  "Athletics",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +15, [Athletics](/Skills.aspx?ID=3) +21, [Stealth](/Skills.aspx?ID=15) +15, [Survival](/Skills.aspx?ID=16) +15",
+ "skill_mod": {
+  "acrobatics": 15,
+  "athletics": 21,
+  "stealth": 15,
+  "survival": 15
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 303"
+  "Monster Core pg. 317"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 303</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 317",
  "speed": {
   "climb": 30,
   "land": 30,
@@ -63,30 +105,51 @@
  "speed_raw": "30 feet, climb 30 feet, swim 30 feet",
  "spell_markdown": "",
  "stealth": "15",
+ "strike_damage_average": [
+  16,
+  18
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 7,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "The monstrous giant anaconda is capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers …",
- "summary_markdown": "The monstrous giant anaconda is capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers …",
- "text": " Giant Anaconda The monstrous giant anaconda is capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers watch out for snakes that might drop on them from the jungle canopy above, giant anacondas are most commonly encountered in ponds and rivers, where they feed on prey including manatees and capybaras. Recall Knowledge - Animal (Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Giant Anaconda Source Bestiary pg. 303 Perception +17; low-light vision, scent (imprecise) 60 feet Languages Skills Acrobatics +15, Athletics +21, Stealth +15, Survival +15 Str +7 Dex +3 Con +6 Int -4 Wis +3 Cha -2 --- AC 25 Fort +20 Ref +17 Will +15 HP 175 Tighten Coils Reaction Trigger A creature grabbed or restrained by the giant anaconda attempts to Escape. Effect The DC of the Escape check is increased by 2. --- Speed 30 feet, climb 30 feet, swim 30 feet Melee Single Action jaws +21 (reach 10 feet), Damage 2d10+7 piercing plus Grab Melee Single Action tail +21 (Agile, reach 15 feet), Damage 2d8+7 bludgeoning plus Push 10 feet Greater Constrict Single Action 1d10+7 bludgeoning, DC 26 Slither Single Action The giant anaconda Strides, Climbs, or Swims up to half its Speed, pulling any creatures it has grabbed with it. Swallow Whole Single Action (Attack) Large, 1d10+7 bludgeoning, Rupture 21 Wrap in Coils Single Action (Attack) Requirement A Large or smaller creature is grabbed or restrained in the giant anaconda’s jaws. Effect The giant anaconda moves the creature into its coils, freeing its jaws to make attacks, then uses Greater Constrict against the creature. The giant anaconda’s coils can hold as many creatures as will fit in its space. ",
+ "summary": "The monstrous giant anaconda is a constrictor snake capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although …",
+ "summary_markdown": "The monstrous giant anaconda is a constrictor snake capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although …",
+ "text": " Giant Anaconda The monstrous giant anaconda is a constrictor snake capable of swallowing whole creatures as big as horses—to say nothing of their riders. Although novice bushwhackers watch out for snakes that might drop on them from the jungle canopy above, giant anacondas are most commonly encountered in ponds and rivers, where they feed on prey including manatees and capybaras. This hunting tactic allows anacondas to drown their prey while constricting it, reducing the chance of injuries while hunting. Despite lurid and sensational stories spread by adventurers, these snakes rarely attack humanoids. Recall Knowledge - Animal (Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Giant Anaconda Source Monster Core pg. 317 Perception +17; low-light vision, scent (imprecise) 60 feet Languages Skills Acrobatics +15, Athletics +21, Stealth +15, Survival +15 Str +7 Dex +3 Con +6 Int -4 Wis +3 Cha -2 --- AC 25 Fort +20 Ref +17 Will +15 HP 175 Tighten Coils Reaction Trigger A creature grabbed or restrained by the python attempts to Escape; Effect The DC of the Escape check is increased by 2. --- Speed 30 feet, climb 30 feet, swim 30 feet Melee Single Action jaws +19 (reach 10 feet), Damage 2d10+7 piercing plus Grab Melee Single Action tail +19 (Agile, reach 15 feet), Damage 2d8+7 bludgeoning plus Push 10 feet Greater Constrict Single Action 1d10+7 bludgeoning, DC 26 Slither Single Action The giant anaconda Strides, Climbs, or Swims up to half its Speed, pulling any creatures it has grabbed with it. Swallow Whole Single Action (Attack) Large, 1d10+7 bludgeoning, Rupture 21 Wrap in Coils Single Action Requirements A Large or smaller creature is grabbed or restrained in the giant anaconda's jaws; Effect The giant anaconda moves the creature into its coils, freeing its jaws to make attacks, then uses Greater Constrict against the creature. The giant anaconda's coils can hold as many creatures as will fit in its space. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
-  "N",
   "Huge"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
  "trait_raw": [
   "Animal"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=382",
+ "url": "/Monsters.aspx?ID=3203",
  "vision": "Low-light vision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 15,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

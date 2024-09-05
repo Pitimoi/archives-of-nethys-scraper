@@ -3,7 +3,6 @@
   "Buckle Armor"
  ],
  "base_item_markdown": "[Buckle Armor](/Armor.aspx?ID=18)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -12,35 +11,47 @@
  "item_category": "Armor",
  "item_subcategory": "Specific Magic Armor",
  "level": 19,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 19\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ouroboros Buckles](/Equipment.aspx?ID=1850)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 18 <sup>1.1</sup></row>\n\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Buckle Armor](/Armor.aspx?ID=18)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis ominous-looking _+3 [greater resilient](/Equipment.aspx?ID=279) [greater acid-resistant](/Equipment.aspx?ID=283) [buckle armor](/Armor.aspx?ID=18)_ is deep red in color, favored by assassins who worship [Norgorber](/Deities.aspx?ID=13) or [Asmodeus](/Deities.aspx?ID=2), and if unfastened, the many belts and buckles writhe like living snakes. _Ouroboros buckles_ have the [comfort](/Traits.aspx?ID=203) trait. However, while wearing _ouroboros buckles_, the unfathomable concept of infinity pulls at your mind, and each time you awaken, you'd swear the armor hissed into your ear while you were asleep. The hissing suggested secret wisdom to you in [Aklo](/Languages.aspx?ID=13), though you only ever remember it vaguely, like a fading dream.\n\n<document level=\"2\" id=\"action-1545\" />\n\n<document level=\"2\" id=\"action-1546\" />\n\n**Craft Requirements** The initial raw materials must include blood from an [ouroboros](/Monsters.aspx?ID=1256) to tan the leather.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 19\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ouroboros Buckles](/Equipment.aspx?ID=1850)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 18 <sup>1.1</sup>\n\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Buckle Armor](/Armor.aspx?ID=18)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis ominous-looking _+3 [greater resilient](/Equipment.aspx?ID=279) [greater acid-resistant](/Equipment.aspx?ID=283) [buckle armor](/Armor.aspx?ID=18)_ is deep red in color, favored by assassins who worship [Norgorber](/Deities.aspx?ID=13) or [Asmodeus](/Deities.aspx?ID=2), and if unfastened, the many belts and buckles writhe like living snakes. _Ouroboros buckles_ have the [comfort](/Traits.aspx?ID=203) trait. However, while wearing _ouroboros buckles_, the unfathomable concept of infinity pulls at your mind, and each time you awaken, you'd swear the armor hissed into your ear while you were asleep. The hissing suggested secret wisdom to you in [Aklo](/Languages.aspx?ID=13), though you only ever remember it vaguely, like a fading dream.\n\n**Activate** <actions string=\"Two Actions\" /> envision, Interact;  **Frequency** once per day;   **Effect** You call forth the cursed regenerative blood of an [ouroboros](/Monsters.aspx?ID=1256) to recover from your wounds. You gain [regeneration 15](/MonsterAbilities.aspx?ID=26) for 1 minute; [fire](/Traits.aspx?ID=72) damage deactivates this regeneration. Each time you regain Hit Points from this regeneration, if you're in your normal form, you collapse into a large swarm of Tiny snakes. This is a [polymorph](/Traits.aspx?ID=127) effect that changes you into a battle form.\n\n When you're a swarm of snakes, you gain [low-light vision](/Rules.aspx?ID=416), [imprecise](/Rules.aspx?ID=412) [scent](/Rules.aspx?ID=417) (30 feet), a Speed of 20 feet, a climb Speed of 20 feet, and a swim Speed of 20 feet. You have an AC of 16 + your level and ignore your armor's check penalty and Speed reduction. Also, you gain resistance 5 to physical damage and weakness 5 to area damage and [splash](/Traits.aspx?ID=150) damage. You can use none of your normal Strikes. Instead, you can use Swarming Bites, a single action that deals 4d4 piercing damage plus 2d6 poison damage to creatures in your space with a DC 41 [basic](/Rules.aspx?ID=329) Reflex save.\n\n If you're in this battle form and are already at full HP when your regeneration occurs, the snakes instantaneously slither together, and you transform into your original form.\n\n**Activate** <actions string=\"Reaction\" /> envision;  **Frequency** once per minute; **Trigger** A foe within 15 feet hits you with a Strike that deals slashing or piercing damage;  **Effect** Your _ouroboros buckles_ spray acidic blood in a 15-foot cone toward the foe, dealing 5d6 acid damage with a DC 41 [basic](/Rules.aspx?ID=329) Reflex save.\n\n**Craft Requirements** The initial raw materials must include blood from an [ouroboros](/Monsters.aspx?ID=1256) to tan the leather.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Ouroboros Buckles",
  "pfs": "Standard",
  "price": 4000000,
  "price_raw": "40,000 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 18",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 18 <sup>1.1</sup></row>\r\n\r\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis ominous-looking  +3  greater resilient   greater acid-resistant   buckle armor   is deep red in color, favored by assassins who worship  …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 18 <sup>1.1</sup>\r\n\r\n**Price** 40,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Buckle Armor](/Armor.aspx?ID=18)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis ominous-looking  +3  greater resilient   greater acid-resistant   buckle armor   is deep red in color, favored by assassins who worship  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 18"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 18 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 18 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This ominous-looking  +3  greater resilient   greater acid-resistant   buckle armor   is deep red in color, favored by assassins who worship  …",
  "summary_markdown": "This ominous-looking  +3  greater resilient   greater acid-resistant   buckle armor   is deep red in color, favored by assassins who worship  …",
- "text": "<title level=\"1\" right=\"Item 19\" pfs=\"Standard\" > Ouroboros Buckles Source Treasure Vault pg. 18 1.1 Price 40,000 gp Usage worn armor Bulk 1 Base Armor Buckle Armor --- This ominous-looking +3 greater resilient greater acid-resistant buckle armor is deep red in color, favored by assassins who worship Norgorber or Asmodeus, and if unfastened, the many belts and buckles writhe like living snakes. Ouroboros buckles have the comfort trait. However, while wearing ouroboros buckles , the unfathomable concept of infinity pulls at your mind, and each time you awaken, you'd swear the armor hissed into your ear while you were asleep. The hissing suggested secret wisdom to you in Aklo, though you only ever remember it vaguely, like a fading dream. Craft Requirements The initial raw materials must include blood from an ouroboros to tan the leather.\n",
+ "text": "<title level=\"1\" right=\"Item 19\" pfs=\"Standard\" > Ouroboros Buckles Source Treasure Vault pg. 18 1.1 Price 40,000 gp Usage worn armor Bulk 1 Base Armor Buckle Armor --- This ominous-looking +3 greater resilient greater acid-resistant buckle armor is deep red in color, favored by assassins who worship Norgorber or Asmodeus, and if unfastened, the many belts and buckles writhe like living snakes. Ouroboros buckles have the comfort trait. However, while wearing ouroboros buckles , the unfathomable concept of infinity pulls at your mind, and each time you awaken, you'd swear the armor hissed into your ear while you were asleep. The hissing suggested secret wisdom to you in Aklo, though you only ever remember it vaguely, like a fading dream. Activate Two Actions envision, Interact; Frequency once per day; Effect You call forth the cursed regenerative blood of an ouroboros to recover from your wounds. You gain regeneration 15 for 1 minute; fire damage deactivates this regeneration. Each time you regain Hit Points from this regeneration, if you're in your normal form, you collapse into a large swarm of Tiny snakes. This is a polymorph effect that changes you into a battle form. When you're a swarm of snakes, you gain low-light vision, imprecise scent (30 feet), a Speed of 20 feet, a climb Speed of 20 feet, and a swim Speed of 20 feet. You have an AC of 16 + your level and ignore your armor's check penalty and Speed reduction. Also, you gain resistance 5 to physical damage and weakness 5 to area damage and splash damage. You can use none of your normal Strikes. Instead, you can use Swarming Bites, a single action that deals 4d4 piercing damage plus 2d6 poison damage to creatures in your space with a DC 41 basic Reflex save. If you're in this battle form and are already at full HP when your regeneration occurs, the snakes instantaneously slither together, and you transform into your original form. Activate Reaction envision; Frequency once per minute; Trigger A foe within 15 feet hits you with a Strike that deals slashing or piercing damage; Effect Your ouroboros buckles spray acidic blood in a 15-foot cone toward the foe, dealing 5d6 acid damage with a DC 41 basic Reflex save. Craft Requirements The initial raw materials must include blood from an ouroboros to tan the leather.\n",
  "trait": [
   "Invested",
   "Magical",
   "Rare",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Rarity",
+  "School"
  ],
  "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

@@ -1,29 +1,43 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
- "exclude_from_search": true,
- "id": "action-1621",
- "markdown": "**Activate** <actions string=\"Single Action\" />[Perform](/Actions.aspx?ID=59)   **Requirements** You are untrained in  Performance .;  ",
+ "exclude_from_search": false,
+ "id": "action-2401",
+ "legacy_id": "action-59",
+ "markdown": "<title level=\"1\" right=\"Action\">[Perform](/Actions.aspx?ID=2401) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 243\n\n</column>\r\n\r\n---\r\n\r\nWhen making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent [Diplomacy](/Skills.aspx?ID=6) checks against the observers, or even change their attitudes if the GM sees fit.\r\n\r\n**Critical Success** Your performance impresses the observers, and they're likely to share stories of your ability.<br />\r\n**Success** You prove yourself, and observers appreciate the quality of your performance.<br />\r\n**Failure** Your performance falls flat.<br />\r\n**Critical Failure** You demonstrate only incompetence.\r\n\r\n<title level=\"2\">Sample Perform Tasks</title>\n\n**Untrained** audience of commoners<br />\r\n**Trained** audience of artisans<br />\r\n**Expert** audience of merchants or minor nobles<br />\r\n**Master** audience of high nobility or minor royalty<br />\r\n**Legendary** audience of major royalty or otherworldly beings",
  "name": "Perform",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 243",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2023-02-22",
- "requirement": "You are untrained in  Performance .",
- "requirement_markdown": "You are untrained in [Performance](/Skills.aspx?ID=12).",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 97 <sup>1.1</sup></row>\n\n**Requirement**\r\nYou are untrained in [Performance](/Skills.aspx?ID=12).\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 243\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Treasure Vault"
+  "Player Core"
  ],
  "source_raw": [
-  "Treasure Vault pg. 97"
+  "Player Core pg. 243"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 97 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 243",
  "speed": {},
- "text": " Activate Single ActionPerform Requirements You are untrained in Performance .; ",
- "trait_markdown": "",
+ "summary": "When making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove …",
+ "summary_markdown": "When making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove …",
+ "text": " Perform Single Action Source Player Core pg. 243 --- When making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers, or even change their attitudes if the GM sees fit. Critical Success Your performance impresses the observers, and they're likely to share stories of your ability. Success You prove yourself, and observers appreciate the quality of your performance. Failure Your performance falls flat. Critical Failure You demonstrate only incompetence. Sample Perform Tasks Untrained audience of commoners Trained audience of artisans Expert audience of merchants or minor nobles Master audience of high nobility or minor royalty Legendary audience of major royalty or otherworldly beings",
+ "trait": [
+  "Concentrate"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32)",
+ "trait_raw": [
+  "Concentrate"
+ ],
  "type": "Action",
- "url": "/Actions.aspx?ID=1621",
+ "url": "/Actions.aspx?ID=2401",
  "weakness": {}
 }

@@ -1,0 +1,183 @@
+{
+ "ac": 30,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  22,
+  24
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Statuary Aura",
+  "Binding Stone",
+  "Inexorable March",
+  "Throw Rock"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": -1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 24,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 175,
+ "hp_raw": "175",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3213",
+ "image": [
+  "/Images/Monsters/Stone_Bulwark.webp"
+ ],
+ "immunity": [
+  "bleed",
+  "death  effects",
+  "disease",
+  "doomed",
+  "drained",
+  "fatigued",
+  "healing",
+  "mental",
+  "nonlethal  attacks",
+  "paralyzed",
+  "poison",
+  "sickened",
+  "spirit",
+  "unconscious",
+  "vitality",
+  "void"
+ ],
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [doomed](/Conditions.aspx?ID=67), [drained](/Conditions.aspx?ID=68), [fatigued](/Conditions.aspx?ID=73), [healing](/Traits.aspx?ID=623), [mental](/Traits.aspx?ID=647), [nonlethal](/Traits.aspx?ID=661) attacks, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sickened](/Conditions.aspx?ID=91), [spirit](/Traits.aspx?ID=737), [unconscious](/Conditions.aspx?ID=95), [vitality](/Traits.aspx?ID=509), [void](/Traits.aspx?ID=510)",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "legacy_id": "creature-241",
+ "legacy_name": "Stone Golem",
+ "level": 11,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Stone Bulwark](/Monsters.aspx?ID=3213)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nStone bulwarks are slow and steady constructs typically carved from marble or granite. They're often made to serve as works of art when at rest, so some magical crafters employ master sculptors to ensure their constructs make beautiful statues. Older stone bulwarks might be weathered, with scuffed or cracked surfaces or missing noses and digits, but this weathering is largely cosmetic and doesn't adversely impact the bulwark's functionality. \n\n<title level=\"2\" right=\"\">Bulwark Variants</title> Immense stone bulwarks reside in some ancient ruins, survivors from time-lost civilizations bent on carrying out orders from long-gone masters. These bulwarks are level 15 or higher, and most are Gargantuan. Because their size is so great and the structures they dwell in so dilapidated, the awakening of such stone bulwarks can cause surrounding structures to collapse, ancient foundations to buckle, and ceilings to come crashing down. They can attack with wide, sweeping strikes capable of knocking down multiple targets at once.\n\n Serpentstone bulwarks are snake- or hydra-shaped variants first created by [serpentfolk](/MonsterFamilies.aspx?ID=468) artisans. They have Serpentstone Breath, but lack binding stone and Inexorable March.<br /> **Serpentstone Breath** <actions string=\"Two Actions\" /> ([earth](/Traits.aspx?ID=585), [incapacitation](/Traits.aspx?ID=631), [primal](/Traits.aspx?ID=676)) The bulwark breathes a 60- foot cone of green gas. Each creature in the area must attempt a DC 34 Fortitude save. The bulwark can't use Serpentstone Breath again for 1d4 rounds.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature's body hardens, causing it to become [slowed 1](/Conditions.aspx?ID=92) for 1 round.<br /> **Failure** The creature becomes [petrified](/Conditions.aspx?ID=87) for 1 minute. It can attempt a new save at the end of each of its turns.<br /> **Critical Failure** The creature becomes petrified permanently.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Crafting](/Skills.aspx?ID=37)): DC 30\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 28\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 25\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Stone_Bulwark.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Stone Bulwark](/Monsters.aspx?ID=3213)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=563\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 324\n\n**Perception** +17; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +26\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** -1\r\n\r\n**Con** +4\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 30 \r\n\r\n**Fort** +24 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +19 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [doomed](/Conditions.aspx?ID=67), [drained](/Conditions.aspx?ID=68), [fatigued](/Conditions.aspx?ID=73), [healing](/Traits.aspx?ID=623), [mental](/Traits.aspx?ID=647), [nonlethal](/Traits.aspx?ID=661) attacks, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sickened](/Conditions.aspx?ID=91), [spirit](/Traits.aspx?ID=737), [unconscious](/Conditions.aspx?ID=95), [vitality](/Traits.aspx?ID=509), [void](/Traits.aspx?ID=510)\r\n\r\n**Resistances**\r\nphysical 10 (except [adamantine](/Equipment.aspx?ID=374)), spells 10 (except [cold](/Traits.aspx?ID=555), [earth](/Traits.aspx?ID=585), or [water](/Traits.aspx?ID=732))\n\n**Statuary Aura** ([arcane](/Traits.aspx?ID=534), [aura](/Traits.aspx?ID=542), [earth](/Traits.aspx?ID=585)) 20 feet. Rocks of marble magically arise from the ground in the aura. They protect the bulwark's allies, giving each of them [standard cover](/Rules.aspx?ID=459). These stones can be used for Throw Rock. This aura automatically activates at the start of the stone bulwark's first turn in combat and deactivates at the end of combat.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +24 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+13 bludgeoning and binding stone\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +22 ([Brutal](/Traits.aspx?ID=249), [Magical](/Traits.aspx?ID=103), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d6+11 bludgeoning and binding stone\n\n**Binding Stone**  ([Arcane](/Traits.aspx?ID=11), [Earth](/Traits.aspx?ID=55)) Any creature hit by the stone bulwark's fist or rock Strike is affected by a DC 30 [_earthbind_](/Spells.aspx?ID=1506) spell.\r\n\r\n**Inexorable March** <actions string=\"Single Action\" />  The stone bulwark Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can attempt to bar the way by succeeding at a DC 34 Fortitude save. On a critical success, the resisting creature takes no damage; otherwise it is damaged as if hit by the construct's fist.\r\n\r\n**[Throw Rock](/MonsterAbilities.aspx?ID=80)** <actions string=\"Single Action\" />  \r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Stone Slabs</title>\r\n\r\nDepending on the material from which it is made and the care that went into crafting it, a destroyed stone bulwark may be worth as much as an immaculately sculpted marble pillar or as little as a pile of rubble.\r\n</aside>",
+ "name": "Stone Bulwark",
+ "npc": false,
+ "perception": 17,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 324",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 18,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {
+  "bludgeoning": 10,
+  "physical": 10,
+  "piercing": 10,
+  "slashing": 10
+ },
+ "resistance_markdown": "physical 10 (except [adamantine](/Equipment.aspx?ID=374)), spells 10 (except [cold](/Traits.aspx?ID=555), [earth](/Traits.aspx?ID=585), or [water](/Traits.aspx?ID=732))",
+ "resistance_raw": "physical 10 (except  adamantine ), spells 10 (except  cold ,  earth , or  water )",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=563\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 324\n\n<row gap=\"medium\">\r\n**HP** 175\r\n\r\n**AC** 30\r\n\r\n**Fort** +24\r\n\r\n**Ref** +18\r\n\r\n**Will** +19\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStone bulwarks are slow and steady constructs typically carved from marble or granite. They're often made to serve as works of art when at rest, so …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +26",
+ "skill_mod": {
+  "athletics": 26
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 324"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 324",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  18,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Stone bulwarks are slow and steady constructs typically carved from marble or granite. They're often made to serve as works of art when at rest, so …",
+ "summary_markdown": "Stone bulwarks are slow and steady constructs typically carved from marble or granite. They're often made to serve as works of art when at rest, so …",
+ "text": " Stone Bulwark Stone bulwarks are slow and steady constructs typically carved from marble or granite. They're often made to serve as works of art when at rest, so some magical crafters employ master sculptors to ensure their constructs make beautiful statues. Older stone bulwarks might be weathered, with scuffed or cracked surfaces or missing noses and digits, but this weathering is largely cosmetic and doesn't adversely impact the bulwark's functionality. Bulwark Variants Immense stone bulwarks reside in some ancient ruins, survivors from time-lost civilizations bent on carrying out orders from long-gone masters. These bulwarks are level 15 or higher, and most are Gargantuan. Because their size is so great and the structures they dwell in so dilapidated, the awakening of such stone bulwarks can cause surrounding structures to collapse, ancient foundations to buckle, and ceilings to come crashing down. They can attack with wide, sweeping strikes capable of knocking down multiple targets at once. Serpentstone bulwarks are snake- or hydra-shaped variants first created by serpentfolk artisans. They have Serpentstone Breath, but lack binding stone and Inexorable March. Serpentstone Breath Two Actions (earth, incapacitation, primal) The bulwark breathes a 60- foot cone of green gas. Each creature in the area must attempt a DC 34 Fortitude save. The bulwark can't use Serpentstone Breath again for 1d4 rounds. Critical Success The creature is unaffected. Success The creature's body hardens, causing it to become slowed 1 for 1 round. Failure The creature becomes petrified for 1 minute. It can attempt a new save at the end of each of its turns. Critical Failure The creature becomes petrified permanently. Recall Knowledge - Construct (Arcana, Crafting): DC 30 Unspecific Lore : DC 28 Specific Lore : DC 25 Stone Bulwark Source Monster Core pg. 324 Perception +17; darkvision Languages Skills Athletics +26 Str +7 Dex -1 Con +4 Int -5 Wis +0 Cha -5 --- AC 30 Fort +24 Ref +18 Will +19 HP 175 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, mental, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, void Resistances physical 10 (except adamantine), spells 10 (except cold, earth, or water) Statuary Aura (arcane, aura, earth) 20 feet. Rocks of marble magically arise from the ground in the aura. They protect the bulwark's allies, giving each of them standard cover. These stones can be used for Throw Rock. This aura automatically activates at the start of the stone bulwark's first turn in combat and deactivates at the end of combat. --- Speed 20 feet Melee Single Action fist +24 (Magical, reach 10 feet), Damage 2d10+13 bludgeoning and binding stone Ranged Single Action rock +22 (Brutal, Magical, range increment 120 feet), Damage 2d6+11 bludgeoning and binding stone Binding Stone (Arcane, Earth) Any creature hit by the stone bulwark's fist or rock Strike is affected by a DC 30 earthbind spell. Inexorable March Single Action The stone bulwark Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can attempt to bar the way by succeeding at a DC 34 Fortitude save. On a critical success, the resisting creature takes no damage; otherwise it is damaged as if hit by the construct's fist. Throw Rock Single Action Stone Slabs Depending on the material from which it is made and the care that went into crafting it, a destroyed stone bulwark may be worth as much as an immaculately sculpted marble pillar or as little as a pile of rubble. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Construct",
+  "Mindless",
+  "Uncommon",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Construct](/Traits.aspx?ID=563), [Mindless](/Traits.aspx?ID=652), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Construct",
+  "Mindless",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3213",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 19,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

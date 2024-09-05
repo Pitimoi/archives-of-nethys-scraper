@@ -1,21 +1,26 @@
 {
  "actions": "Two Actions",
- "area": "30-foot cone",
- "bloodline": [
-  "Undead"
+ "actions_number": 4,
+ "area": [
+  30
  ],
- "bloodline_markdown": "[Undead](/Bloodlines.aspx?ID=10)",
- "breadcrumbs_spa": [],
+ "area_raw": "30-foot cone",
+ "area_type": [
+  "cone"
+ ],
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   6,
@@ -24,33 +29,38 @@
   9,
   10
  ],
- "id": "spell-353",
+ "id": "spell-1735",
+ "legacy_id": "spell-353",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">[Vampiric Exsanguination](/Spells.aspx?ID=353)</title>\n\n<traits>\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 380 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou draw in the blood and life force of other creatures through your outstretched arms. You deal 12d6 negative damage to living creatures in the area.\n\n You gain temporary Hit Points equal to half the damage a single creature takes from this spell; calculate these temporary Hit Points using the creature that took the most damage. You lose any remaining temporary Hit Points after 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">\r\n[Vampiric Exsanguination](/Spells.aspx?ID=1735)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Void\" url=\"/Traits.aspx?ID=510\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 365\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 30-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou draw in the blood and life force of other creatures through your outstretched arms. You deal 12d6 void damage to living creatures in the area with a basic Fortitude save.\n\n You gain temporary Hit Points equal to half the damage a single creature takes from this spell; calculate these temporary Hit Points using the creature that took the most damage. You lose any remaining temporary Hit Points after 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
  "name": "Vampiric Exsanguination",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 365",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "basic  Fortitude",
  "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Fortitude",
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 380 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Undead](/Bloodlines.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDraw blood and life force from creatures in a cone.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Death\" url=\"/Traits.aspx?ID=40\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Void\" url=\"/Traits.aspx?ID=510\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 365\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 30-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDraw blood and life force from creatures in a cone, harming them and healing yourself.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 380"
+  "Player Core pg. 365"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 380 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 365",
  "speed": {},
- "summary": "Draw blood and life force from creatures in a cone.",
- "summary_markdown": "Draw blood and life force from creatures in a cone.",
- "text": " Vampiric Exsanguination Source Core Rulebook pg. 380 4.0 Traditions Arcane, Divine, Occult Bloodline Undead Cast Two Actions somatic, verbal Area 30-foot cone Saving Throw basic Fortitude --- You draw in the blood and life force of other creatures through your outstretched arms. You deal 12d6 negative damage to living creatures in the area. You gain temporary Hit Points equal to half the damage a single creature takes from this spell; calculate these temporary Hit Points using the creature that took the most damage. You lose any remaining temporary Hit Points after 1 minute. --- Heightened (+1) The damage increases by 2d6.",
+ "spell_type": "Spell",
+ "summary": "Draw blood and life force from creatures in a cone, harming them and healing yourself.",
+ "summary_markdown": "Draw blood and life force from creatures in a cone, harming them and healing yourself.",
+ "text": "\nVampiric Exsanguination Two Actions Source Player Core pg. 365 Traditions Arcane, Divine, Occult Area 30-foot cone Defense basic Fortitude --- You draw in the blood and life force of other creatures through your outstretched arms. You deal 12d6 void damage to living creatures in the area with a basic Fortitude save. You gain temporary Hit Points equal to half the damage a single creature takes from this spell; calculate these temporary Hit Points using the creature that took the most damage. You lose any remaining temporary Hit Points after 1 minute. --- Heightened (+1) The damage increases by 2d6.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -58,17 +68,25 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Death",
-  "Necromancy",
+  "Manipulate",
+  "Void",
   "Negative"
  ],
- "trait_markdown": "[Death](/Traits.aspx?ID=40), [Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118)",
+ "trait_group": [
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Death](/Traits.aspx?ID=40), [Manipulate](/Traits.aspx?ID=104), [Void](/Traits.aspx?ID=510)",
  "trait_raw": [
+  "Concentrate",
   "Death",
-  "Necromancy",
-  "Negative"
+  "Manipulate",
+  "Void"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=353",
+ "url": "/Spells.aspx?ID=1735",
  "weakness": {}
 }

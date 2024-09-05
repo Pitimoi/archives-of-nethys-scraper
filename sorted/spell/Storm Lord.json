@@ -1,65 +1,89 @@
 {
  "actions": "Two Actions",
- "area": "100-foot emanation, which affects you",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  100
  ],
- "deity_markdown": "",
+ "area_raw": "100-foot emanation, which includes you",
+ "area_type": [
+  "emanation"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
+ "element": [
+  "Air"
+ ],
  "exclude_from_search": false,
+ "heighten_group": [
+  "9th rank"
+ ],
  "heighten_level": [
   9
  ],
- "id": "spell-477",
+ "id": "spell-1858",
+ "legacy_id": "spell-477",
  "level": 9,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 9\" pfs=\"Standard\">[Storm Lord](/Spells.aspx?ID=477)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 400 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n**Requirements** You are outdoors and aboveground.\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 100-foot emanation, which affects you\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting. The first time each round you Sustain the Spell, you can select one of the following effects to occur in the area.\n<ul><li>**Calm** No additional effect.</li><li>**Fog** Heavy fog rolls in, concealing the area with the effects of [_obscuring mist_](/Spells.aspx?ID=210).</li><li>**Rain** Torrential rain falls from the sky, dousing ordinary flames. Creatures in the area take a –2 circumstance penalty to Acrobatics and Perception checks. </li><li>**Wind** Powerful winds buffet the area in all directions. Ranged attacks take a –4 circumstance penalty, and all flying is against the wind and counts as moving through difficult terrain.</li></ul> In addition, once per round you can use a single action, which has the concentrate and manipulate traits, to call down a bolt of lightning, striking any target in range that you can see. You deal 10d6 electricity damage to the target; it must attempt a basic Reflex save. On a failure, it is also deafened for 1 round.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 9\" pfs=\"Standard\">\r\n[Storm Lord](/Spells.aspx?ID=1858)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 382\n\n<row gap=\"medium\">\n\n \n\n**Requirements** You are outdoors and aboveground\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 100-foot emanation, which includes you\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting. When you Cast the Spell and the first time you Sustain it each turn on subsequent rounds, select one of the following effects to occur in the area. \n<ul><li>**Calm** No additional effect.</li><li>**Fog** Heavy fog rolls in, with the effects of [_mist_](/Spells.aspx?ID=1606).</li><li>**Rain** Torrential rain falls from the sky, dousing ordinary flames. Creatures in the area take a –2 circumstance penalty to [Acrobatics](/Skills.aspx?ID=1) and Perception checks.</li><li>**Wind** Powerful winds buffet the area in all directions. Ranged attacks take a –4 circumstance penalty, and the area is difficult terrain for flying creatures.</li></ul> In addition, once per round you can use a single action, which has the [concentrate](/Traits.aspx?ID=32) and [manipulate](/Traits.aspx?ID=104) traits, to call down a bolt of lightning, striking any target in range that you can see. You deal 10d6 electricity damage to the target; it must attempt a [basic](/Rules.aspx?ID=329) Reflex save. On a failure, it is also [deafened](/Conditions.aspx?ID=8) for 1 round.",
  "name": "Storm Lord",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 382",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
- "requirement": "You are outdoors and aboveground.",
- "requirement_markdown": "You are outdoors and aboveground.",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
+ "requirement": "You are outdoors and aboveground",
+ "requirement_markdown": "You are outdoors and aboveground",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 400 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n**Requirements** You are outdoors and aboveground.\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 100-foot emanation, which affects you\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\r\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 382\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n**Requirements** You are outdoors and aboveground\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 100-foot emanation, which includes you\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 400"
+  "Player Core pg. 382"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 400 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 382",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "The sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting.",
  "summary_markdown": "The sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting.",
- "text": " Storm Lord Source Core Rulebook pg. 400 4.0 Cast Two Actions somatic, verbal Requirements You are outdoors and aboveground. Area 100-foot emanation, which affects you Duration sustained up to 1 minute --- The sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting. The first time each round you Sustain the Spell, you can select one of the following effects to occur in the area. Calm No additional effect. Fog Heavy fog rolls in, concealing the area with the effects of obscuring mist . Rain Torrential rain falls from the sky, dousing ordinary flames. Creatures in the area take a –2 circumstance penalty to Acrobatics and Perception checks. Wind Powerful winds buffet the area in all directions. Ranged attacks take a –4 circumstance penalty, and all flying is against the wind and counts as moving through difficult terrain. In addition, once per round you can use a single action, which has the concentrate and manipulate traits, to call down a bolt of lightning, striking any target in range that you can see. You deal 10d6 electricity damage to the target; it must attempt a basic Reflex save. On a failure, it is also deafened for 1 round.",
+ "text": "\nStorm Lord Two Actions Source Player Core pg. 382 Requirements You are outdoors and aboveground Area 100-foot emanation, which includes you Duration sustained up to 1 minute --- The sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting. When you Cast the Spell and the first time you Sustain it each turn on subsequent rounds, select one of the following effects to occur in the area. Calm No additional effect. Fog Heavy fog rolls in, with the effects of mist . Rain Torrential rain falls from the sky, dousing ordinary flames. Creatures in the area take a –2 circumstance penalty to Acrobatics and Perception checks. Wind Powerful winds buffet the area in all directions. Ranged attacks take a –4 circumstance penalty, and the area is difficult terrain for flying creatures. In addition, once per round you can use a single action, which has the concentrate and manipulate traits, to call down a bolt of lightning, striking any target in range that you can see. You deal 10d6 electricity damage to the target; it must attempt a basic Reflex save. On a failure, it is also deafened for 1 round.",
  "tradition_markdown": "",
  "trait": [
   "Air",
+  "Concentrate",
   "Druid",
   "Electricity",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Air](/Traits.aspx?ID=5), [Druid](/Traits.aspx?ID=52), [Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Class",
+  "Energy",
+  "Rarity"
+ ],
+ "trait_markdown": "[Air](/Traits.aspx?ID=5), [Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=583), [Electricity](/Traits.aspx?ID=56), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Air",
+  "Concentrate",
   "Druid",
   "Electricity",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=477",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1858",
  "weakness": {}
 }

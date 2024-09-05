@@ -1,30 +1,43 @@
 {
- "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions": "Reaction",
+ "actions_number": 1,
  "category": "action",
  "exclude_from_search": true,
- "frequency": "once per round",
- "id": "action-1649",
- "markdown": "**Activate** <actions string=\"Single Action\" />envision ([mental](/Traits.aspx?ID=106)) **Frequency** once per round;   **Effect** Through the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of your next turn, that creature is [flat-footed](/Conditions.aspx?ID=16) to you and takes a –2 circumstance penalty to saving throws against your spells.",
+ "frequency": "once per day",
+ "id": "action-2089",
+ "markdown": "**Activate** <actions string=\"Reaction\" /> envision ([mental](/Traits.aspx?ID=106)) **Frequency** once per day; **Trigger** A foe that you're aware of and who is within 60 feet achieves a critical success on a saving throw or a Strike;  **Effect** You produce an aura of doubt that overwhelms all foes in a 30-foot emanation and reduces [bright light](/Rules.aspx?ID=407) in that area to [dim light](/Rules.aspx?ID=408), as if the region were under an eclipse. The triggering creature's critical success is reduced to a regular success. All further saving throws or Strikes attempted by enemies within the emanation suffer a –2 item penalty; saving throws or Strikes attempted by the triggering enemy suffer a –3 penalty instead. You can sustain this aura of doubt for up to 1 minute.",
  "name": "envision (mental)",
+ "primary_source": "Pathfinder #192: Worst of All Possible Worlds",
+ "primary_source_raw": "Pathfinder #192: Worst of All Possible Worlds pg. 74",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
  "rarity": "common",
- "release_date": "2023-02-22",
+ "rarity_id": 1,
+ "release_date": "2023-06-28",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 103 <sup>1.1</sup></row>\r\n\r\n**Frequency**\r\nonce per round\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThrough the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of …\r\n</summary>",
+ "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 74\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Trigger**\r\nA foe that you're aware of and who is within 60 feet achieves a critical success on a saving throw or a Strike\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou produce an aura of doubt that overwhelms all foes in a 30-foot emanation and reduces  bright light  in that area to  dim light , as if the region …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Treasure Vault"
+  "Pathfinder #192: Worst of All Possible Worlds"
  ],
  "source_raw": [
-  "Treasure Vault pg. 103"
+  "Pathfinder #192: Worst of All Possible Worlds pg. 74"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 103 <sup>1.1</sup></row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 74",
  "speed": {},
- "summary": "Through the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of …",
- "summary_markdown": "Through the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of …",
- "text": " Activate Single Actionenvision (mental) Frequency once per round; Effect Through the staff's strange whispering, you gain a glimpse into the mind and desires of one creature you can see within 30 feet. Until the end of your next turn, that creature is flat-footed to you and takes a –2 circumstance penalty to saving throws against your spells.",
+ "summary": "You produce an aura of doubt that overwhelms all foes in a 30-foot emanation and reduces  bright light  in that area to  dim light , as if the region …",
+ "summary_markdown": "You produce an aura of doubt that overwhelms all foes in a 30-foot emanation and reduces  bright light  in that area to  dim light , as if the region …",
+ "text": " Activate Reaction envision (mental) Frequency once per day; Trigger A foe that you're aware of and who is within 60 feet achieves a critical success on a saving throw or a Strike; Effect You produce an aura of doubt that overwhelms all foes in a 30-foot emanation and reduces bright light in that area to dim light, as if the region were under an eclipse. The triggering creature's critical success is reduced to a regular success. All further saving throws or Strikes attempted by enemies within the emanation suffer a –2 item penalty; saving throws or Strikes attempted by the triggering enemy suffer a –3 penalty instead. You can sustain this aura of doubt for up to 1 minute.",
  "trait_markdown": "",
+ "trigger": "A foe that you're aware of and who is within 60 feet achieves a critical success on a saving throw or a Strike",
+ "trigger_markdown": "A foe that you're aware of and who is within 60 feet achieves a critical success on a saving throw or a Strike",
  "type": "Action",
- "url": "/Actions.aspx?ID=1649",
+ "url": "/Actions.aspx?ID=2089",
  "weakness": {}
 }

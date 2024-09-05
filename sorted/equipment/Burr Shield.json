@@ -3,7 +3,6 @@
   "Wooden Shield"
  ],
  "base_item_markdown": "[Wooden Shield](/Shields.aspx?ID=2)",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -12,33 +11,43 @@
  "item_category": "Shields",
  "item_subcategory": "Specific Shields",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Burr Shield](/Equipment.aspx?ID=1044)\r\n</title>\n\n<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 181 <sup>1.1</sup></row>\n\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis well-crafted [wooden shield](/Shields.aspx?ID=2) (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as though they were _+1 [striking](/Equipment.aspx?ID=280) [shield spikes](/Weapons.aspx?ID=42)_.\n\n<document level=\"2\" id=\"action-834\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Standard\"\r\n>\r\n[Burr Shield](/Equipment.aspx?ID=1044)\r\n</title>\n\n<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 181 <sup>1.1</sup>\n\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis well-crafted [wooden shield](/Shields.aspx?ID=2) (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as though they were _+1 [striking](/Equipment.aspx?ID=280) [shield spikes](/Weapons.aspx?ID=42)_.\n\n**Activate** <actions string=\"Single Action\" /> Interact;    **Requirements** Your previous action was a successful Strike with the burrs; **Effect** One of the burrs catches on the Strike's target, inflicting 1d10 [persistent bleed damage](/Conditions.aspx?ID=29).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Burr Shield",
  "pfs": "Standard",
  "price": 16000,
  "price_raw": "160 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 181",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 181 <sup>1.1</sup></row>\r\n\r\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis well-crafted  wooden shield  (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 181 <sup>1.1</sup>\r\n\r\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Wooden Shield](/Shields.aspx?ID=2)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis well-crafted  wooden shield  (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 181"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 181 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 181 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This well-crafted  wooden shield  (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as …",
  "summary_markdown": "This well-crafted  wooden shield  (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as …",
- "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Standard\" > Burr Shield Source Secrets of Magic pg. 181 1.1 Price 160 gp Usage held in 1 hand Bulk L Base Shield Wooden Shield --- This well-crafted wooden shield (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as though they were +1 striking shield spikes .\n",
+ "text": "<title level=\"1\" right=\"Item 5\" pfs=\"Standard\" > Burr Shield Source Secrets of Magic pg. 181 1.1 Price 160 gp Usage held in 1 hand Bulk L Base Shield Wooden Shield --- This well-crafted wooden shield (Hardness 5, HP 30, BT 15) is covered in numerous seed pods with long spurs. You can Strike with these burrs as though they were +1 striking shield spikes . Activate Single Action Interact; Requirements Your previous action was a successful Strike with the burrs; Effect One of the burrs catches on the Strike's target, inflicting 1d10 persistent bleed damage.\n",
  "trait": [
   "Magical",
   "Necromancy"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117)",
  "trait_raw": [

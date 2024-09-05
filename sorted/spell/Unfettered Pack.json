@@ -1,15 +1,8 @@
 {
  "actions": "Two Actions",
- "bloodline": [
-  "Nymph"
- ],
- "bloodline_markdown": "[Nymph](/Bloodlines.aspx?ID=12)",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "The Endless Road",
   "Yuelral"
@@ -18,56 +11,70 @@
  "domain_markdown": "",
  "duration": 3600,
  "duration_raw": "1 hour",
+ "element": [
+  "Universal"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "9th"
+ ],
+ "heighten_group": [
+  "7th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   7,
   9
  ],
- "id": "spell-350",
+ "id": "spell-1733",
+ "legacy_id": "spell-350",
  "level": 7,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">[Unfettered Pack](/Spells.aspx?ID=350)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodline**\r\n[Nymph](/Bloodlines.aspx?ID=12)\r\n\r\n**Deities**\r\n[The Endless Road](/Deities.aspx?ID=246), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** up to 10 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou free those who travel alongside you from environmental hindrances. Targets don't take circumstance penalties to Speed from vegetation, rubble, winds, or other properties of the environment, whether or not the environment is magical, and they ignore difficult terrain from such environmental properties.\n\n---\r\n**Heightened (9th)** The targets also ignore greater difficult terrain from environmental properties.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">\r\n[Unfettered Pack](/Spells.aspx?ID=1733)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 365\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Deities**\r\n[The Endless Road](/Deities.aspx?ID=246), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** up to 10 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou free those who travel alongside you from environmental hindrances. Targets don't take circumstance penalties to Speed from vegetation, rubble, winds, or other properties of the environment, and they ignore [difficult terrain](/Rules.aspx?ID=453) from such environmental properties.\n\n---\r\n**Heightened (9th)** The targets also ignore greater difficult terrain from environmental properties.",
  "name": "Unfettered Pack",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 365",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodline**\r\n[Nymph](/Bloodlines.aspx?ID=12)\r\n\r\n**Deities**\r\n[The Endless Road](/Deities.aspx?ID=246), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** up to 10 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLet creatures avoid environmental hindrances.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 365\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Deities**\r\n[The Endless Road](/Deities.aspx?ID=246), [Yuelral](/Deities.aspx?ID=111)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** up to 10 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLet creatures avoid environmental hindrances.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 379"
+  "Player Core pg. 365"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 365",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Let creatures avoid environmental hindrances.",
  "summary_markdown": "Let creatures avoid environmental hindrances.",
  "target": "up to 10 creatures",
  "target_markdown": "up to 10 creatures",
- "text": " Unfettered Pack Source Core Rulebook pg. 379 4.0 Tradition Primal Spell Lists Elemental Bloodline Nymph Deities The Endless Road, Yuelral Cast Two Actions somatic, verbal Range 30 feet Target up to 10 creatures Duration 1 hour --- You free those who travel alongside you from environmental hindrances. Targets don't take circumstance penalties to Speed from vegetation, rubble, winds, or other properties of the environment, whether or not the environment is magical, and they ignore difficult terrain from such environmental properties. --- Heightened (9th) The targets also ignore greater difficult terrain from environmental properties.",
+ "text": "\nUnfettered Pack Two Actions Source Player Core pg. 365 Tradition Primal Spell Lists Elemental Deities The Endless Road, Yuelral Range 30 feet Target up to 10 creatures Duration 1 hour --- You free those who travel alongside you from environmental hindrances. Targets don't take circumstance penalties to Speed from vegetation, rubble, winds, or other properties of the environment, and they ignore difficult terrain from such environmental properties. --- Heightened (9th) The targets also ignore greater difficult terrain from environmental properties.",
  "tradition": [
   "Primal",
   "Elemental"
  ],
  "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
  "trait": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=350",
+ "url": "/Spells.aspx?ID=1733",
  "weakness": {}
 }

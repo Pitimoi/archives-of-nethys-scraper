@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,27 +9,39 @@
  "feat_markdown": "Catfolk Dance",
  "id": "feat-2315",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Catfolk Dance](/Feats.aspx?ID=2315) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 18 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou have a habit of always being in the way when other creatures attempt to move. Attempt an [Acrobatics](/Skills.aspx?ID=1) check against an adjacent creature's Reflex DC.\n\n**Critical Success** The target creature gains a –2 circumstance penalty to Reflex saves and is [flat-footed](/Conditions.aspx?ID=16) until the start of your next turn.<br />\r\n**Success** The target creature gains a –2 circumstance penalty to Reflex saves until the start of your next turn.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Catfolk Dance](/Feats.aspx?ID=2315) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 18 <sup>2.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou have a habit of always being in the way when other creatures attempt to move. Attempt an [Acrobatics](/Skills.aspx?ID=1) check against an adjacent creature's Reflex DC.\n\n**Critical Success** The target creature gains a –2 circumstance penalty to Reflex saves and is [flat-footed](/Conditions.aspx?ID=16) until the start of your next turn.<br />\r\n**Success** The target creature gains a –2 circumstance penalty to Reflex saves until the start of your next turn.",
  "name": "Catfolk Dance",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 18",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 18 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou have a habit of always being in the way when other creatures attempt to move.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Catfolk\" url=\"/Traits.aspx?ID=211\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 18 <sup>2.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou have a habit of always being in the way when other creatures attempt to move.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 18"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 18 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 18 <sup>2.0</sup>",
  "speed": {},
  "summary": "You have a habit of always being in the way when other creatures attempt to move.",
  "summary_markdown": "You have a habit of always being in the way when other creatures attempt to move.",
  "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Catfolk Dance Single Action Source Ancestry Guide pg. 18 2.0 --- You have a habit of always being in the way when other creatures attempt to move. Attempt an Acrobatics check against an adjacent creature's Reflex DC. Critical Success The target creature gains a –2 circumstance penalty to Reflex saves and is flat-footed until the start of your next turn. Success The target creature gains a –2 circumstance penalty to Reflex saves until the start of your next turn.",
  "trait": [
   "Catfolk"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Catfolk](/Traits.aspx?ID=211)",
  "trait_raw": [

@@ -1,0 +1,155 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  9,
+  9
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 5,
+ "constitution_scale": "Extreme",
+ "constitution_scale_number": 5,
+ "creature_ability": [
+  "Wings Flat",
+  "Crying Cicada Poison",
+  "Sob",
+  "Steal Voice",
+  "Wing Flurry"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 48,
+ "hp_raw": "48",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3258",
+ "image": [
+  "/Images/Monsters/Crying_Cicada.webp"
+ ],
+ "immunity": [
+  "poison"
+ ],
+ "immunity_markdown": "[poison](/Traits.aspx?ID=669)",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"\">[Crying Cicada](/Monsters.aspx?ID=3258)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese small insects are a nuisance and danger to small villages within Brevoy, taking over entire forests and blending in with the foliage. Also known as calling beetles, due to their ability to mimic and repeat the voices of their previous victims, crying cicadas wait for passersby to lure into the trees, fascinating their victims with their cries before fluttering their wings to release toxic dust. Once a target is near death, crying cicadas will take flight from the trees and land on the body to feed.\n\n The scale dust of crying cicadas can be turned into an effective ingested poison, but obtaining a cicada and harvesting these scales is so dangerous that most would-be poisoners simply die in the process. Even finding the insects is dangerous enough; crying cicadas' natural stealth and dark coloration make them difficult to locate among the trees of a forest, and following their cries often leads one to fall victim to the very creatures they're hunting.\n\n The longer a colony of crying cicadas stays in a forest, the wider their collection of cries grows. Often, a young colony will be able to replicate only the sounds of small, dying creatures, but larger, more established colonies will have the ability to mimic the sounds of children and dragons.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Crying_Cicada.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Crying Cicada](/Monsters.aspx?ID=3258)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 134\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\n\n**Skills**\r\n[Deception](/Skills.aspx?ID=38) +12, [Stealth](/Skills.aspx?ID=48) +10, [Survival](/Skills.aspx?ID=49) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +5\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**Wings Flat** When the crying cicada is still and perched on a tree, it blends seamlessly into the environment. It has an automatic result of 30 on [Deception](/Skills.aspx?ID=38) checks and DCs to pass as part of the tree.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 48\n\n</row>\r\n\r\n**Immunities**\r\n[poison](/Traits.aspx?ID=669)\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet, fly 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nproboscis +9,\r\n**Damage** 1d8+5 piercing plus 1d4 poison\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nslam +9,\r\n**Damage** 1d6+4 bludgeoning plus crying cicada poison\n\n**Crying Cicada Poison**  ([Inhaled](/Traits.aspx?ID=96), [Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 19 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison damage plus [slowed 1](/Conditions.aspx?ID=92) (1 round); **Stage 2** 1d6 poison damage plus [slowed 2](/Conditions.aspx?ID=92) (1 round); **Stage 3** 2d6 poison damage plus slowed 2 and [stupefied 1](/Conditions.aspx?ID=94) (1 round).\r\n\r\n**Sob** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)) The crying cicada mimics the noise of a wounded animal or crying child. Non-cicada creatures within a 150-foot emanation must attempt a DC 19 Will save or be distressed by the pleas for help. The effect lasts for 1 round, but if the cicada uses this ability again on subsequent rounds, it extends the duration by 1 round for all affected creatures. Once a creature succeeds at any save against Sob, that creature is temporarily immune to Sob for 24 hours.<br /> **Success** The creature is unaffected.<br /> **Failure** The creature believes an animal or child needs help somewhere nearby. The creature is [fascinated](/Conditions.aspx?ID=72), and it must spend each of its actions to [Seek](/Actions.aspx?ID=2301) or move closer to the cicada as expediently as possible, while avoiding obvious dangers. If the creature is adjacent to the cicada, it stays still and doesn't act.\r\n\r\n**Steal Voice** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16)) **Requirements** An enemy creature has spoken since the crying cicada's last turn; **Effect** The crying cicada learns and mimics the sound of its opponent's voice. It can't make new sentences, but it can choose to repeat select parts of the phrases it has heard. All non-cicada creatures within 30 feet, other than the owner of the stolen voice, must succeed at a DC 19 Will save to disbelieve the mimicry.\r\n\r\n**Wing Flurry** <actions string=\"Single Action\" />  The crying cicada beats its wings together, exposing all creatures within a 10-foot burst to crying cicada poison.\r\n\r\n</column>",
+ "name": "Crying Cicada",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 134",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 12,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 134\n\n<row gap=\"medium\">\r\n**HP** 48\r\n\r\n**AC** 19\r\n\r\n**Fort** +10\r\n\r\n**Ref** +12\r\n\r\n**Will** +7\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese small insects are a nuisance and danger to small villages within Brevoy, taking over entire forests and blending in with the foliage. Also …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Deception",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Deception](/Skills.aspx?ID=38) +12, [Stealth](/Skills.aspx?ID=48) +10, [Survival](/Skills.aspx?ID=49) +8",
+ "skill_mod": {
+  "deception": 12,
+  "stealth": 10,
+  "survival": 8
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 134"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 134",
+ "speed": {
+  "fly": 30,
+  "land": 15,
+  "max": 30
+ },
+ "speed_markdown": "15 feet, fly 30 feet",
+ "speed_raw": "15 feet, fly 30 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  7,
+  12
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "These small insects are a nuisance and danger to small villages within Brevoy, taking over entire forests and blending in with the foliage. Also …",
+ "summary_markdown": "These small insects are a nuisance and danger to small villages within Brevoy, taking over entire forests and blending in with the foliage. Also …",
+ "text": " Crying Cicada These small insects are a nuisance and danger to small villages within Brevoy, taking over entire forests and blending in with the foliage. Also known as calling beetles, due to their ability to mimic and repeat the voices of their previous victims, crying cicadas wait for passersby to lure into the trees, fascinating their victims with their cries before fluttering their wings to release toxic dust. Once a target is near death, crying cicadas will take flight from the trees and land on the body to feed. The scale dust of crying cicadas can be turned into an effective ingested poison, but obtaining a cicada and harvesting these scales is so dangerous that most would-be poisoners simply die in the process. Even finding the insects is dangerous enough; crying cicadas' natural stealth and dark coloration make them difficult to locate among the trees of a forest, and following their cries often leads one to fall victim to the very creatures they're hunting. The longer a colony of crying cicadas stays in a forest, the wider their collection of cries grows. Often, a young colony will be able to replicate only the sounds of small, dying creatures, but larger, more established colonies will have the ability to mimic the sounds of children and dragons. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Crying Cicada Source Howl of the Wild pg. 134 Perception +11; darkvision Languages Skills Deception +12, Stealth +10, Survival +8 Str +2 Dex +4 Con +5 Int -5 Wis +1 Cha +3 Wings Flat When the crying cicada is still and perched on a tree, it blends seamlessly into the environment. It has an automatic result of 30 on Deception checks and DCs to pass as part of the tree. --- AC 19 Fort +10 Ref +12 Will +7 HP 48 Immunities poison --- Speed 15 feet, fly 30 feet Melee Single Action proboscis +9, Damage 1d8+5 piercing plus 1d4 poison Melee Single Action slam +9, Damage 1d6+4 bludgeoning plus crying cicada poison Crying Cicada Poison (Inhaled, Poison) Saving Throw DC 19 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage plus slowed 1 (1 round); Stage 2 1d6 poison damage plus slowed 2 (1 round); Stage 3 2d6 poison damage plus slowed 2 and stupefied 1 (1 round). Sob Single Action (Auditory, Emotion, Mental) The crying cicada mimics the noise of a wounded animal or crying child. Non-cicada creatures within a 150-foot emanation must attempt a DC 19 Will save or be distressed by the pleas for help. The effect lasts for 1 round, but if the cicada uses this ability again on subsequent rounds, it extends the duration by 1 round for all affected creatures. Once a creature succeeds at any save against Sob, that creature is temporarily immune to Sob for 24 hours. Success The creature is unaffected. Failure The creature believes an animal or child needs help somewhere nearby. The creature is fascinated, and it must spend each of its actions to Seek or move closer to the cicada as expediently as possible, while avoiding obvious dangers. If the creature is adjacent to the cicada, it stays still and doesn't act. Steal Voice Two Actions (Auditory) Requirements An enemy creature has spoken since the crying cicada's last turn; Effect The crying cicada learns and mimics the sound of its opponent's voice. It can't make new sentences, but it can choose to repeat select parts of the phrases it has heard. All non-cicada creatures within 30 feet, other than the owner of the stolen voice, must succeed at a DC 19 Will save to disbelieve the mimicry. Wing Flurry Single Action The crying cicada beats its wings together, exposing all creatures within a 10-foot burst to crying cicada poison. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3258",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 7,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

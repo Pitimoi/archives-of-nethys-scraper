@@ -1,9 +1,9 @@
 {
  "actions": "Free Action",
+ "actions_number": 0,
  "archetype": [
   "Juggler"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,24 +12,34 @@
  "feat_markdown": "Focused Juggler",
  "id": "feat-1188",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Limited\"\r\n>\r\n[Focused Juggler](/Feats.aspx?ID=1188) <actions string=\"Free Action\" />\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 74</row>\n\n**Archetype** [Juggler](/Archetypes.aspx?ID=36)\n\n**Prerequisites**\r\n[Juggler Dedication](/Feats.aspx?ID=1187)\n\n**Trigger**\r\nYour turn begins.\n\n</column>\r\n\r\n---\r\n\r\nYou continue Juggling until the end of your next turn. Increase the maximum number of items you can [Juggle](/Feats.aspx?ID=1199) by one.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Limited\"\r\n>\r\n[Focused Juggler](/Feats.aspx?ID=1188) <actions string=\"Free Action\" />\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 74\n\n**Archetype** [Juggler](/Archetypes.aspx?ID=36)\n\n**Prerequisites**\r\n[Juggler Dedication](/Feats.aspx?ID=1187)\n\n**Trigger**\r\nYour turn begins.\n\n</column>\r\n\r\n---\r\n\r\nYou continue Juggling until the end of your next turn. Increase the maximum number of items you can [Juggle](/Feats.aspx?ID=1199) by one.",
  "name": "Focused Juggler",
  "pfs": "Limited",
  "prerequisite": "Juggler Dedication",
  "prerequisite_markdown": "[Juggler Dedication](/Feats.aspx?ID=1187)",
+ "primary_source": "Pathfinder #151: The Show Must Go On",
+ "primary_source_raw": "Pathfinder #151: The Show Must Go On pg. 74",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Extinction Curse",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-01-30",
  "resistance": {},
- "search_markdown": "<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 74</row>\n\n**Prerequisites**\r\n[Juggler Dedication](/Feats.aspx?ID=1187)\n\n**Trigger**\r\nYour turn begins.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou continue Juggling until the end of your next turn.\r\n</summary>",
+ "search_markdown": "<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 74\n\n**Prerequisites**\r\n[Juggler Dedication](/Feats.aspx?ID=1187)\n\n**Trigger**\r\nYour turn begins.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou continue Juggling until the end of your next turn.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #151: The Show Must Go On"
  ],
  "source_raw": [
   "Pathfinder #151: The Show Must Go On pg. 74"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 74</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 74",
  "speed": {},
  "spoilers": "Extinction Curse",
  "summary": "You continue Juggling until the end of your next turn.",
@@ -40,6 +50,9 @@
   "Concentrate",
   "Manipulate",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Rarity"
  ],
  "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,30 +1,42 @@
 {
- "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions": "Reaction",
+ "actions_number": 1,
  "category": "action",
  "exclude_from_search": true,
- "frequency": "once per day",
- "id": "action-639",
- "markdown": "**Activate** <actions string=\"Single Action\" />manipulate;  **Frequency** once per day;   **Effect** You touch an adjacent creature and attempt a [counteract](/Rules.aspx?ID=371) check against one [poison](/Traits.aspx?ID=126) or [disease](/Traits.aspx?ID=46) afflicting the creature. On a success, you halt the effects of the poison or disease for 1 day, rather than removing it. This temporarily relieves any penalties imposed by the affliction but doesn't cure the effect or count against its duration; the poison or disease is merely halted for a time, and it resumes where it left off once this effect ends.",
+ "id": "action-2229",
+ "markdown": "**Activate** <actions string=\"Reaction\" /> manipulate;   **Trigger** The shield is broken;  **Effect** The shield spews spores into one adjacent square, dealing persistent poison damage to all creatures in within it; a successful Fortitude save negates the damage.",
  "name": "manipulate",
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 85",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
  "rarity": "common",
- "release_date": "2020-10-14",
+ "rarity_id": 1,
+ "release_date": "2023-08-02",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 72</row>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou touch an adjacent creature and attempt a  counteract  check against one  poison  or  disease  afflicting the creature. On a success, you halt the …\r\n</summary>",
+ "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 85\n\n**Trigger**\r\nThe shield is broken\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe shield spews spores into one adjacent square, dealing persistent poison damage to all creatures in within it; a successful Fortitude save negates …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "PFS Guide"
+  "Pathfinder #193: Mantle of Gold"
  ],
  "source_raw": [
-  "PFS Guide pg. 72"
+  "Pathfinder #193: Mantle of Gold pg. 85"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[PFS Guide](/Sources.aspx?ID=50) pg. 72</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 85",
  "speed": {},
- "summary": "You touch an adjacent creature and attempt a  counteract  check against one  poison  or  disease  afflicting the creature. On a success, you halt the …",
- "summary_markdown": "You touch an adjacent creature and attempt a  counteract  check against one  poison  or  disease  afflicting the creature. On a success, you halt the …",
- "text": " Activate Single Actionmanipulate; Frequency once per day; Effect You touch an adjacent creature and attempt a counteract check against one poison or disease afflicting the creature. On a success, you halt the effects of the poison or disease for 1 day, rather than removing it. This temporarily relieves any penalties imposed by the affliction but doesn't cure the effect or count against its duration; the poison or disease is merely halted for a time, and it resumes where it left off once this effect ends.",
+ "summary": "The shield spews spores into one adjacent square, dealing persistent poison damage to all creatures in within it; a successful Fortitude save negates …",
+ "summary_markdown": "The shield spews spores into one adjacent square, dealing persistent poison damage to all creatures in within it; a successful Fortitude save negates …",
+ "text": " Activate Reaction manipulate; Trigger The shield is broken; Effect The shield spews spores into one adjacent square, dealing persistent poison damage to all creatures in within it; a successful Fortitude save negates the damage.",
  "trait_markdown": "",
+ "trigger": "The shield is broken",
+ "trigger_markdown": "The shield is broken",
  "type": "Action",
- "url": "/Actions.aspx?ID=639",
+ "url": "/Actions.aspx?ID=2229",
  "weakness": {}
 }

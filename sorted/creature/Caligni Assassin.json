@@ -1,0 +1,188 @@
+{
+ "ac": 27,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "NE",
+ "attack_bonus": [
+  19,
+  21
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Countershadow",
+  "Death Umbral Shroud",
+  "Deny Advantage",
+  "Light Blindness",
+  "Quick Draw",
+  "Shadow Leap",
+  "Sneak Attack",
+  "Umbral Veil"
+ ],
+ "creature_family": "Caligni",
+ "creature_family_markdown": "[Caligni](/MonsterFamilies.aspx?ID=18)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 135,
+ "hp_raw": "135",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2696",
+ "image": [
+  "/Images/Monsters/Caligni_Assassin.png"
+ ],
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Leather Armor",
+  "+1 striking spiked gauntlet",
+  "throwing knives (4)"
+ ],
+ "language": [
+  "Caligni",
+  "Shadowtongue",
+  "Shae",
+  "Undercommon"
+ ],
+ "language_markdown": "[Caligni](/Languages.aspx?ID=28), [Shadowtongue](/Languages.aspx?ID=21), [Shae](/Languages.aspx?ID=71), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"\">[Caligni Assassin](/Monsters.aspx?ID=2696)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLauded and shunned, caligni assassins often become unwitting pawns in clashes between caligni settlements or between rival factions of caligni society.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 29\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 27\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 24\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Caligni_Assassin.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Caligni Assassin](/Monsters.aspx?ID=2696)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Caligni\" url=\"/Traits.aspx?ID=210\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Shadow\" url=\"/Traits.aspx?ID=143\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 85\n\n**Perception** +14; [greater darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Caligni](/Languages.aspx?ID=28), [Shadowtongue](/Languages.aspx?ID=21), [Shae](/Languages.aspx?ID=71), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +15, [Deception](/Skills.aspx?ID=5) +13, [Intimidation](/Skills.aspx?ID=7) +15, [Occultism](/Skills.aspx?ID=11) +13, [Stealth](/Skills.aspx?ID=15) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Leather Armor](/Armor.aspx?ID=4), _+1 [striking](/Equipment.aspx?ID=280) [spiked gauntlet](/Weapons.aspx?ID=11)_, [throwing knives](/Weapons.aspx?ID=243) (4)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\n\n</row>\n\n**Countershadow** <actions string=\"Reaction\" /> ([darkness](/Traits.aspx?ID=39), [occult](/Traits.aspx?ID=120)) **Trigger** A creature within 60 feet casts a [light](/Traits.aspx?ID=100) spell; **Effect** The caligni assassin attempts to [counteract](/Rules.aspx?ID=371) the triggering spell. Caligni assassins automatically recognize light spells.<br />**Death Umbral Shroud** ([darkness](/Traits.aspx?ID=39), [occult](/Traits.aspx?ID=120)) When a caligni assassin dies, their body disintegrates into a veil of supernatural darkness for 1 round. A 4th-level [darkness](/Domains.aspx?ID=6) spell appears, centered on the assassin's location, with a counteract DC of 23.<br />**Deny Advantage** The assassin isn't [flat-footed](/Conditions.aspx?ID=16) to creatures of 8th level or lower that are [hidden](/Conditions.aspx?ID=22), [undetected](/Conditions.aspx?ID=39), flanking, or using surprise attack.<br />**[Light Blindness](/MonsterAbilities.aspx?ID=22)** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_spiked gauntlet_ +21 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 2d4+9 piercing plus Umbral Veil\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nthrowing knife +19 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d4+9 piercing\n\n**[Quick Draw](/Feats.aspx?ID=498)** <actions string=\"Single Action\" />  \r\n\r\n**Shadow Leap** <actions string=\"Three Actions\" /> ([Darkness](/Traits.aspx?ID=39), [Occult](/Traits.aspx?ID=120), [Teleportation](/Traits.aspx?ID=156)) **Requirements** The assassin is in [dim light](/Rules.aspx?ID=408) or [darkness](/Rules.aspx?ID=409); **Effect** The assassin vanishes into shadow, appearing in a square of dim light or darkness within 60 feet. If the assassin appears adjacent to a creature, they can Strike that creature, otherwise the assassin can [Hide](/Actions.aspx?ID=62).\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The assassin deals an additional 2d6 precision damage to flat-footed creatures.\r\n\r\n**Umbral Veil** <actions string=\"Single Action\" /> ([Darkness](/Traits.aspx?ID=39)) **Requirements** The assassin's last action was a successful melee Strike; **Effect** The assassin extends a tendril of shadow to obscure the target's vision, [blinding](/Conditions.aspx?ID=1) them for 1 round (DC 23 Will negates). On a critical failure, they're blind for 1 minute. Creatures with greater darkvision are immune to this ability.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Shadowfade</title>\r\n\r\nCaligni assassins gain their power from an infusion of planar essence directly from the [Netherworld](/Planes.aspx?ID=11), which the [owb](/Monsters.aspx?ID=1257) help them develop into powerful abilities. This comes at a cost: all caligni assassins eventually succumb to an affliction known as shadowfade. This magical malady causes the caligni's body to painfully warp when concealed in shadows, as the plane's ability to create twisted reflections of reality changes their physical form directly.\n\n Sometimes a caligni assassin will flee home and strike out on their own to avoid becoming a twisted tool for their greedy leaders. Such freelancers are in high demand for those seeking a fatal solution to their own political problems.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-18\" />",
+ "name": "Caligni Assassin",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 85",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 18,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-30",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Caligni\" url=\"/Traits.aspx?ID=210\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Shadow\" url=\"/Traits.aspx?ID=143\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 85\r\n\r\n**Creature Family** [Caligni](/MonsterFamilies.aspx?ID=18)\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 27\r\n\r\n**Fort** +16\r\n\r\n**Ref** +18\r\n\r\n**Will** +12\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLauded and shunned, caligni assassins often become unwitting pawns in clashes between caligni settlements or between rival factions of caligni …\r\n</summary>",
+ "sense": " greater darkvision ",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Occultism",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +20, [Athletics](/Skills.aspx?ID=3) +15, [Deception](/Skills.aspx?ID=5) +13, [Intimidation](/Skills.aspx?ID=7) +15, [Occultism](/Skills.aspx?ID=11) +13, [Stealth](/Skills.aspx?ID=15) +20",
+ "skill_mod": {
+  "acrobatics": 20,
+  "athletics": 15,
+  "deception": 13,
+  "intimidation": 15,
+  "occultism": 13,
+  "stealth": 20
+ },
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 85"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 85",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet",
+ "speed_raw": "40 feet",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "stealth": "20",
+ "strike_damage_average": [
+  11,
+  14
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Lauded and shunned, caligni assassins often become unwitting pawns in clashes between caligni settlements or between rival factions of caligni …",
+ "summary_markdown": "Lauded and shunned, caligni assassins often become unwitting pawns in clashes between caligni settlements or between rival factions of caligni …",
+ "text": " Caligni Assassin Lauded and shunned, caligni assassins often become unwitting pawns in clashes between caligni settlements or between rival factions of caligni society. Recall Knowledge - Humanoid (Society): DC 29 Unspecific Lore : DC 27 Specific Lore : DC 24 Caligni Assassin Source Pathfinder #194: Cult of the Cave Worm pg. 85 Perception +14; greater darkvision Languages Caligni, Shadowtongue, Shae, Undercommon Skills Acrobatics +20, Athletics +15, Deception +13, Intimidation +15, Occultism +13, Stealth +20 Str +3 Dex +6 Con +4 Int +3 Wis +2 Cha +1 Items Leather Armor, +1 striking spiked gauntlet , throwing knives (4) --- AC 27 Fort +16 Ref +18 Will +12 HP 135 Countershadow Reaction (darkness, occult) Trigger A creature within 60 feet casts a light spell; Effect The caligni assassin attempts to counteract the triggering spell. Caligni assassins automatically recognize light spells. Death Umbral Shroud (darkness, occult) When a caligni assassin dies, their body disintegrates into a veil of supernatural darkness for 1 round. A 4th-level darkness spell appears, centered on the assassin's location, with a counteract DC of 23. Deny Advantage The assassin isn't flat-footed to creatures of 8th level or lower that are hidden, undetected, flanking, or using surprise attack. Light Blindness --- Speed 40 feet Melee Single Action spiked gauntlet +21 (Agile, Finesse, Magical, versatile S), Damage 2d4+9 piercing plus Umbral Veil Ranged Single Action throwing knife +19 (Agile, Finesse, thrown 20 feet), Damage 1d4+9 piercing Quick Draw Single Action Shadow Leap Three Actions (Darkness, Occult, Teleportation) Requirements The assassin is in dim light or darkness; Effect The assassin vanishes into shadow, appearing in a square of dim light or darkness within 60 feet. If the assassin appears adjacent to a creature, they can Strike that creature, otherwise the assassin can Hide. Sneak Attack The assassin deals an additional 2d6 precision damage to flat-footed creatures. Umbral Veil Single Action (Darkness) Requirements The assassin's last action was a successful melee Strike; Effect The assassin extends a tendril of shadow to obscure the target's vision, blinding them for 1 round (DC 23 Will negates). On a critical failure, they're blind for 1 minute. Creatures with greater darkvision are immune to this ability. Shadowfade Caligni assassins gain their power from an infusion of planar essence directly from the Netherworld, which the owb help them develop into powerful abilities. This comes at a cost: all caligni assassins eventually succumb to an affliction known as shadowfade. This magical malady causes the caligni's body to painfully warp when concealed in shadows, as the plane's ability to create twisted reflections of reality changes their physical form directly. Sometimes a caligni assassin will flee home and strike out on their own to avoid becoming a twisted tool for their greedy leaders. Such freelancers are in high demand for those seeking a fatal solution to their own political problems. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Caligni",
+  "Humanoid",
+  "Rare",
+  "Shadow",
+  "NE",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity",
+  "Planar"
+ ],
+ "trait_markdown": "[Caligni](/Traits.aspx?ID=210), [Humanoid](/Traits.aspx?ID=91), [Rare](/Traits.aspx?ID=137), [Shadow](/Traits.aspx?ID=143)",
+ "trait_raw": [
+  "Caligni",
+  "Humanoid",
+  "Rare",
+  "Shadow"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2696",
+ "vision": "Greater darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 12,
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

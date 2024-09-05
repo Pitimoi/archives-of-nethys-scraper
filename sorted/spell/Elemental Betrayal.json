@@ -1,18 +1,21 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
  "exclude_from_search": false,
  "heighten": [
   "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   1,
@@ -21,53 +24,66 @@
   7,
   9
  ],
- "id": "spell-797",
+ "id": "spell-1878",
+ "legacy_id": "spell-797",
  "level": 1,
  "lesson": [
   "Lesson of the Elements"
  ],
- "lesson_markdown": "[Lesson of the Elements](/Lessons.aspx?ID=2)",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Elemental Betrayal](/Spells.aspx?ID=797)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 238 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of the Elements](/Lessons.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call upon the elements to undermine your foe. When you Cast this Spell, choose [air](/Traits.aspx?ID=5), [earth](/Traits.aspx?ID=55), [fire](/Traits.aspx?ID=72), or [water](/Traits.aspx?ID=165). Each time the target takes damage from a spell or effect with the chosen trait, it takes an additional 2 damage of one damage type dealt by the spell or effect. If you chose fire or water, the target also takes this additional damage when taking fire or cold damage, respectively, from effects or spells without the chosen trait.\n\n---\r\n**Heightened (+2)** Increase the additional damage by 1.",
- "mystery_markdown": "",
+ "lesson_markdown": "[Lesson of the Elements](/Lessons.aspx?ID=17)",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Elemental Betrayal](/Spells.aspx?ID=1878)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of the Elements](/Lessons.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour patron uses its superior command of the elements, empowering them to undermine your foe. When you Cast this Spell, choose [air](/Traits.aspx?ID=5), [earth](/Traits.aspx?ID=55), [metal](/Traits.aspx?ID=505), [fire](/Traits.aspx?ID=72), [water](/Traits.aspx?ID=165), or [wood](/Traits.aspx?ID=508). The target gains weakness 2 to that trait.\n\n---\r\n**Heightened (+2)** Increase the weakness by 1.",
  "name": "Elemental Betrayal",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 385",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 238 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of the Elements](/Lessons.aspx?ID=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call upon the elements to undermine your foe.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of the Elements](/Lessons.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour patron uses its superior command of the elements, empowering them to undermine your foe.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 238"
+  "Player Core pg. 385"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 238 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 385",
  "speed": {},
- "summary": "You call upon the elements to undermine your foe.",
- "summary_markdown": "You call upon the elements to undermine your foe.",
+ "spell_type": "Focus",
+ "summary": "Your patron uses its superior command of the elements, empowering them to undermine your foe.",
+ "summary_markdown": "Your patron uses its superior command of the elements, empowering them to undermine your foe.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Elemental Betrayal Source Advanced Player's Guide pg. 238 2.0 Lesson Lesson of the Elements Cast Single Action verbal Range 30 feet Target 1 creature Duration sustained up to 1 minute --- You call upon the elements to undermine your foe. When you Cast this Spell, choose air, earth, fire, or water. Each time the target takes damage from a spell or effect with the chosen trait, it takes an additional 2 damage of one damage type dealt by the spell or effect. If you chose fire or water, the target also takes this additional damage when taking fire or cold damage, respectively, from effects or spells without the chosen trait. --- Heightened (+2) Increase the additional damage by 1.",
+ "text": "\nElemental Betrayal Single Action Source Player Core pg. 385 Lesson Lesson of the Elements Range 30 feet Target 1 creature Duration sustained up to 1 minute --- Your patron uses its superior command of the elements, empowering them to undermine your foe. When you Cast this Spell, choose air, earth, metal, fire, water, or wood. The target gains weakness 2 to that trait. --- Heightened (+2) Increase the weakness by 1.",
  "tradition_markdown": "",
  "trait": [
-  "Evocation",
+  "Concentrate",
+  "Focus",
   "Hex",
   "Uncommon",
   "Witch"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
-  "Evocation",
+  "Concentrate",
+  "Focus",
   "Hex",
   "Uncommon",
   "Witch"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=797",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1878",
  "weakness": {}
 }

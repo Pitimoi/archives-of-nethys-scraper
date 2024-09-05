@@ -1,0 +1,169 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Dissolve",
+  "Overflow"
+ ],
+ "creature_family": "Elemental, Water",
+ "creature_family_markdown": "[Elemental, Water](/MonsterFamilies.aspx?ID=45)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 7,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 20,
+ "hp_raw": "20",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2659",
+ "image": [
+  "/Images/Monsters/ElementalWater_DewdropJelly.png"
+ ],
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Thalassic"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113)",
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Dewdrop Jelly](/Monsters.aspx?ID=2659)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDewdrop jellies are small water elementals resembling jellyfish made of gelatinous bubbles. They typically travel in small schools, floating through the air or swimming through the endless seas of their home plane. When threatened, the jellies discorporate into a thin, vaporous mist, reconstituting into their bubble shape only after the danger has passed. Their clever elusiveness makes them hard to find, leading some to claim that dewdrop jellies are mythical flights of fancy told to entertain children.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/ElementalWater_DewdropJelly.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Dewdrop Jelly](/Monsters.aspx?ID=2659)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 180\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\n[fire](/Traits.aspx?ID=72) 5\n\n**Dissolve** <actions string=\"Reaction\" /> **Trigger** The dewdrop jelly takes damage from a [hostile action](/Rules.aspx?ID=300); **Effect** The dewdrop jelly dissolves into a fine mist. Until the start of the jelly's next turn, it can't be attacked or targeted and doesn't take up space. At the end of the round, the jelly re-forms in any open space within 25 feet of where it Dissolved.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 20 feet, swim 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +8,\r\n**Damage** 1d6+2 bludgeoning\n\n**Overflow** <actions string=\"Three Actions\" /> ([Move](/Traits.aspx?ID=114)) The dewdrop jelly flattens its bell and shoots forward, [Flying](/Actions.aspx?ID=94) or [Swimming](/Actions.aspx?ID=39) twice in a straight line toward its target and attempting a tentacle Strike. On a success, the dewdrop attaches to the target's face, covering its mouth in the suspended water of its gelatinous body. If the target cannot breathe water, it begins to [drown](/Rules.aspx?ID=468). The DC to [Escape](/Actions.aspx?ID=79) is 16.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-45\" />",
+ "name": "Dewdrop Jelly",
+ "npc": false,
+ "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 180",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-02",
+ "resistance": {
+  "fire": 5
+ },
+ "resistance_markdown": "[fire](/Traits.aspx?ID=72) 5",
+ "resistance_raw": " fire  5",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 180\r\n\r\n**Creature Family** [Elemental, Water](/MonsterFamilies.aspx?ID=45)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +10\r\n\r\n**Will** +4\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDewdrop jellies are small water elementals resembling jellyfish made of gelatinous bubbles. They typically travel in small schools, floating through …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill_mod": {
+  "athletics": 6,
+  "stealth": 7
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 180"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 180",
+ "speed": {
+  "fly": 20,
+  "max": 50,
+  "swim": 50
+ },
+ "speed_markdown": "fly 20 feet, swim 50 feet",
+ "speed_raw": "fly 20 feet, swim 50 feet",
+ "spell_markdown": "",
+ "stealth": "7",
+ "strike_damage_average": [
+  5
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Dewdrop jellies are small water elementals resembling jellyfish made of gelatinous bubbles. They typically travel in small schools, floating through …",
+ "summary_markdown": "Dewdrop jellies are small water elementals resembling jellyfish made of gelatinous bubbles. They typically travel in small schools, floating through …",
+ "text": " Dewdrop Jelly Dewdrop jellies are small water elementals resembling jellyfish made of gelatinous bubbles. They typically travel in small schools, floating through the air or swimming through the endless seas of their home plane. When threatened, the jellies discorporate into a thin, vaporous mist, reconstituting into their bubble shape only after the danger has passed. Their clever elusiveness makes them hard to find, leading some to claim that dewdrop jellies are mythical flights of fancy told to entertain children. Recall Knowledge - Elemental (Arcana, Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Dewdrop Jelly Source Rage of Elements pg. 180 Perception +7; darkvision Languages Thalassic Skills Athletics +6, Stealth +7 Str +2 Dex +3 Con +3 Int -4 Wis +1 Cha +0 --- AC 16 Fort +7 Ref +10 Will +4 HP 20 Immunities bleed, paralyzed, poison, sleep Resistances fire 5 Dissolve Reaction Trigger The dewdrop jelly takes damage from a hostile action; Effect The dewdrop jelly dissolves into a fine mist. Until the start of the jelly's next turn, it can't be attacked or targeted and doesn't take up space. At the end of the round, the jelly re-forms in any open space within 25 feet of where it Dissolved. --- Speed fly 20 feet, swim 50 feet Melee Single Action tentacle +8, Damage 1d6+2 bludgeoning Overflow Three Actions (Move) The dewdrop jelly flattens its bell and shoots forward, Flying or Swimming twice in a straight line toward its target and attempting a tentacle Strike. On a success, the dewdrop attaches to the target's face, covering its mouth in the suspended water of its gelatinous body. If the target cannot breathe water, it begins to drown. The DC to Escape is 16. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Aquatic",
+  "Elemental",
+  "Water",
+  "Small"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Elemental](/Traits.aspx?ID=57), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Aquatic",
+  "Elemental",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2659",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 4,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

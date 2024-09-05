@@ -1,60 +1,112 @@
 {
  "ac": 20,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  10,
+  11,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Sneak Attack",
   "Twin Feint"
  ],
  "creature_family": "Bugbear",
- "creature_family_markdown": "[Bugbear](/MonsterFamilies.aspx?ID=17)",
+ "creature_family_markdown": "[Bugbear](/MonsterFamilies.aspx?ID=374)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 9,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 44,
  "hp_raw": "44",
- "id": "creature-59",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2861",
+ "image": [
+  "/Images/Monsters/Bugbear_Prowler.webp"
+ ],
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chain Shirt",
+  "Dagger",
+  "Sickle (2)"
+ ],
  "language": [
   "Common",
   "Goblin"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6)",
+ "legacy_id": "creature-59",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Bugbear Tormentor](/Monsters.aspx?ID=59)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor can keep their victim alive and terrified, the better they feel.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Bugbear Tormentor](/Monsters.aspx?ID=59)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 47</row>\n\n**Perception** +8; darkvision, scent (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +7, [Stealth](/Skills.aspx?ID=15) +8, [Thievery](/Skills.aspx?ID=17) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Chain Shirt](/Armor.aspx?ID=6), [Sickle](/Weapons.aspx?ID=9) (2)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 44\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +11 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+6 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsickle +11 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d4+6 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+6 piercing\n\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The bugbear tormentor deals 1d6 extra [_precision_](/Rules.aspx?ID=340) damage to [_flat-footed_](/Conditions.aspx?ID=16) creatures\r\n\r\n**Twin Feint** <actions string=\"Two Actions\" />  The bugbear tormentor makes a dazzling series of attacks with two weapons, using the first attack to throw their foe off guard against a second attack at a different angle. They make one Strike with each of their two melee weapons, both against the same target. The target is automatically [_flat-footed_](/Conditions.aspx?ID=16) against the second attack. Apply the bugbear tormentor’s multiple attack penalty to the Strikes normally.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-17\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Bugbear Tormentor](/Monsters.aspx?ID=2861)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor can keep their victim alive and terrified, the better they feel.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Bugbear_Prowler.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Bugbear Tormentor](/Monsters.aspx?ID=2861)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Bugbear\" url=\"/Traits.aspx?ID=744\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 47\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +7, [Stealth](/Skills.aspx?ID=15) +8, [Thievery](/Skills.aspx?ID=17) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Chain Shirt](/Armor.aspx?ID=6), [Dagger](/Weapons.aspx?ID=3), [Sickle](/Weapons.aspx?ID=9) (2)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 44\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +11 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+6 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsickle +11 ([Agile](/Traits.aspx?ID=170), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 1d4+6 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ndagger +10 ([Agile](/Traits.aspx?ID=170), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+6 piercing\n\n**Sneak Attack**   The bugbear tormentor deals 1d6 extra precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\r\n\r\n**Twin Feint** <actions string=\"Two Actions\" />  The bugbear tormentor makes a dazzling series of attacks with two weapons, using the first attack to throw their foe off-guard against a second attack at a different angle. They make one Strike with each of their two melee weapons, both against the same target. The target is automatically [off-guard](/Conditions.aspx?ID=58) against the second attack. The bugbear tormentor applies their multiple attack penalty to these Strikes normally.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-374\" />",
  "name": "Bugbear Tormentor",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 47",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 10,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 47</row>\r\n\r\n**Creature Family** [Bugbear](/MonsterFamilies.aspx?ID=17)\r\n\r\n<row gap=\"medium\">\r\n**HP** 44\r\n\r\n**AC** 20\r\n\r\n**Fort** +9\r\n\r\n**Ref** +10\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor …\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 30 feet",
- "sense_markdown": "darkvision, scent (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Bugbear\" url=\"/Traits.aspx?ID=744\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 47\r\n\r\n**Creature Family** [Bugbear](/MonsterFamilies.aspx?ID=374)\r\n\r\n<row gap=\"medium\">\r\n**HP** 44\r\n\r\n**AC** 20\r\n\r\n**Fort** +9\r\n\r\n**Ref** +10\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Athletics +9",
-  "Intimidation +7",
-  "Stealth +8",
-  "Thievery +8"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Thievery"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +7, [Stealth](/Skills.aspx?ID=15) +8, [Thievery](/Skills.aspx?ID=17) +8",
+ "skill_mod": {
+  "acrobatics": 8,
+  "athletics": 9,
+  "intimidation": 7,
+  "stealth": 8,
+  "thievery": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 47"
+  "Monster Core pg. 47"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 47</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 47",
  "speed": {
   "land": 25,
   "max": 25
@@ -63,32 +115,53 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "stealth": "8",
+ "strike_damage_average": [
+  8,
+  8,
+  8
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "The bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor …",
  "summary_markdown": "The bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor …",
- "text": " Bugbear Tormentor The bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor can keep their victim alive and terrified, the better they feel. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Bugbear Tormentor Source Bestiary pg. 47 Perception +8; darkvision, scent (imprecise) 30 feet Languages Common, Goblin Skills Acrobatics +8, Athletics +9, Intimidation +7, Stealth +8, Thievery +8 Str +4 Dex +3 Con +2 Int -1 Wis +1 Cha +0 Items Chain Shirt, Sickle (2) --- AC 20 Fort +9 Ref +10 Will +6 HP 44 --- Speed 25 feet Melee Single Action dagger +11 (Agile, versatile S), Damage 1d4+6 piercing Melee Single Action sickle +11 (Agile, Finesse, Trip), Damage 1d4+6 slashing Ranged Single Action dagger +10 (Agile, thrown 10 feet, versatile S), Damage 1d4+6 piercing Sneak Attack The bugbear tormentor deals 1d6 extra precision damage to flat-footed creatures Twin Feint Two Actions The bugbear tormentor makes a dazzling series of attacks with two weapons, using the first attack to throw their foe off guard against a second attack at a different angle. They make one Strike with each of their two melee weapons, both against the same target. The target is automatically flat-footed against the second attack. Apply the bugbear tormentor’s multiple attack penalty to the Strikes normally. ",
+ "text": " Bugbear Tormentor The bugbear tormentor seeks to torture their prey as much through psychological intimidation as through physical harm. The longer a bugbear tormentor can keep their victim alive and terrified, the better they feel. Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Bugbear Tormentor Source Monster Core pg. 47 Perception +8; darkvision, scent (imprecise) 30 feet Languages Common, Goblin Skills Acrobatics +8, Athletics +9, Intimidation +7, Stealth +8, Thievery +8 Str +4 Dex +3 Con +2 Int -1 Wis +1 Cha +0 Items Chain Shirt, Dagger, Sickle (2) --- AC 20 Fort +9 Ref +10 Will +6 HP 44 --- Speed 25 feet Melee Single Action dagger +11 (Agile, versatile S), Damage 1d4+6 piercing Melee Single Action sickle +11 (Agile, Trip), Damage 1d4+6 slashing Ranged Single Action dagger +10 (Agile, thrown 10 feet, versatile S), Damage 1d4+6 piercing Sneak Attack The bugbear tormentor deals 1d6 extra precision damage to off-guard creatures. Twin Feint Two Actions The bugbear tormentor makes a dazzling series of attacks with two weapons, using the first attack to throw their foe off-guard against a second attack at a different angle. They make one Strike with each of their two melee weapons, both against the same target. The target is automatically off-guard against the second attack. The bugbear tormentor applies their multiple attack penalty to these Strikes normally. ",
+ "tradition_markdown": "",
  "trait": [
-  "Goblin",
+  "Bugbear",
   "Humanoid",
-  "NE",
   "Medium"
  ],
- "trait_markdown": "[Goblin](/Traits.aspx?ID=81), [Humanoid](/Traits.aspx?ID=91)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Bugbear](/Traits.aspx?ID=744), [Humanoid](/Traits.aspx?ID=628)",
  "trait_raw": [
-  "Goblin",
+  "Bugbear",
   "Humanoid"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=59",
+ "url": "/Monsters.aspx?ID=2861",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 6,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

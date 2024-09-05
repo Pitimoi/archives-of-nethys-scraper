@@ -1,0 +1,156 @@
+{
+ "ac": 21,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  13,
+  15,
+  15
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Studded Cheeks",
+  "Defensive Scream",
+  "Concussive Gem",
+  "Forage for Gems",
+  "Natural Speed",
+  "Screaming Force"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 13,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 95,
+ "hp_raw": "95",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3315",
+ "image": [
+  "/Images/Monsters/Taldan_Cave_Squirrel.webp"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"\">[Taldan Cave Squirrel](/Monsters.aspx?ID=3315)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nTaldan cave squirrels, also known as tauhotis, are a curious cousin of the much smaller common ground squirrel, found anywhere with large, grassy flatlands. The creatures burrow underground, forming cave systems tall enough for giants in astonishingly little time. Once the caves are excavated, the squirrels turn their attention toward the largest quantities of gems or metals they can find—including those in the ground floors and vaults of nearby buildings. Nothing is off-limits, and no effort is too large when these squirrels go gem hunting.\n\n Cave squirrels' desire for these precious stones and ores arises not from greed, but rather productivity. After returning to the cave system, cheek pouches full of treasure, the males deposit the stolen goods before the females, who lick and spit on the piles of gems and metals to form them into structural pillars. Given the cave squirrels' tireless work habits, these pillars can solidify in a matter of hours, easily displacing existing stone and soil. Many an Opparan groundskeeper has stepped outside after a lovely teatime to find months of work undone in a scene of utter, glittering chaos. Architects throughout history have attempted to recreate or imitate these gleaming pillars; however, they rarely succeeded, for they often lacked a certain unpredictable pragmatism the cave squirrels seem to effortlessly achieve.\n\n When threatened, cave squirrels will let out a high-pitched scream to warn their colony. They can spit out any food or building materials in their cheek pouches with deadly speeds at attackers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Taldan_Cave_Squirrel.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Taldan Cave Squirrel](/Monsters.aspx?ID=3315)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 186\n\n**Perception** +15; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412))\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +11, [Athletics](/Skills.aspx?ID=36) +12, [Survival](/Skills.aspx?ID=49) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +5\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Studded Cheeks** The cave squirrel can store up to six gems in its cheeks. It typically begins combat with all six, and it loses a gem each time it uses gem spit.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 95\n\n</row>\n\n**Defensive Scream** <actions string=\"Reaction\" /> ([auditory](/Traits.aspx?ID=541)) **Trigger** The cave squirrel rolls initiative or has taken damage before initiative; **Effect** The cave squirrel lets out an earpiercing shriek, alerting any other cave squirrels in the area to its plight. It uses Screaming Force.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, burrow 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +15 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+4 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +13 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d8+4 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ngem spit +15 ([range 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d8+6 bludgeoning plus concussive gem\n\n**Concussive Gem**   On a critical hit on a gem spit Strike, the target must succeed at a DC 22 Fortitude save or become [stunned 1](/Conditions.aspx?ID=93).\r\n\r\n**Forage for Gems** <actions string=\"Two Actions\" />  The cave squirrel dives underground in search of gems. The cave squirrel [Burrows](/Actions.aspx?ID=2310) up to its Speed. It must end its movement back on the surface. During its burrow, it happens upon 1d4 cheap gems (such as salt or quartz), which it stuffs in its cheeks, up to its maximum of 6.\r\n\r\n**Natural Speed**   A cave squirrel isn't affected by [difficult terrain](/Rules.aspx?ID=453) from earth or stone.\r\n\r\n**Screaming Force** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Sonic](/Traits.aspx?ID=147)) The cave squirrel lets out a terrible scream. Non–cave squirrel creatures within 30 feet must succeed at a DC 22 Fortitude save or take 2d10 sonic damage. On a critical failure, a creature is [deafened](/Conditions.aspx?ID=66) for 1 minute. The cave squirrel can't use Screaming Force again for 1d4 rounds.\r\n\r\n</column>",
+ "name": "Taldan Cave Squirrel",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 186",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 186\n\n<row gap=\"medium\">\r\n**HP** 95\r\n\r\n**AC** 21\r\n\r\n**Fort** +13\r\n\r\n**Ref** +15\r\n\r\n**Will** +9\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTaldan cave squirrels, also known as tauhotis, are a curious cousin of the much smaller common ground squirrel, found anywhere with large, grassy …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 60 feet,  tremorsense  ( imprecise )",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412))",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +11, [Athletics](/Skills.aspx?ID=36) +12, [Survival](/Skills.aspx?ID=49) +13",
+ "skill_mod": {
+  "acrobatics": 11,
+  "athletics": 12,
+  "survival": 13
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 186"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 186",
+ "speed": {
+  "burrow": 40,
+  "land": 30,
+  "max": 40
+ },
+ "speed_markdown": "30 feet, burrow 40 feet",
+ "speed_raw": "30 feet, burrow 40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  11,
+  13,
+  15
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Taldan cave squirrels, also known as tauhotis, are a curious cousin of the much smaller common ground squirrel, found anywhere with large, grassy …",
+ "summary_markdown": "Taldan cave squirrels, also known as tauhotis, are a curious cousin of the much smaller common ground squirrel, found anywhere with large, grassy …",
+ "text": " Taldan Cave Squirrel Taldan cave squirrels, also known as tauhotis, are a curious cousin of the much smaller common ground squirrel, found anywhere with large, grassy flatlands. The creatures burrow underground, forming cave systems tall enough for giants in astonishingly little time. Once the caves are excavated, the squirrels turn their attention toward the largest quantities of gems or metals they can find—including those in the ground floors and vaults of nearby buildings. Nothing is off-limits, and no effort is too large when these squirrels go gem hunting. Cave squirrels' desire for these precious stones and ores arises not from greed, but rather productivity. After returning to the cave system, cheek pouches full of treasure, the males deposit the stolen goods before the females, who lick and spit on the piles of gems and metals to form them into structural pillars. Given the cave squirrels' tireless work habits, these pillars can solidify in a matter of hours, easily displacing existing stone and soil. Many an Opparan groundskeeper has stepped outside after a lovely teatime to find months of work undone in a scene of utter, glittering chaos. Architects throughout history have attempted to recreate or imitate these gleaming pillars; however, they rarely succeeded, for they often lacked a certain unpredictable pragmatism the cave squirrels seem to effortlessly achieve. When threatened, cave squirrels will let out a high-pitched scream to warn their colony. They can spit out any food or building materials in their cheek pouches with deadly speeds at attackers. Recall Knowledge - Animal (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Taldan Cave Squirrel Source Howl of the Wild pg. 186 Perception +15; low-light vision, scent (imprecise) 60 feet, tremorsense (imprecise) Languages Skills Acrobatics +11, Athletics +12, Survival +13 Str +4 Dex +4 Con +5 Int -4 Wis +1 Cha +2 Studded Cheeks The cave squirrel can store up to six gems in its cheeks. It typically begins combat with all six, and it loses a gem each time it uses gem spit. --- AC 21 Fort +13 Ref +15 Will +9 HP 95 Defensive Scream Reaction (auditory) Trigger The cave squirrel rolls initiative or has taken damage before initiative; Effect The cave squirrel lets out an earpiercing shriek, alerting any other cave squirrels in the area to its plight. It uses Screaming Force. --- Speed 30 feet, burrow 40 feet Melee Single Action jaws +15 (Agile), Damage 2d6+4 piercing plus Grab Melee Single Action claw +13 (Agile), Damage 2d8+4 slashing Ranged Single Action gem spit +15 (range 20 feet), Damage 2d8+6 bludgeoning plus concussive gem Concussive Gem On a critical hit on a gem spit Strike, the target must succeed at a DC 22 Fortitude save or become stunned 1. Forage for Gems Two Actions The cave squirrel dives underground in search of gems. The cave squirrel Burrows up to its Speed. It must end its movement back on the surface. During its burrow, it happens upon 1d4 cheap gems (such as salt or quartz), which it stuffs in its cheeks, up to its maximum of 6. Natural Speed A cave squirrel isn't affected by difficult terrain from earth or stone. Screaming Force Single Action (Auditory, Sonic) The cave squirrel lets out a terrible scream. Non–cave squirrel creatures within 30 feet must succeed at a DC 22 Fortitude save or take 2d10 sonic damage. On a critical failure, a creature is deafened for 1 minute. The cave squirrel can't use Screaming Force again for 1d4 rounds. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3315",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 9,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

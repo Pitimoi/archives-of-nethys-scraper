@@ -1,75 +1,125 @@
 {
  "ac": 31,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  21,
+  23,
+  24
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Sacrilegious Aura",
-  "Attack of Opportunity",
+  "Reactive Strike",
   "Devastating Blast",
   "Graveknight's Curse",
   "Phantom Mount",
   "Weapon Master"
  ],
  "creature_family": "Graveknight",
- "creature_family_markdown": "[Graveknight](/MonsterFamilies.aspx?ID=291)",
+ "creature_family_markdown": "[Graveknight](/MonsterFamilies.aspx?ID=423)",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 175,
- "hp_raw": "175 ( negative healing , rejuvenation)",
- "id": "creature-244",
+ "hp_raw": "175 (rejuvenation,  void healing  (page 360))",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3030",
  "image": [
-  "/Images/Monsters/Graveknight.png"
+  "/Images/Monsters/Graveknight.webp"
  ],
  "immunity": [
+  "bleed",
   "cold",
-  "death",
+  "death  effects",
   "disease",
   "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "cold, death, disease, paralyzed, poison, unconscious",
+ "immunity_markdown": "bleed, [cold](/Traits.aspx?ID=555), [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Composite Longbow (20 arrows)",
+  "+1 resilient full plate",
+  "Greatsword"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-244",
  "level": 10,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Graveknight](/Monsters.aspx?ID=244)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGraveknights are undead warriors granted unlife by a cursed suit of armor.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 27\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 25\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 22\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Graveknight.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Graveknight](/Monsters.aspx?ID=244)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 191</row>\n\n**Perception** +19; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +23, [Intimidation](/Skills.aspx?ID=7) +22, [Religion](/Skills.aspx?ID=13) +19, [Warfare Lore](/Skills.aspx?ID=8) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +4\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n[Composite Longbow](/Weapons.aspx?ID=74) (20 arrows), [Greatsword](/Weapons.aspx?ID=24), _+1 [resilient](/Equipment.aspx?ID=279) [full plate](/Armor.aspx?ID=13)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n**HP** 175\r\n([negative healing](/MonsterAbilities.aspx?ID=42), rejuvenation)\n\n**Immunities**\r\ncold, death, disease, paralyzed, poison, unconscious\n\n**Sacrilegious Aura** ([abjuration](/Traits.aspx?ID=2), [aura](/Traits.aspx?ID=206), [divine](/Traits.aspx?ID=48), [evil](/Traits.aspx?ID=64)) 30 feet. When a creature in the aura uses a [positive](/Traits.aspx?ID=128) spell or ability, the graveknight automatically attempts to [counteract](/Rules.aspx?ID=371) it, with a +17 counteract modifier.<br /> **Attack of Opportunity** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_frost greatsword_ +24 ([Cold](/Traits.aspx?ID=27), [Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d12+10 slashing plus 1d6 cold\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +23 ([Agile](/Traits.aspx?ID=170), [Cold](/Traits.aspx?ID=27)),\r\n**Damage** 2d6+10 bludgeoning plus 1d6 cold\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_frost composite longbow_ +21 ([Cold](/Traits.aspx?ID=27), [deadly 1d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [range increment 100 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254), [volley 30 feet](/Traits.aspx?ID=201)),\r\n**Damage** 2d8+6 piercing plus 1d6 cold\n\n**Devastating Blast** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65)) The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 6d12 cold damage (DC 29 basic Reflex save). The graveknight can use this ability once every 1d4 rounds.\r\n\r\n**Graveknight's Curse**   This curse affects anyone who wears a graveknight’s armor for at least 1 hour. **Saving Throw** DC 33 Will save; **Onset** 1 hour; **Stage 1** doomed 1 and cannot remove the armor (1 day); **Stage 2** doomed 2, hampered 10, and cannot remove the armor (1 day); **Stage 3** dies and transforms into the armor’s graveknight.\r\n\r\n**Phantom Mount** <actions string=\"Three Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Conjuration](/Traits.aspx?ID=33)) The graveknight summons a supernatural mount as per [_phantom steed_](/Spells.aspx?ID=221), heightened to a level equal to half the graveknight's level. Unlike _phantom steed_, the steed's AC and saving throw bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Hit Points (rounded down). If the steed is destroyed, the graveknight must wait 1 hour before using this ability again. <br />HP 58; AC 27, Fort +17, Ref +15, Will +14.\r\n\r\n**Weapon Master**   The graveknight has access to the critical specialization effects of any weapons it wields.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-291\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Graveknight](/Monsters.aspx?ID=3030)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGraveknights are undead warriors granted unlife by a cursed suit of armor.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 27\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 25\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 22\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Graveknight.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 10\">[Graveknight](/Monsters.aspx?ID=3030)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Graveknight\" url=\"/Traits.aspx?ID=755\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 179\n\n**Perception** +19; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +23, [Intimidation](/Skills.aspx?ID=7) +22, [Religion](/Skills.aspx?ID=13) +19, [Warfare Lore](/Skills.aspx?ID=8) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +4\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n[Composite Longbow](/Weapons.aspx?ID=74) (20 arrows), _+1 [resilient](/Equipment.aspx?ID=2786) [full plate](/Armor.aspx?ID=50)_, [Greatsword](/Weapons.aspx?ID=24)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 175\r\n(rejuvenation, [void healing](/MonsterAbilities.aspx?ID=83) (page 360))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [cold](/Traits.aspx?ID=555), [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\n\n**Sacrilegious Aura** 30 feet. [Counteract](/Rules.aspx?ID=371) modifier +17<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_frost greatsword_ +24 ([Cold](/Traits.aspx?ID=27), [Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d12+10 slashing plus 1d6 cold\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +23 ([Agile](/Traits.aspx?ID=170), [Cold](/Traits.aspx?ID=27)),\r\n**Damage** 2d6+10 bludgeoning plus 1d6 cold\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_frost composite longbow_ +21 ([Cold](/Traits.aspx?ID=27), [deadly d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [range increment 100 feet](/Traits.aspx?ID=248), [Propulsive](/Traits.aspx?ID=191), [reload 0](/Traits.aspx?ID=254), [volley 30 feet](/Traits.aspx?ID=201)),\r\n**Damage** 2d8+6 piercing plus 1d6 cold\n\n**Devastating Blast** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Cold](/Traits.aspx?ID=27)) 11d6 cold, DC 29\r\n\r\n**Graveknight's Curse**   DC 33\r\n\r\n**Phantom Mount** <actions string=\"Three Actions\" /> ([Arcane](/Traits.aspx?ID=11)) HP 58; AC 27; Fort +17, Ref +15, Will +14\r\n\r\n**Weapon Master**   \r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-423\" />",
  "name": "Graveknight",
  "npc": false,
  "perception": 19,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 179",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 19,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 191</row>\r\n\r\n**Creature Family** [Graveknight](/MonsterFamilies.aspx?ID=291)\r\n\r\n<row gap=\"medium\">\r\n**HP** 175 ( negative healing , rejuvenation)\r\n\r\n**AC** 31\r\n\r\n**Fort** +21\r\n\r\n**Ref** +19\r\n\r\n**Will** +18\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGraveknights are undead warriors granted unlife by a cursed suit of armor.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Graveknight\" url=\"/Traits.aspx?ID=755\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 179\r\n\r\n**Creature Family** [Graveknight](/MonsterFamilies.aspx?ID=423)\r\n\r\n<row gap=\"medium\">\r\n**HP** 175 (rejuvenation,  void healing  (page 360))\r\n\r\n**AC** 31\r\n\r\n**Fort** +21\r\n\r\n**Ref** +19\r\n\r\n**Will** +18\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGraveknights are undead warriors granted unlife by a cursed suit of armor.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +23",
-  "Intimidation +22",
-  "Religion +19",
-  "Warfare Lore +20"
+  "Athletics",
+  "Intimidation",
+  "Religion",
+  "Warfare Lore"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +23, [Intimidation](/Skills.aspx?ID=7) +22, [Religion](/Skills.aspx?ID=13) +19, [Warfare Lore](/Skills.aspx?ID=8) +20",
+ "skill_mod": {
+  "athletics": 23,
+  "intimidation": 22,
+  "religion": 19
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 191"
+  "Monster Core pg. 179"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 191</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 179",
  "speed": {
   "land": 25,
   "max": 25
@@ -77,30 +127,57 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  18,
+  20,
+  26
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
  "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "Graveknights are undead warriors granted unlife by a cursed suit of armor.",
  "summary_markdown": "Graveknights are undead warriors granted unlife by a cursed suit of armor.",
- "text": " Graveknight Graveknights are undead warriors granted unlife by a cursed suit of armor. Recall Knowledge - Undead (Religion): DC 27 Unspecific Lore : DC 25 Specific Lore : DC 22 Graveknight Source Bestiary pg. 191 Perception +19; darkvision Languages Common, Necril Skills Athletics +23, Intimidation +22, Religion +19, Warfare Lore +20 Str +7 Dex +4 Con +4 Int +2 Wis +3 Cha +5 Items Composite Longbow (20 arrows), Greatsword, +1 resilient full plate --- AC 31 Fort +21 Ref +19 Will +18 HP 175 (negative healing, rejuvenation) Immunities cold, death, disease, paralyzed, poison, unconscious Sacrilegious Aura (abjuration, aura, divine, evil) 30 feet. When a creature in the aura uses a positive spell or ability, the graveknight automatically attempts to counteract it, with a +17 counteract modifier. Attack of Opportunity Reaction --- Speed 25 feet Melee Single Action frost greatsword +24 (Cold, Magical, versatile P), Damage 2d12+10 slashing plus 1d6 cold Melee Single Action fist +23 (Agile, Cold), Damage 2d6+10 bludgeoning plus 1d6 cold Ranged Single Action frost composite longbow +21 (Cold, deadly 1d10, Magical, range increment 100 feet, reload 0, volley 30 feet), Damage 2d8+6 piercing plus 1d6 cold Devastating Blast Two Actions (Arcane, Cold, Evocation) The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 6d12 cold damage (DC 29 basic Reflex save). The graveknight can use this ability once every 1d4 rounds. Graveknight's Curse This curse affects anyone who wears a graveknight’s armor for at least 1 hour. Saving Throw DC 33 Will save; Onset 1 hour; Stage 1 doomed 1 and cannot remove the armor (1 day); Stage 2 doomed 2, hampered 10, and cannot remove the armor (1 day); Stage 3 dies and transforms into the armor’s graveknight. Phantom Mount Three Actions (Arcane, Conjuration) The graveknight summons a supernatural mount as per phantom steed , heightened to a level equal to half the graveknight's level. Unlike phantom steed , the steed's AC and saving throw bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Hit Points (rounded down). If the steed is destroyed, the graveknight must wait 1 hour before using this ability again. HP 58; AC 27, Fort +17, Ref +15, Will +14. Weapon Master The graveknight has access to the critical specialization effects of any weapons it wields. ",
+ "text": " Graveknight Graveknights are undead warriors granted unlife by a cursed suit of armor. Recall Knowledge - Undead (Religion): DC 27 Unspecific Lore : DC 25 Specific Lore : DC 22 Graveknight Source Monster Core pg. 179 Perception +19; darkvision Languages Common, Necril Skills Athletics +23, Intimidation +22, Religion +19, Warfare Lore +20 Str +7 Dex +4 Con +4 Int +2 Wis +3 Cha +5 Items Composite Longbow (20 arrows), +1 resilient full plate , Greatsword --- AC 31 Fort +21 Ref +19 Will +18 HP 175 (rejuvenation, void healing (page 360)) Immunities bleed, cold, death effects, disease, paralyzed, poison, unconscious Sacrilegious Aura 30 feet. Counteract modifier +17 Reactive Strike Reaction --- Speed 25 feet Melee Single Action frost greatsword +24 (Cold, Magical, versatile P), Damage 2d12+10 slashing plus 1d6 cold Melee Single Action fist +23 (Agile, Cold), Damage 2d6+10 bludgeoning plus 1d6 cold Ranged Single Action frost composite longbow +21 (Cold, deadly d10, Magical, range increment 100 feet, Propulsive, reload 0, volley 30 feet), Damage 2d8+6 piercing plus 1d6 cold Devastating Blast Two Actions (Arcane, Cold) 11d6 cold, DC 29 Graveknight's Curse DC 33 Phantom Mount Three Actions (Arcane) HP 58; AC 27; Fort +17, Ref +15, Will +14 Weapon Master ",
+ "tradition_markdown": "",
  "trait": [
+  "Graveknight",
   "Undead",
-  "LE",
+  "Unholy",
   "Medium"
  ],
- "trait_markdown": "[Undead](/Traits.aspx?ID=160)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Graveknight](/Traits.aspx?ID=755), [Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
-  "Undead"
+  "Graveknight",
+  "Undead",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=244",
+ "url": "/Monsters.aspx?ID=3030",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 18,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

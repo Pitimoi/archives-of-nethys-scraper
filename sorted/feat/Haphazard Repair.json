@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Haphazard Repair",
  "id": "feat-3046",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Haphazard Repair](/Feats.aspx?ID=3046) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Unstable\" url=\"/Traits.aspx?ID=416\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25</row>\n\n</column>\r\n\r\n---\r\n\r\nYou quickly fix your innovation, at the cost of its stability. You [Repair](/Actions.aspx?ID=42) your innovation almost immediately. You don't have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it), as well as having a [repair kit](/Equipment.aspx?ID=43) as normal.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Haphazard Repair](/Feats.aspx?ID=3046) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Unstable\" url=\"/Traits.aspx?ID=416\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25\n\n</column>\r\n\r\n---\r\n\r\nYou quickly fix your innovation, at the cost of its stability. You [Repair](/Actions.aspx?ID=42) your innovation almost immediately. You don't have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it), as well as having a [repair kit](/Equipment.aspx?ID=43) as normal.",
  "name": "Haphazard Repair",
  "pfs": "Standard",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 25",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Unstable\" url=\"/Traits.aspx?ID=416\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25</row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou quickly fix your innovation, at the cost of its stability.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Unstable\" url=\"/Traits.aspx?ID=416\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou quickly fix your innovation, at the cost of its stability.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 25"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 25",
  "speed": {},
  "summary": "You quickly fix your innovation, at the cost of its stability.",
  "summary_markdown": "You quickly fix your innovation, at the cost of its stability.",
@@ -31,6 +38,10 @@
  "trait": [
   "Inventor",
   "Unstable"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Inventor](/Traits.aspx?ID=408), [Unstable](/Traits.aspx?ID=416)",
  "trait_raw": [

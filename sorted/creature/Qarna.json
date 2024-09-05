@@ -1,0 +1,205 @@
+{
+ "ac": 22,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  13,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Archon's Protection",
+  "Archon's Pursuit",
+  "Distracting Arrow",
+  "Touch of Charity"
+ ],
+ "creature_family": "Archon",
+ "creature_family_markdown": "[Archon](/MonsterFamilies.aspx?ID=365)",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 65,
+ "hp_raw": "65",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2833",
+ "image": [
+  "/Images/Monsters/Qarna.webp"
+ ],
+ "immunity": [
+  "fear"
+ ],
+ "immunity_markdown": "[fear](/Traits.aspx?ID=598)",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Composite Longbow (20 arrows)"
+ ],
+ "language": [
+  "Diabolic",
+  "Draconic",
+  "Empyrean",
+  "Utopian",
+  "<%SPELLS%1728%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115), [Utopian](/Languages.aspx?ID=36); [_truespeech_](/Spells.aspx?ID=1728)",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Qarna (Horned Archon)](/Monsters.aspx?ID=2833)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nQarnas are secretive and tireless sentinels and scouts, patrolling the Outer Sphere's untamed wilds for evil to eliminate and keeping small communities safe from [demons](/MonsterFamilies.aspx?ID=387), [devils](/MonsterFamilies.aspx?ID=389), and worse. They resemble ornate statuesque creations with four stag-like heads and golden horns. When requested to do so by their allies, especially the god [Erastil](/Deities.aspx?ID=282), they journey into [the Universe](/Planes.aspx?ID=26) and patrol dangerous frontier areas, secretly performing acts of kindness such as leading hunters to food, helping lost children, and driving off evil creatures.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Qarna.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Qarna](/Monsters.aspx?ID=2833)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Archon\" url=\"/Traits.aspx?ID=536\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 27\n\n**Perception** +11; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115), [Utopian](/Languages.aspx?ID=36); [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +12, [Intimidation](/Skills.aspx?ID=7) +11, [Nature](/Skills.aspx?ID=10) +11, [Religion](/Skills.aspx?ID=13) +9, [Stealth](/Skills.aspx?ID=15) +10, [Survival](/Skills.aspx?ID=16) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Composite Longbow](/Weapons.aspx?ID=74) (20 arrows)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 [all-around vision](/MonsterAbilities.aspx?ID=49)\r\n\r\n**Fort** +11 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +11 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\n\n</row>\r\n\r\n**Immunities**\r\n[fear](/Traits.aspx?ID=598)\n\n**Weaknesses**\r\n[unholy](/Traits.aspx?ID=521) 5\r\n\r\n**Archon's Protection** <actions string=\"Reaction\" /> **Trigger** An enemy damages the archon's ally and both are within 15 feet of the archon; **Effect** The ally gains resistance 5 to all damage against the triggering damage and the archon can make a Strike against the enemy.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorn +13 ([Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d8+9 piercing plus [Push](/MonsterAbilities.aspx?ID=47)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite longbow +14 ([Holy](/Traits.aspx?ID=517), [deadly d10](/Traits.aspx?ID=174), [Magical](/Traits.aspx?ID=103), [Propulsive](/Traits.aspx?ID=191), [range increment 100 feet](/Traits.aspx?ID=248), [volley 30 feet](/Traits.aspx?ID=201)),\r\n**Damage** 1d8+7 piercing\r\n\r\n**Divine Innate Spells** DC 21\r\n- **Cantrips (2nd)**\r\n[Light](/Spells.aspx?ID=171)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34) (animals only; ×3), [Sure Strike](/Spells.aspx?ID=1709) (×3)\r\n- **2nd**\r\n[Animal Messenger](/Spells.aspx?ID=11) (×3)\r\n- **4th**\r\n[Translocate](/Spells.aspx?ID=1724) (×3)\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**Archon's Pursuit** <actions string=\"Two Actions\" />  **Frequency** once per day; **Requirements** The qarna saw another creature teleport within the last round and has at least one [_translocate_](/Spells.aspx?ID=1724) spell remaining; **Effect** The qarna casts one of their _translocate_ spells, which is heightened to 5th rank and causes the qarna to arrive in an unoccupied space it chooses within 30 feet of the creature it's pursuing. If the creature is too far away, the qarna arrives as close as possible.\r\n\r\n**Distracting Arrow** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Mental](/Traits.aspx?ID=106)) The qarna makes a composite longbow Strike. If it hits, the arrow lodges in the target and that creature's senses focus on the archon, leaving all else blurry. That creature takes a –2 status penalty to attack rolls and Perception checks against any target other than the qarna. The creature can Interact to remove the arrow, which ends the effect.\r\n\r\n**Touch of Charity** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Vitality](/Traits.aspx?ID=509)) The qarna touches a willing living creature to take on that creature's wounds. The qarna transfers up to 30 of their own HP to the touched creature. (The qarna can't transfer more HP than they currently have.)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-365\" />",
+ "name": "Qarna",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 27",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Archon\" url=\"/Traits.aspx?ID=536\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 27\r\n\r\n**Creature Family** [Archon](/MonsterFamilies.aspx?ID=365)\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 22\r\n\r\n**Fort** +11\r\n\r\n**Ref** +10\r\n\r\n**Will** +11\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nQarnas are secretive and tireless sentinels and scouts, patrolling the Outer Sphere's untamed wilds for evil to eliminate and keeping small …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Intimidation",
+  "Nature",
+  "Religion",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +12, [Intimidation](/Skills.aspx?ID=7) +11, [Nature](/Skills.aspx?ID=10) +11, [Religion](/Skills.aspx?ID=13) +9, [Stealth](/Skills.aspx?ID=15) +10, [Survival](/Skills.aspx?ID=16) +11",
+ "skill_mod": {
+  "acrobatics": 12,
+  "intimidation": 11,
+  "nature": 11,
+  "religion": 9,
+  "stealth": 10,
+  "survival": 11
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 27"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 27",
+ "speed": {
+  "land": 35,
+  "max": 35
+ },
+ "speed_markdown": "35 feet",
+ "speed_raw": "35 feet",
+ "spell": [
+  "Translocate",
+  "Animal Messenger",
+  "Charm",
+  "Sure Strike",
+  "Light",
+  "Truespeech"
+ ],
+ "spell_markdown": "[Animal Messenger](/Spells.aspx?ID=11), [Charm](/Spells.aspx?ID=34), [Light](/Spells.aspx?ID=171), [Sure Strike](/Spells.aspx?ID=1709), [Translocate](/Spells.aspx?ID=1724), [Truespeech](/Spells.aspx?ID=1728)",
+ "spell_dc": [
+  21
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "10",
+ "strike_damage_average": [
+  11,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude",
+  "will"
+ ],
+ "summary": "Qarnas are secretive and tireless sentinels and scouts, patrolling the Outer Sphere's untamed wilds for evil to eliminate and keeping small …",
+ "summary_markdown": "Qarnas are secretive and tireless sentinels and scouts, patrolling the Outer Sphere's untamed wilds for evil to eliminate and keeping small …",
+ "text": " Qarna (Horned Archon) Qarnas are secretive and tireless sentinels and scouts, patrolling the Outer Sphere's untamed wilds for evil to eliminate and keeping small communities safe from demons, devils, and worse. They resemble ornate statuesque creations with four stag-like heads and golden horns. When requested to do so by their allies, especially the god Erastil, they journey into the Universe and patrol dangerous frontier areas, secretly performing acts of kindness such as leading hunters to food, helping lost children, and driving off evil creatures. Recall Knowledge - Celestial (Religion): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Qarna Source Monster Core pg. 27 Perception +11; darkvision Languages Diabolic, Draconic, Empyrean, Utopian; truespeech Skills Acrobatics +12, Intimidation +11, Nature +11, Religion +9, Stealth +10, Survival +11 Str +3 Dex +4 Con +3 Int +1 Wis +3 Cha +1 Items Composite Longbow (20 arrows) --- AC 22 all-around vision Fort +11 Ref +10 Will +11 +1 status to all saves vs. magic HP 65 Immunities fear Weaknesses unholy 5 Archon's Protection Reaction Trigger An enemy damages the archon's ally and both are within 15 feet of the archon; Effect The ally gains resistance 5 to all damage against the triggering damage and the archon can make a Strike against the enemy. --- Speed 35 feet Melee Single Action horn +13 (Holy, Magical), Damage 1d8+9 piercing plus Push Ranged Single Action composite longbow +14 (Holy, deadly d10, Magical, Propulsive, range increment 100 feet, volley 30 feet), Damage 1d8+7 piercing Divine Innate Spells DC 21 - Cantrips (2nd) Light - 1st Charm (animals only; ×3), Sure Strike (×3) - 2nd Animal Messenger (×3) - 4th Translocate (×3) - Constant (5th) Truespeech Archon's Pursuit Two Actions Frequency once per day; Requirements The qarna saw another creature teleport within the last round and has at least one translocate spell remaining; Effect The qarna casts one of their translocate spells, which is heightened to 5th rank and causes the qarna to arrive in an unoccupied space it chooses within 30 feet of the creature it's pursuing. If the creature is too far away, the qarna arrives as close as possible. Distracting Arrow Two Actions (Divine, Mental) The qarna makes a composite longbow Strike. If it hits, the arrow lodges in the target and that creature's senses focus on the archon, leaving all else blurry. That creature takes a –2 status penalty to attack rolls and Perception checks against any target other than the qarna. The creature can Interact to remove the arrow, which ends the effect. Touch of Charity Single Action (Divine, Healing, Manipulate, Vitality) The qarna touches a willing living creature to take on that creature's wounds. The qarna transfers up to 30 of their own HP to the touched creature. (The qarna can't transfer more HP than they currently have.) ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Archon",
+  "Celestial",
+  "Holy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Archon](/Traits.aspx?ID=536), [Celestial](/Traits.aspx?ID=551), [Holy](/Traits.aspx?ID=517)",
+ "trait_raw": [
+  "Archon",
+  "Celestial",
+  "Holy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2833",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "unholy": 5
+ },
+ "weakness_markdown": "[unholy](/Traits.aspx?ID=521) 5",
+ "weakness_raw": " unholy  5",
+ "will_save": 11,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

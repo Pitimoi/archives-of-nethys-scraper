@@ -1,65 +1,110 @@
 {
- "ac": 19,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  13
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Breath Weapon"
+  "Hellfire Breath",
+  "Pack Attack"
  ],
  "creature_family": "Hell Hound",
- "creature_family_markdown": "[Hell Hound](/MonsterFamilies.aspx?ID=60)",
+ "creature_family_markdown": "[Hell Hound](/MonsterFamilies.aspx?ID=427)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 9,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 40,
  "hp_raw": "40",
- "id": "creature-259",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3047",
  "image": [
-  "/Images/Monsters/HellHound_HellHound.png"
+  "/Images/Monsters/Hell_Hound.webp"
  ],
  "immunity": [
   "fire"
  ],
- "immunity_markdown": "fire",
+ "immunity_markdown": "[fire](/Traits.aspx?ID=604)",
  "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Infernal",
-  "(can’t speak any language)"
+  "Diabolic",
+  "(can't speak any language)"
  ],
- "language_markdown": "[Infernal](/Languages.aspx?ID=19); (can’t speak any language)",
+ "language_markdown": "[Diabolic](/Languages.aspx?ID=117); (can't speak any language)",
+ "legacy_id": "creature-259",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Hell Hound](/Monsters.aspx?ID=259)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA hell hound’s appearance dismisses any doubts as to its infernal origins—flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, and a shroud of ever-burning hell are are all trademark features.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/HellHound_HellHound.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Hell Hound](/Monsters.aspx?ID=259)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 205</row>\n\n**Perception** +9; darkvision, scent (imprecise) 60 feet\r\n\r\n**Languages**\r\n[Infernal](/Languages.aspx?ID=19); (can’t speak any language)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +9, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -2\r\n\r\n**Wis** +2\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 40\n\n**Immunities**\r\nfire\n\n**Weaknesses**\r\ncold 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +13 ([Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d8+4 piercing plus 1d6 evil and 1d6 fire\n\n**Breath Weapon** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72)) The hell hound breathes flames that deal 4d6 fire damage to all creatures in a 15-foot cone (DC 19 basic Reflex save). The hell hound can’t use Breath Weapon again for 1d4 rounds. If the hell hound would take fire damage or be targeted by a fire effect, its Breath Weapon recharges.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-60\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Hell Hound](/Monsters.aspx?ID=3047)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA hell hound's appearance dismisses any doubts as to their infernal origins— flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, and a shroud of ever-burning hellfire are all trademark features.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hell_Hound.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Hell Hound](/Monsters.aspx?ID=3047)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 194\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\r\n[Diabolic](/Languages.aspx?ID=117); (can't speak any language)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +9, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -2\r\n\r\n**Wis** +2\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=604)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=555) 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +13 ([Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 1d8+4 piercing plus 1d6 fire\n\n**Hellfire Breath** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Fire](/Traits.aspx?ID=72), [Unholy](/Traits.aspx?ID=521)) The hell hound breathes flames that deal 4d6 fire damage to all creatures in a 15-foot cone (DC 19 [basic](/Rules.aspx?ID=329) Reflex save). The hell hound can't use Hellfire Breath again for 1d4 rounds. If the hell hound would take fire damage or be targeted by a [fire](/Traits.aspx?ID=604) effect, their Hellfire Breath recharges.\r\n\r\n**Pack Attack**   The hell hound's Strikes deal 1d4 extra damage to creatures within the reach of at least two of the hell hounds' allies.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-427\" />",
  "name": "Hell Hound",
  "npc": false,
  "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 194",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 10,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 205</row>\r\n\r\n**Creature Family** [Hell Hound](/MonsterFamilies.aspx?ID=60)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 19\r\n\r\n**Fort** +9\r\n\r\n**Ref** +10\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA hell hound’s appearance dismisses any doubts as to its infernal origins—flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, …\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 60 feet",
- "sense_markdown": "darkvision, scent (imprecise) 60 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 194\r\n\r\n**Creature Family** [Hell Hound](/MonsterFamilies.aspx?ID=427)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 17\r\n\r\n**Fort** +9\r\n\r\n**Ref** +10\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA hell hound's appearance dismisses any doubts as to their infernal origins— flesh the color of burning pitch, teeth as sharp as any fiend's …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Athletics +9",
-  "Stealth +8",
-  "Survival +9"
+  "Acrobatics",
+  "Athletics",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +9, [Stealth](/Skills.aspx?ID=15) +8, [Survival](/Skills.aspx?ID=16) +9",
+ "skill_mod": {
+  "acrobatics": 8,
+  "athletics": 9,
+  "stealth": 8,
+  "survival": 9
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 205"
+  "Monster Core pg. 194"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 205</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 194",
  "speed": {
   "land": 40,
   "max": 40
@@ -68,29 +113,49 @@
  "speed_raw": "40 feet",
  "spell_markdown": "",
  "stealth": "8",
+ "strike_damage_average": [
+  12
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "A hell hound’s appearance dismisses any doubts as to its infernal origins—flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, …",
- "summary_markdown": "A hell hound’s appearance dismisses any doubts as to its infernal origins—flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, …",
- "text": " Hell Hound A hell hound’s appearance dismisses any doubts as to its infernal origins—flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, and a shroud of ever-burning hell are are all trademark features. Recall Knowledge - Beast (Arcana, Nature): DC 18 Recall Knowledge - Fiend (Religion): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Hell Hound Source Bestiary pg. 205 Perception +9; darkvision, scent (imprecise) 60 feet Languages Infernal; (can’t speak any language) Skills Acrobatics +8, Athletics +9, Stealth +8, Survival +9 Str +4 Dex +3 Con +2 Int -2 Wis +2 Cha -2 --- AC 19 Fort +9 Ref +10 Will +7 HP 40 Immunities fire Weaknesses cold 5 --- Speed 40 feet Melee Single Action jaws +13 (Magical), Damage 1d8+4 piercing plus 1d6 evil and 1d6 fire Breath Weapon Single Action (Divine, Evocation, Fire) The hell hound breathes flames that deal 4d6 fire damage to all creatures in a 15-foot cone (DC 19 basic Reflex save). The hell hound can’t use Breath Weapon again for 1d4 rounds. If the hell hound would take fire damage or be targeted by a fire effect, its Breath Weapon recharges. ",
+ "summary": "A hell hound's appearance dismisses any doubts as to their infernal origins— flesh the color of burning pitch, teeth as sharp as any fiend's …",
+ "summary_markdown": "A hell hound's appearance dismisses any doubts as to their infernal origins— flesh the color of burning pitch, teeth as sharp as any fiend's …",
+ "text": " Hell Hound A hell hound's appearance dismisses any doubts as to their infernal origins— flesh the color of burning pitch, teeth as sharp as any fiend's pitchfork, and a shroud of ever-burning hellfire are all trademark features. Recall Knowledge - Beast (Arcana, Nature): DC 18 Recall Knowledge - Fiend (Religion): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Hell Hound Source Monster Core pg. 194 Perception +9; darkvision, scent (imprecise) 60 feet Languages Diabolic; (can't speak any language) Skills Acrobatics +8, Athletics +9, Stealth +8, Survival +9 Str +4 Dex +3 Con +2 Int -2 Wis +2 Cha -2 --- AC 17 Fort +9 Ref +10 Will +7 HP 40 Immunities fire Weaknesses cold 5 --- Speed 40 feet Melee Single Action jaws +13 (Magical, Unholy), Damage 1d8+4 piercing plus 1d6 fire Hellfire Breath Single Action (Divine, Fire, Unholy) The hell hound breathes flames that deal 4d6 fire damage to all creatures in a 15-foot cone (DC 19 basic Reflex save). The hell hound can't use Hellfire Breath again for 1d4 rounds. If the hell hound would take fire damage or be targeted by a fire effect, their Hellfire Breath recharges. Pack Attack The hell hound's Strikes deal 1d4 extra damage to creatures within the reach of at least two of the hell hounds' allies. ",
+ "tradition_markdown": "",
  "trait": [
   "Beast",
   "Fiend",
   "Fire",
-  "LE",
+  "Unholy",
   "Medium"
  ],
- "trait_markdown": "[Beast](/Traits.aspx?ID=20), [Fiend](/Traits.aspx?ID=70), [Fire](/Traits.aspx?ID=72)",
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Fiend](/Traits.aspx?ID=600), [Fire](/Traits.aspx?ID=604), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Beast",
   "Fiend",
-  "Fire"
+  "Fire",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=259",
+ "url": "/Monsters.aspx?ID=3047",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
@@ -98,8 +163,12 @@
  "weakness": {
   "cold": 5
  },
- "weakness_markdown": "cold 5",
- "weakness_raw": "cold 5",
+ "weakness_markdown": "[cold](/Traits.aspx?ID=555) 5",
+ "weakness_raw": " cold  5",
  "will_save": 7,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,72 +1,104 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Nightmares"
  ],
- "domain_markdown": "[Nightmares](/Domains.aspx?ID=23)",
+ "domain_markdown": "[Nightmares](/Domains.aspx?ID=86)",
  "duration_raw": "varies",
  "exclude_from_search": false,
- "heighten_level": [
-  1
+ "heighten": [
+  "+1"
  ],
- "id": "spell-468",
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1824",
+ "legacy_id": "spell-468",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Waking Nightmare](/Spells.aspx?ID=468)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>\n\n**Domain**\r\n[Nightmares](/Domains.aspx?ID=23)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou fill the creature's mind with a terrifying vision out of its nightmares. The target must attempt a Will save.\n\n If the target is unconscious when you Cast this Spell on it, it immediately wakes up before attempting its save, and if it fails its save, it gains the fleeing condition for 1 round in addition to the effects noted below.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is frightened 1.<br />\r\n**Failure** The target is frightened 2.<br />\r\n**Critical Failure** The target is frightened 3.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Waking Nightmare](/Spells.aspx?ID=1824)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Nightmares](/Domains.aspx?ID=86)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou fill the creature's mind with a terrifying vision. The target must attempt a Will save. A creature [frightened](/Conditions.aspx?ID=19) by this spell takes 1 additional mental damage each time it's hit by a Strike.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is frightened 1.<br />\r\n**Failure** The target is frightened 2. If it's asleep, it wakes up and is [paralyzed](/Conditions.aspx?ID=28) for 1 round.<br />\r\n**Critical Failure** As failure, but frightened 3.\n\n---\r\n**Heightened (+1)** The mental damage increases by 1.",
  "name": "Waking Nightmare",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 377",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>\n\n**Domain**\r\n[Nightmares](/Domains.aspx?ID=23)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou fill the creature’s mind with a terrifying vision out of its nightmares.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 377\n\n**Domain**\r\n[Nightmares](/Domains.aspx?ID=86)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou fill the creature's mind with a terrifying vision.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 399"
+  "Player Core pg. 377"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 377",
  "speed": {},
- "summary": "You fill the creature’s mind with a terrifying vision out of its nightmares.",
- "summary_markdown": "You fill the creature’s mind with a terrifying vision out of its nightmares.",
+ "spell_type": "Focus",
+ "summary": "You fill the creature's mind with a terrifying vision.",
+ "summary_markdown": "You fill the creature's mind with a terrifying vision.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Waking Nightmare Source Core Rulebook pg. 399 4.0 Domain Nightmares Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Saving Throw Will Duration varies --- You fill the creature's mind with a terrifying vision out of its nightmares. The target must attempt a Will save. If the target is unconscious when you Cast this Spell on it, it immediately wakes up before attempting its save, and if it fails its save, it gains the fleeing condition for 1 round in addition to the effects noted below. Critical Success The target is unaffected. Success The target is frightened 1. Failure The target is frightened 2. Critical Failure The target is frightened 3.",
+ "text": "\nWaking Nightmare Two Actions Source Player Core pg. 377 Domain Nightmares Range 30 feet Target 1 creature Defense Will Duration varies --- You fill the creature's mind with a terrifying vision. The target must attempt a Will save. A creature frightened by this spell takes 1 additional mental damage each time it's hit by a Strike. Critical Success The target is unaffected. Success The target is frightened 1. Failure The target is frightened 2. If it's asleep, it wakes up and is paralyzed for 1 round. Critical Failure As failure, but frightened 3. --- Heightened (+1) The mental damage increases by 1.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
   "Fear",
+  "Focus",
+  "Manipulate",
   "Mental",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
   "Fear",
+  "Focus",
+  "Manipulate",
   "Mental",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=468",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1824",
  "weakness": {}
 }

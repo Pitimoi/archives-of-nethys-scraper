@@ -1,26 +1,36 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "action",
  "exclude_from_search": false,
  "id": "action-1429",
- "markdown": "<title level=\"1\" right=\"Action\">[Counterattack](/Actions.aspx?ID=1429) <actions string=\"Reaction\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Infantry\" url=\"/Traits.aspx?ID=455\" />\r\n<trait label=\"Skirmisher\" url=\"/Traits.aspx?ID=456\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 580</row>\n\n**Trigger** An army you are engaged with attempts a maneuver war action.\r\n\r\n**Requirements** [Flexible Tactics](/KMWarTactics.aspx?ID=9)\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour army lashes out at the foe as they attempt to perform a maneuver. Attempt a melee Strike against the triggering army's AC. Counterattack doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.\r\n\r\n**Critical Success** You inflict 1 point of damage on the army and increase its shaken condition value by 1.<br />\r\n**Success** You inflict 1 point of damage on the army.",
+ "markdown": "<title level=\"1\" right=\"Action\">[Counterattack](/Actions.aspx?ID=1429) <actions string=\"Reaction\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Infantry\" url=\"/Traits.aspx?ID=455\" />\r\n<trait label=\"Skirmisher\" url=\"/Traits.aspx?ID=456\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 580\n\n**Trigger** An army you are engaged with attempts a maneuver war action.\r\n\r\n**Requirements** [Flexible Tactics](/KMWarTactics.aspx?ID=9)\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour army lashes out at the foe as they attempt to perform a maneuver. Attempt a melee Strike against the triggering army's AC. Counterattack doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.\r\n\r\n**Critical Success** You inflict 1 point of damage on the army and increase its shaken condition value by 1.<br />\r\n**Success** You inflict 1 point of damage on the army.",
  "name": "Counterattack",
+ "primary_source": "Kingmaker Adventure Path",
+ "primary_source_raw": "Kingmaker Adventure Path pg. 580",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Kingmaker",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-10-26",
  "requirement": " Flexible Tactics ",
  "requirement_markdown": "[Flexible Tactics](/KMWarTactics.aspx?ID=9)",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Infantry\" url=\"/Traits.aspx?ID=455\" />\r\n<trait label=\"Skirmisher\" url=\"/Traits.aspx?ID=456\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 580</row>\n\n**Trigger**\r\nAn army you are engaged with attempts a maneuver war action.\r\n\r\n**Requirement**\r\n[Flexible Tactics](/KMWarTactics.aspx?ID=9)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour army lashes out at the foe as they attempt to perform a maneuver. Attempt a melee Strike against the triggering army's AC. Counterattack doesn't …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Infantry\" url=\"/Traits.aspx?ID=455\" />\r\n<trait label=\"Skirmisher\" url=\"/Traits.aspx?ID=456\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 580\n\n**Trigger**\r\nAn army you are engaged with attempts a maneuver war action.\r\n\r\n**Requirement**\r\n[Flexible Tactics](/KMWarTactics.aspx?ID=9)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour army lashes out at the foe as they attempt to perform a maneuver. Attempt a melee Strike against the triggering army's AC. Counterattack doesn't …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Kingmaker Adventure Path"
  ],
  "source_raw": [
   "Kingmaker Adventure Path pg. 580"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Kingmaker",
- "source_markdown": "<row gap=\"tiny\">[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 580</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Kingmaker"
+ ],
+ "source_markdown": "[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 580",
  "speed": {},
  "summary": "Your army lashes out at the foe as they attempt to perform a maneuver. Attempt a melee Strike against the triggering army's AC. Counterattack doesn't …",
  "summary_markdown": "Your army lashes out at the foe as they attempt to perform a maneuver. Attempt a melee Strike against the triggering army's AC. Counterattack doesn't …",
@@ -28,6 +38,9 @@
  "trait": [
   "Infantry",
   "Skirmisher"
+ ],
+ "trait_group": [
+  "Kingdom—Warfare"
  ],
  "trait_markdown": "[Infantry](/Traits.aspx?ID=455), [Skirmisher](/Traits.aspx?ID=456)",
  "trait_raw": [

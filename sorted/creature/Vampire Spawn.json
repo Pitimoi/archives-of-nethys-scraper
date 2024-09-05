@@ -1,10 +1,24 @@
 {
  "ac": 22,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  14
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Drink Blood",
   "Sneak Attack"
@@ -12,10 +26,16 @@
  "creature_family": "Vampire",
  "creature_family_markdown": "[Vampire](/MonsterFamilies.aspx?ID=97)",
  "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 9,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 40,
  "hp_raw": "40 (coffin restoration,  fast healing  5,  negative healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-399",
  "image": [
   "/Images/Monsters/Vampire_VampireSpawnRogue.png"
@@ -29,20 +49,32 @@
  ],
  "immunity_markdown": "death effects, disease, paralyze, poison, sleep",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Common",
   "plus one regional language"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1); plus one regional language",
  "level": 4,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Vampire Spawn Rogue](/Monsters.aspx?ID=399)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVampires use their spawn for infiltration and reconnaissance.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vampire_VampireSpawnRogue.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Vampire Spawn](/Monsters.aspx?ID=399)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 320</row>\n\n**Perception** +12; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1); plus one regional language\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +8, [Society](/Skills.aspx?ID=14) +5, [Stealth](/Skills.aspx?ID=15) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +5\r\n\r\n**Con** +1\r\n\r\n**Int** -1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +11 \n\n</row>\r\n\r\n**HP** 40\r\n(coffin restoration, [fast healing](/MonsterAbilities.aspx?ID=15) 5, [negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyze, poison, sleep\r\n\r\n**Resistances**\r\nphysical 5 (except silver)\r\n\r\n**Weaknesses**\r\nvampire weaknesses\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +14 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d8+6 slashing plus Grab\n\n**Drink Blood** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) **Requirement** A [grabbed](/Conditions.aspx?ID=20), [paralyzed](/Conditions.aspx?ID=28), [restrained](/Conditions.aspx?ID=33), [unconscious](/Conditions.aspx?ID=38), or willing creature is within the vampire's reach. **Effect** The vampire sinks its fangs into that creature to drink its blood. This requires an [Athletics](/Skills.aspx?ID=3) check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [drained 1](/Conditions.aspx?ID=10) and the vampire regains 5 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drain value by 1. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.<br /> A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a DC 20 [Medicine](/Skills.aspx?ID=9) check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The vampire spawn deals 1d6 extra precision damage to flat-footed creatures.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">Spawn Locations</title>\r\n\r\nVampire spawn live wherever their masters demand. When free of any master, they tend to roam in packs through slums or other urban areas that wouldn’t notice a few people going missing.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-97\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Vampire Spawn Rogue](/Monsters.aspx?ID=399)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVampires use their spawn for infiltration and reconnaissance.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vampire_VampireSpawnRogue.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Vampire Spawn](/Monsters.aspx?ID=399)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 320\n\n**Perception** +12; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1); plus one regional language\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +8, [Society](/Skills.aspx?ID=14) +5, [Stealth](/Skills.aspx?ID=15) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +5\r\n\r\n**Con** +1\r\n\r\n**Int** -1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +11 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\r\n(coffin restoration, [fast healing](/MonsterAbilities.aspx?ID=15) 5, [negative healing](/MonsterAbilities.aspx?ID=42))\n\n</row>\r\n\r\n**Immunities**\r\ndeath effects, disease, paralyze, poison, sleep\r\n\r\n**Resistances**\r\nphysical 5 (except silver)\r\n\r\n**Weaknesses**\r\nvampire weaknesses\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +14 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d8+6 slashing plus Grab\n\n**Drink Blood** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) **Requirement** A [grabbed](/Conditions.aspx?ID=20), [paralyzed](/Conditions.aspx?ID=28), [restrained](/Conditions.aspx?ID=33), [unconscious](/Conditions.aspx?ID=38), or willing creature is within the vampire's reach. **Effect** The vampire sinks its fangs into that creature to drink its blood. This requires an [Athletics](/Skills.aspx?ID=3) check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [drained 1](/Conditions.aspx?ID=10) and the vampire regains 5 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drain value by 1. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.<br /> A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a DC 20 [Medicine](/Skills.aspx?ID=9) check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The vampire spawn deals 1d6 extra precision damage to flat-footed creatures.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">Spawn Locations</title>\r\n\r\nVampire spawn live wherever their masters demand. When free of any master, they tend to roam in packs through slums or other urban areas that wouldn’t notice a few people going missing.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-97\" />",
  "name": "Vampire Spawn",
  "npc": false,
  "perception": 12,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Bestiary",
+ "primary_source_raw": "Bestiary pg. 320",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2019-08-01",
+ "remaster_id": "creature-3224",
+ "remaster_name": "Vampire Servitor",
  "resistance": {
   "bludgeoning": 5,
   "physical": 5,
@@ -51,28 +83,40 @@
  },
  "resistance_markdown": "physical 5 (except silver)",
  "resistance_raw": "physical 5 (except silver)",
- "search_markdown": "<traits>\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 320</row>\r\n\r\n**Creature Family** [Vampire](/MonsterFamilies.aspx?ID=97)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40 (coffin restoration,  fast healing  5,  negative healing )\r\n\r\n**AC** 22\r\n\r\n**Fort** +9\r\n\r\n**Ref** +13\r\n\r\n**Will** +11\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVampires use their spawn for infiltration and reconnaissance.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Bestiary](/Sources.aspx?ID=2) pg. 320\r\n\r\n**Creature Family** [Vampire](/MonsterFamilies.aspx?ID=97)\r\n\r\n<row gap=\"medium\">\r\n**HP** 40 (coffin restoration,  fast healing  5,  negative healing )\r\n\r\n**AC** 22\r\n\r\n**Fort** +9\r\n\r\n**Ref** +13\r\n\r\n**Will** +11\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVampires use their spawn for infiltration and reconnaissance.\r\n</summary>",
  "sense": "darkvision",
  "sense_markdown": "darkvision",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +11",
-  "Athletics +9",
-  "Intimidation +8",
-  "Society +5",
-  "Stealth +12"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Society",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +9, [Intimidation](/Skills.aspx?ID=7) +8, [Society](/Skills.aspx?ID=14) +5, [Stealth](/Skills.aspx?ID=15) +12",
+ "skill_mod": {
+  "acrobatics": 11,
+  "athletics": 9,
+  "intimidation": 8,
+  "society": 5,
+  "stealth": 12
+ },
  "source": [
   "Bestiary"
  ],
  "source_raw": [
   "Bestiary pg. 320"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 320</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary](/Sources.aspx?ID=2) pg. 320",
  "speed": {
   "climb": 25,
   "land": 25,
@@ -82,7 +126,18 @@
  "speed_raw": "25 feet, climb 25 feet",
  "spell_markdown": "",
  "stealth": "12",
+ "strike_damage_average": [
+  10
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
@@ -90,11 +145,16 @@
  "summary": "Vampires use their spawn for infiltration and reconnaissance.",
  "summary_markdown": "Vampires use their spawn for infiltration and reconnaissance.",
  "text": " Vampire Spawn Rogue Vampires use their spawn for infiltration and reconnaissance. Recall Knowledge - Undead (Religion): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Vampire Spawn Source Bestiary pg. 320 Perception +12; darkvision Languages Common; plus one regional language Skills Acrobatics +11, Athletics +9, Intimidation +8, Society +5, Stealth +12 Str +3 Dex +5 Con +1 Int -1 Wis +3 Cha +2 --- AC 22 Fort +9 Ref +13 Will +11 HP 40 (coffin restoration, fast healing 5, negative healing) Immunities death effects, disease, paralyze, poison, sleep Resistances physical 5 (except silver) Weaknesses vampire weaknesses --- Speed 25 feet, climb 25 feet Melee Single Action claw +14 (Agile), Damage 1d8+6 slashing plus Grab Drink Blood Single Action (Divine, Necromancy) Requirement A grabbed, paralyzed, restrained, unconscious, or willing creature is within the vampire's reach. Effect The vampire sinks its fangs into that creature to drink its blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is drained 1 and the vampire regains 5 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drain value by 1. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so. A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a DC 20 Medicine check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes. Sneak Attack The vampire spawn deals 1d6 extra precision damage to flat-footed creatures. Spawn Locations Vampire spawn live wherever their masters demand. When free of any master, they tend to roam in packs through slums or other urban areas that wouldn’t notice a few people going missing. ",
+ "tradition_markdown": "",
  "trait": [
   "Undead",
   "Vampire",
   "CE",
   "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
  ],
  "trait_markdown": "[Undead](/Traits.aspx?ID=160), [Vampire](/Traits.aspx?ID=242)",
  "trait_raw": [
@@ -112,5 +172,9 @@
  "weakness_markdown": "vampire weaknesses",
  "weakness_raw": "vampire weaknesses",
  "will_save": 11,
- "wisdom": 3
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

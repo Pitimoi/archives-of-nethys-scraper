@@ -1,10 +1,28 @@
 {
  "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "NE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  6,
+  7,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": -1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Shield Block",
   "Inspired Feast"
@@ -12,49 +30,87 @@
  "creature_family": "Biloko",
  "creature_family_markdown": "[Biloko](/MonsterFamilies.aspx?ID=108)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 4,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 19,
  "hp_raw": "19",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-1427",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Spear",
+  "Wooden Shield (Hardness 3, HP 12, BT 6)"
+ ],
  "language": [
   "Mwangi",
   "Sylvan"
  ],
  "language_markdown": "[Mwangi](/Languages.aspx?ID=39), [Sylvan](/Languages.aspx?ID=10)",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Biloko Warrior](/Monsters.aspx?ID=1427)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nBilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting ground, they claim the area exclusively, digging pit traps, crafting snares from vines, and building blinds high in trees where they can lie in ambush.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Biloko Warrior](/Monsters.aspx?ID=1427)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 294 <sup>2.0</sup>, [Pathfinder #146: Cult of Cinders](/Sources.aspx?ID=7) pg. 82</row>\n\n**Perception** +7; [low-light vision](/MonsterAbilities.aspx?ID=23), [scent](/MonsterAbilities.aspx?ID=33) (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Mwangi](/Languages.aspx?ID=39), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Crafting](/Skills.aspx?ID=4) +7, [Nature](/Skills.aspx?ID=10) +5, [Stealth](/Skills.aspx?ID=15) +6, [Survival](/Skills.aspx?ID=16) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** -1\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Spear](/Weapons.aspx?ID=10), [Wooden Shield](/Shields.aspx?ID=2) (Hardness 3, HP 12, BT 6)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 (18 with shield raised)\r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 19\n\n**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +7,\r\n**Damage** 1d8+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspear +7,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspear +6 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 piercing\r\n\r\n**Primal Innate Spells** DC 14\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34)\r\n\r\n**Inspired Feast**  ([Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)) If a biloko feasts on a [human](/Ancestries.aspx?ID=6) corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-108\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Biloko Warrior](/Monsters.aspx?ID=1427)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nBilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting ground, they claim the area exclusively, digging pit traps, crafting snares from vines, and building blinds high in trees where they can lie in ambush.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Biloko Warrior](/Monsters.aspx?ID=1427)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 294 <sup>2.0</sup>, [Pathfinder #146: Cult of Cinders](/Sources.aspx?ID=7) pg. 82\n\n**Perception** +7; [low-light vision](/MonsterAbilities.aspx?ID=23), [scent](/MonsterAbilities.aspx?ID=33) (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Mwangi](/Languages.aspx?ID=39), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Crafting](/Skills.aspx?ID=4) +7, [Nature](/Skills.aspx?ID=10) +5, [Stealth](/Skills.aspx?ID=15) +6, [Survival](/Skills.aspx?ID=16) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** -1\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Spear](/Weapons.aspx?ID=10), [Wooden Shield](/Shields.aspx?ID=2) (Hardness 3, HP 12, BT 6)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 (18 with shield raised)\r\n\r\n**Fort** +4 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 19\n\n</row>\n\n**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +7,\r\n**Damage** 1d8+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspear +7,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspear +6 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+3 piercing\r\n\r\n**Primal Innate Spells** DC 14\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34)\r\n\r\n**Inspired Feast**  ([Emotion](/Traits.aspx?ID=60), [Mental](/Traits.aspx?ID=106)) If a biloko feasts on a [human](/Ancestries.aspx?ID=6) corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-108\" />",
  "name": "Biloko Warrior",
  "npc": false,
  "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "The Mwangi Expanse",
+ "primary_source_raw": "The Mwangi Expanse pg. 294",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2021-07-07",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 294 <sup>2.0</sup>, [Pathfinder #146: Cult of Cinders](/Sources.aspx?ID=7) pg. 82</row>\r\n\r\n**Creature Family** [Biloko](/MonsterFamilies.aspx?ID=108)\r\n\r\n<row gap=\"medium\">\r\n**HP** 19\r\n\r\n**AC** 16\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +7\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 294 <sup>2.0</sup>, [Pathfinder #146: Cult of Cinders](/Sources.aspx?ID=7) pg. 82\r\n\r\n**Creature Family** [Biloko](/MonsterFamilies.aspx?ID=108)\r\n\r\n<row gap=\"medium\">\r\n**HP** 19\r\n\r\n**AC** 16\r\n\r\n**Fort** +4\r\n\r\n**Ref** +7\r\n\r\n**Will** +7\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting …\r\n</summary>",
  "sense": " low-light vision ,  scent  (imprecise) 30 feet",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23), [scent](/MonsterAbilities.aspx?ID=33) (imprecise) 30 feet",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Athletics +7",
-  "Crafting +7",
-  "Nature +5",
-  "Stealth +6",
-  "Survival +6"
+  "Athletics",
+  "Crafting",
+  "Nature",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +7, [Crafting](/Skills.aspx?ID=4) +7, [Nature](/Skills.aspx?ID=10) +5, [Stealth](/Skills.aspx?ID=15) +6, [Survival](/Skills.aspx?ID=16) +6",
+ "skill_mod": {
+  "athletics": 7,
+  "crafting": 7,
+  "nature": 5,
+  "stealth": 6,
+  "survival": 6
+ },
  "source": [
-  "The Mwangi Expanse"
+  "The Mwangi Expanse",
+  "Pathfinder #146: Cult of Cinders"
  ],
  "source_raw": [
-  "The Mwangi Expanse pg. 294"
+  "The Mwangi Expanse pg. 294",
+  "Pathfinder #146: Cult of Cinders pg. 82"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[The Mwangi Expanse](/Sources.aspx?ID=89) pg. 294 <sup>2.0</sup>, [Pathfinder #146: Cult of Cinders](/Sources.aspx?ID=7) pg. 82</row>",
+ "source_category": [
+  "Lost Omens",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Age of Ashes"
+ ],
+ "source_markdown": "[The Mwangi Expanse](/Sources.aspx?ID=89) pg. 294 <sup>2.0</sup>, [Pathfinder #146: Cult of Cinders](/Sources.aspx?ID=7) pg. 82",
  "speed": {
   "land": 20,
   "max": 20
@@ -65,8 +121,30 @@
   "Charm"
  ],
  "spell_markdown": "[Charm](/Spells.aspx?ID=34)",
+ "spell_dc": [
+  14
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
  "stealth": "6",
+ "strike_damage_average": [
+  6,
+  6,
+  7
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex",
@@ -75,10 +153,17 @@
  "summary": "Bilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting …",
  "summary_markdown": "Bilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting …",
  "text": " Biloko Warrior Bilokos prefer to move in small, stealthy packs through dark, isolated sections of the forest. When a band of bilokos finds a suitable hunting ground, they claim the area exclusively, digging pit traps, crafting snares from vines, and building blinds high in trees where they can lie in ambush. Recall Knowledge - Fey (Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Biloko Warrior Source The Mwangi Expanse pg. 294 2.0 , Pathfinder #146: Cult of Cinders pg. 82 Perception +7; low-light vision, scent (imprecise) 30 feet Languages Mwangi, Sylvan Skills Athletics +7, Crafting +7, Nature +5, Stealth +6, Survival +6 Str +3 Dex +2 Con -1 Int +0 Wis +2 Cha +1 Items Spear, Wooden Shield (Hardness 3, HP 12, BT 6) --- AC 16 (18 with shield raised) Fort +4 Ref +7 Will +7 HP 19 Shield Block Reaction --- Speed 20 feet Melee Single Action jaws +7, Damage 1d8+3 piercing Melee Single Action spear +7, Damage 1d6+3 piercing Ranged Single Action spear +6 (thrown 20 feet), Damage 1d6+3 piercing Primal Innate Spells DC 14 - 1st Charm Inspired Feast (Emotion, Mental) If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Fey",
   "NE",
   "Small"
+ ],
+ "trait_group": [
+  "Creature Type"
  ],
  "trait_markdown": "[Fey](/Traits.aspx?ID=69)",
  "trait_raw": [
@@ -93,5 +178,9 @@
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,12 +1,8 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Atreia",
   "Chohar",
@@ -14,17 +10,25 @@
   "Iomedae",
   "Milani",
   "Ragathiel",
-  "Ragathiel",
   "Sorrow's Sword",
   "The Godclaw"
  ],
- "deity_markdown": "[Atreia](/Deities.aspx?ID=101), [Chohar](/Deities.aspx?ID=215), [Folgrit](/Deities.aspx?ID=87), [Iomedae](/Deities.aspx?ID=9), [Milani](/Deities.aspx?ID=43), [Ragathiel](/Deities.aspx?ID=126), [Ragathiel](/Deities.aspx?ID=126), [Sorrow's Sword](/Deities.aspx?ID=249), [The Godclaw](/Deities.aspx?ID=198)",
+ "deity_markdown": "[Atreia](/Deities.aspx?ID=101), [Chohar](/Deities.aspx?ID=215), [Folgrit](/Deities.aspx?ID=87), [Iomedae](/Deities.aspx?ID=285), [Milani](/Deities.aspx?ID=43), [Ragathiel](/Deities.aspx?ID=126), [Sorrow's Sword](/Deities.aspx?ID=249), [The Godclaw](/Deities.aspx?ID=198)",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+2"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 6th rank",
+  "Heightened 8th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -32,47 +36,59 @@
   8,
   10
  ],
- "id": "spell-118",
+ "id": "spell-1529",
+ "legacy_id": "spell-118",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Fire Shield](/Spells.aspx?ID=118)</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 338 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Deities**\r\n[Atreia](/Deities.aspx?ID=101), [Chohar](/Deities.aspx?ID=215), [Folgrit](/Deities.aspx?ID=87), [Iomedae](/Deities.aspx?ID=9), [Milani](/Deities.aspx?ID=43), [Ragathiel](/Deities.aspx?ID=126), [Ragathiel](/Deities.aspx?ID=126), [Sorrow's Sword](/Deities.aspx?ID=249), [The Godclaw](/Deities.aspx?ID=198)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou wreathe yourself in ghostly flames, gaining cold resistance 5. Additionally, adjacent creatures that hit you with a melee attack, as well as creatures that touch you or hit you with an unarmed attack, take 2d6 fire damage each time they do.\n\n---\r\n**Heightened (+2)** The cold resistance increases by 5, and the fire damage increases by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">\r\n[Fire Shield](/Spells.aspx?ID=1529)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 331\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Atreia](/Deities.aspx?ID=101), [Chohar](/Deities.aspx?ID=215), [Folgrit](/Deities.aspx?ID=87), [Iomedae](/Deities.aspx?ID=285), [Milani](/Deities.aspx?ID=43), [Ragathiel](/Deities.aspx?ID=126), [Sorrow's Sword](/Deities.aspx?ID=249), [The Godclaw](/Deities.aspx?ID=198)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a hovering shield made of fire. As long as the shield persists, its heat grants you cold resistance 5 and makes you immune to [mild and severe environmental cold](/Rules.aspx?ID=642). You can [Raise a Shield](/Actions.aspx?ID=98) with the fire shield as a normal shield to gain a +1 circumstance bonus to AC. You can use the [Shield Block](/Feats.aspx?ID=839) reaction with the fire shield, which has Hardness 10, is immune to fire, and has 40 HP (with no Broken Threshold), and its Hardness is halved against effects that have the [water](/Traits.aspx?ID=165) trait. If you Shield Block a melee attack that is either an unarmed attack or made by an adjacent attacker, the attacker takes 2d6 fire damage.\n\n---\r\n**Heightened (+2)** The cold resistance increases by 5, the HP increase by 10, and the fire damage increases by 1d6.",
  "name": "Fire Shield",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 331",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 338 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Deities**\r\n[Atreia](/Deities.aspx?ID=101), [Chohar](/Deities.aspx?ID=215), [Folgrit](/Deities.aspx?ID=87), [Iomedae](/Deities.aspx?ID=9), [Milani](/Deities.aspx?ID=43), [Ragathiel](/Deities.aspx?ID=126), [Ragathiel](/Deities.aspx?ID=126), [Sorrow's Sword](/Deities.aspx?ID=249), [The Godclaw](/Deities.aspx?ID=198)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFlames protect you from cold and harm those that touch you.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 331\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Atreia](/Deities.aspx?ID=101), [Chohar](/Deities.aspx?ID=215), [Folgrit](/Deities.aspx?ID=87), [Iomedae](/Deities.aspx?ID=285), [Milani](/Deities.aspx?ID=43), [Ragathiel](/Deities.aspx?ID=126), [Sorrow's Sword](/Deities.aspx?ID=249), [The Godclaw](/Deities.aspx?ID=198)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFlames protect you from cold and harm those that touch you.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 338"
+  "Player Core pg. 331"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 338 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 331",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Flames protect you from cold and harm those that touch you.",
  "summary_markdown": "Flames protect you from cold and harm those that touch you.",
- "text": " Fire Shield Source Core Rulebook pg. 338 4.0 Traditions Arcane, Primal Spell Lists Elemental Deities Atreia, Chohar, Folgrit, Iomedae, Milani, Ragathiel, Ragathiel, Sorrow's Sword, The Godclaw Cast Two Actions somatic, verbal Duration 1 minute --- You wreathe yourself in ghostly flames, gaining cold resistance 5. Additionally, adjacent creatures that hit you with a melee attack, as well as creatures that touch you or hit you with an unarmed attack, take 2d6 fire damage each time they do. --- Heightened (+2) The cold resistance increases by 5, and the fire damage increases by 1d6.",
+ "text": "\nFire Shield Two Actions Source Player Core pg. 331 Traditions Arcane, Primal Deities Atreia, Chohar, Folgrit, Iomedae, Milani, Ragathiel, Sorrow's Sword, The Godclaw Duration 1 minute --- You create a hovering shield made of fire. As long as the shield persists, its heat grants you cold resistance 5 and makes you immune to mild and severe environmental cold. You can Raise a Shield with the fire shield as a normal shield to gain a +1 circumstance bonus to AC. You can use the Shield Block reaction with the fire shield, which has Hardness 10, is immune to fire, and has 40 HP (with no Broken Threshold), and its Hardness is halved against effects that have the water trait. If you Shield Block a melee attack that is either an unarmed attack or made by an adjacent attacker, the attacker takes 2d6 fire damage. --- Heightened (+2) The cold resistance increases by 5, the HP increase by 10, and the fire damage increases by 1d6.",
  "tradition": [
   "Arcane",
-  "Primal",
-  "Elemental"
+  "Primal"
  ],
- "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Evocation",
-  "Fire"
+  "Concentrate",
+  "Fire",
+  "Manipulate"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72)",
+ "trait_group": [
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Fire](/Traits.aspx?ID=72), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Evocation",
-  "Fire"
+  "Concentrate",
+  "Fire",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=118",
+ "url": "/Spells.aspx?ID=1529",
  "weakness": {}
 }

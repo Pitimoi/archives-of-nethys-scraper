@@ -1,0 +1,227 @@
+{
+ "ac": 36,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  29,
+  31
+ ],
+ "attack_bonus_scale": [
+  "High",
+  "Extreme"
+ ],
+ "attack_bonus_scale_number": [
+  4,
+  5
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Heat of Blazing Wings",
+  "Exploit Regret",
+  "Burning Grasp",
+  "Change Shape",
+  "Combat Grab",
+  "Pedantic Wish"
+ ],
+ "creature_family": "Genie",
+ "creature_family_markdown": "[Genie](/MonsterFamilies.aspx?ID=50)",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 26,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 300,
+ "hp_raw": "300",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2636",
+ "image": [
+  "/Images/Monsters/Genie_Ifrit.png"
+ ],
+ "immunity": [
+  "fire"
+ ],
+ "immunity_markdown": "[fire](/Traits.aspx?ID=72)",
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 resilient breastplate",
+  "+2 striking scimitar"
+ ],
+ "language": [
+  "Common",
+  "Pyric",
+  "<%SPELLS%340%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Pyric](/Languages.aspx?ID=110); [_truespeech_](/Spells.aspx?ID=340)",
+ "level": 14,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Ifrit Shuyookh](/Monsters.aspx?ID=2636)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe leaders and luminaries of ifrits come from the wise but cruel shuyookhs. These spiteful manipulators lord their might over other genies and twist mortal greed into grief. Ifrit shuyookhs guide the Dominion of Flame with their vicious whims and unwavering belief in ifrit supremacy.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 37\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 35\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 32\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Genie_Ifrit.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Ifrit Shuyookh](/Monsters.aspx?ID=2636)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Genie\" url=\"/Traits.aspx?ID=216\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 129\n\n**Perception** +25; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Pyric](/Languages.aspx?ID=110); [_truespeech_](/Spells.aspx?ID=340)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +25, [Athletics](/Skills.aspx?ID=3) +28, [Crafting](/Skills.aspx?ID=4) +23, [Deception](/Skills.aspx?ID=5) +25, [Diplomacy](/Skills.aspx?ID=6) +24, [Intimidation](/Skills.aspx?ID=7) +26, [Society](/Skills.aspx?ID=14) +23\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +5\r\n\r\n**Int** +3\r\n\r\n**Wis** +3\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n_+1 [resilient](/Equipment.aspx?ID=279) [breastplate](/Armor.aspx?ID=10)_, _+2 [striking](/Equipment.aspx?ID=280) [scimitar](/Weapons.aspx?ID=38)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +26 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +27 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 300\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=72)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=27) 15, [water](/Traits.aspx?ID=165) 15\r\n\r\n**Heat of Blazing Wings** ([arcane](/Traits.aspx?ID=11), [aura](/Traits.aspx?ID=206), [fire](/Traits.aspx?ID=72)) 5 feet, 4d6 fire damage (DC 31 [basic](/Rules.aspx?ID=329) Reflex)<br />**Exploit Regret** <actions string=\"Reaction\" /> ([arcane](/Traits.aspx?ID=11), [auditory](/Traits.aspx?ID=16), [fortune](/Traits.aspx?ID=76), [linguistic](/Traits.aspx?ID=101)) **Trigger** A creature fails an attack against the shuyookh; **Effect** The shuyookh asks the triggering creature if it wishes it had hit. If the creature indicates yes, the shuyookh takes damage as if the attack had hit and the expression of regret makes the shuyookh [quickened](/Conditions.aspx?ID=32) for 1d4 rounds; they can use their extra action to [Fly](/Actions.aspx?ID=94), Stride, or Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 35 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_scimitar_ +31 ([Fire](/Traits.aspx?ID=72), [Forceful](/Traits.aspx?ID=180), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d6+16 slashing plus 4d6 fire\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +29 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d4+16 bludgeoning plus 4d6 fire\r\n\r\n**Arcane Innate Spells** DC 35, attack +27\r\n- **Cantrips (7th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Illuminate](/Spells.aspx?ID=1359), [Produce Flame](/Spells.aspx?ID=236)\r\n- **4th**\r\n[Invisibility](/Spells.aspx?ID=164) (×2)\r\n- **5th**\r\n[Fire's Pathway](/Spells.aspx?ID=1354), [Fireball](/Spells.aspx?ID=119) (at will)\r\n- **7th**\r\n[Plane Shift](/Spells.aspx?ID=222) (at will; to [Astral Plane](/Planes.aspx?ID=8), Elemental Planes, or the [Universe](/Planes.aspx?ID=1) only), [Volcanic Eruption](/Spells.aspx?ID=360)\r\n- **Constant (5th)**\r\n[Tongues](/Spells.aspx?ID=340)\r\n\r\n**Burning Grasp**  ([Fire](/Traits.aspx?ID=72)) When the ifrit [Grab](/MonsterAbilities.aspx?ID=45) or restrains a creature, that creature takes 4d6 fire damage, and takes 4d6 fire damage at the end of each of its turns until freed.\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Arcane](/Traits.aspx?ID=11), [Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127)) The shuyookh transforms into a Small or Medium fire elemental or reptile, such as a snake. This doesn't affect the shuyookh's statistics, but it could change the damage type of their Strikes.\r\n\r\n**Combat Grab** <actions string=\"Single Action\" />  **Requirements** The ifrit shuyookh has a hand free; **Effect** The shuyookh makes a melee Strike. If the Strike hits, the target is [grabbed](/Conditions.aspx?ID=20) in the shuyookh's free hand.\r\n\r\n**Pedantic Wish**  ([Downtime](/Traits.aspx?ID=49)) **Frequency** three times per year; **Effect** The shuyookh conducts a _wish_ ritual for the benefit of a mortal, requiring no cost or secondary casters. The shuyookh's result is a success if they succeed at a DC 5 flat check or a failure if not. The shuyookh subverts the wish-maker's true intentions, twisting the phrasing to maximize suffering\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Hot Gossip</title>\r\n\r\nScion of the noble but disgraced Mishalq family, the ifrit information broker Qalkami Mishalq emerged from exile and returned to the Dominion of Flame following the death of Sultan Suleiman XXII. Qalkami used contacts in the Pathfinder Society to eliminate her rivals in the Cinderfury family and step into a power vacuum of her own creation, expanding her control and influence among the great nobility of Medina Mudii'a. \r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-50\" />",
+ "name": "Ifrit Shuyookh",
+ "npc": false,
+ "perception": 25,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 129",
+ "primary_source_category": "Rulebooks",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 23,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Genie\" url=\"/Traits.aspx?ID=216\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 129\r\n\r\n**Creature Family** [Genie](/MonsterFamilies.aspx?ID=50)\r\n\r\n<row gap=\"medium\">\r\n**HP** 300\r\n\r\n**AC** 36\r\n\r\n**Fort** +26\r\n\r\n**Ref** +23\r\n\r\n**Will** +27\r\n\r\n**Perception** +25\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe leaders and luminaries of ifrits come from the wise but cruel shuyookhs. These spiteful manipulators lord their might over other genies and twist …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Arcana",
+  "Athletics",
+  "Crafting",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Society"
+ ],
+ "skill_markdown": "[Arcana](/Skills.aspx?ID=2) +25, [Athletics](/Skills.aspx?ID=3) +28, [Crafting](/Skills.aspx?ID=4) +23, [Deception](/Skills.aspx?ID=5) +25, [Diplomacy](/Skills.aspx?ID=6) +24, [Intimidation](/Skills.aspx?ID=7) +26, [Society](/Skills.aspx?ID=14) +23",
+ "skill_mod": {
+  "arcana": 25,
+  "athletics": 28,
+  "crafting": 23,
+  "deception": 25,
+  "diplomacy": 24,
+  "intimidation": 26,
+  "society": 23
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 129"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 129",
+ "speed": {
+  "fly": 35,
+  "land": 25,
+  "max": 35
+ },
+ "speed_markdown": "25 feet, fly 35 feet",
+ "speed_raw": "25 feet, fly 35 feet",
+ "spell": [
+  "Plane Shift",
+  "Volcanic Eruption",
+  "Fire's Pathway",
+  "Fireball",
+  "Invisibility",
+  "Detect Magic",
+  "Illuminate",
+  "Produce Flame",
+  "Tongues"
+ ],
+ "spell_markdown": "[Detect Magic](/Spells.aspx?ID=66), [Fire's Pathway](/Spells.aspx?ID=1354), [Fireball](/Spells.aspx?ID=119), [Illuminate](/Spells.aspx?ID=1359), [Invisibility](/Spells.aspx?ID=164), [Plane Shift](/Spells.aspx?ID=222), [Produce Flame](/Spells.aspx?ID=236), [Tongues](/Spells.aspx?ID=340), [Volcanic Eruption](/Spells.aspx?ID=360)",
+ "spell_attack_bonus": [
+  27
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  35
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  32,
+  37
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "The leaders and luminaries of ifrits come from the wise but cruel shuyookhs. These spiteful manipulators lord their might over other genies and twist …",
+ "summary_markdown": "The leaders and luminaries of ifrits come from the wise but cruel shuyookhs. These spiteful manipulators lord their might over other genies and twist …",
+ "text": " Ifrit Shuyookh The leaders and luminaries of ifrits come from the wise but cruel shuyookhs. These spiteful manipulators lord their might over other genies and twist mortal greed into grief. Ifrit shuyookhs guide the Dominion of Flame with their vicious whims and unwavering belief in ifrit supremacy. Recall Knowledge - Elemental (Arcana, Nature): DC 37 Unspecific Lore : DC 35 Specific Lore : DC 32 Ifrit Shuyookh Source Rage of Elements pg. 129 Perception +25; darkvision Languages Common, Pyric; truespeech Skills Arcana +25, Athletics +28, Crafting +23, Deception +25, Diplomacy +24, Intimidation +26, Society +23 Str +8 Dex +4 Con +5 Int +3 Wis +3 Cha +5 Items +1 resilient breastplate , +2 striking scimitar --- AC 36 Fort +26 Ref +23 Will +27 HP 300 Immunities fire Weaknesses cold 15, water 15 Heat of Blazing Wings (arcane, aura, fire) 5 feet, 4d6 fire damage (DC 31 basic Reflex) Exploit Regret Reaction (arcane, auditory, fortune, linguistic) Trigger A creature fails an attack against the shuyookh; Effect The shuyookh asks the triggering creature if it wishes it had hit. If the creature indicates yes, the shuyookh takes damage as if the attack had hit and the expression of regret makes the shuyookh quickened for 1d4 rounds; they can use their extra action to Fly, Stride, or Strike. --- Speed 25 feet, fly 35 feet Melee Single Action scimitar +31 (Fire, Forceful, Magical, reach 10 feet, Sweep), Damage 2d6+16 slashing plus 4d6 fire Melee Single Action fist +29 (Agile, Magical, reach 10 feet), Damage 1d4+16 bludgeoning plus 4d6 fire Arcane Innate Spells DC 35, attack +27 - Cantrips (7th) Detect Magic, Illuminate, Produce Flame - 4th Invisibility (×2) - 5th Fire's Pathway, Fireball (at will) - 7th Plane Shift (at will; to Astral Plane, Elemental Planes, or the Universe only), Volcanic Eruption - Constant (5th) Tongues Burning Grasp (Fire) When the ifrit Grab or restrains a creature, that creature takes 4d6 fire damage, and takes 4d6 fire damage at the end of each of its turns until freed. Change Shape Single Action (Arcane, Concentrate, Polymorph) The shuyookh transforms into a Small or Medium fire elemental or reptile, such as a snake. This doesn't affect the shuyookh's statistics, but it could change the damage type of their Strikes. Combat Grab Single Action Requirements The ifrit shuyookh has a hand free; Effect The shuyookh makes a melee Strike. If the Strike hits, the target is grabbed in the shuyookh's free hand. Pedantic Wish (Downtime) Frequency three times per year; Effect The shuyookh conducts a wish ritual for the benefit of a mortal, requiring no cost or secondary casters. The shuyookh's result is a success if they succeed at a DC 5 flat check or a failure if not. The shuyookh subverts the wish-maker's true intentions, twisting the phrasing to maximize suffering Hot Gossip Scion of the noble but disgraced Mishalq family, the ifrit information broker Qalkami Mishalq emerged from exile and returned to the Dominion of Flame following the death of Sultan Suleiman XXII. Qalkami used contacts in the Pathfinder Society to eliminate her rivals in the Cinderfury family and step into a power vacuum of her own creation, expanding her control and influence among the great nobility of Medina Mudii'a. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Elemental",
+  "Fire",
+  "Genie",
+  "Rare",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Fire](/Traits.aspx?ID=72), [Genie](/Traits.aspx?ID=216), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Elemental",
+  "Fire",
+  "Genie",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2636",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "cold": 15
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=27) 15, [water](/Traits.aspx?ID=165) 15",
+ "weakness_raw": " cold  15,  water  15",
+ "will_save": 27,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

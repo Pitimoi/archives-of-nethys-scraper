@@ -1,0 +1,166 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  12
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Magic Scent",
+  "Biomagical Feedback",
+  "Consume Magic",
+  "Constrict"
+ ],
+ "creature_family": "Elemental, Metal",
+ "creature_family_markdown": "[Elemental, Metal](/MonsterFamilies.aspx?ID=343)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Metal"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 13,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 65,
+ "hp_raw": "65",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2647",
+ "image": [
+  "/Images/Monsters/ElementalMetal_QuickironPlasm.png"
+ ],
+ "immunity": [
+  "critical hits",
+  "bleed",
+  "paralyzed",
+  "poison",
+  "precision",
+  "sleep"
+ ],
+ "immunity_markdown": "critical hits, bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), precision, [sleep](/Traits.aspx?ID=145)",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Quickiron Plasm](/Monsters.aspx?ID=2647)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLooking much like an ooze, a quickiron plasm is a mass of the rust-red liquid skymetal known as [djezet](/Equipment.aspx?ID=1410), prized in the [Universe](/Planes.aspx?ID=1) for its magic-enhancing properties. Quickiron plasms feed on the residual energies left behind by large expenditures of magical power, which they can detect from miles away.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/ElementalMetal_QuickironPlasm.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Quickiron Plasm](/Monsters.aspx?ID=2647)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 154\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=12), magic scent\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +12, [Stealth](/Skills.aspx?ID=15) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +2\r\n\r\n**Con** +5\r\n\r\n**Int** -4\r\n\r\n**Wis** +0\r\n\r\n**Cha** -2\r\n</row>\r\n\r\n**Magic Scent** The quickiron plasm can sense magical auras from up to 1 mile away as an [imprecise](/Rules.aspx?ID=412) sense.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\n\n</row>\r\n\r\n**Immunities**\r\ncritical hits, bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), precision, [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\n[electricity](/Traits.aspx?ID=56) 5\n\n**Biomagical Feedback** The quickiron plasm's conductive properties are dangerous to those in physical contact with it. When a creature [grabbed](/Conditions.aspx?ID=20) by a quickiron plasm Casts a Spell, that creature takes 5 force damage per rank of the spell.<br />**Consume Magic** <actions string=\"Reaction\" /> **Trigger** The quickiron plasm succeeds at a saving throw against a spell; **Effect** The quickiron plasm consumes energy from the spell, regaining 5 Hit Points per rank of the spell.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\npseudopod +12 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+6 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  2d6 bludgeoning, DC 22\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Djezet Extraction</title>\r\n\r\nWhen a quickiron plasm dies, most of the [djezet](/Equipment.aspx?ID=1410) making up its body becomes inert and useless. However, a skilled alchemist can sometimes extract trace amounts of the valuable skymetal from its remains. This is a 10-minute process that requires the [Alchemical Crafting](/Feats.aspx?ID=752) feat, a proficiency rank of expert or better in [Crafting](/Skills.aspx?ID=4), and a successful DC 20 Crafting check. A successful attempt produces a single [_djezet dose_](/Equipment.aspx?ID=1412) that remains potent for 1 hour before breaking down into a foul-smelling goo. The item has no value if sold due to its temporary nature.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-343\" />",
+ "name": "Quickiron Plasm",
+ "npc": false,
+ "perception": 8,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 154",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 8,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {
+  "electricity": 5
+ },
+ "resistance_markdown": "[electricity](/Traits.aspx?ID=56) 5",
+ "resistance_raw": " electricity  5",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 154\r\n\r\n**Creature Family** [Elemental, Metal](/MonsterFamilies.aspx?ID=343)\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 20\r\n\r\n**Fort** +13\r\n\r\n**Ref** +8\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLooking much like an ooze, a quickiron plasm is a mass of the rust-red liquid skymetal known as  djezet , prized in the  Universe  for its …\r\n</summary>",
+ "sense": " darkvision , magic scent",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), magic scent",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +12, [Stealth](/Skills.aspx?ID=15) +10",
+ "skill_mod": {
+  "athletics": 12,
+  "stealth": 10
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 154"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 154",
+ "speed": {
+  "land": 15,
+  "max": 15
+ },
+ "speed_markdown": "15 feet",
+ "speed_raw": "15 feet",
+ "spell_markdown": "",
+ "stealth": "10",
+ "strike_damage_average": [
+  13
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Looking much like an ooze, a quickiron plasm is a mass of the rust-red liquid skymetal known as  djezet , prized in the  Universe  for its …",
+ "summary_markdown": "Looking much like an ooze, a quickiron plasm is a mass of the rust-red liquid skymetal known as  djezet , prized in the  Universe  for its …",
+ "text": " Quickiron Plasm Looking much like an ooze, a quickiron plasm is a mass of the rust-red liquid skymetal known as djezet, prized in the Universe for its magic-enhancing properties. Quickiron plasms feed on the residual energies left behind by large expenditures of magical power, which they can detect from miles away. Recall Knowledge - Elemental (Arcana, Nature): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Quickiron Plasm Source Rage of Elements pg. 154 Perception +8; darkvision, magic scent Languages Skills Athletics +12, Stealth +10 Str +6 Dex +2 Con +5 Int -4 Wis +0 Cha -2 Magic Scent The quickiron plasm can sense magical auras from up to 1 mile away as an imprecise sense. --- AC 20 Fort +13 Ref +8 Will +10 HP 65 Immunities critical hits, bleed, paralyzed, poison, precision, sleep Resistances electricity 5 Biomagical Feedback The quickiron plasm's conductive properties are dangerous to those in physical contact with it. When a creature grabbed by a quickiron plasm Casts a Spell, that creature takes 5 force damage per rank of the spell. Consume Magic Reaction Trigger The quickiron plasm succeeds at a saving throw against a spell; Effect The quickiron plasm consumes energy from the spell, regaining 5 Hit Points per rank of the spell. --- Speed 15 feet Melee Single Action pseudopod +12 (reach 10 feet), Damage 2d6+6 bludgeoning plus Grab Constrict Single Action 2d6 bludgeoning, DC 22 Djezet Extraction When a quickiron plasm dies, most of the djezet making up its body becomes inert and useless. However, a skilled alchemist can sometimes extract trace amounts of the valuable skymetal from its remains. This is a 10-minute process that requires the Alchemical Crafting feat, a proficiency rank of expert or better in Crafting, and a successful DC 20 Crafting check. A successful attempt produces a single djezet dose that remains potent for 1 hour before breaking down into a foul-smelling goo. The item has no value if sold due to its temporary nature. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Metal",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Metal](/Traits.aspx?ID=505)",
+ "trait_raw": [
+  "Elemental",
+  "Metal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2647",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 10,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

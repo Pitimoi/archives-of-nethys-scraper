@@ -1,39 +1,49 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1567",
  "item_category": "Runes",
  "item_subcategory": "Weapon Property Runes",
  "level": 7,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Called (Weapon Rune)](/Equipment.aspx?ID=1567)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89</row>\n\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** etched onto a weapon\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _called_ weapon can be teleported to its owner's hand.\n\n<document level=\"2\" id=\"action-1181\" />\n\n<document level=\"2\" id=\"action-1182\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Called (Weapon Rune)](/Equipment.aspx?ID=1567)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89\n\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** etched onto a weapon\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _called_ weapon can be teleported to its owner's hand.\n\n**Activate** <actions string=\"\" /> 1 minute (command, envision);     **Effect** You imprint upon the weapon, proclaiming yourself as its owner. This allows you to use the rune's second activation until someone else uses this activation or succeeds at a Will save to prevent you from using the second activation.\n\n**Activate** <actions string=\"Two Actions\" /> command, envision;     **Effect** You extend your hand and call the weapon. If the weapon is within 100 feet of you, it appears in your hand even if it was restrained. If the weapon is in another creature's possession, that creature can attempt a Will save against your Will DC. If the creature succeeds, your bond as the owner is broken, and you can't use this activation again until you use the first activation to restore the connection.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Called (Weapon Rune)",
  "pfs": "Standard",
  "price": 35000,
  "price_raw": "350 gp",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 89",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-05-25",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89</row>\r\n\r\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** etched onto a weapon\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  called  weapon can be teleported to its owner's hand.  \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 89\r\n\r\n**Price** 350 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** etched onto a weapon\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  called  weapon can be teleported to its owner's hand.  \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 89"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 89</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 89",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A  called  weapon can be teleported to its owner's hand.  ",
  "summary_markdown": "A  called  weapon can be teleported to its owner's hand.  ",
- "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Standard\" > Called (Weapon Rune) Source Knights of Lastwall pg. 89 Price 350 gp Usage etched onto a weapon --- A called weapon can be teleported to its owner's hand.\n",
+ "text": "<title level=\"1\" right=\"Item 7\" pfs=\"Standard\" > Called (Weapon Rune) Source Knights of Lastwall pg. 89 Price 350 gp Usage etched onto a weapon --- A called weapon can be teleported to its owner's hand. Activate 1 minute (command, envision); Effect You imprint upon the weapon, proclaiming yourself as its owner. This allows you to use the rune's second activation until someone else uses this activation or succeeds at a Will save to prevent you from using the second activation. Activate Two Actions command, envision; Effect You extend your hand and call the weapon. If the weapon is within 100 feet of you, it appears in your hand even if it was restrained. If the weapon is in another creature's possession, that creature can attempt a Will save against your Will DC. If the creature succeeds, your bond as the owner is broken, and you can't use this activation again until you use the first activation to restore the connection.\n",
  "trait": [
   "Conjuration",
   "Magical"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

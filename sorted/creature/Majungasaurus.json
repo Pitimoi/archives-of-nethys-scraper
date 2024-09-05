@@ -1,0 +1,151 @@
+{
+ "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  16,
+  16
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Startling Roar",
+  "Crack Bones",
+  "Frightened Prey"
+ ],
+ "creature_family": "Dinosaur",
+ "creature_family_markdown": "[Dinosaur](/MonsterFamilies.aspx?ID=391)",
+ "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 120,
+ "hp_raw": "120",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3262",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"\">[Majungasaurus](/Monsters.aspx?ID=3262)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe majungasaurus prowls in a crouched posture, carrying its bulk so low to the ground it is eye-to-eye with its prey. Unlike most carnivorous dinosaurs, the majungasaurus is primarily an ambush predator, patiently lying in wait for quarry to come within reach before bursting from cover with a signature cry to attack.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Majungasaurus](/Monsters.aspx?ID=3262)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 137\n\n**Perception** +12; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +15, [Athletics](/Skills.aspx?ID=36) +16, [Intimidation](/Skills.aspx?ID=40) +14, [Stealth](/Skills.aspx?ID=48) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Startling Roar** When the majungasaurus rolls initiative using [Stealth](/Skills.aspx?ID=48), it can attempt to [Demoralize](/Actions.aspx?ID=2395) each creature within 30 feet as a free action. Regardless of the effect, each creature is then temporarily immune for 1 hour.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +16 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+6 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +16 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+6 bludgeoning\n\n**Crack Bones** <actions string=\"Single Action\" />  **Requirements** The majungasaurus has a creature [grabbed](/Conditions.aspx?ID=77) in its jaws; **Effect** The majungasaurus deals that creature 3d8 bludgeoning damage (DC 24 [basic](/Rules.aspx?ID=329) Fortitude save). A creature that fails this save is [clumsy 1](/Conditions.aspx?ID=61) until it recovers to full Hit Points.\r\n\r\n**Frightened Prey**   [Frightened](/Conditions.aspx?ID=76) creatures are [off-guard](/Conditions.aspx?ID=58) to a majungasaurus.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-391\" />",
+ "name": "Majungasaurus",
+ "npc": false,
+ "perception": 12,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 137",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 17,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 137\r\n\r\n**Creature Family** [Dinosaur](/MonsterFamilies.aspx?ID=391)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 23\r\n\r\n**Fort** +14\r\n\r\n**Ref** +17\r\n\r\n**Will** +12\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe majungasaurus prowls in a crouched posture, carrying its bulk so low to the ground it is eye-to-eye with its prey. Unlike most carnivorous …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +15, [Athletics](/Skills.aspx?ID=36) +16, [Intimidation](/Skills.aspx?ID=40) +14, [Stealth](/Skills.aspx?ID=48) +16",
+ "skill_mod": {
+  "acrobatics": 15,
+  "athletics": 16,
+  "intimidation": 14,
+  "stealth": 16
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 137"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 137",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  13,
+  15
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The majungasaurus prowls in a crouched posture, carrying its bulk so low to the ground it is eye-to-eye with its prey. Unlike most carnivorous …",
+ "summary_markdown": "The majungasaurus prowls in a crouched posture, carrying its bulk so low to the ground it is eye-to-eye with its prey. Unlike most carnivorous …",
+ "text": " Majungasaurus The majungasaurus prowls in a crouched posture, carrying its bulk so low to the ground it is eye-to-eye with its prey. Unlike most carnivorous dinosaurs, the majungasaurus is primarily an ambush predator, patiently lying in wait for quarry to come within reach before bursting from cover with a signature cry to attack. Recall Knowledge - Animal (Nature): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Majungasaurus Source Howl of the Wild pg. 137 Perception +12; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +15, Athletics +16, Intimidation +14, Stealth +16 Str +6 Dex +5 Con +4 Int -4 Wis +2 Cha +4 Startling Roar When the majungasaurus rolls initiative using Stealth, it can attempt to Demoralize each creature within 30 feet as a free action. Regardless of the effect, each creature is then temporarily immune for 1 hour. --- AC 23 Fort +14 Ref +17 Will +12 HP 120 --- Speed 25 feet Melee Single Action jaws +16 (reach 15 feet), Damage 2d8+6 piercing plus Grab Melee Single Action foot +16 (Agile), Damage 2d6+6 bludgeoning Crack Bones Single Action Requirements The majungasaurus has a creature grabbed in its jaws; Effect The majungasaurus deals that creature 3d8 bludgeoning damage (DC 24 basic Fortitude save). A creature that fails this save is clumsy 1 until it recovers to full Hit Points. Frightened Prey Frightened creatures are off-guard to a majungasaurus. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Dinosaur",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Dinosaur](/Traits.aspx?ID=576)",
+ "trait_raw": [
+  "Animal",
+  "Dinosaur"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3262",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 12,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

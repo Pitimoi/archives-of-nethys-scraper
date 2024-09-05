@@ -1,7 +1,10 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Wave Spiral"
@@ -10,25 +13,32 @@
  "frequency": "once per minute",
  "id": "feat-2985",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wave Spiral](/Feats.aspx?ID=2985) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 202 <sup>1.1</sup></row>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[Reflective Ripple Stance](/Feats.aspx?ID=2980)\n\n**Requirements**\r\nYou're in Reflective Ripple Stance.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou dip and spin, unleashing a wide whirlpool of water. Make an [Athletics](/Skills.aspx?ID=3) check to [Trip](/Actions.aspx?ID=40) each creature standing on the ground in a 10-foot emanation. These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wave Spiral](/Feats.aspx?ID=2985) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 202 <sup>1.1</sup>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[Reflective Ripple Stance](/Feats.aspx?ID=2980)\n\n**Requirements**\r\nYou're in Reflective Ripple Stance.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou dip and spin, unleashing a wide whirlpool of water. Make an [Athletics](/Skills.aspx?ID=3) check to [Trip](/Actions.aspx?ID=40) each creature standing on the ground in a 10-foot emanation. These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks.",
  "name": "Wave Spiral",
  "pfs": "Standard",
  "prerequisite": "Reflective Ripple Stance",
  "prerequisite_markdown": "[Reflective Ripple Stance](/Feats.aspx?ID=2980)",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 202",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "requirement": "You're in Reflective Ripple Stance.",
  "requirement_markdown": "You're in Reflective Ripple Stance.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 202 <sup>1.1</sup></row>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[Reflective Ripple Stance](/Feats.aspx?ID=2980)\n\n**Requirements**\r\nYou're in Reflective Ripple Stance.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou dip and spin, unleashing a wide whirlpool of water.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 202 <sup>1.1</sup>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[Reflective Ripple Stance](/Feats.aspx?ID=2980)\n\n**Requirements**\r\nYou're in Reflective Ripple Stance.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou dip and spin, unleashing a wide whirlpool of water.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 202"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 202 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 202 <sup>1.1</sup>",
  "speed": {},
  "summary": "You dip and spin, unleashing a wide whirlpool of water.",
  "summary_markdown": "You dip and spin, unleashing a wide whirlpool of water.",
@@ -36,6 +46,13 @@
  "trait": [
   "Monk",
   "Water"
+ ],
+ "trait_group": [
+  "Class",
+  "Weapon",
+  "Elemental",
+  "Planar",
+  "Monster"
  ],
  "trait_markdown": "[Monk](/Traits.aspx?ID=112), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [

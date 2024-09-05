@@ -1,0 +1,175 @@
+{
+ "ac": 24,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  11,
+  15
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Defensive Camouflage",
+  "Engulf"
+ ],
+ "creature_family": "Elemental, Wood",
+ "creature_family_markdown": "[Elemental, Wood](/MonsterFamilies.aspx?ID=345)",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 90,
+ "hp_raw": "90",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2674",
+ "image": [
+  "/Images/Monsters/ElementalWood_LivingGrove.png"
+ ],
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Arboreal",
+  "Muan",
+  "(understands but can't speak)"
+ ],
+ "language_markdown": "[Arboreal](/Languages.aspx?ID=26), [Muan](/Languages.aspx?ID=108); (understands but can't speak)",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Living Grove](/Monsters.aspx?ID=2674)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA living grove is a singular connected entity, with dozens of genetically identical trunks united within the same root system. At rest, a living grove resembles nothing so much as a small arboretum of birch and aspen trees, though oak and redwood varieties that are significantly larger and tougher exist as well.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/ElementalWood_LivingGrove.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Living Grove](/Monsters.aspx?ID=2674)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 207\n\n**Perception** +15; [tremorsense](/MonsterAbilities.aspx?ID=40) 30 feet\r\n\r\n**Languages**\r\n[Arboreal](/Languages.aspx?ID=26), [Muan](/Languages.aspx?ID=108); (understands but can't speak)\r\n\r\n**Skills**\r\n[Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +13, [Survival](/Skills.aspx?ID=16) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +0\r\n\r\n**Con** +5\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\r\n\r\n**Defensive Camouflage** The living grove can [Hide](/Actions.aspx?ID=62) in natural environments even if it doesn't have cover. While Hiding, its root system is safely covered in dirt, granting the grove a +3 status bonus to AC. A critical hit cracks this protective layer of earth to disperse in the wind, ending the effect.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 (21 without defensive camouflage)\r\n\r\n**Fort** +12 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 90\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\n[axes](/WeaponGroups.aspx?ID=1) 5, [fire](/Traits.aspx?ID=72) 7\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbranch +15,\r\n**Damage** 2d8+4 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nnuts +11 ([range increment 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d6+4 bludgeoning\n\n**[Engulf](/MonsterAbilities.aspx?ID=14)** <actions string=\"Two Actions\" />  DC 22, 5d8 bludgeoning, [Escape](/Actions.aspx?ID=79) DC 20, Rupture 10. A creature Engulfed by the living grove must also attempt a basic Fortitude save as it's battered between the thin, tightly packed trunks.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [stunned 1](/Conditions.aspx?ID=36).<br /> **Failure** The creature is stunned 2.<br /> **Critical Failure** The creature is stunned 4.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">Slumbering Giants</title>\r\n\r\nLong before mortal civilization, living groves made their way to the [Universe](/Planes.aspx?ID=1), buried their roots deep for safety, and fell dormant. A handful of these ancient elementals survive to this day, numbering among the oldest non-immortal entities yet living on the plane. Their long separation from the [Plane of Wood](/Planes.aspx?ID=25) has sent most into a deep hibernation, but an infusion of planar energy or powerful primal magic could potentially wake them up.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-345\" />",
+ "name": "Living Grove",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 207",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 7,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 207\r\n\r\n**Creature Family** [Elemental, Wood](/MonsterFamilies.aspx?ID=345)\r\n\r\n<row gap=\"medium\">\r\n**HP** 90\r\n\r\n**AC** 24\r\n\r\n**Fort** +12\r\n\r\n**Ref** +7\r\n\r\n**Will** +15\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA living grove is a singular connected entity, with dozens of genetically identical trunks united within the same root system. At rest, a living …\r\n</summary>",
+ "sense": " tremorsense  30 feet",
+ "sense_markdown": "[tremorsense](/MonsterAbilities.aspx?ID=40) 30 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Nature",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +13, [Survival](/Skills.aspx?ID=16) +12",
+ "skill_mod": {
+  "nature": 13,
+  "stealth": 13,
+  "survival": 12
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 207"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 207",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "stealth": "13",
+ "strike_damage_average": [
+  11,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "A living grove is a singular connected entity, with dozens of genetically identical trunks united within the same root system. At rest, a living …",
+ "summary_markdown": "A living grove is a singular connected entity, with dozens of genetically identical trunks united within the same root system. At rest, a living …",
+ "text": " Living Grove A living grove is a singular connected entity, with dozens of genetically identical trunks united within the same root system. At rest, a living grove resembles nothing so much as a small arboretum of birch and aspen trees, though oak and redwood varieties that are significantly larger and tougher exist as well. Recall Knowledge - Elemental (Arcana, Nature): DC 20 Recall Knowledge - Plant (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Living Grove Source Rage of Elements pg. 207 Perception +15; tremorsense 30 feet Languages Arboreal, Muan; (understands but can't speak) Skills Nature +13, Stealth +13, Survival +12 Str +4 Dex +0 Con +5 Int +0 Wis +1 Cha +1 Defensive Camouflage The living grove can Hide in natural environments even if it doesn't have cover. While Hiding, its root system is safely covered in dirt, granting the grove a +3 status bonus to AC. A critical hit cracks this protective layer of earth to disperse in the wind, ending the effect. --- AC 24 (21 without defensive camouflage) Fort +12 Ref +7 Will +15 HP 90 Immunities bleed, paralyzed, poison, sleep Weaknesses axes 5, fire 7 --- Speed 20 feet Melee Single Action branch +15, Damage 2d8+4 bludgeoning Ranged Single Action nuts +11 (range increment 20 feet), Damage 2d6+4 bludgeoning Engulf Two Actions DC 22, 5d8 bludgeoning, Escape DC 20, Rupture 10. A creature Engulfed by the living grove must also attempt a basic Fortitude save as it's battered between the thin, tightly packed trunks. Critical Success The creature is unaffected. Success The creature is stunned 1. Failure The creature is stunned 2. Critical Failure The creature is stunned 4. Slumbering Giants Long before mortal civilization, living groves made their way to the Universe, buried their roots deep for safety, and fell dormant. A handful of these ancient elementals survive to this day, numbering among the oldest non-immortal entities yet living on the plane. Their long separation from the Plane of Wood has sent most into a deep hibernation, but an infusion of planar energy or powerful primal magic could potentially wake them up. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Plant",
+  "Wood",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Plant](/Traits.aspx?ID=125), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Elemental",
+  "Plant",
+  "Wood"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2674",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "fire": 7
+ },
+ "weakness_markdown": "[axes](/WeaponGroups.aspx?ID=1) 5, [fire](/Traits.aspx?ID=72) 7",
+ "weakness_raw": " axes  5,  fire  7",
+ "will_save": 15,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

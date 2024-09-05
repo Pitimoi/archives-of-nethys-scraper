@@ -1,0 +1,190 @@
+{
+ "ac": 42,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  35,
+  35
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 7,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Like Clockwork    Trigger",
+  "Constrict",
+  "Rescue",
+  "Rock Tunneler",
+  "Trample"
+ ],
+ "creature_family": "Haunted Clockwork",
+ "creature_family_markdown": "[Haunted Clockwork](/MonsterFamilies.aspx?ID=355)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 33,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 380,
+ "hp_raw": "380",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2771",
+ "immunity": [
+  "death effects",
+  "disease",
+  "doomed",
+  "drained",
+  "fatigued",
+  "healing",
+  "nonlethal attacks",
+  "paralyzed",
+  "poison",
+  "sickened",
+  "unconscious",
+  "vitality",
+  "void"
+ ],
+ "immunity_markdown": "death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, unconscious, vitality, void",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Sakvroth",
+  "Tien"
+ ],
+ "language_markdown": "[Sakvroth](/Languages.aspx?ID=118), [Tien](/Languages.aspx?ID=43)",
+ "level": 18,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[The Caterpillar Carriage](/Monsters.aspx?ID=2771)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe haunted construct known as the caterpillar carriage is composed of armored segments that flow over one another as the carriage inches forward. It has two forelegs that dig grooves into the ground, making way for the many wheels situated along its underside.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 48\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 46\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 43\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[The Caterpillar Carriage](/Monsters.aspx?ID=2771)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Clockwork\" url=\"/Traits.aspx?ID=331\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 286\n\n**Perception** +30; [darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) (imprecise) 100 feet\r\n\r\n**Languages**\r\n[Sakvroth](/Languages.aspx?ID=118), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +35, [Diplomacy](/Skills.aspx?ID=6) +30, [Intimidation](/Skills.aspx?ID=7) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +3\r\n\r\n**Con** +7\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 42 \r\n\r\n**Fort** +33 \r\n\r\n**Ref** +29 \r\n\r\n**Will** +30 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 380\n\n</row>\r\n\r\n**Immunities**\r\ndeath effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, unconscious, vitality, void\r\n\r\n**Resistances**\r\nphysical 15 (except adamantine or orichalcum)\r\n\r\n**Weaknesses**\r\nelectricity 15, orichalcum 15\r\n\r\n**Like Clockwork <actions string=\"Free Action\" /> **Trigger** The caterpillar carriage gains the slowed or stunned condition** **Effect** The carriage is quickened for 1 round.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, burrow 40 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +35 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 4d10+17 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=27)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwheel +35 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 4d8+17 bludgeoning\n\n**[Constrict](/MonsterAbilities.aspx?ID=57)** <actions string=\"Single Action\" />  4d10+4 bludgeoning, DC 40\r\n\r\n**Rescue** <actions string=\"Single Action\" />  The caterpillar carriage absorbs a willing construct within its reach. That construct doesn't exist separately until the caterpillar carriage releases it as an Interact action or is destroyed.\r\n\r\n**Rock Tunneler**   The caterpillar carriage can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Three Actions\" />  Huge or smaller, wheel, DC 40\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-355\" />",
+ "name": "The Caterpillar Carriage",
+ "npc": false,
+ "perception": 30,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 286",
+ "primary_source_category": "Lost Omens",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 29,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-04-24",
+ "resistance": {
+  "bludgeoning": 15,
+  "physical": 15,
+  "piercing": 15,
+  "slashing": 15
+ },
+ "resistance_markdown": "physical 15 (except adamantine or orichalcum)",
+ "resistance_raw": "physical 15 (except adamantine or orichalcum)",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Clockwork\" url=\"/Traits.aspx?ID=331\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 286\r\n\r\n**Creature Family** [Haunted Clockwork](/MonsterFamilies.aspx?ID=355)\r\n\r\n<row gap=\"medium\">\r\n**HP** 380\r\n\r\n**AC** 42\r\n\r\n**Fort** +33\r\n\r\n**Ref** +29\r\n\r\n**Will** +30\r\n\r\n**Perception** +30\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe haunted construct known as the caterpillar carriage is composed of armored segments that flow over one another as the carriage inches forward. It …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  (imprecise) 100 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) (imprecise) 100 feet",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Diplomacy",
+  "Intimidation"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +35, [Diplomacy](/Skills.aspx?ID=6) +30, [Intimidation](/Skills.aspx?ID=7) +30",
+ "skill_mod": {
+  "athletics": 35,
+  "diplomacy": 30,
+  "intimidation": 30
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 286"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 286",
+ "speed": {
+  "burrow": 40,
+  "land": 40,
+  "max": 40,
+  "swim": 20
+ },
+ "speed_markdown": "40 feet, burrow 40 feet, swim 20 feet",
+ "speed_raw": "40 feet, burrow 40 feet, swim 20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  35,
+  39
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "The haunted construct known as the caterpillar carriage is composed of armored segments that flow over one another as the carriage inches forward. It …",
+ "summary_markdown": "The haunted construct known as the caterpillar carriage is composed of armored segments that flow over one another as the carriage inches forward. It …",
+ "text": " The Caterpillar Carriage The haunted construct known as the caterpillar carriage is composed of armored segments that flow over one another as the carriage inches forward. It has two forelegs that dig grooves into the ground, making way for the many wheels situated along its underside. Recall Knowledge - Construct (Arcana, Crafting): DC 48 Unspecific Lore : DC 46 Specific Lore : DC 43 The Caterpillar Carriage Source Tian Xia World Guide pg. 286 Perception +30; darkvision, tremorsense (imprecise) 100 feet Languages Sakvroth, Tien Skills Athletics +35, Diplomacy +30, Intimidation +30 Str +9 Dex +3 Con +7 Int +2 Wis +4 Cha +4 --- AC 42 Fort +33 Ref +29 Will +30 HP 380 Immunities death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, unconscious, vitality, void Resistances physical 15 (except adamantine or orichalcum) Weaknesses electricity 15, orichalcum 15 Like Clockwork Free Action Trigger The caterpillar carriage gains the slowed or stunned condition Effect The carriage is quickened for 1 round. --- Speed 40 feet, burrow 40 feet, swim 20 feet Melee Single Action jaws +35 (reach 15 feet), Damage 4d10+17 piercing plus Improved Grab Melee Single Action wheel +35 (Agile), Damage 4d8+17 bludgeoning Constrict Single Action 4d10+4 bludgeoning, DC 40 Rescue Single Action The caterpillar carriage absorbs a willing construct within its reach. That construct doesn't exist separately until the caterpillar carriage releases it as an Interact action or is destroyed. Rock Tunneler The caterpillar carriage can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does. Trample Three Actions Huge or smaller, wheel, DC 40 ",
+ "tradition_markdown": "",
+ "trait": [
+  "Clockwork",
+  "Construct",
+  "Unique",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Clockwork](/Traits.aspx?ID=331), [Construct](/Traits.aspx?ID=35), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Clockwork",
+  "Construct",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2771",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "electricity": 15,
+  "orichalcum": 15
+ },
+ "weakness_markdown": "electricity 15, orichalcum 15",
+ "weakness_raw": "electricity 15, orichalcum 15",
+ "will_save": 30,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

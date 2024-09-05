@@ -1,0 +1,205 @@
+{
+ "ac": 25,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "LE",
+ "attack_bonus": [
+  17,
+  18
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Light Blindness",
+  "Disengaging Shot",
+  "Sneak Attack",
+  "Surprise Attack"
+ ],
+ "creature_family": "Duergar",
+ "creature_family_markdown": "[Duergar](/MonsterFamilies.aspx?ID=38)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 115,
+ "hp_raw": "115",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2707",
+ "image": [
+  "/Images/Monsters/Hryngar_Assassin.png"
+ ],
+ "intelligence": 4,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "item": [
+  "clockwork grappling gun",
+  "Dagger",
+  "extreme climbing kit",
+  "Hunting Spider Venom (5 doses applied to first magazine)",
+  "+1 striking repeating heavy crossbow (4 magazines with 5 bolts each)"
+ ],
+ "language": [
+  "Common",
+  "Dwarven",
+  "Undercommon"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hryngar Assassin](/Monsters.aspx?ID=2707)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nIn secret conclaves around Nar-Voth, hidden in plain sight within hryngar settlements, are the workshops and training grounds for the Darklands' most technologically sophisticated group of killers. Most hryngar assassins train from childhood, having been recruited from orphanages, and are under a life-debt obligation to their guild leader.\n\n While on contract, hryngar assassins are on the lookout for new technologies, gadgets, and alchemical creations. They bring what they find back to their guild to be reverse engineered and replicated for other guild assassins. When the opportunity presents itself, they destroy the schematics and formulae that other organizations, inventors, and alchemists have created if they can't steal them.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 25\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 23\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 20\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hryngar_Assassin.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Hryngar Assassin](/Monsters.aspx?ID=2707)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 86\n\n**Perception** +16; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +13, [Crafting](/Skills.aspx?ID=4) +13, [Stealth](/Skills.aspx?ID=15) +19, [Survival](/Skills.aspx?ID=16) +14, [Thievery](/Skills.aspx?ID=17) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** +4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[clockwork grappling gun](/Equipment.aspx?ID=1099), [Dagger](/Weapons.aspx?ID=3), [extreme climbing kit](/Equipment.aspx?ID=14), [Hunting Spider Venom](/Equipment.aspx?ID=118) (5 doses applied to first magazine), +1 [striking](/Equipment.aspx?ID=280) [repeating heavy crossbow](/Weapons.aspx?ID=178) (4 magazines with 5 bolts each)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +12 \r\n\r\n+2 status to all saves vs. [magic](/Traits.aspx?ID=103)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 115\n\n</row>\n\n**[Light Blindness](/MonsterAbilities.aspx?ID=22)** <br />**Disengaging Shot** <actions string=\"Reaction\" /> **Requirements** The hryngar assassin is equipped with a loaded repeating heavy crossbow; **Trigger** A creature critically misses the hryngar assassin with a melee Strike; **Effect** The hryngar assassin Strides, then Strikes the triggering creature with their repeating heavy crossbow; the target is [flat-footed](/Conditions.aspx?ID=16) against this Strike.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet; climb 10 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +17 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+8 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_repeating heavy crossbow_ +18 ([range 180 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254), [Repeating](/Traits.aspx?ID=374)),\r\n**Damage** 2d10+2 piercing\r\n\r\n**Occult Innate Spells** DC 25\r\n- **Cantrips (4th)**\r\n[Sigil](/Spells.aspx?ID=286)\r\n- **2nd**\r\n[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214)\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The hryngar assassin deals an extra 2d6 precision damage to [flat-footed](/Conditions.aspx?ID=16) creatures.\r\n\r\n**Surprise Attack**   On the first round of combat, creatures that haven't acted yet are [flat-footed](/Conditions.aspx?ID=16) to the hryngar assassin.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Bleeding Edge Killing Tech</title>\r\n\r\nHryngar assassins use the most advanced gadgets and technology available to them. Their inventors are hard at work reverse engineering any specialized equipment they find so they can provide moderately equivalent designs to the best assassins. Elite assassins gain one [consumable gadget](/Equipment.aspx?Category=15&amp;Subcategory=71) of their level or lower, often selected for a specific job.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-38\" />",
+ "name": "Hryngar Assassin",
+ "npc": false,
+ "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 86",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 17,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-09-23",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 86\r\n\r\n**Creature Family** [Duergar](/MonsterFamilies.aspx?ID=38)\r\n\r\n<row gap=\"medium\">\r\n**HP** 115\r\n\r\n**AC** 25\r\n\r\n**Fort** +15\r\n\r\n**Ref** +17\r\n\r\n**Will** +12\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIn secret conclaves around Nar-Voth, hidden in plain sight within hryngar settlements, are the workshops and training grounds for the Darklands' most …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Crafting",
+  "Stealth",
+  "Survival",
+  "Thievery"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +13, [Crafting](/Skills.aspx?ID=4) +13, [Stealth](/Skills.aspx?ID=15) +19, [Survival](/Skills.aspx?ID=16) +14, [Thievery](/Skills.aspx?ID=17) +17",
+ "skill_mod": {
+  "acrobatics": 17,
+  "athletics": 13,
+  "crafting": 13,
+  "stealth": 19,
+  "survival": 14,
+  "thievery": 17
+ },
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 86"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 86",
+ "speed": {
+  "climb": 10,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet; climb 10 feet",
+ "speed_raw": "25 feet; climb 10 feet",
+ "spell": [
+  "Blood Vendetta",
+  "Paranoia",
+  "Sigil"
+ ],
+ "spell_markdown": "[Blood Vendetta](/Spells.aspx?ID=675), [Paranoia](/Spells.aspx?ID=214), [Sigil](/Spells.aspx?ID=286)",
+ "spell_dc": [
+  25
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Sky King's Tomb",
+ "stealth": "19",
+ "strike_damage_average": [
+  10,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "In secret conclaves around Nar-Voth, hidden in plain sight within hryngar settlements, are the workshops and training grounds for the Darklands' most …",
+ "summary_markdown": "In secret conclaves around Nar-Voth, hidden in plain sight within hryngar settlements, are the workshops and training grounds for the Darklands' most …",
+ "text": " Hryngar Assassin In secret conclaves around Nar-Voth, hidden in plain sight within hryngar settlements, are the workshops and training grounds for the Darklands' most technologically sophisticated group of killers. Most hryngar assassins train from childhood, having been recruited from orphanages, and are under a life-debt obligation to their guild leader. While on contract, hryngar assassins are on the lookout for new technologies, gadgets, and alchemical creations. They bring what they find back to their guild to be reverse engineered and replicated for other guild assassins. When the opportunity presents itself, they destroy the schematics and formulae that other organizations, inventors, and alchemists have created if they can't steal them. Recall Knowledge - Humanoid (Society): DC 25 Unspecific Lore : DC 23 Specific Lore : DC 20 Hryngar Assassin Source Pathfinder #195: Heavy is the Crown pg. 86 Perception +16; darkvision Languages Common, Dwarven, Undercommon Skills Acrobatics +17, Athletics +13, Crafting +13, Stealth +19, Survival +14, Thievery +17 Str +2 Dex +6 Con +4 Int +4 Wis +3 Cha +2 Items clockwork grappling gun, Dagger, extreme climbing kit, Hunting Spider Venom (5 doses applied to first magazine), +1 striking repeating heavy crossbow (4 magazines with 5 bolts each) --- AC 25 Fort +15 Ref +17 Will +12 +2 status to all saves vs. magic HP 115 Light Blindness Disengaging Shot Reaction Requirements The hryngar assassin is equipped with a loaded repeating heavy crossbow; Trigger A creature critically misses the hryngar assassin with a melee Strike; Effect The hryngar assassin Strides, then Strikes the triggering creature with their repeating heavy crossbow; the target is flat-footed against this Strike. --- Speed 25 feet; climb 10 feet Melee Single Action dagger +17 (Agile, Finesse, thrown 10 feet, versatile S), Damage 1d4+8 piercing Ranged Single Action repeating heavy crossbow +18 (range 180 feet, reload 1, Repeating), Damage 2d10+2 piercing Occult Innate Spells DC 25 - Cantrips (4th) Sigil - 2nd Blood Vendetta, Paranoia Sneak Attack The hryngar assassin deals an extra 2d6 precision damage to flat-footed creatures. Surprise Attack On the first round of combat, creatures that haven't acted yet are flat-footed to the hryngar assassin. Bleeding Edge Killing Tech Hryngar assassins use the most advanced gadgets and technology available to them. Their inventors are hard at work reverse engineering any specialized equipment they find so they can provide moderately equivalent designs to the best assassins. Elite assassins gain one consumable gadget of their level or lower, often selected for a specific job. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "Uncommon",
+  "LE",
+  "Medium",
+  "Hryngar"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Duergar](/Traits.aspx?ID=53), [Dwarf](/Traits.aspx?ID=54), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2707",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 12,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

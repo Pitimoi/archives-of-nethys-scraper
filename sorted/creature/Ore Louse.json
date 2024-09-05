@@ -1,0 +1,160 @@
+{
+ "ac": 22,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  14,
+  14,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Metal Scent",
+  "Consume Living Metal",
+  "Metal Snack",
+  "Rust",
+  "Water Stride"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 13,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 60,
+ "hp_raw": "60",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2665",
+ "image": [
+  "/Images/Monsters/OreLouse.png"
+ ],
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Ore Louse](/Monsters.aspx?ID=2665)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOre lice are six-legged insectile creatures that roost either just beneath or above the water's surface. They're highly territorial toward both strangers and each other, able to detect an intruder through the ripples in the water. Due to their diet, ore lice have incredibly tough chitin that's infused with metal. Cannibalism between ore lice is common when they're unable to locate other prey.\n\n Though there are far more suitable environments for ore lice bordering the [Plane of Air](/Planes.aspx?ID=4), the creatures are often found where the [Plane of Earth](/Planes.aspx?ID=5) meets the [Plane of Water](/Planes.aspx?ID=7). This was a mystery that puzzled many—until the [Plane of Metal](/Planes.aspx?ID=24) returned between the Planes of Earth and Water. Planar researchers realized that ore lice must have hunted here before the planar schism. On the Plane of Metal, ore lice often appear in horror stories chasing down metal elementals and ferociously devouring them. Their connection to [Ferrumnestra](/Deities.aspx?ID=273) adds to their infamy.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/OreLouse.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Ore Louse](/Monsters.aspx?ID=2665)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 185\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=12), metal scent 30 feet, [wavesense](/MonsterAbilities.aspx?ID=41) 120 feet ([imprecise](/Rules.aspx?ID=412))\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** -2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Metal Scent** An ore louse can smell metal as a [precise](/Rules.aspx?ID=411) sense.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, swim 60 feet; water stride\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmandibles +14 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d8+4 piercing plus rust and metal snack\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nleg +14 ([Finesse](/Traits.aspx?ID=179), [10 feet reach](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+4 bludgeoning plus [Knockdown](/MonsterAbilities.aspx?ID=46)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\noxidizing spit +14 ([range increment 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d8 acid plus rust\n\n**Consume Living Metal** <actions string=\"Single Action\" /> ([Manipulate](/Traits.aspx?ID=104)) **Requirements** The ore louse is adjacent to a creature that died within the last hour and had the [metal](/Traits.aspx?ID=505) trait or was another ore louse; **Effect** An ore louse can replenish its health by eating the remains of its kin or a once-living metal creature. The ore louse feasts upon the corpse, regaining 3d6 Hit Points. The ore louse can regain Hit Points from a given corpse only once.\r\n\r\n**Metal Snack**   An ore louse gains 5 temporary Hit Points each time its mandibles Strike either damages or breaks a metal item using its rust ability, or if it hits a creature that has the [metal](/Traits.aspx?ID=505) trait or is made of metal.\r\n\r\n**Rust**   An ore louse's Strikes causes metal to rapidly rust and corrode. If it succeeds at a mandibles or oxidizing spit Strike, the ore louse deals 3d6 damage (or double damage on a critical hit) to a metal item the target is wearing or holding, ignoring its Hardness. If the ore louse hits an unattended metal item, the item takes this damage automatically. If a creature uses the [Shield Block](/Feats.aspx?ID=839) reaction with a metal shield against the attacks, the shield is automatically [broken](/Conditions.aspx?ID=2), but no other item is rusted on that attack.\r\n\r\n**Water Stride**   The ore louse can stand and move on the surface of water or other liquids without falling through. The ore louse can go underwater if it wishes, but it must [Swim](/Actions.aspx?ID=39) to do so.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Ore Louse Boots</title>\r\n\r\nDue to their ability to walk on water, numerous attempts have been made to use ore louse legs to produce footwear. Techniques tested so far include hollowing out the chitin or harvesting and refining the fine leg spikes. None of these attempts have succeeded as of yet.\r\n</aside>",
+ "name": "Ore Louse",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 185",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 185\n\n<row gap=\"medium\">\r\n**HP** 60\r\n\r\n**AC** 22\r\n\r\n**Fort** +13\r\n\r\n**Ref** +15\r\n\r\n**Will** +10\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOre lice are six-legged insectile creatures that roost either just beneath or above the water's surface. They're highly territorial toward both …\r\n</summary>",
+ "sense": " darkvision , metal scent 30 feet,  wavesense  120 feet ( imprecise )",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), metal scent 30 feet, [wavesense](/MonsterAbilities.aspx?ID=41) 120 feet ([imprecise](/Rules.aspx?ID=412))",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +12",
+ "skill_mod": {
+  "athletics": 12
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 185"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 185",
+ "speed": {
+  "land": 35,
+  "max": 60,
+  "swim": 60
+ },
+ "speed_markdown": "35 feet, swim 60 feet; water stride",
+ "speed_raw": "35 feet, swim 60 feet; water stride",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  9,
+  13,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Ore lice are six-legged insectile creatures that roost either just beneath or above the water's surface. They're highly territorial toward both …",
+ "summary_markdown": "Ore lice are six-legged insectile creatures that roost either just beneath or above the water's surface. They're highly territorial toward both …",
+ "text": " Ore Louse Ore lice are six-legged insectile creatures that roost either just beneath or above the water's surface. They're highly territorial toward both strangers and each other, able to detect an intruder through the ripples in the water. Due to their diet, ore lice have incredibly tough chitin that's infused with metal. Cannibalism between ore lice is common when they're unable to locate other prey. Though there are far more suitable environments for ore lice bordering the Plane of Air, the creatures are often found where the Plane of Earth meets the Plane of Water. This was a mystery that puzzled many—until the Plane of Metal returned between the Planes of Earth and Water. Planar researchers realized that ore lice must have hunted here before the planar schism. On the Plane of Metal, ore lice often appear in horror stories chasing down metal elementals and ferociously devouring them. Their connection to Ferrumnestra adds to their infamy. Recall Knowledge - Beast (Arcana, Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Ore Louse Source Rage of Elements pg. 185 Perception +14; darkvision, metal scent 30 feet, wavesense 120 feet (imprecise) Languages Skills Athletics +12 Str +1 Dex +4 Con +2 Int -2 Wis +3 Cha +0 Metal Scent An ore louse can smell metal as a precise sense. --- AC 22 Fort +13 Ref +15 Will +10 HP 60 --- Speed 35 feet, swim 60 feet; water stride Melee Single Action mandibles +14 (Finesse), Damage 2d8+4 piercing plus rust and metal snack Melee Single Action leg +14 (Finesse, 10 feet reach), Damage 2d8+4 bludgeoning plus Knockdown Melee Single Action oxidizing spit +14 (range increment 20 feet), Damage 2d8 acid plus rust Consume Living Metal Single Action (Manipulate) Requirements The ore louse is adjacent to a creature that died within the last hour and had the metal trait or was another ore louse; Effect An ore louse can replenish its health by eating the remains of its kin or a once-living metal creature. The ore louse feasts upon the corpse, regaining 3d6 Hit Points. The ore louse can regain Hit Points from a given corpse only once. Metal Snack An ore louse gains 5 temporary Hit Points each time its mandibles Strike either damages or breaks a metal item using its rust ability, or if it hits a creature that has the metal trait or is made of metal. Rust An ore louse's Strikes causes metal to rapidly rust and corrode. If it succeeds at a mandibles or oxidizing spit Strike, the ore louse deals 3d6 damage (or double damage on a critical hit) to a metal item the target is wearing or holding, ignoring its Hardness. If the ore louse hits an unattended metal item, the item takes this damage automatically. If a creature uses the Shield Block reaction with a metal shield against the attacks, the shield is automatically broken, but no other item is rusted on that attack. Water Stride The ore louse can stand and move on the surface of water or other liquids without falling through. The ore louse can go underwater if it wishes, but it must Swim to do so. Ore Louse Boots Due to their ability to walk on water, numerous attempts have been made to use ore louse legs to produce footwear. Techniques tested so far include hollowing out the chitin or harvesting and refining the fine leg spikes. None of these attempts have succeeded as of yet. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Beast",
+  "Water",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=207), [Beast](/Traits.aspx?ID=20), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Amphibious",
+  "Beast",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2665",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 10,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

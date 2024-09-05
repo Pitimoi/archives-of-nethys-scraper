@@ -1,55 +1,104 @@
 {
  "ac": 32,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  22,
+  23
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Spell Punch"
  ],
  "creature_family_markdown": "",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 22,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 220,
  "hp_raw": "220",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-1453",
  "intelligence": 5,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "item": [
+  "bracers of armor I",
+  "+1 striking handwraps of mighty blows",
+  "+1 striking longsword"
+ ],
  "language": [
   "Common",
   "Tien"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Tien](/Languages.aspx?ID=43)",
  "level": 13,
- "markdown": "<title level=\"1\" pfs=\"\">[Mage of Many Styles](/NPCs.aspx?ID=1453)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe mage of many styles combines magical and martial tactics. They try to hamper foes with [_black tentacles_](/Spells.aspx?ID=23) or [_confusion_](/Spells.aspx?ID=48), switching to damaging spells like [_lightning bolt_](/Spells.aspx?ID=172) once their opponents are properly lined up. When engaged in melee, they make liberal use of [_shocking grasp_](/Spells.aspx?ID=283) and [_true strike_](/Spells.aspx?ID=345) to deal powerful blows.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 33\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 31\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 28\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Mage of Many Styles](/NPCs.aspx?ID=1453)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #166: Despair on Danger Island](/Sources.aspx?ID=85) pg. 25</row>\n\n**Perception** +22\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Academia Lore](/Skills.aspx?ID=8) +26, [Acrobatics](/Skills.aspx?ID=1) +23, [Arcana](/Skills.aspx?ID=2) +28, [Occultism](/Skills.aspx?ID=11) +26\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +5\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n_[bracers of armor I](/Equipment.aspx?ID=416)_, _+1 [striking](/Equipment.aspx?ID=280) [handwraps of mighty blows](/Equipment.aspx?ID=441)_, _+1 [striking](/Equipment.aspx?ID=280) [longsword](/Weapons.aspx?ID=31)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +21 \n\n</row>\r\n\r\n**HP** 220\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [Nonlethal](/Traits.aspx?ID=188), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 2d6+5 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_longsword_ +23 ([Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d8+5 slashing\r\n\r\n**Wizard Prepared Spells** DC 32, attack +26\r\n- **Cantrips (7th)**\r\n[Acid Splash](/Spells.aspx?ID=3), [Daze](/Spells.aspx?ID=61), [Mage Hand](/Spells.aspx?ID=177), [Shield](/Spells.aspx?ID=280), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Fleet Step](/Spells.aspx?ID=122), [Ray of Enfeeblement](/Spells.aspx?ID=244), [True Strike](/Spells.aspx?ID=345)\r\n- **2nd**\r\n[Acid Arrow](/Spells.aspx?ID=2), [Mirror Image](/Spells.aspx?ID=197), [Touch of Idiocy](/Spells.aspx?ID=341)\r\n- **3rd**\r\n[Lightning Bolt](/Spells.aspx?ID=172), [True Strike](/Spells.aspx?ID=345), [Vampiric Touch](/Spells.aspx?ID=354)\r\n- **4th**\r\n[Confusion](/Spells.aspx?ID=48), [Dimension Door](/Spells.aspx?ID=69), [Fly](/Spells.aspx?ID=125)\r\n- **5th**\r\n[Black Tentacles](/Spells.aspx?ID=23), [Shocking Grasp](/Spells.aspx?ID=283), [True Strike](/Spells.aspx?ID=345)\r\n- **6th**\r\n[Chain Lightning](/Spells.aspx?ID=33), [Disintegrate](/Spells.aspx?ID=76), [Vampiric Exsanguination](/Spells.aspx?ID=353)\r\n- **7th**\r\n[Shocking Grasp](/Spells.aspx?ID=283), [True Target](/Spells.aspx?ID=346)\r\n\r\n**Wizard School Spells** 2 Focus Points\r\n- **7th**\r\n[Hand of the Apprentice](/Spells.aspx?ID=530), [Physical Boost](/Spells.aspx?ID=533)\r\n\r\n**Spell Punch** <actions string=\"Free Action\" /> ([Flourish](/Traits.aspx?ID=73)) **Trigger** The mage of many styles begins to Cast a Spell that targets at least 1 creature; **Effect** The mage channels the spell through their fist. The mage makes a fist Strike against a target within reach. If the Strike is successful, the target is subjected to the spell. If the spell required an attack roll, the target is hit automatically upon a successful Strike. If the spell required a saving throw, the target takes a –2 status penalty to its saving throw. If the spell could target multiple creatures, it targets only the creature the mage hit with their fist Strike.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Mage of Many Styles](/NPCs.aspx?ID=1453)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe mage of many styles combines magical and martial tactics. They try to hamper foes with [_black tentacles_](/Spells.aspx?ID=23) or [_confusion_](/Spells.aspx?ID=48), switching to damaging spells like [_lightning bolt_](/Spells.aspx?ID=172) once their opponents are properly lined up. When engaged in melee, they make liberal use of [_shocking grasp_](/Spells.aspx?ID=283) and [_true strike_](/Spells.aspx?ID=345) to deal powerful blows.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 33\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 31\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 28\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Mage of Many Styles](/NPCs.aspx?ID=1453)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #166: Despair on Danger Island](/Sources.aspx?ID=85) pg. 25\n\n**Perception** +22\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Academia Lore](/Skills.aspx?ID=8) +26, [Acrobatics](/Skills.aspx?ID=1) +23, [Arcana](/Skills.aspx?ID=2) +28, [Occultism](/Skills.aspx?ID=11) +26\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +5\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n_[bracers of armor I](/Equipment.aspx?ID=416)_, _+1 [striking](/Equipment.aspx?ID=280) [handwraps of mighty blows](/Equipment.aspx?ID=441)_, _+1 [striking](/Equipment.aspx?ID=280) [longsword](/Weapons.aspx?ID=31)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +21 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [Nonlethal](/Traits.aspx?ID=188), [Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 2d6+5 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_longsword_ +23 ([Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d8+5 slashing\r\n\r\n**Wizard Prepared Spells** DC 32, attack +26\r\n- **Cantrips (7th)**\r\n[Acid Splash](/Spells.aspx?ID=3), [Daze](/Spells.aspx?ID=61), [Mage Hand](/Spells.aspx?ID=177), [Shield](/Spells.aspx?ID=280), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Fleet Step](/Spells.aspx?ID=122), [Ray of Enfeeblement](/Spells.aspx?ID=244), [True Strike](/Spells.aspx?ID=345)\r\n- **2nd**\r\n[Acid Arrow](/Spells.aspx?ID=2), [Mirror Image](/Spells.aspx?ID=197), [Touch of Idiocy](/Spells.aspx?ID=341)\r\n- **3rd**\r\n[Lightning Bolt](/Spells.aspx?ID=172), [True Strike](/Spells.aspx?ID=345), [Vampiric Touch](/Spells.aspx?ID=354)\r\n- **4th**\r\n[Confusion](/Spells.aspx?ID=48), [Dimension Door](/Spells.aspx?ID=69), [Fly](/Spells.aspx?ID=125)\r\n- **5th**\r\n[Black Tentacles](/Spells.aspx?ID=23), [Shocking Grasp](/Spells.aspx?ID=283), [True Strike](/Spells.aspx?ID=345)\r\n- **6th**\r\n[Chain Lightning](/Spells.aspx?ID=33), [Disintegrate](/Spells.aspx?ID=76), [Vampiric Exsanguination](/Spells.aspx?ID=353)\r\n- **7th**\r\n[Shocking Grasp](/Spells.aspx?ID=283), [True Target](/Spells.aspx?ID=346)\r\n\r\n**Wizard School Spells** 2 Focus Points\r\n- **7th**\r\n[Hand of the Apprentice](/Spells.aspx?ID=530), [Physical Boost](/Spells.aspx?ID=533)\r\n\r\n**Spell Punch** <actions string=\"Free Action\" /> ([Flourish](/Traits.aspx?ID=73)) **Trigger** The mage of many styles begins to Cast a Spell that targets at least 1 creature; **Effect** The mage channels the spell through their fist. The mage makes a fist Strike against a target within reach. If the Strike is successful, the target is subjected to the spell. If the spell required an attack roll, the target is hit automatically upon a successful Strike. If the spell required a saving throw, the target takes a –2 status penalty to its saving throw. If the spell could target multiple creatures, it targets only the creature the mage hit with their fist Strike.\r\n\r\n</column>",
  "name": "Mage of Many Styles",
  "npc": true,
  "perception": 22,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #166: Despair on Danger Island",
+ "primary_source_raw": "Pathfinder #166: Despair on Danger Island pg. 25",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Fists of the Ruby Phoenix",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 23,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2021-07-07",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #166: Despair on Danger Island](/Sources.aspx?ID=85) pg. 25</row>\n\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 32\r\n\r\n**Fort** +22\r\n\r\n**Ref** +23\r\n\r\n**Will** +21\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe mage of many styles combines magical and martial tactics. They try to hamper foes with   black tentacles   or   confusion  , switching to …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #166: Despair on Danger Island](/Sources.aspx?ID=85) pg. 25\n\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 32\r\n\r\n**Fort** +22\r\n\r\n**Ref** +23\r\n\r\n**Will** +21\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe mage of many styles combines magical and martial tactics. They try to hamper foes with   black tentacles   or   confusion  , switching to …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Academia Lore +26",
-  "Acrobatics +23",
-  "Arcana +28",
-  "Occultism +26"
+  "Academia Lore",
+  "Acrobatics",
+  "Arcana",
+  "Occultism"
  ],
  "skill_markdown": "[Academia Lore](/Skills.aspx?ID=8) +26, [Acrobatics](/Skills.aspx?ID=1) +23, [Arcana](/Skills.aspx?ID=2) +28, [Occultism](/Skills.aspx?ID=11) +26",
+ "skill_mod": {
+  "acrobatics": 23,
+  "arcana": 28,
+  "occultism": 26
+ },
  "source": [
   "Pathfinder #166: Despair on Danger Island"
  ],
  "source_raw": [
   "Pathfinder #166: Despair on Danger Island pg. 25"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Fists of the Ruby Phoenix",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #166: Despair on Danger Island](/Sources.aspx?ID=85) pg. 25</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Fists of the Ruby Phoenix"
+ ],
+ "source_markdown": "[Pathfinder #166: Despair on Danger Island](/Sources.aspx?ID=85) pg. 25",
  "speed": {
   "land": 25,
   "max": 25
@@ -83,8 +132,38 @@
   "Physical Boost"
  ],
  "spell_markdown": "[Acid Arrow](/Spells.aspx?ID=2), [Acid Splash](/Spells.aspx?ID=3), [Black Tentacles](/Spells.aspx?ID=23), [Chain Lightning](/Spells.aspx?ID=33), [Confusion](/Spells.aspx?ID=48), [Daze](/Spells.aspx?ID=61), [Dimension Door](/Spells.aspx?ID=69), [Disintegrate](/Spells.aspx?ID=76), [Fleet Step](/Spells.aspx?ID=122), [Fly](/Spells.aspx?ID=125), [Hand of the Apprentice](/Spells.aspx?ID=530), [Lightning Bolt](/Spells.aspx?ID=172), [Mage Hand](/Spells.aspx?ID=177), [Mirror Image](/Spells.aspx?ID=197), [Physical Boost](/Spells.aspx?ID=533), [Ray of Enfeeblement](/Spells.aspx?ID=244), [Shield](/Spells.aspx?ID=280), [Shocking Grasp](/Spells.aspx?ID=283), [Tanglefoot](/Spells.aspx?ID=330), [Touch of Idiocy](/Spells.aspx?ID=341), [True Strike](/Spells.aspx?ID=345), [True Target](/Spells.aspx?ID=346), [Vampiric Exsanguination](/Spells.aspx?ID=353), [Vampiric Touch](/Spells.aspx?ID=354)",
+ "spell_attack_bonus": [
+  26
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  32
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
  "spoilers": "Fists of the Ruby Phoenix",
+ "strike_damage_average": [
+  12,
+  14
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
@@ -92,12 +171,20 @@
  "summary": "The mage of many styles combines magical and martial tactics. They try to hamper foes with   black tentacles   or   confusion  , switching to …",
  "summary_markdown": "The mage of many styles combines magical and martial tactics. They try to hamper foes with   black tentacles   or   confusion  , switching to …",
  "text": " Mage of Many Styles The mage of many styles combines magical and martial tactics. They try to hamper foes with black tentacles or confusion , switching to damaging spells like lightning bolt once their opponents are properly lined up. When engaged in melee, they make liberal use of shocking grasp and true strike to deal powerful blows. Recall Knowledge - Humanoid (Society): DC 33 Unspecific Lore : DC 31 Specific Lore : DC 28 Mage of Many Styles Source Pathfinder #166: Despair on Danger Island pg. 25 Perception +22 Languages Common, Tien Skills Academia Lore +26, Acrobatics +23, Arcana +28, Occultism +26 Str +3 Dex +4 Con +3 Int +5 Wis +1 Cha +1 Items bracers of armor I , +1 striking handwraps of mighty blows , +1 striking longsword --- AC 32 Fort +22 Ref +23 Will +21 HP 220 --- Speed 25 feet Melee Single Action fist +22 (Agile, Finesse, Magical, Nonlethal, Unarmed), Damage 2d6+5 bludgeoning Melee Single Action longsword +23 (Magical, versatile P), Damage 2d8+5 slashing Wizard Prepared Spells DC 32, attack +26 - Cantrips (7th) Acid Splash, Daze, Mage Hand, Shield, Tanglefoot - 1st Fleet Step, Ray of Enfeeblement, True Strike - 2nd Acid Arrow, Mirror Image, Touch of Idiocy - 3rd Lightning Bolt, True Strike, Vampiric Touch - 4th Confusion, Dimension Door, Fly - 5th Black Tentacles, Shocking Grasp, True Strike - 6th Chain Lightning, Disintegrate, Vampiric Exsanguination - 7th Shocking Grasp, True Target Wizard School Spells 2 Focus Points - 7th Hand of the Apprentice, Physical Boost Spell Punch Free Action (Flourish) Trigger The mage of many styles begins to Cast a Spell that targets at least 1 creature; Effect The mage channels the spell through their fist. The mage makes a fist Strike against a target within reach. If the Strike is successful, the target is subjected to the spell. If the spell required an attack roll, the target is hit automatically upon a successful Strike. If the spell required a saving throw, the target takes a –2 status penalty to its saving throw. If the spell could target multiple creatures, it targets only the creature the mage hit with their fist Strike. ",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "Uncommon",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -112,5 +199,9 @@
  ],
  "weakness": {},
  "will_save": 21,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

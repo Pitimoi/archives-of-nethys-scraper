@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,32 +8,45 @@
  ],
  "feat_markdown": "Avenge Ally",
  "frequency": "once every 10 minutes",
- "id": "feat-1414",
+ "id": "feat-4419",
+ "legacy_id": "feat-1414",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Avenge Ally](/Feats.aspx?ID=1414) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 43 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce every 10 minutes\n\n**Requirements**\r\nYou are adjacent to an ally with the [dying](/Conditions.aspx?ID=11) condition.\r\n\r\n</column>\r\n\r\n---\r\n\r\nThough you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Avenge Ally](/Feats.aspx?ID=4419) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 49\n\n**Frequency**\r\nonce every 10 minutes\n\n**Requirements**\r\nYou are within 30 feet of an ally with the dying condition\r\n\r\n</column>\r\n\r\n---\r\n\r\nThough you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks. Make a [Strike](/Actions.aspx?ID=89). Roll twice on the attack roll and use the higher result.",
  "name": "Avenge Ally",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 49",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
- "requirement": "You are adjacent to an ally with the  dying  condition.",
- "requirement_markdown": "You are adjacent to an ally with the [dying](/Conditions.aspx?ID=11) condition.",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are within 30 feet of an ally with the dying condition",
+ "requirement_markdown": "You are within 30 feet of an ally with the dying condition",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 43 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce every 10 minutes\n\n**Requirements**\r\nYou are adjacent to an ally with the [dying](/Conditions.aspx?ID=11) condition.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThough you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 49\r\n\r\n**Frequency**\r\nonce every 10 minutes\n\n**Requirements**\r\nYou are within 30 feet of an ally with the dying condition\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThough you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 43"
+  "Player Core pg. 49"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 43 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 49",
  "speed": {},
  "summary": "Though you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks.",
  "summary_markdown": "Though you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks.",
- "text": "<title level=\"1\" right=\"Feat 13\" pfs=\"Standard\" > Avenge Ally Single Action Source Advanced Player's Guide pg. 43 2.0 Frequency once every 10 minutes Requirements You are adjacent to an ally with the dying condition. --- Though you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result.",
+ "text": "<title level=\"1\" right=\"Feat 13\" pfs=\"Standard\" > Avenge Ally Single Action Source Player Core pg. 49 Frequency once every 10 minutes Requirements You are within 30 feet of an ally with the dying condition --- Though you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result.",
  "trait": [
   "Elf",
   "Fortune"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Half-Elf"
  ],
  "trait_markdown": "[Elf](/Traits.aspx?ID=58), [Fortune](/Traits.aspx?ID=76)",
  "trait_raw": [
@@ -41,6 +54,6 @@
   "Fortune"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1414",
+ "url": "/Feats.aspx?ID=4419",
  "weakness": {}
 }

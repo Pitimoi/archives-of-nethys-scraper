@@ -1,0 +1,181 @@
+{
+ "ac": 21,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  13,
+  14,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Blood Scent",
+  "Shark Empathy",
+  "Reactive Strike",
+  "Change Shape",
+  "Curse of the Wereshark",
+  "Fish Fork",
+  "Moon Frenzy"
+ ],
+ "creature_family": "Werecreature",
+ "creature_family_markdown": "[Werecreature](/MonsterFamilies.aspx?ID=484)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 75,
+ "hp_raw": "75",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3324",
+ "image": [
+  "/Images/Monsters/Wereshark.webp"
+ ],
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "studded leather",
+  "Trident"
+ ],
+ "language": [
+  "Common",
+  "shark empathy"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1); shark empathy",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Wereshark](/Monsters.aspx?ID=3324)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe curse of the wereshark in stills a crude and bloodthirsty attitude, along with an urge to travel the sea. They often become pirates or military sailors who quickly gain a reputation for capricious violence. The shark within makes weresharks born survivors. They will swiftly retreat if they're truly in danger and consider obeying a sense of honor utterly ridiculous.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 19\r\n\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Wereshark.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Wereshark](/Monsters.aspx?ID=3324)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=627\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Werecreature\" url=\"/Traits.aspx?ID=733\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 197\n\n**Perception** +10; blood scent, [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 100 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1); shark empathy\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +12, [Stealth](/Skills.aspx?ID=48) +9, [Survival](/Skills.aspx?ID=49) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Blood Scent** The wereshark can smell blood in the water from up to 1 mile away.<br />**Shark Empathy** ([primal](/Traits.aspx?ID=676)) A wereshark can communicate with sharks.\r\n\r\n**Items**\r\n[studded leather](/Equipment.aspx?ID=1774), [Trident](/Weapons.aspx?ID=45)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\n\n</row>\n\n**Weaknesses**\r\n[silver](/Equipment.aspx?ID=379) 5\r\n\r\n**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +14,\r\n**Damage** 1d12+7 piercing plus curse of the wereshark\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntrident +14,\r\n**Damage** 1d8+7 piercing plus fish fork\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ntrident +13 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d8+7 piercing\n\n**Change Shape** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134)) Medium human with fist +14 for 1d4+7 bludgeoning, or Large shark with jaws +14 for 1d12+7 piercing, no land Speed, and swim Speed 40 feet. The wereshark doesn't have the [amphibious](/Traits.aspx?ID=529) trait in human or shark form and has the [aquatic](/Traits.aspx?ID=533) trait in shark form.\r\n\r\n**Curse of the Wereshark**  ([Curse](/Traits.aspx?ID=38), [Primal](/Traits.aspx?ID=134)) Saving Throw DC 18 Fortitude\r\n\r\n**Fish Fork** <actions string=\"Single Action\" />  **Requirements** The wereshark critically hit with a trident Strike on their most recent action this turn; **Effect** The wereshark digs their trident deep within their target, skewering it before taking a massive bite. The target of the Strike becomes [grabbed](/Conditions.aspx?ID=77) ([Escape](/Actions.aspx?ID=2296) DC 18) and takes 1d4 [persistent bleed damage](/Conditions.aspx?ID=29), and the wereshark attempts a jaws Strike against it. The wereshark can't use their trident while they have a creature grabbed with it, but they can pull the trident free with a single action that has the [manipulate](/Traits.aspx?ID=645) trait.\r\n\r\n**Moon Frenzy**  ([Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134)) \r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-484\" />",
+ "name": "Wereshark",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 197",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 11,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=627\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Werecreature\" url=\"/Traits.aspx?ID=733\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 197\r\n\r\n**Creature Family** [Werecreature](/MonsterFamilies.aspx?ID=484)\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\r\n\r\n**AC** 21\r\n\r\n**Fort** +12\r\n\r\n**Ref** +11\r\n\r\n**Will** +8\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe curse of the wereshark in stills a crude and bloodthirsty attitude, along with an urge to travel the sea. They often become pirates or military …\r\n</summary>",
+ "sense": "blood scent,  scent  ( imprecise ) 100 feet",
+ "sense_markdown": "blood scent, [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 100 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +12, [Stealth](/Skills.aspx?ID=48) +9, [Survival](/Skills.aspx?ID=49) +8",
+ "skill_mod": {
+  "athletics": 12,
+  "stealth": 9,
+  "survival": 8
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 197"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 197",
+ "speed": {
+  "land": 25,
+  "max": 25,
+  "swim": 25
+ },
+ "speed_markdown": "25 feet, swim 25 feet",
+ "speed_raw": "25 feet, swim 25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  11,
+  11,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "The curse of the wereshark in stills a crude and bloodthirsty attitude, along with an urge to travel the sea. They often become pirates or military …",
+ "summary_markdown": "The curse of the wereshark in stills a crude and bloodthirsty attitude, along with an urge to travel the sea. They often become pirates or military …",
+ "text": " Wereshark The curse of the wereshark in stills a crude and bloodthirsty attitude, along with an urge to travel the sea. They often become pirates or military sailors who quickly gain a reputation for capricious violence. The shark within makes weresharks born survivors. They will swiftly retreat if they're truly in danger and consider obeying a sense of honor utterly ridiculous. Recall Knowledge - Beast (Arcana, Nature): DC 19 Recall Knowledge - Humanoid (Society): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Wereshark Source Howl of the Wild pg. 197 Perception +10; blood scent, scent (imprecise) 100 feet Languages Common; shark empathy Skills Athletics +12, Stealth +9, Survival +8 Str +4 Dex +3 Con +4 Int -1 Wis +2 Cha -1 Blood Scent The wereshark can smell blood in the water from up to 1 mile away. Shark Empathy (primal) A wereshark can communicate with sharks. Items studded leather, Trident --- AC 21 Fort +12 Ref +11 Will +8 HP 75 Weaknesses silver 5 Reactive Strike Reaction --- Speed 25 feet, swim 25 feet Melee Single Action jaws +14, Damage 1d12+7 piercing plus curse of the wereshark Melee Single Action trident +14, Damage 1d8+7 piercing plus fish fork Ranged Single Action trident +13 (thrown 20 feet), Damage 1d8+7 piercing Change Shape Single Action (Concentrate, Polymorph, Primal) Medium human with fist +14 for 1d4+7 bludgeoning, or Large shark with jaws +14 for 1d12+7 piercing, no land Speed, and swim Speed 40 feet. The wereshark doesn't have the amphibious trait in human or shark form and has the aquatic trait in shark form. Curse of the Wereshark (Curse, Primal) Saving Throw DC 18 Fortitude Fish Fork Single Action Requirements The wereshark critically hit with a trident Strike on their most recent action this turn; Effect The wereshark digs their trident deep within their target, skewering it before taking a massive bite. The target of the Strike becomes grabbed (Escape DC 18) and takes 1d4 persistent bleed damage, and the wereshark attempts a jaws Strike against it. The wereshark can't use their trident while they have a creature grabbed with it, but they can pull the trident free with a single action that has the manipulate trait. Moon Frenzy (Polymorph, Primal) ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Beast",
+  "Human",
+  "Humanoid",
+  "Werecreature",
+  "Large"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Beast](/Traits.aspx?ID=547), [Human](/Traits.aspx?ID=627), [Humanoid](/Traits.aspx?ID=628), [Werecreature](/Traits.aspx?ID=733)",
+ "trait_raw": [
+  "Amphibious",
+  "Beast",
+  "Human",
+  "Humanoid",
+  "Werecreature"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3324",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "silver": 5
+ },
+ "weakness_markdown": "[silver](/Equipment.aspx?ID=379) 5",
+ "weakness_raw": " silver  5",
+ "will_save": 8,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

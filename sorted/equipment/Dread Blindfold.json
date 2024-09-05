@@ -1,39 +1,47 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-433",
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Dread Blindfold](/Equipment.aspx?ID=433)\r\n</title>\n\n<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 610 <sup>4.0</sup></row>\n\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nWhen tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the blindfold, but only using darkvision.\n\n The first time a particular creature sees you in a day, it must succeed at a DC 37 Will save or be frightened 1. This is an emotion, fear, and mental effect, and your allies become immune to it after about a week.\n\n<document level=\"2\" id=\"action-250\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Dread Blindfold](/Equipment.aspx?ID=433)\r\n</title>\n\n<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 610 <sup>4.0</sup>\n\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nWhen tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the blindfold, but only using darkvision.\n\n The first time a particular creature sees you in a day, it must succeed at a DC 37 Will save or be frightened 1. This is an emotion, fear, and mental effect, and your allies become immune to it after about a week.\n\n**Activate** <actions string=\"Free Action\" /> command;  **Frequency** once per minute; **Trigger** You damage a creature with a Strike;  **Effect** Your target is gripped by intense fear. This has the effect of a DC 37 [_phantasmal killer_](/Spells.aspx?ID=219)\t spell, but it is an enchantment instead of an illusion. The creature is then temporarily immune for 24 hours.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Dread Blindfold",
  "pfs": "Standard",
  "price": 1500000,
  "price_raw": "15,000 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 610",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "equipment-3080",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 610 <sup>4.0</sup></row>\r\n\r\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn eyepiece\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 610 <sup>4.0</sup>\r\n\r\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn eyepiece\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the …\r\n</summary>",
  "skill": [
   "Intimidation"
  ],
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 610"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 610 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 610 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "When tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the …",
  "summary_markdown": "When tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the …",
- "text": "<title level=\"1\" right=\"Item 17\" pfs=\"Standard\" > Dread Blindfold Source Core Rulebook pg. 610 4.0 Price 15,000 gp Usage worn eyepiece --- When tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the blindfold, but only using darkvision. The first time a particular creature sees you in a day, it must succeed at a DC 37 Will save or be frightened 1. This is an emotion, fear, and mental effect, and your allies become immune to it after about a week.\n",
+ "text": "<title level=\"1\" right=\"Item 17\" pfs=\"Standard\" > Dread Blindfold Source Core Rulebook pg. 610 4.0 Price 15,000 gp Usage worn eyepiece --- When tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the blindfold, but only using darkvision. The first time a particular creature sees you in a day, it must succeed at a DC 37 Will save or be frightened 1. This is an emotion, fear, and mental effect, and your allies become immune to it after about a week. Activate Free Action command; Frequency once per minute; Trigger You damage a creature with a Strike; Effect Your target is gripped by intense fear. This has the effect of a DC 37 phantasmal killer spell, but it is an enchantment instead of an illusion. The creature is then temporarily immune for 24 hours.\n",
  "trait": [
   "Emotion",
   "Enchantment",
@@ -41,6 +49,10 @@
   "Invested",
   "Magical",
   "Mental"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [

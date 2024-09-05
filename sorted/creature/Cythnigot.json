@@ -1,45 +1,75 @@
 {
  "ac": 16,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
  "creature_ability": [
   "Sickening Display",
   "Tangle Spores"
  ],
  "creature_family": "Qlippoth",
- "creature_family_markdown": "[Qlippoth](/MonsterFamilies.aspx?ID=146)",
+ "creature_family_markdown": "[Qlippoth](/MonsterFamilies.aspx?ID=460)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 9,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 14,
  "hp_raw": "14",
- "id": "creature-772",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3154",
  "image": [
-  "/Images/Monsters/Qlippoth_Cythnigot.png"
+  "/Images/Monsters/Cythnigot.webp"
  ],
  "immunity": [
   "controlled",
   "fear"
  ],
- "immunity_markdown": "[controlled](/Conditions.aspx?ID=6), [fear](/Traits.aspx?ID=68)",
+ "immunity_markdown": "[controlled](/Conditions.aspx?ID=64), [fear](/Traits.aspx?ID=598)",
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Abyssal",
-  "<%UMR%37%%>telepathy (touch only)<%END>"
+  "Chthonian",
+  "<%UMR%79%%>telepathy<%END> (touch only)"
  ],
- "language_markdown": "[Abyssal](/Languages.aspx?ID=12); [telepathy (touch only)](/MonsterAbilities.aspx?ID=37)",
+ "language_markdown": "[Chthonian](/Languages.aspx?ID=114); [telepathy](/MonsterAbilities.aspx?ID=79) (touch only)",
+ "legacy_id": "creature-772",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Cythnigot](/Monsters.aspx?ID=772)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts and tailors the fleshy covering to suit its needs, and the body ends up looking as alien as anything else spawned from the [Abyssal](/Planes.aspx?ID=13) depths. The cythnigot's most identifying feature is the long stalk of fungal material that extends from creature's body, ending in a surprisingly strong set of fanged jaws.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 17\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 15\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 12\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Qlippoth_Cythnigot.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Cythnigot](/Monsters.aspx?ID=772)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=306\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 212 <sup>2.0</sup></row>\n\n**Perception** +5; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12); [telepathy (touch only)](/MonsterAbilities.aspx?ID=37)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Occultism](/Skills.aspx?ID=11) +7, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 14\n\n**Immunities**\r\n[controlled](/Conditions.aspx?ID=6), [fear](/Traits.aspx?ID=68)\r\n\r\n**Resistances**\r\nmental 3, physical 3 (except cold iron)\r\n\r\n**Weaknesses**\r\nlawful 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbite +8 ([Agile](/Traits.aspx?ID=170), [Chaotic](/Traits.aspx?ID=25), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d10+1 piercing plus 1d4 chaotic and tangle spores\r\n\r\n**Occult Innate Spells** DC 17\r\n- **Cantrips (1st)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Phantom Pain](/Spells.aspx?ID=220)\r\n- **2nd**\r\n[Detect Alignment](/Spells.aspx?ID=65) (at will; lawful only), [Paranoia](/Spells.aspx?ID=214)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**Sickening Display** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120), [Visual](/Traits.aspx?ID=163)) The cythnigot presents its awful appearance fully, and creatures in a 10-foot emanation must attempt a DC 17 Will save. Once a creature attempts this save, it's temporarily immune to further Sickening Displays for 1 minute. <br />**Critical Success** The creature is unaffected. <br />**Success** The creature is [flat-footed](/Conditions.aspx?ID=16) until its next turn. <br />**Failure** The creature is [sickened 1](/Conditions.aspx?ID=34), and is flat-footed for as long as it's sickened. <br />**Critical Failure** The creature is sickened 2 and is flat-footed for as long as it's sickened.\r\n\r\n**Tangle Spores**  ([Disease](/Traits.aspx?ID=46)) A creature bitten by a cythnigot becomes afflicted by fast-growing spores that swiftly grow into twitching spikes and hideous pallid growths of hairlike fibers. These growths erupt from the bite wound and writhe and wrap around the creature's limbs. [Plant](/Traits.aspx?ID=125) creatures take a –2 circumstance penalty to save against tangle spores; **Saving Throw** DC 17 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** [clumsy 1](/Conditions.aspx?ID=3) (1 round); **Stage 2** clumsy 1 and [flat-footed](/Conditions.aspx?ID=16) (1 round); **Stage 3** clumsy 2, flat-footed, and if you attempt a [manipulate](/Traits.aspx?ID=104) action, you must succeed at a DC 5 flat check or it's lost; roll the check after spending the action, but before any effects are applied (1 round).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-146\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Cythnigot (Spore Qlippoth)](/Monsters.aspx?ID=3154)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts and tailors the fleshy covering to fit its needs, and the body ends up looking as alien as anything else spawned from the Chthonian depths. The cythnigot's most identifying feature is the long stalk of fungal material that extends from creature's body, ending in a surprisingly strong set of fanged jaws.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 17\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 15\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 12\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Cythnigot.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Cythnigot](/Monsters.aspx?ID=3154)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=767\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 280\n\n**Perception** +5; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Chthonian](/Languages.aspx?ID=114); [telepathy](/MonsterAbilities.aspx?ID=79) (touch only)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Occultism](/Skills.aspx?ID=11) +7, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +9 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\n\n</row>\r\n\r\n**Immunities**\r\n[controlled](/Conditions.aspx?ID=64), [fear](/Traits.aspx?ID=598)\r\n\r\n**Resistances**\r\n[mental](/Traits.aspx?ID=647) 3, physical 3 (except [cold iron](/Equipment.aspx?ID=375))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbite +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [reach 0 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 1d10+1 piercing plus and tangle spores\r\n\r\n**Occult Innate Spells** DC 17\r\n- **Cantrips (1st)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Phantom Pain](/Spells.aspx?ID=220)\r\n- **2nd**\r\n[Paranoia](/Spells.aspx?ID=214)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**Sickening Display** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120), [Visual](/Traits.aspx?ID=163)) The cythnigot presents its awful appearance fully, and creatures in a 10-foot emanation must attempt a DC 17 Will save. Once a creature attempts this save, it's temporarily immune to further Sickening Displays for 1 minute.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [off-guard](/Conditions.aspx?ID=58) until its next turn.<br /> **Failure** The creature is [sickened 1](/Conditions.aspx?ID=91) and is off-guard for as long as it's sickened.<br /> **Critical Failure** As failure but sickened 2.\r\n\r\n**Tangle Spores**  ([Disease](/Traits.aspx?ID=46)) A creature bitten by a cythnigot becomes afflicted by fast-growing spores that swiftly grow into twitching spikes and hideous pallid growths of hairlike fibers. These growths erupt from the bite wound and writhe and wrap around the creature's limbs. [Plant](/Traits.aspx?ID=668) creatures take a –2 circumstance penalty to save against tangle spores; **Saving Throw** DC 17 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** [clumsy 1](/Conditions.aspx?ID=61) (1 round); **Stage 2** clumsy 1 and [off-guard](/Conditions.aspx?ID=58) (1 round); **Stage 3** clumsy 2, off-guard, and if you attempt a [manipulate](/Traits.aspx?ID=645) action, you must succeed at a DC 5 flat check or it's lost; roll the check after spending the action, but before any effects are applied (1 round).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-460\" />",
  "name": "Cythnigot",
  "npc": false,
  "perception": 5,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 280",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 6,
- "release_date": "2020-05-27",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 3,
   "mental": 3,
@@ -47,28 +77,38 @@
   "piercing": 3,
   "slashing": 3
  },
- "resistance_markdown": "mental 3, physical 3 (except cold iron)",
- "resistance_raw": "mental 3, physical 3 (except cold iron)",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=306\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 212 <sup>2.0</sup></row>\r\n\r\n**Creature Family** [Qlippoth](/MonsterFamilies.aspx?ID=146)\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\r\n\r\n**AC** 16\r\n\r\n**Fort** +9\r\n\r\n**Ref** +6\r\n\r\n**Will** +5\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts …\r\n</summary>",
+ "resistance_markdown": "[mental](/Traits.aspx?ID=647) 3, physical 3 (except [cold iron](/Equipment.aspx?ID=375))",
+ "resistance_raw": " mental  3, physical 3 (except  cold iron )",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Qlippoth\" url=\"/Traits.aspx?ID=767\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 280\r\n\r\n**Creature Family** [Qlippoth](/MonsterFamilies.aspx?ID=460)\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\r\n\r\n**AC** 16\r\n\r\n**Fort** +9\r\n\r\n**Ref** +6\r\n\r\n**Will** +5\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts …\r\n</summary>",
  "sense": " darkvision ",
- "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +6",
-  "Occultism +7",
-  "Stealth +6"
+  "Acrobatics",
+  "Occultism",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Occultism](/Skills.aspx?ID=11) +7, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "acrobatics": 6,
+  "occultism": 7,
+  "stealth": 6
+ },
  "source": [
-  "Bestiary 2"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 2 pg. 212"
+  "Monster Core pg. 280"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 212 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 280",
  "speed": {
   "fly": 40,
   "land": 30,
@@ -78,46 +118,75 @@
  "speed_raw": "30 feet, fly 40 feet",
  "spell": [
   "Read Omens",
-  "Detect Alignment",
   "Paranoia",
   "Phantom Pain",
   "Daze",
   "Detect Magic"
  ],
- "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Detect Alignment](/Spells.aspx?ID=65), [Detect Magic](/Spells.aspx?ID=66), [Paranoia](/Spells.aspx?ID=214), [Phantom Pain](/Spells.aspx?ID=220), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Paranoia](/Spells.aspx?ID=214), [Phantom Pain](/Spells.aspx?ID=220), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_dc": [
+  17
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "6",
+ "strike_damage_average": [
+  6
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "The cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts …",
  "summary_markdown": "The cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts …",
- "text": " Cythnigot The cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts and tailors the fleshy covering to suit its needs, and the body ends up looking as alien as anything else spawned from the Abyssal depths. The cythnigot's most identifying feature is the long stalk of fungal material that extends from creature's body, ending in a surprisingly strong set of fanged jaws. Recall Knowledge - Fiend (Religion): DC 17 Unspecific Lore : DC 15 Specific Lore : DC 12 Cythnigot Source Bestiary 2 pg. 212 2.0 Perception +5; darkvision Languages Abyssal; telepathy (touch only) Skills Acrobatics +6, Occultism +7, Stealth +6 Str +1 Dex +3 Con +4 Int +2 Wis +2 Cha +1 --- AC 16 Fort +9 Ref +6 Will +5 HP 14 Immunities controlled, fear Resistances mental 3, physical 3 (except cold iron) Weaknesses lawful 3 --- Speed 30 feet, fly 40 feet Melee Single Action bite +8 (Agile, Chaotic, Finesse, Magical), Damage 1d10+1 piercing plus 1d4 chaotic and tangle spores Occult Innate Spells DC 17 - Cantrips (1st) Daze, Detect Magic - 1st Phantom Pain - 2nd Detect Alignment (at will; lawful only), Paranoia - 4th Read Omens Sickening Display Single Action (Concentrate, Emotion, Enchantment, Fear, Mental, Occult, Visual) The cythnigot presents its awful appearance fully, and creatures in a 10-foot emanation must attempt a DC 17 Will save. Once a creature attempts this save, it's temporarily immune to further Sickening Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is flat-footed until its next turn. Failure The creature is sickened 1, and is flat-footed for as long as it's sickened. Critical Failure The creature is sickened 2 and is flat-footed for as long as it's sickened. Tangle Spores (Disease) A creature bitten by a cythnigot becomes afflicted by fast-growing spores that swiftly grow into twitching spikes and hideous pallid growths of hairlike fibers. These growths erupt from the bite wound and writhe and wrap around the creature's limbs. Plant creatures take a –2 circumstance penalty to save against tangle spores; Saving Throw DC 17 Fortitude; Maximum Duration 6 rounds; Stage 1 clumsy 1 (1 round); Stage 2 clumsy 1 and flat-footed (1 round); Stage 3 clumsy 2, flat-footed, and if you attempt a manipulate action, you must succeed at a DC 5 flat check or it's lost; roll the check after spending the action, but before any effects are applied (1 round). ",
+ "text": " Cythnigot (Spore Qlippoth) The cythnigot is a foul fungal parasite that grows and thrives in the corpses of small creatures. It wears these bodies like a suit, but also adjusts and tailors the fleshy covering to fit its needs, and the body ends up looking as alien as anything else spawned from the Chthonian depths. The cythnigot's most identifying feature is the long stalk of fungal material that extends from creature's body, ending in a surprisingly strong set of fanged jaws. Recall Knowledge - Fiend (Religion): DC 17 Unspecific Lore : DC 15 Specific Lore : DC 12 Cythnigot Source Monster Core pg. 280 Perception +5; darkvision Languages Chthonian; telepathy (touch only) Skills Acrobatics +6, Occultism +7, Stealth +6 Str +1 Dex +3 Con +4 Int +2 Wis +2 Cha +1 --- AC 16 Fort +9 Ref +6 Will +5 HP 14 Immunities controlled, fear Resistances mental 3, physical 3 (except cold iron) --- Speed 30 feet, fly 40 feet Melee Single Action bite +8 (Agile, Finesse, Magical, reach 0 feet, Unholy), Damage 1d10+1 piercing plus and tangle spores Occult Innate Spells DC 17 - Cantrips (1st) Daze, Detect Magic - 1st Phantom Pain - 2nd Paranoia - 4th Read Omens Sickening Display Single Action (Concentrate, Emotion, Fear, Mental, Occult, Visual) The cythnigot presents its awful appearance fully, and creatures in a 10-foot emanation must attempt a DC 17 Will save. Once a creature attempts this save, it's temporarily immune to further Sickening Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is off-guard until its next turn. Failure The creature is sickened 1 and is off-guard for as long as it's sickened. Critical Failure As failure but sickened 2. Tangle Spores (Disease) A creature bitten by a cythnigot becomes afflicted by fast-growing spores that swiftly grow into twitching spikes and hideous pallid growths of hairlike fibers. These growths erupt from the bite wound and writhe and wrap around the creature's limbs. Plant creatures take a –2 circumstance penalty to save against tangle spores; Saving Throw DC 17 Fortitude; Maximum Duration 6 rounds; Stage 1 clumsy 1 (1 round); Stage 2 clumsy 1 and off-guard (1 round); Stage 3 clumsy 2, off-guard, and if you attempt a manipulate action, you must succeed at a DC 5 flat check or it's lost; roll the check after spending the action, but before any effects are applied (1 round). ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Fiend",
   "Qlippoth",
   "Uncommon",
-  "CE",
+  "Unholy",
   "Tiny"
  ],
- "trait_markdown": "[Fiend](/Traits.aspx?ID=70), [Qlippoth](/Traits.aspx?ID=306), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fiend](/Traits.aspx?ID=600), [Qlippoth](/Traits.aspx?ID=767), [Uncommon](/Traits.aspx?ID=721), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Fiend",
   "Qlippoth",
-  "Uncommon"
+  "Uncommon",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=772",
+ "url": "/Monsters.aspx?ID=3154",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
- "weakness": {
-  "lawful": 3
- },
- "weakness_markdown": "lawful 3",
- "weakness_raw": "lawful 3",
+ "weakness": {},
  "will_save": 5,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

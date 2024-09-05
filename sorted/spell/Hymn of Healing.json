@@ -1,18 +1,26 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 24,
  "duration_raw": "sustained up to 4 rounds",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -26,54 +34,70 @@
   9,
   10
  ],
- "id": "spell-728",
+ "id": "spell-1768",
+ "legacy_id": "spell-728",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Hymn of Healing](/Spells.aspx?ID=728)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 228 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** you or 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 4 rounds\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour divine singing mends wounds and provides a temporary respite from harm. The target gains fast healing 2. When you Cast the Spell and the first time each round you Sustain the Spell, the target gains 2 temporary Hit Points, which last for 1 round.\n\n---\r\n**Heightened (+1)** The fast healing and temporary Hit Points each increase by 2.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Hymn of Healing](/Spells.aspx?ID=1768)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 370\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** you or 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 4 rounds\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour glorious singing mends wounds and provides a temporary respite from harm. The target gains [fast healing](/MonsterAbilities.aspx?ID=15) 2. When you Cast the Spell and the first time each round you Sustain the Spell, the target gains 2 temporary Hit Points, which last for 1 round.\n\n---\r\n**Heightened (+1)** The fast healing and temporary Hit Points each increase by 2",
  "name": "Hymn of Healing",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 370",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 228 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** you or 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** sustained up to 4 rounds\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour divine singing mends wounds and provides a temporary respite from harm.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 370\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** you or 1 ally\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 4 rounds\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour glorious singing mends wounds and provides a temporary respite from harm.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 228"
+  "Player Core pg. 370"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 228 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 370",
  "speed": {},
- "summary": "Your divine singing mends wounds and provides a temporary respite from harm.",
- "summary_markdown": "Your divine singing mends wounds and provides a temporary respite from harm.",
+ "spell_type": "Focus",
+ "summary": "Your glorious singing mends wounds and provides a temporary respite from harm.",
+ "summary_markdown": "Your glorious singing mends wounds and provides a temporary respite from harm.",
  "target": "you or 1 ally",
  "target_markdown": "you or 1 ally",
- "text": " Hymn of Healing Source Advanced Player's Guide pg. 228 2.0 Cast Two Actions verbal Range 30 feet Target you or 1 ally Duration sustained up to 4 rounds --- Your divine singing mends wounds and provides a temporary respite from harm. The target gains fast healing 2. When you Cast the Spell and the first time each round you Sustain the Spell, the target gains 2 temporary Hit Points, which last for 1 round. --- Heightened (+1) The fast healing and temporary Hit Points each increase by 2.",
+ "text": "\nHymn of Healing Two Actions Source Player Core pg. 370 Range 30 feet Target you or 1 ally Duration sustained up to 4 rounds --- Your glorious singing mends wounds and provides a temporary respite from harm. The target gains fast healing 2. When you Cast the Spell and the first time each round you Sustain the Spell, the target gains 2 temporary Hit Points, which last for 1 round. --- Heightened (+1) The fast healing and temporary Hit Points each increase by 2",
  "tradition_markdown": "",
  "trait": [
   "Bard",
   "Composition",
+  "Concentrate",
+  "Focus",
   "Healing",
-  "Necromancy",
-  "Positive",
-  "Uncommon"
+  "Uncommon",
+  "Vitality",
+  "Positive"
  ],
- "trait_markdown": "[Bard](/Traits.aspx?ID=19), [Composition](/Traits.aspx?ID=31), [Healing](/Traits.aspx?ID=89), [Necromancy](/Traits.aspx?ID=117), [Positive](/Traits.aspx?ID=128), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Class-Specific",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Bard](/Traits.aspx?ID=546), [Composition](/Traits.aspx?ID=31), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Healing](/Traits.aspx?ID=89), [Uncommon](/Traits.aspx?ID=159), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
   "Bard",
   "Composition",
+  "Concentrate",
+  "Focus",
   "Healing",
-  "Necromancy",
-  "Positive",
-  "Uncommon"
+  "Uncommon",
+  "Vitality"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=728",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1768",
  "weakness": {}
 }

@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Cauterize",
  "id": "feat-3170",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cauterize](/Feats.aspx?ID=3170) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 113</row>\n\n**Trigger**\r\nYou're wielding a loaded firearm and you or an adjacent ally are taking [persistent bleed damage](/Conditions.aspx?ID=29).\n\n</column>\r\n\r\n---\r\n\r\nYou use the smoking barrel of your firearm to sear shut a bleeding wound. Make a Strike with your firearm. You then press the heated barrel to the wounds of you or an ally within reach that is taking persistent bleed damage, giving an immediate flat check to end the bleed with the lower DC for [particularly effective assistance](/Conditions.aspx?ID=29).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cauterize](/Feats.aspx?ID=3170) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 113\n\n**Trigger**\r\nYou're wielding a loaded firearm and you or an adjacent ally are taking [persistent bleed damage](/Conditions.aspx?ID=29).\n\n</column>\r\n\r\n---\r\n\r\nYou use the smoking barrel of your firearm to sear shut a bleeding wound. Make a Strike with your firearm. You then press the heated barrel to the wounds of you or an ally within reach that is taking persistent bleed damage, giving an immediate flat check to end the bleed with the lower DC for [particularly effective assistance](/Conditions.aspx?ID=29).",
  "name": "Cauterize",
  "pfs": "Standard",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 113",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 113</row>\n\n**Trigger**\r\nYou're wielding a loaded firearm and you or an adjacent ally are taking [persistent bleed damage](/Conditions.aspx?ID=29).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou use the smoking barrel of your firearm to sear shut a bleeding wound.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 113\n\n**Trigger**\r\nYou're wielding a loaded firearm and you or an adjacent ally are taking [persistent bleed damage](/Conditions.aspx?ID=29).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou use the smoking barrel of your firearm to sear shut a bleeding wound.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 113"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 113</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 113",
  "speed": {},
  "summary": "You use the smoking barrel of your firearm to sear shut a bleeding wound.",
  "summary_markdown": "You use the smoking barrel of your firearm to sear shut a bleeding wound.",
@@ -31,6 +38,9 @@
  "trait": [
   "Flourish",
   "Gunslinger"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Flourish](/Traits.aspx?ID=73), [Gunslinger](/Traits.aspx?ID=406)",
  "trait_raw": [

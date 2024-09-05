@@ -1,0 +1,158 @@
+{
+ "ac": 26,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Limb Regrowth",
+  "Regrowth",
+  "Detach",
+  "Digest",
+  "Glide",
+  "Pry",
+  "Spiny Venom"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 19,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 100,
+ "hp_raw": "100 (limb regrowth)",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3298",
+ "image": [
+  "/Images/Monsters/Mammoth_Land_Star.webp"
+ ],
+ "immunity": [
+  "mental   HP  25 (limb)",
+  "regrowth"
+ ],
+ "immunity_markdown": "[mental](/Traits.aspx?ID=647)<br />**HP** 25 (limb), regrowth",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"\">[Mammoth Land Star](/Monsters.aspx?ID=3298)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMammoth land stars are unrelenting predators that move silently towards their potential meals on hundreds of tubular feet. There are several variations, but the most common have a diameter ranging from 8 to 12 feet and five total limbs. These mindless creatures weather any and all challenges in their hunt to devour their prey, using their superior sense of smell and keen observation of nearby movement to stalk prey from afar. Their paralytic venom and rapid digestive process spell a quick end for unsuspecting creatures caught in their grasp.\n\n Travelers who survive a mammoth land star's assault must take care to destroy the remains, as its regenerative ability will eventually revive it to continue its mission: feed. It is not uncommon for mammoth land star attacks to happen in succession one week after another, with greater numbers each time. This is often caused by leaving limbs to regrow and resume their initial attack.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Mammoth_Land_Star.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Mammoth Land Star](/Monsters.aspx?ID=3298)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 169\n\n**Perception** +19; [scent](/MonsterAbilities.aspx?ID=74) ([precise](/Rules.aspx?ID=411)) 100 feet, [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=411)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +16, [Stealth](/Skills.aspx?ID=48) +15, [Survival](/Skills.aspx?ID=49) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** -5\r\n\r\n**Wis** +4\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +19 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\r\n(limb regrowth)\n\n</row>\r\n\r\n**Immunities**\r\n[mental](/Traits.aspx?ID=647)<br />**HP** 25 (limb), regrowth\n\n**Limb Regrowth** A healthy mammoth land star typically has five limbs. A creature can sever a limb by targeting it and dealing damage equal to the limb's Hit Points. The mammoth land star can regrow a missing limb over the course of 24 hours.<br />**Regrowth** Whenever a limb is severed, it must attempt a DC 5 flat check. On a success, the limb will slowly begin to grow into a new mammoth land star over the course of a week, unless it is doused in acid or fire.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfeet +20 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d4+6 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlimb spines +20 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+6 piercing plus spiny venom\n\n**Detach** <actions string=\"Two Actions\" /> ([Move](/Traits.aspx?ID=114)) **Requirements** The mammoth land star falls below half its total Hit Points; **Effect** The mammoth land star severs one of its own limbs as a distraction, then Strides three times. This movement doesn't trigger reactions.\r\n\r\n**Digest** <actions string=\"Single Action\" />  **Requirements** The mammoth land star has a target [grabbed](/Conditions.aspx?ID=77); **Effect** The mammoth land star extrudes its stomach onto its prey and digests it alive. The target takes 2d12+6 acid damage and is [drained 1](/Conditions.aspx?ID=68).\r\n\r\n**Glide** <actions string=\"Two Actions\" /> ([Move](/Traits.aspx?ID=114)) The land star blows air through its feet to hover 1 foot in the air and Strides twice with a +5-foot circumstance bonus to Speed, ignoring [uneven ground](/Rules.aspx?ID=456) and [difficult terrain](/Rules.aspx?ID=453) below it.\r\n\r\n**Pry** <actions string=\"Single Action\" />  **Requirements** The mammoth land star has a target [grabbed](/Conditions.aspx?ID=77) that is wearing armor; **Effect** The mammoth land star makes a feet Strike against a creature it has grabbed. If that Strike hits and the creature is wearing armor with Hardness 12 or lower, the armor is [broken](/Conditions.aspx?ID=60). This Strike doesn't further damage armor that's already broken.\r\n\r\n**Spiny Venom**  ([Incapacitation](/Traits.aspx?ID=93), [Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 26 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison and [slowed 1](/Conditions.aspx?ID=92); **Stage 2** 2d6 poison and slowed 2; **Stage 3** 2d8 poison and [paralyzed](/Conditions.aspx?ID=85)\r\n\r\n</column>",
+ "name": "Mammoth Land Star",
+ "npc": false,
+ "perception": 19,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 169",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 13,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=652\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 169\n\n<row gap=\"medium\">\r\n**HP** 100 (limb regrowth)\r\n\r\n**AC** 26\r\n\r\n**Fort** +19\r\n\r\n**Ref** +13\r\n\r\n**Will** +15\r\n\r\n**Perception** +19\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMammoth land stars are unrelenting predators that move silently towards their potential meals on hundreds of tubular feet. There are several …\r\n</summary>",
+ "sense": " scent  ( precise ) 100 feet,  tremorsense  ( imprecise ) 60 feet",
+ "sense_markdown": "[scent](/MonsterAbilities.aspx?ID=74) ([precise](/Rules.aspx?ID=411)) 100 feet, [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=411)) 60 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +16, [Stealth](/Skills.aspx?ID=48) +15, [Survival](/Skills.aspx?ID=49) +18",
+ "skill_mod": {
+  "athletics": 16,
+  "stealth": 15,
+  "survival": 18
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 169"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 169",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  8,
+  15
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Mammoth land stars are unrelenting predators that move silently towards their potential meals on hundreds of tubular feet. There are several …",
+ "summary_markdown": "Mammoth land stars are unrelenting predators that move silently towards their potential meals on hundreds of tubular feet. There are several …",
+ "text": " Mammoth Land Star Mammoth land stars are unrelenting predators that move silently towards their potential meals on hundreds of tubular feet. There are several variations, but the most common have a diameter ranging from 8 to 12 feet and five total limbs. These mindless creatures weather any and all challenges in their hunt to devour their prey, using their superior sense of smell and keen observation of nearby movement to stalk prey from afar. Their paralytic venom and rapid digestive process spell a quick end for unsuspecting creatures caught in their grasp. Travelers who survive a mammoth land star's assault must take care to destroy the remains, as its regenerative ability will eventually revive it to continue its mission: feed. It is not uncommon for mammoth land star attacks to happen in succession one week after another, with greater numbers each time. This is often caused by leaving limbs to regrow and resume their initial attack. Recall Knowledge - Animal (Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Mammoth Land Star Source Howl of the Wild pg. 169 Perception +19; scent (precise) 100 feet, tremorsense (imprecise) 60 feet Languages Skills Athletics +16, Stealth +15, Survival +18 Str +6 Dex +3 Con +6 Int -5 Wis +4 Cha -2 --- AC 26 Fort +19 Ref +13 Will +15 HP 100 (limb regrowth) Immunities mental HP 25 (limb), regrowth Limb Regrowth A healthy mammoth land star typically has five limbs. A creature can sever a limb by targeting it and dealing damage equal to the limb's Hit Points. The mammoth land star can regrow a missing limb over the course of 24 hours. Regrowth Whenever a limb is severed, it must attempt a DC 5 flat check. On a success, the limb will slowly begin to grow into a new mammoth land star over the course of a week, unless it is doused in acid or fire. --- Speed 25 feet Melee Single Action feet +20 (Agile, reach 10 feet), Damage 1d4+6 bludgeoning plus Grab Melee Single Action limb spines +20 (reach 10 feet), Damage 2d8+6 piercing plus spiny venom Detach Two Actions (Move) Requirements The mammoth land star falls below half its total Hit Points; Effect The mammoth land star severs one of its own limbs as a distraction, then Strides three times. This movement doesn't trigger reactions. Digest Single Action Requirements The mammoth land star has a target grabbed; Effect The mammoth land star extrudes its stomach onto its prey and digests it alive. The target takes 2d12+6 acid damage and is drained 1. Glide Two Actions (Move) The land star blows air through its feet to hover 1 foot in the air and Strides twice with a +5-foot circumstance bonus to Speed, ignoring uneven ground and difficult terrain below it. Pry Single Action Requirements The mammoth land star has a target grabbed that is wearing armor; Effect The mammoth land star makes a feet Strike against a creature it has grabbed. If that Strike hits and the creature is wearing armor with Hardness 12 or lower, the armor is broken. This Strike doesn't further damage armor that's already broken. Spiny Venom (Incapacitation, Poison) Saving Throw DC 26 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison and slowed 1; Stage 2 2d6 poison and slowed 2; Stage 3 2d8 poison and paralyzed ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Mindless",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Mindless](/Traits.aspx?ID=652)",
+ "trait_raw": [
+  "Animal",
+  "Mindless"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3298",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 15,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

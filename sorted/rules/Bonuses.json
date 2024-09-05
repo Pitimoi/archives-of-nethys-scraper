@@ -1,38 +1,48 @@
 {
  "breadcrumbs": [
-  "Chapter 2: Tools\r\n",
-  "Building Items",
-  "Item Effects"
+  "Chapter 8: Playing the Game",
+  "Checks",
+  "Step 1: Roll D20"
  ],
- "breadcrumbs_spa": [],
  "category": "rules",
  "exclude_from_search": false,
- "id": "rules-1062",
- "markdown": "<title level=\"1\" right=\"Rules\">[Bonuses](/Rules.aspx?ID=1062)</title>\r\n\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 83</row>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\nIf your item includes item bonuses, check the table below for the minimum item levels the game’s math expects permanent bonuses to be applied to. A lower-level item might give such a bonus temporarily, but keep track to make sure the item isn’t effectively permanent. If a character typically picks three or fewer locks a day, there’s no difference between a +2 item bonus to pick all locks and an activation that gives a +2 item bonus to Pick a Lock three times per day. For attack bonuses, AC, and saves, the minimums match _magic weapons_ and _magic armor_. You can have other items with these bonuses (like [_handwraps of mighty blows_](/Equipment.aspx?ID=441)), but keep in mind they compete with fundamental runes. Skill bonuses come on a wider range of items. Some are more broadly useful, so an Athletics item might be more expensive than an equivalent Society item. Gaining a bonus to Perception is especially valuable compared to gaining a bonus to a skill. Just because an item is the minimum level for its bonus doesn’t mean the bonus should be the item’s only power. The item can and should have an additional interesting power beyond the bonus. Likewise, an item can come at a higher level than the minimum, but if it’s much higher, its abilities start to compete with the next bonus. \n\n## Table 2–17: Levels for Permanent Item Bonuses\n<row gap=\"tiny\">\n<table> <tr><td>**Statistic**</td><td>**+1**</td><td>**+2**</td><td>**+3**</td></tr> <tr><td>Attack bonus</td><td>2</td><td>10</td><td>16</td></tr> <tr><td>AC</td><td>5</td><td>11</td><td>18</td></tr> <tr><td>Save (resilient rune)</td><td>8</td><td>14</td><td>20</td></tr> <tr><td>Skill/Perception</td><td>3</td><td>9</td><td>17*</td></tr> </table> * This is also the minimum level for apex items.</row>\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>",
+ "id": "rules-2281",
+ "legacy_id": "rules-315",
+ "legacy_name": "Step 1: Roll d20 and Identify the Modifiers, Bonuses, and Penalties that Apply",
+ "markdown": "<title level=\"1\" right=\"Rules\">[Bonuses](/Rules.aspx?ID=2281)</title>\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 400\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\nWhen attempting a check that involves something you have some training in, you will also add your **proficiency bonus**. This bonus depends on your proficiency rank: untrained, trained, expert, master, or legendary. If you're untrained, your bonus is +0—you must rely on raw talent and any bonuses from the situation. Otherwise, the bonus equals your character's level plus a certain amount depending on your rank. If your proficiency rank is trained, this bonus is equal to your level + 2, and higher proficiency ranks further increase the amount you add to your level.\n\n## Proficiency Bonus\n<row gap=\"tiny\">\n<table><tr><td>**Proficiency Rank**</td><td>**Proficiency Bonus**</td></tr><tr><td>Untrained</td><td>0</td></tr><tr><td>Trained</td><td>Your level + 2</td></tr><tr><td>Expert</td><td>Your level + 4</td></tr><tr><td>Master</td><td>Your level + 6</td></tr><tr><td>Legendary</td><td>Your level + 8</td></tr></table></row><br />There are three other types of bonus that frequently appear: circumstance bonuses, item bonuses, and status bonuses. If you have different types of bonuses that would apply to the same roll, you'll add them all. But if you have multiple bonuses of the same type, you can use only the highest bonus on a given roll—they aren't cumulative. For instance, if you have both a proficiency bonus and an item bonus, you add both to your d20 result, but if you have two item bonuses, you add only the higher of the two.\n\n**Circumstance bonuses** involve the situation you find yourself in when attempting a check. For instance, using Raise a Shield with a buckler grants you a +1 circumstance bonus to AC. Being behind cover grants you a +2 circumstance bonus to AC.\n\n**Item bonuses** are granted by some item that you are wearing or using, either mundane or magical. For example, armor gives you an item bonus to AC, while an expanded alchemist's toolkit grants you an item bonus to Crafting checks when making alchemical items.\n\n**Status bonuses** typically come from spells, other magical effects, or something applying a helpful, often temporary, condition to you. For instance, the 3rd-rank heroism spell grants a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>",
  "name": "Bonuses",
  "next_link": {
-  "label": "Designing by Type",
-  "url": "/Rules.aspx?ID=1063"
+  "label": "Penalties",
+  "url": "/Rules.aspx?ID=2282"
  },
  "previous_link": {
-  "label": "Special Abilities",
-  "url": "/Rules.aspx?ID=1058"
+  "label": "Attribute Modifier",
+  "url": "/Rules.aspx?ID=2280"
  },
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 400",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-02-26",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 83</row>\r\n\r\nChapter 2: Tools\r\n/ Building Items / Item Effects\r\n</additional-info>",
+ "search_markdown": "<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 400\r\n\r\nChapter 8: Playing the Game / Checks / Step 1: Roll D20\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen attempting a check that involves something you have some training in, you will also add your  proficiency bonus . This bonus depends on your …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Gamemastery Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Gamemastery Guide pg. 83"
+  "Player Core pg. 400"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Gamemastery Guide](/Sources.aspx?ID=22) pg. 83</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 400",
  "speed": {},
- "text": " Bonuses Source Gamemastery Guide pg. 83 If your item includes item bonuses, check the table below for the minimum item levels the game’s math expects permanent bonuses to be applied to. A lower-level item might give such a bonus temporarily, but keep track to make sure the item isn’t effectively permanent. If a character typically picks three or fewer locks a day, there’s no difference between a +2 item bonus to pick all locks and an activation that gives a +2 item bonus to Pick a Lock three times per day. For attack bonuses, AC, and saves, the minimums match magic weapons and magic armor . You can have other items with these bonuses (like handwraps of mighty blows ), but keep in mind they compete with fundamental runes. Skill bonuses come on a wider range of items. Some are more broadly useful, so an Athletics item might be more expensive than an equivalent Society item. Gaining a bonus to Perception is especially valuable compared to gaining a bonus to a skill. Just because an item is the minimum level for its bonus doesn’t mean the bonus should be the item’s only power. The item can and should have an additional interesting power beyond the bonus. Likewise, an item can come at a higher level than the minimum, but if it’s much higher, its abilities start to compete with the next bonus. ## Table 2–17: Levels for Permanent Item Bonuses Statistic +1 +2 +3 Attack bonus 2 10 16 AC 5 11 18 Save (resilient rune) 8 14 20 Skill/Perception 3 9 17 This is also the minimum level for apex items. ",
+ "summary": "When attempting a check that involves something you have some training in, you will also add your  proficiency bonus . This bonus depends on your …",
+ "summary_markdown": "When attempting a check that involves something you have some training in, you will also add your  proficiency bonus . This bonus depends on your …",
+ "text": " Bonuses Source Player Core pg. 400 When attempting a check that involves something you have some training in, you will also add your proficiency bonus . This bonus depends on your proficiency rank: untrained, trained, expert, master, or legendary. If you're untrained, your bonus is +0—you must rely on raw talent and any bonuses from the situation. Otherwise, the bonus equals your character's level plus a certain amount depending on your rank. If your proficiency rank is trained, this bonus is equal to your level + 2, and higher proficiency ranks further increase the amount you add to your level. ## Proficiency Bonus Proficiency Rank Proficiency Bonus Untrained 0 Trained Your level + 2 Expert Your level + 4 Master Your level + 6 Legendary Your level + 8 There are three other types of bonus that frequently appear: circumstance bonuses, item bonuses, and status bonuses. If you have different types of bonuses that would apply to the same roll, you'll add them all. But if you have multiple bonuses of the same type, you can use only the highest bonus on a given roll—they aren't cumulative. For instance, if you have both a proficiency bonus and an item bonus, you add both to your d20 result, but if you have two item bonuses, you add only the higher of the two. Circumstance bonuses involve the situation you find yourself in when attempting a check. For instance, using Raise a Shield with a buckler grants you a +1 circumstance bonus to AC. Being behind cover grants you a +2 circumstance bonus to AC. Item bonuses are granted by some item that you are wearing or using, either mundane or magical. For example, armor gives you an item bonus to AC, while an expanded alchemist's toolkit grants you an item bonus to Crafting checks when making alchemical items. Status bonuses typically come from spells, other magical effects, or something applying a helpful, often temporary, condition to you. For instance, the 3rd-rank heroism spell grants a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks. ",
  "type": "Rules",
- "url": "/Rules.aspx?ID=1062",
+ "url": "/Rules.aspx?ID=2281",
  "weakness": {}
 }

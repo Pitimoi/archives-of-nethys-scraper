@@ -1,30 +1,45 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "action",
- "exclude_from_search": true,
- "frequency": "once per day",
- "id": "action-249",
- "markdown": "**Activate** <actions string=\"Single Action\" />Recall Knowledge;  **Frequency** once per day;   **Effect** Attempt a DC 20 check to Recall Knowledge about people of a human ethnicity, a non-human ancestry, or some other type of creature. (The GM determines what your options are.) If you succeed, the badge’s bonus increases to +2 for Diplomacy checks with creatures of that group for the rest of the day.",
+ "exclude_from_search": false,
+ "id": "action-2367",
+ "legacy_id": "action-26",
+ "markdown": "<title level=\"1\" right=\"Action\">[Recall Knowledge](/Actions.aspx?ID=2367) <actions string=\"Single Action\" /></title>\r\n\r\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 231\n\n</column>\r\n\r\n---\r\n\r\nYou attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and ask the GM one question. The GM determines the DC. You might need to collaborate with the GM to narrow down the question or skills, and you can decide not to Recall Knowledge before committing to the action if you can't don't like your options.\r\n\r\n**Critical Success** You recall the knowledge accurately. The GM answers your question truthfully and either tells you additional information or context, or answers one followup question.<br />\r\n**Success** You recall the knowledge accurately. The GM answers your question truthfully.<br />\r\n**Critical Failure** You recall incorrect information. The GM answers your question falsely (or decides to give you no information, as on a failure).\r\n\r\n<title level=\"2\">Sample Recall Knowledge Tasks</title>\r\n\r\nThese examples use Society or Religion.\r\n\r\n**Untrained** name of a ruler, key noble, or major deity<br />\r\n**Trained** line of succession for a major noble family, core doctrines of a major deity<br />\r\n**Expert** genealogy of a minor noble, teachings of an ancient priest<br />\r\n**Master** hierarchy of a genie noble court, major extraplanar temples of a deity<br />\r\n**Legendary** existence of a long-lost noble heir, secret doctrines of a religion",
  "name": "Recall Knowledge",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 231",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAttempt a DC 20 check to Recall Knowledge about people of a human ethnicity, a non-human ancestry, or some other type of creature. (The GM determines …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 231\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and …\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 609"
+  "Player Core pg. 231"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 231",
  "speed": {},
- "summary": "Attempt a DC 20 check to Recall Knowledge about people of a human ethnicity, a non-human ancestry, or some other type of creature. (The GM determines …",
- "summary_markdown": "Attempt a DC 20 check to Recall Knowledge about people of a human ethnicity, a non-human ancestry, or some other type of creature. (The GM determines …",
- "text": " Activate Single ActionRecall Knowledge; Frequency once per day; Effect Attempt a DC 20 check to Recall Knowledge about people of a human ethnicity, a non-human ancestry, or some other type of creature. (The GM determines what your options are.) If you succeed, the badge’s bonus increases to +2 for Diplomacy checks with creatures of that group for the rest of the day.",
- "trait_markdown": "",
+ "summary": "You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and …",
+ "summary_markdown": "You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and …",
+ "text": " Recall Knowledge Single Action Source Player Core pg. 231 --- You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and ask the GM one question. The GM determines the DC. You might need to collaborate with the GM to narrow down the question or skills, and you can decide not to Recall Knowledge before committing to the action if you can't don't like your options. Critical Success You recall the knowledge accurately. The GM answers your question truthfully and either tells you additional information or context, or answers one followup question. Success You recall the knowledge accurately. The GM answers your question truthfully. Critical Failure You recall incorrect information. The GM answers your question falsely (or decides to give you no information, as on a failure). Sample Recall Knowledge Tasks These examples use Society or Religion. Untrained name of a ruler, key noble, or major deity Trained line of succession for a major noble family, core doctrines of a major deity Expert genealogy of a minor noble, teachings of an ancient priest Master hierarchy of a genie noble court, major extraplanar temples of a deity Legendary existence of a long-lost noble heir, secret doctrines of a religion",
+ "trait": [
+  "Concentrate",
+  "Secret"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Concentrate",
+  "Secret"
+ ],
  "type": "Action",
- "url": "/Actions.aspx?ID=249",
+ "url": "/Actions.aspx?ID=2367",
  "weakness": {}
 }

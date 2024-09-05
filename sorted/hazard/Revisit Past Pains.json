@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "DC 48  Diplomacy  (master) to calm the spirit or DC 46  Occultism  (master) to ward off the spirit",
@@ -7,22 +6,32 @@
  "hazard_type": "Haunt",
  "id": "hazard-324",
  "level": 18,
- "markdown": "<title level=\"1\" right=\"Hazard 18\" pfs=\"\">[Revisit Past Pains](/Hazards.aspx?ID=324)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA spirit locked in memories of its death flies down the hall, forcing intruders to experience the agony of its death.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 45 (master)\r\n\r\n**Disable**\r\nDC 48 [Diplomacy](/Skills.aspx?ID=6) (master) to calm the spirit or DC 46 [Occultism](/Skills.aspx?ID=11) (master) to ward off the spirit\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Share Pain** <actions string=\"Reaction\" /> ([illusion](/Traits.aspx?ID=92), [mental](/Traits.aspx?ID=106), [occult](/Traits.aspx?ID=120)) **Trigger** A creature enters the area; **Effect** Creatures within 30 feet take 6d12+41 mental damage (DC 40 [basic](/Rules.aspx?ID=329) Will save) as they experience the spirit's death.\n\n---\r\n**Reset**\r\n1 hour.",
+ "markdown": "<title level=\"1\" right=\"Hazard 18\" pfs=\"\">[Revisit Past Pains](/Hazards.aspx?ID=324)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA spirit locked in memories of its death flies down the hall, forcing intruders to experience the agony of its death.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 45 (master)\r\n\r\n**Disable**\r\nDC 48 [Diplomacy](/Skills.aspx?ID=6) (master) to calm the spirit or DC 46 [Occultism](/Skills.aspx?ID=11) (master) to ward off the spirit\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Share Pain** <actions string=\"Reaction\" /> ([illusion](/Traits.aspx?ID=92), [mental](/Traits.aspx?ID=106), [occult](/Traits.aspx?ID=120)) **Trigger** A creature enters the area; **Effect** Creatures within 30 feet take 6d12+41 mental damage (DC 40 [basic](/Rules.aspx?ID=329) Will save) as they experience the spirit's death.\n\n---\r\n**Reset**\r\n1 hour.",
  "name": "Revisit Past Pains",
+ "primary_source": "Pathfinder #186: Ghost King's Rage",
+ "primary_source_raw": "Pathfinder #186: Ghost King's Rage pg. 56",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Blood Lords",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-12-14",
  "reset": "1 hour.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA spirit locked in memories of its death flies down the hall, forcing intruders to experience the agony of its death.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA spirit locked in memories of its death flies down the hall, forcing intruders to experience the agony of its death.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #186: Ghost King's Rage"
  ],
  "source_raw": [
   "Pathfinder #186: Ghost King's Rage pg. 56"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Blood Lords",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Blood Lords"
+ ],
+ "source_markdown": "[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 56",
  "speed": {},
  "spoilers": "Blood Lords",
  "stealth": "DC 45 (master)",
@@ -32,6 +41,10 @@
  "trait": [
   "Haunt",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Haunt](/Traits.aspx?ID=88), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

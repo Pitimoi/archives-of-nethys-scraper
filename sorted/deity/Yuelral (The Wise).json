@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Intelligence",
   "Wisdom"
  ],
  "alignment": "NG",
- "breadcrumbs_spa": [],
+ "anathema": "Cut a gem for aesthetic purposes, defile nature, allow the irresponsible use of magic",
  "category": "deity",
  "cleric_spell": [
   "Shattering Gem",
@@ -18,12 +18,13 @@
   "Nature's Enmity"
  ],
  "deity": [
-  "Yuelral"
+  "Yuelral",
+  "Elven Pantheon"
  ],
- "deity_markdown": "[Yuelral](/Deities.aspx?ID=111)",
+ "deity_markdown": "[Elven Pantheon](/Deities.aspx?ID=197)",
  "deity_category": "Elven Gods",
- "deity_category_markdown": "[Elven Gods\r\n](/DeityCategories.aspx?ID=9)",
- "deity_category_order": "2Elven Gods\r\n",
+ "deity_category_markdown": "[Elven Gods](/DeityCategories.aspx?ID=9)",
+ "deity_category_order": "2Elven Gods",
  "divine_font": [
   "Heal"
  ],
@@ -43,6 +44,7 @@
   "Magic"
  ],
  "domain_primary_markdown": "[Creation](/Domains.aspx?ID=5), [Earth](/Domains.aspx?ID=10), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19)",
+ "edict": "Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge",
  "exclude_from_search": false,
  "favored_weapon": [
   "Dagger"
@@ -55,29 +57,56 @@
   "CG"
  ],
  "id": "deity-111",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Yuelral (The Wise)](/Deities.aspx?ID=111)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"NG\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 128 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Elven Gods\r\n](/DeityCategories.aspx?ID=9)\r\n\r\n**Edicts** Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge\r\n\r\n**Anathema** Cut a gem for aesthetic purposes, defile nature, allow the irresponsible use of magic\r\n\r\n**Area of Concern**\r\ngems, craft, and magic\r\n\r\n**Follower Alignments**\r\nLG, NG, N, CG\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Wisdom\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n\r\n**Domains** [Creation](/Domains.aspx?ID=5), [Earth](/Domains.aspx?ID=10), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Shattering Gem](/Spells.aspx?ID=585)\n\n- **2nd**\r\n[Shape Wood](/Spells.aspx?ID=277)\n\n- **3rd**\r\n[Meld into Stone](/Spells.aspx?ID=188)\n\n- **4th**\r\n[Speak with Plants](/Spells.aspx?ID=294)\n\n- **5th**\r\n[Tree Stride](/Spells.aspx?ID=343)\n\n- **6th**\r\n[Tangling Creepers](/Spells.aspx?ID=331)\n\n- **7th**\r\n[Unfettered Pack](/Spells.aspx?ID=350)\n\n- **8th**\r\n[Prismatic Wall](/Spells.aspx?ID=234)\n\n- **9th**\r\n[Nature's Enmity](/Spells.aspx?ID=205)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Yuelral (The Wise)](/Deities.aspx?ID=111)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"NG\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 128 <sup>2.0</sup>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Elven Gods](/DeityCategories.aspx?ID=9)\r\n\r\n**Edicts** Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge\r\n\r\n**Anathema** Cut a gem for aesthetic purposes, defile nature, allow the irresponsible use of magic\r\n\r\n**Area of Concern**\r\ngems, craft, and magic\r\n\r\n**Follower Alignments**\r\nLG, NG, N, CG\r\n\r\n**Pantheons**\r\n[Elven Pantheon](/Deities.aspx?ID=197)\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Wisdom\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose holy\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n\r\n**Domains** [Creation](/Domains.aspx?ID=5), [Earth](/Domains.aspx?ID=10), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Shattering Gem](/Spells.aspx?ID=585)\n\n- **2nd**\r\n[Shape Wood](/Spells.aspx?ID=277)\n\n- **3rd**\r\n[Meld into Stone](/Spells.aspx?ID=188)\n\n- **4th**\r\n[Speak with Plants](/Spells.aspx?ID=294)\n\n- **5th**\r\n[Tree Stride](/Spells.aspx?ID=343)\n\n- **6th**\r\n[Tangling Creepers](/Spells.aspx?ID=331)\n\n- **7th**\r\n[Unfettered Pack](/Spells.aspx?ID=350)\n\n- **8th**\r\n[Prismatic Wall](/Spells.aspx?ID=234)\n\n- **9th**\r\n[Nature's Enmity](/Spells.aspx?ID=205)\n\n</column>",
  "name": "Yuelral (The Wise)",
+ "pantheon": [
+  "Elven Pantheon"
+ ],
+ "pantheon_markdown": "[Elven Pantheon](/Deities.aspx?ID=197)",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 128",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 128 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n\r\n**Domains** [Creation](/Domains.aspx?ID=5), [Earth](/Domains.aspx?ID=10), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "holy"
+ ],
+ "sanctification_raw": "can choose holy",
+ "search_markdown": "<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 128 <sup>2.0</sup>\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Dagger](/Weapons.aspx?ID=3)\r\n\r\n**Domains** [Creation](/Domains.aspx?ID=5), [Earth](/Domains.aspx?ID=10), [Knowledge](/Domains.aspx?ID=17), [Magic](/Domains.aspx?ID=19)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
  "skill": [
   "Arcana"
  ],
  "skill_markdown": "[Arcana](/Skills.aspx?ID=2)",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 128"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 128 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 128 <sup>2.0</sup>",
  "speed": {},
+ "spell": [
+  "Shattering Gem",
+  "Shape Wood",
+  "Meld into Stone",
+  "Speak with Plants",
+  "Tree Stride",
+  "Tangling Creepers",
+  "Unfettered Pack",
+  "Prismatic Wall",
+  "Nature's Enmity"
+ ],
+ "spell_markdown": "[Meld into Stone](/Spells.aspx?ID=188), [Nature's Enmity](/Spells.aspx?ID=205), [Prismatic Wall](/Spells.aspx?ID=234), [Shape Wood](/Spells.aspx?ID=277), [Shattering Gem](/Spells.aspx?ID=585), [Speak with Plants](/Spells.aspx?ID=294), [Tangling Creepers](/Spells.aspx?ID=331), [Tree Stride](/Spells.aspx?ID=343), [Unfettered Pack](/Spells.aspx?ID=350)",
  "summary": " Nethys Note: no description has been provided of this deity ",
  "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Yuelral (The Wise) Source Gods &amp; Magic pg. 128 2.0 Nethys Note: no description has been provided of this deity Category [Elven Gods ](/DeityCategories.aspx?ID=9) Edicts Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge Anathema Cut a gem for aesthetic purposes, defile nature, allow the irresponsible use of magic Area of Concern gems, craft, and magic Follower Alignments LG, NG, N, CG Devotee Benefits Divine Ability Intelligence or Wisdom Divine Font Heal Divine Skill Arcana Favored Weapon Dagger Domains Creation, Earth, Knowledge, Magic Alternate Domains Cleric Spells - 1st Shattering Gem - 2nd Shape Wood - 3rd Meld into Stone - 4th Speak with Plants - 5th Tree Stride - 6th Tangling Creepers - 7th Unfettered Pack - 8th Prismatic Wall - 9th Nature's Enmity\n",
+ "text": " Yuelral (The Wise) Source Gods &amp; Magic pg. 128 2.0 Nethys Note: no description has been provided of this deity Category Elven Gods Edicts Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge Anathema Cut a gem for aesthetic purposes, defile nature, allow the irresponsible use of magic Area of Concern gems, craft, and magic Follower Alignments LG, NG, N, CG Pantheons Elven Pantheon Devotee Benefits Divine Attribute Intelligence or Wisdom Divine Font Heal Divine Sanctification can choose holy Divine Skill Arcana Favored Weapon Dagger Domains Creation, Earth, Knowledge, Magic Alternate Domains Cleric Spells - 1st Shattering Gem - 2nd Shape Wood - 3rd Meld into Stone - 4th Speak with Plants - 5th Tree Stride - 6th Tangling Creepers - 7th Unfettered Pack - 8th Prismatic Wall - 9th Nature's Enmity\n",
  "trait": [
   "NG"
  ],

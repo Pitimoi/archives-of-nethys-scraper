@@ -1,0 +1,165 @@
+{
+ "ac": 17,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Shield Block",
+  "Dwarven Doughtiness",
+  "Shielded Charge"
+ ],
+ "creature_family": "Dwarf",
+ "creature_family_markdown": "[Dwarf](/MonsterFamilies.aspx?ID=405)",
+ "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 8,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 20,
+ "hp_raw": "20",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2965",
+ "image": [
+  "/Images/Monsters/Dwarf_Warrior.webp"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Half Plate",
+  "Steel Shield (Hardness 5, HP 20, BT 10)",
+  "warhammer"
+ ],
+ "language": [
+  "Common",
+  "Dwarven"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3)",
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Dwarf Warrior](/NPCs.aspx?ID=2965)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nBetween their finely crafted equipment and natural bravery, a dwarf warrior can hold their ground against mighty foes. If respected, these warriors can become life-long allies; if slighted, they can become a thorn in one's side for the remainder of one's life.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dwarf_Warrior.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Dwarf Warrior](/NPCs.aspx?ID=2965)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=584\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 135\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +7, [Crafting](/Skills.aspx?ID=4) +5, [Diplomacy](/Skills.aspx?ID=6) +3, [Dwarven Lore](/Skills.aspx?ID=8) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Half Plate](/Armor.aspx?ID=12), [Steel Shield](/Shields.aspx?ID=3) (Hardness 5, HP 20, BT 10), [warhammer](/Equipment.aspx?ID=24)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +3 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n**[Shield Block](/MonsterAbilities.aspx?ID=75)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwarhammer +8 ([Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d8+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclan dagger +8 ([Agile](/Traits.aspx?ID=170), [Parry](/Traits.aspx?ID=190), [versatile B](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+2 piercing\n\n**Dwarven Doughtiness**   A dwarf is often calm and collected in the face of imminent danger. At the end of this dwarf's turn, reduce their [frightened](/Conditions.aspx?ID=76) condition by 2 instead of 1.\r\n\r\n**Shielded Charge** <actions string=\"Two Actions\" />  The dwarf warrior [Raises a Shield](/Actions.aspx?ID=2316) and Strides twice.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-405\" />",
+ "name": "Dwarf Warrior",
+ "npc": true,
+ "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 135",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 3,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=584\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 135\r\n\r\n**Creature Family** [Dwarf](/MonsterFamilies.aspx?ID=405)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 17\r\n\r\n**Fort** +8\r\n\r\n**Ref** +3\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBetween their finely crafted equipment and natural bravery, a dwarf warrior can hold their ground against mighty foes. If respected, these warriors …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Crafting",
+  "Diplomacy",
+  "Dwarven Lore"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +7, [Crafting](/Skills.aspx?ID=4) +5, [Diplomacy](/Skills.aspx?ID=6) +3, [Dwarven Lore](/Skills.aspx?ID=8) +5",
+ "skill_mod": {
+  "athletics": 7,
+  "crafting": 5,
+  "diplomacy": 3
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 135"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 135",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  6
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Between their finely crafted equipment and natural bravery, a dwarf warrior can hold their ground against mighty foes. If respected, these warriors …",
+ "summary_markdown": "Between their finely crafted equipment and natural bravery, a dwarf warrior can hold their ground against mighty foes. If respected, these warriors …",
+ "text": " Dwarf Warrior Between their finely crafted equipment and natural bravery, a dwarf warrior can hold their ground against mighty foes. If respected, these warriors can become life-long allies; if slighted, they can become a thorn in one's side for the remainder of one's life. Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Dwarf Warrior Source Monster Core pg. 135 Perception +7; darkvision Languages Common, Dwarven Skills Athletics +7, Crafting +5, Diplomacy +3, Dwarven Lore +5 Str +4 Dex +1 Con +3 Int +1 Wis +3 Cha -1 Items Half Plate, Steel Shield (Hardness 5, HP 20, BT 10), warhammer --- AC 17 Fort +8 Ref +3 Will +5 HP 20 Shield Block Reaction --- Speed 20 feet Melee Single Action warhammer +8 (Shove), Damage 1d8+2 bludgeoning Melee Single Action clan dagger +8 (Agile, Parry, versatile B), Damage 1d4+2 piercing Dwarven Doughtiness A dwarf is often calm and collected in the face of imminent danger. At the end of this dwarf's turn, reduce their frightened condition by 2 instead of 1. Shielded Charge Two Actions The dwarf warrior Raises a Shield and Strides twice. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Dwarf",
+  "Humanoid",
+  "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Dwarf](/Traits.aspx?ID=584), [Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Dwarf",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/NPCs.aspx?ID=2965",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 5,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,36 +7,49 @@
  "id": "equipment-2365",
  "item_category": "Artifacts",
  "level": 21,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 21\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Scale of Igroon](/Equipment.aspx?ID=2365)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 180 <sup>1.1</sup></row>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nCarved from a scale of the [kaiju](/Traits.aspx?ID=383) Igroon, this jagged shield refracts light around it in a shimmering haze. A _scale of Igroon_ (Hardness 20, HP 160, BT 80) recovers 4 Hit Points at the start of its wielder's turn. When you [Raise a Shield](/Actions.aspx?ID=98), you can use the [Shield Block](/Feats.aspx?ID=839) reaction with the scale of Igroon to block an attack or effect that deals acid, cold, electricity, fire, force, or sonic damage as well as physical damage.\n\n<document level=\"2\" id=\"action-1933\" />\n\n<document level=\"2\" id=\"action-1934\" />\n\n<document level=\"2\" id=\"action-1935\" />\r\n\r\n**Destruction** If a deity, kaiju, spawn of a deity, titan, or being of similar power stomps on a _scale of Igroon_ while in absolute darkness, the shield is destroyed permanently.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 21\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Scale of Igroon](/Equipment.aspx?ID=2365)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 180 <sup>1.1</sup>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nCarved from a scale of the [kaiju](/Traits.aspx?ID=383) Igroon, this jagged shield refracts light around it in a shimmering haze. A _scale of Igroon_ (Hardness 20, HP 160, BT 80) recovers 4 Hit Points at the start of its wielder's turn. When you [Raise a Shield](/Actions.aspx?ID=98), you can use the [Shield Block](/Feats.aspx?ID=839) reaction with the scale of Igroon to block an attack or effect that deals acid, cold, electricity, fire, force, or sonic damage as well as physical damage.\n\n**Activate** <actions string=\"Single Action\" /> Interact;    **Requirements** You're in an area of [bright](/Rules.aspx?ID=407) or [dim light](/Rules.aspx?ID=408); **Effect** You angle the shield to refract light. Until the start of your next turn, you gain a +4 item bonus to [Stealth](/Skills.aspx?ID=15) checks to [Hide](/Actions.aspx?ID=62) and [Sneak](/Actions.aspx?ID=63) and can do so while [observed](/Conditions.aspx?ID=27). This bonus ends if you Activate another ability or use the Shield Block reaction.\n\n**Activate** <actions string=\"Single Action\" /> Interact;    **Requirements** You're in an area of bright light; **Effect** You angle the shield at a target within 60 feet, reflecting light into its eyes. It must attempt a DC 42 Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target is [blinded](/Conditions.aspx?ID=1) until its next turn begins.<br />\r\n**Failure** The target is blinded for 1 minute.<br />\r\n**Critical Failure** The target is blinded for 2d4 hours.\n\n**Activate** <actions string=\"Free Action\" /> Interact;   **Trigger** You use Shield Block and prevent yourself from taking energy damage from a line, ray, or a direct attack, including a [_magic missile_](/Spells.aspx?ID=180) spell;  **Effect** You reflect the energy along a trajectory you choose. The effect travels only up to its remaining range, using its original parameters if it strikes other targets.\r\n\r\n**Destruction** If a deity, kaiju, spawn of a deity, titan, or being of similar power stomps on a _scale of Igroon_ while in absolute darkness, the shield is destroyed permanently.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Scale of Igroon",
  "pfs": "Restricted",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 180",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 180 <sup>1.1</sup></row>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCarved from a scale of the  kaiju  Igroon, this jagged shield refracts light around it in a shimmering haze. A  scale of Igroon  (Hardness 20, HP …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Artifact\" url=\"/Traits.aspx?ID=253\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 180 <sup>1.1</sup>\r\n\r\n \r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCarved from a scale of the  kaiju  Igroon, this jagged shield refracts light around it in a shimmering haze. A  scale of Igroon  (Hardness 20, HP …\r\n</summary>",
  "skill": [
   "Stealth"
  ],
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 180"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 180 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 180 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Carved from a scale of the  kaiju  Igroon, this jagged shield refracts light around it in a shimmering haze. A  scale of Igroon  (Hardness 20, HP …",
  "summary_markdown": "Carved from a scale of the  kaiju  Igroon, this jagged shield refracts light around it in a shimmering haze. A  scale of Igroon  (Hardness 20, HP …",
- "text": "<title level=\"1\" right=\"Item 21\" pfs=\"Restricted\" > Scale of Igroon Source Treasure Vault pg. 180 1.1 Usage held in 1 hand Bulk L --- Carved from a scale of the kaiju Igroon, this jagged shield refracts light around it in a shimmering haze. A scale of Igroon (Hardness 20, HP 160, BT 80) recovers 4 Hit Points at the start of its wielder's turn. When you Raise a Shield, you can use the Shield Block reaction with the scale of Igroon to block an attack or effect that deals acid, cold, electricity, fire, force, or sonic damage as well as physical damage. Destruction If a deity, kaiju, spawn of a deity, titan, or being of similar power stomps on a scale of Igroon while in absolute darkness, the shield is destroyed permanently.\n",
+ "text": "<title level=\"1\" right=\"Item 21\" pfs=\"Restricted\" > Scale of Igroon Source Treasure Vault pg. 180 1.1 Usage held in 1 hand Bulk L --- Carved from a scale of the kaiju Igroon, this jagged shield refracts light around it in a shimmering haze. A scale of Igroon (Hardness 20, HP 160, BT 80) recovers 4 Hit Points at the start of its wielder's turn. When you Raise a Shield, you can use the Shield Block reaction with the scale of Igroon to block an attack or effect that deals acid, cold, electricity, fire, force, or sonic damage as well as physical damage. Activate Single Action Interact; Requirements You're in an area of bright or dim light; Effect You angle the shield to refract light. Until the start of your next turn, you gain a +4 item bonus to Stealth checks to Hide and Sneak and can do so while observed. This bonus ends if you Activate another ability or use the Shield Block reaction. Activate Single Action Interact; Requirements You're in an area of bright light; Effect You angle the shield at a target within 60 feet, reflecting light into its eyes. It must attempt a DC 42 Fortitude save. Critical Success The target is unaffected. Success The target is blinded until its next turn begins. Failure The target is blinded for 1 minute. Critical Failure The target is blinded for 2d4 hours. Activate Free Action Interact; Trigger You use Shield Block and prevent yourself from taking energy damage from a line, ray, or a direct attack, including a magic missile spell; Effect You reflect the energy along a trajectory you choose. The effect travels only up to its remaining range, using its original parameters if it strikes other targets. Destruction If a deity, kaiju, spawn of a deity, titan, or being of similar power stomps on a scale of Igroon while in absolute darkness, the shield is destroyed permanently.\n",
  "trait": [
   "Abjuration",
   "Artifact",
   "Primal",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Tradition",
+  "Rarity"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Artifact](/Traits.aspx?ID=253), [Primal](/Traits.aspx?ID=134), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

@@ -1,71 +1,86 @@
 {
  "actions": "10 minutes",
+ "actions_number": 600,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
-  "material",
-  "somatic",
-  "verbal"
+  "10 minutes"
  ],
  "deity": [
   "Lamashtu",
   "Nyarlathotep (Haunter in the Dark)"
  ],
- "deity_markdown": "[Lamashtu](/Deities.aspx?ID=11), [Nyarlathotep (Haunter in the Dark)](/Deities.aspx?ID=222)",
+ "deity_markdown": "[Lamashtu](/Deities.aspx?ID=287), [Nyarlathotep (Haunter in the Dark)](/Deities.aspx?ID=222)",
  "domain_markdown": "",
  "duration": 86400,
  "duration_raw": "1 day",
  "exclude_from_search": false,
+ "heighten_group": [
+  "4th rank"
+ ],
  "heighten_level": [
   4
  ],
- "id": "spell-208",
+ "id": "spell-1615",
+ "legacy_id": "spell-208",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">[Nightmare](/Spells.aspx?ID=208)</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 354 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Lamashtu](/Deities.aspx?ID=11), [Nyarlathotep (Haunter in the Dark)](/Deities.aspx?ID=222)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\n\n**Target** 1 creature you know by name\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 day\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send disturbing nightmares to your target. The next time the target falls asleep, it must attempt a Will save. If you know the target only by name and have never met them, the target gets a +4 circumstance bonus to the Will save.\r\n\r\n**Critical Success** The target suffers no adverse effects and is temporarily immune for 1 week.<br />\r\n**Success** The target experiences the nightmares but suffers no adverse effects other than unpleasant memories.<br />\r\n**Failure** The target experiences the nightmares and awakens fatigued.<br />\r\n**Critical Failure** The target experiences the nightmares, awakens fatigued, and is drained 2 until it is no longer fatigued.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 4\" pfs=\"Standard\">\r\n[Nightmare](/Spells.aspx?ID=1615)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 346\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Lamashtu](/Deities.aspx?ID=287), [Nyarlathotep (Haunter in the Dark)](/Deities.aspx?ID=222)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\n\n**Target** 1 creature you know by name\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** 1 day\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send disturbing nightmares to your target. The next time the target falls asleep, it must attempt a Will save. If you know the target only by name and have never met them, the target gets a +4 circumstance bonus to the Will save.\r\n\r\n**Critical Success** The target is unaffected and is temporarily immune for 1 week.<br />\r\n**Success** The target has the nightmares but has no adverse effects other than unpleasant memories.<br />\r\n**Failure** The target has the nightmares and awakens [fatigued](/Conditions.aspx?ID=15).<br />\r\n**Critical Failure** The target has the nightmares, awakens fatigued, and is [drained](/Conditions.aspx?ID=10) 2 until it is no longer fatigued.",
  "name": "Nightmare",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 346",
+ "primary_source_category": "Rulebooks",
  "range": 10000000,
  "range_raw": "planetary",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 354 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Lamashtu](/Deities.aspx?ID=11), [Nyarlathotep (Haunter in the Dark)](/Deities.aspx?ID=222)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\r\n\r\n \r\n\r\n**Target** 1 creature you know by name\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 day\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPlague a creature's dreams with disturbing nightmares.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 346\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Lamashtu](/Deities.aspx?ID=287), [Nyarlathotep (Haunter in the Dark)](/Deities.aspx?ID=222)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\r\n\r\n \r\n\r\n**Target** 1 creature you know by name\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nWill\r\n\r\n**Duration** 1 day\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPlague a creature's dreams with disturbing nightmares.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 354"
+  "Player Core pg. 346"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 354 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 346",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Plague a creature's dreams with disturbing nightmares.",
  "summary_markdown": "Plague a creature's dreams with disturbing nightmares.",
  "target": "1 creature you know by name",
  "target_markdown": "1 creature you know by name",
- "text": " Nightmare Source Core Rulebook pg. 354 4.0 Traditions Arcane, Occult Deities Lamashtu, Nyarlathotep (Haunter in the Dark) Cast 10 minutes (material, somatic, verbal) Range planetary Target 1 creature you know by name Saving Throw Will Duration 1 day --- You send disturbing nightmares to your target. The next time the target falls asleep, it must attempt a Will save. If you know the target only by name and have never met them, the target gets a +4 circumstance bonus to the Will save. Critical Success The target suffers no adverse effects and is temporarily immune for 1 week. Success The target experiences the nightmares but suffers no adverse effects other than unpleasant memories. Failure The target experiences the nightmares and awakens fatigued. Critical Failure The target experiences the nightmares, awakens fatigued, and is drained 2 until it is no longer fatigued.",
+ "text": "\nNightmare Source Player Core pg. 346 Traditions Arcane, Occult Deities Lamashtu, Nyarlathotep (Haunter in the Dark) Cast 10 minutes Range planetary Target 1 creature you know by name Defense Will Duration 1 day --- You send disturbing nightmares to your target. The next time the target falls asleep, it must attempt a Will save. If you know the target only by name and have never met them, the target gets a +4 circumstance bonus to the Will save. Critical Success The target is unaffected and is temporarily immune for 1 week. Success The target has the nightmares but has no adverse effects other than unpleasant memories. Failure The target has the nightmares and awakens fatigued. Critical Failure The target has the nightmares, awakens fatigued, and is drained 2 until it is no longer fatigued.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Illusion",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Mental](/Traits.aspx?ID=106)",
+ "trait_group": [
+  "School",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Illusion](/Traits.aspx?ID=92), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
+  "Concentrate",
   "Illusion",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=208",
+ "url": "/Spells.aspx?ID=1615",
  "weakness": {}
 }

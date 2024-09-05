@@ -1,10 +1,25 @@
 {
  "ac": 31,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  22,
+  23
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Jiang-Shi Vulnerabilities",
   "Warped Fulu",
@@ -13,10 +28,16 @@
  "creature_family": "Vampire, Jiang-Shi",
  "creature_family_markdown": "[Vampire, Jiang-Shi](/MonsterFamilies.aspx?ID=286)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 21,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 130,
  "hp_raw": "130 ( fast healing 10 ,  negative healing , one more breath)",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-1909",
  "image": [
   "/Images/Monsters/Vampire_ProvincialJiangShi.png"
@@ -31,6 +52,11 @@
  ],
  "immunity_markdown": "[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [_sleep_](/Spells.aspx?ID=288), [prone](/Conditions.aspx?ID=31)",
  "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking mace"
+ ],
  "language": [
   "Common",
   "Necril",
@@ -38,13 +64,21 @@
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20), [Tien](/Languages.aspx?ID=43)",
  "level": 11,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Provincial Jiang-Shi](/Monsters.aspx?ID=1909)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nRoused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance to slake their hunger.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vampire_ProvincialJiangShi.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Provincial Jiang-Shi](/Monsters.aspx?ID=1909)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 158, [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 86</row>\n\n**Perception** +22; breathsense (precise) 60 feet, [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +16, [Athletics](/Skills.aspx?ID=3) +22, [Intimidation](/Skills.aspx?ID=7) +20, [Religion](/Skills.aspx?ID=13) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +7\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=280) [mace](/Weapons.aspx?ID=7)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +24 \n\n</row>\r\n\r\n**HP** 130\r\n([fast healing 10](/MonsterAbilities.aspx?ID=15), [negative healing](/MonsterAbilities.aspx?ID=42), one more breath)\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [_sleep_](/Spells.aspx?ID=288), [prone](/Conditions.aspx?ID=31)\r\n\r\n**Resistances**\r\nphysical 10 (except [darkwood](/Equipment.aspx?ID=376))\n\n**Jiang-Shi Vulnerabilities** <br />**Warped Fulu** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet; rigor mortis\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +22 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d10+11 piercing plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_mace_ +23 ([Magical](/Traits.aspx?ID=103), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 2d6+11 bludgeoning\r\n\r\n**Divine Innate Spells** DC 32, attack +22\r\n- **3rd**\r\n[Bind Undead](/Spells.aspx?ID=22), [Fear](/Spells.aspx?ID=110) (×3)\r\n- **4th**\r\n[Enervation](/Spells.aspx?ID=687), [Ghostly Tragedy](/Spells.aspx?ID=692) (×2)\r\n- **5th**\r\n[Shadow Blast](/Spells.aspx?ID=273)\r\n- **6th**\r\n[Harm](/Spells.aspx?ID=146) (×7), [Spirit Blast](/Spells.aspx?ID=301), [Vampiric Exsanguination](/Spells.aspx?ID=353)\r\n\r\n**Drain Qi** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) When Draining Qi, the provincial jiang-shi regains 13 HP.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-286\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Provincial Jiang-Shi](/Monsters.aspx?ID=1909)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nRoused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance to slake their hunger.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Vampire_ProvincialJiangShi.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Provincial Jiang-Shi](/Monsters.aspx?ID=1909)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 158, [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 86\n\n**Perception** +22; breathsense (precise) 60 feet, [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +16, [Athletics](/Skills.aspx?ID=3) +22, [Intimidation](/Skills.aspx?ID=7) +20, [Religion](/Skills.aspx?ID=13) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +7\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=280) [mace](/Weapons.aspx?ID=7)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 31 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +24 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 130\r\n([fast healing 10](/MonsterAbilities.aspx?ID=15), [negative healing](/MonsterAbilities.aspx?ID=42), one more breath)\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [_sleep_](/Spells.aspx?ID=288), [prone](/Conditions.aspx?ID=31)\r\n\r\n**Resistances**\r\nphysical 10 (except [darkwood](/Equipment.aspx?ID=376))\n\n**Jiang-Shi Vulnerabilities** <br />**Warped Fulu** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet; rigor mortis\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +22 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d10+11 piercing plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_mace_ +23 ([Magical](/Traits.aspx?ID=103), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 2d6+11 bludgeoning\r\n\r\n**Divine Innate Spells** DC 32, attack +22\r\n- **3rd**\r\n[Bind Undead](/Spells.aspx?ID=22), [Fear](/Spells.aspx?ID=110) (×3)\r\n- **4th**\r\n[Enervation](/Spells.aspx?ID=687), [Ghostly Tragedy](/Spells.aspx?ID=692) (×2)\r\n- **5th**\r\n[Shadow Blast](/Spells.aspx?ID=273)\r\n- **6th**\r\n[Harm](/Spells.aspx?ID=146) (×7), [Spirit Blast](/Spells.aspx?ID=301), [Vampiric Exsanguination](/Spells.aspx?ID=353)\r\n\r\n**Drain Qi** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) When Draining Qi, the provincial jiang-shi regains 13 HP.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-286\" />",
  "name": "Provincial Jiang-Shi",
  "npc": false,
  "perception": 22,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Book of the Dead",
+ "primary_source_raw": "Book of the Dead pg. 158",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 18,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2022-04-27",
  "resistance": {
   "bludgeoning": 10,
@@ -54,27 +88,44 @@
  },
  "resistance_markdown": "physical 10 (except [darkwood](/Equipment.aspx?ID=376))",
  "resistance_raw": "physical 10 (except  darkwood )",
- "search_markdown": "<traits>\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Book of the Dead](/Sources.aspx?ID=118) pg. 158, [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 86</row>\r\n\r\n**Creature Family** [Vampire, Jiang-Shi](/MonsterFamilies.aspx?ID=286)\r\n\r\n<row gap=\"medium\">\r\n**HP** 130 ( fast healing 10 ,  negative healing , one more breath)\r\n\r\n**AC** 31\r\n\r\n**Fort** +21\r\n\r\n**Ref** +18\r\n\r\n**Will** +24\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRoused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Vampire\" url=\"/Traits.aspx?ID=242\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 158, [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 86\r\n\r\n**Creature Family** [Vampire, Jiang-Shi](/MonsterFamilies.aspx?ID=286)\r\n\r\n<row gap=\"medium\">\r\n**HP** 130 ( fast healing 10 ,  negative healing , one more breath)\r\n\r\n**AC** 31\r\n\r\n**Fort** +21\r\n\r\n**Ref** +18\r\n\r\n**Will** +24\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRoused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance …\r\n</summary>",
  "sense": "breathsense (precise) 60 feet,  darkvision ",
  "sense_markdown": "breathsense (precise) 60 feet, [darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +16",
-  "Athletics +22",
-  "Intimidation +20",
-  "Religion +22"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Religion"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +16, [Athletics](/Skills.aspx?ID=3) +22, [Intimidation](/Skills.aspx?ID=7) +20, [Religion](/Skills.aspx?ID=13) +22",
+ "skill_mod": {
+  "acrobatics": 16,
+  "athletics": 22,
+  "intimidation": 20,
+  "religion": 22
+ },
  "source": [
-  "Book of the Dead"
+  "Book of the Dead",
+  "Pathfinder #167: Ready? Fight!"
  ],
  "source_raw": [
-  "Book of the Dead pg. 158"
+  "Book of the Dead pg. 158",
+  "Pathfinder #167: Ready? Fight! pg. 86"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Book of the Dead](/Sources.aspx?ID=118) pg. 158, [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 86</row>",
+ "source_category": [
+  "Rulebooks",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Fists of the Ruby Phoenix"
+ ],
+ "source_markdown": "[Book of the Dead](/Sources.aspx?ID=118) pg. 158, [Pathfinder #167: Ready? Fight!](/Sources.aspx?ID=86) pg. 86",
  "speed": {
   "land": 15,
   "max": 15
@@ -92,18 +143,56 @@
   "Fear"
  ],
  "spell_markdown": "[Bind Undead](/Spells.aspx?ID=22), [Enervation](/Spells.aspx?ID=687), [Fear](/Spells.aspx?ID=110), [Ghostly Tragedy](/Spells.aspx?ID=692), [Harm](/Spells.aspx?ID=146), [Shadow Blast](/Spells.aspx?ID=273), [Spirit Blast](/Spells.aspx?ID=301), [Vampiric Exsanguination](/Spells.aspx?ID=353)",
+ "spell_attack_bonus": [
+  22
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  32
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  18,
+  22
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "will"
  ],
  "summary": "Roused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance …",
  "summary_markdown": "Roused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance …",
  "text": " Provincial Jiang-Shi Roused rudely from their nightmarish slumber, the provincial jiang-shi roams the villages and graveyards around their domain searching for sustenance to slake their hunger. Recall Knowledge - Undead (Religion): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Provincial Jiang-Shi Source Book of the Dead pg. 158, Pathfinder #167: Ready? Fight! pg. 86 Perception +22; breathsense (precise) 60 feet, darkvision Languages Common, Necril, Tien Skills Acrobatics +16, Athletics +22, Intimidation +20, Religion +22 Str +5 Dex +3 Con +4 Int +3 Wis +7 Cha +3 Items +1 striking mace --- AC 31 Fort +21 Ref +18 Will +24 HP 130 (fast healing 10, negative healing, one more breath) Immunities death effects, disease, paralyzed, poison, sleep , prone Resistances physical 10 (except darkwood) Jiang-Shi Vulnerabilities Warped Fulu --- Speed 15 feet; rigor mortis Melee Single Action claw +22 (Agile), Damage 2d10+11 piercing plus Grab Melee Single Action mace +23 (Magical, Shove), Damage 2d6+11 bludgeoning Divine Innate Spells DC 32, attack +22 - 3rd Bind Undead, Fear (×3) - 4th Enervation, Ghostly Tragedy (×2) - 5th Shadow Blast - 6th Harm (×7), Spirit Blast, Vampiric Exsanguination Drain Qi Single Action (Divine, Necromancy) When Draining Qi, the provincial jiang-shi regains 13 HP. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Undead",
   "Vampire",
   "CE",
   "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
  ],
  "trait_markdown": "[Undead](/Traits.aspx?ID=160), [Vampire](/Traits.aspx?ID=242)",
  "trait_raw": [
@@ -119,5 +208,9 @@
  ],
  "weakness": {},
  "will_save": 24,
- "wisdom": 7
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 7,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

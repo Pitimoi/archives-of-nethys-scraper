@@ -1,0 +1,187 @@
+{
+ "ac": 35,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  28
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 8,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Easy to Call",
+  "Forgotten Presence",
+  "Overwrite Memory",
+  "Swipe Countenance"
+ ],
+ "creature_family": "Sahkil",
+ "creature_family_markdown": "[Sahkil](/MonsterFamilies.aspx?ID=208)",
+ "dexterity": 5,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 22,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 310,
+ "hp_raw": "310",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2783",
+ "immunity": [
+  "fear"
+ ],
+ "immunity_markdown": "fear",
+ "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Celestial",
+  "Chthonian",
+  "Diabolic",
+  "Requian",
+  "telepathy 100 feet, truespeech"
+ ],
+ "language_markdown": "[Celestial](/Languages.aspx?ID=16), [Chthonian](/Languages.aspx?ID=114), [Diabolic](/Languages.aspx?ID=117), [Requian](/Languages.aspx?ID=34); telepathy 100 feet, truespeech",
+ "level": 14,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Ijhyeojin](/Monsters.aspx?ID=2783)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nIjhyeojins (ee-jyuh-jeens) were once joseung sajas, psychopomps who guided the dead to the Boneyard as divine punishment for their sins. Over time, they rejected their roles and became sakhils. Some did this due to a sense of injustice over having to atone for their sins in the afterlife, but all do so partially out of a desperate desire to reclaim their memories—for ijhyeojins are named for the fear they manifest, the fear of being forgotten. They prey on people who are socially isolated by circumstances or those obsessed with their legacy, slowly cutting their victims off from friends, professional contacts, and family. Ijhyeojins particularly enjoy infiltrating medical facilities to prey on patients who fear about being forgotten in their deaths, snatching away crucial memories from them or their visiting loved ones. Hunting in this way also grants the sahkils ideal positioning to lure joseung sajas to their demise.\n\n Ijhyeojins resemble the pale-skinned psychopomps they used to be, except their faces have no distinguishable features, like a skull with a smooth layer of skin pulled over it. Their bodies continue to twist and grow the longer they live.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Ijhyeojin](/Monsters.aspx?ID=2783)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Sahkil\" url=\"/Traits.aspx?ID=333\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 297\n\n**Perception** +28; [darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 60 feet\r\n\r\n**Languages**\r\n[Celestial](/Languages.aspx?ID=16), [Chthonian](/Languages.aspx?ID=114), [Diabolic](/Languages.aspx?ID=117), [Requian](/Languages.aspx?ID=34); telepathy 100 feet, truespeech\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +25, [Boneyard Lore](/Skills.aspx?ID=8) +28, [Deception](/Skills.aspx?ID=5) +28, [Intimidation](/Skills.aspx?ID=7) +28, [Religion](/Skills.aspx?ID=13) +28, [Stealth](/Skills.aspx?ID=15) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** +4\r\n\r\n**Wis** +8\r\n\r\n**Cha** +8\r\n</row>\r\n\r\n**Easy to Call** An ijhyeojin's level is considered 2 lower for the purpose of being conjured by the [_planar binding_](/Rituals.aspx?ID=17) ritual (and potentially other rituals, at the GM's discretion), but they're always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 35 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +28 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 310\n\n</row>\r\n\r\n**Immunities**\r\nfear\n\n**Weaknesses**\r\nholy 10\r\n\r\n**Forgotten Presence** <actions string=\"Reaction\" /> **Trigger** The ijhyeojin critically succeeds at a saving throw against a spell **Effect** The ijhyeojin redirects the triggering spell to a new target other than its caster. If the ijhyeojin is wearing that target's face, the new target takes a –2 circumstance penalty to this saving throw.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +28 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 3d8+14 slashing plus swipe countenance\r\n\r\n**Divine Innate Spells** DC 34\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n- **4th**\r\n[Rewrite Memory](/Spells.aspx?ID=1655) (at will)\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**Overwrite Memory** <actions string=\"Two Actions\" /> ([Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The ijhyeojin alters the memories of a target within 30 feet, insinuating their faceless visage in the place of others. The target must attempt a DC 34 Will save. \n\n**Critical Success** The target is unaffected.<br />\n**Success** The target is [frightened](/Conditions.aspx?ID=76) 1 and treats no one as an ally for as long as it's frightened.<br />\n**Failure** The target is frightened 2 and is [confused](/Conditions.aspx?ID=63) for as long as it's frightened.<br />\n**Critical Failure** The target is frightened 4 and confused for as long as it's frightened. If the target is a joseung saja, they instead realize the fear of being forgotten and become an ijhyeojin.\r\n\r\n**Swipe Countenance** <actions string=\"Single Action\" /> ([Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) **Requirements** The ijhyeojin's previous action was a successful claw Strike against the target; **Effect** The ijhyeojin copies the countenance of the target, imprinting it perfectly onto their own blank face. While only their face changes, creatures must [Seek](/Actions.aspx?ID=2301) them and succeed at a DC 34 Will save to distinguish them visually from the original creature. The sakhil keeps the same visage for 24 hours or until they steal another.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Fatal Feud</title>\r\n\r\nIjhyeojins regard all joseung sajas as brainwashed servants of the Boneyard who need to be “awakened” from their sense of duty through fear. Despite their perception of themselves as liberators, ijhyeojins delight in watching a joseung saja unravel completely as they become consumed and reborn as faceless sakhils by their own fear.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-208\" />",
+ "name": "Ijhyeojin",
+ "npc": false,
+ "perception": 28,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 297",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 25,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Sahkil\" url=\"/Traits.aspx?ID=333\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 297\r\n\r\n**Creature Family** [Sahkil](/MonsterFamilies.aspx?ID=208)\r\n\r\n<row gap=\"medium\">\r\n**HP** 310\r\n\r\n**AC** 35\r\n\r\n**Fort** +22\r\n\r\n**Ref** +25\r\n\r\n**Will** +28\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIjhyeojins (ee-jyuh-jeens) were once joseung sajas, psychopomps who guided the dead to the Boneyard as divine punishment for their sins. Over time, …\r\n</summary>",
+ "sense": " darkvision ,  lifesense  60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 60 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Boneyard Lore",
+  "Deception",
+  "Intimidation",
+  "Religion",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +25, [Boneyard Lore](/Skills.aspx?ID=8) +28, [Deception](/Skills.aspx?ID=5) +28, [Intimidation](/Skills.aspx?ID=7) +28, [Religion](/Skills.aspx?ID=13) +28, [Stealth](/Skills.aspx?ID=15) +25",
+ "skill_mod": {
+  "acrobatics": 25,
+  "deception": 28,
+  "intimidation": 28,
+  "religion": 28,
+  "stealth": 25
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 297"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 297",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell": [
+  "Rewrite Memory",
+  "Invisibility",
+  "Truespeech"
+ ],
+ "spell_markdown": "[Invisibility](/Spells.aspx?ID=164), [Rewrite Memory](/Spells.aspx?ID=1655), [Truespeech](/Spells.aspx?ID=1728)",
+ "spell_dc": [
+  34
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "25",
+ "strike_damage_average": [
+  27
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Ijhyeojins (ee-jyuh-jeens) were once joseung sajas, psychopomps who guided the dead to the Boneyard as divine punishment for their sins. Over time, …",
+ "summary_markdown": "Ijhyeojins (ee-jyuh-jeens) were once joseung sajas, psychopomps who guided the dead to the Boneyard as divine punishment for their sins. Over time, …",
+ "text": " Ijhyeojin Ijhyeojins (ee-jyuh-jeens) were once joseung sajas, psychopomps who guided the dead to the Boneyard as divine punishment for their sins. Over time, they rejected their roles and became sakhils. Some did this due to a sense of injustice over having to atone for their sins in the afterlife, but all do so partially out of a desperate desire to reclaim their memories—for ijhyeojins are named for the fear they manifest, the fear of being forgotten. They prey on people who are socially isolated by circumstances or those obsessed with their legacy, slowly cutting their victims off from friends, professional contacts, and family. Ijhyeojins particularly enjoy infiltrating medical facilities to prey on patients who fear about being forgotten in their deaths, snatching away crucial memories from them or their visiting loved ones. Hunting in this way also grants the sahkils ideal positioning to lure joseung sajas to their demise. Ijhyeojins resemble the pale-skinned psychopomps they used to be, except their faces have no distinguishable features, like a skull with a smooth layer of skin pulled over it. Their bodies continue to twist and grow the longer they live. Recall Knowledge - Fiend (Religion): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Ijhyeojin Source Tian Xia World Guide pg. 297 Perception +28; darkvision, lifesense 60 feet Languages Celestial, Chthonian, Diabolic, Requian; telepathy 100 feet, truespeech Skills Acrobatics +25, Boneyard Lore +28, Deception +28, Intimidation +28, Religion +28, Stealth +25 Str +6 Dex +5 Con +4 Int +4 Wis +8 Cha +8 Easy to Call An ijhyeojin's level is considered 2 lower for the purpose of being conjured by the planar binding ritual (and potentially other rituals, at the GM's discretion), but they're always free to attack or leave instead of negotiate unless the primary caster's check is a critical success. --- AC 35 Fort +22 Ref +25 Will +28 HP 310 Immunities fear Weaknesses holy 10 Forgotten Presence Reaction Trigger The ijhyeojin critically succeeds at a saving throw against a spell Effect The ijhyeojin redirects the triggering spell to a new target other than its caster. If the ijhyeojin is wearing that target's face, the new target takes a –2 circumstance penalty to this saving throw. --- Speed 30 feet Melee Single Action claw +28 (Agile), Damage 3d8+14 slashing plus swipe countenance Divine Innate Spells DC 34 - 2nd Invisibility (at will; self only) - 4th Rewrite Memory (at will) - Constant (5th) Truespeech Overwrite Memory Two Actions (Emotion, Fear, Mental) The ijhyeojin alters the memories of a target within 30 feet, insinuating their faceless visage in the place of others. The target must attempt a DC 34 Will save. Critical Success The target is unaffected. Success The target is frightened 1 and treats no one as an ally for as long as it's frightened. Failure The target is frightened 2 and is confused for as long as it's frightened. Critical Failure The target is frightened 4 and confused for as long as it's frightened. If the target is a joseung saja, they instead realize the fear of being forgotten and become an ijhyeojin. Swipe Countenance Single Action (Mental, Visual) Requirements The ijhyeojin's previous action was a successful claw Strike against the target; Effect The ijhyeojin copies the countenance of the target, imprinting it perfectly onto their own blank face. While only their face changes, creatures must Seek them and succeed at a DC 34 Will save to distinguish them visually from the original creature. The sakhil keeps the same visage for 24 hours or until they steal another. Fatal Feud Ijhyeojins regard all joseung sajas as brainwashed servants of the Boneyard who need to be “awakened” from their sense of duty through fear. Despite their perception of themselves as liberators, ijhyeojins delight in watching a joseung saja unravel completely as they become consumed and reborn as faceless sakhils by their own fear. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Fiend",
+  "Sahkil",
+  "Unholy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Fiend](/Traits.aspx?ID=70), [Sahkil](/Traits.aspx?ID=333), [Unholy](/Traits.aspx?ID=521)",
+ "trait_raw": [
+  "Fiend",
+  "Sahkil",
+  "Unholy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2783",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "holy": 10
+ },
+ "weakness_markdown": "holy 10",
+ "weakness_raw": "holy 10",
+ "will_save": 28,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 8,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
+}

@@ -1,54 +1,105 @@
 {
  "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  3,
+  5
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Slightly Drunk"
  ],
  "creature_family_markdown": "",
  "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 5,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 10,
  "hp_raw": "10",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
  "id": "creature-2161",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Dagger",
+  "Leather Armor",
+  "Shortbow (20 arrows)",
+  "hip flasks of cheap ale and wine",
+  "not enough food to last long in the woods"
+ ],
  "language": [
   "Common"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1)",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"\">[Foolish Hunters](/NPCs.aspx?ID=2161)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Foolish Hunters](/NPCs.aspx?ID=2161)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 25</row>\n\n**Perception** +9\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +4, [Hunting Lore](/Skills.aspx?ID=8) +4, [Survival](/Skills.aspx?ID=16) +3\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), [Leather Armor](/Armor.aspx?ID=4), [Shortbow](/Weapons.aspx?ID=77) (20 arrows), hip flasks of cheap ale and wine, not enough food to last long in the woods\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n**HP** 10\n\n**Slightly Drunk** When first encountered, the hunters are slightly drunk and take a –1 penalty to all checks until they sober up.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +3 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+1 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshortbow +5 ([deadly d10](/Traits.aspx?ID=174), [range 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d6 piercing\n\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Foolish Hunters](/NPCs.aspx?ID=2161)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Foolish Hunters](/NPCs.aspx?ID=2161)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 25\n\n**Perception** +9\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +4, [Hunting Lore](/Skills.aspx?ID=8) +4, [Survival](/Skills.aspx?ID=16) +3\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Dagger](/Weapons.aspx?ID=3), [Leather Armor](/Armor.aspx?ID=4), [Shortbow](/Weapons.aspx?ID=77) (20 arrows), hip flasks of cheap ale and wine, not enough food to last long in the woods\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 10\n\n</row>\n\n**Slightly Drunk** When first encountered, the hunters are slightly drunk and take a –1 penalty to all checks until they sober up.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +3 ([Agile](/Traits.aspx?ID=170), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4+1 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nshortbow +5 ([deadly d10](/Traits.aspx?ID=174), [range 60 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d6 piercing\n\n</column>",
  "name": "Foolish Hunters",
  "npc": true,
  "perception": 9,
+ "perception_scale": "Extreme",
+ "perception_scale_number": 5,
+ "primary_source": "Crown of the Kobold King",
+ "primary_source_raw": "Crown of the Kobold King pg. 25",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Crown of the Kobold King",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2022-10-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 25</row>\n\n<row gap=\"medium\">\r\n**HP** 10\r\n\r\n**AC** 16\r\n\r\n**Fort** +5\r\n\r\n**Ref** +7\r\n\r\n**Will** +3\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 25\n\n<row gap=\"medium\">\r\n**HP** 10\r\n\r\n**AC** 16\r\n\r\n**Fort** +5\r\n\r\n**Ref** +7\r\n\r\n**Will** +3\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +5",
-  "Deception +4",
-  "Hunting Lore +4",
-  "Survival +3"
+  "Acrobatics",
+  "Deception",
+  "Hunting Lore",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +4, [Hunting Lore](/Skills.aspx?ID=8) +4, [Survival](/Skills.aspx?ID=16) +3",
+ "skill_mod": {
+  "acrobatics": 5,
+  "deception": 4,
+  "survival": 3
+ },
  "source": [
   "Crown of the Kobold King"
  ],
  "source_raw": [
   "Crown of the Kobold King pg. 25"
  ],
- "source_category": "Adventures",
- "source_group": "Crown of the Kobold King",
- "source_markdown": "<row gap=\"tiny\">[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 25</row>",
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Crown of the Kobold King"
+ ],
+ "source_markdown": "[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 25",
  "speed": {
   "land": 25,
   "max": 25
@@ -56,17 +107,36 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  3,
+  3
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "text": " Foolish Hunters Recall Knowledge - Humanoid (Society): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Foolish Hunters Source Crown of the Kobold King pg. 25 Perception +9 Languages Common Skills Acrobatics +5, Deception +4, Hunting Lore +4, Survival +3 Str +1 Dex +3 Con +1 Int +0 Wis +1 Cha +2 Items Dagger, Leather Armor, Shortbow (20 arrows), hip flasks of cheap ale and wine, not enough food to last long in the woods --- AC 16 Fort +5 Ref +7 Will +3 HP 10 Slightly Drunk When first encountered, the hunters are slightly drunk and take a –1 penalty to all checks until they sober up. --- Speed 25 feet Melee Single Action dagger +3 (Agile, versatile S), Damage 1d4+1 piercing Ranged Single Action shortbow +5 (deadly d10, range 60 feet), Damage 1d6 piercing\n",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -80,5 +150,9 @@
  ],
  "weakness": {},
  "will_save": 3,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

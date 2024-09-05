@@ -1,6 +1,5 @@
 {
  "ac": 24,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "DC 27  Thievery  (expert) to disable the doorknob trigger",
@@ -19,22 +18,32 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 6,
- "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[False Door Trap](/Hazards.aspx?ID=174)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 59</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA black-powder charge detonates as soon as the doorknob is turned, shattering the door into splinters.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 28 (expert) to see the brick wall behind the edges of the door\r\n\r\n**Disable**\r\nDC 27 [Thievery](/Skills.aspx?ID=17) (expert) to disable the doorknob trigger\n\n<column gap=\"tiny\">\r\n\r\n**AC** 24, **Fort** +17, **Ref** +11\r\n\r\n**Hardness**\r\n8\r\n\r\n**HP**\r\n50  (BT 25)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Explosive Charge** <actions string=\"Reaction\" /> **Trigger** The doorknob is turned; **Effect** The charge behind the door explodes, dealing 2d8+9 fire damage and 2d8+9 piercing damage to all creatures in a 10-foot cone blasting outward from the door (DC 27 [basic](/Rules.aspx?ID=329) Reflex save). The sound of the explosion can be heard up to 50 feet away",
+ "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[False Door Trap](/Hazards.aspx?ID=174)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 59\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA black-powder charge detonates as soon as the doorknob is turned, shattering the door into splinters.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 28 (expert) to see the brick wall behind the edges of the door\r\n\r\n**Disable**\r\nDC 27 [Thievery](/Skills.aspx?ID=17) (expert) to disable the doorknob trigger\n\n<column gap=\"tiny\">\r\n\r\n**AC** 24, **Fort** +17, **Ref** +11\r\n\r\n**Hardness**\r\n8\r\n\r\n**HP**\r\n50  (BT 25)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Explosive Charge** <actions string=\"Reaction\" /> **Trigger** The doorknob is turned; **Effect** The charge behind the door explodes, dealing 2d8+9 fire damage and 2d8+9 piercing damage to all creatures in a 10-foot cone blasting outward from the door (DC 27 [basic](/Rules.aspx?ID=329) Reflex save). The sound of the explosion can be heard up to 50 feet away",
  "name": "False Door Trap",
+ "primary_source": "Pathfinder #179: Cradle of Quartz",
+ "primary_source_raw": "Pathfinder #179: Cradle of Quartz pg. 59",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Outlaws of Alkenstar",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 11,
  "release_date": "2022-05-25",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 59</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA black-powder charge detonates as soon as the doorknob is turned, shattering the door into splinters.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 59\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA black-powder charge detonates as soon as the doorknob is turned, shattering the door into splinters.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #179: Cradle of Quartz"
  ],
  "source_raw": [
   "Pathfinder #179: Cradle of Quartz pg. 59"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Outlaws of Alkenstar",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 59</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Outlaws of Alkenstar"
+ ],
+ "source_markdown": "[Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 59",
  "speed": {},
  "stealth": "DC 28 (expert) to see the brick wall behind the edges of the door",
  "summary": "A black-powder charge detonates as soon as the doorknob is turned, shattering the door into splinters.",
@@ -43,6 +52,10 @@
  "trait": [
   "Mechanical",
   "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard"
  ],
  "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
  "trait_raw": [

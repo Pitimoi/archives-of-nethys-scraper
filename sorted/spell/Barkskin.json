@@ -1,7 +1,7 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
@@ -9,15 +9,22 @@
  ],
  "deity": [
   "Gendowyn",
-  "Gendowyn"
+  "Verilorn"
  ],
- "deity_markdown": "[Gendowyn](/Deities.aspx?ID=152), [Gendowyn](/Deities.aspx?ID=152)",
+ "deity_markdown": "[Gendowyn](/Deities.aspx?ID=152), [Verilorn](/Deities.aspx?ID=276)",
  "domain_markdown": "",
  "duration": 600,
  "duration_raw": "10 minutes",
  "exclude_from_search": false,
  "heighten": [
   "+2"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 4th rank",
+  "Heightened 6th rank",
+  "Heightened 8th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   2,
@@ -28,33 +35,40 @@
  ],
  "id": "spell-20",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Barkskin](/Spells.aspx?ID=20)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 320 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Gendowyn](/Deities.aspx?ID=152), [Gendowyn](/Deities.aspx?ID=152)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target's skin becomes covered in bark. The target gains resistance 2 to bludgeoning and piercing damage and weakness 3 to fire. After the target takes fire damage, it can Dismiss the spell as a free action triggered by taking the damage; doing so doesn't reduce the fire damage the target was dealt.\n\n---\r\n**Heightened (+2)** The resistances increase by 2, and the weakness increases by 3.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Barkskin](/Spells.aspx?ID=20)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 320 <sup>4.0</sup>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Gendowyn](/Deities.aspx?ID=152), [Verilorn](/Deities.aspx?ID=276)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target's skin becomes covered in bark. The target gains resistance 2 to bludgeoning and piercing damage and weakness 3 to fire. After the target takes fire damage, it can Dismiss the spell as a free action triggered by taking the damage; doing so doesn't reduce the fire damage the target was dealt.\n\n---\r\n**Heightened (+2)** The resistances increase by 2, and the weakness increases by 3.",
  "name": "Barkskin",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 320",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1617",
+ "remaster_name": "Oaken Resilience",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 320 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Gendowyn](/Deities.aspx?ID=152), [Gendowyn](/Deities.aspx?ID=152)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTarget's skin is covered in protective bark.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 320 <sup>4.0</sup>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Gendowyn](/Deities.aspx?ID=152), [Verilorn](/Deities.aspx?ID=276)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTarget's skin is covered in protective bark.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 320"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 320 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 320 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Target's skin is covered in protective bark.",
  "summary_markdown": "Target's skin is covered in protective bark.",
  "target": "1 willing creature",
  "target_markdown": "1 willing creature",
- "text": " Barkskin Source Core Rulebook pg. 320 4.0 Tradition Primal Deities Gendowyn, Gendowyn Cast Two Actions somatic, verbal Range touch Target 1 willing creature Duration 10 minutes --- The target's skin becomes covered in bark. The target gains resistance 2 to bludgeoning and piercing damage and weakness 3 to fire. After the target takes fire damage, it can Dismiss the spell as a free action triggered by taking the damage; doing so doesn't reduce the fire damage the target was dealt. --- Heightened (+2) The resistances increase by 2, and the weakness increases by 3.",
+ "text": "\nBarkskin Two Actions Source Core Rulebook pg. 320 4.0 Tradition Primal Deities Gendowyn, Verilorn Cast somatic, verbal Range touch Target 1 willing creature Duration 10 minutes --- The target's skin becomes covered in bark. The target gains resistance 2 to bludgeoning and piercing damage and weakness 3 to fire. After the target takes fire damage, it can Dismiss the spell as a free action triggered by taking the damage; doing so doesn't reduce the fire damage the target was dealt. --- Heightened (+2) The resistances increase by 2, and the weakness increases by 3.",
  "tradition": [
   "Primal"
  ],
@@ -62,6 +76,10 @@
  "trait": [
   "Abjuration",
   "Plant"
+ ],
+ "trait_group": [
+  "School",
+  "Creature Type"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Plant](/Traits.aspx?ID=125)",
  "trait_raw": [

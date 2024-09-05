@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,28 @@
  "frequency": "once per round",
  "id": "feat-102",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Combine Elixirs](/Feats.aspx?ID=102) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Additive 2\" url=\"/Traits.aspx?ID=4\" />\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 78 <sup>4.0</sup></row>\n\n**Frequency**\r\nonce per round\n\n**Trigger**\r\nYou use Quick Alchemy to craft an alchemical item that has the elixir trait and is at least 2 levels lower than your advanced alchemy level.\n\n</column>\r\n\r\n---\r\n\r\nYou’ve discovered how to mix two elixirs into a single hybrid concoction. You can spend 2 additional batches of infused reagents to add a second elixir to the one you’re crafting. The second elixir must also be at least 2 levels lower than your advanced alchemy level, and the combination elixir is an alchemical item two levels higher than the higher of the two elixirs’ levels. When this combination elixir is consumed, both the constituent elixirs take effect. For example, you can combine two [elixirs of life](/Equipment.aspx?ID=91) to create a combined elixir that heals twice the normal amount, or you can combine a [lesser darkvision elixir](/Equipment.aspx?ID=89) with a [lesser eagle-eye elixir](/Equipment.aspx?ID=90) to both gain darkvision and find secret doors.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Combine Elixirs](/Feats.aspx?ID=102) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Additive 2\" url=\"/Traits.aspx?ID=4\" />\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 78 <sup>4.0</sup>\n\n**Frequency**\r\nonce per round\n\n**Trigger**\r\nYou use Quick Alchemy to craft an alchemical item that has the elixir trait and is at least 2 levels lower than your advanced alchemy level.\n\n</column>\r\n\r\n---\r\n\r\nYou’ve discovered how to mix two elixirs into a single hybrid concoction. You can spend 2 additional batches of infused reagents to add a second elixir to the one you’re crafting. The second elixir must also be at least 2 levels lower than your advanced alchemy level, and the combination elixir is an alchemical item two levels higher than the higher of the two elixirs’ levels. When this combination elixir is consumed, both the constituent elixirs take effect. For example, you can combine two [elixirs of life](/Equipment.aspx?ID=91) to create a combined elixir that heals twice the normal amount, or you can combine a [lesser darkvision elixir](/Equipment.aspx?ID=89) with a [lesser eagle-eye elixir](/Equipment.aspx?ID=90) to both gain darkvision and find secret doors.",
  "name": "Combine Elixirs",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 78",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Additive 2\" url=\"/Traits.aspx?ID=4\" />\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 78 <sup>4.0</sup></row>\r\n\r\n**Frequency**\r\nonce per round\n\n**Trigger**\r\nYou use Quick Alchemy to craft an alchemical item that has the elixir trait and is at least 2 levels lower than your advanced alchemy level.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou’ve discovered how to mix two elixirs into a single hybrid concoction.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Additive 2\" url=\"/Traits.aspx?ID=4\" />\r\n<trait label=\"Alchemist\" url=\"/Traits.aspx?ID=7\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 78 <sup>4.0</sup>\r\n\r\n**Frequency**\r\nonce per round\n\n**Trigger**\r\nYou use Quick Alchemy to craft an alchemical item that has the elixir trait and is at least 2 levels lower than your advanced alchemy level.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou’ve discovered how to mix two elixirs into a single hybrid concoction.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 78"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 78 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 78 <sup>4.0</sup>",
  "speed": {},
  "summary": "You’ve discovered how to mix two elixirs into a single hybrid concoction.",
  "summary_markdown": "You’ve discovered how to mix two elixirs into a single hybrid concoction.",
@@ -32,6 +39,10 @@
  "trait": [
   "Additive",
   "Alchemist"
+ ],
+ "trait_group": [
+  "Class-Specific",
+  "Class"
  ],
  "trait_markdown": "[Additive 2](/Traits.aspx?ID=4), [Alchemist](/Traits.aspx?ID=7)",
  "trait_raw": [

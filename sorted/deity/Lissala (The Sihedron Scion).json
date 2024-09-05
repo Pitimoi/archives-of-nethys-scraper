@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Intelligence",
   "Wisdom"
  ],
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "anathema": "Disobey a superior, shirk your duties, destroy a book",
  "category": "deity",
  "cleric_spell": [
   "Message Rune",
@@ -14,7 +14,6 @@
  "deity": [
   "Lissala"
  ],
- "deity_markdown": "[Lissala](/Deities.aspx?ID=156)",
  "deity_category": "Other Gods",
  "deity_category_markdown": "[Other Gods](/DeityCategories.aspx?ID=2)",
  "deity_category_order": "2Other Gods",
@@ -37,6 +36,7 @@
   "Toil"
  ],
  "domain_primary_markdown": "[Fate](/Domains.aspx?ID=12), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Toil](/Domains.aspx?ID=39)",
+ "edict": "Work hard and demand others do so as well, cooperate or avoid conflict with ophidian creatures",
  "exclude_from_search": false,
  "favored_weapon": [
   "Whip"
@@ -47,29 +47,46 @@
   "LE"
  ],
  "id": "deity-156",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Lissala (The Sihedron Scion)](/Deities.aspx?ID=156)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 130 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Other Gods](/DeityCategories.aspx?ID=2)\r\n\r\n**Edicts** Work hard and demand others do so as well, cooperate or avoid conflict with ophidian creatures\r\n\r\n**Anathema** Disobey a superior, shirk your duties, destroy a book\n\n**Follower Alignments**\r\nLN, LE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Wisdom\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146)\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Fate](/Domains.aspx?ID=12), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Toil](/Domains.aspx?ID=39)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Message Rune](/Spells.aspx?ID=581)\n\n- **3rd**\r\n[Secret Page](/Spells.aspx?ID=270)\n\n- **6th**\r\n[Dominate](/Spells.aspx?ID=87)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Lissala (The Sihedron Scion)](/Deities.aspx?ID=156)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 130 <sup>2.0</sup>\r\n\r\n_[**PFS Note**](/pathfinder-society) Lissala grants feeblemind in place of dominate._\r\n\r\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Other Gods](/DeityCategories.aspx?ID=2)\r\n\r\n**Edicts** Work hard and demand others do so as well, cooperate or avoid conflict with ophidian creatures\r\n\r\n**Anathema** Disobey a superior, shirk your duties, destroy a book\n\n**Follower Alignments**\r\nLN, LE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Wisdom\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146)\r\n\r\n**Divine Sanctification** can choose unholy\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Fate](/Domains.aspx?ID=12), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Toil](/Domains.aspx?ID=39)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Message Rune](/Spells.aspx?ID=581)\n\n- **3rd**\r\n[Secret Page](/Spells.aspx?ID=270)\n\n- **6th**\r\n[Dominate](/Spells.aspx?ID=87)\n\n</column>",
  "name": "Lissala (The Sihedron Scion)",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 130",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 130 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Harm\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Fate](/Domains.aspx?ID=12), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Toil](/Domains.aspx?ID=39)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "unholy"
+ ],
+ "sanctification_raw": "can choose unholy",
+ "search_markdown": "<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 130 <sup>2.0</sup>\r\n\r\n**Divine Font** Harm\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Fate](/Domains.aspx?ID=12), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Toil](/Domains.aspx?ID=39)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
  "skill": [
   "Arcana"
  ],
  "skill_markdown": "[Arcana](/Skills.aspx?ID=2)",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 130"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 130 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 130 <sup>2.0</sup>",
  "speed": {},
+ "spell": [
+  "Message Rune",
+  "Secret Page",
+  "Dominate"
+ ],
+ "spell_markdown": "[Dominate](/Spells.aspx?ID=87), [Message Rune](/Spells.aspx?ID=581), [Secret Page](/Spells.aspx?ID=270)",
  "summary": " Nethys Note: no description has been provided of this deity ",
  "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Lissala (The Sihedron Scion) Source Gods &amp; Magic pg. 130 2.0 Nethys Note: no description has been provided of this deity Category Other Gods Edicts Work hard and demand others do so as well, cooperate or avoid conflict with ophidian creatures Anathema Disobey a superior, shirk your duties, destroy a book Follower Alignments LN, LE Devotee Benefits Divine Ability Intelligence or Wisdom Divine Font Harm Divine Skill Arcana Favored Weapon Whip Domains Fate, Glyph, Magic, Toil Alternate Domains Cleric Spells - 1st Message Rune - 3rd Secret Page - 6th Dominate\n",
+ "text": " Lissala (The Sihedron Scion) Source Gods &amp; Magic pg. 130 2.0 PFS Note Lissala grants feeblemind in place of dominate. Nethys Note: no description has been provided of this deity Category Other Gods Edicts Work hard and demand others do so as well, cooperate or avoid conflict with ophidian creatures Anathema Disobey a superior, shirk your duties, destroy a book Follower Alignments LN, LE Devotee Benefits Divine Attribute Intelligence or Wisdom Divine Font Harm Divine Sanctification can choose unholy Divine Skill Arcana Favored Weapon Whip Domains Fate, Glyph, Magic, Toil Alternate Domains Cleric Spells - 1st Message Rune - 3rd Secret Page - 6th Dominate\n",
  "trait": [
   "LE"
  ],

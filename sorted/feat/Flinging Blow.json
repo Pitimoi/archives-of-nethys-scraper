@@ -1,6 +1,6 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,27 +9,38 @@
  "feat_markdown": "Flinging Blow",
  "id": "feat-1756",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Flinging Blow](/Feats.aspx?ID=1756) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away. Make an unarmed Strike. If you hit, the target must succeed at a Fortitude save against your class DC or be pushed up to 10 feet directly away from you (or 20 feet, on a critical failure) and fall [prone](/Conditions.aspx?ID=31). If another creature or physical object would prevent this movement, both your target and the blocking creature or object take 1d6 bludgeoning damage per 5 feet of movement that was prevented.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Flinging Blow](/Feats.aspx?ID=1756) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away. Make an unarmed Strike. If you hit, the target must succeed at a Fortitude save against your class DC or be pushed up to 10 feet directly away from you (or 20 feet, on a critical failure) and fall [prone](/Conditions.aspx?ID=31). If another creature or physical object would prevent this movement, both your target and the blocking creature or object take 1d6 bludgeoning damage per 5 feet of movement that was prevented.",
  "name": "Flinging Blow",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 130",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 130"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup>",
  "speed": {},
  "summary": "You take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away.",
  "summary_markdown": "You take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away.",
  "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Flinging Blow Two Actions Source Advanced Player's Guide pg. 130 2.0 --- You take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away. Make an unarmed Strike. If you hit, the target must succeed at a Fortitude save against your class DC or be pushed up to 10 feet directly away from you (or 20 feet, on a critical failure) and fall prone. If another creature or physical object would prevent this movement, both your target and the blocking creature or object take 1d6 bludgeoning damage per 5 feet of movement that was prevented.",
  "trait": [
   "Monk"
+ ],
+ "trait_group": [
+  "Class",
+  "Weapon"
  ],
  "trait_markdown": "[Monk](/Traits.aspx?ID=112)",
  "trait_raw": [

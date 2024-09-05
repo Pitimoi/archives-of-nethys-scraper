@@ -1,0 +1,152 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  11
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Scurrying Retreat",
+  "Consumed Fragments",
+  "Sneak Attack",
+  "Tactical Gnaw"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 40,
+ "hp_raw": "40",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2773",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Sylvan",
+  "Tien"
+ ],
+ "language_markdown": "[Sylvan](/Languages.aspx?ID=10), [Tien](/Languages.aspx?ID=43)",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Jiidon](/Monsters.aspx?ID=2773)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLegends among jiidons explain that many ages ago, when magic was wilder and of less distinct order, a magic-touched rat consumed the discarded fingernails of a human, and the gods granted that rat the ability to shapeshift into a copy of that human. True or not, jiidons are seemingly normal rats who share the blessing from this story. It's unclear where the first jiidon was born because their descendants live among rat and humanoid populations around the world. In their original forms, jiidons are extremely difficult to distinguish from an ordinary rat and often even finds a home leading its non-sapient kin.\n\n After eating the discarded fingernails of a humanoid, however, a jiidon can assume the shape of the clippings' owner, resembling the subject in all of the obvious and superficial ways, with several subtle differences. Their ears are a little larger and sometimes come to a small point. Their teeth continue to grow for their entire lifetimes, so they must regularly chew on stones, bark, and other hard materials to file their teeth down and conceal their true nature. The whiskers that grow from the sides of their faces also require daily trimming. Jiidons are mostly harmless, but their powers provoke alarm among those who know of them. Mothers scold their children not to clip their nails after nightfall, lest a lurking jiidon seize a sliver that got lost in the dark. Though as cautious as any rat, most jiidons want nothing more than to transform and take a place in humanoid society. In order to reduce suspicion, they've been known to target those who are unpopular among their neighbors. The gratitude they feel when they do replace a humanoid can sometimes be seen in their actions, revealing the fact that the target has been replaced or endearing jiidons to those who didn't appreciate the original's attitude.\n\n Jiidons from large families will often seek a role that grants them access to nail trimmings, such as a cleaner or doctor, and pass the gift of humanoid form through the family.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Jiidon](/Monsters.aspx?ID=2773)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 288\n\n**Perception** +10; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Sylvan](/Languages.aspx?ID=10), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Deception](/Skills.aspx?ID=5) +9, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 40\n\n</row>\n\n**Scurrying Retreat** <actions string=\"Reaction\" /> **Trigger** The jiidon takes damage from a Strike **Requirements** They're currently transformed into in a humanoid form; Effect The jiidon reverts to their rat form and Climbs or Strides. They can't resume humanoid form for 1 minute.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 10 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +11 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d6+4 piercing plus sneak attack\n\n**Consumed Fragments** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134)) The jiidon takes on the form of any Medium or Small humanoid creature whose fingernails or similar fragments they've consumed within the last week, gaining the effects of a 3rd-rank [_illusory disguise_](/Spells.aspx?ID=1568) spell to impersonate the creature for 8 hours; this is a [polymorph](/Traits.aspx?ID=670) effect rather than an illusion effect. Once a jiidon has transformed into a creature in this way, they must eat that creature's fingernails again to transform into it again. If a jiidon consumes the nails of a specific humanoid three nights in a row, they can take the form of that humanoid at will but can't use this ability to imitate any other humanoid thereafter.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The jiidon deals an additional 1d6 precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\r\n\r\n**Tactical Gnaw** <actions string=\"Two Actions\" />  The jiidon uses their nearly indestructible teeth to chew through even the toughest armor, leaving an opponent vulnerable. The jiidon makes a jaws Strike. On a successful attack, if the target is wearing armor with Hardness 10 or lower, the armor becomes broken. This Strike doesn't further damage armor that's already broken.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Playing a Jiidon</title>\r\n\r\nWhile jiidons don't have ancestral rules in this book, a player interested in creating a jiidon character can use the [beastkin](/Ancestries.aspx?ID=29) versatile heritage to emulate a jiidon who has obtained a permanent humanoid form. The player should work with the GM to determine who the jiidon is imitating and what complications this might have.\r\n</aside>",
+ "name": "Jiidon",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 288",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 13,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 288\n\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 19\r\n\r\n**Fort** +12\r\n\r\n**Ref** +13\r\n\r\n**Will** +9\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLegends among jiidons explain that many ages ago, when magic was wilder and of less distinct order, a magic-touched rat consumed the discarded …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Deception",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Deception](/Skills.aspx?ID=5) +9, [Stealth](/Skills.aspx?ID=15) +11",
+ "skill_mod": {
+  "acrobatics": 11,
+  "deception": 9,
+  "stealth": 11
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 288"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 288",
+ "speed": {
+  "climb": 10,
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet, climb 10 feet",
+ "speed_raw": "30 feet, climb 10 feet",
+ "spell_markdown": "",
+ "stealth": "11",
+ "strike_damage_average": [
+  11
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Legends among jiidons explain that many ages ago, when magic was wilder and of less distinct order, a magic-touched rat consumed the discarded …",
+ "summary_markdown": "Legends among jiidons explain that many ages ago, when magic was wilder and of less distinct order, a magic-touched rat consumed the discarded …",
+ "text": " Jiidon Legends among jiidons explain that many ages ago, when magic was wilder and of less distinct order, a magic-touched rat consumed the discarded fingernails of a human, and the gods granted that rat the ability to shapeshift into a copy of that human. True or not, jiidons are seemingly normal rats who share the blessing from this story. It's unclear where the first jiidon was born because their descendants live among rat and humanoid populations around the world. In their original forms, jiidons are extremely difficult to distinguish from an ordinary rat and often even finds a home leading its non-sapient kin. After eating the discarded fingernails of a humanoid, however, a jiidon can assume the shape of the clippings' owner, resembling the subject in all of the obvious and superficial ways, with several subtle differences. Their ears are a little larger and sometimes come to a small point. Their teeth continue to grow for their entire lifetimes, so they must regularly chew on stones, bark, and other hard materials to file their teeth down and conceal their true nature. The whiskers that grow from the sides of their faces also require daily trimming. Jiidons are mostly harmless, but their powers provoke alarm among those who know of them. Mothers scold their children not to clip their nails after nightfall, lest a lurking jiidon seize a sliver that got lost in the dark. Though as cautious as any rat, most jiidons want nothing more than to transform and take a place in humanoid society. In order to reduce suspicion, they've been known to target those who are unpopular among their neighbors. The gratitude they feel when they do replace a humanoid can sometimes be seen in their actions, revealing the fact that the target has been replaced or endearing jiidons to those who didn't appreciate the original's attitude. Jiidons from large families will often seek a role that grants them access to nail trimmings, such as a cleaner or doctor, and pass the gift of humanoid form through the family. Recall Knowledge - Beast (Arcana, Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Jiidon Source Tian Xia World Guide pg. 288 Perception +10; darkvision Languages Sylvan, Tien Skills Acrobatics +11, Deception +9, Stealth +11 Str +2 Dex +4 Con +3 Int +1 Wis +2 Cha +2 --- AC 19 Fort +12 Ref +13 Will +9 HP 40 Scurrying Retreat Reaction Trigger The jiidon takes damage from a Strike Requirements They're currently transformed into in a humanoid form; Effect The jiidon reverts to their rat form and Climbs or Strides. They can't resume humanoid form for 1 minute. --- Speed 30 feet, climb 10 feet Melee Single Action jaws +11 (Finesse), Damage 2d6+4 piercing plus sneak attack Consumed Fragments Single Action (Concentrate, Polymorph, Primal) The jiidon takes on the form of any Medium or Small humanoid creature whose fingernails or similar fragments they've consumed within the last week, gaining the effects of a 3rd-rank illusory disguise spell to impersonate the creature for 8 hours; this is a polymorph effect rather than an illusion effect. Once a jiidon has transformed into a creature in this way, they must eat that creature's fingernails again to transform into it again. If a jiidon consumes the nails of a specific humanoid three nights in a row, they can take the form of that humanoid at will but can't use this ability to imitate any other humanoid thereafter. Sneak Attack The jiidon deals an additional 1d6 precision damage to off-guard creatures. Tactical Gnaw Two Actions The jiidon uses their nearly indestructible teeth to chew through even the toughest armor, leaving an opponent vulnerable. The jiidon makes a jaws Strike. On a successful attack, if the target is wearing armor with Hardness 10 or lower, the armor becomes broken. This Strike doesn't further damage armor that's already broken. Playing a Jiidon While jiidons don't have ancestral rules in this book, a player interested in creating a jiidon character can use the beastkin versatile heritage to emulate a jiidon who has obtained a permanent humanoid form. The player should work with the GM to determine who the jiidon is imitating and what complications this might have. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Uncommon",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=20), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Beast",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2773",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 9,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

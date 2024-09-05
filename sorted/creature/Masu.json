@@ -1,51 +1,94 @@
 {
  "ac": 14,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  6,
+  6
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": -2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Get Underfoot"
  ],
  "creature_family_markdown": "",
  "dexterity": 2,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 3,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 6,
  "hp_raw": "6",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-1964",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"\">[Masu](/Monsters.aspx?ID=1964)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Masu](/Monsters.aspx?ID=1964)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 16</row>\n\n**Perception** +8; [low-light vision](/Traits.aspx?ID=100)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -4\r\n\r\n**Dex** +2\r\n\r\n**Con** -2\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +3 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 6\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbite +6 ([Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +6 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1 slashing\n\n**Get Underfoot** <actions string=\"Single Action\" />  Masu Strides up to half her Speed, moving through one or more space occupied by allied creatures, rubbing against and around legs and feet. Each creature whose space Masu moves through is [clumsy 1](/Conditions.aspx?ID=3) for 1 round.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Masu](/Monsters.aspx?ID=1964)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Masu](/Monsters.aspx?ID=1964)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 16\n\n**Perception** +8; [low-light vision](/Traits.aspx?ID=100)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -4\r\n\r\n**Dex** +2\r\n\r\n**Con** -2\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +3 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 6\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbite +6 ([Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +6 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1 slashing\n\n**Get Underfoot** <actions string=\"Single Action\" />  Masu Strides up to half her Speed, moving through one or more space occupied by allied creatures, rubbing against and around legs and feet. Each creature whose space Masu moves through is [clumsy 1](/Conditions.aspx?ID=3) for 1 round.\r\n\r\n</column>",
  "name": "Masu",
  "npc": false,
  "perception": 8,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Pathfinder #179: Cradle of Quartz",
+ "primary_source_raw": "Pathfinder #179: Cradle of Quartz pg. 16",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Outlaws of Alkenstar",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 8,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
  "release_date": "2022-05-25",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 16</row>\n\n<row gap=\"medium\">\r\n**HP** 6\r\n\r\n**AC** 14\r\n\r\n**Fort** +3\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 16\n\n<row gap=\"medium\">\r\n**HP** 6\r\n\r\n**AC** 14\r\n\r\n**Fort** +3\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/Traits.aspx?ID=100)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +6",
-  "Stealth +6"
+  "Acrobatics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "acrobatics": 6,
+  "stealth": 6
+ },
  "source": [
   "Pathfinder #179: Cradle of Quartz"
  ],
  "source_raw": [
   "Pathfinder #179: Cradle of Quartz pg. 16"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Outlaws of Alkenstar",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 16</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Outlaws of Alkenstar"
+ ],
+ "source_markdown": "[Pathfinder #179: Cradle of Quartz](/Sources.aspx?ID=122) pg. 16",
  "speed": {
   "land": 20,
   "max": 20
@@ -56,16 +99,23 @@
  "spoilers": "Outlaws of Alkenstar",
  "stealth": "6",
  "strength": -4,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "text": " Masu Recall Knowledge - Animal (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Masu Source Pathfinder #179: Cradle of Quartz pg. 16 Perception +8; low-light vision Languages Skills Acrobatics +6, Stealth +6 Str -4 Dex +2 Con -2 Int -4 Wis +1 Cha +1 --- AC 14 Fort +3 Ref +8 Will +6 HP 6 --- Speed 20 feet Melee Single Action bite +6 (Finesse, Nonlethal), Damage 1 piercing Melee Single Action claw +6 (Agile, Finesse, Nonlethal), Damage 1 slashing Get Underfoot Single Action Masu Strides up to half her Speed, moving through one or more space occupied by allied creatures, rubbing against and around legs and feet. Each creature whose space Masu moves through is clumsy 1 for 1 round. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Unique",
   "N",
   "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
@@ -81,5 +131,9 @@
  ],
  "weakness": {},
  "will_save": 6,
- "wisdom": 1
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

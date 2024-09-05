@@ -1,19 +1,26 @@
 {
  "actions": "10 minutes",
+ "actions_number": 600,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "until the next time you make your daily preparations",
+ "element": [
+  "Universal"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "3rd",
   "5th"
+ ],
+ "heighten_group": [
+  "2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank"
  ],
  "heighten_level": [
   2,
@@ -22,33 +29,40 @@
  ],
  "id": "spell-99",
  "level": 2,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">[Endure Elements](/Spells.aspx?ID=99)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou shield the target against dangerous temperatures. Choose severe cold or heat. The target is protected from the temperature you chose (but not extreme cold or heat).\n\n---\r\n**Heightened (3rd)** The target is protected from severe cold and heat.\r\n\r\n**Heightened (5th)** The target is protected from severe cold, severe heat, extreme cold, and extreme heat.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\r\n[Endure Elements](/Spells.aspx?ID=99)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou shield the target against dangerous temperatures. Choose severe cold or heat. The target is protected from the temperature you chose (but not extreme cold or heat).\n\n---\r\n**Heightened (3rd)** The target is protected from severe cold and heat.\r\n\r\n**Heightened (5th)** The target is protected from severe cold, severe heat, extreme cold, and extreme heat.",
  "name": "Endure Elements",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 335",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1517",
+ "remaster_name": "Environmental Endurance",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>10 minutes ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the next time you make your daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nProtect a creature from severe cold or heat.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 10 minutes ([somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nProtect a creature from severe cold or heat.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 335"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Protect a creature from severe cold or heat.",
  "summary_markdown": "Protect a creature from severe cold or heat.",
  "target": "1 willing creature",
  "target_markdown": "1 willing creature",
- "text": " Endure Elements Source Core Rulebook pg. 335 4.0 Traditions Arcane, Divine, Primal Spell Lists Elemental Cast 10 minutes (somatic, verbal) Range touch Target 1 willing creature Duration until the next time you make your daily preparations --- You shield the target against dangerous temperatures. Choose severe cold or heat. The target is protected from the temperature you chose (but not extreme cold or heat). --- Heightened (3rd) The target is protected from severe cold and heat. Heightened (5th) The target is protected from severe cold, severe heat, extreme cold, and extreme heat.",
+ "text": "\nEndure Elements Source Core Rulebook pg. 335 4.0 Traditions Arcane, Divine, Primal Spell Lists Elemental Cast 10 minutes (somatic, verbal) Range touch Target 1 willing creature Duration until the next time you make your daily preparations --- You shield the target against dangerous temperatures. Choose severe cold or heat. The target is protected from the temperature you chose (but not extreme cold or heat). --- Heightened (3rd) The target is protected from severe cold and heat. Heightened (5th) The target is protected from severe cold, severe heat, extreme cold, and extreme heat.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -58,6 +72,9 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
  "trait": [
   "Abjuration"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
  "trait_raw": [

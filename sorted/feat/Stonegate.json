@@ -1,37 +1,49 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Stonegate"
  ],
  "feat_markdown": "Stonegate",
- "id": "feat-1406",
+ "id": "feat-4403",
+ "legacy_id": "feat-1406",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Stonegate](/Feats.aspx?ID=1406) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 42 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Stonewalker](/Feats.aspx?ID=10)\n\n</column>\r\n\r\n---\r\n\r\nEarthen barriers no longer impede your progress. You gain [_passwall_](/Spells.aspx?ID=216) as a 7th-level divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Stonegate](/Feats.aspx?ID=4403) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 45\n\n**Prerequisites**\r\n[Stonewalker](/Feats.aspx?ID=4400)\n\n</column>\r\n\r\n---\r\n\r\nEarthen barriers no longer impede your progress. You gain [_magic passage_](/Spells.aspx?ID=1591) as a 7th-rank divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.",
  "name": "Stonegate",
  "pfs": "Standard",
  "prerequisite": "Stonewalker",
- "prerequisite_markdown": "[Stonewalker](/Feats.aspx?ID=10)",
+ "prerequisite_markdown": "[Stonewalker](/Feats.aspx?ID=4400)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 45",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 42 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Stonewalker](/Feats.aspx?ID=10)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEarthen barriers no longer impede your progress.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 45\n\n**Prerequisites**\r\n[Stonewalker](/Feats.aspx?ID=4400)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEarthen barriers no longer impede your progress.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 42"
+  "Player Core pg. 45"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 42 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 45",
  "speed": {},
  "summary": "Earthen barriers no longer impede your progress.",
  "summary_markdown": "Earthen barriers no longer impede your progress.",
- "text": "<title level=\"1\" right=\"Feat 17\" pfs=\"Standard\" > Stonegate Source Advanced Player's Guide pg. 42 2.0 Prerequisites Stonewalker --- Earthen barriers no longer impede your progress. You gain passwall as a 7th-level divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.",
+ "text": "<title level=\"1\" right=\"Feat 17\" pfs=\"Standard\" > Stonegate Source Player Core pg. 45 Prerequisites Stonewalker --- Earthen barriers no longer impede your progress. You gain magic passage as a 7th-rank divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.",
  "trait": [
   "Dwarf",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Rarity"
  ],
  "trait_markdown": "[Dwarf](/Traits.aspx?ID=54), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -39,6 +51,6 @@
   "Uncommon"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1406",
+ "url": "/Feats.aspx?ID=4403",
  "weakness": {}
 }

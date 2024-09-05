@@ -1,99 +1,170 @@
 {
- "ac": 19,
+ "ac": 20,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  11,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
- "charisma": -1,
- "constitution": 1,
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Attack of Opportunity",
-  "Unbalancing Blow",
-  "Vermicular Movement"
+  "Gripping Tentacle"
  ],
  "creature_family_markdown": "",
- "dexterity": 4,
- "exclude_from_search": true,
- "fortitude_save": 10,
- "hp": 40,
- "hp_raw": "40",
- "id": "creature-2478",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 7,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 35,
+ "hp_raw": "35",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2182",
  "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Aklo",
   "(can't speak any language)"
  ],
  "language_markdown": "[Aklo](/Languages.aspx?ID=13); (can't speak any language)",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"\">[Grick](/Monsters.aspx?ID=2478)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Aberration](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=11)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Grick](/Monsters.aspx?ID=2478)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=1\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35, [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 120</row>\n\n**Perception** +12; [darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13); (can't speak any language)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +10, [Stealth](/Skills.aspx?ID=15) +10, [Survival](/Skills.aspx?ID=16) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** -3\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n**HP** 40\n\n**Resistances**\r\nphysical 3 (double resistance vs. non-[magical](/Traits.aspx?ID=103))\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +12,\r\n**Damage** 1d8+6 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +11 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+6 slashing\n\n**Unbalancing Blow**   Any creature a grick critically hits is [flat-footed](/Conditions.aspx?ID=16) against its attacks until the end of the grick's next turn.\r\n\r\n**Vermicular Movement**   When a grick takes a Stride action to move half its Speed or less, that movement doesn't trigger reactions.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Grick](/Monsters.aspx?ID=2182)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean cities for the chance to reach forth from the darkness and take its prey. Those laid low by a grick are rarely consumed on the spot. Instead, gricks haul back fresh food back to their lair in a tight burrow or high on a cavern ledge, where they consume their spoils in small bites at the gricks' leisure.\n\n The origin of gricks is unknown. Even though these creatures have a rudimentary intelligence, they don't have any social structure to speak of. Most gricks are encountered alone. Even on those occasions when unfortunate travelers meet multiple gricks in small groups, those gricks don't appear to communicate or work together; each instead attacks an individual target and retreats with its prize as soon as it manages to bring down an opponent. Capable predators, gricks also have a strangely weapon-resistant hide that makes them especially dangerous to the unprepared. Many novice adventurers have fallen to grick attacks merely because they couldn't damage these creatures with their non-magical weapons. Those familiar with gricks (especially [dwarves](/Ancestries.aspx?ID=1), [morlocks](/Monsters.aspx?ID=731), and [xulgaths](/MonsterFamilies.aspx?ID=102)) know the best strategy for dealing with them when one lacks access to magic weapons is to fall back and wait for more powerful or magical reinforcements.\n\n Gricks rely on their dark coloration and ability to climb walls to keep them out of sight until they're ready to spring an ambush. On occasions, when food becomes scarce in a particular area, gricks have been known to travel to the surface and roam the wilderness in search of prey, but they make these sojourns almost always out of necessity, lasting only as long as it takes them to find entrances to new subterranean lairs. These creatures prefer darkness and the comfort of a ceiling overhead; they avoid the open sky and go to great lengths to keep the cover of trees, low clouds, or buildings between them and the empty gulf overhead.\n\n Some Darklands societies have tried to recruit gricks as guardians or even beasts of burden, but their intelligence—while middling at best—is more than enough for them to stubbornly resist and even resent attempts at “training.” The best most societies can manage is to keep a grick guardian happy by making sure it remains well-fed and comfortable.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Aberration](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=11)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Grick](/Monsters.aspx?ID=2182)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=1\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 120, [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) (imprecise) 30 feet\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13); (can't speak any language)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +9, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -3\r\n\r\n**Wis** +3\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 35\n\n</row>\n\n**Resistances**\r\nphysical 5 (except [magic](/Traits.aspx?ID=103))\n\n**Gripping Tentacle** <actions string=\"Reaction\" /> **Trigger** A creature in the grick's reach uses a [move](/Traits.aspx?ID=114) action or leaves a square during a move action it's using; **Effect** The grick makes a tentacle Strike against the target. If the attack is a critical hit and the trigger was a move action, the grick disrupts that action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +11,\r\n**Damage** 1d12+6 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +11 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d8+6 bludgeoning\n\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Jungle Gricks</title>\r\n\r\nThese surface-adapted varieties of the underground grick appear in shades of green. They lurk in the undergrowth of jungles or climb low-hanging branches to drop on unsuspecting prey. Their greater skill at [Stealth](/Skills.aspx?ID=15) checks applies in forested terrain instead of rocky terrain. Jungle gricks are heartier creatures than their underground-dwelling kin; all jungle gricks have the [elite creature adjustments](/Rules.aspx?ID=790) as a result.\r\n</aside>",
  "name": "Grick",
  "npc": false,
- "perception": 12,
- "rarity": "common",
- "reflex_save": 11,
- "release_date": "2020-07-30",
+ "perception": 8,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Crown of the Kobold King",
+ "primary_source_raw": "Crown of the Kobold King pg. 120",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Crown of the Kobold King",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 10,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2022-10-26",
  "resistance": {
-  "bludgeoning": 3,
-  "physical": 3,
-  "piercing": 3,
-  "slashing": 3
+  "bludgeoning": 5,
+  "physical": 5,
+  "piercing": 5,
+  "slashing": 5
  },
- "resistance_markdown": "physical 3 (double resistance vs. non-[magical](/Traits.aspx?ID=103))",
- "resistance_raw": "physical 3 (double resistance vs. non- magical )",
- "search_markdown": "<traits>\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=1\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35, [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 120</row>\n\n<row gap=\"medium\">\r\n**HP** 40\r\n\r\n**AC** 19\r\n\r\n**Fort** +10\r\n\r\n**Ref** +11\r\n\r\n**Will** +12\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "resistance_markdown": "physical 5 (except [magic](/Traits.aspx?ID=103))",
+ "resistance_raw": "physical 5 (except  magic )",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=1\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 120, [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35\n\n<row gap=\"medium\">\r\n**HP** 35\r\n\r\n**AC** 20\r\n\r\n**Fort** +7\r\n\r\n**Ref** +10\r\n\r\n**Will** +10\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean …\r\n</summary>",
  "sense": " darkvision ,  scent  (imprecise) 30 feet",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) (imprecise) 30 feet",
  "size": [
   "Medium"
  ],
- "skill": [
-  "Acrobatics +11",
-  "Athletics +10",
-  "Stealth +10",
-  "Survival +8"
+ "size_id": [
+  3
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +10, [Stealth](/Skills.aspx?ID=15) +10, [Survival](/Skills.aspx?ID=16) +8",
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +9, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill_mod": {
+  "athletics": 9,
+  "stealth": 8
+ },
  "source": [
+  "Crown of the Kobold King",
   "Pathfinder #157: Devil at the Dreaming Palace"
  ],
  "source_raw": [
+  "Crown of the Kobold King pg. 120",
   "Pathfinder #157: Devil at the Dreaming Palace pg. 35"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35, [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 120</row>",
+ "source_category": [
+  "Adventures",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Crown of the Kobold King",
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 120, [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 35",
  "speed": {
   "climb": 20,
-  "land": 30,
-  "max": 30
+  "land": 25,
+  "max": 25
  },
- "speed_markdown": "30 feet, climb 20 feet",
- "speed_raw": "30 feet, climb 20 feet",
+ "speed_markdown": "25 feet, climb 20 feet",
+ "speed_raw": "25 feet, climb 20 feet",
  "spell_markdown": "",
- "stealth": "10",
- "strength": 3,
+ "spoilers": "Crown of the Kobold King",
+ "stealth": "8",
+ "strike_damage_average": [
+  10,
+  12
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
+ "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
+  "ref",
+  "reflex",
   "will"
  ],
- "summary": "",
- "summary_markdown": "",
- "text": " Grick Recall Knowledge - Aberration (Occultism): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Grick Source Pathfinder #157: Devil at the Dreaming Palace pg. 35, Crown of the Kobold King pg. 120 Perception +12; darkvision, scent (imprecise) 30 feet Languages Aklo; (can't speak any language) Skills Acrobatics +11, Athletics +10, Stealth +10, Survival +8 Str +3 Dex +4 Con +1 Int -3 Wis +3 Cha -1 --- AC 19 Fort +10 Ref +11 Will +12 HP 40 Resistances physical 3 (double resistance vs. non-magical) Attack of Opportunity Reaction --- Speed 30 feet, climb 20 feet Melee Single Action jaws +12, Damage 1d8+6 piercing Melee Single Action tentacle +11 (Agile, Finesse), Damage 1d6+6 slashing Unbalancing Blow Any creature a grick critically hits is flat-footed against its attacks until the end of the grick's next turn. Vermicular Movement When a grick takes a Stride action to move half its Speed or less, that movement doesn't trigger reactions. ",
+ "summary": "The wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean …",
+ "summary_markdown": "The wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean …",
+ "text": " Grick The wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean cities for the chance to reach forth from the darkness and take its prey. Those laid low by a grick are rarely consumed on the spot. Instead, gricks haul back fresh food back to their lair in a tight burrow or high on a cavern ledge, where they consume their spoils in small bites at the gricks' leisure. The origin of gricks is unknown. Even though these creatures have a rudimentary intelligence, they don't have any social structure to speak of. Most gricks are encountered alone. Even on those occasions when unfortunate travelers meet multiple gricks in small groups, those gricks don't appear to communicate or work together; each instead attacks an individual target and retreats with its prize as soon as it manages to bring down an opponent. Capable predators, gricks also have a strangely weapon-resistant hide that makes them especially dangerous to the unprepared. Many novice adventurers have fallen to grick attacks merely because they couldn't damage these creatures with their non-magical weapons. Those familiar with gricks (especially dwarves, morlocks, and xulgaths) know the best strategy for dealing with them when one lacks access to magic weapons is to fall back and wait for more powerful or magical reinforcements. Gricks rely on their dark coloration and ability to climb walls to keep them out of sight until they're ready to spring an ambush. On occasions, when food becomes scarce in a particular area, gricks have been known to travel to the surface and roam the wilderness in search of prey, but they make these sojourns almost always out of necessity, lasting only as long as it takes them to find entrances to new subterranean lairs. These creatures prefer darkness and the comfort of a ceiling overhead; they avoid the open sky and go to great lengths to keep the cover of trees, low clouds, or buildings between them and the empty gulf overhead. Some Darklands societies have tried to recruit gricks as guardians or even beasts of burden, but their intelligence—while middling at best—is more than enough for them to stubbornly resist and even resent attempts at “training.” The best most societies can manage is to keep a grick guardian happy by making sure it remains well-fed and comfortable. Recall Knowledge - Aberration (Occultism): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Grick Source Crown of the Kobold King pg. 120, Pathfinder #157: Devil at the Dreaming Palace pg. 35 Perception +8; darkvision, scent (imprecise) 30 feet Languages Aklo; (can't speak any language) Skills Athletics +9, Stealth +8 Str +4 Dex +3 Con +2 Int -3 Wis +3 Cha -2 --- AC 20 Fort +7 Ref +10 Will +10 HP 35 Resistances physical 5 (except magic) Gripping Tentacle Reaction Trigger A creature in the grick's reach uses a move action or leaves a square during a move action it's using; Effect The grick makes a tentacle Strike against the target. If the attack is a critical hit and the trigger was a move action, the grick disrupts that action. --- Speed 25 feet, climb 20 feet Melee Single Action jaws +11, Damage 1d12+6 slashing Melee Single Action tentacle +11 (Agile), Damage 1d8+6 bludgeoning Jungle Gricks These surface-adapted varieties of the underground grick appear in shades of green. They lurk in the undergrowth of jungles or climb low-hanging branches to drop on unsuspecting prey. Their greater skill at Stealth checks applies in forested terrain instead of rocky terrain. Jungle gricks are heartier creatures than their underground-dwelling kin; all jungle gricks have the elite creature adjustments as a result. ",
+ "tradition_markdown": "",
  "trait": [
   "Aberration",
+  "Uncommon",
   "N",
   "Medium"
  ],
- "trait_markdown": "[Aberration](/Traits.aspx?ID=1)",
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Aberration](/Traits.aspx?ID=1), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
-  "Aberration"
+  "Aberration",
+  "Uncommon"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=2478",
+ "url": "/Monsters.aspx?ID=2182",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
   "fortitude"
  ],
  "weakness": {},
- "will_save": 12,
- "wisdom": 3
+ "will_save": 10,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

@@ -1,7 +1,7 @@
 {
  "access": "You are from Dongun Hold or Alkenstar.",
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -11,27 +11,34 @@
  "frequency": "once per day",
  "id": "feat-3289",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Crafter's Instinct](/Feats.aspx?ID=3289) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 201</row>\n\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\nMaster in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\r\n\r\n**Trigger**\r\nYou misfire with a firearm or you roll a failure on a Strike with a ranged weapon.\n\n</column>\r\n\r\n---\r\n\r\nYou sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw. If the triggering Strike was a misfire, you get a normal failure instead. If the triggering Strike was a failure, it becomes a glancing blow that deals minimum damage for the Strike (adding any bonuses as normal but getting a result of 1 for all damage dice that would be rolled on a success). The glancing blow does not apply other effects that would normally happen only on a hit.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Crafter's Instinct](/Feats.aspx?ID=3289) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 201\n\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\nMaster in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\r\n\r\n**Trigger**\r\nYou misfire with a firearm or you roll a failure on a Strike with a ranged weapon.\n\n</column>\r\n\r\n---\r\n\r\nYou sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw. If the triggering Strike was a [misfire](/Rules.aspx?ID=1649), you get a normal failure instead. If the triggering Strike was a failure, it becomes a glancing blow that deals minimum damage for the Strike (adding any bonuses as normal but getting a result of 1 for all damage dice that would be rolled on a success). The glancing blow does not apply other effects that would normally happen only on a hit.",
  "name": "Crafter's Instinct",
  "pfs": "Standard",
  "prerequisite": "Master in Crafting",
  "prerequisite_markdown": "Master in [Crafting](/Skills.aspx?ID=4)",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 201",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 201</row>\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\nMaster in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\r\n\r\n**Trigger**\r\nYou misfire with a firearm or you roll a failure on a Strike with a ranged weapon.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 201\r\n\r\n**Frequency**\r\nonce per day\r\n\r\n**Prerequisites**\r\nMaster in [Crafting](/Skills.aspx?ID=4)\r\n\r\n**Access**\r\nYou are from Dongun Hold or Alkenstar.\r\n\r\n**Trigger**\r\nYou misfire with a firearm or you roll a failure on a Strike with a ranged weapon.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw.\r\n</summary>",
  "skill": [
   "Crafting",
   "Crafting"
  ],
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 201"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 201</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 201",
  "speed": {},
  "summary": "You sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw.",
  "summary_markdown": "You sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw.",
@@ -40,6 +47,11 @@
   "Dwarf",
   "Fortune",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Rarity"
  ],
  "trait_markdown": "[Dwarf](/Traits.aspx?ID=54), [Fortune](/Traits.aspx?ID=76), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

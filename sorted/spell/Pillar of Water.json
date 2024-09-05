@@ -1,67 +1,80 @@
 {
  "actions": "Three Actions",
+ "actions_number": 6,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "material",
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
+ "heighten_group": [
+  "3rd rank"
+ ],
  "heighten_level": [
   3
  ],
- "id": "spell-646",
+ "id": "spell-1394",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Limited\">[Pillar of Water](/Spells.aspx?ID=646)</title>\r\n\r\n<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #152: Legacy of the Lost God](/Sources.aspx?ID=23) pg. 77</row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a large, self-contained cylinder of still fresh water. The pillar has a maximum radius of 15 feet and a maximum height of 60 feet. Creatures inside the pillar can [swim](/Actions.aspx?ID=39) through the water as normal (Swim DC 10), or, if the spell was cast on solid ground, walk along the bottom (which is difficult terrain). Any creature that exits the pillar falls or lands accordingly.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Pillar of Water](/Spells.aspx?ID=1394)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 174, [Pathfinder #152: Legacy of the Lost God](/Sources.aspx?ID=23) pg. 77\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create a large, self-contained cylinder of still, clear fresh water. You choose the radius and height of the pillar, to a maximum radius of 15 feet and a maximum height of 60 feet. Creatures inside the pillar can [Swim](/Actions.aspx?ID=39) through the water as normal ([Athletics](/Skills.aspx?ID=3) DC 10), or if the spell was cast on solid ground, walk along the bottom (which is [difficult terrain](/Rules.aspx?ID=453)). Any creature that exits the pillar falls or lands accordingly.",
  "name": "Pillar of Water",
- "patron_theme_markdown": "",
- "pfs": "Limited",
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 174",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
- "rarity": "uncommon",
- "release_date": "2020-02-26",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-08-02",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<spoilers>May contain spoilers from Extinction Curse</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #152: Legacy of the Lost God](/Sources.aspx?ID=23) pg. 77</row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou create a large, self-contained cylinder of still fresh water\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 174, [Pathfinder #152: Legacy of the Lost God](/Sources.aspx?ID=23) pg. 77\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCreate a column of water creatures can swim through.\r\n</summary>",
+ "skill_mod": {},
  "source": [
+  "Rage of Elements",
   "Pathfinder #152: Legacy of the Lost God"
  ],
  "source_raw": [
+  "Rage of Elements pg. 174",
   "Pathfinder #152: Legacy of the Lost God pg. 77"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #152: Legacy of the Lost God](/Sources.aspx?ID=23) pg. 77</row>",
+ "source_category": [
+  "Rulebooks",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 174, [Pathfinder #152: Legacy of the Lost God](/Sources.aspx?ID=23) pg. 77",
  "speed": {},
- "spoilers": "Extinction Curse",
- "summary": "You create a large, self-contained cylinder of still fresh water\r\n",
- "summary_markdown": "You create a large, self-contained cylinder of still fresh water\r\n",
- "text": " Pillar of Water May contain spoilers from Extinction Curse Source Pathfinder #152: Legacy of the Lost God pg. 77 Traditions Arcane, Primal Cast Three Actions material, somatic, verbal Range 120 feet Duration 1 minute --- You create a large, self-contained cylinder of still fresh water. The pillar has a maximum radius of 15 feet and a maximum height of 60 feet. Creatures inside the pillar can swim through the water as normal (Swim DC 10), or, if the spell was cast on solid ground, walk along the bottom (which is difficult terrain). Any creature that exits the pillar falls or lands accordingly.",
+ "spell_type": "Spell",
+ "summary": "Create a column of water creatures can swim through.",
+ "summary_markdown": "Create a column of water creatures can swim through.",
+ "text": "\nPillar of Water Three Actions Source Rage of Elements pg. 174, Pathfinder #152: Legacy of the Lost God pg. 77 Traditions Arcane, Primal Range 120 feet Duration 1 minute --- You create a large, self-contained cylinder of still, clear fresh water. You choose the radius and height of the pillar, to a maximum radius of 15 feet and a maximum height of 60 feet. Creatures inside the pillar can Swim through the water as normal (Athletics DC 10), or if the spell was cast on solid ground, walk along the bottom (which is difficult terrain). Any creature that exits the pillar falls or lands accordingly.",
  "tradition": [
   "Arcane",
   "Primal"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Evocation",
-  "Uncommon",
+  "Concentrate",
+  "Manipulate",
   "Water"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [
-  "Evocation",
-  "Uncommon",
+  "Concentrate",
+  "Manipulate",
   "Water"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=646",
+ "url": "/Spells.aspx?ID=1394",
  "weakness": {}
 }

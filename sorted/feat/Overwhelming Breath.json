@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Overwhelming Breath",
  "id": "feat-1752",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Overwhelming Breath](/Feats.aspx?ID=1752) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nki spells\n\n</column>\r\n\r\n---\r\n\r\nYou control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent's resistance. If you use your next action to Cast a Spell that has the [monk](/Traits.aspx?ID=112) trait and no duration, the spell and any Strikes you make as a result of casting it ignore an amount of the target's resistance to physical damage equal to your level.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Overwhelming Breath](/Feats.aspx?ID=1752) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup>\n\n**Prerequisites**\r\nki spells\n\n</column>\r\n\r\n---\r\n\r\nYou control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent's resistance. If you use your next action to Cast a Spell that has the [monk](/Traits.aspx?ID=112) trait and no duration, the spell and any Strikes you make as a result of casting it ignore an amount of the target's resistance to physical damage equal to your level.",
  "name": "Overwhelming Breath",
  "pfs": "Standard",
  "prerequisite": "ki spells",
  "prerequisite_markdown": "ki spells",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 130",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nki spells\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent's resistance.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup>\n\n**Prerequisites**\r\nki spells\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent's resistance.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 130"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 130 <sup>2.0</sup>",
  "speed": {},
  "summary": "You control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent's resistance.",
  "summary_markdown": "You control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent's resistance.",
@@ -33,7 +40,12 @@
  "trait": [
   "Concentrate",
   "Metamagic",
-  "Monk"
+  "Monk",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class",
+  "Weapon"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107), [Monk](/Traits.aspx?ID=112)",
  "trait_raw": [

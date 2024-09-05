@@ -1,19 +1,28 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Undeath"
  ],
- "domain_markdown": "[Undeath](/Domains.aspx?ID=34)",
+ "domain_markdown": "[Undeath](/Domains.aspx?ID=97)",
+ "duration_raw": "varies",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,52 +36,67 @@
   9,
   10
  ],
- "id": "spell-461",
+ "id": "spell-1846",
+ "legacy_id": "spell-461",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Touch of Undeath](/Spells.aspx?ID=461)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 398 <sup>4.0</sup></row>\n\n**Domain**\r\n[Undeath](/Domains.aspx?ID=34)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou attack the target's life force with undeath, dealing 1d6 negative damage. The target must attempt a Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage.<br />\r\n**Failure** The target takes full damage, and positive effects heal it only half as much as normal for 1 round.<br />\r\n**Critical Failure** The target takes double damage, and positive effects heal it only half as much as normal for 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Touch of Undeath](/Spells.aspx?ID=1846)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Void\" url=\"/Traits.aspx?ID=510\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 380\n\n**Domain**\r\n[Undeath](/Domains.aspx?ID=97)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n**Duration** varies\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou attack the target's life force with undeath, dealing 1d6 void damage. The target must attempt a Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage.<br />\r\n**Failure** The target takes full damage, and [vitality](/Traits.aspx?ID=509) effects heal it only half as much as normal for 1 round.<br />\r\n**Critical Failure** The target takes double damage, and vitality effects heal it only half as much as normal for 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 1d6.",
  "name": "Touch of Undeath",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 380",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Negative\" url=\"/Traits.aspx?ID=118\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 398 <sup>4.0</sup></row>\n\n**Domain**\r\n[Undeath](/Domains.aspx?ID=34)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou attack the target’s life force with undeath.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Void\" url=\"/Traits.aspx?ID=510\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 380\n\n**Domain**\r\n[Undeath](/Domains.aspx?ID=97)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n**Duration** varies\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou attack the target's life force with undeath, dealing 1d6 void damage.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 398"
+  "Player Core pg. 380"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 398 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 380",
  "speed": {},
- "summary": "You attack the target’s life force with undeath.",
- "summary_markdown": "You attack the target’s life force with undeath.",
+ "spell_type": "Focus",
+ "summary": "You attack the target's life force with undeath, dealing 1d6 void damage.",
+ "summary_markdown": "You attack the target's life force with undeath, dealing 1d6 void damage.",
  "target": "1 living creature",
  "target_markdown": "1 living creature",
- "text": " Touch of Undeath Source Core Rulebook pg. 398 4.0 Domain Undeath Cast Single Action somatic Range touch Target 1 living creature Saving Throw Fortitude --- You attack the target's life force with undeath, dealing 1d6 negative damage. The target must attempt a Fortitude save. Critical Success The target is unaffected. Success The target takes half damage. Failure The target takes full damage, and positive effects heal it only half as much as normal for 1 round. Critical Failure The target takes double damage, and positive effects heal it only half as much as normal for 1 minute. --- Heightened (+1) The damage increases by 1d6.",
+ "text": "\nTouch of Undeath Single Action Source Player Core pg. 380 Domain Undeath Range touch Target 1 living creature Defense Fortitude Duration varies --- You attack the target's life force with undeath, dealing 1d6 void damage. The target must attempt a Fortitude save. Critical Success The target is unaffected. Success The target takes half damage. Failure The target takes full damage, and vitality effects heal it only half as much as normal for 1 round. Critical Failure The target takes double damage, and vitality effects heal it only half as much as normal for 1 minute. --- Heightened (+1) The damage increases by 1d6.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Necromancy",
-  "Negative",
-  "Uncommon"
+  "Focus",
+  "Manipulate",
+  "Uncommon",
+  "Void",
+  "Negative"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Necromancy](/Traits.aspx?ID=117), [Negative](/Traits.aspx?ID=118), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Void](/Traits.aspx?ID=510)",
  "trait_raw": [
   "Cleric",
-  "Necromancy",
-  "Negative",
-  "Uncommon"
+  "Focus",
+  "Manipulate",
+  "Uncommon",
+  "Void"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=461",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1846",
  "weakness": {}
 }

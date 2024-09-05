@@ -1,9 +1,9 @@
 {
  "actions": "Free Action",
+ "actions_number": 0,
  "archetype": [
   "Gray Gardener"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,26 +12,36 @@
  "feat_markdown": "Frightful Condemnation",
  "id": "feat-3333",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Limited\"\r\n>\r\n[Frightful Condemnation](/Feats.aspx?ID=3333) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Vigilante\" url=\"/Traits.aspx?ID=326\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Night of the Gray Death](/Sources.aspx?ID=99) pg. 65</row>\n\n**Archetype** [Gray Gardener](/Archetypes.aspx?ID=124)\n\n**Prerequisites**\r\n[Harsh Judgment](/Feats.aspx?ID=3330); [Vigilante Dedication](/Feats.aspx?ID=2083); member of the Gray Gardeners\n\n**Trigger**\r\nYou hit your condemned foe with a melee Strike in the same turn during which you condemned it with [Harsh Judgment.](/Feats.aspx?ID=3330)\r\n\r\n**Requirements**\r\nYou have condemned a foe to death with\r\nHarsh Judgment.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour willingness to follow through on your pitiless judgment is frightful to the person you have condemned, and they begin to dread what you will do to them next. Your condemned foe is [frightened](/Conditions.aspx?ID=19) 1, or [frightened](/Conditions.aspx?ID=19) 2 if the triggering Strike was a critical hit.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Limited\"\r\n>\r\n[Frightful Condemnation](/Feats.aspx?ID=3333) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Vigilante\" url=\"/Traits.aspx?ID=326\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Night of the Gray Death](/Sources.aspx?ID=99) pg. 65\n\n**Archetype** [Gray Gardener](/Archetypes.aspx?ID=124)\n\n**Prerequisites**\r\n[Harsh Judgment](/Feats.aspx?ID=3330); [Vigilante Dedication](/Feats.aspx?ID=2083); member of the Gray Gardeners\n\n**Trigger**\r\nYou hit your condemned foe with a melee Strike in the same turn during which you condemned it with [Harsh Judgment.](/Feats.aspx?ID=3330)\r\n\r\n**Requirements**\r\nYou have condemned a foe to death with\r\nHarsh Judgment.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour willingness to follow through on your pitiless judgment is frightful to the person you have condemned, and they begin to dread what you will do to them next. Your condemned foe is [frightened](/Conditions.aspx?ID=19) 1, or [frightened](/Conditions.aspx?ID=19) 2 if the triggering Strike was a critical hit.",
  "name": "Frightful Condemnation",
  "pfs": "Limited",
  "prerequisite": "Harsh Judgment; Vigilante Dedication; member of the Gray Gardeners",
  "prerequisite_markdown": "[Harsh Judgment](/Feats.aspx?ID=3330); [Vigilante Dedication](/Feats.aspx?ID=2083); member of the Gray Gardeners",
+ "primary_source": "Night of the Gray Death",
+ "primary_source_raw": "Night of the Gray Death pg. 65",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Night of the Gray Death",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "requirement": "You have condemned a foe to death with\r\nHarsh Judgment.",
  "requirement_markdown": "You have condemned a foe to death with\r\nHarsh Judgment.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Vigilante\" url=\"/Traits.aspx?ID=326\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Night of the Gray Death](/Sources.aspx?ID=99) pg. 65</row>\n\n**Prerequisites**\r\n[Harsh Judgment](/Feats.aspx?ID=3330); [Vigilante Dedication](/Feats.aspx?ID=2083); member of the Gray Gardeners\n\n**Trigger**\r\nYou hit your condemned foe with a melee Strike in the same turn during which you condemned it with [Harsh Judgment.](/Feats.aspx?ID=3330)\r\n\r\n**Requirements**\r\nYou have condemned a foe to death with\r\nHarsh Judgment.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour willingness to follow through on your pitiless judgment is frightful to the person you have condemned.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Vigilante\" url=\"/Traits.aspx?ID=326\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Night of the Gray Death](/Sources.aspx?ID=99) pg. 65\n\n**Prerequisites**\r\n[Harsh Judgment](/Feats.aspx?ID=3330); [Vigilante Dedication](/Feats.aspx?ID=2083); member of the Gray Gardeners\n\n**Trigger**\r\nYou hit your condemned foe with a melee Strike in the same turn during which you condemned it with [Harsh Judgment.](/Feats.aspx?ID=3330)\r\n\r\n**Requirements**\r\nYou have condemned a foe to death with\r\nHarsh Judgment.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour willingness to follow through on your pitiless judgment is frightful to the person you have condemned.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Night of the Gray Death"
  ],
  "source_raw": [
   "Night of the Gray Death pg. 65"
  ],
- "source_category": "Adventures",
- "source_group": "Night of the Gray Death",
- "source_markdown": "<row gap=\"tiny\">[Night of the Gray Death](/Sources.aspx?ID=99) pg. 65</row>",
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Night of the Gray Death"
+ ],
+ "source_markdown": "[Night of the Gray Death](/Sources.aspx?ID=99) pg. 65",
  "speed": {},
  "summary": "Your willingness to follow through on your pitiless judgment is frightful to the person you have condemned.",
  "summary_markdown": "Your willingness to follow through on your pitiless judgment is frightful to the person you have condemned.",
@@ -42,6 +52,9 @@
   "Fear",
   "Mental",
   "Vigilante"
+ ],
+ "trait_group": [
+  "Class-Specific"
  ],
  "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Vigilante](/Traits.aspx?ID=326)",
  "trait_raw": [

@@ -1,49 +1,60 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Swift Elusion"
  ],
  "feat_markdown": "Swift Elusion",
- "id": "feat-1807",
+ "id": "feat-4985",
+ "legacy_id": "feat-1807",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Swift Elusion](/Feats.aspx?ID=1807) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 137 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nLegendary in [Acrobatics](/Skills.aspx?ID=1)\n\n**Trigger**\r\nA foe ends its movement adjacent to you.\n\n</column>\r\n\r\n---\r\n\r\nAttempt an [Acrobatics](/Skills.aspx?ID=1) check against the foe's Reflex DC. If you succeed, either Stride to a different space adjacent to the foe or move the foe to a different space adjacent to you.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Swift Elusion](/Feats.aspx?ID=4985) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 177\n\n**Prerequisites**\r\nLegendary in [Acrobatics](/Skills.aspx?ID=1)\n\n**Trigger**\r\nA foe ends its movement adjacent to you\n\n</column>\r\n\r\n---\r\n\r\nAttempt an Acrobatics check against the foe’s Reflex DC. If you succeed, either Stride to a different space adjacent to the foe or move the foe to a different space adjacent to you.",
  "name": "Swift Elusion",
  "pfs": "Standard",
  "prerequisite": "Legendary in Acrobatics",
  "prerequisite_markdown": "Legendary in [Acrobatics](/Skills.aspx?ID=1)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 177",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 137 <sup>2.0</sup></row>\n\n**Prerequisites**\r\nLegendary in [Acrobatics](/Skills.aspx?ID=1)\n\n**Trigger**\r\nA foe ends its movement adjacent to you.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAttempt an Acrobatics check against the foe's Reflex DC.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 177\n\n**Prerequisites**\r\nLegendary in [Acrobatics](/Skills.aspx?ID=1)\n\n**Trigger**\r\nA foe ends its movement adjacent to you\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAttempt an Acrobatics check against the foe’s Reflex DC.\r\n</summary>",
  "skill": [
   "Acrobatics",
   "Acrobatics"
  ],
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 137"
+  "Player Core pg. 177"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 137 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 177",
  "speed": {},
- "summary": "Attempt an Acrobatics check against the foe's Reflex DC.",
- "summary_markdown": "Attempt an Acrobatics check against the foe's Reflex DC.",
- "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Swift Elusion Reaction Source Advanced Player's Guide pg. 137 2.0 Prerequisites Legendary in Acrobatics Trigger A foe ends its movement adjacent to you. --- Attempt an Acrobatics check against the foe's Reflex DC. If you succeed, either Stride to a different space adjacent to the foe or move the foe to a different space adjacent to you.",
+ "summary": "Attempt an Acrobatics check against the foe’s Reflex DC.",
+ "summary_markdown": "Attempt an Acrobatics check against the foe’s Reflex DC.",
+ "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Swift Elusion Reaction Source Player Core pg. 177 Prerequisites Legendary in Acrobatics Trigger A foe ends its movement adjacent to you --- Attempt an Acrobatics check against the foe’s Reflex DC. If you succeed, either Stride to a different space adjacent to the foe or move the foe to a different space adjacent to you.",
  "trait": [
   "Rogue"
  ],
- "trait_markdown": "[Rogue](/Traits.aspx?ID=139)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Rogue](/Traits.aspx?ID=687)",
  "trait_raw": [
   "Rogue"
  ],
- "trigger": "A foe ends its movement adjacent to you.",
- "trigger_markdown": "A foe ends its movement adjacent to you.",
+ "trigger": "A foe ends its movement adjacent to you",
+ "trigger_markdown": "A foe ends its movement adjacent to you",
  "type": "Feat",
- "url": "/Feats.aspx?ID=1807",
+ "url": "/Feats.aspx?ID=4985",
  "weakness": {}
 }

@@ -1,15 +1,8 @@
 {
  "actions": "Two Actions",
- "bloodline": [
-  "Harrow"
- ],
- "bloodline_markdown": "[Harrow](/Bloodlines.aspx?ID=18)",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Ahriman",
   "Azathoth",
@@ -24,57 +17,64 @@
  "duration": 6,
  "duration_raw": "1 round",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
- "id": "spell-696",
+ "id": "spell-1566",
+ "legacy_id": "spell-696",
  "level": 1,
- "lesson": [
-  "Lesson of Calamity"
- ],
- "lesson_markdown": "[Lesson of Calamity](/Lessons.aspx?ID=12)",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Ill Omen](/Spells.aspx?ID=696)</title>\n\n<traits>\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Misfortune\" url=\"/Traits.aspx?ID=110\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 221 <sup>2.0</sup>, [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 108 <sup>2.0</sup></row>\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Harrow](/Bloodlines.aspx?ID=18)\r\n\r\n**Deities**\r\n[Ahriman](/Deities.aspx?ID=220), [Azathoth](/Deities.aspx?ID=161), [Gyronna](/Deities.aspx?ID=153), [Imot](/Deities.aspx?ID=139), [Lubaiko](/Deities.aspx?ID=226), [Sifkesh](/Deities.aspx?ID=81), [Zyphus](/Deities.aspx?ID=160)\n\n**Lesson**\r\n[Lesson of Calamity](/Lessons.aspx?ID=12)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target is struck with misfortune, which throws it off balance. The target must attempt a Will save.\r\n\r\n**Success** The target is unaffected.<br />\r\n**Failure** The first time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.<br />\r\n**Critical Failure** Every time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Ill Omen](/Spells.aspx?ID=1566)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Misfortune\" url=\"/Traits.aspx?ID=110\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 336\n\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Ahriman](/Deities.aspx?ID=220), [Azathoth](/Deities.aspx?ID=161), [Gyronna](/Deities.aspx?ID=153), [Imot](/Deities.aspx?ID=139), [Lubaiko](/Deities.aspx?ID=226), [Sifkesh](/Deities.aspx?ID=81), [Zyphus](/Deities.aspx?ID=160)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe target is struck with misfortune, which throws it off balance. The target must attempt a Will save.\r\n\r\n**Success** The target is unaffected.<br />\r\n**Failure** The first time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.<br />\r\n**Critical Failure** Every time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.",
  "name": "Ill Omen",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 336",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Misfortune\" url=\"/Traits.aspx?ID=110\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 221 <sup>2.0</sup>, [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 108 <sup>2.0</sup></row>\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\r\n[Harrow](/Bloodlines.aspx?ID=18)\r\n\r\n**Deities**\r\n[Ahriman](/Deities.aspx?ID=220), [Azathoth](/Deities.aspx?ID=161), [Gyronna](/Deities.aspx?ID=153), [Imot](/Deities.aspx?ID=139), [Lubaiko](/Deities.aspx?ID=226), [Sifkesh](/Deities.aspx?ID=81), [Zyphus](/Deities.aspx?ID=160)\n\n**Lesson**\r\n[Lesson of Calamity](/Lessons.aspx?ID=12)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCurse a creature with misfortune.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Curse\" url=\"/Traits.aspx?ID=38\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Misfortune\" url=\"/Traits.aspx?ID=110\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 336\r\n\r\n**Tradition**\r\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Ahriman](/Deities.aspx?ID=220), [Azathoth](/Deities.aspx?ID=161), [Gyronna](/Deities.aspx?ID=153), [Imot](/Deities.aspx?ID=139), [Lubaiko](/Deities.aspx?ID=226), [Sifkesh](/Deities.aspx?ID=81), [Zyphus](/Deities.aspx?ID=160)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCurse a creature with misfortune.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 221"
+  "Player Core pg. 336"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 221 <sup>2.0</sup>, [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 108 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 336",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Curse a creature with misfortune.",
  "summary_markdown": "Curse a creature with misfortune.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Ill Omen Source Advanced Player's Guide pg. 221 2.0 , Gods &amp; Magic pg. 108 2.0 Tradition Occult Bloodline Harrow Deities Ahriman, Azathoth, Gyronna, Imot, Lubaiko, Sifkesh, Zyphus Lesson Lesson of Calamity Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Duration 1 round --- The target is struck with misfortune, which throws it off balance. The target must attempt a Will save. Success The target is unaffected. Failure The first time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result. Critical Failure Every time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.",
+ "text": "\nIll Omen Two Actions Source Player Core pg. 336 Tradition Occult Deities Ahriman, Azathoth, Gyronna, Imot, Lubaiko, Sifkesh, Zyphus Range 30 feet Target 1 creature Duration 1 round --- The target is struck with misfortune, which throws it off balance. The target must attempt a Will save. Success The target is unaffected. Failure The first time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result. Critical Failure Every time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.",
  "tradition": [
   "Occult"
  ],
  "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Curse",
-  "Divination",
+  "Manipulate",
   "Misfortune"
  ],
- "trait_markdown": "[Curse](/Traits.aspx?ID=38), [Divination](/Traits.aspx?ID=47), [Misfortune](/Traits.aspx?ID=110)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Curse](/Traits.aspx?ID=38), [Manipulate](/Traits.aspx?ID=104), [Misfortune](/Traits.aspx?ID=110)",
  "trait_raw": [
+  "Concentrate",
   "Curse",
-  "Divination",
+  "Manipulate",
   "Misfortune"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=696",
+ "url": "/Spells.aspx?ID=1566",
  "weakness": {}
 }

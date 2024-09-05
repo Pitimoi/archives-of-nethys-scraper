@@ -1,55 +1,94 @@
 {
  "ac": 23,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  18,
+  18
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Dorsal Deflection",
   "Trample"
  ],
  "creature_family": "Dinosaur",
- "creature_family_markdown": "[Dinosaur](/MonsterFamilies.aspx?ID=32)",
+ "creature_family_markdown": "[Dinosaur](/MonsterFamilies.aspx?ID=391)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 17,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 125,
  "hp_raw": "125",
- "id": "creature-120",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2920",
  "image": [
-  "/Images/Monsters/Dinosaur_Stegosaurus.png"
+  "/Images/Monsters/Stegosaurus.webp"
  ],
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-120",
  "level": 7,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Stegosaurus](/Monsters.aspx?ID=120)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine, and thick tail adorned with four large spikes. This strange configuration protects this herbivore from predators, as the stegosaurus can hunker down to interpose its dorsal plates between an attacker and its thick body. A stegosaurus defends itself by swinging its spiked tail at larger foes and trampling smaller opponents underfoot.\n\n The stegosaurus often inhabits grasslands, where nutritious vegetation is plentiful and only its dorsal plates rise above waving fields of tall grass. The stegosaurus is among the most curious of dinosaurs, and hunters often find it easy to bait them with shiny trinkets or strange noises. A stegosaurus is about 30 feet long, 16 feet high at the top of its highest dorsal plate, and weighs between 2 and 3 tons.\n\n The stegosaurus is generally more even-tempered and even gentle, despite its size, than the ankylosaurus. This combination makes it even more popular as a trained pet or guard, but even then one should take care to not annoy the dinosaur—an angry or annoyed stegosaurus can lash out with its tail with little warning. Often, it’s wiser to train smaller variants, such as the kentrosaurus. Regardless, their dorsal plates make this dinosaur a poor choice as a mount.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dinosaur_Stegosaurus.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Stegosaurus](/Monsters.aspx?ID=120)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=45\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 98</row>\n\n**Perception** +15; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n**HP** 125\n\n**Dorsal Deflection** <actions string=\"Reaction\" /> **Trigger** The stegosaurus is targeted with a melee attack. **Effect** The stegosaurus leans its dorsal plates into the attack, gaining a +2 circumstance bonus to its AC against the triggering attack. If the attack misses, the stegosaurus Steps after the attack.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +18 ([Sweep](/Traits.aspx?ID=194), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+9 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +18 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+9 bludgeoning\n\n**[Trample](/MonsterAbilities.aspx?ID=39)** <actions string=\"Three Actions\" />  Large or smaller, foot, DC 25\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-32\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Stegosaurus](/Monsters.aspx?ID=2920)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine and thick tail adorned with four large spikes. This configuration protects the herbivore, the plates deflecting attacks while it gores predators with its tail.\n\n The stegosaurus is generally even-tempered and gentle, despite its size. This combination makes it even more popular as a trained pet or guard, but even then one should take care to not annoy the dinosaur—an angry stegosaurus can lash out with little warning.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Stegosaurus.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Stegosaurus](/Monsters.aspx?ID=2920)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 99\n\n**Perception** +15; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +20\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\n\n</row>\n\n**Dorsal Deflection** <actions string=\"Reaction\" /> **Trigger** The stegosaurus is targeted with a melee attack; **Effect** The stegosaurus leans its dorsal plates into the attack, gaining a +2 circumstance bonus to its AC against the triggering attack. If the attack misses, the stegosaurus Steps after the attack.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +18 ([Sweep](/Traits.aspx?ID=194), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+9 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +18 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+9 bludgeoning\n\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Three Actions\" />  Large or smaller, foot, DC 25\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-391\" />",
  "name": "Stegosaurus",
  "npc": false,
  "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 99",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=45\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 98</row>\r\n\r\n**Creature Family** [Dinosaur](/MonsterFamilies.aspx?ID=32)\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n**AC** 23\r\n\r\n**Fort** +17\r\n\r\n**Ref** +13\r\n\r\n**Will** +13\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine, and thick tail adorned with four large …\r\n</summary>",
- "sense": "low-light vision, scent (imprecise) 30 feet",
- "sense_markdown": "low-light vision, scent (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 99\r\n\r\n**Creature Family** [Dinosaur](/MonsterFamilies.aspx?ID=391)\r\n\r\n<row gap=\"medium\">\r\n**HP** 125\r\n\r\n**AC** 23\r\n\r\n**Fort** +17\r\n\r\n**Ref** +13\r\n\r\n**Will** +13\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine and thick tail adorned with four large …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Athletics +20"
+  "Athletics"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +20",
+ "skill_mod": {
+  "athletics": 20
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 98"
+  "Monster Core pg. 99"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 98</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 99",
  "speed": {
   "land": 25,
   "max": 25
@@ -57,27 +96,45 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  16,
+  18
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 7,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine, and thick tail adorned with four large …",
- "summary_markdown": "The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine, and thick tail adorned with four large …",
- "text": " Stegosaurus The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine, and thick tail adorned with four large spikes. This strange configuration protects this herbivore from predators, as the stegosaurus can hunker down to interpose its dorsal plates between an attacker and its thick body. A stegosaurus defends itself by swinging its spiked tail at larger foes and trampling smaller opponents underfoot. The stegosaurus often inhabits grasslands, where nutritious vegetation is plentiful and only its dorsal plates rise above waving fields of tall grass. The stegosaurus is among the most curious of dinosaurs, and hunters often find it easy to bait them with shiny trinkets or strange noises. A stegosaurus is about 30 feet long, 16 feet high at the top of its highest dorsal plate, and weighs between 2 and 3 tons. The stegosaurus is generally more even-tempered and even gentle, despite its size, than the ankylosaurus. This combination makes it even more popular as a trained pet or guard, but even then one should take care to not annoy the dinosaur—an angry or annoyed stegosaurus can lash out with its tail with little warning. Often, it’s wiser to train smaller variants, such as the kentrosaurus. Regardless, their dorsal plates make this dinosaur a poor choice as a mount. Recall Knowledge - Animal (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Stegosaurus Source Bestiary pg. 98 Perception +15; low-light vision, scent (imprecise) 30 feet Languages Skills Athletics +20 Str +7 Dex +2 Con +4 Int -4 Wis +2 Cha +0 --- AC 23 Fort +17 Ref +13 Will +13 HP 125 Dorsal Deflection Reaction Trigger The stegosaurus is targeted with a melee attack. Effect The stegosaurus leans its dorsal plates into the attack, gaining a +2 circumstance bonus to its AC against the triggering attack. If the attack misses, the stegosaurus Steps after the attack. --- Speed 25 feet Melee Single Action tail +18 (Sweep, reach 15 feet), Damage 2d8+9 piercing Melee Single Action foot +18 (reach 10 feet), Damage 2d6+9 bludgeoning Trample Three Actions Large or smaller, foot, DC 25 ",
+ "summary": "The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine and thick tail adorned with four large …",
+ "summary_markdown": "The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine and thick tail adorned with four large …",
+ "text": " Stegosaurus The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine and thick tail adorned with four large spikes. This configuration protects the herbivore, the plates deflecting attacks while it gores predators with its tail. The stegosaurus is generally even-tempered and gentle, despite its size. This combination makes it even more popular as a trained pet or guard, but even then one should take care to not annoy the dinosaur—an angry stegosaurus can lash out with little warning. Recall Knowledge - Animal (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Stegosaurus Source Monster Core pg. 99 Perception +15; low-light vision, scent (imprecise) 30 feet Languages Skills Athletics +20 Str +7 Dex +2 Con +4 Int -4 Wis +2 Cha +0 --- AC 23 Fort +17 Ref +13 Will +13 HP 125 Dorsal Deflection Reaction Trigger The stegosaurus is targeted with a melee attack; Effect The stegosaurus leans its dorsal plates into the attack, gaining a +2 circumstance bonus to its AC against the triggering attack. If the attack misses, the stegosaurus Steps after the attack. --- Speed 25 feet Melee Single Action tail +18 (Sweep, reach 15 feet), Damage 2d8+9 piercing Melee Single Action foot +18 (reach 10 feet), Damage 2d6+9 bludgeoning Trample Three Actions Large or smaller, foot, DC 25 ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Dinosaur",
-  "N",
   "Huge"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Dinosaur](/Traits.aspx?ID=45)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Dinosaur](/Traits.aspx?ID=576)",
  "trait_raw": [
   "Animal",
   "Dinosaur"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=120",
+ "url": "/Monsters.aspx?ID=2920",
  "vision": "Low-light vision",
  "weakest_save": [
   "ref",
@@ -86,5 +143,9 @@
  ],
  "weakness": {},
  "will_save": 13,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,19 +1,40 @@
 {
  "actions": "Two Actions",
- "area": "15-foot cone",
+ "actions_number": 4,
+ "area": [
+  15
+ ],
+ "area_raw": "15-foot cone",
+ "area_type": [
+  "cone"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration_raw": "see below",
+ "element": [
+  "Air",
+  "Earth"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -29,33 +50,41 @@
  ],
  "id": "spell-1092",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Limited\">[Gritty Wheeze](/Spells.aspx?ID=1092)</title>\r\n\r\n<spoilers>May contain spoilers from Threshold of Knowledge</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10</row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n**Duration** see below\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou exhale desiccating grit and sand in a small cloud. Creatures in the area take 2d4 bludgeoning damage and must attempt a Fortitude save. [Water](/Traits.aspx?ID=165) creatures and [plant](/Traits.aspx?ID=125) creatures use the outcome one degree of success worse than the result of their saving throw.\n\n**Critical Success** The creature takes no damage.<br />\r\n**Success** The creature takes half damage.<br />\r\n**Failure** The creature takes full damage and is [dazzled](/Conditions.aspx?ID=7) for 1 round.<br />\r\n**Critical Failure** The creature takes double damage and is dazzled for 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 2d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Limited\">\r\n[Gritty Wheeze](/Spells.aspx?ID=1092)\r\n<actions string=\"Two Actions\" />\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Threshold of Knowledge</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nFortitude\r\n\r\n**Duration** see below\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou exhale desiccating grit and sand in a small cloud. Creatures in the area take 2d4 bludgeoning damage and must attempt a Fortitude save. [Water](/Traits.aspx?ID=165) creatures and [plant](/Traits.aspx?ID=125) creatures use the outcome one degree of success worse than the result of their saving throw.\n\n**Critical Success** The creature takes no damage.<br />\r\n**Success** The creature takes half damage.<br />\r\n**Failure** The creature takes full damage and is [dazzled](/Conditions.aspx?ID=7) for 1 round.<br />\r\n**Critical Failure** The creature takes double damage and is dazzled for 1 minute.\n\n---\r\n**Heightened (+1)** The damage increases by 2d4.",
  "name": "Gritty Wheeze",
- "patron_theme_markdown": "",
  "pfs": "Limited",
+ "primary_source": "Threshold of Knowledge",
+ "primary_source_raw": "Threshold of Knowledge pg. 10",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Threshold of Knowledge",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-11-19",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
  "school": "evocation",
- "search_markdown": "<spoilers>May contain spoilers from Threshold of Knowledge</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10</row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n**Duration** see below\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou exhale desiccating grit and sand in a small cloud. \r\n</summary>",
+ "search_markdown": "<spoilers>May contain spoilers from Threshold of Knowledge</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nFortitude\r\n\r\n**Duration** see below\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou exhale desiccating grit and sand in a small cloud. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Threshold of Knowledge"
  ],
  "source_raw": [
   "Threshold of Knowledge pg. 10"
  ],
- "source_category": "Adventures",
- "source_group": "Threshold of Knowledge",
- "source_markdown": "<row gap=\"tiny\">[Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10</row>",
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Threshold of Knowledge"
+ ],
+ "source_markdown": "[Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10",
  "speed": {},
+ "spell_type": "Spell",
  "spoilers": "Threshold of Knowledge",
  "summary": "You exhale desiccating grit and sand in a small cloud. ",
  "summary_markdown": "You exhale desiccating grit and sand in a small cloud. ",
- "text": " Gritty Wheeze May contain spoilers from Threshold of Knowledge Source Threshold of Knowledge pg. 10 Traditions Arcane, Primal Cast Two Actions somatic, verbal Area 15-foot cone Saving Throw Fortitude Duration see below --- You exhale desiccating grit and sand in a small cloud. Creatures in the area take 2d4 bludgeoning damage and must attempt a Fortitude save. Water creatures and plant creatures use the outcome one degree of success worse than the result of their saving throw. Critical Success The creature takes no damage. Success The creature takes half damage. Failure The creature takes full damage and is dazzled for 1 round. Critical Failure The creature takes double damage and is dazzled for 1 minute. --- Heightened (+1) The damage increases by 2d4.",
+ "text": "\nGritty Wheeze Two Actions May contain spoilers from Threshold of Knowledge Source Threshold of Knowledge pg. 10 Traditions Arcane, Primal Cast somatic, verbal Area 15-foot cone Saving Throw Fortitude Duration see below --- You exhale desiccating grit and sand in a small cloud. Creatures in the area take 2d4 bludgeoning damage and must attempt a Fortitude save. Water creatures and plant creatures use the outcome one degree of success worse than the result of their saving throw. Critical Success The creature takes no damage. Success The creature takes half damage. Failure The creature takes full damage and is dazzled for 1 round. Critical Failure The creature takes double damage and is dazzled for 1 minute. --- Heightened (+1) The damage increases by 2d4.",
  "tradition": [
   "Arcane",
   "Primal"
@@ -66,6 +95,13 @@
   "Earth",
   "Evocation",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Air](/Traits.aspx?ID=5), [Earth](/Traits.aspx?ID=55), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

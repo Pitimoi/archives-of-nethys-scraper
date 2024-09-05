@@ -1,47 +1,57 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Cast Down"
  ],
  "feat_markdown": "Cast Down",
- "id": "feat-281",
+ "id": "feat-4661",
+ "legacy_id": "feat-281",
  "level": 6,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cast Down](/Feats.aspx?ID=281) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[harmful font or healing font](/Classes.aspx?ID=5)\n\n</column>\r\n\r\n---\r\n\r\nThe sheer force of your faith can bring a foe crashing down. If the next action you use is to cast [_harm_](/Spells.aspx?ID=146) or [_heal_](/Spells.aspx?ID=148) to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a –10-foot status penalty to its Speed for 1 minute.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 6\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cast Down](/Feats.aspx?ID=4661) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 116\n\n</column>\r\n\r\n---\r\n\r\nThe sheer force of your faith can bring a foe crashing down. If the next action you use is to cast harm or heal to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a –10-foot status penalty to its Speed for 1 minute.",
  "name": "Cast Down",
  "pfs": "Standard",
- "prerequisite": "harmful font or healing font",
- "prerequisite_markdown": "[harmful font or healing font](/Classes.aspx?ID=5)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 116",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[harmful font or healing font](/Classes.aspx?ID=5)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe sheer force of your faith can bring a foe crashing down.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 116\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe sheer force of your faith can bring a foe crashing down.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 123"
+  "Player Core pg. 116"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 123 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 116",
  "speed": {},
  "summary": "The sheer force of your faith can bring a foe crashing down.",
  "summary_markdown": "The sheer force of your faith can bring a foe crashing down.",
- "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Cast Down Single Action Source Core Rulebook pg. 123 4.0 Prerequisites harmful font or healing font --- The sheer force of your faith can bring a foe crashing down. If the next action you use is to cast harm or heal to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a –10-foot status penalty to its Speed for 1 minute.",
+ "text": "<title level=\"1\" right=\"Feat 6\" pfs=\"Standard\" > Cast Down Single Action Source Player Core pg. 116 --- The sheer force of your faith can bring a foe crashing down. If the next action you use is to cast harm or heal to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a –10-foot status penalty to its Speed for 1 minute.",
  "trait": [
   "Cleric",
   "Concentrate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Cleric",
   "Concentrate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=281",
+ "url": "/Feats.aspx?ID=4661",
  "weakness": {}
 }

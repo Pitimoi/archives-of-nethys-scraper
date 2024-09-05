@@ -1,0 +1,185 @@
+{
+ "ac": 25,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Fearless Rush",
+  "Ghost Touch",
+  "Impaling Charge",
+  "Trample"
+ ],
+ "creature_family": "Unicorn",
+ "creature_family_markdown": "[Unicorn](/MonsterFamilies.aspx?ID=504)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 17,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 120,
+ "hp_raw": "120",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3318",
+ "image": [
+  "/Images/Monsters/Karkadann.webp"
+ ],
+ "immunity": [
+  "poison"
+ ],
+ "immunity_markdown": "[poison](/Traits.aspx?ID=669)",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Fey"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"\">[Karkadann](/Monsters.aspx?ID=3318)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nKarkadanns are a distant relation to unicorns, favoring more open terrain than their woodland kin. With the build of a buffalo, karkadanns have gray, scaly bodies, thicker hooves, and no mane. Despite their territoriality and harsh temperament, many karkadanns can be befriended by those who truly hold respect for nature in their hearts.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Karkadann.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Karkadann](/Monsters.aspx?ID=3318)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 190\n\n**Perception** +16; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +17, [Diplomacy](/Skills.aspx?ID=39) +13, [Intimidation](/Skills.aspx?ID=40) +15, [Medicine](/Skills.aspx?ID=42) +14, [Survival](/Skills.aspx?ID=49) +14\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +17 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\n\n</row>\r\n\r\n**Immunities**\r\n[poison](/Traits.aspx?ID=669)\n\n**Fearless Rush** <actions string=\"Reaction\" /> **Trigger** The karkadann becomes [frightened](/Conditions.aspx?ID=76); **Effect** The karkadann reduces their frightened value by 1 (to a minimum of 0). The karkadann then Strides toward an enemy.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 45 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhorn +17 ([Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d10+8 piercing and ghost touch\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhoof +17 ([Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d6+8 bludgeoning and ghost touch\r\n\r\n**Primal Innate Spells** DC 25\r\n- **Cantrips (4th)**\r\n[Light](/Spells.aspx?ID=171)\r\n- **1st**\r\n[Cleanse Cuisine](/Spells.aspx?ID=1468) (×3)\r\n- **3rd**\r\n[Cleanse Affliction](/Spells.aspx?ID=1467) (×2)\r\n\r\n**Ghost Touch**   A karkadann's Strikes have the effects of a [_ghost touch_](/Equipment.aspx?ID=2840) property rune.\r\n\r\n**Impaling Charge** <actions string=\"Two Actions\" />  The karkadann Strides twice, then Strikes with their horn. If the Strike hits, it also deals 1d10 [persistent bleed damage](/Conditions.aspx?ID=29).\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Three Actions\" />  Medium or smaller, hoof, DC 25\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-504\" />",
+ "name": "Karkadann",
+ "npc": false,
+ "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 190",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 14,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 190\r\n\r\n**Creature Family** [Unicorn](/MonsterFamilies.aspx?ID=504)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 25\r\n\r\n**Fort** +17\r\n\r\n**Ref** +14\r\n\r\n**Will** +14\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nKarkadanns are a distant relation to unicorns, favoring more open terrain than their woodland kin. With the build of a buffalo, karkadanns have gray, …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Diplomacy",
+  "Intimidation",
+  "Medicine",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +17, [Diplomacy](/Skills.aspx?ID=39) +13, [Intimidation](/Skills.aspx?ID=40) +15, [Medicine](/Skills.aspx?ID=42) +14, [Survival](/Skills.aspx?ID=49) +14",
+ "skill_mod": {
+  "athletics": 17,
+  "diplomacy": 13,
+  "intimidation": 15,
+  "medicine": 14,
+  "survival": 14
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 190"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 190",
+ "speed": {
+  "land": 45,
+  "max": 45
+ },
+ "speed_markdown": "45 feet",
+ "speed_raw": "45 feet",
+ "spell": [
+  "Cleanse Affliction",
+  "Cleanse Cuisine",
+  "Light"
+ ],
+ "spell_markdown": "[Cleanse Affliction](/Spells.aspx?ID=1467), [Cleanse Cuisine](/Spells.aspx?ID=1468), [Light](/Spells.aspx?ID=171)",
+ "spell_dc": [
+  25
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  15,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Karkadanns are a distant relation to unicorns, favoring more open terrain than their woodland kin. With the build of a buffalo, karkadanns have gray, …",
+ "summary_markdown": "Karkadanns are a distant relation to unicorns, favoring more open terrain than their woodland kin. With the build of a buffalo, karkadanns have gray, …",
+ "text": " Karkadann Karkadanns are a distant relation to unicorns, favoring more open terrain than their woodland kin. With the build of a buffalo, karkadanns have gray, scaly bodies, thicker hooves, and no mane. Despite their territoriality and harsh temperament, many karkadanns can be befriended by those who truly hold respect for nature in their hearts. Recall Knowledge - Beast (Arcana, Nature): DC 23 Recall Knowledge - Fey (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Karkadann Source Howl of the Wild pg. 190 Perception +16; darkvision, scent (imprecise) 30 feet Languages Common, Fey Skills Athletics +17, Diplomacy +13, Intimidation +15, Medicine +14, Survival +14 Str +6 Dex +3 Con +6 Int +0 Wis +3 Cha +4 --- AC 25 Fort +17 Ref +14 Will +14 HP 120 Immunities poison Fearless Rush Reaction Trigger The karkadann becomes frightened; Effect The karkadann reduces their frightened value by 1 (to a minimum of 0). The karkadann then Strides toward an enemy. --- Speed 45 feet Melee Single Action horn +17 (Holy, Magical), Damage 2d10+8 piercing and ghost touch Melee Single Action hoof +17 (Holy, Magical), Damage 2d6+8 bludgeoning and ghost touch Primal Innate Spells DC 25 - Cantrips (4th) Light - 1st Cleanse Cuisine (×3) - 3rd Cleanse Affliction (×2) Ghost Touch A karkadann's Strikes have the effects of a ghost touch property rune. Impaling Charge Two Actions The karkadann Strides twice, then Strikes with their horn. If the Strike hits, it also deals 1d10 persistent bleed damage. Trample Three Actions Medium or smaller, hoof, DC 25 ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Beast",
+  "Fey",
+  "Holy",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Fey](/Traits.aspx?ID=599), [Holy](/Traits.aspx?ID=517)",
+ "trait_raw": [
+  "Beast",
+  "Fey",
+  "Holy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3318",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 14,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

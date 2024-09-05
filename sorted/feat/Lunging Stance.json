@@ -1,47 +1,59 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Lunging Stance"
  ],
  "feat_markdown": "Lunging Stance",
- "id": "feat-411",
+ "id": "feat-4838",
+ "legacy_id": "feat-411",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Lunging Stance](/Feats.aspx?ID=411) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 151 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[attack of opportunity](/Actions.aspx?ID=8); [Lunge](/Feats.aspx?ID=369)\n\n**Requirements**\r\nYou are wielding a melee weapon.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour body coiled to strike, you can lash out at distant enemies. While you are in this stance, you can use Attack of Opportunity against a creature that is outside your reach but within the reach you would have with a Lunge. If you do, you increase your range with the Strike by 5 feet.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Lunging Stance](/Feats.aspx?ID=4838) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 149\n\n**Prerequisites**\r\n[Reactive Strike](/Actions.aspx?ID=2256); [Lunge](/Feats.aspx?ID=4784)\n\n**Requirements**\r\nYou are wielding a melee weapon\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour body coiled to strike, you can lash out at distant enemies. While you are in this stance, you can use Reactive Strike against a creature that is outside your reach but within the reach you would have with a Lunge. If you do, you increase your range with the Strike by 5 feet.",
  "name": "Lunging Stance",
  "pfs": "Standard",
- "prerequisite": "attack of opportunity; Lunge",
- "prerequisite_markdown": "[attack of opportunity](/Actions.aspx?ID=8); [Lunge](/Feats.aspx?ID=369)",
+ "prerequisite": "Reactive Strike; Lunge",
+ "prerequisite_markdown": "[Reactive Strike](/Actions.aspx?ID=2256); [Lunge](/Feats.aspx?ID=4784)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 149",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
- "requirement": "You are wielding a melee weapon.",
- "requirement_markdown": "You are wielding a melee weapon.",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are wielding a melee weapon",
+ "requirement_markdown": "You are wielding a melee weapon",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 151 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[attack of opportunity](/Actions.aspx?ID=8); [Lunge](/Feats.aspx?ID=369)\n\n**Requirements**\r\nYou are wielding a melee weapon.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour body coiled to strike, you can lash out at distant enemies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=152\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 149\n\n**Prerequisites**\r\n[Reactive Strike](/Actions.aspx?ID=2256); [Lunge](/Feats.aspx?ID=4784)\n\n**Requirements**\r\nYou are wielding a melee weapon\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour body coiled to strike, you can lash out at distant enemies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 151"
+  "Player Core pg. 149"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 151 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 149",
  "speed": {},
  "summary": "Your body coiled to strike, you can lash out at distant enemies.",
  "summary_markdown": "Your body coiled to strike, you can lash out at distant enemies.",
- "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Lunging Stance Single Action Source Core Rulebook pg. 151 4.0 Prerequisites attack of opportunity; Lunge Requirements You are wielding a melee weapon. --- Your body coiled to strike, you can lash out at distant enemies. While you are in this stance, you can use Attack of Opportunity against a creature that is outside your reach but within the reach you would have with a Lunge. If you do, you increase your range with the Strike by 5 feet.",
+ "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Lunging Stance Single Action Source Player Core pg. 149 Prerequisites Reactive Strike; Lunge Requirements You are wielding a melee weapon --- Your body coiled to strike, you can lash out at distant enemies. While you are in this stance, you can use Reactive Strike against a creature that is outside your reach but within the reach you would have with a Lunge. If you do, you increase your range with the Strike by 5 feet.",
  "trait": [
   "Fighter",
   "Stance"
  ],
- "trait_markdown": "[Fighter](/Traits.aspx?ID=71), [Stance](/Traits.aspx?ID=152)",
+ "trait_group": [
+  "Class",
+  "Class-Specific"
+ ],
+ "trait_markdown": "[Fighter](/Traits.aspx?ID=601), [Stance](/Traits.aspx?ID=152)",
  "trait_raw": [
   "Fighter",
   "Stance"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=411",
+ "url": "/Feats.aspx?ID=4838",
  "weakness": {}
 }

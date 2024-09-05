@@ -1,13 +1,8 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
@@ -15,56 +10,73 @@
  "heighten": [
   "9th"
  ],
+ "heighten_group": [
+  "7th rank",
+  "Heightened 9th rank"
+ ],
  "heighten_level": [
   7,
   9
  ],
- "id": "spell-248",
+ "id": "spell-1648",
+ "legacy_id": "spell-248",
  "level": 7,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">[Regenerate](/Spells.aspx?ID=248)</title>\n\n<traits>\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 363 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nAn infusion of positive energy grants a creature continuous healing. The target temporarily gains regeneration 15, which restores 15 Hit Points to it at the start of each of its turns. While it has regeneration, the target can't die from damage and its [dying](/Conditions.aspx?ID=11) condition can't increase to a value that would kill it (this stops most creatures from going beyond dying 3), though if its [wounded](/Conditions.aspx?ID=42) value becomes 4 or higher, it stays unconscious until its wounds are treated. If the target takes acid or fire damage, its regeneration deactivates until after the end of its next turn. \n\nEach time the creature regains Hit Points from regeneration, it also regrows one damaged or ruined organ (if any). During the spell's duration, the creature can also reattach severed body parts by spending an Interact action to hold the body part to the area it was severed from.\n\n---\r\n**Heightened (9th)** The regeneration increases to 20.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">\r\n[Regenerate](/Spells.aspx?ID=1648)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 352\n\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 willing living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nAn infusion of vital energy grants a creature continuous healing. The target temporarily gains [regeneration](/MonsterAbilities.aspx?ID=26) 15, which restores 15 Hit Points to it at the start of each of its turns. While it has regeneration, the target can't die from taking Hit Point damage and its [dying](/Conditions.aspx?ID=11) condition can't increase to a value that would kill it (this stops most creatures' dying condition at dying 3), though if its [wounded](/Conditions.aspx?ID=42) value becomes 4 or higher, it stays [unconscious](/Conditions.aspx?ID=38) until its wounds are treated. If the target takes acid or fire damage, its regeneration deactivates until after the end of its next turn.\n\n Each time the creature regains Hit Points from regeneration, it also regrows one damaged or ruined organ (if any). During the spell's duration, the creature can also reattach severed body parts by spending an Interact action to hold the body part to the area it was severed from.\n\n---\r\n**Heightened (9th)** The regeneration increases to 20.",
  "name": "Regenerate",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 352",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Positive\" url=\"/Traits.aspx?ID=128\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 363 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCause a creature to heal over time, regrow organs, and reattach body parts.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 352\r\n\r\n**Traditions**\r\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 willing living creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCreature heals over time, regrows organs, and reattaches body parts.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 363"
+  "Player Core pg. 352"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 363 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 352",
  "speed": {},
- "summary": "Cause a creature to heal over time, regrow organs, and reattach body parts.",
- "summary_markdown": "Cause a creature to heal over time, regrow organs, and reattach body parts.",
+ "spell_type": "Spell",
+ "summary": "Creature heals over time, regrows organs, and reattaches body parts.",
+ "summary_markdown": "Creature heals over time, regrows organs, and reattaches body parts.",
  "target": "1 willing living creature",
  "target_markdown": "1 willing living creature",
- "text": " Regenerate Source Core Rulebook pg. 363 4.0 Traditions Divine, Primal Cast Two Actions somatic, verbal Range touch Target 1 willing living creature Duration 1 minute --- An infusion of positive energy grants a creature continuous healing. The target temporarily gains regeneration 15, which restores 15 Hit Points to it at the start of each of its turns. While it has regeneration, the target can't die from damage and its dying condition can't increase to a value that would kill it (this stops most creatures from going beyond dying 3), though if its wounded value becomes 4 or higher, it stays unconscious until its wounds are treated. If the target takes acid or fire damage, its regeneration deactivates until after the end of its next turn. Each time the creature regains Hit Points from regeneration, it also regrows one damaged or ruined organ (if any). During the spell's duration, the creature can also reattach severed body parts by spending an Interact action to hold the body part to the area it was severed from. --- Heightened (9th) The regeneration increases to 20.",
+ "text": "\nRegenerate Two Actions Source Player Core pg. 352 Traditions Divine, Primal Range touch Target 1 willing living creature Duration 1 minute --- An infusion of vital energy grants a creature continuous healing. The target temporarily gains regeneration 15, which restores 15 Hit Points to it at the start of each of its turns. While it has regeneration, the target can't die from taking Hit Point damage and its dying condition can't increase to a value that would kill it (this stops most creatures' dying condition at dying 3), though if its wounded value becomes 4 or higher, it stays unconscious until its wounds are treated. If the target takes acid or fire damage, its regeneration deactivates until after the end of its next turn. Each time the creature regains Hit Points from regeneration, it also regrows one damaged or ruined organ (if any). During the spell's duration, the creature can also reattach severed body parts by spending an Interact action to hold the body part to the area it was severed from. --- Heightened (9th) The regeneration increases to 20.",
  "tradition": [
   "Divine",
   "Primal"
  ],
  "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
+  "Concentrate",
   "Healing",
-  "Necromancy",
+  "Manipulate",
+  "Vitality",
   "Positive"
  ],
- "trait_markdown": "[Healing](/Traits.aspx?ID=89), [Necromancy](/Traits.aspx?ID=117), [Positive](/Traits.aspx?ID=128)",
+ "trait_group": [
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Vitality](/Traits.aspx?ID=509)",
  "trait_raw": [
+  "Concentrate",
   "Healing",
-  "Necromancy",
-  "Positive"
+  "Manipulate",
+  "Vitality"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=248",
+ "url": "/Spells.aspx?ID=1648",
  "weakness": {}
 }

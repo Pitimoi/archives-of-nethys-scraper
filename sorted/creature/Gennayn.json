@@ -1,0 +1,200 @@
+{
+ "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Inspiring Influence",
+  "Attuned Element",
+  "Change Shape",
+  "Little Wish"
+ ],
+ "creature_family": "Genie",
+ "creature_family_markdown": "[Genie](/MonsterFamilies.aspx?ID=50)",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 4,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
+ "hp": 30,
+ "hp_raw": "30",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2687",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Muan",
+  "Petran",
+  "Pyric",
+  "Sussuran",
+  "Talican",
+  "Thalassic"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Muan](/Languages.aspx?ID=108), [Petran](/Languages.aspx?ID=109), [Pyric](/Languages.aspx?ID=110), [Sussuran](/Languages.aspx?ID=111), [Talican](/Languages.aspx?ID=112), [Thalassic](/Languages.aspx?ID=113)",
+ "level": 2,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Gennayn](/Monsters.aspx?ID=2687)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGennayns are minor genies who often serve as emissaries and messengers for greater elemental beings. While many find purpose in this humble mission, their true calling and interest is in the arts.\n\n They often appear as miniature, athletic humanoids with wisps of elemental energy continually dissipating from their bodies. These elemental energies often reflect their emotions and attuned element. Gennayns are also fond of ostentatious rings, amulets, and armbands.\n\n Gennayns eagerly assist powerful beings who reward and treat them well, but they're just as quick to abandon those they consider boring, stingy, or abusive. Beings who destroy artwork or mistreat artists will earn their eternal wrath.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Gennayn](/Monsters.aspx?ID=2687)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Genie\" url=\"/Traits.aspx?ID=216\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 226\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Muan](/Languages.aspx?ID=108), [Petran](/Languages.aspx?ID=109), [Pyric](/Languages.aspx?ID=110), [Sussuran](/Languages.aspx?ID=111), [Talican](/Languages.aspx?ID=112), [Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Arcana](/Skills.aspx?ID=2) +6, [Diplomacy](/Skills.aspx?ID=6) +8, [Nature](/Skills.aspx?ID=10) +6, [Performance](/Skills.aspx?ID=12) +8, [Society](/Skills.aspx?ID=14) +6, [Stealth](/Skills.aspx?ID=15) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** -2\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +4\r\n</row>\r\n\r\n**Inspiring Influence** A gennayn automatically succeeds with the [Aid](/Actions.aspx?ID=75) action supporting any [Performance](/Skills.aspx?ID=12) or [Diplomacy](/Skills.aspx?ID=6) skill check. Their Aid action automatically counts as a critical success while aiding in the creation of new art or a new performance.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\n\n**Resistances**\r\nattuned element 5 (see below)\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet, fly 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nelemental fist +10 ([Magical](/Traits.aspx?ID=103), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d6 damage (see attuned element)\r\n\r\n**Primal Innate Spells** DC 18, attack +10\r\n- **Cantrips (1st)**\r\nelemental cantrip (see attuned element), [Guidance](/Spells.aspx?ID=142), [Prestidigitation](/Spells.aspx?ID=229), [Summon Instrument](/Spells.aspx?ID=721)\r\n- **1st**\r\n[Purify Food and Drink](/Spells.aspx?ID=241), [Heal](/Spells.aspx?ID=148)\r\n- **2nd**\r\n[Comprehend Language](/Spells.aspx?ID=46) (at will), [Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n\r\n**Attuned Element**   Upon waking each day, a gennayn attunes to one planar element. They gain the corresponding trait, a movement Speed, a cantrip, resistance, and an elemental damage type for their energy fist attack based on their attuned element: **air** fly 30 feet, resist electricity 5, [_electric arc_](/Spells.aspx?ID=97), electricity damage; **earth** burrow 15 feet, resist bludgeoning 5, [_scatter scree_](/Spells.aspx?ID=990), bludgeoning damage; **fire** fly 30 feet, resist fire 5, [_ignition_](/Spells.aspx?ID=236), fire damage; **metal** burrow 15 feet, resist slashing 5, [_needle darts_](/Spells.aspx?ID=1375), slashing damage; **water** swim 20 feet, resist cold 5, [_frostbite_](/Spells.aspx?ID=245), bludgeoning damage; **wood** climb 15 feet, resist piercing 5, [_tangle vine_](/Spells.aspx?ID=330), piercing damage. The attunement lasts until the gennayn attunes to a different element.\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Arcane](/Traits.aspx?ID=11), [Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127)) The gennayn transforms into a Tiny [elemental](/Traits.aspx?ID=57) or [animal](/Traits.aspx?ID=9). This doesn't affect the gennayn's statistics, but it could change the damage type of their Strikes.\r\n\r\n**Little Wish** <actions string=\"Reaction\" /> ([Fortune](/Traits.aspx?ID=76)) **Trigger** A creature the gennayn can see that's within 60 feet attempts a saving throw or skill check; **Frequency** once per day; **Effect** The gennayn reshapes reality in a small way to twist fate, allowing the creature to reroll the saving throw or skill check and take the better result.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Artistic Inspiration</title>\r\n\r\nTalented individuals often claim to have been inspired by otherworldly forces. As gennayns are known to share inspiration and develop talent, many scholars and artists believe their aptitude unknowingly benefited from a gennayn's attention. Others speculate that being in a gennayn's good graces can stave off bouts of artistic ennui—or that angering a gennayn is a direct path to creative doldrums. Gennayns themselves don't claim to be muses, merely beings drawn to talent.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-50\" />",
+ "name": "Gennayn",
+ "npc": false,
+ "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 226",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "resistance_markdown": "attuned element 5 (see below)",
+ "resistance_raw": "attuned element 5 (see below)",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Genie\" url=\"/Traits.aspx?ID=216\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 226\r\n\r\n**Creature Family** [Genie](/MonsterFamilies.aspx?ID=50)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 17\r\n\r\n**Fort** +4\r\n\r\n**Ref** +10\r\n\r\n**Will** +8\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGennayns are minor genies who often serve as emissaries and messengers for greater elemental beings. While many find purpose in this humble mission, …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Arcana",
+  "Diplomacy",
+  "Nature",
+  "Performance",
+  "Society",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Arcana](/Skills.aspx?ID=2) +6, [Diplomacy](/Skills.aspx?ID=6) +8, [Nature](/Skills.aspx?ID=10) +6, [Performance](/Skills.aspx?ID=12) +8, [Society](/Skills.aspx?ID=14) +6, [Stealth](/Skills.aspx?ID=15) +10",
+ "skill_mod": {
+  "acrobatics": 8,
+  "arcana": 6,
+  "diplomacy": 8,
+  "nature": 6,
+  "performance": 8,
+  "society": 6,
+  "stealth": 10
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 226"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 226",
+ "speed": {
+  "fly": 15,
+  "land": 15,
+  "max": 15
+ },
+ "speed_markdown": "15 feet, fly 15 feet",
+ "speed_raw": "15 feet, fly 15 feet",
+ "spell": [
+  "Comprehend Language",
+  "Invisibility",
+  "Purify Food and Drink",
+  "Heal",
+  "Light",
+  "Guidance",
+  "Prestidigitation",
+  "Summon Instrument"
+ ],
+ "spell_markdown": "[Comprehend Language](/Spells.aspx?ID=46), [Guidance](/Spells.aspx?ID=142), [Heal](/Spells.aspx?ID=148), [Invisibility](/Spells.aspx?ID=164), [Light](/Spells.aspx?ID=171), [Prestidigitation](/Spells.aspx?ID=229), [Purify Food and Drink](/Spells.aspx?ID=241), [Summon Instrument](/Spells.aspx?ID=721)",
+ "spell_attack_bonus": [
+  10
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "10",
+ "strike_damage_average": [
+  7
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": -2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Gennayns are minor genies who often serve as emissaries and messengers for greater elemental beings. While many find purpose in this humble mission, …",
+ "summary_markdown": "Gennayns are minor genies who often serve as emissaries and messengers for greater elemental beings. While many find purpose in this humble mission, …",
+ "text": " Gennayn Gennayns are minor genies who often serve as emissaries and messengers for greater elemental beings. While many find purpose in this humble mission, their true calling and interest is in the arts. They often appear as miniature, athletic humanoids with wisps of elemental energy continually dissipating from their bodies. These elemental energies often reflect their emotions and attuned element. Gennayns are also fond of ostentatious rings, amulets, and armbands. Gennayns eagerly assist powerful beings who reward and treat them well, but they're just as quick to abandon those they consider boring, stingy, or abusive. Beings who destroy artwork or mistreat artists will earn their eternal wrath. Recall Knowledge - Elemental (Arcana, Nature): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Gennayn Source Rage of Elements pg. 226 Perception +8; darkvision Languages Common, Muan, Petran, Pyric, Sussuran, Talican, Thalassic Skills Acrobatics +8, Arcana +6, Diplomacy +8, Nature +6, Performance +8, Society +6, Stealth +10 Str -2 Dex +4 Con +0 Int +2 Wis +2 Cha +4 Inspiring Influence A gennayn automatically succeeds with the Aid action supporting any Performance or Diplomacy skill check. Their Aid action automatically counts as a critical success while aiding in the creation of new art or a new performance. --- AC 17 Fort +4 Ref +10 Will +8 HP 30 Resistances attuned element 5 (see below) --- Speed 15 feet, fly 15 feet Melee Single Action elemental fist +10 (Magical, Finesse), Damage 2d6 damage (see attuned element) Primal Innate Spells DC 18, attack +10 - Cantrips (1st) elemental cantrip (see attuned element), Guidance, Prestidigitation, Summon Instrument - 1st Purify Food and Drink, Heal - 2nd Comprehend Language (at will), Invisibility (at will; self only) Attuned Element Upon waking each day, a gennayn attunes to one planar element. They gain the corresponding trait, a movement Speed, a cantrip, resistance, and an elemental damage type for their energy fist attack based on their attuned element: air fly 30 feet, resist electricity 5, electric arc , electricity damage; earth burrow 15 feet, resist bludgeoning 5, scatter scree , bludgeoning damage; fire fly 30 feet, resist fire 5, ignition , fire damage; metal burrow 15 feet, resist slashing 5, needle darts , slashing damage; water swim 20 feet, resist cold 5, frostbite , bludgeoning damage; wood climb 15 feet, resist piercing 5, tangle vine , piercing damage. The attunement lasts until the gennayn attunes to a different element. Change Shape Single Action (Arcane, Concentrate, Polymorph) The gennayn transforms into a Tiny elemental or animal. This doesn't affect the gennayn's statistics, but it could change the damage type of their Strikes. Little Wish Reaction (Fortune) Trigger A creature the gennayn can see that's within 60 feet attempts a saving throw or skill check; Frequency once per day; Effect The gennayn reshapes reality in a small way to twist fate, allowing the creature to reroll the saving throw or skill check and take the better result. Artistic Inspiration Talented individuals often claim to have been inspired by otherworldly forces. As gennayns are known to share inspiration and develop talent, many scholars and artists believe their aptitude unknowingly benefited from a gennayn's attention. Others speculate that being in a gennayn's good graces can stave off bouts of artistic ennui—or that angering a gennayn is a direct path to creative doldrums. Gennayns themselves don't claim to be muses, merely beings drawn to talent. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Elemental",
+  "Genie",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Genie](/Traits.aspx?ID=216)",
+ "trait_raw": [
+  "Elemental",
+  "Genie"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2687",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 8,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

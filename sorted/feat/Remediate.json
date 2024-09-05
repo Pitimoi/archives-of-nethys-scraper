@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,41 +8,51 @@
  ],
  "feat_markdown": "Remediate",
  "frequency": "once per hour",
- "id": "feat-1708",
+ "id": "feat-4696",
+ "legacy_id": "feat-1708",
  "level": 16,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Remediate](/Feats.aspx?ID=1708) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 123 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per hour\r\n\r\n**Prerequisites**\r\n[harmful font or healing font](/Classes.aspx?ID=5)\n\n</column>\r\n\r\n---\r\n\r\nIf your next action is to use your divine font to cast a 3-action [_heal_](/Spells.aspx?ID=148) or [_harm_](/Spells.aspx?ID=146) spell to damage creatures, you can harness the residual energy to counterbalance opposing forces. You use your heal or harm spell to attempt to counteract one effect in the spell's area with the chaotic, evil, good, or lawful trait. The chosen trait must oppose one component of your deity's alignment; if your deity is neutral, you can choose any one trait.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 16\"\r\n    pfs=\"Standard\"\r\n>\r\n[Remediate](/Feats.aspx?ID=4696) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 120\n\n**Frequency**\r\nonce per hour\n\n</column>\r\n\r\n---\r\n\r\nIf your next action is to use your divine font to cast a 3-action heal or harm spell, you can harness the residual energy to counterbalance opposing forces. In addition to its normal effects, you use your heal or harm spell to attempt to counteract one divine effect in the spell’s area.",
  "name": "Remediate",
  "pfs": "Standard",
- "prerequisite": "harmful font or healing font",
- "prerequisite_markdown": "[harmful font or healing font](/Classes.aspx?ID=5)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 120",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 123 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per hour\r\n\r\n**Prerequisites**\r\n[harmful font or healing font](/Classes.aspx?ID=5)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf your next action is to use your divine font to cast a 3-action _heal_ or _harm_ spell to damage creatures, you can harness the residual energy to counterbalance opposing forces.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 120\r\n\r\n**Frequency**\r\nonce per hour\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf your next action is to use your divine font to cast a 3-action heal or harm spell, you can harness the residual energy to counterbalance opposing forces.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 123"
+  "Player Core pg. 120"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 123 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 120",
  "speed": {},
- "summary": "If your next action is to use your divine font to cast a 3-action  heal  or  harm  spell to damage creatures, you can harness the residual energy to counterbalance opposing forces.",
- "summary_markdown": "If your next action is to use your divine font to cast a 3-action _heal_ or _harm_ spell to damage creatures, you can harness the residual energy to counterbalance opposing forces.",
- "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Remediate Free Action Source Advanced Player's Guide pg. 123 2.0 Frequency once per hour Prerequisites harmful font or healing font --- If your next action is to use your divine font to cast a 3-action heal or harm spell to damage creatures, you can harness the residual energy to counterbalance opposing forces. You use your heal or harm spell to attempt to counteract one effect in the spell's area with the chaotic, evil, good, or lawful trait. The chosen trait must oppose one component of your deity's alignment; if your deity is neutral, you can choose any one trait.",
+ "summary": "If your next action is to use your divine font to cast a 3-action heal or harm spell, you can harness the residual energy to counterbalance opposing forces.",
+ "summary_markdown": "If your next action is to use your divine font to cast a 3-action heal or harm spell, you can harness the residual energy to counterbalance opposing forces.",
+ "text": "<title level=\"1\" right=\"Feat 16\" pfs=\"Standard\" > Remediate Free Action Source Player Core pg. 120 Frequency once per hour --- If your next action is to use your divine font to cast a 3-action heal or harm spell, you can harness the residual energy to counterbalance opposing forces. In addition to its normal effects, you use your heal or harm spell to attempt to counteract one divine effect in the spell’s area.",
  "trait": [
   "Cleric",
   "Concentrate",
+  "Spellshape",
   "Metamagic"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Spellshape](/Traits.aspx?ID=513)",
  "trait_raw": [
   "Cleric",
   "Concentrate",
-  "Metamagic"
+  "Spellshape"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1708",
+ "url": "/Feats.aspx?ID=4696",
  "weakness": {}
 }

@@ -1,0 +1,198 @@
+{
+ "ac": 24,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  17,
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Nesting",
+  "Parental Wrath",
+  "Constrict",
+  "Floodwaters",
+  "Storm Veil"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 135,
+ "hp_raw": "135",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2772",
+ "immunity": [
+  "paralyzed",
+  "sleep"
+ ],
+ "immunity_markdown": "paralyzed, sleep",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Draconic",
+  "Tien"
+ ],
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Tien](/Languages.aspx?ID=43)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Imugi](/Monsters.aspx?ID=2772)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nImugi (ee-moo-ghee) are dragon-like serpents with great mystic potential, including that of ascension into another form. While some imperial dragons are born to their birthright, many that currently roam Tian Xia are ascended imugi—though they would strike down anyone who claimed such.\n\n To become an imperial dragon, imugi must care for a koi egg for a thousand years. The power from the nurtured egg hatching is enough to power a draconic ascension ritual, and whatever power lingers transforms the koi into an imugi to continue the cycle. The kind of imperial dragon that the imugi becomes depends on where it chooses to nurture the koi egg. Imugi strongly prefer long-finned koi, and Tian koi farmers have learned to keep a separate pool of these butterfly koi away from the others they tend, as imugi tend to displace quite a bit of water— and koi—when swooping down to snatch an egg they want.\n\n Though imugi have some power over rain and storms, most aren't powerful enough to exact a true sense of weather control. Many are known for their benevolence, and some villages even rely on imugi's forays out of streams or lakes, bringing rains during the growing season. Imugi have as wide a range of temperaments as the dragons they become, and some are notorious for how their impatience twists into a foul temper or an arrogance that flicks people aside as if they were bugs. While some might consider mean-spirited imugi corrupted and claim they can be purified somehow, imugi simply hold themselves higher than the average creature and see no reason to conceal their true nature from someone they see as beneath them.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2)): DC 25\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 23\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 20\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Imugi](/Monsters.aspx?ID=2772)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 287\n\n**Perception** +13; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) (imprecise) 60 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Tien](/Languages.aspx?ID=43)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Athletics](/Skills.aspx?ID=3) +17, [Intimidation](/Skills.aspx?ID=7) +15, [Stealth](/Skills.aspx?ID=15) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +4\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Nesting** By coiling around a butterfly koi egg for 1 minute, the imugi designates it as their chosen heir, which grants the imugi the effects of a constant status spell on that egg. If the egg is destroyed or otherwise made nonviable, the imugi can choose a new koi egg with this ability after 1 week.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\n\n</row>\r\n\r\n**Immunities**\r\nparalyzed, sleep\n\n**Weaknesses**\r\npoison 5\r\n\r\n**Parental Wrath** <actions string=\"Reaction\" /> **Trigger** A creature damages the imugi's chosen koi egg or ends its turn within 40 feet of the egg **Effect** The imugi Strides or Swims toward the triggering creature. If they end their movement within reach of the creature, they can attempt a melee Strike against it.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, swim 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +17 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+8 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +17 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+8 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +17 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d4+8 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Primal Innate Spells** DC 25\r\n- **Cantrips (4th)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **4th**\r\n[Fly](/Spells.aspx?ID=125), [Water Breathing](/Spells.aspx?ID=370)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=57)** <actions string=\"Single Action\" />  2d8+4 bludgeoning, DC 25\r\n\r\n**Floodwaters** <actions string=\"Two Actions\" /> ([[primal](/Traits.aspx?ID=676)](/Traits.aspx?ID=134), [[water](/Traits.aspx?ID=732)](/Traits.aspx?ID=165)) Waters rush forth in a 60-foot line, dealing 4d6 bludgeoning damage (DC 25 basic Reflex save). Creatures that fail the save and aren't grabbed by the imugi are pushed 10 feet away.\r\n\r\n**Storm Veil**   The imugi twists any nearby precipitation into a swirling veil of sleet and wind. They gain concealment when in any form of mist or rain.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Imperial Ascension</title>\r\n\r\nThe ritual an imugi undergoes to become a true dragon releases a burst of overwhelming magic. Characters exposed to this burst might find their minds filled with lost techniques or abilities that the imugi has encountered over its long life, allowing them to gain access to uncommon or rare character options, suddenly understand formulas to craft items, or immediately retrain along a new path.\r\n</aside>",
+ "name": "Imugi",
+ "npc": false,
+ "perception": 13,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 287",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 19,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-04-24",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 287\n\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 24\r\n\r\n**Fort** +12\r\n\r\n**Ref** +19\r\n\r\n**Will** +14\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nImugi (ee-moo-ghee) are dragon-like serpents with great mystic potential, including that of ascension into another form. While some imperial dragons …\r\n</summary>",
+ "sense": " darkvision ,  scent  (imprecise) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) (imprecise) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +15, [Athletics](/Skills.aspx?ID=3) +17, [Intimidation](/Skills.aspx?ID=7) +15, [Stealth](/Skills.aspx?ID=15) +15",
+ "skill_mod": {
+  "acrobatics": 15,
+  "athletics": 17,
+  "intimidation": 15,
+  "stealth": 15
+ },
+ "source": [
+  "Tian Xia World Guide"
+ ],
+ "source_raw": [
+  "Tian Xia World Guide pg. 287"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 287",
+ "speed": {
+  "land": 40,
+  "max": 60,
+  "swim": 60
+ },
+ "speed_markdown": "40 feet, swim 60 feet",
+ "speed_raw": "40 feet, swim 60 feet",
+ "spell": [
+  "Fly",
+  "Water Breathing",
+  "Detect Magic"
+ ],
+ "spell_markdown": "[Detect Magic](/Spells.aspx?ID=66), [Fly](/Spells.aspx?ID=125), [Water Breathing](/Spells.aspx?ID=370)",
+ "spell_dc": [
+  25
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "15",
+ "strike_damage_average": [
+  13,
+  15,
+  19
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Imugi (ee-moo-ghee) are dragon-like serpents with great mystic potential, including that of ascension into another form. While some imperial dragons …",
+ "summary_markdown": "Imugi (ee-moo-ghee) are dragon-like serpents with great mystic potential, including that of ascension into another form. While some imperial dragons …",
+ "text": " Imugi Imugi (ee-moo-ghee) are dragon-like serpents with great mystic potential, including that of ascension into another form. While some imperial dragons are born to their birthright, many that currently roam Tian Xia are ascended imugi—though they would strike down anyone who claimed such. To become an imperial dragon, imugi must care for a koi egg for a thousand years. The power from the nurtured egg hatching is enough to power a draconic ascension ritual, and whatever power lingers transforms the koi into an imugi to continue the cycle. The kind of imperial dragon that the imugi becomes depends on where it chooses to nurture the koi egg. Imugi strongly prefer long-finned koi, and Tian koi farmers have learned to keep a separate pool of these butterfly koi away from the others they tend, as imugi tend to displace quite a bit of water— and koi—when swooping down to snatch an egg they want. Though imugi have some power over rain and storms, most aren't powerful enough to exact a true sense of weather control. Many are known for their benevolence, and some villages even rely on imugi's forays out of streams or lakes, bringing rains during the growing season. Imugi have as wide a range of temperaments as the dragons they become, and some are notorious for how their impatience twists into a foul temper or an arrogance that flicks people aside as if they were bugs. While some might consider mean-spirited imugi corrupted and claim they can be purified somehow, imugi simply hold themselves higher than the average creature and see no reason to conceal their true nature from someone they see as beneath them. Recall Knowledge - Dragon (Arcana): DC 25 Unspecific Lore : DC 23 Specific Lore : DC 20 Imugi Source Tian Xia World Guide pg. 287 Perception +13; darkvision, scent (imprecise) 60 feet Languages Draconic, Tien Skills Acrobatics +15, Athletics +17, Intimidation +15, Stealth +15 Str +6 Dex +4 Con +4 Int +2 Wis +1 Cha +2 Nesting By coiling around a butterfly koi egg for 1 minute, the imugi designates it as their chosen heir, which grants the imugi the effects of a constant status spell on that egg. If the egg is destroyed or otherwise made nonviable, the imugi can choose a new koi egg with this ability after 1 week. --- AC 24 Fort +12 Ref +19 Will +14 HP 135 Immunities paralyzed, sleep Weaknesses poison 5 Parental Wrath Reaction Trigger A creature damages the imugi's chosen koi egg or ends its turn within 40 feet of the egg Effect The imugi Strides or Swims toward the triggering creature. If they end their movement within reach of the creature, they can attempt a melee Strike against it. --- Speed 40 feet, swim 60 feet Melee Single Action jaws +17 (reach 10 feet), Damage 2d10+8 piercing Melee Single Action claws +17 (Agile), Damage 2d6+8 slashing Melee Single Action tail +17 (reach 15 feet), Damage 2d4+8 bludgeoning plus Grab Primal Innate Spells DC 25 - Cantrips (4th) Detect Magic - 4th Fly, Water Breathing Constrict Single Action 2d8+4 bludgeoning, DC 25 Floodwaters Two Actions ([primal](/Traits.aspx?ID=134), [water](/Traits.aspx?ID=165)) Waters rush forth in a 60-foot line, dealing 4d6 bludgeoning damage (DC 25 basic Reflex save). Creatures that fail the save and aren't grabbed by the imugi are pushed 10 feet away. Storm Veil The imugi twists any nearby precipitation into a swirling veil of sleet and wind. They gain concealment when in any form of mist or rain. Imperial Ascension The ritual an imugi undergoes to become a true dragon releases a burst of overwhelming magic. Characters exposed to this burst might find their minds filled with lost techniques or abilities that the imugi has encountered over its long life, allowing them to gain access to uncommon or rare character options, suddenly understand formulas to craft items, or immediately retrain along a new path. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Amphibious",
+  "Dragon",
+  "Uncommon",
+  "Water",
+  "Large"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Rarity",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=207), [Dragon](/Traits.aspx?ID=50), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Amphibious",
+  "Dragon",
+  "Uncommon",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2772",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "poison": 5
+ },
+ "weakness_markdown": "poison 5",
+ "weakness_raw": "poison 5",
+ "will_save": 14,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

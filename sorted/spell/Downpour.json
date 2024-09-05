@@ -1,23 +1,36 @@
 {
  "actions": "Two Actions",
- "area": "30-foot burst",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  30
  ],
- "deity_markdown": "",
+ "area_raw": "30-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain": [
   "Water"
  ],
- "domain_markdown": "[Water](/Domains.aspx?ID=35)",
+ "domain_markdown": "[Water](/Domains.aspx?ID=98)",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -28,48 +41,64 @@
   9,
   10
  ],
- "id": "spell-417",
+ "id": "spell-1849",
+ "legacy_id": "spell-417",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Downpour](/Spells.aspx?ID=417)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>\n\n**Domain**\r\n[Water](/Domains.aspx?ID=35)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 30-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call forth a torrential downpour, which extinguishes nonmagical flames. Creatures in the area are [concealed](/Conditions.aspx?ID=4) and gain fire resistance 10. Creatures outside the area are concealed to those inside the area. Creatures with weakness to water that end their turns in the area take damage equal to their weakness.\n\n---\r\n**Heightened (+1)** The fire resistance increases by 2.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Downpour](/Spells.aspx?ID=1849)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n**Domain**\r\n[Water](/Domains.aspx?ID=98)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 30-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou call forth a torrential downpour, which extinguishes non-magical flames. Creatures in the area are [concealed](/Conditions.aspx?ID=4) and gain fire resistance 10. Creatures outside the area are concealed to those inside the area. If a creature with weakness to water ends its turn in the area, the downpour triggers its weakness.\n\n---\r\n**Heightened (+1)** The fire resistance increases by 2.",
  "name": "Downpour",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 381",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>\n\n**Domain**\r\n[Water](/Domains.aspx?ID=35)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 30-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call forth a torrential downpour, which extinguishes non-magical flames.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n**Domain**\r\n[Water](/Domains.aspx?ID=98)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 30-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call forth a torrential downpour, which extinguishes non-magical flames.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 391"
+  "Player Core pg. 381"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 391 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 381",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You call forth a torrential downpour, which extinguishes non-magical flames.",
  "summary_markdown": "You call forth a torrential downpour, which extinguishes non-magical flames.",
- "text": " Downpour Source Core Rulebook pg. 391 4.0 Domain Water Cast Two Actions somatic, verbal Range 120 feet Area 30-foot burst Duration 1 minute --- You call forth a torrential downpour, which extinguishes nonmagical flames. Creatures in the area are concealed and gain fire resistance 10. Creatures outside the area are concealed to those inside the area. Creatures with weakness to water that end their turns in the area take damage equal to their weakness. --- Heightened (+1) The fire resistance increases by 2.",
+ "text": "\nDownpour Two Actions Source Player Core pg. 381 Domain Water Range 120 feet Area 30-foot burst Duration 1 minute --- You call forth a torrential downpour, which extinguishes non-magical flames. Creatures in the area are concealed and gain fire resistance 10. Creatures outside the area are concealed to those inside the area. If a creature with weakness to water ends its turn in the area, the downpour triggers its weakness. --- Heightened (+1) The fire resistance increases by 2.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Evocation",
+  "Concentrate",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Water"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [
   "Cleric",
-  "Evocation",
+  "Concentrate",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Water"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=417",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1849",
  "weakness": {}
 }

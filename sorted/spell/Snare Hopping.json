@@ -1,17 +1,28 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,48 +38,60 @@
  ],
  "id": "spell-776",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Snare Hopping](/Spells.aspx?ID=776)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 235 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 10 feet\n\n**Target** one snare you built\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou may not have placed your snare in the right place, but you can magically move it there. You teleport the target snare to another unoccupied location in range.\n\n---\r\n**Heightened (+1)** The range of the spell increases by 10 feet.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Snare Hopping](/Spells.aspx?ID=776)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 235 <sup>2.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 10 feet\n\n**Target** one snare you built\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou may not have placed your snare in the right place, but you can magically move it there. You teleport the target snare to another unoccupied location in range.\n\n---\r\n**Heightened (+1)** The range of the spell increases by 10 feet.",
  "name": "Snare Hopping",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 235",
+ "primary_source_category": "Rulebooks",
  "range": 10,
  "range_raw": "10 feet",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-07-30",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 235 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 10 feet\r\n\r\n \r\n\r\n**Target** one snare you built\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou may not have placed your snare in the right place, but you can magically move it there.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Ranger\" url=\"/Traits.aspx?ID=136\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 235 <sup>2.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 10 feet\r\n\r\n \r\n\r\n**Target** one snare you built\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou may not have placed your snare in the right place, but you can magically move it there.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 235"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 235 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 235 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You may not have placed your snare in the right place, but you can magically move it there.",
  "summary_markdown": "You may not have placed your snare in the right place, but you can magically move it there.",
  "target": "one snare you built",
  "target_markdown": "one snare you built",
- "text": " Snare Hopping Source Advanced Player's Guide pg. 235 2.0 Cast Two Actions somatic, verbal Range 10 feet Target one snare you built --- You may not have placed your snare in the right place, but you can magically move it there. You teleport the target snare to another unoccupied location in range. --- Heightened (+1) The range of the spell increases by 10 feet.",
+ "text": "\nSnare Hopping Two Actions Source Advanced Player's Guide pg. 235 2.0 Cast somatic, verbal Range 10 feet Target one snare you built --- You may not have placed your snare in the right place, but you can magically move it there. You teleport the target snare to another unoccupied location in range. --- Heightened (+1) The range of the spell increases by 10 feet.",
  "tradition_markdown": "",
  "trait": [
   "Conjuration",
   "Ranger",
   "Teleportation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Ranger](/Traits.aspx?ID=136), [Teleportation](/Traits.aspx?ID=156), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Ranger](/Traits.aspx?ID=136), [Teleportation](/Traits.aspx?ID=156), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Conjuration",
   "Ranger",
   "Teleportation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=776",
  "weakness": {}
 }

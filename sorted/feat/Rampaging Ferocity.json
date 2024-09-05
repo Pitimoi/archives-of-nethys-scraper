@@ -1,45 +1,59 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Rampaging Ferocity"
  ],
  "feat_markdown": "Rampaging Ferocity",
- "id": "feat-1294",
+ "id": "feat-4529",
+ "legacy_id": "feat-1294",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Rampaging Ferocity](/Feats.aspx?ID=1294) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 19 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Orc Ferocity](/Feats.aspx?ID=83)\n\n**Trigger**\r\nYou use [Orc Ferocity](/Feats.aspx?ID=83)\n\n</column>\r\n\r\n---\r\n\r\nYou lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn't count against its frequency.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Rampaging Ferocity](/Feats.aspx?ID=4529) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 73\n\n**Prerequisites**\r\n[Orc Ferocity](/Feats.aspx?ID=4514)\n\n**Trigger**\r\nYou use Orc Ferocity\n\n</column>\r\n\r\n---\r\n\r\nYou lash out viciously even as you fend off death. Make a single melee [Strike](/Actions.aspx?ID=89). If this Strike brings a foe to 0 Hit Points, this activation of [Orc Ferocity](/Feats.aspx?ID=83) doesn’t count against its frequency",
  "name": "Rampaging Ferocity",
  "pfs": "Standard",
  "prerequisite": "Orc Ferocity",
- "prerequisite_markdown": "[Orc Ferocity](/Feats.aspx?ID=83)",
+ "prerequisite_markdown": "[Orc Ferocity](/Feats.aspx?ID=4514)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 73",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 19 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[Orc Ferocity](/Feats.aspx?ID=83)\n\n**Trigger**\r\nYou use [Orc Ferocity](/Feats.aspx?ID=83)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou lash out viciously even as you fend off death.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Orc\" url=\"/Traits.aspx?ID=124\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 73\n\n**Prerequisites**\r\n[Orc Ferocity](/Feats.aspx?ID=4514)\n\n**Trigger**\r\nYou use Orc Ferocity\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou lash out viciously even as you fend off death.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 19"
+  "Player Core pg. 73"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 19 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 73",
  "speed": {},
  "summary": "You lash out viciously even as you fend off death.",
  "summary_markdown": "You lash out viciously even as you fend off death.",
- "text": "<title level=\"1\" right=\"Feat 17\" pfs=\"Standard\" > Rampaging Ferocity Free Action Source Advanced Player's Guide pg. 19 2.0 Prerequisites Orc Ferocity Trigger You use Orc Ferocity --- You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn't count against its frequency.",
+ "text": "<title level=\"1\" right=\"Feat 17\" pfs=\"Standard\" > Rampaging Ferocity Free Action Source Player Core pg. 73 Prerequisites Orc Ferocity Trigger You use Orc Ferocity --- You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn’t count against its frequency",
  "trait": [
   "Orc"
+ ],
+ "trait_group": [
+  "Half-Orc",
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Orc](/Traits.aspx?ID=124)",
  "trait_raw": [
   "Orc"
  ],
- "trigger": "You use  Orc Ferocity ",
- "trigger_markdown": "You use [Orc Ferocity](/Feats.aspx?ID=83)",
+ "trigger": "You use Orc Ferocity",
+ "trigger_markdown": "You use Orc Ferocity",
  "type": "Feat",
- "url": "/Feats.aspx?ID=1294",
+ "url": "/Feats.aspx?ID=4529",
  "weakness": {}
 }

@@ -1,48 +1,59 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Viking"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Reactive Shield"
  ],
  "feat_markdown": "Reactive Shield",
- "id": "feat-360",
+ "id": "feat-4772",
+ "legacy_id": "feat-360",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Reactive Shield](/Feats.aspx?ID=360) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 145 <sup>4.0</sup></row>\n\n**Archetype** [Viking](/Archetypes.aspx?ID=81) (Level 4)\n\n**Trigger**\r\nAn enemy hits you with a melee Strike.\r\n\r\n**Requirements**\r\nYou are wielding a shield.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the [Raise a Shield](/Actions.aspx?ID=98) action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Reactive Shield](/Feats.aspx?ID=4772) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 140\n\n**Archetype** [Viking](/Archetypes.aspx?ID=81) (Level 4)\n\n**Trigger**\r\nAn enemy hits you with a melee Strike\r\n\r\n**Requirements**\r\nYou are wielding a shield\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield’s bonus to AC. The circumstance bonus from the shield applies to your AC when you’re determining the outcome of the triggering attack.",
  "name": "Reactive Shield",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 140",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
- "requirement": "You are wielding a shield.",
- "requirement_markdown": "You are wielding a shield.",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are wielding a shield",
+ "requirement_markdown": "You are wielding a shield",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 145 <sup>4.0</sup></row>\n\n**Trigger**\r\nAn enemy hits you with a melee Strike.\r\n\r\n**Requirements**\r\nYou are wielding a shield.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can snap your shield into place just as you would take a blow, avoiding the hit at the last second.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=601\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 140\n\n**Trigger**\r\nAn enemy hits you with a melee Strike\r\n\r\n**Requirements**\r\nYou are wielding a shield\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can snap your shield into place just as you would take a blow, avoiding the hit at the last second.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 145"
+  "Player Core pg. 140"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 145 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 140",
  "speed": {},
  "summary": "You can snap your shield into place just as you would take a blow, avoiding the hit at the last second.",
  "summary_markdown": "You can snap your shield into place just as you would take a blow, avoiding the hit at the last second.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Reactive Shield Reaction Source Core Rulebook pg. 145 4.0 Archetype Viking (Level 4) Trigger An enemy hits you with a melee Strike. Requirements You are wielding a shield. --- You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Reactive Shield Reaction Source Player Core pg. 140 Archetype Viking (Level 4) Trigger An enemy hits you with a melee Strike Requirements You are wielding a shield --- You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield’s bonus to AC. The circumstance bonus from the shield applies to your AC when you’re determining the outcome of the triggering attack.",
  "trait": [
   "Fighter"
  ],
- "trait_markdown": "[Fighter](/Traits.aspx?ID=71)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Fighter](/Traits.aspx?ID=601)",
  "trait_raw": [
   "Fighter"
  ],
- "trigger": "An enemy hits you with a melee Strike.",
- "trigger_markdown": "An enemy hits you with a melee Strike.",
+ "trigger": "An enemy hits you with a melee Strike",
+ "trigger_markdown": "An enemy hits you with a melee Strike",
  "type": "Feat",
- "url": "/Feats.aspx?ID=360",
+ "url": "/Feats.aspx?ID=4772",
  "weakness": {}
 }

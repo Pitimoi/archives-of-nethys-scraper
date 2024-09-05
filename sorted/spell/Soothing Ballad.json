@@ -1,17 +1,18 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   7,
@@ -19,56 +20,70 @@
   9,
   10
  ],
- "id": "spell-391",
+ "id": "spell-1776",
+ "legacy_id": "spell-391",
  "level": 7,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 7\" pfs=\"Standard\">[Soothing Ballad](/Spells.aspx?ID=391)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 387 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** you and up to 9 allies\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou draw upon your muse to soothe your allies. Choose one of the following three effects: \n<ul><li>The spell attempts to counteract fear effects on the targets. </li><li>The spell attempts to counteract effects imposing paralysis on the targets. </li><li>The spell restores 7d8 Hit Points to the targets.</li></ul>\n\n---\r\n**Heightened (+1)** When used to heal, _soothing ballad_ restores 1d8 more Hit Points.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 7\" pfs=\"Standard\">\r\n[Soothing Ballad](/Spells.aspx?ID=1776)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 371\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** you and up to 9 allies\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou draw upon your muse to soothe your allies. Choose one of the following three effects: \n<ul><li>The spell attempts to [counteract](/Rules.aspx?ID=2250) [fear](/Traits.aspx?ID=68) effects on the targets.</li><li>The spell attempts to counteract effects imposing [paralysis](/Conditions.aspx?ID=28) on the targets.</li><li>The spell restores 7d8 Hit Points to the targets.</li></ul>\n\n---\r\n**Heightened (+1)** When used to heal, _soothing ballad_ restores 1d8 more Hit Points.",
  "name": "Soothing Ballad",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 371",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 387 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** you and up to 9 allies\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou draw upon your muse to soothe your allies.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n<trait label=\"Composition\" url=\"/Traits.aspx?ID=31\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 371\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** you and up to 9 allies\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou draw upon your muse to soothe your allies.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 387"
+  "Player Core pg. 371"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 387 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 371",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You draw upon your muse to soothe your allies.",
  "summary_markdown": "You draw upon your muse to soothe your allies.",
  "target": "you and up to 9 allies",
  "target_markdown": "you and up to 9 allies",
- "text": " Soothing Ballad Source Core Rulebook pg. 387 4.0 Cast Two Actions somatic, verbal Range 30 feet Target you and up to 9 allies --- You draw upon your muse to soothe your allies. Choose one of the following three effects: The spell attempts to counteract fear effects on the targets. The spell attempts to counteract effects imposing paralysis on the targets. The spell restores 7d8 Hit Points to the targets. --- Heightened (+1) When used to heal, soothing ballad restores 1d8 more Hit Points.",
+ "text": "\nSoothing Ballad Two Actions Source Player Core pg. 371 Range 30 feet Target you and up to 9 allies --- You draw upon your muse to soothe your allies. Choose one of the following three effects: The spell attempts to counteract fear effects on the targets. The spell attempts to counteract effects imposing paralysis on the targets. The spell restores 7d8 Hit Points to the targets. --- Heightened (+1) When used to heal, soothing ballad restores 1d8 more Hit Points.",
  "tradition_markdown": "",
  "trait": [
   "Bard",
   "Composition",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
+  "Focus",
   "Healing",
+  "Manipulate",
   "Mental",
   "Uncommon"
  ],
- "trait_markdown": "[Bard](/Traits.aspx?ID=19), [Composition](/Traits.aspx?ID=31), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Healing](/Traits.aspx?ID=89), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Class-Specific",
+  "Rarity"
+ ],
+ "trait_markdown": "[Bard](/Traits.aspx?ID=546), [Composition](/Traits.aspx?ID=31), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Focus](/Traits.aspx?ID=511), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Bard",
   "Composition",
+  "Concentrate",
   "Emotion",
-  "Enchantment",
+  "Focus",
   "Healing",
+  "Manipulate",
   "Mental",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=391",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1776",
  "weakness": {}
 }

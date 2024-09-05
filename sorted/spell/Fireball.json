@@ -1,17 +1,15 @@
 {
  "actions": "Two Actions",
- "area": "20-foot burst",
- "bloodline": [
-  "Elemental",
-  "Phoenix"
+ "actions_number": 4,
+ "area": [
+  20
  ],
- "bloodline_markdown": "[Elemental](/Bloodlines.aspx?ID=6), [Phoenix](/Bloodlines.aspx?ID=15)",
- "breadcrumbs_spa": [],
+ "area_raw": "20-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Angradd",
   "Chohar",
@@ -20,14 +18,26 @@
   "Sarenrae",
   "The Freeing Flame",
   "The Prismatic Ray",
-  "Walkena",
   "Walkena"
  ],
- "deity_markdown": "[Angradd](/Deities.aspx?ID=84), [Chohar](/Deities.aspx?ID=215), [Dahak](/Deities.aspx?ID=150), [Eiseth](/Deities.aspx?ID=169), [Sarenrae](/Deities.aspx?ID=16), [The Freeing Flame](/Deities.aspx?ID=231), [The Prismatic Ray](/Deities.aspx?ID=207), [Walkena](/Deities.aspx?ID=159), [Walkena](/Deities.aspx?ID=159)",
+ "deity_markdown": "[Angradd](/Deities.aspx?ID=84), [Chohar](/Deities.aspx?ID=215), [Dahak](/Deities.aspx?ID=150), [Eiseth](/Deities.aspx?ID=169), [Sarenrae](/Deities.aspx?ID=292), [The Freeing Flame](/Deities.aspx?ID=231), [The Prismatic Ray](/Deities.aspx?ID=207), [Walkena](/Deities.aspx?ID=159)",
  "domain_markdown": "",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -39,51 +49,63 @@
   9,
   10
  ],
- "id": "spell-119",
+ "id": "spell-1530",
+ "legacy_id": "spell-119",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">[Fireball](/Spells.aspx?ID=119)</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 338 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodlines**\r\n[Elemental](/Bloodlines.aspx?ID=6), [Phoenix](/Bloodlines.aspx?ID=15)\r\n\r\n**Deities**\r\n[Angradd](/Deities.aspx?ID=84), [Chohar](/Deities.aspx?ID=215), [Dahak](/Deities.aspx?ID=150), [Eiseth](/Deities.aspx?ID=169), [Sarenrae](/Deities.aspx?ID=16), [The Freeing Flame](/Deities.aspx?ID=231), [The Prismatic Ray](/Deities.aspx?ID=207), [Walkena](/Deities.aspx?ID=159), [Walkena](/Deities.aspx?ID=159)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA roaring blast of fire appears at a spot you designate, dealing 6d6 fire damage.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 3\" pfs=\"Standard\">\r\n[Fireball](/Spells.aspx?ID=1530)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 331\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Angradd](/Deities.aspx?ID=84), [Chohar](/Deities.aspx?ID=215), [Dahak](/Deities.aspx?ID=150), [Eiseth](/Deities.aspx?ID=169), [Sarenrae](/Deities.aspx?ID=292), [The Freeing Flame](/Deities.aspx?ID=231), [The Prismatic Ray](/Deities.aspx?ID=207), [Walkena](/Deities.aspx?ID=159)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA roaring blast of fire detonates at a spot you designate, dealing 6d6 fire damage.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
  "name": "Fireball",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 331",
+ "primary_source_category": "Rulebooks",
  "range": 500,
  "range_raw": "500 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "basic  Reflex",
  "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Reflex",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 338 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodlines**\r\n[Elemental](/Bloodlines.aspx?ID=6), [Phoenix](/Bloodlines.aspx?ID=15)\r\n\r\n**Deities**\r\n[Angradd](/Deities.aspx?ID=84), [Chohar](/Deities.aspx?ID=215), [Dahak](/Deities.aspx?ID=150), [Eiseth](/Deities.aspx?ID=169), [Sarenrae](/Deities.aspx?ID=16), [The Freeing Flame](/Deities.aspx?ID=231), [The Prismatic Ray](/Deities.aspx?ID=207), [Walkena](/Deities.aspx?ID=159), [Walkena](/Deities.aspx?ID=159)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn explosion of fire in an area burns creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 331\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\r\n[Angradd](/Deities.aspx?ID=84), [Chohar](/Deities.aspx?ID=215), [Dahak](/Deities.aspx?ID=150), [Eiseth](/Deities.aspx?ID=169), [Sarenrae](/Deities.aspx?ID=292), [The Freeing Flame](/Deities.aspx?ID=231), [The Prismatic Ray](/Deities.aspx?ID=207), [Walkena](/Deities.aspx?ID=159)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn explosion of fire in an area burns creatures.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 338"
+  "Player Core pg. 331"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 338 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 331",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "An explosion of fire in an area burns creatures.",
  "summary_markdown": "An explosion of fire in an area burns creatures.",
- "text": " Fireball Source Core Rulebook pg. 338 4.0 Traditions Arcane, Primal Spell Lists Elemental Bloodlines Elemental, Phoenix Deities Angradd, Chohar, Dahak, Eiseth, Sarenrae, The Freeing Flame, The Prismatic Ray, Walkena, Walkena Cast Two Actions somatic, verbal Range 500 feet Area 20-foot burst Saving Throw basic Reflex --- A roaring blast of fire appears at a spot you designate, dealing 6d6 fire damage. --- Heightened (+1) The damage increases by 2d6.",
+ "text": "\nFireball Two Actions Source Player Core pg. 331 Traditions Arcane, Primal Deities Angradd, Chohar, Dahak, Eiseth, Sarenrae, The Freeing Flame, The Prismatic Ray, Walkena Range 500 feet Area 20-foot burst Defense basic Reflex --- A roaring blast of fire detonates at a spot you designate, dealing 6d6 fire damage. --- Heightened (+1) The damage increases by 2d6.",
  "tradition": [
   "Arcane",
-  "Primal",
-  "Elemental"
+  "Primal"
  ],
- "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
-  "Evocation",
-  "Fire"
+  "Concentrate",
+  "Fire",
+  "Manipulate"
  ],
- "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72)",
+ "trait_group": [
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Fire](/Traits.aspx?ID=72), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Evocation",
-  "Fire"
+  "Concentrate",
+  "Fire",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=119",
+ "url": "/Spells.aspx?ID=1530",
  "weakness": {}
 }

@@ -1,18 +1,24 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -24,55 +30,70 @@
   9,
   10
  ],
- "id": "spell-803",
+ "id": "spell-1883",
+ "legacy_id": "spell-803",
  "level": 3,
  "lesson": [
   "Lesson of Snow"
  ],
- "lesson_markdown": "[Lesson of Snow](/Lessons.aspx?ID=8)",
- "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">[Personal Blizzard](/Spells.aspx?ID=803)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of Snow](/Lessons.aspx?ID=8)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou summon an isolated blizzard of obscuring, scouring ice to follow your target. The target attempts a Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes 1d6 cold damage, and the spell ends.<br />\r\n**Failure** The target takes 1d6 cold damage and 1d6 [persistent cold damage](/Conditions.aspx?ID=29). (The persistent damage automatically ends when the spell ends.) It is [concealed](/Conditions.aspx?ID=4) to other creatures, and other creatures are concealed to it.<br />\r\n**Critical Failure** As failure, but both the cold damage and the persistent cold damage increase to 2d6.\n\n---\r\n**Heightened (+1)** The cold damage and persistent cold damage increase by 1 (2 on a critical failure).",
- "mystery_markdown": "",
+ "lesson_markdown": "[Lesson of Snow](/Lessons.aspx?ID=23)",
+ "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">\r\n[Personal Blizzard](/Spells.aspx?ID=1883)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of Snow](/Lessons.aspx?ID=23)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour patron's breath becomes a blizzard of obscuring, scouring ice that follows your target. The target attempts a Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes 1d6 cold damage, and the spell ends.<br />\r\n**Failure** The target takes 1d6 cold damage and 1d6 [persistent cold damage](/Conditions.aspx?ID=29). The persistent damage automatically ends when the spell ends. It is [concealed](/Conditions.aspx?ID=4) to other creatures, and other creatures are concealed to it.<br />\r\n**Critical Failure** As failure, but both the cold damage and the persistent cold damage are 2d6.\n\n---\r\n**Heightened (+1)** The cold damage and persistent cold damage increase by 1 (2 on a critical failure).",
  "name": "Personal Blizzard",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 385",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>\n\n**Lesson**\r\n[Lesson of Snow](/Lessons.aspx?ID=8)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou summon an isolated blizzard of obscuring, scouring ice to follow your target.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\r\n[Lesson of Snow](/Lessons.aspx?ID=23)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nFortitude\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour patron's breath becomes a blizzard of obscuring, scouring ice that follows your target.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 239"
+  "Player Core pg. 385"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 239 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 385",
  "speed": {},
- "summary": "You summon an isolated blizzard of obscuring, scouring ice to follow your target.",
- "summary_markdown": "You summon an isolated blizzard of obscuring, scouring ice to follow your target.",
+ "spell_type": "Focus",
+ "summary": "Your patron's breath becomes a blizzard of obscuring, scouring ice that follows your target.",
+ "summary_markdown": "Your patron's breath becomes a blizzard of obscuring, scouring ice that follows your target.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Personal Blizzard Source Advanced Player's Guide pg. 239 2.0 Lesson Lesson of Snow Cast Single Action somatic Range 30 feet Target 1 creature Saving Throw Fortitude Duration sustained up to 1 minute --- You summon an isolated blizzard of obscuring, scouring ice to follow your target. The target attempts a Fortitude save. Critical Success The target is unaffected. Success The target takes 1d6 cold damage, and the spell ends. Failure The target takes 1d6 cold damage and 1d6 persistent cold damage. (The persistent damage automatically ends when the spell ends.) It is concealed to other creatures, and other creatures are concealed to it. Critical Failure As failure, but both the cold damage and the persistent cold damage increase to 2d6. --- Heightened (+1) The cold damage and persistent cold damage increase by 1 (2 on a critical failure).",
+ "text": "\nPersonal Blizzard Single Action Source Player Core pg. 385 Lesson Lesson of Snow Range 30 feet Target 1 creature Defense Fortitude Duration sustained up to 1 minute --- Your patron's breath becomes a blizzard of obscuring, scouring ice that follows your target. The target attempts a Fortitude save. Critical Success The target is unaffected. Success The target takes 1d6 cold damage, and the spell ends. Failure The target takes 1d6 cold damage and 1d6 persistent cold damage. The persistent damage automatically ends when the spell ends. It is concealed to other creatures, and other creatures are concealed to it. Critical Failure As failure, but both the cold damage and the persistent cold damage are 2d6. --- Heightened (+1) The cold damage and persistent cold damage increase by 1 (2 on a critical failure).",
  "tradition_markdown": "",
  "trait": [
-  "Conjuration",
+  "Cold",
+  "Focus",
   "Hex",
   "Uncommon",
   "Witch"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Cold](/Traits.aspx?ID=27), [Focus](/Traits.aspx?ID=511), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
-  "Conjuration",
+  "Cold",
+  "Focus",
   "Hex",
   "Uncommon",
   "Witch"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=803",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1883",
  "weakness": {}
 }

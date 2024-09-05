@@ -1,45 +1,57 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Forcible Energy"
  ],
  "feat_markdown": "Forcible Energy",
- "id": "feat-1841",
+ "id": "feat-5042",
+ "legacy_id": "feat-1841",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Forcible Energy](/Feats.aspx?ID=1841) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 143 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward. If your next action is to Cast a Spell that deals acid, electricity, fire, or sonic damage, you can select one target that was damaged to gain weakness 5 to that damage type until the end of your next turn. If a spell deals multiple types of energy damage, choose one that the target gains weakness to. This has no effect on creatures with resistance or immunity to the energy type you choose.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Forcible Energy](/Feats.aspx?ID=5042) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 204\n\n</column>\r\n\r\n---\r\n\r\nYou perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward. If your next action is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, you can select one target that was damaged to gain weakness 5 to that damage type until the end of your next turn. If a spell deals multiple types of energy damage, choose one that the target gains weakness to. This has no effect on creatures with resistance or immunity to the energy type you choose.",
  "name": "Forcible Energy",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 204",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 143 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Spellshape\" url=\"/Traits.aspx?ID=513\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 204\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 143"
+  "Player Core pg. 204"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 143 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 204",
  "speed": {},
  "summary": "You perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward.",
  "summary_markdown": "You perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward.",
- "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Forcible Energy Single Action Source Advanced Player's Guide pg. 143 2.0 --- You perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward. If your next action is to Cast a Spell that deals acid, electricity, fire, or sonic damage, you can select one target that was damaged to gain weakness 5 to that damage type until the end of your next turn. If a spell deals multiple types of energy damage, choose one that the target gains weakness to. This has no effect on creatures with resistance or immunity to the energy type you choose.",
+ "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Forcible Energy Single Action Source Player Core pg. 204 --- You perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward. If your next action is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, you can select one target that was damaged to gain weakness 5 to that damage type until the end of your next turn. If a spell deals multiple types of energy damage, choose one that the target gains weakness to. This has no effect on creatures with resistance or immunity to the energy type you choose.",
  "trait": [
   "Manipulate",
-  "Metamagic",
-  "Wizard"
+  "Spellshape",
+  "Wizard",
+  "Metamagic"
  ],
- "trait_markdown": "[Manipulate](/Traits.aspx?ID=104), [Metamagic](/Traits.aspx?ID=107), [Wizard](/Traits.aspx?ID=166)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Manipulate](/Traits.aspx?ID=104), [Spellshape](/Traits.aspx?ID=513), [Wizard](/Traits.aspx?ID=735)",
  "trait_raw": [
   "Manipulate",
-  "Metamagic",
+  "Spellshape",
   "Wizard"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=1841",
+ "url": "/Feats.aspx?ID=5042",
  "weakness": {}
 }

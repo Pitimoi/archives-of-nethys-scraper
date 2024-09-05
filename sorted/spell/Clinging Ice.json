@@ -1,18 +1,26 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "sustained up to 1 minute",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -26,59 +34,72 @@
   9,
   10
  ],
- "id": "spell-793",
+ "id": "spell-1887",
+ "legacy_id": "spell-793",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">[Clinging Ice](/Spells.aspx?ID=793)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 237 <sup>2.0</sup></row>\n\n**Patron Theme**\r\n[Winter](/Patrons.aspx?ID=8)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Reflex\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nFreezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save. Once this spell ends, the target becomes temporarily immune for 1 minute.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage.<br />\r\n**Failure** The target takes full damage, and takes a –5-foot circumstance penalty to its Speeds until the spell ends.<br />\r\n**Critical Failure** The target takes double damage and a –10-foot circumstance penalty to its Speeds until the spell ends.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\r\n[Clinging Ice](/Spells.aspx?ID=1887)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 386\n\n**Patron Theme**\r\n[Silence in Snow](/Patrons.aspx?ID=15)\r\n\r\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nReflex\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nFreezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target takes half damage.<br />\r\n**Failure** The target takes full damage and a –5-foot circumstance penalty to its Speeds until the spell ends.<br />\r\n**Critical Failure** The target takes double damage and a –10-foot circumstance penalty to its Speeds until the spell ends.\n\n---\r\n**Heightened (+1)** The damage increases by 1d4.",
  "name": "Clinging Ice",
  "patron_theme": [
-  "Winter"
+  "Silence in Snow"
  ],
- "patron_theme_markdown": "[Winter](/Patrons.aspx?ID=8)",
+ "patron_theme_markdown": "[Silence in Snow](/Patrons.aspx?ID=15)",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 386",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
- "release_date": "2020-07-30",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
  "saving_throw": "Reflex",
  "saving_throw_markdown": "Reflex",
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=323\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 237 <sup>2.0</sup></row>\n\n**Patron Theme**\r\n[Winter](/Patrons.aspx?ID=8)\r\n\r\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Reflex\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFreezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 386\n\n**Patron Theme**\r\n[Silence in Snow](/Patrons.aspx?ID=15)\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nReflex\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFreezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 237"
+  "Player Core pg. 386"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 237 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 386",
  "speed": {},
+ "spell_type": "Cantrip",
  "summary": "Freezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save.",
  "summary_markdown": "Freezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Clinging Ice Source Advanced Player's Guide pg. 237 2.0 Patron Theme Winter Cast Single Action somatic Range 30 feet Target 1 creature Saving Throw Reflex Duration sustained up to 1 minute --- Freezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save. Once this spell ends, the target becomes temporarily immune for 1 minute. Critical Success The target is unaffected. Success The target takes half damage. Failure The target takes full damage, and takes a –5-foot circumstance penalty to its Speeds until the spell ends. Critical Failure The target takes double damage and a –10-foot circumstance penalty to its Speeds until the spell ends. --- Heightened (+1) The damage increases by 1d4.",
+ "text": "\nClinging Ice Single Action Source Player Core pg. 386 Patron Theme Silence in Snow Range 30 feet Target 1 creature Defense Reflex Duration sustained up to 1 minute --- Freezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save. Critical Success The target is unaffected. Success The target takes half damage. Failure The target takes full damage and a –5-foot circumstance penalty to its Speeds until the spell ends. Critical Failure The target takes double damage and a –10-foot circumstance penalty to its Speeds until the spell ends. --- Heightened (+1) The damage increases by 1d4.",
  "tradition_markdown": "",
  "trait": [
   "Cantrip",
   "Cold",
-  "Conjuration",
   "Hex",
+  "Manipulate",
   "Uncommon",
   "Witch"
  ],
- "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Cold](/Traits.aspx?ID=27), [Conjuration](/Traits.aspx?ID=33), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=323)",
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Cold](/Traits.aspx?ID=27), [Hex](/Traits.aspx?ID=324), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
  "trait_raw": [
   "Cantrip",
   "Cold",
-  "Conjuration",
   "Hex",
+  "Manipulate",
   "Uncommon",
   "Witch"
  ],
- "type": "Cantrip",
- "url": "/Spells.aspx?ID=793",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1887",
  "weakness": {}
 }

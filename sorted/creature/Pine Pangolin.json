@@ -1,0 +1,160 @@
+{
+ "ac": 25,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Roll Up",
+  "Secrete Tar"
+ ],
+ "creature_family": "Elemental, Wood",
+ "creature_family_markdown": "[Elemental, Wood](/MonsterFamilies.aspx?ID=345)",
+ "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 140,
+ "hp_raw": "140",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2676",
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Pine Pangolin](/Monsters.aspx?ID=2676)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese creatures sleep while hanging upside down by their partially curled tails and rely on their thick wooden scales to protect them from danger. One such danger the scales negate is the falling damage from deliberately rolling up and dropping onto the head of an unsuspecting opponent, which is one of their favorite combat strategies. Beneath their scales, pine pangolin bodies secrete a thick, sticky tar that serves as a secondary line of defense.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Pine Pangolin](/Monsters.aspx?ID=2676)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 208\n\n**Perception** +15\r\n\r\n**Languages**\n\n**Skills**\r\n[Nature](/Skills.aspx?ID=10) +15, [Survival](/Skills.aspx?ID=16) +18, [Athletics](/Skills.aspx?ID=36) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +0\r\n\r\n**Con** +5\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 140\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\n[axes](/WeaponGroups.aspx?ID=1) 5, [fire](/Traits.aspx?ID=72) 10\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +17 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d12+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntongue +17,\r\n**Damage** 2d8+3 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**Roll Up** <actions string=\"Single Action\" /> ([Move](/Traits.aspx?ID=114)) The pine pangolin falls [prone](/Conditions.aspx?ID=31), closes up its scales, and rolls into a ball. While Rolled Up, the pangolin gains resistance 10 to physical damage and total immunity to [falling damage](/Rules.aspx?ID=402) from heights of 50 feet or less. The only action the pine pangolin can take is to [Stand](/Actions.aspx?ID=86), and the effects of Roll Up end once the pangolin Stands.\r\n\r\n**Secrete Tar** <actions string=\"Single Action\" /> ([Plant](/Traits.aspx?ID=125)) The pine pangolin secretes a brown, sticky tar within a 5-foot emanation, making those squares [difficult terrain](/Rules.aspx?ID=453) for 1 minute. Each creature that enters or starts its turn in a tarred square must succeed at a DC 25 Fortitude save or become [immobilized](/Conditions.aspx?ID=24) until it [Escapes](/Actions.aspx?ID=79). On a critical failure, the creature falls [prone](/Conditions.aspx?ID=31); prone creatures take a –2 circumstance penalty to their checks to Escape the tar. The pine pangolin is immune to the effects of its own tar.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">More Wooded Origins</title>\r\n\r\nPine pangolins grow in clusters of two to five individuals on giant trees, protected by a cozy layer of tar until their scales harden enough for their first drop. Snapdrakes are handcrafted for kizidhar nobility, often serving as loyal guards. Nobody knows where painted stags come from, as all who have tried to investigate have been eaten.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-345\" />",
+ "name": "Pine Pangolin",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 208",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 208\r\n\r\n**Creature Family** [Elemental, Wood](/MonsterFamilies.aspx?ID=345)\r\n\r\n<row gap=\"medium\">\r\n**HP** 140\r\n\r\n**AC** 25\r\n\r\n**Fort** +15\r\n\r\n**Ref** +10\r\n\r\n**Will** +18\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese creatures sleep while hanging upside down by their partially curled tails and rely on their thick wooden scales to protect them from danger. …\r\n</summary>",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Nature",
+  "Survival",
+  "Athletics"
+ ],
+ "skill_markdown": "[Nature](/Skills.aspx?ID=10) +15, [Survival](/Skills.aspx?ID=16) +18, [Athletics](/Skills.aspx?ID=36) +17",
+ "skill_mod": {
+  "athletics": 17,
+  "nature": 15,
+  "survival": 18
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 208"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 208",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  12,
+  16
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "These creatures sleep while hanging upside down by their partially curled tails and rely on their thick wooden scales to protect them from danger. …",
+ "summary_markdown": "These creatures sleep while hanging upside down by their partially curled tails and rely on their thick wooden scales to protect them from danger. …",
+ "text": " Pine Pangolin These creatures sleep while hanging upside down by their partially curled tails and rely on their thick wooden scales to protect them from danger. One such danger the scales negate is the falling damage from deliberately rolling up and dropping onto the head of an unsuspecting opponent, which is one of their favorite combat strategies. Beneath their scales, pine pangolin bodies secrete a thick, sticky tar that serves as a secondary line of defense. Recall Knowledge - Elemental (Arcana, Nature): DC 23 Recall Knowledge - Plant (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Pine Pangolin Source Rage of Elements pg. 208 Perception +15 Languages Skills Nature +15, Survival +18, Athletics +17 Str +4 Dex +0 Con +5 Int +1 Wis +2 Cha +1 --- AC 25 Fort +15 Ref +10 Will +18 HP 140 Immunities bleed, paralyzed, poison, sleep Weaknesses axes 5, fire 10 --- Speed 25 feet Melee Single Action claw +17 (Agile), Damage 2d12+3 piercing Melee Single Action tongue +17, Damage 2d8+3 bludgeoning plus Grab Roll Up Single Action (Move) The pine pangolin falls prone, closes up its scales, and rolls into a ball. While Rolled Up, the pangolin gains resistance 10 to physical damage and total immunity to falling damage from heights of 50 feet or less. The only action the pine pangolin can take is to Stand, and the effects of Roll Up end once the pangolin Stands. Secrete Tar Single Action (Plant) The pine pangolin secretes a brown, sticky tar within a 5-foot emanation, making those squares difficult terrain for 1 minute. Each creature that enters or starts its turn in a tarred square must succeed at a DC 25 Fortitude save or become immobilized until it Escapes. On a critical failure, the creature falls prone; prone creatures take a –2 circumstance penalty to their checks to Escape the tar. The pine pangolin is immune to the effects of its own tar. More Wooded Origins Pine pangolins grow in clusters of two to five individuals on giant trees, protected by a cozy layer of tar until their scales harden enough for their first drop. Snapdrakes are handcrafted for kizidhar nobility, often serving as loyal guards. Nobody knows where painted stags come from, as all who have tried to investigate have been eaten. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Plant",
+  "Wood",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Plant](/Traits.aspx?ID=125), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Elemental",
+  "Plant",
+  "Wood"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2676",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "fire": 10
+ },
+ "weakness_markdown": "[axes](/WeaponGroups.aspx?ID=1) 5, [fire](/Traits.aspx?ID=72) 10",
+ "weakness_raw": " axes  5,  fire  10",
+ "will_save": 18,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

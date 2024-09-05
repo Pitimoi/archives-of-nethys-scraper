@@ -1,48 +1,61 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
- "id": "equipment-427-520",
+ "id": "equipment-3072-3008",
  "item_category": "Worn Items",
+ "item_parent_id": "equipment-3072",
  "item_subcategory": "Other Worn Items",
+ "legacy_id": "equipment-427",
+ "legacy_name": "Crafter's Eyepiece",
  "level": 11,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3+\"\r\n    pfs=\"\"\r\n>\r\n[Crafter's Eyepiece](/Equipment.aspx?ID=427)\r\n</title>\n\n<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts. You gain a +1 item bonus to [Crafting](/Skills.aspx?ID=4) checks. When you [Repair](/Actions.aspx?ID=42) an item, increase the Hit Points restored to 10 + 10 per proficiency rank on a success or 15 + 15 per proficiency rank on a critical success.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 3\"\r\npfs=\"Standard\"\r\n>\r\nCrafter's Eyepiece\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>\n\n**Price** 60 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 11\"\r\npfs=\"Standard\"\r\n>\r\nCrafter's Eyepiece (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>\n\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe eyepiece grants a +2 item bonus and can be activated.\n\n<document level=\"2\" id=\"action-245\" />",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3+\"\r\n    pfs=\"\"\r\n>\r\n[Crafter's Eyepiece](/Equipment.aspx?ID=3072)\r\n</title>\n\n<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288\n\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts. You gain a +1 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored to 10 + 10 per proficiency rank on a success or 15 + 15 per proficiency rank on a critical success.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 3\"\r\npfs=\"Standard\"\r\n>\r\nCrafter's Eyepiece\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288, [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup>\n\n**Price** 60 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 11\"\r\npfs=\"Standard\"\r\n>\r\nCrafter's Eyepiece (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288, [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup>\n\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe eyepiece grants a +2 item bonus and can be activated. \n\n**Activate—Prototype** <actions string=\"\" /> 1 minute ([manipulate](/Traits.aspx?ID=104)) **Frequency** once per day;   **Effect** You calibrate the eyepiece to have it cast a 5th-rank [_creation_](/Spells.aspx?ID=1477) spell over the course of 1 minute to construct a temporary item.",
  "name": "Crafter's Eyepiece (Greater)",
  "pfs": "Standard",
  "price": 120000,
  "price_raw": "1,200 gp",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 288",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>\r\n\r\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn eyepiece\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe eyepiece grants a +2 item bonus and can be activated. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288\r\n\r\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn eyepiece\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe eyepiece grants a +2 item bonus and can be activated.\r\n</summary>",
+ "skill": [
+  "Crafting"
+ ],
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "GM Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 609"
+  "GM Core pg. 288"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 609 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 288",
  "speed": {},
  "spell_markdown": "",
- "summary": "The eyepiece grants a +2 item bonus and can be activated. ",
- "summary_markdown": "The eyepiece grants a +2 item bonus and can be activated. ",
- "text": "<title level=\"1\" right=\"Item 3+\" pfs=\"\" > Crafter's Eyepiece Source Core Rulebook pg. 609 4.0 Usage worn eyepiece --- This rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts. You gain a +1 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored to 10 + 10 per proficiency rank on a success or 15 + 15 per proficiency rank on a critical success. <title level=\"2\" right=\"Item 3\" pfs=\"Standard\" > Crafter's Eyepiece Source Core Rulebook pg. 609 4.0 Price 60 gp <title level=\"2\" right=\"Item 11\" pfs=\"Standard\" > Crafter's Eyepiece (Greater) Source Core Rulebook pg. 609 4.0 Price 1,200 gp --- The eyepiece grants a +2 item bonus and can be activated.\n",
+ "summary": "The eyepiece grants a +2 item bonus and can be activated.",
+ "summary_markdown": "The eyepiece grants a +2 item bonus and can be activated.",
+ "text": "<title level=\"1\" right=\"Item 3+\" pfs=\"\" > Crafter's Eyepiece Source GM Core pg. 288 Usage worn eyepiece --- This rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts. You gain a +1 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored to 10 + 10 per proficiency rank on a success or 15 + 15 per proficiency rank on a critical success. <title level=\"2\" right=\"Item 3\" pfs=\"Standard\" > Crafter's Eyepiece Source GM Core pg. 288, Core Rulebook pg. 609 4.0 Price 60 gp <title level=\"2\" right=\"Item 11\" pfs=\"Standard\" > Crafter's Eyepiece (Greater) Source GM Core pg. 288, Core Rulebook pg. 609 4.0 Price 1,200 gp --- The eyepiece grants a +2 item bonus and can be activated. Activate—Prototype 1 minute (manipulate) Frequency once per day; Effect You calibrate the eyepiece to have it cast a 5th-rank creation spell over the course of 1 minute to construct a temporary item.",
  "trait": [
   "Invested",
-  "Magical",
-  "Transmutation"
+  "Magical"
  ],
- "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157)",
+ "trait_group": [
+  "Equipment"
+ ],
+ "trait_markdown": "[Invested](/Traits.aspx?ID=637), [Magical](/Traits.aspx?ID=644)",
  "trait_raw": [
   "Invested",
-  "Magical",
-  "Transmutation"
+  "Magical"
  ],
  "type": "Item",
- "url": "/Equipment.aspx?ID=427",
+ "url": "/Equipment.aspx?ID=3072",
  "usage": "worn eyepiece",
  "usage_markdown": "worn eyepiece",
  "weakness": {}

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,35 +8,48 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 18,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mantle of the Grogrisant](/Equipment.aspx?ID=1476)\r\n</title>\n\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 35</row>\n\n**Price** 22,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of [Grogrisant](/Monsters.aspx?ID=1727) itself, after being slain by Taldaris, and Grogrisant's mane was fashioned into a thick fringe that runs all along the mantle's edges. The paws of the Grogrisant cross beneath the wearer's throat, giving you an imposing appearance. The _Mantle of the Grogrisant_ grants you [fire](/Traits.aspx?ID=72) resistance 15 and physical resistance 5 (except bludgeoning).\n\n<document level=\"2\" id=\"action-1113\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mantle of the Grogrisant](/Equipment.aspx?ID=1476)\r\n</title>\n\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 35\n\n**Price** 22,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of [Grogrisant](/Monsters.aspx?ID=1727) itself, after being slain by Taldaris, and Grogrisant's mane was fashioned into a thick fringe that runs all along the mantle's edges. The paws of the Grogrisant cross beneath the wearer's throat, giving you an imposing appearance. The _Mantle of the Grogrisant_ grants you [fire](/Traits.aspx?ID=72) resistance 15 and physical resistance 5 (except bludgeoning).\n\n**Activate** <actions string=\"Single Action\" /> envision, Interact ([evocation](/Traits.aspx?ID=65), [incapacitation](/Traits.aspx?ID=93), [light](/Traits.aspx?ID=100), [primal](/Traits.aspx?ID=134), [visual](/Traits.aspx?ID=163)) **Frequency** once per day;   **Effect** You pull the hood of the mantle over your face, revealing the six eyes of Grogrisant. The mantle gives off a flash of blinding light in a 60-foot emanation. All enemies within this area must attempt a DC 38 Fortitude saving throw. On a failure, they're [blinded](/Conditions.aspx?ID=1) for 1 minute. On a critical failure, they're permanently blinded. \n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Mantle of the Grogrisant",
  "pfs": "Standard",
  "price": 2200000,
  "price_raw": "22,000 gp",
+ "primary_source": "Monsters of Myth",
+ "primary_source_raw": "Monsters of Myth pg. 35",
+ "primary_source_category": "Lost Omens",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2021-12-22",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 35</row>\r\n\r\n**Price** 22,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of  Grogrisant  itself, after being …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monsters of Myth](/Sources.aspx?ID=107) pg. 35\r\n\r\n**Price** 22,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of  Grogrisant  itself, after being …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Monsters of Myth"
  ],
  "source_raw": [
   "Monsters of Myth pg. 35"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Monsters of Myth](/Sources.aspx?ID=107) pg. 35</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Monsters of Myth](/Sources.aspx?ID=107) pg. 35",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of  Grogrisant  itself, after being …",
  "summary_markdown": "This long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of  Grogrisant  itself, after being …",
- "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Mantle of the Grogrisant Source Monsters of Myth pg. 35 Price 22,000 gp Usage worn cloak Bulk L --- This long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of Grogrisant itself, after being slain by Taldaris, and Grogrisant's mane was fashioned into a thick fringe that runs all along the mantle's edges. The paws of the Grogrisant cross beneath the wearer's throat, giving you an imposing appearance. The Mantle of the Grogrisant grants you fire resistance 15 and physical resistance 5 (except bludgeoning).\n",
+ "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Mantle of the Grogrisant Source Monsters of Myth pg. 35 Price 22,000 gp Usage worn cloak Bulk L --- This long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of Grogrisant itself, after being slain by Taldaris, and Grogrisant's mane was fashioned into a thick fringe that runs all along the mantle's edges. The paws of the Grogrisant cross beneath the wearer's throat, giving you an imposing appearance. The Mantle of the Grogrisant grants you fire resistance 15 and physical resistance 5 (except bludgeoning). Activate Single Action envision, Interact (evocation, incapacitation, light, primal, visual) Frequency once per day; Effect You pull the hood of the mantle over your face, revealing the six eyes of Grogrisant. The mantle gives off a flash of blinding light in a 60-foot emanation. All enemies within this area must attempt a DC 38 Fortitude saving throw. On a failure, they're blinded for 1 minute. On a critical failure, they're permanently blinded. ",
  "trait": [
   "Abjuration",
   "Invested",
   "Primal",
   "Unique"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Tradition",
+  "Rarity"
  ],
  "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Invested](/Traits.aspx?ID=98), [Primal](/Traits.aspx?ID=134), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [

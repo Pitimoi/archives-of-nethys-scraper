@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,37 +8,48 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 3,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Glasses of Sociability](/Equipment.aspx?ID=1057)\r\n</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup></row>\n\n**Price** 60 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThese wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They grant you a +1 item bonus to [Diplomacy](/Skills.aspx?ID=6).\n\n<document level=\"2\" id=\"action-847\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Glasses of Sociability](/Equipment.aspx?ID=1057)\r\n</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup>\n\n**Price** 60 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThese wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They grant you a +1 item bonus to [Diplomacy](/Skills.aspx?ID=6).\n\n**Activate** <actions string=\"Single Action\" /> envision;     **Effect** You stare at another creature and instantly remember their name if you've met and exchanged names. The glasses rely on your latent memories, so if the creature is disguising their identity, the glasses don't penetrate the disguise. If a [doppelganger](/Monsters.aspx?ID=126) was disguised as an innkeeper you met, the glasses would give you the innkeeper's name, and if a noble you met before was in disguise as a masked vigilante, the glasses wouldn't reveal their name.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Glasses of Sociability",
  "pfs": "Standard",
  "price": 6000,
  "price_raw": "60 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 185",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup></row>\r\n\r\n**Price** 60 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn eyepiece\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup>\r\n\r\n**Price** 60 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn eyepiece\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They …\r\n</summary>",
  "skill": [
   "Diplomacy"
  ],
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 185"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 185 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They …",
  "summary_markdown": "These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They …",
- "text": "<title level=\"1\" right=\"Item 3\" pfs=\"Standard\" > Glasses of Sociability Source Secrets of Magic pg. 185 1.1 Price 60 gp Usage worn eyepiece Bulk L --- These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They grant you a +1 item bonus to Diplomacy.\n",
+ "text": "<title level=\"1\" right=\"Item 3\" pfs=\"Standard\" > Glasses of Sociability Source Secrets of Magic pg. 185 1.1 Price 60 gp Usage worn eyepiece Bulk L --- These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They grant you a +1 item bonus to Diplomacy. Activate Single Action envision; Effect You stare at another creature and instantly remember their name if you've met and exchanged names. The glasses rely on your latent memories, so if the creature is disguising their identity, the glasses don't penetrate the disguise. If a doppelganger was disguised as an innkeeper you met, the glasses would give you the innkeeper's name, and if a noble you met before was in disguise as a masked vigilante, the glasses wouldn't reveal their name.\n",
  "trait": [
   "Divination",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

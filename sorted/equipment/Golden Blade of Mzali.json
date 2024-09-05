@@ -3,47 +3,67 @@
   "Spear"
  ],
  "base_item_markdown": "[Spear](/Weapons.aspx?ID=10)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "id": "equipment-1449",
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 15,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Limited\"\r\n>\r\n[Golden Blade of Mzali](/Equipment.aspx?ID=1449)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Strength of Thousands</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 76</row>\n\n**Price** 6,500 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Spear](/Weapons.aspx?ID=10)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nEach of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most likely buried with warriors in tombs and temples sealed by [Walkena's](/Deities.aspx?ID=159) decrees. Walkena retains a single golden blade, which he grants to his Master of Spears.\n\n This _+2 [greater striking](/Equipment.aspx?ID=280) [returning](/Equipment.aspx?ID=301) [spear](/Weapons.aspx?ID=10)_ is coated in brilliant gold, and beautiful engravings run along the shaft, depicting the rising and setting of the sun against Mzali's skyline. The spear glows with the effects of 4th-level [_light_](/Spells.aspx?ID=171). You can suppress or resume this light by using an action, which has the [concentrate](/Traits.aspx?ID=32) trait. When you hit a creature with the spear, it takes 1d6 additional fire damage. When you critically hit a creature with the spear, the creature takes 1d8 [persistent fire damage](/Conditions.aspx?ID=29) and 1d8 persistent bleed damage as its blood boils away. Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage.\n\n<document level=\"2\" id=\"action-1091\" />\n\n<document level=\"2\" id=\"action-1092\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Limited\"\r\n>\r\n[Golden Blade of Mzali](/Equipment.aspx?ID=1449)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Strength of Thousands</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 76\n\n**Price** 6,500 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Spear](/Weapons.aspx?ID=10)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nEach of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most likely buried with warriors in tombs and temples sealed by [Walkena's](/Deities.aspx?ID=159) decrees. Walkena retains a single golden blade, which he grants to his Master of Spears.\n\n This _+2 [greater striking](/Equipment.aspx?ID=280) [returning](/Equipment.aspx?ID=301) [spear](/Weapons.aspx?ID=10)_ is coated in brilliant gold, and beautiful engravings run along the shaft, depicting the rising and setting of the sun against Mzali's skyline. The spear glows with the effects of 4th-level [_light_](/Spells.aspx?ID=171). You can suppress or resume this light by using an action, which has the [concentrate](/Traits.aspx?ID=32) trait. When you hit a creature with the spear, it takes 1d6 additional fire damage. When you critically hit a creature with the spear, the creature takes 1d8 [persistent fire damage](/Conditions.aspx?ID=29) and 1d8 persistent bleed damage as its blood boils away. Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage.\n\n**Activate** <actions string=\"Reaction\" /> envision;  **Frequency** once per day; **Trigger** You critically hit a creature with the weapon;  **Effect** You call upon the spear's light to guide the creature away from violence. The creature must choose one of the following options: \n\n<ul><li>The creature surrenders, immediately receiving the critical failure effects of [_calm emotions_](/Spells.aspx?ID=31) and [_paralyze_](/Spells.aspx?ID=213).</li><li>The weapon casts 7th-level [_blindness_](/Spells.aspx?ID=26) on the creature with a DC of 34.</li></ul> Regardless of the choice, the spear loses its ability to glow with light until your next daily preparations.\n\n**Activate** <actions string=\"Two Actions\" /> envision, Interact;  **Frequency** once per day;   **Effect** The spear casts 7th-level [_elemental form_](/Spells.aspx?ID=98) on you, choosing fire as the form's trait. The spear loses its additional fire damage until your next daily preparations.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Golden Blade of Mzali",
  "pfs": "Limited",
  "price": 650000,
  "price_raw": "6,500 gp",
+ "primary_source": "Pathfinder #172: Secrets of the Temple City",
+ "primary_source_raw": "Pathfinder #172: Secrets of the Temple City pg. 76",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 76</row>\r\n\r\n**Price** 6,500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEach of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 76\r\n\r\n**Price** 6,500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Spear](/Weapons.aspx?ID=10)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nEach of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #172: Secrets of the Temple City"
  ],
  "source_raw": [
   "Pathfinder #172: Secrets of the Temple City pg. 76"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Strength of Thousands",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 76</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 76",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "Strength of Thousands",
  "stage_markdown": "",
  "summary": "Each of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most …",
  "summary_markdown": "Each of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most …",
- "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Limited\" > Golden Blade of Mzali May contain spoilers from Strength of Thousands Source Pathfinder #172: Secrets of the Temple City pg. 76 Price 6,500 gp Usage held in 1 hand Bulk 1 Base Weapon Spear --- Each of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most likely buried with warriors in tombs and temples sealed by Walkena's decrees. Walkena retains a single golden blade, which he grants to his Master of Spears. This +2 greater striking returning spear is coated in brilliant gold, and beautiful engravings run along the shaft, depicting the rising and setting of the sun against Mzali's skyline. The spear glows with the effects of 4th-level light . You can suppress or resume this light by using an action, which has the concentrate trait. When you hit a creature with the spear, it takes 1d6 additional fire damage. When you critically hit a creature with the spear, the creature takes 1d8 persistent fire damage and 1d8 persistent bleed damage as its blood boils away. Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage.\n",
+ "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Limited\" > Golden Blade of Mzali May contain spoilers from Strength of Thousands Source Pathfinder #172: Secrets of the Temple City pg. 76 Price 6,500 gp Usage held in 1 hand Bulk 1 Base Weapon Spear --- Each of these golden spears was forged in the days of old Mzali, when the sun kings ruled the city. The majority of these weapons are lost, most likely buried with warriors in tombs and temples sealed by Walkena's decrees. Walkena retains a single golden blade, which he grants to his Master of Spears. This +2 greater striking returning spear is coated in brilliant gold, and beautiful engravings run along the shaft, depicting the rising and setting of the sun against Mzali's skyline. The spear glows with the effects of 4th-level light . You can suppress or resume this light by using an action, which has the concentrate trait. When you hit a creature with the spear, it takes 1d6 additional fire damage. When you critically hit a creature with the spear, the creature takes 1d8 persistent fire damage and 1d8 persistent bleed damage as its blood boils away. Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage. Activate Reaction envision; Frequency once per day; Trigger You critically hit a creature with the weapon; Effect You call upon the spear's light to guide the creature away from violence. The creature must choose one of the following options: The creature surrenders, immediately receiving the critical failure effects of calm emotions and paralyze . The weapon casts 7th-level blindness on the creature with a DC of 34. Regardless of the choice, the spear loses its ability to glow with light until your next daily preparations. Activate Two Actions envision, Interact; Frequency once per day; Effect The spear casts 7th-level elemental form on you, choosing fire as the form's trait. The spear loses its additional fire damage until your next daily preparations.\n",
  "trait": [
   "Evocation",
   "Fire",
   "Light",
   "Magical",
   "Rare"
+ ],
+ "trait_group": [
+  "School",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72), [Light](/Traits.aspx?ID=100), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

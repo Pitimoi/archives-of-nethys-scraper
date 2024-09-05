@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Tandem Movement",
  "id": "feat-2907",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Tandem Movement](/Feats.aspx?ID=2907) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Tandem\" url=\"/Traits.aspx?ID=395\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou and your eidolon move together. You each use a single action to Stride. Either of you that has the corresponding movement type can [Burrow](/Actions.aspx?ID=93), [Climb](/Actions.aspx?ID=33), [Fly](/Actions.aspx?ID=94), or [Swim](/Actions.aspx?ID=39) instead.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Tandem Movement](/Feats.aspx?ID=2907) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Tandem\" url=\"/Traits.aspx?ID=395\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou and your eidolon move together. You each use a single action to Stride. Either of you that has the corresponding movement type can [Burrow](/Actions.aspx?ID=93), [Climb](/Actions.aspx?ID=33), [Fly](/Actions.aspx?ID=94), or [Swim](/Actions.aspx?ID=39) instead.",
  "name": "Tandem Movement",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 69",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Tandem\" url=\"/Traits.aspx?ID=395\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou and your eidolon move together.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n<trait label=\"Tandem\" url=\"/Traits.aspx?ID=395\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou and your eidolon move together.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 69"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 69 <sup>1.1</sup>",
  "speed": {},
  "summary": "You and your eidolon move together.",
  "summary_markdown": "You and your eidolon move together.",
@@ -31,6 +38,10 @@
  "trait": [
   "Summoner",
   "Tandem"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Summoner](/Traits.aspx?ID=392), [Tandem](/Traits.aspx?ID=395)",
  "trait_raw": [

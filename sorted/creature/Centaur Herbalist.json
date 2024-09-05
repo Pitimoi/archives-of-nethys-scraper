@@ -1,0 +1,167 @@
+{
+ "ac": 18,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  8,
+  9
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Load Sachet",
+  "Trample"
+ ],
+ "creature_family": "Centaur",
+ "creature_family_markdown": "[Centaur](/MonsterFamilies.aspx?ID=379)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 8,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 36,
+ "hp_raw": "36",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2874",
+ "image": [
+  "/Images/Monsters/Centaur_Herbalist.webp"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Healer's Toolkit",
+  "herbal sachet",
+  "Sling (10 bullets)"
+ ],
+ "language": [
+  "Common",
+  "Elven",
+  "Fey"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Fey](/Languages.aspx?ID=119)",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Centaur Herbalist](/NPCs.aspx?ID=2874)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMany centaurs are skilled in the study of plants, especially those in the areas in which they roam. They can use such herbs to both heal and cause distress in those who attack them.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Centaur_Herbalist.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Centaur Herbalist](/NPCs.aspx?ID=2874)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Centaur\" url=\"/Traits.aspx?ID=747\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 58\n\n**Perception** +10; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Fey](/Languages.aspx?ID=119)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Diplomacy](/Skills.aspx?ID=6) +6, [Medicine](/Skills.aspx?ID=9) +7, [Nature](/Skills.aspx?ID=10) +7, [Survival](/Skills.aspx?ID=16) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +2\r\n\r\n**Con** +1\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Healer's Toolkit](/Equipment.aspx?ID=2727), herbal sachet, [Sling](/Weapons.aspx?ID=72) (10 bullets)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +10 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 36\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhoof +9 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d10+4 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nsling +8 ([Propulsive](/Traits.aspx?ID=191), [range increment 50 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d6+1 bludgeoning\n\n**Load Sachet** <actions string=\"Single Action\" />  **Requirements** The centaur herbalist has at least one herbal sachet; **Effect** The centaur herbalist Interacts to load an herbal sachet in her sling. The next ranged Strike she makes with her sling deals an additional 1d6 poison damage.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=81)** <actions string=\"Three Actions\" />  Medium or smaller, hoof, DC 18\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons//\">Centaur Craftwork</title>\r\n\r\nMany centaurs appreciate fine weapons and armor. Some craft their own, maintaining designs traditional to their communities, while others use quality armaments they take from their enemies; however, due to their forms, centaurs who want to use armor heavier than [breastplates](/Armor.aspx?ID=47) need to have it tailor-made\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-379\" />",
+ "name": "Centaur Herbalist",
+ "npc": true,
+ "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 58",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 9,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Centaur\" url=\"/Traits.aspx?ID=747\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 58\r\n\r\n**Creature Family** [Centaur](/MonsterFamilies.aspx?ID=379)\r\n\r\n<row gap=\"medium\">\r\n**HP** 36\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +9\r\n\r\n**Will** +10\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMany centaurs are skilled in the study of plants, especially those in the areas in which they roam. They can use such herbs to both heal and cause …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Diplomacy",
+  "Medicine",
+  "Nature",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Diplomacy](/Skills.aspx?ID=6) +6, [Medicine](/Skills.aspx?ID=9) +7, [Nature](/Skills.aspx?ID=10) +7, [Survival](/Skills.aspx?ID=16) +7",
+ "skill_mod": {
+  "athletics": 11,
+  "diplomacy": 6,
+  "medicine": 7,
+  "nature": 7,
+  "survival": 7
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 58"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 58",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet",
+ "speed_raw": "40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  9
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 3,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Many centaurs are skilled in the study of plants, especially those in the areas in which they roam. They can use such herbs to both heal and cause …",
+ "summary_markdown": "Many centaurs are skilled in the study of plants, especially those in the areas in which they roam. They can use such herbs to both heal and cause …",
+ "text": " Centaur Herbalist Many centaurs are skilled in the study of plants, especially those in the areas in which they roam. They can use such herbs to both heal and cause distress in those who attack them. Recall Knowledge - Beast (Arcana, Nature): DC 18 Recall Knowledge - Humanoid (Society): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Centaur Herbalist Source Monster Core pg. 58 Perception +10; darkvision Languages Common, Elven, Fey Skills Athletics +11, Diplomacy +6, Medicine +7, Nature +7, Survival +7 Str +3 Dex +2 Con +1 Int +0 Wis +3 Cha +1 Items Healer's Toolkit, herbal sachet, Sling (10 bullets) --- AC 18 Fort +8 Ref +9 Will +10 HP 36 --- Speed 40 feet Melee Single Action hoof +9 (Agile), Damage 1d10+4 bludgeoning Ranged Single Action sling +8 (Propulsive, range increment 50 feet, reload 1), Damage 1d6+1 bludgeoning Load Sachet Single Action Requirements The centaur herbalist has at least one herbal sachet; Effect The centaur herbalist Interacts to load an herbal sachet in her sling. The next ranged Strike she makes with her sling deals an additional 1d6 poison damage. Trample Three Actions Medium or smaller, hoof, DC 18 Centaur Craftwork Many centaurs appreciate fine weapons and armor. Some craft their own, maintaining designs traditional to their communities, while others use quality armaments they take from their enemies; however, due to their forms, centaurs who want to use armor heavier than breastplates need to have it tailor-made ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Centaur",
+  "Humanoid",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Ancestry"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Centaur](/Traits.aspx?ID=747), [Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Beast",
+  "Centaur",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/NPCs.aspx?ID=2874",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 10,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

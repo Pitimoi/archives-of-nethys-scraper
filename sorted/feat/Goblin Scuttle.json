@@ -1,43 +1,55 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Goblin Scuttle"
  ],
  "feat_markdown": "Goblin Scuttle",
- "id": "feat-41",
+ "id": "feat-4441",
+ "legacy_id": "feat-41",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Goblin Scuttle](/Feats.aspx?ID=41) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 48 <sup>4.0</sup></row>\n\n**Trigger**\r\nAn ally ends a move action adjacent to you.\n\n</column>\r\n\r\n---\r\n\r\nYou take advantage of your ally’s movement to adjust your position. You Step.\n\n<title level=\"2\">Goblin Scuttle leads to...</title>\r\n[Skittering Scuttle](/Feats.aspx?ID=49)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Goblin Scuttle](/Feats.aspx?ID=4441) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 56\n\n**Trigger**\r\nAn ally ends a move action adjacent to you\n\n</column>\r\n\r\n---\r\n\r\nYou take advantage of your ally's movement to adjust your position. You [Step](/Actions.aspx?ID=87).\n\n<title level=\"2\">Goblin Scuttle leads to...</title>\r\n[Skittering Scuttle](/Feats.aspx?ID=4452)",
  "name": "Goblin Scuttle",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 56",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 48 <sup>4.0</sup></row>\n\n**Trigger**\r\nAn ally ends a move action adjacent to you.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou take advantage of your ally’s movement to adjust your position.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 56\n\n**Trigger**\r\nAn ally ends a move action adjacent to you\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou take advantage of your ally's movement to adjust your position.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 48"
+  "Player Core pg. 56"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 48 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 56",
  "speed": {},
- "summary": "You take advantage of your ally’s movement to adjust your position.",
- "summary_markdown": "You take advantage of your ally’s movement to adjust your position.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Goblin Scuttle Reaction Source Core Rulebook pg. 48 4.0 Trigger An ally ends a move action adjacent to you. --- You take advantage of your ally’s movement to adjust your position. You Step. Goblin Scuttle leads to... Skittering Scuttle",
+ "summary": "You take advantage of your ally's movement to adjust your position.",
+ "summary_markdown": "You take advantage of your ally's movement to adjust your position.",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Goblin Scuttle Reaction Source Player Core pg. 56 Trigger An ally ends a move action adjacent to you --- You take advantage of your ally's movement to adjust your position. You Step. Goblin Scuttle leads to... Skittering Scuttle",
  "trait": [
   "Goblin"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Goblin](/Traits.aspx?ID=81)",
  "trait_raw": [
   "Goblin"
  ],
- "trigger": "An ally ends a move action adjacent to you.",
- "trigger_markdown": "An ally ends a move action adjacent to you.",
+ "trigger": "An ally ends a move action adjacent to you",
+ "trigger_markdown": "An ally ends a move action adjacent to you",
  "type": "Feat",
- "url": "/Feats.aspx?ID=41",
+ "url": "/Feats.aspx?ID=4441",
  "weakness": {}
 }

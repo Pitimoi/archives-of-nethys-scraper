@@ -1,10 +1,24 @@
 {
  "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  12
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Suck Blood",
   "Flea Fever"
@@ -12,10 +26,16 @@
  "creature_family": "Flea",
  "creature_family_markdown": "[Flea](/MonsterFamilies.aspx?ID=117)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 12,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 50,
  "hp_raw": "50",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-501",
  "image": [
   "/Images/Monsters/GiantFlea.png"
@@ -25,36 +45,58 @@
  ],
  "immunity_markdown": "disease",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"\">[Giant Flea](/Monsters.aspx?ID=501)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGiant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths.\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/GiantFlea.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Giant Flea](/Monsters.aspx?ID=501)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 83</row>\n\n**Perception** +10; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +10, [Athletics](/Skills.aspx?ID=3) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n**HP** 50\n\n**Immunities**\r\ndisease\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nproboscis +12,\r\n**Damage** 1d8+4 piercing plus Suck Blood and flea fever\n\n**Suck Blood** <actions string=\"Single Action\" />  **Requirements** The giant flea’s last action was a successful proboscis Strike; **Effect** The giant flea drinks the creature’s blood. The victim becomes drained 1 and the flea regains 5 HP.\r\n\r\n**Flea Fever**  ([Disease](/Traits.aspx?ID=46)) Drain from flea fever can’t be reduced or recovered from naturally until the disease is cured. **Saving Throw** DC 18 Fortitude; **Stage 1** [drained 1](/Conditions.aspx?ID=10) (1d4 hours), **Stage 2** drained 1 and [sickened 1](/Conditions.aspx?ID=34) (1 day), **Stage 3** drained 2 and sickened 1 (1 day), **Stage 4** drained 3 and sickened 1 (1 day), **Stage 5** dead\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-117\" />",
+ "markdown": "<title level=\"1\" pfs=\"\">[Giant Flea](/Monsters.aspx?ID=501)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGiant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths.\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/GiantFlea.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Giant Flea](/Monsters.aspx?ID=501)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 83\n\n**Perception** +10; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +10, [Athletics](/Skills.aspx?ID=3) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\n\n</row>\r\n\r\n**Immunities**\r\ndisease\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nproboscis +12,\r\n**Damage** 1d8+4 piercing plus Suck Blood and flea fever\n\n**Suck Blood** <actions string=\"Single Action\" />  **Requirements** The giant flea’s last action was a successful proboscis Strike; **Effect** The giant flea drinks the creature’s blood. The victim becomes drained 1 and the flea regains 5 HP.\r\n\r\n**Flea Fever**  ([Disease](/Traits.aspx?ID=46)) Drain from flea fever can’t be reduced or recovered from naturally until the disease is cured. **Saving Throw** DC 18 Fortitude; **Stage 1** [drained 1](/Conditions.aspx?ID=10) (1d4 hours), **Stage 2** drained 1 and [sickened 1](/Conditions.aspx?ID=34) (1 day), **Stage 3** drained 2 and sickened 1 (1 day), **Stage 4** drained 3 and sickened 1 (1 day), **Stage 5** dead\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-117\" />",
  "name": "Giant Flea",
  "npc": false,
  "perception": 10,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #151: The Show Must Go On",
+ "primary_source_raw": "Pathfinder #151: The Show Must Go On pg. 83",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Extinction Curse",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 12,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
  "release_date": "2020-01-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 83</row>\r\n\r\n**Creature Family** [Flea](/MonsterFamilies.aspx?ID=117)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\r\n\r\n**AC** 19\r\n\r\n**Fort** +12\r\n\r\n**Ref** +12\r\n\r\n**Will** +4\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGiant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 83\r\n\r\n**Creature Family** [Flea](/MonsterFamilies.aspx?ID=117)\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\r\n\r\n**AC** 19\r\n\r\n**Fort** +12\r\n\r\n**Ref** +12\r\n\r\n**Will** +4\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGiant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths.\r\n</summary>",
  "sense": "low-light vision, scent (imprecise) 30 feet",
  "sense_markdown": "low-light vision, scent (imprecise) 30 feet",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +10",
-  "Athletics +9"
+  "Acrobatics",
+  "Athletics"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +10, [Athletics](/Skills.aspx?ID=3) +9",
+ "skill_mod": {
+  "acrobatics": 10,
+  "athletics": 9
+ },
  "source": [
   "Pathfinder #151: The Show Must Go On"
  ],
  "source_raw": [
   "Pathfinder #151: The Show Must Go On pg. 83"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 83</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Pathfinder #151: The Show Must Go On](/Sources.aspx?ID=21) pg. 83",
  "speed": {
   "land": 30,
   "max": 30
@@ -62,7 +104,18 @@
  "speed_markdown": "30 feet",
  "speed_raw": "30 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  8
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "fort",
   "fortitude",
@@ -72,10 +125,14 @@
  "summary": "Giant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths.",
  "summary_markdown": "Giant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths.",
  "text": " Giant Flea Giant fleas are commonly found in areas containing hardy megafauna, such as dinosaurs or mammoths. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Giant Flea Source Pathfinder #151: The Show Must Go On pg. 83 Perception +10; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +10, Athletics +9 Str +2 Dex +3 Con +3 Int -5 Wis +1 Cha -4 --- AC 19 Fort +12 Ref +12 Will +4 HP 50 Immunities disease --- Speed 30 feet Melee Single Action proboscis +12, Damage 1d8+4 piercing plus Suck Blood and flea fever Suck Blood Single Action Requirements The giant flea’s last action was a successful proboscis Strike; Effect The giant flea drinks the creature’s blood. The victim becomes drained 1 and the flea regains 5 HP. Flea Fever (Disease) Drain from flea fever can’t be reduced or recovered from naturally until the disease is cured. Saving Throw DC 18 Fortitude; Stage 1 drained 1 (1d4 hours), Stage 2 drained 1 and sickened 1 (1 day), Stage 3 drained 2 and sickened 1 (1 day), Stage 4 drained 3 and sickened 1 (1 day), Stage 5 dead ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "N",
   "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
  ],
  "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
  "trait_raw": [
@@ -89,5 +146,9 @@
  ],
  "weakness": {},
  "will_save": 4,
- "wisdom": 1
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

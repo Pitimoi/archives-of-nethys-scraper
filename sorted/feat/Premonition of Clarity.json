@@ -1,46 +1,57 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Premonition of Clarity"
  ],
  "feat_markdown": "Premonition of Clarity",
- "frequency": "once per hour",
- "id": "feat-1707",
+ "frequency": " once per hour",
+ "id": "feat-4691",
+ "legacy_id": "feat-1707",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Premonition of Clarity](/Feats.aspx?ID=1707) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 123 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou fail a saving throw against a [mental](/Traits.aspx?ID=106) effect.\n\n</column>\r\n\r\n---\r\n\r\nYour deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it's worse.\n\n<title level=\"2\">Premonition of Clarity leads to...</title>\r\n[Shared Clarity](/Feats.aspx?ID=1710)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Standard\"\r\n>\r\n[Premonition of Clarity](/Feats.aspx?ID=4691) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 120\n\n**Frequency**\r\n once per hour\n\n**Trigger**\r\nYou fail a saving throw against a mental effect\n\n</column>\r\n\r\n---\r\n\r\nYour deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it’s worse.\n\n<title level=\"2\">Premonition of Clarity leads to...</title>\r\n[Shared Clarity](/Feats.aspx?ID=4703)",
  "name": "Premonition of Clarity",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 120",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 123 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per hour\n\n**Trigger**\r\nYou fail a saving throw against a [mental](/Traits.aspx?ID=106) effect.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour deity sends you a vision of faith to steel you against mental attacks.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 120\r\n\r\n**Frequency**\r\n once per hour\n\n**Trigger**\r\nYou fail a saving throw against a mental effect\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour deity sends you a vision of faith to steel you against mental attacks.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 123"
+  "Player Core pg. 120"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 123 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 120",
  "speed": {},
  "summary": "Your deity sends you a vision of faith to steel you against mental attacks.",
  "summary_markdown": "Your deity sends you a vision of faith to steel you against mental attacks.",
- "text": "<title level=\"1\" right=\"Feat 14\" pfs=\"Standard\" > Premonition of Clarity Reaction Source Advanced Player's Guide pg. 123 2.0 Frequency once per hour Trigger You fail a saving throw against a mental effect. --- Your deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it's worse. Premonition of Clarity leads to... Shared Clarity",
+ "text": "<title level=\"1\" right=\"Feat 14\" pfs=\"Standard\" > Premonition of Clarity Reaction Source Player Core pg. 120 Frequency once per hour Trigger You fail a saving throw against a mental effect --- Your deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it’s worse. Premonition of Clarity leads to... Shared Clarity",
  "trait": [
   "Cleric",
   "Fortune"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Fortune](/Traits.aspx?ID=76)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Fortune](/Traits.aspx?ID=76)",
  "trait_raw": [
   "Cleric",
   "Fortune"
  ],
- "trigger": "You fail a saving throw against a  mental  effect.",
- "trigger_markdown": "You fail a saving throw against a [mental](/Traits.aspx?ID=106) effect.",
+ "trigger": "You fail a saving throw against a mental effect",
+ "trigger_markdown": "You fail a saving throw against a mental effect",
  "type": "Feat",
- "url": "/Feats.aspx?ID=1707",
+ "url": "/Feats.aspx?ID=4691",
  "weakness": {}
 }

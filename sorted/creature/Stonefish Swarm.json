@@ -1,0 +1,144 @@
+{
+ "ac": 16,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Defensive Spines",
+  "Inject Poison",
+  "Reef Camouflage",
+  "Stonefish Swarm Venom"
+ ],
+ "creature_family": "Fish",
+ "creature_family_markdown": "[Fish](/MonsterFamilies.aspx?ID=493)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 11,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 25,
+ "hp_raw": "25",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3275",
+ "immunity": [
+  "precision",
+  "swarm mind"
+ ],
+ "immunity_markdown": "precision, [swarm mind](/MonsterAbilities.aspx?ID=78)",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 2,
+ "markdown": "<title level=\"1\" pfs=\"\">[Stonefish Swarm](/Monsters.aspx?ID=3275)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nStonefish occasionally band together where food is abundant, filling all nooks and crannies of a coral reef. In large numbers, stonefish can take on prey much larger than themselves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Stonefish Swarm](/Monsters.aspx?ID=3275)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 148\n\n**Perception** +11; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +9, [Athletics](/Skills.aspx?ID=36) +6, [Stealth](/Skills.aspx?ID=48) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +11 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\n\n</row>\r\n\r\n**Immunities**\r\nprecision, [swarm mind](/MonsterAbilities.aspx?ID=78)\r\n\r\n**Resistances**\r\nbludgeoning 3, slashing 3\r\n\r\n**Weaknesses**\r\narea damage 3, [splash](/Traits.aspx?ID=699) damage 3\r\n\r\n**Defensive Spines** When a creature enters the stonefish swarm's space, that creature takes 1d4 piercing damage and is exposed to stonefish swarm venom.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** swim 25 feet\n\n**Inject Poison** <actions string=\"Single Action\" />  Each enemy in the swarm's space takes 2d4 piercing damage (DC 18 [basic](/Rules.aspx?ID=329) Reflex save). Creatures that fail the save are exposed to stonefish swarm venom.\r\n\r\n**Reef Camouflage** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32)) Until the next time it acts, the stonefish swarm appears to be a colorful coral reef. It has an automatic result of 26 on [Deception](/Skills.aspx?ID=38) checks and DCs to pass as a reef.\r\n\r\n**Stonefish Swarm Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 18 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison and [clumsy 1](/Conditions.aspx?ID=61) (1 round); **Stage 2** 1d6 poison and clumsy 2 (1 round); **Stage 3** 2d6 poison damage and clumsy 2 (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-493\" />",
+ "name": "Stonefish Swarm",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 148",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 8,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "bludgeoning": 3,
+  "slashing": 3
+ },
+ "resistance_markdown": "bludgeoning 3, slashing 3",
+ "resistance_raw": "bludgeoning 3, slashing 3",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 148\r\n\r\n**Creature Family** [Fish](/MonsterFamilies.aspx?ID=493)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n\r\n**AC** 16\r\n\r\n**Fort** +11\r\n\r\n**Ref** +8\r\n\r\n**Will** +5\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStonefish occasionally band together where food is abundant, filling all nooks and crannies of a coral reef. In large numbers, stonefish can take on …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +9, [Athletics](/Skills.aspx?ID=36) +6, [Stealth](/Skills.aspx?ID=48) +11",
+ "skill_mod": {
+  "acrobatics": 9,
+  "athletics": 6,
+  "stealth": 11
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 148"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 148",
+ "speed": {
+  "max": 25,
+  "swim": 25
+ },
+ "speed_markdown": "swim 25 feet",
+ "speed_raw": "swim 25 feet",
+ "spell_markdown": "",
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Stonefish occasionally band together where food is abundant, filling all nooks and crannies of a coral reef. In large numbers, stonefish can take on …",
+ "summary_markdown": "Stonefish occasionally band together where food is abundant, filling all nooks and crannies of a coral reef. In large numbers, stonefish can take on …",
+ "text": " Stonefish Swarm Stonefish occasionally band together where food is abundant, filling all nooks and crannies of a coral reef. In large numbers, stonefish can take on prey much larger than themselves. Recall Knowledge - Animal (Nature): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Stonefish Swarm Source Howl of the Wild pg. 148 Perception +11; low-light vision Languages Skills Acrobatics +9, Athletics +6, Stealth +11 Str +2 Dex +3 Con +2 Int -5 Wis +1 Cha -1 --- AC 16 Fort +11 Ref +8 Will +5 HP 25 Immunities precision, swarm mind Resistances bludgeoning 3, slashing 3 Weaknesses area damage 3, splash damage 3 Defensive Spines When a creature enters the stonefish swarm's space, that creature takes 1d4 piercing damage and is exposed to stonefish swarm venom. --- Speed swim 25 feet Inject Poison Single Action Each enemy in the swarm's space takes 2d4 piercing damage (DC 18 basic Reflex save). Creatures that fail the save are exposed to stonefish swarm venom. Reef Camouflage Single Action (Concentrate) Until the next time it acts, the stonefish swarm appears to be a colorful coral reef. It has an automatic result of 26 on Deception checks and DCs to pass as a reef. Stonefish Swarm Venom (Poison) Saving Throw DC 18 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison and clumsy 1 (1 round); Stage 2 1d6 poison and clumsy 2 (1 round); Stage 3 2d6 poison damage and clumsy 2 (1 round) ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Aquatic",
+  "Swarm",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Aquatic](/Traits.aspx?ID=533), [Swarm](/Traits.aspx?ID=707)",
+ "trait_raw": [
+  "Animal",
+  "Aquatic",
+  "Swarm"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3275",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "area": 3
+ },
+ "weakness_markdown": "area damage 3, [splash](/Traits.aspx?ID=699) damage 3",
+ "weakness_raw": "area damage 3,  splash  damage 3",
+ "will_save": 5,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

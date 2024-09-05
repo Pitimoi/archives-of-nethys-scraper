@@ -1,76 +1,123 @@
 {
  "ac": 27,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 6,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Change Shape",
-  "Dervish Strike",
-  "Matriarch's Caress"
+  "Matriarch's Caress",
+  "Scimitar Storm"
  ],
  "creature_family": "Lamia",
- "creature_family_markdown": "[Lamia](/MonsterFamilies.aspx?ID=66)",
+ "creature_family_markdown": "[Lamia](/MonsterFamilies.aspx?ID=436)",
  "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 13,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 135,
  "hp_raw": "135",
- "id": "creature-278",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3078",
  "image": [
-  "/Images/Monsters/Lamia_LamiaMatriarch.png"
+  "/Images/Monsters/Lamia_Matriarch.webp"
  ],
  "immunity": [
   "controlled"
  ],
- "immunity_markdown": "controlled",
+ "immunity_markdown": "[controlled](/Conditions.aspx?ID=64)",
  "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking scimitar"
+ ],
  "language": [
-  "Abyssal",
+  "Chthonian",
   "Common",
   "Draconic"
  ],
- "language_markdown": "[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)",
+ "language_markdown": "[Chthonian](/Languages.aspx?ID=114), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)",
+ "legacy_id": "creature-278",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Lamia Matriarch](/Monsters.aspx?ID=278)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their kind. Consequently, the become rulers of other lamia. For all their cruelty toward other creatures, they’re fierce protectors of other lamia, and consequently they quickly come to rule cults or warbands. Regardless of the lamia’s gender, these ascended lamias are always known as matriarchs. Rather than leonine limbs, a lamia matriarch’s lower body is formed in the winding coils of a giant snake. They’re also set apart by the occult power they pursue, and some have even have grand designs to break the animalistic curse that transformed them. However, every attempt so far has led to the matriarch’s fall.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lamia_LamiaMatriarch.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Lamia Matriarch](/Monsters.aspx?ID=278)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 217</row>\n\n**Perception** +15; darkvision\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Cult Lore](/Skills.aspx?ID=8) +15, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +18, [Occultism](/Skills.aspx?ID=11) +17, [Stealth](/Skills.aspx?ID=15) +16, [Survival](/Skills.aspx?ID=16) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +3\r\n\r\n**Wis** +3\r\n\r\n**Cha** +6\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=280) [scimitar](/Weapons.aspx?ID=38)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +17 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 135\n\n**Immunities**\r\ncontrolled\r\n\r\n**Resistances**\r\nmental 10\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_scimitar_ +19 ([forceful +2](/Traits.aspx?ID=180), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d6+10 slashing\r\n\r\n**Occult Spontaneous Spells** DC 28\r\n- **Cantrips (3rd)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Mage Hand](/Spells.aspx?ID=177), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246)\r\n- **1st**\r\n[Bless](/Spells.aspx?ID=25), [Magic Missile](/Spells.aspx?ID=180), [Phantom Pain](/Spells.aspx?ID=220), [Soothe](/Spells.aspx?ID=291) (4 slots)\r\n- **2nd**\r\n[Blur](/Spells.aspx?ID=28), [Death Knell](/Spells.aspx?ID=63), [Illusory Creature](/Spells.aspx?ID=158), [Invisibility](/Spells.aspx?ID=164) (4 slots)\r\n- **3rd**\r\n[Dispel Magic](/Spells.aspx?ID=78), [Enthrall](/Spells.aspx?ID=104), [Haste](/Spells.aspx?ID=147), [Mind Reading](/Spells.aspx?ID=194) (4 slots)\r\n\r\n**Occult Innate Spells** DC 28\r\n- **1st**\r\n[Ventriloquism](/Spells.aspx?ID=356) (at will)\r\n- **2nd**\r\n[Illusory Disguise](/Spells.aspx?ID=159) (at will), [Illusory Object](/Spells.aspx?ID=160) (at will), [Mirror Image](/Spells.aspx?ID=197)\r\n- **3rd**\r\n[Sleep](/Spells.aspx?ID=288)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (x3), [Suggestion](/Spells.aspx?ID=315) (x3)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)) The lamia matriarch can take on the appearance of a Medium humanoid. This doesn’t change their Speed or their attack and damage modifiers with their Strikes, but it does prevent them from using their cursed touch. Each lamia matriarch has a fixed humanoid form—they cannot adopt a different appearance each time they use this ability, and the appearance resembles that of their upper torso when in their true form.\r\n\r\n**Dervish Strike** <actions string=\"Three Actions\" />  The lamia matriarch makes a scimitar attack against each enemy within reach. Each attack counts toward their multiple attack penalty, but the penalty does not increase until after all the attacks. The first enemy she damages is subject to matriarch’s caress.\r\n\r\n**Matriarch's Caress** <actions string=\"Two Actions\" /> ([Curse](/Traits.aspx?ID=38), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120)) The lamia touches a creature, who must succeed at a DC 28 Will save or become [stupefied 1](/Conditions.aspx?ID=37) ([stupefied 2](/Conditions.aspx?ID=37) if critically failed). If the target fails additional saves against this ability, the condition value increases by 1 if failed or 2 if critically failed (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-66\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Lamia Matriarch](/Monsters.aspx?ID=3078)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their kind. Consequently, they become rulers of other lamia. For all their cruelty toward other creatures, they're fierce protectors of other lamia, and consequently, they quickly come to rule cults or warbands. Regardless of the lamia's gender, these ascended lamias are always known as matriarchs. A lamia matriarch is set apart from their kindred by the occult power they pursue, and some have even had grand designs to break the animalistic curse that transformed them. However, every attempt so far has led to the matriarch's fall.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 24\r\n\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lamia_Matriarch.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Lamia Matriarch](/Monsters.aspx?ID=3078)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 215\n\n**Perception** +15; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Chthonian](/Languages.aspx?ID=114), [Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Cult Lore](/Skills.aspx?ID=8) +15, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +18, [Occultism](/Skills.aspx?ID=11) +17, [Stealth](/Skills.aspx?ID=15) +16, [Survival](/Skills.aspx?ID=16) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** +3\r\n\r\n**Wis** +3\r\n\r\n**Cha** +6\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [scimitar](/Weapons.aspx?ID=393)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +18 \r\n\r\n**Will** +17 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\n\n</row>\r\n\r\n**Immunities**\r\n[controlled](/Conditions.aspx?ID=64)\r\n\r\n**Resistances**\r\n[mental](/Traits.aspx?ID=647) 10\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_scimitar_ +19 ([forceful +2](/Traits.aspx?ID=75), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d6+10 slashing\r\n\r\n**Occult Spontaneous Spells** DC 28\r\n- **Cantrips (3rd)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246), [Telekinetic Hand](/Spells.aspx?ID=1715)\r\n- **1st**\r\n[Bless](/Spells.aspx?ID=25), [Force Barrage](/Spells.aspx?ID=1536), [Phantom Pain](/Spells.aspx?ID=220), [Soothe](/Spells.aspx?ID=291) (4 slots)\r\n- **2nd**\r\n[Blur](/Spells.aspx?ID=28), [Illusory Creature](/Spells.aspx?ID=158), [Invisibility](/Spells.aspx?ID=164) (4 slots)\r\n- **3rd**\r\n[Dispel Magic](/Spells.aspx?ID=78), [Enthrall](/Spells.aspx?ID=104), [Haste](/Spells.aspx?ID=147), [Mind Reading](/Spells.aspx?ID=194) (4 slots)\r\n\r\n**Occult Innate Spells** DC 28\r\n- **1st**\r\n[Ventriloquism](/Spells.aspx?ID=356) (at will)\r\n- **2nd**\r\n[Illusory Disguise](/Spells.aspx?ID=159) (at will), [Illusory Object](/Spells.aspx?ID=160) (at will), [Blur](/Spells.aspx?ID=28)\r\n- **4th**\r\n[Charm](/Spells.aspx?ID=34) (×3), [Suggestion](/Spells.aspx?ID=315) (×3), [Sleep](/Spells.aspx?ID=288)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127)) The lamia matriarch can take on the appearance of a Medium [humanoid](/Traits.aspx?ID=628). This doesn't change their Speed or their attack and damage modifiers with their Strikes, but it does prevent them from using their cursed touch. Each lamia matriarch has a fixed humanoid form that resembles their upper torso when in their true form. This is the only humanoid form they can adopt using this ability.\r\n\r\n**Matriarch's Caress** <actions string=\"Two Actions\" /> ([Curse](/Traits.aspx?ID=38), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120)) The lamia touches a creature, who must succeed at a DC 28 Will save or become [stupefied 2](/Conditions.aspx?ID=94). If the target fails additional saves against this ability, the condition value increases by 2 (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours.\r\n\r\n**Scimitar Storm** <actions string=\"Three Actions\" />  The lamia matriarch makes a scimitar attack against each enemy within reach. Each attack counts toward their multiple attack penalty, but the penalty does not increase until after all the attacks. The first enemy they damage is subject to Matriarch's Caress.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-436\" />",
  "name": "Lamia Matriarch",
  "npc": false,
  "perception": 15,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 215",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 18,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "mental": 10
  },
- "resistance_markdown": "mental 10",
- "resistance_raw": "mental 10",
- "search_markdown": "<traits>\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=20\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 217</row>\r\n\r\n**Creature Family** [Lamia](/MonsterFamilies.aspx?ID=66)\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 27\r\n\r\n**Fort** +13\r\n\r\n**Ref** +18\r\n\r\n**Will** +17\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "resistance_markdown": "[mental](/Traits.aspx?ID=647) 10",
+ "resistance_raw": " mental  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 215\r\n\r\n**Creature Family** [Lamia](/MonsterFamilies.aspx?ID=436)\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 27\r\n\r\n**Fort** +13\r\n\r\n**Ref** +18\r\n\r\n**Will** +17\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Athletics +18",
-  "Cult Lore +15",
-  "Deception +20",
-  "Diplomacy +20",
-  "Intimidation +18",
-  "Occultism +17",
-  "Stealth +16",
-  "Survival +13"
+  "Athletics",
+  "Cult Lore",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Occultism",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +18, [Cult Lore](/Skills.aspx?ID=8) +15, [Deception](/Skills.aspx?ID=5) +20, [Diplomacy](/Skills.aspx?ID=6) +20, [Intimidation](/Skills.aspx?ID=7) +18, [Occultism](/Skills.aspx?ID=11) +17, [Stealth](/Skills.aspx?ID=15) +16, [Survival](/Skills.aspx?ID=16) +13",
+ "skill_mod": {
+  "athletics": 18,
+  "deception": 20,
+  "diplomacy": 20,
+  "intimidation": 18,
+  "occultism": 17,
+  "stealth": 16,
+  "survival": 13
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 217"
+  "Monster Core pg. 215"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 217</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 215",
  "speed": {
   "climb": 30,
   "land": 30,
@@ -85,47 +132,74 @@
   "Haste",
   "Mind Reading",
   "Blur",
-  "Death Knell",
   "Illusory Creature",
   "Invisibility",
   "Bless",
-  "Magic Missile",
+  "Force Barrage",
   "Phantom Pain",
   "Soothe",
   "Daze",
   "Detect Magic",
-  "Mage Hand",
   "Prestidigitation",
   "Read Aura",
+  "Telekinetic Hand",
   "Charm",
   "Suggestion",
   "Sleep",
   "Illusory Disguise",
   "Illusory Object",
-  "Mirror Image",
   "Ventriloquism"
  ],
- "spell_markdown": "[Bless](/Spells.aspx?ID=25), [Blur](/Spells.aspx?ID=28), [Charm](/Spells.aspx?ID=34), [Daze](/Spells.aspx?ID=61), [Death Knell](/Spells.aspx?ID=63), [Detect Magic](/Spells.aspx?ID=66), [Dispel Magic](/Spells.aspx?ID=78), [Enthrall](/Spells.aspx?ID=104), [Haste](/Spells.aspx?ID=147), [Illusory Creature](/Spells.aspx?ID=158), [Illusory Disguise](/Spells.aspx?ID=159), [Illusory Object](/Spells.aspx?ID=160), [Invisibility](/Spells.aspx?ID=164), [Mage Hand](/Spells.aspx?ID=177), [Magic Missile](/Spells.aspx?ID=180), [Mind Reading](/Spells.aspx?ID=194), [Mirror Image](/Spells.aspx?ID=197), [Phantom Pain](/Spells.aspx?ID=220), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246), [Sleep](/Spells.aspx?ID=288), [Soothe](/Spells.aspx?ID=291), [Suggestion](/Spells.aspx?ID=315), [Ventriloquism](/Spells.aspx?ID=356)",
+ "spell_markdown": "[Bless](/Spells.aspx?ID=25), [Blur](/Spells.aspx?ID=28), [Charm](/Spells.aspx?ID=34), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Dispel Magic](/Spells.aspx?ID=78), [Enthrall](/Spells.aspx?ID=104), [Force Barrage](/Spells.aspx?ID=1536), [Haste](/Spells.aspx?ID=147), [Illusory Creature](/Spells.aspx?ID=158), [Illusory Disguise](/Spells.aspx?ID=159), [Illusory Object](/Spells.aspx?ID=160), [Invisibility](/Spells.aspx?ID=164), [Mind Reading](/Spells.aspx?ID=194), [Phantom Pain](/Spells.aspx?ID=220), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246), [Sleep](/Spells.aspx?ID=288), [Soothe](/Spells.aspx?ID=291), [Suggestion](/Spells.aspx?ID=315), [Telekinetic Hand](/Spells.aspx?ID=1715), [Ventriloquism](/Spells.aspx?ID=356)",
+ "spell_dc": [
+  28,
+  28
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "16",
+ "strike_damage_average": [
+  17
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "The brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their …",
  "summary_markdown": "The brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their …",
- "text": " Lamia Matriarch The brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their kind. Consequently, the become rulers of other lamia. For all their cruelty toward other creatures, they’re fierce protectors of other lamia, and consequently they quickly come to rule cults or warbands. Regardless of the lamia’s gender, these ascended lamias are always known as matriarchs. Rather than leonine limbs, a lamia matriarch’s lower body is formed in the winding coils of a giant snake. They’re also set apart by the occult power they pursue, and some have even have grand designs to break the animalistic curse that transformed them. However, every attempt so far has led to the matriarch’s fall. Recall Knowledge - Beast (Arcana, Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Lamia Matriarch Source Bestiary pg. 217 Perception +15; darkvision Languages Abyssal, Common, Draconic Skills Athletics +18, Cult Lore +15, Deception +20, Diplomacy +20, Intimidation +18, Occultism +17, Stealth +16, Survival +13 Str +6 Dex +4 Con +3 Int +3 Wis +3 Cha +6 Items +1 striking scimitar --- AC 27 Fort +13 Ref +18 Will +17 +1 status to all saves vs. magic HP 135 Immunities controlled Resistances mental 10 --- Speed 30 feet, climb 30 feet, swim 30 feet Melee Single Action scimitar +19 (forceful +2, Sweep), Damage 2d6+10 slashing Occult Spontaneous Spells DC 28 - Cantrips (3rd) Daze, Detect Magic, Mage Hand, Prestidigitation, Read Aura - 1st Bless, Magic Missile, Phantom Pain, Soothe (4 slots) - 2nd Blur, Death Knell, Illusory Creature, Invisibility (4 slots) - 3rd Dispel Magic, Enthrall, Haste, Mind Reading (4 slots) Occult Innate Spells DC 28 - 1st Ventriloquism (at will) - 2nd Illusory Disguise (at will), Illusory Object (at will), Mirror Image - 3rd Sleep - 4th Charm (x3), Suggestion (x3) Change Shape Single Action (Concentrate, Occult, Polymorph, Transmutation) The lamia matriarch can take on the appearance of a Medium humanoid. This doesn’t change their Speed or their attack and damage modifiers with their Strikes, but it does prevent them from using their cursed touch. Each lamia matriarch has a fixed humanoid form—they cannot adopt a different appearance each time they use this ability, and the appearance resembles that of their upper torso when in their true form. Dervish Strike Three Actions The lamia matriarch makes a scimitar attack against each enemy within reach. Each attack counts toward their multiple attack penalty, but the penalty does not increase until after all the attacks. The first enemy she damages is subject to matriarch’s caress. Matriarch's Caress Two Actions (Curse, Enchantment, Mental, Occult) The lamia touches a creature, who must succeed at a DC 28 Will save or become stupefied 1 (stupefied 2 if critically failed). If the target fails additional saves against this ability, the condition value increases by 1 if failed or 2 if critically failed (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours. ",
+ "text": " Lamia Matriarch The brilliant and powerful lamia matriarchs possess boundless ambition, always seeking to bring more people and territory into the clutches of their kind. Consequently, they become rulers of other lamia. For all their cruelty toward other creatures, they're fierce protectors of other lamia, and consequently, they quickly come to rule cults or warbands. Regardless of the lamia's gender, these ascended lamias are always known as matriarchs. A lamia matriarch is set apart from their kindred by the occult power they pursue, and some have even had grand designs to break the animalistic curse that transformed them. However, every attempt so far has led to the matriarch's fall. Recall Knowledge - Beast (Arcana, Nature): DC 24 Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Lamia Matriarch Source Monster Core pg. 215 Perception +15; darkvision Languages Chthonian, Common, Draconic Skills Athletics +18, Cult Lore +15, Deception +20, Diplomacy +20, Intimidation +18, Occultism +17, Stealth +16, Survival +13 Str +6 Dex +4 Con +3 Int +3 Wis +3 Cha +6 Items +1 striking scimitar --- AC 27 Fort +13 Ref +18 Will +17 +1 status to all saves vs. magic HP 135 Immunities controlled Resistances mental 10 --- Speed 30 feet, climb 30 feet, swim 30 feet Melee Single Action scimitar +19 (forceful +2, Sweep), Damage 2d6+10 slashing Occult Spontaneous Spells DC 28 - Cantrips (3rd) Daze, Detect Magic, Prestidigitation, Read Aura, Telekinetic Hand - 1st Bless, Force Barrage, Phantom Pain, Soothe (4 slots) - 2nd Blur, Illusory Creature, Invisibility (4 slots) - 3rd Dispel Magic, Enthrall, Haste, Mind Reading (4 slots) Occult Innate Spells DC 28 - 1st Ventriloquism (at will) - 2nd Illusory Disguise (at will), Illusory Object (at will), Blur - 4th Charm (×3), Suggestion (×3), Sleep Change Shape Single Action (Concentrate, Occult, Polymorph) The lamia matriarch can take on the appearance of a Medium humanoid. This doesn't change their Speed or their attack and damage modifiers with their Strikes, but it does prevent them from using their cursed touch. Each lamia matriarch has a fixed humanoid form that resembles their upper torso when in their true form. This is the only humanoid form they can adopt using this ability. Matriarch's Caress Two Actions (Curse, Mental, Occult) The lamia touches a creature, who must succeed at a DC 28 Will save or become stupefied 2. If the target fails additional saves against this ability, the condition value increases by 2 (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours. Scimitar Storm Three Actions The lamia matriarch makes a scimitar attack against each enemy within reach. Each attack counts toward their multiple attack penalty, but the penalty does not increase until after all the attacks. The first enemy they damage is subject to Matriarch's Caress. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Beast",
-  "CE",
+  "Humanoid",
   "Large"
  ],
- "trait_markdown": "[Beast](/Traits.aspx?ID=20)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Humanoid](/Traits.aspx?ID=628)",
  "trait_raw": [
-  "Beast"
+  "Beast",
+  "Humanoid"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=278",
+ "url": "/Monsters.aspx?ID=3078",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -133,5 +207,9 @@
  ],
  "weakness": {},
  "will_save": 17,
- "wisdom": 3
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

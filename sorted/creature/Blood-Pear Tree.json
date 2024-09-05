@@ -1,0 +1,180 @@
+{
+ "ac": 38,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "NE",
+ "attack_bonus": [
+  30,
+  34,
+  34
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Plant",
+  "Axe Vulnerability",
+  "Take Root"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 31,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 350,
+ "hp_raw": "350 ( negative healing )",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2570",
+ "immunity": [
+  "death  effects",
+  "disease",
+  "paralyzed",
+  "poison",
+  "unconscious"
+ ],
+ "immunity_markdown": "[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Arboreal",
+  "Necril",
+  "Sylvan",
+  "(can't speak any language)"
+ ],
+ "language_markdown": "[Arboreal](/Languages.aspx?ID=26), [Necril](/Languages.aspx?ID=20), [Sylvan](/Languages.aspx?ID=10); (can't speak any language)",
+ "level": 17,
+ "markdown": "<title level=\"1\" pfs=\"\">[Blood-Pear Tree](/Monsters.aspx?ID=2570)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 46\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 44\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 41\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 17\">[Blood-Pear Tree](/Monsters.aspx?ID=2570)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 55\n\n**Perception** +29; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Arboreal](/Languages.aspx?ID=26), [Necril](/Languages.aspx?ID=20), [Sylvan](/Languages.aspx?ID=10); (can't speak any language)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +32, [Stealth](/Skills.aspx?ID=15) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +5\r\n\r\n**Con** +6\r\n\r\n**Int** -2\r\n\r\n**Wis** +6\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Plant** When it isn't in danger, the corpseroot spends 1 minute rooting to the earth, becoming planted in place. While the corpseroot is planted and immobile, creatures must actively [Seek](/Actions.aspx?ID=84) and succeed at a DC 36 Perception check (DC 40 in forests) to detect the corpseroot's true nature.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 38 \r\n\r\n**Fort** +31 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +27 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 350\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)\r\n\r\n**Resistances**\r\nbludgeoning 15, piercing 15\r\n\r\n**Weaknesses**\r\naxe vulnerability, [fire](/Traits.aspx?ID=72) 15\r\n\r\n**Axe Vulnerability** The Blood-Pear Tree takes 15 additional damage from [axes](/WeaponGroups.aspx?ID=1).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbranch +34 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+17 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nroot +34 ([Agile](/Traits.aspx?ID=170), [reach 20 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 3d8+17 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nbloody pear +30 ([range increment 20 feet](/Traits.aspx?ID=248), [Splash](/Traits.aspx?ID=150)),\r\n**Damage** 2d6+12 bludgeoning plus 2d6 bleed splash damage\n\n**Take Root** <actions string=\"Single Action\" /> ([Necromancy](/Traits.aspx?ID=117), [Primal](/Traits.aspx?ID=134)) **Frequency** once per round; **Requirements** The Blood-Pear Tree has a creature [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33); **Effect** The Blood-Pear Tree buries its roots into the creature, dealing 2d6+17 piercing damage (DC 38 [basic](/Rules.aspx?ID=329) Fortitude save). On a failure, the creature is [enfeebled 1](/Conditions.aspx?ID=13) (or increases the value by 1 if already enfeebled), and the corpseroot regains 15 HP. If this would make a creature enfeebled 5, the creature dies.\r\n\r\n</column>",
+ "name": "Blood-Pear Tree",
+ "npc": false,
+ "perception": 29,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #191: The Destiny War",
+ "primary_source_raw": "Pathfinder #191: The Destiny War pg. 55",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 26,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-05-24",
+ "resistance": {
+  "bludgeoning": 15,
+  "piercing": 15
+ },
+ "resistance_markdown": "bludgeoning 15, piercing 15",
+ "resistance_raw": "bludgeoning 15, piercing 15",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 55\n\n<row gap=\"medium\">\r\n**HP** 350 ( negative healing )\r\n\r\n**AC** 38\r\n\r\n**Fort** +31\r\n\r\n**Ref** +26\r\n\r\n**Will** +27\r\n\r\n**Perception** +29\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +32, [Stealth](/Skills.aspx?ID=15) +30",
+ "skill_mod": {
+  "athletics": 32,
+  "stealth": 30
+ },
+ "source": [
+  "Pathfinder #191: The Destiny War"
+ ],
+ "source_raw": [
+  "Pathfinder #191: The Destiny War pg. 55"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #191: The Destiny War](/Sources.aspx?ID=199) pg. 55",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "spoilers": "Stolen Fate",
+ "stealth": "30",
+ "strike_damage_average": [
+  26,
+  30,
+  36
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "text": " Blood-Pear Tree Recall Knowledge - Undead (Religion): DC 46 Unspecific Lore : DC 44 Specific Lore : DC 41 Blood-Pear Tree Source Pathfinder #191: The Destiny War pg. 55 Perception +29; darkvision Languages Arboreal, Necril, Sylvan; (can't speak any language) Skills Athletics +32, Stealth +30 Str +9 Dex +5 Con +6 Int -2 Wis +6 Cha +2 Plant When it isn't in danger, the corpseroot spends 1 minute rooting to the earth, becoming planted in place. While the corpseroot is planted and immobile, creatures must actively Seek and succeed at a DC 36 Perception check (DC 40 in forests) to detect the corpseroot's true nature. --- AC 38 Fort +31 Ref +26 Will +27 HP 350 (negative healing) Immunities death effects, disease, paralyzed, poison, unconscious Resistances bludgeoning 15, piercing 15 Weaknesses axe vulnerability, fire 15 Axe Vulnerability The Blood-Pear Tree takes 15 additional damage from axes. --- Speed 20 feet Melee Single Action branch +34 (reach 15 feet), Damage 3d12+17 bludgeoning Melee Single Action root +34 (Agile, reach 20 feet, Trip), Damage 3d8+17 bludgeoning plus Grab Ranged Single Action bloody pear +30 (range increment 20 feet, Splash), Damage 2d6+12 bludgeoning plus 2d6 bleed splash damage Take Root Single Action (Necromancy, Primal) Frequency once per round; Requirements The Blood-Pear Tree has a creature grabbed or restrained; Effect The Blood-Pear Tree buries its roots into the creature, dealing 2d6+17 piercing damage (DC 38 basic Fortitude save). On a failure, the creature is enfeebled 1 (or increases the value by 1 if already enfeebled), and the corpseroot regains 15 HP. If this would make a creature enfeebled 5, the creature dies. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Undead",
+  "Unique",
+  "NE",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Undead](/Traits.aspx?ID=160), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Undead",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2570",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "fire": 15
+ },
+ "weakness_markdown": "axe vulnerability, [fire](/Traits.aspx?ID=72) 15",
+ "weakness_raw": "axe vulnerability,  fire  15",
+ "will_save": 27,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

@@ -1,7 +1,6 @@
 {
  "access": "Characters from Geb have access to this item.",
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,35 +8,47 @@
  "id": "equipment-1801",
  "item_category": "Grimoires",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Tyrant's Writ](/Equipment.aspx?ID=1801)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178</row>\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n**Access** Characters from Geb have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or even the goddess [Urgathoa](/Deities.aspx?ID=19) herself. This grimoire appears at first to be a series of writs that makes arrogant demands of the reader, those around them, and the universe. Anyone who gives these writings more than a cursory look realizes the writs hold spells much like any other grimoire, with the [_animate dead_](/Spells.aspx?ID=666) spell being particularly prominent. _Tyrant's writs_ grants you the ability to demand more from the [undead](/Traits.aspx?ID=160) you animate.\n\n<document level=\"2\" id=\"action-1463\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Tyrant's Writ](/Equipment.aspx?ID=1801)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n**Access** Characters from Geb have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or even the goddess [Urgathoa](/Deities.aspx?ID=19) herself. This grimoire appears at first to be a series of writs that makes arrogant demands of the reader, those around them, and the universe. Anyone who gives these writings more than a cursory look realizes the writs hold spells much like any other grimoire, with the [_animate dead_](/Spells.aspx?ID=666) spell being particularly prominent. _Tyrant's writs_ grants you the ability to demand more from the [undead](/Traits.aspx?ID=160) you animate.\n\n**Activate** <actions string=\"Free Action\" /> envision ([metamagic](/Traits.aspx?ID=107)) **Frequency** once per day;   **Effect** If your next action is to Cast a Spell to cast an _animate dead_ spell prepared with _tyrant's writs_, you can choose one of the following additional benefits to grant the summoned undead. \n\n<ul><li>**Bloody** The undead gains [fast healing](/MonsterAbilities.aspx?ID=15) equal to its level.</li><li>**Explosive** When it reaches 0 Hit Points, the undead explodes, dealing 4d6 fire damage to adjacent creatures, with a [basic](/Rules.aspx?ID=329) Reflex save using the _animate dead_ spell's DC. As normal, since the [_final sacrifice_](/Spells.aspx?ID=689) spell doesn't reduce the target to 0 Hit Points, it doesn't cause this explosion.</li><li>**Necrotic Speed** The undead gains a +10-foot status bonus to all its Speeds.</li><li>**Rotten** Any living creature who starts its turn adjacent to the undead who isn't at full Hit Points takes 1d6 poison damage.</li></ul>\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Tyrant's Writ",
  "pfs": "Standard",
  "price": 50000,
  "price_raw": "500 gp",
+ "primary_source": "Impossible Lands",
+ "primary_source_raw": "Impossible Lands pg. 178",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-11-16",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178</row>\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Impossible Lands](/Sources.aspx?ID=146) pg. 178\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Impossible Lands"
  ],
  "source_raw": [
   "Impossible Lands pg. 178"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Impossible Lands](/Sources.aspx?ID=146) pg. 178</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Impossible Lands](/Sources.aspx?ID=146) pg. 178",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or …",
  "summary_markdown": "A spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or …",
- "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Tyrant's Writ Source Impossible Lands pg. 178 Price 500 gp Bulk L Access Characters from Geb have access to this item. --- A spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or even the goddess Urgathoa herself. This grimoire appears at first to be a series of writs that makes arrogant demands of the reader, those around them, and the universe. Anyone who gives these writings more than a cursory look realizes the writs hold spells much like any other grimoire, with the animate dead spell being particularly prominent. Tyrant's writs grants you the ability to demand more from the undead you animate.\n",
+ "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Tyrant's Writ Source Impossible Lands pg. 178 Price 500 gp Bulk L Access Characters from Geb have access to this item. --- A spirited debate persists among scholars on whether the eponymous tyrant of this grimoire actually refers to Tar-Baphon, the necromancer Geb, or even the goddess Urgathoa herself. This grimoire appears at first to be a series of writs that makes arrogant demands of the reader, those around them, and the universe. Anyone who gives these writings more than a cursory look realizes the writs hold spells much like any other grimoire, with the animate dead spell being particularly prominent. Tyrant's writs grants you the ability to demand more from the undead you animate. Activate Free Action envision (metamagic) Frequency once per day; Effect If your next action is to Cast a Spell to cast an animate dead spell prepared with tyrant's writs , you can choose one of the following additional benefits to grant the summoned undead. Bloody The undead gains fast healing equal to its level. Explosive When it reaches 0 Hit Points, the undead explodes, dealing 4d6 fire damage to adjacent creatures, with a basic Reflex save using the animate dead spell's DC. As normal, since the final sacrifice spell doesn't reduce the target to 0 Hit Points, it doesn't cause this explosion. Necrotic Speed The undead gains a +10-foot status bonus to all its Speeds. Rotten Any living creature who starts its turn adjacent to the undead who isn't at full Hit Points takes 1d6 poison damage. ",
  "trait": [
   "Grimoire",
   "Magical",
   "Necromancy",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Grimoire](/Traits.aspx?ID=387), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

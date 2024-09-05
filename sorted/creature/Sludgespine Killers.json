@@ -1,10 +1,28 @@
 {
  "ac": 14,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  5,
+  6,
+  6
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
  "creature_ability": [
   "Weeping Wounds",
   "Pack Attack",
@@ -12,46 +30,81 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 6,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 8,
  "hp_raw": "8",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-1934",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Bola (2)",
+  "Leather Armor",
+  "Sap"
+ ],
  "language": [
   "Common",
   "Gnoll"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Gnoll](/Languages.aspx?ID=17)",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"\">[Sludgespine Killers](/Monsters.aspx?ID=1934)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Sludgespine Killers](/Monsters.aspx?ID=1934)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Gnoll\" url=\"/Traits.aspx?ID=219\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 25</row>\n\n**Perception** +5\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Gnoll](/Languages.aspx?ID=17)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +5, [Intimidation](/Skills.aspx?ID=7) +4, [Stealth](/Skills.aspx?ID=15) +4, [Thievery](/Skills.aspx?ID=17) +4\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Bola](/Weapons.aspx?ID=92) (2), [Leather Armor](/Armor.aspx?ID=4), [Sap](/Weapons.aspx?ID=37)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +5 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 8\n\n**Weeping Wounds** The fluid in a Sludgespine's pustules is harmful to other creatures. Whenever a creature hits a Sludgespine killer with a melee attack, the attacker must succeed at a DC 14 Reflex save or take 1 acid damage (2 acid damage on a critical failure).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +6 ([Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d6 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsap +6 ([Agile](/Traits.aspx?ID=170), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d6 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nbola +5 ([Nonlethal](/Traits.aspx?ID=188), [range 20 feet](/Traits.aspx?ID=248), [Ranged Trip](/Traits.aspx?ID=251), [Thrown](/Traits.aspx?ID=195)),\r\n**Damage** 1d6 bludgeoning\n\n**Pack Attack**   A gnoll deals 1d4 extra damage to any creature that's within reach of at least two of the gnoll's allies.\r\n\r\n**Stealthy Abduction**   When a Sludgespine killer successfully [Grapples](/Actions.aspx?ID=35) a creature, that creature makes no sound; other creatures can't notice the grapple by hearing alone. As long as it's grappled, the creature can't use actions with the [auditory](/Traits.aspx?ID=16) trait or cast spells with a verbal component.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Sludgespine Killers](/Monsters.aspx?ID=1934)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Sludgespine Killers](/Monsters.aspx?ID=1934)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Gnoll\" url=\"/Traits.aspx?ID=219\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 25\n\n**Perception** +5\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Gnoll](/Languages.aspx?ID=17)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +5, [Intimidation](/Skills.aspx?ID=7) +4, [Stealth](/Skills.aspx?ID=15) +4, [Thievery](/Skills.aspx?ID=17) +4\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n**Items**\r\n[Bola](/Weapons.aspx?ID=92) (2), [Leather Armor](/Armor.aspx?ID=4), [Sap](/Weapons.aspx?ID=37)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 14 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +5 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\n\n</row>\n\n**Weeping Wounds** The fluid in a Sludgespine's pustules is harmful to other creatures. Whenever a creature hits a Sludgespine killer with a melee attack, the attacker must succeed at a DC 14 Reflex save or take 1 acid damage (2 acid damage on a critical failure).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +6 ([Unarmed](/Traits.aspx?ID=199)),\r\n**Damage** 1d6 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsap +6 ([Agile](/Traits.aspx?ID=170), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d6 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nbola +5 ([Nonlethal](/Traits.aspx?ID=188), [range 20 feet](/Traits.aspx?ID=248), [Ranged Trip](/Traits.aspx?ID=251), [Thrown](/Traits.aspx?ID=195)),\r\n**Damage** 1d6 bludgeoning\n\n**Pack Attack**   A gnoll deals 1d4 extra damage to any creature that's within reach of at least two of the gnoll's allies.\r\n\r\n**Stealthy Abduction**   When a Sludgespine killer successfully [Grapples](/Actions.aspx?ID=35) a creature, that creature makes no sound; other creatures can't notice the grapple by hearing alone. As long as it's grappled, the creature can't use actions with the [auditory](/Traits.aspx?ID=16) trait or cast spells with a verbal component.\r\n\r\n</column>",
  "name": "Sludgespine Killers",
  "npc": false,
  "perception": 5,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #178: Punks in a Powderkeg",
+ "primary_source_raw": "Pathfinder #178: Punks in a Powderkeg pg. 25",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Outlaws of Alkenstar",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 5,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2022-04-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Gnoll\" url=\"/Traits.aspx?ID=219\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 25</row>\n\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 14\r\n\r\n**Fort** +6\r\n\r\n**Ref** +5\r\n\r\n**Will** +5\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Gnoll\" url=\"/Traits.aspx?ID=219\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 25\n\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 14\r\n\r\n**Fort** +6\r\n\r\n**Ref** +5\r\n\r\n**Will** +5\r\n\r\n**Perception** +5\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +5",
-  "Intimidation +4",
-  "Stealth +4",
-  "Thievery +4"
+  "Athletics",
+  "Intimidation",
+  "Stealth",
+  "Thievery"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +5, [Intimidation](/Skills.aspx?ID=7) +4, [Stealth](/Skills.aspx?ID=15) +4, [Thievery](/Skills.aspx?ID=17) +4",
+ "skill_mod": {
+  "athletics": 5,
+  "intimidation": 4,
+  "stealth": 4,
+  "thievery": 4
+ },
  "source": [
   "Pathfinder #178: Punks in a Powderkeg"
  ],
  "source_raw": [
   "Pathfinder #178: Punks in a Powderkeg pg. 25"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Outlaws of Alkenstar",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 25</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Outlaws of Alkenstar"
+ ],
+ "source_markdown": "[Pathfinder #178: Punks in a Powderkeg](/Sources.aspx?ID=119) pg. 25",
  "speed": {
   "land": 25,
   "max": 25
@@ -61,18 +114,39 @@
  "spell_markdown": "",
  "spoilers": "Outlaws of Alkenstar",
  "stealth": "4",
+ "strike_damage_average": [
+  3,
+  3,
+  3
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "text": " Sludgespine Killers Recall Knowledge - Humanoid (Society): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Sludgespine Killers Source Pathfinder #178: Punks in a Powderkeg pg. 25 Perception +5 Languages Common, Gnoll Skills Athletics +5, Intimidation +4, Stealth +4, Thievery +4 Str +0 Dex +1 Con +3 Int -1 Wis +2 Cha -1 Items Bola (2), Leather Armor, Sap --- AC 14 Fort +6 Ref +5 Will +5 HP 8 Weeping Wounds The fluid in a Sludgespine's pustules is harmful to other creatures. Whenever a creature hits a Sludgespine killer with a melee attack, the attacker must succeed at a DC 14 Reflex save or take 1 acid damage (2 acid damage on a critical failure). --- Speed 25 feet Melee Single Action jaws +6 (Unarmed), Damage 1d6 piercing Melee Single Action sap +6 (Agile, Nonlethal), Damage 1d6 bludgeoning Ranged Single Action bola +5 (Nonlethal, range 20 feet, Ranged Trip, Thrown), Damage 1d6 bludgeoning Pack Attack A gnoll deals 1d4 extra damage to any creature that's within reach of at least two of the gnoll's allies. Stealthy Abduction When a Sludgespine killer successfully Grapples a creature, that creature makes no sound; other creatures can't notice the grapple by hearing alone. As long as it's grappled, the creature can't use actions with the auditory trait or cast spells with a verbal component. ",
+ "tradition_markdown": "",
  "trait": [
   "Gnoll",
   "Humanoid",
   "Uncommon",
   "CE",
-  "Medium"
+  "Medium",
+  "Kholo"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Gnoll](/Traits.aspx?ID=219), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -89,5 +163,9 @@
  ],
  "weakness": {},
  "will_save": 5,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

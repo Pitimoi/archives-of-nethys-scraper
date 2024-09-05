@@ -1,38 +1,45 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Elementalist"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Redirect Elements"
  ],
  "feat_markdown": "Redirect Elements",
- "id": "feat-2992",
+ "id": "feat-4350",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Redirect Elements](/Feats.aspx?ID=2992) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=98)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n**Trigger**\r\nThe spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails.\n\n</column>\r\n\r\n---\r\n\r\nYou seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area. The attacker rerolls the spell's attack roll against the new target.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Redirect Elements](/Feats.aspx?ID=4350) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Archetype** [Elementalist](/Archetypes.aspx?ID=207)\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340)\n\n**Trigger**\r\nThe spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails, and the elemental trait is in your elemental philosophy.\n\n</column>\r\n\r\n---\r\n\r\nYou seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area. The attacker rerolls the spell's attack roll against the new target.",
  "name": "Redirect Elements",
  "pfs": "Standard",
  "prerequisite": "Elementalist Dedication",
- "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=2986)",
+ "prerequisite_markdown": "[Elementalist Dedication](/Feats.aspx?ID=4340)",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 59",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2021-09-01",
+ "rarity_id": 1,
+ "release_date": "2023-08-02",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=2986)\n\n**Trigger**\r\nThe spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 59\n\n**Prerequisites**\r\n[Elementalist Dedication](/Feats.aspx?ID=4340)\n\n**Trigger**\r\nThe spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails, and the elemental trait is in your elemental philosophy.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Secrets of Magic"
+  "Rage of Elements"
  ],
  "source_raw": [
-  "Secrets of Magic pg. 207"
+  "Rage of Elements pg. 59"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 207 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 59",
  "speed": {},
  "summary": "You seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area.",
  "summary_markdown": "You seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area.",
- "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Redirect Elements Reaction Source Secrets of Magic pg. 207 1.1 Archetype Elementalist Prerequisites Elementalist Dedication Trigger The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails. --- You seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area. The attacker rerolls the spell's attack roll against the new target.",
+ "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Redirect Elements Reaction Source Rage of Elements pg. 59 Archetype Elementalist Prerequisites Elementalist Dedication Trigger The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails, and the elemental trait is in your elemental philosophy. --- You seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area. The attacker rerolls the spell's attack roll against the new target.",
  "trait": [
   "Archetype"
  ],
@@ -40,9 +47,9 @@
  "trait_raw": [
   "Archetype"
  ],
- "trigger": "The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails.",
- "trigger_markdown": "The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails.",
+ "trigger": "The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails, and the elemental trait is in your elemental philosophy.",
+ "trigger_markdown": "The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails, and the elemental trait is in your elemental philosophy.",
  "type": "Feat",
- "url": "/Feats.aspx?ID=2992",
+ "url": "/Feats.aspx?ID=4350",
  "weakness": {}
 }

@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,35 +7,47 @@
  "id": "equipment-2173",
  "item_category": "Grimoires",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Codex of Destruction and Renewal](/Equipment.aspx?ID=2173)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup></row>\n\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nAn unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each half. Each _codex of destruction and renewal_ is said to contain a fragment of the knowledge [Nethys](/Deities.aspx?ID=12) gained in his apotheosis and they're sacred to his church.\n\n<document level=\"2\" id=\"action-1669\" />\n\n<document level=\"2\" id=\"action-1670\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Limited\"\r\n>\r\n[Codex of Destruction and Renewal](/Equipment.aspx?ID=2173)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup>\n\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nAn unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each half. Each _codex of destruction and renewal_ is said to contain a fragment of the knowledge [Nethys](/Deities.aspx?ID=12) gained in his apotheosis and they're sacred to his church.\n\n**Activate** <actions string=\"Single Action\" /> envision ([metamagic](/Traits.aspx?ID=107)) **Frequency** once per day;   **Effect** If your next action is to cast a damage-dealing evocation spell prepared from this grimoire, the spell wreaks even greater destruction. The spell ignores 10 resistance and you reroll any damage dice that roll a 1. If the spell reduces a creature to 0 Hit Points, they're torn apart at an infinitesimal level, not even leaving a fine ash; this is a [death](/Traits.aspx?ID=40) effect.\n\n**Activate** <actions string=\"Single Action\" /> envision ([metamagic](/Traits.aspx?ID=107)) **Frequency** once per day;   **Effect** If your next action is to cast a [necromancy](/Traits.aspx?ID=117) spell prepared from this grimoire that restores Hit Points, the spell renews the target constantly and perfectly. The spell grants the target [regeneration 20](/Rules.aspx?ID=796), restoring 20 Hit Points at the start of its turn and preventing the target both from dying due to damage and from its [dying](/Conditions.aspx?ID=11) condition increasing to a value that would result in its death. Each time the creature regains Hit Points from regeneration, it regrows all damaged or ruined organs; it can also regrow any severed body parts as a free action immediately after the body part is severed, with the original crumbling to ash. The effect lasts for 4 rounds.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Codex of Destruction and Renewal",
- "pfs": "Standard",
+ "pfs": "Limited",
  "price": 7000000,
  "price_raw": "70,000 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 111",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup></row>\r\n\r\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup>\r\n\r\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAn unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 111"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "An unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each …",
  "summary_markdown": "An unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each …",
- "text": "<title level=\"1\" right=\"Item 20\" pfs=\"Standard\" > Codex of Destruction and Renewal Source Treasure Vault pg. 111 1.1 Price 70,000 gp Bulk L --- An unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each half. Each codex of destruction and renewal is said to contain a fragment of the knowledge Nethys gained in his apotheosis and they're sacred to his church.\n",
+ "text": "<title level=\"1\" right=\"Item 20\" pfs=\"Limited\" > Codex of Destruction and Renewal Source Treasure Vault pg. 111 1.1 Price 70,000 gp Bulk L --- An unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each half. Each codex of destruction and renewal is said to contain a fragment of the knowledge Nethys gained in his apotheosis and they're sacred to his church. Activate Single Action envision (metamagic) Frequency once per day; Effect If your next action is to cast a damage-dealing evocation spell prepared from this grimoire, the spell wreaks even greater destruction. The spell ignores 10 resistance and you reroll any damage dice that roll a 1. If the spell reduces a creature to 0 Hit Points, they're torn apart at an infinitesimal level, not even leaving a fine ash; this is a death effect. Activate Single Action envision (metamagic) Frequency once per day; Effect If your next action is to cast a necromancy spell prepared from this grimoire that restores Hit Points, the spell renews the target constantly and perfectly. The spell grants the target regeneration 20, restoring 20 Hit Points at the start of its turn and preventing the target both from dying due to damage and from its dying condition increasing to a value that would result in its death. Each time the creature regains Hit Points from regeneration, it regrows all damaged or ruined organs; it can also regrow any severed body parts as a free action immediately after the body part is severed, with the original crumbling to ash. The effect lasts for 4 rounds.\n",
  "trait": [
   "Grimoire",
   "Magical",
   "Necromancy",
   "Rare"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Grimoire](/Traits.aspx?ID=387), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

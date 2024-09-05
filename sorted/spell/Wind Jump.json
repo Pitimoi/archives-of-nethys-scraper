@@ -1,18 +1,24 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Air"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "6th"
+ ],
+ "heighten_group": [
+  "5th rank",
+  "Heightened 6th rank"
  ],
  "heighten_level": [
   5,
@@ -20,44 +26,60 @@
  ],
  "id": "spell-490",
  "level": 5,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 5\" pfs=\"Standard\">[Wind Jump](/Spells.aspx?ID=490)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou gain a fly Speed equal to your Speed. You must end your turn on solid ground, or you fall.\n\n---\r\n**Heightened (6th)** At the end of your turn, you can attempt a DC 30 Acrobatics check to find purchase in midair. If you succeed, you don't fall.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 5\" pfs=\"Standard\">\r\n[Wind Jump](/Spells.aspx?ID=490)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou gain a fly Speed equal to your Speed. You must end your turn on solid ground, or you fall.\n\n---\r\n**Heightened (6th)** At the end of your turn, you can attempt a DC 30 Acrobatics check to find purchase in midair. If you succeed, you don't fall.",
  "name": "Wind Jump",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 402",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain a fly Speed equal to your Speed.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Air\" url=\"/Traits.aspx?ID=5\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou gain a fly Speed equal to your Speed.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 402"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 402 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You gain a fly Speed equal to your Speed.",
  "summary_markdown": "You gain a fly Speed equal to your Speed.",
- "text": " Wind Jump Source Core Rulebook pg. 402 4.0 Cast Single Action verbal Duration 1 minute --- You gain a fly Speed equal to your Speed. You must end your turn on solid ground, or you fall. --- Heightened (6th) At the end of your turn, you can attempt a DC 30 Acrobatics check to find purchase in midair. If you succeed, you don't fall.",
+ "text": "\nWind Jump Single Action Source Core Rulebook pg. 402 4.0 Cast verbal Duration 1 minute --- You gain a fly Speed equal to your Speed. You must end your turn on solid ground, or you fall. --- Heightened (6th) At the end of your turn, you can attempt a DC 30 Acrobatics check to find purchase in midair. If you succeed, you don't fall.",
  "tradition_markdown": "",
  "trait": [
   "Air",
   "Monk",
   "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Air](/Traits.aspx?ID=5), [Monk](/Traits.aspx?ID=112), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Class",
+  "Weapon",
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Air](/Traits.aspx?ID=5), [Monk](/Traits.aspx?ID=112), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Air",
   "Monk",
   "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=490",
  "weakness": {}
 }

@@ -1,7 +1,8 @@
 {
  "actions": "Free Action",
+ "actions_number": 0,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "frequency": "once per day",
@@ -9,25 +10,35 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 5,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Limited\"\r\n>\r\n[Warrior's Training Ring](/Equipment.aspx?ID=481)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from The Fall of Plaguestone</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [The Fall of Plaguestone](/Sources.aspx?ID=3) pg. 58</row>\n\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Free Action\" /><row>envision</row></row>\r\n\r\n**Frequency** once per day\r\n\r\n**Trigger** You make an attack with a weapon in which you’re untrained; You gain a +2 circumstance bonus to the attack roll. If you are an expert in any weapon, you instead gain a +4 circumstance bonus to the attack roll.\r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis ring is utilitarian in design—indicating its martial use. Its band is decorated only with a simple, sharp-edged sculpture on the band’s center. While wearing this ring, you add your level to your attack rolls with all weapons with which you are untrained.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 5\"\r\n    pfs=\"Limited\"\r\n>\r\n[Warrior's Training Ring](/Equipment.aspx?ID=481)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from The Fall of Plaguestone</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [The Fall of Plaguestone](/Sources.aspx?ID=3) pg. 58\n\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Free Action\" /><row>envision</row></row>\r\n\r\n**Frequency** once per day\r\n\r\n**Trigger** You make an attack with a weapon in which you’re untrained; You gain a +2 circumstance bonus to the attack roll. If you are an expert in any weapon, you instead gain a +4 circumstance bonus to the attack roll.\r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis ring is utilitarian in design—indicating its martial use. Its band is decorated only with a simple, sharp-edged sculpture on the band’s center. While wearing this ring, you add your level to your attack rolls with all weapons with which you are untrained.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Warrior's Training Ring",
  "pfs": "Limited",
  "price": 16000,
  "price_raw": "160 gp",
+ "primary_source": "The Fall of Plaguestone",
+ "primary_source_raw": "The Fall of Plaguestone pg. 58",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "The Fall of Plaguestone",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [The Fall of Plaguestone](/Sources.aspx?ID=3) pg. 58</row>\r\n\r\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Free Action\" /><row>envision</row></row>\r\n\r\n**Frequency** once per day\r\n\r\n**Trigger** You make an attack with a weapon in which you’re untrained; You gain a +2 circumstance bonus to the attack roll. If you are an expert in any weapon, you instead gain a +4 circumstance bonus to the attack roll.\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis ring is utilitarian in design—indicating its martial use. Its band is decorated only with a simple, sharp-edged sculpture on the band’s center. …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [The Fall of Plaguestone](/Sources.aspx?ID=3) pg. 58\r\n\r\n**Price** 160 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Free Action\" /><row>envision</row></row>\r\n\r\n**Frequency** once per day\r\n\r\n**Trigger** You make an attack with a weapon in which you’re untrained; You gain a +2 circumstance bonus to the attack roll. If you are an expert in any weapon, you instead gain a +4 circumstance bonus to the attack roll.\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis ring is utilitarian in design—indicating its martial use. Its band is decorated only with a simple, sharp-edged sculpture on the band’s center. …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "The Fall of Plaguestone"
  ],
  "source_raw": [
   "The Fall of Plaguestone pg. 58"
  ],
- "source_category": "Adventures",
- "source_group": "The Fall of Plaguestone",
- "source_markdown": "<row gap=\"tiny\">[The Fall of Plaguestone](/Sources.aspx?ID=3) pg. 58</row>",
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "The Fall of Plaguestone"
+ ],
+ "source_markdown": "[The Fall of Plaguestone](/Sources.aspx?ID=3) pg. 58",
  "speed": {},
  "spell_markdown": "",
  "spoilers": "The Fall of Plaguestone",
@@ -39,6 +50,11 @@
   "Divination",
   "Invested",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Invested](/Traits.aspx?ID=98), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

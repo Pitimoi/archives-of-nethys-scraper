@@ -1,41 +1,53 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "bulk_raw": " when not activated",
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1374",
  "item_category": "Structures",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 14\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Memory Palace](/Equipment.aspx?ID=1374)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 80</row>\n\n**Price** 4,200 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk**  when not activated\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _memory palace_ is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small enough to fit in the palm of a human hand.\n\n<document level=\"2\" id=\"action-1062\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 14\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Memory Palace](/Equipment.aspx?ID=1374)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 80\n\n**Price** 4,200 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk**  when not activated\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _memory palace_ is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small enough to fit in the palm of a human hand.\n\n**Activate** <actions string=\"\" /> (10 minutes) envision, Interact;  **Frequency** once per day;   **Effect** The miniature grows into a building connected to the [Astral Plane](/Planes.aspx?ID=8) for 1 hour. The _memory palace_ has a 30-foot-square central courtyard surrounded by 12 10-foot-square chambers. Arranged within these chambers are various items referred to as the palace's nodes—statues, tapestries, fountains, and other works of art are common, but a node can take other forms at the GM's discretion. As a 10-minute activity, you can imprint one extended memory onto a node: the contents of a specific simple book, for example, or the events of a recent adventure. When you do, the node changes its shape and appearance to visually represent the memory you have imprinted onto it. If the node was already imprinted with a memory, the old one can be overwritten to repurpose the node.\n\n Memories you have imprinted on a node can be mentally accessed at any time by a creature holding the memory palace in its miniature form, regardless of who imprinted them. This grants a +2 item bonus to [Recall Knowledge](/Actions.aspx?ID=26) checks relating to details specifically occurring within the memory. What exactly qualifies is up to the GM's discretion, but a node shouldn't grant the benefits for most uses of a given skill. For example, a node dedicated to a book about trees found in the Mwangi Expanse would help with Recall Knowledge checks for such trees, but it wouldn't grant the benefits for all [Nature](/Skills.aspx?ID=10) checks to Recall Knowledge.\n\n A _memory palace_ node can also store the text from a [spellbook](/Equipment.aspx?ID=53) or magical tome, but these memories aren't a substitute for having the book in your possession. A wizard can't prepare spells from a memory palace, though they could use it as source material to try to [Learn a Spell](/Actions.aspx?ID=25). However, since storing spells in a node would only benefit someone else who later discovers the _memory palace_, few choose to take such an action. The memories contained within the nodes aren't real, and thus don't cause harmful effects, even if the source of the memory was a mental danger. Many _memory palaces_ have leftover memories from previous users—now long dead—imprinted on their various nodes.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Memory Palace",
  "pfs": "Restricted",
  "price": 420000,
  "price_raw": "4,200 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 80",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 80</row>\r\n\r\n**Price** 4,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n  when not activated\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  memory palace  is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 80\r\n\r\n**Price** 4,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk**  when not activated\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  memory palace  is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 80"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 80</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 80",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A  memory palace  is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small …",
  "summary_markdown": "A  memory palace  is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small …",
- "text": "<title level=\"1\" right=\"Item 14\" pfs=\"Restricted\" > Memory Palace Source Grand Bazaar pg. 80 Price 4,200 gp Bulk when not activated --- A memory palace is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small enough to fit in the palm of a human hand.\n",
+ "text": "<title level=\"1\" right=\"Item 14\" pfs=\"Restricted\" > Memory Palace Source Grand Bazaar pg. 80 Price 4,200 gp Bulk when not activated --- A memory palace is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small enough to fit in the palm of a human hand. Activate (10 minutes) envision, Interact; Frequency once per day; Effect The miniature grows into a building connected to the Astral Plane for 1 hour. The memory palace has a 30-foot-square central courtyard surrounded by 12 10-foot-square chambers. Arranged within these chambers are various items referred to as the palace's nodes—statues, tapestries, fountains, and other works of art are common, but a node can take other forms at the GM's discretion. As a 10-minute activity, you can imprint one extended memory onto a node: the contents of a specific simple book, for example, or the events of a recent adventure. When you do, the node changes its shape and appearance to visually represent the memory you have imprinted onto it. If the node was already imprinted with a memory, the old one can be overwritten to repurpose the node. Memories you have imprinted on a node can be mentally accessed at any time by a creature holding the memory palace in its miniature form, regardless of who imprinted them. This grants a +2 item bonus to Recall Knowledge checks relating to details specifically occurring within the memory. What exactly qualifies is up to the GM's discretion, but a node shouldn't grant the benefits for most uses of a given skill. For example, a node dedicated to a book about trees found in the Mwangi Expanse would help with Recall Knowledge checks for such trees, but it wouldn't grant the benefits for all Nature checks to Recall Knowledge. A memory palace node can also store the text from a spellbook or magical tome, but these memories aren't a substitute for having the book in your possession. A wizard can't prepare spells from a memory palace, though they could use it as source material to try to Learn a Spell. However, since storing spells in a node would only benefit someone else who later discovers the memory palace , few choose to take such an action. The memories contained within the nodes aren't real, and thus don't cause harmful effects, even if the source of the memory was a mental danger. Many memory palaces have leftover memories from previous users—now long dead—imprinted on their various nodes.\n",
  "trait": [
   "Conjuration",
   "Magical",
   "Structure",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103), [Structure](/Traits.aspx?ID=153), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

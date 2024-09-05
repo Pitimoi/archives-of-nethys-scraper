@@ -1,0 +1,177 @@
+{
+ "ac": 26,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  20,
+  21
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Bean Panic",
+  "Reactive Strike",
+  "Change Shape",
+  "Thundering Iron"
+ ],
+ "creature_family": "Oni",
+ "creature_family_markdown": "[Oni](/MonsterFamilies.aspx?ID=452)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 165,
+ "hp_raw": "165 (Weaknesses bean panic,  spirit  10)",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3121",
+ "image": [
+  "/Images/Monsters/Mountain_Oni.webp"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking tetsubo"
+ ],
+ "language": [
+  "Common"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Mountain Oni](/Monsters.aspx?ID=3121)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nMountain oni are the most common oni and often considered the least sophisticated. While other oni might have a stronger connection to the spiritual world, mountain oni have little interest in anything beyond satisfying their relentless appetites. Sloth and gluttony are common vices among mountain oni, which can allow them to coexist with nearby villages so long as they're well fed, but more ambitious mountain oni can often be found leading ogre war parties or orchestrating violent bandit raids. It's rare for mountain oni to live solitary existences, but those who do prefer to maraud the countryside or exploit villages and hoard the spoils for themselves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Mountain_Oni.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Mountain Oni](/Monsters.aspx?ID=3121)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=765\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 252\n\n**Perception** +17; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Survival](/Skills.aspx?ID=16) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +3\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n_+1 [striking](/Equipment.aspx?ID=2829) [tetsubo](/Weapons.aspx?ID=444)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 165\r\n(Weaknesses bean panic, [spirit](/Traits.aspx?ID=737) 10)\n\n</row>\n\n**Bean Panic** Oni are curiously afraid of beans, especially as the seasons begin to change. If a creature Interacts to throw a handful of beans at the oni, the oni becomes frightened 2. While frightened this way, their weakness to spirit damage is increased by 5. The oni then becomes immune to bean panic for 24 hours.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_tetsubo_ +21 ([Magical](/Traits.aspx?ID=103), [Razing](/Traits.aspx?ID=488), [reach 10 feet](/Traits.aspx?ID=192), [Shove](/Traits.aspx?ID=193), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d10+9 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+9 piercing plus 1d6 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Primal Innate Spells** DC 25\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Polymorph](/Traits.aspx?ID=127), [Primal](/Traits.aspx?ID=134)) The  mountain oni can take on the appearance of any Medium or Large [humanoid](/Traits.aspx?ID=628) creature. This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning).\r\n\r\n**Thundering Iron** <actions string=\"Two Actions\" />  The oni lifts their tetsubo and brings it down in a deafening peal. They make a tetsubo Strike. On a success, the target takes an additional 1d10 sonic damage. Each creature in a 10-foot emanation around the target, other than the oni, take this damage as well and is [pushed](/Rules.aspx?ID=451) 5 feet away from the target.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Tetsubo</title>\r\n\r\nA mountain oni wields a [tetsubo](/Weapons.aspx?ID=444), which appears in _Lost Omens Tian Xia Character Guide_. This [uncommon](/Traits.aspx?ID=721) martial weapon costs 3 gp, deals 1d10 bludgeoning damage, has 3 Bulk, and require two hands to use. Tetsubo are in the [club](/WeaponGroups.aspx?ID=5) weapon group and have the [razing](/Traits.aspx?ID=488), [shove](/Traits.aspx?ID=694), and [sweep](/Traits.aspx?ID=708) traits. The razing trait means that whenever the weapon damages an object, the object takes an amount of additional damage equal to double the number of weapon damage dice.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-452\" />",
+ "name": "Mountain Oni",
+ "npc": false,
+ "perception": 17,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 252",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 15,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=616\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Oni\" url=\"/Traits.aspx?ID=765\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 252\r\n\r\n**Creature Family** [Oni](/MonsterFamilies.aspx?ID=452)\r\n\r\n<row gap=\"medium\">\r\n**HP** 165 (Weaknesses bean panic,  spirit  10)\r\n\r\n**AC** 26\r\n\r\n**Fort** +18\r\n\r\n**Ref** +15\r\n\r\n**Will** +14\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMountain oni are the most common oni and often considered the least sophisticated. While other oni might have a stronger connection to the spiritual …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Deception",
+  "Intimidation",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +16, [Deception](/Skills.aspx?ID=5) +18, [Intimidation](/Skills.aspx?ID=7) +18, [Survival](/Skills.aspx?ID=16) +17",
+ "skill_mod": {
+  "athletics": 16,
+  "deception": 18,
+  "intimidation": 18,
+  "survival": 17
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 252"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 252",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell": [
+  "Invisibility"
+ ],
+ "spell_markdown": "[Invisibility](/Spells.aspx?ID=164)",
+ "spell_dc": [
+  25
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  19,
+  20
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Mountain oni are the most common oni and often considered the least sophisticated. While other oni might have a stronger connection to the spiritual …",
+ "summary_markdown": "Mountain oni are the most common oni and often considered the least sophisticated. While other oni might have a stronger connection to the spiritual …",
+ "text": " Mountain Oni Mountain oni are the most common oni and often considered the least sophisticated. While other oni might have a stronger connection to the spiritual world, mountain oni have little interest in anything beyond satisfying their relentless appetites. Sloth and gluttony are common vices among mountain oni, which can allow them to coexist with nearby villages so long as they're well fed, but more ambitious mountain oni can often be found leading ogre war parties or orchestrating violent bandit raids. It's rare for mountain oni to live solitary existences, but those who do prefer to maraud the countryside or exploit villages and hoard the spoils for themselves. Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Mountain Oni Source Monster Core pg. 252 Perception +17; darkvision Languages Common Skills Athletics +16, Deception +18, Intimidation +18, Survival +17 Str +6 Dex +3 Con +4 Int +0 Wis +3 Cha +4 Items +1 striking tetsubo --- AC 26 Fort +18 Ref +15 Will +14 HP 165 (Weaknesses bean panic, spirit 10) Bean Panic Oni are curiously afraid of beans, especially as the seasons begin to change. If a creature Interacts to throw a handful of beans at the oni, the oni becomes frightened 2. While frightened this way, their weakness to spirit damage is increased by 5. The oni then becomes immune to bean panic for 24 hours. Reactive Strike Reaction --- Speed 30 feet Melee Single Action tetsubo +21 (Magical, Razing, reach 10 feet, Shove, Sweep), Damage 2d10+9 bludgeoning Melee Single Action jaws +20 (Magical, reach 10 feet), Damage 2d6+9 piercing plus 1d6 persistent bleed Primal Innate Spells DC 25 - 2nd Invisibility (at will; self only) Change Shape Single Action (Concentrate, Polymorph, Primal) The mountain oni can take on the appearance of any Medium or Large humanoid creature. This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning). Thundering Iron Two Actions The oni lifts their tetsubo and brings it down in a deafening peal. They make a tetsubo Strike. On a success, the target takes an additional 1d10 sonic damage. Each creature in a 10-foot emanation around the target, other than the oni, take this damage as well and is pushed 5 feet away from the target. Tetsubo A mountain oni wields a tetsubo, which appears in Lost Omens Tian Xia Character Guide . This uncommon martial weapon costs 3 gp, deals 1d10 bludgeoning damage, has 3 Bulk, and require two hands to use. Tetsubo are in the club weapon group and have the razing, shove, and sweep traits. The razing trait means that whenever the weapon damages an object, the object takes an amount of additional damage equal to double the number of weapon damage dice. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Giant",
+  "Humanoid",
+  "Oni",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Giant](/Traits.aspx?ID=616), [Humanoid](/Traits.aspx?ID=628), [Oni](/Traits.aspx?ID=765)",
+ "trait_raw": [
+  "Giant",
+  "Humanoid",
+  "Oni"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3121",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 14,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

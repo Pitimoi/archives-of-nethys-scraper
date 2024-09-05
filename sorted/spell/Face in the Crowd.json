@@ -1,66 +1,78 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Cities"
  ],
- "domain_markdown": "[Cities](/Domains.aspx?ID=3)",
+ "domain_markdown": "[Cities](/Domains.aspx?ID=66)",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
  "heighten": [
   "3rd"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank"
+ ],
  "heighten_level": [
   1,
   3
  ],
- "id": "spell-421",
+ "id": "spell-1784",
+ "legacy_id": "spell-421",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Face in the Crowd](/Spells.aspx?ID=421)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Cities](/Domains.aspx?ID=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhile in a crowd of roughly similar creatures, your appearance becomes bland and nondescript. You gain a +2 status bonus to Deception and Stealth checks to go unnoticed among the crowd, and you ignore difficult terrain caused by the crowd.\n\n---\r\n**Heightened (3rd)** The spell gains a range of 10 feet and can target up to 10 creatures.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Face in the Crowd](/Spells.aspx?ID=1784)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 372\n\n**Domain**\r\n[Cities](/Domains.aspx?ID=66)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nWhile in a crowd of roughly similar creatures, your appearance becomes bland and nondescript. You gain a +2 status bonus to [Deception](/Skills.aspx?ID=5) and [Stealth](/Skills.aspx?ID=15) checks to go incognito among the crowd, and you ignore [difficult terrain](/Rules.aspx?ID=453) caused by the crowd. This counts as setting up a disguise for the [Impersonate](/Actions.aspx?ID=46) use of Deception and you add your level even if you're untrained.\n\n---\r\n**Heightened (3rd)** The spell gains a range of 10 feet and can target up to 10 creatures.",
  "name": "Face in the Crowd",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 372",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Cities](/Domains.aspx?ID=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile in a crowd of roughly similar creatures, your appearance becomes bland and nondescript.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 372\n\n**Domain**\r\n[Cities](/Domains.aspx?ID=66)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile in a crowd of roughly similar creatures, your appearance becomes bland and nondescript.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 392"
+  "Player Core pg. 372"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 372",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "While in a crowd of roughly similar creatures, your appearance becomes bland and nondescript.",
  "summary_markdown": "While in a crowd of roughly similar creatures, your appearance becomes bland and nondescript.",
- "text": " Face in the Crowd Source Core Rulebook pg. 392 4.0 Domain Cities Cast Single Action somatic Duration 1 minute --- While in a crowd of roughly similar creatures, your appearance becomes bland and nondescript. You gain a +2 status bonus to Deception and Stealth checks to go unnoticed among the crowd, and you ignore difficult terrain caused by the crowd. --- Heightened (3rd) The spell gains a range of 10 feet and can target up to 10 creatures.",
+ "text": "\nFace in the Crowd Single Action Source Player Core pg. 372 Domain Cities Duration 1 minute --- While in a crowd of roughly similar creatures, your appearance becomes bland and nondescript. You gain a +2 status bonus to Deception and Stealth checks to go incognito among the crowd, and you ignore difficult terrain caused by the crowd. This counts as setting up a disguise for the Impersonate use of Deception and you add your level even if you're untrained. --- Heightened (3rd) The spell gains a range of 10 feet and can target up to 10 creatures.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Illusion",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Visual"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Illusion](/Traits.aspx?ID=92), [Uncommon](/Traits.aspx?ID=159), [Visual](/Traits.aspx?ID=163)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Sense"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Visual](/Traits.aspx?ID=163)",
  "trait_raw": [
   "Cleric",
-  "Illusion",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Visual"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=421",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1784",
  "weakness": {}
 }

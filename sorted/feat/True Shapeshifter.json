@@ -1,45 +1,54 @@
 {
- "actions": "Two Actions",
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "True Shapeshifter"
  ],
  "feat_markdown": "True Shapeshifter",
- "id": "feat-355",
+ "id": "feat-4767",
+ "legacy_id": "feat-355",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[True Shapeshifter](/Feats.aspx?ID=355) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[Dragon Shape](/Feats.aspx?ID=340); [Wild Shape](/Feats.aspx?ID=316)\n\n</column>\r\n\r\n---\r\n\r\nYou transcend the limitations of form. While under the effects of [_wild shape_](/Spells.aspx?ID=481), you can change into any other form on your _wild shape_ list; if the durations of the forms would vary, use the shorter of the two durations.\n\n Once per day, you can transform into a kaiju, with the effects of [_nature incarnate_](/Spells.aspx?ID=204); if you have [Plant Shape](/Feats.aspx?ID=338), you can instead transform into a green man.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[True Shapeshifter](/Feats.aspx?ID=4767) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 135\n\n**Prerequisites**\r\n[Dragon Shape](/Feats.aspx?ID=4749); [Untamed Form](/Feats.aspx?ID=4713)\n\n</column>\r\n\r\n---\r\n\r\nYou transcend the limitations of form. Once per day you can cast [_nature incarnate_](/Spells.aspx?ID=1612), even if you don’t have it prepared, to transform into a kaiju. If you have [Plant Shape](/Feats.aspx?ID=338), you can choose to transform into a [green man](/Monsters.aspx?ID=1176) instead. You also gain the True Shapeshift activity.\n\n**True Shapeshift** <actions string=\"Two Actions\" /> ([concentrate](/Traits.aspx?ID=32)) **Requirements** You’re under the effects of [untamed form](/Feats.aspx?ID=4713); **Effect** You change into any other shape on your untamed form list. If the duration of that shape is different from the one you were previously in, use the shorter duration to determine your duration remaining.",
  "name": "True Shapeshifter",
  "pfs": "Standard",
- "prerequisite": "Dragon Shape; Wild Shape",
- "prerequisite_markdown": "[Dragon Shape](/Feats.aspx?ID=340); [Wild Shape](/Feats.aspx?ID=316)",
+ "prerequisite": "Dragon Shape; Untamed Form",
+ "prerequisite_markdown": "[Dragon Shape](/Feats.aspx?ID=4749); [Untamed Form](/Feats.aspx?ID=4713)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 135",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup></row>\n\n**Prerequisites**\r\n[Dragon Shape](/Feats.aspx?ID=340); [Wild Shape](/Feats.aspx?ID=316)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou transcend the limitations of form.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 135\n\n**Prerequisites**\r\n[Dragon Shape](/Feats.aspx?ID=4749); [Untamed Form](/Feats.aspx?ID=4713)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou transcend the limitations of form.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 139"
+  "Player Core pg. 135"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 139 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 135",
  "speed": {},
  "summary": "You transcend the limitations of form.",
  "summary_markdown": "You transcend the limitations of form.",
- "text": "<title level=\"1\" right=\"Feat 20\" pfs=\"Standard\" > True Shapeshifter Two Actions Source Core Rulebook pg. 139 4.0 Prerequisites Dragon Shape; Wild Shape --- You transcend the limitations of form. While under the effects of wild shape , you can change into any other form on your wild shape list; if the durations of the forms would vary, use the shorter of the two durations. Once per day, you can transform into a kaiju, with the effects of nature incarnate ; if you have Plant Shape, you can instead transform into a green man.",
+ "text": "<title level=\"1\" right=\"Feat 20\" pfs=\"Standard\" > True Shapeshifter Source Player Core pg. 135 Prerequisites Dragon Shape; Untamed Form --- You transcend the limitations of form. Once per day you can cast nature incarnate , even if you don’t have it prepared, to transform into a kaiju. If you have Plant Shape, you can choose to transform into a green man instead. You also gain the True Shapeshift activity. True Shapeshift Two Actions (concentrate) Requirements You’re under the effects of untamed form; Effect You change into any other shape on your untamed form list. If the duration of that shape is different from the one you were previously in, use the shorter duration to determine your duration remaining.",
  "trait": [
   "Concentrate",
   "Druid"
  ],
- "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=52)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=583)",
  "trait_raw": [
   "Concentrate",
   "Druid"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=355",
+ "url": "/Feats.aspx?ID=4767",
  "weakness": {}
 }

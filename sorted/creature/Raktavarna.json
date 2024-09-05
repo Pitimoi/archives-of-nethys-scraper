@@ -1,71 +1,110 @@
 {
  "ac": 16,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  9
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
+  "Knowledge of Delusion",
+  "Betraying Bite",
   "Change Shape",
   "Designate Master",
   "Master's Eyes",
   "Raktavarna Venom"
  ],
  "creature_family": "Rakshasa",
- "creature_family_markdown": "[Rakshasa](/MonsterFamilies.aspx?ID=85)",
+ "creature_family_markdown": "[Rakshasa](/MonsterFamilies.aspx?ID=461)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 5,
- "hp": 14,
- "hp_raw": "14",
- "id": "creature-1271",
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 20,
+ "hp_raw": "20",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3160",
  "image": [
-  "/Images/Monsters/Rakshasa_Raktavarna.png"
+  "/Images/Monsters/Raktavarna.webp"
  ],
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
+  "Chthonian",
   "Common",
-  "Infernal",
-  "Undercommon"
+  "Diabolic",
+  "Empyrean",
+  "Sakvroth"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Infernal](/Languages.aspx?ID=19), [Undercommon](/Languages.aspx?ID=11)",
+ "language_markdown": "[Chthonian](/Languages.aspx?ID=114), [Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115), [Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": "creature-1271",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Raktavarna](/Monsters.aspx?ID=1271)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe least of all rakshasas, raktavarnas resemble wicked serpents with glowing red eyes and oversized fangs. Often forced into service by mortal conjurers or more powerful rakshasas, raktavarnas frequently act subservient to their masters while secretly plotting to overthrow them.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 17\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 15\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 12\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Rakshasa_Raktavarna.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Raktavarna](/Monsters.aspx?ID=1271)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Rakshasa\" url=\"/Traits.aspx?ID=233\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 3](/Sources.aspx?ID=66) pg. 210</row>\n\n**Perception** +6; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Infernal](/Languages.aspx?ID=19), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +6, [Deception](/Skills.aspx?ID=5) +7, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +6 \r\n\r\n+2 status to all saves vs. [divine](/Traits.aspx?ID=48) magic\r\n</row>\r\n\r\n**HP** 14\n\n**Resistances**\r\nphysical 3 (except piercing)\r\n\r\n**Weaknesses**\r\ngood 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, climb 20 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +9 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+1 piercing plus raktavarna venom\r\n\r\n**Occult Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Command](/Spells.aspx?ID=45)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)) The raktavarna takes on the appearance of a Tiny inanimate object. If, while transformed, the raktavarna takes any action other than the purely mental (such as [Recall Knowledge](/Actions.aspx?ID=26)), they immediately revert to their original form. Until then, they can use [Deception](/Skills.aspx?ID=5) to [Impersonate](/Actions.aspx?ID=46) the object.\r\n\r\n**Designate Master**   A raktavarna can designate a creature as their master using a 10-minute invocation in which the master must participate. The raktavarna can revoke this status at any time.\r\n\r\n**Master's Eyes**   As a 3-action activity with the [concentrate](/Traits.aspx?ID=32) trait, a raktavarna's master can observe the world through the raktavarna's eyes, instead of their own. This uses the raktavarna's Perception and [darkvision](/MonsterAbilities.aspx?ID=12). Each round, the master must spend a single action, which also has the concentrate trait, to maintain the connection. This ability functions at any range, even on different planes of existence. If the raktavarna dies while their master is using this ability, the master is [stunned 5](/Conditions.aspx?ID=36).\r\n\r\n**Raktavarna Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 16 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d4 poison damage and [stupefied 1](/Conditions.aspx?ID=37) (1 round); **Stage 2** 1d4 poison damage and stupefied 2 (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-85\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Raktavarna](/Monsters.aspx?ID=3160)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nRaktavarnas are simple rakshasa incarnations of betrayal and assassination, often existing to test the mettle of those who were treacherous or poisonous in a previous life. They typically appear as a snake with blood-red eyes and oversized fangs, though they just as often appear in the guise of a sword or a piece of jewelry.\n\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Raktavarna.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Raktavarna](/Monsters.aspx?ID=3160)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Rakshasa\" url=\"/Traits.aspx?ID=768\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 286\n\n**Perception** +6; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Chthonian](/Languages.aspx?ID=114), [Common](/Languages.aspx?ID=1), [Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115), [Sakvroth](/Languages.aspx?ID=118)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Diplomacy](/Skills.aspx?ID=6) +7, [Deception](/Skills.aspx?ID=5) +7, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +4\r\n\r\n**Con** +2\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +5 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +6 \r\n\r\n+2 status to all saves vs. [divine](/Traits.aspx?ID=579) magic\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 3\r\n\r\n**Knowledge of Delusion** ([divine](/Traits.aspx?ID=579)) A creature that fails a [Recall Knowledge](/Actions.aspx?ID=2367) check or a Perception check to [Sense Motive](/Actions.aspx?ID=2302) on a rakshasa is [off-guard](/Conditions.aspx?ID=58) until the end of its next turn.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, climb 20 feet, swim 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +9 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 0 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d6+1 piercing plus raktavarna venom\r\n\r\n**Divine Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34), [Command](/Spells.aspx?ID=45)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**Betraying Bite**   A raktavarna gains a +2 bonus to Strikes against any creature that is holding it.\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127)) The raktavarna takes on the appearance of a Tiny inanimate object. If, while transformed, the raktavarna takes any action other than the purely mental (such as [Recall Knowledge](/Actions.aspx?ID=2367)), they immediately revert to their original form. Until then, they can use [Deception](/Skills.aspx?ID=38) to [Impersonate](/Actions.aspx?ID=2388) the object.\r\n\r\n**Designate Master**  ([Divine](/Traits.aspx?ID=48), [Exploration](/Traits.aspx?ID=66)) The raktavarna spends 10 minutes on an invocation alongside another creature. That creature becomes the raktavarna's master until the raktavarna dies or Dismisses the effect. The master gains the Master's Eyes activity as long as the bond lasts.\r\n\r\n**Master's Eyes** <actions string=\"Three Actions\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Scrying](/Traits.aspx?ID=141)) The master observes the world through the raktavarna's eyes instead of their own, using the raktavarna's Perception and [darkvision](/MonsterAbilities.aspx?ID=59). This lasts until the end of the master's next turn, but the master can Sustain the activity. This ability functions at any range, even on different planes of existence. If the raktavarna dies while their master is using this ability, the master is [stunned 5](/Conditions.aspx?ID=93).\r\n\r\n**Raktavarna Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 16 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d4 poison damage and [stupefied 1](/Conditions.aspx?ID=94) (1 round); **Stage 2** 1d4 poison damage and stupefied 2 (1 round).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-461\" />",
  "name": "Raktavarna",
  "npc": false,
  "perception": 6,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
- "rarity": "uncommon",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 286",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 9,
- "release_date": "2021-04-07",
- "resistance": {
-  "bludgeoning": 3,
-  "physical": 3,
-  "slashing": 3
- },
- "resistance_markdown": "physical 3 (except piercing)",
- "resistance_raw": "physical 3 (except piercing)",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n<trait label=\"Rakshasa\" url=\"/Traits.aspx?ID=233\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 3](/Sources.aspx?ID=66) pg. 210</row>\r\n\r\n**Creature Family** [Rakshasa](/MonsterFamilies.aspx?ID=85)\r\n\r\n<row gap=\"medium\">\r\n**HP** 14\r\n\r\n**AC** 16\r\n\r\n**Fort** +5\r\n\r\n**Ref** +9\r\n\r\n**Will** +6\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe least of all rakshasas, raktavarnas resemble wicked serpents with glowing red eyes and oversized fangs. Often forced into service by mortal …\r\n</summary>",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Rakshasa\" url=\"/Traits.aspx?ID=768\" />\r\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 286\r\n\r\n**Creature Family** [Rakshasa](/MonsterFamilies.aspx?ID=461)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 16\r\n\r\n**Fort** +5\r\n\r\n**Ref** +9\r\n\r\n**Will** +6\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nRaktavarnas are simple rakshasa incarnations of betrayal and assassination, often existing to test the mettle of those who were treacherous or …\r\n</summary>",
  "sense": " darkvision ",
- "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Tiny"
  ],
- "skill": [
-  "Acrobatics +7",
-  "Athletics +6",
-  "Deception +7",
-  "Stealth +7"
+ "size_id": [
+  1
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +7, [Athletics](/Skills.aspx?ID=3) +6, [Deception](/Skills.aspx?ID=5) +7, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill": [
+  "Athletics",
+  "Diplomacy",
+  "Deception",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +6, [Diplomacy](/Skills.aspx?ID=6) +7, [Deception](/Skills.aspx?ID=5) +7, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill_mod": {
+  "athletics": 6,
+  "deception": 7,
+  "diplomacy": 7,
+  "stealth": 7
+ },
  "source": [
-  "Bestiary 3"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 3 pg. 210"
+  "Monster Core pg. 286"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 3](/Sources.aspx?ID=66) pg. 210</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 286",
  "speed": {
   "climb": 20,
   "land": 20,
@@ -81,40 +120,70 @@
   "Detect Magic"
  ],
  "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Command](/Spells.aspx?ID=45), [Detect Magic](/Spells.aspx?ID=66), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_dc": [
+  16
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
  "stealth": "7",
+ "strike_damage_average": [
+  4
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "The least of all rakshasas, raktavarnas resemble wicked serpents with glowing red eyes and oversized fangs. Often forced into service by mortal …",
- "summary_markdown": "The least of all rakshasas, raktavarnas resemble wicked serpents with glowing red eyes and oversized fangs. Often forced into service by mortal …",
- "text": " Raktavarna The least of all rakshasas, raktavarnas resemble wicked serpents with glowing red eyes and oversized fangs. Often forced into service by mortal conjurers or more powerful rakshasas, raktavarnas frequently act subservient to their masters while secretly plotting to overthrow them. Recall Knowledge - Fiend (Religion): DC 17 Unspecific Lore : DC 15 Specific Lore : DC 12 Raktavarna Source Bestiary 3 pg. 210 Perception +6; darkvision Languages Common, Infernal, Undercommon Skills Acrobatics +7, Athletics +6, Deception +7, Stealth +7 Str +1 Dex +4 Con +2 Int +1 Wis +1 Cha +2 --- AC 16 Fort +5 Ref +9 Will +6 +2 status to all saves vs. divine magic HP 14 Resistances physical 3 (except piercing) Weaknesses good 3 --- Speed 20 feet, climb 20 feet, swim 20 feet Melee Single Action fangs +9 (Agile, Finesse), Damage 1d6+1 piercing plus raktavarna venom Occult Innate Spells DC 16 - Cantrips (1st) Detect Magic - 1st Charm, Command - 4th Read Omens Change Shape Single Action (Concentrate, Occult, Polymorph, Transmutation) The raktavarna takes on the appearance of a Tiny inanimate object. If, while transformed, the raktavarna takes any action other than the purely mental (such as Recall Knowledge), they immediately revert to their original form. Until then, they can use Deception to Impersonate the object. Designate Master A raktavarna can designate a creature as their master using a 10-minute invocation in which the master must participate. The raktavarna can revoke this status at any time. Master's Eyes As a 3-action activity with the concentrate trait, a raktavarna's master can observe the world through the raktavarna's eyes, instead of their own. This uses the raktavarna's Perception and darkvision. Each round, the master must spend a single action, which also has the concentrate trait, to maintain the connection. This ability functions at any range, even on different planes of existence. If the raktavarna dies while their master is using this ability, the master is stunned 5. Raktavarna Venom (Poison) Saving Throw DC 16 Fortitude; Maximum Duration 6 rounds; Stage 1 1d4 poison damage and stupefied 1 (1 round); Stage 2 1d4 poison damage and stupefied 2 (1 round) ",
+ "summary": "Raktavarnas are simple rakshasa incarnations of betrayal and assassination, often existing to test the mettle of those who were treacherous or …",
+ "summary_markdown": "Raktavarnas are simple rakshasa incarnations of betrayal and assassination, often existing to test the mettle of those who were treacherous or …",
+ "text": " Raktavarna Raktavarnas are simple rakshasa incarnations of betrayal and assassination, often existing to test the mettle of those who were treacherous or poisonous in a previous life. They typically appear as a snake with blood-red eyes and oversized fangs, though they just as often appear in the guise of a sword or a piece of jewelry. Raktavarna Source Monster Core pg. 286 Perception +6; darkvision Languages Chthonian, Common, Diabolic, Empyrean, Sakvroth Skills Athletics +6, Diplomacy +7, Deception +7, Stealth +7 Str +1 Dex +4 Con +2 Int +1 Wis +1 Cha +2 --- AC 16 Fort +5 Ref +9 Will +6 +2 status to all saves vs. divine magic HP 20 Weaknesses holy 3 Knowledge of Delusion (divine) A creature that fails a Recall Knowledge check or a Perception check to Sense Motive on a rakshasa is off-guard until the end of its next turn. --- Speed 20 feet, climb 20 feet, swim 20 feet Melee Single Action fangs +9 (Agile, Finesse, reach 0 feet), Damage 1d6+1 piercing plus raktavarna venom Divine Innate Spells DC 16 - Cantrips (1st) Detect Magic - 1st Charm, Command - 4th Read Omens Betraying Bite A raktavarna gains a +2 bonus to Strikes against any creature that is holding it. Change Shape Single Action (Concentrate, Occult, Polymorph) The raktavarna takes on the appearance of a Tiny inanimate object. If, while transformed, the raktavarna takes any action other than the purely mental (such as Recall Knowledge), they immediately revert to their original form. Until then, they can use Deception to Impersonate the object. Designate Master (Divine, Exploration) The raktavarna spends 10 minutes on an invocation alongside another creature. That creature becomes the raktavarna's master until the raktavarna dies or Dismisses the effect. The master gains the Master's Eyes activity as long as the bond lasts. Master's Eyes Three Actions (Concentrate, Divine, Scrying) The master observes the world through the raktavarna's eyes instead of their own, using the raktavarna's Perception and darkvision. This lasts until the end of the master's next turn, but the master can Sustain the activity. This ability functions at any range, even on different planes of existence. If the raktavarna dies while their master is using this ability, the master is stunned 5. Raktavarna Venom (Poison) Saving Throw DC 16 Fortitude; Maximum Duration 6 rounds; Stage 1 1d4 poison damage and stupefied 1 (1 round); Stage 2 1d4 poison damage and stupefied 2 (1 round). ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
-  "Fiend",
   "Rakshasa",
-  "Uncommon",
-  "LE",
+  "Spirit",
+  "Unholy",
   "Tiny"
  ],
- "trait_markdown": "[Fiend](/Traits.aspx?ID=70), [Rakshasa](/Traits.aspx?ID=233), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Monster"
+ ],
+ "trait_markdown": "[Rakshasa](/Traits.aspx?ID=768), [Spirit](/Traits.aspx?ID=737), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
-  "Fiend",
   "Rakshasa",
-  "Uncommon"
+  "Spirit",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=1271",
+ "url": "/Monsters.aspx?ID=3160",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
   "fortitude"
  ],
  "weakness": {
-  "good": 3
+  "holy": 3
  },
- "weakness_markdown": "good 3",
- "weakness_raw": "good 3",
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 3",
+ "weakness_raw": " holy  3",
  "will_save": 6,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

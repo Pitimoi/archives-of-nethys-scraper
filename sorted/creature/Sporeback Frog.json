@@ -1,0 +1,153 @@
+{
+ "ac": 21,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  13,
+  15
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Seed Spores",
+  "Soporific Spores"
+ ],
+ "creature_family": "Frog",
+ "creature_family_markdown": "[Frog](/MonsterFamilies.aspx?ID=494)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 94,
+ "hp_raw": "94",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3280",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"\">[Sporeback Frog](/Monsters.aspx?ID=3280)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThis burrowing frog digs itself into moist earth so poisonous moss and toxic mushrooms can grow on its body.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Sporeback Frog](/Monsters.aspx?ID=3280)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 151\n\n**Perception** +12; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +10, [Athletics](/Skills.aspx?ID=36) +12, [Stealth](/Skills.aspx?ID=48) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +5\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 94\n\n</row>\n\n**Resistances**\r\n[poison](/Traits.aspx?ID=669) 8\r\n\r\n**Weaknesses**\r\n[fire](/Traits.aspx?ID=604) 4\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, burrow 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +13,\r\n**Damage** 2d8+6 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntongue +15 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** seed spores\n\n**Seed Spores**   A creature hit by the sporeback frog's tongue Strike takes 1d6 [persistent poison damage](/Conditions.aspx?ID=29) as fungal spores begin to grow.\r\n\r\n**Soporific Spores** <actions string=\"Two Actions\" /> ([Mental](/Traits.aspx?ID=106), [Poison](/Traits.aspx?ID=126)) The sporeback frog shakes the plants and fungi on its back until they emit a cloud of spores in a 20-foot emanation. All creatures in the area must succeed a DC 22 Fortitude save or become [clumsy 2](/Conditions.aspx?ID=61) and [stupefied 2](/Conditions.aspx?ID=94) for 1 minute (clumsy 3 and stupefied 3 on a critical failure). This ability can't be used again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-494\" />",
+ "name": "Sporeback Frog",
+ "npc": false,
+ "perception": 12,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 151",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 12,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "poison": 8
+ },
+ "resistance_markdown": "[poison](/Traits.aspx?ID=669) 8",
+ "resistance_raw": " poison  8",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 151\r\n\r\n**Creature Family** [Frog](/MonsterFamilies.aspx?ID=494)\r\n\r\n<row gap=\"medium\">\r\n**HP** 94\r\n\r\n**AC** 21\r\n\r\n**Fort** +15\r\n\r\n**Ref** +12\r\n\r\n**Will** +9\r\n\r\n**Perception** +12\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis burrowing frog digs itself into moist earth so poisonous moss and toxic mushrooms can grow on its body.\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +10, [Athletics](/Skills.aspx?ID=36) +12, [Stealth](/Skills.aspx?ID=48) +13",
+ "skill_mod": {
+  "acrobatics": 10,
+  "athletics": 12,
+  "stealth": 13
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 151"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 151",
+ "speed": {
+  "burrow": 20,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet, burrow 20 feet",
+ "speed_raw": "25 feet, burrow 20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  15
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "This burrowing frog digs itself into moist earth so poisonous moss and toxic mushrooms can grow on its body.",
+ "summary_markdown": "This burrowing frog digs itself into moist earth so poisonous moss and toxic mushrooms can grow on its body.",
+ "text": " Sporeback Frog This burrowing frog digs itself into moist earth so poisonous moss and toxic mushrooms can grow on its body. Recall Knowledge - Animal (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Sporeback Frog Source Howl of the Wild pg. 151 Perception +12; low-light vision Languages Skills Acrobatics +10, Athletics +12, Stealth +13 Str +4 Dex +3 Con +5 Int -4 Wis +2 Cha +1 --- AC 21 Fort +15 Ref +12 Will +9 HP 94 Resistances poison 8 Weaknesses fire 4 --- Speed 25 feet, burrow 20 feet Melee Single Action jaws +13, Damage 2d8+6 piercing plus Grab Melee Single Action tongue +15 (reach 15 feet), Damage seed spores Seed Spores A creature hit by the sporeback frog's tongue Strike takes 1d6 persistent poison damage as fungal spores begin to grow. Soporific Spores Two Actions (Mental, Poison) The sporeback frog shakes the plants and fungi on its back until they emit a cloud of spores in a 20-foot emanation. All creatures in the area must succeed a DC 22 Fortitude save or become clumsy 2 and stupefied 2 for 1 minute (clumsy 3 and stupefied 3 on a critical failure). This ability can't be used again for 1d4 rounds. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3280",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "fire": 4
+ },
+ "weakness_markdown": "[fire](/Traits.aspx?ID=604) 4",
+ "weakness_raw": " fire  4",
+ "will_save": 9,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

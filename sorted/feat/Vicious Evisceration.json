@@ -1,6 +1,6 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Vicious Evisceration",
  "id": "feat-176",
  "level": 18,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Vicious Evisceration](/Feats.aspx?ID=176) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou make a vicious attack that maims your enemy. Make a melee Strike. If the Strike hits and deals damage, the target is drained 1, or drained 2 on a critical success.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Vicious Evisceration](/Feats.aspx?ID=176) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou make a vicious attack that maims your enemy. Make a melee Strike. If the Strike hits and deals damage, the target is drained 1, or drained 2 on a critical success.",
  "name": "Vicious Evisceration",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 93",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou make a vicious attack that maims your enemy.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou make a vicious attack that maims your enemy.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 93"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 93 <sup>4.0</sup>",
  "speed": {},
  "summary": "You make a vicious attack that maims your enemy.",
  "summary_markdown": "You make a vicious attack that maims your enemy.",
@@ -31,6 +38,10 @@
  "trait": [
   "Barbarian",
   "Rage"
+ ],
+ "trait_group": [
+  "Class",
+  "Class-Specific"
  ],
  "trait_markdown": "[Barbarian](/Traits.aspx?ID=18), [Rage](/Traits.aspx?ID=135)",
  "trait_raw": [

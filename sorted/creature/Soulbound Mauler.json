@@ -1,0 +1,204 @@
+{
+ "ac": 19,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "Any",
+ "attack_bonus": [
+  13
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Personality Cage",
+  "Eager Rend",
+  "Tethered Soul"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 72,
+ "hp_raw": "72",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2603",
+ "image": [
+  "/Images/Monsters/SoulboundMauler.png"
+ ],
+ "immunity": [
+  "bleed",
+  "death effects",
+  "disease",
+  "doomed",
+  "drained",
+  "fatigued",
+  "healing",
+  "mental",
+  "necromancy",
+  "nonlethal attacks",
+  "paralyzed",
+  "poison",
+  "sickened",
+  "unconscious"
+ ],
+ "immunity_markdown": "bleed, death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious",
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "one spoken by its creator (typically Common)"
+ ],
+ "language_markdown": "one spoken by its creator (typically Common)",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Soulbound Mauler](/Monsters.aspx?ID=2603)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nIf a soulbound doll isn't large and strong enough for one's needs, there's the oversized soulbound mauler. An upgrade to the soulbound doll, this mannequin is powered by the entire soul of a sapient creature. Many a necromancer has attempted to use these constructs as a method to live forever, likely as a shortcut around the complicated and ultimately morbid path to lichdom. However, the soul within the mannequin has problems properly expressing itself and displays rudimentary control over the host, often resulting in childlike behavior anywhere from curious to sadistic.<br /> Rather than embedding the soul focus gem in the construct's neck or chest, it's tethered by bands of ectoplasm within an exposed chamber on the mannequin's chest. Until the soulbound mauler is destroyed, the focus gem cannot be removed from the empty cavity in its chest. However, the gem can be displaced which causes the soulbound mauler significant anguish, not only damaging the connection between the gem and artificial body, but also impairing the construct's ability to function.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 21\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 19\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 16\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/SoulboundMauler.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Soulbound Mauler](/Monsters.aspx?ID=2603)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Any\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Soulbound\" url=\"/Traits.aspx?ID=237\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 87\n\n**Perception** +10; darkvision\r\n\r\n**Languages**\r\none spoken by its creator (typically Common)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Occultism](/Skills.aspx?ID=11) +6, [Stealth](/Skills.aspx?ID=15) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Personality Cage** A soulbound mauler encapsulates an entire soul within its soul focus gem, with that soul's personality and past shining through along with a confusing mix of fragmented memories and instincts. This causes a soulbound mauler to match the donor soul's alignment and gain the corresponding alignment traits. When the mauler doesn't have a soul bound, it's inanimate.<br />\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 72\n\n</row>\r\n\r\n**Immunities**\r\nbleed, death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +13 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d6+5 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Occult Innate Spells** DC 18, attack +10\r\n- **1st**\r\n[Ray of Enfeeblement](/Spells.aspx?ID=244) (at will)\r\n- **3rd**\r\n[Grim Tendrils](/Spells.aspx?ID=141), one\r\nadditional spell depending on the donor soul’s alignment (see sidebar)\r\n\r\n**Eager Rend** <actions string=\"Two Actions\" />  **Requirements** The soulbound mauler has a living creature grabbed. **Effect** The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18 Fortitude). On a critical failure, the target also becomes [enfeebled](/Conditions.aspx?ID=13) 1.\r\n\r\n**Tethered Soul**   The soul focus gem that powers a soulbound mauler is tethered with eight ectoplasmic leashes inside an open cavity in the creature's chest. It can be targeted directly with a [Disarm](/Actions.aspx?ID=41), [Grapple](/Actions.aspx?ID=35), or [Steal](/Actions.aspx?ID=68) action. Rather than the normal result of these actions, the soulbound mauler takes 4d6 mental damage and is [stunned](/Conditions.aspx?ID=36) 1 on a success; on a critical success, it takes 8d6 damage and is stunned 2.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Innate Spells</title>\r\n\r\nLike a soulbound doll, a soulbound mauler gains an additional 3rd-level innate spell depending on its alignment, as listed below.<br /> **Lawful Good:** [_heal_](/Spells.aspx?ID=148)<br /> **Neutral Good:** [_jump_](/Spells.aspx?ID=167)<br /> **Chaotic Good:** [_haste_](/Spells.aspx?ID=147)<br /> **Lawful Neutral:** [_blindness_](/Spells.aspx?ID=26)<br /> **Neutral:** [_invisibility sphere_](/Spells.aspx?ID=165)<br /> **Chaotic Neutral:** [_shatter_](/Spells.aspx?ID=279)<br /> **Lawful Evil:** [_slow_](/Spells.aspx?ID=289)<br />**Neutral Evil:** [_stinking cloud_](/Spells.aspx?ID=309)<br />**Chaotic Evil:** [_harm_](/Spells.aspx?ID=146)\r\n</aside>",
+ "name": "Soulbound Mauler",
+ "npc": false,
+ "perception": 10,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 87",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 11,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Any\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Soulbound\" url=\"/Traits.aspx?ID=237\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 87\n\n<row gap=\"medium\">\r\n**HP** 72\r\n\r\n**AC** 19\r\n\r\n**Fort** +14\r\n\r\n**Ref** +11\r\n\r\n**Will** +9\r\n\r\n**Perception** +10\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIf a soulbound doll isn't large and strong enough for one's needs, there's the oversized soulbound mauler. An upgrade to the soulbound doll, this …\r\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "darkvision",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Occultism",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Occultism](/Skills.aspx?ID=11) +6, [Stealth](/Skills.aspx?ID=15) +9",
+ "skill_mod": {
+  "athletics": 11,
+  "occultism": 6,
+  "stealth": 9
+ },
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 87"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 87",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Grim Tendrils",
+  "Ray of Enfeeblement",
+  "Heal"
+ ],
+ "spell_markdown": "[Grim Tendrils](/Spells.aspx?ID=141), [Heal](/Spells.aspx?ID=148), [Ray of Enfeeblement](/Spells.aspx?ID=244)",
+ "spell_attack_bonus": [
+  10
+ ],
+ "spell_attack_bonus_scale": [
+  "Moderate"
+ ],
+ "spell_attack_bonus_scale_number": [
+  3
+ ],
+ "spell_dc": [
+  18
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "spoilers": "Sky King's Tomb",
+ "stealth": "9",
+ "strike_damage_average": [
+  12
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "If a soulbound doll isn't large and strong enough for one's needs, there's the oversized soulbound mauler. An upgrade to the soulbound doll, this …",
+ "summary_markdown": "If a soulbound doll isn't large and strong enough for one's needs, there's the oversized soulbound mauler. An upgrade to the soulbound doll, this …",
+ "text": " Soulbound Mauler If a soulbound doll isn't large and strong enough for one's needs, there's the oversized soulbound mauler. An upgrade to the soulbound doll, this mannequin is powered by the entire soul of a sapient creature. Many a necromancer has attempted to use these constructs as a method to live forever, likely as a shortcut around the complicated and ultimately morbid path to lichdom. However, the soul within the mannequin has problems properly expressing itself and displays rudimentary control over the host, often resulting in childlike behavior anywhere from curious to sadistic. Rather than embedding the soul focus gem in the construct's neck or chest, it's tethered by bands of ectoplasm within an exposed chamber on the mannequin's chest. Until the soulbound mauler is destroyed, the focus gem cannot be removed from the empty cavity in its chest. However, the gem can be displaced which causes the soulbound mauler significant anguish, not only damaging the connection between the gem and artificial body, but also impairing the construct's ability to function. Recall Knowledge - Construct (Arcana, Crafting): DC 21 Unspecific Lore : DC 19 Specific Lore : DC 16 Soulbound Mauler Source Pathfinder #193: Mantle of Gold pg. 87 Perception +10; darkvision Languages one spoken by its creator (typically Common) Skills Athletics +11, Occultism +6, Stealth +9 Str +5 Dex +3 Con +4 Int +0 Wis +1 Cha +0 Personality Cage A soulbound mauler encapsulates an entire soul within its soul focus gem, with that soul's personality and past shining through along with a confusing mix of fragmented memories and instincts. This causes a soulbound mauler to match the donor soul's alignment and gain the corresponding alignment traits. When the mauler doesn't have a soul bound, it's inanimate. --- AC 19 Fort +14 Ref +11 Will +9 HP 72 Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious --- Speed 25 feet Melee Single Action fist +13 (Agile, Magical), Damage 2d6+5 bludgeoning plus Grab Occult Innate Spells DC 18, attack +10 - 1st Ray of Enfeeblement (at will) - 3rd Grim Tendrils, one additional spell depending on the donor soul’s alignment (see sidebar) Eager Rend Two Actions Requirements The soulbound mauler has a living creature grabbed. Effect The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18 Fortitude). On a critical failure, the target also becomes enfeebled 1. Tethered Soul The soul focus gem that powers a soulbound mauler is tethered with eight ectoplasmic leashes inside an open cavity in the creature's chest. It can be targeted directly with a Disarm, Grapple, or Steal action. Rather than the normal result of these actions, the soulbound mauler takes 4d6 mental damage and is stunned 1 on a success; on a critical success, it takes 8d6 damage and is stunned 2. Innate Spells Like a soulbound doll, a soulbound mauler gains an additional 3rd-level innate spell depending on its alignment, as listed below. Lawful Good: heal Neutral Good: jump Chaotic Good: haste Lawful Neutral: blindness Neutral: invisibility sphere Chaotic Neutral: shatter Lawful Evil: slow Neutral Evil: stinking cloud Chaotic Evil: harm ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Construct",
+  "Soulbound",
+  "Uncommon",
+  "Any",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Construct](/Traits.aspx?ID=35), [Soulbound](/Traits.aspx?ID=237), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Construct",
+  "Soulbound",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2603",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 9,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

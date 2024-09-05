@@ -1,10 +1,25 @@
 {
  "ac": 36,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  28,
+  28
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 8,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
  "creature_ability": [
   "Construct Armor",
   "Launch",
@@ -13,12 +28,18 @@
  "creature_family": "Animated Object",
  "creature_family_markdown": "[Animated Object](/MonsterFamilies.aspx?ID=4)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 29,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
  "hardness": 14,
  "hardness_raw": "14",
  "hp": 200,
  "hp_raw": "200",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-1065",
  "image": [
   "/Images/Monsters/AnimatedObject_AnimatedTrebuchet.png"
@@ -40,35 +61,53 @@
  ],
  "immunity_markdown": "[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [fatigued](/Conditions.aspx?ID=15), [healing](/Traits.aspx?ID=89), [mental](/Traits.aspx?ID=106), [necromancy](/Traits.aspx?ID=117), [nonlethal](/Traits.aspx?ID=188) attacks, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sickened](/Conditions.aspx?ID=34), [unconscious](/Conditions.aspx?ID=38)",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
  "level": 13,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Animated Trebuchet](/Monsters.aspx?ID=1065)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLarge armies sometimes pay exorbitant fees to animate their siege weapons.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/AnimatedObject_AnimatedTrebuchet.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Animated Trebuchet](/Monsters.aspx?ID=1065)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 3](/Sources.aspx?ID=66) pg. 19</row>\n\n**Perception** +21; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +2\r\n\r\n**Con** +8\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 (32 when broken); construct armor\r\n\r\n**Fort** +29 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +17 \n\n</row>\r\n\r\n**HP** 200\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [fatigued](/Conditions.aspx?ID=15), [healing](/Traits.aspx?ID=89), [mental](/Traits.aspx?ID=106), [necromancy](/Traits.aspx?ID=117), [nonlethal](/Traits.aspx?ID=188) attacks, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sickened](/Conditions.aspx?ID=34), [unconscious](/Conditions.aspx?ID=38)\n\n**Construct Armor** Like normal objects, an animated trebuchet has Hardness. This Hardness reduces any damage the trebuchet takes by an amount equal to the Hardness. Once an animated trebuchet is reduced to fewer than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing the Hardness and reducing its Armor Class to 32.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\narm +28 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+11 bludgeoning plus Grab\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +28 ([Brutal](/Traits.aspx?ID=249), [Magical](/Traits.aspx?ID=103), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d10+11 bludgeoning\n\n**Launch** <actions string=\"Single Action\" />  **Requirements** The animated trebuchet has a creature [grabbed](/Conditions.aspx?ID=20) in its arm; **Effect** The animated trebuchet attempts an [Athletics](/Skills.aspx?ID=3) check against the grabbed creature's Fortitude DC. On a success, it fires the creature up to 40 feet in height and up to 120 feet away. The creature takes 4d12 bludgeoning damage plus the appropriate falling damage. If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage (DC 33 basic Reflex save). On a successful Launch, the animated trebuchet must Interact to reposition its arm into the proper position before it can Launch again.\r\n\r\n**Trample** <actions string=\"Three Actions\" /> ([Attack](/Traits.aspx?ID=15)) Large or smaller, arm, DC 33\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-4\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Animated Trebuchet](/Monsters.aspx?ID=1065)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nLarge armies sometimes pay exorbitant fees to animate their siege weapons.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Construct](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Crafting](/Skills.aspx?ID=4)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/AnimatedObject_AnimatedTrebuchet.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Animated Trebuchet](/Monsters.aspx?ID=1065)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Bestiary 3](/Sources.aspx?ID=66) pg. 19\n\n**Perception** +21; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +2\r\n\r\n**Con** +8\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 (32 when broken); construct armor\r\n\r\n**Fort** +29 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +17 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 200\n\n**Hardness**\r\n14\r\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [doomed](/Conditions.aspx?ID=9), [drained](/Conditions.aspx?ID=10), [fatigued](/Conditions.aspx?ID=15), [healing](/Traits.aspx?ID=89), [mental](/Traits.aspx?ID=106), [necromancy](/Traits.aspx?ID=117), [nonlethal](/Traits.aspx?ID=188) attacks, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sickened](/Conditions.aspx?ID=34), [unconscious](/Conditions.aspx?ID=38)\n\n**Construct Armor** Like normal objects, an animated trebuchet has Hardness. This Hardness reduces any damage the trebuchet takes by an amount equal to the Hardness. Once an animated trebuchet is reduced to fewer than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing the Hardness and reducing its Armor Class to 32.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\narm +28 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+11 bludgeoning plus Grab\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +28 ([Brutal](/Traits.aspx?ID=249), [Magical](/Traits.aspx?ID=103), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d10+11 bludgeoning\n\n**Launch** <actions string=\"Single Action\" />  **Requirements** The animated trebuchet has a creature [grabbed](/Conditions.aspx?ID=20) in its arm; **Effect** The animated trebuchet attempts an [Athletics](/Skills.aspx?ID=3) check against the grabbed creature's Fortitude DC. On a success, it fires the creature up to 40 feet in height and up to 120 feet away. The creature takes 4d12 bludgeoning damage plus the appropriate falling damage. If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage (DC 33 basic Reflex save). On a successful Launch, the animated trebuchet must Interact to reposition its arm into the proper position before it can Launch again.\r\n\r\n**Trample** <actions string=\"Three Actions\" /> ([Attack](/Traits.aspx?ID=15)) Large or smaller, arm, DC 33\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-4\" />",
  "name": "Animated Trebuchet",
  "npc": false,
  "perception": 21,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Bestiary 3",
+ "primary_source_raw": "Bestiary 3 pg. 19",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 19,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
  "release_date": "2021-04-07",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 3](/Sources.aspx?ID=66) pg. 19</row>\r\n\r\n**Creature Family** [Animated Object](/MonsterFamilies.aspx?ID=4)\r\n\r\n<row gap=\"medium\">\r\n**HP** 200\r\n\r\n**AC** 36\r\n\r\n**Fort** +29\r\n\r\n**Ref** +19\r\n\r\n**Will** +17\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLarge armies sometimes pay exorbitant fees to animate their siege weapons.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Construct\" url=\"/Traits.aspx?ID=35\" />\r\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Bestiary 3](/Sources.aspx?ID=66) pg. 19\r\n\r\n**Creature Family** [Animated Object](/MonsterFamilies.aspx?ID=4)\r\n\r\n<row gap=\"medium\">\r\n**HP** 200\r\n\r\n**AC** 36\r\n\r\n**Fort** +29\r\n\r\n**Ref** +19\r\n\r\n**Will** +17\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nLarge armies sometimes pay exorbitant fees to animate their siege weapons.\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Gargantuan"
  ],
+ "size_id": [
+  6
+ ],
  "skill": [
-  "Athletics +30"
+  "Athletics"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +30",
+ "skill_mod": {
+  "athletics": 30
+ },
  "source": [
   "Bestiary 3"
  ],
  "source_raw": [
   "Bestiary 3 pg. 19"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 3](/Sources.aspx?ID=66) pg. 19</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary 3](/Sources.aspx?ID=66) pg. 19",
  "speed": {
   "land": 20,
   "max": 20
@@ -76,19 +115,36 @@
  "speed_markdown": "20 feet",
  "speed_raw": "20 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  27,
+  30
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 9,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "summary": "Large armies sometimes pay exorbitant fees to animate their siege weapons.",
  "summary_markdown": "Large armies sometimes pay exorbitant fees to animate their siege weapons.",
- "text": " Animated Trebuchet Large armies sometimes pay exorbitant fees to animate their siege weapons. Recall Knowledge - Construct (Arcana, Crafting): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Animated Trebuchet Source Bestiary 3 pg. 19 Perception +21; darkvision Languages Skills Athletics +30 Str +9 Dex +2 Con +8 Int -5 Wis +0 Cha -5 --- AC 36 (32 when broken); construct armor Fort +29 Ref +19 Will +17 HP 200 Immunities death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious Construct Armor Like normal objects, an animated trebuchet has Hardness. This Hardness reduces any damage the trebuchet takes by an amount equal to the Hardness. Once an animated trebuchet is reduced to fewer than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing the Hardness and reducing its Armor Class to 32. --- Speed 20 feet Melee Single Action arm +28 (Magical, reach 15 feet), Damage 3d12+11 bludgeoning plus Grab Ranged Single Action rock +28 (Brutal, Magical, range increment 120 feet), Damage 3d10+11 bludgeoning Launch Single Action Requirements The animated trebuchet has a creature grabbed in its arm; Effect The animated trebuchet attempts an Athletics check against the grabbed creature's Fortitude DC. On a success, it fires the creature up to 40 feet in height and up to 120 feet away. The creature takes 4d12 bludgeoning damage plus the appropriate falling damage. If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage (DC 33 basic Reflex save). On a successful Launch, the animated trebuchet must Interact to reposition its arm into the proper position before it can Launch again. Trample Three Actions (Attack) Large or smaller, arm, DC 33 ",
+ "text": " Animated Trebuchet Large armies sometimes pay exorbitant fees to animate their siege weapons. Recall Knowledge - Construct (Arcana, Crafting): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Animated Trebuchet Source Bestiary 3 pg. 19 Perception +21; darkvision Languages Skills Athletics +30 Str +9 Dex +2 Con +8 Int -5 Wis +0 Cha -5 --- AC 36 (32 when broken); construct armor Fort +29 Ref +19 Will +17 HP 200 Hardness 14 Immunities death effects, disease, doomed, drained, fatigued, healing, mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious Construct Armor Like normal objects, an animated trebuchet has Hardness. This Hardness reduces any damage the trebuchet takes by an amount equal to the Hardness. Once an animated trebuchet is reduced to fewer than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing the Hardness and reducing its Armor Class to 32. --- Speed 20 feet Melee Single Action arm +28 (Magical, reach 15 feet), Damage 3d12+11 bludgeoning plus Grab Ranged Single Action rock +28 (Brutal, Magical, range increment 120 feet), Damage 3d10+11 bludgeoning Launch Single Action Requirements The animated trebuchet has a creature grabbed in its arm; Effect The animated trebuchet attempts an Athletics check against the grabbed creature's Fortitude DC. On a success, it fires the creature up to 40 feet in height and up to 120 feet away. The creature takes 4d12 bludgeoning damage plus the appropriate falling damage. If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage (DC 33 basic Reflex save). On a successful Launch, the animated trebuchet must Interact to reposition its arm into the proper position before it can Launch again. Trample Three Actions (Attack) Large or smaller, arm, DC 33 ",
+ "tradition_markdown": "",
  "trait": [
   "Construct",
   "Mindless",
   "N",
   "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
  ],
  "trait_markdown": "[Construct](/Traits.aspx?ID=35), [Mindless](/Traits.aspx?ID=108)",
  "trait_raw": [
@@ -103,5 +159,9 @@
  ],
  "weakness": {},
  "will_save": 17,
- "wisdom": 0
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

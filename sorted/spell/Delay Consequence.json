@@ -1,12 +1,11 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic"
  ],
- "deity_markdown": "",
  "domain": [
   "Time"
  ],
@@ -14,49 +13,62 @@
  "duration": 6,
  "duration_raw": "1 round",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
  "id": "spell-622",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Delay Consequence](/Spells.aspx?ID=622)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 118 <sup>2.0</sup></row>\n\n**Domain**\r\n[Time](/Domains.aspx?ID=54)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n**Trigger** A creature or object within range is hit by an attack.\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** the triggering creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou transpose the moment that the target would be injured to later in its timestream. Roll damage normally, but do not reduce Hit Points or apply any other effects of the attack until the spell’s duration has elapsed. When the spell ends, the target is immediately affected by the attack, taking damage and being affected by any additional effects. You can Dismiss this spell.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Delay Consequence](/Spells.aspx?ID=622)\r\n<actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 118 <sup>2.0</sup>\n\n**Domain**\r\n[Time](/Domains.aspx?ID=54)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n**Trigger** A creature or object within range is hit by an attack.\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** the triggering creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou transpose the moment that the target would be injured to later in its timestream. Roll damage normally, but do not reduce Hit Points or apply any other effects of the attack until the spell’s duration has elapsed. When the spell ends, the target is immediately affected by the attack, taking damage and being affected by any additional effects. You can Dismiss this spell.",
  "name": "Delay Consequence",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 118",
+ "primary_source_category": "Lost Omens",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
  "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 118 <sup>2.0</sup></row>\n\n**Domain**\r\n[Time](/Domains.aspx?ID=54)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Reaction\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n**Trigger** A creature or object within range is hit by an attack.\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** the triggering creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou transpose the moment that the target would be injured to later in its timestream.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 118 <sup>2.0</sup>\n\n**Domain**\r\n[Time](/Domains.aspx?ID=54)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n**Trigger** A creature or object within range is hit by an attack.\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** the triggering creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 round\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou transpose the moment that the target would be injured to later in its timestream.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 118"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 118 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 118 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You transpose the moment that the target would be injured to later in its timestream.",
  "summary_markdown": "You transpose the moment that the target would be injured to later in its timestream.",
  "target": "the triggering creature",
  "target_markdown": "the triggering creature",
- "text": " Delay Consequence Source Gods &amp; Magic pg. 118 2.0 Domain Time Cast Reaction somatic Trigger A creature or object within range is hit by an attack. Range 30 feet Target the triggering creature Duration 1 round --- You transpose the moment that the target would be injured to later in its timestream. Roll damage normally, but do not reduce Hit Points or apply any other effects of the attack until the spell’s duration has elapsed. When the spell ends, the target is immediately affected by the attack, taking damage and being affected by any additional effects. You can Dismiss this spell.",
+ "text": "\nDelay Consequence Reaction Source Gods &amp; Magic pg. 118 2.0 Domain Time Cast somatic Trigger A creature or object within range is hit by an attack. Range 30 feet Target the triggering creature Duration 1 round --- You transpose the moment that the target would be injured to later in its timestream. Roll damage normally, but do not reduce Hit Points or apply any other effects of the attack until the spell’s duration has elapsed. When the spell ends, the target is immediately affected by the attack, taking damage and being affected by any additional effects. You can Dismiss this spell.",
  "tradition_markdown": "",
  "trait": [
-  "Abjuration"
+  "Abjuration",
+  "Focus"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_group": [
+  "School"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
-  "Abjuration"
+  "Abjuration",
+  "Focus"
  ],
  "trigger": "A creature or object within range is hit by an attack.",
  "trigger_markdown": "A creature or object within range is hit by an attack.",
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=622",
  "weakness": {}
 }

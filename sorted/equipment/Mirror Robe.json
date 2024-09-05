@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,35 +8,48 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 3,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mirror Robe](/Equipment.aspx?ID=1319)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 50</row>\n\n**Price** 55 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn clothing\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.\n\n<document level=\"2\" id=\"action-1034\" />\n\n<document level=\"2\" id=\"action-1035\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mirror Robe](/Equipment.aspx?ID=1319)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 50\n\n**Price** 55 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn clothing\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.\n\n**Activate** <actions string=\"Single Action\" /> Interact;    **Requirements** The _mirror robe_ was last activated to draw attention toward you, or you haven't used the _mirror robe_ today; **Effect** The _mirror robe_ [Creates a Diversion](/Actions.aspx?ID=45) for you with a +9 [Deception](/Skills.aspx?ID=5) modifier.\n\n**Activate** <actions string=\"Single Action\" /> Interact ([visual](/Traits.aspx?ID=163))   **Requirements** The _mirror robe_ was last activated to divert attention away from you and you are [hidden](/Conditions.aspx?ID=22) or [undetected](/Conditions.aspx?ID=39) by at least one foe; **Effect** You draw attention toward yourself. Choose one foe to which you were hidden or undetected. You reveal yourself to all, becoming [observed](/Conditions.aspx?ID=27). The foe you chose diverts its attention to you, becoming [flat-footed](/Conditions.aspx?ID=16) to your allies until the beginning of your next turn. If you are [invisible](/Conditions.aspx?ID=26) or otherwise can't become observed, you can't use this activation.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Mirror Robe",
  "pfs": "Standard",
  "price": 5500,
  "price_raw": "55 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 50",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 50</row>\r\n\r\n**Price** 55 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn clothing\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.  \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 50\r\n\r\n**Price** 55 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn clothing\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.  \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 50"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 50</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 50",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Thousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.  ",
  "summary_markdown": "Thousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.  ",
- "text": "<title level=\"1\" right=\"Item 3\" pfs=\"Standard\" > Mirror Robe Source Grand Bazaar pg. 50 Price 55 gp Usage worn clothing Bulk L --- Thousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster.\n",
+ "text": "<title level=\"1\" right=\"Item 3\" pfs=\"Standard\" > Mirror Robe Source Grand Bazaar pg. 50 Price 55 gp Usage worn clothing Bulk L --- Thousands of small, reflective, mirrored glass shards have been carefully stitched down this long silk duster. Activate Single Action Interact; Requirements The mirror robe was last activated to draw attention toward you, or you haven't used the mirror robe today; Effect The mirror robe Creates a Diversion for you with a +9 Deception modifier. Activate Single Action Interact (visual) Requirements The mirror robe was last activated to divert attention away from you and you are hidden or undetected by at least one foe; Effect You draw attention toward yourself. Choose one foe to which you were hidden or undetected. You reveal yourself to all, becoming observed. The foe you chose diverts its attention to you, becoming flat-footed to your allies until the beginning of your next turn. If you are invisible or otherwise can't become observed, you can't use this activation.\n",
  "trait": [
   "Illusion",
   "Invested",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Monster",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

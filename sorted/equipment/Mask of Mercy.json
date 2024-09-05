@@ -1,49 +1,73 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
- "exclude_from_search": false,
- "id": "equipment-2350",
+ "exclude_from_search": true,
+ "id": "equipment-963",
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mask of Mercy](/Equipment.aspx?ID=2350)\r\n</title>\n\n<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 154 <sup>1.1</sup>, [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74</row>\n\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn mask\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to [Medicine](/Skills.aspx?ID=9) checks.\n\n<document level=\"2\" id=\"action-1902\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Limited\"\r\n>\r\n[Mask of Mercy](/Equipment.aspx?ID=963)\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Strength of Thousands</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74, [Treasure Vault](/Sources.aspx?ID=191) pg. 154 <sup>1.1</sup>\n\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn mask\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis porcelain or alabaster mask portrays an angelic visage of kindness and mercy.\n\n**Activate** <actions string=\"Free Action\" /> envision ([fortune](/Traits.aspx?ID=76)) **Frequency** once per day; **Trigger** You are about to roll a variable number of Hit Points you restore from an action with the [healing](/Domains.aspx?ID=15) trait;  **Effect** Roll twice to determine the number of Hit Points you restore and take the higher result.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Mask of Mercy",
- "pfs": "Standard",
+ "pfs": "Limited",
  "price": 10000,
  "price_raw": "100 gp",
- "rarity": "common",
- "release_date": "2023-02-22",
+ "primary_source": "Pathfinder #169: Kindled Magic",
+ "primary_source_raw": "Pathfinder #169: Kindled Magic pg. 74",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2021-08-05",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Sources** [Treasure Vault](/Sources.aspx?ID=191) pg. 154 <sup>1.1</sup>, [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74</row>\r\n\r\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn mask\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to  Medicine  checks. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74, [Treasure Vault](/Sources.aspx?ID=191) pg. 154 <sup>1.1</sup>\r\n\r\n**Price** 100 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn mask\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis porcelain or alabaster mask portrays an angelic visage of kindness and mercy. \r\n</summary>",
+ "skill_mod": {},
  "source": [
+  "Pathfinder #169: Kindled Magic",
   "Treasure Vault"
  ],
  "source_raw": [
+  "Pathfinder #169: Kindled Magic pg. 74",
   "Treasure Vault pg. 154"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 154 <sup>1.1</sup>, [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74</row>",
+ "source_category": [
+  "Adventure Paths",
+  "Rulebooks"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74, [Treasure Vault](/Sources.aspx?ID=191) pg. 154 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
+ "spoilers": "Strength of Thousands",
  "stage_markdown": "",
- "summary": "This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to  Medicine  checks. ",
- "summary_markdown": "This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to  Medicine  checks. ",
- "text": "<title level=\"1\" right=\"Item 4\" pfs=\"Standard\" > Mask of Mercy Source Treasure Vault pg. 154 1.1 , Pathfinder #169: Kindled Magic pg. 74 Price 100 gp Usage worn mask --- This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to Medicine checks.\n",
+ "summary": "This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. ",
+ "summary_markdown": "This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. ",
+ "text": "<title level=\"1\" right=\"Item 4\" pfs=\"Limited\" > Mask of Mercy May contain spoilers from Strength of Thousands Source Pathfinder #169: Kindled Magic pg. 74, Treasure Vault pg. 154 1.1 Price 100 gp Usage worn mask --- This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. Activate Free Action envision (fortune) Frequency once per day; Trigger You are about to roll a variable number of Hit Points you restore from an action with the healing trait; Effect Roll twice to determine the number of Hit Points you restore and take the higher result.\n",
  "trait": [
+  "Fortune",
   "Invested",
   "Magical",
-  "Necromancy"
+  "Necromancy",
+  "Uncommon"
  ],
- "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117)",
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fortune](/Traits.aspx?ID=76), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Necromancy](/Traits.aspx?ID=117), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
+  "Fortune",
   "Invested",
   "Magical",
-  "Necromancy"
+  "Necromancy",
+  "Uncommon"
  ],
  "type": "Item",
- "url": "/Equipment.aspx?ID=2350",
+ "url": "/Equipment.aspx?ID=963",
  "usage": "worn mask",
  "usage_markdown": "worn mask",
  "weakness": {}

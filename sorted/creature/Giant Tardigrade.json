@@ -1,0 +1,186 @@
+{
+ "ac": 23,
+ "ac_scale": "Low",
+ "ac_scale_number": 2,
+ "attack_bonus": [
+  19,
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 6,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Eyespots",
+  "Tun State",
+  "Vacuum Mouth"
+ ],
+ "creature_family": "Tardigrade",
+ "creature_family_markdown": "[Tardigrade](/MonsterFamilies.aspx?ID=503)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
+ "hp": 120,
+ "hp_raw": "120",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3316",
+ "image": [
+  "/Images/Monsters/Giant_Tardigrade.webp"
+ ],
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"\">[Giant Tardigrade](/Monsters.aspx?ID=3316)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Giant_Tardigrade.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Giant Tardigrade](/Monsters.aspx?ID=3316)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 187\n\n**Perception** +16; [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 30 ft\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +19, [Stealth](/Skills.aspx?ID=48) +14, [Survival](/Skills.aspx?ID=49) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +6\r\n\r\n**Int** -5\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\r\n\r\n**Eyespots** A giant tardigrade can't see anything beyond 30 feet.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +23 \r\n\r\n**Ref** +16 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\n\n</row>\n\n**Resistances**\r\nall damage 10\n\n**Tun State** <actions string=\"Free Action\" /> **Trigger** The tardigrade would be reduced to 0 Hit Points or would die due to [starvation](/Rules.aspx?ID=2603), [suffocation](/Rules.aspx?ID=2436), or similar environmental causes; **Frequency** once per week; **Requirements** The tardigrade isn't already in tun state; **Effect** The giant tardigrade doesn't die but instead remains at 1 Hit Point and curls into a dry ball, called a tun. While in this tun state, the giant tardigrade is [unconscious](/Conditions.aspx?ID=95), doesn't need to eat, drink, or breathe, and doubles its resistance to 20. It remains in tun state indefinitely until covered in significant amounts of water, at which point it begins to rehydrate, gaining [regeneration 5](/MonsterAbilities.aspx?ID=72). The regeneration persists until it reaches maximum Hit Points. The giant tardigrade then exits its tun state.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nstylet +19,\r\n**Damage** 3d8+6 piercing plus 1d8 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +19 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+6 slashing plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**Vacuum Mouth** <actions string=\"Two Actions\" />  **Requirements** The giant tardigrade doesn't have a target [grabbed](/Conditions.aspx?ID=77); **Effect** The giant tardigrade draws in air with its mouth. All creatures in a 20-foot cone must succeed at a DC 25 Reflex save or be pulled adjacent to the giant tardigrade. The tardigrade chooses one creature that failed its save, Grabbing the target in its claws and making a stylet Strike.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-503\" />",
+ "name": "Giant Tardigrade",
+ "npc": false,
+ "perception": 16,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 187",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 16,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "acid": 10,
+  "all": 10,
+  "area": 10,
+  "bleed": 10,
+  "bludgeoning": 10,
+  "chaotic": 10,
+  "cold": 10,
+  "cold_iron": 10,
+  "electricity": 10,
+  "evil": 10,
+  "fire": 10,
+  "force": 10,
+  "good": 10,
+  "holy": 10,
+  "lawful": 10,
+  "mental": 10,
+  "negative": 10,
+  "orichalcum": 10,
+  "physical": 10,
+  "piercing": 10,
+  "poison": 10,
+  "positive": 10,
+  "precision": 10,
+  "silver": 10,
+  "slashing": 10,
+  "sonic": 10,
+  "spirit": 10,
+  "splash": 10,
+  "unholy": 10
+ },
+ "resistance_markdown": "all damage 10",
+ "resistance_raw": "all damage 10",
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 187\r\n\r\n**Creature Family** [Tardigrade](/MonsterFamilies.aspx?ID=503)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 23\r\n\r\n**Fort** +23\r\n\r\n**Ref** +16\r\n\r\n**Will** +16\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " tremorsense  ( imprecise ) 30 ft",
+ "sense_markdown": "[tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 30 ft",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +19, [Stealth](/Skills.aspx?ID=48) +14, [Survival](/Skills.aspx?ID=49) +18",
+ "skill_mod": {
+  "athletics": 19,
+  "stealth": 14,
+  "survival": 18
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 187"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 187",
+ "speed": {
+  "climb": 25,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet, climb 25 feet",
+ "speed_raw": "25 feet, climb 25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  16,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "",
+ "summary_markdown": "",
+ "text": " Giant Tardigrade Recall Knowledge - Animal (Nature): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Giant Tardigrade Source Howl of the Wild pg. 187 Perception +16; tremorsense (imprecise) 30 ft Languages Skills Athletics +19, Stealth +14, Survival +18 Str +4 Dex +3 Con +6 Int -5 Wis +3 Cha +1 Eyespots A giant tardigrade can't see anything beyond 30 feet. --- AC 23 Fort +23 Ref +16 Will +16 HP 120 Resistances all damage 10 Tun State Free Action Trigger The tardigrade would be reduced to 0 Hit Points or would die due to starvation, suffocation, or similar environmental causes; Frequency once per week; Requirements The tardigrade isn't already in tun state; Effect The giant tardigrade doesn't die but instead remains at 1 Hit Point and curls into a dry ball, called a tun. While in this tun state, the giant tardigrade is unconscious, doesn't need to eat, drink, or breathe, and doubles its resistance to 20. It remains in tun state indefinitely until covered in significant amounts of water, at which point it begins to rehydrate, gaining regeneration 5. The regeneration persists until it reaches maximum Hit Points. The giant tardigrade then exits its tun state. --- Speed 25 feet, climb 25 feet Melee Single Action stylet +19, Damage 3d8+6 piercing plus 1d8 persistent bleed Melee Single Action claws +19 (Agile, reach 10 feet), Damage 3d6+6 slashing plus Grab Vacuum Mouth Two Actions Requirements The giant tardigrade doesn't have a target grabbed; Effect The giant tardigrade draws in air with its mouth. All creatures in a 20-foot cone must succeed at a DC 25 Reflex save or be pulled adjacent to the giant tardigrade. The tardigrade chooses one creature that failed its save, Grabbing the target in its claws and making a stylet Strike. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Animal",
+  "Huge"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Amphibious",
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3316",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 16,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

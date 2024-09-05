@@ -1,10 +1,25 @@
 {
  "ac": 28,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Shield Block",
   "Freeze Blade",
@@ -14,50 +29,84 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 0,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 21,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
  "hp": 130,
  "hp_raw": "130",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-1823",
  "immunity": [
   "cold"
  ],
  "immunity_markdown": "[cold](/Traits.aspx?ID=27)",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "battering ram",
+  "+1 striking battle axe",
+  "Breastplate",
+  "large tower shield (Hardness 5, HP 30, BT 15)"
+ ],
  "language": [
   "Common",
   "Jotun"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"\">[Graylok Gatebreaker](/Monsters.aspx?ID=1823)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Graylok Gatebreaker](/Monsters.aspx?ID=1823)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #177: Burning Tundra](/Sources.aspx?ID=116) pg. 20</row>\n\n**Perception** +16; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +21, [Intimidation](/Skills.aspx?ID=7) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +0\r\n\r\n**Con** +5\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\nbattering ram, _+1 [striking](/Equipment.aspx?ID=280) [battle axe](/Weapons.aspx?ID=16)_, [Breastplate](/Armor.aspx?ID=10), [large tower shield](/Shields.aspx?ID=4) (Hardness 5, HP 30, BT 15)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 (30 with shield raised, 32 behind cover)\r\n\r\n**Fort** +21 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n**HP** 130\n\n**Immunities**\r\n[cold](/Traits.aspx?ID=27)\n\n**Weaknesses**\r\n[fire](/Traits.aspx?ID=72) 10\r\n\r\n**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet; ice stride\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_battleaxe_ +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d8+9 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +20 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 bludgeoning\n\n**Freeze Blade** <actions string=\"Single Action\" />  The frost giant gatebreaker breathes on the blade of their battleaxe, coating it in a layer of magical ice. For 1 minute, the frost giant's battleaxe Strikes gain the [cold](/Traits.aspx?ID=27) trait, and creatures struck by the battleaxe are [slowed 1](/Conditions.aspx?ID=35); at the end of each of their turns, the slowed creature can attempt a DC 23 Fortitude save to end the condition.\r\n\r\n**Ice Stride**   A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt [Acrobatics](/Skills.aspx?ID=1) checks to keep from falling on slippery ice.\r\n\r\n**Shielded Stride**   When the frost giant gatebreaker has their shield up, they can Stride to move half their Speed without triggering reactions that are triggered by their movement (such as [Attack of Opportunity](/Actions.aspx?ID=8)).\r\n\r\n**Trampling Ram** <actions string=\"Three Actions\" />  **Requirements** Another frost giant gatebreaker has Readied to Stride on the frost giant gatebreaker's order; **Effect** The two frost giants Stride, with a maximum distance equal to the slowest giant's Speed. Every creature whose space they move through takes 2d8+9 bludgeoning damage (DC 23 [basic](/Rules.aspx?ID=329) Reflex save); creatures who fail their save fall [prone](/Conditions.aspx?ID=31). At the end of their movement, the giants make a single Strike with a +20 modifier (reach 15 feet), inflicting 4d6+16 bludgeoning damage on a hit and knocking the target prone. If the giants hit, they can immediately attempt to [Shove](/Actions.aspx?ID=38) the creature as a free action.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Graylok Gatebreaker](/Monsters.aspx?ID=1823)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Graylok Gatebreaker](/Monsters.aspx?ID=1823)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #177: Burning Tundra](/Sources.aspx?ID=116) pg. 20\n\n**Perception** +16; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +21, [Intimidation](/Skills.aspx?ID=7) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +0\r\n\r\n**Con** +5\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\nbattering ram, _+1 [striking](/Equipment.aspx?ID=280) [battle axe](/Weapons.aspx?ID=16)_, [Breastplate](/Armor.aspx?ID=10), [large tower shield](/Shields.aspx?ID=4) (Hardness 5, HP 30, BT 15)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 (30 with shield raised, 32 behind cover)\r\n\r\n**Fort** +21 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 130\n\n</row>\r\n\r\n**Immunities**\r\n[cold](/Traits.aspx?ID=27)\n\n**Weaknesses**\r\n[fire](/Traits.aspx?ID=72) 10\r\n\r\n**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet; ice stride\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_battleaxe_ +20 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Sweep](/Traits.aspx?ID=194)),\r\n**Damage** 2d8+9 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +20 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 bludgeoning\n\n**Freeze Blade** <actions string=\"Single Action\" />  The frost giant gatebreaker breathes on the blade of their battleaxe, coating it in a layer of magical ice. For 1 minute, the frost giant's battleaxe Strikes gain the [cold](/Traits.aspx?ID=27) trait, and creatures struck by the battleaxe are [slowed 1](/Conditions.aspx?ID=35); at the end of each of their turns, the slowed creature can attempt a DC 23 Fortitude save to end the condition.\r\n\r\n**Ice Stride**   A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt [Acrobatics](/Skills.aspx?ID=1) checks to keep from falling on slippery ice.\r\n\r\n**Shielded Stride**   When the frost giant gatebreaker has their shield up, they can Stride to move half their Speed without triggering reactions that are triggered by their movement (such as [Attack of Opportunity](/Actions.aspx?ID=8)).\r\n\r\n**Trampling Ram** <actions string=\"Three Actions\" />  **Requirements** Another frost giant gatebreaker has Readied to Stride on the frost giant gatebreaker's order; **Effect** The two frost giants Stride, with a maximum distance equal to the slowest giant's Speed. Every creature whose space they move through takes 2d8+9 bludgeoning damage (DC 23 [basic](/Rules.aspx?ID=329) Reflex save); creatures who fail their save fall [prone](/Conditions.aspx?ID=31). At the end of their movement, the giants make a single Strike with a +20 modifier (reach 15 feet), inflicting 4d6+16 bludgeoning damage on a hit and knocking the target prone. If the giants hit, they can immediately attempt to [Shove](/Actions.aspx?ID=38) the creature as a free action.\r\n\r\n</column>",
  "name": "Graylok Gatebreaker",
  "npc": false,
  "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #177: Burning Tundra",
+ "primary_source_raw": "Pathfinder #177: Burning Tundra pg. 20",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Quest for the Frozen Flame",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 14,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2022-03-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #177: Burning Tundra](/Sources.aspx?ID=116) pg. 20</row>\n\n<row gap=\"medium\">\r\n**HP** 130\r\n\r\n**AC** 28\r\n\r\n**Fort** +21\r\n\r\n**Ref** +14\r\n\r\n**Will** +14\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #177: Burning Tundra](/Sources.aspx?ID=116) pg. 20\n\n<row gap=\"medium\">\r\n**HP** 130\r\n\r\n**AC** 28\r\n\r\n**Fort** +21\r\n\r\n**Ref** +14\r\n\r\n**Will** +14\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Athletics +21",
-  "Intimidation +16"
+  "Athletics",
+  "Intimidation"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +21, [Intimidation](/Skills.aspx?ID=7) +16",
+ "skill_mod": {
+  "athletics": 21,
+  "intimidation": 16
+ },
  "source": [
   "Pathfinder #177: Burning Tundra"
  ],
  "source_raw": [
   "Pathfinder #177: Burning Tundra pg. 20"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Quest for the Frozen Flame",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #177: Burning Tundra](/Sources.aspx?ID=116) pg. 20</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Quest for the Frozen Flame"
+ ],
+ "source_markdown": "[Pathfinder #177: Burning Tundra](/Sources.aspx?ID=116) pg. 20",
  "speed": {
   "land": 25,
   "max": 25
@@ -66,12 +115,27 @@
  "speed_raw": "25 feet; ice stride",
  "spell_markdown": "",
  "spoilers": "Quest for the Frozen Flame",
+ "strike_damage_average": [
+  16,
+  18
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 7,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "text": " Graylok Gatebreaker Recall Knowledge - Humanoid (Society): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Graylok Gatebreaker Source Pathfinder #177: Burning Tundra pg. 20 Perception +16; low-light vision Languages Common, Jotun Skills Athletics +21, Intimidation +16 Str +7 Dex +0 Con +5 Int +0 Wis +2 Cha +0 Items battering ram, +1 striking battle axe , Breastplate, large tower shield (Hardness 5, HP 30, BT 15) --- AC 28 (30 with shield raised, 32 behind cover) Fort +21 Ref +14 Will +14 HP 130 Immunities cold Weaknesses fire 10 Shield Block Reaction --- Speed 25 feet; ice stride Melee Single Action battleaxe +20 (Magical, reach 10 feet, Sweep), Damage 2d8+9 slashing Melee Single Action foot +20 (reach 10 feet), Damage 2d8+7 bludgeoning Freeze Blade Single Action The frost giant gatebreaker breathes on the blade of their battleaxe, coating it in a layer of magical ice. For 1 minute, the frost giant's battleaxe Strikes gain the cold trait, and creatures struck by the battleaxe are slowed 1; at the end of each of their turns, the slowed creature can attempt a DC 23 Fortitude save to end the condition. Ice Stride A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt Acrobatics checks to keep from falling on slippery ice. Shielded Stride When the frost giant gatebreaker has their shield up, they can Stride to move half their Speed without triggering reactions that are triggered by their movement (such as Attack of Opportunity). Trampling Ram Three Actions Requirements Another frost giant gatebreaker has Readied to Stride on the frost giant gatebreaker's order; Effect The two frost giants Stride, with a maximum distance equal to the slowest giant's Speed. Every creature whose space they move through takes 2d8+9 bludgeoning damage (DC 23 basic Reflex save); creatures who fail their save fall prone. At the end of their movement, the giants make a single Strike with a +20 modifier (reach 15 feet), inflicting 4d6+16 bludgeoning damage on a hit and knocking the target prone. If the giants hit, they can immediately attempt to Shove the creature as a free action. ",
+ "tradition_markdown": "",
  "trait": [
   "Cold",
   "Giant",
@@ -79,6 +143,12 @@
   "Uncommon",
   "CE",
   "Large"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Cold](/Traits.aspx?ID=27), [Giant](/Traits.aspx?ID=79), [Humanoid](/Traits.aspx?ID=91), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -101,5 +171,9 @@
  "weakness_markdown": "[fire](/Traits.aspx?ID=72) 10",
  "weakness_raw": " fire  10",
  "will_save": 14,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

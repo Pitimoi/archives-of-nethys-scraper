@@ -1,6 +1,5 @@
 {
  "ac": 18,
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "Thievery  DC 18 (trained) on the floor tile or wall socket",
@@ -19,21 +18,28 @@
  ],
  "immunity_markdown": "critical hits, object immunities, precision damage",
  "level": 2,
- "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Spear Launcher](/Hazards.aspx?ID=4)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 523 <sup>4.0</sup></row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA wall socket loaded with a spear connects to a floor tile in one 5-foot square.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 20 (trained)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 18 (trained) on the floor tile or wall socket\n\n<column gap=\"tiny\">\r\n\r\n**AC** 18, **Fort** +11, **Ref** +3\r\n\r\n**Hardness**\r\n8\r\n\r\n**HP**\r\n32 (BT 16)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spear** <actions string=\"Reaction\" /> (attack); **Trigger** Pressure is applied to the floor tile. **Effect** The trap shoots a spear, making an attack against the creature or object on the floor tile. <br />**Ranged** spear +14, **Damage** 2d6+6 piercing",
+ "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Spear Launcher](/Hazards.aspx?ID=4)</title>\r\n\r\n<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 523 <sup>4.0</sup>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA wall socket loaded with a spear connects to a floor tile in one 5-foot square.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 20 (trained)\r\n\r\n**Disable**\r\n[Thievery](/Skills.aspx?ID=17) DC 18 (trained) on the floor tile or wall socket\n\n<column gap=\"tiny\">\r\n\r\n**AC** 18, **Fort** +11, **Ref** +3\r\n\r\n**Hardness**\r\n8\r\n\r\n**HP**\r\n32 (BT 16)\r\n\r\n**Immunities**\r\ncritical hits, object immunities, precision damage\n\n</column>\r\n\r\n**Spear** <actions string=\"Reaction\" /> (attack); **Trigger** Pressure is applied to the floor tile. **Effect** The trap shoots a spear, making an attack against the creature or object on the floor tile. <br />**Ranged** spear +14, **Damage** 2d6+6 piercing",
  "name": "Spear Launcher",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 523",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 3,
  "release_date": "2019-08-01",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 523 <sup>4.0</sup></row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA wall socket loaded with a spear connects to a floor tile in one 5-foot square.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 523 <sup>4.0</sup>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA wall socket loaded with a spear connects to a floor tile in one 5-foot square.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 523"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 523 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 523 <sup>4.0</sup>",
  "speed": {},
  "stealth": "DC 20 (trained)",
  "summary": "A wall socket loaded with a spear connects to a floor tile in one 5-foot square.",
@@ -42,6 +48,10 @@
  "trait": [
   "Mechanical",
   "Trap"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard"
  ],
  "trait_markdown": "[Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
  "trait_raw": [

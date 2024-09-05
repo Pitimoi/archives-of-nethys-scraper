@@ -1,10 +1,25 @@
 {
  "ac": 15,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  6,
+  6
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Aquatic Echolocation",
   "Deep Breath",
@@ -13,40 +28,64 @@
  "creature_family": "Dolphin",
  "creature_family_markdown": "[Dolphin](/MonsterFamilies.aspx?ID=131)",
  "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 6,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 16,
  "hp_raw": "16",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-2077",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
  "level": 0,
- "markdown": "<title level=\"1\" pfs=\"\">[Whalesteed](/Monsters.aspx?ID=2077)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as learning to master the skill takes years of training.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Whalesteed](/Monsters.aspx?ID=2077)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Travel Guide](/Sources.aspx?ID=141) pg. 99</row>\n\n**Perception** +7; aquatic echolocation 120 feet, [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Aquatic Echolocation** A whalesteed can use its hearing as a precise sense at the listed range, but only underwater.<br />**Deep Breath** A whalesteed can hold its breath for 2 hours.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 16\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** swim 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsnout +6,\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +6,\r\n**Damage** 1d6+2 piercing\n\n**Ramming Speed** <actions string=\"Two Actions\" />  The whalesteed Swims twice and then makes a snout Strike. As long as it moved at least 20 feet, it gains a +1 circumstance bonus to its attack roll. A Large or smaller creature hit by this attack must succeed at a DC 16 Fortitude save or be slowed 1 for 1 round.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-131\" />",
+ "markdown": "<title level=\"1\" pfs=\"\">[Whalesteed](/Monsters.aspx?ID=2077)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as learning to master the skill takes years of training.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 14\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 0\">[Whalesteed](/Monsters.aspx?ID=2077)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Travel Guide](/Sources.aspx?ID=141) pg. 99\n\n**Perception** +7; aquatic echolocation 120 feet, [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +0\r\n</row>\r\n\r\n**Aquatic Echolocation** A whalesteed can use its hearing as a precise sense at the listed range, but only underwater.<br />**Deep Breath** A whalesteed can hold its breath for 2 hours.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 16\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** swim 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nsnout +6,\r\n**Damage** 1d6+2 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +6,\r\n**Damage** 1d6+2 piercing\n\n**Ramming Speed** <actions string=\"Two Actions\" />  The whalesteed Swims twice and then makes a snout Strike. As long as it moved at least 20 feet, it gains a +1 circumstance bonus to its attack roll. A Large or smaller creature hit by this attack must succeed at a DC 16 Fortitude save or be slowed 1 for 1 round.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-131\" />",
  "name": "Whalesteed",
  "npc": false,
  "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Travel Guide",
+ "primary_source_raw": "Travel Guide pg. 99",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2022-08-31",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Travel Guide](/Sources.aspx?ID=141) pg. 99</row>\r\n\r\n**Creature Family** [Dolphin](/MonsterFamilies.aspx?ID=131)\r\n\r\n<row gap=\"medium\">\r\n**HP** 16\r\n\r\n**AC** 15\r\n\r\n**Fort** +6\r\n\r\n**Ref** +7\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Travel Guide](/Sources.aspx?ID=141) pg. 99\r\n\r\n**Creature Family** [Dolphin](/MonsterFamilies.aspx?ID=131)\r\n\r\n<row gap=\"medium\">\r\n**HP** 16\r\n\r\n**AC** 15\r\n\r\n**Fort** +6\r\n\r\n**Ref** +7\r\n\r\n**Will** +5\r\n\r\n**Perception** +7\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as …\r\n</summary>",
  "sense": "aquatic echolocation 120 feet,  low-light vision ",
  "sense_markdown": "aquatic echolocation 120 feet, [low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Athletics +6"
+  "Athletics"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +6",
+ "skill_mod": {
+  "athletics": 6
+ },
  "source": [
   "Travel Guide"
  ],
  "source_raw": [
   "Travel Guide pg. 99"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Travel Guide](/Sources.aspx?ID=141) pg. 99</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Travel Guide](/Sources.aspx?ID=141) pg. 99",
  "speed": {
   "max": 60,
   "swim": 60
@@ -54,7 +93,19 @@
  "speed_markdown": "swim 60 feet",
  "speed_raw": "swim 60 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  5,
+  5
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 2,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "ref",
   "reflex"
@@ -62,10 +113,14 @@
  "summary": "Whalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as …",
  "summary_markdown": "Whalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as …",
  "text": " Whalesteed Whalesteeds were first tamed in the Shackles as part of an ambush between rival pirate captains. Whalesteed riders are still an unusual sight, as learning to master the skill takes years of training. Recall Knowledge - Animal (Nature): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Whalesteed Source Travel Guide pg. 99 Perception +7; aquatic echolocation 120 feet, low-light vision Languages Skills Athletics +6 Str +2 Dex +3 Con +2 Int -4 Wis +3 Cha +0 Aquatic Echolocation A whalesteed can use its hearing as a precise sense at the listed range, but only underwater. Deep Breath A whalesteed can hold its breath for 2 hours. --- AC 15 Fort +6 Ref +7 Will +5 HP 16 --- Speed swim 60 feet Melee Single Action snout +6, Damage 1d6+2 bludgeoning Melee Single Action jaws +6, Damage 1d6+2 piercing Ramming Speed Two Actions The whalesteed Swims twice and then makes a snout Strike. As long as it moved at least 20 feet, it gains a +1 circumstance bonus to its attack roll. A Large or smaller creature hit by this attack must succeed at a DC 16 Fortitude save or be slowed 1 for 1 round. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "N",
   "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
  ],
  "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
  "trait_raw": [
@@ -79,5 +134,9 @@
  ],
  "weakness": {},
  "will_save": 5,
- "wisdom": 3
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

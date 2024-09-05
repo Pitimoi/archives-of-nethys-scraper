@@ -1,65 +1,129 @@
 {
  "ac": 21,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  14,
+  14,
+  14
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
- "charisma": -1,
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Flying Strafe",
-  "Pounce"
+  "Pounce",
+  "Regal Shriek"
  ],
- "creature_family_markdown": "",
+ "creature_family": "Griffon",
+ "creature_family_markdown": "[Griffon](/MonsterFamilies.aspx?ID=497)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 13,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 60,
  "hp_raw": "60",
- "id": "creature-248",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3034",
  "image": [
-  "/Images/Monsters/Griffon.png"
+  "/Images/Monsters/Griffon.webp"
  ],
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-248",
  "level": 4,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Griffon](/Monsters.aspx?ID=248)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGriffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion and the head, wings, and forelimbs of a great bird of prey—typically an eagle, but some instead bear the features of a hawk, falcon, or even osprey or vulture. In rare cases, the griffon’s hindquarters may resemble those of a different great cat, such as a leopard or tiger. The variations seem to conform to the environment in which the griffon lives—for instance, the especially rare griffons of northern Avistan have the hindquarters of a Grungir lynx and the upper body of a snowy owl—though this is not always the case. Some griffons lack wings altogether. These wingless griffons, known as alces, result from a rare mutation. Among a clutch of other griffons, the alce is typically considered the runt, so few of these offshoots survive their fledgling stage. Those alces that do make it to adulthood tend to be tougher, more violent, and more aloof than most griffons.\n\n Wild griffons rely on their powerful wings to hold them aloft and their keen eyesight to spy out prey. The speed with which they plunge toward the ground and grab up their victims is shocking. They may tear open victim’s flesh with their razor-sharp beaks, but usually just take their prey to a high, secluded location where they can enjoy their feast without interruptions. On the ground, they take cover and leap out to ambush prey, then fly off with their prize. The exception to this is when a griffon is hunting to feed its offspring, in which case it will almost never purposefully bring a living creature back to its nest for fear of endangering its chicks.\n\n Skilled animal trainers long ago learned how to raise griffons as mounts for military forces or powerful individuals. Such mounts are known for their strength, bravery, and unfailing loyalty. They are among the smartest of animals and possess a wisdom not normally afforded most animals; it is thought that a griffon chooses its rider as much as a rider chooses the griffon. The process of training a griffon to accept and carry a rider in flight is a long and expensive ordeal. Griffon trainers charge rich sums for their services, and a ruler who can boast of owning a stable of griffons is the subject of great respect and envy.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Griffon.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Griffon](/Monsters.aspx?ID=248)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 194</row>\n\n**Perception** +11; darkvision, scent (imprecise) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +12, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n**HP** 60\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet; fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbeak +14 ([deadly 1d10](/Traits.aspx?ID=174)),\r\n**Damage** 2d8+4 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +14 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+4 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwing +14 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+4 bludgeoning\n\n**Flying Strafe** <actions string=\"Two Actions\" />  The griffon Flies up to its fly Speed and makes two talon Strikes at any point during that movement. Each Strike must target a different creature. The attacks take the normal multiple attack penalty.\r\n\r\n**Pounce** <actions string=\"Single Action\" />  The griffon Strides and makes a talon Strike at the end of that movement. If the griffon began this action hidden, it remains hidden until after the attack.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">The First Griffons</title>\r\n\r\nThe combination of two symbolic and recognizable predators of the land and air (the lion and the eagle) is the result of devout prayer among ancient cultures to an equally ancient deity—a now long-dead god named Curchanus, who once held domain over the beasts of the world. These first griffons were believed to be much more intelligent and guardians of the faith, but when Curchanus was slain by Lamashtu, the surviving griffons regressed to little more than beasts.\r\n</aside>",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Griffon](/Monsters.aspx?ID=3034)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGriffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion and the head, wings, and forelimbs of a great bird of prey—typically an eagle, but some instead bear the features of a hawk, falcon, or even an osprey or vulture. In rare cases, the griffon's hindquarters may resemble those of a different great cat, such as a leopard or tiger. The variations seem to conform to the griffon's environment—for instance, especially rare griffons of northern Avistan have the hindquarters of a Grungir lynx and the upper body of a snowy owl.\n\n Wild griffons rely on their powerful wings to hold them aloft and their keen eyesight to spy out prey. The speed with which they plunge toward the ground and snatch up victims is astonishing. They often tear apart a kill's flesh with razor-sharp beaks but not before alighting to secluded location where they can enjoy their meal without interruption. Griffons hunting to feed their chicks are more cautious, tearing apart prey rather than risking bringing a living creature back to their nests.\n\n Skilled animal trainers long ago learned how to raise griffons as mounts for military forces or powerful individuals. Such mounts are known for their strength, bravery, and unfailing loyalty. They are among the smartest of animals, and many griffon variants are considered intelligent beasts instead; it's thought that a griffon chooses its rider as much as a rider chooses the griffon. The process of training a griffon to accept and carry a rider in flight is a long and expensive ordeal. Griffon trainers charge rich sums for their services, and a ruler who can boast of owning a stable of griffons is the subject of great respect and envy.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Griffon.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Griffon](/Monsters.aspx?ID=3034)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 182\n\n**Perception** +13; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +10, [Survival](/Skills.aspx?ID=16) +9, [Stealth](/Skills.aspx?ID=15) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbeak +14 ([deadly d10](/Traits.aspx?ID=174)),\r\n**Damage** 2d8+4 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +14 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d6+4 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwing +14 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+4 bludgeoning\n\n**Flying Strafe** <actions string=\"Two Actions\" />  The griffon [Flies](/Actions.aspx?ID=2312)up to its fly Speed and makes two talon Strikes at any point during that movement. Each Strike must target a different creature. The attacks take the normal multiple attack penalty.\r\n\r\n**Pounce** <actions string=\"Single Action\" />  The griffon Strides and makes a talon Strike at the end of that movement. If the griffon began this action [hidden](/Conditions.aspx?ID=79), it remains hidden until after the attack.\r\n\r\n**Regal Shriek** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The griffon unleashes a shriek that transitions into a terrifying roar. Each creature in a 60-foot emanation must attempt a DC 20 Will save. Regardless of the result, creatures are temporarily immune to all griffons' Regal Shrieks for 10 minutes.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [frightened 1](/Conditions.aspx?ID=76).<br /> **Failure** The creature is frightened 2. [Animals](/Traits.aspx?ID=531) are [slowed 1](/Conditions.aspx?ID=92) for as long as they're frightened.<br /> **Critical Failure** The creature is frightened 3. Animals are [paralyzed](/Conditions.aspx?ID=85) as long as they're frightened.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_4_RelatedCreatures.png\">Alces</title>\r\n\r\nWingless griffons, known as alces, result from a rare mutation. Among a clutch of winged griffons, the alce is typically considered the runt, so alces are rarely seen on their own in the wild, though they're often intentionally bred in captivity as relatively affordable exotic mounts. An alce has a land Speed of 35 feet and loses its fly Speed and Flying Strafe.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-497\" />",
  "name": "Griffon",
  "npc": false,
- "perception": 11,
+ "perception": 13,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 182",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 194</row>\n\n<row gap=\"medium\">\r\n**HP** 60\r\n\r\n**AC** 21\r\n\r\n**Fort** +13\r\n\r\n**Ref** +13\r\n\r\n**Will** +7\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGriffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion …\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 60 feet",
- "sense_markdown": "darkvision, scent (imprecise) 60 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 182\r\n\r\n**Creature Family** [Griffon](/MonsterFamilies.aspx?ID=497)\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\r\n\r\n**AC** 21\r\n\r\n**Fort** +13\r\n\r\n**Ref** +13\r\n\r\n**Will** +7\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGriffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
  "size": [
   "Large"
  ],
- "skill": [
-  "Acrobatics +11",
-  "Athletics +12",
-  "Survival +9"
+ "size_id": [
+  4
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +12, [Survival](/Skills.aspx?ID=16) +9",
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Intimidation",
+  "Survival",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +11, [Athletics](/Skills.aspx?ID=3) +12, [Intimidation](/Skills.aspx?ID=7) +10, [Survival](/Skills.aspx?ID=16) +9, [Stealth](/Skills.aspx?ID=15) +11",
+ "skill_mod": {
+  "acrobatics": 11,
+  "athletics": 12,
+  "intimidation": 10,
+  "stealth": 11,
+  "survival": 9
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 194"
+  "Monster Core pg. 182"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 194</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 182",
  "speed": {
   "fly": 60,
   "land": 25,
   "max": 60
  },
- "speed_markdown": "25 feet; fly 60 feet",
- "speed_raw": "25 feet; fly 60 feet",
+ "speed_markdown": "25 feet, fly 60 feet",
+ "speed_raw": "25 feet, fly 60 feet",
  "spell_markdown": "",
+ "stealth": "11",
+ "strike_damage_average": [
+  11,
+  11,
+  13
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "fort",
   "fortitude",
@@ -68,23 +132,30 @@
  ],
  "summary": "Griffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion …",
  "summary_markdown": "Griffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion …",
- "text": " Griffon Griffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion and the head, wings, and forelimbs of a great bird of prey—typically an eagle, but some instead bear the features of a hawk, falcon, or even osprey or vulture. In rare cases, the griffon’s hindquarters may resemble those of a different great cat, such as a leopard or tiger. The variations seem to conform to the environment in which the griffon lives—for instance, the especially rare griffons of northern Avistan have the hindquarters of a Grungir lynx and the upper body of a snowy owl—though this is not always the case. Some griffons lack wings altogether. These wingless griffons, known as alces, result from a rare mutation. Among a clutch of other griffons, the alce is typically considered the runt, so few of these offshoots survive their fledgling stage. Those alces that do make it to adulthood tend to be tougher, more violent, and more aloof than most griffons. Wild griffons rely on their powerful wings to hold them aloft and their keen eyesight to spy out prey. The speed with which they plunge toward the ground and grab up their victims is shocking. They may tear open victim’s flesh with their razor-sharp beaks, but usually just take their prey to a high, secluded location where they can enjoy their feast without interruptions. On the ground, they take cover and leap out to ambush prey, then fly off with their prize. The exception to this is when a griffon is hunting to feed its offspring, in which case it will almost never purposefully bring a living creature back to its nest for fear of endangering its chicks. Skilled animal trainers long ago learned how to raise griffons as mounts for military forces or powerful individuals. Such mounts are known for their strength, bravery, and unfailing loyalty. They are among the smartest of animals and possess a wisdom not normally afforded most animals; it is thought that a griffon chooses its rider as much as a rider chooses the griffon. The process of training a griffon to accept and carry a rider in flight is a long and expensive ordeal. Griffon trainers charge rich sums for their services, and a ruler who can boast of owning a stable of griffons is the subject of great respect and envy. Recall Knowledge - Animal (Nature): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Griffon Source Bestiary pg. 194 Perception +11; darkvision, scent (imprecise) 60 feet Languages Skills Acrobatics +11, Athletics +12, Survival +9 Str +4 Dex +3 Con +3 Int -4 Wis +1 Cha -1 --- AC 21 Fort +13 Ref +13 Will +7 HP 60 --- Speed 25 feet; fly 60 feet Melee Single Action beak +14 (deadly 1d10), Damage 2d8+4 piercing Melee Single Action talon +14 (Agile), Damage 2d6+4 piercing Melee Single Action wing +14 (reach 10 feet), Damage 2d6+4 bludgeoning Flying Strafe Two Actions The griffon Flies up to its fly Speed and makes two talon Strikes at any point during that movement. Each Strike must target a different creature. The attacks take the normal multiple attack penalty. Pounce Single Action The griffon Strides and makes a talon Strike at the end of that movement. If the griffon began this action hidden, it remains hidden until after the attack. The First Griffons The combination of two symbolic and recognizable predators of the land and air (the lion and the eagle) is the result of devout prayer among ancient cultures to an equally ancient deity—a now long-dead god named Curchanus, who once held domain over the beasts of the world. These first griffons were believed to be much more intelligent and guardians of the faith, but when Curchanus was slain by Lamashtu, the surviving griffons regressed to little more than beasts. ",
+ "text": " Griffon Griffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion and the head, wings, and forelimbs of a great bird of prey—typically an eagle, but some instead bear the features of a hawk, falcon, or even an osprey or vulture. In rare cases, the griffon's hindquarters may resemble those of a different great cat, such as a leopard or tiger. The variations seem to conform to the griffon's environment—for instance, especially rare griffons of northern Avistan have the hindquarters of a Grungir lynx and the upper body of a snowy owl. Wild griffons rely on their powerful wings to hold them aloft and their keen eyesight to spy out prey. The speed with which they plunge toward the ground and snatch up victims is astonishing. They often tear apart a kill's flesh with razor-sharp beaks but not before alighting to secluded location where they can enjoy their meal without interruption. Griffons hunting to feed their chicks are more cautious, tearing apart prey rather than risking bringing a living creature back to their nests. Skilled animal trainers long ago learned how to raise griffons as mounts for military forces or powerful individuals. Such mounts are known for their strength, bravery, and unfailing loyalty. They are among the smartest of animals, and many griffon variants are considered intelligent beasts instead; it's thought that a griffon chooses its rider as much as a rider chooses the griffon. The process of training a griffon to accept and carry a rider in flight is a long and expensive ordeal. Griffon trainers charge rich sums for their services, and a ruler who can boast of owning a stable of griffons is the subject of great respect and envy. Recall Knowledge - Animal (Nature): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Griffon Source Monster Core pg. 182 Perception +13; darkvision, scent (imprecise) 60 feet Languages Skills Acrobatics +11, Athletics +12, Intimidation +10, Survival +9, Stealth +11 Str +4 Dex +3 Con +3 Int -4 Wis +1 Cha +2 --- AC 21 Fort +13 Ref +13 Will +7 HP 60 --- Speed 25 feet, fly 60 feet Melee Single Action beak +14 (deadly d10), Damage 2d8+4 piercing Melee Single Action talon +14 (Agile), Damage 2d6+4 piercing Melee Single Action wing +14 (reach 10 feet), Damage 2d6+4 bludgeoning Flying Strafe Two Actions The griffon Fliesup to its fly Speed and makes two talon Strikes at any point during that movement. Each Strike must target a different creature. The attacks take the normal multiple attack penalty. Pounce Single Action The griffon Strides and makes a talon Strike at the end of that movement. If the griffon began this action hidden, it remains hidden until after the attack. Regal Shriek Single Action (Auditory, Emotion, Fear, Mental) The griffon unleashes a shriek that transitions into a terrifying roar. Each creature in a 60-foot emanation must attempt a DC 20 Will save. Regardless of the result, creatures are temporarily immune to all griffons' Regal Shrieks for 10 minutes. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Animals are slowed 1 for as long as they're frightened. Critical Failure The creature is frightened 3. Animals are paralyzed as long as they're frightened. Alces Wingless griffons, known as alces, result from a rare mutation. Among a clutch of winged griffons, the alce is typically considered the runt, so alces are rarely seen on their own in the wild, though they're often intentionally bred in captivity as relatively affordable exotic mounts. An alce has a land Speed of 35 feet and loses its fly Speed and Flying Strafe. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
-  "N",
   "Large"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
  "trait_raw": [
   "Animal"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=248",
+ "url": "/Monsters.aspx?ID=3034",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 7,
- "wisdom": 1
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

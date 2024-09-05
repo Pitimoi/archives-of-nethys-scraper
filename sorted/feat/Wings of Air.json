@@ -1,6 +1,6 @@
 {
  "actions": "Two Actions",
- "breadcrumbs_spa": [],
+ "actions_number": 4,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,22 +10,29 @@
  "frequency": "once per day",
  "id": "feat-2600",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wings of Air](/Feats.aspx?ID=2600) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n<trait label=\"Sylph\" url=\"/Traits.aspx?ID=311\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 115 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per day\n\n</column>\r\n\r\n---\r\n\r\nYou can strain to call forth feathered or cloudy wings from your back. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you've manifested your wings.\n\n<title level=\"2\">Wings of Air leads to...</title>\r\n[Eternal Wings (Sylph)](/Feats.aspx?ID=2603)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Wings of Air](/Feats.aspx?ID=2600) <actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n<trait label=\"Sylph\" url=\"/Traits.aspx?ID=311\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 115 <sup>2.0</sup>\n\n**Frequency**\r\nonce per day\n\n</column>\r\n\r\n---\r\n\r\nYou can strain to call forth feathered or cloudy wings from your back. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you've manifested your wings.\n\n<title level=\"2\">Wings of Air leads to...</title>\r\n[Eternal Wings (Sylph)](/Feats.aspx?ID=2603)",
  "name": "Wings of Air",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 115",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n<trait label=\"Sylph\" url=\"/Traits.aspx?ID=311\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 115 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can strain to call forth feathered or cloudy wings from your back.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Morph\" url=\"/Traits.aspx?ID=113\" />\r\n<trait label=\"Primal\" url=\"/Traits.aspx?ID=134\" />\r\n<trait label=\"Sylph\" url=\"/Traits.aspx?ID=311\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 115 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can strain to call forth feathered or cloudy wings from your back.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 115"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 115 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 115 <sup>2.0</sup>",
  "speed": {},
  "summary": "You can strain to call forth feathered or cloudy wings from your back.",
  "summary_markdown": "You can strain to call forth feathered or cloudy wings from your back.",
@@ -35,6 +42,12 @@
   "Primal",
   "Sylph",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Monster",
+  "Ancestry",
+  "School"
  ],
  "trait_markdown": "[Morph](/Traits.aspx?ID=113), [Primal](/Traits.aspx?ID=134), [Sylph](/Traits.aspx?ID=311), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

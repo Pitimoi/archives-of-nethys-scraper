@@ -1,0 +1,170 @@
+{
+ "ac": 21,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  15
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Heavy",
+  "Rust Vision",
+  "Crumbling Carapace",
+  "Tetanus",
+  "Trample"
+ ],
+ "creature_family": "Elemental, Metal",
+ "creature_family_markdown": "[Elemental, Metal](/MonsterFamilies.aspx?ID=343)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Metal"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 65,
+ "hp_raw": "65",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2648",
+ "image": [
+  "/Images/Monsters/ElementalMetal_RustScarab.png"
+ ],
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Talican"
+ ],
+ "language_markdown": "[Talican](/Languages.aspx?ID=112)",
+ "level": 5,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Rust Scarab](/Monsters.aspx?ID=2648)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese elementals resemble enormous beetles, with thick outer shells composed of multiple layers of heavily pockmarked, rusted plates protecting a jagged metallic skeleton.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/ElementalMetal_RustScarab.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Rust Scarab](/Monsters.aspx?ID=2648)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 155\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=12), rust vision\r\n\r\n**Languages**\r\n[Talican](/Languages.aspx?ID=112)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +13, [Plane of Metal Lore](/Skills.aspx?ID=8) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +2\r\n\r\n**Con** +5\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Heavy** As long as it is immobile, the elemental can't be forcibly moved or knocked prone. If it takes a move action, it loses this immunity until the start of its next turn.<br />**Rust Vision** A rust scarab ignores the [concealed](/Conditions.aspx?ID=4) condition from rust clouds.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 21 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +11 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\n[electricity](/Traits.aspx?ID=56) 5, physical 5 (except [adamantine](/Equipment.aspx?ID=374))\n\n**Crumbling Carapace** When a rust scarab is reduced to fewer than half its maximum Hit Points or is damaged by a critical hit, its outer shell breaks into a veil of rusty metal flakes. This causes it to lose its resistance to physical damage and its heavy ability, but it gains a rust cloud aura (as [metal wisp](/Monsters.aspx?ID=2642)) and a 35-foot land Speed.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +15,\r\n**Damage** 2d8+6 slashing plus tetanus\n\n**Tetanus**  ([Disease](/Traits.aspx?ID=46)) **Saving Throw** DC 19 Fortitude; **Onset** 1 week; **Stage 1** [clumsy 1](/Conditions.aspx?ID=3) (1 week); **Stage 2** clumsy 2 and can't speak (1 day); **Stage 3** [paralyzed](/Conditions.aspx?ID=28) with spasms (1 day); **Stage 4** death\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=39)** <actions string=\"Three Actions\" />  Medium or smaller, claw, DC 23\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Ancient Remnants</title>\r\n\r\nNo rust scarab specimens free of deterioration have been documented, leading to debate among scholars as to whether this state of corrosion is their natural condition, or whether the creatures are spectacularly ancient even by the standards of immortal elemental beings.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-343\" />",
+ "name": "Rust Scarab",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 155",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 9,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {
+  "bludgeoning": 5,
+  "electricity": 5,
+  "physical": 5,
+  "piercing": 5,
+  "slashing": 5
+ },
+ "resistance_markdown": "[electricity](/Traits.aspx?ID=56) 5, physical 5 (except [adamantine](/Equipment.aspx?ID=374))",
+ "resistance_raw": " electricity  5, physical 5 (except  adamantine )",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Metal\" url=\"/Traits.aspx?ID=505\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 155\r\n\r\n**Creature Family** [Elemental, Metal](/MonsterFamilies.aspx?ID=343)\r\n\r\n<row gap=\"medium\">\r\n**HP** 65\r\n\r\n**AC** 21\r\n\r\n**Fort** +14\r\n\r\n**Ref** +9\r\n\r\n**Will** +11\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese elementals resemble enormous beetles, with thick outer shells composed of multiple layers of heavily pockmarked, rusted plates protecting a …\r\n</summary>",
+ "sense": " darkvision , rust vision",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12), rust vision",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Plane of Metal Lore"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +13, [Plane of Metal Lore](/Skills.aspx?ID=8) +11",
+ "skill_mod": {
+  "athletics": 13
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 155"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 155",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  15
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "These elementals resemble enormous beetles, with thick outer shells composed of multiple layers of heavily pockmarked, rusted plates protecting a …",
+ "summary_markdown": "These elementals resemble enormous beetles, with thick outer shells composed of multiple layers of heavily pockmarked, rusted plates protecting a …",
+ "text": " Rust Scarab These elementals resemble enormous beetles, with thick outer shells composed of multiple layers of heavily pockmarked, rusted plates protecting a jagged metallic skeleton. Recall Knowledge - Elemental (Arcana, Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Rust Scarab Source Rage of Elements pg. 155 Perception +9; darkvision, rust vision Languages Talican Skills Athletics +13, Plane of Metal Lore +11 Str +6 Dex +2 Con +5 Int +2 Wis +2 Cha +2 Heavy As long as it is immobile, the elemental can't be forcibly moved or knocked prone. If it takes a move action, it loses this immunity until the start of its next turn. Rust Vision A rust scarab ignores the concealed condition from rust clouds. --- AC 21 Fort +14 Ref +9 Will +11 HP 65 Immunities bleed, paralyzed, poison, sleep Resistances electricity 5, physical 5 (except adamantine) Crumbling Carapace When a rust scarab is reduced to fewer than half its maximum Hit Points or is damaged by a critical hit, its outer shell breaks into a veil of rusty metal flakes. This causes it to lose its resistance to physical damage and its heavy ability, but it gains a rust cloud aura (as metal wisp) and a 35-foot land Speed. --- Speed 25 feet Melee Single Action claw +15, Damage 2d8+6 slashing plus tetanus Tetanus (Disease) Saving Throw DC 19 Fortitude; Onset 1 week; Stage 1 clumsy 1 (1 week); Stage 2 clumsy 2 and can't speak (1 day); Stage 3 paralyzed with spasms (1 day); Stage 4 death Trample Three Actions Medium or smaller, claw, DC 23 Ancient Remnants No rust scarab specimens free of deterioration have been documented, leading to debate among scholars as to whether this state of corrosion is their natural condition, or whether the creatures are spectacularly ancient even by the standards of immortal elemental beings. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Metal",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Metal](/Traits.aspx?ID=505)",
+ "trait_raw": [
+  "Elemental",
+  "Metal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2648",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 11,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

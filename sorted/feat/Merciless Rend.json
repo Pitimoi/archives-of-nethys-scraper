@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Merciless Rend",
  "id": "feat-2923",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Merciless Rend](/Feats.aspx?ID=2923) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 71 <sup>1.1</sup></row>\n\n**Requirements**\r\nYour eidolon hit the same enemy with two consecutive Strikes with its secondary attack this turn and dealt slashing damage with both.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour eidolon rends its foes. It automatically deals the damage from its secondary attack to the enemy.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Merciless Rend](/Feats.aspx?ID=2923) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 71 <sup>1.1</sup>\n\n**Requirements**\r\nYour eidolon hit the same enemy with two consecutive Strikes with its secondary attack this turn and dealt slashing damage with both.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYour eidolon rends its foes. It automatically deals the damage from its secondary attack to the enemy.",
  "name": "Merciless Rend",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 71",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "requirement": "Your eidolon hit the same enemy with two consecutive Strikes with its secondary attack this turn and dealt slashing damage with both.",
  "requirement_markdown": "Your eidolon hit the same enemy with two consecutive Strikes with its secondary attack this turn and dealt slashing damage with both.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 71 <sup>1.1</sup></row>\n\n**Requirements**\r\nYour eidolon hit the same enemy with two consecutive Strikes with its secondary attack this turn and dealt slashing damage with both.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour eidolon rends its foes.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Eidolon\" url=\"/Traits.aspx?ID=386\" />\r\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=394\" />\r\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=392\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 71 <sup>1.1</sup>\n\n**Requirements**\r\nYour eidolon hit the same enemy with two consecutive Strikes with its secondary attack this turn and dealt slashing damage with both.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour eidolon rends its foes.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 71"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 71 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 71 <sup>1.1</sup>",
  "speed": {},
  "summary": "Your eidolon rends its foes.",
  "summary_markdown": "Your eidolon rends its foes.",
@@ -34,6 +41,10 @@
   "Eidolon",
   "Evolution",
   "Summoner"
+ ],
+ "trait_group": [
+  "Class-Specific",
+  "Class"
  ],
  "trait_markdown": "[Eidolon](/Traits.aspx?ID=386), [Evolution](/Traits.aspx?ID=394), [Summoner](/Traits.aspx?ID=392)",
  "trait_raw": [

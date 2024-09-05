@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "This hazard can't be disabled, merely avoided.",
@@ -7,21 +6,31 @@
  "hazard_type": "Environmental",
  "id": "hazard-252",
  "level": 2,
- "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Obscured Pitfalls](/Hazards.aspx?ID=252)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 79</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA layer of disembodied eyes obscures a pitfall in the floor that's either deep enough for a human to fall into, or narrow enough to cause a painful fall.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 18 (or 0 if the eyes covering an area that obscures a pitfall are destroyed)\r\n\r\n**Disable**\r\nThis hazard can't be disabled, merely avoided.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Pitfall** <actions string=\"Reaction\" /> **Trigger** A creature walks into a large pit's square; **Effect** The triggering creature falls into the pit but can attempt a DC 18 Reflex save to [Grab an Edge](/Actions.aspx?ID=95) to avoid falling. On a failure, a creature falls 20 feet into an eye-filled pit. The eyes cushion the fall so the 20-foot fall inflicts only 5 bludgeoning damage, but they also completely obscure vision; a character is effectively [blind](/Conditions.aspx?ID=1) as long as they remain in the pit. The walls of the pit are slick, though a character can Climb them with a successful DC 25 Athletics check.\n\n **Trip** <actions string=\"Reaction\" /> **Trigger** A creature walks into a small pit's square; **Effect** The triggering creature must succeed at a DC 18 Reflex save or fall [prone](/Conditions.aspx?ID=31) (on a critical failure, the creature also twists its ankle and becomes [clumsy 1](/Conditions.aspx?ID=3) until it receives any amount of healing).",
+ "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Obscured Pitfalls](/Hazards.aspx?ID=252)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 79\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nA layer of disembodied eyes obscures a pitfall in the floor that's either deep enough for a human to fall into, or narrow enough to cause a painful fall.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 18 (or 0 if the eyes covering an area that obscures a pitfall are destroyed)\r\n\r\n**Disable**\r\nThis hazard can't be disabled, merely avoided.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Pitfall** <actions string=\"Reaction\" /> **Trigger** A creature walks into a large pit's square; **Effect** The triggering creature falls into the pit but can attempt a DC 18 Reflex save to [Grab an Edge](/Actions.aspx?ID=95) to avoid falling. On a failure, a creature falls 20 feet into an eye-filled pit. The eyes cushion the fall so the 20-foot fall inflicts only 5 bludgeoning damage, but they also completely obscure vision; a character is effectively [blind](/Conditions.aspx?ID=1) as long as they remain in the pit. The walls of the pit are slick, though a character can Climb them with a successful DC 25 Athletics check.\n\n **Trip** <actions string=\"Reaction\" /> **Trigger** A creature walks into a small pit's square; **Effect** The triggering creature must succeed at a DC 18 Reflex save or fall [prone](/Conditions.aspx?ID=31) (on a critical failure, the creature also twists its ankle and becomes [clumsy 1](/Conditions.aspx?ID=3) until it receives any amount of healing).",
  "name": "Obscured Pitfalls",
+ "primary_source": "Crown of the Kobold King",
+ "primary_source_raw": "Crown of the Kobold King pg. 79",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Crown of the Kobold King",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-10-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 79</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA layer of disembodied eyes obscures a pitfall in the floor that's either deep enough for a human to fall into, or narrow enough to cause a painful …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Crown of the Kobold King](/Sources.aspx?ID=148) pg. 79\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA layer of disembodied eyes obscures a pitfall in the floor that's either deep enough for a human to fall into, or narrow enough to cause a painful …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Crown of the Kobold King"
  ],
  "source_raw": [
   "Crown of the Kobold King pg. 79"
  ],
- "source_category": "Adventures",
- "source_group": "Crown of the Kobold King",
- "source_markdown": "<row gap=\"tiny\">[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 79</row>",
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Crown of the Kobold King"
+ ],
+ "source_markdown": "[Crown of the Kobold King](/Sources.aspx?ID=148) pg. 79",
  "speed": {},
  "spoilers": "Crown of the Kobold King",
  "stealth": "DC 18 (or 0 if the eyes covering an area that obscures a pitfall are destroyed)",
@@ -31,6 +40,10 @@
  "trait": [
   "Environmental",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Environmental](/Traits.aspx?ID=62), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

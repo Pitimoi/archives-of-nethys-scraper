@@ -1,0 +1,60 @@
+{
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 20  Thievery  to decouple the triggering rods that cause the spikes to extend, or   dispel magic   (2nd level;  counteract  DC 18) to counteract the trap",
+ "exclude_from_search": false,
+ "hazard_type": "Trap",
+ "id": "hazard-422",
+ "level": 3,
+ "markdown": "<title level=\"1\" right=\"Hazard 3\" pfs=\"\">[Rusty Spike Launcher](/Hazards.aspx?ID=422)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 48\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nAs the large rusty door swings open, a mass of rusty spikes appear out of nowhere in the open doorway and launch violently into the room.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 20 (trained)\r\n\r\n**Disable**\r\nDC 20 [Thievery](/Skills.aspx?ID=17) to decouple the triggering rods that cause the spikes to extend, or [_dispel magic_](/Spells.aspx?ID=78) (2nd level; [counteract](/Rules.aspx?ID=371) DC 18) to counteract the trap\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Launch Spikes** <actions string=\"Reaction\" /> **Trigger** a creature opens the door without uttering a prayer to Xar-Azmak first; **Effect** A mass of rusty spikes appears in the open doorway and then fire into area **E1**. The rusty spikes curve through the air to seek targets—all creatures in area **E1** must attempt a DC 20 Reflex save.\r\n\r\n**Critical Success** The creature avoids the spikes and takes no damage.<br />\r\n**Success** A spike grazes the creature, inflicting 2d10 piercing damage.<br />\r\n**Failure** A spike impales the creature, inflicting 2d10+13 piercing damage.<br />\r\n**Critical Failure** As failure, but the spike also exposes the creature to [tetanus](/Diseases.aspx?ID=3).\n\n---\r\n**Reset**\r\nThe trap automatically resets once the door is closed.",
+ "name": "Rusty Spike Launcher",
+ "primary_source": "Rusthenge",
+ "primary_source_raw": "Rusthenge pg. 48",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Rusthenge",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-10-18",
+ "reset": "The trap automatically resets once the door is closed.",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rusthenge](/Sources.aspx?ID=215) pg. 48\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAs the large rusty door swings open, a mass of rusty spikes appear out of nowhere in the open doorway and launch violently into the room.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Rusthenge"
+ ],
+ "source_raw": [
+  "Rusthenge pg. 48"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Rusthenge"
+ ],
+ "source_markdown": "[Rusthenge](/Sources.aspx?ID=215) pg. 48",
+ "speed": {},
+ "spoilers": "Rusthenge",
+ "stealth": "DC 20 (trained)",
+ "summary": "As the large rusty door swings open, a mass of rusty spikes appear out of nowhere in the open doorway and launch violently into the room.",
+ "summary_markdown": "As the large rusty door swings open, a mass of rusty spikes appear out of nowhere in the open doorway and launch violently into the room.",
+ "text": " Rusty Spike Launcher Source Rusthenge pg. 48 Complexity Simple As the large rusty door swings open, a mass of rusty spikes appear out of nowhere in the open doorway and launch violently into the room. --- Stealth DC 20 (trained) Disable DC 20 Thievery to decouple the triggering rods that cause the spikes to extend, or dispel magic (2nd level; counteract DC 18) to counteract the trap Launch Spikes Reaction Trigger a creature opens the door without uttering a prayer to Xar-Azmak first; Effect A mass of rusty spikes appears in the open doorway and then fire into area E1 . The rusty spikes curve through the air to seek targets—all creatures in area E1 must attempt a DC 20 Reflex save. Critical Success The creature avoids the spikes and takes no damage. Success A spike grazes the creature, inflicting 2d10 piercing damage. Failure A spike impales the creature, inflicting 2d10+13 piercing damage. Critical Failure As failure, but the spike also exposes the creature to tetanus. --- Reset The trap automatically resets once the door is closed.",
+ "trait": [
+  "Magical",
+  "Trap",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Hazard",
+  "Rarity"
+ ],
+ "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Trap](/Traits.aspx?ID=158), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Magical",
+  "Trap",
+  "Uncommon"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=422",
+ "weakness": {}
+}

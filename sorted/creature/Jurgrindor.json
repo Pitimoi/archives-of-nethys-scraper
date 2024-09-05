@@ -1,58 +1,105 @@
 {
  "ac": 17,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Wounded Arm",
   "Chill Breath"
  ],
  "creature_family_markdown": "",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 12,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 50,
  "hp_raw": "50 (currently 25)",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-2219",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "battered breastplate"
+ ],
  "language": [
   "Common",
   "Jotun"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"\">[Jurgrindor](/Monsters.aspx?ID=2219)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Jurgrindor](/Monsters.aspx?ID=2219)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 31</row>\n\n**Perception** +9; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +10, [Crafting](/Skills.aspx?ID=4) +7, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[battered breastplate](/Armor.aspx?ID=10)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n**HP** 50\r\n(currently 25)\n\n**Wounded Arm** Jurgrindor's left arm is dreadfully wounded, courtesy of Amiri's greatsword. The discomfort of this wound causes Jurgrindor to take a –2 circumstance penalty to his Armor Class and Strikes (these modifications are included in his stats). At the end of each of his turns, Jurgrindor must succeed at a DC 12 flat check or the wound begins to bleed again, dealing him 1d6 [persistent bleed damage](/Conditions.aspx?ID=29). He can't use [Catch Rock](/MonsterAbilities.aspx?ID=7) or [Throw Rock](/MonsterAbilities.aspx?ID=38) (as typical giants) until he's healed back to full hit points.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +10 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d8+8 bludgeoning\n\n**Chill Breath** <actions string=\"Single Action\" /> ([Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65), [primal Jurgrindor breathes out a 15-foot cone of freezing moisture that quickly condenses into ice](/Traits.aspx?ID=134), [dealing 2d6 cold damage](/Traits.aspx?ID=27)) \r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Jurgrindor](/Monsters.aspx?ID=2219)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Jurgrindor](/Monsters.aspx?ID=2219)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 31\n\n**Perception** +9; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +10, [Crafting](/Skills.aspx?ID=4) +7, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[battered breastplate](/Armor.aspx?ID=10)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +12 \r\n\r\n**Ref** +6 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 50\r\n(currently 25)\n\n</row>\n\n**Wounded Arm** Jurgrindor's left arm is dreadfully wounded, courtesy of Amiri's greatsword. The discomfort of this wound causes Jurgrindor to take a –2 circumstance penalty to his Armor Class and Strikes (these modifications are included in his stats). At the end of each of his turns, Jurgrindor must succeed at a DC 12 flat check or the wound begins to bleed again, dealing him 1d6 [persistent bleed damage](/Conditions.aspx?ID=29). He can't use [Catch Rock](/MonsterAbilities.aspx?ID=7) or [Throw Rock](/MonsterAbilities.aspx?ID=38) (as typical giants) until he's healed back to full hit points.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +10 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d8+8 bludgeoning\n\n**Chill Breath** <actions string=\"Single Action\" /> ([Cold](/Traits.aspx?ID=27), [Evocation](/Traits.aspx?ID=65), [Primal](/Traits.aspx?ID=134), [Cold](/Traits.aspx?ID=27)) Jurgrindor breathes out a 15-foot cone of freezing moisture that quickly condenses into ice, dealing 2d6 cold damage (DC 18 [basic](/Rules.aspx?ID=329) Reflex save). A creature that critically fails the save is also [immobilized](/Conditions.aspx?ID=24) until it [Escape](/Actions.aspx?ID=79) (DC 18). Jurgrindor can't use Chill Breath for 1d4 rounds.\r\n\r\n</column>",
  "name": "Jurgrindor",
  "npc": false,
  "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Kingmaker Adventure Path",
+ "primary_source_raw": "Kingmaker Adventure Path pg. 31",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Kingmaker",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 6,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2022-10-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 31</row>\n\n<row gap=\"medium\">\r\n**HP** 50 (currently 25)\r\n\r\n**AC** 17\r\n\r\n**Fort** +12\r\n\r\n**Ref** +6\r\n\r\n**Will** +9\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Cold\" url=\"/Traits.aspx?ID=27\" />\r\n<trait label=\"Giant\" url=\"/Traits.aspx?ID=79\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 31\n\n<row gap=\"medium\">\r\n**HP** 50 (currently 25)\r\n\r\n**AC** 17\r\n\r\n**Fort** +12\r\n\r\n**Ref** +6\r\n\r\n**Will** +9\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Athletics +10",
-  "Crafting +7",
-  "Intimidation +9",
-  "Stealth +8"
+  "Athletics",
+  "Crafting",
+  "Intimidation",
+  "Stealth"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +10, [Crafting](/Skills.aspx?ID=4) +7, [Intimidation](/Skills.aspx?ID=7) +9, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill_mod": {
+  "athletics": 10,
+  "crafting": 7,
+  "intimidation": 9,
+  "stealth": 8
+ },
  "source": [
   "Kingmaker Adventure Path"
  ],
  "source_raw": [
   "Kingmaker Adventure Path pg. 31"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Kingmaker",
- "source_markdown": "<row gap=\"tiny\">[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 31</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Kingmaker"
+ ],
+ "source_markdown": "[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 31",
  "speed": {
   "land": 30,
   "max": 30
@@ -62,12 +109,24 @@
  "spell_markdown": "",
  "spoilers": "Kingmaker",
  "stealth": "8",
+ "strike_damage_average": [
+  12
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 5,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "text": " Jurgrindor Recall Knowledge - Humanoid (Society): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Jurgrindor Source Kingmaker Adventure Path pg. 31 Perception +9; low-light vision Languages Common, Jotun Skills Athletics +10, Crafting +7, Intimidation +9, Stealth +8 Str +5 Dex +1 Con +3 Int +0 Wis +2 Cha +0 Items battered breastplate --- AC 17 Fort +12 Ref +6 Will +9 HP 50 (currently 25) Wounded Arm Jurgrindor's left arm is dreadfully wounded, courtesy of Amiri's greatsword. The discomfort of this wound causes Jurgrindor to take a –2 circumstance penalty to his Armor Class and Strikes (these modifications are included in his stats). At the end of each of his turns, Jurgrindor must succeed at a DC 12 flat check or the wound begins to bleed again, dealing him 1d6 persistent bleed damage. He can't use Catch Rock or Throw Rock (as typical giants) until he's healed back to full hit points. --- Speed 30 feet Melee Single Action fist +10 (Agile, reach 10 feet), Damage 1d8+8 bludgeoning Chill Breath Single Action (Cold, Evocation, primal Jurgrindor breathes out a 15-foot cone of freezing moisture that quickly condenses into ice, dealing 2d6 cold damage) ",
+ "text": " Jurgrindor Recall Knowledge - Humanoid (Society): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Jurgrindor Source Kingmaker Adventure Path pg. 31 Perception +9; low-light vision Languages Common, Jotun Skills Athletics +10, Crafting +7, Intimidation +9, Stealth +8 Str +5 Dex +1 Con +3 Int +0 Wis +2 Cha +0 Items battered breastplate --- AC 17 Fort +12 Ref +6 Will +9 HP 50 (currently 25) Wounded Arm Jurgrindor's left arm is dreadfully wounded, courtesy of Amiri's greatsword. The discomfort of this wound causes Jurgrindor to take a –2 circumstance penalty to his Armor Class and Strikes (these modifications are included in his stats). At the end of each of his turns, Jurgrindor must succeed at a DC 12 flat check or the wound begins to bleed again, dealing him 1d6 persistent bleed damage. He can't use Catch Rock or Throw Rock (as typical giants) until he's healed back to full hit points. --- Speed 30 feet Melee Single Action fist +10 (Agile, reach 10 feet), Damage 1d8+8 bludgeoning Chill Breath Single Action (Cold, Evocation, Primal, Cold) Jurgrindor breathes out a 15-foot cone of freezing moisture that quickly condenses into ice, dealing 2d6 cold damage (DC 18 basic Reflex save). A creature that critically fails the save is also immobilized until it Escape (DC 18). Jurgrindor can't use Chill Breath for 1d4 rounds. ",
+ "tradition_markdown": "",
  "trait": [
   "Cold",
   "Giant",
@@ -75,6 +134,12 @@
   "Unique",
   "CE",
   "Large"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Cold](/Traits.aspx?ID=27), [Giant](/Traits.aspx?ID=79), [Humanoid](/Traits.aspx?ID=91), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
@@ -92,5 +157,9 @@
  ],
  "weakness": {},
  "will_save": 9,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

@@ -1,73 +1,121 @@
 {
  "ac": 25,
- "alignment": "LN",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  16
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Calming Bioluminescence",
   "Constrict"
  ],
  "creature_family": "Elemental, Water",
- "creature_family_markdown": "[Elemental, Water](/MonsterFamilies.aspx?ID=45)",
+ "creature_family_markdown": "[Elemental, Water](/MonsterFamilies.aspx?ID=412)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 13,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 120,
  "hp_raw": "120",
- "id": "creature-198",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2991",
+ "image": [
+  "/Images/Monsters/Quatoid.webp"
+ ],
  "immunity": [
   "bleed",
   "paralyzed",
   "poison",
   "sleep"
  ],
- "immunity_markdown": "bleed, paralyzed, poison, sleep",
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)",
  "intelligence": 4,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
  "language": [
-  "Aquan",
-  "Common"
+  "Common",
+  "Thalassic"
  ],
- "language_markdown": "[Aquan](/Languages.aspx?ID=14), [Common](/Languages.aspx?ID=1)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Thalassic](/Languages.aspx?ID=113)",
+ "legacy_id": "creature-198",
  "level": 7,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Quatoid](/Monsters.aspx?ID=198)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nQuatoids are peculiar, mysterious elementals native to the Plane of Water that resemble four-tentacled octopuses with eerily humanoid faces on their mantles.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Quatoid](/Monsters.aspx?ID=198)</title>\r\n\r\n<traits>\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 153</row>\n\n**Perception** +18; darkvision\r\n\r\n**Languages**\r\n[Aquan](/Languages.aspx?ID=14), [Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +15, [Diplomacy](/Skills.aspx?ID=6) +12, [Elemental Lore](/Skills.aspx?ID=8) +17, [Occultism](/Skills.aspx?ID=11) +17, [Society](/Skills.aspx?ID=14) +17, [Stealth](/Skills.aspx?ID=15) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +0\r\n\r\n**Int** +4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n**HP** 120\n\n**Immunities**\r\nbleed, paralyzed, poison, sleep\r\n\r\n**Resistances**\r\nbludgeoning 5, fire 5\n\n**Calming Bioluminescence** ([aura](/Traits.aspx?ID=206), [emotion](/Traits.aspx?ID=60), [mental](/Traits.aspx?ID=106), [visual](/Traits.aspx?ID=163)) 30 feet. The aura sheds dim light. Creatures in the emanation gain a +2 circumstance bonus to saving throws against emotion effects. The quatoid can activate or deactivate its calming bioluminescence as a single action, which has the concentrate trait.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +16 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+6 bludgeoning plus Grab\r\n\r\n**Primal Innate Spells** DC 27, attack +17\r\n- **2nd**\r\n[Hydraulic Push](/Spells.aspx?ID=154) (at will)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  1d12+6 bludgeoning, DC 25\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-45\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Quatoid](/Monsters.aspx?ID=2991)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nQuatoids are peculiar elementals native to the [Plane of Water](/Planes.aspx?ID=32) that resemble four-tentacled octopuses with eerily humanoid faces on their mantles. Mysterious even to other elementals, quatoids nevertheless respond to mortal summons. They assist these mortals in combat but seem to prefer offering calm advice, looking for alternate solutions even in the midst of bloody conflict.\n\n With the return of [their elemental lord](/Deities.aspx?ID=105) from her long imprisonment, quatoids are slowly becoming more active on the Plane of Water. However, much of their activity still seems to be centered on the mortal realm.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Quatoid.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Quatoid](/Monsters.aspx?ID=2991)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 148\n\n**Perception** +18; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +15, [Diplomacy](/Skills.aspx?ID=6) +12, [Elemental Lore](/Skills.aspx?ID=8) +17, [Occultism](/Skills.aspx?ID=11) +17, [Society](/Skills.aspx?ID=14) +17, [Stealth](/Skills.aspx?ID=15) +13\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +0\r\n\r\n**Int** +4\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +18 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)\r\n\r\n**Resistances**\r\nbludgeoning 5, [fire](/Traits.aspx?ID=604) 5\n\n**Calming Bioluminescence** ([aura](/Traits.aspx?ID=542), [emotion](/Traits.aspx?ID=590), [mental](/Traits.aspx?ID=647), [visual](/Traits.aspx?ID=727)) 30 feet. The aura sheds dim light. Creatures in the emanation gain a +2 circumstance bonus to saving throws against [emotion](/Traits.aspx?ID=590) effects. The quatoid can activate or deactivate this aura using a Sustain action.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, swim 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle +16 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d12+6 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Primal Innate Spells** DC 27, attack +17\r\n- **2nd**\r\n[Hydraulic Push](/Spells.aspx?ID=154) (at will)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=57)** <actions string=\"Single Action\" />  1d12+6 bludgeoning, DC 25\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-412\" />",
  "name": "Quatoid",
  "npc": false,
  "perception": 18,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 148",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 15,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 5,
   "fire": 5
  },
- "resistance_markdown": "bludgeoning 5, fire 5",
- "resistance_raw": "bludgeoning 5, fire 5",
- "search_markdown": "<traits>\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 153</row>\r\n\r\n**Creature Family** [Elemental, Water](/MonsterFamilies.aspx?ID=45)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 25\r\n\r\n**Fort** +13\r\n\r\n**Ref** +15\r\n\r\n**Will** +18\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nQuatoids are peculiar, mysterious elementals native to the Plane of Water that resemble four-tentacled octopuses with eerily humanoid faces on their …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "resistance_markdown": "bludgeoning 5, [fire](/Traits.aspx?ID=604) 5",
+ "resistance_raw": "bludgeoning 5,  fire  5",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=732\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 148\r\n\r\n**Creature Family** [Elemental, Water](/MonsterFamilies.aspx?ID=412)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 25\r\n\r\n**Fort** +13\r\n\r\n**Ref** +15\r\n\r\n**Will** +18\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nQuatoids are peculiar elementals native to the  Plane of Water  that resemble four-tentacled octopuses with eerily humanoid faces on their mantles. …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Athletics +15",
-  "Diplomacy +12",
-  "Elemental Lore +17",
-  "Occultism +17",
-  "Society +17",
-  "Stealth +13"
+  "Athletics",
+  "Diplomacy",
+  "Elemental Lore",
+  "Occultism",
+  "Society",
+  "Stealth"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +15, [Diplomacy](/Skills.aspx?ID=6) +12, [Elemental Lore](/Skills.aspx?ID=8) +17, [Occultism](/Skills.aspx?ID=11) +17, [Society](/Skills.aspx?ID=14) +17, [Stealth](/Skills.aspx?ID=15) +13",
+ "skill_mod": {
+  "athletics": 15,
+  "diplomacy": 12,
+  "occultism": 17,
+  "society": 17,
+  "stealth": 13
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 153"
+  "Monster Core pg. 148"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 153</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 148",
  "speed": {
   "land": 25,
   "max": 25,
@@ -79,29 +127,67 @@
   "Hydraulic Push"
  ],
  "spell_markdown": "[Hydraulic Push](/Spells.aspx?ID=154)",
+ "spell_attack_bonus": [
+  17
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  27
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "13",
+ "strike_damage_average": [
+  19
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
  "strongest_save": [
   "will"
  ],
- "summary": "Quatoids are peculiar, mysterious elementals native to the Plane of Water that resemble four-tentacled octopuses with eerily humanoid faces on their …",
- "summary_markdown": "Quatoids are peculiar, mysterious elementals native to the Plane of Water that resemble four-tentacled octopuses with eerily humanoid faces on their …",
- "text": " Quatoid Quatoids are peculiar, mysterious elementals native to the Plane of Water that resemble four-tentacled octopuses with eerily humanoid faces on their mantles. Recall Knowledge - Elemental (Arcana, Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Quatoid Source Bestiary pg. 153 Perception +18; darkvision Languages Aquan, Common Skills Athletics +15, Diplomacy +12, Elemental Lore +17, Occultism +17, Society +17, Stealth +13 Str +4 Dex +2 Con +0 Int +4 Wis +3 Cha +1 --- AC 25 Fort +13 Ref +15 Will +18 HP 120 Immunities bleed, paralyzed, poison, sleep Resistances bludgeoning 5, fire 5 Calming Bioluminescence (aura, emotion, mental, visual) 30 feet. The aura sheds dim light. Creatures in the emanation gain a +2 circumstance bonus to saving throws against emotion effects. The quatoid can activate or deactivate its calming bioluminescence as a single action, which has the concentrate trait. --- Speed 25 feet, swim 25 feet Melee Single Action tentacle +16 (reach 10 feet), Damage 2d12+6 bludgeoning plus Grab Primal Innate Spells DC 27, attack +17 - 2nd Hydraulic Push (at will) Constrict Single Action 1d12+6 bludgeoning, DC 25 ",
+ "summary": "Quatoids are peculiar elementals native to the  Plane of Water  that resemble four-tentacled octopuses with eerily humanoid faces on their mantles. …",
+ "summary_markdown": "Quatoids are peculiar elementals native to the  Plane of Water  that resemble four-tentacled octopuses with eerily humanoid faces on their mantles. …",
+ "text": " Quatoid Quatoids are peculiar elementals native to the Plane of Water that resemble four-tentacled octopuses with eerily humanoid faces on their mantles. Mysterious even to other elementals, quatoids nevertheless respond to mortal summons. They assist these mortals in combat but seem to prefer offering calm advice, looking for alternate solutions even in the midst of bloody conflict. With the return of their elemental lord from her long imprisonment, quatoids are slowly becoming more active on the Plane of Water. However, much of their activity still seems to be centered on the mortal realm. Recall Knowledge - Elemental (Arcana, Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Quatoid Source Monster Core pg. 148 Perception +18; darkvision Languages Common, Thalassic Skills Athletics +15, Diplomacy +12, Elemental Lore +17, Occultism +17, Society +17, Stealth +13 Str +4 Dex +2 Con +0 Int +4 Wis +3 Cha +1 --- AC 25 Fort +13 Ref +15 Will +18 HP 120 Immunities bleed, paralyzed, poison, sleep Resistances bludgeoning 5, fire 5 Calming Bioluminescence (aura, emotion, mental, visual) 30 feet. The aura sheds dim light. Creatures in the emanation gain a +2 circumstance bonus to saving throws against emotion effects. The quatoid can activate or deactivate this aura using a Sustain action. --- Speed 25 feet, swim 25 feet Melee Single Action tentacle +16 (reach 10 feet), Damage 2d12+6 bludgeoning plus Grab Primal Innate Spells DC 27, attack +17 - 2nd Hydraulic Push (at will) Constrict Single Action 1d12+6 bludgeoning, DC 25 ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Aquatic",
   "Elemental",
   "Water",
-  "LN",
   "Small"
  ],
- "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Elemental](/Traits.aspx?ID=57), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=533), [Elemental](/Traits.aspx?ID=587), [Water](/Traits.aspx?ID=732)",
  "trait_raw": [
   "Aquatic",
   "Elemental",
   "Water"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=198",
+ "url": "/Monsters.aspx?ID=2991",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -109,5 +195,9 @@
  ],
  "weakness": {},
  "will_save": 18,
- "wisdom": 3
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

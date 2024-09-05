@@ -3,7 +3,6 @@
   "Spiked Chain"
  ],
  "base_item_markdown": "[Spiked Chain](/Weapons.aspx?ID=60)",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
@@ -12,36 +11,48 @@
  "item_category": "Weapons",
  "item_subcategory": "Specific Magic Weapons",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Vine of Roses](/Equipment.aspx?ID=1384)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 85</row>\n\n**Price** 600 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Spiked Chain](/Weapons.aspx?ID=60)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis _+1 [striking](/Equipment.aspx?ID=280) [disrupting](/Equipment.aspx?ID=294) [spiked chain](/Weapons.aspx?ID=60)_ comes in a rich, green color with rose petals painted on the handle in varying shades of red and pink. The chain seems to banish nearby shadows.\n\n<document level=\"2\" id=\"action-1068\" />\n\n<document level=\"2\" id=\"action-1069\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Vine of Roses](/Equipment.aspx?ID=1384)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 85\n\n**Price** 600 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Spiked Chain](/Weapons.aspx?ID=60)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis _+1 [striking](/Equipment.aspx?ID=280) [disrupting](/Equipment.aspx?ID=294) [spiked chain](/Weapons.aspx?ID=60)_ comes in a rich, green color with rose petals painted on the handle in varying shades of red and pink. The chain seems to banish nearby shadows.\n\n**Activate** <actions string=\"Single Action\" /> Interact;     **Effect** You hold the chain out before you, and the weapon glows as bright as a [torch](/Equipment.aspx?ID=60). You can suppress this light by Activating the weapon again.\n\n**Activate** <actions string=\"Reaction\" /> envision;  **Frequency** once per day; **Trigger** You critically succeed at a Strike against a [fiend](/Traits.aspx?ID=70) or [undead](/Traits.aspx?ID=160);  **Effect** The weapon unleashes its light in an attempt to destroy the target. The _vine of roses_ casts a 3rd-level [_searing light_](/Spells.aspx?ID=269) spell with the triggering creature as the target. In place of a spell attack roll, make a weapon attack roll with the _vine of roses_ using the same multiple attack penalty as the triggering Strike.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Vine of Roses",
  "pfs": "Standard",
  "price": 60000,
  "price_raw": "600 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 85",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 85</row>\r\n\r\n**Price** 600 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  +1  striking   disrupting   spiked chain   comes in a rich, green color with rose petals painted on the handle in varying shades of red and …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Good\" url=\"/Traits.aspx?ID=83\" />\r\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 85\r\n\r\n**Price** 600 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Weapon** [Spiked Chain](/Weapons.aspx?ID=60)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  +1  striking   disrupting   spiked chain   comes in a rich, green color with rose petals painted on the handle in varying shades of red and …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 85"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 85</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 85",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This  +1  striking   disrupting   spiked chain   comes in a rich, green color with rose petals painted on the handle in varying shades of red and …",
  "summary_markdown": "This  +1  striking   disrupting   spiked chain   comes in a rich, green color with rose petals painted on the handle in varying shades of red and …",
- "text": "<title level=\"1\" right=\"Item 9\" pfs=\"Standard\" > Vine of Roses Source Grand Bazaar pg. 85 Price 600 gp Usage held in 2 hands Bulk 1 Base Weapon Spiked Chain --- This +1 striking disrupting spiked chain comes in a rich, green color with rose petals painted on the handle in varying shades of red and pink. The chain seems to banish nearby shadows.\n",
+ "text": "<title level=\"1\" right=\"Item 9\" pfs=\"Standard\" > Vine of Roses Source Grand Bazaar pg. 85 Price 600 gp Usage held in 2 hands Bulk 1 Base Weapon Spiked Chain --- This +1 striking disrupting spiked chain comes in a rich, green color with rose petals painted on the handle in varying shades of red and pink. The chain seems to banish nearby shadows. Activate Single Action Interact; Effect You hold the chain out before you, and the weapon glows as bright as a torch. You can suppress this light by Activating the weapon again. Activate Reaction envision; Frequency once per day; Trigger You critically succeed at a Strike against a fiend or undead; Effect The weapon unleashes its light in an attempt to destroy the target. The vine of roses casts a 3rd-level searing light spell with the triggering creature as the target. In place of a spell attack roll, make a weapon attack roll with the vine of roses using the same multiple attack penalty as the triggering Strike.\n",
  "trait": [
   "Evocation",
   "Good",
   "Light",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Alignment",
+  "Rarity"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Good](/Traits.aspx?ID=83), [Light](/Traits.aspx?ID=100), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

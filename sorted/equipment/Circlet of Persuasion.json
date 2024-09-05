@@ -1,45 +1,58 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-400",
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 17,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Circlet of Persuasion](/Equipment.aspx?ID=400)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup></row>\n\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn circlet\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. When you invest the circlet, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.\n\n<document level=\"2\" id=\"action-226\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 17\"\r\n    pfs=\"Standard\"\r\n>\r\n[Circlet of Persuasion](/Equipment.aspx?ID=400)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup>\n\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn circlet\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. When you invest the circlet, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.\n\n**Activate** <actions string=\"Two Actions\" /> envision;  **Frequency** once per hour;   **Effect** You cast a 4th-level [_charm_](/Spells.aspx?ID=34) spell (DC 38).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Circlet of Persuasion",
  "pfs": "Standard",
  "price": 1500000,
  "price_raw": "15,000 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 603",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "equipment-3012",
+ "remaster_name": "Necklace of Allure",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup></row>\r\n\r\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn circlet\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup>\r\n\r\n**Price** 15,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn circlet\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. …\r\n</summary>",
  "skill": [
   "Deception",
   "Diplomacy"
  ],
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 603"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 603 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. …",
  "summary_markdown": "This elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. …",
- "text": "<title level=\"1\" right=\"Item 17\" pfs=\"Standard\" > Circlet of Persuasion Source Core Rulebook pg. 603 4.0 Price 15,000 gp Usage worn circlet --- This elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. When you invest the circlet, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.\n",
+ "text": "<title level=\"1\" right=\"Item 17\" pfs=\"Standard\" > Circlet of Persuasion Source Core Rulebook pg. 603 4.0 Price 15,000 gp Usage worn circlet --- This elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. When you invest the circlet, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score. Activate Two Actions envision; Frequency once per hour; Effect You cast a 4th-level charm spell (DC 38).\n",
  "trait": [
   "Apex",
   "Enchantment",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Enchantment](/Traits.aspx?ID=61), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

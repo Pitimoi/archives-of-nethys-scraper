@@ -1,10 +1,25 @@
 {
  "ac": 34,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  24,
+  24
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 7,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
  "creature_ability": [
   "Buck",
   "Dogged Persistence",
@@ -13,45 +28,72 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 25,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 220,
  "hp_raw": "220",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-2120",
  "immunity": [
   "olfactory e"
  ],
  "immunity_markdown": "[olfactory](/Traits.aspx?ID=246)e",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
  "level": 12,
- "markdown": "<title level=\"1\" pfs=\"\">[War Sauropelta](/Monsters.aspx?ID=2120)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[War Sauropelta](/Monsters.aspx?ID=2120)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=45\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #154: Siege of the Dinosaurs](/Sources.aspx?ID=31) pg. 46</row>\n\n**Perception** +23; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +2\r\n\r\n**Con** +7\r\n\r\n**Int** -4\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 34 \r\n\r\n**Fort** +25 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n**HP** 220\n\n**Immunities**\r\n[olfactory](/Traits.aspx?ID=246)e\n\n**[Buck](/MonsterAbilities.aspx?ID=6)** <actions string=\"Reaction\" /> DC 32<br />**Dogged Persistence** <actions string=\"Reaction\" /> **Frequency** once per minute; **Trigger** The war sauropelta would be affected by the [immobilized](/Conditions.aspx?ID=24), [paralyzed](/Conditions.aspx?ID=28), [slowed](/Conditions.aspx?ID=35), or [stunned](/Conditions.aspx?ID=36) conditions, or by an effect that would give it a penalty to its Speeds, from a source of 14th level or less; **Effect** The war sauropelta negates the triggering condition or effect.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +24 ([Backswing](/Traits.aspx?ID=173), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+13 bludgeoning plus [Push](/MonsterAbilities.aspx?ID=25) and punishing tail\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +24,\r\n**Damage** 3d6+13 bludgeoning\n\n**Punishing Tail**   A creature struck by the war sauropelta's tail must attempt a DC 32 Fortitude save. On a failure, it's [stunned 1](/Conditions.aspx?ID=36); on a critical failure, it's stunned 3.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=39)** <actions string=\"Three Actions\" />  Medium or smaller, foot, DC 32\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[War Sauropelta](/Monsters.aspx?ID=2120)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[War Sauropelta](/Monsters.aspx?ID=2120)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=45\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #154: Siege of the Dinosaurs](/Sources.aspx?ID=31) pg. 46\n\n**Perception** +23; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +2\r\n\r\n**Con** +7\r\n\r\n**Int** -4\r\n\r\n**Wis** +4\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 34 \r\n\r\n**Fort** +25 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 220\n\n</row>\r\n\r\n**Immunities**\r\n[olfactory](/Traits.aspx?ID=246)e\n\n**[Buck](/MonsterAbilities.aspx?ID=6)** <actions string=\"Reaction\" /> DC 32<br />**Dogged Persistence** <actions string=\"Reaction\" /> **Frequency** once per minute; **Trigger** The war sauropelta would be affected by the [immobilized](/Conditions.aspx?ID=24), [paralyzed](/Conditions.aspx?ID=28), [slowed](/Conditions.aspx?ID=35), or [stunned](/Conditions.aspx?ID=36) conditions, or by an effect that would give it a penalty to its Speeds, from a source of 14th level or less; **Effect** The war sauropelta negates the triggering condition or effect.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +24 ([Backswing](/Traits.aspx?ID=173), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+13 bludgeoning plus [Push](/MonsterAbilities.aspx?ID=25) and punishing tail\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfoot +24,\r\n**Damage** 3d6+13 bludgeoning\n\n**Punishing Tail**   A creature struck by the war sauropelta's tail must attempt a DC 32 Fortitude save. On a failure, it's [stunned 1](/Conditions.aspx?ID=36); on a critical failure, it's stunned 3.\r\n\r\n**[Trample](/MonsterAbilities.aspx?ID=39)** <actions string=\"Three Actions\" />  Medium or smaller, foot, DC 32\r\n\r\n</column>",
  "name": "War Sauropelta",
  "npc": false,
  "perception": 23,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #154: Siege of the Dinosaurs",
+ "primary_source_raw": "Pathfinder #154: Siege of the Dinosaurs pg. 46",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Extinction Curse",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 20,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2020-04-29",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=45\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #154: Siege of the Dinosaurs](/Sources.aspx?ID=31) pg. 46</row>\n\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 34\r\n\r\n**Fort** +25\r\n\r\n**Ref** +20\r\n\r\n**Will** +22\r\n\r\n**Perception** +23\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=45\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #154: Siege of the Dinosaurs](/Sources.aspx?ID=31) pg. 46\n\n<row gap=\"medium\">\r\n**HP** 220\r\n\r\n**AC** 34\r\n\r\n**Fort** +25\r\n\r\n**Ref** +20\r\n\r\n**Will** +22\r\n\r\n**Perception** +23\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Athletics +25"
+  "Athletics"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +25",
+ "skill_mod": {
+  "athletics": 25
+ },
  "source": [
   "Pathfinder #154: Siege of the Dinosaurs"
  ],
  "source_raw": [
   "Pathfinder #154: Siege of the Dinosaurs pg. 46"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Extinction Curse",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #154: Siege of the Dinosaurs](/Sources.aspx?ID=31) pg. 46</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Extinction Curse"
+ ],
+ "source_markdown": "[Pathfinder #154: Siege of the Dinosaurs](/Sources.aspx?ID=31) pg. 46",
  "speed": {
   "land": 25,
   "max": 25
@@ -60,18 +102,38 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "spoilers": "Extinction Curse",
+ "strike_damage_average": [
+  23,
+  26
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
  "text": " War Sauropelta Recall Knowledge - Animal (Nature): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 War Sauropelta Source Pathfinder #154: Siege of the Dinosaurs pg. 46 Perception +23; low-light vision Languages Skills Athletics +25 Str +7 Dex +2 Con +7 Int -4 Wis +4 Cha +0 --- AC 34 Fort +25 Ref +20 Will +22 HP 220 Immunities olfactorye Buck Reaction DC 32 Dogged Persistence Reaction Frequency once per minute; Trigger The war sauropelta would be affected by the immobilized, paralyzed, slowed, or stunned conditions, or by an effect that would give it a penalty to its Speeds, from a source of 14th level or less; Effect The war sauropelta negates the triggering condition or effect. --- Speed 25 feet Melee Single Action tail +24 (Backswing, reach 10 feet), Damage 3d8+13 bludgeoning plus Push and punishing tail Melee Single Action foot +24, Damage 3d6+13 bludgeoning Punishing Tail A creature struck by the war sauropelta's tail must attempt a DC 32 Fortitude save. On a failure, it's stunned 1; on a critical failure, it's stunned 3. Trample Three Actions Medium or smaller, foot, DC 32 ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Dinosaur",
   "Uncommon",
   "N",
   "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
  ],
  "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Dinosaur](/Traits.aspx?ID=45), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -88,5 +150,9 @@
  ],
  "weakness": {},
  "will_save": 22,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

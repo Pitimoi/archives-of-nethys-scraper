@@ -1,0 +1,161 @@
+{
+ "ac": 18,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  8,
+  9
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Germinate"
+ ],
+ "creature_family": "Elemental, Wood",
+ "creature_family_markdown": "[Elemental, Wood](/MonsterFamilies.aspx?ID=345)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 48,
+ "hp_raw": "48",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2672",
+ "image": [
+  "/Images/Monsters/ElementalWood_NurseryCrawler.png"
+ ],
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Nursery Crawler](/Monsters.aspx?ID=2672)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe vibrant elemental energy of the [Plane of Wood](/Planes.aspx?ID=25) imbues even the most rotten of fallen trees, empowering their remains to travel in search of the best locations for the next generation to put down roots. This mono-eyed, rotten stump launches seeds that begin to sprout the moment they're buried, whether in the ground or in a living creature's skin.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/ElementalWood_NurseryCrawler.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Nursery Crawler](/Monsters.aspx?ID=2672)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 206\n\n**Perception** +9\r\n\r\n**Languages**\n\n**Skills**\r\n[Deception](/Skills.aspx?ID=5) +5, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** -2\r\n\r\n**Wis** +1\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +6 \r\n\r\n**Ref** +4 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 48\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\n[axes](/WeaponGroups.aspx?ID=1) 5, [fire](/Traits.aspx?ID=72) 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, climb 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nroot +9,\r\n**Damage** 1d8+4 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nseed +8 ([range increment 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d6+3 piercing plus germinate\n\n**Germinate**  ([Plant](/Traits.aspx?ID=125)) A creature hit by the nursery crawler's seed Strike must, on its turn, spend an Interact action to remove the seed; any seeds still implanted at the end of the creature's turn begin to sprout, dealing 1d6 [persistent bleed damage](/Conditions.aspx?ID=29) and rendering the seeded creature [clumsy](/Conditions.aspx?ID=3) and [off-guard](/Conditions.aspx?ID=58). Removing a seed after it's sprouted deals 1d4 piercing damage; removing it before it begins to sprout does no damage. Removed seeds that land in viable soil sprout immediately and grow into new saplings after 1 hour.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-345\" />",
+ "name": "Nursery Crawler",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 206",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 4,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 206\r\n\r\n**Creature Family** [Elemental, Wood](/MonsterFamilies.aspx?ID=345)\r\n\r\n<row gap=\"medium\">\r\n**HP** 48\r\n\r\n**AC** 18\r\n\r\n**Fort** +6\r\n\r\n**Ref** +4\r\n\r\n**Will** +12\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe vibrant elemental energy of the  Plane of Wood  imbues even the most rotten of fallen trees, empowering their remains to travel in search of the …\r\n</summary>",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Deception",
+  "Survival"
+ ],
+ "skill_markdown": "[Deception](/Skills.aspx?ID=5) +5, [Survival](/Skills.aspx?ID=16) +9",
+ "skill_mod": {
+  "deception": 5,
+  "survival": 9
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 206"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 206",
+ "speed": {
+  "climb": 20,
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet, climb 20 feet",
+ "speed_raw": "20 feet, climb 20 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  6,
+  8
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "The vibrant elemental energy of the  Plane of Wood  imbues even the most rotten of fallen trees, empowering their remains to travel in search of the …",
+ "summary_markdown": "The vibrant elemental energy of the  Plane of Wood  imbues even the most rotten of fallen trees, empowering their remains to travel in search of the …",
+ "text": " Nursery Crawler The vibrant elemental energy of the Plane of Wood imbues even the most rotten of fallen trees, empowering their remains to travel in search of the best locations for the next generation to put down roots. This mono-eyed, rotten stump launches seeds that begin to sprout the moment they're buried, whether in the ground or in a living creature's skin. Recall Knowledge - Elemental (Arcana, Nature): DC 18 Recall Knowledge - Plant (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Nursery Crawler Source Rage of Elements pg. 206 Perception +9 Languages Skills Deception +5, Survival +9 Str +4 Dex +3 Con +3 Int -2 Wis +1 Cha +0 --- AC 18 Fort +6 Ref +4 Will +12 HP 48 Immunities bleed, paralyzed, poison, sleep Weaknesses axes 5, fire 5 --- Speed 20 feet, climb 20 feet Melee Single Action root +9, Damage 1d8+4 bludgeoning Ranged Single Action seed +8 (range increment 20 feet), Damage 1d6+3 piercing plus germinate Germinate (Plant) A creature hit by the nursery crawler's seed Strike must, on its turn, spend an Interact action to remove the seed; any seeds still implanted at the end of the creature's turn begin to sprout, dealing 1d6 persistent bleed damage and rendering the seeded creature clumsy and off-guard. Removing a seed after it's sprouted deals 1d4 piercing damage; removing it before it begins to sprout does no damage. Removed seeds that land in viable soil sprout immediately and grow into new saplings after 1 hour. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Plant",
+  "Wood",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Plant](/Traits.aspx?ID=125), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Elemental",
+  "Plant",
+  "Wood"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2672",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "fire": 5
+ },
+ "weakness_markdown": "[axes](/WeaponGroups.aspx?ID=1) 5, [fire](/Traits.aspx?ID=72) 5",
+ "weakness_raw": " axes  5,  fire  5",
+ "will_save": 12,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

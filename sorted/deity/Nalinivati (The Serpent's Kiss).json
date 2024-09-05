@@ -1,10 +1,9 @@
 {
- "ability": [
+ "attribute": [
   "Wisdom",
   "Charisma"
  ],
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "anathema": "kill a harmless snake or swan, spurn friends due to jealousy or romantic competition, betray your offspring, separate lovers",
  "category": "deity",
  "cleric_spell": [
   "Charm",
@@ -14,13 +13,11 @@
   "Subconscious Suggestion",
   "Mislead",
   "Contingency",
-  "Scintillating Pattern",
-  "Storm of Vengeance"
+  "Wrathful Storm"
  ],
  "deity": [
   "Nalinivati"
  ],
- "deity_markdown": "[Nalinivati](/Deities.aspx?ID=181)",
  "deity_category": "Tian Gods",
  "deity_category_markdown": "[Tian Gods](/DeityCategories.aspx?ID=16)",
  "deity_category_order": "2Tian Gods",
@@ -30,63 +27,82 @@
  ],
  "divine_font_markdown": "[Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)",
  "domain": [
+  "Family",
   "Glyph",
   "Magic",
+  "Naga",
   "Passion",
   "Wyrmkin"
  ],
- "domain_markdown": "[Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Passion](/Domains.aspx?ID=25), [Wyrmkin](/Domains.aspx?ID=57)",
- "domain_alternate_markdown": "",
+ "domain_markdown": "[Family](/Domains.aspx?ID=74), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=82), [Naga](/Domains.aspx?ID=58), [Passion](/Domains.aspx?ID=88), [Wyrmkin](/Domains.aspx?ID=57)",
+ "domain_alternate": [
+  "Family",
+  "Glyph"
+ ],
+ "domain_alternate_markdown": "[Family](/Domains.aspx?ID=74), [Glyph](/Domains.aspx?ID=46)",
  "domain_primary": [
-  "Glyph",
   "Magic",
+  "Naga",
   "Passion",
   "Wyrmkin"
  ],
- "domain_primary_markdown": "[Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Passion](/Domains.aspx?ID=25), [Wyrmkin](/Domains.aspx?ID=57)",
+ "domain_primary_markdown": "[Magic](/Domains.aspx?ID=82), [Naga](/Domains.aspx?ID=58), [Passion](/Domains.aspx?ID=88), [Wyrmkin](/Domains.aspx?ID=57)",
+ "edict": "seek out magic and use it, use poison, heal poisons, bear or adopt children, raise snakes",
  "exclude_from_search": false,
  "favored_weapon": [
   "jaws",
   "Urumi"
  ],
- "favored_weapon_markdown": "[jaws](/Weapons.aspx?ID=1) or [Urumi](/Weapons.aspx?ID=306)",
- "follower_alignment": [
-  "LN",
-  "NG",
-  "N",
-  "NE"
- ],
- "id": "deity-181",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Nalinivati (The Serpent's Kiss)](/Deities.aspx?ID=181)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Tian Gods](/DeityCategories.aspx?ID=16)\r\n\r\n**Edicts** Seek out magic and use it, use poison, heal poisons, bear or adopt children, raise snakes\r\n\r\n**Anathema** Kill a harmless snake or swan, spurn friends due to jealousy or romantic competition, betray your offspring, separate lovers\n\n**Follower Alignments**\r\nLN, NG, N, NE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nWisdom or Charisma\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [jaws](/Weapons.aspx?ID=1) or [Urumi](/Weapons.aspx?ID=306)\r\n\r\n**Domains** [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Passion](/Domains.aspx?ID=25), [Wyrmkin](/Domains.aspx?ID=57)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Charm](/Spells.aspx?ID=34)\n\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164)\n\n- **3rd**\r\n[Lightning Bolt](/Spells.aspx?ID=172)\n\n- **4th**\r\n[Reflective Scales](/Spells.aspx?ID=583)\n\n- **5th**\r\n[Subconscious Suggestion](/Spells.aspx?ID=314)\n\n- **6th**\r\n[Mislead](/Spells.aspx?ID=199)\n\n- **7th**\r\n[Contingency](/Spells.aspx?ID=49)\n\n- **8th**\r\n[Scintillating Pattern](/Spells.aspx?ID=267)\n\n- **9th**\r\n[Storm of Vengeance](/Spells.aspx?ID=313)\n\n</column>",
+ "favored_weapon_markdown": "[jaws](/Weapons.aspx?ID=356) or [Urumi](/Weapons.aspx?ID=306)",
+ "id": "deity-313",
+ "legacy_id": "deity-181",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Nalinivati (The Serpent's Kiss)](/Deities.aspx?ID=313)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n\r\n</traits>\r\n\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 37\n\nNalinivati is an unusual daughter of Ravithra, born a simple snake rather than a naga. Her ascent to godhood is a story of dedication to craft, knowledge, and community. As a powerful sorceress, she became the first queen of Nagajor. She cared deeply for her lovers and even deeper for her children. She also cared for the snakes around her and took in those who were lost and without family. She created communities with structure that helped sustain her ambitions and pushed others to pursue magical knowledge. She later transformed herself into a naga to further protect and nurture those she loved, proving to herself and everyone else that dedication and curiosity, with a sprinkle of strong magic, can break all barriers. Upon reaching godhood, she saw to reward those who wished to also care for others, give their next generation a life of love and ambition, and take in those less fortunate.\n\n Nalinivati is depicted as a large naga with colorful scales and features, her body shimmering in mesmerizing patterns. Her body fluidly shifts between more humanoid or more snake-like depending on who she's communing with and whether she wishes to comfort or to terrify them. Nalinivati is adorned with jewelry and flowers given to her as gifts from her worshippers, while trinkets, crafts, and books hang off her waist. She is also often paired with Daikitsu, the Lady of Foxes, with whom Nalinivati shares a long history of intimate platonic friendship. They are honored as deities of fertility, and Daikitsu's shrines are often adorned with colorful scales or books as a sign of respect between goddesses.\n\n Many people pray to Nalinivati when trying to start a family, giving offerings of meat and milk to wild snakes. Those same families will continue to pray to her when their children begin their studies. Adherents who pursue arcane studies will keep pet snakes as familiars to gain Nalinivati's sorcerous favor.\n\n Nalinivati's thirst for arcane knowledge and her own ascent into godhood eventually led her to her own act of creation: nagaji. Inspired by, and a little in spite of, Daikitsu's affection and relationship towards her kitsune, Nalinivati quickly poured her love and care into her creation of nagaji, giving them the image of her own ophidian ancestors.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Tian Gods](/DeityCategories.aspx?ID=16)\r\n\r\n**Edicts** seek out magic and use it, use poison, heal poisons, bear or adopt children, raise snakes\r\n\r\n**Anathema** kill a harmless snake or swan, spurn friends due to jealousy or romantic competition, betray your offspring, separate lovers\r\n\r\n**Area of Concern**\r\n family, fertility, snakes, sorcery\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nWisdom or Charisma\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose holy or unholy\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=35)\r\n\r\n**Favored Weapon** [jaws](/Weapons.aspx?ID=356) or [Urumi](/Weapons.aspx?ID=306)\r\n\r\n**Domains** [Magic](/Domains.aspx?ID=82), [Naga](/Domains.aspx?ID=58), [Passion](/Domains.aspx?ID=88), [Wyrmkin](/Domains.aspx?ID=57)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** [Family](/Domains.aspx?ID=74), [Glyph](/Domains.aspx?ID=46)\r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Charm](/Spells.aspx?ID=1463)\n\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=1577)\n\n- **3rd**\r\n[Lightning Bolt](/Spells.aspx?ID=1586)\n\n- **4th**\r\n[Reflective Scales](/Spells.aspx?ID=583)\n\n- **5th**\r\n[Subconscious Suggestion](/Spells.aspx?ID=1692)\n\n- **6th**\r\n[Mislead](/Spells.aspx?ID=1605)\n\n- **7th**\r\n[Contingency](/Spells.aspx?ID=1472)\n\n- **9th**\r\n[Wrathful Storm](/Spells.aspx?ID=1759)\n\n</column>",
  "name": "Nalinivati (The Serpent's Kiss)",
  "pfs": "Standard",
+ "primary_source": "Tian Xia World Guide",
+ "primary_source_raw": "Tian Xia World Guide pg. 37",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
- "release_date": "2020-01-29",
+ "rarity_id": 1,
+ "release_date": "2024-04-24",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=2)\r\n\r\n**Favored Weapon** [jaws](/Weapons.aspx?ID=1) or [Urumi](/Weapons.aspx?ID=306)\r\n\r\n**Domains** [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=19), [Passion](/Domains.aspx?ID=25), [Wyrmkin](/Domains.aspx?ID=57)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "holy",
+  "unholy"
+ ],
+ "sanctification_raw": "can choose holy or unholy",
+ "search_markdown": "<additional-info>\r\n**Source** [Tian Xia World Guide](/Sources.aspx?ID=223) pg. 37\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Arcana](/Skills.aspx?ID=35)\r\n\r\n**Favored Weapon** [jaws](/Weapons.aspx?ID=356) or [Urumi](/Weapons.aspx?ID=306)\r\n\r\n**Domains** [Family](/Domains.aspx?ID=74), [Glyph](/Domains.aspx?ID=46), [Magic](/Domains.aspx?ID=82), [Naga](/Domains.aspx?ID=58), [Passion](/Domains.aspx?ID=88), [Wyrmkin](/Domains.aspx?ID=57)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nNalinivati is an unusual daughter of Ravithra, born a simple snake rather than a naga. Her ascent to godhood is a story of dedication to craft, …\r\n</summary>",
  "skill": [
   "Arcana"
  ],
- "skill_markdown": "[Arcana](/Skills.aspx?ID=2)",
+ "skill_markdown": "[Arcana](/Skills.aspx?ID=35)",
+ "skill_mod": {},
  "source": [
-  "Gods & Magic"
+  "Tian Xia World Guide"
  ],
  "source_raw": [
-  "Gods & Magic pg. 132"
+  "Tian Xia World Guide pg. 37"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia World Guide](/Sources.aspx?ID=223) pg. 37",
  "speed": {},
- "summary": " Nethys Note: no description has been provided of this deity ",
- "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Nalinivati (The Serpent's Kiss) Source Gods &amp; Magic pg. 132 2.0 Nethys Note: no description has been provided of this deity Category Tian Gods Edicts Seek out magic and use it, use poison, heal poisons, bear or adopt children, raise snakes Anathema Kill a harmless snake or swan, spurn friends due to jealousy or romantic competition, betray your offspring, separate lovers Follower Alignments LN, NG, N, NE Devotee Benefits Divine Ability Wisdom or Charisma Divine Font Harm or Heal Divine Skill Arcana Favored Weapon jaws or Urumi Domains Glyph, Magic, Passion, Wyrmkin Alternate Domains Cleric Spells - 1st Charm - 2nd Invisibility - 3rd Lightning Bolt - 4th Reflective Scales - 5th Subconscious Suggestion - 6th Mislead - 7th Contingency - 8th Scintillating Pattern - 9th Storm of Vengeance\n",
- "trait": [
-  "N"
+ "spell": [
+  "Charm",
+  "Invisibility",
+  "Lightning Bolt",
+  "Reflective Scales",
+  "Subconscious Suggestion",
+  "Mislead",
+  "Contingency",
+  "Wrathful Storm"
  ],
- "trait_raw": [
-  "N"
- ],
+ "spell_markdown": "[Charm](/Spells.aspx?ID=1463), [Contingency](/Spells.aspx?ID=1472), [Invisibility](/Spells.aspx?ID=1577), [Lightning Bolt](/Spells.aspx?ID=1586), [Mislead](/Spells.aspx?ID=1605), [Reflective Scales](/Spells.aspx?ID=583), [Subconscious Suggestion](/Spells.aspx?ID=1692), [Wrathful Storm](/Spells.aspx?ID=1759)",
+ "summary": "Nalinivati is an unusual daughter of Ravithra, born a simple snake rather than a naga. Her ascent to godhood is a story of dedication to craft, …",
+ "summary_markdown": "Nalinivati is an unusual daughter of Ravithra, born a simple snake rather than a naga. Her ascent to godhood is a story of dedication to craft, …",
+ "text": " Nalinivati (The Serpent's Kiss) Source Tian Xia World Guide pg. 37 Nalinivati is an unusual daughter of Ravithra, born a simple snake rather than a naga. Her ascent to godhood is a story of dedication to craft, knowledge, and community. As a powerful sorceress, she became the first queen of Nagajor. She cared deeply for her lovers and even deeper for her children. She also cared for the snakes around her and took in those who were lost and without family. She created communities with structure that helped sustain her ambitions and pushed others to pursue magical knowledge. She later transformed herself into a naga to further protect and nurture those she loved, proving to herself and everyone else that dedication and curiosity, with a sprinkle of strong magic, can break all barriers. Upon reaching godhood, she saw to reward those who wished to also care for others, give their next generation a life of love and ambition, and take in those less fortunate. Nalinivati is depicted as a large naga with colorful scales and features, her body shimmering in mesmerizing patterns. Her body fluidly shifts between more humanoid or more snake-like depending on who she's communing with and whether she wishes to comfort or to terrify them. Nalinivati is adorned with jewelry and flowers given to her as gifts from her worshippers, while trinkets, crafts, and books hang off her waist. She is also often paired with Daikitsu, the Lady of Foxes, with whom Nalinivati shares a long history of intimate platonic friendship. They are honored as deities of fertility, and Daikitsu's shrines are often adorned with colorful scales or books as a sign of respect between goddesses. Many people pray to Nalinivati when trying to start a family, giving offerings of meat and milk to wild snakes. Those same families will continue to pray to her when their children begin their studies. Adherents who pursue arcane studies will keep pet snakes as familiars to gain Nalinivati's sorcerous favor. Nalinivati's thirst for arcane knowledge and her own ascent into godhood eventually led her to her own act of creation: nagaji. Inspired by, and a little in spite of, Daikitsu's affection and relationship towards her kitsune, Nalinivati quickly poured her love and care into her creation of nagaji, giving them the image of her own ophidian ancestors. Category Tian Gods Edicts seek out magic and use it, use poison, heal poisons, bear or adopt children, raise snakes Anathema kill a harmless snake or swan, spurn friends due to jealousy or romantic competition, betray your offspring, separate lovers Area of Concern family, fertility, snakes, sorcery Devotee Benefits Divine Attribute Wisdom or Charisma Divine Font Harm or Heal Divine Sanctification can choose holy or unholy Divine Skill Arcana Favored Weapon jaws or Urumi Domains Magic, Naga, Passion, Wyrmkin Alternate Domains Family, Glyph Cleric Spells - 1st Charm - 2nd Invisibility - 3rd Lightning Bolt - 4th Reflective Scales - 5th Subconscious Suggestion - 6th Mislead - 7th Contingency - 9th Wrathful Storm\n",
  "type": "Deity",
- "url": "/Deities.aspx?ID=181",
+ "url": "/Deities.aspx?ID=313",
  "weakness": {}
 }

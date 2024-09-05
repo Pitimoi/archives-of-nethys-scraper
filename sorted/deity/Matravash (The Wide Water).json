@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Constitution",
   "Wisdom"
  ],
  "alignment": "LN",
- "breadcrumbs_spa": [],
+ "anathema": "Destroy lotus fields, interfere with the flow of the Matra river, pollute clean water, reveal the location of nonevil fugitives",
  "category": "deity",
  "cleric_spell": [
   "Share Lore",
@@ -14,10 +14,9 @@
  "deity": [
   "Matravash"
  ],
- "deity_markdown": "[Matravash](/Deities.aspx?ID=193)",
  "deity_category": "Vudrani Gods",
- "deity_category_markdown": "[Vudrani Gods\r\n](/DeityCategories.aspx?ID=17)",
- "deity_category_order": "2Vudrani Gods\r\n",
+ "deity_category_markdown": "[Vudrani Gods](/DeityCategories.aspx?ID=17)",
+ "deity_category_order": "2Vudrani Gods",
  "divine_font": [
   "Heal"
  ],
@@ -37,6 +36,7 @@
   "Water"
  ],
  "domain_primary_markdown": "[Cities](/Domains.aspx?ID=3), [Nature](/Domains.aspx?ID=22), [Travel](/Domains.aspx?ID=30), [Water](/Domains.aspx?ID=35)",
+ "edict": "Aid the persecuted, accommodate and facilitate others, practice contemplation and restraint",
  "exclude_from_search": false,
  "favored_weapon": [
   "Whip"
@@ -48,29 +48,46 @@
   "N"
  ],
  "id": "deity-193",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Matravash (The Wide Water)](/Deities.aspx?ID=193)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Vudrani Gods\r\n](/DeityCategories.aspx?ID=17)\r\n\r\n**Edicts** Aid the persecuted, accommodate and facilitate others, practice contemplation and restraint\r\n\r\n**Anathema** Destroy lotus fields, interfere with the flow of the Matra river, pollute clean water, reveal the location of nonevil fugitives\n\n**Follower Alignments**\r\nLG, LN, N\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nConstitution or Wisdom\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Cities](/Domains.aspx?ID=3), [Nature](/Domains.aspx?ID=22), [Travel](/Domains.aspx?ID=30), [Water](/Domains.aspx?ID=35)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Share Lore](/Spells.aspx?ID=584)\n\n- **3rd**\r\n[Slow](/Spells.aspx?ID=289)\n\n- **4th**\r\n[Speak with Plants](/Spells.aspx?ID=294)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Matravash (The Wide Water)](/Deities.aspx?ID=193)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Vudrani Gods](/DeityCategories.aspx?ID=17)\r\n\r\n**Edicts** Aid the persecuted, accommodate and facilitate others, practice contemplation and restraint\r\n\r\n**Anathema** Destroy lotus fields, interfere with the flow of the Matra river, pollute clean water, reveal the location of nonevil fugitives\n\n**Follower Alignments**\r\nLG, LN, N\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nConstitution or Wisdom\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose holy\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Cities](/Domains.aspx?ID=3), [Nature](/Domains.aspx?ID=22), [Travel](/Domains.aspx?ID=30), [Water](/Domains.aspx?ID=35)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Share Lore](/Spells.aspx?ID=584)\n\n- **3rd**\r\n[Slow](/Spells.aspx?ID=289)\n\n- **4th**\r\n[Speak with Plants](/Spells.aspx?ID=294)\n\n</column>",
  "name": "Matravash (The Wide Water)",
  "pfs": "Standard",
+ "primary_source": "Gods & Magic",
+ "primary_source_raw": "Gods & Magic pg. 132",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-01-29",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Cities](/Domains.aspx?ID=3), [Nature](/Domains.aspx?ID=22), [Travel](/Domains.aspx?ID=30), [Water](/Domains.aspx?ID=35)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "holy"
+ ],
+ "sanctification_raw": "can choose holy",
+ "search_markdown": "<additional-info>\r\n**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup>\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Survival](/Skills.aspx?ID=16)\r\n\r\n**Favored Weapon** [Whip](/Weapons.aspx?ID=48)\r\n\r\n**Domains** [Cities](/Domains.aspx?ID=3), [Nature](/Domains.aspx?ID=22), [Travel](/Domains.aspx?ID=30), [Water](/Domains.aspx?ID=35)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
  "skill": [
   "Survival"
  ],
  "skill_markdown": "[Survival](/Skills.aspx?ID=16)",
+ "skill_mod": {},
  "source": [
   "Gods & Magic"
  ],
  "source_raw": [
   "Gods & Magic pg. 132"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Gods & Magic](/Sources.aspx?ID=17) pg. 132 <sup>2.0</sup>",
  "speed": {},
+ "spell": [
+  "Share Lore",
+  "Slow",
+  "Speak with Plants"
+ ],
+ "spell_markdown": "[Share Lore](/Spells.aspx?ID=584), [Slow](/Spells.aspx?ID=289), [Speak with Plants](/Spells.aspx?ID=294)",
  "summary": " Nethys Note: no description has been provided of this deity ",
  "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Matravash (The Wide Water) Source Gods &amp; Magic pg. 132 2.0 Nethys Note: no description has been provided of this deity Category [Vudrani Gods ](/DeityCategories.aspx?ID=17) Edicts Aid the persecuted, accommodate and facilitate others, practice contemplation and restraint Anathema Destroy lotus fields, interfere with the flow of the Matra river, pollute clean water, reveal the location of nonevil fugitives Follower Alignments LG, LN, N Devotee Benefits Divine Ability Constitution or Wisdom Divine Font Heal Divine Skill Survival Favored Weapon Whip Domains Cities, Nature, Travel, Water Alternate Domains Cleric Spells - 1st Share Lore - 3rd Slow - 4th Speak with Plants\n",
+ "text": " Matravash (The Wide Water) Source Gods &amp; Magic pg. 132 2.0 Nethys Note: no description has been provided of this deity Category Vudrani Gods Edicts Aid the persecuted, accommodate and facilitate others, practice contemplation and restraint Anathema Destroy lotus fields, interfere with the flow of the Matra river, pollute clean water, reveal the location of nonevil fugitives Follower Alignments LG, LN, N Devotee Benefits Divine Attribute Constitution or Wisdom Divine Font Heal Divine Sanctification can choose holy Divine Skill Survival Favored Weapon Whip Domains Cities, Nature, Travel, Water Alternate Domains Cleric Spells - 1st Share Lore - 3rd Slow - 4th Speak with Plants\n",
  "trait": [
   "LN"
  ],

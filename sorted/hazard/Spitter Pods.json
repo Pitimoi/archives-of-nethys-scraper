@@ -1,0 +1,66 @@
+{
+ "ac": 17,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "DC 18  Crafting  to add disruptive chemicals to the fungus's reservoir, DC 18  Nature  (trained) to recognize how to constrict the chemicals' flow, or DC 20  Deception  (trained) to spread spores that befuddle the fungus; three total successes are required to disable the trap.",
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "hardness": 5,
+ "hardness_raw": "5 Hardness",
+ "hazard_type": "Trap",
+ "hp": 30,
+ "hp_raw": "30",
+ "id": "hazard-402",
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Spitter Pods](/Hazards.aspx?ID=402)</title>\r\n\r\n<traits>\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 48\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nSpecialized spore pods burst open, expel toxic globules, and recharge from alchemical reservoirs.\r\n\r\n---\r\n\r\n**Stealth**\r\n+8 (trained)\r\n\r\n**Disable**\r\nDC 18 [Crafting](/Skills.aspx?ID=4) to add disruptive chemicals to the fungus's reservoir, DC 18 [Nature](/Domains.aspx?ID=22) (trained) to recognize how to constrict the chemicals' flow, or DC 20 [Deception](/Skills.aspx?ID=5) (trained) to spread spores that befuddle the fungus; three total successes are required to disable the trap.\n\n<column gap=\"tiny\">\r\n\r\n**AC** 17, **Fort** +10, **Ref** +5, **Will** +7\r\n\r\n**Hardness**\r\n5\r\n\r\n**HP**\r\n30\n\n</column>\r\n\r\n**Unfurl** <actions string=\"Reaction\" /> **Trigger** A non-fungus creatures enters area E4; **Effect** The spitter pod rolls initiative.\n\n---\r\n**Routine**\r\n(3 actions) The spitter pods alternate between making Strikes and Reloading. The pods lose 1 action for each successful check to disable the trap.<br />\r\n**Ranged** <actions string=\"Single Action\" /> **globule** +11 (poison, range increment 30 feet, reload 1), **Damage** 1d12+2 poison",
+ "name": "Spitter Pods",
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 48",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 5,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\r\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 48\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpecialized spore pods burst open, expel toxic globules, and recharge from alchemical reservoirs.\r\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 48"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 48",
+ "speed": {},
+ "stealth": "+8 (trained)",
+ "summary": "Specialized spore pods burst open, expel toxic globules, and recharge from alchemical reservoirs.",
+ "summary_markdown": "Specialized spore pods burst open, expel toxic globules, and recharge from alchemical reservoirs.",
+ "text": " Spitter Pods Source Pathfinder #193: Mantle of Gold pg. 48 Complexity Complex Specialized spore pods burst open, expel toxic globules, and recharge from alchemical reservoirs. --- Stealth +8 (trained) Disable DC 18 Crafting to add disruptive chemicals to the fungus's reservoir, DC 18 Nature (trained) to recognize how to constrict the chemicals' flow, or DC 20 Deception (trained) to spread spores that befuddle the fungus; three total successes are required to disable the trap. AC 17, Fort +10, Ref +5, Will +7 Hardness 5 HP 30 Unfurl Reaction Trigger A non-fungus creatures enters area E4; Effect The spitter pod rolls initiative. --- Routine (3 actions) The spitter pods alternate between making Strikes and Reloading. The pods lose 1 action for each successful check to disable the trap. Ranged Single Action globule +11 (poison, range increment 30 feet, reload 1), Damage 1d12+2 poison",
+ "trait": [
+  "Complex",
+  "Fungus",
+  "Trap"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Creature Type",
+  "Equipment"
+ ],
+ "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Fungus](/Traits.aspx?ID=77), [Trap](/Traits.aspx?ID=158)",
+ "trait_raw": [
+  "Complex",
+  "Fungus",
+  "Trap"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=402",
+ "weakness": {},
+ "will_save": 7
+}

@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Intelligence",
   "Charisma"
  ],
  "alignment": "CN",
- "breadcrumbs_spa": [],
+ "anathema": "calm a crowd, douse a fire, sleep in the same place three nights in a row",
  "category": "deity",
  "cleric_spell": [
   "Ill Omen",
@@ -12,9 +12,10 @@
   "Fiery Body"
  ],
  "deity": [
-  "Lubaiko"
+  "Lubaiko",
+  "The Freeing Flame"
  ],
- "deity_markdown": "[Lubaiko](/Deities.aspx?ID=226)",
+ "deity_markdown": "[The Freeing Flame](/Deities.aspx?ID=231)",
  "deity_category": "Mwangi Gods",
  "deity_category_markdown": "[Mwangi Gods](/DeityCategories.aspx?ID=20)",
  "deity_category_order": "2Mwangi Gods",
@@ -44,6 +45,7 @@
   "Zeal"
  ],
  "domain_primary_markdown": "[Ambition](/Domains.aspx?ID=1), [Fire](/Domains.aspx?ID=13), [Lightning](/Domains.aspx?ID=47), [Zeal](/Domains.aspx?ID=37)",
+ "edict": "set fires, change the world, act with ambition or not at all",
  "exclude_from_search": false,
  "favored_weapon": [
   "Longspear"
@@ -56,29 +58,51 @@
   "CE"
  ],
  "id": "deity-226",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Lubaiko (The Spark in the Dust)](/Deities.aspx?ID=226)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 138 <sup>2.0</sup></row>\n\nFires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the powder keg whose fuse has burned down, erupting into something momentous, be it for better or for worse. Roaming throughout the sky above Golarion, she delights in throwing her bolts into the fields and the minds of people, whenever conditions permit and wherever they may fall. Some believe the smoke from Lubaiko's fires are curses and misfortune flying up into the air to spread throughout the land. Yet Lubaiko's blazes also often clear the way for new growth.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Mwangi Gods](/DeityCategories.aspx?ID=20)\r\n\r\n**Edicts** set fires, change the world, act with ambition or not at all\r\n\r\n**Anathema** calm a crowd, douse a fire, sleep in the same place three nights in a row\r\n\r\n**Area of Concern**\r\nwildfire, bad luck, inspiration, turmoil\r\n\r\n**Follower Alignments**\r\nN, CG, CN, CE\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Charisma\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Longspear](/Weapons.aspx?ID=6)\r\n\r\n**Domains** [Ambition](/Domains.aspx?ID=1), [Fire](/Domains.aspx?ID=13), [Lightning](/Domains.aspx?ID=47), [Zeal](/Domains.aspx?ID=37)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** [Change](/Domains.aspx?ID=40), [Destruction](/Domains.aspx?ID=8)\r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Ill Omen](/Spells.aspx?ID=696)\n\n- **2nd**\r\n[Flaming Sphere](/Spells.aspx?ID=121)\n\n- **7th**\r\n[Fiery Body](/Spells.aspx?ID=115)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Lubaiko (The Spark in the Dust)](/Deities.aspx?ID=226)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 138 <sup>2.0</sup>\n\nFires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the powder keg whose fuse has burned down, erupting into something momentous, be it for better or for worse. Roaming throughout the sky above Golarion, she delights in throwing her bolts into the fields and the minds of people, whenever conditions permit and wherever they may fall. Some believe the smoke from Lubaiko's fires are curses and misfortune flying up into the air to spread throughout the land. Yet Lubaiko's blazes also often clear the way for new growth.\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Mwangi Gods](/DeityCategories.aspx?ID=20)\r\n\r\n**Edicts** set fires, change the world, act with ambition or not at all\r\n\r\n**Anathema** calm a crowd, douse a fire, sleep in the same place three nights in a row\r\n\r\n**Area of Concern**\r\nwildfire, bad luck, inspiration, turmoil\r\n\r\n**Follower Alignments**\r\nN, CG, CN, CE\r\n\r\n**Pantheons**\r\n[The Freeing Flame](/Deities.aspx?ID=231)\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nIntelligence or Charisma\r\n\r\n**Divine Font** [Harm](/Spells.aspx?ID=146) or [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose holy or unholy\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Longspear](/Weapons.aspx?ID=6)\r\n\r\n**Domains** [Ambition](/Domains.aspx?ID=1), [Fire](/Domains.aspx?ID=13), [Lightning](/Domains.aspx?ID=47), [Zeal](/Domains.aspx?ID=37)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** [Change](/Domains.aspx?ID=40), [Destruction](/Domains.aspx?ID=8)\r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Ill Omen](/Spells.aspx?ID=696)\n\n- **2nd**\r\n[Flaming Sphere](/Spells.aspx?ID=121)\n\n- **7th**\r\n[Fiery Body](/Spells.aspx?ID=115)\n\n</column>",
  "name": "Lubaiko (The Spark in the Dust)",
+ "pantheon": [
+  "The Freeing Flame"
+ ],
+ "pantheon_markdown": "[The Freeing Flame](/Deities.aspx?ID=231)",
  "pfs": "Standard",
+ "primary_source": "The Mwangi Expanse",
+ "primary_source_raw": "The Mwangi Expanse pg. 138",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-07-07",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 138 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Longspear](/Weapons.aspx?ID=6)\r\n\r\n**Domains** [Ambition](/Domains.aspx?ID=1), [Change](/Domains.aspx?ID=40), [Destruction](/Domains.aspx?ID=8), [Fire](/Domains.aspx?ID=13), [Lightning](/Domains.aspx?ID=47), [Zeal](/Domains.aspx?ID=37)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the …\r\n</summary>",
+ "sanctification": [
+  "holy",
+  "unholy"
+ ],
+ "sanctification_raw": "can choose holy or unholy",
+ "search_markdown": "<additional-info>\r\n**Source** [The Mwangi Expanse](/Sources.aspx?ID=89) pg. 138 <sup>2.0</sup>\r\n\r\n**Divine Font** Harm or Heal\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Longspear](/Weapons.aspx?ID=6)\r\n\r\n**Domains** [Ambition](/Domains.aspx?ID=1), [Change](/Domains.aspx?ID=40), [Destruction](/Domains.aspx?ID=8), [Fire](/Domains.aspx?ID=13), [Lightning](/Domains.aspx?ID=47), [Zeal](/Domains.aspx?ID=37)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the …\r\n</summary>",
  "skill": [
   "Diplomacy"
  ],
  "skill_markdown": "[Diplomacy](/Skills.aspx?ID=6)",
+ "skill_mod": {},
  "source": [
   "The Mwangi Expanse"
  ],
  "source_raw": [
   "The Mwangi Expanse pg. 138"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[The Mwangi Expanse](/Sources.aspx?ID=89) pg. 138 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[The Mwangi Expanse](/Sources.aspx?ID=89) pg. 138 <sup>2.0</sup>",
  "speed": {},
+ "spell": [
+  "Ill Omen",
+  "Flaming Sphere",
+  "Fiery Body"
+ ],
+ "spell_markdown": "[Fiery Body](/Spells.aspx?ID=115), [Flaming Sphere](/Spells.aspx?ID=121), [Ill Omen](/Spells.aspx?ID=696)",
  "summary": "Fires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the …",
  "summary_markdown": "Fires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the …",
- "text": " Lubaiko (The Spark in the Dust) Source The Mwangi Expanse pg. 138 2.0 Fires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the powder keg whose fuse has burned down, erupting into something momentous, be it for better or for worse. Roaming throughout the sky above Golarion, she delights in throwing her bolts into the fields and the minds of people, whenever conditions permit and wherever they may fall. Some believe the smoke from Lubaiko's fires are curses and misfortune flying up into the air to spread throughout the land. Yet Lubaiko's blazes also often clear the way for new growth. Category Mwangi Gods Edicts set fires, change the world, act with ambition or not at all Anathema calm a crowd, douse a fire, sleep in the same place three nights in a row Area of Concern wildfire, bad luck, inspiration, turmoil Follower Alignments N, CG, CN, CE Devotee Benefits Divine Ability Intelligence or Charisma Divine Font Harm or Heal Divine Skill Diplomacy Favored Weapon Longspear Domains Ambition, Fire, Lightning, Zeal Alternate Domains Change, Destruction Cleric Spells - 1st Ill Omen - 2nd Flaming Sphere - 7th Fiery Body\n",
+ "text": " Lubaiko (The Spark in the Dust) Source The Mwangi Expanse pg. 138 2.0 Fires and explosions of all kinds are Lubaiko's passion, from an ember that ignites a flour mill to an outrage that rips through a nation. She is the powder keg whose fuse has burned down, erupting into something momentous, be it for better or for worse. Roaming throughout the sky above Golarion, she delights in throwing her bolts into the fields and the minds of people, whenever conditions permit and wherever they may fall. Some believe the smoke from Lubaiko's fires are curses and misfortune flying up into the air to spread throughout the land. Yet Lubaiko's blazes also often clear the way for new growth. Category Mwangi Gods Edicts set fires, change the world, act with ambition or not at all Anathema calm a crowd, douse a fire, sleep in the same place three nights in a row Area of Concern wildfire, bad luck, inspiration, turmoil Follower Alignments N, CG, CN, CE Pantheons The Freeing Flame Devotee Benefits Divine Attribute Intelligence or Charisma Divine Font Harm or Heal Divine Sanctification can choose holy or unholy Divine Skill Diplomacy Favored Weapon Longspear Domains Ambition, Fire, Lightning, Zeal Alternate Domains Change, Destruction Cleric Spells - 1st Ill Omen - 2nd Flaming Sphere - 7th Fiery Body\n",
  "trait": [
   "CN"
  ],

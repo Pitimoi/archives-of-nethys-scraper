@@ -1,10 +1,25 @@
 {
  "ac": 25,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "LE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  15,
+  16
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Graveknight's Shield",
   "Attack of Opportunity",
@@ -15,10 +30,16 @@
  "creature_family": "Graveknight",
  "creature_family_markdown": "[Graveknight](/MonsterFamilies.aspx?ID=291)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 90,
  "hp_raw": "90 ( negative healing , rejuvenation)",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-1663",
  "image": [
   "/Images/Monsters/GraveknightCaptain.png"
@@ -33,42 +54,70 @@
  ],
  "immunity_markdown": "[death](/Traits.aspx?ID=40), [disease](/Traits.aspx?ID=46), [electricity](/Traits.aspx?ID=56), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)",
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 full plate",
+  "graveknight's shield",
+  "shock warhammer"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
  "level": 6,
- "markdown": "<title level=\"1\" pfs=\"\">[Graveknight Captain](/Monsters.aspx?ID=1663)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGraveknight captains once proudly led squads of troops in battle.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/GraveknightCaptain.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Graveknight Captain](/Monsters.aspx?ID=1663)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 82</row>\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +16, [Intimidation](/Skills.aspx?ID=7) +15, [Survival](/Skills.aspx?ID=16) +12, [Warfare Lore](/Skills.aspx?ID=8) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n_+1 [full plate](/Armor.aspx?ID=13)_, graveknight's shield, _[shock](/Equipment.aspx?ID=303) [warhammer](/Weapons.aspx?ID=47)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n**HP** 90\r\n([negative healing](/MonsterAbilities.aspx?ID=42), rejuvenation)\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40), [disease](/Traits.aspx?ID=46), [electricity](/Traits.aspx?ID=56), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)\n\n**Graveknight's Shield** ([arcane](/Traits.aspx?ID=11), [necromancy](/Traits.aspx?ID=117)) The graveknight's curse extends to their shield, or the graveknight's armor uses a portion of itself to produce a shield. The graveknight has a shield that uses the statistics of a [_sturdy shield_](/Equipment.aspx?ID=327) of a level no higher than the graveknight's level – 1. The shield is quasi-independent of the graveknight and automatically protects the graveknight from harm. When the shield is raised, it automatically uses [Shield Block](/MonsterAbilities.aspx?ID=32) to reduce the damage of the first attack against the graveknight each round without the graveknight needing to spend their reaction to do so. The shield automatically rejuvenates with the rest of the graveknight and must be destroyed in the same manner as the graveknight's armor.<br />**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_warhammer_ +16 ([Electricity](/Traits.aspx?ID=56), [Magical](/Traits.aspx?ID=103), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 2d8+7 bludgeoning plus 1d6 electricity\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +15 ([Agile](/Traits.aspx?ID=170), [Electricity](/Traits.aspx?ID=56)),\r\n**Damage** 2d4+7 bludgeoning plus 1d6 electricity\n\n**Devastating Blast** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65)) The graveknight unleashes a 30-foot cone of electricity. Creatures in the area take 4d12 electricity damage(DC 24 [basic](/Rules.aspx?ID=329) Reflex save). The graveknight can use this ability once every 1d4 rounds.\r\n\r\n**Graveknight's Curse**  ([Arcane](/Traits.aspx?ID=11), [Curse](/Traits.aspx?ID=38), [Necromancy](/Traits.aspx?ID=117)) This curse affects anyone who wears a graveknight's armor for at least 1 hour. **Saving Throw** DC 24 Will save; **Onset** 1 hour; **Stage 1** [doomed 1](/Conditions.aspx?ID=9) and cannot remove the armor (1 day); **Stage 2** doomed 2, hampered 10, and cannot remove the armor (1 day); **Stage 3** dies and transforms into the armor's graveknight.\r\n\r\n**Weapon Master**   The graveknight has access to the [critical specialization effects](/Rules.aspx?ID=235) of any weapons it wields.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-291\" />",
+ "markdown": "<title level=\"1\" pfs=\"\">[Graveknight Captain](/Monsters.aspx?ID=1663)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGraveknight captains once proudly led squads of troops in battle.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/GraveknightCaptain.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Graveknight Captain](/Monsters.aspx?ID=1663)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 82\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +16, [Intimidation](/Skills.aspx?ID=7) +15, [Survival](/Skills.aspx?ID=16) +12, [Warfare Lore](/Skills.aspx?ID=8) +12\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\n\n**Items**\r\n_+1 [full plate](/Armor.aspx?ID=13)_, graveknight's shield, _[shock](/Equipment.aspx?ID=303) [warhammer](/Weapons.aspx?ID=47)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 90\r\n([negative healing](/MonsterAbilities.aspx?ID=42), rejuvenation)\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=40), [disease](/Traits.aspx?ID=46), [electricity](/Traits.aspx?ID=56), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)\n\n**Graveknight's Shield** ([arcane](/Traits.aspx?ID=11), [necromancy](/Traits.aspx?ID=117)) The graveknight's curse extends to their shield, or the graveknight's armor uses a portion of itself to produce a shield. The graveknight has a shield that uses the statistics of a [_sturdy shield_](/Equipment.aspx?ID=327) of a level no higher than the graveknight's level – 1. The shield is quasi-independent of the graveknight and automatically protects the graveknight from harm. When the shield is raised, it automatically uses [Shield Block](/MonsterAbilities.aspx?ID=32) to reduce the damage of the first attack against the graveknight each round without the graveknight needing to spend their reaction to do so. The shield automatically rejuvenates with the rest of the graveknight and must be destroyed in the same manner as the graveknight's armor.<br />**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_warhammer_ +16 ([Electricity](/Traits.aspx?ID=56), [Magical](/Traits.aspx?ID=103), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 2d8+7 bludgeoning plus 1d6 electricity\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +15 ([Agile](/Traits.aspx?ID=170), [Electricity](/Traits.aspx?ID=56)),\r\n**Damage** 2d4+7 bludgeoning plus 1d6 electricity\n\n**Devastating Blast** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Electricity](/Traits.aspx?ID=56), [Evocation](/Traits.aspx?ID=65)) The graveknight unleashes a 30-foot cone of electricity. Creatures in the area take 4d12 electricity damage(DC 24 [basic](/Rules.aspx?ID=329) Reflex save). The graveknight can use this ability once every 1d4 rounds.\r\n\r\n**Graveknight's Curse**  ([Arcane](/Traits.aspx?ID=11), [Curse](/Traits.aspx?ID=38), [Necromancy](/Traits.aspx?ID=117)) This curse affects anyone who wears a graveknight's armor for at least 1 hour. **Saving Throw** DC 24 Will save; **Onset** 1 hour; **Stage 1** [doomed 1](/Conditions.aspx?ID=9) and cannot remove the armor (1 day); **Stage 2** doomed 2, hampered 10, and cannot remove the armor (1 day); **Stage 3** dies and transforms into the armor's graveknight.\r\n\r\n**Weapon Master**   The graveknight has access to the [critical specialization effects](/Rules.aspx?ID=235) of any weapons it wields.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-291\" />",
  "name": "Graveknight Captain",
  "npc": false,
  "perception": 14,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #172: Secrets of the Temple City",
+ "primary_source_raw": "Pathfinder #172: Secrets of the Temple City pg. 82",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 14,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 82</row>\r\n\r\n**Creature Family** [Graveknight](/MonsterFamilies.aspx?ID=291)\r\n\r\n<row gap=\"medium\">\r\n**HP** 90 ( negative healing , rejuvenation)\r\n\r\n**AC** 25\r\n\r\n**Fort** +16\r\n\r\n**Ref** +14\r\n\r\n**Will** +13\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGraveknight captains once proudly led squads of troops in battle.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 82\r\n\r\n**Creature Family** [Graveknight](/MonsterFamilies.aspx?ID=291)\r\n\r\n<row gap=\"medium\">\r\n**HP** 90 ( negative healing , rejuvenation)\r\n\r\n**AC** 25\r\n\r\n**Fort** +16\r\n\r\n**Ref** +14\r\n\r\n**Will** +13\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGraveknight captains once proudly led squads of troops in battle.\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +16",
-  "Intimidation +15",
-  "Survival +12",
-  "Warfare Lore +12"
+  "Athletics",
+  "Intimidation",
+  "Survival",
+  "Warfare Lore"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +16, [Intimidation](/Skills.aspx?ID=7) +15, [Survival](/Skills.aspx?ID=16) +12, [Warfare Lore](/Skills.aspx?ID=8) +12",
+ "skill_mod": {
+  "athletics": 16,
+  "intimidation": 15,
+  "survival": 12
+ },
  "source": [
   "Pathfinder #172: Secrets of the Temple City"
  ],
  "source_raw": [
   "Pathfinder #172: Secrets of the Temple City pg. 82"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Strength of Thousands",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 82</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #172: Secrets of the Temple City](/Sources.aspx?ID=102) pg. 82",
  "speed": {
   "land": 25,
   "max": 25
@@ -77,7 +126,21 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "spoilers": "Strength of Thousands",
+ "strike_damage_average": [
+  15,
+  19
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
@@ -85,11 +148,16 @@
  "summary": "Graveknight captains once proudly led squads of troops in battle.",
  "summary_markdown": "Graveknight captains once proudly led squads of troops in battle.",
  "text": " Graveknight Captain Graveknight captains once proudly led squads of troops in battle. Recall Knowledge - Undead (Religion): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Graveknight Captain Source Pathfinder #172: Secrets of the Temple City pg. 82 Perception +14; darkvision Languages Common, Necril Skills Athletics +16, Intimidation +15, Survival +12, Warfare Lore +12 Str +5 Dex +3 Con +4 Int +1 Wis +2 Cha +3 Items +1 full plate , graveknight's shield, shock warhammer --- AC 25 Fort +16 Ref +14 Will +13 HP 90 (negative healing, rejuvenation) Immunities death, disease, electricity, paralyzed, poison, unconscious Graveknight's Shield (arcane, necromancy) The graveknight's curse extends to their shield, or the graveknight's armor uses a portion of itself to produce a shield. The graveknight has a shield that uses the statistics of a sturdy shield of a level no higher than the graveknight's level – 1. The shield is quasi-independent of the graveknight and automatically protects the graveknight from harm. When the shield is raised, it automatically uses Shield Block to reduce the damage of the first attack against the graveknight each round without the graveknight needing to spend their reaction to do so. The shield automatically rejuvenates with the rest of the graveknight and must be destroyed in the same manner as the graveknight's armor. Attack of Opportunity Reaction --- Speed 25 feet Melee Single Action warhammer +16 (Electricity, Magical, Shove), Damage 2d8+7 bludgeoning plus 1d6 electricity Melee Single Action fist +15 (Agile, Electricity), Damage 2d4+7 bludgeoning plus 1d6 electricity Devastating Blast Two Actions (Arcane, Electricity, Evocation) The graveknight unleashes a 30-foot cone of electricity. Creatures in the area take 4d12 electricity damage(DC 24 basic Reflex save). The graveknight can use this ability once every 1d4 rounds. Graveknight's Curse (Arcane, Curse, Necromancy) This curse affects anyone who wears a graveknight's armor for at least 1 hour. Saving Throw DC 24 Will save; Onset 1 hour; Stage 1 doomed 1 and cannot remove the armor (1 day); Stage 2 doomed 2, hampered 10, and cannot remove the armor (1 day); Stage 3 dies and transforms into the armor's graveknight. Weapon Master The graveknight has access to the critical specialization effects of any weapons it wields. ",
+ "tradition_markdown": "",
  "trait": [
   "Uncommon",
   "Undead",
   "LE",
   "Medium"
+ ],
+ "trait_group": [
+  "Rarity",
+  "Creature Type"
  ],
  "trait_markdown": "[Uncommon](/Traits.aspx?ID=159), [Undead](/Traits.aspx?ID=160)",
  "trait_raw": [
@@ -104,5 +172,9 @@
  ],
  "weakness": {},
  "will_save": 13,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

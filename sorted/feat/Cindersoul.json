@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,21 +7,28 @@
  "feat_markdown": "Cindersoul",
  "id": "feat-2552",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cindersoul](/Feats.aspx?ID=2552) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Ifrit\" url=\"/Traits.aspx?ID=301\" />\r\n<trait label=\"Lineage\" url=\"/Traits.aspx?ID=317\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 102 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nThe fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid. The DC for you to recover from [persistent acid, bleed, and poison damage](/Conditions.aspx?ID=29) is 10 instead of 15 (or 5 if you have particularly effective assistance).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cindersoul](/Feats.aspx?ID=2552) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Ifrit\" url=\"/Traits.aspx?ID=301\" />\r\n<trait label=\"Lineage\" url=\"/Traits.aspx?ID=317\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 102 <sup>2.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nThe fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid. The DC for you to recover from [persistent acid, bleed, and poison damage](/Conditions.aspx?ID=29) is 10 instead of 15 (or 5 if you have particularly effective assistance).",
  "name": "Cindersoul",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 102",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Ifrit\" url=\"/Traits.aspx?ID=301\" />\r\n<trait label=\"Lineage\" url=\"/Traits.aspx?ID=317\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 102 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Ifrit\" url=\"/Traits.aspx?ID=301\" />\r\n<trait label=\"Lineage\" url=\"/Traits.aspx?ID=317\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 102 <sup>2.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 102"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 102 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 102 <sup>2.0</sup>",
  "speed": {},
  "summary": "The fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid.",
  "summary_markdown": "The fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid.",
@@ -30,6 +36,10 @@
  "trait": [
   "Ifrit",
   "Lineage"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry"
  ],
  "trait_markdown": "[Ifrit](/Traits.aspx?ID=301), [Lineage](/Traits.aspx?ID=317)",
  "trait_raw": [

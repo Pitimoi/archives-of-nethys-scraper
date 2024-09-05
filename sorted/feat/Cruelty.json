@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Cruelty",
  "id": "feat-1673",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cruelty](/Feats.aspx?ID=1673) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 119 <sup>2.0</sup></row>\n\n**Prerequisites**\r\ndevotion spell ([_touch of corruption_](/Spells.aspx?ID=654))\n\n</column>\r\n\r\n---\r\n\r\nThe harm you deal with your corrupting touch saps the strength from your enemy's body. If your next action is to cast _touch of corruption_ on a living creature, the target is also [enfeebled 1](/Conditions.aspx?ID=13) for 1 minute if it fails its save (enfeebled 2 if it critically fails).\n\n<title level=\"2\">Cruelty leads to...</title>\r\n[Greater Cruelty](/Feats.aspx?ID=1677)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cruelty](/Feats.aspx?ID=1673) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 119 <sup>2.0</sup>\n\n**Prerequisites**\r\ndevotion spell ([_touch of corruption_](/Spells.aspx?ID=654))\n\n</column>\r\n\r\n---\r\n\r\nThe harm you deal with your corrupting touch saps the strength from your enemy's body. If your next action is to cast _touch of corruption_ on a living creature, the target is also [enfeebled 1](/Conditions.aspx?ID=13) for 1 minute if it fails its save (enfeebled 2 if it critically fails).\n\n<title level=\"2\">Cruelty leads to...</title>\r\n[Greater Cruelty](/Feats.aspx?ID=1677)",
  "name": "Cruelty",
  "pfs": "Standard",
  "prerequisite": "devotion spell (_touch of corruption_)",
  "prerequisite_markdown": "devotion spell ([_touch of corruption_](/Spells.aspx?ID=654))",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 119",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 119 <sup>2.0</sup></row>\n\n**Prerequisites**\r\ndevotion spell ([_touch of corruption_](/Spells.aspx?ID=654))\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe harm you deal with your corrupting touch saps the strength from your enemy's body.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 119 <sup>2.0</sup>\n\n**Prerequisites**\r\ndevotion spell ([_touch of corruption_](/Spells.aspx?ID=654))\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe harm you deal with your corrupting touch saps the strength from your enemy's body.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 119"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 119 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 119 <sup>2.0</sup>",
  "speed": {},
  "summary": "The harm you deal with your corrupting touch saps the strength from your enemy's body.",
  "summary_markdown": "The harm you deal with your corrupting touch saps the strength from your enemy's body.",
@@ -34,7 +41,12 @@
   "Champion",
   "Concentrate",
   "Metamagic",
-  "Uncommon"
+  "Uncommon",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Champion](/Traits.aspx?ID=24), [Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

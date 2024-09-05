@@ -1,62 +1,83 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Zeal"
  ],
- "domain_markdown": "[Zeal](/Domains.aspx?ID=37)",
+ "domain_markdown": "[Zeal](/Domains.aspx?ID=100)",
+ "duration_raw": "until the start of your next turn",
  "exclude_from_search": false,
- "heighten_level": [
-  1
+ "heighten": [
+  "5th",
+  "9th"
  ],
- "id": "spell-469",
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  5,
+  9
+ ],
+ "id": "spell-1852",
+ "legacy_id": "spell-469",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Weapon Surge](/Spells.aspx?ID=469)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>\n\n**Domain**\r\n[Zeal](/Domains.aspx?ID=37)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 weapon you're wielding\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nHolding your weapon aloft, you fill it with divine energy. On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll and the weapon deals an additional die of damage. If the weapon has a _striking_ rune, this instead increases the number of dice from the _striking_ rune by 1 (to a maximum of 3 extra weapon dice).\n\nIf the target weapon leaves your possession, _weapon surge_ immediately ends.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Weapon Surge](/Spells.aspx?ID=1852)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n**Domain**\r\n[Zeal](/Domains.aspx?ID=100)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 weapon you're wielding\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nHolding your weapon aloft, you fill it with divine energy. On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll, the weapon deals an additional 1d6 spirit damage, and the Strike gains the [sanctified](/Traits.aspx?ID=519) trait. Weapon surge ends once you complete this Strike or the weapon leaves your possession.\n\n---\r\n**Heightened (5th)** The attack deals 2d6 additional spirit damage.\r\n\r\n**Heightened (9th)** The attack deals 3d6 additional spirit damage.",
  "name": "Weapon Surge",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 381",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>\n\n**Domain**\r\n[Zeal](/Domains.aspx?ID=37)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 weapon you're wielding\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHolding your weapon aloft, you fill it with divine energy.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 381\n\n**Domain**\r\n[Zeal](/Domains.aspx?ID=100)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 weapon you're wielding\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHolding your weapon aloft, you fill it with divine energy.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 399"
+  "Player Core pg. 381"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 399 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 381",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "Holding your weapon aloft, you fill it with divine energy.",
  "summary_markdown": "Holding your weapon aloft, you fill it with divine energy.",
  "target": "1 weapon you're wielding",
  "target_markdown": "1 weapon you're wielding",
- "text": " Weapon Surge Source Core Rulebook pg. 399 4.0 Domain Zeal Cast Single Action somatic Range touch Target 1 weapon you're wielding --- Holding your weapon aloft, you fill it with divine energy. On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll and the weapon deals an additional die of damage. If the weapon has a striking rune, this instead increases the number of dice from the striking rune by 1 (to a maximum of 3 extra weapon dice). If the target weapon leaves your possession, weapon surge immediately ends.",
+ "text": "\nWeapon Surge Single Action Source Player Core pg. 381 Domain Zeal Range touch Target 1 weapon you're wielding Duration until the start of your next turn --- Holding your weapon aloft, you fill it with divine energy. On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll, the weapon deals an additional 1d6 spirit damage, and the Strike gains the sanctified trait. Weapon surge ends once you complete this Strike or the weapon leaves your possession. --- Heightened (5th) The attack deals 2d6 additional spirit damage. Heightened (9th) The attack deals 3d6 additional spirit damage.",
  "tradition_markdown": "",
  "trait": [
   "Cleric",
-  "Evocation",
+  "Focus",
+  "Manipulate",
+  "Sanctified",
   "Uncommon"
  ],
- "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=554), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Sanctified](/Traits.aspx?ID=519), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Cleric",
-  "Evocation",
+  "Focus",
+  "Manipulate",
+  "Sanctified",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=469",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1852",
  "weakness": {}
 }

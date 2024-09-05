@@ -1,41 +1,52 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-2324",
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 11,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Standard\"\r\n>\r\n[Hexing Jar](/Equipment.aspx?ID=2324)\r\n</title>\n\n<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 148 <sup>1.1</sup></row>\n\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nDangling from a simple cord, a _hexing jar_ houses rich soil. When a [witch](/Classes.aspx?ID=16) who has invested the jar wears it overnight, a miniature thing grows from the soil. Your patron chooses the form, commonly including glowing mushrooms, venus flytraps, mandragora roots, or undead hands reaching up. The thing whispers secrets it learned from your patron, giving you a +2 item bonus to your patron skill.\n\n<document level=\"2\" id=\"action-1874\" />\n\n<document level=\"2\" id=\"action-1875\" />\n\n**Craft Requirements** You are a witch.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 11\"\r\n    pfs=\"Standard\"\r\n>\r\n[Hexing Jar](/Equipment.aspx?ID=2324)\r\n</title>\n\n<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 148 <sup>1.1</sup>\n\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nDangling from a simple cord, a _hexing jar_ houses rich soil. When a [witch](/Classes.aspx?ID=16) who has invested the jar wears it overnight, a miniature thing grows from the soil. Your patron chooses the form, commonly including glowing mushrooms, venus flytraps, mandragora roots, or undead hands reaching up. The thing whispers secrets it learned from your patron, giving you a +2 item bonus to your patron skill.\n\n**Activate** <actions string=\"Free Action\" /> envision;  **Frequency** once per day;   **Effect** You gain 1 Focus Point, which you can use only to cast a witch [hex](/Traits.aspx?ID=324) spell. If not used by the end of your turn, this Focus Point is lost.\n\n**Activate** <actions string=\"Reaction\" /> envision;  **Frequency** once per hour; **Trigger** You roll a critical success on an attack roll with a witch spell, or your target rolls a critical failure on its saving throw against a witch spell or hex you cast;  **Effect** The thing in the jar becomes more energetic—glowing, dancing, rapping on the glass, or some other action appropriate to its appearance. It encourages you until the start of your next turn, granting you and your familiar a +1 status bonus to AC and saving throws and a +2 status bonus against [mental](/Traits.aspx?ID=106) effects.\n\n**Craft Requirements** You are a witch.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Hexing Jar",
  "pfs": "Standard",
  "price": 120000,
  "price_raw": "1,200 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 148",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 148 <sup>1.1</sup></row>\r\n\r\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDangling from a simple cord, a  hexing jar  houses rich soil. When a  witch  who has invested the jar wears it overnight, a miniature thing grows …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focused\" url=\"/Traits.aspx?ID=74\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 148 <sup>1.1</sup>\r\n\r\n**Price** 1,200 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDangling from a simple cord, a  hexing jar  houses rich soil. When a  witch  who has invested the jar wears it overnight, a miniature thing grows …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 148"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 148 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 148 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Dangling from a simple cord, a  hexing jar  houses rich soil. When a  witch  who has invested the jar wears it overnight, a miniature thing grows …",
  "summary_markdown": "Dangling from a simple cord, a  hexing jar  houses rich soil. When a  witch  who has invested the jar wears it overnight, a miniature thing grows …",
- "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Standard\" > Hexing Jar Source Treasure Vault pg. 148 1.1 Price 1,200 gp Usage worn --- Dangling from a simple cord, a hexing jar houses rich soil. When a witch who has invested the jar wears it overnight, a miniature thing grows from the soil. Your patron chooses the form, commonly including glowing mushrooms, venus flytraps, mandragora roots, or undead hands reaching up. The thing whispers secrets it learned from your patron, giving you a +2 item bonus to your patron skill. Craft Requirements You are a witch.\n",
+ "text": "<title level=\"1\" right=\"Item 11\" pfs=\"Standard\" > Hexing Jar Source Treasure Vault pg. 148 1.1 Price 1,200 gp Usage worn --- Dangling from a simple cord, a hexing jar houses rich soil. When a witch who has invested the jar wears it overnight, a miniature thing grows from the soil. Your patron chooses the form, commonly including glowing mushrooms, venus flytraps, mandragora roots, or undead hands reaching up. The thing whispers secrets it learned from your patron, giving you a +2 item bonus to your patron skill. Activate Free Action envision; Frequency once per day; Effect You gain 1 Focus Point, which you can use only to cast a witch hex spell. If not used by the end of your turn, this Focus Point is lost. Activate Reaction envision; Frequency once per hour; Trigger You roll a critical success on an attack roll with a witch spell, or your target rolls a critical failure on its saving throw against a witch spell or hex you cast; Effect The thing in the jar becomes more energetic—glowing, dancing, rapping on the glass, or some other action appropriate to its appearance. It encourages you until the start of your next turn, granting you and your familiar a +1 status bonus to AC and saving throws and a +2 status bonus against mental effects. Craft Requirements You are a witch.\n",
  "trait": [
   "Enchantment",
   "Focused",
   "Invested",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Focused](/Traits.aspx?ID=74), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

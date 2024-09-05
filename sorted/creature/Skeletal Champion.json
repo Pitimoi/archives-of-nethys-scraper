@@ -1,48 +1,87 @@
 {
  "ac": 19,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  10,
+  10,
+  10
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Attack of Opportunity",
+  "Reactive Strike",
   "Shield Block"
  ],
  "creature_family": "Skeleton",
- "creature_family_markdown": "[Skeleton](/MonsterFamilies.aspx?ID=92)",
+ "creature_family_markdown": "[Skeleton](/MonsterFamilies.aspx?ID=472)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
- "fortitude_save": 7,
+ "fortitude_save": 5,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 25,
- "hp_raw": "25 ( negative healing )",
- "id": "creature-373",
+ "hp_raw": "25 ( void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3194",
  "image": [
-  "/Images/Monsters/Skeleton_SkeletalChampion.png"
+  "/Images/Monsters/Skeleton_Champion.webp"
  ],
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
   "paralyzed",
   "poison",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, paralyzed, poison, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chain Mail",
+  "Lance",
+  "Longsword",
+  "Steel Shield (Hardness 5, HP 20, BT 10)"
+ ],
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-373",
  "level": 2,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Skeletal Champion](/Monsters.aspx?ID=373)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese skeletons retain the cunning they possessed in life.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Skeleton_SkeletalChampion.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Skeletal Champion](/Monsters.aspx?ID=373)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 298</row>\n\n**Perception** +8; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +8, [Intimidation](/Skills.aspx?ID=7) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Chain Mail](/Armor.aspx?ID=9), [Longsword](/Weapons.aspx?ID=31), [steel shield](/Shields.aspx?ID=3) (Hardness 5, HP 20, BT 10)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 (21 with shield raised)\r\n\r\n**Fort** +7 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 25\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyzed, poison, unconscious\r\n\r\n**Resistances**\r\ncold 5, electricity 5, fire 5, piercing 5, slashing 5\n\n**Attack of Opportunity** <actions string=\"Reaction\" /><br /> **Shield Block** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlongsword +10 ([versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 1d8+4 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +10 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d6+4 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlance +10 ([deadly d8](/Traits.aspx?ID=174), [jousting d6](/Traits.aspx?ID=186), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d8+4 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-92\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Skeletal Champion](/Monsters.aspx?ID=3194)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese skeletons retain the cunning they possessed in life.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 16\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 14\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 11\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Skeleton_Champion.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 2\">[Skeletal Champion](/Monsters.aspx?ID=3194)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=772\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 312\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +8, [Intimidation](/Skills.aspx?ID=7) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +4\r\n\r\n**Con** +1\r\n\r\n**Int** -1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Chain Mail](/Armor.aspx?ID=9), [Lance](/Weapons.aspx?ID=28), [Longsword](/Weapons.aspx?ID=31), [Steel Shield](/Shields.aspx?ID=3) (Hardness 5, HP 20, BT 10)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 (21 with shield raised)\r\n\r\n**Fort** +5 \r\n\r\n**Ref** +10 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 25\r\n([void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [unconscious](/Conditions.aspx?ID=95)\r\n\r\n**Resistances**\r\n[cold](/Traits.aspx?ID=555) 5, [electricity](/Traits.aspx?ID=586) 5, [fire](/Traits.aspx?ID=604) 5, piercing 5, slashing 5\n\n**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=75)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlongsword +10 ([versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 1d8+4 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +10 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d6+4 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nlance +10 ([deadly d8](/Traits.aspx?ID=174), [jousting d6](/Traits.aspx?ID=186), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d8+4 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-472\" />",
  "name": "Skeletal Champion",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 312",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 10,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "cold": 5,
   "electricity": 5,
@@ -50,28 +89,38 @@
   "piercing": 5,
   "slashing": 5
  },
- "resistance_markdown": "cold 5, electricity 5, fire 5, piercing 5, slashing 5",
- "resistance_raw": "cold 5, electricity 5, fire 5, piercing 5, slashing 5",
- "search_markdown": "<traits>\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=236\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 298</row>\r\n\r\n**Creature Family** [Skeleton](/MonsterFamilies.aspx?ID=92)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25 ( negative healing )\r\n\r\n**AC** 19\r\n\r\n**Fort** +7\r\n\r\n**Ref** +10\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese skeletons retain the cunning they possessed in life.\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "resistance_markdown": "[cold](/Traits.aspx?ID=555) 5, [electricity](/Traits.aspx?ID=586) 5, [fire](/Traits.aspx?ID=604) 5, piercing 5, slashing 5",
+ "resistance_raw": " cold  5,  electricity  5,  fire  5, piercing 5, slashing 5",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Skeleton\" url=\"/Traits.aspx?ID=772\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 312\r\n\r\n**Creature Family** [Skeleton](/MonsterFamilies.aspx?ID=472)\r\n\r\n<row gap=\"medium\">\r\n**HP** 25 ( void healing )\r\n\r\n**AC** 19\r\n\r\n**Fort** +5\r\n\r\n**Ref** +10\r\n\r\n**Will** +6\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese skeletons retain the cunning they possessed in life.\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Athletics +8",
-  "Intimidation +7"
+  "Acrobatics",
+  "Athletics",
+  "Intimidation"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Athletics](/Skills.aspx?ID=3) +8, [Intimidation](/Skills.aspx?ID=7) +7",
+ "skill_mod": {
+  "acrobatics": 8,
+  "athletics": 8,
+  "intimidation": 7
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 298"
+  "Monster Core pg. 312"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 298</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 312",
  "speed": {
   "land": 25,
   "max": 25
@@ -79,32 +128,58 @@
  "speed_markdown": "25 feet",
  "speed_raw": "25 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  7,
+  8,
+  8
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "These skeletons retain the cunning they possessed in life.",
  "summary_markdown": "These skeletons retain the cunning they possessed in life.",
- "text": " Skeletal Champion These skeletons retain the cunning they possessed in life. Recall Knowledge - Undead (Religion): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Skeletal Champion Source Bestiary pg. 298 Perception +8; darkvision Languages Common, Necril Skills Acrobatics +8, Athletics +8, Intimidation +7 Str +4 Dex +4 Con +1 Int -1 Wis +2 Cha +1 Items Chain Mail, Longsword, steel shield (Hardness 5, HP 20, BT 10) --- AC 19 (21 with shield raised) Fort +7 Ref +10 Will +6 HP 25 (negative healing) Immunities death effects, disease, paralyzed, poison, unconscious Resistances cold 5, electricity 5, fire 5, piercing 5, slashing 5 Attack of Opportunity Reaction Shield Block Reaction --- Speed 25 feet Melee Single Action longsword +10 (versatile P), Damage 1d8+4 slashing Melee Single Action claw +10 (Agile), Damage 1d6+4 slashing Melee Single Action lance +10 (deadly d8, jousting d6, reach 10 feet), Damage 1d8+4 piercing\n",
+ "text": " Skeletal Champion These skeletons retain the cunning they possessed in life. Recall Knowledge - Undead (Religion): DC 16 Unspecific Lore : DC 14 Specific Lore : DC 11 Skeletal Champion Source Monster Core pg. 312 Perception +8; darkvision Languages Common, Necril Skills Acrobatics +8, Athletics +8, Intimidation +7 Str +4 Dex +4 Con +1 Int -1 Wis +2 Cha +1 Items Chain Mail, Lance, Longsword, Steel Shield (Hardness 5, HP 20, BT 10) --- AC 19 (21 with shield raised) Fort +5 Ref +10 Will +6 HP 25 (void healing) Immunities bleed, death effects, disease, paralyzed, poison, unconscious Resistances cold 5, electricity 5, fire 5, piercing 5, slashing 5 Reactive Strike Reaction Shield Block Reaction --- Speed 25 feet Melee Single Action longsword +10 (versatile P), Damage 1d8+4 slashing Melee Single Action claw +10 (Agile), Damage 1d6+4 slashing Melee Single Action lance +10 (deadly d8, jousting d6, reach 10 feet), Damage 1d8+4 piercing\n",
+ "tradition_markdown": "",
  "trait": [
   "Skeleton",
   "Undead",
-  "NE",
+  "Unholy",
   "Medium"
  ],
- "trait_markdown": "[Skeleton](/Traits.aspx?ID=236), [Undead](/Traits.aspx?ID=160)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Skeleton](/Traits.aspx?ID=772), [Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Skeleton",
-  "Undead"
+  "Undead",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=373",
+ "url": "/Monsters.aspx?ID=3194",
  "vision": "Darkvision",
  "weakest_save": [
-  "will"
+  "fort",
+  "fortitude"
  ],
  "weakness": {},
  "will_save": 6,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

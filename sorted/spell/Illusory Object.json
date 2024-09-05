@@ -1,18 +1,20 @@
 {
  "actions": "Two Actions",
- "area": "20-foot burst",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  20
  ],
+ "area_raw": "20-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "deity": [
   "Abadar",
   "Findeladlara"
  ],
- "deity_markdown": "[Abadar](/Deities.aspx?ID=1), [Findeladlara](/Deities.aspx?ID=109)",
+ "deity_markdown": "[Abadar](/Deities.aspx?ID=277), [Findeladlara](/Deities.aspx?ID=109)",
  "domain_markdown": "",
  "duration": 600,
  "duration_raw": "10 minutes",
@@ -21,53 +23,73 @@
   "2nd",
   "5th"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 5th rank"
+ ],
  "heighten_level": [
   1,
   2,
   5
  ],
- "id": "spell-160",
+ "id": "spell-1569",
+ "legacy_id": "spell-160",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Illusory Object](/Spells.aspx?ID=160)</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 345 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Abadar](/Deities.aspx?ID=1), [Findeladlara](/Deities.aspx?ID=109)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create an illusory visual image of a stationary object. The entire image must fit within the spell's area. The object appears to animate naturally, but it doesn't make sounds or generate smells. For example, water would appear to pour down an illusory waterfall, but it would be silent.\n\n Any creature that touches the image or uses the Seek action to examine it can attempt to disbelieve your illusion.\n\n---\r\n**Heightened (2nd)** Your image makes appropriate sounds, generates normal smells, and feels right to the touch. The spell gains the [auditory](/Traits.aspx?ID=16) and [olfactory](/Traits.aspx?ID=246) traits. The duration increases to 1 hour.\r\n\r\n**Heightened (5th)** As the 2nd-level version, but the duration is unlimited.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Illusory Object](/Spells.aspx?ID=1569)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 337\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Abadar](/Deities.aspx?ID=277), [Findeladlara](/Deities.aspx?ID=109)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create an illusory visual image of a stationary object. The entire image must fit within the spell's area. The object appears to animate naturally, but it doesn't make sounds or generate smells. For example, water would appear to pour down an illusory waterfall, but it would be silent.\n\n Any creature that touches the image or uses the [Seek](/Actions.aspx?ID=84) action to examine it can attempt to disbelieve your illusion.\n\n---\r\n**Heightened (2nd)** Your image makes appropriate sounds, generates normal smells, and feels right to the touch. The spell gains the [auditory](/Traits.aspx?ID=16) and [olfactory](/Traits.aspx?ID=246) traits. The duration increases to 1 hour.\r\n\r\n**Heightened (5th)** As the 2nd-rank version, but the duration is unlimited.",
  "name": "Illusory Object",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 337",
+ "primary_source_category": "Rulebooks",
  "range": 500,
  "range_raw": "500 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 345 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Abadar](/Deities.aspx?ID=1), [Findeladlara](/Deities.aspx?ID=109)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nForm a convincing illusion of an object.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 337\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Abadar](/Deities.aspx?ID=277), [Findeladlara](/Deities.aspx?ID=109)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 500 feet\r\n\r\n**Area** 20-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 10 minutes\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nForm a convincing illusion of an object.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 345"
+  "Player Core pg. 337"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 345 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 337",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Form a convincing illusion of an object.",
  "summary_markdown": "Form a convincing illusion of an object.",
- "text": " Illusory Object Source Core Rulebook pg. 345 4.0 Traditions Arcane, Occult Deities Abadar, Findeladlara Cast Two Actions somatic, verbal Range 500 feet Area 20-foot burst Duration 10 minutes --- You create an illusory visual image of a stationary object. The entire image must fit within the spell's area. The object appears to animate naturally, but it doesn't make sounds or generate smells. For example, water would appear to pour down an illusory waterfall, but it would be silent. Any creature that touches the image or uses the Seek action to examine it can attempt to disbelieve your illusion. --- Heightened (2nd) Your image makes appropriate sounds, generates normal smells, and feels right to the touch. The spell gains the auditory and olfactory traits. The duration increases to 1 hour. Heightened (5th) As the 2nd-level version, but the duration is unlimited.",
+ "text": "\nIllusory Object Two Actions Source Player Core pg. 337 Traditions Arcane, Occult Deities Abadar, Findeladlara Range 500 feet Area 20-foot burst Duration 10 minutes --- You create an illusory visual image of a stationary object. The entire image must fit within the spell's area. The object appears to animate naturally, but it doesn't make sounds or generate smells. For example, water would appear to pour down an illusory waterfall, but it would be silent. Any creature that touches the image or uses the Seek action to examine it can attempt to disbelieve your illusion. --- Heightened (2nd) Your image makes appropriate sounds, generates normal smells, and feels right to the touch. The spell gains the auditory and olfactory traits. The duration increases to 1 hour. Heightened (5th) As the 2nd-rank version, but the duration is unlimited.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
+  "Concentrate",
   "Illusion",
+  "Manipulate",
   "Visual"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Visual](/Traits.aspx?ID=163)",
+ "trait_group": [
+  "School",
+  "Monster",
+  "Sense"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Illusion](/Traits.aspx?ID=92), [Manipulate](/Traits.aspx?ID=104), [Visual](/Traits.aspx?ID=163)",
  "trait_raw": [
+  "Concentrate",
   "Illusion",
+  "Manipulate",
   "Visual"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=160",
+ "url": "/Spells.aspx?ID=1569",
  "weakness": {}
 }

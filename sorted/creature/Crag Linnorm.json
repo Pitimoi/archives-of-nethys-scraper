@@ -1,27 +1,51 @@
 {
  "ac": 37,
- "alignment": "CE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  30,
+  30,
+  30
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Curse of Fire",
-  "Attack of Opportunity",
-  "Breath Weapon",
+  "Reactive Strike",
   "Constrict",
-  "Crag Linnorm Venom"
+  "Crag Linnorm Venom",
+  "Magma Breath"
  ],
  "creature_family": "Linnorm",
- "creature_family_markdown": "[Linnorm](/MonsterFamilies.aspx?ID=69)",
+ "creature_family_markdown": "[Linnorm](/MonsterFamilies.aspx?ID=439)",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "fortitude_save": 28,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
  "hp": 270,
  "hp_raw": "270",
- "id": "creature-284",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3083",
  "image": [
-  "/Images/Monsters/Linnorm_CragLinnorm.png"
+  "/Images/Monsters/Crag_Linnorm.webp"
  ],
  "immunity": [
   "curse",
@@ -29,79 +53,134 @@
   "paralyzed",
   "sleep"
  ],
- "immunity_markdown": "curse, fire, paralyzed, sleep",
+ "immunity_markdown": "[curse](/Traits.aspx?ID=566), [fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
  "intelligence": -3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Aklo",
   "Draconic",
-  "Sylvan"
+  "Fey"
  ],
- "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Sylvan](/Languages.aspx?ID=10)",
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Fey](/Languages.aspx?ID=119)",
+ "legacy_id": "creature-284",
  "level": 14,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Crag Linnorm](/Monsters.aspx?ID=284)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDespite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking its foes with its magma breath.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Linnorm_CragLinnorm.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Crag Linnorm](/Monsters.aspx?ID=284)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 224</row>\n\n**Perception** +26; darkvision, scent (imprecise) 60 feet, [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +22, [Athletics](/Skills.aspx?ID=3) +28\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +6\r\n\r\n**Int** -3\r\n\r\n**Wis** +4\r\n\r\n**Cha** +5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 37 \r\n\r\n**Fort** +28 \r\n\r\n**Ref** +24 \r\n\r\n**Will** +22 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 270\r\n\r\n, regeneration 10 (deactivated by [cold iron](/Equipment.aspx?ID=375))\r\n\r\n**Immunities**\r\ncurse, fire, paralyzed, sleep\n\n**Weaknesses**\r\ncold iron 10\r\n\r\n**Curse of Fire** ([curse](/Traits.aspx?ID=38), [fire](/Traits.aspx?ID=72), [primal](/Traits.aspx?ID=134)) When a creature slays a crag linnorm, it must succeed at a DC 35 Will save or permanently gain weakness to fire 15.<br /> **Attack of Opportunity** <actions string=\"Reaction\" /> Tail only.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, fly 100 feet, swim 60 feet; [_freedom of movement_](/Spells.aspx?ID=128)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +30 ([reach 20 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+14 piercing plus crag linnorm venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +30 ([reach 20 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+14 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +30 ([reach 20 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d6+14 bludgeoning plus Improved Grab\r\n\r\n**Primal Innate Spells** DC 33\r\n- **Constant (5th)**\r\n[True Seeing](/Spells.aspx?ID=344)\r\n- **Constant (6th)**\r\n[Freedom of Movement](/Spells.aspx?ID=128)\r\n\r\n**Breath Weapon** <actions string=\"Two Actions\" /> ([Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72), [Primal](/Traits.aspx?ID=134)) The crag linnorm breathes out a stream of magma in a 120-foot line that deals 12d6 fire damage to creatures within the area (DC 34 basic Reflex save). Any creature that fails its save also takes 4d6 persistent fire damage. The crag linnorm can’t use Breath Weapon again for 1d4 rounds. The magma remains until the start of the linnorm’s next turn. If the linnorm was on the ground, the magma remains as a burning line on the ground directly under the line of the Breath Weapon, and if the linnorm was airborne, the magma rains downward in a sheet 60 feet high. Any creature that moves across or through the magma takes 6d6 fire damage (DC 34 basic Reflex save). At the start of the linnorm’s next turn, the magma cools to a thin layer of brittle stone on the ground, or the magma rain finishes falling and turns to harmless pebbles. The cooled magma quickly degrades to powder and sand over the course of several hours.\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  2d6+14 bludgeoning, DC 34\r\n\r\n**Crag Linnorm Venom**  ([Fire](/Traits.aspx?ID=72), [Injury](/Traits.aspx?ID=97), [Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 34 Fortitude; **Maximum Duration** 10 rounds; **Stage 1** 4d6 fire damage and [drained 1](/Conditions.aspx?ID=10); **Stage 2** 6d6 fire damage and [drained 2](/Conditions.aspx?ID=10).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-69\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Crag Linnorm](/Monsters.aspx?ID=3083)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDespite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking their foes with their magma breath.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Crag_Linnorm.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 14\">[Crag Linnorm](/Monsters.aspx?ID=3083)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 220\n\n**Perception** +26; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, [_truesight_](/Spells.aspx?ID=1727)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Draconic](/Languages.aspx?ID=2), [Fey](/Languages.aspx?ID=119)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +22, [Athletics](/Skills.aspx?ID=3) +28\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +6\r\n\r\n**Int** -3\r\n\r\n**Wis** +4\r\n\r\n**Cha** +5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 37 \r\n\r\n**Fort** +28 \r\n\r\n**Ref** +24 \r\n\r\n**Will** +22 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 270\r\n\r\n, regeneration 10 (deactivated by [cold iron](/Equipment.aspx?ID=2916))\n\n</row>\r\n\r\n**Immunities**\r\n[curse](/Traits.aspx?ID=566), [fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\n\n**Weaknesses**\r\ncold iron 10\r\n\r\n**Curse of Fire** ([curse](/Traits.aspx?ID=566), [fire](/Traits.aspx?ID=604), [primal](/Traits.aspx?ID=676)) When a creature slays the crag linnorm, it must succeed at a DC 35 Will save or gain weakness to fire 15 with an unlimited duration.<br />**[Reactive Strike](/MonsterAbilities.aspx?ID=48)** <actions string=\"Reaction\" /> Tail only.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 35 feet, fly 100 feet, swim 60 feet; [_unfettered movement_](/Spells.aspx?ID=1732)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +30 ([reach 20 feet](/Traits.aspx?ID=192), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+14 piercing plus crag linnorm venom\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +30 ([reach 20 feet](/Traits.aspx?ID=192), [Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+14 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +30 ([reach 20 feet](/Traits.aspx?ID=192), [Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d6+14 bludgeoning plus  &lt;%UMR%666%%&gt; Improved Grab &lt;%END>\r\n\r\n**Primal Innate Spells** DC 33\r\n- **6th**\r\n[Truesight](/Spells.aspx?ID=1727)\r\n- **Constant (6th)**\r\n[Unfettered Movement](/Spells.aspx?ID=1732)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=57)** <actions string=\"Single Action\" />  2d6+14 bludgeoning, DC 34\r\n\r\n**Crag Linnorm Venom**  ([Fire](/Traits.aspx?ID=72), [Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 34 Fortitude; **Maximum Duration** 10 rounds; **Stage 1** 4d6 fire damage and [drained 1](/Conditions.aspx?ID=68) (1 round); **Stage 2** 6d6 fire damage and drained 2 (1 round)\r\n\r\n**Magma Breath** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72), [Primal](/Traits.aspx?ID=134)) The crag linnorm breathes out a stream of magma in a 120-foot line that deals 12d6 fire damage to creatures within the area (DC 34 [basic](/Rules.aspx?ID=329) Reflex save). Any creature that fails its save also takes 4d6 [persistent fire damage](/Conditions.aspx?ID=29). The linnorm can't use Magma Breath again for 1d4 rounds. The magma remains until the start of the linnorm's next turn. If the linnorm was on the ground, the magma remains as a burning line on the ground directly under the line of the Magma Breath; if the linnorm was airborne, the magma rains down in a sheet 60 feet high. Any creature that moves across or through the magma takes 6d6 fire damage (DC 34 [basic](/Rules.aspx?ID=329) Reflex save). At the start of the linnorm's next turn, the magma cools to a thin layer of brittle stone, or the magma rain finishes falling and turns to harmless pebbles. The cooled magma quickly degrades to powder and sand over the course of several hours.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-439\" />",
  "name": "Crag Linnorm",
  "npc": false,
  "perception": 26,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 220",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 24,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=50\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 224</row>\r\n\r\n**Creature Family** [Linnorm](/MonsterFamilies.aspx?ID=69)\r\n\r\n<row gap=\"medium\">\r\n**HP** 270\r\n\r\n**AC** 37\r\n\r\n**Fort** +28\r\n\r\n**Ref** +24\r\n\r\n**Will** +22\r\n\r\n**Perception** +26\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDespite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking its foes with its magma breath.\r\n</summary>",
- "sense": "darkvision, scent (imprecise) 60 feet,   true seeing  ",
- "sense_markdown": "darkvision, scent (imprecise) 60 feet, [_true seeing_](/Spells.aspx?ID=344)",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 220\r\n\r\n**Creature Family** [Linnorm](/MonsterFamilies.aspx?ID=439)\r\n\r\n<row gap=\"medium\">\r\n**HP** 270\r\n\r\n**AC** 37\r\n\r\n**Fort** +28\r\n\r\n**Ref** +24\r\n\r\n**Will** +22\r\n\r\n**Perception** +26\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDespite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking their foes with their magma breath.\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet,   truesight  ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet, [_truesight_](/Spells.aspx?ID=1727)",
  "size": [
   "Gargantuan"
  ],
+ "size_id": [
+  6
+ ],
  "skill": [
-  "Acrobatics +22",
-  "Athletics +28"
+  "Acrobatics",
+  "Athletics"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +22, [Athletics](/Skills.aspx?ID=3) +28",
+ "skill_mod": {
+  "acrobatics": 22,
+  "athletics": 28
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 224"
+  "Monster Core pg. 220"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 224</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 220",
  "speed": {
   "fly": 100,
   "land": 35,
   "max": 100,
   "swim": 60
  },
- "speed_markdown": "35 feet, fly 100 feet, swim 60 feet; [_freedom of movement_](/Spells.aspx?ID=128)",
- "speed_raw": "35 feet, fly 100 feet, swim 60 feet;   freedom of movement  ",
+ "speed_markdown": "35 feet, fly 100 feet, swim 60 feet; [_unfettered movement_](/Spells.aspx?ID=1732)",
+ "speed_raw": "35 feet, fly 100 feet, swim 60 feet;   unfettered movement  ",
  "spell": [
-  "Freedom of Movement",
-  "True Seeing"
+  "Unfettered Movement",
+  "Truesight"
  ],
- "spell_markdown": "[Freedom of Movement](/Spells.aspx?ID=128), [True Seeing](/Spells.aspx?ID=344)",
+ "spell_markdown": "[Truesight](/Spells.aspx?ID=1727), [Unfettered Movement](/Spells.aspx?ID=1732)",
+ "spell_dc": [
+  33
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  24,
+  27,
+  33
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Despite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking its foes with its magma breath.",
- "summary_markdown": "Despite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking its foes with its magma breath.",
- "text": " Crag Linnorm Despite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking its foes with its magma breath. Recall Knowledge - Dragon (Arcana): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Crag Linnorm Source Bestiary pg. 224 Perception +26; darkvision, scent (imprecise) 60 feet, true seeing Languages Aklo, Draconic, Sylvan Skills Acrobatics +22, Athletics +28 Str +8 Dex +4 Con +6 Int -3 Wis +4 Cha +5 --- AC 37 Fort +28 Ref +24 Will +22 +1 status to all saves vs. magic HP 270 , regeneration 10 (deactivated by cold iron) Immunities curse, fire, paralyzed, sleep Weaknesses cold iron 10 Curse of Fire (curse, fire, primal) When a creature slays a crag linnorm, it must succeed at a DC 35 Will save or permanently gain weakness to fire 15. Attack of Opportunity Reaction Tail only. --- Speed 35 feet, fly 100 feet, swim 60 feet; freedom of movement Melee Single Action jaws +30 (reach 20 feet, Magical), Damage 3d12+14 piercing plus crag linnorm venom Melee Single Action claw +30 (reach 20 feet, Magical), Damage 3d8+14 slashing Melee Single Action tail +30 (reach 20 feet, Magical), Damage 3d6+14 bludgeoning plus Improved Grab Primal Innate Spells DC 33 - Constant (5th) True Seeing - Constant (6th) Freedom of Movement Breath Weapon Two Actions (Evocation, Fire, Primal) The crag linnorm breathes out a stream of magma in a 120-foot line that deals 12d6 fire damage to creatures within the area (DC 34 basic Reflex save). Any creature that fails its save also takes 4d6 persistent fire damage. The crag linnorm can’t use Breath Weapon again for 1d4 rounds. The magma remains until the start of the linnorm’s next turn. If the linnorm was on the ground, the magma remains as a burning line on the ground directly under the line of the Breath Weapon, and if the linnorm was airborne, the magma rains downward in a sheet 60 feet high. Any creature that moves across or through the magma takes 6d6 fire damage (DC 34 basic Reflex save). At the start of the linnorm’s next turn, the magma cools to a thin layer of brittle stone on the ground, or the magma rain finishes falling and turns to harmless pebbles. The cooled magma quickly degrades to powder and sand over the course of several hours. Constrict Single Action 2d6+14 bludgeoning, DC 34 Crag Linnorm Venom (Fire, Injury, Poison) Saving Throw DC 34 Fortitude; Maximum Duration 10 rounds; Stage 1 4d6 fire damage and drained 1; Stage 2 6d6 fire damage and drained 2. ",
+ "summary": "Despite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking their foes with their magma breath.",
+ "summary_markdown": "Despite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking their foes with their magma breath.",
+ "text": " Crag Linnorm Despite being among the weakest linnorms, the crag linnorm is a devastating predator, capable of quickly cooking their foes with their magma breath. Recall Knowledge - Dragon (Arcana): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Crag Linnorm Source Monster Core pg. 220 Perception +26; darkvision, scent (imprecise) 60 feet, truesight Languages Aklo, Draconic, Fey Skills Acrobatics +22, Athletics +28 Str +8 Dex +4 Con +6 Int -3 Wis +4 Cha +5 --- AC 37 Fort +28 Ref +24 Will +22 +1 status to all saves vs. magic HP 270 , regeneration 10 (deactivated by cold iron) Immunities curse, fire, paralyzed, sleep Weaknesses cold iron 10 Curse of Fire (curse, fire, primal) When a creature slays the crag linnorm, it must succeed at a DC 35 Will save or gain weakness to fire 15 with an unlimited duration. Reactive Strike Reaction Tail only. --- Speed 35 feet, fly 100 feet, swim 60 feet; unfettered movement Melee Single Action jaws +30 (reach 20 feet, Magical), Damage 3d12+14 piercing plus crag linnorm venom Melee Single Action claw +30 (reach 20 feet, Agile, Magical), Damage 3d8+14 slashing Melee Single Action tail +30 (reach 20 feet, Agile, Magical), Damage 3d6+14 bludgeoning plus &lt;%UMR%666%%&gt; Improved Grab &lt;%END> Primal Innate Spells DC 33 - 6th Truesight - Constant (6th) Unfettered Movement Constrict Single Action 2d6+14 bludgeoning, DC 34 Crag Linnorm Venom (Fire, Poison) Saving Throw DC 34 Fortitude; Maximum Duration 10 rounds; Stage 1 4d6 fire damage and drained 1 (1 round); Stage 2 6d6 fire damage and drained 2 (1 round) Magma Breath Two Actions (Fire, Primal) The crag linnorm breathes out a stream of magma in a 120-foot line that deals 12d6 fire damage to creatures within the area (DC 34 basic Reflex save). Any creature that fails its save also takes 4d6 persistent fire damage. The linnorm can't use Magma Breath again for 1d4 rounds. The magma remains until the start of the linnorm's next turn. If the linnorm was on the ground, the magma remains as a burning line on the ground directly under the line of the Magma Breath; if the linnorm was airborne, the magma rains down in a sheet 60 feet high. Any creature that moves across or through the magma takes 6d6 fire damage (DC 34 basic Reflex save). At the start of the linnorm's next turn, the magma cools to a thin layer of brittle stone, or the magma rain finishes falling and turns to harmless pebbles. The cooled magma quickly degrades to powder and sand over the course of several hours. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Dragon",
   "Fire",
   "Uncommon",
-  "CE",
   "Gargantuan"
  ],
- "trait_markdown": "[Dragon](/Traits.aspx?ID=50), [Fire](/Traits.aspx?ID=72), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Dragon](/Traits.aspx?ID=581), [Fire](/Traits.aspx?ID=604), [Uncommon](/Traits.aspx?ID=721)",
  "trait_raw": [
   "Dragon",
   "Fire",
   "Uncommon"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=284",
+ "url": "/Monsters.aspx?ID=3083",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
@@ -112,5 +191,9 @@
  "weakness_markdown": "cold iron 10",
  "weakness_raw": "cold iron 10",
  "will_save": 22,
- "wisdom": 4
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

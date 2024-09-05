@@ -1,0 +1,166 @@
+{
+ "ac": 28,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "LE",
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Light Blindness",
+  "Troop Defenses",
+  "Attack of Opportunity",
+  "Shield Block",
+  "Bolt Barrage",
+  "Form Up",
+  "General Melee",
+  "Push Back",
+  "Raise Shields",
+  "Troop Movement"
+ ],
+ "creature_family": "Duergar",
+ "creature_family_markdown": "[Duergar](/MonsterFamilies.aspx?ID=38)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 20,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 150,
+ "hp_raw": "150",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2708",
+ "image": [
+  "/Images/Monsters/Hryngar_BrecciaSquad.png"
+ ],
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Dwarven",
+  "Undercommon"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"\">[Hryngar Breccia Squad](/Monsters.aspx?ID=2708)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nA hryngar breccia squad is a group of hryngar martial combatants armed with melee weapons and steel shields. Though more likely to be encountered near large hryngar settlements, these strike forces see wide use throughout the Darklands. Hryngar breccia squads often serve as military units, mercenary companies, city patrols, and caravan guards. Like all warriors, the favored combat methods of a hryngar breccia squad change by location, often due to surrounding environment and popular equipment.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Hryngar_BrecciaSquad.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Hryngar Breccia Squad](/Monsters.aspx?ID=2708)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 87\n\n**Perception** +18; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Dwarven](/Languages.aspx?ID=3), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +21, [Crafting](/Skills.aspx?ID=4) +18, [Intimidation](/Skills.aspx?ID=7) +16, [Religion](/Skills.aspx?ID=13) +18, [Survival](/Skills.aspx?ID=16) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +18 \r\n\r\n+2 status to all saves vs. magic\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\n\n</row>\n\n**Weaknesses**\r\narea damage12, [splash](/Traits.aspx?ID=150) damage 6\r\n\r\n**[Light Blindness](/MonsterAbilities.aspx?ID=22)** <br />**[Troop Defenses](/MonsterAbilities.aspx?ID=44)** <br />**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> <br />**[Shield Block](/MonsterAbilities.aspx?ID=32)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet; troop movement\n\n**Bolt Barrage** <actions string=\"Two Actions\" />  The hryngar breccia squad draws or reloads its crossbows, then launches a ranged attack in the form of a volley. This volley is a 10-foot burst within 120 feet that deals 4d8 piercing damage (DC 28 [basic](/Rules.aspx?ID=329) Reflex save). When the hryngar breccia squad is reduced to 8 or fewer squares, this area decreases to a 5-foot burst.\r\n\r\n**[Form Up](/MonsterAbilities.aspx?ID=43)** <actions string=\"Single Action\" />  \r\n\r\n**General Melee** <actions string=\"Single Action to Three Actions\" />  **Frequency** once per round; **Effect** The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy within 5 feet (DC 28 [basic](/Rules.aspx?ID=329) Reflex save). The damage depends on the number of actions.<br /> <actions string=\"Single Action\" /> 1d8+6 bludgeoning damage<br /> <actions string=\"Two Actions\" /> 2d8+10 bludgeoning damage<br /> <actions string=\"Three Actions\" /> 3d8+14 bludgeoning damage\r\n\r\n**Push Back** <actions string=\"Single Action\" />  **Requirements** The hryngar breccia squad has its shields raised; **Effect** The hryngar breccia squad pushes against adjacent foes, knocking them back. The hryngar breccia squad attempts an [Athletics](/Skills.aspx?ID=3) check to [Shove](/Actions.aspx?ID=38), comparing the result to the Fortitude DC of each enemy within 5 feet of the hryngar breccia squad. The hryngar breccia squad is not knocked [prone](/Conditions.aspx?ID=31) on a critical failure.\r\n\r\n**Raise Shields** <actions string=\"Single Action\" />  The hryngar breccia squad raises [steel shields](/Shields.aspx?ID=3), with the effects of [Raise a Shield](/Actions.aspx?ID=98).\r\n\r\n**Troop Movement**   Whenever the hryngar breccia squad Strides, it first [Forms Up](/MonsterAbilities.aspx?ID=43) as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the hryngar breccia squad enters [difficult terrain](/Rules.aspx?ID=453), the extra movement cost applies to the entire hryngar breccia squad.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"\">Rift Jumpers</title>\r\n\r\nHryngar breccia squads that specialize in spelunking are known as Rift Jumpers, named for their reckless leaps into perilous chasms. They swap their shields and warhammers for [light picks](/Weapons.aspx?ID=30) and train with their climbing equipment until it serves as an extension of their body. Rift Jumpers lose the Raise Shields, Shield Block, and Push Back actions, and gain a climb Speed of 20 feet.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-38\" />",
+ "name": "Hryngar Breccia Squad",
+ "npc": false,
+ "perception": 18,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #195: Heavy is the Crown",
+ "primary_source_raw": "Pathfinder #195: Heavy is the Crown pg. 87",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 15,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-09-23",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Duergar\" url=\"/Traits.aspx?ID=53\" />\r\n<trait label=\"Dwarf\" url=\"/Traits.aspx?ID=54\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 87\r\n\r\n**Creature Family** [Duergar](/MonsterFamilies.aspx?ID=38)\r\n\r\n<row gap=\"medium\">\r\n**HP** 150\r\n\r\n**AC** 28\r\n\r\n**Fort** +20\r\n\r\n**Ref** +15\r\n\r\n**Will** +18\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA hryngar breccia squad is a group of hryngar martial combatants armed with melee weapons and steel shields. Though more likely to be encountered …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Crafting",
+  "Intimidation",
+  "Religion",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +21, [Crafting](/Skills.aspx?ID=4) +18, [Intimidation](/Skills.aspx?ID=7) +16, [Religion](/Skills.aspx?ID=13) +18, [Survival](/Skills.aspx?ID=16) +18",
+ "skill_mod": {
+  "athletics": 21,
+  "crafting": 18,
+  "intimidation": 16,
+  "religion": 18,
+  "survival": 18
+ },
+ "source": [
+  "Pathfinder #195: Heavy is the Crown"
+ ],
+ "source_raw": [
+  "Pathfinder #195: Heavy is the Crown pg. 87"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #195: Heavy is the Crown](/Sources.aspx?ID=210) pg. 87",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet; troop movement",
+ "speed_raw": "20 feet; troop movement",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "A hryngar breccia squad is a group of hryngar martial combatants armed with melee weapons and steel shields. Though more likely to be encountered …",
+ "summary_markdown": "A hryngar breccia squad is a group of hryngar martial combatants armed with melee weapons and steel shields. Though more likely to be encountered …",
+ "text": " Hryngar Breccia Squad A hryngar breccia squad is a group of hryngar martial combatants armed with melee weapons and steel shields. Though more likely to be encountered near large hryngar settlements, these strike forces see wide use throughout the Darklands. Hryngar breccia squads often serve as military units, mercenary companies, city patrols, and caravan guards. Like all warriors, the favored combat methods of a hryngar breccia squad change by location, often due to surrounding environment and popular equipment. Recall Knowledge - Humanoid (Society): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Hryngar Breccia Squad Source Pathfinder #195: Heavy is the Crown pg. 87 Perception +18; darkvision Languages Common, Dwarven, Undercommon Skills Athletics +21, Crafting +18, Intimidation +16, Religion +18, Survival +18 Str +6 Dex +2 Con +4 Int +2 Wis +3 Cha +1 --- AC 28 Fort +20 Ref +15 Will +18 +2 status to all saves vs. magic HP 150 Weaknesses area damage12, splash damage 6 Light Blindness Troop Defenses Attack of Opportunity Reaction Shield Block Reaction --- Speed 20 feet; troop movement Bolt Barrage Two Actions The hryngar breccia squad draws or reloads its crossbows, then launches a ranged attack in the form of a volley. This volley is a 10-foot burst within 120 feet that deals 4d8 piercing damage (DC 28 basic Reflex save). When the hryngar breccia squad is reduced to 8 or fewer squares, this area decreases to a 5-foot burst. Form Up Single Action General Melee Single Action to Three Actions Frequency once per round; Effect The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy within 5 feet (DC 28 basic Reflex save). The damage depends on the number of actions. Single Action 1d8+6 bludgeoning damage Two Actions 2d8+10 bludgeoning damage Three Actions 3d8+14 bludgeoning damage Push Back Single Action Requirements The hryngar breccia squad has its shields raised; Effect The hryngar breccia squad pushes against adjacent foes, knocking them back. The hryngar breccia squad attempts an Athletics check to Shove, comparing the result to the Fortitude DC of each enemy within 5 feet of the hryngar breccia squad. The hryngar breccia squad is not knocked prone on a critical failure. Raise Shields Single Action The hryngar breccia squad raises steel shields, with the effects of Raise a Shield. Troop Movement Whenever the hryngar breccia squad Strides, it first Forms Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the hryngar breccia squad enters difficult terrain, the extra movement cost applies to the entire hryngar breccia squad. Rift Jumpers Hryngar breccia squads that specialize in spelunking are known as Rift Jumpers, named for their reckless leaps into perilous chasms. They swap their shields and warhammers for light picks and train with their climbing equipment until it serves as an extension of their body. Rift Jumpers lose the Raise Shields, Shield Block, and Push Back actions, and gain a climb Speed of 20 feet. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "Troop",
+  "Uncommon",
+  "LE",
+  "Gargantuan",
+  "Hryngar"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Duergar](/Traits.aspx?ID=53), [Dwarf](/Traits.aspx?ID=54), [Humanoid](/Traits.aspx?ID=91), [Troop](/Traits.aspx?ID=367), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Duergar",
+  "Dwarf",
+  "Humanoid",
+  "Troop",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2708",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "weakness_markdown": "area damage12, [splash](/Traits.aspx?ID=150) damage 6",
+ "weakness_raw": "area damage12,  splash  damage 6",
+ "will_save": 18,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

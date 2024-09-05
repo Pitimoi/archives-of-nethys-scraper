@@ -1,0 +1,171 @@
+{
+ "ac": 19,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  11,
+  14,
+  14,
+  14
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Sea Speech",
+  "Vengeful Throw",
+  "Challenging Shriek",
+  "Shared Feast"
+ ],
+ "creature_family": "Sedacthy",
+ "creature_family_markdown": "[Sedacthy](/MonsterFamilies.aspx?ID=467)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 75,
+ "hp_raw": "75",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3179",
+ "image": [
+  "/Images/Monsters/Sedacthy_Marauder.webp"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Breastplate",
+  "Spear (2)"
+ ],
+ "language": [
+  "Thalassic",
+  "sea speech"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113); sea speech",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Sedacthy Marauder](/Monsters.aspx?ID=3179)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nPhysically imposing sedacthies prove their status by controlling dangerous aquatic creatures like [great white sharks](/Monsters.aspx?ID=365) and [giant moray eels](/Monsters.aspx?ID=2971).\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 19\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sedacthy_Marauder.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Sedacthy Marauder](/Monsters.aspx?ID=3179)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Sedacthy\" url=\"/Traits.aspx?ID=770\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 300\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59), [wavesense](/MonsterAbilities.aspx?ID=84) 30 feet\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113); sea speech\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +14, [Intimidation](/Skills.aspx?ID=7) +13, [Survival](/Skills.aspx?ID=16) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +0\r\n\r\n**Wis** +1\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**Sea Speech** A sedacthy speaking [Thalassic](/Languages.aspx?ID=113) can be understood by any [animal](/Traits.aspx?ID=531) that has a swim Speed or the [amphibious](/Traits.aspx?ID=529) or [aquatic](/Traits.aspx?ID=533) trait. By spending a week regularly interacting with such an animal, the sedacthy can make it permanently [helpful](/Conditions.aspx?ID=78).\r\n\r\n**Items**\r\n[Breastplate](/Armor.aspx?ID=10), [Spear](/Weapons.aspx?ID=10) (2)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\n\n</row>\n\n**Vengeful Throw** <actions string=\"Reaction\" /> **Trigger** The marauder takes damage from a creature 20 feet or further away; **Effect** The marauder makes a ranged spear Strike against the triggering creature. This attack doesn't take a range increment penalty if the target is within the second range increment.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, swim 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspear +14,\r\n**Damage** 1d6+10 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +14,\r\n**Damage** 1d4+8 piercing plus 1d4 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +14 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d4+8 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspear +11 ([thrown 20 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d6+10 piercing\n\n**Challenging Shriek** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)) The marauder unleashes a terrifying battle cry. Each enemy in a 30-foot emanation must attempt a DC 21 Will save. Regardless of the results, creatures are temporarily immune for 1 minute.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [frightened 1](/Conditions.aspx?ID=76).<br /> **Failure** The creature is frightened 2.<br /> **Critical Failure** The creature is [immobilized](/Conditions.aspx?ID=81) for 1 round and frightened 3.\r\n\r\n**Shared Feast** <actions string=\"Two Actions\" />  The sedacthy makes a jaws Strike. If it hits, an ally of their choice can spend a reaction to make a jaws Strike against the same target. Allies with beaks or similar attacks can use those instead of jaws.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-467\" />",
+ "name": "Sedacthy Marauder",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 300",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 9,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n<trait label=\"Sedacthy\" url=\"/Traits.aspx?ID=770\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 300\r\n\r\n**Creature Family** [Sedacthy](/MonsterFamilies.aspx?ID=467)\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\r\n\r\n**AC** 19\r\n\r\n**Fort** +14\r\n\r\n**Ref** +9\r\n\r\n**Will** +9\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nPhysically imposing sedacthies prove their status by controlling dangerous aquatic creatures like  great white sharks  and  giant moray eels .\r\n</summary>",
+ "sense": " darkvision ,  wavesense  30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [wavesense](/MonsterAbilities.aspx?ID=84) 30 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +14, [Intimidation](/Skills.aspx?ID=7) +13, [Survival](/Skills.aspx?ID=16) +9",
+ "skill_mod": {
+  "athletics": 14,
+  "intimidation": 13,
+  "survival": 9
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 300"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 300",
+ "speed": {
+  "land": 20,
+  "max": 40,
+  "swim": 40
+ },
+ "speed_markdown": "20 feet, swim 40 feet",
+ "speed_raw": "20 feet, swim 40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  13,
+  13,
+  13,
+  13
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Physically imposing sedacthies prove their status by controlling dangerous aquatic creatures like  great white sharks  and  giant moray eels .",
+ "summary_markdown": "Physically imposing sedacthies prove their status by controlling dangerous aquatic creatures like  great white sharks  and  giant moray eels .",
+ "text": " Sedacthy Marauder Physically imposing sedacthies prove their status by controlling dangerous aquatic creatures like great white sharks and giant moray eels. Recall Knowledge - Humanoid (Society): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Sedacthy Marauder Source Monster Core pg. 300 Perception +9; darkvision, wavesense 30 feet Languages Thalassic; sea speech Skills Athletics +14, Intimidation +13, Survival +9 Str +6 Dex +3 Con +4 Int +0 Wis +1 Cha +3 Sea Speech A sedacthy speaking Thalassic can be understood by any animal that has a swim Speed or the amphibious or aquatic trait. By spending a week regularly interacting with such an animal, the sedacthy can make it permanently helpful. Items Breastplate, Spear (2) --- AC 19 Fort +14 Ref +9 Will +9 HP 75 Vengeful Throw Reaction Trigger The marauder takes damage from a creature 20 feet or further away; Effect The marauder makes a ranged spear Strike against the triggering creature. This attack doesn't take a range increment penalty if the target is within the second range increment. --- Speed 20 feet, swim 40 feet Melee Single Action spear +14, Damage 1d6+10 piercing Melee Single Action jaws +14, Damage 1d4+8 piercing plus 1d4 persistent bleed Melee Single Action claw +14 (Agile), Damage 2d4+8 slashing Ranged Single Action spear +11 (thrown 20 feet), Damage 1d6+10 piercing Challenging Shriek Single Action (Auditory, Emotion, Fear, Mental) The marauder unleashes a terrifying battle cry. Each enemy in a 30-foot emanation must attempt a DC 21 Will save. Regardless of the results, creatures are temporarily immune for 1 minute. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Critical Failure The creature is immobilized for 1 round and frightened 3. Shared Feast Two Actions The sedacthy makes a jaws Strike. If it hits, an ally of their choice can spend a reaction to make a jaws Strike against the same target. Allies with beaks or similar attacks can use those instead of jaws. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Amphibious",
+  "Humanoid",
+  "Sedacthy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Humanoid](/Traits.aspx?ID=628), [Sedacthy](/Traits.aspx?ID=770)",
+ "trait_raw": [
+  "Amphibious",
+  "Humanoid",
+  "Sedacthy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3179",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 9,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

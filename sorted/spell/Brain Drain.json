@@ -1,17 +1,28 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "material",
   "somatic"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,55 +38,69 @@
  ],
  "id": "spell-747",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Brain Drain](/Spells.aspx?ID=747)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cursebound\" url=\"/Traits.aspx?ID=320\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=319\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 230 <sup>2.0</sup></row>\n\n**Mystery**\r\n[Lore](/Mysteries.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou probe the target's mind to glean knowledge. This deals 1d8 mental damage with a basic Will save. If the target fails the save, you sort through the stolen memories to attempt a single check to [Recall Knowledge](/Actions.aspx?ID=26). Choose a skill that has the Recall Knowledge action, and use the target's skill modifier for the check.\n\n---\r\n**Heightened (+1)** The mental damage increases by 1d8.",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Brain Drain](/Spells.aspx?ID=747)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cursebound\" url=\"/Traits.aspx?ID=320\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=319\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 230 <sup>2.0</sup>\n\n**Mystery**\r\n[Lore](/Mysteries.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou probe the target's mind to glean knowledge. This deals 1d8 mental damage with a basic Will save. If the target fails the save, you sort through the stolen memories to attempt a single check to [Recall Knowledge](/Actions.aspx?ID=26). Choose a skill that has the Recall Knowledge action, and use the target's skill modifier for the check.\n\n---\r\n**Heightened (+1)** The mental damage increases by 1d8.",
  "mystery": [
   "Lore"
  ],
  "mystery_markdown": "[Lore](/Mysteries.aspx?ID=7)",
  "name": "Brain Drain",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 230",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-07-30",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cursebound\" url=\"/Traits.aspx?ID=320\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=319\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 230 <sup>2.0</sup></row>\n\n**Mystery**\r\n[Lore](/Mysteries.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou probe the target's mind to glean knowledge.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Cursebound\" url=\"/Traits.aspx?ID=320\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=319\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 230 <sup>2.0</sup>\n\n**Mystery**\r\n[Lore](/Mysteries.aspx?ID=7)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou probe the target's mind to glean knowledge.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 230"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 230 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 230 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You probe the target's mind to glean knowledge.",
  "summary_markdown": "You probe the target's mind to glean knowledge.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Brain Drain Source Advanced Player's Guide pg. 230 2.0 Mystery Lore Cast Two Actions material, somatic Range 30 feet Target 1 creature Saving Throw Will --- You probe the target's mind to glean knowledge. This deals 1d8 mental damage with a basic Will save. If the target fails the save, you sort through the stolen memories to attempt a single check to Recall Knowledge. Choose a skill that has the Recall Knowledge action, and use the target's skill modifier for the check. --- Heightened (+1) The mental damage increases by 1d8.",
+ "text": "\nBrain Drain Two Actions Source Advanced Player's Guide pg. 230 2.0 Mystery Lore Cast material, somatic Range 30 feet Target 1 creature Saving Throw Will --- You probe the target's mind to glean knowledge. This deals 1d8 mental damage with a basic Will save. If the target fails the save, you sort through the stolen memories to attempt a single check to Recall Knowledge. Choose a skill that has the Recall Knowledge action, and use the target's skill modifier for the check. --- Heightened (+1) The mental damage increases by 1d8.",
  "tradition_markdown": "",
  "trait": [
   "Cursebound",
   "Enchantment",
   "Mental",
   "Oracle",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Cursebound](/Traits.aspx?ID=320), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Oracle](/Traits.aspx?ID=319), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class-Specific",
+  "School",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cursebound](/Traits.aspx?ID=320), [Enchantment](/Traits.aspx?ID=61), [Mental](/Traits.aspx?ID=106), [Oracle](/Traits.aspx?ID=319), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Cursebound",
   "Enchantment",
   "Mental",
   "Oracle",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=747",
  "weakness": {}
 }

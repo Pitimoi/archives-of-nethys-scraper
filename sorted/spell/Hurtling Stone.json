@@ -1,19 +1,30 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic"
- ],
- "deity_markdown": "",
  "domain": [
   "Earth"
  ],
- "domain_markdown": "[Earth](/Domains.aspx?ID=10)",
+ "domain_markdown": "[Earth](/Domains.aspx?ID=73)",
+ "element": [
+  "Earth"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,52 +38,68 @@
   9,
   10
  ],
- "id": "spell-427",
+ "id": "spell-1798",
+ "legacy_id": "spell-427",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Hurtling Stone](/Spells.aspx?ID=427)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 393 <sup>4.0</sup></row>\n\n**Domain**\r\n[Earth](/Domains.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou evoke a magical stone and throw it, with your god's presence guiding your aim. Make a spell attack roll against the target. The stone deals bludgeoning damage equal to 1d6 plus your Strength modifier.\r\n\r\n**Critical Success** The stone deals double damage.<br />\r\n**Success** The stone deals full damage.\n\n---\r\n**Heightened (+1)** The stone's damage increases by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Hurtling Stone](/Spells.aspx?ID=1798)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 374\n\n**Domain**\r\n[Earth](/Domains.aspx?ID=73)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou evoke a magical stone and throw it, with divine guide to your aim. The stone deals 2d6 bludgeoning damage depending on your spell attack roll against the target's AC.\r\n\r\n**Critical Success** The target takes double damage and you can [push](/Rules.aspx?ID=451) it up to 10 feet.<br />\r\n**Success** The target takes full damage and you can push it up to 5 feet.\n\n---\r\n**Heightened (+1)** The stone's damage increases by 1d6.",
  "name": "Hurtling Stone",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 374",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 393 <sup>4.0</sup></row>\n\n**Domain**\r\n[Earth](/Domains.aspx?ID=10)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou evoke a magical stone and throw it, with your god’s presence guiding your aim.\r\n</summary>",
+ "saving_throw": "AC",
+ "saving_throw_markdown": "AC",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 374\n\n**Domain**\r\n[Earth](/Domains.aspx?ID=73)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou evoke a magical stone and throw it, with divine guide to your aim.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 393"
+  "Player Core pg. 374"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 393 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 374",
  "speed": {},
- "summary": "You evoke a magical stone and throw it, with your god’s presence guiding your aim.",
- "summary_markdown": "You evoke a magical stone and throw it, with your god’s presence guiding your aim.",
+ "spell_type": "Focus",
+ "summary": "You evoke a magical stone and throw it, with divine guide to your aim.",
+ "summary_markdown": "You evoke a magical stone and throw it, with divine guide to your aim.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Hurtling Stone Source Core Rulebook pg. 393 4.0 Domain Earth Cast Single Action somatic Range 60 feet Target 1 creature --- You evoke a magical stone and throw it, with your god's presence guiding your aim. Make a spell attack roll against the target. The stone deals bludgeoning damage equal to 1d6 plus your Strength modifier. Critical Success The stone deals double damage. Success The stone deals full damage. --- Heightened (+1) The stone's damage increases by 1d6.",
+ "text": "\nHurtling Stone Single Action Source Player Core pg. 374 Domain Earth Range 60 feet Target 1 creature Defense AC --- You evoke a magical stone and throw it, with divine guide to your aim. The stone deals 2d6 bludgeoning damage depending on your spell attack roll against the target's AC. Critical Success The target takes double damage and you can push it up to 10 feet. Success The target takes full damage and you can push it up to 5 feet. --- Heightened (+1) The stone's damage increases by 1d6.",
  "tradition_markdown": "",
  "trait": [
   "Attack",
   "Cleric",
   "Earth",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cleric](/Traits.aspx?ID=26), [Earth](/Traits.aspx?ID=55), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cleric](/Traits.aspx?ID=554), [Earth](/Traits.aspx?ID=55), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Attack",
   "Cleric",
   "Earth",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=427",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1798",
  "weakness": {}
 }

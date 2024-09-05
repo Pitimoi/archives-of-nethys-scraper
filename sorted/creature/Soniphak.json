@@ -1,0 +1,161 @@
+{
+ "ac": 27,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  19,
+  19,
+  19
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Disruptive Screech",
+  "Aftershock",
+  "Shattering Scream",
+  "Snatch"
+ ],
+ "creature_family": "Dischoran",
+ "creature_family_markdown": "[Dischoran](/MonsterFamilies.aspx?ID=490)",
+ "dexterity": 6,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 21,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 180,
+ "hp_raw": "180",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3269",
+ "image": [
+  "/Images/Monsters/Dischoran_Soniphak.webp"
+ ],
+ "immunity": [
+  "visual"
+ ],
+ "immunity_markdown": "[visual](/Traits.aspx?ID=727)",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Draconic"
+ ],
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2)",
+ "level": 9,
+ "markdown": "<title level=\"1\" pfs=\"\">[Soniphak](/Monsters.aspx?ID=3269)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nOften mistaken for drakes, soniphaks glide above rocky or barren ground, picking out prey with their hearing. A hunting soniphak disables its targets with concentrated bursts of sound before snatching them up and feasting on the move. Despite being able to speak, soniphaks are no more social than other dischorans, generally responding to even the quietest attempts at communication with destructive shouting.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 26\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 24\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 21\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Dischoran_Soniphak.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 9\">[Soniphak](/Monsters.aspx?ID=3269)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 141\n\n**Perception** +21; no vision, sensitive echolocation ([precise](/Rules.aspx?ID=411)) 120 feet\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +19, [Athletics](/Skills.aspx?ID=36) +20, [Survival](/Skills.aspx?ID=49) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +6\r\n\r\n**Con** +4\r\n\r\n**Int** -2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +1\r\n</row>\r\n\r\nSensitive Echolocation The soniphak can use its hearing as a [precise sense](/Rules.aspx?ID=411) with the listed range. If the soniphak takes sonic damage beyond its resistance, its senses are overloaded and all creatures are [concealed](/Conditions.aspx?ID=62) from it for 1 round.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +21 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 180\n\n</row>\r\n\r\n**Immunities**\r\n[visual](/Traits.aspx?ID=727)\n\n**Disruptive Screech** <actions string=\"Reaction\" /> **Trigger** A creature within 30 feet of the soniphak uses an [auditory](/Traits.aspx?ID=541) action; **Effect** The soniphak makes a screech Strike against the triggering creature. This disrupts a triggering [concentrate](/Traits.aspx?ID=561) action if the Strike is a critical hit.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +19 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+9 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +19 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 3d6+9 slashing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nscreech +19 ([range 60 feet](/Traits.aspx?ID=248), [Sonic](/Traits.aspx?ID=147)),\r\n**Damage** 6d6 sonic plus aftershock\n\n**Aftershock**   Whenever a soniphak hits with a screech Strike, feedback deals each creature the soniphak has [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) 1d6 sonic damage.\r\n\r\n**Shattering Scream** <actions string=\"Two Actions\" /> ([Sonic](/Traits.aspx?ID=147)) The soniphak can focus its screech at a stone or rock surface within 60 feet to create an explosion in a 15-foot burst from the point of impact. Creatures in the area take 5d6 piercing damage (DC 28 [basic](/Rules.aspx?ID=329) Reflex save), and the area becomes [difficult terrain](/Rules.aspx?ID=453) due to fragments of loose stone.\r\n\r\n**Snatch**   The soniphak can [Fly](/Actions.aspx?ID=2312) at half Speed with a creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) in its claws, carrying that creature along with it.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-490\" />",
+ "name": "Soniphak",
+ "npc": false,
+ "perception": 21,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 141",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 21,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 141\r\n\r\n**Creature Family** [Dischoran](/MonsterFamilies.aspx?ID=490)\r\n\r\n<row gap=\"medium\">\r\n**HP** 180\r\n\r\n**AC** 27\r\n\r\n**Fort** +21\r\n\r\n**Ref** +21\r\n\r\n**Will** +15\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nOften mistaken for drakes, soniphaks glide above rocky or barren ground, picking out prey with their hearing. A hunting soniphak disables its targets …\r\n</summary>",
+ "sense": "no vision, sensitive echolocation ( precise ) 120 feet",
+ "sense_markdown": "no vision, sensitive echolocation ([precise](/Rules.aspx?ID=411)) 120 feet",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +19, [Athletics](/Skills.aspx?ID=36) +20, [Survival](/Skills.aspx?ID=49) +17",
+ "skill_mod": {
+  "acrobatics": 19,
+  "athletics": 20,
+  "survival": 17
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 141"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 141",
+ "speed": {
+  "fly": 50,
+  "land": 20,
+  "max": 50
+ },
+ "speed_markdown": "20 feet, fly 50 feet",
+ "speed_raw": "20 feet, fly 50 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  19,
+  21,
+  22
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 7,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude",
+  "ref",
+  "reflex"
+ ],
+ "summary": "Often mistaken for drakes, soniphaks glide above rocky or barren ground, picking out prey with their hearing. A hunting soniphak disables its targets …",
+ "summary_markdown": "Often mistaken for drakes, soniphaks glide above rocky or barren ground, picking out prey with their hearing. A hunting soniphak disables its targets …",
+ "text": " Soniphak Often mistaken for drakes, soniphaks glide above rocky or barren ground, picking out prey with their hearing. A hunting soniphak disables its targets with concentrated bursts of sound before snatching them up and feasting on the move. Despite being able to speak, soniphaks are no more social than other dischorans, generally responding to even the quietest attempts at communication with destructive shouting. Recall Knowledge - Beast (Arcana, Nature): DC 26 Unspecific Lore : DC 24 Specific Lore : DC 21 Soniphak Source Howl of the Wild pg. 141 Perception +21; no vision, sensitive echolocation (precise) 120 feet Languages Draconic Skills Acrobatics +19, Athletics +20, Survival +17 Str +7 Dex +6 Con +4 Int -2 Wis +4 Cha +1 Sensitive Echolocation The soniphak can use its hearing as a precise sense with the listed range. If the soniphak takes sonic damage beyond its resistance, its senses are overloaded and all creatures are concealed from it for 1 round. --- AC 27 Fort +21 Ref +21 Will +15 HP 180 Immunities visual Disruptive Screech Reaction Trigger A creature within 30 feet of the soniphak uses an auditory action; Effect The soniphak makes a screech Strike against the triggering creature. This disrupts a triggering concentrate action if the Strike is a critical hit. --- Speed 20 feet, fly 50 feet Melee Single Action jaws +19 (reach 15 feet), Damage 3d8+9 piercing Melee Single Action claw +19 (Agile), Damage 3d6+9 slashing plus Grab Ranged Single Action screech +19 (range 60 feet, Sonic), Damage 6d6 sonic plus aftershock Aftershock Whenever a soniphak hits with a screech Strike, feedback deals each creature the soniphak has grabbed or restrained 1d6 sonic damage. Shattering Scream Two Actions (Sonic) The soniphak can focus its screech at a stone or rock surface within 60 feet to create an explosion in a 15-foot burst from the point of impact. Creatures in the area take 5d6 piercing damage (DC 28 basic Reflex save), and the area becomes difficult terrain due to fragments of loose stone. Snatch The soniphak can Fly at half Speed with a creature grabbed or restrained in its claws, carrying that creature along with it. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Beast",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3269",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 15,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

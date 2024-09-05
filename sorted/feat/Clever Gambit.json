@@ -1,48 +1,59 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Butterfly Blade"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Clever Gambit"
  ],
  "feat_markdown": "Clever Gambit",
- "id": "feat-1782",
+ "id": "feat-4924",
+ "legacy_id": "feat-1782",
  "level": 2,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Clever Gambit](/Feats.aspx?ID=1782) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 134 <sup>2.0</sup></row>\n\n**Archetype** [Butterfly Blade](/Archetypes.aspx?ID=91) (Level 4)\n\n**Prerequisites**\r\n[mastermind racket](/Rackets.aspx?ID=5)\n\n**Trigger**\r\nYour Strike critically hits and deals damage to a creature you've identified with [Recall Knowledge](/Actions.aspx?ID=26).\n\n</column>\r\n\r\n---\r\n\r\nYour battle tactics are aided by your assessment of your foes' capabilities, allowing you to instantly adjust your movements to maximum advantage. You Step or Stride; this movement doesn't trigger reactions from the triggering creature.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Clever Gambit](/Feats.aspx?ID=4924) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 171\n\n**Archetype** [Butterfly Blade](/Archetypes.aspx?ID=91) (Level 4)\n\n**Prerequisites**\r\n[mastermind racket](/Rackets.aspx?ID=5)\n\n**Trigger**\r\nYour Strike critically hits and deals damage to a creature you’ve identified with Recall Knowledge\n\n</column>\r\n\r\n---\r\n\r\nYour battle tactics are aided by assessing your foe’s capabilities and range. You Step or Stride; this movement doesn’t trigger reactions from the triggering creature.",
  "name": "Clever Gambit",
  "pfs": "Standard",
  "prerequisite": "mastermind racket",
  "prerequisite_markdown": "[mastermind racket](/Rackets.aspx?ID=5)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 171",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=139\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 134 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[mastermind racket](/Rackets.aspx?ID=5)\n\n**Trigger**\r\nYour Strike critically hits and deals damage to a creature you've identified with [Recall Knowledge](/Actions.aspx?ID=26).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour battle tactics are aided by your assessment of your foes' capabilities, allowing you to instantly adjust your movements to maximum advantage.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rogue\" url=\"/Traits.aspx?ID=687\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 171\n\n**Prerequisites**\r\n[mastermind racket](/Rackets.aspx?ID=5)\n\n**Trigger**\r\nYour Strike critically hits and deals damage to a creature you’ve identified with Recall Knowledge\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour battle tactics are aided by assessing your foe’s capabilities and range.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 134"
+  "Player Core pg. 171"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 134 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 171",
  "speed": {},
- "summary": "Your battle tactics are aided by your assessment of your foes' capabilities, allowing you to instantly adjust your movements to maximum advantage.",
- "summary_markdown": "Your battle tactics are aided by your assessment of your foes' capabilities, allowing you to instantly adjust your movements to maximum advantage.",
- "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Clever Gambit Reaction Source Advanced Player's Guide pg. 134 2.0 Archetype Butterfly Blade (Level 4) Prerequisites mastermind racket Trigger Your Strike critically hits and deals damage to a creature you've identified with Recall Knowledge. --- Your battle tactics are aided by your assessment of your foes' capabilities, allowing you to instantly adjust your movements to maximum advantage. You Step or Stride; this movement doesn't trigger reactions from the triggering creature.",
+ "summary": "Your battle tactics are aided by assessing your foe’s capabilities and range.",
+ "summary_markdown": "Your battle tactics are aided by assessing your foe’s capabilities and range.",
+ "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Clever Gambit Reaction Source Player Core pg. 171 Archetype Butterfly Blade (Level 4) Prerequisites mastermind racket Trigger Your Strike critically hits and deals damage to a creature you’ve identified with Recall Knowledge --- Your battle tactics are aided by assessing your foe’s capabilities and range. You Step or Stride; this movement doesn’t trigger reactions from the triggering creature.",
  "trait": [
   "Rogue"
  ],
- "trait_markdown": "[Rogue](/Traits.aspx?ID=139)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Rogue](/Traits.aspx?ID=687)",
  "trait_raw": [
   "Rogue"
  ],
- "trigger": "Your Strike critically hits and deals damage to a creature you've identified with  Recall Knowledge .",
- "trigger_markdown": "Your Strike critically hits and deals damage to a creature you've identified with [Recall Knowledge](/Actions.aspx?ID=26).",
+ "trigger": "Your Strike critically hits and deals damage to a creature you’ve identified with Recall Knowledge",
+ "trigger_markdown": "Your Strike critically hits and deals damage to a creature you’ve identified with Recall Knowledge",
  "type": "Feat",
- "url": "/Feats.aspx?ID=1782",
+ "url": "/Feats.aspx?ID=4924",
  "weakness": {}
 }

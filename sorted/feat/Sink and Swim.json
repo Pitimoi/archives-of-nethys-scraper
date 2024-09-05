@@ -1,6 +1,8 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Sink and Swim"
@@ -8,23 +10,30 @@
  "feat_markdown": "Sink and Swim",
  "id": "feat-3758",
  "level": 14,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Limited\"\r\n>\r\n[Sink and Swim](/Feats.aspx?ID=3758) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Aftermath\" url=\"/Traits.aspx?ID=424\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 57</row>\n\n**Prerequisites**\r\nYou've been brought to 0 Hit Points by an enemy that has the [water](/Traits.aspx?ID=165) trait or an enemy's ability that has the water trait.\n\n</column>\r\n\r\n---\r\n\r\nYour body looks like it's made of flowing water, clear and pristine, providing a natural grace to all your movements. You gain a swim Speed equal to your land Speed. If you already had a swim Speed, it's increased by 10 feet. You gain the Water Transfer activity, which enables you to teleport through a body of water.\n\n **Water Transfer** <actions string=\"Single Action\" /> ([conjuration](/Traits.aspx?ID=33), [primal](/Traits.aspx?ID=134), [teleportation](/Traits.aspx?ID=156), [water](/Traits.aspx?ID=165)) **Frequency** once per minute; **Requirements** You're on land and adjacent to a body of water; **Effect** You sink into the water and emerge back onto land in another space within 120 feet that's adjacent to the same body of water. You can transport yourself, any items you're wearing and holding, and up to one other willing creature.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 14\"\r\n    pfs=\"Limited\"\r\n>\r\n[Sink and Swim](/Feats.aspx?ID=3758) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Aftermath\" url=\"/Traits.aspx?ID=424\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 57\n\n**Prerequisites**\r\nYou've been brought to 0 Hit Points by an enemy that has the [water](/Traits.aspx?ID=165) trait or an enemy's ability that has the water trait.\n\n</column>\r\n\r\n---\r\n\r\nYour body looks like it's made of flowing water, clear and pristine, providing a natural grace to all your movements. You gain a swim Speed equal to your land Speed. If you already had a swim Speed, it's increased by 10 feet. You gain the Water Transfer activity, which enables you to teleport through a body of water.\n\n **Water Transfer** <actions string=\"Single Action\" /> ([conjuration](/Traits.aspx?ID=33), [primal](/Traits.aspx?ID=134), [teleportation](/Traits.aspx?ID=156), [water](/Traits.aspx?ID=165)) **Frequency** once per minute; **Requirements** You're on land and adjacent to a body of water; **Effect** You sink into the water and emerge back onto land in another space within 120 feet that's adjacent to the same body of water. You can transport yourself, any items you're wearing and holding, and up to one other willing creature.",
  "name": "Sink and Swim",
  "pfs": "Limited",
  "prerequisite": "You've been brought to 0 Hit Points by an enemy that has the water trait or an enemy's ability that has the water trait.",
  "prerequisite_markdown": "You've been brought to 0 Hit Points by an enemy that has the [water](/Traits.aspx?ID=165) trait or an enemy's ability that has the water trait.",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 57",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2022-07-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Aftermath\" url=\"/Traits.aspx?ID=424\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 57</row>\n\n**Prerequisites**\r\nYou've been brought to 0 Hit Points by an enemy that has the [water](/Traits.aspx?ID=165) trait or an enemy's ability that has the water trait.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour body looks like it's made of flowing water, clear and pristine, providing a natural grace to all your movements.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Aftermath\" url=\"/Traits.aspx?ID=424\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 57\n\n**Prerequisites**\r\nYou've been brought to 0 Hit Points by an enemy that has the [water](/Traits.aspx?ID=165) trait or an enemy's ability that has the water trait.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour body looks like it's made of flowing water, clear and pristine, providing a natural grace to all your movements.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 57"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 57</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 57",
  "speed": {},
  "summary": "Your body looks like it's made of flowing water, clear and pristine, providing a natural grace to all your movements.",
  "summary_markdown": "Your body looks like it's made of flowing water, clear and pristine, providing a natural grace to all your movements.",
@@ -33,6 +42,12 @@
   "Aftermath",
   "Rare",
   "Water"
+ ],
+ "trait_group": [
+  "Rarity",
+  "Elemental",
+  "Planar",
+  "Monster"
  ],
  "trait_markdown": "[Aftermath](/Traits.aspx?ID=424), [Rare](/Traits.aspx?ID=137), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [

@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,27 +9,39 @@
  "feat_markdown": "Squawk!",
  "id": "feat-1311",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Squawk!](/Feats.aspx?ID=1311) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=240\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 26 <sup>2.0</sup></row>\n\n**Trigger**\r\nYou critically fail a [Deception](/Skills.aspx?ID=5), [Diplomacy](/Skills.aspx?ID=6), or [Intimidation](/Skills.aspx?ID=7) check against a creature that doesn't have the [tengu](/Traits.aspx?ID=240) trait.\n\n</column>\r\n\r\n---\r\n\r\nYou let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas. You get a failure on the triggering check, rather than a critical failure. All creatures that witnessed you Squawk are temporarily immune for 24 hours.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Squawk!](/Feats.aspx?ID=1311) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=240\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 26 <sup>2.0</sup>\n\n**Trigger**\r\nYou critically fail a [Deception](/Skills.aspx?ID=5), [Diplomacy](/Skills.aspx?ID=6), or [Intimidation](/Skills.aspx?ID=7) check against a creature that doesn't have the [tengu](/Traits.aspx?ID=240) trait.\n\n</column>\r\n\r\n---\r\n\r\nYou let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas. You get a failure on the triggering check, rather than a critical failure. All creatures that witnessed you Squawk are temporarily immune for 24 hours.",
  "name": "Squawk!",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 26",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=240\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 26 <sup>2.0</sup></row>\n\n**Trigger**\r\nYou critically fail a [Deception](/Skills.aspx?ID=5), [Diplomacy](/Skills.aspx?ID=6), or [Intimidation](/Skills.aspx?ID=7) check against a creature that doesn't have the [tengu](/Traits.aspx?ID=240) trait.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=240\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 26 <sup>2.0</sup>\n\n**Trigger**\r\nYou critically fail a [Deception](/Skills.aspx?ID=5), [Diplomacy](/Skills.aspx?ID=6), or [Intimidation](/Skills.aspx?ID=7) check against a creature that doesn't have the [tengu](/Traits.aspx?ID=240) trait.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 26"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 26 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 26 <sup>2.0</sup>",
  "speed": {},
  "summary": "You let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas.",
  "summary_markdown": "You let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas.",
  "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Squawk! Reaction Source Advanced Player's Guide pg. 26 2.0 Trigger You critically fail a Deception, Diplomacy, or Intimidation check against a creature that doesn't have the tengu trait. --- You let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas. You get a failure on the triggering check, rather than a critical failure. All creatures that witnessed you Squawk are temporarily immune for 24 hours.",
  "trait": [
   "Tengu"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon"
  ],
  "trait_markdown": "[Tengu](/Traits.aspx?ID=240)",
  "trait_raw": [

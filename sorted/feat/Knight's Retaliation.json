@@ -1,7 +1,7 @@
 {
  "access": "Knights of Lastwall have access to this feat.",
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,27 +10,34 @@
  "feat_markdown": "Knight's Retaliation",
  "id": "feat-3635",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Knight's Retaliation](/Feats.aspx?ID=3635) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Swashbuckler\" url=\"/Traits.aspx?ID=321\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 84</row>\n\n**Prerequisites**\r\nTrained in [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\r\n\r\n**Trigger**\r\nAn undead creature within your reach critically fails a Strike against you.\n\n</column>\r\n\r\n---\r\n\r\nYou knock the enemy's blow aside and twist, unbalancing your foe. You attempt to [Disarm](/Actions.aspx?ID=41), [Shove](/Actions.aspx?ID=38), or [Trip](/Actions.aspx?ID=40) the triggering creature.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Knight's Retaliation](/Feats.aspx?ID=3635) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Swashbuckler\" url=\"/Traits.aspx?ID=321\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 84\n\n**Prerequisites**\r\nTrained in [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\r\n\r\n**Trigger**\r\nAn undead creature within your reach critically fails a Strike against you.\n\n</column>\r\n\r\n---\r\n\r\nYou knock the enemy's blow aside and twist, unbalancing your foe. You attempt to [Disarm](/Actions.aspx?ID=41), [Shove](/Actions.aspx?ID=38), or [Trip](/Actions.aspx?ID=40) the triggering creature.",
  "name": "Knight's Retaliation",
  "pfs": "Standard",
  "prerequisite": "Trained in Athletics",
  "prerequisite_markdown": "Trained in [Athletics](/Skills.aspx?ID=3)",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 84",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-05-25",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Swashbuckler\" url=\"/Traits.aspx?ID=321\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 84</row>\n\n**Prerequisites**\r\nTrained in [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\r\n\r\n**Trigger**\r\nAn undead creature within your reach critically fails a Strike against you.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou knock the enemy's blow aside and twist, unbalancing your foe.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Fighter\" url=\"/Traits.aspx?ID=71\" />\r\n<trait label=\"Swashbuckler\" url=\"/Traits.aspx?ID=321\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 84\n\n**Prerequisites**\r\nTrained in [Athletics](/Skills.aspx?ID=3)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\r\n\r\n**Trigger**\r\nAn undead creature within your reach critically fails a Strike against you.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou knock the enemy's blow aside and twist, unbalancing your foe.\r\n</summary>",
  "skill": [
   "Athletics",
   "Athletics"
  ],
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 84"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 84</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 84",
  "speed": {},
  "summary": "You knock the enemy's blow aside and twist, unbalancing your foe.",
  "summary_markdown": "You knock the enemy's blow aside and twist, unbalancing your foe.",
@@ -39,6 +46,10 @@
   "Fighter",
   "Swashbuckler",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Fighter](/Traits.aspx?ID=71), [Swashbuckler](/Traits.aspx?ID=321), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

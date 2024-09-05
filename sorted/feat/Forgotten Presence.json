@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,21 +7,28 @@
  "feat_markdown": "Forgotten Presence",
  "id": "feat-3766",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Forgotten Presence](/Feats.aspx?ID=3766) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 65</row>\n\n</column>\r\n\r\n---\r\n\r\nThe world conspires to keep you forgotten and unnoticed— memories cloud, ink stains out your name in ledgers, and portraits of you crack and warp over your face. Characters attempting to [Recall Knowledge](/Actions.aspx?ID=26) about you take a –2 circumstance penalty. Add [_modify memory_](/Spells.aspx?ID=200) to your spell list as a primal spell.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Forgotten Presence](/Feats.aspx?ID=3766) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 65\n\n</column>\r\n\r\n---\r\n\r\nThe world conspires to keep you forgotten and unnoticed— memories cloud, ink stains out your name in ledgers, and portraits of you crack and warp over your face. Characters attempting to [Recall Knowledge](/Actions.aspx?ID=26) about you take a –2 circumstance penalty. Add [_modify memory_](/Spells.aspx?ID=200) to your spell list as a primal spell.",
  "name": "Forgotten Presence",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 65",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-07-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 65</row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe world conspires to keep you forgotten and unnoticed— memories cloud, ink stains out your name in ledgers, and portraits of you crack and warp over your face.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 65\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe world conspires to keep you forgotten and unnoticed— memories cloud, ink stains out your name in ledgers, and portraits of you crack and warp over your face.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 65"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 65</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 65",
  "speed": {},
  "summary": "The world conspires to keep you forgotten and unnoticed— memories cloud, ink stains out your name in ledgers, and portraits of you crack and warp over your face.",
  "summary_markdown": "The world conspires to keep you forgotten and unnoticed— memories cloud, ink stains out your name in ledgers, and portraits of you crack and warp over your face.",
@@ -30,6 +36,10 @@
  "trait": [
   "Druid",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Druid](/Traits.aspx?ID=52), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

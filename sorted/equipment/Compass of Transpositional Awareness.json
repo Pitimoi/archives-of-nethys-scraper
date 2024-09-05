@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,36 +7,48 @@
  "id": "equipment-1638",
  "item_category": "Held Items",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Compass of Transpositional Awareness](/Equipment.aspx?ID=1638)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 154</row>\n\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.\n\n<document level=\"2\" id=\"action-1242\" />\n\n<document level=\"2\" id=\"action-1243\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Compass of Transpositional Awareness](/Equipment.aspx?ID=1638)\r\n</title>\n\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 154\n\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.\n\n**Activate** <actions string=\"Single Action\" /> concentrate, Interact;  **Frequency** once per minute;   **Effect** You point the _compass of transpositional awareness_ at an extant [teleportation](/Traits.aspx?ID=156) effect (such as a magical portal) or the site of a teleportation effect that existed within the last 1 minute (such as the space where a creature just cast [_dimension door_](/Spells.aspx?ID=69)). Attempt an [Occultism](/Skills.aspx?ID=11) check to determine to where the effect leads or led. The DC of this check is the effect's [counteract](/Rules.aspx?ID=371) DC. On a success, you know roughly the destination of the teleportation effect (for example “the [Plane of Fire](/Planes.aspx?ID=6),” “north,” or “Avistan”). On a critical success, you ascertain the exact destination within mere feet for local effects (such as _dimension door_) or within a few miles for long-range effects (such as [_teleport_](/Spells.aspx?ID=338), [_plane shift_](/Spells.aspx?ID=222), or interdimensional portals).\n\n**Activate** <actions string=\"Single Action\" />  ;  **Frequency** once per day;   **Effect** You use the _compass of transpositional awareness_ to triangulate your current coordinates and the coordinates of your intended destination using teleportation magic. For 1 minute, whenever you cast a [teleportation](/Traits.aspx?ID=156) spell that has a range, increase that spell's range by 30 feet. If the spell normally has a range of touch, extend its range to 30 feet.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Compass of Transpositional Awareness",
  "pfs": "Standard",
  "price": 95000,
  "price_raw": "950 gp",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 154",
+ "primary_source_category": "Rulebooks",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2022-07-27",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 154</row>\r\n\r\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.  \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=156\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 154\r\n\r\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.  \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 154"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 154</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 154",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "The silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.  ",
  "summary_markdown": "The silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.  ",
- "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Compass of Transpositional Awareness Source Dark Archive pg. 154 Price 950 gp Usage held in 1 hand Bulk L --- The silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.\n",
+ "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Compass of Transpositional Awareness Source Dark Archive pg. 154 Price 950 gp Usage held in 1 hand Bulk L --- The silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations. Activate Single Action concentrate, Interact; Frequency once per minute; Effect You point the compass of transpositional awareness at an extant teleportation effect (such as a magical portal) or the site of a teleportation effect that existed within the last 1 minute (such as the space where a creature just cast dimension door ). Attempt an Occultism check to determine to where the effect leads or led. The DC of this check is the effect's counteract DC. On a success, you know roughly the destination of the teleportation effect (for example “the Plane of Fire,” “north,” or “Avistan”). On a critical success, you ascertain the exact destination within mere feet for local effects (such as dimension door ) or within a few miles for long-range effects (such as teleport , plane shift , or interdimensional portals). Activate Single Action ; Frequency once per day; Effect You use the compass of transpositional awareness to triangulate your current coordinates and the coordinates of your intended destination using teleportation magic. For 1 minute, whenever you cast a teleportation spell that has a range, increase that spell's range by 30 feet. If the spell normally has a range of touch, extend its range to 30 feet.\n",
  "trait": [
   "Conjuration",
   "Invested",
   "Magical",
   "Rare",
   "Teleportation"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Rare](/Traits.aspx?ID=137), [Teleportation](/Traits.aspx?ID=156)",
  "trait_raw": [

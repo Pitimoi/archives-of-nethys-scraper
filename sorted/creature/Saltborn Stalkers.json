@@ -1,0 +1,163 @@
+{
+ "ac": 34,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Saline Crust",
+  "Troop Defenses",
+  "Form Up",
+  "Lightlure",
+  "Salty Clutch",
+  "Scour the Bones",
+  "Troop Movement"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 7,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 22,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 240,
+ "hp_raw": "240 (16 squares)",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2666",
+ "image": [
+  "/Images/Monsters/SaltbornStalkers.png"
+ ],
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Thalassic"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113)",
+ "level": 13,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Saltborn Stalkers](/Monsters.aspx?ID=2666)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe briny depths of the Boundless Sea sometimes twist large groups of merfolk into swarms with vicious rows of teeth and sharp claws known as saltborn stalkers. Saltborn stalkers hunt in groups, using their drooping, tentacle-like appendages as bioluminescent lures, posing them as wisps or bubbles of planar energy to draw unsuspecting prey into clever ambushes.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/SaltbornStalkers.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Saltborn Stalkers](/Monsters.aspx?ID=2666)</title>\r\n\r\n<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 186\n\n**Perception** +24; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +27, [Intimidation](/Skills.aspx?ID=7) +22, [Nature](/Skills.aspx?ID=10) +22, [Plane of Water Lore](/Skills.aspx?ID=8) +22, [Stealth](/Skills.aspx?ID=15) +26, [Warfare Lore](/Skills.aspx?ID=8) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +7\r\n\r\n**Con** +5\r\n\r\n**Int** +3\r\n\r\n**Wis** +5\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 34 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +26 \r\n\r\n**Will** +20 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 240\r\n(16 squares)\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\narea damage 15, [splash](/Traits.aspx?ID=150) damage 8\r\n\r\n**Saline Crust** ([aura](/Traits.aspx?ID=206), [water](/Traits.aspx?ID=165)) 20 feet; **Requirements** The saltborn stalkers are in a body of water; **Effect** Layers of the saltborn's salty skin flake off to foul the water around them. A creature that ends its turn in the aura takes 2d6 acid damage with a DC 30 [basic](/Rules.aspx?ID=329) Reflex save; creatures with the [amphibious](/Traits.aspx?ID=207) or [aquatic](/Traits.aspx?ID=168) trait are immune.<br />**[Troop Defenses](/MonsterAbilities.aspx?ID=44)** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 10 feet, swim 60 feet; troop movement\n\n**[Form Up](/MonsterAbilities.aspx?ID=43)** <actions string=\"Single Action\" />  \r\n\r\n**Lightlure** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Incapacitation](/Traits.aspx?ID=93), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134), [Visual](/Traits.aspx?ID=163)) **Effect** The saltborn stalkers move their luminescent lures in an entrancing light show, drawing nearby creatures into their grasp. Each creature in a 100-foot emanation must attempt a DC 33 Will save; regardless of the result of its save, the creature is then temporarily immune to Lightlure for 24 hours.<br /> **Success** The creature is unaffected.<br /> **Failure** The creature is [fascinated](/Conditions.aspx?ID=14) with the lures and must spend all its actions on its next turn to move closer to them as expediently as possible, avoiding obvious dangers along its path.<br /> **Critical Failure** As failure, but the creature is also [dazzled](/Conditions.aspx?ID=7) for 1d4 rounds.\r\n\r\n**Salty Clutch** <actions string=\"Single Action\" />  **Frequency** once per round; **Effect** The stalkers reach out to Grab their foes and drag them underwater. Each enemy in a 5-foot emanation must succeed at a DC 33 Reflex save or be [grabbed](/Conditions.aspx?ID=20) by the stalkers (or [restrained](/Conditions.aspx?ID=33) on a critical success). For the rest of the current turn, the saltborn stalkers can move toward water or in water without ending the grab, carrying any grabbed or restrained creatures along with them.\r\n\r\n**Scour the Bones** <actions string=\"Single Action to Three Actions\" />  **Frequency** once per round; **Effect** The saltborn stalkers use their teeth and claws to vivisect each enemy within 5 feet (DC 30 [basic](/Rules.aspx?ID=329) Reflex save). The damage depends on the number of actions.<br /> <actions string=\"Single Action\" /> 2d10 slashing damage<br /> <actions string=\"Two Actions\" /> 3d10+8 slashing damage<br /> <actions string=\"Three Actions\" /> 3d10+16 slashing damage\r\n\r\n**Troop Movement**   Whenever the saltborn stalkers Stride or Swim, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move. This works just like a Gargantuan creature moving; for instance, if any of the stalkers' squares enter difficult terrain, the extra movement cost applies to the whole troop.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">The Rite of Salt and Stone</title>\r\n\r\nWhen a [merfolk](/MonsterFamilies.aspx?ID=73) joins the ranks of the saltborn, they undergo a secret rite known only to other saltborn and the [brine dragons](/MonsterFamilies.aspx?ID=175) of Kelizandrika. The recruits are encased in graves of salt and ice and left at the floor of the Boundless Sea to claw themselves free. Those who overcome the trial are never truly rid of the salt from their tombs, which covers the body of every saltborn stalker.\r\n</aside>",
+ "name": "Saltborn Stalkers",
+ "npc": false,
+ "perception": 24,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 186",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 26,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 186\n\n<row gap=\"medium\">\r\n**HP** 240 (16 squares)\r\n\r\n**AC** 34\r\n\r\n**Fort** +22\r\n\r\n**Ref** +26\r\n\r\n**Will** +20\r\n\r\n**Perception** +24\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe briny depths of the Boundless Sea sometimes twist large groups of merfolk into swarms with vicious rows of teeth and sharp claws known as …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Nature",
+  "Plane of Water Lore",
+  "Stealth",
+  "Warfare Lore"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +27, [Intimidation](/Skills.aspx?ID=7) +22, [Nature](/Skills.aspx?ID=10) +22, [Plane of Water Lore](/Skills.aspx?ID=8) +22, [Stealth](/Skills.aspx?ID=15) +26, [Warfare Lore](/Skills.aspx?ID=8) +22",
+ "skill_mod": {
+  "athletics": 27,
+  "intimidation": 22,
+  "nature": 22,
+  "stealth": 26
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 186"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 186",
+ "speed": {
+  "land": 10,
+  "max": 60,
+  "swim": 60
+ },
+ "speed_markdown": "10 feet, swim 60 feet; troop movement",
+ "speed_raw": "10 feet, swim 60 feet; troop movement",
+ "spell_markdown": "",
+ "stealth": "26",
+ "strength": 6,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The briny depths of the Boundless Sea sometimes twist large groups of merfolk into swarms with vicious rows of teeth and sharp claws known as …",
+ "summary_markdown": "The briny depths of the Boundless Sea sometimes twist large groups of merfolk into swarms with vicious rows of teeth and sharp claws known as …",
+ "text": " Saltborn Stalkers The briny depths of the Boundless Sea sometimes twist large groups of merfolk into swarms with vicious rows of teeth and sharp claws known as saltborn stalkers. Saltborn stalkers hunt in groups, using their drooping, tentacle-like appendages as bioluminescent lures, posing them as wisps or bubbles of planar energy to draw unsuspecting prey into clever ambushes. Recall Knowledge - Elemental (Arcana, Nature): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Saltborn Stalkers Source Rage of Elements pg. 186 Perception +24; darkvision Languages Thalassic Skills Athletics +27, Intimidation +22, Nature +22, Plane of Water Lore +22, Stealth +26, Warfare Lore +22 Str +6 Dex +7 Con +5 Int +3 Wis +5 Cha +3 --- AC 34 Fort +22 Ref +26 Will +20 HP 240 (16 squares) Immunities bleed, paralyzed, poison, sleep Weaknesses area damage 15, splash damage 8 Saline Crust (aura, water) 20 feet; Requirements The saltborn stalkers are in a body of water; Effect Layers of the saltborn's salty skin flake off to foul the water around them. A creature that ends its turn in the aura takes 2d6 acid damage with a DC 30 basic Reflex save; creatures with the amphibious or aquatic trait are immune. Troop Defenses --- Speed 10 feet, swim 60 feet; troop movement Form Up Single Action Lightlure Single Action (Concentrate, Incapacitation, Mental, Primal, Visual) Effect The saltborn stalkers move their luminescent lures in an entrancing light show, drawing nearby creatures into their grasp. Each creature in a 100-foot emanation must attempt a DC 33 Will save; regardless of the result of its save, the creature is then temporarily immune to Lightlure for 24 hours. Success The creature is unaffected. Failure The creature is fascinated with the lures and must spend all its actions on its next turn to move closer to them as expediently as possible, avoiding obvious dangers along its path. Critical Failure As failure, but the creature is also dazzled for 1d4 rounds. Salty Clutch Single Action Frequency once per round; Effect The stalkers reach out to Grab their foes and drag them underwater. Each enemy in a 5-foot emanation must succeed at a DC 33 Reflex save or be grabbed by the stalkers (or restrained on a critical success). For the rest of the current turn, the saltborn stalkers can move toward water or in water without ending the grab, carrying any grabbed or restrained creatures along with them. Scour the Bones Single Action to Three Actions Frequency once per round; Effect The saltborn stalkers use their teeth and claws to vivisect each enemy within 5 feet (DC 30 basic Reflex save). The damage depends on the number of actions. Single Action 2d10 slashing damage Two Actions 3d10+8 slashing damage Three Actions 3d10+16 slashing damage Troop Movement Whenever the saltborn stalkers Stride or Swim, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move. This works just like a Gargantuan creature moving; for instance, if any of the stalkers' squares enter difficult terrain, the extra movement cost applies to the whole troop. The Rite of Salt and Stone When a merfolk joins the ranks of the saltborn, they undergo a secret rite known only to other saltborn and the brine dragons of Kelizandrika. The recruits are encased in graves of salt and ice and left at the floor of the Boundless Sea to claw themselves free. Those who overcome the trial are never truly rid of the salt from their tombs, which covers the body of every saltborn stalker. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Aquatic",
+  "Elemental",
+  "Troop",
+  "Water",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Elemental](/Traits.aspx?ID=57), [Troop](/Traits.aspx?ID=367), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Aquatic",
+  "Elemental",
+  "Troop",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2666",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "area": 15
+ },
+ "weakness_markdown": "area damage 15, [splash](/Traits.aspx?ID=150) damage 8",
+ "weakness_raw": "area damage 15,  splash  damage 8",
+ "will_save": 20,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

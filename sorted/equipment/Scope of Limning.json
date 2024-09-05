@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,33 +8,43 @@
  "item_category": "Customizations",
  "item_subcategory": "Scopes",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Scope of Limning](/Equipment.aspx?ID=1215)\r\n</title>\n\n<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 182</row>\r\n\r\n_[**PFS Note**](/pathfinder-society) Characters with access to firearms gain access to accessories that can be used with those weapons._\r\n\r\n**Price** 900 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** attached to firearm (scope)\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the sound that echoes off a creature hit by the firearm and transforms it into light, illuminating the target for all to see.\n\n<document level=\"2\" id=\"action-995\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Scope of Limning](/Equipment.aspx?ID=1215)\r\n</title>\n\n<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 182\r\n\r\n_[**PFS Note**](/pathfinder-society) Characters with access to firearms gain access to accessories that can be used with those weapons._\r\n\r\n**Price** 900 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** attached to firearm (scope)\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the sound that echoes off a creature hit by the firearm and transforms it into light, illuminating the target for all to see.\n\n**Activate** <actions string=\"Single Action\" /> Interact ([auditory](/Traits.aspx?ID=16), [_light_](/Spells.aspx?ID=171), [transmutation](/Traits.aspx?ID=157))    **Effect** If your next Strike from the weapon to which the scope is attached hits a creature, the sound of the impact transforms into light, causing the creature to glow until the end of your next turn. A visible creature can't be [concealed](/Conditions.aspx?ID=4) while they glow. If a creature is [invisible](/Conditions.aspx?ID=26), they're concealed while glowing, rather than being [undetected](/Conditions.aspx?ID=39). Because the effect requires a solid impact, [incorporeal](/Traits.aspx?ID=222) creatures are unaffected unless the bullet can deal force damage or has the effects of the [_ghost touch_](/Equipment.aspx?ID=297) property rune.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Scope of Limning",
  "pfs": "Standard",
  "price": 90000,
  "price_raw": "900 gp",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 182",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 182</row>\r\n\r\n**Price** 900 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** attached to firearm (scope)\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 182\r\n\r\n**Price** 900 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** attached to firearm (scope)\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 182"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 182</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 182",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "The dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the …",
  "summary_markdown": "The dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the …",
- "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Scope of Limning Source Guns &amp; Gears pg. 182 PFS Note Characters with access to firearms gain access to accessories that can be used with those weapons. Price 900 gp Usage attached to firearm (scope) Bulk L --- The dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the sound that echoes off a creature hit by the firearm and transforms it into light, illuminating the target for all to see.\n",
+ "text": "<title level=\"1\" right=\"Item 10\" pfs=\"Standard\" > Scope of Limning Source Guns &amp; Gears pg. 182 PFS Note Characters with access to firearms gain access to accessories that can be used with those weapons. Price 900 gp Usage attached to firearm (scope) Bulk L --- The dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the sound that echoes off a creature hit by the firearm and transforms it into light, illuminating the target for all to see. Activate Single Action Interact (auditory, light , transmutation) Effect If your next Strike from the weapon to which the scope is attached hits a creature, the sound of the impact transforms into light, causing the creature to glow until the end of your next turn. A visible creature can't be concealed while they glow. If a creature is invisible, they're concealed while glowing, rather than being undetected. Because the effect requires a solid impact, incorporeal creatures are unaffected unless the bullet can deal force damage or has the effects of the ghost touch property rune.\n",
  "trait": [
   "Magical",
   "Transmutation"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

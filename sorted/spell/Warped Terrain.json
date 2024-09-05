@@ -1,14 +1,19 @@
 {
  "actions": "Single Action to Three Actions",
- "area": "5-foot burst or more",
+ "actions_number": 2,
+ "area": [
+  5
+ ],
+ "area_raw": "5-foot burst or more",
+ "area_type": [
+  "burst"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
@@ -16,52 +21,70 @@
  "heighten": [
   "4th"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 4th rank"
+ ],
  "heighten_level": [
   1,
   4
  ],
  "id": "spell-537",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Warped Terrain](/Spells.aspx?ID=537)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 407 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n**Area** 5-foot burst or more\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create illusory hazards that cover all surfaces in the area (typically the ground). Any creature moving through the illusion treats the squares as difficult terrain. A creature can attempt to disbelieve the effect as normal after using a Seek action or otherwise spending actions interacting with the illusion. If it successfully disbelieves, it ignores the effect for the remaining duration. For each additional action you use casting the spell, the burst's radius increases by 5 feet, to a maximum of 10 extra feet for 3 actions.\n\n---\r\n**Heightened (4th)** You can make the illusion appear in the air rather than on a surface, causing it to function as difficult terrain for flying creatures.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Warped Terrain](/Spells.aspx?ID=537)\r\n<actions string=\"Single Action to Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 407 <sup>4.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n**Area** 5-foot burst or more\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou create illusory hazards that cover all surfaces in the area (typically the ground). Any creature moving through the illusion treats the squares as difficult terrain. A creature can attempt to disbelieve the effect as normal after using a Seek action or otherwise spending actions interacting with the illusion. If it successfully disbelieves, it ignores the effect for the remaining duration. For each additional action you use casting the spell, the burst's radius increases by 5 feet, to a maximum of 10 extra feet for 3 actions.\n\n---\r\n**Heightened (4th)** You can make the illusion appear in the air rather than on a surface, causing it to function as difficult terrain for flying creatures.",
  "name": "Warped Terrain",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 407",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-01",
  "resistance": {},
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 407 <sup>4.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action to Three Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n**Area** 5-foot burst or more\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou create illusory hazards that cover all surfaces in the area.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=166\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 407 <sup>4.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n**Area** 5-foot burst or more\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou create illusory hazards that cover all surfaces in the area.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 407"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 407 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 407 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You create illusory hazards that cover all surfaces in the area.",
  "summary_markdown": "You create illusory hazards that cover all surfaces in the area.",
- "text": " Warped Terrain Source Core Rulebook pg. 407 4.0 Cast Single Action to Three Actions somatic, verbal Range 60 feet Area 5-foot burst or more Duration 1 minute --- You create illusory hazards that cover all surfaces in the area (typically the ground). Any creature moving through the illusion treats the squares as difficult terrain. A creature can attempt to disbelieve the effect as normal after using a Seek action or otherwise spending actions interacting with the illusion. If it successfully disbelieves, it ignores the effect for the remaining duration. For each additional action you use casting the spell, the burst's radius increases by 5 feet, to a maximum of 10 extra feet for 3 actions. --- Heightened (4th) You can make the illusion appear in the air rather than on a surface, causing it to function as difficult terrain for flying creatures.",
+ "text": "\nWarped Terrain Single Action to Three Actions Source Core Rulebook pg. 407 4.0 Cast somatic, verbal Range 60 feet Area 5-foot burst or more Duration 1 minute --- You create illusory hazards that cover all surfaces in the area (typically the ground). Any creature moving through the illusion treats the squares as difficult terrain. A creature can attempt to disbelieve the effect as normal after using a Seek action or otherwise spending actions interacting with the illusion. If it successfully disbelieves, it ignores the effect for the remaining duration. For each additional action you use casting the spell, the burst's radius increases by 5 feet, to a maximum of 10 extra feet for 3 actions. --- Heightened (4th) You can make the illusion appear in the air rather than on a surface, causing it to function as difficult terrain for flying creatures.",
  "tradition_markdown": "",
  "trait": [
   "Illusion",
   "Uncommon",
   "Visual",
-  "Wizard"
+  "Wizard",
+  "Focus"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Uncommon](/Traits.aspx?ID=159), [Visual](/Traits.aspx?ID=163), [Wizard](/Traits.aspx?ID=166)",
+ "trait_group": [
+  "School",
+  "Monster",
+  "Rarity",
+  "Sense",
+  "Class"
+ ],
+ "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Uncommon](/Traits.aspx?ID=159), [Visual](/Traits.aspx?ID=163), [Wizard](/Traits.aspx?ID=166), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Illusion",
   "Uncommon",
   "Visual",
-  "Wizard"
+  "Wizard",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=537",
  "weakness": {}
 }

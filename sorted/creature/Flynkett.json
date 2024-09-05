@@ -1,0 +1,153 @@
+{
+ "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  9,
+  11
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Spill",
+  "Glide",
+  "Kettle Up"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 10,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 60,
+ "hp_raw": "60",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3279",
+ "image": [
+  "/Images/Monsters/Flynkett.webp"
+ ],
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 3,
+ "markdown": "<title level=\"1\" pfs=\"\">[Flynkett](/Monsters.aspx?ID=3279)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe piercing whistle of the flynkett can often be heard over the harsh jungle rains, shrieking dissonantly when its cries combine with others of its pack. Although generally effective as a warning to nearby predators, these sharp cries also serve as a lure for reckless alchemists eager to study the creature's potent enzymes.\n\n Flynketts' name, most theorize, is a corruption of “flinging kettle” or “flying kettle.” They can't truly fly, instead using their skin flaps to glide in a manner similar to flying squirrels. However, the primary use of their skin flaps isn't for movement, but digestion. When it rains, flynketts roll up their loose skin, creating a crude sort of kettle in which to catch precipitation. The remarkable creatures' acid combines with the falling water to break down wood, soil, or even rocks into a nutritional stew. Therefore, the flynkett can flourish when introduced to any environment with frequent rain, something solid to stand on, and a lack of natural predators.\n\n Although their acid can be harvested without harming a flynkett, the creatures rarely cooperate. If disturbed, particularly in the middle of feeding, they release clouds of acidic steam. They're also capable of spitting the fluid with deadly accuracy. Thankfully for those who run afoul of them, flynketts have no use for corpses and will generally break off pursuit when the interloper leaves their territory.\n\n Several organizations and individual scholars have desperately sought to domesticate flynketts for use in alchemical production. To date, none of these efforts have been successful, though several abandoned labs still contain aggressive packs of flynketts who protect their new territory with ferocious tenacity.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Flynkett.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Flynkett](/Monsters.aspx?ID=3279)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 150\n\n**Perception** +9; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +11, [Athletics](/Skills.aspx?ID=36) +9, [Stealth](/Skills.aspx?ID=48) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +10 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 60\n\n</row>\n\n**Resistances**\r\n[acid](/Traits.aspx?ID=524) 6\n\n**Spill** ([acid [reaction] **Requirements** The flynkett is Kettled Up](/Traits.aspx?ID=524)) **Trigger** The flynkett takes physical damage or is knocked [prone](/Conditions.aspx?ID=88); **Effect** The flynkett spills the contents of its full skin flaps, releasing its digestive juices in a cloud of acidic vapor that deals 2d8 acid damage to all non-flynkett creatures within 20 feet (DC 18 [basic](/Rules.aspx?ID=329) Fortitude save). If the flynkett was boiling, the damage is increased to 4d8.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, climb 15 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +9 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 2d4+4 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nacid spit +11 ([Acid](/Traits.aspx?ID=3), [range 40 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d8 [persistent acid](/Conditions.aspx?ID=29)\n\n**Glide** <actions string=\"Single Action\" /> ([Move](/Traits.aspx?ID=114)) The flynkett stretches its flaps to glide through the air. It moves 5 feet down and up to 25 feet forward through the air. The flynkett can remain in the air long as it spends at least 1 action Gliding each round and does not Kettle Up.\r\n\r\n**Kettle Up** <actions string=\"Two Actions\" />  The flynkett uses its skin flaps to form a crude kettle. While Kettled Up, the flynkett can't use its claw Strike or take [move](/Traits.aspx?ID=658) actions. If the flynkett has been Kettled Up for 1 minute or longer, and its kettle is full of water (usually due to the flynkett being in the rain), the flynkett's kettle begins to boil, emitting a piercing whistle that causes all creatures within 30 feet to take a –2 penalty to Perception checks to hear sources other than the flynkett; this is an [auditory](/Traits.aspx?ID=541) effect. The flynkett can stop Kettling Up as a free action.\r\n\r\n</column>",
+ "name": "Flynkett",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 150",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 11,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {
+  "acid": 6
+ },
+ "resistance_markdown": "[acid](/Traits.aspx?ID=524) 6",
+ "resistance_raw": " acid  6",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 150\n\n<row gap=\"medium\">\r\n**HP** 60\r\n\r\n**AC** 19\r\n\r\n**Fort** +10\r\n\r\n**Ref** +11\r\n\r\n**Will** +7\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe piercing whistle of the flynkett can often be heard over the harsh jungle rains, shrieking dissonantly when its cries combine with others of its …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +11, [Athletics](/Skills.aspx?ID=36) +9, [Stealth](/Skills.aspx?ID=48) +11",
+ "skill_mod": {
+  "acrobatics": 11,
+  "athletics": 9,
+  "stealth": 11
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 150"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 150",
+ "speed": {
+  "climb": 15,
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet, climb 15 feet",
+ "speed_raw": "25 feet, climb 15 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  9
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The piercing whistle of the flynkett can often be heard over the harsh jungle rains, shrieking dissonantly when its cries combine with others of its …",
+ "summary_markdown": "The piercing whistle of the flynkett can often be heard over the harsh jungle rains, shrieking dissonantly when its cries combine with others of its …",
+ "text": " Flynkett The piercing whistle of the flynkett can often be heard over the harsh jungle rains, shrieking dissonantly when its cries combine with others of its pack. Although generally effective as a warning to nearby predators, these sharp cries also serve as a lure for reckless alchemists eager to study the creature's potent enzymes. Flynketts' name, most theorize, is a corruption of “flinging kettle” or “flying kettle.” They can't truly fly, instead using their skin flaps to glide in a manner similar to flying squirrels. However, the primary use of their skin flaps isn't for movement, but digestion. When it rains, flynketts roll up their loose skin, creating a crude sort of kettle in which to catch precipitation. The remarkable creatures' acid combines with the falling water to break down wood, soil, or even rocks into a nutritional stew. Therefore, the flynkett can flourish when introduced to any environment with frequent rain, something solid to stand on, and a lack of natural predators. Although their acid can be harvested without harming a flynkett, the creatures rarely cooperate. If disturbed, particularly in the middle of feeding, they release clouds of acidic steam. They're also capable of spitting the fluid with deadly accuracy. Thankfully for those who run afoul of them, flynketts have no use for corpses and will generally break off pursuit when the interloper leaves their territory. Several organizations and individual scholars have desperately sought to domesticate flynketts for use in alchemical production. To date, none of these efforts have been successful, though several abandoned labs still contain aggressive packs of flynketts who protect their new territory with ferocious tenacity. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Flynkett Source Howl of the Wild pg. 150 Perception +9; low-light vision Languages Skills Acrobatics +11, Athletics +9, Stealth +11 Str +2 Dex +4 Con +3 Int -4 Wis +2 Cha +0 --- AC 19 Fort +10 Ref +11 Will +7 HP 60 Resistances acid 6 Spill (acid [reaction] Requirements The flynkett is Kettled Up) Trigger The flynkett takes physical damage or is knocked prone; Effect The flynkett spills the contents of its full skin flaps, releasing its digestive juices in a cloud of acidic vapor that deals 2d8 acid damage to all non-flynkett creatures within 20 feet (DC 18 basic Fortitude save). If the flynkett was boiling, the damage is increased to 4d8. --- Speed 25 feet, climb 15 feet Melee Single Action claw +9 (Agile), Damage 2d4+4 slashing Ranged Single Action acid spit +11 (Acid, range 40 feet), Damage 1d8 persistent acid Glide Single Action (Move) The flynkett stretches its flaps to glide through the air. It moves 5 feet down and up to 25 feet forward through the air. The flynkett can remain in the air long as it spends at least 1 action Gliding each round and does not Kettle Up. Kettle Up Two Actions The flynkett uses its skin flaps to form a crude kettle. While Kettled Up, the flynkett can't use its claw Strike or take move actions. If the flynkett has been Kettled Up for 1 minute or longer, and its kettle is full of water (usually due to the flynkett being in the rain), the flynkett's kettle begins to boil, emitting a piercing whistle that causes all creatures within 30 feet to take a –2 penalty to Perception checks to hear sources other than the flynkett; this is an auditory effect. The flynkett can stop Kettling Up as a free action. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3279",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 7,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

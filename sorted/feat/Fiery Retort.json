@@ -1,7 +1,10 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "feat": [
   "Fiery Retort"
@@ -10,24 +13,31 @@
  "frequency": "once per minute",
  "id": "feat-2977",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Fiery Retort](/Feats.aspx?ID=2977) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 199 <sup>1.1</sup></row>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[flame order](/DruidicOrders.aspx?ID=5)\n\n**Trigger**\r\nAn opponent adjacent to you hits you with a melee weapon or a melee [unarmed](/Traits.aspx?ID=199) attack.\n\n</column>\r\n\r\n---\r\n\r\nIgnoring your pain, you sear your attacker with a wave of flame. The triggering opponent takes fire damage equal to your level. ",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Fiery Retort](/Feats.aspx?ID=2977) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 199 <sup>1.1</sup>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[flame order](/DruidicOrders.aspx?ID=5)\n\n**Trigger**\r\nAn opponent adjacent to you hits you with a melee weapon or a melee [unarmed](/Traits.aspx?ID=199) attack.\n\n</column>\r\n\r\n---\r\n\r\nIgnoring your pain, you sear your attacker with a wave of flame. The triggering opponent takes fire damage equal to your level. ",
  "name": "Fiery Retort",
  "pfs": "Standard",
  "prerequisite": "flame order",
  "prerequisite_markdown": "[flame order](/DruidicOrders.aspx?ID=5)",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 199",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 199 <sup>1.1</sup></row>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[flame order](/DruidicOrders.aspx?ID=5)\n\n**Trigger**\r\nAn opponent adjacent to you hits you with a melee weapon or a melee [unarmed](/Traits.aspx?ID=199) attack.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIgnoring your pain, you sear your attacker with a wave of flame.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 199 <sup>1.1</sup>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[flame order](/DruidicOrders.aspx?ID=5)\n\n**Trigger**\r\nAn opponent adjacent to you hits you with a melee weapon or a melee [unarmed](/Traits.aspx?ID=199) attack.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIgnoring your pain, you sear your attacker with a wave of flame.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 199"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 199 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 199 <sup>1.1</sup>",
  "speed": {},
  "summary": "Ignoring your pain, you sear your attacker with a wave of flame.",
  "summary_markdown": "Ignoring your pain, you sear your attacker with a wave of flame.",
@@ -36,6 +46,14 @@
   "Druid",
   "Evocation",
   "Fire"
+ ],
+ "trait_group": [
+  "Class",
+  "School",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
  ],
  "trait_markdown": "[Druid](/Traits.aspx?ID=52), [Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72)",
  "trait_raw": [

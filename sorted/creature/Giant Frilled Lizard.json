@@ -1,53 +1,94 @@
 {
  "ac": 22,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  16,
+  16
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Intimidating Display"
  ],
  "creature_family": "Lizard",
- "creature_family_markdown": "[Lizard](/MonsterFamilies.aspx?ID=70)",
+ "creature_family_markdown": "[Lizard](/MonsterFamilies.aspx?ID=440)",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 13,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 75,
  "hp_raw": "75",
- "id": "creature-290",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3089",
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-290",
  "level": 5,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Frilled Lizard](/Monsters.aspx?ID=290)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nFound in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren’t sleeping or stalking prey, giant frilled lizards bask in the sunlight for hours at a time. Explorers sometimes mistakenly think them related to dragons due to their large size, elaborate neck frills (which, when displayed in a show of aggression and dominance, can be mistaken for wings), and ferocious hissing vocalizations used to frighten away creatures too large to eat.\n\n A giant frilled lizard’s primary food sources are oversized arthropods and other invertebrates, but it won’t hesitate to augment its diet with vertebrates, including other lizards, monkeys, and just about anything it can flt into its mouth—even humanoids. Although capable of short bursts of speed, a giant frilled lizard normally lies perfectly still while hunting, hoping to ambush its prey.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Giant Frilled Lizard](/Monsters.aspx?ID=290)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 229</row>\n\n**Perception** +11; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +10, [Athletics](/Skills.aspx?ID=3) +14, [Stealth](/Skills.aspx?ID=15) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n**HP** 75\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +16 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +16 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+7 bludgeoning\n\n**Intimidating Display** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) The giant frilled lizard Strides. If it ends that Stride adjacent to at least one other creature, it suddenly displays its colorful neck frills and issues a frightening hiss. Each adjacent creature must succeed at a DC 21 Will save or become [frightened 2](/Conditions.aspx?ID=19) (or [frightened 3](/Conditions.aspx?ID=19) on a critical failure). The creature is then temporarily immune to Intimidating Display for 1 minute.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-70\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Giant Frilled Lizard](/Monsters.aspx?ID=3089)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nFound in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren't sleeping or stalking prey, giant frilled lizards bask in the sunlight for hours at a time. Explorers sometimes mistakenly think they are related to dragons due to their large size, elaborate neck frills (which, when displayed in a show of aggression and dominance, can be mistaken for wings), and ferocious hissing vocalizations used to frighten away creatures too large to eat.\n\n A giant frilled lizard's primary food sources are oversized arthropods and other invertebrates, but it won't hesitate to augment its diet with vertebrates, including other lizards, monkeys, and just about anything it can fit into its mouth—even humanoids. Although capable of short bursts of speed, a giant frilled lizard normally lies perfectly still while hunting, hoping to ambush its prey.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 20\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 18\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 15\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 5\">[Giant Frilled Lizard](/Monsters.aspx?ID=3089)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 225\n\n**Perception** +11; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +10, [Athletics](/Skills.aspx?ID=3) +14, [Stealth](/Skills.aspx?ID=15) +10\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +4\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 22 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +9 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +16 ([reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+7 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +16 ([Agile](/Traits.aspx?ID=170), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d6+7 bludgeoning\n\n**Intimidating Display** <actions string=\"Two Actions\" /> ([Auditory](/Traits.aspx?ID=16), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Visual](/Traits.aspx?ID=163)) The giant frilled lizard Strides. If it ends that Stride adjacent to at least one other creature, it suddenly displays its colorful neck frills and issues a frightening hiss. Each adjacent creature must succeed at a DC 21 Will save or become [frightened 2](/Conditions.aspx?ID=76) (or frightened 3 on a critical failure). The creature is then temporarily immune to Intimidating Display for 1 minute.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-440\" />",
  "name": "Giant Frilled Lizard",
  "npc": false,
  "perception": 11,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 225",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 12,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 229</row>\r\n\r\n**Creature Family** [Lizard](/MonsterFamilies.aspx?ID=70)\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\r\n\r\n**AC** 22\r\n\r\n**Fort** +13\r\n\r\n**Ref** +12\r\n\r\n**Will** +9\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFound in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren’t sleeping or …\r\n</summary>",
- "sense": "low-light vision, scent (imprecise) 30 feet",
- "sense_markdown": "low-light vision, scent (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 225\r\n\r\n**Creature Family** [Lizard](/MonsterFamilies.aspx?ID=440)\r\n\r\n<row gap=\"medium\">\r\n**HP** 75\r\n\r\n**AC** 22\r\n\r\n**Fort** +13\r\n\r\n**Ref** +12\r\n\r\n**Will** +9\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nFound in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren't sleeping or …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +10",
-  "Athletics +14",
-  "Stealth +10"
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +10, [Athletics](/Skills.aspx?ID=3) +14, [Stealth](/Skills.aspx?ID=15) +10",
+ "skill_mod": {
+  "acrobatics": 10,
+  "athletics": 14,
+  "stealth": 10
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 229"
+  "Monster Core pg. 225"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 229</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 225",
  "speed": {
   "climb": 30,
   "land": 30,
@@ -57,30 +98,51 @@
  "speed_raw": "30 feet, climb 30 feet",
  "spell_markdown": "",
  "stealth": "10",
+ "strike_damage_average": [
+  14,
+  16
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Found in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren’t sleeping or …",
- "summary_markdown": "Found in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren’t sleeping or …",
- "text": " Giant Frilled Lizard Found in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren’t sleeping or stalking prey, giant frilled lizards bask in the sunlight for hours at a time. Explorers sometimes mistakenly think them related to dragons due to their large size, elaborate neck frills (which, when displayed in a show of aggression and dominance, can be mistaken for wings), and ferocious hissing vocalizations used to frighten away creatures too large to eat. A giant frilled lizard’s primary food sources are oversized arthropods and other invertebrates, but it won’t hesitate to augment its diet with vertebrates, including other lizards, monkeys, and just about anything it can flt into its mouth—even humanoids. Although capable of short bursts of speed, a giant frilled lizard normally lies perfectly still while hunting, hoping to ambush its prey. Recall Knowledge - Animal (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Giant Frilled Lizard Source Bestiary pg. 229 Perception +11; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +10, Athletics +14, Stealth +10 Str +5 Dex +1 Con +4 Int -4 Wis +2 Cha +0 --- AC 22 Fort +13 Ref +12 Will +9 HP 75 --- Speed 30 feet, climb 30 feet Melee Single Action jaws +16 (reach 10 feet), Damage 2d8+7 piercing Melee Single Action tail +16 (Agile, reach 10 feet), Damage 2d6+7 bludgeoning Intimidating Display Two Actions (Auditory, Emotion, Fear, Mental, Visual) The giant frilled lizard Strides. If it ends that Stride adjacent to at least one other creature, it suddenly displays its colorful neck frills and issues a frightening hiss. Each adjacent creature must succeed at a DC 21 Will save or become frightened 2 (or frightened 3 on a critical failure). The creature is then temporarily immune to Intimidating Display for 1 minute. ",
+ "summary": "Found in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren't sleeping or …",
+ "summary_markdown": "Found in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren't sleeping or …",
+ "text": " Giant Frilled Lizard Found in warm and tropical forests and savannas, these immense lizards are a deadly threat to the unsuspecting traveler. When they aren't sleeping or stalking prey, giant frilled lizards bask in the sunlight for hours at a time. Explorers sometimes mistakenly think they are related to dragons due to their large size, elaborate neck frills (which, when displayed in a show of aggression and dominance, can be mistaken for wings), and ferocious hissing vocalizations used to frighten away creatures too large to eat. A giant frilled lizard's primary food sources are oversized arthropods and other invertebrates, but it won't hesitate to augment its diet with vertebrates, including other lizards, monkeys, and just about anything it can fit into its mouth—even humanoids. Although capable of short bursts of speed, a giant frilled lizard normally lies perfectly still while hunting, hoping to ambush its prey. Recall Knowledge - Animal (Nature): DC 20 Unspecific Lore : DC 18 Specific Lore : DC 15 Giant Frilled Lizard Source Monster Core pg. 225 Perception +11; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +10, Athletics +14, Stealth +10 Str +5 Dex +1 Con +4 Int -4 Wis +2 Cha +0 --- AC 22 Fort +13 Ref +12 Will +9 HP 75 --- Speed 30 feet, climb 30 feet Melee Single Action jaws +16 (reach 10 feet), Damage 2d8+7 piercing Melee Single Action tail +16 (Agile, reach 10 feet), Damage 2d6+7 bludgeoning Intimidating Display Two Actions (Auditory, Emotion, Fear, Mental, Visual) The giant frilled lizard Strides. If it ends that Stride adjacent to at least one other creature, it suddenly displays its colorful neck frills and issues a frightening hiss. Each adjacent creature must succeed at a DC 21 Will save or become frightened 2 (or frightened 3 on a critical failure). The creature is then temporarily immune to Intimidating Display for 1 minute. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
-  "N",
   "Large"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
  "trait_raw": [
   "Animal"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=290",
+ "url": "/Monsters.aspx?ID=3089",
  "vision": "Low-light vision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 9,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

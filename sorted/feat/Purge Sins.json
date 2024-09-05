@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,28 @@
  "frequency": "once per day",
  "id": "feat-2295",
  "level": 13,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Purge Sins](/Feats.aspx?ID=2295) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Aasimar\" url=\"/Traits.aspx?ID=256\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 11 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per day\n\n</column>\r\n\r\n---\r\n\r\nYou call on your celestial forebears to rid your body of all toxins and impurities. For each [disease](/Traits.aspx?ID=46) or [poison](/Traits.aspx?ID=126) currently affecting you, attempt a [Religion](/Skills.aspx?ID=13) check to [counteract](/Rules.aspx?ID=371) that disease or poison. As normal, your counteract level is equal to half your level, rounded up.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 13\"\r\n    pfs=\"Standard\"\r\n>\r\n[Purge Sins](/Feats.aspx?ID=2295) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Aasimar\" url=\"/Traits.aspx?ID=256\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 11 <sup>2.0</sup>\n\n**Frequency**\r\nonce per day\n\n</column>\r\n\r\n---\r\n\r\nYou call on your celestial forebears to rid your body of all toxins and impurities. For each [disease](/Traits.aspx?ID=46) or [poison](/Traits.aspx?ID=126) currently affecting you, attempt a [Religion](/Skills.aspx?ID=13) check to [counteract](/Rules.aspx?ID=371) that disease or poison. As normal, your counteract level is equal to half your level, rounded up.",
  "name": "Purge Sins",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 11",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Aasimar\" url=\"/Traits.aspx?ID=256\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 11 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call on your celestial forebears to rid your body of all toxins and impurities.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Aasimar\" url=\"/Traits.aspx?ID=256\" />\r\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 11 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per day\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou call on your celestial forebears to rid your body of all toxins and impurities.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 11"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 11 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 11 <sup>2.0</sup>",
  "speed": {},
  "summary": "You call on your celestial forebears to rid your body of all toxins and impurities.",
  "summary_markdown": "You call on your celestial forebears to rid your body of all toxins and impurities.",
@@ -32,6 +39,10 @@
  "trait": [
   "Aasimar",
   "Healing"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry"
  ],
  "trait_markdown": "[Aasimar](/Traits.aspx?ID=256), [Healing](/Traits.aspx?ID=89)",
  "trait_raw": [

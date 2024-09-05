@@ -1,53 +1,96 @@
 {
  "ac": 25,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Snatch",
+  "Carry",
   "Swoop"
  ],
  "creature_family": "Pterosaur",
- "creature_family_markdown": "[Pterosaur](/MonsterFamilies.aspx?ID=84)",
+ "creature_family_markdown": "[Pterosaur](/MonsterFamilies.aspx?ID=459)",
  "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 110,
  "hp_raw": "110",
- "id": "creature-342",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3152",
+ "image": [
+  "/Images/Monsters/Quetzalcoatlus.webp"
+ ],
  "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-342",
  "level": 7,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Quetzalcoatlus](/Monsters.aspx?ID=342)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nQuetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot wingspans.<br /> Quetzalcoatlus are carnivorous, feeding on a variety of reptiles, mammals, large fish, amphibians, and other invertebrates. They are not inherently aggressive creatures and are happy to scavenge for food, but when presented with live prey they readily attack almost any creature smaller than themselves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Quetzalcoatlus](/Monsters.aspx?ID=342)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 272</row>\n\n**Perception** +15; low-light vision, scent (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +14, [Athletics](/Skills.aspx?ID=3) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n**HP** 110\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet, fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbeak +17 ([deadly 1d10](/Traits.aspx?ID=174), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+10 piercing plus 1d8 persistent bleed\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +17,\r\n**Damage** 2d8+10 piercing plus Grab\n\n**Snatch**   A quetzalcoatlus can move at half Speed while it has a single creature grabbed or restrained. Both its talons are occupied while it does this.\r\n\r\n**Swoop** <actions string=\"Two Actions\" />  The quetzacoaltus Flies up to its Speed and makes one beak or talon Strike at any point during that movement.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-84\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Quetzalcoatlus](/Monsters.aspx?ID=3152)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nQuetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot wingspans. Using the joints of their massive wings as forelimbs, they are also quite capable of moving on land, snatching smaller prey from the ground or out of streams.\n\n Quetzalcoatlus are carnivorous, feeding on a variety of reptiles, mammals, large fish, amphibians, and other vertebrates. They are not inherently aggressive creatures and are happy to scavenge for food, but when presented with live prey they readily attack almost any creature smaller than themselves.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Quetzalcoatlus.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Quetzalcoatlus](/Monsters.aspx?ID=3152)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 278\n\n**Perception** +15; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +14, [Athletics](/Skills.aspx?ID=3) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 25 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 110\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 15 feet, fly 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nbeak +17 ([deadly d10](/Traits.aspx?ID=174), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+10 piercing plus 1d8 [persistent bleed](/Conditions.aspx?ID=29)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +17,\r\n**Damage** 2d8+10 piercing plus [Grab](/MonsterAbilities.aspx?ID=45)\n\n**Carry**   A quetzalcoatlus can [Fly](/Actions.aspx?ID=2312) at half Speed while it has a single creature [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90). Both its talons are occupied while it does this.\r\n\r\n**Swoop** <actions string=\"Two Actions\" />  The quetzalcoatlus [Flies](/Actions.aspx?ID=2312) up to its Speed and makes one beak or talon Strike at any point during that movement.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-459\" />",
  "name": "Quetzalcoatlus",
  "npc": false,
  "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 278",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 17,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 272</row>\r\n\r\n**Creature Family** [Pterosaur](/MonsterFamilies.aspx?ID=84)\r\n\r\n<row gap=\"medium\">\r\n**HP** 110\r\n\r\n**AC** 25\r\n\r\n**Fort** +16\r\n\r\n**Ref** +17\r\n\r\n**Will** +12\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nQuetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot …\r\n</summary>",
- "sense": "low-light vision, scent (imprecise) 30 feet",
- "sense_markdown": "low-light vision, scent (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 278\r\n\r\n**Creature Family** [Pterosaur](/MonsterFamilies.aspx?ID=459)\r\n\r\n<row gap=\"medium\">\r\n**HP** 110\r\n\r\n**AC** 25\r\n\r\n**Fort** +16\r\n\r\n**Ref** +17\r\n\r\n**Will** +12\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nQuetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=371)) 30 feet",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Acrobatics +14",
-  "Athletics +17"
+  "Acrobatics",
+  "Athletics"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +14, [Athletics](/Skills.aspx?ID=3) +17",
+ "skill_mod": {
+  "acrobatics": 14,
+  "athletics": 17
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 272"
+  "Monster Core pg. 278"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 272</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 278",
  "speed": {
   "fly": 50,
   "land": 15,
@@ -56,30 +99,51 @@
  "speed_markdown": "15 feet, fly 50 feet",
  "speed_raw": "15 feet, fly 50 feet",
  "spell_markdown": "",
+ "strike_damage_average": [
+  19,
+  25
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "Extreme"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  5
+ ],
  "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "summary": "Quetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot …",
  "summary_markdown": "Quetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot …",
- "text": " Quetzalcoatlus Quetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot wingspans. Quetzalcoatlus are carnivorous, feeding on a variety of reptiles, mammals, large fish, amphibians, and other invertebrates. They are not inherently aggressive creatures and are happy to scavenge for food, but when presented with live prey they readily attack almost any creature smaller than themselves. Recall Knowledge - Animal (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Quetzalcoatlus Source Bestiary pg. 272 Perception +15; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +14, Athletics +17 Str +6 Dex +4 Con +3 Int -4 Wis +2 Cha -1 --- AC 25 Fort +16 Ref +17 Will +12 HP 110 --- Speed 15 feet, fly 50 feet Melee Single Action beak +17 (deadly 1d10, reach 10 feet), Damage 2d10+10 piercing plus 1d8 persistent bleed Melee Single Action talon +17, Damage 2d8+10 piercing plus Grab Snatch A quetzalcoatlus can move at half Speed while it has a single creature grabbed or restrained. Both its talons are occupied while it does this. Swoop Two Actions The quetzacoaltus Flies up to its Speed and makes one beak or talon Strike at any point during that movement. ",
+ "text": " Quetzalcoatlus Quetzalcoatlus are the largest flying members of the pterosaur family and are often mistaken for dragons due to their immense size and 40-foot wingspans. Using the joints of their massive wings as forelimbs, they are also quite capable of moving on land, snatching smaller prey from the ground or out of streams. Quetzalcoatlus are carnivorous, feeding on a variety of reptiles, mammals, large fish, amphibians, and other vertebrates. They are not inherently aggressive creatures and are happy to scavenge for food, but when presented with live prey they readily attack almost any creature smaller than themselves. Recall Knowledge - Animal (Nature): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Quetzalcoatlus Source Monster Core pg. 278 Perception +15; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +14, Athletics +17 Str +6 Dex +4 Con +3 Int -4 Wis +2 Cha -1 --- AC 25 Fort +16 Ref +17 Will +12 HP 110 --- Speed 15 feet, fly 50 feet Melee Single Action beak +17 (deadly d10, reach 10 feet), Damage 2d10+10 piercing plus 1d8 persistent bleed Melee Single Action talon +17, Damage 2d8+10 piercing plus Grab Carry A quetzalcoatlus can Fly at half Speed while it has a single creature grabbed or restrained. Both its talons are occupied while it does this. Swoop Two Actions The quetzalcoatlus Flies up to its Speed and makes one beak or talon Strike at any point during that movement. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
-  "N",
   "Huge"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
  "trait_raw": [
   "Animal"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=342",
+ "url": "/Monsters.aspx?ID=3152",
  "vision": "Low-light vision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 12,
- "wisdom": 2
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

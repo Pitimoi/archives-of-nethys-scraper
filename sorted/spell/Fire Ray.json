@@ -1,20 +1,31 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain": [
   "Fire"
  ],
- "domain_markdown": "[Fire](/Domains.aspx?ID=13)",
+ "domain_markdown": "[Fire](/Domains.aspx?ID=76)",
+ "duration_raw": "until the end of the target's next turn",
+ "element": [
+  "Fire"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -28,52 +39,71 @@
   9,
   10
  ],
- "id": "spell-422",
+ "id": "spell-1804",
+ "legacy_id": "spell-422",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">[Fire Ray](/Spells.aspx?ID=422)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=13)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA blazing band of fire arcs through the air. Make a spell attack roll. The ray deals 2d6 fire damage.\r\n\r\n**Critical Success** The ray deals double damage and 1d4 persistent fire damage.<br />\r\n**Success** The ray deals full damage.\n\n---\r\n**Heightened (+1)** The ray's initial damage increases by 2d6, and the persistent fire damage on a critical success increases by 1d4.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\r\n[Fire Ray](/Spells.aspx?ID=1804)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 375\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=76)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA blazing band of fire arcs through the air, lighting your opponent and the ground they stand upon on fire. Make a spell attack roll against the target's AC. The ray deals 2d6 fire damage on a hit (or double damage on a critical hit). On any result other than a critical failure, the ground in the target's space catches fire, dealing 1d6 fire damage to each creature that ends its turn in one of the squares.\n\n---\r\n**Heightened (+1)** The ray's initial damage increases by 2d6, and the fire damage dealt by the burning space increases by 1d6.",
  "name": "Fire Ray",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 375",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "uncommon",
- "release_date": "2019-08-01",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=13)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA blazing band of fire arcs through the air.\r\n</summary>",
+ "saving_throw": "AC",
+ "saving_throw_markdown": "AC",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=554\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 375\n\n**Domain**\r\n[Fire](/Domains.aspx?ID=76)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\nAC\r\n\r\n**Duration** until the end of the target's next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA blazing band of fire arcs through the air, lighting your opponent and the ground they stand upon on fire.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 392"
+  "Player Core pg. 375"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 392 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 375",
  "speed": {},
- "summary": "A blazing band of fire arcs through the air.",
- "summary_markdown": "A blazing band of fire arcs through the air.",
+ "spell_type": "Focus",
+ "summary": "A blazing band of fire arcs through the air, lighting your opponent and the ground they stand upon on fire.",
+ "summary_markdown": "A blazing band of fire arcs through the air, lighting your opponent and the ground they stand upon on fire.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Fire Ray Source Core Rulebook pg. 392 4.0 Domain Fire Cast Two Actions somatic, verbal Range 60 feet Target 1 creature --- A blazing band of fire arcs through the air. Make a spell attack roll. The ray deals 2d6 fire damage. Critical Success The ray deals double damage and 1d4 persistent fire damage. Success The ray deals full damage. --- Heightened (+1) The ray's initial damage increases by 2d6, and the persistent fire damage on a critical success increases by 1d4.",
+ "text": "\nFire Ray Two Actions Source Player Core pg. 375 Domain Fire Range 60 feet Target 1 creature Defense AC Duration until the end of the target's next turn --- A blazing band of fire arcs through the air, lighting your opponent and the ground they stand upon on fire. Make a spell attack roll against the target's AC. The ray deals 2d6 fire damage on a hit (or double damage on a critical hit). On any result other than a critical failure, the ground in the target's space catches fire, dealing 1d6 fire damage to each creature that ends its turn in one of the squares. --- Heightened (+1) The ray's initial damage increases by 2d6, and the fire damage dealt by the burning space increases by 1d6.",
  "tradition_markdown": "",
  "trait": [
   "Attack",
   "Cleric",
-  "Evocation",
+  "Concentrate",
   "Fire",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cleric](/Traits.aspx?ID=26), [Evocation](/Traits.aspx?ID=65), [Fire](/Traits.aspx?ID=72), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "Class",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cleric](/Traits.aspx?ID=554), [Concentrate](/Traits.aspx?ID=32), [Fire](/Traits.aspx?ID=72), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
   "Attack",
   "Cleric",
-  "Evocation",
+  "Concentrate",
   "Fire",
+  "Focus",
+  "Manipulate",
   "Uncommon"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=422",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1804",
  "weakness": {}
 }

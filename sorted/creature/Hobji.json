@@ -1,10 +1,26 @@
 {
  "ac": 19,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  12,
+  12,
+  13
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Light Blindness",
   "Sneak Attack",
@@ -13,47 +29,82 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 45,
  "hp_raw": "45",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-1767",
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Chalk",
+  "specialist snare kit",
+  "+1 warhammer"
+ ],
  "language": [
   "Undercommon"
  ],
  "language_markdown": "[Undercommon](/Languages.aspx?ID=11)",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"\">[Hobji](/Monsters.aspx?ID=1767)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Hobji](/Monsters.aspx?ID=1767)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Morlock\" url=\"/Traits.aspx?ID=302\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 45</row>\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +9, [Crafting](/Skills.aspx?ID=4) +6, [Stealth](/Skills.aspx?ID=15) +10, [Thievery](/Skills.aspx?ID=17) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Light Blindness** \r\n\r\n**Items**\r\n[Chalk](/Equipment.aspx?ID=12), [specialist snare kit](/Equipment.aspx?ID=51), _+1 [warhammer](/Weapons.aspx?ID=47)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +9 \r\n\r\n+2 status to all saves vs. [disease](/Traits.aspx?ID=46) and [poison](/Traits.aspx?ID=126)\r\n</row>\r\n\r\n**HP** 45\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +12,\r\n**Damage** 1d6+6 bludgeoning plus Strangling Grasp\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_warhammer_ +13 ([Magical](/Traits.aspx?ID=103), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d8+6 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +12 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+6 piercing\n\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   Hobji's Strikes deal an additional 1d6 precision damage to [flat-footed](/Conditions.aspx?ID=16) creatures.\r\n\r\n**Strangling Grasp** <actions string=\"Free Action\" />  **Trigger** Hobji hits a Medium or smaller creature with his fist Strike; **Effect** The creature is [grabbed](/Conditions.aspx?ID=20), and Hobji begins to strangle the creature. The creature is suffocating and can't speak as long as it's strangled. This prevents it from casting spells with a verbal component or activating items with a command component.\r\n\r\n**Surprise Attack**   In the first round of combat, creatures that haven't acted yet are [flat-footed](/Conditions.aspx?ID=16) to Hobji.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Hobji](/Monsters.aspx?ID=1767)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 28\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 26\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 23\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Hobji](/Monsters.aspx?ID=1767)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Morlock\" url=\"/Traits.aspx?ID=302\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 45\n\n**Perception** +8; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +9, [Crafting](/Skills.aspx?ID=4) +6, [Stealth](/Skills.aspx?ID=15) +10, [Thievery](/Skills.aspx?ID=17) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +2\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** -1\r\n</row>\r\n\r\n**Light Blindness** \r\n\r\n**Items**\r\n[Chalk](/Equipment.aspx?ID=12), [specialist snare kit](/Equipment.aspx?ID=51), _+1 [warhammer](/Weapons.aspx?ID=47)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 19 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +9 \r\n\r\n+2 status to all saves vs. [disease](/Traits.aspx?ID=46) and [poison](/Traits.aspx?ID=126)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 45\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +12,\r\n**Damage** 1d6+6 bludgeoning plus Strangling Grasp\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_warhammer_ +13 ([Magical](/Traits.aspx?ID=103), [Shove](/Traits.aspx?ID=193)),\r\n**Damage** 1d8+6 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +12 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+6 piercing\n\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   Hobji's Strikes deal an additional 1d6 precision damage to [flat-footed](/Conditions.aspx?ID=16) creatures.\r\n\r\n**Strangling Grasp** <actions string=\"Free Action\" />  **Trigger** Hobji hits a Medium or smaller creature with his fist Strike; **Effect** The creature is [grabbed](/Conditions.aspx?ID=20), and Hobji begins to strangle the creature. The creature is suffocating and can't speak as long as it's strangled. This prevents it from casting spells with a verbal component or activating items with a command component.\r\n\r\n**Surprise Attack**   In the first round of combat, creatures that haven't acted yet are [flat-footed](/Conditions.aspx?ID=16) to Hobji.\r\n\r\n</column>",
  "name": "Hobji",
  "npc": false,
  "perception": 8,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #175: Broken Tusk Moon",
+ "primary_source_raw": "Pathfinder #175: Broken Tusk Moon pg. 45",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Quest for the Frozen Flame",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 11,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2022-01-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Morlock\" url=\"/Traits.aspx?ID=302\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 45</row>\n\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +8\r\n\r\n**Ref** +11\r\n\r\n**Will** +9\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Morlock\" url=\"/Traits.aspx?ID=302\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 45\n\n<row gap=\"medium\">\r\n**HP** 45\r\n\r\n**AC** 19\r\n\r\n**Fort** +8\r\n\r\n**Ref** +11\r\n\r\n**Will** +9\r\n\r\n**Perception** +8\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Athletics +9",
-  "Crafting +6",
-  "Stealth +10",
-  "Thievery +9"
+  "Athletics",
+  "Crafting",
+  "Stealth",
+  "Thievery"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +9, [Crafting](/Skills.aspx?ID=4) +6, [Stealth](/Skills.aspx?ID=15) +10, [Thievery](/Skills.aspx?ID=17) +9",
+ "skill_mod": {
+  "athletics": 9,
+  "crafting": 6,
+  "stealth": 10,
+  "thievery": 9
+ },
  "source": [
   "Pathfinder #175: Broken Tusk Moon"
  ],
  "source_raw": [
   "Pathfinder #175: Broken Tusk Moon pg. 45"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Quest for the Frozen Flame",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 45</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Quest for the Frozen Flame"
+ ],
+ "source_markdown": "[Pathfinder #175: Broken Tusk Moon](/Sources.aspx?ID=112) pg. 45",
  "speed": {
   "climb": 20,
   "land": 30,
@@ -64,18 +115,39 @@
  "spell_markdown": "",
  "spoilers": "Quest for the Frozen Flame",
  "stealth": "10",
+ "strike_damage_average": [
+  8,
+  9,
+  10
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
  "strength": 4,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "ref",
   "reflex"
  ],
  "text": " Hobji Recall Knowledge - Humanoid (Society): DC 28 Unspecific Lore : DC 26 Specific Lore : DC 23 Hobji Source Pathfinder #175: Broken Tusk Moon pg. 45 Perception +8; darkvision Languages Undercommon Skills Athletics +9, Crafting +6, Stealth +10, Thievery +9 Str +4 Dex +2 Con +3 Int +1 Wis +3 Cha -1 Light Blindness Items Chalk, specialist snare kit, +1 warhammer --- AC 19 Fort +8 Ref +11 Will +9 +2 status to all saves vs. disease and poison HP 45 --- Speed 30 feet, climb 20 feet Melee Single Action fist +12, Damage 1d6+6 bludgeoning plus Strangling Grasp Melee Single Action warhammer +13 (Magical, Shove), Damage 1d8+6 bludgeoning Melee Single Action jaws +12 (Agile), Damage 1d4+6 piercing Sneak Attack Hobji's Strikes deal an additional 1d6 precision damage to flat-footed creatures. Strangling Grasp Free Action Trigger Hobji hits a Medium or smaller creature with his fist Strike; Effect The creature is grabbed, and Hobji begins to strangle the creature. The creature is suffocating and can't speak as long as it's strangled. This prevents it from casting spells with a verbal component or activating items with a command component. Surprise Attack In the first round of combat, creatures that haven't acted yet are flat-footed to Hobji. ",
+ "tradition_markdown": "",
  "trait": [
   "Humanoid",
   "Morlock",
   "Unique",
   "CE",
   "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
  ],
  "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Morlock](/Traits.aspx?ID=302), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
@@ -92,5 +164,9 @@
  ],
  "weakness": {},
  "will_save": 9,
- "wisdom": 3
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

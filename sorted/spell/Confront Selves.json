@@ -1,13 +1,12 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain": [
   "Introspection"
  ],
@@ -17,6 +16,15 @@
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   4,
@@ -29,49 +37,64 @@
  ],
  "id": "spell-1260",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"\">[Confront Selves](/Spells.aspx?ID=1260)</title>\r\n\r\n<spoilers>May contain spoilers from Blood Lords</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 73</row>\n\n**Domain**\r\n[Introspection](/Domains.aspx?ID=60)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them. These events swirl around the target like shards of broken pottery. The creature must attempt a Will save to resist these visions.\n\n Each time you sustain this spell, you force the target to confront an alternate permutation of themselves, witnessing the events of their life as if they'd chosen another path. They take 2d6 mental damage ([basic](/Rules.aspx?ID=329) Will save) and are [encumbered](/Conditions.aspx?ID=12). On a critical success, the spell ends and can no longer be sustained.\n\n---\r\n**Heightened (+1)** The mental damage increases by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"\">\r\n[Confront Selves](/Spells.aspx?ID=1260)\r\n<actions string=\"Two Actions\" />\r\n</title>\r\n\r\n<spoilers>May contain spoilers from Blood Lords</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 73\n\n**Domain**\r\n[Introspection](/Domains.aspx?ID=60)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them. These events swirl around the target like shards of broken pottery. The creature must attempt a Will save to resist these visions.\n\n Each time you sustain this spell, you force the target to confront an alternate permutation of themselves, witnessing the events of their life as if they'd chosen another path. They take 2d6 mental damage ([basic](/Rules.aspx?ID=329) Will save) and are [encumbered](/Conditions.aspx?ID=12). On a critical success, the spell ends and can no longer be sustained.\n\n---\r\n**Heightened (+1)** The mental damage increases by 1d6.",
  "name": "Confront Selves",
- "patron_theme_markdown": "",
+ "primary_source": "Pathfinder #186: Ghost King's Rage",
+ "primary_source_raw": "Pathfinder #186: Ghost King's Rage pg. 73",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Blood Lords",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-12-14",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "illusion",
- "search_markdown": "<spoilers>May contain spoilers from Blood Lords</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 73</row>\n\n**Domain**\r\n[Introspection](/Domains.aspx?ID=60)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them.\r\n</summary>",
+ "search_markdown": "<spoilers>May contain spoilers from Blood Lords</spoilers>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 73\n\n**Domain**\r\n[Introspection](/Domains.aspx?ID=60)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #186: Ghost King's Rage"
  ],
  "source_raw": [
   "Pathfinder #186: Ghost King's Rage pg. 73"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Blood Lords",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 73</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Blood Lords"
+ ],
+ "source_markdown": "[Pathfinder #186: Ghost King's Rage](/Sources.aspx?ID=189) pg. 73",
  "speed": {},
+ "spell_type": "Focus",
  "spoilers": "Blood Lords",
  "summary": "You show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them.",
  "summary_markdown": "You show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Confront Selves May contain spoilers from Blood Lords Source Pathfinder #186: Ghost King's Rage pg. 73 Domain Introspection Cast Two Actions somatic, verbal Range 30 feet Target 1 creature Saving Throw Will Duration sustained up to 1 minute --- You show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them. These events swirl around the target like shards of broken pottery. The creature must attempt a Will save to resist these visions. Each time you sustain this spell, you force the target to confront an alternate permutation of themselves, witnessing the events of their life as if they'd chosen another path. They take 2d6 mental damage (basic Will save) and are encumbered. On a critical success, the spell ends and can no longer be sustained. --- Heightened (+1) The mental damage increases by 1d6.",
+ "text": "\nConfront Selves Two Actions May contain spoilers from Blood Lords Source Pathfinder #186: Ghost King's Rage pg. 73 Domain Introspection Cast somatic, verbal Range 30 feet Target 1 creature Saving Throw Will Duration sustained up to 1 minute --- You show the target the spiraling web of actions and consequences that is their life and the changes wrought by these decisions upon themselves and those around them. These events swirl around the target like shards of broken pottery. The creature must attempt a Will save to resist these visions. Each time you sustain this spell, you force the target to confront an alternate permutation of themselves, witnessing the events of their life as if they'd chosen another path. They take 2d6 mental damage (basic Will save) and are encumbered. On a critical success, the spell ends and can no longer be sustained. --- Heightened (+1) The mental damage increases by 1d6.",
  "tradition_markdown": "",
  "trait": [
   "Illusion",
   "Mental",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Monster",
+  "Rarity"
+ ],
+ "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Illusion",
   "Mental",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=1260",
  "weakness": {}
 }

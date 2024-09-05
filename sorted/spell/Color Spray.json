@@ -1,52 +1,69 @@
 {
  "actions": "Two Actions",
- "area": "15-foot cone",
+ "actions_number": 4,
+ "area": [
+  15
+ ],
+ "area_raw": "15-foot cone",
+ "area_type": [
+  "cone"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
  "deity": [
+  "Lady Jingxi",
   "Pulura",
   "Shelyn",
   "Thisamet"
  ],
- "deity_markdown": "[Pulura](/Deities.aspx?ID=125), [Shelyn](/Deities.aspx?ID=17), [Thisamet](/Deities.aspx?ID=267)",
+ "deity_markdown": "[Lady Jingxi](/Deities.aspx?ID=310), [Pulura](/Deities.aspx?ID=125), [Shelyn](/Deities.aspx?ID=293), [Thisamet](/Deities.aspx?ID=267)",
  "domain_markdown": "",
  "duration_raw": "1 or more rounds (see below)",
  "exclude_from_search": false,
+ "heighten_group": [
+  "1st rank"
+ ],
  "heighten_level": [
   1
  ],
  "id": "spell-44",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Color Spray](/Spells.aspx?ID=44)</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 324 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Pulura](/Deities.aspx?ID=125), [Shelyn](/Deities.aspx?ID=17), [Thisamet](/Deities.aspx?ID=267)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 or more rounds (see below)\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nSwirling colors affect viewers based on their Will saves.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is dazzled for 1 round.<br />\r\n**Failure** The creature is stunned 1, blinded for 1 round, and dazzled for 1 minute.<br />\r\n**Critical Failure** The creature is stunned for 1 round and blinded for 1 minute.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Color Spray](/Spells.aspx?ID=44)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 324 <sup>4.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Lady Jingxi](/Deities.aspx?ID=310), [Pulura](/Deities.aspx?ID=125), [Shelyn](/Deities.aspx?ID=293), [Thisamet](/Deities.aspx?ID=267)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Area** 15-foot cone\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** 1 or more rounds (see below)\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nSwirling colors affect viewers based on their Will saves.\r\n\r\n**Critical Success** The creature is unaffected.<br />\r\n**Success** The creature is dazzled for 1 round.<br />\r\n**Failure** The creature is stunned 1, blinded for 1 round, and dazzled for 1 minute.<br />\r\n**Critical Failure** The creature is stunned for 1 round and blinded for 1 minute.",
  "name": "Color Spray",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 324",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "spell-1500",
+ "remaster_name": "Dizzying Colors",
  "resistance": {},
  "saving_throw": "Will",
  "saving_throw_markdown": "Will",
  "school": "illusion",
- "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 324 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Pulura](/Deities.aspx?ID=125), [Shelyn](/Deities.aspx?ID=17), [Thisamet](/Deities.aspx?ID=267)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Will\r\n\r\n**Duration** 1 or more rounds (see below)\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSwirling colors dazzle or stun creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\r\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\r\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 324 <sup>4.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\r\n[Lady Jingxi](/Deities.aspx?ID=310), [Pulura](/Deities.aspx?ID=125), [Shelyn](/Deities.aspx?ID=293), [Thisamet](/Deities.aspx?ID=267)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Area** 15-foot cone\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nWill\r\n\r\n**Duration** 1 or more rounds (see below)\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSwirling colors dazzle or stun creatures.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 324"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 324 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 324 <sup>4.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Swirling colors dazzle or stun creatures.",
  "summary_markdown": "Swirling colors dazzle or stun creatures.",
- "text": " Color Spray Source Core Rulebook pg. 324 4.0 Traditions Arcane, Occult Deities Pulura, Shelyn, Thisamet Cast Two Actions somatic, verbal Area 15-foot cone Saving Throw Will Duration 1 or more rounds (see below) --- Swirling colors affect viewers based on their Will saves. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. Failure The creature is stunned 1, blinded for 1 round, and dazzled for 1 minute. Critical Failure The creature is stunned for 1 round and blinded for 1 minute.",
+ "text": "\nColor Spray Two Actions Source Core Rulebook pg. 324 4.0 Traditions Arcane, Occult Deities Lady Jingxi, Pulura, Shelyn, Thisamet Cast somatic, verbal Area 15-foot cone Saving Throw Will Duration 1 or more rounds (see below) --- Swirling colors affect viewers based on their Will saves. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. Failure The creature is stunned 1, blinded for 1 round, and dazzled for 1 minute. Critical Failure The creature is stunned for 1 round and blinded for 1 minute.",
  "tradition": [
   "Arcane",
   "Occult"
@@ -56,6 +73,11 @@
   "Illusion",
   "Incapacitation",
   "Visual"
+ ],
+ "trait_group": [
+  "School",
+  "Monster",
+  "Sense"
  ],
  "trait_markdown": "[Illusion](/Traits.aspx?ID=92), [Incapacitation](/Traits.aspx?ID=93), [Visual](/Traits.aspx?ID=163)",
  "trait_raw": [

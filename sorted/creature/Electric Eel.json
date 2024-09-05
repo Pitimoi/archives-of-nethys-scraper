@@ -1,59 +1,99 @@
 {
  "ac": 16,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  6,
+  6
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Stunning Shock"
  ],
  "creature_family": "Eel",
- "creature_family_markdown": "[Eel](/MonsterFamilies.aspx?ID=40)",
+ "creature_family_markdown": "[Eel](/MonsterFamilies.aspx?ID=407)",
  "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 18,
  "hp_raw": "18",
- "id": "creature-174",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2970",
  "image": [
-  "/Images/Monsters/Eel_ElectricEel.png"
+  "/Images/Monsters/Electric_Eel.webp"
  ],
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-174",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Electric Eel](/Monsters.aspx?ID=174)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nUsually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be dangerous to larger creatures searching for their next meals.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Eel_ElectricEel.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Electric Eel](/Monsters.aspx?ID=174)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Small\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 142</row>\n\n**Perception** +4; low-light vision\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +2\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n**HP** 18\n\n**Resistances**\r\nelectricity 7\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +6,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +6 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+1 bludgeoning plus 1d4 electricity and stunning shock\n\n**Stunning Shock**  ([Incapacitation](/Traits.aspx?ID=93)) A creature critically hit by the electric eel’s tail must attempt a DC 17 Fortitude save.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [stunned 1](/Conditions.aspx?ID=36).<br /> **Failure** The creature is [stunned 2](/Conditions.aspx?ID=36).<br /> **Critical Failure** The creature is [stunned 3](/Conditions.aspx?ID=36).\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Eel Resources</title>\r\n\r\nHide harvested from electric eels can be used to create armor or items that provide protection from electricity.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-40\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Electric Eel](/Monsters.aspx?ID=2970)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nUsually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be dangerous to larger creatures searching for their next meal. Electric eels are more closely related to catfish than to other eels.\n\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Electric_Eel.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Electric Eel](/Monsters.aspx?ID=2970)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 138\n\n**Perception** +4; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\n\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +2\r\n\r\n**Con** +2\r\n\r\n**Int** -5\r\n\r\n**Wis** +1\r\n\r\n**Cha** -1\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\n\n</row>\n\n**Resistances**\r\n[electricity](/Traits.aspx?ID=586) 7\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +6,\r\n**Damage** 1d6+3 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +6 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4+1 bludgeoning plus 1d4 electricity and stunning shock\n\n**Stunning Shock**  ([Incapacitation](/Traits.aspx?ID=93)) A creature critically hit by the electric eel's tail must attempt a DC 17 Fortitude save.<br /> **Critical Success** The creature is unaffected.<br /> **Success** The creature is [stunned 1](/Conditions.aspx?ID=93).<br /> **Failure** The creature is stunned 2.<br /> **Critical Failure** The creature is stunned 3.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Electric Eel Hide</title>\r\n\r\nHide harvested from electric eels can be used to create armor or items that provide protection from electricity.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-407\" />",
  "name": "Electric Eel",
  "npc": false,
  "perception": 4,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 138",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "electricity": 7
  },
- "resistance_markdown": "electricity 7",
- "resistance_raw": "electricity 7",
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 142</row>\r\n\r\n**Creature Family** [Eel](/MonsterFamilies.aspx?ID=40)\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nUsually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be …\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "resistance_markdown": "[electricity](/Traits.aspx?ID=586) 7",
+ "resistance_raw": " electricity  7",
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=533\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 138\r\n\r\n**Creature Family** [Eel](/MonsterFamilies.aspx?ID=407)\r\n\r\n<row gap=\"medium\">\r\n**HP** 18\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nUsually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Small"
  ],
+ "size_id": [
+  2
+ ],
  "skill": [
-  "Athletics +6",
-  "Stealth +7"
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +6, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill_mod": {
+  "athletics": 6,
+  "stealth": 7
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 142"
+  "Monster Core pg. 138"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 142</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 138",
  "speed": {
   "land": 5,
   "max": 30,
@@ -63,7 +103,19 @@
  "speed_raw": "5 feet, swim 30 feet",
  "spell_markdown": "",
  "stealth": "7",
+ "strike_damage_average": [
+  6,
+  6
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
  "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "fort",
   "fortitude",
@@ -72,25 +124,30 @@
  ],
  "summary": "Usually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be …",
  "summary_markdown": "Usually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be …",
- "text": " Electric Eel Usually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be dangerous to larger creatures searching for their next meals. Recall Knowledge - Animal (Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Electric Eel Source Bestiary pg. 142 Perception +4; low-light vision Languages Skills Athletics +6, Stealth +7 Str +1 Dex +2 Con +2 Int -5 Wis +1 Cha -1 --- AC 16 Fort +7 Ref +7 Will +4 HP 18 Resistances electricity 7 --- Speed 5 feet, swim 30 feet Melee Single Action jaws +6, Damage 1d6+3 piercing Melee Single Action tail +6 (Agile), Damage 1d4+1 bludgeoning plus 1d4 electricity and stunning shock Stunning Shock (Incapacitation) A creature critically hit by the electric eel’s tail must attempt a DC 17 Fortitude save. Critical Success The creature is unaffected. Success The creature is stunned 1. Failure The creature is stunned 2. Critical Failure The creature is stunned 3. Eel Resources Hide harvested from electric eels can be used to create armor or items that provide protection from electricity. ",
+ "text": " Electric Eel Usually found in freshwater rivers and lakes, an electric eel is not particularly aggressive, but its ability to stun predators and prey alike can be dangerous to larger creatures searching for their next meal. Electric eels are more closely related to catfish than to other eels. Electric Eel Source Monster Core pg. 138 Perception +4; low-light vision Languages Skills Athletics +6, Stealth +7 Str +1 Dex +2 Con +2 Int -5 Wis +1 Cha -1 --- AC 16 Fort +7 Ref +7 Will +4 HP 18 Resistances electricity 7 --- Speed 5 feet, swim 30 feet Melee Single Action jaws +6, Damage 1d6+3 piercing Melee Single Action tail +6 (Agile), Damage 1d4+1 bludgeoning plus 1d4 electricity and stunning shock Stunning Shock (Incapacitation) A creature critically hit by the electric eel's tail must attempt a DC 17 Fortitude save. Critical Success The creature is unaffected. Success The creature is stunned 1. Failure The creature is stunned 2. Critical Failure The creature is stunned 3. Electric Eel Hide Hide harvested from electric eels can be used to create armor or items that provide protection from electricity. ",
+ "tradition_markdown": "",
  "trait": [
-  "Animal",
   "Aquatic",
-  "N",
   "Small"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Aquatic](/Traits.aspx?ID=168)",
+ "trait_group": [
+  "Monster"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=533)",
  "trait_raw": [
-  "Animal",
   "Aquatic"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=174",
+ "url": "/Monsters.aspx?ID=2970",
  "vision": "Low-light vision",
  "weakest_save": [
   "will"
  ],
  "weakness": {},
  "will_save": 4,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

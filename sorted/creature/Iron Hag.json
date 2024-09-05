@@ -1,0 +1,174 @@
+{
+ "ac": 24,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  16,
+  16
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Coven",
+  "Bonds of Iron",
+  "Change Shape",
+  "Embrace of Iron"
+ ],
+ "creature_family": "Hag",
+ "creature_family_markdown": "[Hag](/MonsterFamilies.aspx?ID=425)",
+ "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 80,
+ "hp_raw": "80",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3042",
+ "image": [
+  "/Images/Monsters/Iron_Hag.webp"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Aklo",
+  "Common",
+  "Jotun"
+ ],
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Iron Hag](/Monsters.aspx?ID=3042)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nIron hags are kidnappers, targeting those too young to even remember to fight back. They most often snatch babies from their cradles, though they sometimes target fearful children or youths who suffer from anxiety. They then imprison their new wards in towers or enchanted dungeons, terrifying their victims with stories of the outside world to discourage them from even trying to escape. If these methods fail to be effective, iron hags become more straightforward in their methods of imprisonment, insisting it's for their captives' own good.\n\n An iron hag's true form has unnaturally long arms. True to their name, they have teeth made of iron, as well as long iron toenails and claws.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Iron_Hag.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Iron Hag](/Monsters.aspx?ID=3042)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Hag\" url=\"/Traits.aspx?ID=620\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 190\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +12, [Athletics](/Skills.aspx?ID=3) +14, [Deception](/Skills.aspx?ID=5) +13, [Diplomacy](/Skills.aspx?ID=6) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Stealth](/Skills.aspx?ID=15) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +4\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +4\r\n\r\n**Cha** +3\r\n</row>\r\n\r\n**[Coven](/MonsterAbilities.aspx?ID=58)** An iron hag adds [_earthbind_](/Spells.aspx?ID=1506), [_impaling spike_](/Spells.aspx?ID=1571), and [_spellwrack_](/Spells.aspx?ID=1683) to their coven's spells. Their spell DC when leading a coven is 24.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +14 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 80\n\n</row>\n\n**Resistances**\r\nphysical 3 (except [adamantine](/Equipment.aspx?ID=374))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +16 ([Agile](/Traits.aspx?ID=170), [cold iron](/Traits.aspx?ID=673), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d8+6 slashing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +16 ([cold iron](/Traits.aspx?ID=673), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d6+6 piercing\n\n**Bonds of Iron** <actions string=\"Two Actions\" /> ([Attack](/Traits.aspx?ID=15), [Occult](/Traits.aspx?ID=120)) **Frequency** once per day; **Effect** The hag causes a cage built of cold iron fingernails to spring out of nothingness around one creature within 30 feet, attempting an [Athletics](/Skills.aspx?ID=36) check to [Grapple](/Actions.aspx?ID=2376) against the target's Fortitude DC; if the target has a weakness to [cold iron](/Equipment.aspx?ID=2916), the iron hag gains a +2 circumstance bonus to this check. On a success, the creature is [grabbed](/Conditions.aspx?ID=77) by the magical fingernails (or [restrained](/Conditions.aspx?ID=90) on a critical success). If the creature successfully [Escapes](/Actions.aspx?ID=2296) (DC 24), the cage crumbles into rust. Any creature can attempt to destroy the cage by attacking it. It has an AC of 19, Hardness 10, and 40 Hit Points.\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127)) The iron hag can take on the appearance of any Medium female [humanoid](/Traits.aspx?ID=628). This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning).\r\n\r\n**Embrace of Iron** <actions string=\"Single Action\" />  **Requirements** A creature is [grabbed](/Conditions.aspx?ID=77) or [restrained](/Conditions.aspx?ID=90) by the iron hag's claw; **Effect** The hag's nails tear into their captured victim, dealing 2d8 piercing damage (the nails are [cold iron](/Equipment.aspx?ID=375)). Then the hag can attempt to [Reposition](/Actions.aspx?ID=2379) the creature. If the creature is adjacent to the hag, they can then attempt a jaws Strike against it.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-425\" />",
+ "name": "Iron Hag",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 190",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 12,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {
+  "bludgeoning": 3,
+  "physical": 3,
+  "piercing": 3,
+  "slashing": 3
+ },
+ "resistance_markdown": "physical 3 (except [adamantine](/Equipment.aspx?ID=374))",
+ "resistance_raw": "physical 3 (except  adamantine )",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Hag\" url=\"/Traits.aspx?ID=620\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 190\r\n\r\n**Creature Family** [Hag](/MonsterFamilies.aspx?ID=425)\r\n\r\n<row gap=\"medium\">\r\n**HP** 80\r\n\r\n**AC** 24\r\n\r\n**Fort** +16\r\n\r\n**Ref** +12\r\n\r\n**Will** +14\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nIron hags are kidnappers, targeting those too young to even remember to fight back. They most often snatch babies from their cradles, though they …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +12, [Athletics](/Skills.aspx?ID=3) +14, [Deception](/Skills.aspx?ID=5) +13, [Diplomacy](/Skills.aspx?ID=6) +11, [Intimidation](/Skills.aspx?ID=7) +13, [Stealth](/Skills.aspx?ID=15) +16",
+ "skill_mod": {
+  "acrobatics": 12,
+  "athletics": 14,
+  "deception": 13,
+  "diplomacy": 11,
+  "intimidation": 13,
+  "stealth": 16
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 190"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 190",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet",
+ "speed_raw": "40 feet",
+ "spell_markdown": "",
+ "stealth": "16",
+ "strike_damage_average": [
+  13,
+  15
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 6,
+ "strength_scale": "Extreme",
+ "strength_scale_number": 5,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Iron hags are kidnappers, targeting those too young to even remember to fight back. They most often snatch babies from their cradles, though they …",
+ "summary_markdown": "Iron hags are kidnappers, targeting those too young to even remember to fight back. They most often snatch babies from their cradles, though they …",
+ "text": " Iron Hag Iron hags are kidnappers, targeting those too young to even remember to fight back. They most often snatch babies from their cradles, though they sometimes target fearful children or youths who suffer from anxiety. They then imprison their new wards in towers or enchanted dungeons, terrifying their victims with stories of the outside world to discourage them from even trying to escape. If these methods fail to be effective, iron hags become more straightforward in their methods of imprisonment, insisting it's for their captives' own good. An iron hag's true form has unnaturally long arms. True to their name, they have teeth made of iron, as well as long iron toenails and claws. Recall Knowledge - Humanoid (Society): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Iron Hag Source Monster Core pg. 190 Perception +14; darkvision Languages Aklo, Common, Jotun Skills Acrobatics +12, Athletics +14, Deception +13, Diplomacy +11, Intimidation +13, Stealth +16 Str +6 Dex +4 Con +4 Int +1 Wis +4 Cha +3 Coven An iron hag adds earthbind , impaling spike , and spellwrack to their coven's spells. Their spell DC when leading a coven is 24. --- AC 24 Fort +16 Ref +12 Will +14 +1 status to all saves vs. magic HP 80 Resistances physical 3 (except adamantine) --- Speed 40 feet Melee Single Action claw +16 (Agile, cold iron, Magical, reach 10 feet), Damage 2d8+6 slashing plus Grab Melee Single Action jaws +16 (cold iron, Magical), Damage 2d6+6 piercing Bonds of Iron Two Actions (Attack, Occult) Frequency once per day; Effect The hag causes a cage built of cold iron fingernails to spring out of nothingness around one creature within 30 feet, attempting an Athletics check to Grapple against the target's Fortitude DC; if the target has a weakness to cold iron, the iron hag gains a +2 circumstance bonus to this check. On a success, the creature is grabbed by the magical fingernails (or restrained on a critical success). If the creature successfully Escapes (DC 24), the cage crumbles into rust. Any creature can attempt to destroy the cage by attacking it. It has an AC of 19, Hardness 10, and 40 Hit Points. Change Shape Single Action (Concentrate, Occult, Polymorph) The iron hag can take on the appearance of any Medium female humanoid. This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning). Embrace of Iron Single Action Requirements A creature is grabbed or restrained by the iron hag's claw; Effect The hag's nails tear into their captured victim, dealing 2d8 piercing damage (the nails are cold iron). Then the hag can attempt to Reposition the creature. If the creature is adjacent to the hag, they can then attempt a jaws Strike against it. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Hag",
+  "Humanoid",
+  "Large"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Hag](/Traits.aspx?ID=620), [Humanoid](/Traits.aspx?ID=628)",
+ "trait_raw": [
+  "Hag",
+  "Humanoid"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3042",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 14,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

@@ -1,33 +1,41 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Shield Block"
  ],
  "feat_markdown": "Shield Block",
- "id": "feat-839",
+ "id": "feat-5212",
+ "legacy_id": "feat-839",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shield Block](/Feats.aspx?ID=839) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 266 <sup>4.0</sup></row>\n\n**Trigger**\r\nWhile you have your shield raised, you would take damage from a physical attack.\n\n</column>\r\n\r\n---\r\n\r\nYou snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield’s Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.\n\n<title level=\"2\">Shield Block leads to...</title>\r\n[Aegis of Arnisant](/Feats.aspx?ID=1095), [Bastion Dedication](/Feats.aspx?ID=1895), [Fortify Shield](/Feats.aspx?ID=2570), [Lastwall Sentry Dedication](/Feats.aspx?ID=882), [Quick Shield Block](/Feats.aspx?ID=394), [Shield Warden](/Feats.aspx?ID=229)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Shield Block](/Feats.aspx?ID=5212) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 262\n\n**Trigger**\r\nWhile you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.\n\n</column>\r\n\r\n---\r\n\r\nYou snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield’s Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.\n\n<title level=\"2\">Shield Block leads to...</title>\r\n[Channeling Block](/Feats.aspx?ID=4686), [Quick Shield Block](/Feats.aspx?ID=4816), [Shield Warden](/Feats.aspx?ID=4807)",
  "name": "Shield Block",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 262",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 266 <sup>4.0</sup></row>\n\n**Trigger**\r\nWhile you have your shield raised, you would take damage from a physical attack.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWard off a blow with your shield.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 262\n\n**Trigger**\r\nWhile you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWard off a blow with your shield\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 266"
+  "Player Core pg. 262"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 266 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 262",
  "speed": {},
- "summary": "Ward off a blow with your shield.",
- "summary_markdown": "Ward off a blow with your shield.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Shield Block Reaction Source Core Rulebook pg. 266 4.0 Trigger While you have your shield raised, you would take damage from a physical attack. --- You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield’s Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield. Shield Block leads to... Aegis of Arnisant, Bastion Dedication, Fortify Shield, Lastwall Sentry Dedication, Quick Shield Block, Shield Warden",
+ "summary": "Ward off a blow with your shield",
+ "summary_markdown": "Ward off a blow with your shield",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Shield Block Reaction Source Player Core pg. 262 Trigger While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack. --- You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield’s Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield. Shield Block leads to... Channeling Block, Quick Shield Block, Shield Warden",
  "trait": [
   "General"
  ],
@@ -35,9 +43,9 @@
  "trait_raw": [
   "General"
  ],
- "trigger": "While you have your shield raised, you would take damage from a physical attack.",
- "trigger_markdown": "While you have your shield raised, you would take damage from a physical attack.",
+ "trigger": "While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.",
+ "trigger_markdown": "While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.",
  "type": "Feat",
- "url": "/Feats.aspx?ID=839",
+ "url": "/Feats.aspx?ID=5212",
  "weakness": {}
 }

@@ -1,11 +1,8 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "verbal"
- ],
  "deity": [
   "Demon Bringers"
  ],
@@ -13,55 +10,63 @@
  "domain_markdown": "",
  "duration_raw": "until the start of your next turn",
  "exclude_from_search": false,
+ "heighten_group": [
+  "7th rank"
+ ],
  "heighten_level": [
   7
  ],
- "id": "spell-346",
+ "id": "spell-1726",
+ "legacy_id": "spell-346",
  "level": 7,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">[True Target](/Spells.aspx?ID=346)</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Prediction\" url=\"/Traits.aspx?ID=132\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Demon Bringers](/Deities.aspx?ID=230)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 4 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm, then cast out a vision of that future to those around you. Designate a creature. The first time each target makes an attack roll against that creature during _true target's_ duration, the attacker rolls twice and uses the better result. The attacker also ignores circumstance penalties to the attack roll and any flat check required due to the designated creature being [concealed](/Conditions.aspx?ID=4) or [hidden](/Conditions.aspx?ID=22).",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">\r\n[True Target](/Spells.aspx?ID=1726)\r\n<actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Prediction\" url=\"/Traits.aspx?ID=132\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 364\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Demon Bringers](/Deities.aspx?ID=230)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 4 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm, then cast out that vision to those around you. Designate a creature. The first time each target makes an attack roll against that creature during _true target's_ duration, the attacker rolls twice and uses the better result. The attacker also ignores circumstance penalties to the attack roll and any flat check required due to the designated creature being [concealed](/Conditions.aspx?ID=4) or [hidden](/Conditions.aspx?ID=22).",
  "name": "True Target",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 364",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Prediction\" url=\"/Traits.aspx?ID=132\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Demon Bringers](/Deities.aspx?ID=230)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Single Action\" /></row>\r\n<row>[verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 4 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the start of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Prediction\" url=\"/Traits.aspx?ID=132\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 364\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deity**\r\n[Demon Bringers](/Deities.aspx?ID=230)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 4 creatures\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake multiple attacks against a creature especially accurate.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 379"
+  "Player Core pg. 364"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 379 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 364",
  "speed": {},
- "summary": "You delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm.",
- "summary_markdown": "You delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm.",
+ "spell_type": "Spell",
+ "summary": "Make multiple attacks against a creature especially accurate.",
+ "summary_markdown": "Make multiple attacks against a creature especially accurate.",
  "target": "4 creatures",
  "target_markdown": "4 creatures",
- "text": " True Target Source Core Rulebook pg. 379 4.0 Traditions Arcane, Occult Deity Demon Bringers Cast Single Action verbal Range 60 feet Target 4 creatures Duration until the start of your next turn --- You delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm, then cast out a vision of that future to those around you. Designate a creature. The first time each target makes an attack roll against that creature during true target's duration, the attacker rolls twice and uses the better result. The attacker also ignores circumstance penalties to the attack roll and any flat check required due to the designated creature being concealed or hidden.",
+ "text": "\nTrue Target Single Action Source Player Core pg. 364 Traditions Arcane, Occult Deity Demon Bringers Range 60 feet Target 4 creatures Duration until the start of your next turn --- You delve into the possible futures of the next few seconds to understand all the ways your foe might avoid harm, then cast out that vision to those around you. Designate a creature. The first time each target makes an attack roll against that creature during true target's duration, the attacker rolls twice and uses the better result. The attacker also ignores circumstance penalties to the attack roll and any flat check required due to the designated creature being concealed or hidden.",
  "tradition": [
   "Arcane",
   "Occult"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Divination",
+  "Concentrate",
   "Fortune",
   "Prediction"
  ],
- "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Fortune](/Traits.aspx?ID=76), [Prediction](/Traits.aspx?ID=132)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Fortune](/Traits.aspx?ID=76), [Prediction](/Traits.aspx?ID=132)",
  "trait_raw": [
-  "Divination",
+  "Concentrate",
   "Fortune",
   "Prediction"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=346",
+ "url": "/Spells.aspx?ID=1726",
  "weakness": {}
 }

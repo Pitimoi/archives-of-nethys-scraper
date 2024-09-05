@@ -1,0 +1,151 @@
+{
+ "ac": 26,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Juice Shower",
+  "Troop Defenses",
+  "Form Up",
+  "Raise Shells",
+  "Seed Volley",
+  "Shell Smash",
+  "Troop Movement"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 135,
+ "hp_raw": "135 (16 squares)",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2683",
+ "image": [
+  "/Images/Monsters/HarvestRegiment.png"
+ ],
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Fey",
+  "Muan"
+ ],
+ "language_markdown": "[Fey](/Languages.aspx?ID=119), [Muan](/Languages.aspx?ID=108)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Harvest Regiment](/Monsters.aspx?ID=2683)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nGreat fruiting trees grow in massive orderly rows in a region of the [Plane of Wood](/Planes.aspx?ID=25) called Armory Grove. Over the course of decades, a regiment tree's branches grow heavy, laden with fruits uncannily shaped like people. They're cultivated by retired warriors whose tireless work ensures that these fruits grow into a form suitable for battle. Their efforts instill tactical knowledge in these fruit warriors so they're prepared to fight as soon as they fall from the tree—which they do simultaneously, forming one battle-ready unit. Each soldier is equal in skill and similar in form, with a wooden outer shell that splits into portions as the flesh of the fruit inside ripens. A slain warrior contains seeds within its body that can slowly germinate in rich soil with enough water—or blood. Every battlefield can become a new garden.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/HarvestRegiment.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Harvest Regiment](/Monsters.aspx?ID=2683)</title>\r\n\r\n<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 214\n\n**Perception** +17; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Fey](/Languages.aspx?ID=119), [Muan](/Languages.aspx?ID=108)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Survival](/Skills.aspx?ID=16) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** -1\r\n\r\n**Wis** +3\r\n\r\n**Cha** -2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 26 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +16 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n(16 squares)\n\n</row>\n\n**Weaknesses**\r\narea damage 10, [fire](/Traits.aspx?ID=72) 10, [splash](/Traits.aspx?ID=150) damage 5\r\n\r\n**Juice Shower** When a harvest regiment is critically hit or critically fails a save against a damaging effect, sticky fruit juices splash out. This affects all creatures in a 5-foot emanation. A splashed creature takes a –10-foot status penalty to its Speeds and everything is [concealed](/Conditions.aspx?ID=4) to it. A creature can Interact to clear off the juice.<br />**[Troop Defenses](/MonsterAbilities.aspx?ID=44)** \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet; troop movement\n\n**[Form Up](/MonsterAbilities.aspx?ID=43)** <actions string=\"Single Action\" />  \r\n\r\n**Raise Shells** <actions string=\"Single Action\" />  The troop raises fragments of their shells shaped like shields to gain a +2 circumstance bonus to AC until the start of their next turn.\r\n\r\n**Seed Volley** <actions string=\"Two Actions\" />  The harvest regiment spits an orderly volley of hard seeds drawn from within their bodies. This volley is a 10-foot burst within 120 feet that deals 3d10 bludgeoning damage (DC 23 [basic](/Rules.aspx?ID=329) Reflex save). When the harvest regiment is reduced to 8 or fewer squares, this area decreases to a 5-foot burst.\r\n\r\n**Shell Smash** <actions string=\"Single Action to Three Actions\" />  **Frequency** once per round; **Effect** The harvest regiment engages in a coordinated melee attack against each enemy within 5 feet, with a DC 23 [basic](/Rules.aspx?ID=329) Reflex save. The damage depends on the number of actions.<br /> <actions string=\"Single Action\" /> 1d8+3 bludgeoning damage<br /> <actions string=\"Two Actions\" /> 2d8+9 bludgeoning damage<br /> <actions string=\"Three Actions\" /> 2d8+12 bludgeoning damage\r\n\r\n**Troop Movement**   Whenever the harvest regiment Strides, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed. This works just like a Gargantuan creature moving.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_4_RelatedCreatures.png\">Out of Season</title>\r\n\r\nThe harvest regiment stat block represents the troop when it's harvested at exactly the right time. A “green,” or unripe, regiment might be pressed into service before it's ready, and an overripe version could fall off the tree partially rotten. Both of these use the [weak adjustments](/Rules.aspx?ID=791) and have 126 HP with thresholds of 84 and 42 HP. A green regiment loses juice shower and weakness to fire, and a rotten regiment's juice shower makes the creature [sickened 1](/Conditions.aspx?ID=34) if it fails a DC 25 Fortitude save instead of the normal effect.\r\n</aside>",
+ "name": "Harvest Regiment",
+ "npc": false,
+ "perception": 17,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 214",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 14,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 214\n\n<row gap=\"medium\">\r\n**HP** 135 (16 squares)\r\n\r\n**AC** 26\r\n\r\n**Fort** +16\r\n\r\n**Ref** +14\r\n\r\n**Will** +16\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGreat fruiting trees grow in massive orderly rows in a region of the  Plane of Wood  called Armory Grove. Over the course of decades, a regiment …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +18, [Survival](/Skills.aspx?ID=16) +17",
+ "skill_mod": {
+  "athletics": 18,
+  "survival": 17
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 214"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 214",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet; troop movement",
+ "speed_raw": "25 feet; troop movement",
+ "spell_markdown": "",
+ "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude",
+  "will"
+ ],
+ "summary": "Great fruiting trees grow in massive orderly rows in a region of the  Plane of Wood  called Armory Grove. Over the course of decades, a regiment …",
+ "summary_markdown": "Great fruiting trees grow in massive orderly rows in a region of the  Plane of Wood  called Armory Grove. Over the course of decades, a regiment …",
+ "text": " Harvest Regiment Great fruiting trees grow in massive orderly rows in a region of the Plane of Wood called Armory Grove. Over the course of decades, a regiment tree's branches grow heavy, laden with fruits uncannily shaped like people. They're cultivated by retired warriors whose tireless work ensures that these fruits grow into a form suitable for battle. Their efforts instill tactical knowledge in these fruit warriors so they're prepared to fight as soon as they fall from the tree—which they do simultaneously, forming one battle-ready unit. Each soldier is equal in skill and similar in form, with a wooden outer shell that splits into portions as the flesh of the fruit inside ripens. A slain warrior contains seeds within its body that can slowly germinate in rich soil with enough water—or blood. Every battlefield can become a new garden. Recall Knowledge - Elemental (Arcana, Nature): DC 24 Recall Knowledge - Plant (Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Harvest Regiment Source Rage of Elements pg. 214 Perception +17; low-light vision Languages Fey, Muan Skills Athletics +18, Survival +17 Str +6 Dex +1 Con +3 Int -1 Wis +3 Cha -2 --- AC 26 Fort +16 Ref +14 Will +16 HP 135 (16 squares) Weaknesses area damage 10, fire 10, splash damage 5 Juice Shower When a harvest regiment is critically hit or critically fails a save against a damaging effect, sticky fruit juices splash out. This affects all creatures in a 5-foot emanation. A splashed creature takes a –10-foot status penalty to its Speeds and everything is concealed to it. A creature can Interact to clear off the juice. Troop Defenses --- Speed 25 feet; troop movement Form Up Single Action Raise Shells Single Action The troop raises fragments of their shells shaped like shields to gain a +2 circumstance bonus to AC until the start of their next turn. Seed Volley Two Actions The harvest regiment spits an orderly volley of hard seeds drawn from within their bodies. This volley is a 10-foot burst within 120 feet that deals 3d10 bludgeoning damage (DC 23 basic Reflex save). When the harvest regiment is reduced to 8 or fewer squares, this area decreases to a 5-foot burst. Shell Smash Single Action to Three Actions Frequency once per round; Effect The harvest regiment engages in a coordinated melee attack against each enemy within 5 feet, with a DC 23 basic Reflex save. The damage depends on the number of actions. Single Action 1d8+3 bludgeoning damage Two Actions 2d8+9 bludgeoning damage Three Actions 2d8+12 bludgeoning damage Troop Movement Whenever the harvest regiment Strides, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed. This works just like a Gargantuan creature moving. Out of Season The harvest regiment stat block represents the troop when it's harvested at exactly the right time. A “green,” or unripe, regiment might be pressed into service before it's ready, and an overripe version could fall off the tree partially rotten. Both of these use the weak adjustments and have 126 HP with thresholds of 84 and 42 HP. A green regiment loses juice shower and weakness to fire, and a rotten regiment's juice shower makes the creature sickened 1 if it fails a DC 25 Fortitude save instead of the normal effect. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Plant",
+  "Troop",
+  "Wood",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Elemental"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Plant](/Traits.aspx?ID=125), [Troop](/Traits.aspx?ID=367), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Elemental",
+  "Plant",
+  "Troop",
+  "Wood"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2683",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "area": 10,
+  "fire": 10
+ },
+ "weakness_markdown": "area damage 10, [fire](/Traits.aspx?ID=72) 10, [splash](/Traits.aspx?ID=150) damage 5",
+ "weakness_raw": "area damage 10,  fire  10,  splash  damage 5",
+ "will_save": 16,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

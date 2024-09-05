@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -8,23 +7,30 @@
  "feat_markdown": "Boost Modulation",
  "id": "feat-3073",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Boost Modulation](/Feats.aspx?ID=3073) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 29</row>\n\n**Prerequisites**\r\n[offensive boost](/Classes.aspx?ID=19)\n\n</column>\r\n\r\n---\r\n\r\nYou aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once. Choose two additional [offensive boosts](/Classes.aspx?ID=19). You can use an Interact action to change the offensive boost currently affecting your weapon, choosing between the one you chose for the class feature and the two you chose for this modification. If your weapon has the [modular](/Traits.aspx?ID=271) trait, you can swap the offensive boost as part of the Interact action you take to use that trait.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Boost Modulation](/Feats.aspx?ID=3073) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 29\n\n**Prerequisites**\r\n[offensive boost](/Classes.aspx?ID=19)\n\n</column>\r\n\r\n---\r\n\r\nYou aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once. Choose two additional [offensive boosts](/Classes.aspx?ID=19). You can use an Interact action to change the offensive boost currently affecting your weapon, choosing between the one you chose for the class feature and the two you chose for this modification. If your weapon has the [modular](/Traits.aspx?ID=271) trait, you can swap the offensive boost as part of the Interact action you take to use that trait.",
  "name": "Boost Modulation",
  "pfs": "Standard",
  "prerequisite": "offensive boost",
  "prerequisite_markdown": "[offensive boost](/Classes.aspx?ID=19)",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 29",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 29</row>\n\n**Prerequisites**\r\n[offensive boost](/Classes.aspx?ID=19)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 29\n\n**Prerequisites**\r\n[offensive boost](/Classes.aspx?ID=19)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 29"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 29</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 29",
  "speed": {},
  "summary": "You aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once.",
  "summary_markdown": "You aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once.",
@@ -32,6 +38,9 @@
  "trait": [
   "Inventor",
   "Manipulate"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Inventor](/Traits.aspx?ID=408), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [

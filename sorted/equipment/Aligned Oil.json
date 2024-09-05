@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -10,24 +10,32 @@
  "item_category": "Consumables",
  "item_subcategory": "Oils",
  "level": 9,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Aligned Oil](/Equipment.aspx?ID=173)\r\n</title>\n\n<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup></row>\n\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis oil fills a weapon with cosmic power of an alignment. Each _aligned oil_ is crafted to one alignment: chaos, evil, good, or law (such as a _good-aligned oil_). A weapon anointed with this oil gains the effects of the property rune matching its alignment: [_anarchic_](/Equipment.aspx?ID=291) (chaos), [_axiomatic_](/Equipment.aspx?ID=292) (law), [_holy_](/Equipment.aspx?ID=300) (good), or [_unholy_](/Equipment.aspx?ID=308) (evil). This lasts for 1 minute.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 9\"\r\n    pfs=\"Standard\"\r\n>\r\n[Aligned Oil](/Equipment.aspx?ID=173)\r\n</title>\n\n<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup>\n\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis oil fills a weapon with cosmic power of an alignment. Each _aligned oil_ is crafted to one alignment: chaos, evil, good, or law (such as a _good-aligned oil_). A weapon anointed with this oil gains the effects of the property rune matching its alignment: [_anarchic_](/Equipment.aspx?ID=291) (chaos), [_axiomatic_](/Equipment.aspx?ID=292) (law), [_holy_](/Equipment.aspx?ID=300) (good), or [_unholy_](/Equipment.aspx?ID=308) (evil). This lasts for 1 minute.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Aligned Oil",
  "pfs": "Standard",
  "price": 14000,
  "price_raw": "140 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 561",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2019-08-01",
+ "remaster_id": "0",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup></row>\r\n\r\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis oil fills a weapon with cosmic power of an alignment. Each  aligned oil  is crafted to one alignment: chaos, evil, good, or law (such as a  …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup>\r\n\r\n**Price** 140 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 2 hands\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis oil fills a weapon with cosmic power of an alignment. Each  aligned oil  is crafted to one alignment: chaos, evil, good, or law (such as a  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Core Rulebook"
  ],
  "source_raw": [
   "Core Rulebook pg. 561"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 561 <sup>4.0</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -39,6 +47,11 @@
   "Divine",
   "Evocation",
   "Oil"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Tradition",
+  "School"
  ],
  "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Divine](/Traits.aspx?ID=48), [Evocation](/Traits.aspx?ID=65), [Oil](/Traits.aspx?ID=121)",
  "trait_raw": [

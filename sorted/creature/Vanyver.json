@@ -1,10 +1,26 @@
 {
  "ac": 34,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "CE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  27,
+  27,
+  27
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Entropy's Shadow",
   "Sunlight Powerlessness",
@@ -16,10 +32,16 @@
  "creature_family": "Darvakka",
  "creature_family_markdown": "[Darvakka](/MonsterFamilies.aspx?ID=305)",
  "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 29,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
  "hp": 295,
  "hp_raw": "295 ( negative healing )",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
  "id": "creature-1848",
  "image": [
   "/Images/Monsters/Darvakka_Vanyver.png"
@@ -33,6 +55,8 @@
  ],
  "immunity_markdown": "[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)",
  "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Abyssal",
   "Common",
@@ -42,43 +66,63 @@
  ],
  "language_markdown": "[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1), [Infernal](/Languages.aspx?ID=19), [Necril](/Languages.aspx?ID=20); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet",
  "level": 13,
- "markdown": "<title level=\"1\" pfs=\"Restricted\">[Vanyver (Nightwing)](/Monsters.aspx?ID=1848)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though powerful, they're the least of the darvakkas, and the most likely to submit to a master, either another of their kind or a mortal with a reputation for being especially murderous and destructive. Vanyvers agree to follow their masters as a temporary means of maximizing the death and destruction they can enact but will quickly turn on any master they feel falters in this goal.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Darvakka_Vanyver.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Vanyver](/Monsters.aspx?ID=1848)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Darvakka\" url=\"/Traits.aspx?ID=422\" />\r\n<trait label=\"Shadow\" url=\"/Traits.aspx?ID=143\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 82</row>\n\n**Perception** +26; [greater darkvision](/MonsterAbilities.aspx?ID=12), [lifesense](/MonsterAbilities.aspx?ID=21) 60 feet\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1), [Infernal](/Languages.aspx?ID=19), [Necril](/Languages.aspx?ID=20); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +23, [Arcana](/Skills.aspx?ID=2) +23, [Athletics](/Skills.aspx?ID=3) +27, [Negative Energy Plane Lore](/Skills.aspx?ID=8) +25, [Religion](/Skills.aspx?ID=13) +24, [Shadow Plane Lore](/Skills.aspx?ID=8) +25, [Stealth](/Skills.aspx?ID=15) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +6\r\n\r\n**Int** +4\r\n\r\n**Wis** +5\r\n\r\n**Cha** +5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 34 \r\n\r\n**Fort** +29 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n**HP** 295\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)\r\n\r\n**Resistances**\r\n[cold](/Traits.aspx?ID=27) 10\r\n\r\n**Weaknesses**\r\n[good](/Traits.aspx?ID=83) 10, [silver](/Equipment.aspx?ID=379) 10\r\n\r\n**Entropy's Shadow** ([aura](/Traits.aspx?ID=206), [divine](/Traits.aspx?ID=48), [necromancy](/Traits.aspx?ID=117), [negative](/Traits.aspx?ID=118)) 40 feet. Vanyvers leak entropy and corruption from their very being. A living creature entering or starting its turn in the aura takes 3d6 negative damage with a DC 30 [basic](/Rules.aspx?ID=329) Fortitude save. If it fails, it's also [enfeebled 1](/Conditions.aspx?ID=13) for 1 minute and [pulled](/Rules.aspx?ID=451) 10 feet toward the vanyver.<br />**Sunlight Powerlessness** A vanyver caught in sunlight is [stunned 2](/Conditions.aspx?ID=36) and [clumsy 2](/Conditions.aspx?ID=3).<br />**Catching Bite** <actions string=\"Reaction\" /> **Trigger** A creature within reach of the vanyver's jaws makes a melee Strike against the vanyver with a weapon; **Effect** The vanyver chooses to be hit. If the attack would've missed, it hits. The vanyver catches the weapon in their jaws and uses Drain Magic on it without fulfilling Drain Magic's requirements.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +27 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+11 piercing plus 1d10 cold and Drain Magic\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +27 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+11 bludgeoning plus 1d10 cold and [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwing +27 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+11 bludgeoning plus 1d10 cold\r\n\r\n**Divine Innate Spells** DC 34\r\n- **Cantrips (7th)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **4th**\r\n[Darkness](/Spells.aspx?ID=59), [See Invisibility](/Spells.aspx?ID=271)\r\n- **6th**\r\n[Dispel Magic](/Spells.aspx?ID=78) (at will), [Harm](/Spells.aspx?ID=146) (×3)\r\n- **7th**\r\n[Plane Shift](/Spells.aspx?ID=222) (to [Material Plane;](/Planes.aspx?ID=1) [Negative Energy Plane;](/Planes.aspx?ID=2) or [Shadow Plane](/Planes.aspx?ID=11) only)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  3d10+5 piercing, DC 33\r\n\r\n**Drain Magic** <actions string=\"Single Action\" />  **Requirements** The vanyver's last action was a successful jaws Strike against a creature, object, or spell effect; **Effect** The vanyver casts an innate [_dispel magic_](/Spells.aspx?ID=78) on the same target; if the target was a creature, the vanyver can target a spell affecting the creature instead. If a spell effect or item is successfully [counteracted](/Rules.aspx?ID=371), the vanyver gains temporary Hit Points equal to double the counteract level of the effect that was counteracted.\r\n\r\n**Snatch**   The vanyver can Fly at half Speed while they have a creature [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) in either or both of their talons, carrying that creature along with them.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-305\" />",
+ "markdown": "<title level=\"1\" pfs=\"Restricted\">[Vanyver (Nightwing)](/Monsters.aspx?ID=1848)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nVanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though powerful, they're the least of the darvakkas, and the most likely to submit to a master, either another of their kind or a mortal with a reputation for being especially murderous and destructive. Vanyvers agree to follow their masters as a temporary means of maximizing the death and destruction they can enact but will quickly turn on any master they feel falters in this goal.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Darvakka_Vanyver.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Vanyver](/Monsters.aspx?ID=1848)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Darvakka\" url=\"/Traits.aspx?ID=422\" />\r\n<trait label=\"Shadow\" url=\"/Traits.aspx?ID=143\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 82\n\n**Perception** +26; [greater darkvision](/MonsterAbilities.aspx?ID=12), [lifesense](/MonsterAbilities.aspx?ID=21) 60 feet\r\n\r\n**Languages**\r\n[Abyssal](/Languages.aspx?ID=12), [Common](/Languages.aspx?ID=1), [Infernal](/Languages.aspx?ID=19), [Necril](/Languages.aspx?ID=20); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +23, [Arcana](/Skills.aspx?ID=2) +23, [Athletics](/Skills.aspx?ID=3) +27, [Negative Energy Plane Lore](/Skills.aspx?ID=8) +25, [Religion](/Skills.aspx?ID=13) +24, [Shadow Plane Lore](/Skills.aspx?ID=8) +25, [Stealth](/Skills.aspx?ID=15) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +6\r\n\r\n**Int** +4\r\n\r\n**Wis** +5\r\n\r\n**Cha** +5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 34 \r\n\r\n**Fort** +29 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +22 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 295\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects, [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [unconscious](/Conditions.aspx?ID=38)\r\n\r\n**Resistances**\r\n[cold](/Traits.aspx?ID=27) 10\r\n\r\n**Weaknesses**\r\n[good](/Traits.aspx?ID=83) 10, [silver](/Equipment.aspx?ID=379) 10\r\n\r\n**Entropy's Shadow** ([aura](/Traits.aspx?ID=206), [divine](/Traits.aspx?ID=48), [necromancy](/Traits.aspx?ID=117), [negative](/Traits.aspx?ID=118)) 40 feet. Vanyvers leak entropy and corruption from their very being. A living creature entering or starting its turn in the aura takes 3d6 negative damage with a DC 30 [basic](/Rules.aspx?ID=329) Fortitude save. If it fails, it's also [enfeebled 1](/Conditions.aspx?ID=13) for 1 minute and [pulled](/Rules.aspx?ID=451) 10 feet toward the vanyver.<br />**Sunlight Powerlessness** A vanyver caught in sunlight is [stunned 2](/Conditions.aspx?ID=36) and [clumsy 2](/Conditions.aspx?ID=3).<br />**Catching Bite** <actions string=\"Reaction\" /> **Trigger** A creature within reach of the vanyver's jaws makes a melee Strike against the vanyver with a weapon; **Effect** The vanyver chooses to be hit. If the attack would've missed, it hits. The vanyver catches the weapon in their jaws and uses Drain Magic on it without fulfilling Drain Magic's requirements.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +27 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+11 piercing plus 1d10 cold and Drain Magic\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntalon +27 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+11 bludgeoning plus 1d10 cold and [Grab](/MonsterAbilities.aspx?ID=18)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwing +27 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d6+11 bludgeoning plus 1d10 cold\r\n\r\n**Divine Innate Spells** DC 34\r\n- **Cantrips (7th)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **4th**\r\n[Darkness](/Spells.aspx?ID=59), [See Invisibility](/Spells.aspx?ID=271)\r\n- **6th**\r\n[Dispel Magic](/Spells.aspx?ID=78) (at will), [Harm](/Spells.aspx?ID=146) (×3)\r\n- **7th**\r\n[Plane Shift](/Spells.aspx?ID=222) (to [Material Plane;](/Planes.aspx?ID=1) [Negative Energy Plane;](/Planes.aspx?ID=2) or [Shadow Plane](/Planes.aspx?ID=11) only)\r\n\r\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  3d10+5 piercing, DC 33\r\n\r\n**Drain Magic** <actions string=\"Single Action\" />  **Requirements** The vanyver's last action was a successful jaws Strike against a creature, object, or spell effect; **Effect** The vanyver casts an innate [_dispel magic_](/Spells.aspx?ID=78) on the same target; if the target was a creature, the vanyver can target a spell affecting the creature instead. If a spell effect or item is successfully [counteracted](/Rules.aspx?ID=371), the vanyver gains temporary Hit Points equal to double the counteract level of the effect that was counteracted.\r\n\r\n**Snatch**   The vanyver can Fly at half Speed while they have a creature [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) in either or both of their talons, carrying that creature along with them.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-305\" />",
  "name": "Vanyver",
  "npc": false,
  "perception": 26,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
  "pfs": "Restricted",
+ "primary_source": "Book of the Dead",
+ "primary_source_raw": "Book of the Dead pg. 82",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 23,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2022-04-27",
  "resistance": {
   "cold": 10
  },
  "resistance_markdown": "[cold](/Traits.aspx?ID=27) 10",
  "resistance_raw": " cold  10",
- "search_markdown": "<traits>\r\n<trait label=\"Darvakka\" url=\"/Traits.aspx?ID=422\" />\r\n<trait label=\"Shadow\" url=\"/Traits.aspx?ID=143\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 82</row>\r\n\r\n**Creature Family** [Darvakka](/MonsterFamilies.aspx?ID=305)\r\n\r\n<row gap=\"medium\">\r\n**HP** 295 ( negative healing )\r\n\r\n**AC** 34\r\n\r\n**Fort** +29\r\n\r\n**Ref** +23\r\n\r\n**Will** +22\r\n\r\n**Perception** +26\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Darvakka\" url=\"/Traits.aspx?ID=422\" />\r\n<trait label=\"Shadow\" url=\"/Traits.aspx?ID=143\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 82\r\n\r\n**Creature Family** [Darvakka](/MonsterFamilies.aspx?ID=305)\r\n\r\n<row gap=\"medium\">\r\n**HP** 295 ( negative healing )\r\n\r\n**AC** 34\r\n\r\n**Fort** +29\r\n\r\n**Ref** +23\r\n\r\n**Will** +22\r\n\r\n**Perception** +26\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nVanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though …\r\n</summary>",
  "sense": " greater darkvision ,  lifesense  60 feet",
  "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=12), [lifesense](/MonsterAbilities.aspx?ID=21) 60 feet",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Acrobatics +23",
-  "Arcana +23",
-  "Athletics +27",
-  "Negative Energy Plane Lore +25",
-  "Religion +24",
-  "Shadow Plane Lore +25",
-  "Stealth +25"
+  "Acrobatics",
+  "Arcana",
+  "Athletics",
+  "Negative Energy Plane Lore",
+  "Religion",
+  "Shadow Plane Lore",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +23, [Arcana](/Skills.aspx?ID=2) +23, [Athletics](/Skills.aspx?ID=3) +27, [Negative Energy Plane Lore](/Skills.aspx?ID=8) +25, [Religion](/Skills.aspx?ID=13) +24, [Shadow Plane Lore](/Skills.aspx?ID=8) +25, [Stealth](/Skills.aspx?ID=15) +25",
+ "skill_mod": {
+  "acrobatics": 23,
+  "arcana": 23,
+  "athletics": 27,
+  "religion": 24,
+  "stealth": 25
+ },
  "source": [
   "Book of the Dead"
  ],
  "source_raw": [
   "Book of the Dead pg. 82"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Book of the Dead](/Sources.aspx?ID=118) pg. 82</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Book of the Dead](/Sources.aspx?ID=118) pg. 82",
  "speed": {
   "fly": 60,
   "land": 25,
@@ -95,8 +139,32 @@
   "Detect Magic"
  ],
  "spell_markdown": "[Darkness](/Spells.aspx?ID=59), [Detect Magic](/Spells.aspx?ID=66), [Dispel Magic](/Spells.aspx?ID=78), [Harm](/Spells.aspx?ID=146), [Plane Shift](/Spells.aspx?ID=222), [See Invisibility](/Spells.aspx?ID=271)",
+ "spell_dc": [
+  34
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "25",
+ "strike_damage_average": [
+  27,
+  33,
+  33
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
@@ -104,12 +172,21 @@
  "summary": "Vanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though …",
  "summary_markdown": "Vanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though …",
  "text": " Vanyver (Nightwing) Vanyvers are large, humanoid bats shaped from void and shadowstuff, their red eyes glowing like tiny stars in an otherwise lightless night. Though powerful, they're the least of the darvakkas, and the most likely to submit to a master, either another of their kind or a mortal with a reputation for being especially murderous and destructive. Vanyvers agree to follow their masters as a temporary means of maximizing the death and destruction they can enact but will quickly turn on any master they feel falters in this goal. Recall Knowledge - Undead (Religion): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Vanyver Source Book of the Dead pg. 82 Perception +26; greater darkvision, lifesense 60 feet Languages Abyssal, Common, Infernal, Necril; telepathy 100 feet Skills Acrobatics +23, Arcana +23, Athletics +27, Negative Energy Plane Lore +25, Religion +24, Shadow Plane Lore +25, Stealth +25 Str +8 Dex +4 Con +6 Int +4 Wis +5 Cha +5 --- AC 34 Fort +29 Ref +23 Will +22 HP 295 (negative healing) Immunities death effects, disease, paralyzed, poison, unconscious Resistances cold 10 Weaknesses good 10, silver 10 Entropy's Shadow (aura, divine, necromancy, negative) 40 feet. Vanyvers leak entropy and corruption from their very being. A living creature entering or starting its turn in the aura takes 3d6 negative damage with a DC 30 basic Fortitude save. If it fails, it's also enfeebled 1 for 1 minute and pulled 10 feet toward the vanyver. Sunlight Powerlessness A vanyver caught in sunlight is stunned 2 and clumsy 2. Catching Bite Reaction Trigger A creature within reach of the vanyver's jaws makes a melee Strike against the vanyver with a weapon; Effect The vanyver chooses to be hit. If the attack would've missed, it hits. The vanyver catches the weapon in their jaws and uses Drain Magic on it without fulfilling Drain Magic's requirements. --- Speed 25 feet, fly 60 feet Melee Single Action jaws +27 (Magical, reach 10 feet), Damage 3d10+11 piercing plus 1d10 cold and Drain Magic Melee Single Action talon +27 (Magical, reach 10 feet), Damage 3d10+11 bludgeoning plus 1d10 cold and Grab Melee Single Action wing +27 (Agile, Magical, reach 15 feet), Damage 3d6+11 bludgeoning plus 1d10 cold Divine Innate Spells DC 34 - Cantrips (7th) Detect Magic - 4th Darkness, See Invisibility - 6th Dispel Magic (at will), Harm (×3) - 7th Plane Shift (to Material Plane; Negative Energy Plane; or Shadow Plane only) Constrict Single Action 3d10+5 piercing, DC 33 Drain Magic Single Action Requirements The vanyver's last action was a successful jaws Strike against a creature, object, or spell effect; Effect The vanyver casts an innate dispel magic on the same target; if the target was a creature, the vanyver can target a spell affecting the creature instead. If a spell effect or item is successfully counteracted, the vanyver gains temporary Hit Points equal to double the counteract level of the effect that was counteracted. Snatch The vanyver can Fly at half Speed while they have a creature grabbed or restrained in either or both of their talons, carrying that creature along with them. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Darvakka",
   "Shadow",
   "Undead",
   "CE",
   "Huge"
+ ],
+ "trait_group": [
+  "Monster",
+  "Planar",
+  "Creature Type"
  ],
  "trait_markdown": "[Darvakka](/Traits.aspx?ID=422), [Shadow](/Traits.aspx?ID=143), [Undead](/Traits.aspx?ID=160)",
  "trait_raw": [
@@ -130,5 +207,9 @@
  "weakness_markdown": "[good](/Traits.aspx?ID=83) 10, [silver](/Equipment.aspx?ID=379) 10",
  "weakness_raw": " good  10,  silver  10",
  "will_save": 22,
- "wisdom": 5
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

@@ -1,21 +1,41 @@
 {
  "actions": "Three Actions",
- "area": "all squares on the ground that contain plants in an 80-foot burst",
+ "actions_number": 6,
+ "area": [
+  80
+ ],
+ "area_raw": "all squares on the ground that contain plants in an 80-foot burst",
+ "area_type": [
+  "burst",
+  "square"
+ ],
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "material",
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
+ "deity": [
+  "Verilorn"
+ ],
+ "deity_markdown": "[Verilorn](/Deities.aspx?ID=276)",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
+ "element": [
+  "Wood"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   6,
@@ -26,31 +46,36 @@
  ],
  "id": "spell-954",
  "level": 6,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">[Nature's Reprisal](/Spells.aspx?ID=954)</title>\n\n<traits>\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 117 <sup>1.1</sup></row>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** all squares on the ground that contain plants in an 80-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe plant life within the area begins to writhe and lash out against your enemies as you call upon nature to impede your foes. To your enemies, the area becomes difficult terrain, and areas that were naturally difficult terrain due to plants become greater difficult terrain as well as hazardous terrain, dealing 6 poison damage to an enemy each time it enters an affected square.\n\n---\r\n**Heightened (+1)** The poison damage of the hazardous terrain increases by 1.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 6\" pfs=\"Standard\">\r\n[Nature's Reprisal](/Spells.aspx?ID=954)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 117 <sup>1.1</sup>\n\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Verilorn](/Deities.aspx?ID=276)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** all squares on the ground that contain plants in an 80-foot burst\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nThe plant life within the area begins to writhe and lash out against your enemies as you call upon nature to impede your foes. To your enemies, the area becomes difficult terrain, and areas that were naturally difficult terrain due to plants become greater difficult terrain as well as hazardous terrain, dealing 6 poison damage to an enemy each time it enters an affected square.\n\n---\r\n**Heightened (+1)** The poison damage of the hazardous terrain increases by 1.",
  "name": "Nature's Reprisal",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 117",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 117 <sup>1.1</sup></row>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** all squares on the ground that contain plants in an 80-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAnger plant life to slow and damage creatures.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n<trait label=\"Poison\" url=\"/Traits.aspx?ID=126\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 117 <sup>1.1</sup>\r\n\r\n**Tradition**\r\n[Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Verilorn](/Deities.aspx?ID=276)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** all squares on the ground that contain plants in an 80-foot burst\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAnger plant life to slow and damage creatures.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 117"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 117 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 117 <sup>1.1</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Anger plant life to slow and damage creatures.",
  "summary_markdown": "Anger plant life to slow and damage creatures.",
- "text": " Nature's Reprisal Source Secrets of Magic pg. 117 1.1 Tradition Primal Cast Three Actions material, somatic, verbal Range 120 feet Area all squares on the ground that contain plants in an 80-foot burst Duration 1 minute --- The plant life within the area begins to writhe and lash out against your enemies as you call upon nature to impede your foes. To your enemies, the area becomes difficult terrain, and areas that were naturally difficult terrain due to plants become greater difficult terrain as well as hazardous terrain, dealing 6 poison damage to an enemy each time it enters an affected square. --- Heightened (+1) The poison damage of the hazardous terrain increases by 1.",
+ "text": "\nNature's Reprisal Three Actions Source Secrets of Magic pg. 117 1.1 Tradition Primal Deity Verilorn Cast material, somatic, verbal Range 120 feet Area all squares on the ground that contain plants in an 80-foot burst Duration 1 minute --- The plant life within the area begins to writhe and lash out against your enemies as you call upon nature to impede your foes. To your enemies, the area becomes difficult terrain, and areas that were naturally difficult terrain due to plants become greater difficult terrain as well as hazardous terrain, dealing 6 poison damage to an enemy each time it enters an affected square. --- Heightened (+1) The poison damage of the hazardous terrain increases by 1.",
  "tradition": [
   "Primal"
  ],
@@ -58,13 +83,21 @@
  "trait": [
   "Plant",
   "Poison",
-  "Transmutation"
+  "Transmutation",
+  "Wood"
  ],
- "trait_markdown": "[Plant](/Traits.aspx?ID=125), [Poison](/Traits.aspx?ID=126), [Transmutation](/Traits.aspx?ID=157)",
+ "trait_group": [
+  "Creature Type",
+  "Poison",
+  "School",
+  "Elemental"
+ ],
+ "trait_markdown": "[Plant](/Traits.aspx?ID=125), [Poison](/Traits.aspx?ID=126), [Transmutation](/Traits.aspx?ID=157), [Wood](/Traits.aspx?ID=508)",
  "trait_raw": [
   "Plant",
   "Poison",
-  "Transmutation"
+  "Transmutation",
+  "Wood"
  ],
  "type": "Spell",
  "url": "/Spells.aspx?ID=954",

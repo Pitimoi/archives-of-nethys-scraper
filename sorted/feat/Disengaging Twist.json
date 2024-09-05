@@ -1,9 +1,9 @@
 {
  "actions": "Reaction",
+ "actions_number": 1,
  "archetype": [
   "Wrestler"
  ],
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -12,23 +12,30 @@
  "feat_markdown": "Disengaging Twist",
  "id": "feat-3395",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Disengaging Twist](/Feats.aspx?ID=3395) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 126</row>\n\n**Archetype** [Wrestler](/Archetypes.aspx?ID=127)\n\n**Prerequisites**\r\n[Wrestler Dedication](/Feats.aspx?ID=3394)\n\n**Trigger**\r\nA creature gives you the [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) condition.\n\n</column>\r\n\r\n---\r\n\r\nYour ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments. Attempt an [Athletics](/Skills.aspx?ID=3) check to [Escape](/Actions.aspx?ID=79) the triggering condition. You gain a +2 circumstance bonus to this check.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Disengaging Twist](/Feats.aspx?ID=3395) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 126\n\n**Archetype** [Wrestler](/Archetypes.aspx?ID=127)\n\n**Prerequisites**\r\n[Wrestler Dedication](/Feats.aspx?ID=3394)\n\n**Trigger**\r\nA creature gives you the [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) condition.\n\n</column>\r\n\r\n---\r\n\r\nYour ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments. Attempt an [Athletics](/Skills.aspx?ID=3) check to [Escape](/Actions.aspx?ID=79) the triggering condition. You gain a +2 circumstance bonus to this check.",
  "name": "Disengaging Twist",
  "pfs": "Standard",
  "prerequisite": "Wrestler Dedication",
  "prerequisite_markdown": "[Wrestler Dedication](/Feats.aspx?ID=3394)",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 126",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 126</row>\n\n**Prerequisites**\r\n[Wrestler Dedication](/Feats.aspx?ID=3394)\n\n**Trigger**\r\nA creature gives you the [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) condition.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 126\n\n**Prerequisites**\r\n[Wrestler Dedication](/Feats.aspx?ID=3394)\n\n**Trigger**\r\nA creature gives you the [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) condition.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 126"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 126</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 126",
  "speed": {},
  "summary": "Your ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments.",
  "summary_markdown": "Your ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments.",

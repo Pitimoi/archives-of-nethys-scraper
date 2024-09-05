@@ -1,0 +1,205 @@
+{
+ "ac": 27,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  15,
+  18
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Archon's Protection",
+  "Flame of Justice",
+  "Flaming Slash",
+  "Maintain Formation"
+ ],
+ "creature_family": "Archon",
+ "creature_family_markdown": "[Archon](/MonsterFamilies.aspx?ID=365)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 17,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 100,
+ "hp_raw": "100",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2834",
+ "image": [
+  "/Images/Monsters/Aesra.webp"
+ ],
+ "immunity": [
+  "fear"
+ ],
+ "immunity_markdown": "[fear](/Traits.aspx?ID=598)",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Full Plate"
+ ],
+ "language": [
+  "Diabolic",
+  "Draconic",
+  "Empyrean",
+  "Utopian",
+  "<%SPELLS%1728%%><i>truespeech</i><%END>"
+ ],
+ "language_markdown": "[Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115), [Utopian](/Languages.aspx?ID=36); [_truespeech_](/Spells.aspx?ID=1728)",
+ "level": 7,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Aesra (Legion Archon)](/Monsters.aspx?ID=2834)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nDespite their flaming blades and ring of unblinking eyes, aesras are the diplomats of peace among the archons, preferring justice via compromise and mutual benefit rather than justice by the sword. Nonetheless, when forced to fight against fiendish powers aesras don't hesitate in battle, mounting offensives under divine commanders like [Iomedae](/Deities.aspx?ID=285).\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Celestial](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 23\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 21\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 18\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Aesra.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 7\">[Aesra](/Monsters.aspx?ID=2834)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Archon\" url=\"/Traits.aspx?ID=536\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 27\n\n**Perception** +15; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Diabolic](/Languages.aspx?ID=117), [Draconic](/Languages.aspx?ID=2), [Empyrean](/Languages.aspx?ID=115), [Utopian](/Languages.aspx?ID=36); [_truespeech_](/Spells.aspx?ID=1728)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +14, [Diplomacy](/Skills.aspx?ID=6) +16, [Intimidation](/Skills.aspx?ID=7) +16, [Religion](/Skills.aspx?ID=13) +13, [Survival](/Skills.aspx?ID=16) +14\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +2\r\n\r\n**Con** +4\r\n\r\n**Int** +1\r\n\r\n**Wis** +2\r\n\r\n**Cha** +5\r\n</row>\n\n**Items**\r\n[Full Plate](/Armor.aspx?ID=13)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 [all-around vision](/MonsterAbilities.aspx?ID=49)\r\n\r\n**Fort** +17 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +15 \r\n\r\n+1 status to all saves vs. [magical](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\n\n</row>\r\n\r\n**Immunities**\r\n[fear](/Traits.aspx?ID=598)\r\n\r\n**Resistances**\r\n[fire](/Traits.aspx?ID=604) 15\r\n\r\n**Weaknesses**\r\n[unholy](/Traits.aspx?ID=521) 10\r\n\r\n**Archon's Protection** <actions string=\"Reaction\" /> **Trigger** An enemy damages the archon's ally and both are within 15 feet of the archon; **Effect** The ally gains resistance 10 to all damage against the triggering damage and the archon can make a Strike against the enemy.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, fly 60 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nflame of justice +18 ([Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d10+5 slashing plus 1d6 fire and flame of justice\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nflame of justice +15 ([Holy](/Traits.aspx?ID=517), [Magical](/Traits.aspx?ID=103), [range increment 30 feet](/Traits.aspx?ID=248), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 2d10+5 slashing plus 1d6 fire and flame of justice\r\n\r\n**Divine Innate Spells** DC 24\r\n- **Cantrips (4th)**\r\n[Light](/Spells.aspx?ID=171), [Message](/Spells.aspx?ID=190)\r\n- **1st**\r\n[Sure Strike](/Spells.aspx?ID=1709) (×3)\r\n- **4th**\r\n[Translocate](/Spells.aspx?ID=1724) (at will)\r\n- **Constant (5th)**\r\n[Truespeech](/Spells.aspx?ID=1728)\r\n\r\n**Flame of Justice**  ([Divine](/Traits.aspx?ID=48), [Holy](/Traits.aspx?ID=517)) An aesra's spirit of righteousness manifests as a two-handed sword of fire. If disarmed or thrown as a ranged weapon, the flame of justice vanishes after landing or dealing damage and reappears in the aesra's hands again instantly. On a critical hit, the target also takes 2d6 [persistent fire damage](/Conditions.aspx?ID=29).\r\n\r\n**Flaming Slash** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Fire](/Traits.aspx?ID=72), [Holy](/Traits.aspx?ID=517), [Manipulate](/Traits.aspx?ID=104)) The aesra sweeps their sword, creating a 15-foot cone of sacred flame that deals 5d6 fire damage with a DC 23 [basic](/Rules.aspx?ID=329) Reflex save.\r\n\r\n**Maintain Formation**   When an aesra casts [_translocate_](/Spells.aspx?ID=1724), they can bring an adjacent willing [archon](/MonsterFamilies.aspx?ID=365) along with them. That archon appears in an empty space adjacent to the aesra's new space.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-365\" />",
+ "name": "Aesra",
+ "npc": false,
+ "perception": 15,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 27",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 11,
+ "reflex_save_scale": "Terrible",
+ "reflex_save_scale_number": 1,
+ "release_date": "2024-03-27",
+ "resistance": {
+  "fire": 15
+ },
+ "resistance_markdown": "[fire](/Traits.aspx?ID=604) 15",
+ "resistance_raw": " fire  15",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Archon\" url=\"/Traits.aspx?ID=536\" />\r\n<trait label=\"Celestial\" url=\"/Traits.aspx?ID=551\" />\r\n<trait label=\"Holy\" url=\"/Traits.aspx?ID=517\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 27\r\n\r\n**Creature Family** [Archon](/MonsterFamilies.aspx?ID=365)\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\r\n\r\n**AC** 27\r\n\r\n**Fort** +17\r\n\r\n**Ref** +11\r\n\r\n**Will** +15\r\n\r\n**Perception** +15\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nDespite their flaming blades and ring of unblinking eyes, aesras are the diplomats of peace among the archons, preferring justice via compromise and …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Diplomacy",
+  "Intimidation",
+  "Religion",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +13, [Athletics](/Skills.aspx?ID=3) +14, [Diplomacy](/Skills.aspx?ID=6) +16, [Intimidation](/Skills.aspx?ID=7) +16, [Religion](/Skills.aspx?ID=13) +13, [Survival](/Skills.aspx?ID=16) +14",
+ "skill_mod": {
+  "acrobatics": 13,
+  "athletics": 14,
+  "diplomacy": 16,
+  "intimidation": 16,
+  "religion": 13,
+  "survival": 14
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 27"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 27",
+ "speed": {
+  "fly": 60,
+  "land": 30,
+  "max": 60
+ },
+ "speed_markdown": "30 feet, fly 60 feet",
+ "speed_raw": "30 feet, fly 60 feet",
+ "spell": [
+  "Translocate",
+  "Sure Strike",
+  "Light",
+  "Message",
+  "Truespeech"
+ ],
+ "spell_markdown": "[Light](/Spells.aspx?ID=171), [Message](/Spells.aspx?ID=190), [Sure Strike](/Spells.aspx?ID=1709), [Translocate](/Spells.aspx?ID=1724), [Truespeech](/Spells.aspx?ID=1728)",
+ "spell_dc": [
+  24
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  19,
+  19
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Despite their flaming blades and ring of unblinking eyes, aesras are the diplomats of peace among the archons, preferring justice via compromise and …",
+ "summary_markdown": "Despite their flaming blades and ring of unblinking eyes, aesras are the diplomats of peace among the archons, preferring justice via compromise and …",
+ "text": " Aesra (Legion Archon) Despite their flaming blades and ring of unblinking eyes, aesras are the diplomats of peace among the archons, preferring justice via compromise and mutual benefit rather than justice by the sword. Nonetheless, when forced to fight against fiendish powers aesras don't hesitate in battle, mounting offensives under divine commanders like Iomedae. Recall Knowledge - Celestial (Religion): DC 23 Unspecific Lore : DC 21 Specific Lore : DC 18 Aesra Source Monster Core pg. 27 Perception +15; darkvision Languages Diabolic, Draconic, Empyrean, Utopian; truespeech Skills Acrobatics +13, Athletics +14, Diplomacy +16, Intimidation +16, Religion +13, Survival +14 Str +5 Dex +2 Con +4 Int +1 Wis +2 Cha +5 Items Full Plate --- AC 27 all-around vision Fort +17 Ref +11 Will +15 +1 status to all saves vs. magical HP 100 Immunities fear Resistances fire 15 Weaknesses unholy 10 Archon's Protection Reaction Trigger An enemy damages the archon's ally and both are within 15 feet of the archon; Effect The ally gains resistance 10 to all damage against the triggering damage and the archon can make a Strike against the enemy. --- Speed 30 feet, fly 60 feet Melee Single Action flame of justice +18 (Holy, Magical, versatile P), Damage 2d10+5 slashing plus 1d6 fire and flame of justice Ranged Single Action flame of justice +15 (Holy, Magical, range increment 30 feet, versatile P), Damage 2d10+5 slashing plus 1d6 fire and flame of justice Divine Innate Spells DC 24 - Cantrips (4th) Light, Message - 1st Sure Strike (×3) - 4th Translocate (at will) - Constant (5th) Truespeech Flame of Justice (Divine, Holy) An aesra's spirit of righteousness manifests as a two-handed sword of fire. If disarmed or thrown as a ranged weapon, the flame of justice vanishes after landing or dealing damage and reappears in the aesra's hands again instantly. On a critical hit, the target also takes 2d6 persistent fire damage. Flaming Slash Two Actions (Divine, Fire, Holy, Manipulate) The aesra sweeps their sword, creating a 15-foot cone of sacred flame that deals 5d6 fire damage with a DC 23 basic Reflex save. Maintain Formation When an aesra casts translocate , they can bring an adjacent willing archon along with them. That archon appears in an empty space adjacent to the aesra's new space. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Archon",
+  "Celestial",
+  "Holy",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Archon](/Traits.aspx?ID=536), [Celestial](/Traits.aspx?ID=551), [Holy](/Traits.aspx?ID=517)",
+ "trait_raw": [
+  "Archon",
+  "Celestial",
+  "Holy"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2834",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "unholy": 10
+ },
+ "weakness_markdown": "[unholy](/Traits.aspx?ID=521) 10",
+ "weakness_raw": " unholy  10",
+ "will_save": 15,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

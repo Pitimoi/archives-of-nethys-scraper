@@ -1,57 +1,62 @@
 {
  "actions": "1 minute",
- "bloodline": [
-  "Elemental",
-  "Genie"
- ],
- "bloodline_markdown": "[Elemental](/Bloodlines.aspx?ID=6), [Genie](/Bloodlines.aspx?ID=11)",
- "breadcrumbs_spa": [],
+ "actions_number": 60,
+ "bloodline_markdown": "",
  "category": "spell",
  "component": [
-  "material",
-  "somatic",
-  "verbal"
+  "1 minute"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
- "duration_raw": "until the next time you make your daily preparations.",
+ "duration_raw": "until your next daily preparations",
+ "element": [
+  "Universal"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "9th"
+ ],
+ "heighten_group": [
+  "7th rank",
+  "Heightened 9th rank"
  ],
  "heighten_level": [
   7,
   9
  ],
- "id": "spell-100",
+ "id": "spell-1512",
+ "legacy_id": "spell-100",
  "level": 7,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">[Energy Aegis](/Spells.aspx?ID=100)</title>\n\n<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodlines**\r\n[Elemental](/Bloodlines.aspx?ID=6), [Genie](/Bloodlines.aspx?ID=11)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>1 minute ([material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until the next time you make your daily preparations.\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou protect the target with a powerful, long-lasting energy barrier. The target gains resistance 5 to acid, cold, electricity, fire, force, negative, positive, and sonic damage.\n\n---\r\n**Heightened (9th)** The resistances increase to 10.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 7\" pfs=\"Standard\">\r\n[Energy Aegis](/Spells.aspx?ID=1512)\r\n<actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 328\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 1 minute\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou protect the target with a powerful, long-lasting energy barrier. The target gains resistance 5 to acid, cold, electricity, fire, force, sonic, vitality, and void damage.\n\n---\r\n**Heightened (9th)** The resistances increase to 10.",
  "name": "Energy Aegis",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 328",
+ "primary_source_category": "Rulebooks",
  "range": 0,
  "range_raw": "touch",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "abjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\r\n\r\n**Bloodlines**\r\n[Elemental](/Bloodlines.aspx?ID=6), [Genie](/Bloodlines.aspx?ID=11)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n\r\n<row>1 minute ([material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284))</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** until the next time you make your daily preparations.\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA creature gains resistance to acid, cold, electricity, fire, force, and sonic.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 328\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\r\n\r\n**Spell Lists**\r\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\r\n\r\n**Cast** 1 minute\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** touch\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** until your next daily preparations\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA creature gains resistance to acid, cold, electricity, fire, force, sonic, vitality and void damage.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 335"
+  "Player Core pg. 328"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 335 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 328",
  "speed": {},
- "summary": "A creature gains resistance to acid, cold, electricity, fire, force, and sonic.",
- "summary_markdown": "A creature gains resistance to acid, cold, electricity, fire, force, and sonic.",
+ "spell_type": "Spell",
+ "summary": "A creature gains resistance to acid, cold, electricity, fire, force, sonic, vitality and void damage.",
+ "summary_markdown": "A creature gains resistance to acid, cold, electricity, fire, force, sonic, vitality and void damage.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Energy Aegis Source Core Rulebook pg. 335 4.0 Traditions Arcane, Divine, Occult, Primal Spell Lists Elemental Bloodlines Elemental, Genie Cast 1 minute (material, somatic, verbal) Range touch Target 1 creature Duration until the next time you make your daily preparations. --- You protect the target with a powerful, long-lasting energy barrier. The target gains resistance 5 to acid, cold, electricity, fire, force, negative, positive, and sonic damage. --- Heightened (9th) The resistances increase to 10.",
+ "text": "\nEnergy Aegis Source Player Core pg. 328 Traditions Arcane, Divine, Occult, Primal Spell Lists Elemental Cast 1 minute Range touch Target 1 creature Duration until your next daily preparations --- You protect the target with a powerful, long-lasting energy barrier. The target gains resistance 5 to acid, cold, electricity, fire, force, sonic, vitality, and void damage. --- Heightened (9th) The resistances increase to 10.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -61,13 +66,15 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
  "trait": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
- "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
  "trait_raw": [
-  "Abjuration"
+  "Concentrate",
+  "Manipulate"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=100",
+ "url": "/Spells.aspx?ID=1512",
  "weakness": {}
 }

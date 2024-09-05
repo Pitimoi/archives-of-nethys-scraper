@@ -1,68 +1,108 @@
 {
  "ac": 16,
- "alignment": "NE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Cacodaemonia",
   "Change Shape",
   "Soul Lock"
  ],
  "creature_family": "Daemon",
- "creature_family_markdown": "[Daemon](/MonsterFamilies.aspx?ID=26)",
+ "creature_family_markdown": "[Daemon](/MonsterFamilies.aspx?ID=386)",
  "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 7,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 22,
  "hp_raw": "22",
- "id": "creature-88",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2891",
  "image": [
-  "/Images/Monsters/Daemon_Cacodaemon.png"
+  "/Images/Monsters/Cacodaemon.webp"
  ],
  "immunity": [
   "death  effects"
  ],
- "immunity_markdown": "[death](/Traits.aspx?ID=40) effects\r\n",
+ "immunity_markdown": "[death](/Traits.aspx?ID=571) effects",
  "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Common",
   "Daemonic",
-  "telepathy 100 feet"
+  "<%UMR%79%%>telepathy<%END> 100 feet"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Daemonic](/Languages.aspx?ID=31); telepathy 100 feet",
+ "language_markdown": "[Daemonic](/Languages.aspx?ID=31); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet",
+ "legacy_id": "creature-88",
  "level": 1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Cacodaemon (Harvester Daemon)](/Monsters.aspx?ID=88)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese embodiments of demented violence and spite are spawned from eddies of angry and warped souls amid Abaddon’s mists. Cacodaemons constantly hunger for mortal souls and yearn to create suffering. As gnashing spheres of teeth, fins, and spines, they are the weakest of daemonkind, an amalgam of various petty forms of death without the strength that comes from focusing on a single cause of demise.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Daemon_Cacodaemon.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Cacodaemon](/Monsters.aspx?ID=88)</title>\r\n\r\n<traits>\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=213\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 70</row>\n\n**Perception** +6; darkvision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Daemonic](/Languages.aspx?ID=31); telepathy 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Deception](/Skills.aspx?ID=5) +5, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n**HP** 22\n\n**Immunities**\r\n[death](/Traits.aspx?ID=40) effects\n\n**Weaknesses**\r\ngood 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8 ([Agile](/Traits.aspx?ID=170), [Disease](/Traits.aspx?ID=46), [Evil](/Traits.aspx?ID=64), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d8 piercing plus 1d4 evil and cacodaemonia\r\n\r\n**Divine Innate Spells** DC 17\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Detect Alignment](/Spells.aspx?ID=65) (at will; good only), [Fear](/Spells.aspx?ID=110)\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**Cacodaemonia**  ([Disease](/Traits.aspx?ID=46)) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane; **Saving Throw** DC 17 Fortitude; **Stage 1** carrier (1 day); **Stage 2** [stupefied 1](/Conditions.aspx?ID=37) (1 day); **Stage 3** stupefied 2 (1 day)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=8)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157)) \n<ul><li>**Lizard** Speed 20 feet; **Melee** jaws +8 ([agile](/Traits.aspx?ID=170), [finesse](/Traits.aspx?ID=179)), **Damage** 1d8+1 piercing</li><li>**Octopus** size Small; Speed 20 feet, swim 30 feet; **Melee** tentacle +8 ([finesse](/Traits.aspx?ID=179)), **Damage** 1d8+1 bludgeoning plus Grab; **Melee** beak +8 ([agile](/Traits.aspx?ID=170), [finesse](/Traits.aspx?ID=179)), **Damage** 1d6 piercing plus 2 poison</li><li>**Scorpion** size Small; Speed 30 feet; **Melee** pincer +8 ([agile](/Traits.aspx?ID=170), [finesse](/Traits.aspx?ID=179)), **Damage** 1d6+1 bludgeoning plus Grab; **Melee** stinger +8 ([agile](/Traits.aspx?ID=170), [finesse](/Traits.aspx?ID=179)), **Damage** 1d6+1 piercing plus 1d4 poison</li></ul>\r\n\r\n**Soul Lock** <actions string=\"Three Actions\" /> ([Death](/Traits.aspx?ID=40), [Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) Once per day, a cacodaemon can ingest the soul of a sentient creature within 30 feet that died within the last minute. When it does, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in its gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but does not return the deceased creature to life. The caster of a spell to return a creature to life whose soul is trapped within a soul gem must succeed at a DC 30 Religion check. On a success, the soul gem shatters and the creature is returned to life as normal for the spell.<br /> By using an Interact action, a fiend can ingest a soul gem it is holding, condemning the soul to the fiend’s home plane. The fiend gains fast healing 5 for 1 minute.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-26\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Cacodaemon (Harvester Daemon)](/Monsters.aspx?ID=2891)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese twisted embodiments of violence and spite are spawned from eddies of angry and warped souls amid [Abaddon's](/Planes.aspx?ID=37) mists. Cacodaemons constantly hunger for mortal souls and yearn to create suffering. As gnashing spheres of teeth, fins, and spines, they are the weakest of daemonkind, an amalgam of various petty forms of death without the strength that comes from focusing on a single cause of demise.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Cacodaemon.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Cacodaemon](/Monsters.aspx?ID=2891)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=568\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 72\n\n**Perception** +6; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Daemonic](/Languages.aspx?ID=31); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +8, [Deception](/Skills.aspx?ID=5) +5, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +8\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +3\r\n\r\n**Con** +2\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +7 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +6 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 22\n\n</row>\r\n\r\n**Immunities**\r\n[death](/Traits.aspx?ID=571) effects\n\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 5 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8 ([Agile](/Traits.aspx?ID=170), [Disease](/Traits.aspx?ID=46), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103), [reach 0 feet](/Traits.aspx?ID=192), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 1d8 piercing plus cacodaemonia\r\n\r\n**Divine Innate Spells** DC 17\r\n- **Cantrips (1st)**\r\n[Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Fear](/Spells.aspx?ID=110)\r\n- **2nd**\r\n[Invisibility](/Spells.aspx?ID=164) (at will; self only)\r\n- **4th**\r\n[Read Omens](/Spells.aspx?ID=247)\r\n\r\n**Cacodaemonia**  ([Disease](/Traits.aspx?ID=46)) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane; **Saving Throw** DC 17 Fortitude; **Stage 1** carrier (1 day); **Stage 2** [stupefied 1](/Conditions.aspx?ID=94) (1 day); **Stage 3** stupefied 2 (1 day)\r\n\r\n**[Change Shape](/MonsterAbilities.aspx?ID=55)** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32), [Divine](/Traits.aspx?ID=48), [Polymorph](/Traits.aspx?ID=127)) \n<ul><li>**Lizard** Speed 20 feet; **Melee** jaws +8 (agile, finesse), **Damage** 1d8+1 piercing</li><li>**Octopus** size Small; Speed 20 feet, swim 30 feet; Skills [Athletics](/Skills.aspx?ID=36) +6; **Melee** tentacle +8 ([finesse](/Traits.aspx?ID=602)), **Damage** 1d8+1 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45) (page 359); **Melee** beak +8 ([agile](/Traits.aspx?ID=526), [finesse](/Traits.aspx?ID=602)), **Damage** 1d6 piercing plus 2 poison</li><li>**Scorpion** size Small; Speed 30 feet; **Melee** pincer +8 ([agile](/Traits.aspx?ID=526), [finesse](/Traits.aspx?ID=602)), **Damage** 1d6+1 bludgeoning plus [Grab](/MonsterAbilities.aspx?ID=45); **Melee** stinger +8 ([agile](/Traits.aspx?ID=526), [finesse](/Traits.aspx?ID=602)), **Damage** 1d6+1 piercing plus 1d4 poison</li></ul>\r\n\r\n**Soul Lock** <actions string=\"Three Actions\" /> ([Death](/Traits.aspx?ID=40), [Divine](/Traits.aspx?ID=48)) **Frequency** once per day; **Effect** The cacodaemon ingests the soul of a sentient creature within 30 feet that died within the last minute. When they do, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in their gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but doesn't return the deceased creature to life. If a caster attempts to return to life a creature whose soul is trapped within a soul gem, they fail unless they succeed at a DC 30 [Religion](/Skills.aspx?ID=46) check. A success causes the soul gem to shatter so the creature is returned to life as normal for the spell.<br /> A fiend can Interact to ingest a soul gem it is holding, condemning the soul to the fiend's home plane. The fiend gains [fast healing](/MonsterAbilities.aspx?ID=62) 5 for 1 minute.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-386\" />",
  "name": "Cacodaemon",
  "npc": false,
  "perception": 6,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 72",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=213\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 70</row>\r\n\r\n**Creature Family** [Daemon](/MonsterFamilies.aspx?ID=26)\r\n\r\n<row gap=\"medium\">\r\n**HP** 22\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese embodiments of demented violence and spite are spawned from eddies of angry and warped souls amid Abaddon’s mists. Cacodaemons constantly …\r\n</summary>",
- "sense": "darkvision",
- "sense_markdown": "darkvision",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Daemon\" url=\"/Traits.aspx?ID=568\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 72\r\n\r\n**Creature Family** [Daemon](/MonsterFamilies.aspx?ID=386)\r\n\r\n<row gap=\"medium\">\r\n**HP** 22\r\n\r\n**AC** 16\r\n\r\n**Fort** +7\r\n\r\n**Ref** +8\r\n\r\n**Will** +6\r\n\r\n**Perception** +6\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese twisted embodiments of violence and spite are spawned from eddies of angry and warped souls amid  Abaddon's  mists. Cacodaemons constantly …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +8",
-  "Deception +5",
-  "Religion +6",
-  "Stealth +8"
+  "Acrobatics",
+  "Deception",
+  "Religion",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +8, [Deception](/Skills.aspx?ID=5) +5, [Religion](/Skills.aspx?ID=13) +6, [Stealth](/Skills.aspx?ID=15) +8",
+ "skill_mod": {
+  "acrobatics": 8,
+  "deception": 5,
+  "religion": 6,
+  "stealth": 8
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 70"
+  "Monster Core pg. 72"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 70</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 72",
  "speed": {
   "fly": 40,
   "land": 5,
@@ -73,42 +113,74 @@
  "spell": [
   "Read Omens",
   "Invisibility",
-  "Detect Alignment",
   "Fear",
   "Detect Magic"
  ],
- "spell_markdown": "[Detect Alignment](/Spells.aspx?ID=65), [Detect Magic](/Spells.aspx?ID=66), [Fear](/Spells.aspx?ID=110), [Invisibility](/Spells.aspx?ID=164), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_markdown": "[Detect Magic](/Spells.aspx?ID=66), [Fear](/Spells.aspx?ID=110), [Invisibility](/Spells.aspx?ID=164), [Read Omens](/Spells.aspx?ID=247)",
+ "spell_dc": [
+  17
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "8",
+ "strike_damage_average": [
+  4
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "These embodiments of demented violence and spite are spawned from eddies of angry and warped souls amid Abaddon’s mists. Cacodaemons constantly …",
- "summary_markdown": "These embodiments of demented violence and spite are spawned from eddies of angry and warped souls amid Abaddon’s mists. Cacodaemons constantly …",
- "text": " Cacodaemon (Harvester Daemon) These embodiments of demented violence and spite are spawned from eddies of angry and warped souls amid Abaddon’s mists. Cacodaemons constantly hunger for mortal souls and yearn to create suffering. As gnashing spheres of teeth, fins, and spines, they are the weakest of daemonkind, an amalgam of various petty forms of death without the strength that comes from focusing on a single cause of demise. Recall Knowledge - Fiend (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Cacodaemon Source Bestiary pg. 70 Perception +6; darkvision Languages Common, Daemonic; telepathy 100 feet Skills Acrobatics +8, Deception +5, Religion +6, Stealth +8 Str +0 Dex +3 Con +2 Int -1 Wis +1 Cha +2 --- AC 16 Fort +7 Ref +8 Will +6 HP 22 Immunities death effects Weaknesses good 3 --- Speed 5 feet, fly 40 feet Melee Single Action jaws +8 (Agile, Disease, Evil, Finesse, Magical), Damage 1d8 piercing plus 1d4 evil and cacodaemonia Divine Innate Spells DC 17 - Cantrips (1st) Detect Magic - 1st Detect Alignment (at will; good only), Fear - 2nd Invisibility (at will; self only) - 4th Read Omens Cacodaemonia (Disease) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane; Saving Throw DC 17 Fortitude; Stage 1 carrier (1 day); Stage 2 stupefied 1 (1 day); Stage 3 stupefied 2 (1 day) Change Shape Single Action (Concentrate, Divine, Polymorph, Transmutation) Lizard Speed 20 feet; Melee jaws +8 (agile, finesse), Damage 1d8+1 piercing Octopus size Small; Speed 20 feet, swim 30 feet; Melee tentacle +8 (finesse), Damage 1d8+1 bludgeoning plus Grab; Melee beak +8 (agile, finesse), Damage 1d6 piercing plus 2 poison Scorpion size Small; Speed 30 feet; Melee pincer +8 (agile, finesse), Damage 1d6+1 bludgeoning plus Grab; Melee stinger +8 (agile, finesse), Damage 1d6+1 piercing plus 1d4 poison Soul Lock Three Actions (Death, Divine, Necromancy) Once per day, a cacodaemon can ingest the soul of a sentient creature within 30 feet that died within the last minute. When it does, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in its gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but does not return the deceased creature to life. The caster of a spell to return a creature to life whose soul is trapped within a soul gem must succeed at a DC 30 Religion check. On a success, the soul gem shatters and the creature is returned to life as normal for the spell. By using an Interact action, a fiend can ingest a soul gem it is holding, condemning the soul to the fiend’s home plane. The fiend gains fast healing 5 for 1 minute. ",
+ "summary": "These twisted embodiments of violence and spite are spawned from eddies of angry and warped souls amid  Abaddon's  mists. Cacodaemons constantly …",
+ "summary_markdown": "These twisted embodiments of violence and spite are spawned from eddies of angry and warped souls amid  Abaddon's  mists. Cacodaemons constantly …",
+ "text": " Cacodaemon (Harvester Daemon) These twisted embodiments of violence and spite are spawned from eddies of angry and warped souls amid Abaddon's mists. Cacodaemons constantly hunger for mortal souls and yearn to create suffering. As gnashing spheres of teeth, fins, and spines, they are the weakest of daemonkind, an amalgam of various petty forms of death without the strength that comes from focusing on a single cause of demise. Recall Knowledge - Fiend (Religion): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Cacodaemon Source Monster Core pg. 72 Perception +6; darkvision Languages Daemonic; telepathy 100 feet Skills Acrobatics +8, Deception +5, Religion +6, Stealth +8 Str +0 Dex +3 Con +2 Int -1 Wis +1 Cha +2 --- AC 16 Fort +7 Ref +8 Will +6 HP 22 Immunities death effects Weaknesses holy 3 --- Speed 5 feet, fly 40 feet Melee Single Action jaws +8 (Agile, Disease, Finesse, Magical, reach 0 feet, Unholy), Damage 1d8 piercing plus cacodaemonia Divine Innate Spells DC 17 - Cantrips (1st) Detect Magic - 1st Fear - 2nd Invisibility (at will; self only) - 4th Read Omens Cacodaemonia (Disease) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane; Saving Throw DC 17 Fortitude; Stage 1 carrier (1 day); Stage 2 stupefied 1 (1 day); Stage 3 stupefied 2 (1 day) Change Shape Single Action (Concentrate, Divine, Polymorph) Lizard Speed 20 feet; Melee jaws +8 (agile, finesse), Damage 1d8+1 piercing Octopus size Small; Speed 20 feet, swim 30 feet; Skills Athletics +6; Melee tentacle +8 (finesse), Damage 1d8+1 bludgeoning plus Grab (page 359); Melee beak +8 (agile, finesse), Damage 1d6 piercing plus 2 poison Scorpion size Small; Speed 30 feet; Melee pincer +8 (agile, finesse), Damage 1d6+1 bludgeoning plus Grab; Melee stinger +8 (agile, finesse), Damage 1d6+1 piercing plus 1d4 poison Soul Lock Three Actions (Death, Divine) Frequency once per day; Effect The cacodaemon ingests the soul of a sentient creature within 30 feet that died within the last minute. When they do, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in their gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but doesn't return the deceased creature to life. If a caster attempts to return to life a creature whose soul is trapped within a soul gem, they fail unless they succeed at a DC 30 Religion check. A success causes the soul gem to shatter so the creature is returned to life as normal for the spell. A fiend can Interact to ingest a soul gem it is holding, condemning the soul to the fiend's home plane. The fiend gains fast healing 5 for 1 minute. ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Daemon",
   "Fiend",
-  "NE",
+  "Unholy",
   "Tiny"
  ],
- "trait_markdown": "[Daemon](/Traits.aspx?ID=213), [Fiend](/Traits.aspx?ID=70)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Daemon](/Traits.aspx?ID=568), [Fiend](/Traits.aspx?ID=600), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Daemon",
-  "Fiend"
+  "Fiend",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=88",
+ "url": "/Monsters.aspx?ID=2891",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {
-  "good": 3
+  "holy": 3
  },
- "weakness_markdown": "good 3",
- "weakness_raw": "good 3",
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 3",
+ "weakness_raw": " holy  3",
  "will_save": 6,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

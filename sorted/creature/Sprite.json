@@ -1,56 +1,102 @@
 {
  "ac": 15,
- "alignment": "CN",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Luminous Fire"
  ],
  "creature_family": "Sprite",
- "creature_family_markdown": "[Sprite](/MonsterFamilies.aspx?ID=95)",
+ "creature_family_markdown": "[Sprite](/MonsterFamilies.aspx?ID=475)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 2,
- "hp": 11,
- "hp_raw": "11",
- "id": "creature-389",
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 7,
+ "hp_raw": "7",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3210",
+ "image": [
+  "/Images/Monsters/Sprite.webp"
+ ],
  "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Rapier"
+ ],
  "language": [
   "Common",
-  "Sylvan"
+  "Fey"
  ],
- "language_markdown": "[Common](/Languages.aspx?ID=1), [Sylvan](/Languages.aspx?ID=10)",
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119)",
+ "legacy_id": "creature-389",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Sprite](/Monsters.aspx?ID=389)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nCommon sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions vary from kind to spiteful, but all sprites have a capricious streak. Being only about 9 inches tall, they are wary of animals that might hunt them, particularly house cats, and prefer flight to a fight. On the other hand, sprites are incredibly curious about all forms of magic and heedlessly gather around ley line nexuses or other places of power.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Sprite](/Monsters.aspx?ID=389)</title>\r\n\r\n<traits>\r\n<trait label=\"CN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=238\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 308</row>\n\n**Perception** +4; low-light vision\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -3\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** -2\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Luminous Fire** ([evocation](/Traits.aspx?ID=65), [light](/Traits.aspx?ID=100), [primal](/Traits.aspx?ID=134)) A sprite naturally sheds light like a torch. The sprite can extinguish, rekindle, or change the color of this light using a single action, which has the concentrate trait. While this light is extinguished, the sprite’s Strikes don’t deal fire damage and they can’t use their luminous spark Strike.\r\n\r\n**Items**\r\n[Rapier](/Weapons.aspx?ID=36)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +2 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n**HP** 11\n\n**Weaknesses**\r\ncold iron 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 10 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nrapier +8 ([deadly 1d8](/Traits.aspx?ID=174), [Disarm](/Traits.aspx?ID=175), [Finesse](/Traits.aspx?ID=179), [Fire](/Traits.aspx?ID=72), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 1d6–3 piercing plus 1 fire\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nluminous spark +8 ([Fire](/Traits.aspx?ID=72), [Light](/Traits.aspx?ID=100), [range 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d4 fire\r\n\r\n**Primal Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Dancing Lights](/Spells.aspx?ID=58), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66)\r\n- **1st**\r\n[Color Spray](/Spells.aspx?ID=44)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-95\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Sprite](/Monsters.aspx?ID=3210)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nCommon sprites, sometimes called firefly sprites, are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions vary from kind to spiteful, but all sprites have a capricious streak. Being only about 9 inches tall, they are wary of animals that might hunt them, particularly house cats, and prefer flight to a fight. On the other hand, sprites are incredibly curious about all forms of magic and heedlessly gather around ley line nexuses or other places of power.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sprite.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Sprite](/Monsters.aspx?ID=3210)</title>\r\n\r\n<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=774\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 322\n\n**Perception** +4; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Fey](/Languages.aspx?ID=119)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +6, [Stealth](/Skills.aspx?ID=15) +6\r\n\r\n<row gap=\"medium\">\r\n**Str** -3\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** -2\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Luminous Fire** ([light](/Traits.aspx?ID=640), [primal](/Traits.aspx?ID=676)) A sprite naturally sheds light like a [torch](/Equipment.aspx?ID=2760). The sprite can extinguish, rekindle, or change the color of this light by using an action with the [concentrate](/Traits.aspx?ID=561) trait. While this light is extinguished, the sprite's Strikes don't deal fire damage, and they can't use their luminous spark Strike.\r\n\r\n**Items**\r\n[Rapier](/Weapons.aspx?ID=36)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +2 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 7\n\n</row>\n\n**Weaknesses**\r\n[cold iron](/Equipment.aspx?ID=375) 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 10 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nrapier +8 ([deadly d8](/Traits.aspx?ID=174), [Disarm](/Traits.aspx?ID=175), [Finesse](/Traits.aspx?ID=179), [Fire](/Traits.aspx?ID=72), [Magical](/Traits.aspx?ID=103), [reach 0 feet](/Traits.aspx?ID=192)),\r\n**Damage** 1d6–3 piercing plus 1 fire\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nluminous spark +8 ([Fire](/Traits.aspx?ID=72), [Light](/Traits.aspx?ID=100), [range 20 feet](/Traits.aspx?ID=248)),\r\n**Damage** 1d4 fire\r\n\r\n**Primal Innate Spells** DC 16\r\n- **Cantrips (1st)**\r\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Light](/Spells.aspx?ID=171)\r\n- **1st**\r\n[Dizzying Colors](/Spells.aspx?ID=1500)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-475\" />",
  "name": "Sprite",
  "npc": false,
  "perception": 4,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 322",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 8,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=238\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 308</row>\r\n\r\n**Creature Family** [Sprite](/MonsterFamilies.aspx?ID=95)\r\n\r\n<row gap=\"medium\">\r\n**HP** 11\r\n\r\n**AC** 15\r\n\r\n**Fort** +2\r\n\r\n**Ref** +8\r\n\r\n**Will** +4\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCommon sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions …\r\n</summary>",
- "sense": "low-light vision",
- "sense_markdown": "low-light vision",
+ "search_markdown": "<traits>\r\n<trait label=\"Tiny\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\r\n<trait label=\"Sprite\" url=\"/Traits.aspx?ID=774\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 322\r\n\r\n**Creature Family** [Sprite](/MonsterFamilies.aspx?ID=475)\r\n\r\n<row gap=\"medium\">\r\n**HP** 7\r\n\r\n**AC** 15\r\n\r\n**Fort** +2\r\n\r\n**Ref** +8\r\n\r\n**Will** +4\r\n\r\n**Perception** +4\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nCommon sprites, sometimes called firefly sprites, are primeval guardians that latch onto a person, place, or object and defend it for their own …\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
  "size": [
   "Tiny"
  ],
+ "size_id": [
+  1
+ ],
  "skill": [
-  "Acrobatics +6",
-  "Stealth +6"
+  "Acrobatics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Stealth](/Skills.aspx?ID=15) +6",
+ "skill_mod": {
+  "acrobatics": 6,
+  "stealth": 6
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 308"
+  "Monster Core pg. 322"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 308</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 322",
  "speed": {
   "fly": 40,
   "land": 10,
@@ -59,34 +105,64 @@
  "speed_markdown": "10 feet, fly 40 feet",
  "speed_raw": "10 feet, fly 40 feet",
  "spell": [
-  "Color Spray",
-  "Dancing Lights",
+  "Dizzying Colors",
   "Daze",
-  "Detect Magic"
+  "Detect Magic",
+  "Light"
  ],
- "spell_markdown": "[Color Spray](/Spells.aspx?ID=44), [Dancing Lights](/Spells.aspx?ID=58), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66)",
+ "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Dizzying Colors](/Spells.aspx?ID=1500), [Light](/Spells.aspx?ID=171)",
+ "spell_dc": [
+  16
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "stealth": "6",
+ "strike_damage_average": [
+  2,
+  3
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  4
+ ],
  "strength": -3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Common sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions …",
- "summary_markdown": "Common sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions …",
- "text": " Sprite Common sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions vary from kind to spiteful, but all sprites have a capricious streak. Being only about 9 inches tall, they are wary of animals that might hunt them, particularly house cats, and prefer flight to a fight. On the other hand, sprites are incredibly curious about all forms of magic and heedlessly gather around ley line nexuses or other places of power. Recall Knowledge - Fey (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Sprite Source Bestiary pg. 308 Perception +4; low-light vision Languages Common, Sylvan Skills Acrobatics +6, Stealth +6 Str -3 Dex +4 Con +0 Int -2 Wis +0 Cha +2 Luminous Fire (evocation, light, primal) A sprite naturally sheds light like a torch. The sprite can extinguish, rekindle, or change the color of this light using a single action, which has the concentrate trait. While this light is extinguished, the sprite’s Strikes don’t deal fire damage and they can’t use their luminous spark Strike. Items Rapier --- AC 15 Fort +2 Ref +8 Will +4 HP 11 Weaknesses cold iron 3 --- Speed 10 feet, fly 40 feet Melee Single Action rapier +8 (deadly 1d8, Disarm, Finesse, Fire, Magical), Damage 1d6–3 piercing plus 1 fire Ranged Single Action luminous spark +8 (Fire, Light, range 20 feet), Damage 1d4 fire Primal Innate Spells DC 16 - Cantrips (1st) Dancing Lights, Daze, Detect Magic - 1st Color Spray\n",
+ "summary": "Common sprites, sometimes called firefly sprites, are primeval guardians that latch onto a person, place, or object and defend it for their own …",
+ "summary_markdown": "Common sprites, sometimes called firefly sprites, are primeval guardians that latch onto a person, place, or object and defend it for their own …",
+ "text": " Sprite Common sprites, sometimes called firefly sprites, are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions vary from kind to spiteful, but all sprites have a capricious streak. Being only about 9 inches tall, they are wary of animals that might hunt them, particularly house cats, and prefer flight to a fight. On the other hand, sprites are incredibly curious about all forms of magic and heedlessly gather around ley line nexuses or other places of power. Recall Knowledge - Fey (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Sprite Source Monster Core pg. 322 Perception +4; low-light vision Languages Common, Fey Skills Acrobatics +6, Stealth +6 Str -3 Dex +4 Con +0 Int -2 Wis +0 Cha +2 Luminous Fire (light, primal) A sprite naturally sheds light like a torch. The sprite can extinguish, rekindle, or change the color of this light by using an action with the concentrate trait. While this light is extinguished, the sprite's Strikes don't deal fire damage, and they can't use their luminous spark Strike. Items Rapier --- AC 15 Fort +2 Ref +8 Will +4 HP 7 Weaknesses cold iron 3 --- Speed 10 feet, fly 40 feet Melee Single Action rapier +8 (deadly d8, Disarm, Finesse, Fire, Magical, reach 0 feet), Damage 1d6–3 piercing plus 1 fire Ranged Single Action luminous spark +8 (Fire, Light, range 20 feet), Damage 1d4 fire Primal Innate Spells DC 16 - Cantrips (1st) Daze, Detect Magic, Light - 1st Dizzying Colors\n",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Fey",
   "Sprite",
-  "CN",
   "Tiny"
  ],
- "trait_markdown": "[Fey](/Traits.aspx?ID=69), [Sprite](/Traits.aspx?ID=238)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Sprite](/Traits.aspx?ID=774)",
  "trait_raw": [
   "Fey",
   "Sprite"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=389",
+ "url": "/Monsters.aspx?ID=3210",
  "vision": "Low-light vision",
  "weakest_save": [
   "fort",
@@ -95,8 +171,12 @@
  "weakness": {
   "cold_iron": 3
  },
- "weakness_markdown": "cold iron 3",
- "weakness_raw": "cold iron 3",
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 3",
+ "weakness_raw": " cold iron  3",
  "will_save": 4,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

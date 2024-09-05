@@ -1,7 +1,7 @@
 {
  "actions": "Single Action",
+ "actions_number": 2,
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -10,23 +10,30 @@
  "item_category": "Alchemical Items",
  "item_subcategory": "Alchemical Tools",
  "level": 3,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ectoplasmic Tracer](/Equipment.aspx?ID=1535)\r\n</title>\n\n<traits>\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 19</row>\n\n**Price** 12 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis sticky, fluorescing substance, stored in an atomizing nozzle, sprays all creatures within a 15-foot cone when released. This marks any [incorporeal](/Traits.aspx?ID=222) creatures in the cone for 1d4 days. Anyone attempting to [Track](/Actions.aspx?ID=66) a marked creature gains a +2 item bonus to the check. The tracer has no effect on corporeal creatures, nor incorporeal creatures not formed of spiritual essence, such as [animate dreams](/Monsters.aspx?ID=546) that are purely mental in nature.\n\n A marked creature that's aware of the tracer can attempt to remove it, but the process is lengthy and unpleasant. It takes 10 minutes of scraping through its incorporeal form to remove the tracer's effects.\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 3\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ectoplasmic Tracer](/Equipment.aspx?ID=1535)\r\n</title>\n\n<traits>\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 19\n\n**Price** 12 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis sticky, fluorescing substance, stored in an atomizing nozzle, sprays all creatures within a 15-foot cone when released. This marks any [incorporeal](/Traits.aspx?ID=222) creatures in the cone for 1d4 days. Anyone attempting to [Track](/Actions.aspx?ID=66) a marked creature gains a +2 item bonus to the check. The tracer has no effect on corporeal creatures, nor incorporeal creatures not formed of spiritual essence, such as [animate dreams](/Monsters.aspx?ID=546) that are purely mental in nature.\n\n A marked creature that's aware of the tracer can attempt to remove it, but the process is lengthy and unpleasant. It takes 10 minutes of scraping through its incorporeal form to remove the tracer's effects.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Ectoplasmic Tracer",
  "pfs": "Standard",
  "price": 1200,
  "price_raw": "12 gp",
+ "primary_source": "Book of the Dead",
+ "primary_source_raw": "Book of the Dead pg. 19",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-04-27",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 19</row>\r\n\r\n**Price** 12 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis sticky, fluorescing substance, stored in an atomizing nozzle, sprays all creatures within a 15-foot cone when released. This marks any  …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=6\" />\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Book of the Dead](/Sources.aspx?ID=118) pg. 19\r\n\r\n**Price** 12 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\r\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>Interact</row></row>\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis sticky, fluorescing substance, stored in an atomizing nozzle, sprays all creatures within a 15-foot cone when released. This marks any  …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Book of the Dead"
  ],
  "source_raw": [
   "Book of the Dead pg. 19"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Book of the Dead](/Sources.aspx?ID=118) pg. 19</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Book of the Dead](/Sources.aspx?ID=118) pg. 19",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -36,6 +43,11 @@
  "trait": [
   "Alchemical",
   "Consumable"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon"
  ],
  "trait_markdown": "[Alchemical](/Traits.aspx?ID=6), [Consumable](/Traits.aspx?ID=36)",
  "trait_raw": [

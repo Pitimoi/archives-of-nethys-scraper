@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Complex",
  "disable": "Religion  DC 24 (expert) to perform an exorcism (with 2 actions)",
@@ -7,22 +6,32 @@
  "hazard_type": "Haunt",
  "id": "hazard-74",
  "level": 6,
- "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[Barzillai's Hounds](/Hazards.aspx?ID=74)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 27</row>\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nHell hounds invisible to all but their lone target burn their chosen victim.\r\n\r\n---\r\n\r\n**Stealth**\r\n+17\r\n\r\n**Disable**\r\n[Religion](/Skills.aspx?ID=13) DC 24 (expert) to perform an exorcism (with 2 actions)\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Begin the Hunt** <actions string=\"Reaction\" /> ([conjuration](/Traits.aspx?ID=33), [occult](/Traits.aspx?ID=120)); **Trigger** A creature that doesn't openly wear the symbol of [Asmodeus](/Deities.aspx?ID=2) comes within 60 feet of the haunt's initial location. **Effect** The hounds appear before the chosen target and begin to chase that creature, howling wildly. The haunt rolls initiative. Others cannot see or hear this baying and must [Seek](/Actions.aspx?ID=84) to determine the hounds' location.\n\n---\r\n**Routine**\r\n(2 actions) The haunt uses its first action to Stride, then its second action for a jaws Strike against its designated target if it is in reach. If the target is not in reach, the haunt resets.\n\n **Speed** 60 feet<br /> **Melee** <actions string=\"Single Action\" /> jaws +20 (magical), **Damage** 1d10+11 piercing plus 1d10 fire\r\n\r\n---\r\n**Reset**\r\nIf their designated target dies or the hounds can't reach it in a turn, the hounds vanish into noxious smoke, but they manifest again elsewhere in the city after the next sunset.",
+ "markdown": "<title level=\"1\" right=\"Hazard 6\" pfs=\"\">[Barzillai's Hounds](/Hazards.aspx?ID=74)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 27\n\n**Complexity** Complex\r\n\r\n</column>\r\n\r\nHell hounds invisible to all but their lone target burn their chosen victim.\r\n\r\n---\r\n\r\n**Stealth**\r\n+17\r\n\r\n**Disable**\r\n[Religion](/Skills.aspx?ID=13) DC 24 (expert) to perform an exorcism (with 2 actions)\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Begin the Hunt** <actions string=\"Reaction\" /> ([conjuration](/Traits.aspx?ID=33), [occult](/Traits.aspx?ID=120)); **Trigger** A creature that doesn't openly wear the symbol of [Asmodeus](/Deities.aspx?ID=2) comes within 60 feet of the haunt's initial location. **Effect** The hounds appear before the chosen target and begin to chase that creature, howling wildly. The haunt rolls initiative. Others cannot see or hear this baying and must [Seek](/Actions.aspx?ID=84) to determine the hounds' location.\n\n---\r\n**Routine**\r\n(2 actions) The haunt uses its first action to Stride, then its second action for a jaws Strike against its designated target if it is in reach. If the target is not in reach, the haunt resets.\n\n **Speed** 60 feet<br /> **Melee** <actions string=\"Single Action\" /> jaws +20 (magical), **Damage** 1d10+11 piercing plus 1d10 fire\r\n\r\n---\r\n**Reset**\r\nIf their designated target dies or the hounds can't reach it in a turn, the hounds vanish into noxious smoke, but they manifest again elsewhere in the city after the next sunset.",
  "name": "Barzillai's Hounds",
+ "primary_source": "Pathfinder #147: Tomorrow Must Burn",
+ "primary_source_raw": "Pathfinder #147: Tomorrow Must Burn pg. 27",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Age of Ashes",
  "rarity": "rare",
+ "rarity_id": 3,
  "release_date": "2019-09-18",
  "reset": "If their designated target dies or the hounds can't reach it in a turn, the hounds vanish into noxious smoke, but they manifest again elsewhere in the city after the next sunset.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 27</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHell hounds invisible to all but their lone target burn their chosen victim.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 27\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHell hounds invisible to all but their lone target burn their chosen victim.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #147: Tomorrow Must Burn"
  ],
  "source_raw": [
   "Pathfinder #147: Tomorrow Must Burn pg. 27"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Age of Ashes",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 27</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Age of Ashes"
+ ],
+ "source_markdown": "[Pathfinder #147: Tomorrow Must Burn](/Sources.aspx?ID=8) pg. 27",
  "speed": {},
  "spoilers": "Age of Ashes",
  "stealth": "+17",
@@ -33,6 +42,10 @@
   "Complex",
   "Haunt",
   "Rare"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Haunt](/Traits.aspx?ID=88), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [

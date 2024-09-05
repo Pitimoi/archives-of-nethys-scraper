@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,23 +10,30 @@
  "frequency": "once per turn",
  "id": "feat-3665",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Psi Strikes](/Feats.aspx?ID=3665) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Mindshift\" url=\"/Traits.aspx?ID=428\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 25</row>\n\n**Frequency**\r\nonce per turn\n\n**Requirements**\r\nYour most recent action was to Cast a Spell or to [Unleash your Psyche](/Actions.aspx?ID=1222).\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match. The attack deals an extra 1d6 force damage until the end of the current turn. If your Psyche is Unleashed, this benefit instead lasts until your psyche subsides.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Psi Strikes](/Feats.aspx?ID=3665) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Mindshift\" url=\"/Traits.aspx?ID=428\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 25\n\n**Frequency**\r\nonce per turn\n\n**Requirements**\r\nYour most recent action was to Cast a Spell or to [Unleash your Psyche](/Actions.aspx?ID=1222).\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match. The attack deals an extra 1d6 force damage until the end of the current turn. If your Psyche is Unleashed, this benefit instead lasts until your psyche subsides.",
  "name": "Psi Strikes",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 25",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "requirement": "Your most recent action was to Cast a Spell or to  Unleash your Psyche .",
  "requirement_markdown": "Your most recent action was to Cast a Spell or to [Unleash your Psyche](/Actions.aspx?ID=1222).",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Mindshift\" url=\"/Traits.aspx?ID=428\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 25</row>\r\n\r\n**Frequency**\r\nonce per turn\n\n**Requirements**\r\nYour most recent action was to Cast a Spell or to [Unleash your Psyche](/Actions.aspx?ID=1222).\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Mindshift\" url=\"/Traits.aspx?ID=428\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 25\r\n\r\n**Frequency**\r\nonce per turn\n\n**Requirements**\r\nYour most recent action was to Cast a Spell or to [Unleash your Psyche](/Actions.aspx?ID=1222).\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 25"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 25</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 25",
  "speed": {},
  "summary": "You siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match.",
  "summary_markdown": "You siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match.",
@@ -34,6 +41,9 @@
  "trait": [
   "Mindshift",
   "Psychic"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Mindshift](/Traits.aspx?ID=428), [Psychic](/Traits.aspx?ID=430)",
  "trait_raw": [

@@ -1,0 +1,156 @@
+{
+ "ac": 20,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "CE",
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Stench",
+  "Troop Defenses",
+  "Fang and Claw",
+  "Infected Wounds",
+  "Sharpened Advance",
+  "Troop Movement",
+  "Form Up"
+ ],
+ "creature_family": "Xulgath",
+ "creature_family_markdown": "[Xulgath](/MonsterFamilies.aspx?ID=102)",
+ "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 72,
+ "hp_raw": "72 (16 squares)",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2606",
+ "image": [
+  "/Images/Monsters/XulgathRavening.png"
+ ],
+ "intelligence": -1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Draconic",
+  "Undercommon"
+ ],
+ "language_markdown": "[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Xulgath Ravening](/Monsters.aspx?ID=2606)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nStrength and hunger drive most xulgath societies, reinforced by the tenets of their abyssal patron Zevgavizeb. A powerful leader can seize control of a xulgath community and direct their followers to fight as a unit, but formation fighting isn't something most xulgaths practice. This mob mentality often results in overzealous warriors tripping over or even biting each other. Suitably, these mobs have earned the name “ravenings,” a term also used when describing Zevgavizeb's carnivorous rampages and referring to the millennia of xulgath infighting and social decline.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/XulgathRavening.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 4\">[Xulgath Ravening](/Monsters.aspx?ID=2606)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 91\n\n**Perception** +11; darkvision\r\n\r\n**Languages**\r\n[Draconic](/Languages.aspx?ID=2), [Undercommon](/Languages.aspx?ID=11)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +10, [Stealth](/Skills.aspx?ID=15) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +1\r\n\r\n**Con** +3\r\n\r\n**Int** -1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 20 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +12 \r\n\r\n**Will** +8 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 72\r\n(16 squares)\n\n</row>\n\n**Weaknesses**\r\narea damage 5, splash damage 2\r\n\r\n**Stench** ([aura](/MonsterAbilities.aspx?ID=5), olfactory) 30 feet. A creature that enters the area must attempt a DC 21 Fortitude save. On a failure, the creature is [sickened](/Conditions.aspx?ID=34) 1, and on a critical failure, the creature also takes a –5 status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute.<br />[**Troop Defenses**](/MonsterAbilities.aspx?ID=44)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet; troop movement\n\n**Fang and Claw**   **Frequency** once per round **Effect** The xulgath ravening lashes out at enemies within 5 feet (DC 21 basic Reflex save). The damage depends on the number of actions. <actions string=\"Single Action\" /> 1d6 slashing damage <actions string=\"Two Actions\" /> 1d6+5 slashing damage <actions string=\"Three Actions\" /> 2d6+5 slashing damage\r\n\r\n**Infected Wounds**  ([Poison](/Traits.aspx?ID=126)) The xulgaths' Fang and Claw deals an additional 1d6 poison damage to any creature sickened by a xulgath's stench.\r\n\r\n**Sharpened Advance**   The troop fires a ranged attack in the form of a 5-foot burst within 50 feet that deals 3d6 piercing damage (DC 18 basic Reflex save), then the troop either Steps or Strides up to 15 feet toward the area they attacked.\r\n\r\n**Troop Movement**   Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by–20- foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop.\r\n\r\n**[Form Up](/MonsterAbilities.aspx?ID=43)**   \r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">The Power of Suggestion</title>\r\n\r\nXulgath ravening are most common in clutches controlled by spiritual leaders using some combination of cult behavior, group ritual, and even a little enchantment magic. By convincing participants that they're possessed by Zevgavizeb or a similar force, the leader then identifies a target and hopes for the best. Instilling secular doubt or incapacitating the leader can shatter a ravening's focus, causing its members to scatter or even turn on their leader.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-102\" />",
+ "name": "Xulgath Ravening",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #193: Mantle of Gold",
+ "primary_source_raw": "Pathfinder #193: Mantle of Gold pg. 91",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 12,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Troop\" url=\"/Traits.aspx?ID=367\" />\r\n<trait label=\"Xulgath\" url=\"/Traits.aspx?ID=244\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 91\r\n\r\n**Creature Family** [Xulgath](/MonsterFamilies.aspx?ID=102)\r\n\r\n<row gap=\"medium\">\r\n**HP** 72 (16 squares)\r\n\r\n**AC** 20\r\n\r\n**Fort** +14\r\n\r\n**Ref** +12\r\n\r\n**Will** +8\r\n\r\n**Perception** +11\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nStrength and hunger drive most xulgath societies, reinforced by the tenets of their abyssal patron Zevgavizeb. A powerful leader can seize control of …\r\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "darkvision",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Intimidation](/Skills.aspx?ID=7) +10, [Stealth](/Skills.aspx?ID=15) +7",
+ "skill_mod": {
+  "athletics": 11,
+  "intimidation": 10,
+  "stealth": 7
+ },
+ "source": [
+  "Pathfinder #193: Mantle of Gold"
+ ],
+ "source_raw": [
+  "Pathfinder #193: Mantle of Gold pg. 91"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #193: Mantle of Gold](/Sources.aspx?ID=206) pg. 91",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet; troop movement",
+ "speed_raw": "25 feet; troop movement",
+ "spell_markdown": "",
+ "spoilers": "Sky King's Tomb",
+ "stealth": "7",
+ "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Strength and hunger drive most xulgath societies, reinforced by the tenets of their abyssal patron Zevgavizeb. A powerful leader can seize control of …",
+ "summary_markdown": "Strength and hunger drive most xulgath societies, reinforced by the tenets of their abyssal patron Zevgavizeb. A powerful leader can seize control of …",
+ "text": " Xulgath Ravening Strength and hunger drive most xulgath societies, reinforced by the tenets of their abyssal patron Zevgavizeb. A powerful leader can seize control of a xulgath community and direct their followers to fight as a unit, but formation fighting isn't something most xulgaths practice. This mob mentality often results in overzealous warriors tripping over or even biting each other. Suitably, these mobs have earned the name “ravenings,” a term also used when describing Zevgavizeb's carnivorous rampages and referring to the millennia of xulgath infighting and social decline. Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Xulgath Ravening Source Pathfinder #193: Mantle of Gold pg. 91 Perception +11; darkvision Languages Draconic, Undercommon Skills Athletics +11, Intimidation +10, Stealth +7 Str +5 Dex +1 Con +3 Int -1 Wis +1 Cha +2 --- AC 20 Fort +14 Ref +12 Will +8 HP 72 (16 squares) Weaknesses area damage 5, splash damage 2 Stench (aura, olfactory) 30 feet. A creature that enters the area must attempt a DC 21 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5 status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute. Troop Defenses --- Speed 25 feet; troop movement Fang and Claw Frequency once per round Effect The xulgath ravening lashes out at enemies within 5 feet (DC 21 basic Reflex save). The damage depends on the number of actions. Single Action 1d6 slashing damage Two Actions 1d6+5 slashing damage Three Actions 2d6+5 slashing damage Infected Wounds (Poison) The xulgaths' Fang and Claw deals an additional 1d6 poison damage to any creature sickened by a xulgath's stench. Sharpened Advance The troop fires a ranged attack in the form of a 5-foot burst within 50 feet that deals 3d6 piercing damage (DC 18 basic Reflex save), then the troop either Steps or Strides up to 15 feet toward the area they attacked. Troop Movement Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by–20- foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop. Form Up The Power of Suggestion Xulgath ravening are most common in clutches controlled by spiritual leaders using some combination of cult behavior, group ritual, and even a little enchantment magic. By convincing participants that they're possessed by Zevgavizeb or a similar force, the leader then identifies a target and hopes for the best. Instilling secular doubt or incapacitating the leader can shatter a ravening's focus, causing its members to scatter or even turn on their leader. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Humanoid",
+  "Rare",
+  "Troop",
+  "Xulgath",
+  "CE",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity",
+  "Monster"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Rare](/Traits.aspx?ID=137), [Troop](/Traits.aspx?ID=367), [Xulgath](/Traits.aspx?ID=244)",
+ "trait_raw": [
+  "Humanoid",
+  "Rare",
+  "Troop",
+  "Xulgath"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2606",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "area": 5,
+  "splash": 2
+ },
+ "weakness_markdown": "area damage 5, splash damage 2",
+ "weakness_raw": "area damage 5, splash damage 2",
+ "will_save": 8,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

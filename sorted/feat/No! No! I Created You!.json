@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,23 +10,30 @@
  "frequency": "once per minute",
  "id": "feat-3047",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[No! No! I Created You!](/Feats.aspx?ID=3047) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25</row>\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[construct companion](/companions/construct-companions)\n\n**Trigger**\r\nYour construct companion would become [confused](/Conditions.aspx?ID=5) or [controlled](/Conditions.aspx?ID=6).\n\n</column>\r\n\r\n---\r\n\r\nYou appeal to your construct companion's bond with its creator to have it break free of a controlling effect. Attempt to [counteract](/Rules.aspx?ID=371) the effect that confused or controlled your construct companion, using your [Crafting](/Skills.aspx?ID=4) modifier for the counteract check and half your level rounded up for the counteract level.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[No! No! I Created You!](/Feats.aspx?ID=3047) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25\n\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[construct companion](ConstructCompanions.aspx)\n\n**Trigger**\r\nYour construct companion would become [confused](/Conditions.aspx?ID=5) or [controlled](/Conditions.aspx?ID=6).\n\n</column>\r\n\r\n---\r\n\r\nYou appeal to your construct companion's bond with its creator to have it break free of a controlling effect. Attempt to [counteract](/Rules.aspx?ID=371) the effect that confused or controlled your construct companion, using your [Crafting](/Skills.aspx?ID=4) modifier for the counteract check and half your level rounded up for the counteract level.",
  "name": "No! No! I Created You!",
  "pfs": "Standard",
  "prerequisite": "construct companion",
- "prerequisite_markdown": "[construct companion](/companions/construct-companions)",
+ "prerequisite_markdown": "[construct companion](ConstructCompanions.aspx)",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 25",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25</row>\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[construct companion](/companions/construct-companions)\n\n**Trigger**\r\nYour construct companion would become [confused](/Conditions.aspx?ID=5) or [controlled](/Conditions.aspx?ID=6).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou appeal to your construct companion's bond with its creator to have it break free of a controlling effect.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25\r\n\r\n**Frequency**\r\nonce per minute\r\n\r\n**Prerequisites**\r\n[construct companion](ConstructCompanions.aspx)\n\n**Trigger**\r\nYour construct companion would become [confused](/Conditions.aspx?ID=5) or [controlled](/Conditions.aspx?ID=6).\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou appeal to your construct companion's bond with its creator to have it break free of a controlling effect.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 25"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 25</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 25",
  "speed": {},
  "summary": "You appeal to your construct companion's bond with its creator to have it break free of a controlling effect.",
  "summary_markdown": "You appeal to your construct companion's bond with its creator to have it break free of a controlling effect.",
@@ -35,6 +42,10 @@
   "Auditory",
   "Concentrate",
   "Inventor"
+ ],
+ "trait_group": [
+  "Sense",
+  "Class"
  ],
  "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Inventor](/Traits.aspx?ID=408)",
  "trait_raw": [

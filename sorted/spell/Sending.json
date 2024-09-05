@@ -1,48 +1,50 @@
 {
  "actions": "Three Actions",
+ "actions_number": 6,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "material",
-  "somatic",
-  "verbal"
- ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
+ "heighten_group": [
+  "5th rank"
+ ],
  "heighten_level": [
   5
  ],
- "id": "spell-272",
+ "id": "spell-1665",
+ "legacy_id": "spell-272",
  "level": 5,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 5\" pfs=\"Standard\">[Sending](/Spells.aspx?ID=272)</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 367 <sup>4.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\n\n**Target** 1 creature with whom you are familiar\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send the creature a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 5\" pfs=\"Standard\">\r\n[Sending](/Spells.aspx?ID=1665)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 356\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\n\n**Target** 1 creature you know well\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou send the creature a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.",
  "name": "Sending",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 356",
+ "primary_source_category": "Rulebooks",
  "range": 10000000,
  "range_raw": "planetary",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 367 <sup>4.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\r\n\r\n \r\n\r\n**Target** 1 creature with whom you are familiar\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSend a mental message to a creature anywhere on the planet and get a reply.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 356\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** planetary\r\n\r\n \r\n\r\n**Target** 1 creature you know well\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSend a message to a creature anywhere on the planet and get a reply.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 367"
+  "Player Core pg. 356"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 367 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 356",
  "speed": {},
- "summary": "Send a mental message to a creature anywhere on the planet and get a reply.",
- "summary_markdown": "Send a mental message to a creature anywhere on the planet and get a reply.",
- "target": "1 creature with whom you are familiar",
- "target_markdown": "1 creature with whom you are familiar",
- "text": " Sending Source Core Rulebook pg. 367 4.0 Traditions Arcane, Divine, Occult Cast Three Actions material, somatic, verbal Range planetary Target 1 creature with whom you are familiar --- You send the creature a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.",
+ "spell_type": "Spell",
+ "summary": "Send a message to a creature anywhere on the planet and get a reply.",
+ "summary_markdown": "Send a message to a creature anywhere on the planet and get a reply.",
+ "target": "1 creature you know well",
+ "target_markdown": "1 creature you know well",
+ "text": "\nSending Three Actions Source Player Core pg. 356 Traditions Arcane, Divine, Occult Range planetary Target 1 creature you know well --- You send the creature a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.",
  "tradition": [
   "Arcane",
   "Divine",
@@ -50,15 +52,17 @@
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
-  "Divination",
+  "Concentrate",
+  "Manipulate",
   "Mental"
  ],
- "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Mental](/Traits.aspx?ID=106)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
  "trait_raw": [
-  "Divination",
+  "Concentrate",
+  "Manipulate",
   "Mental"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=272",
+ "url": "/Spells.aspx?ID=1665",
  "weakness": {}
 }

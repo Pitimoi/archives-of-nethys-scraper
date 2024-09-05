@@ -1,17 +1,28 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   1,
@@ -27,34 +38,42 @@
  ],
  "id": "spell-820",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Limited\">[Admonishing Ray](/Spells.aspx?ID=820)</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 76</row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA ray of energy bludgeons your target into submission without causing lasting harm. When you cast this spell, you choose whether the ray feels like a strong punch or slap. Make a spell attack roll. The ray deals 2d6 bludgeoning damage.\n\n**Critical Success** The target takes double damage.<br />\r\n**Success** The target takes full damage.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Limited\">\r\n[Admonishing Ray](/Spells.aspx?ID=820)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 76\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nA ray of energy bludgeons your target into submission without causing lasting harm. When you cast this spell, you choose whether the ray feels like a strong punch or slap. Make a spell attack roll. The ray deals 2d6 bludgeoning damage.\n\n**Critical Success** The target takes double damage.<br />\r\n**Success** The target takes full damage.\n\n---\r\n**Heightened (+1)** The damage increases by 2d6.",
  "name": "Admonishing Ray",
- "patron_theme_markdown": "",
  "pfs": "Limited",
+ "primary_source": "Pathfinder #158: Sixty Feet Under",
+ "primary_source_raw": "Pathfinder #158: Sixty Feet Under pg. 76",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-08-26",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 76</row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA ray of energy bludgeons your target into submission without causing lasting harm.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 76\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA ray of energy bludgeons your target into submission without causing lasting harm.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #158: Sixty Feet Under"
  ],
  "source_raw": [
   "Pathfinder #158: Sixty Feet Under pg. 76"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 76</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #158: Sixty Feet Under](/Sources.aspx?ID=47) pg. 76",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "A ray of energy bludgeons your target into submission without causing lasting harm.",
  "summary_markdown": "A ray of energy bludgeons your target into submission without causing lasting harm.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Admonishing Ray Source Pathfinder #158: Sixty Feet Under pg. 76 Traditions Arcane, Divine Cast Two Actions somatic, verbal Range 60 feet Target 1 creature --- A ray of energy bludgeons your target into submission without causing lasting harm. When you cast this spell, you choose whether the ray feels like a strong punch or slap. Make a spell attack roll. The ray deals 2d6 bludgeoning damage. Critical Success The target takes double damage. Success The target takes full damage. --- Heightened (+1) The damage increases by 2d6.",
+ "text": "\nAdmonishing Ray Two Actions Source Pathfinder #158: Sixty Feet Under pg. 76 Traditions Arcane, Divine Cast somatic, verbal Range 60 feet Target 1 creature --- A ray of energy bludgeons your target into submission without causing lasting harm. When you cast this spell, you choose whether the ray feels like a strong punch or slap. Make a spell attack roll. The ray deals 2d6 bludgeoning damage. Critical Success The target takes double damage. Success The target takes full damage. --- Heightened (+1) The damage increases by 2d6.",
  "tradition": [
   "Arcane",
   "Divine"
@@ -64,6 +83,10 @@
   "Attack",
   "Necromancy",
   "Nonlethal"
+ ],
+ "trait_group": [
+  "School",
+  "Weapon"
  ],
  "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Necromancy](/Traits.aspx?ID=117), [Nonlethal](/Traits.aspx?ID=188)",
  "trait_raw": [

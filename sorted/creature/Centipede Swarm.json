@@ -1,38 +1,62 @@
 {
  "ac": 18,
- "alignment": "N",
- "breadcrumbs_spa": [],
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "category": "creature",
  "charisma": -4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 3,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Centipede Swarm Venom",
   "Swarming Bites"
  ],
  "creature_family": "Centipede",
- "creature_family_markdown": "[Centipede](/MonsterFamilies.aspx?ID=22)",
+ "creature_family_markdown": "[Centipede](/MonsterFamilies.aspx?ID=380)",
  "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 30,
  "hp_raw": "30",
- "id": "creature-78",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2876",
  "immunity": [
+  "grabbed",
   "precision",
+  "prone",
+  "restrained",
   "swarm mind"
  ],
- "immunity_markdown": "precision, [swarm mind](/MonsterAbilities.aspx?ID=36)\r\n",
+ "immunity_markdown": "[grabbed](/Conditions.aspx?ID=77), precision, [prone](/Conditions.aspx?ID=88), [restrained](/Conditions.aspx?ID=90), [swarm mind](/MonsterAbilities.aspx?ID=78)",
  "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language_markdown": "",
+ "legacy_id": "creature-78",
  "level": 3,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Centipede Swarm](/Monsters.aspx?ID=78)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSwarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. Some alchemists submerge whole centipedes taken from swarms in their elixirs and some mutagens, claiming such infusions increase potency, though other say this is nothing more than quackish claptrap. Kobolds and mitflits are both known to incorporate swarms of centipedes into cunning traps, from simple pits filled with vermin or more complex affairs involving chutes that dump the vermin onto the heads of unwary intruders.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Centipede Swarm](/Monsters.aspx?ID=78)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 61</row>\n\n**Perception** +9; darkvision, tremorsense (imprecise) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +7, [Stealth](/Skills.aspx?ID=15) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n**HP** 30\n\n**Immunities**\r\nprecision, [swarm mind](/MonsterAbilities.aspx?ID=36)\n\n**Resistances**\r\nbludgeoning 5, piercing 5, slashing 2\r\n\r\n**Weaknesses**\r\narea damage 5, splash damage 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet\n\n**Centipede Swarm Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 20 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison damage and flat-footed (1 round); **Stage 2** 1d8 poison damage, clumsy 1, and flat-footed (1 round)\r\n\r\n**Swarming Bites** <actions string=\"Single Action\" />  Each enemy in the swarm’s space takes 1d8 piercing damage (DC 20 basic Reflex save) plus centipede swarm venom.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-22\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Centipede Swarm](/Monsters.aspx?ID=2876)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSwarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. [Kobolds](/MonsterFamilies.aspx?ID=435) and [mitflits](/Monsters.aspx?ID=245) are both known to incorporate swarms of centipedes into cunning traps.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 18\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 16\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 13\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 3\">[Centipede Swarm](/Monsters.aspx?ID=2876)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 59\n\n**Perception** +9; [darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +7, [Stealth](/Skills.aspx?ID=15) +9\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +4\r\n\r\n**Con** +3\r\n\r\n**Int** -5\r\n\r\n**Wis** +0\r\n\r\n**Cha** -4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 18 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\n\n</row>\r\n\r\n**Immunities**\r\n[grabbed](/Conditions.aspx?ID=77), precision, [prone](/Conditions.aspx?ID=88), [restrained](/Conditions.aspx?ID=90), [swarm mind](/MonsterAbilities.aspx?ID=78)\r\n\r\n**Resistances**\r\nbludgeoning 5, piercing 5, slashing 2\r\n\r\n**Weaknesses**\r\narea damage 5, [splash](/Traits.aspx?ID=699) damage 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, climb 30 feet\n\n**Centipede Swarm Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 20 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 1d6 poison damage and [off-guard](/Conditions.aspx?ID=58) (1 round); **Stage 2** 1d8 poison damage, [clumsy 1](/Conditions.aspx?ID=61), and off-guard (1 round)\r\n\r\n**Swarming Bites** <actions string=\"Single Action\" />  Each enemy in the swarm's space takes 1d8 piercing damage (DC 20 [basic](/Rules.aspx?ID=329) Reflex save) plus centipede swarm venom.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-380\" />",
  "name": "Centipede Swarm",
  "npc": false,
  "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 59",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 11,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 5,
   "piercing": 5,
@@ -40,26 +64,36 @@
  },
  "resistance_markdown": "bludgeoning 5, piercing 5, slashing 2",
  "resistance_raw": "bludgeoning 5, piercing 5, slashing 2",
- "search_markdown": "<traits>\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=239\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 61</row>\r\n\r\n**Creature Family** [Centipede](/MonsterFamilies.aspx?ID=22)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +11\r\n\r\n**Will** +5\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSwarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. Some …\r\n</summary>",
- "sense": "darkvision, tremorsense (imprecise) 30 feet",
- "sense_markdown": "darkvision, tremorsense (imprecise) 30 feet",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Swarm\" url=\"/Traits.aspx?ID=707\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 59\r\n\r\n**Creature Family** [Centipede](/MonsterFamilies.aspx?ID=380)\r\n\r\n<row gap=\"medium\">\r\n**HP** 30\r\n\r\n**AC** 18\r\n\r\n**Fort** +8\r\n\r\n**Ref** +11\r\n\r\n**Will** +5\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSwarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes.  …\r\n</summary>",
+ "sense": " darkvision ,  tremorsense  ( imprecise ) 30 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [tremorsense](/MonsterAbilities.aspx?ID=82) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +9",
-  "Athletics +7",
-  "Stealth +9"
+  "Acrobatics",
+  "Athletics",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +9, [Athletics](/Skills.aspx?ID=3) +7, [Stealth](/Skills.aspx?ID=15) +9",
+ "skill_mod": {
+  "acrobatics": 9,
+  "athletics": 7,
+  "stealth": 9
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 61"
+  "Monster Core pg. 59"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 61</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 59",
  "speed": {
   "climb": 30,
   "land": 30,
@@ -70,36 +104,45 @@
  "spell_markdown": "",
  "stealth": "9",
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "Swarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. Some …",
- "summary_markdown": "Swarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. Some …",
- "text": " Centipede Swarm Swarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. Some alchemists submerge whole centipedes taken from swarms in their elixirs and some mutagens, claiming such infusions increase potency, though other say this is nothing more than quackish claptrap. Kobolds and mitflits are both known to incorporate swarms of centipedes into cunning traps, from simple pits filled with vermin or more complex affairs involving chutes that dump the vermin onto the heads of unwary intruders. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Centipede Swarm Source Bestiary pg. 61 Perception +9; darkvision, tremorsense (imprecise) 30 feet Languages Skills Acrobatics +9, Athletics +7, Stealth +9 Str +2 Dex +4 Con +3 Int -5 Wis +0 Cha -4 --- AC 18 Fort +8 Ref +11 Will +5 HP 30 Immunities precision, swarm mind Resistances bludgeoning 5, piercing 5, slashing 2 Weaknesses area damage 5, splash damage 5 --- Speed 30 feet, climb 30 feet Centipede Swarm Venom (Poison) Saving Throw DC 20 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage and flat-footed (1 round); Stage 2 1d8 poison damage, clumsy 1, and flat-footed (1 round) Swarming Bites Single Action Each enemy in the swarm’s space takes 1d8 piercing damage (DC 20 basic Reflex save) plus centipede swarm venom. ",
+ "summary": "Swarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes.  …",
+ "summary_markdown": "Swarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes.  …",
+ "text": " Centipede Swarm Swarms of centipedes are dangerous indeed, ravenous carpets of skittering hunger capable of devouring a traveler whole in a matter of minutes. Kobolds and mitflits are both known to incorporate swarms of centipedes into cunning traps. Recall Knowledge - Animal (Nature): DC 18 Unspecific Lore : DC 16 Specific Lore : DC 13 Centipede Swarm Source Monster Core pg. 59 Perception +9; darkvision, tremorsense (imprecise) 30 feet Languages Skills Acrobatics +9, Athletics +7, Stealth +9 Str +2 Dex +4 Con +3 Int -5 Wis +0 Cha -4 --- AC 18 Fort +8 Ref +11 Will +5 HP 30 Immunities grabbed, precision, prone, restrained, swarm mind Resistances bludgeoning 5, piercing 5, slashing 2 Weaknesses area damage 5, splash damage 5 --- Speed 30 feet, climb 30 feet Centipede Swarm Venom (Poison) Saving Throw DC 20 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage and off-guard (1 round); Stage 2 1d8 poison damage, clumsy 1, and off-guard (1 round) Swarming Bites Single Action Each enemy in the swarm's space takes 1d8 piercing damage (DC 20 basic Reflex save) plus centipede swarm venom. ",
+ "tradition_markdown": "",
  "trait": [
   "Animal",
   "Swarm",
-  "N",
   "Large"
  ],
- "trait_markdown": "[Animal](/Traits.aspx?ID=9), [Swarm](/Traits.aspx?ID=239)",
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Swarm](/Traits.aspx?ID=707)",
  "trait_raw": [
   "Animal",
   "Swarm"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=78",
+ "url": "/Monsters.aspx?ID=2876",
  "vision": "Darkvision",
  "weakest_save": [
   "will"
  ],
  "weakness": {
-  "area": 5,
-  "splash": 5
+  "area": 5
  },
- "weakness_markdown": "area damage 5, splash damage 5",
- "weakness_raw": "area damage 5, splash damage 5",
+ "weakness_markdown": "area damage 5, [splash](/Traits.aspx?ID=699) damage 5",
+ "weakness_raw": "area damage 5,  splash  damage 5",
  "will_save": 5,
- "wisdom": 0
+ "will_save_scale": "Terrible",
+ "will_save_scale_number": 1,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

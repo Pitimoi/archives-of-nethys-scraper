@@ -1,0 +1,174 @@
+{
+ "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  15,
+  17,
+  17,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Preserve Prey",
+  "Dual Stab",
+  "Harden Chitin",
+  "Spit Mucus",
+  "Zecui Larvae"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 14,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 110,
+ "hp_raw": "110",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3248",
+ "image": [
+  "/Images/Monsters/Zecui.webp"
+ ],
+ "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Shortsword (2)"
+ ],
+ "language": [
+  "Aklo"
+ ],
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13)",
+ "legacy_id": "creature-866",
+ "legacy_name": "Xill",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Zecui](/Monsters.aspx?ID=3248)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThese chitinous entities can only grow to adulthood within a host creature, usually a humanoid or larger animal. When such hosts are particularly plentiful, zecuis can multiply at a horrifying rate, sealing hosts in subterranean chambers until their larvae grow to adulthood. However, during lean times, zecui adults will sate their hunger by eating those hosts along with any unlucky larvae gestating within, unable to be infested by their own young.\n\n Between periods of wakefulness, zecuis hibernate for decades in burrows or buried within the soil. Sometimes an unincubated larva will be buried this way, waiting for a living host to come in contact with it. Once a zecui larva has gestated long enough to take control of its host, it may seek out larger and more powerful entities to devour the host, transferring themselves to a more plentiful source of food.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Aberration](/Rules.aspx?ID=563)**\r\n([Occultism](/Skills.aspx?ID=44)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Zecui.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Zecui](/Monsters.aspx?ID=3248)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=523\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 355\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +15, [Crafting](/Skills.aspx?ID=4) +12, [Medicine](/Skills.aspx?ID=9) +14, [Stealth](/Skills.aspx?ID=15) +17\r\n\r\n<row gap=\"medium\">\r\n**Str** +3\r\n\r\n**Dex** +5\r\n\r\n**Con** +2\r\n\r\n**Int** +0\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n**Items**\r\n[Shortsword](/Weapons.aspx?ID=43) (2)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +14 \r\n\r\n**Ref** +17 \r\n\r\n**Will** +12 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 110\n\n</row>\n\n**Preserve Prey** <actions string=\"Reaction\" /> ([healing](/Traits.aspx?ID=623), [manipulate](/Traits.aspx?ID=645), [occult](/Traits.aspx?ID=662), [vitality](/Traits.aspx?ID=509)) **Trigger** A living creature within 30 feet is reduced to 0 Hit Points; **Effect** The zecui channels corrupt vitality into the triggering creature, which still goes [unconscious](/Conditions.aspx?ID=95) but does not gain the [dying](/Conditions.aspx?ID=69) condition. While that creature is unconscious, the residual energy attempts to [counteract](/Rules.aspx?ID=371) any [vitality](/Traits.aspx?ID=509) spell healing that creature with a +15 counteract modifier.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet, burrow 20 feet, climb 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nmandibles +15,\r\n**Damage** 2d8+7 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshortsword +17 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 2d6+7 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaws +17 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d4+7 slashing plus [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspit +17 ([range 30 feet](/Traits.aspx?ID=248)),\r\n**Damage** spit mucus\n\n**Dual Stab** <actions string=\"Single Action\" />  **Frequency** once per round; **Effect** The zecui makes two shortsword Strikes against an [immobilized](/Conditions.aspx?ID=81) or [off-guard](/Conditions.aspx?ID=58) target. These strikes count towards the zecui's multiple attack penalty, but it doesn't increase until after the second attack.\r\n\r\n**Harden Chitin** <actions string=\"Single Action\" />  The zecui fuses much of their chitin into a black metallic shell. They gain resistance 5 to all damage (except [mental](/Traits.aspx?ID=647) and [spirit](/Traits.aspx?ID=737)) until they next take a [move](/Traits.aspx?ID=658) action.\r\n\r\n**Spit Mucus**   A creature hit by the zecui's spit attack is [immobilized](/Conditions.aspx?ID=81) by the larva-infested mucus and stuck to the nearest surface until it [Escapes](/Actions.aspx?ID=2296) (DC 25). While that creature is immobilized, it is exposed to zecui larvae at the end of each of its turns.\r\n\r\n**Zecui Larvae**  ([Disease](/Traits.aspx?ID=46)) **Saving Throw** DC 25 Fortitude; **Stage 1** visible lumps as the larvae move but no ill effect (1 day); **Stage 2** [drained 1](/Conditions.aspx?ID=68) (1 day); **Stage 3** drained 2 (1 day); **Stage 4** drained 3 and [controlled](/Conditions.aspx?ID=64) by the zecui larva (1 day); **Stage 5** the creature dies and the adult zecui can emerge from the corpse as an Interact action\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_3_Locations.png\">The Dark Brood</title>\r\n\r\nAlthough zecuis generally operate in personal nests, a coalition of zecui thrives in the Valashmai Jungle of Tian Xia, nesting in the ruins of the ancient empire that attempted to control their ancestors. Recently, the brood has turned its gaze outwards, building up numbers to begin a great expansion.\r\n</aside>",
+ "name": "Zecui",
+ "npc": false,
+ "perception": 14,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 355",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "reflex_save": 17,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Aberration\" url=\"/Traits.aspx?ID=523\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 355\n\n<row gap=\"medium\">\r\n**HP** 110\r\n\r\n**AC** 23\r\n\r\n**Fort** +14\r\n\r\n**Ref** +17\r\n\r\n**Will** +12\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThese chitinous entities can only grow to adulthood within a host creature, usually a humanoid or larger animal. When such hosts are particularly …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Crafting",
+  "Medicine",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +17, [Athletics](/Skills.aspx?ID=3) +15, [Crafting](/Skills.aspx?ID=4) +12, [Medicine](/Skills.aspx?ID=9) +14, [Stealth](/Skills.aspx?ID=15) +17",
+ "skill_mod": {
+  "acrobatics": 17,
+  "athletics": 15,
+  "crafting": 12,
+  "medicine": 14,
+  "stealth": 17
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 355"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 355",
+ "speed": {
+  "burrow": 20,
+  "climb": 20,
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet, burrow 20 feet, climb 20 feet",
+ "speed_raw": "30 feet, burrow 20 feet, climb 20 feet",
+ "spell_markdown": "",
+ "stealth": "17",
+ "strike_damage_average": [
+  12,
+  14,
+  16
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 3,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "These chitinous entities can only grow to adulthood within a host creature, usually a humanoid or larger animal. When such hosts are particularly …",
+ "summary_markdown": "These chitinous entities can only grow to adulthood within a host creature, usually a humanoid or larger animal. When such hosts are particularly …",
+ "text": " Zecui These chitinous entities can only grow to adulthood within a host creature, usually a humanoid or larger animal. When such hosts are particularly plentiful, zecuis can multiply at a horrifying rate, sealing hosts in subterranean chambers until their larvae grow to adulthood. However, during lean times, zecui adults will sate their hunger by eating those hosts along with any unlucky larvae gestating within, unable to be infested by their own young. Between periods of wakefulness, zecuis hibernate for decades in burrows or buried within the soil. Sometimes an unincubated larva will be buried this way, waiting for a living host to come in contact with it. Once a zecui larva has gestated long enough to take control of its host, it may seek out larger and more powerful entities to devour the host, transferring themselves to a more plentiful source of food. Recall Knowledge - Aberration (Occultism): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Zecui Source Monster Core pg. 355 Perception +14; darkvision Languages Aklo Skills Acrobatics +17, Athletics +15, Crafting +12, Medicine +14, Stealth +17 Str +3 Dex +5 Con +2 Int +0 Wis +2 Cha +0 Items Shortsword (2) --- AC 23 Fort +14 Ref +17 Will +12 HP 110 Preserve Prey Reaction (healing, manipulate, occult, vitality) Trigger A living creature within 30 feet is reduced to 0 Hit Points; Effect The zecui channels corrupt vitality into the triggering creature, which still goes unconscious but does not gain the dying condition. While that creature is unconscious, the residual energy attempts to counteract any vitality spell healing that creature with a +15 counteract modifier. --- Speed 30 feet, burrow 20 feet, climb 20 feet Melee Single Action mandibles +15, Damage 2d8+7 piercing Melee Single Action shortsword +17 (Agile, Finesse, versatile S), Damage 2d6+7 piercing Melee Single Action claws +17 (Agile, Finesse), Damage 2d4+7 slashing plus Grab Ranged Single Action spit +17 (range 30 feet), Damage spit mucus Dual Stab Single Action Frequency once per round; Effect The zecui makes two shortsword Strikes against an immobilized or off-guard target. These strikes count towards the zecui's multiple attack penalty, but it doesn't increase until after the second attack. Harden Chitin Single Action The zecui fuses much of their chitin into a black metallic shell. They gain resistance 5 to all damage (except mental and spirit) until they next take a move action. Spit Mucus A creature hit by the zecui's spit attack is immobilized by the larva-infested mucus and stuck to the nearest surface until it Escapes (DC 25). While that creature is immobilized, it is exposed to zecui larvae at the end of each of its turns. Zecui Larvae (Disease) Saving Throw DC 25 Fortitude; Stage 1 visible lumps as the larvae move but no ill effect (1 day); Stage 2 drained 1 (1 day); Stage 3 drained 2 (1 day); Stage 4 drained 3 and controlled by the zecui larva (1 day); Stage 5 the creature dies and the adult zecui can emerge from the corpse as an Interact action The Dark Brood Although zecuis generally operate in personal nests, a coalition of zecui thrives in the Valashmai Jungle of Tian Xia, nesting in the ruins of the ancient empire that attempted to control their ancestors. Recently, the brood has turned its gaze outwards, building up numbers to begin a great expansion. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Aberration",
+  "Uncommon",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Aberration](/Traits.aspx?ID=523), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Aberration",
+  "Uncommon"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3248",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 12,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

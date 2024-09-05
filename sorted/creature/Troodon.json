@@ -1,0 +1,153 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 3,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Mimicry",
+  "Running Attack"
+ ],
+ "creature_family": "Dinosaur",
+ "creature_family_markdown": "[Dinosaur](/MonsterFamilies.aspx?ID=391)",
+ "dexterity": 3,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
+ "exclude_from_search": false,
+ "fortitude_save": 4,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 20,
+ "hp_raw": "20",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3260",
+ "intelligence": -4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"\">[Troodon](/Monsters.aspx?ID=3260)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nTroodons stand roughly 3 feet tall and twice as long, with slender necks and large, inquisitive eyes. Although they don't fully understand language, troodons have a remarkable talent for speech mimicry.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=43)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Troodon](/Monsters.aspx?ID=3260)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 136\n\n**Perception** +9; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet\r\n\r\n**Languages**\n\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +6, [Athletics](/Skills.aspx?ID=36) +5, [Deception](/Skills.aspx?ID=38) +8, [Stealth](/Skills.aspx?ID=48) +8, [Survival](/Skills.aspx?ID=49) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +1\r\n\r\n**Dex** +3\r\n\r\n**Con** +1\r\n\r\n**Int** -4\r\n\r\n**Wis** +2\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 16 \r\n\r\n**Fort** +4 \r\n\r\n**Ref** +8 \r\n\r\n**Will** +5 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +8 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d8+1 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6+1 slashing\n\n**Mimicry** <actions string=\"Single Action\" />  The troodon repeats up to twelve words it heard in the last week. If it succeeds at a [Deception](/Skills.aspx?ID=38) check against the listeners' Perception DC, the sound is indistinguishable from the original. The troodon can't duplicate voice-based abilities or spells, although it can mimic the verbal sounds of spellcasting.\r\n\r\n**Running Attack** <actions string=\"Two Actions\" />  The troodon Strides and makes a claw Strike at any point during that movement.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-391\" />",
+ "name": "Troodon",
+ "npc": false,
+ "perception": 9,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 136",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 8,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\r\n<trait label=\"Dinosaur\" url=\"/Traits.aspx?ID=576\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 136\r\n\r\n**Creature Family** [Dinosaur](/MonsterFamilies.aspx?ID=391)\r\n\r\n<row gap=\"medium\">\r\n**HP** 20\r\n\r\n**AC** 16\r\n\r\n**Fort** +4\r\n\r\n**Ref** +8\r\n\r\n**Will** +5\r\n\r\n**Perception** +9\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTroodons stand roughly 3 feet tall and twice as long, with slender necks and large, inquisitive eyes. Although they don't fully understand language, …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 30 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 30 feet",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +6, [Athletics](/Skills.aspx?ID=36) +5, [Deception](/Skills.aspx?ID=38) +8, [Stealth](/Skills.aspx?ID=48) +8, [Survival](/Skills.aspx?ID=49) +7",
+ "skill_mod": {
+  "acrobatics": 6,
+  "athletics": 5,
+  "deception": 8,
+  "stealth": 8,
+  "survival": 7
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 136"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 136",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  5
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Troodons stand roughly 3 feet tall and twice as long, with slender necks and large, inquisitive eyes. Although they don't fully understand language, …",
+ "summary_markdown": "Troodons stand roughly 3 feet tall and twice as long, with slender necks and large, inquisitive eyes. Although they don't fully understand language, …",
+ "text": " Troodon Troodons stand roughly 3 feet tall and twice as long, with slender necks and large, inquisitive eyes. Although they don't fully understand language, troodons have a remarkable talent for speech mimicry. Recall Knowledge - Animal (Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Troodon Source Howl of the Wild pg. 136 Perception +9; low-light vision, scent (imprecise) 30 feet Languages Skills Acrobatics +6, Athletics +5, Deception +8, Stealth +8, Survival +7 Str +1 Dex +3 Con +1 Int -4 Wis +2 Cha +3 --- AC 16 Fort +4 Ref +8 Will +5 HP 20 --- Speed 30 feet Melee Single Action jaws +8 (Finesse), Damage 1d8+1 piercing Melee Single Action claw +8 (Agile, Finesse), Damage 1d6+1 slashing Mimicry Single Action The troodon repeats up to twelve words it heard in the last week. If it succeeds at a Deception check against the listeners' Perception DC, the sound is indistinguishable from the original. The troodon can't duplicate voice-based abilities or spells, although it can mimic the verbal sounds of spellcasting. Running Attack Two Actions The troodon Strides and makes a claw Strike at any point during that movement. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Dinosaur",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531), [Dinosaur](/Traits.aspx?ID=576)",
+ "trait_raw": [
+  "Animal",
+  "Dinosaur"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3260",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 5,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

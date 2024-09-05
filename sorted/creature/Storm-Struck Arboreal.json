@@ -1,10 +1,25 @@
 {
  "ac": 37,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "NE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  33,
+  33
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Axe Vulnerability",
   "Electric Healing",
@@ -12,28 +27,45 @@
  ],
  "creature_family_markdown": "",
  "dexterity": 1,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 28,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 370,
  "hp_raw": "370",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
  "id": "creature-2351",
  "immunity": [
   "electricity"
  ],
  "immunity_markdown": "electricity",
  "intelligence": 0,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Aklo",
   "Sylvan"
  ],
  "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Sylvan](/Languages.aspx?ID=10)",
  "level": 16,
- "markdown": "<title level=\"1\" pfs=\"\">[Storm-Struck Arboreal](/Monsters.aspx?ID=2351)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 40\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 38\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 35\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Storm-Struck Arboreal](/Monsters.aspx?ID=2351)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 447</row>\n\n**Perception** +28; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +33, [Nature](/Skills.aspx?ID=10) +26, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +1\r\n\r\n**Con** +6\r\n\r\n**Int** +0\r\n\r\n**Wis** +6\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 37 \r\n\r\n**Fort** +28 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +30 \n\n</row>\r\n\r\n**HP** 370\n\n**Immunities**\r\nelectricity\r\n\r\n**Resistances**\r\nbludgeoning 15, fire 15, piercing 15\r\n\r\n**Weaknesses**\r\naxe vulnerability\r\n\r\n**Axe Vulnerability** A storm-struck arboreal takes 15 additional damage from axes.<br />**Electric Healing** Whenever the storm-struck arboreal would take electricity damage or is targeted with an electricity effect, it gains 15 temporary HP.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"\" />\r\nbranch +33 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+15 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"\" />\r\nroot +33 ([Trip](/Traits.aspx?ID=196)),\r\n**Damage** 3d10+15 bludgeoning\r\n\r\n**Primal Innate Spells** DC 30\r\n- **7th**\r\n[Lightning Bolt](/Spells.aspx?ID=172) (×3)\r\n- **8th**\r\n[Chain Lightning](/Spells.aspx?ID=33)\r\n\r\n**Sunder Objects**   When a storm-struck arboreal damages an item or structure it deals an additional 3d12 damage to that item or structure.\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Storm-Struck Arboreal](/Monsters.aspx?ID=2351)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Plant](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 40\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 38\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 35\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 16\">[Storm-Struck Arboreal](/Monsters.aspx?ID=2351)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 447\n\n**Perception** +28; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +33, [Nature](/Skills.aspx?ID=10) +26, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +1\r\n\r\n**Con** +6\r\n\r\n**Int** +0\r\n\r\n**Wis** +6\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 37 \r\n\r\n**Fort** +28 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +30 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 370\n\n</row>\r\n\r\n**Immunities**\r\nelectricity\r\n\r\n**Resistances**\r\nbludgeoning 15, fire 15, piercing 15\r\n\r\n**Weaknesses**\r\naxe vulnerability\r\n\r\n**Axe Vulnerability** A storm-struck arboreal takes 15 additional damage from axes.<br />**Electric Healing** Whenever the storm-struck arboreal would take electricity damage or is targeted with an electricity effect, it gains 15 temporary HP.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"\" />\r\nbranch +33 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d12+15 bludgeoning\r\n\r\n**Melee**\r\n<actions string=\"\" />\r\nroot +33 ([Trip](/Traits.aspx?ID=196)),\r\n**Damage** 3d10+15 bludgeoning\r\n\r\n**Primal Innate Spells** DC 30\r\n- **7th**\r\n[Lightning Bolt](/Spells.aspx?ID=172) (×3)\r\n- **8th**\r\n[Chain Lightning](/Spells.aspx?ID=33)\r\n\r\n**Sunder Objects**   When a storm-struck arboreal damages an item or structure it deals an additional 3d12 damage to that item or structure.\r\n\r\n</column>",
  "name": "Storm-Struck Arboreal",
  "npc": false,
  "perception": 28,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Kingmaker Adventure Path",
+ "primary_source_raw": "Kingmaker Adventure Path pg. 447",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Kingmaker",
  "rarity": "rare",
+ "rarity_id": 3,
  "reflex_save": 25,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
  "release_date": "2022-10-26",
  "resistance": {
   "bludgeoning": 15,
@@ -42,28 +74,41 @@
  },
  "resistance_markdown": "bludgeoning 15, fire 15, piercing 15",
  "resistance_raw": "bludgeoning 15, fire 15, piercing 15",
- "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 447</row>\n\n<row gap=\"medium\">\r\n**HP** 370\r\n\r\n**AC** 37\r\n\r\n**Fort** +28\r\n\r\n**Ref** +25\r\n\r\n**Will** +30\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Huge\" />\r\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 447\n\n<row gap=\"medium\">\r\n**HP** 370\r\n\r\n**AC** 37\r\n\r\n**Fort** +28\r\n\r\n**Ref** +25\r\n\r\n**Will** +30\r\n\r\n**Perception** +28\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Huge"
  ],
+ "size_id": [
+  5
+ ],
  "skill": [
-  "Athletics +33",
-  "Nature +26",
-  "Stealth +25",
-  "Survival +30"
+  "Athletics",
+  "Nature",
+  "Stealth",
+  "Survival"
  ],
  "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +33, [Nature](/Skills.aspx?ID=10) +26, [Stealth](/Skills.aspx?ID=15) +25, [Survival](/Skills.aspx?ID=16) +30",
+ "skill_mod": {
+  "athletics": 33,
+  "nature": 26,
+  "stealth": 25,
+  "survival": 30
+ },
  "source": [
   "Kingmaker Adventure Path"
  ],
  "source_raw": [
   "Kingmaker Adventure Path pg. 447"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Kingmaker",
- "source_markdown": "<row gap=\"tiny\">[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 447</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Kingmaker"
+ ],
+ "source_markdown": "[Kingmaker Adventure Path](/Sources.aspx?ID=150) pg. 447",
  "speed": {
   "land": 40,
   "max": 40
@@ -75,18 +120,47 @@
   "Lightning Bolt"
  ],
  "spell_markdown": "[Chain Lightning](/Spells.aspx?ID=33), [Lightning Bolt](/Spells.aspx?ID=172)",
+ "spell_dc": [
+  30
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
  "spoilers": "Kingmaker",
  "stealth": "25",
+ "strike_damage_average": [
+  31,
+  34
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
  "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "will"
  ],
  "text": " Storm-Struck Arboreal Recall Knowledge - Plant (Nature): DC 40 Unspecific Lore : DC 38 Specific Lore : DC 35 Storm-Struck Arboreal Source Kingmaker Adventure Path pg. 447 Perception +28; low-light vision Languages Aklo, Sylvan Skills Athletics +33, Nature +26, Stealth +25, Survival +30 Str +9 Dex +1 Con +6 Int +0 Wis +6 Cha +0 --- AC 37 Fort +28 Ref +25 Will +30 HP 370 Immunities electricity Resistances bludgeoning 15, fire 15, piercing 15 Weaknesses axe vulnerability Axe Vulnerability A storm-struck arboreal takes 15 additional damage from axes. Electric Healing Whenever the storm-struck arboreal would take electricity damage or is targeted with an electricity effect, it gains 15 temporary HP. --- Speed 40 feet Melee branch +33 (reach 15 feet), Damage 3d12+15 bludgeoning Melee root +33 (Trip), Damage 3d10+15 bludgeoning Primal Innate Spells DC 30 - 7th Lightning Bolt (×3) - 8th Chain Lightning Sunder Objects When a storm-struck arboreal damages an item or structure it deals an additional 3d12 damage to that item or structure. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Plant",
   "Rare",
   "NE",
   "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
  ],
  "trait_markdown": "[Plant](/Traits.aspx?ID=125), [Rare](/Traits.aspx?ID=137)",
  "trait_raw": [
@@ -104,5 +178,9 @@
  "weakness_markdown": "axe vulnerability",
  "weakness_raw": "axe vulnerability",
  "will_save": 30,
- "wisdom": 6
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

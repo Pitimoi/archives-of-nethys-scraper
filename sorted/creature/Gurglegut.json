@@ -1,0 +1,170 @@
+{
+ "ac": 32,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "NE",
+ "attack_bonus": [
+  23,
+  26
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Command Onidoshi",
+  "Spit Fire"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 23,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 216,
+ "hp_raw": "216",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2810",
+ "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "+1 striking flaming crossbow (10 bolts)",
+  "jug of rice wine",
+  "+1 striking kukri",
+  "+1 resilient studded leather armor"
+ ],
+ "language": [
+  "Common",
+  "Goblin",
+  "Sylvan"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6), [Sylvan](/Languages.aspx?ID=10)",
+ "level": 12,
+ "markdown": "<title level=\"1\" pfs=\"\">[Gurglegut](/Monsters.aspx?ID=2810)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=47)): DC 40\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 38\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 35\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[Gurglegut](/Monsters.aspx?ID=2810)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=723\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 54\n\n**Perception** +23; [low-light vision](/MonsterAbilities.aspx?ID=69)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Goblin](/Languages.aspx?ID=6), [Sylvan](/Languages.aspx?ID=10)\r\n\r\n**Skills**\r\n[Alcohol Lore](/Skills.aspx?ID=8) +22, [Arcana](/Skills.aspx?ID=2) +20, [Athletics](/Skills.aspx?ID=3) +25, [Intimidation](/Skills.aspx?ID=7) +22, [Nature](/Skills.aspx?ID=10) +23\r\n\r\n<row gap=\"medium\">\r\n**Str** +7\r\n\r\n**Dex** +4\r\n\r\n**Con** +5\r\n\r\n**Int** +4\r\n\r\n**Wis** +5\r\n\r\n**Cha** +4\r\n</row>\n\n**Items**\r\n_+1 striking [flaming](/Equipment.aspx?ID=2838) [crossbow](/Weapons.aspx?ID=425)_ (10 bolts), jug of rice wine, _+1 striking [kukri](/Weapons.aspx?ID=413)_, _+1 resilient [studded leather armor](/Armor.aspx?ID=42)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +23 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +23 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 216\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_kukri_ +26 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)),\r\n**Damage** 2d6+13 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_crossbow_ +23 ([Magical](/Traits.aspx?ID=103), [range 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 2d8+6 piercing plus 1d6 fire\n\n**Command Onidoshi** <actions string=\"Single Action\" /> ([Auditory](/Traits.aspx?ID=16), [Linguistic](/Traits.aspx?ID=101)) **Frequency** once per round; **Effect** Gurglegut barks out a command to a single onidoshi in area D1. That onidoshi can use a reaction to attempt a melee Strike against an adjacent foe.\r\n\r\n**Spit Fire** <actions string=\"Two Actions\" /> ([Fire](/Traits.aspx?ID=72), [Manipulate](/Traits.aspx?ID=104)) **Frequency** once per day; **Effect** Gurglegut drinks the contents of his jug of rice wine (consuming one of the gulps contained in his jug), then spews it out across the flaming tip of a bolt in his crossbow, filling a 20-foot-cone with a blast of fire that inflicts 10d8 fire damage (DC 32 basic Reflex save) to all creatures in the area.\r\n\r\n</column>",
+ "name": "Gurglegut",
+ "npc": false,
+ "perception": 23,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #199: To Bloom Below the Web",
+ "primary_source_raw": "Pathfinder #199: To Bloom Below the Web pg. 54",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 20,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-01-26",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=723\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=628\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 54\n\n<row gap=\"medium\">\r\n**HP** 216\r\n\r\n**AC** 32\r\n\r\n**Fort** +23\r\n\r\n**Ref** +20\r\n\r\n**Will** +23\r\n\r\n**Perception** +23\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "sense": " low-light vision ",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Alcohol Lore",
+  "Arcana",
+  "Athletics",
+  "Intimidation",
+  "Nature"
+ ],
+ "skill_markdown": "[Alcohol Lore](/Skills.aspx?ID=8) +22, [Arcana](/Skills.aspx?ID=2) +20, [Athletics](/Skills.aspx?ID=3) +25, [Intimidation](/Skills.aspx?ID=7) +22, [Nature](/Skills.aspx?ID=10) +23",
+ "skill_mod": {
+  "arcana": 20,
+  "athletics": 25,
+  "intimidation": 22,
+  "nature": 23
+ },
+ "source": [
+  "Pathfinder #199: To Bloom Below the Web"
+ ],
+ "source_raw": [
+  "Pathfinder #199: To Bloom Below the Web pg. 54"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 54",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "spoilers": "Season of Ghosts",
+ "strike_damage_average": [
+  18,
+  20
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 7,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude",
+  "will"
+ ],
+ "summary": "",
+ "summary_markdown": "",
+ "text": " Gurglegut Recall Knowledge - Humanoid (Society): DC 40 Unspecific Lore : DC 38 Specific Lore : DC 35 Gurglegut Source Pathfinder #199: To Bloom Below the Web pg. 54 Perception +23; low-light vision Languages Common, Goblin, Sylvan Skills Alcohol Lore +22, Arcana +20, Athletics +25, Intimidation +22, Nature +23 Str +7 Dex +4 Con +5 Int +4 Wis +5 Cha +4 Items +1 striking flaming crossbow (10 bolts), jug of rice wine, +1 striking kukri , +1 resilient studded leather armor --- AC 32 Fort +23 Ref +20 Will +23 HP 216 --- Speed 25 feet Melee Single Action kukri +26 (Agile, Magical, reach 10 feet, Trip), Damage 2d6+13 slashing Ranged Single Action crossbow +23 (Magical, range 120 feet), Damage 2d8+6 piercing plus 1d6 fire Command Onidoshi Single Action (Auditory, Linguistic) Frequency once per round; Effect Gurglegut barks out a command to a single onidoshi in area D1. That onidoshi can use a reaction to attempt a melee Strike against an adjacent foe. Spit Fire Two Actions (Fire, Manipulate) Frequency once per day; Effect Gurglegut drinks the contents of his jug of rice wine (consuming one of the gulps contained in his jug), then spews it out across the flaming tip of a bolt in his crossbow, filling a 20-foot-cone with a blast of fire that inflicts 10d8 fire damage (DC 32 basic Reflex save) to all creatures in the area. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Humanoid",
+  "Unique",
+  "NE",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Humanoid](/Traits.aspx?ID=628), [Unique](/Traits.aspx?ID=723)",
+ "trait_raw": [
+  "Humanoid",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2810",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 23,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

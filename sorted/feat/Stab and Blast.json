@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,23 +9,30 @@
  "feat_markdown": "Stab and Blast",
  "id": "feat-3181",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Stab and Blast](/Feats.aspx?ID=3181) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 115</row>\n\n**Requirements**\r\nYou're wielding a firearm with an attached [bayonet](/Weapons.aspx?ID=186) or [reinforced stock](/Weapons.aspx?ID=187), a [fire lance](/Weapons.aspx?ID=190), or a [combination](/Traits.aspx?ID=417) weapon.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou slice or smash your opponent with the melee portion of your weapon before pulling the trigger at point-blank range. Make a melee Strike with the required weapon. If the Strike is successful, you can immediately make a ranged Strike against the same target with a +2 circumstance bonus to the attack roll. This counts as two attacks toward your multiple attack penalty, but you don't apply the multiple attack penalty until after making both attacks.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Stab and Blast](/Feats.aspx?ID=3181) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 115\n\n**Requirements**\r\nYou're wielding a firearm with an attached [bayonet](/Weapons.aspx?ID=186) or [reinforced stock](/Weapons.aspx?ID=187), a [fire lance](/Weapons.aspx?ID=190), or a [combination](/Traits.aspx?ID=417) weapon.\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou slice or smash your opponent with the melee portion of your weapon before pulling the trigger at point-blank range. Make a melee Strike with the required weapon. If the Strike is successful, you can immediately make a ranged Strike against the same target with a +2 circumstance bonus to the attack roll. This counts as two attacks toward your multiple attack penalty, but you don't apply the multiple attack penalty until after making both attacks.",
  "name": "Stab and Blast",
  "pfs": "Standard",
+ "primary_source": "Guns & Gears",
+ "primary_source_raw": "Guns & Gears pg. 115",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-10-13",
  "requirement": "You're wielding a firearm with an attached  bayonet  or  reinforced stock , a  fire lance , or a  combination  weapon.",
  "requirement_markdown": "You're wielding a firearm with an attached [bayonet](/Weapons.aspx?ID=186) or [reinforced stock](/Weapons.aspx?ID=187), a [fire lance](/Weapons.aspx?ID=190), or a [combination](/Traits.aspx?ID=417) weapon.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 115</row>\n\n**Requirements**\r\nYou're wielding a firearm with an attached [bayonet](/Weapons.aspx?ID=186) or [reinforced stock](/Weapons.aspx?ID=187), a [fire lance](/Weapons.aspx?ID=190), or a [combination](/Traits.aspx?ID=417) weapon.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou slice or smash your opponent with the melee portion of your weapon before pulling the trigger at point-blank range.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Flourish\" url=\"/Traits.aspx?ID=73\" />\r\n<trait label=\"Gunslinger\" url=\"/Traits.aspx?ID=406\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Guns &amp; Gears](/Sources.aspx?ID=98) pg. 115\n\n**Requirements**\r\nYou're wielding a firearm with an attached [bayonet](/Weapons.aspx?ID=186) or [reinforced stock](/Weapons.aspx?ID=187), a [fire lance](/Weapons.aspx?ID=190), or a [combination](/Traits.aspx?ID=417) weapon.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou slice or smash your opponent with the melee portion of your weapon before pulling the trigger at point-blank range.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Guns & Gears"
  ],
  "source_raw": [
   "Guns & Gears pg. 115"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Guns &amp; Gears](/Sources.aspx?ID=98) pg. 115</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears](/Sources.aspx?ID=98) pg. 115",
  "speed": {},
  "summary": "You slice or smash your opponent with the melee portion of your weapon before pulling the trigger at point-blank range.",
  "summary_markdown": "You slice or smash your opponent with the melee portion of your weapon before pulling the trigger at point-blank range.",
@@ -33,6 +40,9 @@
  "trait": [
   "Flourish",
   "Gunslinger"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Flourish](/Traits.aspx?ID=73), [Gunslinger](/Traits.aspx?ID=406)",
  "trait_raw": [

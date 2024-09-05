@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,34 +7,45 @@
  "id": "equipment-996",
  "item_category": "Grimoires",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Summoning Handscroll](/Equipment.aspx?ID=996)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 163 <sup>1.1</sup></row>\n\n**Price** 480 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nClassic summoning circles are engraved into the batons of this massive papyrus scroll.\n\n<document level=\"2\" id=\"action-793\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Summoning Handscroll](/Equipment.aspx?ID=996)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 163 <sup>1.1</sup>\r\n\r\n_[**PFS Note**](/pathfinder-society)  Remove the word \"conjuration\" from the summoning handscroll._\r\n\r\n**Price** 480 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nClassic summoning circles are engraved into the batons of this massive papyrus scroll.\n\n**Activate** <actions string=\"Free Action\" /> envision ([metamagic](/Traits.aspx?ID=107)) **Frequency** once per day;   **Effect** If your next action is to cast a [conjuration](/Traits.aspx?ID=33) spell prepared from this spellbook that summons one or more creatures, you infuse one of the summoned creatures with the spell's energies, causing it to arrive with 10 temporary Hit Points that last for up to 1 minute.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Summoning Handscroll",
  "pfs": "Standard",
  "price": 48000,
  "price_raw": "480 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 163",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 163 <sup>1.1</sup></row>\r\n\r\n**Price** 480 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nClassic summoning circles are engraved into the batons of this massive papyrus scroll. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 163 <sup>1.1</sup>\r\n\r\n**Price** 480 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nClassic summoning circles are engraved into the batons of this massive papyrus scroll. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 163"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 163 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 163 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Classic summoning circles are engraved into the batons of this massive papyrus scroll. ",
  "summary_markdown": "Classic summoning circles are engraved into the batons of this massive papyrus scroll. ",
- "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Summoning Handscroll Source Secrets of Magic pg. 163 1.1 Price 480 gp Bulk L --- Classic summoning circles are engraved into the batons of this massive papyrus scroll.\n",
+ "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Summoning Handscroll Source Secrets of Magic pg. 163 1.1 PFS Note Remove the word \"conjuration\" from the summoning handscroll. Price 480 gp Bulk L --- Classic summoning circles are engraved into the batons of this massive papyrus scroll. Activate Free Action envision (metamagic) Frequency once per day; Effect If your next action is to cast a conjuration spell prepared from this spellbook that summons one or more creatures, you infuse one of the summoned creatures with the spell's energies, causing it to arrive with 10 temporary Hit Points that last for up to 1 minute.\n",
  "trait": [
   "Conjuration",
   "Grimoire",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Grimoire](/Traits.aspx?ID=387), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

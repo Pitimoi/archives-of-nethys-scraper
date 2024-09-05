@@ -3,7 +3,6 @@
   "Breastplate"
  ],
  "base_item_markdown": "[Breastplate](/Armor.aspx?ID=10)",
- "breadcrumbs_spa": [],
  "bulk": 2,
  "bulk_raw": "2",
  "category": "equipment",
@@ -12,34 +11,45 @@
  "item_category": "Armor",
  "item_subcategory": "Specific Magic Armor",
  "level": 20,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Rebounding Breastplate](/Equipment.aspx?ID=1070)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 188 <sup>1.1</sup></row>\n\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Breastplate](/Armor.aspx?ID=10)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis _+3 [greater resilient](/Equipment.aspx?ID=279) [greater fortification](/Equipment.aspx?ID=285) [breastplate](/Armor.aspx?ID=10)_ absorbs impacts for later release. While wearing the armor, you gain resistance 5 to bludgeoning, piercing, and slashing damage and resistance 10 to [force](/Traits.aspx?ID=75) damage. Keep track of how much damage the armor prevents from enemy attacks, as the armor absorbs that damage. After 1 minute, the absorbed damage disperses harmlessly and resets to 0. Only damage caused by foes or hazards powers the armor, not damage you take from yourself, allies, or the environment.\n\n<document level=\"2\" id=\"action-861\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 20\"\r\n    pfs=\"Standard\"\r\n>\r\n[Rebounding Breastplate](/Equipment.aspx?ID=1070)\r\n</title>\n\n<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 188 <sup>1.1</sup>\n\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Breastplate](/Armor.aspx?ID=10)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis _+3 [greater resilient](/Equipment.aspx?ID=279) [greater fortification](/Equipment.aspx?ID=285) [breastplate](/Armor.aspx?ID=10)_ absorbs impacts for later release. While wearing the armor, you gain resistance 5 to bludgeoning, piercing, and slashing damage and resistance 10 to [force](/Traits.aspx?ID=75) damage. Keep track of how much damage the armor prevents from enemy attacks, as the armor absorbs that damage. After 1 minute, the absorbed damage disperses harmlessly and resets to 0. Only damage caused by foes or hazards powers the armor, not damage you take from yourself, allies, or the environment.\n\n**Activate** <actions string=\"Single Action\" /> Interact;    **Requirements** Your armor has absorbed at least 30 damage; **Effect** The absorbed energy explodes from your armor in a pulse of force. Creatures in a 30-foot emanation take 10d6 force damage with a DC 43 [basic](/Rules.aspx?ID=329) Fortitude save. On a failure, they're [pushed](/Rules.aspx?ID=451) 10 feet away from you, and on a critical failure, they're pushed 20 feet away from you and fall [prone](/Conditions.aspx?ID=31). The armor's absorbed damage resets to 0.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Rebounding Breastplate",
  "pfs": "Standard",
  "price": 7000000,
  "price_raw": "70,000 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 188",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 188 <sup>1.1</sup></row>\r\n\r\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  +3  greater resilient   greater fortification   breastplate   absorbs impacts for later release. While wearing the armor, you gain resistance 5 …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Force\" url=\"/Traits.aspx?ID=75\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 188 <sup>1.1</sup>\r\n\r\n**Price** 70,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn armor\r\n\r\n**Bulk** 2\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Armor** [Breastplate](/Armor.aspx?ID=10)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis  +3  greater resilient   greater fortification   breastplate   absorbs impacts for later release. While wearing the armor, you gain resistance 5 …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 188"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 188 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 188 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This  +3  greater resilient   greater fortification   breastplate   absorbs impacts for later release. While wearing the armor, you gain resistance 5 …",
  "summary_markdown": "This  +3  greater resilient   greater fortification   breastplate   absorbs impacts for later release. While wearing the armor, you gain resistance 5 …",
- "text": "<title level=\"1\" right=\"Item 20\" pfs=\"Standard\" > Rebounding Breastplate Source Secrets of Magic pg. 188 1.1 Price 70,000 gp Usage worn armor Bulk 2 Base Armor Breastplate --- This +3 greater resilient greater fortification breastplate absorbs impacts for later release. While wearing the armor, you gain resistance 5 to bludgeoning, piercing, and slashing damage and resistance 10 to force damage. Keep track of how much damage the armor prevents from enemy attacks, as the armor absorbs that damage. After 1 minute, the absorbed damage disperses harmlessly and resets to 0. Only damage caused by foes or hazards powers the armor, not damage you take from yourself, allies, or the environment.\n",
+ "text": "<title level=\"1\" right=\"Item 20\" pfs=\"Standard\" > Rebounding Breastplate Source Secrets of Magic pg. 188 1.1 Price 70,000 gp Usage worn armor Bulk 2 Base Armor Breastplate --- This +3 greater resilient greater fortification breastplate absorbs impacts for later release. While wearing the armor, you gain resistance 5 to bludgeoning, piercing, and slashing damage and resistance 10 to force damage. Keep track of how much damage the armor prevents from enemy attacks, as the armor absorbs that damage. After 1 minute, the absorbed damage disperses harmlessly and resets to 0. Only damage caused by foes or hazards powers the armor, not damage you take from yourself, allies, or the environment. Activate Single Action Interact; Requirements Your armor has absorbed at least 30 damage; Effect The absorbed energy explodes from your armor in a pulse of force. Creatures in a 30-foot emanation take 10d6 force damage with a DC 43 basic Fortitude save. On a failure, they're pushed 10 feet away from you, and on a critical failure, they're pushed 20 feet away from you and fall prone. The armor's absorbed damage resets to 0.\n",
  "trait": [
   "Evocation",
   "Force",
   "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Energy"
  ],
  "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Force](/Traits.aspx?ID=75), [Magical](/Traits.aspx?ID=103)",
  "trait_raw": [

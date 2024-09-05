@@ -1,25 +1,54 @@
 {
  "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  15,
+  17
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Deep Breath"
  ],
  "creature_family": "Lizardfolk",
  "creature_family_markdown": "[Lizardfolk](/MonsterFamilies.aspx?ID=71)",
  "dexterity": 5,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 13,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 100,
  "hp_raw": "100",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-1656",
  "image": [
   "/Images/Monsters/Lizardfolk_TerwaProdigy.png"
  ],
  "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Leather Armor",
+  "+1 longbow"
+ ],
  "language": [
   "Common",
   "Draconic",
@@ -27,36 +56,59 @@
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)",
  "level": 6,
- "markdown": "<title level=\"1\" pfs=\"\">[Terwa Prodigy](/Monsters.aspx?ID=1656)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAmong the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide number of ways, but advanced spellcasting is the most common.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lizardfolk_TerwaProdigy.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Terwa Prodigy](/Monsters.aspx?ID=1656)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #171: Hurricane's Howl](/Sources.aspx?ID=101) pg. 82</row>\n\n**Perception** +17\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Arcana](/Skills.aspx?ID=2) +13, [Astrology Lore](/Skills.aspx?ID=8) +11, [Medicine](/Skills.aspx?ID=9) +13, [Nature](/Skills.aspx?ID=10) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +5\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Deep Breath** A terwa prodigy can hold their breath for 10 minutes.\r\n\r\n**Items**\r\n[Leather Armor](/Armor.aspx?ID=4), _+1 [longbow](/Weapons.aspx?ID=76)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n**HP** 100\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +15 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d6+5 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_longbow_ +17 ([deadly d10](/Traits.aspx?ID=174), [Volley](/Traits.aspx?ID=201)),\r\n**Damage** 1d8+5 piercing\r\n\r\n**Primal Innate Spells** DC 24, attack +16\r\n- **Cantrips (3rd)**\r\n[Acid Splash](/Spells.aspx?ID=3), [Guidance](/Spells.aspx?ID=142), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148) (×2), [Pass Without Trace](/Spells.aspx?ID=215), [Swampcall](/Spells.aspx?ID=1075)\r\n- **2nd**\r\n[Acid Arrow](/Spells.aspx?ID=2), [Clawsong](/Spells.aspx?ID=1066), [Dispel Magic](/Spells.aspx?ID=78), [Heal](/Spells.aspx?ID=148)\r\n- **3rd**\r\n[Fireball](/Spells.aspx?ID=119) (×2), [Heal](/Spells.aspx?ID=148)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-71\" />",
+ "markdown": "<title level=\"1\" pfs=\"\">[Terwa Prodigy](/Monsters.aspx?ID=1656)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAmong the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide number of ways, but advanced spellcasting is the most common.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Lizardfolk_TerwaProdigy.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Terwa Prodigy](/Monsters.aspx?ID=1656)</title>\r\n\r\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #171: Hurricane's Howl](/Sources.aspx?ID=101) pg. 82\n\n**Perception** +17\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Iruxi](/Languages.aspx?ID=32)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +15, [Arcana](/Skills.aspx?ID=2) +13, [Astrology Lore](/Skills.aspx?ID=8) +11, [Medicine](/Skills.aspx?ID=9) +13, [Nature](/Skills.aspx?ID=10) +15, [Survival](/Skills.aspx?ID=16) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +2\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +5\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Deep Breath** A terwa prodigy can hold their breath for 10 minutes.\r\n\r\n**Items**\r\n[Leather Armor](/Armor.aspx?ID=4), _+1 [longbow](/Weapons.aspx?ID=76)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +13 \r\n\r\n**Ref** +15 \r\n\r\n**Will** +15 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +15 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d6+5 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\n_longbow_ +17 ([deadly d10](/Traits.aspx?ID=174), [Volley](/Traits.aspx?ID=201)),\r\n**Damage** 1d8+5 piercing\r\n\r\n**Primal Innate Spells** DC 24, attack +16\r\n- **Cantrips (3rd)**\r\n[Acid Splash](/Spells.aspx?ID=3), [Guidance](/Spells.aspx?ID=142), [Stabilize](/Spells.aspx?ID=307)\r\n- **1st**\r\n[Heal](/Spells.aspx?ID=148) (×2), [Pass Without Trace](/Spells.aspx?ID=215), [Swampcall](/Spells.aspx?ID=1075)\r\n- **2nd**\r\n[Acid Arrow](/Spells.aspx?ID=2), [Clawsong](/Spells.aspx?ID=1066), [Dispel Magic](/Spells.aspx?ID=78), [Heal](/Spells.aspx?ID=148)\r\n- **3rd**\r\n[Fireball](/Spells.aspx?ID=119) (×2), [Heal](/Spells.aspx?ID=148)\n\n</column>\n\n<document level=\"2\" id=\"creature-family-71\" />",
  "name": "Terwa Prodigy",
  "npc": false,
  "perception": 17,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Pathfinder #171: Hurricane's Howl",
+ "primary_source_raw": "Pathfinder #171: Hurricane's Howl pg. 82",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "reflex_save": 15,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2021-10-13",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #171: Hurricane's Howl](/Sources.aspx?ID=101) pg. 82</row>\r\n\r\n**Creature Family** [Lizardfolk](/MonsterFamilies.aspx?ID=71)\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\r\n\r\n**AC** 23\r\n\r\n**Fort** +13\r\n\r\n**Ref** +15\r\n\r\n**Will** +15\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAmong the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n<trait label=\"Lizardfolk\" url=\"/Traits.aspx?ID=226\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #171: Hurricane's Howl](/Sources.aspx?ID=101) pg. 82\r\n\r\n**Creature Family** [Lizardfolk](/MonsterFamilies.aspx?ID=71)\r\n\r\n<row gap=\"medium\">\r\n**HP** 100\r\n\r\n**AC** 23\r\n\r\n**Fort** +13\r\n\r\n**Ref** +15\r\n\r\n**Will** +15\r\n\r\n**Perception** +17\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAmong the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +15",
-  "Arcana +13",
-  "Astrology Lore +11",
-  "Medicine +13",
-  "Nature +15",
-  "Survival +15"
+  "Acrobatics",
+  "Arcana",
+  "Astrology Lore",
+  "Medicine",
+  "Nature",
+  "Survival"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +15, [Arcana](/Skills.aspx?ID=2) +13, [Astrology Lore](/Skills.aspx?ID=8) +11, [Medicine](/Skills.aspx?ID=9) +13, [Nature](/Skills.aspx?ID=10) +15, [Survival](/Skills.aspx?ID=16) +15",
+ "skill_mod": {
+  "acrobatics": 15,
+  "arcana": 13,
+  "medicine": 13,
+  "nature": 15,
+  "survival": 15
+ },
  "source": [
   "Pathfinder #171: Hurricane's Howl"
  ],
  "source_raw": [
   "Pathfinder #171: Hurricane's Howl pg. 82"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Strength of Thousands",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #171: Hurricane's Howl](/Sources.aspx?ID=101) pg. 82</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #171: Hurricane's Howl](/Sources.aspx?ID=101) pg. 82",
  "speed": {
   "land": 25,
   "max": 25
@@ -76,8 +128,38 @@
   "Stabilize"
  ],
  "spell_markdown": "[Acid Arrow](/Spells.aspx?ID=2), [Acid Splash](/Spells.aspx?ID=3), [Clawsong](/Spells.aspx?ID=1066), [Dispel Magic](/Spells.aspx?ID=78), [Fireball](/Spells.aspx?ID=119), [Guidance](/Spells.aspx?ID=142), [Heal](/Spells.aspx?ID=148), [Pass Without Trace](/Spells.aspx?ID=215), [Stabilize](/Spells.aspx?ID=307), [Swampcall](/Spells.aspx?ID=1075)",
+ "spell_attack_bonus": [
+  16
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  24
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "spoilers": "Strength of Thousands",
+ "strike_damage_average": [
+  9,
+  12
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": 2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex",
@@ -86,12 +168,22 @@
  "summary": "Among the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide …",
  "summary_markdown": "Among the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide …",
  "text": " Terwa Prodigy Among the Terwa Lord clans, iruxis display immense, unrefined magical talent from a very young age. These abilities reveal themselves in a wide number of ways, but advanced spellcasting is the most common. Recall Knowledge - Humanoid (Society): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Terwa Prodigy Source Pathfinder #171: Hurricane's Howl pg. 82 Perception +17 Languages Common, Draconic, Iruxi Skills Acrobatics +15, Arcana +13, Astrology Lore +11, Medicine +13, Nature +15, Survival +15 Str +2 Dex +5 Con +4 Int +3 Wis +5 Cha +2 Deep Breath A terwa prodigy can hold their breath for 10 minutes. Items Leather Armor, +1 longbow --- AC 23 Fort +13 Ref +15 Will +15 HP 100 --- Speed 25 feet Melee Single Action claw +15 (Agile, Finesse), Damage 2d6+5 slashing Ranged Single Action longbow +17 (deadly d10, Volley), Damage 1d8+5 piercing Primal Innate Spells DC 24, attack +16 - Cantrips (3rd) Acid Splash, Guidance, Stabilize - 1st Heal (×2), Pass Without Trace, Swampcall - 2nd Acid Arrow, Clawsong, Dispel Magic, Heal - 3rd Fireball (×2), Heal\n",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Humanoid",
   "Lizardfolk",
   "Uncommon",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Ancestry",
+  "Rarity"
  ],
  "trait_markdown": "[Humanoid](/Traits.aspx?ID=91), [Lizardfolk](/Traits.aspx?ID=226), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [
@@ -107,5 +199,9 @@
  ],
  "weakness": {},
  "will_save": 15,
- "wisdom": 5
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 5,
+ "wisdom_scale": "High",
+ "wisdom_scale_number": 4
 }

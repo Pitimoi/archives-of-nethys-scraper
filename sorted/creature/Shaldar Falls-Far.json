@@ -1,0 +1,170 @@
+{
+ "ac": 23,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "NG",
+ "attack_bonus": [
+  14,
+  15
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Attack of Opportunity",
+  "Hunt Prey",
+  "Hunter's Aim"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 15,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 112,
+ "hp_raw": "112",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2549",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Composite Longbow (20 arrows)",
+  "moderate healing potions (2)",
+  "Hide Armor",
+  "+1 longsword"
+ ],
+ "language": [
+  "Common",
+  "Jotun",
+  "Shoanti"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Shoanti](/Languages.aspx?ID=41)",
+ "level": 6,
+ "markdown": "<title level=\"1\" pfs=\"\">[Shaldar Falls-Far](/NPCs.aspx?ID=2549)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 32\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 30\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 27\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Shaldar Falls-Far](/NPCs.aspx?ID=2549)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #190: The Choosing](/Sources.aspx?ID=198) pg. 49\n\n**Perception** +13\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Shoanti](/Languages.aspx?ID=41)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +15, [Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +13, [Survival](/Skills.aspx?ID=16) +11\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +3\r\n\r\n**Con** +3\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +1\r\n</row>\n\n**Items**\r\n[Composite Longbow](/Weapons.aspx?ID=74) (20 arrows), [_moderate healing potions_](/Equipment.aspx?ID=186) (2), [Hide Armor](/Armor.aspx?ID=7), _+1 [longsword](/Weapons.aspx?ID=31)_\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 23 \r\n\r\n**Fort** +15 \r\n\r\n**Ref** +11 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 112\n\n</row>\n\n**[Attack of Opportunity](/MonsterAbilities.aspx?ID=3)** <actions string=\"Reaction\" /> \r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\n_longsword_ +15 ([Magical](/Traits.aspx?ID=103), [versatile P](/Traits.aspx?ID=200)),\r\n**Damage** 1d8+8 slashing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncomposite longbow +14 ([deadly d10](/Traits.aspx?ID=174), [Propulsive](/Traits.aspx?ID=191), [range increment 100 feet](/Traits.aspx?ID=248), [reload 0](/Traits.aspx?ID=254), [volley 30 feet](/Traits.aspx?ID=201)),\r\n**Damage** 1d8+6 piercing\n\n**Hunt Prey** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=32)) Shaldar Falls-Far designates a single creature she can see and hear, or one that she's [Tracking](/Actions.aspx?ID=66), as her prey. She gains a +2 circumstance bonus to Perception checks to [Seek](/Actions.aspx?ID=84) the prey and to [Survival](/Skills.aspx?ID=16) checks to Track the prey. The first time she hits the designated prey in a round, she deals an additional 1d8 precision damage. She also ignores the penalty for making ranged attacks within her second range increment. These effects last until Shaldar Falls-Far uses Hunt Prey again.\r\n\r\n**Hunter's Aim** <actions string=\"Two Actions\" /> ([Concentrate](/Traits.aspx?ID=32)) Shaldar Falls-Far makes a ranged weapon Strike against her hunted prey. On this Strike, she gains a +2 circumstance bonus to the attack roll and ignores the prey's [concealed](/Conditions.aspx?ID=4) condition.\r\n\r\n</column>",
+ "name": "Shaldar Falls-Far",
+ "npc": true,
+ "perception": 13,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #190: The Choosing",
+ "primary_source_raw": "Pathfinder #190: The Choosing pg. 49",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 11,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-04-26",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #190: The Choosing](/Sources.aspx?ID=198) pg. 49\n\n<row gap=\"medium\">\r\n**HP** 112\r\n\r\n**AC** 23\r\n\r\n**Fort** +15\r\n\r\n**Ref** +11\r\n\r\n**Will** +13\r\n\r\n**Perception** +13\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Nature",
+  "Stealth",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +15, [Nature](/Skills.aspx?ID=10) +13, [Stealth](/Skills.aspx?ID=15) +13, [Survival](/Skills.aspx?ID=16) +11",
+ "skill_mod": {
+  "athletics": 15,
+  "nature": 13,
+  "stealth": 13,
+  "survival": 11
+ },
+ "source": [
+  "Pathfinder #190: The Choosing"
+ ],
+ "source_raw": [
+  "Pathfinder #190: The Choosing pg. 49"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #190: The Choosing](/Sources.aspx?ID=198) pg. 49",
+ "speed": {
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet",
+ "speed_raw": "20 feet",
+ "spell_markdown": "",
+ "spoilers": "Stolen Fate",
+ "stealth": "13",
+ "strike_damage_average": [
+  10,
+  12
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "text": " Shaldar Falls-Far Recall Knowledge - Humanoid (Society): DC 32 Unspecific Lore : DC 30 Specific Lore : DC 27 Shaldar Falls-Far Source Pathfinder #190: The Choosing pg. 49 Perception +13 Languages Common, Jotun, Shoanti Skills Athletics +15, Nature +13, Stealth +13, Survival +11 Str +4 Dex +3 Con +3 Int +1 Wis +1 Cha +1 Items Composite Longbow (20 arrows), moderate healing potions (2), Hide Armor, +1 longsword --- AC 23 Fort +15 Ref +11 Will +13 HP 112 Attack of Opportunity Reaction --- Speed 20 feet Melee Single Action longsword +15 (Magical, versatile P), Damage 1d8+8 slashing Ranged Single Action composite longbow +14 (deadly d10, Propulsive, range increment 100 feet, reload 0, volley 30 feet), Damage 1d8+6 piercing Hunt Prey Single Action (Concentrate) Shaldar Falls-Far designates a single creature she can see and hear, or one that she's Tracking, as her prey. She gains a +2 circumstance bonus to Perception checks to Seek the prey and to Survival checks to Track the prey. The first time she hits the designated prey in a round, she deals an additional 1d8 precision damage. She also ignores the penalty for making ranged attacks within her second range increment. These effects last until Shaldar Falls-Far uses Hunt Prey again. Hunter's Aim Two Actions (Concentrate) Shaldar Falls-Far makes a ranged weapon Strike against her hunted prey. On this Strike, she gains a +2 circumstance bonus to the attack roll and ignores the prey's concealed condition. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Human",
+  "Humanoid",
+  "Unique",
+  "NG",
+  "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Human",
+  "Humanoid",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/NPCs.aspx?ID=2549",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {},
+ "will_save": 13,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

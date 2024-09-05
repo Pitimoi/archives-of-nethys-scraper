@@ -3,7 +3,6 @@
   "Buckler"
  ],
  "base_item_markdown": "[Buckler](/Shields.aspx?ID=1)",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -12,34 +11,45 @@
  "item_category": "Shields",
  "item_subcategory": "Specific Shields",
  "level": 15,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Standard\"\r\n>\r\n[Silkspinner's Shield](/Equipment.aspx?ID=1245)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 11</row>\r\n\r\n_[**PFS Note**](/pathfinder-society) Due to their connection to the shop’s proprietor, all Pathfinder Society agents have access to the items from Barghest’s Bin_\r\n\r\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Buckler](/Shields.aspx?ID=1)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis oddly fuzzy [buckler](/Shields.aspx?ID=1) (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small spinnerets protrude from the bottom of its rim. The spinnerets serve as _+2 [greater striking](/Equipment.aspx?ID=280) [shield spikes](/Weapons.aspx?ID=42)_.\n\n<document level=\"2\" id=\"action-1004\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Standard\"\r\n>\r\n[Silkspinner's Shield](/Equipment.aspx?ID=1245)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 11\r\n\r\n_[**PFS Note**](/pathfinder-society) Due to their connection to the shop’s proprietor, all Pathfinder Society agents have access to the items from Barghest’s Bin_\r\n\r\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Buckler](/Shields.aspx?ID=1)\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis oddly fuzzy [buckler](/Shields.aspx?ID=1) (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small spinnerets protrude from the bottom of its rim. The spinnerets serve as _+2 [greater striking](/Equipment.aspx?ID=280) [shield spikes](/Weapons.aspx?ID=42)_.\n\n**Activate** <actions string=\"Single Action\" /> Command;  **Frequency** once per day;   **Effect** You animate the _silkspinner's shield_. Eight spider legs sprout from the shield's rim, granting you a climb Speed of 25 feet until the end of your next turn. Additionally, the spinnerets animate and produce silk for 1 minute. Successful shield bash Strikes made with the _silkspinner's shield_ during this time entangle the target in silk. The target takes a –10-foot circumstance penalty to its Speeds for 1 round. If your Strike was a critical hit, the target becomes [immobilized](/Conditions.aspx?ID=24) for 1 round instead. Regardless, the target can attempt to [Escape](/Actions.aspx?ID=79) (DC 30) to end the effect early.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Silkspinner's Shield",
  "pfs": "Standard",
  "price": 600000,
  "price_raw": "6,000 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 11",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 11</row>\r\n\r\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis oddly fuzzy  buckler  (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 11\r\n\r\n**Price** 6,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Base Shield** [Buckler](/Shields.aspx?ID=1)\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis oddly fuzzy  buckler  (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 11"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 11</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 11",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This oddly fuzzy  buckler  (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small …",
  "summary_markdown": "This oddly fuzzy  buckler  (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small …",
- "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Standard\" > Silkspinner's Shield Source Grand Bazaar pg. 11 PFS Note Due to their connection to the shop’s proprietor, all Pathfinder Society agents have access to the items from Barghest’s Bin Price 6,000 gp Usage held in 1 hand Bulk L Base Shield Buckler --- This oddly fuzzy buckler (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small spinnerets protrude from the bottom of its rim. The spinnerets serve as +2 greater striking shield spikes .\n",
+ "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Standard\" > Silkspinner's Shield Source Grand Bazaar pg. 11 PFS Note Due to their connection to the shop’s proprietor, all Pathfinder Society agents have access to the items from Barghest’s Bin Price 6,000 gp Usage held in 1 hand Bulk L Base Shield Buckler --- This oddly fuzzy buckler (Hardness 10, HP 60, BT 30) resembles the abdomen of a spider. Its defensive side is covered in fine hairs, and two small spinnerets protrude from the bottom of its rim. The spinnerets serve as +2 greater striking shield spikes . Activate Single Action Command; Frequency once per day; Effect You animate the silkspinner's shield . Eight spider legs sprout from the shield's rim, granting you a climb Speed of 25 feet until the end of your next turn. Additionally, the spinnerets animate and produce silk for 1 minute. Successful shield bash Strikes made with the silkspinner's shield during this time entangle the target in silk. The target takes a –10-foot circumstance penalty to its Speeds for 1 round. If your Strike was a critical hit, the target becomes immobilized for 1 round instead. Regardless, the target can attempt to Escape (DC 30) to end the effect early.\n",
  "trait": [
   "Conjuration",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,10 +1,24 @@
 {
  "ac": 27,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  20,
+  20
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 3,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
  "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
  "creature_ability": [
   "Heavy Aura",
   "Stygian Guardian",
@@ -12,36 +26,53 @@
   "Sarglagon Venom"
  ],
  "creature_family": "Devil",
- "creature_family_markdown": "[Devil](/MonsterFamilies.aspx?ID=30)",
+ "creature_family_markdown": "[Devil](/MonsterFamilies.aspx?ID=389)",
  "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
  "exclude_from_search": false,
  "fortitude_save": 18,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
  "hp": 120,
  "hp_raw": "120",
- "id": "creature-607",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2908",
  "image": [
-  "/Images/Monsters/Devil_Sarglagon.png"
+  "/Images/Monsters/Sarglagon.webp"
  ],
  "immunity": [
   "fire"
  ],
- "immunity_markdown": "fire",
+ "immunity_markdown": "[fire](/Traits.aspx?ID=604)",
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
-  "Celestial",
-  "Infernal",
-  "<%UMR%37%%>telepathy 100 feet<%END>"
+  "Diabolic",
+  "Empyrean",
+  "<%UMR%79%%>telepathy<%END> 100 feet"
  ],
- "language_markdown": "[Celestial](/Languages.aspx?ID=16), [Infernal](/Languages.aspx?ID=19); [telepathy 100 feet](/MonsterAbilities.aspx?ID=37)",
+ "language_markdown": "[Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet",
+ "legacy_id": "creature-607",
  "level": 8,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Sarglagon (Drowning Devil)](/Monsters.aspx?ID=607)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSarglagons dwell in [Hell's](/Planes.aspx?ID=18) myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, the fifth layer of Hell. Sarglagons breathe water and air with equal ease, and can move through water, land, and even air with uncanny swiftness. Few fiends travel the waterways of the multiverse, but where a river crosses the planes, odds are sarglagons have traveled it to further their infernal machinations. The only body of water they avoid is the River Styx, as the fiends have yet to develop any defense against that waterway's memory-sapping qualities. Mortal spellcasters sometimes bind sarglagons as guardians of precious secrets or treasures, particularly in aquatic areas. Most strangely, sarglagons sometimes act as unnerving caretakers to mortals who have no idea what they did to earn their unwanted protectors' attention. The constant uninvited vigilance of these devils is often disturbing and stifling to their wards.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Devil_Sarglagon.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Sarglagon](/Monsters.aspx?ID=607)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=44\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 72 <sup>2.0</sup></row>\n\n**Perception** +18; [greater darkvision](/MonsterAbilities.aspx?ID=12), [_see invisibility_](/Spells.aspx?ID=271)\r\n\r\n**Languages**\r\n[Celestial](/Languages.aspx?ID=16), [Infernal](/Languages.aspx?ID=19); [telepathy 100 feet](/MonsterAbilities.aspx?ID=37)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +14, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +15, [Diplomacy](/Skills.aspx?ID=6) +15, [Intimidation](/Skills.aspx?ID=7) +17, [Stealth](/Skills.aspx?ID=15) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +16 \r\n\r\n+1 status to all saves vs. magic\r\n</row>\r\n\r\n**HP** 120\n\n**Immunities**\r\nfire\r\n\r\n**Resistances**\r\nphysical 5 (except [silver](/Equipment.aspx?ID=277)), poison 10\r\n\r\n**Weaknesses**\r\ngood 5\r\n\r\n**Heavy Aura** ([aura](/Traits.aspx?ID=206), [divine](/Traits.aspx?ID=48), [incapacitation](/Traits.aspx?ID=93), [transmutation](/Traits.aspx?ID=157)) 10 feet. A creature that enters the heavy aura must attempt a DC 23 Will save. It is then temporarily immune for 10 minutes. <br />**Success** The creature is unaffected. <br />**Failure** The creature is [encumbered](/Conditions.aspx?ID=12) while it remains in the area. If the creature is already encumbered, it is [immobilized](/Conditions.aspx?ID=24) while it remains within the aura. <br />**Critical Failure** As failure, but the effect persists for 3 rounds after leaving the aura.<br />**Stygian Guardian** <actions string=\"Reaction\" /> **Trigger** A creature or object within the sarglagon's reach is targeted by an attack; **Effect** The sarglagon interposes themself, giving the creature or object standard cover against the attack (+2 circumstance bonus to AC), or greater cover (+4 circumstance bonus to AC) if the sarglagon was already granting it lesser cover.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 25 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +20 ([Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d12+9 piercing plus 1d6 evil\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle arm +20 ([Agile](/Traits.aspx?ID=170), [Evil](/Traits.aspx?ID=64), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 2d8+9 bludgeoning plus 1d6 evil and sarglagon venom\r\n\r\n**Divine Innate Spells** DC 23, attack +18\r\n- **4th**\r\n[Dimension Door](/Spells.aspx?ID=69) (at will), [Freedom of Movement](/Spells.aspx?ID=128), [Hydraulic Torrent](/Spells.aspx?ID=155)\r\n- **5th**\r\n[Control Water](/Spells.aspx?ID=51), [Dimension Door](/Spells.aspx?ID=69)\r\n- **Constant (2nd)**\r\n[See Invisibility](/Spells.aspx?ID=271)\r\n\r\n**Rituals** DC 23\r\n\r\n- **1st**\r\n[Infernal Pact](/Rituals.aspx?ID=23)\r\n\r\n**Drown** <actions string=\"Two Actions\" /> ([Conjuration](/Traits.aspx?ID=33), [Divine](/Traits.aspx?ID=48), [Incapacitation](/Traits.aspx?ID=93)) The sarglagon conjures murky water to fill the lungs of a creature that can't breathe water within 30 feet. The target must attempt a DC 26 Fortitude save. <br />**Critical Success** The target is unaffected. <br />**Success** The target coughs up water and is [sickened 1](/Conditions.aspx?ID=34). <br />**Failure** The target is [holding its breath](/Rules.aspx?ID=468). The only action it can take is to attempt a Fortitude save against Drown to expel the water, which is a single action. <br />**Critical Failure** The target falls [unconscious](/Conditions.aspx?ID=38) and begins suffocating. If the target succeeds at its Fortitude save while suffocating, it coughs up the water and can breathe again.\r\n\r\n**Sarglagon Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 26 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 2d6 poison damage and [clumsy 1](/Conditions.aspx?ID=3) (1 round); **Stage 2** 3d6 poison damage and clumsy 2 (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-30\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Sarglagon (Drowning Devil)](/Monsters.aspx?ID=2908)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nSarglagons dwell in [Hell's](/Planes.aspx?ID=42)myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, the fifth layer of Hell. Sarglagons breathe water and air with equal ease, and can move through water, land, and even air with uncanny swiftness. Few fiends travel the waterways of the multiverse, but where a river crosses the planes, odds are sarglagons have traveled it to further their infernal machinations. The only body of water they avoid is the River Styx, as the fiends have yet to develop any defense against that waterway's memory-sapping qualities. Mortal spellcasters sometimes bind sarglagons as guardians of precious secrets or treasures, particularly in aquatic areas. Most strangely, sarglagons sometimes act as unnerving caretakers to mortals who have no idea what they did to earn their unwanted protectors' attention. The constant uninvited vigilance of these devils is often disturbing and stifling to their wards.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Sarglagon.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Sarglagon](/Monsters.aspx?ID=2908)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=575\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 89\n\n**Perception** +18; [greater darkvision](/MonsterAbilities.aspx?ID=59), see the unseen\r\n\r\n**Languages**\r\n[Diabolic](/Languages.aspx?ID=117), [Empyrean](/Languages.aspx?ID=115); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +14, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +15, [Diplomacy](/Skills.aspx?ID=6) +15, [Intimidation](/Skills.aspx?ID=7) +17, [Stealth](/Skills.aspx?ID=15) +15\r\n\r\n<row gap=\"medium\">\r\n**Str** +6\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +2\r\n\r\n**Wis** +4\r\n\r\n**Cha** +3\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +18 \r\n\r\n**Ref** +13 \r\n\r\n**Will** +16 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=644)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\n\n</row>\r\n\r\n**Immunities**\r\n[fire](/Traits.aspx?ID=604)\r\n\r\n**Resistances**\r\nphysical 5 (except [silver](/Equipment.aspx?ID=379)), [poison](/Traits.aspx?ID=669) 10\r\n\r\n**Weaknesses**\r\n[holy](/Traits.aspx?ID=517) 5\r\n\r\n**Heavy Aura** ([aura](/Traits.aspx?ID=542), [divine](/Traits.aspx?ID=579), [incapacitation](/Traits.aspx?ID=631)) 10 feet. A creature that enters the heavy aura must attempt a DC 23 Will save. It is then temporarily immune for 10 minutes.<br /> **Success** The creature is unaffected.<br /> **Failure** The creature is [encumbered](/Conditions.aspx?ID=70) while it remains in the area. If the creature is already encumbered, it is [immobilized](/Conditions.aspx?ID=81) while it remains within the aura.<br /> **Critical Failure** As failure, but the effect persists for 3 rounds after leaving the aura.<br />**Stygian Guardian** <actions string=\"Reaction\" /> **Trigger** A creature or object within the sarglagon's reach is targeted by an attack; **Effect** The sarglagon interposes themself, giving the creature or object [standard cover](/Rules.aspx?ID=459) against the attack (+2 circumstance bonus to AC), or greater cover (+4 circumstance bonus to AC) if the sarglagon was already granting it lesser cover.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet, fly 25 feet, swim 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfangs +20 ([Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d12+9 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntentacle arm +20 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [Unholy](/Traits.aspx?ID=521)),\r\n**Damage** 2d8+9 bludgeoning plus sarglagon venom\r\n\r\n**Divine Innate Spells** DC 23, attack +18\r\n- **4th**\r\n[Translocate](/Spells.aspx?ID=1724) (at will), [Hydraulic Torrent](/Spells.aspx?ID=155), [Unfettered Movement](/Spells.aspx?ID=1732)\r\n- **5th**\r\n[Control Water](/Spells.aspx?ID=51), [Translocate](/Spells.aspx?ID=1724)\r\n- **Constant (2nd)**\r\n[See the Unseen](/Spells.aspx?ID=1663)\r\n\r\n**Rituals** DC 23\r\n\r\n- **1st**\r\n[Diabolic Pact](/Rituals.aspx?ID=143)\r\n\r\n**Drown** <actions string=\"Two Actions\" /> ([Divine](/Traits.aspx?ID=48), [Incapacitation](/Traits.aspx?ID=93), [Water](/Traits.aspx?ID=165)) The sarglagon conjures murky water to fill the lungs of a creature within 30 feet of it that can't breathe water. The target must attempt a DC 26 Fortitude save.<br /> **Critical Success** The target is unaffected.<br /> **Success** The target coughs up water and is [sickened 1](/Conditions.aspx?ID=91).<br /> **Failure** The target is [holding its breath](/Rules.aspx?ID=468). The only action it can take is to attempt a Fortitude save against Drown to expel the water, which is a single action.<br /> **Critical Failure** The target falls [unconscious](/Conditions.aspx?ID=95) and begins suffocating. If the target succeeds at its Fortitude save while suffocating, it coughs up the water and can breathe again.\r\n\r\n**Sarglagon Venom**  ([Poison](/Traits.aspx?ID=126)) **Saving Throw** DC 26 Fortitude; **Maximum Duration** 6 rounds; **Stage 1** 2d6 poison damage and [clumsy 1](/Conditions.aspx?ID=61) (1 round); **Stage 2** 3d6 poison damage and clumsy 2 (1 round)\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-389\" />",
  "name": "Sarglagon",
  "npc": false,
  "perception": 18,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 89",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 13,
- "release_date": "2020-05-27",
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
  "resistance": {
   "bludgeoning": 5,
   "physical": 5,
@@ -49,31 +80,44 @@
   "poison": 10,
   "slashing": 5
  },
- "resistance_markdown": "physical 5 (except [silver](/Equipment.aspx?ID=277)), poison 10",
- "resistance_raw": "physical 5 (except  silver ), poison 10",
- "search_markdown": "<traits>\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=207\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=44\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=70\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 72 <sup>2.0</sup></row>\r\n\r\n**Creature Family** [Devil](/MonsterFamilies.aspx?ID=30)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 27\r\n\r\n**Fort** +18\r\n\r\n**Ref** +13\r\n\r\n**Will** +16\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSarglagons dwell in  Hell's  myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, …\r\n</summary>",
- "sense": " greater darkvision ,   see invisibility  ",
- "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=12), [_see invisibility_](/Spells.aspx?ID=271)",
+ "resistance_markdown": "physical 5 (except [silver](/Equipment.aspx?ID=379)), [poison](/Traits.aspx?ID=669) 10",
+ "resistance_raw": "physical 5 (except  silver ),  poison  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Amphibious\" url=\"/Traits.aspx?ID=529\" />\r\n<trait label=\"Devil\" url=\"/Traits.aspx?ID=575\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 89\r\n\r\n**Creature Family** [Devil](/MonsterFamilies.aspx?ID=389)\r\n\r\n<row gap=\"medium\">\r\n**HP** 120\r\n\r\n**AC** 27\r\n\r\n**Fort** +18\r\n\r\n**Ref** +13\r\n\r\n**Will** +16\r\n\r\n**Perception** +18\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSarglagons dwell in  Hell's myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, …\r\n</summary>",
+ "sense": " greater darkvision , see the unseen",
+ "sense_markdown": "[greater darkvision](/MonsterAbilities.aspx?ID=59), see the unseen",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Arcana +14",
-  "Athletics +18",
-  "Deception +15",
-  "Diplomacy +15",
-  "Intimidation +17",
-  "Stealth +15"
+  "Arcana",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Stealth"
  ],
  "skill_markdown": "[Arcana](/Skills.aspx?ID=2) +14, [Athletics](/Skills.aspx?ID=3) +18, [Deception](/Skills.aspx?ID=5) +15, [Diplomacy](/Skills.aspx?ID=6) +15, [Intimidation](/Skills.aspx?ID=7) +17, [Stealth](/Skills.aspx?ID=15) +15",
+ "skill_mod": {
+  "arcana": 14,
+  "athletics": 18,
+  "deception": 15,
+  "diplomacy": 15,
+  "intimidation": 17,
+  "stealth": 15
+ },
  "source": [
-  "Bestiary 2"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary 2 pg. 72"
+  "Monster Core pg. 89"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary 2](/Sources.aspx?ID=32) pg. 72 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 89",
  "speed": {
   "fly": 25,
   "land": 25,
@@ -84,46 +128,91 @@
  "speed_raw": "25 feet, fly 25 feet, swim 30 feet",
  "spell": [
   "Control Water",
-  "Dimension Door",
-  "Freedom of Movement",
+  "Translocate",
   "Hydraulic Torrent",
-  "See Invisibility"
+  "Unfettered Movement",
+  "See the Unseen"
  ],
- "spell_markdown": "[Control Water](/Spells.aspx?ID=51), [Dimension Door](/Spells.aspx?ID=69), [Freedom of Movement](/Spells.aspx?ID=128), [Hydraulic Torrent](/Spells.aspx?ID=155), [See Invisibility](/Spells.aspx?ID=271)",
+ "spell_markdown": "[Control Water](/Spells.aspx?ID=51), [Hydraulic Torrent](/Spells.aspx?ID=155), [See the Unseen](/Spells.aspx?ID=1663), [Translocate](/Spells.aspx?ID=1724), [Unfettered Movement](/Spells.aspx?ID=1732)",
+ "spell_attack_bonus": [
+  18
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  23
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
  "stealth": "15",
+ "strike_damage_average": [
+  18,
+  22
+ ],
+ "strike_damage_scale": [
+  "Moderate",
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  3,
+  4
+ ],
  "strength": 6,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
  "strongest_save": [
   "fort",
   "fortitude"
  ],
- "summary": "Sarglagons dwell in  Hell's  myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, …",
- "summary_markdown": "Sarglagons dwell in  Hell's  myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, …",
- "text": " Sarglagon (Drowning Devil) Sarglagons dwell in Hell's myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, the fifth layer of Hell. Sarglagons breathe water and air with equal ease, and can move through water, land, and even air with uncanny swiftness. Few fiends travel the waterways of the multiverse, but where a river crosses the planes, odds are sarglagons have traveled it to further their infernal machinations. The only body of water they avoid is the River Styx, as the fiends have yet to develop any defense against that waterway's memory-sapping qualities. Mortal spellcasters sometimes bind sarglagons as guardians of precious secrets or treasures, particularly in aquatic areas. Most strangely, sarglagons sometimes act as unnerving caretakers to mortals who have no idea what they did to earn their unwanted protectors' attention. The constant uninvited vigilance of these devils is often disturbing and stifling to their wards. Recall Knowledge - Fiend (Religion): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Sarglagon Source Bestiary 2 pg. 72 2.0 Perception +18; greater darkvision, see invisibility Languages Celestial, Infernal; telepathy 100 feet Skills Arcana +14, Athletics +18, Deception +15, Diplomacy +15, Intimidation +17, Stealth +15 Str +6 Dex +3 Con +4 Int +2 Wis +4 Cha +3 --- AC 27 Fort +18 Ref +13 Will +16 +1 status to all saves vs. magic HP 120 Immunities fire Resistances physical 5 (except silver), poison 10 Weaknesses good 5 Heavy Aura (aura, divine, incapacitation, transmutation) 10 feet. A creature that enters the heavy aura must attempt a DC 23 Will save. It is then temporarily immune for 10 minutes. Success The creature is unaffected. Failure The creature is encumbered while it remains in the area. If the creature is already encumbered, it is immobilized while it remains within the aura. Critical Failure As failure, but the effect persists for 3 rounds after leaving the aura. Stygian Guardian Reaction Trigger A creature or object within the sarglagon's reach is targeted by an attack; Effect The sarglagon interposes themself, giving the creature or object standard cover against the attack (+2 circumstance bonus to AC), or greater cover (+4 circumstance bonus to AC) if the sarglagon was already granting it lesser cover. --- Speed 25 feet, fly 25 feet, swim 30 feet Melee Single Action fangs +20 (Evil, Magical), Damage 2d12+9 piercing plus 1d6 evil Melee Single Action tentacle arm +20 (Agile, Evil, Magical), Damage 2d8+9 bludgeoning plus 1d6 evil and sarglagon venom Divine Innate Spells DC 23, attack +18 - 4th Dimension Door (at will), Freedom of Movement, Hydraulic Torrent - 5th Control Water, Dimension Door - Constant (2nd) See Invisibility Rituals DC 23 - 1st Infernal Pact Drown Two Actions (Conjuration, Divine, Incapacitation) The sarglagon conjures murky water to fill the lungs of a creature that can't breathe water within 30 feet. The target must attempt a DC 26 Fortitude save. Critical Success The target is unaffected. Success The target coughs up water and is sickened 1. Failure The target is holding its breath. The only action it can take is to attempt a Fortitude save against Drown to expel the water, which is a single action. Critical Failure The target falls unconscious and begins suffocating. If the target succeeds at its Fortitude save while suffocating, it coughs up the water and can breathe again. Sarglagon Venom (Poison) Saving Throw DC 26 Fortitude; Maximum Duration 6 rounds; Stage 1 2d6 poison damage and clumsy 1 (1 round); Stage 2 3d6 poison damage and clumsy 2 (1 round) ",
+ "summary": "Sarglagons dwell in  Hell's myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, …",
+ "summary_markdown": "Sarglagons dwell in  Hell's myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, …",
+ "text": " Sarglagon (Drowning Devil) Sarglagons dwell in Hell'smyriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies—the repository of secrets in Stygia, the fifth layer of Hell. Sarglagons breathe water and air with equal ease, and can move through water, land, and even air with uncanny swiftness. Few fiends travel the waterways of the multiverse, but where a river crosses the planes, odds are sarglagons have traveled it to further their infernal machinations. The only body of water they avoid is the River Styx, as the fiends have yet to develop any defense against that waterway's memory-sapping qualities. Mortal spellcasters sometimes bind sarglagons as guardians of precious secrets or treasures, particularly in aquatic areas. Most strangely, sarglagons sometimes act as unnerving caretakers to mortals who have no idea what they did to earn their unwanted protectors' attention. The constant uninvited vigilance of these devils is often disturbing and stifling to their wards. Recall Knowledge - Fiend (Religion): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Sarglagon Source Monster Core pg. 89 Perception +18; greater darkvision, see the unseen Languages Diabolic, Empyrean; telepathy 100 feet Skills Arcana +14, Athletics +18, Deception +15, Diplomacy +15, Intimidation +17, Stealth +15 Str +6 Dex +3 Con +4 Int +2 Wis +4 Cha +3 --- AC 27 Fort +18 Ref +13 Will +16 +1 status to all saves vs. magic HP 120 Immunities fire Resistances physical 5 (except silver), poison 10 Weaknesses holy 5 Heavy Aura (aura, divine, incapacitation) 10 feet. A creature that enters the heavy aura must attempt a DC 23 Will save. It is then temporarily immune for 10 minutes. Success The creature is unaffected. Failure The creature is encumbered while it remains in the area. If the creature is already encumbered, it is immobilized while it remains within the aura. Critical Failure As failure, but the effect persists for 3 rounds after leaving the aura. Stygian Guardian Reaction Trigger A creature or object within the sarglagon's reach is targeted by an attack; Effect The sarglagon interposes themself, giving the creature or object standard cover against the attack (+2 circumstance bonus to AC), or greater cover (+4 circumstance bonus to AC) if the sarglagon was already granting it lesser cover. --- Speed 25 feet, fly 25 feet, swim 30 feet Melee Single Action fangs +20 (Magical, Unholy), Damage 2d12+9 piercing Melee Single Action tentacle arm +20 (Agile, Magical, Unholy), Damage 2d8+9 bludgeoning plus sarglagon venom Divine Innate Spells DC 23, attack +18 - 4th Translocate (at will), Hydraulic Torrent, Unfettered Movement - 5th Control Water, Translocate - Constant (2nd) See the Unseen Rituals DC 23 - 1st Diabolic Pact Drown Two Actions (Divine, Incapacitation, Water) The sarglagon conjures murky water to fill the lungs of a creature within 30 feet of it that can't breathe water. The target must attempt a DC 26 Fortitude save. Critical Success The target is unaffected. Success The target coughs up water and is sickened 1. Failure The target is holding its breath. The only action it can take is to attempt a Fortitude save against Drown to expel the water, which is a single action. Critical Failure The target falls unconscious and begins suffocating. If the target succeeds at its Fortitude save while suffocating, it coughs up the water and can breathe again. Sarglagon Venom (Poison) Saving Throw DC 26 Fortitude; Maximum Duration 6 rounds; Stage 1 2d6 poison damage and clumsy 1 (1 round); Stage 2 3d6 poison damage and clumsy 2 (1 round) ",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
  "trait": [
   "Amphibious",
   "Devil",
   "Fiend",
-  "LE",
+  "Unholy",
   "Large"
  ],
- "trait_markdown": "[Amphibious](/Traits.aspx?ID=207), [Devil](/Traits.aspx?ID=44), [Fiend](/Traits.aspx?ID=70)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Amphibious](/Traits.aspx?ID=529), [Devil](/Traits.aspx?ID=575), [Fiend](/Traits.aspx?ID=600), [Unholy](/Traits.aspx?ID=521)",
  "trait_raw": [
   "Amphibious",
   "Devil",
-  "Fiend"
+  "Fiend",
+  "Unholy"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=607",
+ "url": "/Monsters.aspx?ID=2908",
  "vision": "Greater darkvision",
  "weakest_save": [
   "ref",
   "reflex"
  ],
  "weakness": {
-  "good": 5
+  "holy": 5
  },
- "weakness_markdown": "good 5",
- "weakness_raw": "good 5",
+ "weakness_markdown": "[holy](/Traits.aspx?ID=517) 5",
+ "weakness_raw": " holy  5",
  "will_save": 16,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
 }

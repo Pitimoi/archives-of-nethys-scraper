@@ -1,10 +1,10 @@
 {
- "ability": [
+ "attribute": [
   "Constitution",
   "Charisma"
  ],
  "alignment": "LG",
- "breadcrumbs_spa": [],
+ "anathema": "Sow discord among friends and allies, attack during parley",
  "category": "deity",
  "cleric_spell": [
   "Anticipate Peril",
@@ -12,12 +12,13 @@
   "Wall of Force"
  ],
  "deity": [
-  "Grundinnar"
+  "Grundinnar",
+  "Dwarven Pantheon"
  ],
- "deity_markdown": "[Grundinnar](/Deities.aspx?ID=88)",
+ "deity_markdown": "[Dwarven Pantheon](/Deities.aspx?ID=196)",
  "deity_category": "Dwarven Gods",
- "deity_category_markdown": "[Dwarven Gods\r\n](/DeityCategories.aspx?ID=6)",
- "deity_category_order": "2Dwarven Gods\r\n",
+ "deity_category_markdown": "[Dwarven Gods](/DeityCategories.aspx?ID=6)",
+ "deity_category_order": "2Dwarven Gods",
  "divine_font": [
   "Heal"
  ],
@@ -26,10 +27,14 @@
   "Confidence",
   "Family",
   "Protection",
+  "Repose",
   "Truth"
  ],
- "domain_markdown": "[Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Truth](/Domains.aspx?ID=32)",
- "domain_alternate_markdown": "",
+ "domain_markdown": "[Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Repose](/Domains.aspx?ID=49), [Truth](/Domains.aspx?ID=32)",
+ "domain_alternate": [
+  "Repose"
+ ],
+ "domain_alternate_markdown": "[Repose](/Domains.aspx?ID=49)",
  "domain_primary": [
   "Confidence",
   "Family",
@@ -37,6 +42,7 @@
   "Truth"
  ],
  "domain_primary_markdown": "[Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Truth](/Domains.aspx?ID=32)",
+ "edict": "Attempt to bridge the gap between feuding sides, maintain just treaties, maintain relations with neighbors",
  "exclude_from_search": false,
  "favored_weapon": [
   "Light Hammer"
@@ -47,29 +53,50 @@
   "NG"
  ],
  "id": "deity-88",
- "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Grundinnar (The Peacemaker)](/Deities.aspx?ID=88)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LG\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\n\n_Nethys Note: no description has been provided of this deity_\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Dwarven Gods\r\n](/DeityCategories.aspx?ID=6)\r\n\r\n**Edicts** Attempt to bridge the gap between feuding sides, maintain just treaties, maintain relations with neighbors\r\n\r\n**Anathema** Sow discord among friends and allies, attack during parley\n\n**Follower Alignments**\r\nLG, NG\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Ability](/Backgrounds.aspx?ID=132)**\r\nConstitution or Charisma\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Light Hammer](/Weapons.aspx?ID=29)\r\n\r\n**Domains** [Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Truth](/Domains.aspx?ID=32)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** \r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Anticipate Peril](/Spells.aspx?ID=568)\n\n- **4th**\r\n[Resilient Sphere](/Spells.aspx?ID=255)\n\n- **6th**\r\n[Wall of Force](/Spells.aspx?ID=363)\n\n</column>",
+ "markdown": "<title level=\"1\" right=\"Deity \" pfs=\"Standard\">[Grundinnar (The Peacemaker)](/Deities.aspx?ID=88)</title>\r\n\r\n<row gap=\"medium\">\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\n<traits>\r\n<trait label=\"LG\" url=\"/Rules.aspx?ID=95\" />\r\n</traits>\r\n\r\n**Source** [Highhelm](/Sources.aspx?ID=204) pg. 120\n\nWhen Torag was forging Grundinnar, he graced him with a tongue of silver, and a heart of gold and iron. When [Folgrit](/Deities.aspx?ID=87) saw this gift and breathed life into him, she asked that Grundinnar be kind and loving always. He took this as both mandate and life goal, and now works to bring peace and familial connection to all who worship him and their allies. It's said that Grundinnar practiced quelling conflict by saving his sister [Bolka](/Deities.aspx?ID=85) from her many suitors, and in doing so learned to forge peace, but this is only half-truth. He truly learned to be a peacemaker by dealing with his bickering family, for even the gods among dwarves can be quarrelsome and taciturn. \r\n\r\n<column gap=\"tiny\">\r\n\r\n**Category** [Dwarven Gods](/DeityCategories.aspx?ID=6)\r\n\r\n**Edicts** Attempt to bridge the gap between feuding sides, maintain just treaties, maintain relations with neighbors\r\n\r\n**Anathema** Sow discord among friends and allies, attack during parley\r\n\r\n**Area of Concern**\r\nfriendship, alliance, family, truth\r\n\r\n**Follower Alignments**\r\nLG, NG\r\n\r\n**Pantheons**\r\n[Dwarven Pantheon](/Deities.aspx?ID=196)\n\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n<title level=\"2\">Devotee Benefits</title>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**[Divine Attribute](/Backgrounds.aspx?ID=132)**\r\nConstitution or Charisma\r\n\r\n**Divine Font** [Heal](/Spells.aspx?ID=148)\r\n\r\n**Divine Sanctification** can choose holy\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Light Hammer](/Weapons.aspx?ID=29)\r\n\r\n**Domains** [Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Truth](/Domains.aspx?ID=32)\r\n\r\n**[Alternate Domains](/Rules.aspx?ID=802)** [Repose](/Domains.aspx?ID=49)\r\n\r\n**Cleric Spells**\n\n- **1st**\r\n[Anticipate Peril](/Spells.aspx?ID=568)\n\n- **4th**\r\n[Resilient Sphere](/Spells.aspx?ID=255)\n\n- **6th**\r\n[Wall of Force](/Spells.aspx?ID=363)\n\n</column>",
  "name": "Grundinnar (The Peacemaker)",
+ "pantheon": [
+  "Dwarven Pantheon"
+ ],
+ "pantheon_markdown": "[Dwarven Pantheon](/Deities.aspx?ID=196)",
  "pfs": "Standard",
+ "primary_source": "Highhelm",
+ "primary_source_raw": "Highhelm pg. 120",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
- "release_date": "2020-01-29",
+ "rarity_id": 1,
+ "release_date": "2023-06-28",
  "resistance": {},
- "search_markdown": "<additional-info>\r\n<row gap=\"tiny\">**Source** [Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Light Hammer](/Weapons.aspx?ID=29)\r\n\r\n**Domains** [Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Truth](/Domains.aspx?ID=32)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n Nethys Note: no description has been provided of this deity \r\n</summary>",
+ "sanctification": [
+  "holy"
+ ],
+ "sanctification_raw": "can choose holy",
+ "search_markdown": "<additional-info>\r\n**Source** [Highhelm](/Sources.aspx?ID=204) pg. 120\r\n\r\n**Divine Font** Heal\r\n\r\n**Divine Skill** [Diplomacy](/Skills.aspx?ID=6)\r\n\r\n**Favored Weapon** [Light Hammer](/Weapons.aspx?ID=29)\r\n\r\n**Domains** [Confidence](/Domains.aspx?ID=4), [Family](/Domains.aspx?ID=11), [Protection](/Domains.aspx?ID=27), [Repose](/Domains.aspx?ID=49), [Truth](/Domains.aspx?ID=32)\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhen Torag was forging Grundinnar, he graced him with a tongue of silver, and a heart of gold and iron. When  Folgrit  saw this gift and breathed …\r\n</summary>",
  "skill": [
   "Diplomacy"
  ],
  "skill_markdown": "[Diplomacy](/Skills.aspx?ID=6)",
+ "skill_mod": {},
  "source": [
-  "Gods & Magic"
+  "Highhelm"
  ],
  "source_raw": [
-  "Gods & Magic pg. 126"
+  "Highhelm pg. 120"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Gods &amp; Magic](/Sources.aspx?ID=17) pg. 126 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Highhelm](/Sources.aspx?ID=204) pg. 120",
  "speed": {},
- "summary": " Nethys Note: no description has been provided of this deity ",
- "summary_markdown": " Nethys Note: no description has been provided of this deity ",
- "text": " Grundinnar (The Peacemaker) Source Gods &amp; Magic pg. 126 2.0 Nethys Note: no description has been provided of this deity Category [Dwarven Gods ](/DeityCategories.aspx?ID=6) Edicts Attempt to bridge the gap between feuding sides, maintain just treaties, maintain relations with neighbors Anathema Sow discord among friends and allies, attack during parley Follower Alignments LG, NG Devotee Benefits Divine Ability Constitution or Charisma Divine Font Heal Divine Skill Diplomacy Favored Weapon Light Hammer Domains Confidence, Family, Protection, Truth Alternate Domains Cleric Spells - 1st Anticipate Peril - 4th Resilient Sphere - 6th Wall of Force\n",
+ "spell": [
+  "Anticipate Peril",
+  "Resilient Sphere",
+  "Wall of Force"
+ ],
+ "spell_markdown": "[Anticipate Peril](/Spells.aspx?ID=568), [Resilient Sphere](/Spells.aspx?ID=255), [Wall of Force](/Spells.aspx?ID=363)",
+ "summary": "When Torag was forging Grundinnar, he graced him with a tongue of silver, and a heart of gold and iron. When  Folgrit  saw this gift and breathed …",
+ "summary_markdown": "When Torag was forging Grundinnar, he graced him with a tongue of silver, and a heart of gold and iron. When  Folgrit  saw this gift and breathed …",
+ "text": " Grundinnar (The Peacemaker) Source Highhelm pg. 120 When Torag was forging Grundinnar, he graced him with a tongue of silver, and a heart of gold and iron. When Folgrit saw this gift and breathed life into him, she asked that Grundinnar be kind and loving always. He took this as both mandate and life goal, and now works to bring peace and familial connection to all who worship him and their allies. It's said that Grundinnar practiced quelling conflict by saving his sister Bolka from her many suitors, and in doing so learned to forge peace, but this is only half-truth. He truly learned to be a peacemaker by dealing with his bickering family, for even the gods among dwarves can be quarrelsome and taciturn. Category Dwarven Gods Edicts Attempt to bridge the gap between feuding sides, maintain just treaties, maintain relations with neighbors Anathema Sow discord among friends and allies, attack during parley Area of Concern friendship, alliance, family, truth Follower Alignments LG, NG Pantheons Dwarven Pantheon Devotee Benefits Divine Attribute Constitution or Charisma Divine Font Heal Divine Sanctification can choose holy Divine Skill Diplomacy Favored Weapon Light Hammer Domains Confidence, Family, Protection, Truth Alternate Domains Repose Cleric Spells - 1st Anticipate Peril - 4th Resilient Sphere - 6th Wall of Force\n",
  "trait": [
   "LG"
  ],

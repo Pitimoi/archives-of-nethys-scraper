@@ -1,0 +1,205 @@
+{
+ "ac": 42,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  31,
+  33,
+  33
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 6,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 6,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Spell Reflection",
+  "Arrange Scales",
+  "Metallic Coating",
+  "Paired Spikes"
+ ],
+ "creature_family": "Manticore",
+ "creature_family_markdown": "[Manticore](/MonsterFamilies.aspx?ID=500)",
+ "dexterity": 5,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 32,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 440,
+ "hp_raw": "440",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3300",
+ "image": [
+  "/Images/Monsters/Barded_Manticore.webp"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Mwangi"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Mwangi](/Languages.aspx?ID=39)",
+ "level": 18,
+ "markdown": "<title level=\"1\" pfs=\"\">[Barded Manticore](/Monsters.aspx?ID=3300)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nBarded manticores are treacherous and dangerous beasts, and the only known member of the manticore species with the innate ability to cast spells. Luckily, these creatures are incredibly rare, mostly found near battlefields and other sources of worked metal, though stories tell of a particularly clever barded manticore attempting to make herself a home deep under the Magaambya.\n\n Unlike the other members of the species, a barded manticore has a face that resembles a human's and a torso coated in scales of varying metals, the exact composition depending on their diet. Thanks to these materials, most barded manticores are able to fend off just about any being attempting to encroach upon their territories, especially fiends and other creatures with weaknesses to specific metals. Barded manticores sift through metals obtained from their victims, whether that be local villagers coerced into giving them tribute or unlucky travelers, and seek the rarest, most valuable types to make part of their next meals.\n\n This also includes armor and weapons inscribed with runes that grant a barded manticore the ability to cast spells, though these spells vary depending on the region the beast inhabits and what type of runes they consume. In rare areas where magic is suppressed, a barded manticore will be unable to grow their runed scales, rendering them less powerful than others of their kind. Pointing this out to such a barded manticore often ends in one's untimely demise at the manticore's claws and spines, no less sharp for the lack of enchantments.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 43\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 41\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 38\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Barded_Manticore.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[Barded Manticore](/Monsters.aspx?ID=3300)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 173\n\n**Perception** +33; [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=411)) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Mwangi](/Languages.aspx?ID=39)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=34) +31, [Athletics](/Skills.aspx?ID=36) +35, [Crafting](/Skills.aspx?ID=37) +29, [Deception](/Skills.aspx?ID=38) +32, [Intimidation](/Skills.aspx?ID=40) +32, [Nature](/Skills.aspx?ID=43) +31\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +5\r\n\r\n**Con** +6\r\n\r\n**Int** +1\r\n\r\n**Wis** +5\r\n\r\n**Cha** +6\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 42 \r\n\r\n**Fort** +32 \r\n\r\n**Ref** +30 \r\n\r\n**Will** +29 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 440\n\n</row>\n\n**Weaknesses**\r\n[electricity](/Traits.aspx?ID=586) 15\r\n\r\n**Spell Reflection** <actions string=\"Reaction\" /> **Trigger** An opponent casts a spell that targets the manticore and requires a saving throw; **Effect** The manticore gains a +4 circumstance bonus to the saving throw. If they critically succeed at the save, they can choose a creature within 30 feet that was not originally targeted by the spell. That creature becomes a new target of the spell, who must attempt its own save against the same DC.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, fly 45 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +33 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+15 piercing plus 1d12 electricity\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +33 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+15 slashing plus 1d12 electricity\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nspike +31 ([Magical](/Traits.aspx?ID=103), [range increment 40 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d8+15 piercing\r\n\r\n**Primal Innate Spells** DC 40, attack +35\r\n- **Cantrips (9th)**\r\n[Detect Metal](/Spells.aspx?ID=1368), [Needle Darts](/Spells.aspx?ID=1375), [Tangle Vine](/Spells.aspx?ID=1713)\r\n- **3rd**\r\n[One with Stone](/Spells.aspx?ID=1619) (at will)\r\n- **5th**\r\n[Impaling Spike](/Spells.aspx?ID=697) (at will), [Lightning Bolt](/Spells.aspx?ID=172) (at will)\r\n- **6th**\r\n[Field of Razors](/Spells.aspx?ID=1370), [Tangling Creepers](/Spells.aspx?ID=331)\r\n- **8th**\r\n[Chain Lightning](/Spells.aspx?ID=33)\r\n- **9th**\r\n[Wrathful Storm](/Spells.aspx?ID=1759)\r\n\r\n**Arrange Scales** <actions string=\"Single Action\" />  The barded manticore flexes the muscles under their scales to temporarily gain better protection. The manticore gains a +2 circumstance bonus to AC and resistance 15 to their choice of bludgeoning, piercing, or slashing damage. These benefits last until the beginning of the manticore's next turn or they use Arrange Scales again.\r\n\r\n**Metallic Coating**   A barded manticore's [unarmed](/Traits.aspx?ID=719) attacks (including spikes) count as [adamantine](/Equipment.aspx?ID=372), [cold iron](/Equipment.aspx?ID=375), [dawnsilver](/Equipment.aspx?ID=2857), and [silver](/Equipment.aspx?ID=379).\r\n\r\n**Paired Spikes** <actions string=\"Single Action\" />  The barded manticore flings two spikes from their tail, targeting up to two creatures within 20 feet of each other. They make a separate ranged Strike against each creature, which counts as a single Strike for the barded manticore's multiple attack penalty, and the penalty doesn't increase until they've made both Strikes. If the manticore targeted only one creature and hits, that creature takes normal damage for a single spike, but also gains weakness 15 to electricity damage until the spikes are removed with an Interact action.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Ingot Salvage</title>\r\n\r\nThe scales of a deceased barded manticore can be salvaged, granting several metal ingots (typically 1 [adamantine ingot](/Equipment.aspx?ID=2915), 5 [cold iron ingots](/Equipment.aspx?ID=2916), 1 [dawnsilver ingot](/Equipment.aspx?ID=2917), and 5 [silver ingots](/Equipment.aspx?ID=2920)). Its innate spells are etched onto the metal covering its tail, usually dawnsilver, which can be used as magical writing to [Learn a Spell](/Actions.aspx?ID=2366) for those spells.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-500\" />",
+ "name": "Barded Manticore",
+ "npc": false,
+ "perception": 33,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 173",
+ "primary_source_category": "Rulebooks",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 30,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=683\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 173\r\n\r\n**Creature Family** [Manticore](/MonsterFamilies.aspx?ID=500)\r\n\r\n<row gap=\"medium\">\r\n**HP** 440\r\n\r\n**AC** 42\r\n\r\n**Fort** +32\r\n\r\n**Ref** +30\r\n\r\n**Will** +29\r\n\r\n**Perception** +33\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nBarded manticores are treacherous and dangerous beasts, and the only known member of the manticore species with the innate ability to cast spells. …\r\n</summary>",
+ "sense": " darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=411)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Crafting",
+  "Deception",
+  "Intimidation",
+  "Nature"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=34) +31, [Athletics](/Skills.aspx?ID=36) +35, [Crafting](/Skills.aspx?ID=37) +29, [Deception](/Skills.aspx?ID=38) +32, [Intimidation](/Skills.aspx?ID=40) +32, [Nature](/Skills.aspx?ID=43) +31",
+ "skill_mod": {
+  "acrobatics": 31,
+  "athletics": 35,
+  "crafting": 29,
+  "deception": 32,
+  "intimidation": 32,
+  "nature": 31
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 173"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 173",
+ "speed": {
+  "fly": 45,
+  "land": 40,
+  "max": 45
+ },
+ "speed_markdown": "40 feet, fly 45 feet",
+ "speed_raw": "40 feet, fly 45 feet",
+ "spell": [
+  "Wrathful Storm",
+  "Chain Lightning",
+  "Field of Razors",
+  "Tangling Creepers",
+  "Impaling Spike",
+  "Lightning Bolt",
+  "One with Stone",
+  "Detect Metal",
+  "Needle Darts",
+  "Tangle Vine"
+ ],
+ "spell_markdown": "[Chain Lightning](/Spells.aspx?ID=33), [Detect Metal](/Spells.aspx?ID=1368), [Field of Razors](/Spells.aspx?ID=1370), [Impaling Spike](/Spells.aspx?ID=697), [Lightning Bolt](/Spells.aspx?ID=172), [Needle Darts](/Spells.aspx?ID=1375), [One with Stone](/Spells.aspx?ID=1619), [Tangle Vine](/Spells.aspx?ID=1713), [Tangling Creepers](/Spells.aspx?ID=331), [Wrathful Storm](/Spells.aspx?ID=1759)",
+ "spell_attack_bonus": [
+  35
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  40
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  28,
+  35,
+  38
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "Barded manticores are treacherous and dangerous beasts, and the only known member of the manticore species with the innate ability to cast spells. …",
+ "summary_markdown": "Barded manticores are treacherous and dangerous beasts, and the only known member of the manticore species with the innate ability to cast spells. …",
+ "text": " Barded Manticore Barded manticores are treacherous and dangerous beasts, and the only known member of the manticore species with the innate ability to cast spells. Luckily, these creatures are incredibly rare, mostly found near battlefields and other sources of worked metal, though stories tell of a particularly clever barded manticore attempting to make herself a home deep under the Magaambya. Unlike the other members of the species, a barded manticore has a face that resembles a human's and a torso coated in scales of varying metals, the exact composition depending on their diet. Thanks to these materials, most barded manticores are able to fend off just about any being attempting to encroach upon their territories, especially fiends and other creatures with weaknesses to specific metals. Barded manticores sift through metals obtained from their victims, whether that be local villagers coerced into giving them tribute or unlucky travelers, and seek the rarest, most valuable types to make part of their next meals. This also includes armor and weapons inscribed with runes that grant a barded manticore the ability to cast spells, though these spells vary depending on the region the beast inhabits and what type of runes they consume. In rare areas where magic is suppressed, a barded manticore will be unable to grow their runed scales, rendering them less powerful than others of their kind. Pointing this out to such a barded manticore often ends in one's untimely demise at the manticore's claws and spines, no less sharp for the lack of enchantments. Recall Knowledge - Beast (Arcana, Nature): DC 43 Unspecific Lore : DC 41 Specific Lore : DC 38 Barded Manticore Source Howl of the Wild pg. 173 Perception +33; darkvision, scent (imprecise) 60 feet Languages Common, Mwangi Skills Acrobatics +31, Athletics +35, Crafting +29, Deception +32, Intimidation +32, Nature +31 Str +9 Dex +5 Con +6 Int +1 Wis +5 Cha +6 --- AC 42 Fort +32 Ref +30 Will +29 HP 440 Weaknesses electricity 15 Spell Reflection Reaction Trigger An opponent casts a spell that targets the manticore and requires a saving throw; Effect The manticore gains a +4 circumstance bonus to the saving throw. If they critically succeed at the save, they can choose a creature within 30 feet that was not originally targeted by the spell. That creature becomes a new target of the spell, who must attempt its own save against the same DC. --- Speed 40 feet, fly 45 feet Melee Single Action tail +33 (Magical, reach 10 feet), Damage 3d10+15 piercing plus 1d12 electricity Melee Single Action claw +33 (Agile, Magical), Damage 3d8+15 slashing plus 1d12 electricity Ranged Single Action spike +31 (Magical, range increment 40 feet), Damage 3d8+15 piercing Primal Innate Spells DC 40, attack +35 - Cantrips (9th) Detect Metal, Needle Darts, Tangle Vine - 3rd One with Stone (at will) - 5th Impaling Spike (at will), Lightning Bolt (at will) - 6th Field of Razors, Tangling Creepers - 8th Chain Lightning - 9th Wrathful Storm Arrange Scales Single Action The barded manticore flexes the muscles under their scales to temporarily gain better protection. The manticore gains a +2 circumstance bonus to AC and resistance 15 to their choice of bludgeoning, piercing, or slashing damage. These benefits last until the beginning of the manticore's next turn or they use Arrange Scales again. Metallic Coating A barded manticore's unarmed attacks (including spikes) count as adamantine, cold iron, dawnsilver, and silver. Paired Spikes Single Action The barded manticore flings two spikes from their tail, targeting up to two creatures within 20 feet of each other. They make a separate ranged Strike against each creature, which counts as a single Strike for the barded manticore's multiple attack penalty, and the penalty doesn't increase until they've made both Strikes. If the manticore targeted only one creature and hits, that creature takes normal damage for a single spike, but also gains weakness 15 to electricity damage until the spikes are removed with an Interact action. Ingot Salvage The scales of a deceased barded manticore can be salvaged, granting several metal ingots (typically 1 adamantine ingot, 5 cold iron ingots, 1 dawnsilver ingot, and 5 silver ingots). Its innate spells are etched onto the metal covering its tail, usually dawnsilver, which can be used as magical writing to Learn a Spell for those spells. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Beast",
+  "Rare",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547), [Rare](/Traits.aspx?ID=683)",
+ "trait_raw": [
+  "Beast",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3300",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "electricity": 15
+ },
+ "weakness_markdown": "[electricity](/Traits.aspx?ID=586) 15",
+ "weakness_raw": " electricity  15",
+ "will_save": 29,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 5,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

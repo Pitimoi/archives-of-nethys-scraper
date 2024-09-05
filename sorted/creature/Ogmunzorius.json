@@ -1,19 +1,39 @@
 {
  "ac": 28,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "NE",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  22
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
  "category": "creature",
  "charisma": 6,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Frozen Nightmare"
  ],
  "creature_family_markdown": "",
  "dexterity": 5,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 19,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 145,
  "hp_raw": "145",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-2506",
  "immunity": [
   "cold",
@@ -25,6 +45,8 @@
  ],
  "immunity_markdown": "[cold](/Traits.aspx?ID=27), [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), precision, [sleep](/Traits.aspx?ID=145)",
  "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Aklo",
   "Common",
@@ -33,12 +55,21 @@
  ],
  "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Varisian](/Languages.aspx?ID=44); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet",
  "level": 11,
- "markdown": "<title level=\"1\" pfs=\"\">[Ogmunzorius](/Monsters.aspx?ID=2506)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 36\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 33\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Ogmunzorius](/Monsters.aspx?ID=2506)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Dream\" url=\"/Traits.aspx?ID=299\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #189: Dreamers of the Nameless Spires](/Sources.aspx?ID=195) pg. 16</row>\n\n**Perception** +21; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Varisian](/Languages.aspx?ID=44); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +22, [Deception](/Skills.aspx?ID=5) +21, [Intimidation](/Skills.aspx?ID=7) +21, [Occultism](/Skills.aspx?ID=11) +23, [Stealth](/Skills.aspx?ID=15) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** -5\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** +4\r\n\r\n**Wis** +4\r\n\r\n**Cha** +6\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 \r\n\r\n**Fort** +19 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +22 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=103)\r\n</row>\r\n\r\n**HP** 145\n\n**Immunities**\r\n[cold](/Traits.aspx?ID=27), [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), precision, [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\nall 10 (except [fire](/Traits.aspx?ID=72), [force](/Traits.aspx?ID=75), [_ghost touch_](/Equipment.aspx?ID=297), or [negative](/Traits.aspx?ID=118)^ double resistance vs. non-[magical](/Traits.aspx?ID=103))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nnightmare tendril +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 5d8 cold plus frozen nightmare\r\n\r\n**Occult Innate Spells** DC 30\r\n- **4th**\r\n[Nightmare](/Spells.aspx?ID=208), [Sleep](/Spells.aspx?ID=288)\r\n- **5th**\r\n[Confusion](/Spells.aspx?ID=48), [Dimension Door](/Spells.aspx?ID=69) (at will)\r\n- **6th**\r\n[Fear](/Spells.aspx?ID=110), [Phantasmal Killer](/Spells.aspx?ID=219), [Teleport](/Spells.aspx?ID=338)\r\n\r\n**Rituals** DC 30\r\n\r\n- **6th**\r\n[Planar Binding](/Rituals.aspx?ID=17)\r\n\r\n**Frozen Nightmare**  ([Curse](/Traits.aspx?ID=38), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120)) Ogmunzorius's touch fills the victim's mind with realistic hallucinations and visions of being stranded alone and naked in an endless expanse of ice. The only point of reference in this vision when it manifests are strange dark spires looming impossibly tall on the horizon. **Saving Throw** DC 30 Fortitude; **Stage 1** [fatigued](/Conditions.aspx?ID=15) (1 day); **Stage 2** fatigued and [enfeebled 1](/Conditions.aspx?ID=13) (1 day); **Stage 3** The victim falls asleep and becomes covered in a rime of frost. They can't be awakened as long as they remain at this stage. A victim who perishes while at this stage frosts over completely, freezing solid into a block of ice. (1 day)\r\n\r\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Ogmunzorius](/Monsters.aspx?ID=2506)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 36\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 33\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 11\">[Ogmunzorius](/Monsters.aspx?ID=2506)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Dream\" url=\"/Traits.aspx?ID=299\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #189: Dreamers of the Nameless Spires](/Sources.aspx?ID=195) pg. 16\n\n**Perception** +21; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Varisian](/Languages.aspx?ID=44); [telepathy](/MonsterAbilities.aspx?ID=37) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +22, [Deception](/Skills.aspx?ID=5) +21, [Intimidation](/Skills.aspx?ID=7) +21, [Occultism](/Skills.aspx?ID=11) +23, [Stealth](/Skills.aspx?ID=15) +22\r\n\r\n<row gap=\"medium\">\r\n**Str** -5\r\n\r\n**Dex** +5\r\n\r\n**Con** +4\r\n\r\n**Int** +4\r\n\r\n**Wis** +4\r\n\r\n**Cha** +6\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 28 \r\n\r\n**Fort** +19 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +22 \r\n\r\n+1 status to all saves vs. [magic](/Traits.aspx?ID=103)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 145\n\n</row>\r\n\r\n**Immunities**\r\n[cold](/Traits.aspx?ID=27), [disease](/Traits.aspx?ID=46), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), precision, [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\nall 10 (except [fire](/Traits.aspx?ID=72), [force](/Traits.aspx?ID=75), [_ghost touch_](/Equipment.aspx?ID=297), or [negative](/Traits.aspx?ID=118); double resistance vs. non-[magical](/Traits.aspx?ID=103))\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nnightmare tendril +22 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 5d8 cold plus frozen nightmare\r\n\r\n**Occult Innate Spells** DC 30\r\n- **4th**\r\n[Nightmare](/Spells.aspx?ID=208), [Sleep](/Spells.aspx?ID=288)\r\n- **5th**\r\n[Confusion](/Spells.aspx?ID=48), [Dimension Door](/Spells.aspx?ID=69) (at will)\r\n- **6th**\r\n[Fear](/Spells.aspx?ID=110), [Phantasmal Killer](/Spells.aspx?ID=219), [Teleport](/Spells.aspx?ID=338)\r\n\r\n**Rituals** DC 30\r\n\r\n- **6th**\r\n[Planar Binding](/Rituals.aspx?ID=17)\r\n\r\n**Frozen Nightmare**  ([Curse](/Traits.aspx?ID=38), [Emotion](/Traits.aspx?ID=60), [Enchantment](/Traits.aspx?ID=61), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Occult](/Traits.aspx?ID=120)) Ogmunzorius's touch fills the victim's mind with realistic hallucinations and visions of being stranded alone and naked in an endless expanse of ice. The only point of reference in this vision when it manifests are strange dark spires looming impossibly tall on the horizon. **Saving Throw** DC 30 Fortitude; **Stage 1** [fatigued](/Conditions.aspx?ID=15) (1 day); **Stage 2** fatigued and [enfeebled 1](/Conditions.aspx?ID=13) (1 day); **Stage 3** The victim falls asleep and becomes covered in a rime of frost. They can't be awakened as long as they remain at this stage. A victim who perishes while at this stage frosts over completely, freezing solid into a block of ice. (1 day)\r\n\r\n</column>",
  "name": "Ogmunzorius",
  "npc": false,
  "perception": 21,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #189: Dreamers of the Nameless Spires",
+ "primary_source_raw": "Pathfinder #189: Dreamers of the Nameless Spires pg. 16",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Gatewalkers",
  "rarity": "unique",
+ "rarity_id": 4,
  "reflex_save": 21,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2023-03-29",
  "resistance": {
   "acid": 10,
@@ -52,9 +83,9 @@
   "electricity": 10,
   "evil": 10,
   "good": 10,
+  "holy": 10,
   "lawful": 10,
   "mental": 10,
-  "negative": 10,
   "orichalcum": 10,
   "physical": 10,
   "piercing": 10,
@@ -64,33 +95,49 @@
   "silver": 10,
   "slashing": 10,
   "sonic": 10,
-  "splash": 10
+  "spirit": 10,
+  "splash": 10,
+  "unholy": 10
  },
- "resistance_markdown": "all 10 (except [fire](/Traits.aspx?ID=72), [force](/Traits.aspx?ID=75), [_ghost touch_](/Equipment.aspx?ID=297), or [negative](/Traits.aspx?ID=118)^ double resistance vs. non-[magical](/Traits.aspx?ID=103))",
- "resistance_raw": "all 10 (except  fire ,  force ,   ghost touch  , or  negative ^ double resistance vs. non- magical )",
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Dream\" url=\"/Traits.aspx?ID=299\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #189: Dreamers of the Nameless Spires](/Sources.aspx?ID=195) pg. 16</row>\n\n<row gap=\"medium\">\r\n**HP** 145\r\n\r\n**AC** 28\r\n\r\n**Fort** +19\r\n\r\n**Ref** +21\r\n\r\n**Will** +22\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "resistance_markdown": "all 10 (except [fire](/Traits.aspx?ID=72), [force](/Traits.aspx?ID=75), [_ghost touch_](/Equipment.aspx?ID=297), or [negative](/Traits.aspx?ID=118); double resistance vs. non-[magical](/Traits.aspx?ID=103))",
+ "resistance_raw": "all 10 (except  fire ,  force ,   ghost touch  , or  negative ; double resistance vs. non- magical )",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"NE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Large\" />\r\n<trait label=\"Dream\" url=\"/Traits.aspx?ID=299\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #189: Dreamers of the Nameless Spires](/Sources.aspx?ID=195) pg. 16\n\n<row gap=\"medium\">\r\n**HP** 145\r\n\r\n**AC** 28\r\n\r\n**Fort** +19\r\n\r\n**Ref** +21\r\n\r\n**Will** +22\r\n\r\n**Perception** +21\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " darkvision ",
  "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
  "size": [
   "Large"
  ],
+ "size_id": [
+  4
+ ],
  "skill": [
-  "Acrobatics +22",
-  "Deception +21",
-  "Intimidation +21",
-  "Occultism +23",
-  "Stealth +22"
+  "Acrobatics",
+  "Deception",
+  "Intimidation",
+  "Occultism",
+  "Stealth"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +22, [Deception](/Skills.aspx?ID=5) +21, [Intimidation](/Skills.aspx?ID=7) +21, [Occultism](/Skills.aspx?ID=11) +23, [Stealth](/Skills.aspx?ID=15) +22",
+ "skill_mod": {
+  "acrobatics": 22,
+  "deception": 21,
+  "intimidation": 21,
+  "occultism": 23,
+  "stealth": 22
+ },
  "source": [
   "Pathfinder #189: Dreamers of the Nameless Spires"
  ],
  "source_raw": [
   "Pathfinder #189: Dreamers of the Nameless Spires pg. 16"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Gatewalkers",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #189: Dreamers of the Nameless Spires](/Sources.aspx?ID=195) pg. 16</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Gatewalkers"
+ ],
+ "source_markdown": "[Pathfinder #189: Dreamers of the Nameless Spires](/Sources.aspx?ID=195) pg. 16",
  "speed": {
   "fly": 40,
   "max": 40
@@ -107,21 +154,48 @@
   "Sleep"
  ],
  "spell_markdown": "[Confusion](/Spells.aspx?ID=48), [Dimension Door](/Spells.aspx?ID=69), [Fear](/Spells.aspx?ID=110), [Nightmare](/Spells.aspx?ID=208), [Phantasmal Killer](/Spells.aspx?ID=219), [Sleep](/Spells.aspx?ID=288), [Teleport](/Spells.aspx?ID=338)",
+ "spell_dc": [
+  30
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
  "spoilers": "Gatewalkers",
  "stealth": "22",
+ "strike_damage_average": [
+  22
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -5,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "will"
  ],
- "summary": "",
- "summary_markdown": "",
- "text": " Ogmunzorius Unspecific Lore : DC 36 Specific Lore : DC 33 Ogmunzorius Source Pathfinder #189: Dreamers of the Nameless Spires pg. 16 Perception +21; darkvision Languages Aklo, Common, Varisian; telepathy 100 feet Skills Acrobatics +22, Deception +21, Intimidation +21, Occultism +23, Stealth +22 Str -5 Dex +5 Con +4 Int +4 Wis +4 Cha +6 --- AC 28 Fort +19 Ref +21 Will +22 +1 status to all saves vs. magic HP 145 Immunities cold, disease, paralyzed, poison, precision, sleep Resistances all 10 (except fire, force, ghost touch , or negative^ double resistance vs. non-magical) --- Speed fly 40 feet Melee Single Action nightmare tendril +22 (Agile, Finesse, reach 10 feet), Damage 5d8 cold plus frozen nightmare Occult Innate Spells DC 30 - 4th Nightmare, Sleep - 5th Confusion, Dimension Door (at will) - 6th Fear, Phantasmal Killer, Teleport Rituals DC 30 - 6th Planar Binding Frozen Nightmare (Curse, Emotion, Enchantment, Fear, Mental, Occult) Ogmunzorius's touch fills the victim's mind with realistic hallucinations and visions of being stranded alone and naked in an endless expanse of ice. The only point of reference in this vision when it manifests are strange dark spires looming impossibly tall on the horizon. Saving Throw DC 30 Fortitude; Stage 1 fatigued (1 day); Stage 2 fatigued and enfeebled 1 (1 day); Stage 3 The victim falls asleep and becomes covered in a rime of frost. They can't be awakened as long as they remain at this stage. A victim who perishes while at this stage frosts over completely, freezing solid into a block of ice. (1 day) ",
+ "text": " Ogmunzorius Unspecific Lore : DC 36 Specific Lore : DC 33 Ogmunzorius Source Pathfinder #189: Dreamers of the Nameless Spires pg. 16 Perception +21; darkvision Languages Aklo, Common, Varisian; telepathy 100 feet Skills Acrobatics +22, Deception +21, Intimidation +21, Occultism +23, Stealth +22 Str -5 Dex +5 Con +4 Int +4 Wis +4 Cha +6 --- AC 28 Fort +19 Ref +21 Will +22 +1 status to all saves vs. magic HP 145 Immunities cold, disease, paralyzed, poison, precision, sleep Resistances all 10 (except fire, force, ghost touch , or negative; double resistance vs. non-magical) --- Speed fly 40 feet Melee Single Action nightmare tendril +22 (Agile, Finesse, reach 10 feet), Damage 5d8 cold plus frozen nightmare Occult Innate Spells DC 30 - 4th Nightmare, Sleep - 5th Confusion, Dimension Door (at will) - 6th Fear, Phantasmal Killer, Teleport Rituals DC 30 - 6th Planar Binding Frozen Nightmare (Curse, Emotion, Enchantment, Fear, Mental, Occult) Ogmunzorius's touch fills the victim's mind with realistic hallucinations and visions of being stranded alone and naked in an endless expanse of ice. The only point of reference in this vision when it manifests are strange dark spires looming impossibly tall on the horizon. Saving Throw DC 30 Fortitude; Stage 1 fatigued (1 day); Stage 2 fatigued and enfeebled 1 (1 day); Stage 3 The victim falls asleep and becomes covered in a rime of frost. They can't be awakened as long as they remain at this stage. A victim who perishes while at this stage frosts over completely, freezing solid into a block of ice. (1 day) ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
  "trait": [
   "Dream",
   "Incorporeal",
   "Unique",
   "NE",
   "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Rarity"
  ],
  "trait_markdown": "[Dream](/Traits.aspx?ID=299), [Incorporeal](/Traits.aspx?ID=222), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
@@ -138,5 +212,9 @@
  ],
  "weakness": {},
  "will_save": 22,
- "wisdom": 4
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

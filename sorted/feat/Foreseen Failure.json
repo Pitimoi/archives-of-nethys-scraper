@@ -1,6 +1,6 @@
 {
  "actions": "Free Action",
- "breadcrumbs_spa": [],
+ "actions_number": 0,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,22 +10,29 @@
  "frequency": "once per day",
  "id": "feat-3682",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Foreseen Failure](/Feats.aspx?ID=3682) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 28</row>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nA spell you cast has no effect because you critically failed all your spell attack rolls or because all targets critically succeeded at their saving throws.\n\n</column>\r\n\r\n---\r\n\r\nYou see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell. Your spell is expended, but you can Cast a Spell that requires the same number of actions as the triggering spell or fewer to cast. The second spell must be a different spell than the first.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Foreseen Failure](/Feats.aspx?ID=3682) <actions string=\"Free Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 28\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nA spell you cast has no effect because you critically failed all your spell attack rolls or because all targets critically succeeded at their saving throws.\n\n</column>\r\n\r\n---\r\n\r\nYou see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell. Your spell is expended, but you can Cast a Spell that requires the same number of actions as the triggering spell or fewer to cast. The second spell must be a different spell than the first.",
  "name": "Foreseen Failure",
  "pfs": "Standard",
+ "primary_source": "Dark Archive",
+ "primary_source_raw": "Dark Archive pg. 28",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2022-07-27",
  "resistance": {},
  "school": "divination",
- "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 28</row>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nA spell you cast has no effect because you critically failed all your spell attack rolls or because all targets critically succeeded at their saving throws.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=120\" />\r\n<trait label=\"Psychic\" url=\"/Traits.aspx?ID=430\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Dark Archive](/Sources.aspx?ID=129) pg. 28\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nA spell you cast has no effect because you critically failed all your spell attack rolls or because all targets critically succeeded at their saving throws.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Dark Archive"
  ],
  "source_raw": [
   "Dark Archive pg. 28"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Dark Archive](/Sources.aspx?ID=129) pg. 28</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Dark Archive](/Sources.aspx?ID=129) pg. 28",
  "speed": {},
  "summary": "You see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell.",
  "summary_markdown": "You see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell.",
@@ -35,6 +42,11 @@
   "Fortune",
   "Occult",
   "Psychic"
+ ],
+ "trait_group": [
+  "School",
+  "Tradition",
+  "Class"
  ],
  "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Fortune](/Traits.aspx?ID=76), [Occult](/Traits.aspx?ID=120), [Psychic](/Traits.aspx?ID=430)",
  "trait_raw": [

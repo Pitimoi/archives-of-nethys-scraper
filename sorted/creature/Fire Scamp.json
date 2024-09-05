@@ -1,0 +1,188 @@
+{
+ "ac": 17,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  9
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Smoke Vision",
+  "Flame Breath"
+ ],
+ "creature_family": "Elemental, Scamp",
+ "creature_family_markdown": "[Elemental, Scamp](/MonsterFamilies.aspx?ID=411)",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 3,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
+ "hp": 16,
+ "hp_raw": "16 ( fast healing 2  (while touching fire))",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2987",
+ "image": [
+  "/Images/Monsters/Fire_Scamp.webp"
+ ],
+ "immunity": [
+  "bleed",
+  "fire",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)",
+ "intelligence": -2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Pyric"
+ ],
+ "language_markdown": "[Pyric](/Languages.aspx?ID=110)",
+ "legacy_id": "creature-194",
+ "legacy_name": "Fire Mephit",
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Fire Scamp](/Monsters.aspx?ID=2987)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlthough arguably quite friendly, fire scamps are considered far more dangerous than their kin. They delight in fire and playing pranks on everyone they befriend. Even given time to understand others' dislike of fire, most fire scamps enjoy the feel of flames enough to constantly test their limits. Compared to the nations of other scamps, the nations on the [Plane of Fire](/Planes.aspx?ID=31) are by far the strongest. This backing inspires fire scamps to challenge authority more quickly than the others.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 15\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Fire_Scamp.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 1\">[Fire Scamp](/Monsters.aspx?ID=2987)</title>\r\n\r\n<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 147\n\n**Perception** +3; [darkvision](/MonsterAbilities.aspx?ID=59), smoke vision\r\n\r\n**Languages**\r\n[Pyric](/Languages.aspx?ID=110)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +7, [Deception](/Skills.aspx?ID=5) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** -2\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\r\n\r\n**Smoke Vision** The fire scamp ignores the [concealed](/Conditions.aspx?ID=62) condition from smoke.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 17 \r\n\r\n**Fort** +3 \r\n\r\n**Ref** +9 \r\n\r\n**Will** +7 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 16\r\n([fast healing 2](/MonsterAbilities.aspx?ID=62) (while touching fire))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [fire](/Traits.aspx?ID=604), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), [sleep](/Traits.aspx?ID=696)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=555) 3\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, fly 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +9 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 1d6 piercing and 1d4 fire\r\n\r\n**Arcane Innate Spells** DC 15\r\n- **Cantrips (1st)**\r\n[Daze](/Spells.aspx?ID=61), [Ignition](/Spells.aspx?ID=1565), [Light](/Spells.aspx?ID=171)\r\n\r\n**Flame Breath** <actions string=\"Two Actions\" /> ([Arcane](/Traits.aspx?ID=11), [Fire](/Traits.aspx?ID=72)) The fire scamp breathes flames in a 15- foot cone that deals 2d4 fire damage to each creature within the area (DC 17 [basic](/Rules.aspx?ID=329) Reflex save). Creatures that fail the save also take 1d4 [persistent fire damage](/Conditions.aspx?ID=29). The fire scamp can't use Flame Breath again for 1d4 rounds.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-411\" />",
+ "name": "Fire Scamp",
+ "npc": false,
+ "perception": 3,
+ "perception_scale": "Terrible",
+ "perception_scale_number": 1,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 147",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 9,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Small\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=587\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=604\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 147\r\n\r\n**Creature Family** [Elemental, Scamp](/MonsterFamilies.aspx?ID=411)\r\n\r\n<row gap=\"medium\">\r\n**HP** 16 ( fast healing 2  (while touching fire))\r\n\r\n**AC** 17\r\n\r\n**Fort** +3\r\n\r\n**Ref** +9\r\n\r\n**Will** +7\r\n\r\n**Perception** +3\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlthough arguably quite friendly, fire scamps are considered far more dangerous than their kin. They delight in fire and playing pranks on everyone …\r\n</summary>",
+ "sense": " darkvision , smoke vision",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), smoke vision",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Acrobatics",
+  "Deception"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +7, [Deception](/Skills.aspx?ID=5) +7",
+ "skill_mod": {
+  "acrobatics": 7,
+  "deception": 7
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 147"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 147",
+ "speed": {
+  "fly": 25,
+  "land": 20,
+  "max": 25
+ },
+ "speed_markdown": "20 feet, fly 25 feet",
+ "speed_raw": "20 feet, fly 25 feet",
+ "spell": [
+  "Daze",
+  "Ignition",
+  "Light"
+ ],
+ "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Ignition](/Spells.aspx?ID=1565), [Light](/Spells.aspx?ID=171)",
+ "spell_dc": [
+  15
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  6
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
+ "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Although arguably quite friendly, fire scamps are considered far more dangerous than their kin. They delight in fire and playing pranks on everyone …",
+ "summary_markdown": "Although arguably quite friendly, fire scamps are considered far more dangerous than their kin. They delight in fire and playing pranks on everyone …",
+ "text": " Fire Scamp Although arguably quite friendly, fire scamps are considered far more dangerous than their kin. They delight in fire and playing pranks on everyone they befriend. Even given time to understand others' dislike of fire, most fire scamps enjoy the feel of flames enough to constantly test their limits. Compared to the nations of other scamps, the nations on the Plane of Fire are by far the strongest. This backing inspires fire scamps to challenge authority more quickly than the others. Recall Knowledge - Elemental (Arcana, Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Fire Scamp Source Monster Core pg. 147 Perception +3; darkvision, smoke vision Languages Pyric Skills Acrobatics +7, Deception +7 Str +0 Dex +4 Con +0 Int -2 Wis +0 Cha +2 Smoke Vision The fire scamp ignores the concealed condition from smoke. --- AC 17 Fort +3 Ref +9 Will +7 HP 16 (fast healing 2 (while touching fire)) Immunities bleed, fire, paralyzed, poison, sleep Weaknesses cold 3 --- Speed 20 feet, fly 25 feet Melee Single Action jaws +9 (Finesse), Damage 1d6 piercing and 1d4 fire Arcane Innate Spells DC 15 - Cantrips (1st) Daze, Ignition, Light Flame Breath Two Actions (Arcane, Fire) The fire scamp breathes flames in a 15- foot cone that deals 2d4 fire damage to each creature within the area (DC 17 basic Reflex save). Creatures that fail the save also take 1d4 persistent fire damage. The fire scamp can't use Flame Breath again for 1d4 rounds. ",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Elemental",
+  "Fire",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=587), [Fire](/Traits.aspx?ID=604)",
+ "trait_raw": [
+  "Elemental",
+  "Fire"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2987",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "cold": 3
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=555) 3",
+ "weakness_raw": " cold  3",
+ "will_save": 7,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

@@ -1,43 +1,54 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Reverberate"
  ],
  "feat_markdown": "Reverberate",
- "id": "feat-1653",
+ "id": "feat-4620",
+ "legacy_id": "feat-1653",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Reverberate](/Feats.aspx?ID=1653) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 114 <sup>2.0</sup></row>\n\n**Trigger**\r\nYou would take sonic damage from a spell.\n\n</column>\r\n\r\n---\r\n\r\nYou can manipulate the acoustics around you to deflect sonic damage back at its source. Attempt a [Performance](/Skills.aspx?ID=12) check against the spell DC of the creature that cast the triggering spell.\n\n**Critical Success** You reduce the triggering damage by an amount up to four times your level. The caster takes sonic damage equal to the amount of damage you reduced in this way.<br />\r\n**Success** As critical success, but you reduce the triggering damage by an amount up to twice your level.<br />\r\n**Critical Failure** You misdirect the sonic waves at yourself, taking twice the triggering damage.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Reverberate](/Feats.aspx?ID=4620) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 106\n\n**Trigger**\r\nA creature or hazard would deal sonic damage to you\n\n</column>\r\n\r\n---\r\n\r\nYou can manipulate the acoustics around you to deflect sonic damage back at its source. Attempt a [Performance](/Skills.aspx?ID=45) check against the Will DC of the creature or Fortitude DC of a hazard. If the damage came from a spell, use the creature’s spell DC if it’s lower.\n\n**Critical Success** You reduce the triggering damage by an amount up to four times your level. The caster takes sonic damage equal to the amount of damage you reduced in this way.<br />\r\n**Success** As critical success, but you reduce the triggering damage by an amount up to twice your level.<br />\r\n**Critical Failure** You misdirect the sonic waves at yourself, taking twice the triggering damage.",
  "name": "Reverberate",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 106",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2020-07-30",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=19\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 114 <sup>2.0</sup></row>\n\n**Trigger**\r\nYou would take sonic damage from a spell.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can manipulate the acoustics around you to deflect sonic damage back at its source.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Bard\" url=\"/Traits.aspx?ID=546\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 106\n\n**Trigger**\r\nA creature or hazard would deal sonic damage to you\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou can manipulate the acoustics around you to deflect sonic damage back at its source.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Advanced Player's Guide"
+  "Player Core"
  ],
  "source_raw": [
-  "Advanced Player's Guide pg. 114"
+  "Player Core pg. 106"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 114 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 106",
  "speed": {},
  "summary": "You can manipulate the acoustics around you to deflect sonic damage back at its source.",
  "summary_markdown": "You can manipulate the acoustics around you to deflect sonic damage back at its source.",
- "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Reverberate Reaction Source Advanced Player's Guide pg. 114 2.0 Trigger You would take sonic damage from a spell. --- You can manipulate the acoustics around you to deflect sonic damage back at its source. Attempt a Performance check against the spell DC of the creature that cast the triggering spell. Critical Success You reduce the triggering damage by an amount up to four times your level. The caster takes sonic damage equal to the amount of damage you reduced in this way. Success As critical success, but you reduce the triggering damage by an amount up to twice your level. Critical Failure You misdirect the sonic waves at yourself, taking twice the triggering damage.",
+ "text": "<title level=\"1\" right=\"Feat 12\" pfs=\"Standard\" > Reverberate Reaction Source Player Core pg. 106 Trigger A creature or hazard would deal sonic damage to you --- You can manipulate the acoustics around you to deflect sonic damage back at its source. Attempt a Performance check against the Will DC of the creature or Fortitude DC of a hazard. If the damage came from a spell, use the creature’s spell DC if it’s lower. Critical Success You reduce the triggering damage by an amount up to four times your level. The caster takes sonic damage equal to the amount of damage you reduced in this way. Success As critical success, but you reduce the triggering damage by an amount up to twice your level. Critical Failure You misdirect the sonic waves at yourself, taking twice the triggering damage.",
  "trait": [
   "Bard"
  ],
- "trait_markdown": "[Bard](/Traits.aspx?ID=19)",
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Bard](/Traits.aspx?ID=546)",
  "trait_raw": [
   "Bard"
  ],
- "trigger": "You would take sonic damage from a spell.",
- "trigger_markdown": "You would take sonic damage from a spell.",
+ "trigger": "A creature or hazard would deal sonic damage to you",
+ "trigger_markdown": "A creature or hazard would deal sonic damage to you",
  "type": "Feat",
- "url": "/Feats.aspx?ID=1653",
+ "url": "/Feats.aspx?ID=4620",
  "weakness": {}
 }

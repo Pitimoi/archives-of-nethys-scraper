@@ -1,0 +1,208 @@
+{
+ "ac": 40,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "alignment": "LN",
+ "attack_bonus": [
+  33,
+  35,
+  35
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 8,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Sense Fate",
+  "Beyond Fate",
+  "Breath Weapon",
+  "Follow the Thread",
+  "Pack Attack",
+  "Time Bound"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 34,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 421,
+ "hp_raw": "421",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-2582",
+ "image": [
+  "/Images/Monsters/Nornhound.png"
+ ],
+ "immunity": [
+  "negative"
+ ],
+ "immunity_markdown": "[negative](/Traits.aspx?ID=118)",
+ "intelligence": 4,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Jotun",
+  "Sylvan",
+  "<%SPELLS%340%%><i>tongues</i><%END>"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Sylvan](/Languages.aspx?ID=10); [_tongues_](/Spells.aspx?ID=340)",
+ "level": 18,
+ "markdown": "<title level=\"1\" pfs=\"\">[Nornhound](/Monsters.aspx?ID=2582)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWhile [norns](/Monsters.aspx?ID=742) typically keep to themselves, only consulting their triumvirate or occasionally other fellow norns, they sometimes require servants to further their goals or protect their homes. Nornhounds are massive wolves spun from the old, tattered threads of fate, usually moments of time that norns severed to end a life. These wolves gain a portion of the same power over fate that norns do and serve their norn masters with unflinching loyalty.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\r\n([Nature](/Skills.aspx?ID=10)): DC 43\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 41\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 38\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Nornhound.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 18\">[Nornhound](/Monsters.aspx?ID=2582)</title>\r\n\r\n<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 84\n\n**Perception** +32; [_detect magic_](/Spells.aspx?ID=66), [greater darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) ([precise](/Rules.aspx?ID=411)) 120 feet, [_true seeing_](/Spells.aspx?ID=344)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Jotun](/Languages.aspx?ID=8), [Sylvan](/Languages.aspx?ID=10); [_tongues_](/Spells.aspx?ID=340)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +30, [Athletics](/Skills.aspx?ID=3) +35, [Deception](/Skills.aspx?ID=5) +31, [Diplomacy](/Skills.aspx?ID=6) +31, [Intimidation](/Skills.aspx?ID=7) +33, [Occultism](/Skills.aspx?ID=11) +30\r\n\r\n<row gap=\"medium\">\r\n**Str** +9\r\n\r\n**Dex** +4\r\n\r\n**Con** +8\r\n\r\n**Int** +4\r\n\r\n**Wis** +6\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Sense Fate** ([fortune](/Traits.aspx?ID=76)) A nornhound automatically rolls a 20 when it rolls initiative.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 40 \r\n\r\n**Fort** +34 \r\n\r\n**Ref** +28 \r\n\r\n**Will** +30 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 421\r\n\r\n, regeneration 15 (deactivated by [cold iron](/Equipment.aspx?ID=375))\n\n</row>\r\n\r\n**Immunities**\r\n[negative](/Traits.aspx?ID=118)\n\n**Weaknesses**\r\ncold iron 15\r\n\r\n**Beyond Fate** A nornhound can ignore any [fortune](/Traits.aspx?ID=76) or [misfortune](/Traits.aspx?ID=110) effects that affect them. If they're forced to roll twice as part of such an effect, they can take whichever die result they prefer, even if the effect would normally force them to choose one of the results.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +35 ([Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d12+17 piercing damage plus [Improved Grab](/MonsterAbilities.aspx?ID=27)\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +35 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+17 bludgeoning plus [Knockdown](/MonsterAbilities.aspx?ID=20)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ntemporal blast +33 ([Evocation](/Traits.aspx?ID=65), [Magical](/Traits.aspx?ID=103), [range increment 120 feet](/Traits.aspx?ID=248)),\r\n**Damage** 6d8 force\r\n\r\n**Occult Innate Spells** DC 37\r\n- **6th**\r\n[Slow](/Spells.aspx?ID=289)\r\n- **8th**\r\n[Inevitable Disaster](/Spells.aspx?ID=930), [Teleport](/Spells.aspx?ID=338) (self only; at will)\r\n- **9th**\r\n[Cast into Time](/Spells.aspx?ID=880)\r\n- **Constant (10th)**\r\n[Detect Magic](/Spells.aspx?ID=66), [Tongues](/Spells.aspx?ID=340), [True Seeing](/Spells.aspx?ID=344)\r\n\r\n**Breath Weapon** <actions string=\"Two Actions\" /> ([Divination](/Traits.aspx?ID=47), [Mental](/Traits.aspx?ID=106), [Primal](/Traits.aspx?ID=134)) The nornhound unleashes a blast of temporal energy in a 30-foot cone that deals 15d8 mental damage (DC 40 [basic](/Rules.aspx?ID=329) Will save). Creatures that fail their save become [confused](/Conditions.aspx?ID=5) for 1 round. The nornhound can't use Breath Weapon again for 1d4 rounds.\r\n\r\n**Follow the Thread**   A nornhound is permanently [quickened](/Conditions.aspx?ID=32). It can use its extra action only to Step or Stride.\r\n\r\n**Pack Attack**   The nornhound's Strikes deal 1d6 extra damage to creatures within reach of at least two of its allies. [Swallow Whole](/MonsterAbilities.aspx?ID=35) <actions string=\"Single Action\" /> (attack); Huge, 3d12+10 bludgeoning, Rupture 36\r\n\r\n**Time Bound** <actions string=\"Three Actions\" />  The nornhound jumps into the air, releasing multiple blasts of temporal energy. The nornhound leaps to a point within 60 feet. It can make up to three temporal blast Strikes at any point during this movement, each against a different target. These attacks count toward the nornhound's multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Nornhound Packs</title>\r\n\r\nLong-lived or powerful [norns](/Monsters.aspx?ID=742) sometimes spin multiple nornhounds and keep entire packs as guardians. These packs make quick work of intruders and also gain additional powers when working together. Much like a norn triumvirate, a norn pack can their powers to affect the flow of time in a localized area or even stop time outright.\r\n\r\n</aside>",
+ "name": "Nornhound",
+ "npc": false,
+ "perception": 32,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #192: Worst of All Possible Worlds",
+ "primary_source_raw": "Pathfinder #192: Worst of All Possible Worlds pg. 84",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Stolen Fate",
+ "rarity": "rare",
+ "rarity_id": 3,
+ "reflex_save": 28,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-06-28",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Rare\" url=\"/Traits.aspx?ID=137\" />\r\n<trait label=\"LN\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Gargantuan\" />\r\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=69\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 84\n\n<row gap=\"medium\">\r\n**HP** 421\r\n\r\n**AC** 40\r\n\r\n**Fort** +34\r\n\r\n**Ref** +28\r\n\r\n**Will** +30\r\n\r\n**Perception** +32\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWhile  norns  typically keep to themselves, only consulting their triumvirate or occasionally other fellow norns, they sometimes require servants to …\r\n</summary>",
+ "sense": "  detect magic  ,  greater darkvision ,  scent  ( precise ) 120 feet,   true seeing  ",
+ "sense_markdown": "[_detect magic_](/Spells.aspx?ID=66), [greater darkvision](/MonsterAbilities.aspx?ID=12), [scent](/MonsterAbilities.aspx?ID=33) ([precise](/Rules.aspx?ID=411)) 120 feet, [_true seeing_](/Spells.aspx?ID=344)",
+ "size": [
+  "Gargantuan"
+ ],
+ "size_id": [
+  6
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Occultism"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +30, [Athletics](/Skills.aspx?ID=3) +35, [Deception](/Skills.aspx?ID=5) +31, [Diplomacy](/Skills.aspx?ID=6) +31, [Intimidation](/Skills.aspx?ID=7) +33, [Occultism](/Skills.aspx?ID=11) +30",
+ "skill_mod": {
+  "acrobatics": 30,
+  "athletics": 35,
+  "deception": 31,
+  "diplomacy": 31,
+  "intimidation": 33,
+  "occultism": 30
+ },
+ "source": [
+  "Pathfinder #192: Worst of All Possible Worlds"
+ ],
+ "source_raw": [
+  "Pathfinder #192: Worst of All Possible Worlds pg. 84"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Stolen Fate"
+ ],
+ "source_markdown": "[Pathfinder #192: Worst of All Possible Worlds](/Sources.aspx?ID=203) pg. 84",
+ "speed": {
+  "fly": 40,
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet, fly 40 feet",
+ "speed_raw": "40 feet, fly 40 feet",
+ "spell": [
+  "Cast into Time",
+  "Inevitable Disaster",
+  "Teleport",
+  "Slow",
+  "Detect Magic",
+  "Tongues",
+  "True Seeing"
+ ],
+ "spell_markdown": "[Cast into Time](/Spells.aspx?ID=880), [Detect Magic](/Spells.aspx?ID=66), [Inevitable Disaster](/Spells.aspx?ID=930), [Slow](/Spells.aspx?ID=289), [Teleport](/Spells.aspx?ID=338), [Tongues](/Spells.aspx?ID=340), [True Seeing](/Spells.aspx?ID=344)",
+ "spell_dc": [
+  37
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "spoilers": "Stolen Fate",
+ "strike_damage_average": [
+  27,
+  30,
+  36
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 9,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "While  norns  typically keep to themselves, only consulting their triumvirate or occasionally other fellow norns, they sometimes require servants to …",
+ "summary_markdown": "While  norns  typically keep to themselves, only consulting their triumvirate or occasionally other fellow norns, they sometimes require servants to …",
+ "text": " Nornhound While norns typically keep to themselves, only consulting their triumvirate or occasionally other fellow norns, they sometimes require servants to further their goals or protect their homes. Nornhounds are massive wolves spun from the old, tattered threads of fate, usually moments of time that norns severed to end a life. These wolves gain a portion of the same power over fate that norns do and serve their norn masters with unflinching loyalty. Recall Knowledge - Fey (Nature): DC 43 Unspecific Lore : DC 41 Specific Lore : DC 38 Nornhound Source Pathfinder #192: Worst of All Possible Worlds pg. 84 Perception +32; detect magic , greater darkvision, scent (precise) 120 feet, true seeing Languages Common, Jotun, Sylvan; tongues Skills Acrobatics +30, Athletics +35, Deception +31, Diplomacy +31, Intimidation +33, Occultism +30 Str +9 Dex +4 Con +8 Int +4 Wis +6 Cha +5 Sense Fate (fortune) A nornhound automatically rolls a 20 when it rolls initiative. --- AC 40 Fort +34 Ref +28 Will +30 HP 421 , regeneration 15 (deactivated by cold iron) Immunities negative Weaknesses cold iron 15 Beyond Fate A nornhound can ignore any fortune or misfortune effects that affect them. If they're forced to roll twice as part of such an effect, they can take whichever die result they prefer, even if the effect would normally force them to choose one of the results. --- Speed 40 feet, fly 40 feet Melee Single Action jaws +35 (Magical), Damage 3d12+17 piercing damage plus Improved Grab Melee Single Action tail +35 (Agile, Magical, reach 15 feet), Damage 3d8+17 bludgeoning plus Knockdown Ranged Single Action temporal blast +33 (Evocation, Magical, range increment 120 feet), Damage 6d8 force Occult Innate Spells DC 37 - 6th Slow - 8th Inevitable Disaster, Teleport (self only; at will) - 9th Cast into Time - Constant (10th) Detect Magic, Tongues, True Seeing Breath Weapon Two Actions (Divination, Mental, Primal) The nornhound unleashes a blast of temporal energy in a 30-foot cone that deals 15d8 mental damage (DC 40 basic Will save). Creatures that fail their save become confused for 1 round. The nornhound can't use Breath Weapon again for 1d4 rounds. Follow the Thread A nornhound is permanently quickened. It can use its extra action only to Step or Stride. Pack Attack The nornhound's Strikes deal 1d6 extra damage to creatures within reach of at least two of its allies. Swallow Whole Single Action (attack); Huge, 3d12+10 bludgeoning, Rupture 36 Time Bound Three Actions The nornhound jumps into the air, releasing multiple blasts of temporal energy. The nornhound leaps to a point within 60 feet. It can make up to three temporal blast Strikes at any point during this movement, each against a different target. These attacks count toward the nornhound's multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks. Nornhound Packs Long-lived or powerful norns sometimes spin multiple nornhounds and keep entire packs as guardians. These packs make quick work of intruders and also gain additional powers when working together. Much like a norn triumvirate, a norn pack can their powers to affect the flow of time in a localized area or even stop time outright. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Fey",
+  "Rare",
+  "LN",
+  "Gargantuan"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=69), [Rare](/Traits.aspx?ID=137)",
+ "trait_raw": [
+  "Fey",
+  "Rare"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2582",
+ "vision": "Greater darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "cold_iron": 15
+ },
+ "weakness_markdown": "cold iron 15",
+ "weakness_raw": "cold iron 15",
+ "will_save": 30,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 6,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

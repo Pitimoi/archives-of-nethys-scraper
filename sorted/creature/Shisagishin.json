@@ -1,0 +1,201 @@
+{
+ "ac": 33,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "CE",
+ "attack_bonus": [
+  25
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": 6,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
+ "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Burst From Death",
+  "Requirement",
+  "Soul Shred",
+  "Spread Decay",
+  "Manifest Corpse Shell"
+ ],
+ "creature_family": "Nindoru",
+ "creature_family_markdown": "[Nindoru](/MonsterFamilies.aspx?ID=353)",
+ "dexterity": 7,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "fortitude_save": 22,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 214,
+ "hp_raw": "214",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2804",
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Aklo",
+  "Common",
+  "Necril"
+ ],
+ "language_markdown": "[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "level": 12,
+ "markdown": "<title level=\"1\" pfs=\"\">[Shisagishin (Crooked Nindoru)](/Monsters.aspx?ID=2804)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe shisagishin takes delight in infiltrating a community and then disguising itself as the horribly decayed or mutilated remains of a loved one or adored public figure, only to spring to life in its true form during funeral services. A shisagishin epitomizes the cycle of decay giving rise to new life.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Fiend](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 30\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 28\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 25\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[Shisagishin](/Monsters.aspx?ID=2804)</title>\r\n\r\n<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Nindoru\" url=\"/Traits.aspx?ID=739\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 85\n\n**Perception** +22; [darkvision](/MonsterAbilities.aspx?ID=59)\r\n\r\n**Languages**\r\n[Aklo](/Languages.aspx?ID=13), [Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +25, [Deception](/Skills.aspx?ID=5) +24, [Intimidation](/Skills.aspx?ID=7) +22, [Occultism](/Skills.aspx?ID=11) +21, [Stealth](/Skills.aspx?ID=15) +25\r\n\r\n<row gap=\"medium\">\r\n**Str** +4\r\n\r\n**Dex** +7\r\n\r\n**Con** +4\r\n\r\n**Int** +3\r\n\r\n**Wis** +4\r\n\r\n**Cha** +6\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 33 \r\n\r\n**Fort** +22 \r\n\r\n**Ref** +25 \r\n\r\n**Will** +20 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 214\n\n</row>\n\n**Resistances**\r\nnegative 10\r\n\r\n**Weaknesses**\r\nsilver 10\r\n\r\n[Attack of Opportunity](/MonsterAbilities.aspx?ID=3) <actions string=\"Reaction\" /><br />**Burst From Death** <actions string=\"Reaction\" /> ([attack **Requirement** Initiative hasn't yet been rolled](/Traits.aspx?ID=540), and the shisagishin is disguised as a corpse with Manifest Corpse Shell) **Trigger** A creature touches the disguised shisagishin or a coffin or other container the shisagishin has been placed into; **Effect** The shisagishin violently unfolds into its true form, shredding its decaying corpse shell, and attempts a claw Strike on an adjacent target before it rolls initiative.<br />**Soul Shred** Creatures killed by an shisagishin are difficult to bring back to life or to animate as undead. The shisagishin automatically attempts to counteract any attempt to resurrect or animate as undead any creature that it has killed (counteract modifier +21, counteract level 6th). If the shisagishin who slew the creature is itself slain, the creature can be brought back from death or become undead normally.<br />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +25 ([Agile](/Traits.aspx?ID=170), [deadly d6](/Traits.aspx?ID=174), [Finesse](/Traits.aspx?ID=179), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d8+7 slashing plus 1d6 mental and [Grab](/MonsterAbilities.aspx?ID=45)\r\n\r\n**Occult Innate Spells** DC 32, attack +24\r\n- **Cantrips (6th)**\r\n[Daze](/Spells.aspx?ID=61), [Ghost Sound](/Spells.aspx?ID=132), [Message](/Spells.aspx?ID=190)\r\n- **2nd**\r\n[Death Knell](/Spells.aspx?ID=63) (at will), [Item Facade](/Spells.aspx?ID=166)\r\n- **5th**\r\n[Hallucination](/Spells.aspx?ID=144), [Phantasmal Killer](/Spells.aspx?ID=219)\r\n- **6th**\r\n[Vampiric Exsanguination](/Spells.aspx?ID=353)\r\n\r\n**Spread Decay** <actions string=\"Single Action\" />  The shisagishin causes the flesh of any number of creatures grabbed or restrained by it to swiftly begin to decay. Each of those creatures must attempt a DC 32 Fortitude save. \n\n**Critical Success** The creature is unaffected.<br />\n**Success** The creature takes 2d8 negative damage.<br />\n**Failure** The creature takes 4d8 negative damage and is [enfeebled](/Conditions.aspx?ID=71) 1.<br />\n**Critical Failure** The creature takes 6d8 negative damage and is enfeebled 2\r\n\r\n**Manifest Corpse Shell**  ([Concentrate](/Traits.aspx?ID=32), [Conjuration](/Traits.aspx?ID=33), [Occult](/Traits.aspx?ID=120)) The shisagishin tucks its arms and legs into its body, drops prone, and manifests a decaying and/or mutilated humanoid corpse around itself over the course of 10 minutes of concentration. The shisagishin can cause this corpse to appear to be the remains of a specific creature it has seen before by Impersonating that creature with Deception. Once its corpse shell has manifested, until the next time the shisagishin acts, it appears to be a corpse. It has an automatic result of 44 on Deception checks and DCs to pass as a corpse.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_2_AdditionalLore.png\">Handmade Habitats</title>\r\n\r\nA shisagishin prefers to roam areas already rife with conflict and potential accidents, but it will happily create such a location if needed. They might poison wells, introduce disease to healthy livestock, or even collaborate with corrupt humans if it means the freedom to kill. Cursed towns or haunted roads are sometimes the playground of such a shisagishin.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-353\" />",
+ "name": "Shisagishin",
+ "npc": false,
+ "perception": 22,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #199: To Bloom Below the Web",
+ "primary_source_raw": "Pathfinder #199: To Bloom Below the Web pg. 85",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 25,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-01-26",
+ "resistance": {
+  "negative": 10
+ },
+ "resistance_markdown": "negative 10",
+ "resistance_raw": "negative 10",
+ "search_markdown": "<traits>\r\n<trait label=\"CE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Fiend\" url=\"/Traits.aspx?ID=600\" />\r\n<trait label=\"Nindoru\" url=\"/Traits.aspx?ID=739\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 85\r\n\r\n**Creature Family** [Nindoru](/MonsterFamilies.aspx?ID=353)\r\n\r\n<row gap=\"medium\">\r\n**HP** 214\r\n\r\n**AC** 33\r\n\r\n**Fort** +22\r\n\r\n**Ref** +25\r\n\r\n**Will** +20\r\n\r\n**Perception** +22\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe shisagishin takes delight in infiltrating a community and then disguising itself as the horribly decayed or mutilated remains of a loved one or …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Deception",
+  "Intimidation",
+  "Occultism",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +25, [Deception](/Skills.aspx?ID=5) +24, [Intimidation](/Skills.aspx?ID=7) +22, [Occultism](/Skills.aspx?ID=11) +21, [Stealth](/Skills.aspx?ID=15) +25",
+ "skill_mod": {
+  "acrobatics": 25,
+  "deception": 24,
+  "intimidation": 22,
+  "occultism": 21,
+  "stealth": 25
+ },
+ "source": [
+  "Pathfinder #199: To Bloom Below the Web"
+ ],
+ "source_raw": [
+  "Pathfinder #199: To Bloom Below the Web pg. 85"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Pathfinder #199: To Bloom Below the Web](/Sources.aspx?ID=225) pg. 85",
+ "speed": {
+  "land": 40,
+  "max": 40
+ },
+ "speed_markdown": "40 feet",
+ "speed_raw": "40 feet",
+ "spell": [
+  "Vampiric Exsanguination",
+  "Hallucination",
+  "Phantasmal Killer",
+  "Death Knell",
+  "Item Facade",
+  "Daze",
+  "Ghost Sound",
+  "Message"
+ ],
+ "spell_markdown": "[Daze](/Spells.aspx?ID=61), [Death Knell](/Spells.aspx?ID=63), [Ghost Sound](/Spells.aspx?ID=132), [Hallucination](/Spells.aspx?ID=144), [Item Facade](/Spells.aspx?ID=166), [Message](/Spells.aspx?ID=190), [Phantasmal Killer](/Spells.aspx?ID=219), [Vampiric Exsanguination](/Spells.aspx?ID=353)",
+ "spell_attack_bonus": [
+  24
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  32
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "25",
+ "strike_damage_average": [
+  24
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 4,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "The shisagishin takes delight in infiltrating a community and then disguising itself as the horribly decayed or mutilated remains of a loved one or …",
+ "summary_markdown": "The shisagishin takes delight in infiltrating a community and then disguising itself as the horribly decayed or mutilated remains of a loved one or …",
+ "text": " Shisagishin (Crooked Nindoru) The shisagishin takes delight in infiltrating a community and then disguising itself as the horribly decayed or mutilated remains of a loved one or adored public figure, only to spring to life in its true form during funeral services. A shisagishin epitomizes the cycle of decay giving rise to new life. Recall Knowledge - Fiend (Religion): DC 30 Unspecific Lore : DC 28 Specific Lore : DC 25 Shisagishin Source Pathfinder #199: To Bloom Below the Web pg. 85 Perception +22; darkvision Languages Aklo, Common, Necril Skills Acrobatics +25, Deception +24, Intimidation +22, Occultism +21, Stealth +25 Str +4 Dex +7 Con +4 Int +3 Wis +4 Cha +6 --- AC 33 Fort +22 Ref +25 Will +20 HP 214 Resistances negative 10 Weaknesses silver 10 Attack of Opportunity Reaction Burst From Death Reaction (attack Requirement Initiative hasn't yet been rolled, and the shisagishin is disguised as a corpse with Manifest Corpse Shell) Trigger A creature touches the disguised shisagishin or a coffin or other container the shisagishin has been placed into; Effect The shisagishin violently unfolds into its true form, shredding its decaying corpse shell, and attempts a claw Strike on an adjacent target before it rolls initiative. Soul Shred Creatures killed by an shisagishin are difficult to bring back to life or to animate as undead. The shisagishin automatically attempts to counteract any attempt to resurrect or animate as undead any creature that it has killed (counteract modifier +21, counteract level 6th). If the shisagishin who slew the creature is itself slain, the creature can be brought back from death or become undead normally. --- Speed 40 feet Melee Single Action claw +25 (Agile, deadly d6, Finesse, Magical), Damage 3d8+7 slashing plus 1d6 mental and Grab Occult Innate Spells DC 32, attack +24 - Cantrips (6th) Daze, Ghost Sound, Message - 2nd Death Knell (at will), Item Facade - 5th Hallucination, Phantasmal Killer - 6th Vampiric Exsanguination Spread Decay Single Action The shisagishin causes the flesh of any number of creatures grabbed or restrained by it to swiftly begin to decay. Each of those creatures must attempt a DC 32 Fortitude save. Critical Success The creature is unaffected. Success The creature takes 2d8 negative damage. Failure The creature takes 4d8 negative damage and is enfeebled 1. Critical Failure The creature takes 6d8 negative damage and is enfeebled 2 Manifest Corpse Shell (Concentrate, Conjuration, Occult) The shisagishin tucks its arms and legs into its body, drops prone, and manifests a decaying and/or mutilated humanoid corpse around itself over the course of 10 minutes of concentration. The shisagishin can cause this corpse to appear to be the remains of a specific creature it has seen before by Impersonating that creature with Deception. Once its corpse shell has manifested, until the next time the shisagishin acts, it appears to be a corpse. It has an automatic result of 44 on Deception checks and DCs to pass as a corpse. Handmade Habitats A shisagishin prefers to roam areas already rife with conflict and potential accidents, but it will happily create such a location if needed. They might poison wells, introduce disease to healthy livestock, or even collaborate with corrupt humans if it means the freedom to kill. Cursed towns or haunted roads are sometimes the playground of such a shisagishin. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Fiend",
+  "Nindoru",
+  "CE",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Fiend](/Traits.aspx?ID=600), [Nindoru](/Traits.aspx?ID=739)",
+ "trait_raw": [
+  "Fiend",
+  "Nindoru"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2804",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "silver": 10
+ },
+ "weakness_markdown": "silver 10",
+ "weakness_raw": "silver 10",
+ "will_save": 20,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 4,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

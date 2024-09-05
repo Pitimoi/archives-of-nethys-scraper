@@ -1,0 +1,168 @@
+{
+ "ac": 27,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  20
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 0,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Shallow Waters",
+  "Constrict",
+  "Drag Below",
+  "Flash Flood"
+ ],
+ "creature_family": "Elemental, Water",
+ "creature_family_markdown": "[Elemental, Water](/MonsterFamilies.aspx?ID=45)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Water"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 16,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 135,
+ "hp_raw": "135",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2660",
+ "immunity": [
+  "bleed",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Thalassic"
+ ],
+ "language_markdown": "[Thalassic](/Languages.aspx?ID=113)",
+ "level": 8,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Coldmire Pond](/Monsters.aspx?ID=2660)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nColdmire ponds are often mistaken for shallow pools of water, but these sentient bodies of living water actually crawl along the ground or float through other liquids. Coldmires are dangerous ambush predators, drowning creatures that stray too close to or, even more hazardously, stand or swim inside their waters.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 24\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 22\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 19\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 8\">[Coldmire Pond](/Monsters.aspx?ID=2660)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 180\n\n**Perception** +16; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Thalassic](/Languages.aspx?ID=113)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +18, [Stealth](/Skills.aspx?ID=15) +18\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +5\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +0\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 27 \r\n\r\n**Fort** +16 \r\n\r\n**Ref** +19 \r\n\r\n**Will** +13 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\r\n\r\n**Resistances**\r\n[fire](/Traits.aspx?ID=72) 10\n\n**Shallow Waters** The coldmire pond can occupy the same space as other creatures. Creatures who move through the coldmire pond treat it as [difficult terrain](/Rules.aspx?ID=453). Two creatures both occupying the coldmire pond's space are flanking it, regardless of their actual positions within the coldmire pond.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 20 feet, swim 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclammy pseudopod +20,\r\n**Damage** 2d8+9 bludgeoning and [Grab](/MonsterAbilities.aspx?ID=45)\n\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  1d6 bludgeoning plus 1d6 cold, DC 25\r\n\r\n**Drag Below** <actions string=\"Two Actions\" />  **Requirements** The coldmire pond occupies the same space as a target it has [grabbed](/Conditions.aspx?ID=20); **Effect** The coldmire pond pulls the target below the surface. The target must succeed at a DC 26 Reflex save or fall [prone](/Conditions.aspx?ID=31) and begin [drowning](/Rules.aspx?ID=468).\r\n\r\n**Flash Flood** <actions string=\"Two Actions\" /> ([Primal](/Traits.aspx?ID=134), [Water](/Traits.aspx?ID=165)) Water surges out of the coldmire pond in a 20-foot emanation and crashes into nearby creatures, knocking them off their feet. Creatures in the area, as well as any creatures currently sharing the coldmire pond's space, take 4d8 bludgeoning damage and are knocked [prone](/Conditions.aspx?ID=31) (DC 26 [basic](/Rules.aspx?ID=329) Reflex save). Creatures standing inside the coldmire pond treat their result as one step worse.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-45\" />",
+ "name": "Coldmire Pond",
+ "npc": false,
+ "perception": 16,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 180",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 19,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2023-08-02",
+ "resistance": {
+  "fire": 10
+ },
+ "resistance_markdown": "[fire](/Traits.aspx?ID=72) 10",
+ "resistance_raw": " fire  10",
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Aquatic\" url=\"/Traits.aspx?ID=168\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 180\r\n\r\n**Creature Family** [Elemental, Water](/MonsterFamilies.aspx?ID=45)\r\n\r\n<row gap=\"medium\">\r\n**HP** 135\r\n\r\n**AC** 27\r\n\r\n**Fort** +16\r\n\r\n**Ref** +19\r\n\r\n**Will** +13\r\n\r\n**Perception** +16\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nColdmire ponds are often mistaken for shallow pools of water, but these sentient bodies of living water actually crawl along the ground or float …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +18, [Stealth](/Skills.aspx?ID=15) +18",
+ "skill_mod": {
+  "athletics": 18,
+  "stealth": 18
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 180"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 180",
+ "speed": {
+  "land": 20,
+  "max": 50,
+  "swim": 50
+ },
+ "speed_markdown": "20 feet, swim 50 feet",
+ "speed_raw": "20 feet, swim 50 feet",
+ "spell_markdown": "",
+ "stealth": "18",
+ "strike_damage_average": [
+  18
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "summary": "Coldmire ponds are often mistaken for shallow pools of water, but these sentient bodies of living water actually crawl along the ground or float …",
+ "summary_markdown": "Coldmire ponds are often mistaken for shallow pools of water, but these sentient bodies of living water actually crawl along the ground or float …",
+ "text": " Coldmire Pond Coldmire ponds are often mistaken for shallow pools of water, but these sentient bodies of living water actually crawl along the ground or float through other liquids. Coldmires are dangerous ambush predators, drowning creatures that stray too close to or, even more hazardously, stand or swim inside their waters. Recall Knowledge - Elemental (Arcana, Nature): DC 24 Unspecific Lore : DC 22 Specific Lore : DC 19 Coldmire Pond Source Rage of Elements pg. 180 Perception +16; darkvision Languages Thalassic Skills Athletics +18, Stealth +18 Str +5 Dex +3 Con +5 Int +2 Wis +2 Cha +0 --- AC 27 Fort +16 Ref +19 Will +13 HP 135 Immunities bleed, paralyzed, poison, sleep Resistances fire 10 Shallow Waters The coldmire pond can occupy the same space as other creatures. Creatures who move through the coldmire pond treat it as difficult terrain. Two creatures both occupying the coldmire pond's space are flanking it, regardless of their actual positions within the coldmire pond. --- Speed 20 feet, swim 50 feet Melee Single Action clammy pseudopod +20, Damage 2d8+9 bludgeoning and Grab Constrict Single Action 1d6 bludgeoning plus 1d6 cold, DC 25 Drag Below Two Actions Requirements The coldmire pond occupies the same space as a target it has grabbed; Effect The coldmire pond pulls the target below the surface. The target must succeed at a DC 26 Reflex save or fall prone and begin drowning. Flash Flood Two Actions (Primal, Water) Water surges out of the coldmire pond in a 20-foot emanation and crashes into nearby creatures, knocking them off their feet. Creatures in the area, as well as any creatures currently sharing the coldmire pond's space, take 4d8 bludgeoning damage and are knocked prone (DC 26 basic Reflex save). Creatures standing inside the coldmire pond treat their result as one step worse. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Aquatic",
+  "Elemental",
+  "Water",
+  "Huge"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type",
+  "Elemental",
+  "Planar"
+ ],
+ "trait_markdown": "[Aquatic](/Traits.aspx?ID=168), [Elemental](/Traits.aspx?ID=57), [Water](/Traits.aspx?ID=165)",
+ "trait_raw": [
+  "Aquatic",
+  "Elemental",
+  "Water"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2660",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 13,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

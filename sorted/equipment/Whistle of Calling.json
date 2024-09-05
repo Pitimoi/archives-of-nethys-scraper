@@ -1,40 +1,51 @@
 {
  "access": "Knights of Lastwall have access to this item.",
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1578",
  "item_category": "Held Items",
  "level": 15,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Standard\"\r\n>\r\n[Whistle of Calling](/Equipment.aspx?ID=1578)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 91</row>\n\n**Price** 6,300 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n**Access** Knights of Lastwall have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _whistle of calling_ appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's attuned, depicting small carvings of hooves, feather patterns, claws, or other appropriate motifs.\n\n<document level=\"2\" id=\"action-1192\" />\n\n<document level=\"2\" id=\"action-1193\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 15\"\r\n    pfs=\"Standard\"\r\n>\r\n[Whistle of Calling](/Equipment.aspx?ID=1578)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 91\n\n**Price** 6,300 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n**Access** Knights of Lastwall have access to this item.\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA _whistle of calling_ appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's attuned, depicting small carvings of hooves, feather patterns, claws, or other appropriate motifs.\n\n**Activate** <actions string=\"\" /> 10 minutes (Interact);     **Effect** You blow the whistle at different tones in the presence of a companion or another allied creature willing to be your mount. At the end of the 10 minutes, the whistle is attuned to that creature. The whistle can be attuned to only one creature at any time, but you can attune it to a new one with another 10-minute activation.\n\n**Activate** <actions string=\"Two Actions\" /> Interact;  **Frequency** once per day;   **Effect** You blow the whistle and the creature to which it is attuned teleports instantly from as far as 1 mile away to an unoccupied space within 30 feet of you. The whistle has no effect if the attuned creature is dead, on another plane, or outside the range.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Whistle of Calling",
  "pfs": "Standard",
  "price": 630000,
  "price_raw": "6,300 gp",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 91",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-05-25",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 91</row>\r\n\r\n**Price** 6,300 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  whistle of calling  appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 91\r\n\r\n**Price** 6,300 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA  whistle of calling  appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 91"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 91</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 91",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A  whistle of calling  appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's …",
  "summary_markdown": "A  whistle of calling  appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's …",
- "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Standard\" > Whistle of Calling Source Knights of Lastwall pg. 91 Price 6,300 gp Usage held in 1 hand Access Knights of Lastwall have access to this item. --- A whistle of calling appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's attuned, depicting small carvings of hooves, feather patterns, claws, or other appropriate motifs.\n",
+ "text": "<title level=\"1\" right=\"Item 15\" pfs=\"Standard\" > Whistle of Calling Source Knights of Lastwall pg. 91 Price 6,300 gp Usage held in 1 hand Access Knights of Lastwall have access to this item. --- A whistle of calling appears to be a simple brass whistle. It changes slightly in appearance depending on the type of creature to which it's attuned, depicting small carvings of hooves, feather patterns, claws, or other appropriate motifs. Activate 10 minutes (Interact); Effect You blow the whistle at different tones in the presence of a companion or another allied creature willing to be your mount. At the end of the 10 minutes, the whistle is attuned to that creature. The whistle can be attuned to only one creature at any time, but you can attune it to a new one with another 10-minute activation. Activate Two Actions Interact; Frequency once per day; Effect You blow the whistle and the creature to which it is attuned teleports instantly from as far as 1 mile away to an unoccupied space within 30 feet of you. The whistle has no effect if the attuned creature is dead, on another plane, or outside the range.\n",
  "trait": [
   "Conjuration",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

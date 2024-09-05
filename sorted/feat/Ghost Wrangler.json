@@ -1,7 +1,7 @@
 {
  "access": "Knights of Lastwall have access to this feat.",
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,24 +10,31 @@
  "feat_markdown": "Ghost Wrangler",
  "id": "feat-3628",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ghost Wrangler](/Feats.aspx?ID=3628) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 83</row>\n\n**Prerequisites**\r\n[spirit instinct](/Instincts.aspx?ID=5)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</column>\r\n\r\n---\r\n\r\nSpirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits. Until the beginning of your next turn, your fists gain the effects of the [_ghost touch_](/Equipment.aspx?ID=297) property rune, and you can make Strength-based skill checks against [incorporeal](/Traits.aspx?ID=222) creatures.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Ghost Wrangler](/Feats.aspx?ID=3628) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 83\n\n**Prerequisites**\r\n[spirit instinct](/Instincts.aspx?ID=5)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</column>\r\n\r\n---\r\n\r\nSpirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits. Until the beginning of your next turn, your fists gain the effects of the [_ghost touch_](/Equipment.aspx?ID=297) property rune, and you can make Strength-based skill checks against [incorporeal](/Traits.aspx?ID=222) creatures.",
  "name": "Ghost Wrangler",
  "pfs": "Standard",
  "prerequisite": "spirit instinct",
  "prerequisite_markdown": "[spirit instinct](/Instincts.aspx?ID=5)",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 83",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2022-05-25",
  "resistance": {},
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 83</row>\n\n**Prerequisites**\r\n[spirit instinct](/Instincts.aspx?ID=5)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Barbarian\" url=\"/Traits.aspx?ID=18\" />\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n<trait label=\"Rage\" url=\"/Traits.aspx?ID=135\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 83\n\n**Prerequisites**\r\n[spirit instinct](/Instincts.aspx?ID=5)\r\n\r\n**Access**\r\nKnights of Lastwall have access to this feat.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nSpirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Knights of Lastwall"
  ],
  "source_raw": [
   "Knights of Lastwall pg. 83"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Knights of Lastwall](/Sources.aspx?ID=123) pg. 83</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 83",
  "speed": {},
  "summary": "Spirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits.",
  "summary_markdown": "Spirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits.",
@@ -38,6 +45,13 @@
   "Necromancy",
   "Rage",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Class",
+  "Tradition",
+  "School",
+  "Class-Specific",
+  "Rarity"
  ],
  "trait_markdown": "[Barbarian](/Traits.aspx?ID=18), [Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117), [Rage](/Traits.aspx?ID=135), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

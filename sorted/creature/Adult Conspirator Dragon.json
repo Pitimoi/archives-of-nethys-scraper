@@ -1,0 +1,210 @@
+{
+ "ac": 33,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  23,
+  25,
+  25,
+  25
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 7,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
+ "constitution": 4,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Retract Body",
+  "Conjure Disguise",
+  "Detonate Disguise",
+  "Draconic Frenzy",
+  "Draconic Momentum",
+  "Rushed Transformation",
+  "Smoke Breath",
+  "Sneak Attack"
+ ],
+ "creature_family": "Dragon, Conspirator",
+ "creature_family_markdown": "[Dragon, Conspirator](/MonsterFamilies.aspx?ID=397)",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 20,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 215,
+ "hp_raw": "215",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2936",
+ "image": [
+  "/Images/Monsters/Adult_Conspirator_Dragon.webp"
+ ],
+ "immunity": [
+  "controlled",
+  "paralyzed",
+  "sleep"
+ ],
+ "immunity_markdown": "[controlled](/Conditions.aspx?ID=64), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)",
+ "intelligence": 5,
+ "intelligence_scale": "Moderate",
+ "intelligence_scale_number": 3,
+ "language": [
+  "Common",
+  "Draconic",
+  "Shadowtongue",
+  "Sussuran",
+  "<%UMR%79%%>telepathy<%END> 100 feet"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Shadowtongue](/Languages.aspx?ID=21), [Sussuran](/Languages.aspx?ID=111); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet",
+ "level": 12,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Adult Conspirator Dragon](/Monsters.aspx?ID=2936)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nHidden among the shadows and upper echelons of society are the conspirator dragons. These dragons are schemers, always looking to manipulate and control others, either for personal gain or simply for the thrill of watching their machinations play out. Conspirator dragons see themselves above others and typically speak with infantilizing tones and words. However, as most conspirator dragons meet others while in disguise, they do their best to maintain their disguise.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Dragon](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35)): DC 30\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 28\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 25\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Adult_Conspirator_Dragon.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 12\">[Adult Conspirator Dragon](/Monsters.aspx?ID=2936)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=662\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 111\n\n**Perception** +23; (25 to [Sense Motive](/Actions.aspx?ID=2302)) [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Draconic](/Languages.aspx?ID=2), [Shadowtongue](/Languages.aspx?ID=21), [Sussuran](/Languages.aspx?ID=111); [telepathy](/MonsterAbilities.aspx?ID=79) 100 feet\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +23, [Deception](/Skills.aspx?ID=5) +25, [Diplomacy](/Skills.aspx?ID=6) +25, [Intimidation](/Skills.aspx?ID=7) +23, [Lore](/Skills.aspx?ID=8) +25, [Occultism](/Skills.aspx?ID=11) +23, [Performance](/Skills.aspx?ID=12) +25, [Society](/Skills.aspx?ID=14) +23, [Stealth](/Skills.aspx?ID=15) +21\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +4\r\n\r\n**Int** +5\r\n\r\n**Wis** +5\r\n\r\n**Cha** +7\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 33 \r\n\r\n**Fort** +20 \r\n\r\n**Ref** +21 \r\n\r\n**Will** +25 \r\n\r\n+2 status to all saves vs. [occult](/Traits.aspx?ID=662)\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 215\n\n</row>\r\n\r\n**Immunities**\r\n[controlled](/Conditions.aspx?ID=64), [paralyzed](/Conditions.aspx?ID=85), [sleep](/Traits.aspx?ID=696)\n\n**Retract Body** <actions string=\"Reaction\" /> **Trigger** The dragon is hit or critically hit by an attack made by a creature the dragon can see; **Effect** The dragon retracts the targeted body part or twists away to avoid the attack, gaining a +2 circumstance bonus to AC against the triggering attack.\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 40 feet, climb 40 feet, fly 140 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\njaws +25 ([Magical](/Traits.aspx?ID=103), [reach 10 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d8+11 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nclaw +25 ([Agile](/Traits.aspx?ID=170), [Magical](/Traits.aspx?ID=103)),\r\n**Damage** 3d6+11 slashing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ntail +23 ([Magical](/Traits.aspx?ID=103), [reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 2d10+11 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nmental blast +25 ([Mental](/Traits.aspx?ID=106), [range 100 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d6+6 mental\r\n\r\n**Occult Innate Spells** DC 32\r\n- **1st**\r\n[Charm](/Spells.aspx?ID=34) (at will)\r\n- **6th**\r\n[Charm](/Spells.aspx?ID=34), [Mind Probe](/Spells.aspx?ID=193), [Mind Reading](/Spells.aspx?ID=194) (at will), [Rewrite Memory](/Spells.aspx?ID=1655)\r\n\r\n**Conjure Disguise**  ([Manipulate](/Traits.aspx?ID=104), [Occult](/Traits.aspx?ID=120), [Polymorph](/Traits.aspx?ID=127)) **Frequency** once per day; **Effect** The dragon conjures a perfect flesh-suit replica of a [humanoid](/Traits.aspx?ID=628) they've seen of their size or smaller and compresses themself into it, along with generating appropriate clothing for the humanoid. This process takes 1 minute to complete, during which the dragon is [off-guard](/Conditions.aspx?ID=58). If the dragon stops or is interrupted in this process, the suit is destroyed. Once the process is complete, the dragon can remain in this disguise indefinitely.\n\n The transformation has the effects of [Change Shape](/MonsterAbilities.aspx?ID=55), except that the disguise is not actively magical in nature and doesn't register as [magical](/Traits.aspx?ID=644) to [_detect magic_](/Spells.aspx?ID=1485) and similar effects. The dragon loses Retract Body while transformed.\n\n If the dragon is critically hit while wearing the disguise, the suit is destroyed and immediately explodes. This has the effects of Detonate Disguise, except that creatures use the outcome one degree of success better than they rolled on their save.\r\n\r\n**Detonate Disguise** <actions string=\"Two Actions\" /> ([Occult](/Traits.aspx?ID=120)) **Requirements** The dragon is wearing their conjured disguise; **Effect** The dragon erupts from the disguise, destroying it. The explosive revelation deals 13d6 bludgeoning damage to creatures in a 5-foot emanation with a DC 31 [basic](/Rules.aspx?ID=329) Reflex save. A creature that fails its save is [dazzled](/Conditions.aspx?ID=65) for 1 round as it becomes covered in scraps from the disguise. Any creature sharing a space with the dragon after they erupt is [pushed](/Rules.aspx?ID=451) into the nearest empty space.\r\n\r\n**Draconic Frenzy** <actions string=\"Two Actions\" />  The dragon makes two claw Strikes and one tail Strike in any order.\r\n\r\n**Draconic Momentum**   When the dragon scores a critical hit with a Strike, they recharge Smoke Breath.\r\n\r\n**Rushed Transformation** <actions string=\"Three Actions\" /> ([Concentrate](/Traits.aspx?ID=32), [Occult](/Traits.aspx?ID=120), [Manipulate](/Traits.aspx?ID=104), [Polymorph](/Traits.aspx?ID=127)) **Frequency** once per hour; **Effect** Using the aid of magic and an exhausting amount of effort, the dragon quickly reshapes their body into the form of a generic [humanoid](/Traits.aspx?ID=628) figure. This has the effects of [_humanoid form_](/Spells.aspx?ID=1560) except that it lasts only 1 minute, and the dragon doesn't gain the +4 status bonus to [Deception](/Skills.aspx?ID=38) as the transformation makes use of the dragon's body to crudely mimic a humanoid form. The dragon can [Dismiss](/Actions.aspx?ID=2311) the effect. Whenever the effect ends, the dragon leaves behind scraps of magically conjured flesh, which could give away the dragon's presence.\r\n\r\n**Smoke Breath** <actions string=\"Two Actions\" /> ([Occult](/Traits.aspx?ID=120), [Poison](/Traits.aspx?ID=126)) The dragon unleashes a noxious cloud of smoke that deals 10d6 poison damage in a 50-foot cone (DC 33 [basic](/Rules.aspx?ID=329) Fortitude save). The smoke remains for 1 minute. This has the effects of [_mist_](/Spells.aspx?ID=1606), except it fills the cone's area. The dragon can't use Smoke Breath again for 1d4 rounds.\r\n\r\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The dragon's Strikes deal an additional 2d6 precision damage to [off-guard](/Conditions.aspx?ID=58) targets.\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-397\" />",
+ "name": "Adult Conspirator Dragon",
+ "npc": false,
+ "perception": 23,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 111",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 21,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Dragon\" url=\"/Traits.aspx?ID=581\" />\r\n<trait label=\"Occult\" url=\"/Traits.aspx?ID=662\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 111\r\n\r\n**Creature Family** [Dragon, Conspirator](/MonsterFamilies.aspx?ID=397)\r\n\r\n<row gap=\"medium\">\r\n**HP** 215\r\n\r\n**AC** 33\r\n\r\n**Fort** +20\r\n\r\n**Ref** +21\r\n\r\n**Will** +25\r\n\r\n**Perception** +23\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nHidden among the shadows and upper echelons of society are the conspirator dragons. These dragons are schemers, always looking to manipulate and …\r\n</summary>",
+ "sense": "(25 to  Sense Motive )  darkvision ,  scent  ( imprecise ) 60 feet",
+ "sense_markdown": "(25 to [Sense Motive](/Actions.aspx?ID=2302)) [darkvision](/MonsterAbilities.aspx?ID=59), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=412)) 60 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics",
+  "Deception",
+  "Diplomacy",
+  "Intimidation",
+  "Lore",
+  "Occultism",
+  "Performance",
+  "Society",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +21, [Athletics](/Skills.aspx?ID=3) +23, [Deception](/Skills.aspx?ID=5) +25, [Diplomacy](/Skills.aspx?ID=6) +25, [Intimidation](/Skills.aspx?ID=7) +23, [Lore](/Skills.aspx?ID=8) +25, [Occultism](/Skills.aspx?ID=11) +23, [Performance](/Skills.aspx?ID=12) +25, [Society](/Skills.aspx?ID=14) +23, [Stealth](/Skills.aspx?ID=15) +21",
+ "skill_mod": {
+  "acrobatics": 21,
+  "athletics": 23,
+  "deception": 25,
+  "diplomacy": 25,
+  "intimidation": 23,
+  "occultism": 23,
+  "performance": 25,
+  "society": 23,
+  "stealth": 21
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 111"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 111",
+ "speed": {
+  "climb": 40,
+  "fly": 140,
+  "land": 40,
+  "max": 140
+ },
+ "speed_markdown": "40 feet, climb 40 feet, fly 140 feet",
+ "speed_raw": "40 feet, climb 40 feet, fly 140 feet",
+ "spell": [
+  "Charm",
+  "Mind Probe",
+  "Mind Reading",
+  "Rewrite Memory"
+ ],
+ "spell_markdown": "[Charm](/Spells.aspx?ID=34), [Mind Probe](/Spells.aspx?ID=193), [Mind Reading](/Spells.aspx?ID=194), [Rewrite Memory](/Spells.aspx?ID=1655)",
+ "spell_dc": [
+  32
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "21",
+ "strike_damage_average": [
+  16,
+  21,
+  22,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 5,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "will"
+ ],
+ "summary": "Hidden among the shadows and upper echelons of society are the conspirator dragons. These dragons are schemers, always looking to manipulate and …",
+ "summary_markdown": "Hidden among the shadows and upper echelons of society are the conspirator dragons. These dragons are schemers, always looking to manipulate and …",
+ "text": " Adult Conspirator Dragon Hidden among the shadows and upper echelons of society are the conspirator dragons. These dragons are schemers, always looking to manipulate and control others, either for personal gain or simply for the thrill of watching their machinations play out. Conspirator dragons see themselves above others and typically speak with infantilizing tones and words. However, as most conspirator dragons meet others while in disguise, they do their best to maintain their disguise. Recall Knowledge - Dragon (Arcana): DC 30 Unspecific Lore : DC 28 Specific Lore : DC 25 Adult Conspirator Dragon Source Monster Core pg. 111 Perception +23; (25 to Sense Motive) darkvision, scent (imprecise) 60 feet Languages Common, Draconic, Shadowtongue, Sussuran; telepathy 100 feet Skills Acrobatics +21, Athletics +23, Deception +25, Diplomacy +25, Intimidation +23, Lore +25, Occultism +23, Performance +25, Society +23, Stealth +21 Str +5 Dex +3 Con +4 Int +5 Wis +5 Cha +7 --- AC 33 Fort +20 Ref +21 Will +25 +2 status to all saves vs. occult HP 215 Immunities controlled, paralyzed, sleep Retract Body Reaction Trigger The dragon is hit or critically hit by an attack made by a creature the dragon can see; Effect The dragon retracts the targeted body part or twists away to avoid the attack, gaining a +2 circumstance bonus to AC against the triggering attack. --- Speed 40 feet, climb 40 feet, fly 140 feet Melee Single Action jaws +25 (Magical, reach 10 feet), Damage 3d8+11 piercing Melee Single Action claw +25 (Agile, Magical), Damage 3d6+11 slashing Melee Single Action tail +23 (Magical, reach 15 feet), Damage 2d10+11 bludgeoning Ranged Single Action mental blast +25 (Mental, range 100 feet), Damage 3d6+6 mental Occult Innate Spells DC 32 - 1st Charm (at will) - 6th Charm, Mind Probe, Mind Reading (at will), Rewrite Memory Conjure Disguise (Manipulate, Occult, Polymorph) Frequency once per day; Effect The dragon conjures a perfect flesh-suit replica of a humanoid they've seen of their size or smaller and compresses themself into it, along with generating appropriate clothing for the humanoid. This process takes 1 minute to complete, during which the dragon is off-guard. If the dragon stops or is interrupted in this process, the suit is destroyed. Once the process is complete, the dragon can remain in this disguise indefinitely. The transformation has the effects of Change Shape, except that the disguise is not actively magical in nature and doesn't register as magical to detect magic and similar effects. The dragon loses Retract Body while transformed. If the dragon is critically hit while wearing the disguise, the suit is destroyed and immediately explodes. This has the effects of Detonate Disguise, except that creatures use the outcome one degree of success better than they rolled on their save. Detonate Disguise Two Actions (Occult) Requirements The dragon is wearing their conjured disguise; Effect The dragon erupts from the disguise, destroying it. The explosive revelation deals 13d6 bludgeoning damage to creatures in a 5-foot emanation with a DC 31 basic Reflex save. A creature that fails its save is dazzled for 1 round as it becomes covered in scraps from the disguise. Any creature sharing a space with the dragon after they erupt is pushed into the nearest empty space. Draconic Frenzy Two Actions The dragon makes two claw Strikes and one tail Strike in any order. Draconic Momentum When the dragon scores a critical hit with a Strike, they recharge Smoke Breath. Rushed Transformation Three Actions (Concentrate, Occult, Manipulate, Polymorph) Frequency once per hour; Effect Using the aid of magic and an exhausting amount of effort, the dragon quickly reshapes their body into the form of a generic humanoid figure. This has the effects of humanoid form except that it lasts only 1 minute, and the dragon doesn't gain the +4 status bonus to Deception as the transformation makes use of the dragon's body to crudely mimic a humanoid form. The dragon can Dismiss the effect. Whenever the effect ends, the dragon leaves behind scraps of magically conjured flesh, which could give away the dragon's presence. Smoke Breath Two Actions (Occult, Poison) The dragon unleashes a noxious cloud of smoke that deals 10d6 poison damage in a 50-foot cone (DC 33 basic Fortitude save). The smoke remains for 1 minute. This has the effects of mist , except it fills the cone's area. The dragon can't use Smoke Breath again for 1d4 rounds. Sneak Attack The dragon's Strikes deal an additional 2d6 precision damage to off-guard targets. ",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Dragon",
+  "Occult",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Tradition",
+  "Monster"
+ ],
+ "trait_markdown": "[Dragon](/Traits.aspx?ID=581), [Occult](/Traits.aspx?ID=662)",
+ "trait_raw": [
+  "Dragon",
+  "Occult"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2936",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 25,
+ "will_save_scale": "High",
+ "will_save_scale_number": 4,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

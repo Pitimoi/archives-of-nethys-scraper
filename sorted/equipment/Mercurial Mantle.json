@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -9,39 +8,50 @@
  "item_category": "Worn Items",
  "item_subcategory": "Other Worn Items",
  "level": 18,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mercurial Mantle](/Equipment.aspx?ID=1067)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 187 <sup>1.1</sup></row>\n\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels smoother than silk, rippling and swaying like liquid when in motion. You feel a lively energy infusing your arms and legs. You gain a +3 item bonus to [Acrobatics](/Skills.aspx?ID=1) and [Stealth](/Skills.aspx?ID=15), and a +2 circumstance bonus to AC against attacks from reactions triggered by your movement.\n\n When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.\n\n<document level=\"2\" id=\"action-856\" />\n\n<document level=\"2\" id=\"action-857\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 18\"\r\n    pfs=\"Standard\"\r\n>\r\n[Mercurial Mantle](/Equipment.aspx?ID=1067)\r\n</title>\n\n<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 187 <sup>1.1</sup>\n\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels smoother than silk, rippling and swaying like liquid when in motion. You feel a lively energy infusing your arms and legs. You gain a +3 item bonus to [Acrobatics](/Skills.aspx?ID=1) and [Stealth](/Skills.aspx?ID=15), and a +2 circumstance bonus to AC against attacks from reactions triggered by your movement.\n\n When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.\n\n**Activate** <actions string=\"Reaction\" /> Interact;  **Frequency** once per hour; **Trigger** An enemy misses you with a melee Strike;  **Effect** You slip around the attacking creature with ease. You Step, without moving away from the triggering enemy, and then make a melee Strike against the triggering enemy if it's within reach. If you do make a Strike, the target attempts a DC 38 Perception check before you roll.\r\n\r\n**Failure** This creature is [flat-footed](/Conditions.aspx?ID=16) against the Strike.<br />\r\n**Critical Failure** This creature is flat-footed against all your attacks until the end of their next turn.\n\n**Activate** <actions string=\"Two Actions\" /> command, envision ([conjuration](/Traits.aspx?ID=33), [teleportation](/Traits.aspx?ID=156)) **Frequency** once per day;   **Effect** The cloak hums with power as your whirl it around yourself, disappearing amid a brief flash of light. Teleport up to double your Speed to a location you can see. At the end of the teleportation, you can make a melee Strike against a creature within reach, if there is one.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Mercurial Mantle",
  "pfs": "Standard",
  "price": 2400000,
  "price_raw": "24,000 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 187",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 187 <sup>1.1</sup></row>\r\n\r\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Apex\" url=\"/Traits.aspx?ID=10\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 187 <sup>1.1</sup>\r\n\r\n**Price** 24,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn cloak\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels …\r\n</summary>",
  "skill": [
   "Acrobatics",
   "Stealth"
  ],
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 187"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 187 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 187 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "This deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels …",
  "summary_markdown": "This deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels …",
- "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Mercurial Mantle Source Secrets of Magic pg. 187 1.1 Price 24,000 gp Usage worn cloak Bulk L --- This deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels smoother than silk, rippling and swaying like liquid when in motion. You feel a lively energy infusing your arms and legs. You gain a +3 item bonus to Acrobatics and Stealth, and a +2 circumstance bonus to AC against attacks from reactions triggered by your movement. When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.\n",
+ "text": "<title level=\"1\" right=\"Item 18\" pfs=\"Standard\" > Mercurial Mantle Source Secrets of Magic pg. 187 1.1 Price 24,000 gp Usage worn cloak Bulk L --- This deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels smoother than silk, rippling and swaying like liquid when in motion. You feel a lively energy infusing your arms and legs. You gain a +3 item bonus to Acrobatics and Stealth, and a +2 circumstance bonus to AC against attacks from reactions triggered by your movement. When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score. Activate Reaction Interact; Frequency once per hour; Trigger An enemy misses you with a melee Strike; Effect You slip around the attacking creature with ease. You Step, without moving away from the triggering enemy, and then make a melee Strike against the triggering enemy if it's within reach. If you do make a Strike, the target attempts a DC 38 Perception check before you roll. Failure This creature is flat-footed against the Strike. Critical Failure This creature is flat-footed against all your attacks until the end of their next turn. Activate Two Actions command, envision (conjuration, teleportation) Frequency once per day; Effect The cloak hums with power as your whirl it around yourself, disappearing amid a brief flash of light. Teleport up to double your Speed to a location you can see. At the end of the teleportation, you can make a melee Strike against a creature within reach, if there is one.\n",
  "trait": [
   "Apex",
   "Invested",
   "Magical",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Apex](/Traits.aspx?ID=10), [Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

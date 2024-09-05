@@ -1,52 +1,82 @@
 {
  "ac": 24,
- "alignment": "LE",
- "breadcrumbs_spa": [],
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  17
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
  "category": "creature",
  "charisma": 5,
+ "charisma_scale": "High",
+ "charisma_scale_number": 4,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
-  "Lifesense",
   "Sunlight Powerlessness",
-  "Attack of Opportunity",
-  "Drain Life",
-  "Wraith Spawn"
+  "Grip of Fear",
+  "Robes of Welcome",
+  "Void's Embrace"
  ],
  "creature_family": "Wraith",
  "creature_family_markdown": "[Wraith](/MonsterFamilies.aspx?ID=164)",
  "dexterity": 4,
+ "dexterity_scale": "Moderate",
+ "dexterity_scale_number": 3,
  "exclude_from_search": false,
  "fortitude_save": 8,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
  "hp": 80,
- "hp_raw": "80 ( negative healing )",
- "id": "creature-417",
+ "hp_raw": "80 ( void healing )",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-3243",
  "image": [
-  "/Images/Monsters/Wraith.png"
+  "/Images/Monsters/Wraith.webp"
  ],
  "immunity": [
-  "death effects",
+  "bleed",
+  "death  effects",
   "disease",
   "paralyzed",
   "poison",
   "precision",
   "unconscious"
  ],
- "immunity_markdown": "death effects, disease, paralyzed, poison, precision, unconscious",
+ "immunity_markdown": "bleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), precision, [unconscious](/Conditions.aspx?ID=95)",
  "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
  "language": [
   "Common",
   "Necril"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)",
+ "legacy_id": "creature-417",
  "level": 6,
- "markdown": "<title level=\"1\" pfs=\"Standard\">[Wraith](/Monsters.aspx?ID=417)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWraiths are malevolent undead who drain life and shun light. Their shadowy, incorporeal forms are dotted with burning eyes that reffect their hatred for the living, and shadowy claws are weapon enough to steal the vitality from their enemies. A wraith may be created by foul necromancy, but more often they are the result of a hermitic murderer or mutilator who even in death could not give up their wicked ways. Further complicating the matter is the fact that wraiths multiply by consuming and transforming the living into more of their foul kind—meaning a handful of wraiths left unchecked can easily turn into a horde of darkness.\n\n Wraiths weigh nothing and are unharmed by most physical attacks. They haunt any place where they can feed on the living, though their vulnerability to sunlight confines them to the shadowy places of the world—places where they can blend in seamlessly with their dark surroundings before silently engulfing their prey.\n\n Wraiths may form packs with others of their kind in places where death and mayhem are commonplace—countrysides ravaged by war, metropolitan underworlds run by criminal overlords, or sites of fiendish cultic rituals. In these places, the living do well to tread with sunrods and powerful clerics in tow. Ruins, sewers, and abandoned buildings provide sanctuary for wraiths during the day, as the creatures hunt exclusively at night or in dark places. Wraiths are smart enough to take advantage of their incorporeality in combat, so they keep to tortuous caverns or structures with hallways and avoid open areas.\n\n As they’re formed purely of anti-life from the Negative Energy Plane, wraiths pervade that unholy realm. Within nations and civilizations ruled by the undead, wraiths have places of power as assassins and spies. They’re among the ruling class in Geb, but have greater numbers in Ustalav, where packs of wraiths roam graveyards and misty trails, consuming the populations of entire villages. In other parts of the world, wraiths tend not to wander and limit their activity to smaller environs, typically just the site of their chosen haunting and its immediate surroundings.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=13)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Wraith.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Wraith](/Monsters.aspx?ID=417)</title>\r\n\r\n<traits>\r\n<trait label=\"LE\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Wraith\" url=\"/Traits.aspx?ID=260\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 335</row>\n\n**Perception** +14; darkvision, lifesense 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +14, [Intimidation](/Skills.aspx?ID=7) +15, [Stealth](/Skills.aspx?ID=15) +14\r\n\r\n<row gap=\"medium\">\r\n**Str** -5\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +5\r\n</row>\r\n\r\n**Lifesense** ([divination](/Traits.aspx?ID=47), [divine](/Traits.aspx?ID=48)) Wraiths sense the vital essence of living and undead creatures within the listed range.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +14 \r\n\r\n+1 status to all saves vs. positive\r\n</row>\r\n\r\n**HP** 80\r\n([negative healing](/MonsterAbilities.aspx?ID=42))\n\n**Immunities**\r\ndeath effects, disease, paralyzed, poison, precision, unconscious\r\n\r\n**Resistances**\r\nall 5 (except force, _ghost touch_, or positive; double resistance vs. non-magical)\n\n**Sunlight Powerlessness** A wraith caught in sunlight is stunned 2 and clumsy 2.<br /> **Attack of Opportunity** <actions string=\"Reaction\" />\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nspectral hand +17 ([Finesse](/Traits.aspx?ID=179)),\r\n**Damage** 2d8+5 negative plus drain life\n\n**Drain Life**  ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) When the wraith damages a living creature with its spectral hand Strike, the wraith gains 5 temporary Hit Points and the creature must succeed at a DC 23 Fortitude save or become [drained 1](/Conditions.aspx?ID=10). Further damage dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of [drained 4](/Conditions.aspx?ID=10).\r\n\r\n**Wraith Spawn**  ([Divine](/Traits.aspx?ID=48), [Necromancy](/Traits.aspx?ID=117)) A living humanoid slain by a wraith’s spectral hand Strike rises as a wraith spawn after 1d4 rounds. This wraith spawn is under the command of the wraith that killed it. It doesn’t have drain life or wraith spawn and becomes [clumsy 2](/Conditions.aspx?ID=3) for as long as it is a wraith spawn. If the creator of the wraith spawn dies, the wraith spawn becomes a full-fledged, autonomous wraith; it regains its free will, gains Wraith Spawn, and is no longer [clumsy](/Conditions.aspx?ID=3).\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_4_RelatedCreatures.png\">Dread Wraiths</title>\r\n\r\nDread wraiths are much more powerful variants of the standard wraith. A dread wraith is a 9th‑level creature that can drain the life from creatures via its mere presence. Often, a dread wraith commands a small group of normal wraiths, and in life may have been a bloodthirsty warlord or brutal general.\r\n</aside>\r\n\r\n<document level=\"2\" id=\"creature-family-164\" />",
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Wraith](/Monsters.aspx?ID=3243)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWraiths are malevolent undead who drain life and shun light. Their shadowy forms are covered by insubstantial robes that they wear like a badge of office and marked with peering eyes that reflect their judgment of the living. A wraith can be created by foul magic or direct exposure to [the Void](/Planes.aspx?ID=28), but more often they are the result of death on a tragic scale. When a tragedy is too great for even reality to witness, a temporary manifestation of the Void can leave behind countless wraiths in a horde of darkness. A wraith's existence is one of emptiness and need, with a desire to call others to the same emptiness exemplified by the Void.\n\n Wraiths can haunt any location where they can safely interact with the living, looking for those worthy to become new wraiths and disposing of the rest, though their vulnerability to sunlight confines them to the shadowy places of the world—places where they can blend in seamlessly with their dark surroundings before silently engulfing their prey. Wraiths' opinions on who is worthy vary, but they typically choose those closest to the Void already, whether from a metaphysical connection or exposure to countless deaths. A new wraith created this way carries these aspects, with the rest of their personality warped or scoured away by exposure to the Void.\n\n Wraiths gather with others of their kind in places where death and mayhem are commonplace—countrysides ravaged by war, metropolitan underworlds run by criminal overlords, or sites of fiendish rituals. In these places, the living do well to keep to the light. Wraiths are smart enough to take advantage of their incorporeality in combat, so they keep to tortuous caverns or structures with hallways, and avoid open areas.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Undead](/Rules.aspx?ID=563)**\r\n([Religion](/Skills.aspx?ID=46)): DC 22\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 20\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 17\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Wraith.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 6\">[Wraith](/Monsters.aspx?ID=3243)</title>\r\n\r\n<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=632\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Wraith\" url=\"/Traits.aspx?ID=780\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 351\n\n**Perception** +14; [darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 60 feet\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Necril](/Languages.aspx?ID=20)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +12, [Diplomacy](/Skills.aspx?ID=6) +13, [Intimidation](/Skills.aspx?ID=7) +15, [Stealth](/Skills.aspx?ID=15) +16\r\n\r\n<row gap=\"medium\">\r\n**Str** -5\r\n\r\n**Dex** +4\r\n\r\n**Con** +0\r\n\r\n**Int** +2\r\n\r\n**Wis** +2\r\n\r\n**Cha** +5\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 24 \r\n\r\n**Fort** +8 \r\n\r\n**Ref** +14 \r\n\r\n**Will** +14 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 80\r\n([void healing](/MonsterAbilities.aspx?ID=83))\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [death](/Traits.aspx?ID=571) effects, [disease](/Traits.aspx?ID=578), [paralyzed](/Conditions.aspx?ID=85), [poison](/Traits.aspx?ID=669), precision, [unconscious](/Conditions.aspx?ID=95)\r\n\r\n**Resistances**\r\nall damage 5 (except [force](/Traits.aspx?ID=610), [ghost touch](/Equipment.aspx?ID=2840), [spirit](/Traits.aspx?ID=737), or [vitality](/Traits.aspx?ID=509); double resistance vs. non-[magical](/Traits.aspx?ID=103))\n\n**Sunlight Powerlessness** While in sunlight, a wraith is [blinded](/Conditions.aspx?ID=59) and [slowed 2](/Conditions.aspx?ID=92).\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** fly 40 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nwraith touch +17 ([Agile](/Traits.aspx?ID=170), [Divine](/Traits.aspx?ID=48), [Finesse](/Traits.aspx?ID=179), [Void](/Traits.aspx?ID=510)),\r\n**Damage** 3d8 void\n\n**Grip of Fear** <actions string=\"Two Actions\" /> ([Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106), [Nonlethal](/Traits.aspx?ID=188)) The wraith reaches into an adjacent creature's chest, gripping their heart. The target takes 6d6 mental damage with a DC 24 [basic](/Rules.aspx?ID=329) Will save. On a critical failure, the creature is also [paralyzed](/Conditions.aspx?ID=85) until the start of the wraith's next turn.\r\n\r\n**Robes of Welcome** <actions string=\"Single Action\" /> ([Divine](/Traits.aspx?ID=48), [Void](/Traits.aspx?ID=510)) **Frequency** once per round; **Effect** The wraith wraps its robes around an adjacent living creature, exposing it to void's embrace. If any creature is cursed by the wraith's void's embrace, the wraith can't impose void's embrace on another creature.\r\n\r\n**Void's Embrace**  ([Curse](/Traits.aspx?ID=38), [Death](/Traits.aspx?ID=40), [Divine](/Traits.aspx?ID=48), [Void](/Traits.aspx?ID=510)) If the victim succeeds at a saving throw against this curse while in sunlight, the curse ends. While you have this curse, you bypass the resistance of the wraith that cursed you; **Saving Throw** DC 24 Will; **Stage 1** the victim is [dazzled](/Conditions.aspx?ID=65) in any light (1 hour); **Stage 2** the victim gains [lifesense](/MonsterAbilities.aspx?ID=67) 30 feet but is [blinded](/Conditions.aspx?ID=59) in any light (1 hour); **Stage 3** as stage 2, but the creature also has [void healing](/MonsterAbilities.aspx?ID=83) (1 hour); **Stage 4** the victim becomes [unconscious](/Conditions.aspx?ID=95) and can't awaken (1 day); **Stage 5** the creature dies and becomes a wraith, its body crumbling to ash\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-164\" />",
  "name": "Wraith",
  "npc": false,
  "perception": 14,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
  "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 351",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 14,
- "release_date": "2019-08-01",
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2024-03-27",
  "resistance": {
   "acid": 5,
   "all": 5,
@@ -60,6 +90,7 @@
   "evil": 5,
   "fire": 5,
   "good": 5,
+  "holy": 5,
   "lawful": 5,
   "mental": 5,
   "negative": 5,
@@ -67,34 +98,48 @@
   "physical": 5,
   "piercing": 5,
   "poison": 5,
+  "positive": 5,
   "precision": 5,
   "silver": 5,
   "slashing": 5,
   "sonic": 5,
-  "splash": 5
+  "splash": 5,
+  "unholy": 5
  },
- "resistance_markdown": "all 5 (except force, _ghost touch_, or positive; double resistance vs. non-magical)",
- "resistance_raw": "all 5 (except force,  ghost touch , or positive; double resistance vs. non-magical)",
- "search_markdown": "<traits>\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=222\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=160\" />\r\n<trait label=\"Wraith\" url=\"/Traits.aspx?ID=260\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Bestiary](/Sources.aspx?ID=2) pg. 335</row>\r\n\r\n**Creature Family** [Wraith](/MonsterFamilies.aspx?ID=164)\r\n\r\n<row gap=\"medium\">\r\n**HP** 80 ( negative healing )\r\n\r\n**AC** 24\r\n\r\n**Fort** +8\r\n\r\n**Ref** +14\r\n\r\n**Will** +14\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWraiths are malevolent undead who drain life and shun light. Their shadowy, incorporeal forms are dotted with burning eyes that reffect their hatred …\r\n</summary>",
- "sense": "darkvision, lifesense 60 feet",
- "sense_markdown": "darkvision, lifesense 60 feet",
+ "resistance_markdown": "all damage 5 (except [force](/Traits.aspx?ID=610), [ghost touch](/Equipment.aspx?ID=2840), [spirit](/Traits.aspx?ID=737), or [vitality](/Traits.aspx?ID=509); double resistance vs. non-[magical](/Traits.aspx?ID=103))\r\n",
+ "resistance_raw": "all damage 5 (except  force ,  ghost touch ,  spirit , or  vitality ; double resistance vs. non- magical )\r\n",
+ "search_markdown": "<traits>\r\n<trait label=\"Medium\" />\r\n<trait label=\"Incorporeal\" url=\"/Traits.aspx?ID=632\" />\r\n<trait label=\"Undead\" url=\"/Traits.aspx?ID=722\" />\r\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\r\n<trait label=\"Wraith\" url=\"/Traits.aspx?ID=780\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 351\r\n\r\n**Creature Family** [Wraith](/MonsterFamilies.aspx?ID=164)\r\n\r\n<row gap=\"medium\">\r\n**HP** 80 ( void healing )\r\n\r\n**AC** 24\r\n\r\n**Fort** +8\r\n\r\n**Ref** +14\r\n\r\n**Will** +14\r\n\r\n**Perception** +14\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWraiths are malevolent undead who drain life and shun light. Their shadowy forms are covered by insubstantial robes that they wear like a badge of …\r\n</summary>",
+ "sense": " darkvision ,  lifesense  60 feet",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59), [lifesense](/MonsterAbilities.aspx?ID=67) 60 feet",
  "size": [
   "Medium"
  ],
- "skill": [
-  "Acrobatics +14",
-  "Intimidation +15",
-  "Stealth +14"
+ "size_id": [
+  3
  ],
- "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +14, [Intimidation](/Skills.aspx?ID=7) +15, [Stealth](/Skills.aspx?ID=15) +14",
+ "skill": [
+  "Acrobatics",
+  "Diplomacy",
+  "Intimidation",
+  "Stealth"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +12, [Diplomacy](/Skills.aspx?ID=6) +13, [Intimidation](/Skills.aspx?ID=7) +15, [Stealth](/Skills.aspx?ID=15) +16",
+ "skill_mod": {
+  "acrobatics": 12,
+  "diplomacy": 13,
+  "intimidation": 15,
+  "stealth": 16
+ },
  "source": [
-  "Bestiary"
+  "Monster Core"
  ],
  "source_raw": [
-  "Bestiary pg. 335"
+  "Monster Core pg. 351"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Bestiary](/Sources.aspx?ID=2) pg. 335</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 351",
  "speed": {
   "fly": 40,
   "max": 40
@@ -102,31 +147,48 @@
  "speed_markdown": "fly 40 feet",
  "speed_raw": "fly 40 feet",
  "spell_markdown": "",
- "stealth": "14",
+ "stealth": "16",
+ "strike_damage_average": [
+  13
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -5,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex",
   "will"
  ],
- "summary": "Wraiths are malevolent undead who drain life and shun light. Their shadowy, incorporeal forms are dotted with burning eyes that reffect their hatred …",
- "summary_markdown": "Wraiths are malevolent undead who drain life and shun light. Their shadowy, incorporeal forms are dotted with burning eyes that reffect their hatred …",
- "text": " Wraith Wraiths are malevolent undead who drain life and shun light. Their shadowy, incorporeal forms are dotted with burning eyes that reffect their hatred for the living, and shadowy claws are weapon enough to steal the vitality from their enemies. A wraith may be created by foul necromancy, but more often they are the result of a hermitic murderer or mutilator who even in death could not give up their wicked ways. Further complicating the matter is the fact that wraiths multiply by consuming and transforming the living into more of their foul kind—meaning a handful of wraiths left unchecked can easily turn into a horde of darkness. Wraiths weigh nothing and are unharmed by most physical attacks. They haunt any place where they can feed on the living, though their vulnerability to sunlight confines them to the shadowy places of the world—places where they can blend in seamlessly with their dark surroundings before silently engulfing their prey. Wraiths may form packs with others of their kind in places where death and mayhem are commonplace—countrysides ravaged by war, metropolitan underworlds run by criminal overlords, or sites of fiendish cultic rituals. In these places, the living do well to tread with sunrods and powerful clerics in tow. Ruins, sewers, and abandoned buildings provide sanctuary for wraiths during the day, as the creatures hunt exclusively at night or in dark places. Wraiths are smart enough to take advantage of their incorporeality in combat, so they keep to tortuous caverns or structures with hallways and avoid open areas. As they’re formed purely of anti-life from the Negative Energy Plane, wraiths pervade that unholy realm. Within nations and civilizations ruled by the undead, wraiths have places of power as assassins and spies. They’re among the ruling class in Geb, but have greater numbers in Ustalav, where packs of wraiths roam graveyards and misty trails, consuming the populations of entire villages. In other parts of the world, wraiths tend not to wander and limit their activity to smaller environs, typically just the site of their chosen haunting and its immediate surroundings. Recall Knowledge - Undead (Religion): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Wraith Source Bestiary pg. 335 Perception +14; darkvision, lifesense 60 feet Languages Common, Necril Skills Acrobatics +14, Intimidation +15, Stealth +14 Str -5 Dex +4 Con +0 Int +2 Wis +2 Cha +5 Lifesense (divination, divine) Wraiths sense the vital essence of living and undead creatures within the listed range. --- AC 24 Fort +8 Ref +14 Will +14 +1 status to all saves vs. positive HP 80 (negative healing) Immunities death effects, disease, paralyzed, poison, precision, unconscious Resistances all 5 (except force, ghost touch , or positive; double resistance vs. non-magical) Sunlight Powerlessness A wraith caught in sunlight is stunned 2 and clumsy 2. Attack of Opportunity Reaction --- Speed fly 40 feet Melee Single Action spectral hand +17 (Finesse), Damage 2d8+5 negative plus drain life Drain Life (Divine, Necromancy) When the wraith damages a living creature with its spectral hand Strike, the wraith gains 5 temporary Hit Points and the creature must succeed at a DC 23 Fortitude save or become drained 1. Further damage dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of drained 4. Wraith Spawn (Divine, Necromancy) A living humanoid slain by a wraith’s spectral hand Strike rises as a wraith spawn after 1d4 rounds. This wraith spawn is under the command of the wraith that killed it. It doesn’t have drain life or wraith spawn and becomes clumsy 2 for as long as it is a wraith spawn. If the creator of the wraith spawn dies, the wraith spawn becomes a full-fledged, autonomous wraith; it regains its free will, gains Wraith Spawn, and is no longer clumsy. Dread Wraiths Dread wraiths are much more powerful variants of the standard wraith. A dread wraith is a 9th‑level creature that can drain the life from creatures via its mere presence. Often, a dread wraith commands a small group of normal wraiths, and in life may have been a bloodthirsty warlord or brutal general. ",
+ "summary": "Wraiths are malevolent undead who drain life and shun light. Their shadowy forms are covered by insubstantial robes that they wear like a badge of …",
+ "summary_markdown": "Wraiths are malevolent undead who drain life and shun light. Their shadowy forms are covered by insubstantial robes that they wear like a badge of …",
+ "text": " Wraith Wraiths are malevolent undead who drain life and shun light. Their shadowy forms are covered by insubstantial robes that they wear like a badge of office and marked with peering eyes that reflect their judgment of the living. A wraith can be created by foul magic or direct exposure to the Void, but more often they are the result of death on a tragic scale. When a tragedy is too great for even reality to witness, a temporary manifestation of the Void can leave behind countless wraiths in a horde of darkness. A wraith's existence is one of emptiness and need, with a desire to call others to the same emptiness exemplified by the Void. Wraiths can haunt any location where they can safely interact with the living, looking for those worthy to become new wraiths and disposing of the rest, though their vulnerability to sunlight confines them to the shadowy places of the world—places where they can blend in seamlessly with their dark surroundings before silently engulfing their prey. Wraiths' opinions on who is worthy vary, but they typically choose those closest to the Void already, whether from a metaphysical connection or exposure to countless deaths. A new wraith created this way carries these aspects, with the rest of their personality warped or scoured away by exposure to the Void. Wraiths gather with others of their kind in places where death and mayhem are commonplace—countrysides ravaged by war, metropolitan underworlds run by criminal overlords, or sites of fiendish rituals. In these places, the living do well to keep to the light. Wraiths are smart enough to take advantage of their incorporeality in combat, so they keep to tortuous caverns or structures with hallways, and avoid open areas. Recall Knowledge - Undead (Religion): DC 22 Unspecific Lore : DC 20 Specific Lore : DC 17 Wraith Source Monster Core pg. 351 Perception +14; darkvision, lifesense 60 feet Languages Common, Necril Skills Acrobatics +12, Diplomacy +13, Intimidation +15, Stealth +16 Str -5 Dex +4 Con +0 Int +2 Wis +2 Cha +5 --- AC 24 Fort +8 Ref +14 Will +14 HP 80 (void healing) Immunities bleed, death effects, disease, paralyzed, poison, precision, unconscious Resistances all damage 5 (except force, ghost touch, spirit, or vitality; double resistance vs. non-magical) Sunlight Powerlessness While in sunlight, a wraith is blinded and slowed 2. --- Speed fly 40 feet Melee Single Action wraith touch +17 (Agile, Divine, Finesse, Void), Damage 3d8 void Grip of Fear Two Actions (Emotion, Fear, Mental, Nonlethal) The wraith reaches into an adjacent creature's chest, gripping their heart. The target takes 6d6 mental damage with a DC 24 basic Will save. On a critical failure, the creature is also paralyzed until the start of the wraith's next turn. Robes of Welcome Single Action (Divine, Void) Frequency once per round; Effect The wraith wraps its robes around an adjacent living creature, exposing it to void's embrace. If any creature is cursed by the wraith's void's embrace, the wraith can't impose void's embrace on another creature. Void's Embrace (Curse, Death, Divine, Void) If the victim succeeds at a saving throw against this curse while in sunlight, the curse ends. While you have this curse, you bypass the resistance of the wraith that cursed you; Saving Throw DC 24 Will; Stage 1 the victim is dazzled in any light (1 hour); Stage 2 the victim gains lifesense 30 feet but is blinded in any light (1 hour); Stage 3 as stage 2, but the creature also has void healing (1 hour); Stage 4 the victim becomes unconscious and can't awaken (1 day); Stage 5 the creature dies and becomes a wraith, its body crumbling to ash ",
+ "tradition_markdown": "",
  "trait": [
   "Incorporeal",
   "Undead",
+  "Unholy",
   "Wraith",
-  "LE",
   "Medium"
  ],
- "trait_markdown": "[Incorporeal](/Traits.aspx?ID=222), [Undead](/Traits.aspx?ID=160), [Wraith](/Traits.aspx?ID=260)",
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Incorporeal](/Traits.aspx?ID=632), [Undead](/Traits.aspx?ID=722), [Unholy](/Traits.aspx?ID=521), [Wraith](/Traits.aspx?ID=780)",
  "trait_raw": [
   "Incorporeal",
   "Undead",
+  "Unholy",
   "Wraith"
  ],
  "type": "Creature",
- "url": "/Monsters.aspx?ID=417",
+ "url": "/Monsters.aspx?ID=3243",
  "vision": "Darkvision",
  "weakest_save": [
   "fort",
@@ -134,5 +196,9 @@
  ],
  "weakness": {},
  "will_save": 14,
- "wisdom": 2
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

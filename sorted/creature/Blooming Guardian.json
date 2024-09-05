@@ -1,0 +1,183 @@
+{
+ "ac": 36,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  26,
+  28
+ ],
+ "attack_bonus_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  2,
+  3
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 5,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Petal Form",
+  "Buck",
+  "Budding Siphon",
+  "Full Bloom",
+  "Goring Charge",
+  "Wail of the Forest"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 3,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "fortitude_save": 32,
+ "fortitude_save_scale": "Extreme",
+ "fortitude_save_scale_number": 5,
+ "hp": 360,
+ "hp_raw": "360",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-3256",
+ "image": [
+  "/Images/Monsters/Blooming_Guardian.webp"
+ ],
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Fey",
+  "<%SPELLS%1680%%><i>speak with animals</i><%END>, <%SPELLS%1681%%><i>speak with plants</i><%END>"
+ ],
+ "language_markdown": "[Fey](/Languages.aspx?ID=119); [_speak with animals_](/Spells.aspx?ID=1680), [_speak with plants_](/Spells.aspx?ID=1681)",
+ "level": 15,
+ "markdown": "<title level=\"1\" pfs=\"\">[Blooming Guardian](/Monsters.aspx?ID=3256)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nThe pestilent blossoms adorning the antlers of a blooming guardian are most beautiful in moonlight, when they achieve full bloom and reveal their celestial glow. When blooming guardians near the end of their life cycle, they walk one final patrol of their forest as their ancient body decomposes into the understory.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Beast](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=35), [Nature](/Skills.aspx?ID=43)): DC 34\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 32\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 29\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Blooming_Guardian.webp\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 15\">[Blooming Guardian](/Monsters.aspx?ID=3256)</title>\r\n\r\n<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 128\n\n**Perception** +29; [low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=411)) 40 feet\r\n\r\n**Languages**\r\n[Fey](/Languages.aspx?ID=119); [_speak with animals_](/Spells.aspx?ID=1680), [_speak with plants_](/Spells.aspx?ID=1681)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=36) +30, [Intimidation](/Skills.aspx?ID=40) +21, [Nature](/Skills.aspx?ID=43) +29, [Survival](/Skills.aspx?ID=49) +27\r\n\r\n<row gap=\"medium\">\r\n**Str** +5\r\n\r\n**Dex** +3\r\n\r\n**Con** +5\r\n\r\n**Int** +1\r\n\r\n**Wis** +3\r\n\r\n**Cha** +1\r\n</row>\r\n\r\n**Petal Form** The blooming guardian can dissipate momentarily into a swirling cloud of petals and pollen to pass over brambles and slip through cracks. When Striding in woodland terrain, the blooming guardian ignores [difficult terrain](/Rules.aspx?ID=453) and can pass through obstacles so long as there is a small passageway.\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 36 \r\n\r\n**Fort** +32 \r\n\r\n**Ref** +23 \r\n\r\n**Will** +25 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 360\n\n</row>\n\n**Resistances**\r\n[void](/Traits.aspx?ID=510) 15\r\n\r\n**Weaknesses**\r\n[fire](/Traits.aspx?ID=604) 15\r\n\r\n**[Buck](/MonsterAbilities.aspx?ID=54)** <actions string=\"Reaction\" /> DC 36\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 50 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nantlers +28,\r\n**Damage** 4d12+5 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nhooves +26,\r\n**Damage** 4d10+5 bludgeoning plus [Improved Knockdown](/MonsterAbilities.aspx?ID=66)\r\n\r\n**Primal Innate Spells** DC 33\r\n- **3rd**\r\n[Animal Vision](/Spells.aspx?ID=12)\r\n- **Constant (4th)**\r\n[Speak with Animals](/Spells.aspx?ID=293), [Speak with Plants](/Spells.aspx?ID=294)\r\n\r\n**Budding Siphon** <actions string=\"Single Action\" /> ([Aura](/Traits.aspx?ID=206), [Primal](/Traits.aspx?ID=134), [Stance](/Traits.aspx?ID=152), [Void](/Traits.aspx?ID=510)) 20 feet. A blooming guardian is in a constant state of decomposition; to keep this entropy at bay, the flowers that cover their antlers continually siphon life from the surrounding area. All living creatures that enter or start their turn in the emanation take 6d4 void damage (DC 36 [basic](/Rules.aspx?ID=329) Fortitude save).<br /> At the start of their turn in any round that the blooming guardian deals damage with siphoning buds, they gain 10 temporary Hit Points, plus 2 temporary Hit Points for each creature damaged beyond the first since the blooming guardian's last turn, to a maximum of 20 temporary Hit Points.\r\n\r\n**Full Bloom** <actions string=\"Single Action\" /> ([Poison](/Traits.aspx?ID=126), [Primal](/Traits.aspx?ID=134), [Stance](/Traits.aspx?ID=152)) The flowers on the blooming guardian's antlers bloom, unveiling their brilliance as they eat away at their host. While in this stance, the blooming guardian's Strikes deal an additional 2d4 poison damage plus 5 [persistent poison damage](/Conditions.aspx?ID=29); on a hit, a target must succeed at a DC 36 Fortitude save or become [enfeebled 2](/Conditions.aspx?ID=71). The blooming guardian takes 5 persistent poison damage as long as it's in Full Bloom.\r\n\r\n**Goring Charge** <actions string=\"Two Actions\" />  The blooming guardian Strides twice and makes an antlers Strike after either Stride. If the Strike hits, the blooming guardian deals an extra 2d12 bludgeoning damage, and the target takes a –2 circumstance penalty to its next Fortitude save against blossom siphon.\r\n\r\n**Wail of the Forest** <actions string=\"Two Actions\" /> ([Primal](/Traits.aspx?ID=134), [Void](/Traits.aspx?ID=510)) **Requirements** The blooming guardian is in Full Bloom; **Effect** The blooming guardian confronts their mortality, causing their flowers to burst and spray their pollen. All creatures in a 40-foot cone take 10d10 void damage with a DC 36 Fortitude save. The blooming guardian then exits Full Bloom and can't enter it again for 1d4 rounds.<br /> **Critical Success** No effect.<br /> **Success** The creature takes half damage.<br /> **Failure** The creature takes full damage and becomes [drained 1](/Conditions.aspx?ID=68). Creatures that are [enfeebled](/Conditions.aspx?ID=71) lose that condition and increase the drained condition by the same value.<br /> **Critical Failure** As failure, but double damage.\r\n\r\n</column>",
+ "name": "Blooming Guardian",
+ "npc": false,
+ "perception": 29,
+ "perception_scale": "High",
+ "perception_scale_number": 4,
+ "primary_source": "Howl of the Wild",
+ "primary_source_raw": "Howl of the Wild pg. 128",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 23,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2024-05-29",
+ "resistance": {},
+ "resistance_markdown": "[void](/Traits.aspx?ID=510) 15",
+ "resistance_raw": " void  15",
+ "search_markdown": "<traits>\r\n<trait label=\"Large\" />\r\n<trait label=\"Beast\" url=\"/Traits.aspx?ID=547\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 128\n\n<row gap=\"medium\">\r\n**HP** 360\r\n\r\n**AC** 36\r\n\r\n**Fort** +32\r\n\r\n**Ref** +23\r\n\r\n**Will** +25\r\n\r\n**Perception** +29\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe pestilent blossoms adorning the antlers of a blooming guardian are most beautiful in moonlight, when they achieve full bloom and reveal their …\r\n</summary>",
+ "sense": " low-light vision ,  scent  ( imprecise ) 40 feet",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69), [scent](/MonsterAbilities.aspx?ID=74) ([imprecise](/Rules.aspx?ID=411)) 40 feet",
+ "size": [
+  "Large"
+ ],
+ "size_id": [
+  4
+ ],
+ "skill": [
+  "Athletics",
+  "Intimidation",
+  "Nature",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=36) +30, [Intimidation](/Skills.aspx?ID=40) +21, [Nature](/Skills.aspx?ID=43) +29, [Survival](/Skills.aspx?ID=49) +27",
+ "skill_mod": {
+  "athletics": 30,
+  "intimidation": 21,
+  "nature": 29,
+  "survival": 27
+ },
+ "source": [
+  "Howl of the Wild"
+ ],
+ "source_raw": [
+  "Howl of the Wild pg. 128"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Howl of the Wild](/Sources.aspx?ID=226) pg. 128",
+ "speed": {
+  "land": 50,
+  "max": 50
+ },
+ "speed_markdown": "50 feet",
+ "speed_raw": "50 feet",
+ "spell": [
+  "Animal Vision",
+  "Speak with Animals",
+  "Speak with Plants"
+ ],
+ "spell_markdown": "[Animal Vision](/Spells.aspx?ID=12), [Speak with Animals](/Spells.aspx?ID=293), [Speak with Plants](/Spells.aspx?ID=294)",
+ "spell_dc": [
+  33
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  27,
+  31
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  3
+ ],
+ "strength": 5,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "The pestilent blossoms adorning the antlers of a blooming guardian are most beautiful in moonlight, when they achieve full bloom and reveal their …",
+ "summary_markdown": "The pestilent blossoms adorning the antlers of a blooming guardian are most beautiful in moonlight, when they achieve full bloom and reveal their …",
+ "text": " Blooming Guardian The pestilent blossoms adorning the antlers of a blooming guardian are most beautiful in moonlight, when they achieve full bloom and reveal their celestial glow. When blooming guardians near the end of their life cycle, they walk one final patrol of their forest as their ancient body decomposes into the understory. Recall Knowledge - Beast (Arcana, Nature): DC 34 Unspecific Lore : DC 32 Specific Lore : DC 29 Blooming Guardian Source Howl of the Wild pg. 128 Perception +29; low-light vision, scent (imprecise) 40 feet Languages Fey; speak with animals , speak with plants Skills Athletics +30, Intimidation +21, Nature +29, Survival +27 Str +5 Dex +3 Con +5 Int +1 Wis +3 Cha +1 Petal Form The blooming guardian can dissipate momentarily into a swirling cloud of petals and pollen to pass over brambles and slip through cracks. When Striding in woodland terrain, the blooming guardian ignores difficult terrain and can pass through obstacles so long as there is a small passageway. --- AC 36 Fort +32 Ref +23 Will +25 HP 360 Resistances void 15 Weaknesses fire 15 Buck Reaction DC 36 --- Speed 50 feet Melee Single Action antlers +28, Damage 4d12+5 piercing Melee Single Action hooves +26, Damage 4d10+5 bludgeoning plus Improved Knockdown Primal Innate Spells DC 33 - 3rd Animal Vision - Constant (4th) Speak with Animals, Speak with Plants Budding Siphon Single Action (Aura, Primal, Stance, Void) 20 feet. A blooming guardian is in a constant state of decomposition; to keep this entropy at bay, the flowers that cover their antlers continually siphon life from the surrounding area. All living creatures that enter or start their turn in the emanation take 6d4 void damage (DC 36 basic Fortitude save). At the start of their turn in any round that the blooming guardian deals damage with siphoning buds, they gain 10 temporary Hit Points, plus 2 temporary Hit Points for each creature damaged beyond the first since the blooming guardian's last turn, to a maximum of 20 temporary Hit Points. Full Bloom Single Action (Poison, Primal, Stance) The flowers on the blooming guardian's antlers bloom, unveiling their brilliance as they eat away at their host. While in this stance, the blooming guardian's Strikes deal an additional 2d4 poison damage plus 5 persistent poison damage; on a hit, a target must succeed at a DC 36 Fortitude save or become enfeebled 2. The blooming guardian takes 5 persistent poison damage as long as it's in Full Bloom. Goring Charge Two Actions The blooming guardian Strides twice and makes an antlers Strike after either Stride. If the Strike hits, the blooming guardian deals an extra 2d12 bludgeoning damage, and the target takes a –2 circumstance penalty to its next Fortitude save against blossom siphon. Wail of the Forest Two Actions (Primal, Void) Requirements The blooming guardian is in Full Bloom; Effect The blooming guardian confronts their mortality, causing their flowers to burst and spray their pollen. All creatures in a 40-foot cone take 10d10 void damage with a DC 36 Fortitude save. The blooming guardian then exits Full Bloom and can't enter it again for 1d4 rounds. Critical Success No effect. Success The creature takes half damage. Failure The creature takes full damage and becomes drained 1. Creatures that are enfeebled lose that condition and increase the drained condition by the same value. Critical Failure As failure, but double damage. ",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Beast",
+  "Large"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Beast](/Traits.aspx?ID=547)",
+ "trait_raw": [
+  "Beast"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3256",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "fire": 15
+ },
+ "weakness_markdown": "[fire](/Traits.aspx?ID=604) 15",
+ "weakness_raw": " fire  15",
+ "will_save": 25,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 3,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
+}

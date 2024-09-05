@@ -1,10 +1,26 @@
 {
  "ac": 15,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
  "alignment": "N",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  5,
+  5,
+  5
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_ability": [
   "Collaborative Thievery",
   "Pickpocket"
@@ -12,50 +28,82 @@
  "creature_family": "Downtrodden",
  "creature_family_markdown": "[Downtrodden](/MonsterFamilies.aspx?ID=184)",
  "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 2,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
  "hp": 8,
  "hp_raw": "8",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
  "id": "creature-899",
  "image": [
   "/Images/NPCs/Downtrodden_Urchin.png"
  ],
  "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "shiv"
+ ],
  "language": [
   "Common"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1)",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"Limited\">[Urchin](/NPCs.aspx?ID=899)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlthough their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their bellies, theft becomes a viable survival tactic. Many underworld powers also use urchins as spies and messengers, while training them to become future pickpockets, burglars, and foot soldiers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/NPCs/Downtrodden_Urchin.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Urchin](/NPCs.aspx?ID=899)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 215</row>\n\n**Perception** +3\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +4, [Society](/Skills.aspx?ID=14) +3, [Stealth](/Skills.aspx?ID=15) +5, [Survival](/Skills.aspx?ID=16) +3, [Thievery](/Skills.aspx?ID=17) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** -1\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\nshiv\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +2 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n**HP** 8\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshiv +5 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4-1 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +5 ([Agile](/Traits.aspx?ID=170), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d4-1 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +5 ([thrown 10 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d4-1 bludgeoning\n\n**Collaborative Thievery**   The urchin gains a +1 circumstance bonus to [Steal](/Actions.aspx?ID=68) or [Palm an Object](/Actions.aspx?ID=67) while within 10 feet of an ally who has the pickpocket ability.\r\n\r\n**Pickpocket**   The urchin can [Steal](/Actions.aspx?ID=68) or [Palm an Object](/Actions.aspx?ID=67) that's closely guarded without taking the usual -5 penalty. They can Steal objects that would be extremely noticeable or time-consuming to remove (like worn shoes, armor, or actively wielded objects).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-184\" />",
+ "markdown": "<title level=\"1\" pfs=\"Limited\">[Urchin](/NPCs.aspx?ID=899)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nAlthough their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their bellies, theft becomes a viable survival tactic. Many underworld powers also use urchins as spies and messengers, while training them to become future pickpockets, burglars, and foot soldiers.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/NPCs/Downtrodden_Urchin.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Urchin](/NPCs.aspx?ID=899)</title>\r\n\r\n<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 215\n\n**Perception** +3\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1)\r\n\r\n**Skills**\r\n[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +4, [Society](/Skills.aspx?ID=14) +3, [Stealth](/Skills.aspx?ID=15) +5, [Survival](/Skills.aspx?ID=16) +3, [Thievery](/Skills.aspx?ID=17) +7\r\n\r\n<row gap=\"medium\">\r\n**Str** -1\r\n\r\n**Dex** +3\r\n\r\n**Con** +0\r\n\r\n**Int** +1\r\n\r\n**Wis** +1\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\nshiv\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 15 \r\n\r\n**Fort** +2 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +3 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nshiv +5 ([Agile](/Traits.aspx?ID=170)),\r\n**Damage** 1d4-1 piercing\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nfist +5 ([Agile](/Traits.aspx?ID=170), [Nonlethal](/Traits.aspx?ID=188)),\r\n**Damage** 1d4-1 bludgeoning\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nrock +5 ([thrown 10 feet](/Traits.aspx?ID=195)),\r\n**Damage** 1d4-1 bludgeoning\n\n**Collaborative Thievery**   The urchin gains a +1 circumstance bonus to [Steal](/Actions.aspx?ID=68) or [Palm an Object](/Actions.aspx?ID=67) while within 10 feet of an ally who has the pickpocket ability.\r\n\r\n**Pickpocket**   The urchin can [Steal](/Actions.aspx?ID=68) or [Palm an Object](/Actions.aspx?ID=67) that's closely guarded without taking the usual -5 penalty. They can Steal objects that would be extremely noticeable or time-consuming to remove (like worn shoes, armor, or actively wielded objects).\r\n\r\n</column>\n\n<document level=\"2\" id=\"creature-family-184\" />",
  "name": "Urchin",
  "npc": true,
  "perception": 3,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
  "pfs": "Limited",
+ "primary_source": "Gamemastery Guide",
+ "primary_source_raw": "Gamemastery Guide pg. 215",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2020-02-26",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 215</row>\r\n\r\n**Creature Family** [Downtrodden](/MonsterFamilies.aspx?ID=184)\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 15\r\n\r\n**Fort** +2\r\n\r\n**Ref** +7\r\n\r\n**Will** +3\r\n\r\n**Perception** +3\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlthough their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 215\r\n\r\n**Creature Family** [Downtrodden](/MonsterFamilies.aspx?ID=184)\r\n\r\n<row gap=\"medium\">\r\n**HP** 8\r\n\r\n**AC** 15\r\n\r\n**Fort** +2\r\n\r\n**Ref** +7\r\n\r\n**Will** +3\r\n\r\n**Perception** +3\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nAlthough their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their …\r\n</summary>",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Acrobatics +5",
-  "Deception +4",
-  "Society +3",
-  "Stealth +5",
-  "Survival +3",
-  "Thievery +7"
+  "Acrobatics",
+  "Deception",
+  "Society",
+  "Stealth",
+  "Survival",
+  "Thievery"
  ],
  "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +5, [Deception](/Skills.aspx?ID=5) +4, [Society](/Skills.aspx?ID=14) +3, [Stealth](/Skills.aspx?ID=15) +5, [Survival](/Skills.aspx?ID=16) +3, [Thievery](/Skills.aspx?ID=17) +7",
+ "skill_mod": {
+  "acrobatics": 5,
+  "deception": 4,
+  "society": 3,
+  "stealth": 5,
+  "survival": 3,
+  "thievery": 7
+ },
  "source": [
   "Gamemastery Guide"
  ],
  "source_raw": [
   "Gamemastery Guide pg. 215"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Gamemastery Guide](/Sources.aspx?ID=22) pg. 215</row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Gamemastery Guide](/Sources.aspx?ID=22) pg. 215",
  "speed": {
   "land": 25,
   "max": 25
@@ -64,7 +112,20 @@
  "speed_raw": "25 feet",
  "spell_markdown": "",
  "stealth": "5",
+ "strike_damage_average": [
+  1,
+  1,
+  1
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
  "strength": -1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
@@ -72,11 +133,18 @@
  "summary": "Although their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their …",
  "summary_markdown": "Although their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their …",
  "text": " Urchin Although their escapades might be notorious, few urchins are thrill-seekers. For some urchins, when begging alone is not enough to fill their bellies, theft becomes a viable survival tactic. Many underworld powers also use urchins as spies and messengers, while training them to become future pickpockets, burglars, and foot soldiers. Recall Knowledge - Humanoid (Society): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Urchin Source Gamemastery Guide pg. 215 Perception +3 Languages Common Skills Acrobatics +5, Deception +4, Society +3, Stealth +5, Survival +3, Thievery +7 Str -1 Dex +3 Con +0 Int +1 Wis +1 Cha +2 Items shiv --- AC 15 Fort +2 Ref +7 Will +3 HP 8 --- Speed 25 feet Melee Single Action shiv +5 (Agile), Damage 1d4-1 piercing Melee Single Action fist +5 (Agile, Nonlethal), Damage 1d4-1 bludgeoning Ranged Single Action rock +5 (thrown 10 feet), Damage 1d4-1 bludgeoning Collaborative Thievery The urchin gains a +1 circumstance bonus to Steal or Palm an Object while within 10 feet of an ally who has the pickpocket ability. Pickpocket The urchin can Steal or Palm an Object that's closely guarded without taking the usual -5 penalty. They can Steal objects that would be extremely noticeable or time-consuming to remove (like worn shoes, armor, or actively wielded objects). ",
+ "tradition_markdown": "",
  "trait": [
   "Human",
   "Humanoid",
   "N",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type"
  ],
  "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -91,5 +159,9 @@
  ],
  "weakness": {},
  "will_save": 3,
- "wisdom": 1
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

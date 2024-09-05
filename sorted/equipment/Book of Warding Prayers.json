@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
@@ -8,34 +7,46 @@
  "id": "equipment-2172",
  "item_category": "Grimoires",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Book of Warding Prayers](/Equipment.aspx?ID=2172)\r\n</title>\n\n<traits>\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup></row>\n\n**Price** 425 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nScript in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover. _Books of warding prayers_ are each devoted to a particular deity and are also a [religious symbol](/Equipment.aspx?ID=41) of that deity.\n\n<document level=\"2\" id=\"action-1668\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Standard\"\r\n>\r\n[Book of Warding Prayers](/Equipment.aspx?ID=2172)\r\n</title>\n\n<traits>\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup>\n\n**Price** 425 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nScript in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover. _Books of warding prayers_ are each devoted to a particular deity and are also a [religious symbol](/Equipment.aspx?ID=41) of that deity.\n\n**Activate** <actions string=\"Free Action\" /> envision;  **Frequency** once per day; **Trigger** Your last action was to cast a prepared divine spell granted by your deity;  **Effect** Choose chaotic, evil, good, or lawful; you can't choose a type that's part of your deity's alignment. You and all allies within 30 feet are suffused with your deity's protection, gaining resistance 10 to damage of that type for 1 minute.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Book of Warding Prayers",
  "pfs": "Standard",
  "price": 42500,
  "price_raw": "425 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 111",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup></row>\r\n\r\n**Price** 425 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nScript in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover.  Books of warding prayers  are each …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=48\" />\r\n<trait label=\"Grimoire\" url=\"/Traits.aspx?ID=387\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup>\r\n\r\n**Price** 425 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nScript in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover.  Books of warding prayers  are each …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 111"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 111 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "Script in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover.  Books of warding prayers  are each …",
  "summary_markdown": "Script in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover.  Books of warding prayers  are each …",
- "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Book of Warding Prayers Source Treasure Vault pg. 111 1.1 Price 425 gp Bulk L --- Script in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover. Books of warding prayers are each devoted to a particular deity and are also a religious symbol of that deity.\n",
+ "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Standard\" > Book of Warding Prayers Source Treasure Vault pg. 111 1.1 Price 425 gp Bulk L --- Script in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover. Books of warding prayers are each devoted to a particular deity and are also a religious symbol of that deity. Activate Free Action envision; Frequency once per day; Trigger Your last action was to cast a prepared divine spell granted by your deity; Effect Choose chaotic, evil, good, or lawful; you can't choose a type that's part of your deity's alignment. You and all allies within 30 feet are suffused with your deity's protection, gaining resistance 10 to damage of that type for 1 minute.\n",
  "trait": [
   "Divine",
   "Grimoire",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Divine](/Traits.aspx?ID=48), [Grimoire](/Traits.aspx?ID=387), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

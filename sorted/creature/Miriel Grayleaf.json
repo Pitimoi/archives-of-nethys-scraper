@@ -1,53 +1,100 @@
 {
  "ac": 13,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
  "alignment": "CG",
- "breadcrumbs_spa": [],
+ "attack_bonus": [
+  2,
+  5
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
  "category": "creature",
  "charisma": 2,
+ "charisma_scale": "Moderate",
+ "charisma_scale_number": 3,
  "constitution": -1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
  "creature_family_markdown": "",
  "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
  "exclude_from_search": false,
  "fortitude_save": 1,
+ "fortitude_save_scale": "Terrible",
+ "fortitude_save_scale_number": 1,
  "hp": 5,
  "hp_raw": "5",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
  "id": "creature-2468",
  "intelligence": 3,
+ "intelligence_scale": "High",
+ "intelligence_scale_number": 4,
+ "item": [
+  "Crossbow (10 bolts)",
+  "Dagger"
+ ],
  "language": [
   "Common",
   "Elven"
  ],
  "language_markdown": "[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4)",
  "level": -1,
- "markdown": "<title level=\"1\" pfs=\"\">[Miriel Grayleaf](/NPCs.aspx?ID=2468)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Miriel Grayleaf](/NPCs.aspx?ID=2468)</title>\r\n\r\n<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 7</row>\n\n**Perception** +2; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +5, [Library Lore](/Skills.aspx?ID=8) +5, [Occultism](/Skills.aspx?ID=11) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +3\r\n\r\n**Con** -1\r\n\r\n**Int** +3\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Crossbow](/Weapons.aspx?ID=67) (10 bolts), [Dagger](/Weapons.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 13 \r\n\r\n**Fort** +1 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n**HP** 5\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +2 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncrossbow +5 ([range 120 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d8 piercing\r\n\r\n**Arcane Prepared Spells** DC 15, attack +7\r\n- **Cantrips (1st)**\r\n[Mage Hand](/Spells.aspx?ID=177), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Grease](/Spells.aspx?ID=140)\n\n</column>",
+ "markdown": "<title level=\"1\" pfs=\"\">[Miriel Grayleaf](/NPCs.aspx?ID=2468)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\n\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\r\n([Society](/Skills.aspx?ID=14)): DC 13\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature -1\">[Miriel Grayleaf](/NPCs.aspx?ID=2468)</title>\r\n\r\n<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 7\n\n**Perception** +2; [low-light vision](/MonsterAbilities.aspx?ID=23)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4)\r\n\r\n**Skills**\r\n[Arcana](/Skills.aspx?ID=2) +5, [Library Lore](/Skills.aspx?ID=8) +5, [Occultism](/Skills.aspx?ID=11) +5\r\n\r\n<row gap=\"medium\">\r\n**Str** +0\r\n\r\n**Dex** +3\r\n\r\n**Con** -1\r\n\r\n**Int** +3\r\n\r\n**Wis** +0\r\n\r\n**Cha** +2\r\n</row>\n\n**Items**\r\n[Crossbow](/Weapons.aspx?ID=67) (10 bolts), [Dagger](/Weapons.aspx?ID=3)\r\n\r\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 13 \r\n\r\n**Fort** +1 \r\n\r\n**Ref** +7 \r\n\r\n**Will** +4 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 5\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 30 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\ndagger +2 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [thrown 10 feet](/Traits.aspx?ID=195), [versatile S](/Traits.aspx?ID=200)),\r\n**Damage** 1d4 piercing\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\ncrossbow +5 ([range 120 feet](/Traits.aspx?ID=248), [reload 1](/Traits.aspx?ID=254)),\r\n**Damage** 1d8 piercing\r\n\r\n**Arcane Prepared Spells** DC 15, attack +7\r\n- **Cantrips (1st)**\r\n[Mage Hand](/Spells.aspx?ID=177), [Tanglefoot](/Spells.aspx?ID=330)\r\n- **1st**\r\n[Grease](/Spells.aspx?ID=140)\n\n</column>",
  "name": "Miriel Grayleaf",
  "npc": true,
  "perception": 2,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #157: Devil at the Dreaming Palace",
+ "primary_source_raw": "Pathfinder #157: Devil at the Dreaming Palace pg. 7",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Agents of Edgewatch",
  "rarity": "common",
+ "rarity_id": 1,
  "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 7</row>\n\n<row gap=\"medium\">\r\n**HP** 5\r\n\r\n**AC** 13\r\n\r\n**Fort** +1\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +2\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"CG\" url=\"/Rules.aspx?ID=95\" />\r\n<trait label=\"Medium\" />\r\n<trait label=\"Elf\" url=\"/Traits.aspx?ID=58\" />\r\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 7\n\n<row gap=\"medium\">\r\n**HP** 5\r\n\r\n**AC** 13\r\n\r\n**Fort** +1\r\n\r\n**Ref** +7\r\n\r\n**Will** +4\r\n\r\n**Perception** +2\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\n\r\n</summary>",
  "sense": " low-light vision ",
  "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=23)",
  "size": [
   "Medium"
  ],
+ "size_id": [
+  3
+ ],
  "skill": [
-  "Arcana +5",
-  "Library Lore +5",
-  "Occultism +5"
+  "Arcana",
+  "Library Lore",
+  "Occultism"
  ],
  "skill_markdown": "[Arcana](/Skills.aspx?ID=2) +5, [Library Lore](/Skills.aspx?ID=8) +5, [Occultism](/Skills.aspx?ID=11) +5",
+ "skill_mod": {
+  "arcana": 5,
+  "occultism": 5
+ },
  "source": [
   "Pathfinder #157: Devil at the Dreaming Palace"
  ],
  "source_raw": [
   "Pathfinder #157: Devil at the Dreaming Palace pg. 7"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Agents of Edgewatch",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 7</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Agents of Edgewatch"
+ ],
+ "source_markdown": "[Pathfinder #157: Devil at the Dreaming Palace](/Sources.aspx?ID=45) pg. 7",
  "speed": {
   "land": 30,
   "max": 30
@@ -60,19 +107,59 @@
   "Tanglefoot"
  ],
  "spell_markdown": "[Grease](/Spells.aspx?ID=140), [Mage Hand](/Spells.aspx?ID=177), [Tanglefoot](/Spells.aspx?ID=330)",
+ "spell_attack_bonus": [
+  7
+ ],
+ "spell_attack_bonus_scale": [
+  "Moderate"
+ ],
+ "spell_attack_bonus_scale_number": [
+  3
+ ],
+ "spell_dc": [
+  15
+ ],
+ "spell_dc_scale": [
+  "Moderate"
+ ],
+ "spell_dc_scale_number": [
+  3
+ ],
+ "strike_damage_average": [
+  2,
+  4
+ ],
+ "strike_damage_scale": [
+  "Low",
+  "Extreme"
+ ],
+ "strike_damage_scale_number": [
+  2,
+  5
+ ],
  "strength": 0,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
  "strongest_save": [
   "ref",
   "reflex"
  ],
- "summary": "",
- "summary_markdown": "",
  "text": " Miriel Grayleaf Recall Knowledge - Humanoid (Society): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Miriel Grayleaf Source Pathfinder #157: Devil at the Dreaming Palace pg. 7 Perception +2; low-light vision Languages Common, Elven Skills Arcana +5, Library Lore +5, Occultism +5 Str +0 Dex +3 Con -1 Int +3 Wis +0 Cha +2 Items Crossbow (10 bolts), Dagger --- AC 13 Fort +1 Ref +7 Will +4 HP 5 --- Speed 30 feet Melee Single Action dagger +2 (Agile, Finesse, thrown 10 feet, versatile S), Damage 1d4 piercing Ranged Single Action crossbow +5 (range 120 feet, reload 1), Damage 1d8 piercing Arcane Prepared Spells DC 15, attack +7 - Cantrips (1st) Mage Hand, Tanglefoot - 1st Grease\n",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
   "Elf",
   "Humanoid",
   "CG",
   "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon",
+  "Half-Elf",
+  "Creature Type"
  ],
  "trait_markdown": "[Elf](/Traits.aspx?ID=58), [Humanoid](/Traits.aspx?ID=91)",
  "trait_raw": [
@@ -88,5 +175,9 @@
  ],
  "weakness": {},
  "will_save": 4,
- "wisdom": 0
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2
 }

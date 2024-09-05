@@ -1,38 +1,45 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Cat Fall"
  ],
  "feat_markdown": "Cat Fall",
- "id": "feat-765",
+ "id": "feat-5131",
+ "legacy_id": "feat-765",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cat Fall](/Feats.aspx?ID=765) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 259 <sup>4.0</sup></row>\n\n**Prerequisites**\r\nTrained in [Acrobatics](/Skills.aspx?ID=1)\n\n</column>\r\n\r\n---\r\n\r\nYour catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you’re an expert in Acrobatics, treat falls as 25 feet shorter. If you’re a master in Acrobatics, treat them as 50 feet shorter. If you’re legendary in Acrobatics, you always land on your feet and don’t take damage, regardless of the distance of the fall.\n\n<title level=\"2\">Cat Fall leads to...</title>\r\n[Leshy Glide](/Feats.aspx?ID=1044), [Rolling Landing](/Feats.aspx?ID=4124)",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Cat Fall](/Feats.aspx?ID=5131) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 253\n\n**Prerequisites**\r\nTrained in [Acrobatics](/Skills.aspx?ID=1)\n\n</column>\r\n\r\n---\r\n\r\nYour catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you’re an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you’re a master. If you’re legendary in Acrobatics, you always land on your feet and don’t take damage, regardless of the distance of the fall.\n\n<title level=\"2\">Cat Fall leads to...</title>\r\n[Leshy Glide](/Feats.aspx?ID=4501)",
  "name": "Cat Fall",
  "pfs": "Standard",
  "prerequisite": "Trained in Acrobatics",
  "prerequisite_markdown": "Trained in [Acrobatics](/Skills.aspx?ID=1)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 253",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 259 <sup>4.0</sup></row>\n\n**Prerequisites**\r\nTrained in [Acrobatics](/Skills.aspx?ID=1)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTreat falls as shorter than they are.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 253\n\n**Prerequisites**\r\nTrained in [Acrobatics](/Skills.aspx?ID=1)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTreat falls as shorter than they are\r\n</summary>",
  "skill": [
   "Acrobatics",
   "Acrobatics"
  ],
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 259"
+  "Player Core pg. 253"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 259 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 253",
  "speed": {},
- "summary": "Treat falls as shorter than they are.",
- "summary_markdown": "Treat falls as shorter than they are.",
- "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Cat Fall Source Core Rulebook pg. 259 4.0 Prerequisites Trained in Acrobatics --- Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you’re an expert in Acrobatics, treat falls as 25 feet shorter. If you’re a master in Acrobatics, treat them as 50 feet shorter. If you’re legendary in Acrobatics, you always land on your feet and don’t take damage, regardless of the distance of the fall. Cat Fall leads to... Leshy Glide, Rolling Landing",
+ "summary": "Treat falls as shorter than they are",
+ "summary_markdown": "Treat falls as shorter than they are",
+ "text": "<title level=\"1\" right=\"Feat 1\" pfs=\"Standard\" > Cat Fall Source Player Core pg. 253 Prerequisites Trained in Acrobatics --- Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you’re an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you’re a master. If you’re legendary in Acrobatics, you always land on your feet and don’t take damage, regardless of the distance of the fall. Cat Fall leads to... Leshy Glide",
  "trait": [
   "General",
   "Skill"
@@ -43,6 +50,6 @@
   "Skill"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=765",
+ "url": "/Feats.aspx?ID=5131",
  "weakness": {}
 }

@@ -1,13 +1,8 @@
 {
  "actions": "Three Actions",
+ "actions_number": 6,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
- "component": [
-  "material",
-  "somatic",
-  "verbal"
- ],
  "deity": [
   "Haagenti",
   "Soralyon"
@@ -28,6 +23,18 @@
   "9th",
   "10th"
  ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
  "heighten_level": [
   1,
   2,
@@ -40,45 +47,54 @@
   9,
   10
  ],
- "id": "spell-318",
+ "id": "spell-1696",
+ "legacy_id": "spell-318",
  "level": 1,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">[Summon Construct](/Spells.aspx?ID=318)</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 375 <sup>4.0</sup></row>\n\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\r\n[Haagenti](/Deities.aspx?ID=260), [Soralyon](/Deities.aspx?ID=128)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou conjure a construct to fight for you. This works like [_summon animal_](/Spells.aspx?ID=316), except you summon a common creature that has the [construct](/Traits.aspx?ID=35) trait and whose level is –1, such as those below.\n\n---\r\n**Heightened (2nd)** Level 1.\r\n\r\n**Heightened (3rd)** Level 2.\r\n\r\n**Heightened (4th)** Level 3.\r\n\r\n**Heightened (5th)** Level 5.\r\n\r\n**Heightened (6th)** Level 7.\r\n\r\n**Heightened (7th)** Level 9.\r\n\r\n**Heightened (8th)** Level 11.\r\n\r\n**Heightened (9th)** Level 13.\r\n\r\n**Heightened (10th)** Level 15.\r\n\r\n",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\r\n[Summon Construct](/Spells.aspx?ID=1696)\r\n<actions string=\"Three Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Summon\" url=\"/Traits.aspx?ID=520\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 360\n\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\r\n[Haagenti](/Deities.aspx?ID=260), [Soralyon](/Deities.aspx?ID=128)\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou summon a creature that has the [construct](/Traits.aspx?ID=35) trait and whose level is –1 to fight for you.\n\n---\r\n**Heightened (2nd)** Level 1.\r\n\r\n**Heightened (3rd)** Level 2.\r\n\r\n**Heightened (4th)** Level 3.\r\n\r\n**Heightened (5th)** Level 5.\r\n\r\n**Heightened (6th)** Level 7.\r\n\r\n**Heightened (7th)** Level 9.\r\n\r\n**Heightened (8th)** Level 11.\r\n\r\n**Heightened (9th)** Level 13.\r\n\r\n**Heightened (10th)** Level 15.\r\n\r\n",
  "name": "Summon Construct",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 360",
+ "primary_source_category": "Rulebooks",
  "range": 30,
  "range_raw": "30 feet",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 375 <sup>4.0</sup></row>\r\n\r\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\r\n[Haagenti](/Deities.aspx?ID=260), [Soralyon](/Deities.aspx?ID=128)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Three Actions\" /></row>\r\n<row>[material](/Rules.aspx?ID=282), [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nConjure a construct to fight on your behalf.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Summon\" url=\"/Traits.aspx?ID=520\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 360\r\n\r\n**Tradition**\r\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\r\n[Haagenti](/Deities.aspx?ID=260), [Soralyon](/Deities.aspx?ID=128)\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 30 feet\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nConjure a construct to fight on your behalf.\r\n</summary>",
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 375"
+  "Player Core pg. 360"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 375 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 360",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Conjure a construct to fight on your behalf.",
  "summary_markdown": "Conjure a construct to fight on your behalf.",
- "text": " Summon Construct Source Core Rulebook pg. 375 4.0 Tradition Arcane Deities Haagenti, Soralyon Cast Three Actions material, somatic, verbal Range 30 feet Duration sustained up to 1 minute --- You conjure a construct to fight for you. This works like summon animal , except you summon a common creature that has the construct trait and whose level is –1, such as those below. --- Heightened (2nd) Level 1. Heightened (3rd) Level 2. Heightened (4th) Level 3. Heightened (5th) Level 5. Heightened (6th) Level 7. Heightened (7th) Level 9. Heightened (8th) Level 11. Heightened (9th) Level 13. Heightened (10th) Level 15. ",
+ "text": "\nSummon Construct Three Actions Source Player Core pg. 360 Tradition Arcane Deities Haagenti, Soralyon Range 30 feet Duration sustained up to 1 minute --- You summon a creature that has the construct trait and whose level is –1 to fight for you. --- Heightened (2nd) Level 1. Heightened (3rd) Level 2. Heightened (4th) Level 3. Heightened (5th) Level 5. Heightened (6th) Level 7. Heightened (7th) Level 9. Heightened (8th) Level 11. Heightened (9th) Level 13. Heightened (10th) Level 15. ",
  "tradition": [
   "Arcane"
  ],
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
  "trait": [
-  "Conjuration"
+  "Concentrate",
+  "Manipulate",
+  "Summon"
  ],
- "trait_markdown": "[Conjuration](/Traits.aspx?ID=33)",
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Summon](/Traits.aspx?ID=520)",
  "trait_raw": [
-  "Conjuration"
+  "Concentrate",
+  "Manipulate",
+  "Summon"
  ],
  "type": "Spell",
- "url": "/Spells.aspx?ID=318",
+ "url": "/Spells.aspx?ID=1696",
  "weakness": {}
 }

@@ -1,38 +1,45 @@
 {
- "breadcrumbs_spa": [],
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
   "Inventor"
  ],
  "feat_markdown": "Inventor",
- "id": "feat-798",
- "level": 7,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 7\"\r\n    pfs=\"Standard\"\r\n>\r\n[Inventor](/Feats.aspx?ID=798) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 262 <sup>4.0</sup></row>\n\n**Prerequisites**\r\nMaster in [Crafting](/Skills.aspx?ID=4)\n\n</column>\r\n\r\n---\r\n\r\nYou are a genius at Crafting, easily able to determine how things are made and create new inventions. You can spend downtime to invent a common formula that you don’t know. This works just like the Craft activity: you spend half the Price of the formula up front, attempt a Crafting check, and on a success either finish the formula by paying the difference or work for longer to decrease the Price. The difference is that you spend the additional time in research, design, and development, rather than in creating an item. Once it’s complete, you add the new formula you invented to your formula book.",
+ "id": "feat-5164",
+ "legacy_id": "feat-798",
+ "level": 2,
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 2\"\r\n    pfs=\"Standard\"\r\n>\r\n[Inventor](/Feats.aspx?ID=5164) <actions string=\"\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 257\n\n**Prerequisites**\r\nExpert in [Crafting](/Skills.aspx?ID=4)\n\n</column>\r\n\r\n---\r\n\r\nYou are a genius at Crafting, easily able to determine how things are made and create new inventions. You can spend downtime to invent a common formula that you don’t know. This works just like the Craft activity: you spend half the Price of the formula up front, attempt a Crafting check, and on a success either finish the formula by paying the difference or work for longer to decrease the Price. The difference is that you spend the additional time in research, design, and development, rather than in creating an item. Once it’s complete, you add the new formula you invented to your formula book.\n\nThe GM might allow you to invent uncommon or rare formulas, typically with an increased DC. You need the Alchemical Crafting feat to invent alchemical formulas and the Magical Crafting feat to invent magical formulas.",
  "name": "Inventor",
  "pfs": "Standard",
- "prerequisite": "Master in Crafting",
- "prerequisite_markdown": "Master in [Crafting](/Skills.aspx?ID=4)",
+ "prerequisite": "Expert in Crafting",
+ "prerequisite_markdown": "Expert in [Crafting](/Skills.aspx?ID=4)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 257",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
- "release_date": "2019-08-01",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 262 <sup>4.0</sup></row>\n\n**Prerequisites**\r\nMaster in [Crafting](/Skills.aspx?ID=4)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nUse Crafting to create item formulas.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\r\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\r\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 257\n\n**Prerequisites**\r\nExpert in [Crafting](/Skills.aspx?ID=4)\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nUse Crafting to create item formulas\r\n</summary>",
  "skill": [
   "Crafting",
   "Crafting"
  ],
+ "skill_mod": {},
  "source": [
-  "Core Rulebook"
+  "Player Core"
  ],
  "source_raw": [
-  "Core Rulebook pg. 262"
+  "Player Core pg. 257"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Core Rulebook](/Sources.aspx?ID=1) pg. 262 <sup>4.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 257",
  "speed": {},
- "summary": "Use Crafting to create item formulas.",
- "summary_markdown": "Use Crafting to create item formulas.",
- "text": "<title level=\"1\" right=\"Feat 7\" pfs=\"Standard\" > Inventor Source Core Rulebook pg. 262 4.0 Prerequisites Master in Crafting --- You are a genius at Crafting, easily able to determine how things are made and create new inventions. You can spend downtime to invent a common formula that you don’t know. This works just like the Craft activity: you spend half the Price of the formula up front, attempt a Crafting check, and on a success either finish the formula by paying the difference or work for longer to decrease the Price. The difference is that you spend the additional time in research, design, and development, rather than in creating an item. Once it’s complete, you add the new formula you invented to your formula book.",
+ "summary": "Use Crafting to create item formulas",
+ "summary_markdown": "Use Crafting to create item formulas",
+ "text": "<title level=\"1\" right=\"Feat 2\" pfs=\"Standard\" > Inventor Source Player Core pg. 257 Prerequisites Expert in Crafting --- You are a genius at Crafting, easily able to determine how things are made and create new inventions. You can spend downtime to invent a common formula that you don’t know. This works just like the Craft activity: you spend half the Price of the formula up front, attempt a Crafting check, and on a success either finish the formula by paying the difference or work for longer to decrease the Price. The difference is that you spend the additional time in research, design, and development, rather than in creating an item. Once it’s complete, you add the new formula you invented to your formula book. The GM might allow you to invent uncommon or rare formulas, typically with an increased DC. You need the Alchemical Crafting feat to invent alchemical formulas and the Magical Crafting feat to invent magical formulas.",
  "trait": [
   "Downtime",
   "General",
@@ -45,6 +52,6 @@
   "Skill"
  ],
  "type": "Feat",
- "url": "/Feats.aspx?ID=798",
+ "url": "/Feats.aspx?ID=5164",
  "weakness": {}
 }

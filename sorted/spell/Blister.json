@@ -1,7 +1,7 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
@@ -18,6 +18,14 @@
  "heighten": [
   "+1"
  ],
+ "heighten_group": [
+  "5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
  "heighten_level": [
   5,
   6,
@@ -28,35 +36,40 @@
  ],
  "id": "spell-673",
  "level": 5,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Spell 5\" pfs=\"Standard\">[Blister](/Spells.aspx?ID=673)</title>\n\n<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 216 <sup>2.0</sup></row>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Fandarra](/Deities.aspx?ID=236)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou point at a target in range, and its skin grows searing blisters filled with caustic fluid. The target must attempt a Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target grows one blister. You can spend a single action, which has the [concentrate](/Traits.aspx?ID=32) trait, to pop a blister. The target and each creature in a 15-foot cone originating from the target takes 7d6 acid damage (basic Fortitude save). You choose the direction of the cone, which can't include the target. When no blisters are left, the spell ends.<br />\r\n**Failure** As success, but the target grows two blisters.<br />\r\n**Critical Failure** As success, but the target grows four blisters.\n\n---\r\n**Heightened (+1)** The damage of a popped blister increases by 1d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Spell 5\" pfs=\"Standard\">\r\n[Blister](/Spells.aspx?ID=673)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 216 <sup>2.0</sup>\n\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Fandarra](/Deities.aspx?ID=236)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\n\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nFortitude\r\n\r\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou point at a target in range, and its skin grows searing blisters filled with caustic fluid. The target must attempt a Fortitude save.\r\n\r\n**Critical Success** The target is unaffected.<br />\r\n**Success** The target grows one blister. You can spend a single action, which has the [concentrate](/Traits.aspx?ID=32) trait, to pop a blister. The target and each creature in a 15-foot cone originating from the target takes 7d6 acid damage (basic Fortitude save). You choose the direction of the cone, which can't include the target. When no blisters are left, the spell ends.<br />\r\n**Failure** As success, but the target grows two blisters.<br />\r\n**Critical Failure** As success, but the target grows four blisters.\n\n---\r\n**Heightened (+1)** The damage of a popped blister increases by 1d6.",
  "name": "Blister",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 216",
+ "primary_source_category": "Rulebooks",
  "range": 60,
  "range_raw": "60 feet",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
  "saving_throw": "Fortitude",
  "saving_throw_markdown": "Fortitude",
  "school": "necromancy",
- "search_markdown": "<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 216 <sup>2.0</sup></row>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Fandarra](/Deities.aspx?ID=236)\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** Fortitude\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGrow large blisters on a creature and pop them to spray acid.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Necromancy\" url=\"/Traits.aspx?ID=117\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 216 <sup>2.0</sup>\r\n\r\n**Traditions**\r\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deity**\r\n[Fandarra](/Deities.aspx?ID=236)\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 60 feet\r\n\r\n \r\n\r\n**Target** 1 creature\r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** \r\nFortitude\r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nGrow large blisters on a creature and pop them to spray acid.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 216"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 216 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 216 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Spell",
  "summary": "Grow large blisters on a creature and pop them to spray acid.",
  "summary_markdown": "Grow large blisters on a creature and pop them to spray acid.",
  "target": "1 creature",
  "target_markdown": "1 creature",
- "text": " Blister Source Advanced Player's Guide pg. 216 2.0 Traditions Arcane, Occult, Primal Deity Fandarra Cast Two Actions somatic, verbal Range 60 feet Target 1 creature Saving Throw Fortitude Duration 1 minute --- You point at a target in range, and its skin grows searing blisters filled with caustic fluid. The target must attempt a Fortitude save. Critical Success The target is unaffected. Success The target grows one blister. You can spend a single action, which has the concentrate trait, to pop a blister. The target and each creature in a 15-foot cone originating from the target takes 7d6 acid damage (basic Fortitude save). You choose the direction of the cone, which can't include the target. When no blisters are left, the spell ends. Failure As success, but the target grows two blisters. Critical Failure As success, but the target grows four blisters. --- Heightened (+1) The damage of a popped blister increases by 1d6.",
+ "text": "\nBlister Two Actions Source Advanced Player's Guide pg. 216 2.0 Traditions Arcane, Occult, Primal Deity Fandarra Cast somatic, verbal Range 60 feet Target 1 creature Saving Throw Fortitude Duration 1 minute --- You point at a target in range, and its skin grows searing blisters filled with caustic fluid. The target must attempt a Fortitude save. Critical Success The target is unaffected. Success The target grows one blister. You can spend a single action, which has the concentrate trait, to pop a blister. The target and each creature in a 15-foot cone originating from the target takes 7d6 acid damage (basic Fortitude save). You choose the direction of the cone, which can't include the target. When no blisters are left, the spell ends. Failure As success, but the target grows two blisters. Critical Failure As success, but the target grows four blisters. --- Heightened (+1) The damage of a popped blister increases by 1d6.",
  "tradition": [
   "Arcane",
   "Occult",
@@ -65,6 +78,9 @@
  "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
  "trait": [
   "Necromancy"
+ ],
+ "trait_group": [
+  "School"
  ],
  "trait_markdown": "[Necromancy](/Traits.aspx?ID=117)",
  "trait_raw": [

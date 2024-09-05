@@ -1,6 +1,5 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L when not activated",
  "category": "equipment",
@@ -8,35 +7,47 @@
  "id": "equipment-1275",
  "item_category": "Structures",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Portable Gaming Hall](/Equipment.aspx?ID=1275)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 26</row>\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L when not activated\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers.\n\n<document level=\"2\" id=\"action-1009\" />\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Portable Gaming Hall](/Equipment.aspx?ID=1275)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 26\n\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L when not activated\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nA portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers.\n\n**Activate** <actions string=\"\" /> (1 minute) command, envision, Interact;     **Effect** The wheel grows into a circular room 30 feet in diameter, with a door on one side. Six chairs surround a circular table, 10 feet in diameter. The underside of the table contains retractable drawers full of dice, harrow cards, game pieces, and other gambling accouterments. A gallon of ale or a similar drink with a spigot near the bottom hangs on the door, replenishing to a full gallon each day; you can also bring in your own drinks if you require more than the gaming hall provides.\n\n You can flip the central table over as a 3-action activity, which has the manipulate trait, to revert the gaming hall to its original form.\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Portable Gaming Hall",
  "pfs": "Restricted",
  "price": 50000,
  "price_raw": "500 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 26",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 26</row>\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L when not activated\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Structure\" url=\"/Traits.aspx?ID=153\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 26\r\n\r\n**Price** 500 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n**Bulk** L when not activated\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nA portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers. \r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 26"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 26</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 26",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
  "summary": "A portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers. ",
  "summary_markdown": "A portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers. ",
- "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Restricted\" > Portable Gaming Hall Source Grand Bazaar pg. 26 Price 500 gp Bulk L when not activated --- A portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers.\n",
+ "text": "<title level=\"1\" right=\"Item 8\" pfs=\"Restricted\" > Portable Gaming Hall Source Grand Bazaar pg. 26 Price 500 gp Bulk L when not activated --- A portable gaming hall resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers. Activate (1 minute) command, envision, Interact; Effect The wheel grows into a circular room 30 feet in diameter, with a door on one side. Six chairs surround a circular table, 10 feet in diameter. The underside of the table contains retractable drawers full of dice, harrow cards, game pieces, and other gambling accouterments. A gallon of ale or a similar drink with a spigot near the bottom hangs on the door, replenishing to a full gallon each day; you can also bring in your own drinks if you require more than the gaming hall provides. You can flip the central table over as a 3-action activity, which has the manipulate trait, to revert the gaming hall to its original form.\n",
  "trait": [
   "Conjuration",
   "Magical",
   "Structure",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Rarity"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103), [Structure](/Traits.aspx?ID=153), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

@@ -1,38 +1,50 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1379-1254",
  "item_category": "Held Items",
+ "item_parent_id": "equipment-1379",
  "level": 8,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8+\"\r\n    pfs=\"\"\r\n>\r\n[Alluring Scarf](/Equipment.aspx?ID=1379)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84</row>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis thin, multicolored scarf shifts between hues in almost dizzying patterns.\n\n<document level=\"2\" id=\"action-1064\" />\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 8\"\r\npfs=\"Standard\"\r\n>\r\nAlluring Scarf\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84</row>\n\n**Price** 415 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 12\"\r\npfs=\"Standard\"\r\n>\r\nAlluring Scarf (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84</row>\n\n**Price** 1,650 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe DC is 29. You attempt to fascinate all creatures within 20 feet.\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 16\"\r\npfs=\"Standard\"\r\n>\r\nAlluring Scarf (Major)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84</row>\n\n**Price** 8,000 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe DC is 35. You attempt to fascinate all creatures within 30 feet.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 8+\"\r\n    pfs=\"\"\r\n>\r\n[Alluring Scarf](/Equipment.aspx?ID=1379)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis thin, multicolored scarf shifts between hues in almost dizzying patterns.\n\n**Activate** <actions string=\"Two Actions\" /> Interact ([emotion](/Traits.aspx?ID=60), [enchantment](/Traits.aspx?ID=61), [mental](/Traits.aspx?ID=106), [visual](/Traits.aspx?ID=163)) **Frequency** once per day;   **Effect** You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes [fascinated](/Conditions.aspx?ID=14) and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting [hostile](/Rules.aspx?ID=300) to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 8\"\r\npfs=\"Standard\"\r\n>\r\nAlluring Scarf\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84\n\n**Price** 415 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 12\"\r\npfs=\"Standard\"\r\n>\r\nAlluring Scarf (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84\n\n**Price** 1,650 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe DC is 29. You attempt to fascinate all creatures within 20 feet.\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 16\"\r\npfs=\"Standard\"\r\n>\r\nAlluring Scarf (Major)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84\n\n**Price** 8,000 gp\r\n\r\n<row gap=\"medium\">\n\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe DC is 35. You attempt to fascinate all creatures within 30 feet.",
  "name": "Alluring Scarf",
  "pfs": "Standard",
  "price": 41500,
  "price_raw": "415 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 84",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "enchantment",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84</row>\r\n\r\n**Price** 415 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis thin, multicolored scarf shifts between hues in almost dizzying patterns. \r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Enchantment\" url=\"/Traits.aspx?ID=61\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 84\r\n\r\n**Price** 415 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThis thin, multicolored scarf shifts between hues in almost dizzying patterns.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 84"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 84</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 84",
  "speed": {},
  "spell_markdown": "",
- "summary": "This thin, multicolored scarf shifts between hues in almost dizzying patterns. ",
- "summary_markdown": "This thin, multicolored scarf shifts between hues in almost dizzying patterns. ",
- "text": "<title level=\"1\" right=\"Item 8+\" pfs=\"\" > Alluring Scarf Source Grand Bazaar pg. 84 Usage held in 1 hand --- This thin, multicolored scarf shifts between hues in almost dizzying patterns. <title level=\"2\" right=\"Item 8\" pfs=\"Standard\" > Alluring Scarf Source Grand Bazaar pg. 84 Price 415 gp <title level=\"2\" right=\"Item 12\" pfs=\"Standard\" > Alluring Scarf (Greater) Source Grand Bazaar pg. 84 Price 1,650 gp --- The DC is 29. You attempt to fascinate all creatures within 20 feet. <title level=\"2\" right=\"Item 16\" pfs=\"Standard\" > Alluring Scarf (Major) Source Grand Bazaar pg. 84 Price 8,000 gp --- The DC is 35. You attempt to fascinate all creatures within 30 feet.",
+ "summary": "This thin, multicolored scarf shifts between hues in almost dizzying patterns.",
+ "summary_markdown": "This thin, multicolored scarf shifts between hues in almost dizzying patterns.",
+ "text": "<title level=\"1\" right=\"Item 8+\" pfs=\"\" > Alluring Scarf Source Grand Bazaar pg. 84 Usage held in 1 hand --- This thin, multicolored scarf shifts between hues in almost dizzying patterns. Activate Two Actions Interact (emotion, enchantment, mental, visual) Frequency once per day; Effect You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute. <title level=\"2\" right=\"Item 8\" pfs=\"Standard\" > Alluring Scarf Source Grand Bazaar pg. 84 Price 415 gp <title level=\"2\" right=\"Item 12\" pfs=\"Standard\" > Alluring Scarf (Greater) Source Grand Bazaar pg. 84 Price 1,650 gp --- The DC is 29. You attempt to fascinate all creatures within 20 feet. <title level=\"2\" right=\"Item 16\" pfs=\"Standard\" > Alluring Scarf (Major) Source Grand Bazaar pg. 84 Price 8,000 gp --- The DC is 35. You attempt to fascinate all creatures within 30 feet.",
  "trait": [
   "Enchantment",
   "Magical",
   "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Enchantment](/Traits.aspx?ID=61), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

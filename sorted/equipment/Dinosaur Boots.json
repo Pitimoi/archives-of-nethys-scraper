@@ -1,42 +1,54 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 1,
  "bulk_raw": "1",
  "category": "equipment",
  "exclude_from_search": false,
  "id": "equipment-1299-1197",
  "item_category": "Worn Items",
+ "item_parent_id": "equipment-1299",
  "item_subcategory": "Other Worn Items",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10+\"\r\n    pfs=\"\"\r\n>\r\n[Dinosaur Boots](/Equipment.aspx?ID=1299)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42</row>\n\n<row gap=\"medium\">\n\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or effect would cause you to make a [forced movement](/Rules.aspx?ID=451), roll a DC 17 flat check. On a success, the forced movement fails to affect you.\n\n<document level=\"2\" id=\"action-1026\" />\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 10\"\r\npfs=\"Standard\"\r\n>\r\nDinosaur Boots\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42</row>\n\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** 1\r\n\r\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 16\"\r\npfs=\"Standard\"\r\n>\r\nDinosaur Boots (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42</row>\n\n**Price** 9,500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** 1\r\n\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe activation makes you grow to size Huge, if you choose, with the effects of 4th-level _enlarge_. Either way, the damage die of your foot unarmed attack increases from 1d4 to 1d8, and you can use Trample as many times as you want during the activation.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 10+\"\r\n    pfs=\"\"\r\n>\r\n[Dinosaur Boots](/Equipment.aspx?ID=1299)\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42\n\n<row gap=\"medium\">\n\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or effect would cause you to make a [forced movement](/Rules.aspx?ID=451), roll a DC 17 flat check. On a success, the forced movement fails to affect you.\n\n**Activate** <actions string=\"Single Action\" /> command ([magical](/Traits.aspx?ID=103), [morph](/Traits.aspx?ID=113), [transmutation](/Traits.aspx?ID=157)) **Frequency** once per day;   **Effect** You grow, gaining the effects of [_enlarge_](/Spells.aspx?ID=102) for 1 minute. During that time, you gain dinosaur features; your legs and feet transform into a dinosaur's. You gain a foot unarmed attack that has the same statistics as your fist unarmed attack, except its damage die is increased from 1d4 to 1d6. Once during the duration, you can use the [Trample](/MonsterAbilities.aspx?ID=39) 3-action activity to Trample creatures one size smaller than you or smaller. This deals an amount of damage to each creature equal to that of your foot unarmed attack (including any extra weapon damage dice, bonuses, or additional damage as normal), with a DC 27 [basic](/Rules.aspx?ID=329) Reflex save. You can Dismiss the activation.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 10\"\r\npfs=\"Standard\"\r\n>\r\nDinosaur Boots\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42\n\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** 1\r\n\r\n</row>\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 16\"\r\npfs=\"Standard\"\r\n>\r\nDinosaur Boots (Greater)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42\n\n**Price** 9,500 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** 1\r\n\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe activation makes you grow to size Huge, if you choose, with the effects of 4th-level _enlarge_. Either way, the damage die of your foot unarmed attack increases from 1d4 to 1d8, and you can use Trample as many times as you want during the activation.",
  "name": "Dinosaur Boots",
  "pfs": "Standard",
  "price": 95000,
  "price_raw": "950 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 42",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2021-10-13",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42</row>\r\n\r\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 42\r\n\r\n**Price** 950 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** worn\r\n\r\n**Bulk** 1\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Grand Bazaar"
  ],
  "source_raw": [
   "Grand Bazaar pg. 42"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Grand Bazaar](/Sources.aspx?ID=100) pg. 42</row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 42",
  "speed": {},
  "spell_markdown": "",
  "summary": "The tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or …",
  "summary_markdown": "The tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or …",
- "text": "<title level=\"1\" right=\"Item 10+\" pfs=\"\" > Dinosaur Boots Source Grand Bazaar pg. 42 Usage worn Bulk 1 --- The tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or effect would cause you to make a forced movement, roll a DC 17 flat check. On a success, the forced movement fails to affect you. <title level=\"2\" right=\"Item 10\" pfs=\"Standard\" > Dinosaur Boots Source Grand Bazaar pg. 42 Price 950 gp Bulk 1 <title level=\"2\" right=\"Item 16\" pfs=\"Standard\" > Dinosaur Boots (Greater) Source Grand Bazaar pg. 42 Price 9,500 gp Bulk 1 --- The activation makes you grow to size Huge, if you choose, with the effects of 4th-level enlarge . Either way, the damage die of your foot unarmed attack increases from 1d4 to 1d8, and you can use Trample as many times as you want during the activation.",
+ "text": "<title level=\"1\" right=\"Item 10+\" pfs=\"\" > Dinosaur Boots Source Grand Bazaar pg. 42 Usage worn Bulk 1 --- The tough, scaled leather of these heavy boots comes from a mighty dinosaur, granting you the steadiness of a lumbering beast. Any time an action or effect would cause you to make a forced movement, roll a DC 17 flat check. On a success, the forced movement fails to affect you. Activate Single Action command (magical, morph, transmutation) Frequency once per day; Effect You grow, gaining the effects of enlarge for 1 minute. During that time, you gain dinosaur features; your legs and feet transform into a dinosaur's. You gain a foot unarmed attack that has the same statistics as your fist unarmed attack, except its damage die is increased from 1d4 to 1d6. Once during the duration, you can use the Trample 3-action activity to Trample creatures one size smaller than you or smaller. This deals an amount of damage to each creature equal to that of your foot unarmed attack (including any extra weapon damage dice, bonuses, or additional damage as normal), with a DC 27 basic Reflex save. You can Dismiss the activation. <title level=\"2\" right=\"Item 10\" pfs=\"Standard\" > Dinosaur Boots Source Grand Bazaar pg. 42 Price 950 gp Bulk 1 <title level=\"2\" right=\"Item 16\" pfs=\"Standard\" > Dinosaur Boots (Greater) Source Grand Bazaar pg. 42 Price 9,500 gp Bulk 1 --- The activation makes you grow to size Huge, if you choose, with the effects of 4th-level enlarge . Either way, the damage die of your foot unarmed attack increases from 1d4 to 1d8, and you can use Trample as many times as you want during the activation.",
  "trait": [
   "Invested",
   "Magical",
   "Transmutation",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School",
+  "Rarity"
  ],
  "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

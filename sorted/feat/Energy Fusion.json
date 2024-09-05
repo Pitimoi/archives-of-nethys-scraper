@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,21 +9,28 @@
  "feat_markdown": "Energy Fusion",
  "id": "feat-1821",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Energy Fusion](/Feats.aspx?ID=1821) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 140 <sup>2.0</sup></row>\n\n</column>\r\n\r\n---\r\n\r\nYou fuse two spells together, combining their energy types. If the next action you use is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, select a non-cantrip spell in your spell repertoire that deals a different type of energy damage from that list, and expend an additional spell slot of the same level as this secondary spell. The spell you cast deals additional damage equal to the level of the secondary spell slot expended. The spell's total damage is divided evenly between the energy type of the spell you cast and the energy type of the secondary spell.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 10\"\r\n    pfs=\"Standard\"\r\n>\r\n[Energy Fusion](/Feats.aspx?ID=1821) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 140 <sup>2.0</sup>\n\n</column>\r\n\r\n---\r\n\r\nYou fuse two spells together, combining their energy types. If the next action you use is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, select a non-cantrip spell in your spell repertoire that deals a different type of energy damage from that list, and expend an additional spell slot of the same level as this secondary spell. The spell you cast deals additional damage equal to the level of the secondary spell slot expended. The spell's total damage is divided evenly between the energy type of the spell you cast and the energy type of the secondary spell.",
  "name": "Energy Fusion",
  "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 140",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2020-07-30",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 140 <sup>2.0</sup></row>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou fuse two spells together, combining their energy types.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Metamagic\" url=\"/Traits.aspx?ID=107\" />\r\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=148\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 140 <sup>2.0</sup>\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou fuse two spells together, combining their energy types.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 140"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 140 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 140 <sup>2.0</sup>",
  "speed": {},
  "summary": "You fuse two spells together, combining their energy types.",
  "summary_markdown": "You fuse two spells together, combining their energy types.",
@@ -31,7 +38,11 @@
  "trait": [
   "Concentrate",
   "Metamagic",
-  "Sorcerer"
+  "Sorcerer",
+  "Spellshape"
+ ],
+ "trait_group": [
+  "Class"
  ],
  "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Metamagic](/Traits.aspx?ID=107), [Sorcerer](/Traits.aspx?ID=148)",
  "trait_raw": [

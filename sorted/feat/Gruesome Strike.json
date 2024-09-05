@@ -1,6 +1,6 @@
 {
  "actions": "Single Action",
- "breadcrumbs_spa": [],
+ "actions_number": 2,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -9,25 +9,32 @@
  "feat_markdown": "Gruesome Strike",
  "id": "feat-1685",
  "level": 12,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Gruesome Strike](/Feats.aspx?ID=1685) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 120 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[tenets of evil](/Tenets.aspx?ID=2); champion's reaction that grants extra damage with your Strikes\n\n**Requirements**\r\nYour Strikes currently deal extra damage from your champion's reaction.\r\n\r\n</column>\r\n\r\n---\r\n\r\nMake a Strike against the creature that triggered your champion's reaction. If you hit, the target takes double the extra damage from your reaction and must succeed at a Fortitude save against your class DC or be drained 1. Regardless of the result, the creature is temporarily immune to your Gruesome Strike for 24 hours.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 12\"\r\n    pfs=\"Standard\"\r\n>\r\n[Gruesome Strike](/Feats.aspx?ID=1685) <actions string=\"Single Action\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 120 <sup>2.0</sup>\n\n**Prerequisites**\r\n[tenets of evil](/Tenets.aspx?ID=2); champion's reaction that grants extra damage with your Strikes\n\n**Requirements**\r\nYour Strikes currently deal extra damage from your champion's reaction.\r\n\r\n</column>\r\n\r\n---\r\n\r\nMake a Strike against the creature that triggered your champion's reaction. If you hit, the target takes double the extra damage from your reaction and must succeed at a Fortitude save against your class DC or be drained 1. Regardless of the result, the creature is temporarily immune to your Gruesome Strike for 24 hours.",
  "name": "Gruesome Strike",
  "pfs": "Standard",
  "prerequisite": "tenets of evil; champion's reaction that grants extra damage with your Strikes",
  "prerequisite_markdown": "[tenets of evil](/Tenets.aspx?ID=2); champion's reaction that grants extra damage with your Strikes",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 120",
+ "primary_source_category": "Rulebooks",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2020-07-30",
  "requirement": "Your Strikes currently deal extra damage from your champion's reaction.",
  "requirement_markdown": "Your Strikes currently deal extra damage from your champion's reaction.",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 120 <sup>2.0</sup></row>\n\n**Prerequisites**\r\n[tenets of evil](/Tenets.aspx?ID=2); champion's reaction that grants extra damage with your Strikes\n\n**Requirements**\r\nYour Strikes currently deal extra damage from your champion's reaction.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake a Strike against the creature that triggered your champion's reaction.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Champion\" url=\"/Traits.aspx?ID=24\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 120 <sup>2.0</sup>\n\n**Prerequisites**\r\n[tenets of evil](/Tenets.aspx?ID=2); champion's reaction that grants extra damage with your Strikes\n\n**Requirements**\r\nYour Strikes currently deal extra damage from your champion's reaction.\r\n\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nMake a Strike against the creature that triggered your champion's reaction.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Advanced Player's Guide"
  ],
  "source_raw": [
   "Advanced Player's Guide pg. 120"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 120 <sup>2.0</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 120 <sup>2.0</sup>",
  "speed": {},
  "summary": "Make a Strike against the creature that triggered your champion's reaction.",
  "summary_markdown": "Make a Strike against the creature that triggered your champion's reaction.",
@@ -35,6 +42,10 @@
  "trait": [
   "Champion",
   "Uncommon"
+ ],
+ "trait_group": [
+  "Class",
+  "Rarity"
  ],
  "trait_markdown": "[Champion](/Traits.aspx?ID=24), [Uncommon](/Traits.aspx?ID=159)",
  "trait_raw": [

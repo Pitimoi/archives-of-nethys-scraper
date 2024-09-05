@@ -1,6 +1,6 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
+ "bulk": 0,
  "category": "equipment",
  "duration": 3600,
  "duration_raw": "1 hour",
@@ -9,24 +9,31 @@
  "item_category": "Consumables",
  "item_subcategory": "Fulu",
  "level": 4,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Magical Lock Fulu](/Equipment.aspx?ID=979)\r\n</title>\n\n<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Fulu\" url=\"/Traits.aspx?ID=378\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 160 <sup>1.1</sup></row>\n\n**Price** 15 gp\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\n\n**Usage** affixed to a door, window, or container\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch or existing lock.\n\n As many as nine fulus can be applied to the same target. One fulu equates a poor [lock](/Equipment.aspx?ID=30) (DC 15), three a simple lock (DC 20), and nine an average lock (DC 25).\n\n<column gap=\"tiny\">\n\n</column>",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 4\"\r\n    pfs=\"Standard\"\r\n>\r\n[Magical Lock Fulu](/Equipment.aspx?ID=979)\r\n</title>\n\n<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Fulu\" url=\"/Traits.aspx?ID=378\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 160 <sup>1.1</sup>\n\n**Price** 15 gp\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 hour\n\n**Usage** affixed to a door, window, or container\n\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThe symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch or existing lock.\n\n As many as nine fulus can be applied to the same target. One fulu equates a poor [lock](/Equipment.aspx?ID=30) (DC 15), three a simple lock (DC 20), and nine an average lock (DC 25).\n\n<column gap=\"tiny\">\n\n</column>",
  "name": "Magical Lock Fulu",
  "pfs": "Standard",
  "price": 1500,
  "price_raw": "15 gp",
+ "primary_source": "Secrets of Magic",
+ "primary_source_raw": "Secrets of Magic pg. 160",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-09-01",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Fulu\" url=\"/Traits.aspx?ID=378\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 160 <sup>1.1</sup></row>\r\n\r\n**Price** 15 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** affixed to a door, window, or container\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch …\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\r\n<trait label=\"Fulu\" url=\"/Traits.aspx?ID=378\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 160 <sup>1.1</sup>\r\n\r\n**Price** 15 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** affixed to a door, window, or container\r\n\r\n \r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch …\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Secrets of Magic"
  ],
  "source_raw": [
   "Secrets of Magic pg. 160"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 160 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Secrets of Magic](/Sources.aspx?ID=96) pg. 160 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "stage_markdown": "",
@@ -38,6 +45,10 @@
   "Fulu",
   "Magical",
   "Transmutation"
+ ],
+ "trait_group": [
+  "Equipment",
+  "School"
  ],
  "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Fulu](/Traits.aspx?ID=378), [Magical](/Traits.aspx?ID=103), [Transmutation](/Traits.aspx?ID=157)",
  "trait_raw": [

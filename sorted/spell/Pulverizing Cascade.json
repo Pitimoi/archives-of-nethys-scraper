@@ -1,18 +1,33 @@
 {
  "actions": "Two Actions",
- "area": "10-foot radius, 20-foot-tall cylinder",
- "bloodline_markdown": "",
- "breadcrumbs_spa": [],
- "category": "spell",
- "component": [
-  "somatic",
-  "verbal"
+ "actions_number": 4,
+ "area": [
+  10,
+  20
  ],
- "deity_markdown": "",
+ "area_raw": "10-foot radius, 20-foot-tall  cylinder",
+ "area_type": [
+  "cylinder"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
  "domain_markdown": "",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "heighten": [
   "+1"
+ ],
+ "heighten_group": [
+  "3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
  ],
  "heighten_level": [
   3,
@@ -24,50 +39,67 @@
   9,
   10
  ],
- "id": "spell-1055",
+ "id": "spell-1311",
  "level": 3,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">[Pulverizing Cascade](/Spells.aspx?ID=1055)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot radius, 20-foot-tall cylinder\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou raise a pair of towering waves and slam them into each other, crushing creatures caught between them. Creatures in the area take 5d6 bludgeoning damage with a basic Reflex save.\n\n---\r\n**Heightened (+1)** Increase the damage by 2d6.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 3\" pfs=\"Standard\">\r\n[Pulverizing Cascade](/Spells.aspx?ID=1311)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 61, [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup>\n\n<row gap=\"medium\">\n\n \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot radius, 20-foot-tall  cylinder\n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Reflex\n\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou raise a pair of towering waves and slam them into each other, crushing creatures caught between them. Creatures in the area take 5d6 bludgeoning damage with a basic Reflex save.\n\n---\r\n**Heightened (+1)** Increase the damage by 2d6.",
  "name": "Pulverizing Cascade",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 61",
+ "primary_source_category": "Rulebooks",
  "range": 120,
  "range_raw": "120 feet",
  "rarity": "uncommon",
- "release_date": "2021-09-01",
+ "rarity_id": 2,
+ "release_date": "2023-08-02",
  "resistance": {},
  "saving_throw": "basic  Reflex",
  "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Reflex",
- "school": "evocation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot radius, 20-foot-tall cylinder\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Saving Throw** [basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou raise a pair of towering waves and slam them into each other, crushing creatures caught between them.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\r\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=52\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 61, [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Range** 120 feet\r\n\r\n**Area** 10-foot radius, 20-foot-tall  cylinder\r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n**Defense**\r\n[basic](/Rules.aspx?ID=329) Reflex\r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYou raise a pair of towering waves and slam them into each other, crushing creatures caught between them.\r\n</summary>",
+ "skill_mod": {},
  "source": [
+  "Rage of Elements",
   "Secrets of Magic"
  ],
  "source_raw": [
+  "Rage of Elements pg. 61",
   "Secrets of Magic pg. 201"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 61, [Secrets of Magic](/Sources.aspx?ID=96) pg. 201 <sup>1.1</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "You raise a pair of towering waves and slam them into each other, crushing creatures caught between them.",
  "summary_markdown": "You raise a pair of towering waves and slam them into each other, crushing creatures caught between them.",
- "text": " Pulverizing Cascade Source Secrets of Magic pg. 201 1.1 Cast Two Actions somatic, verbal Range 120 feet Area 10-foot radius, 20-foot-tall cylinder Saving Throw basic Reflex --- You raise a pair of towering waves and slam them into each other, crushing creatures caught between them. Creatures in the area take 5d6 bludgeoning damage with a basic Reflex save. --- Heightened (+1) Increase the damage by 2d6.",
+ "text": "\nPulverizing Cascade Two Actions Source Rage of Elements pg. 61, Secrets of Magic pg. 201 1.1 Range 120 feet Area 10-foot radius, 20-foot-tall cylinder Defense basic Reflex --- You raise a pair of towering waves and slam them into each other, crushing creatures caught between them. Creatures in the area take 5d6 bludgeoning damage with a basic Reflex save. --- Heightened (+1) Increase the damage by 2d6.",
  "tradition_markdown": "",
  "trait": [
+  "Concentrate",
   "Druid",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Water"
  ],
- "trait_markdown": "[Druid](/Traits.aspx?ID=52), [Evocation](/Traits.aspx?ID=65), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
+ "trait_group": [
+  "Class",
+  "Rarity",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Druid](/Traits.aspx?ID=52), [Focus](/Traits.aspx?ID=511), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [
+  "Concentrate",
   "Druid",
-  "Evocation",
+  "Focus",
+  "Manipulate",
   "Uncommon",
   "Water"
  ],
- "type": "Focus",
- "url": "/Spells.aspx?ID=1055",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1311",
  "weakness": {}
 }

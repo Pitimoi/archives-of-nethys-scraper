@@ -1,42 +1,59 @@
 {
  "base_item_markdown": "",
- "breadcrumbs_spa": [],
  "bulk": 0.1,
  "bulk_raw": "L",
  "category": "equipment",
+ "element": [
+  "Water"
+ ],
  "exclude_from_search": false,
  "id": "equipment-2272-2044",
  "item_category": "Wands",
+ "item_parent_id": "equipment-2272",
  "item_subcategory": "Specialty Wands",
  "level": 10,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6+\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Wand of Choking Mist](/Equipment.aspx?ID=2272)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Wand\" url=\"/Traits.aspx?ID=164\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup></row>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis blackened wood wand has a smoldering tip, emitting a slight trail of steam.\n\n<document level=\"2\" id=\"action-1819\" />\n\n**Craft Requirements** Supply a casting of _obscuring mist_ or _solid fog_.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 6\"\r\npfs=\"Restricted\"\r\n>\r\nWand of Choking Mist (2nd-Level Spell)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup></row>\n\n**Price** 250 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe spell is [_obscuring mist_](/Spells.aspx?ID=210).\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 10\"\r\npfs=\"Restricted\"\r\n>\r\nWand of Choking Mist (4th-Level Spell)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup></row>\n\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe spell is [_solid fog_](/Spells.aspx?ID=290).",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Item 6+\"\r\n    pfs=\"Restricted\"\r\n>\r\n[Wand of Choking Mist](/Equipment.aspx?ID=2272)\r\n</title>\n\n<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Wand\" url=\"/Traits.aspx?ID=164\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\n\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup>\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n\r\n \r\n</row>\n\n</column>\r\n\r\n---\n\nThis blackened wood wand has a smoldering tip, emitting a slight trail of steam.\n\n**Activate** <actions string=\"\" /> Cast a Spell;  **Frequency** once per day, plus overcharge;   **Effect** You cast the wand's spell, but the mist prevents creatures from being able to breathe in its area. They must hold their breath or start [suffocating](/Rules.aspx?ID=468).\n\n**Craft Requirements** Supply a casting of _obscuring mist_ or _solid fog_.\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 6\"\r\npfs=\"Restricted\"\r\n>\r\nWand of Choking Mist (2nd-Level Spell)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup>\n\n**Price** 250 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe spell is [_obscuring mist_](/Spells.aspx?ID=210).\r\n\r\n<title\r\nlevel=\"2\"\r\nright=\"Item 10\"\r\npfs=\"Restricted\"\r\n>\r\nWand of Choking Mist (4th-Level Spell)\r\n</title>\n\n<traits>\r\n\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup>\n\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\n\n**Bulk** L\r\n\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\nThe spell is [_solid fog_](/Spells.aspx?ID=290).",
  "name": "Wand of Choking Mist (4th-Level Spell)",
  "pfs": "Restricted",
  "price": 100000,
  "price_raw": "1,000 gp",
+ "primary_source": "Treasure Vault",
+ "primary_source_raw": "Treasure Vault pg. 138",
+ "primary_source_category": "Rulebooks",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2023-02-22",
  "resistance": {},
  "school": "conjuration",
- "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Wand\" url=\"/Traits.aspx?ID=164\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup></row>\r\n\r\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\r\n\r\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe spell is   solid fog  .\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\r\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\r\n<trait label=\"Wand\" url=\"/Traits.aspx?ID=164\" />\r\n<trait label=\"Water\" url=\"/Traits.aspx?ID=165\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup>\r\n\r\n**Price** 1,000 gp\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Usage** held in 1 hand\r\n\r\n**Bulk** L\r\n</row>\n\n<row gap=\"medium\">\n\n \r\n\r\n \r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe spell is   solid fog  .\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Treasure Vault"
  ],
  "source_raw": [
   "Treasure Vault pg. 138"
  ],
- "source_category": "Rulebooks",
- "source_markdown": "<row gap=\"tiny\">[Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup></row>",
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault](/Sources.aspx?ID=191) pg. 138 <sup>1.1</sup>",
  "speed": {},
  "spell_markdown": "",
  "summary": "The spell is   solid fog  .",
  "summary_markdown": "The spell is   solid fog  .",
- "text": "<title level=\"1\" right=\"Item 6+\" pfs=\"Restricted\" > Wand of Choking Mist Source Treasure Vault pg. 138 1.1 Usage held in 1 hand Bulk L --- This blackened wood wand has a smoldering tip, emitting a slight trail of steam. Craft Requirements Supply a casting of obscuring mist or solid fog . <title level=\"2\" right=\"Item 6\" pfs=\"Restricted\" > Wand of Choking Mist (2nd-Level Spell) Source Treasure Vault pg. 138 1.1 Price 250 gp Bulk L --- The spell is obscuring mist . <title level=\"2\" right=\"Item 10\" pfs=\"Restricted\" > Wand of Choking Mist (4th-Level Spell) Source Treasure Vault pg. 138 1.1 Price 1,000 gp Bulk L --- The spell is solid fog .",
+ "text": "<title level=\"1\" right=\"Item 6+\" pfs=\"Restricted\" > Wand of Choking Mist Source Treasure Vault pg. 138 1.1 Usage held in 1 hand Bulk L --- This blackened wood wand has a smoldering tip, emitting a slight trail of steam. Activate Cast a Spell; Frequency once per day, plus overcharge; Effect You cast the wand's spell, but the mist prevents creatures from being able to breathe in its area. They must hold their breath or start suffocating. Craft Requirements Supply a casting of obscuring mist or solid fog . <title level=\"2\" right=\"Item 6\" pfs=\"Restricted\" > Wand of Choking Mist (2nd-Level Spell) Source Treasure Vault pg. 138 1.1 Price 250 gp Bulk L --- The spell is obscuring mist . <title level=\"2\" right=\"Item 10\" pfs=\"Restricted\" > Wand of Choking Mist (4th-Level Spell) Source Treasure Vault pg. 138 1.1 Price 1,000 gp Bulk L --- The spell is solid fog .",
  "trait": [
   "Conjuration",
   "Magical",
   "Wand",
   "Water"
+ ],
+ "trait_group": [
+  "School",
+  "Equipment",
+  "Elemental",
+  "Planar",
+  "Monster"
  ],
  "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Magical](/Traits.aspx?ID=103), [Wand](/Traits.aspx?ID=164), [Water](/Traits.aspx?ID=165)",
  "trait_raw": [

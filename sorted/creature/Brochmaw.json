@@ -1,0 +1,177 @@
+{
+ "ac": 32,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  25,
+  27
+ ],
+ "attack_bonus_scale": [
+  "Moderate",
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  3,
+  4
+ ],
+ "category": "creature",
+ "charisma": 4,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 8,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Marinade",
+  "Roast",
+  "Serve",
+  "Skewer Master"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 4,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "fortitude_save": 28,
+ "fortitude_save_scale": "High",
+ "fortitude_save_scale_number": 4,
+ "hp": 259,
+ "hp_raw": "259",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-2632",
+ "image": [
+  "/Images/Monsters/Brochmaw.png"
+ ],
+ "immunity": [
+  "bleed",
+  "fire",
+  "paralyzed",
+  "poison",
+  "sleep"
+ ],
+ "immunity_markdown": "bleed, [fire](/Traits.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)",
+ "intelligence": 3,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language": [
+  "Common",
+  "Pyric"
+ ],
+ "language_markdown": "[Common](/Languages.aspx?ID=1), [Pyric](/Languages.aspx?ID=110)",
+ "level": 13,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Brochmaw](/Monsters.aspx?ID=2632)</title>\r\n\r\n<row gap=\"medium\">\r\n\r\n<column gap=\"medium\" flex=\"1 1 400px\">\r\n\r\nWith bodies of fired clay, brochmaws look like walking cylindrical ovens split across the middle by their titular maws, which rage with the fires of culinary perfection. Behind their maw burns a powerful internal oven, where the elemental creatures roast their prey.\n\n Brochmaws are driven solely by their voracious appetites, only leaving their lairs to acquire new meals. Early attempts to force brochmaws into service resulted in their would-be captors being reduced to nothing more than ash on a plate, accompanied by a written review of how they tasted. Now, brochmaws are employed all across the Planes, lured by the sweet promise of new, fresh meat.\n\n Though brochmaws have no use for money, they do trade gifts for services. The only thing they have to offer is cooked meat from their own mouths, which they deem extremely valuable. Surprisingly, all who have tried brochmaw meat claim it to be a savory roasted delight. Given that brochmaws offer nothing but cooked meat and desire nothing but raw meat, trading with them is a simple if slightly dangerous affair, often coming down to the quantity and rarity of the meat offered.\n\n Brochmaws hate to see meat go to waste. If one discovers a carcass of any sort, they call others of their kind to join them in a festive cookout, with dancing and feasting inevitably accompanied by compliments or complaints about the quality of the food.\r\n\r\n<column gap=\"tiny\">\r\n**[Recall Knowledge - Elemental](/Rules.aspx?ID=563)**\r\n([Arcana](/Skills.aspx?ID=2), [Nature](/Skills.aspx?ID=10)): DC 31\r\n\r\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 29\r\n\r\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 26\r\n</column>\r\n\r\n</column>\r\n\r\n<column gap=\"medium\">\r\n<image src=\"/images/Monsters/Brochmaw.png\" />\r\n</column>\r\n\r\n</row>\r\n\r\n<title level=\"2\" right=\"Creature 13\">[Brochmaw](/Monsters.aspx?ID=2632)</title>\r\n\r\n<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 127\n\n**Perception** +24; [darkvision](/MonsterAbilities.aspx?ID=12)\r\n\r\n**Languages**\r\n[Common](/Languages.aspx?ID=1), [Pyric](/Languages.aspx?ID=110)\r\n\r\n**Skills**\r\n[Athletics](/Skills.aspx?ID=3) +28, [Cooking Lore](/Skills.aspx?ID=8) +24, [Intimidation](/Skills.aspx?ID=7) +21, [Survival](/Skills.aspx?ID=16) +24\r\n\r\n<row gap=\"medium\">\r\n**Str** +8\r\n\r\n**Dex** +4\r\n\r\n**Con** +8\r\n\r\n**Int** +3\r\n\r\n**Wis** +5\r\n\r\n**Cha** +4\r\n</row>\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"medium\">\r\n**AC** 32 \r\n\r\n**Fort** +28 \r\n\r\n**Ref** +20 \r\n\r\n**Will** +23 \n\n</row>\r\n\r\n<row gap=\"medium\">\r\n**HP** 259\n\n</row>\r\n\r\n**Immunities**\r\nbleed, [fire](/Traits.aspx?ID=72), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145)\n\n**Weaknesses**\r\n[cold](/Traits.aspx?ID=27) 15\n\n</column>\r\n\r\n---\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Speed** 25 feet\r\n\r\n**Melee**\r\n<actions string=\"Single Action\" />\r\nskewer +27 ([reach 15 feet](/Traits.aspx?ID=192)),\r\n**Damage** 3d10+8 piercing plus [Improved Grab](/MonsterAbilities.aspx?ID=27)\r\n\r\n**Ranged**\r\n<actions string=\"Single Action\" />\r\nhot oil +25 ([range 30 feet](/Traits.aspx?ID=248)),\r\n**Damage** 3d6+7 fire damage plus 1d8 persistent fire damage plus 3 fire splash damage and marinade\n\n**Marinade**   A creature taking [persistent fire damage](/Conditions.aspx?ID=29) from the brochmaw's hot oil Strike is more readily cooked, taking a –2 circumstance penalty to Fortitude saves against Roast for as long as it is taking persistent fire damage.\r\n\r\n**Roast** <actions string=\"Single Action\" />  The brochmaw turns a skewer over their oven, cooking anything impaled on it. Creatures grabbed by the brochmaw's skewer take 3d6 fire damage (DC 32 [basic](/Rules.aspx?ID=329) Fortitude save). Creatures who have been Roasted take a –2 circumstance penalty to Fortitude saves against Serve for 1 minute.\r\n\r\n**Serve** <actions string=\"Two Actions\" />  **Requirements** The brochmaw has a creature [grabbed](/Conditions.aspx?ID=20); **Effect** The brochmaw eats their hard-earned meal off one of their skewers. The brochmaw bites down on one creature it has grabbed, dealing 12d6 piercing damage (DC 32 [basic](/Rules.aspx?ID=329) Fortitude save); the brochmaw regains Hit Points equal to half the damage dealt. The creature is then freed from the skewer.\r\n\r\n**Skewer Master**   The skewers of a brochmaw are more than long enough to hold multiple creatures. A brochmaw can have up to three creatures [grabbed](/Conditions.aspx?ID=20) on its skewer, and it can still make Strikes with its skewer even if it has creatures grabbed, though it can't target creatures it has grabbed.\r\n\r\n</column>\r\n\r\n<aside>\r\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_4_RelatedCreatures.png\">Planar Delicacies</title>\r\n\r\nThough brochmaws love to devour new things, they still have favorite meals they like to keep on hand. Brochmaws love amphibian meat, though the origin of this appeal is a mystery. They will eagerly consume [geniekin](/MonsterFamilies.aspx?ID=145) of all kinds because the magical blood produces a psychedelic effect. Brochmaws think [celestials](/Languages.aspx?ID=16) are as dangerous as they are delicious, requiring a precise cooking process to avoid killing the consumer. Most brochmaws are far too impatient to prepare celestial meat properly, often to disastrous results.\r\n</aside>",
+ "name": "Brochmaw",
+ "npc": false,
+ "perception": 24,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Rage of Elements",
+ "primary_source_raw": "Rage of Elements pg. 127",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 20,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2023-08-02",
+ "resistance": {},
+ "search_markdown": "<traits>\r\n<trait label=\"Huge\" />\r\n<trait label=\"Elemental\" url=\"/Traits.aspx?ID=57\" />\r\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Rage of Elements](/Sources.aspx?ID=205) pg. 127\n\n<row gap=\"medium\">\r\n**HP** 259\r\n\r\n**AC** 32\r\n\r\n**Fort** +28\r\n\r\n**Ref** +20\r\n\r\n**Will** +23\r\n\r\n**Perception** +24\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nWith bodies of fired clay, brochmaws look like walking cylindrical ovens split across the middle by their titular maws, which rage with the fires of …\r\n</summary>",
+ "sense": " darkvision ",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Huge"
+ ],
+ "size_id": [
+  5
+ ],
+ "skill": [
+  "Athletics",
+  "Cooking Lore",
+  "Intimidation",
+  "Survival"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +28, [Cooking Lore](/Skills.aspx?ID=8) +24, [Intimidation](/Skills.aspx?ID=7) +21, [Survival](/Skills.aspx?ID=16) +24",
+ "skill_mod": {
+  "athletics": 28,
+  "intimidation": 21,
+  "survival": 24
+ },
+ "source": [
+  "Rage of Elements"
+ ],
+ "source_raw": [
+  "Rage of Elements pg. 127"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Rage of Elements](/Sources.aspx?ID=205) pg. 127",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  22,
+  24
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": 8,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "summary": "With bodies of fired clay, brochmaws look like walking cylindrical ovens split across the middle by their titular maws, which rage with the fires of …",
+ "summary_markdown": "With bodies of fired clay, brochmaws look like walking cylindrical ovens split across the middle by their titular maws, which rage with the fires of …",
+ "text": " Brochmaw With bodies of fired clay, brochmaws look like walking cylindrical ovens split across the middle by their titular maws, which rage with the fires of culinary perfection. Behind their maw burns a powerful internal oven, where the elemental creatures roast their prey. Brochmaws are driven solely by their voracious appetites, only leaving their lairs to acquire new meals. Early attempts to force brochmaws into service resulted in their would-be captors being reduced to nothing more than ash on a plate, accompanied by a written review of how they tasted. Now, brochmaws are employed all across the Planes, lured by the sweet promise of new, fresh meat. Though brochmaws have no use for money, they do trade gifts for services. The only thing they have to offer is cooked meat from their own mouths, which they deem extremely valuable. Surprisingly, all who have tried brochmaw meat claim it to be a savory roasted delight. Given that brochmaws offer nothing but cooked meat and desire nothing but raw meat, trading with them is a simple if slightly dangerous affair, often coming down to the quantity and rarity of the meat offered. Brochmaws hate to see meat go to waste. If one discovers a carcass of any sort, they call others of their kind to join them in a festive cookout, with dancing and feasting inevitably accompanied by compliments or complaints about the quality of the food. Recall Knowledge - Elemental (Arcana, Nature): DC 31 Unspecific Lore : DC 29 Specific Lore : DC 26 Brochmaw Source Rage of Elements pg. 127 Perception +24; darkvision Languages Common, Pyric Skills Athletics +28, Cooking Lore +24, Intimidation +21, Survival +24 Str +8 Dex +4 Con +8 Int +3 Wis +5 Cha +4 --- AC 32 Fort +28 Ref +20 Will +23 HP 259 Immunities bleed, fire, paralyzed, poison, sleep Weaknesses cold 15 --- Speed 25 feet Melee Single Action skewer +27 (reach 15 feet), Damage 3d10+8 piercing plus Improved Grab Ranged Single Action hot oil +25 (range 30 feet), Damage 3d6+7 fire damage plus 1d8 persistent fire damage plus 3 fire splash damage and marinade Marinade A creature taking persistent fire damage from the brochmaw's hot oil Strike is more readily cooked, taking a –2 circumstance penalty to Fortitude saves against Roast for as long as it is taking persistent fire damage. Roast Single Action The brochmaw turns a skewer over their oven, cooking anything impaled on it. Creatures grabbed by the brochmaw's skewer take 3d6 fire damage (DC 32 basic Fortitude save). Creatures who have been Roasted take a –2 circumstance penalty to Fortitude saves against Serve for 1 minute. Serve Two Actions Requirements The brochmaw has a creature grabbed; Effect The brochmaw eats their hard-earned meal off one of their skewers. The brochmaw bites down on one creature it has grabbed, dealing 12d6 piercing damage (DC 32 basic Fortitude save); the brochmaw regains Hit Points equal to half the damage dealt. The creature is then freed from the skewer. Skewer Master The skewers of a brochmaw are more than long enough to hold multiple creatures. A brochmaw can have up to three creatures grabbed on its skewer, and it can still make Strikes with its skewer even if it has creatures grabbed, though it can't target creatures it has grabbed. Planar Delicacies Though brochmaws love to devour new things, they still have favorite meals they like to keep on hand. Brochmaws love amphibian meat, though the origin of this appeal is a mystery. They will eagerly consume geniekin of all kinds because the magical blood produces a psychedelic effect. Brochmaws think celestials are as dangerous as they are delicious, requiring a precise cooking process to avoid killing the consumer. Most brochmaws are far too impatient to prepare celestial meat properly, often to disastrous results. ",
+ "tradition_markdown": "",
+ "trait": [
+  "Elemental",
+  "Fire",
+  "Huge"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Elemental](/Traits.aspx?ID=57), [Fire](/Traits.aspx?ID=72)",
+ "trait_raw": [
+  "Elemental",
+  "Fire"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2632",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "ref",
+  "reflex"
+ ],
+ "weakness": {
+  "cold": 15
+ },
+ "weakness_markdown": "[cold](/Traits.aspx?ID=27) 15",
+ "weakness_raw": " cold  15",
+ "will_save": 23,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 5,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3
+}

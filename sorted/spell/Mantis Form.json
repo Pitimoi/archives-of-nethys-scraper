@@ -1,58 +1,71 @@
 {
  "actions": "Two Actions",
+ "actions_number": 4,
  "bloodline_markdown": "",
- "breadcrumbs_spa": [],
  "category": "spell",
  "component": [
   "somatic",
   "verbal"
  ],
- "deity_markdown": "",
  "domain_markdown": "",
  "duration": 60,
  "duration_raw": "1 minute",
  "exclude_from_search": false,
+ "heighten_group": [
+  "4th rank"
+ ],
  "heighten_level": [
   4
  ],
  "id": "spell-541",
  "level": 4,
- "lesson_markdown": "",
- "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">[Mantis Form](/Spells.aspx?ID=541)</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [World Guide](/Sources.aspx?ID=6) pg. 71 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou become a mantis. You gain the effects of [_insect form_](/Spells.aspx?ID=163), heightened to _mantis form’s_ level, and you can only transform into a mantis.",
- "mystery_markdown": "",
+ "markdown": "<title level=\"1\" right=\"Focus 4\" pfs=\"Standard\">\r\n[Mantis Form](/Spells.aspx?ID=541)\r\n<actions string=\"Two Actions\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [World Guide](/Sources.aspx?ID=6) pg. 71 <sup>2.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \n\n</row>\r\n\r\n<row gap=\"medium\">\n\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n\r\n</column>\r\n\r\n---\r\n\r\nYou become a mantis. You gain the effects of [_insect form_](/Spells.aspx?ID=163), heightened to _mantis form’s_ level, and you can only transform into a mantis.",
  "name": "Mantis Form",
- "patron_theme_markdown": "",
  "pfs": "Standard",
+ "primary_source": "World Guide",
+ "primary_source_raw": "World Guide pg. 71",
+ "primary_source_category": "Lost Omens",
  "rarity": "uncommon",
+ "rarity_id": 2,
  "release_date": "2019-08-31",
  "resistance": {},
  "school": "transmutation",
- "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [World Guide](/Sources.aspx?ID=6) pg. 71 <sup>2.0</sup></row>\n\n<row gap=\"medium\">\r\n\r\n<row gap=\"tiny\">\r\n<row>**Cast**</row>\r\n<row><actions string=\"Two Actions\" /></row>\r\n<row>[somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)</row>\r\n</row>\r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTransform into a mantis battle form.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\r\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\r\n<trait label=\"Polymorph\" url=\"/Traits.aspx?ID=127\" />\r\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [World Guide](/Sources.aspx?ID=6) pg. 71 <sup>2.0</sup>\n\n<row gap=\"medium\">\r\n\r\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\r\n\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\r\n \r\n\r\n \r\n\r\n \r\n</row>\r\n\r\n<row gap=\"medium\">\n\n**Duration** 1 minute\r\n</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nTransform into a mantis battle form.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "World Guide"
  ],
  "source_raw": [
   "World Guide pg. 71"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[World Guide](/Sources.aspx?ID=6) pg. 71 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[World Guide](/Sources.aspx?ID=6) pg. 71 <sup>2.0</sup>",
  "speed": {},
+ "spell_type": "Focus",
  "summary": "Transform into a mantis battle form.",
  "summary_markdown": "Transform into a mantis battle form.",
- "text": " Mantis Form Source World Guide pg. 71 2.0 Cast Two Actions somatic, verbal Duration 1 minute --- You become a mantis. You gain the effects of insect form , heightened to mantis form’s level, and you can only transform into a mantis.",
+ "text": "\nMantis Form Two Actions Source World Guide pg. 71 2.0 Cast somatic, verbal Duration 1 minute --- You become a mantis. You gain the effects of insect form , heightened to mantis form’s level, and you can only transform into a mantis.",
  "tradition_markdown": "",
  "trait": [
   "Polymorph",
   "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "trait_markdown": "[Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_group": [
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Polymorph](/Traits.aspx?ID=127), [Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159), [Focus](/Traits.aspx?ID=511)",
  "trait_raw": [
   "Polymorph",
   "Transmutation",
-  "Uncommon"
+  "Uncommon",
+  "Focus"
  ],
- "type": "Focus",
+ "type": "Spell",
  "url": "/Spells.aspx?ID=541",
  "weakness": {}
 }

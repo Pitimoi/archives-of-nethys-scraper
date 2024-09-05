@@ -1,6 +1,6 @@
 {
  "actions": "Reaction",
- "breadcrumbs_spa": [],
+ "actions_number": 1,
  "category": "feat",
  "exclude_from_search": false,
  "feat": [
@@ -10,21 +10,28 @@
  "frequency": "once per day",
  "id": "feat-2354",
  "level": 1,
- "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Chance Death](/Feats.aspx?ID=2354) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Duskwalker\" url=\"/Traits.aspx?ID=257\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 29 <sup>2.0</sup></row>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would die as a result of a failed saving throw or recovery check.\n\n</column>\r\n\r\n---\r\n\r\nYour previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone. You can reroll the triggering recovery check or saving throw, but you must use the new result, even if it's worse than the first roll.\n\n**Special** You can select this feat only at 1st level, and you can't retrain into or out of this feat.",
+ "markdown": "<title\r\n    level=\"1\"\r\n    right=\"Feat 1\"\r\n    pfs=\"Standard\"\r\n>\r\n[Chance Death](/Feats.aspx?ID=2354) <actions string=\"Reaction\" />\r\n</title>\n\n<traits>\r\n<trait label=\"Duskwalker\" url=\"/Traits.aspx?ID=257\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\n\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 29 <sup>2.0</sup>\n\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would die as a result of a failed saving throw or recovery check.\n\n</column>\r\n\r\n---\r\n\r\nYour previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone. You can reroll the triggering recovery check or saving throw, but you must use the new result, even if it's worse than the first roll.\n\n**Special** You can select this feat only at 1st level, and you can't retrain into or out of this feat.",
  "name": "Chance Death",
  "pfs": "Standard",
+ "primary_source": "Ancestry Guide",
+ "primary_source_raw": "Ancestry Guide pg. 29",
+ "primary_source_category": "Lost Omens",
  "rarity": "common",
+ "rarity_id": 1,
  "release_date": "2021-02-24",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Duskwalker\" url=\"/Traits.aspx?ID=257\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 29 <sup>2.0</sup></row>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would die as a result of a failed saving throw or recovery check.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Duskwalker\" url=\"/Traits.aspx?ID=257\" />\r\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Ancestry Guide](/Sources.aspx?ID=74) pg. 29 <sup>2.0</sup>\r\n\r\n**Frequency**\r\nonce per day\n\n**Trigger**\r\nYou would die as a result of a failed saving throw or recovery check.\n\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nYour previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Ancestry Guide"
  ],
  "source_raw": [
   "Ancestry Guide pg. 29"
  ],
- "source_category": "Lost Omens",
- "source_markdown": "<row gap=\"tiny\">[Ancestry Guide](/Sources.aspx?ID=74) pg. 29 <sup>2.0</sup></row>",
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Ancestry Guide](/Sources.aspx?ID=74) pg. 29 <sup>2.0</sup>",
  "speed": {},
  "summary": "Your previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone.",
  "summary_markdown": "Your previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone.",
@@ -32,6 +39,10 @@
  "trait": [
   "Duskwalker",
   "Fortune"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry"
  ],
  "trait_markdown": "[Duskwalker](/Traits.aspx?ID=257), [Fortune](/Traits.aspx?ID=76)",
  "trait_raw": [

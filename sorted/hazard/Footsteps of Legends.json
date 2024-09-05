@@ -1,5 +1,4 @@
 {
- "breadcrumbs_spa": [],
  "category": "hazard",
  "complexity": "Simple",
  "disable": "DC 26  Diplomacy  (trained) to convince the spirits to remain dormant, or DC 26  Religion  (trained) to ritually silence the spirits",
@@ -7,22 +6,32 @@
  "hazard_type": "Haunt",
  "id": "hazard-123",
  "level": 5,
- "markdown": "<title level=\"1\" right=\"Hazard 5\" pfs=\"\">[Footsteps of Legends](/Hazards.aspx?ID=123)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n<row gap=\"tiny\">**Source** [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 31</row>\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nThe characters witness Burning Mammoths walking this mountain pass in ages long past.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 23 (expert)\r\n\r\n**Disable**\r\nDC 26 [Diplomacy](/Skills.aspx?ID=6) (trained) to convince the spirits to remain dormant, or DC 26 [Religion](/Skills.aspx?ID=13) (trained) to ritually silence the spirits\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Ancestral Journey** <actions string=\"Reaction\" /> **Trigger** A good-aligned spiritual descendant of the Burning Mammoth following enters the mountain pass; **Effect** Burning Mammoths from long ago appear alongside the party, walking the mountain pass as one united following. They walk in the footsteps of ancestors, heroes, and legends. Each creature that witnesses the vision gains a +1 status bonus to Will saving throws and all skill checks for 24 hours.\n\n---\r\n**Reset**\r\n1 hour",
+ "markdown": "<title level=\"1\" right=\"Hazard 5\" pfs=\"\">[Footsteps of Legends](/Hazards.aspx?ID=123)</title>\r\n\r\n<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<column gap=\"tiny\">\r\n\r\n**Source** [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 31\n\n**Complexity** Simple\r\n\r\n</column>\r\n\r\nThe characters witness Burning Mammoths walking this mountain pass in ages long past.\r\n\r\n---\r\n\r\n**Stealth**\r\nDC 23 (expert)\r\n\r\n**Disable**\r\nDC 26 [Diplomacy](/Skills.aspx?ID=6) (trained) to convince the spirits to remain dormant, or DC 26 [Religion](/Skills.aspx?ID=13) (trained) to ritually silence the spirits\n\n<column gap=\"tiny\">\n\n</column>\r\n\r\n**Ancestral Journey** <actions string=\"Reaction\" /> **Trigger** A good-aligned spiritual descendant of the Burning Mammoth following enters the mountain pass; **Effect** Burning Mammoths from long ago appear alongside the party, walking the mountain pass as one united following. They walk in the footsteps of ancestors, heroes, and legends. Each creature that witnesses the vision gains a +1 status bonus to Will saving throws and all skill checks for 24 hours.\n\n---\r\n**Reset**\r\n1 hour",
  "name": "Footsteps of Legends",
+ "primary_source": "Pathfinder #176: Lost Mammoth Valley",
+ "primary_source_raw": "Pathfinder #176: Lost Mammoth Valley pg. 31",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Quest for the Frozen Flame",
  "rarity": "unique",
+ "rarity_id": 4,
  "release_date": "2022-02-23",
  "reset": "1 hour",
  "resistance": {},
- "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n<row gap=\"tiny\">**Source** [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 31</row>\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe characters witness Burning Mammoths walking this mountain pass in ages long past.\r\n</summary>",
+ "search_markdown": "<traits>\r\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\r\n<trait label=\"Haunt\" url=\"/Traits.aspx?ID=88\" />\r\n</traits>\r\n\r\n<additional-info>\r\n**Source** [Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 31\r\n</additional-info>\r\n\r\n---\r\n\r\n<summary>\r\nThe characters witness Burning Mammoths walking this mountain pass in ages long past.\r\n</summary>",
+ "skill_mod": {},
  "source": [
   "Pathfinder #176: Lost Mammoth Valley"
  ],
  "source_raw": [
   "Pathfinder #176: Lost Mammoth Valley pg. 31"
  ],
- "source_category": "Adventure Paths",
- "source_group": "Quest for the Frozen Flame",
- "source_markdown": "<row gap=\"tiny\">[Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 31</row>",
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Quest for the Frozen Flame"
+ ],
+ "source_markdown": "[Pathfinder #176: Lost Mammoth Valley](/Sources.aspx?ID=113) pg. 31",
  "speed": {},
  "spoilers": "Quest for the Frozen Flame",
  "stealth": "DC 23 (expert)",
@@ -32,6 +41,10 @@
  "trait": [
   "Haunt",
   "Unique"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Rarity"
  ],
  "trait_markdown": "[Haunt](/Traits.aspx?ID=88), [Unique](/Traits.aspx?ID=161)",
  "trait_raw": [
